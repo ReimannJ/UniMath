@@ -7,12 +7,12 @@ property [isdeceq X], just like an [hSet] is a type X endowed with the property 
 
 Require Import UniMath.Foundations.PartB.
 
-Definition decSet: UU := ∑ (X: UU), isdeceq X.
+Definition decSet: Type := ∑ (X: Type), isdeceq X.
 
-Definition make_decSet (X: UU) (i: isdeceq X): decSet := X,, i.
+Definition make_decSet (X: Type) (i: isdeceq X): decSet := X,, i.
 
-Definition pr1decSet: decSet -> UU := pr1.
+Definition pr1decSet: decSet -> Type := pr1.
 
-Coercion pr1decSet: decSet >-> UU.
+Coercion pr1decSet: decSet >-> Sortclass.
 
 Definition decproperty (X: decSet) := pr2 X.

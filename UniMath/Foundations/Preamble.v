@@ -1,21 +1,21 @@
-(** * Introduction. Vladimir Voevodsky . Feb. 2010 - Sep. 2011
-
-This is the first in the group of files which contain the (current state of) the mathematical
-library for the proof assistant Coq based on the Univalent Foundations.  It contains some new
-notations for constructions defined in Coq.Init library as well as the definition of dependent sum.
-
-
-*)
-
 (** Initial setup unrelated to Univalent Foundations *)
 
 Require Export UniMath.Foundations.Init.
 
 (** Universe structure *)
+Global Set Universe Polymorphism.
+Global Set Polymorphic Inductive Cumulativity.
+Global Unset Universe Minimization ToSet.
+Global Unset Cumulativity Weak Constraints.
+Global Set Private Polymorphic Universes.
+Global Unset Printing Universes.
+Global Unset Strict Universe Declaration.
 
-Definition UU := Type.
 
-Identity Coercion fromUUtoType : UU >-> Sortclass.
+Notation UU := Type (only parsing).
+Notation UU0 := Type@{Set} (only parsing).
+
+(* Identity Coercion fromUUtoType : UU >-> Sortclass. *)
 
 (** The empty type *)
 

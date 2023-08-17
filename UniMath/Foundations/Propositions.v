@@ -65,7 +65,19 @@ Require Export UniMath.Foundations.PartD.
 
 (** Universe structure *)
 
+#[bypass_check(universes)]
+
+ (* RR1 *)
+  Definition resize_prop@{k} (A : Type@{k}) (_ : isaprop A) : Type@{Set} := A.
+
+Set Printing Universes.
+Print resize_prop.
+
+Global Strategy expand [ resize_prop ].
+
 (* Definition UU0 := UU. *)
+
+Notation UU := Type.
 
 (* end of " Preamble ". *)
 
@@ -73,19 +85,22 @@ Require Export UniMath.Foundations.PartD.
 (** ** To upstream files *)
 
 
-
 (** ** The type [hProp] of types of h-level 1 *)
+Unset Printing Notations.
 
-
-Definition hProp := total2 (λ X : UU, isaprop X).
-Definition make_hProp (X : UU) (is : isaprop X) : hProp
-  := tpair (λ X : UU, isaprop X) X is.
-Definition hProptoType := @pr1 _ _ : hProp -> UU.
-Coercion hProptoType : hProp >-> UU.
+Definition hProp : Set := total2 (λ X : Set, isaprop X).
+Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp
+  := (resize_prop@{k} X is ,, is).
+Definition hProptoType := @pr1 _ _ : hProp -> Type.
+Coercion hProptoType : hProp >-> Sortclass.
 
 Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
 
 (** ** The type [tildehProp] of pairs (P, p : P) where [P : hProp] *)
+
+
+
+
 
 Definition tildehProp := total2 (λ P : hProp, P).
 Definition make_tildehProp {P : hProp} (p : P) : tildehProp := tpair _ P p.
