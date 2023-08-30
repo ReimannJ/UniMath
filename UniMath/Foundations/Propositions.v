@@ -1,77 +1,13 @@
-(** * Generalities on hProp.  Vladimir Voevodsky . May - Sep. 2011 .
-
-In this file we introduce the hProp - an analog of Prop defined based on the
-univalent semantics. We further introduce the hProp version of the "inhabited"
-construction - i.e. for any [T] in [UU0] we construct an object [ishinh T] and a
-function [hinhpr : T -> ishinh T] which plays the role of [inhabits] from the
-Coq standard library. The semantic meaning of [hinhpr] is that it is universal
-among functions from [T] to objects of hProp. Proving that [ishinh T] is in
-[hProp] requires a resizing rule which can be written in the putative notation
-for such rules as follows :
-
-Resizing Rule RR1 (U1 U2 : Univ) (X : U1) (is : isaprop X) |- X : U2.
-
-Further in the file we introduce the univalence axiom [hPropUnivalence] for
-hProp and a proof of the fact that it is equivalent to a simplier and better
-known axiom [propositionalUnivalenceAxiom]. We prove that this axiom implies
-that [hProp] satisfies [isaset] i.e. it is a type of h-level 2. This requires
-another resizing rule :
-
-Resizing Rule RR2 (U1 U2 : Univ) |- @hProp U1 : U2.
-
-Since resizing rules are not currently implemented in Coq the file does not
-compile without a patch provided by Hugo Herbelin which turns off the universe
-consistency verification. We do however keep track of universes in our
-development "by hand" to ensure that when the resizing rules will become
-available the current proofs will verify correctly. To point out which results
-require resizing rules in a substantial way we mark the first few of such reults
-by (** RR1 *) or (** RR2 *) comment.
-
-One can achieve similar results with a combination of usual axioms which imitate
-the resizing rules. However unlike the usual axioms the resizing rules do not
-affect the computation/normalization abilities of Coq which makes them the
-preferred choice in this situation.
-*)
-
-(** ** Contents
-- The type [hProp] of types of h-level 1
-- The type [tildehProp] of pairs (P, p : P) where [P : hProp]
-- Intuitionistic logic on [hProp]
- - The [hProp] version of the "inhabited" construction.
- - [ishinh] and negation [neg]
- - [ishinh] and [coprod]
-- Images and surjectivity for functions between types
- - The two-out-of-three properties of surjections
- - A function between types which is an inclusion and a surjection is a weak
-   equivalence
- - Intuitionistic logic on [hProp]
- - Associativity and commutativity of [hdisj] and [hconj] up to logical
-   equivalence
- - Proof of the only non-trivial axiom of intuitionistic logic for our
-   constructions
- - Negation and quantification
- - Negation and conjunction ("and") and disjunction ("or")
- - Property of being decidable and [hdisj] ("or")
- - The double negation version of [hinhabited] (does not require RR1)
-- Univalence for hProp
-*)
-
-
-(** ** Preamble *)
-
 (** Imports *)
 
 Require Export UniMath.Foundations.PartD.
 
 (** Universe structure *)
 
+(* RR1 *)
 #[bypass_check(universes)]
 
- (* RR1 *)
-  Definition resize_prop@{k} (A : Type@{k}) (_ : isaprop A) : Type@{Set} := A.
-
-Set Printing Universes.
-Print resize_prop.
+Definition resize_prop@{k} (A : Type@{k}) (_ : isaprop A) : Type@{Set} := A.
 
 Global Strategy expand [ resize_prop ].
 
@@ -88,8 +24,18 @@ Notation UU := Type.
 (** ** The type [hProp] of types of h-level 1 *)
 Unset Printing Notations.
 
-Definition hProp : Set := total2 (λ X : Set, isaprop X).
-Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp
+#[bypass_check(universes)]
+  Definition hProp@{k} : Type@{Set} := total2@{k Set}  (λ X : Type@{k}, isaprop X).
+
+Set Printing Universes.
+Print hProp.
+
+Theorem hPropsEquiv (k: nat) : hProp@{k} ≃ hProp@{Set}.
+Proof. 
+
+
+#[bypass_check(universes)]
+  Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{Set}
   := (resize_prop@{k} X is ,, is).
 Definition hProptoType := @pr1 _ _ : hProp -> Type.
 Coercion hProptoType : hProp >-> Sortclass.

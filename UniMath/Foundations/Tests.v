@@ -1,7 +1,11 @@
-Require Export UniMath.Foundations.PartD.
+Require Import UniMath.Foundations.PartD.
+
 
 Goal ∑ (_:nat) (_:nat) (_:nat) (_:nat), nat. exact (2,,3,,4,,5,,6). Defined.
-Goal ∏ i j k, i+j+k = (i+j)+k. intros. apply idpath. Defined.
+Goal ∏ i j k, i+j+k = (i+j)+k.
+
+
+  intros. apply idpath. Defined.
 Goal ∏ n, 1+n = S n. intros. apply idpath. Defined.
 Goal ∏ i j k, i*j*k = (i*j)*k. intros. apply idpath. Defined.
 Goal ∏ n, 0*n = 0. intros. apply idpath. Defined.
@@ -83,3 +87,4 @@ Module Test_sets.
   Qed.
 
 End Test_sets.
+ 
