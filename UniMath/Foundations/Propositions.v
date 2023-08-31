@@ -25,16 +25,29 @@ Notation UU := Type.
 Unset Printing Notations.
 
 #[bypass_check(universes)]
-  Definition hProp@{k} : Type@{Set} := total2@{k Set}  (λ X : Type@{k}, isaprop X).
+  Definition hProp@{k} : Type@{Set} := total2  (λ X : Type@{k}, isaprop X).
 
 Set Printing Universes.
 Print hProp.
+Print isaprop.
 
-Theorem hPropsEquiv (k: nat) : hProp@{k} ≃ hProp@{Set}.
-Proof. 
+(*  Error: "is" has type "isaprop X" but is expected to have type "Preamble.UU"
+Lemma isis@{k} (X : Type@{k}) (is: isaprop X) : isaprop is.
+Proof. *)
+
+Theorem hPropsEquiv@{k}: (total2  (λ X : Type@{k}, isaprop X) : Type@{Set}) ≃ (total2  (λ X : Type@{Set}, isaprop X) : Type@{Set}).
+Proof. use tpair.
+       -intro hprop_k. induction hprop_k as [x H']. use tpair.
+        + exact (resize_prop x H').
+        + exact H'.
+       - intro A. use tpair.
+         + use tpair.
+           * exact A.
+           * cbn. apply idpath.
+         + intro B. induction B as [b B'].
 
 
-#[bypass_check(universes)]
+ #[bypass_check(universes)]
   Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{Set}
   := (resize_prop@{k} X is ,, is).
 Definition hProptoType := @pr1 _ _ : hProp -> Type.
