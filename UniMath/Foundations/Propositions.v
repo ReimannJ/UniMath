@@ -33,7 +33,7 @@ Print hProp.
 Lemma isapropisaprop@{k} (X : Type@{k}) : isaprop (isaprop X).
 Proof. Admitted.
 
- Theorem test@{k}: hProp@{k} ≃ hProp@{Set}.
+ Theorem equivhprop@{k}: hProp@{k} ≃ hProp@{Set}.
  Proof. use tpair.
        -intro hprop_k. induction hprop_k as [x H']. use tpair.
         + exact (resize_prop x H').
