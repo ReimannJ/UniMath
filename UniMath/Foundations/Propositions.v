@@ -23,29 +23,26 @@ Notation UU := Type.
 
 (** ** The type [hProp] of types of h-level 1 *)
 Unset Printing Notations.
-
+Global Set Universe Polymorphism.
 #[bypass_check(universes)]
   Definition hProp@{k} : Type@{Set} := total2  (λ X : Type@{k}, isaprop X).
 
 Set Printing Universes.
 Print hProp.
-Print isaprop.
 
-(*  Error: "is" has type "isaprop X" but is expected to have type "Preamble.UU"
-Lemma isis@{k} (X : Type@{k}) (is: isaprop X) : isaprop is.
-Proof. *)
+Lemma isapropisaprop@{k} (X : Type@{k}) : isaprop (isaprop X).
+Proof. Admitted.
 
-Theorem hPropsEquiv@{k}: (total2  (λ X : Type@{k}, isaprop X) : Type@{Set}) ≃ (total2  (λ X : Type@{Set}, isaprop X) : Type@{Set}).
-Proof. use tpair.
+ Theorem test@{k}: hProp@{k} ≃ hProp@{Set}.
+ Proof. use tpair.
        -intro hprop_k. induction hprop_k as [x H']. use tpair.
         + exact (resize_prop x H').
         + exact H'.
-       - intro A. use tpair.
-         + use tpair.
-           * exact A.
-           * cbn. apply idpath.
-         + intro B. induction B as [b B'].
-
+       - cbn. use isweq_iso.
+         + intro A. exact A.
+         + cbn. intro X. induction X as [x H']. use idpath.
+         + cbn. intro Y. induction Y as [y H']. use idpath.
+ Defined.
 
  #[bypass_check(universes)]
   Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{Set}
