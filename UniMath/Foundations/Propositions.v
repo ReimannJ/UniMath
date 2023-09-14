@@ -30,9 +30,6 @@ Global Set Universe Polymorphism.
 Set Printing Universes.
 Print hProp.
 
-Lemma isapropisaprop@{k} (X : Type@{k}) : isaprop (isaprop X).
-Proof. Admitted.
-
  Theorem equivhprop@{k}: hProp@{k} ≃ hProp@{Set}.
  Proof. use tpair.
        -intro hprop_k. induction hprop_k as [x H']. use tpair.
@@ -44,8 +41,7 @@ Proof. Admitted.
          + cbn. intro Y. induction Y as [y H']. use idpath.
  Defined.
 
- #[bypass_check(universes)]
-  Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{Set}
+  Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{k}
   := (resize_prop X is ,, is).
 Definition hProptoType := @pr1 _ _ : hProp -> Type.
 Coercion hProptoType : hProp >-> Sortclass.
@@ -54,11 +50,8 @@ Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
 
 (** ** The type [tildehProp] of pairs (P, p : P) where [P : hProp] *)
 
-
-
-
-
 Definition tildehProp := total2 (λ P : hProp, P).
+Print tildehProp.
 Definition make_tildehProp {P : hProp} (p : P) : tildehProp := tpair _ P p.
 
 (* convenient corollaries of some theorems that take separate isaprop
@@ -714,9 +707,13 @@ Proof.
   simpl. apply hPropUnivalence. apply (λ x, tt). intro t. apply p.
 Defined.
 
+
+
 Lemma isaproptildehProp : isaprop tildehProp.
 Proof.
-  apply (isapropifcontr iscontrtildehProp).
+  apply isapropifcontr.
+  exact iscontrtildehProp.
+(*  apply (isapropifcontr iscontrtildehProp). *)
 Defined.
 
 Lemma isasettildehProp : isaset tildehProp.
