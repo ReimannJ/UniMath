@@ -46,7 +46,7 @@ Proof. Admitted.
 
  #[bypass_check(universes)]
   Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{Set}
-  := (resize_prop@{k} X is ,, is).
+  := (resize_prop X is ,, is).
 Definition hProptoType := @pr1 _ _ : hProp -> Type.
 Coercion hProptoType : hProp >-> Sortclass.
 
