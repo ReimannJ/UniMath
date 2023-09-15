@@ -1,0 +1,587 @@
+DIGEST 75773f54807d75c636fa03fe177bf092
+FCoq.Numbers.Natural.Abstract.NMaxMin
+R691:697 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R699:702 Coq.Numbers.Natural.Abstract.NSub <> <> lib
+R704:716 Coq.Structures.GenericMinMax <> <> lib
+R828:842 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+modtype 804:814 <> NMaxMinProp
+R804:814 Coq.Numbers.Natural.Abstract.NMaxMin N <> mod
+R854:861 Coq.Numbers.Natural.Abstract.NSub NSubProp <> mod
+R863:863 Coq.Numbers.Natural.Abstract.NMaxMin N <> modtype
+prf 886:892 NMaxMinProp max_0_l
+binder 903:903 <> n:1
+R913:916 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R906:908 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R912:912 Coq.Numbers.Natural.Abstract.NMaxMin <> n:1 var
+R917:917 Coq.Numbers.Natural.Abstract.NMaxMin <> n:1 var
+R942:946 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R942:946 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R955:960 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+R955:960 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 975:981 NMaxMinProp max_0_r
+binder 992:992 <> n:2
+R1002:1005 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R995:997 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R999:999 Coq.Numbers.Natural.Abstract.NMaxMin <> n:2 var
+R1006:1006 Coq.Numbers.Natural.Abstract.NMaxMin <> n:2 var
+R1031:1035 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1031:1035 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1044:1049 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+R1044:1049 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1064:1070 NMaxMinProp min_0_l
+binder 1081:1081 <> n:3
+R1091:1094 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1084:1086 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R1090:1090 Coq.Numbers.Natural.Abstract.NMaxMin <> n:3 var
+R1120:1124 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1120:1124 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1133:1138 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+R1133:1138 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1153:1159 NMaxMinProp min_0_r
+binder 1170:1170 <> n:4
+R1180:1183 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1173:1175 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R1177:1177 Coq.Numbers.Natural.Abstract.NMaxMin <> n:4 var
+R1209:1213 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1209:1213 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1222:1227 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+R1222:1227 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_0_l thm
+prf 1350:1363 NMaxMinProp succ_max_distr
+binder 1365:1365 <> n:5
+binder 1367:1367 <> m:6
+R1382:1385 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1371:1371 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1374:1376 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1378:1378 Coq.Numbers.Natural.Abstract.NMaxMin <> n:5 var
+R1380:1380 Coq.Numbers.Natural.Abstract.NMaxMin <> m:6 var
+R1386:1388 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1391:1391 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1393:1393 Coq.Numbers.Natural.Abstract.NMaxMin <> n:5 var
+R1397:1397 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1399:1399 Coq.Numbers.Natural.Abstract.NMaxMin <> m:6 var
+R1421:1431 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1421:1431 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1452:1456 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1470:1474 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1494:1505 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+prf 1520:1533 NMaxMinProp succ_min_distr
+binder 1535:1535 <> n:7
+binder 1537:1537 <> m:8
+R1552:1555 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1541:1541 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1544:1546 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R1548:1548 Coq.Numbers.Natural.Abstract.NMaxMin <> n:7 var
+R1550:1550 Coq.Numbers.Natural.Abstract.NMaxMin <> m:8 var
+R1556:1558 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R1561:1561 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1563:1563 Coq.Numbers.Natural.Abstract.NMaxMin <> n:7 var
+R1567:1567 Coq.Numbers.Natural.Abstract.NMaxMin N S abbrev
+R1569:1569 Coq.Numbers.Natural.Abstract.NMaxMin <> m:8 var
+R1591:1601 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1591:1601 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1622:1626 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1640:1644 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+R1664:1675 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp succ_le_mono thm
+prf 1702:1716 NMaxMinProp add_max_distr_l
+binder 1718:1718 <> n:9
+binder 1720:1720 <> m:10
+binder 1722:1722 <> p:11
+R1745:1748 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1726:1728 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1732:1734 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1731:1731 Coq.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1735:1735 Coq.Numbers.Natural.Abstract.NMaxMin <> n:9 var
+R1740:1742 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1739:1739 Coq.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1743:1743 Coq.Numbers.Natural.Abstract.NMaxMin <> m:10 var
+R1750:1752 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1749:1749 Coq.Numbers.Natural.Abstract.NMaxMin <> p:11 var
+R1753:1755 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1757:1757 Coq.Numbers.Natural.Abstract.NMaxMin <> n:9 var
+R1759:1759 Coq.Numbers.Natural.Abstract.NMaxMin <> m:10 var
+R1780:1790 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1780:1790 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1811:1815 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1829:1833 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R1853:1865 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+prf 1880:1894 NMaxMinProp add_max_distr_r
+binder 1896:1896 <> n:12
+binder 1898:1898 <> m:13
+binder 1900:1900 <> p:14
+R1923:1926 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1904:1906 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1910:1912 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1909:1909 Coq.Numbers.Natural.Abstract.NMaxMin <> n:12 var
+R1913:1913 Coq.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1918:1920 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1917:1917 Coq.Numbers.Natural.Abstract.NMaxMin <> m:13 var
+R1921:1921 Coq.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1934:1936 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1927:1929 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R1931:1931 Coq.Numbers.Natural.Abstract.NMaxMin <> n:12 var
+R1933:1933 Coq.Numbers.Natural.Abstract.NMaxMin <> m:13 var
+R1937:1937 Coq.Numbers.Natural.Abstract.NMaxMin <> p:14 var
+R1958:1968 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R1958:1968 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R1989:1993 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2007:2011 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2031:2043 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+prf 2058:2072 NMaxMinProp add_min_distr_l
+binder 2074:2074 <> n:15
+binder 2076:2076 <> m:16
+binder 2078:2078 <> p:17
+R2101:2104 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2082:2084 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2088:2090 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2087:2087 Coq.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2091:2091 Coq.Numbers.Natural.Abstract.NMaxMin <> n:15 var
+R2096:2098 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2095:2095 Coq.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2099:2099 Coq.Numbers.Natural.Abstract.NMaxMin <> m:16 var
+R2106:2108 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2105:2105 Coq.Numbers.Natural.Abstract.NMaxMin <> p:17 var
+R2109:2111 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2113:2113 Coq.Numbers.Natural.Abstract.NMaxMin <> n:15 var
+R2115:2115 Coq.Numbers.Natural.Abstract.NMaxMin <> m:16 var
+R2136:2146 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2136:2146 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2167:2171 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2185:2189 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+R2209:2221 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_l thm
+prf 2236:2250 NMaxMinProp add_min_distr_r
+binder 2252:2252 <> n:18
+binder 2254:2254 <> m:19
+binder 2256:2256 <> p:20
+R2279:2282 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2260:2262 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2266:2268 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2265:2265 Coq.Numbers.Natural.Abstract.NMaxMin <> n:18 var
+R2269:2269 Coq.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2274:2276 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2273:2273 Coq.Numbers.Natural.Abstract.NMaxMin <> m:19 var
+R2277:2277 Coq.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2290:2292 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2283:2285 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2287:2287 Coq.Numbers.Natural.Abstract.NMaxMin <> n:18 var
+R2289:2289 Coq.Numbers.Natural.Abstract.NMaxMin <> m:19 var
+R2293:2293 Coq.Numbers.Natural.Abstract.NMaxMin <> p:20 var
+R2314:2324 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2314:2324 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2345:2349 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2363:2367 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+R2387:2399 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp add_le_mono_r thm
+prf 2426:2440 NMaxMinProp mul_max_distr_l
+binder 2442:2442 <> n:21
+binder 2444:2444 <> m:22
+binder 2446:2446 <> p:23
+R2469:2472 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2450:2452 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R2456:2458 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2455:2455 Coq.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2459:2459 Coq.Numbers.Natural.Abstract.NMaxMin <> n:21 var
+R2464:2466 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2463:2463 Coq.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2467:2467 Coq.Numbers.Natural.Abstract.NMaxMin <> m:22 var
+R2474:2476 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2473:2473 Coq.Numbers.Natural.Abstract.NMaxMin <> p:23 var
+R2477:2479 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R2481:2481 Coq.Numbers.Natural.Abstract.NMaxMin <> n:21 var
+R2483:2483 Coq.Numbers.Natural.Abstract.NMaxMin <> m:22 var
+R2504:2514 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2582:2594 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+R2504:2514 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2535:2539 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2553:2557 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2582:2594 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+R2582:2594 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+prf 2609:2623 NMaxMinProp mul_max_distr_r
+binder 2625:2625 <> n:24
+binder 2627:2627 <> m:25
+binder 2629:2629 <> p:26
+R2652:2655 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2633:2635 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R2639:2641 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2638:2638 Coq.Numbers.Natural.Abstract.NMaxMin <> n:24 var
+R2642:2642 Coq.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2647:2649 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2646:2646 Coq.Numbers.Natural.Abstract.NMaxMin <> m:25 var
+R2650:2650 Coq.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2663:2665 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2656:2658 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R2660:2660 Coq.Numbers.Natural.Abstract.NMaxMin <> n:24 var
+R2662:2662 Coq.Numbers.Natural.Abstract.NMaxMin <> m:25 var
+R2666:2666 Coq.Numbers.Natural.Abstract.NMaxMin <> p:26 var
+R2687:2697 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2765:2777 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+R2687:2697 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2718:2722 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2736:2740 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R2765:2777 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+R2765:2777 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+prf 2792:2806 NMaxMinProp mul_min_distr_l
+binder 2808:2808 <> n:27
+binder 2810:2810 <> m:28
+binder 2812:2812 <> p:29
+R2835:2838 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2816:2818 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2822:2824 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2821:2821 Coq.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2825:2825 Coq.Numbers.Natural.Abstract.NMaxMin <> n:27 var
+R2830:2832 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2829:2829 Coq.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2833:2833 Coq.Numbers.Natural.Abstract.NMaxMin <> m:28 var
+R2840:2842 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2839:2839 Coq.Numbers.Natural.Abstract.NMaxMin <> p:29 var
+R2843:2845 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R2847:2847 Coq.Numbers.Natural.Abstract.NMaxMin <> n:27 var
+R2849:2849 Coq.Numbers.Natural.Abstract.NMaxMin <> m:28 var
+R2870:2880 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2948:2960 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+R2870:2880 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2901:2905 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2919:2923 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R2948:2960 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+R2948:2960 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_l thm
+prf 2975:2989 NMaxMinProp mul_min_distr_r
+binder 2991:2991 <> n:30
+binder 2993:2993 <> m:31
+binder 2995:2995 <> p:32
+R3018:3021 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2999:3001 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3005:3007 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3004:3004 Coq.Numbers.Natural.Abstract.NMaxMin <> n:30 var
+R3008:3008 Coq.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3013:3015 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3012:3012 Coq.Numbers.Natural.Abstract.NMaxMin <> m:31 var
+R3016:3016 Coq.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3029:3031 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3022:3024 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3026:3026 Coq.Numbers.Natural.Abstract.NMaxMin <> n:30 var
+R3028:3028 Coq.Numbers.Natural.Abstract.NMaxMin <> m:31 var
+R3032:3032 Coq.Numbers.Natural.Abstract.NMaxMin <> p:32 var
+R3053:3063 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3131:3143 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+R3053:3063 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3084:3088 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3102:3106 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3131:3143 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+R3131:3143 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp mul_le_mono_r thm
+prf 3170:3184 NMaxMinProp sub_max_distr_l
+binder 3186:3186 <> n:33
+binder 3188:3188 <> m:34
+binder 3190:3190 <> p:35
+R3213:3216 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3194:3196 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R3200:3202 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3199:3199 Coq.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3203:3203 Coq.Numbers.Natural.Abstract.NMaxMin <> n:33 var
+R3208:3210 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3207:3207 Coq.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3211:3211 Coq.Numbers.Natural.Abstract.NMaxMin <> m:34 var
+R3218:3220 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3217:3217 Coq.Numbers.Natural.Abstract.NMaxMin <> p:35 var
+R3221:3223 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3225:3225 Coq.Numbers.Natural.Abstract.NMaxMin <> n:33 var
+R3227:3227 Coq.Numbers.Natural.Abstract.NMaxMin <> m:34 var
+R3248:3258 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3248:3258 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3275:3279 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3275:3279 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3275:3279 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3299:3303 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3299:3303 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3316:3328 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3316:3328 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3340:3344 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3340:3344 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3340:3344 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3364:3368 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3364:3368 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3381:3393 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3381:3393 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+prf 3408:3422 NMaxMinProp sub_max_distr_r
+binder 3424:3424 <> n:36
+binder 3426:3426 <> m:37
+binder 3428:3428 <> p:38
+R3451:3454 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3432:3434 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R3438:3440 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3437:3437 Coq.Numbers.Natural.Abstract.NMaxMin <> n:36 var
+R3441:3441 Coq.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3446:3448 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3445:3445 Coq.Numbers.Natural.Abstract.NMaxMin <> m:37 var
+R3449:3449 Coq.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3462:3464 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3455:3457 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R3459:3459 Coq.Numbers.Natural.Abstract.NMaxMin <> n:36 var
+R3461:3461 Coq.Numbers.Natural.Abstract.NMaxMin <> m:37 var
+R3465:3465 Coq.Numbers.Natural.Abstract.NMaxMin <> p:38 var
+R3486:3496 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3564:3576 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R3486:3496 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3517:3521 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3535:3539 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3564:3576 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R3564:3576 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+prf 3591:3605 NMaxMinProp sub_min_distr_l
+binder 3607:3607 <> n:39
+binder 3609:3609 <> m:40
+binder 3611:3611 <> p:41
+R3634:3637 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3615:3617 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3621:3623 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3620:3620 Coq.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3624:3624 Coq.Numbers.Natural.Abstract.NMaxMin <> n:39 var
+R3629:3631 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3628:3628 Coq.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3632:3632 Coq.Numbers.Natural.Abstract.NMaxMin <> m:40 var
+R3639:3641 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3638:3638 Coq.Numbers.Natural.Abstract.NMaxMin <> p:41 var
+R3642:3644 Coq.Numbers.Natural.Abstract.NMaxMin N max defax
+R3646:3646 Coq.Numbers.Natural.Abstract.NMaxMin <> n:39 var
+R3648:3648 Coq.Numbers.Natural.Abstract.NMaxMin <> m:40 var
+R3669:3679 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3669:3679 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3696:3700 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3696:3700 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3696:3700 Coq.Numbers.Natural.Abstract.NMaxMin N max_r defax
+R3720:3724 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3720:3724 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3737:3749 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3737:3749 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3761:3765 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3761:3765 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3761:3765 Coq.Numbers.Natural.Abstract.NMaxMin N max_l defax
+R3785:3789 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3785:3789 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3802:3814 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+R3802:3814 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_l thm
+prf 3829:3843 NMaxMinProp sub_min_distr_r
+binder 3845:3845 <> n:42
+binder 3847:3847 <> m:43
+binder 3849:3849 <> p:44
+R3872:3875 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3853:3855 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3859:3861 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3858:3858 Coq.Numbers.Natural.Abstract.NMaxMin <> n:42 var
+R3862:3862 Coq.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3867:3869 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3866:3866 Coq.Numbers.Natural.Abstract.NMaxMin <> m:43 var
+R3870:3870 Coq.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3883:3885 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R3876:3878 Coq.Numbers.Natural.Abstract.NMaxMin N min defax
+R3880:3880 Coq.Numbers.Natural.Abstract.NMaxMin <> n:42 var
+R3882:3882 Coq.Numbers.Natural.Abstract.NMaxMin <> m:43 var
+R3886:3886 Coq.Numbers.Natural.Abstract.NMaxMin <> p:44 var
+R3907:3917 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3985:3997 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R3907:3917 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp le_ge_cases thm
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3938:3942 Coq.Numbers.Natural.Abstract.NMaxMin N min_l defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3956:3960 Coq.Numbers.Natural.Abstract.NMaxMin N min_r defax
+R3985:3997 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R3985:3997 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp sub_le_mono_r thm
+R4010:4020 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp <> modtype

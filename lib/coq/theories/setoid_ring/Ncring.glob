@@ -1,0 +1,1054 @@
+DIGEST 4d76f71e1c72d10f34a775c6d806182f
+FCoq.setoid_ring.Ncring
+R720:725 Coq.Setoids.Setoid <> <> lib
+R743:748 Coq.PArith.BinPos <> <> lib
+R766:771 Coq.NArith.BinNat <> <> lib
+R789:797 Coq.Classes.Morphisms <> <> lib
+R799:804 Coq.Setoids.Setoid <> <> lib
+R806:809 Coq.Bool.Bool <> <> lib
+R827:837 Coq.ZArith.ZArith_base <> <> lib
+R855:868 Coq.setoid_ring.Algebra_syntax <> <> lib
+rec 903:910 <> Ring_ops
+binder 912:912 <> T:1
+R930:930 Coq.setoid_ring.Ncring <> T:1 var
+binder 924:928 <> ring0:2
+R943:943 Coq.setoid_ring.Ncring <> T:1 var
+binder 937:941 <> ring1:3
+R955:956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R954:954 Coq.setoid_ring.Ncring <> T:1 var
+R958:959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R957:957 Coq.setoid_ring.Ncring <> T:1 var
+R960:960 Coq.setoid_ring.Ncring <> T:1 var
+binder 950:952 <> add:4
+R972:973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R971:971 Coq.setoid_ring.Ncring <> T:1 var
+R975:976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R974:974 Coq.setoid_ring.Ncring <> T:1 var
+R977:977 Coq.setoid_ring.Ncring <> T:1 var
+binder 967:969 <> mul:5
+R989:990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:988 Coq.setoid_ring.Ncring <> T:1 var
+R992:993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R991:991 Coq.setoid_ring.Ncring <> T:1 var
+R994:994 Coq.setoid_ring.Ncring <> T:1 var
+binder 984:986 <> sub:6
+R1006:1007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1005:1005 Coq.setoid_ring.Ncring <> T:1 var
+R1008:1008 Coq.setoid_ring.Ncring <> T:1 var
+binder 1001:1003 <> opp:7
+R1024:1025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1023:1023 Coq.setoid_ring.Ncring <> T:1 var
+R1027:1028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1026:1026 Coq.setoid_ring.Ncring <> T:1 var
+binder 1015:1021 <> ring_eq:8
+inst 1056:1068 <> zero_notation
+binder 1070:1070 <> T:10
+R1079:1086 Coq.setoid_ring.Ncring <> Ring_ops class
+R1088:1088 Coq.setoid_ring.Ncring <> T:10 var
+binder 1079:1088 <> H:18
+R1091:1094 Coq.setoid_ring.Algebra_syntax <> Zero class
+R1096:1096 Coq.setoid_ring.Ncring <> T:10 var
+inst 1127:1138 <> one_notation
+binder 1140:1140 <> T:19
+R1149:1156 Coq.setoid_ring.Ncring <> Ring_ops class
+R1158:1158 Coq.setoid_ring.Ncring <> T:19 var
+binder 1149:1158 <> H:27
+R1161:1163 Coq.setoid_ring.Algebra_syntax <> One class
+R1165:1165 Coq.setoid_ring.Ncring <> T:19 var
+inst 1195:1206 <> add_notation
+binder 1208:1208 <> T:28
+R1217:1224 Coq.setoid_ring.Ncring <> Ring_ops class
+R1226:1226 Coq.setoid_ring.Ncring <> T:28 var
+binder 1217:1226 <> H:36
+R1229:1236 Coq.setoid_ring.Algebra_syntax <> Addition class
+R1238:1238 Coq.setoid_ring.Ncring <> T:28 var
+inst 1266:1277 <> mul_notation
+binder 1279:1279 <> T:37
+R1288:1295 Coq.setoid_ring.Ncring <> Ring_ops class
+R1297:1297 Coq.setoid_ring.Ncring <> T:37 var
+binder 1288:1297 <> H:45
+R1301:1314 Coq.setoid_ring.Algebra_syntax <> Multiplication class
+R1316:1316 Coq.setoid_ring.Ncring <> T:37 var
+R1318:1318 Coq.setoid_ring.Ncring <> T:37 var
+inst 1346:1357 <> sub_notation
+binder 1359:1359 <> T:46
+R1368:1375 Coq.setoid_ring.Ncring <> Ring_ops class
+R1377:1377 Coq.setoid_ring.Ncring <> T:46 var
+binder 1368:1377 <> H:54
+R1380:1390 Coq.setoid_ring.Algebra_syntax <> Subtraction class
+R1392:1392 Coq.setoid_ring.Ncring <> T:46 var
+inst 1420:1431 <> opp_notation
+binder 1433:1433 <> T:55
+R1442:1449 Coq.setoid_ring.Ncring <> Ring_ops class
+R1451:1451 Coq.setoid_ring.Ncring <> T:55 var
+binder 1442:1451 <> H:63
+R1454:1461 Coq.setoid_ring.Algebra_syntax <> Opposite class
+R1463:1463 Coq.setoid_ring.Ncring <> T:55 var
+inst 1491:1501 <> eq_notation
+binder 1503:1503 <> T:64
+R1512:1519 Coq.setoid_ring.Ncring <> Ring_ops class
+R1521:1521 Coq.setoid_ring.Ncring <> T:64 var
+binder 1512:1521 <> H:72
+R1525:1532 Coq.setoid_ring.Algebra_syntax <> Equality class
+R1534:1534 Coq.setoid_ring.Ncring <> T:64 var
+rec 1554:1557 <> Ring
+proj 1578:1588 <> ring_setoid
+proj 1610:1623 <> ring_plus_comp
+proj 1663:1676 <> ring_mult_comp
+proj 1716:1728 <> ring_sub_comp
+proj 1768:1780 <> ring_opp_comp
+proj 1809:1820 <> ring_add_0_l
+proj 1850:1862 <> ring_add_comm
+proj 1897:1910 <> ring_add_assoc
+proj 1958:1969 <> ring_mul_1_l
+proj 1999:2010 <> ring_mul_1_r
+proj 2040:2053 <> ring_mul_assoc
+proj 2101:2112 <> ring_distr_l
+proj 2164:2175 <> ring_distr_r
+proj 2228:2239 <> ring_sub_def
+proj 2276:2287 <> ring_opp_def
+R1564:1571 Coq.setoid_ring.Ncring <> Ring_ops class
+binder 1561:1562 <> Ro:81
+R1591:1601 Coq.Classes.RelationClasses <> Equivalence class
+R1603:1606 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1626:1631 Coq.Classes.Morphisms <> Proper class
+R1657:1659 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R1638:1642 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1634:1637 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1647:1650 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1643:1646 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1651:1654 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1679:1684 Coq.Classes.Morphisms <> Proper class
+R1710:1712 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R1691:1695 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1687:1690 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1700:1703 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1696:1699 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1704:1707 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1731:1736 Coq.Classes.Morphisms <> Proper class
+R1762:1764 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R1743:1747 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1739:1742 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1752:1755 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1748:1751 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1756:1759 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1783:1788 Coq.Classes.Morphisms <> Proper class
+R1804:1805 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R1795:1797 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1791:1794 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R1798:1801 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+binder 1834:1834 <> x:88
+R1842:1845 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1838:1840 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1841:1841 Coq.setoid_ring.Ncring <> x:88 var
+R1846:1846 Coq.setoid_ring.Ncring <> x:88 var
+binder 1875:1875 <> x:90
+binder 1877:1877 <> y:91
+R1885:1888 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1881:1883 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1880:1880 Coq.setoid_ring.Ncring <> x:90 var
+R1884:1884 Coq.setoid_ring.Ncring <> y:91 var
+R1890:1892 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1889:1889 Coq.setoid_ring.Ncring <> y:91 var
+R1893:1893 Coq.setoid_ring.Ncring <> x:90 var
+binder 1922:1922 <> x:93
+binder 1924:1924 <> y:94
+binder 1926:1926 <> z:95
+R1940:1943 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1930:1933 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1939:1939 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1929:1929 Coq.setoid_ring.Ncring <> x:93 var
+R1935:1937 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1934:1934 Coq.setoid_ring.Ncring <> y:94 var
+R1938:1938 Coq.setoid_ring.Ncring <> z:95 var
+R1944:1944 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1950:1953 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1946:1948 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1945:1945 Coq.setoid_ring.Ncring <> x:93 var
+R1949:1949 Coq.setoid_ring.Ncring <> y:94 var
+R1954:1954 Coq.setoid_ring.Ncring <> z:95 var
+binder 1983:1983 <> x:97
+R1991:1994 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1987:1989 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R1990:1990 Coq.setoid_ring.Ncring <> x:97 var
+R1995:1995 Coq.setoid_ring.Ncring <> x:97 var
+binder 2024:2024 <> x:99
+R2032:2035 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2028:2030 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2027:2027 Coq.setoid_ring.Ncring <> x:99 var
+R2036:2036 Coq.setoid_ring.Ncring <> x:99 var
+binder 2065:2065 <> x:101
+binder 2067:2067 <> y:102
+binder 2069:2069 <> z:103
+R2083:2086 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2073:2076 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2082:2082 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2072:2072 Coq.setoid_ring.Ncring <> x:101 var
+R2078:2080 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2077:2077 Coq.setoid_ring.Ncring <> y:102 var
+R2081:2081 Coq.setoid_ring.Ncring <> z:103 var
+R2087:2087 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2093:2096 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2089:2091 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2088:2088 Coq.setoid_ring.Ncring <> x:101 var
+R2092:2092 Coq.setoid_ring.Ncring <> y:102 var
+R2097:2097 Coq.setoid_ring.Ncring <> z:103 var
+binder 2126:2126 <> x:105
+binder 2128:2128 <> y:106
+binder 2130:2130 <> z:107
+R2144:2147 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2133:2133 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2139:2142 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2135:2137 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2134:2134 Coq.setoid_ring.Ncring <> x:105 var
+R2138:2138 Coq.setoid_ring.Ncring <> y:106 var
+R2143:2143 Coq.setoid_ring.Ncring <> z:107 var
+R2153:2155 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2149:2151 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2148:2148 Coq.setoid_ring.Ncring <> x:105 var
+R2152:2152 Coq.setoid_ring.Ncring <> z:107 var
+R2157:2159 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2156:2156 Coq.setoid_ring.Ncring <> y:106 var
+R2160:2160 Coq.setoid_ring.Ncring <> z:107 var
+binder 2189:2189 <> x:109
+binder 2191:2191 <> y:110
+binder 2193:2193 <> z:111
+R2208:2211 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2197:2201 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2207:2207 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2196:2196 Coq.setoid_ring.Ncring <> z:111 var
+R2203:2205 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2202:2202 Coq.setoid_ring.Ncring <> x:109 var
+R2206:2206 Coq.setoid_ring.Ncring <> y:110 var
+R2217:2219 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2213:2215 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2212:2212 Coq.setoid_ring.Ncring <> z:111 var
+R2216:2216 Coq.setoid_ring.Ncring <> x:109 var
+R2221:2223 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2220:2220 Coq.setoid_ring.Ncring <> z:111 var
+R2224:2224 Coq.setoid_ring.Ncring <> y:110 var
+binder 2253:2253 <> x:113
+binder 2255:2255 <> y:114
+R2263:2266 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2259:2261 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R2258:2258 Coq.setoid_ring.Ncring <> x:113 var
+R2262:2262 Coq.setoid_ring.Ncring <> y:114 var
+R2268:2270 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2267:2267 Coq.setoid_ring.Ncring <> x:113 var
+R2271:2271 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R2272:2272 Coq.setoid_ring.Ncring <> y:114 var
+binder 2301:2301 <> x:116
+R2310:2313 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R2305:2307 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R2304:2304 Coq.setoid_ring.Ncring <> x:116 var
+R2308:2308 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R2309:2309 Coq.setoid_ring.Ncring <> x:116 var
+sec 2709:2718 <> Ring_power
+binder 2731:2731 <> R:118
+R2740:2743 Coq.setoid_ring.Ncring <> Ring class
+R2745:2745 Coq.setoid_ring.Ncring <> R:118 var
+binder 2740:2745 <> H:127
+def 2760:2766 <> pow_pos
+R2771:2771 Coq.setoid_ring.Ncring <> Ring_power.R var
+binder 2769:2769 <> x:128
+R2777:2784 Coq.Numbers.BinNums <> positive ind
+binder 2775:2775 <> i:129
+R2799:2799 Coq.setoid_ring.Ncring <> Ring_power.R var
+R2812:2812 Coq.setoid_ring.Ncring <> i:129 var
+R2823:2824 Coq.Numbers.BinNums <> xH constr
+R2829:2829 Coq.setoid_ring.Ncring <> x:128 var
+R2835:2836 Coq.Numbers.BinNums <> xO constr
+R2852:2858 Coq.setoid_ring.Ncring <> pow_pos:130 def
+R2862:2862 Coq.setoid_ring.Ncring <> i:129 var
+R2860:2860 Coq.setoid_ring.Ncring <> x:128 var
+binder 2847:2847 <> p:132
+R2868:2870 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2867:2867 Coq.setoid_ring.Ncring <> p:132 var
+R2871:2871 Coq.setoid_ring.Ncring <> p:132 var
+R2877:2878 Coq.Numbers.BinNums <> xI constr
+R2894:2900 Coq.setoid_ring.Ncring <> pow_pos:130 def
+R2904:2904 Coq.setoid_ring.Ncring <> i:129 var
+R2902:2902 Coq.setoid_ring.Ncring <> x:128 var
+binder 2889:2889 <> p:133
+R2910:2913 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2919:2919 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2909:2909 Coq.setoid_ring.Ncring <> x:128 var
+R2915:2917 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R2914:2914 Coq.setoid_ring.Ncring <> p:133 var
+R2918:2918 Coq.setoid_ring.Ncring <> p:133 var
+def 2941:2945 <> pow_N
+R2950:2950 Coq.setoid_ring.Ncring <> Ring_power.R var
+binder 2948:2948 <> x:134
+R2956:2956 Coq.Numbers.BinNums <> N ind
+binder 2954:2954 <> p:135
+R2970:2970 Coq.setoid_ring.Ncring <> p:135 var
+R2981:2982 Coq.Numbers.BinNums <> N0 constr
+R2993:2996 Coq.Numbers.BinNums <> Npos constr
+R3003:3009 Coq.setoid_ring.Ncring <> pow_pos def
+R3013:3013 Coq.setoid_ring.Ncring <> p:135 var
+R3011:3011 Coq.setoid_ring.Ncring <> x:134 var
+R3027:3036 Coq.setoid_ring.Ncring Ring_power <> sec
+def 3051:3052 <> ZN
+R3056:3056 Coq.Numbers.BinNums <> Z ind
+binder 3054:3054 <> x:137
+R3069:3069 Coq.setoid_ring.Ncring <> x:137 var
+R3080:3081 Coq.Numbers.BinNums <> Z0 constr
+R3086:3087 Coq.Numbers.BinNums <> N0 constr
+R3094:3097 Coq.Numbers.BinNums <> Zpos constr
+R3103:3106 Coq.Numbers.BinNums <> Zneg constr
+R3113:3116 Coq.Numbers.BinNums <> Npos constr
+R3113:3116 Coq.Numbers.BinNums <> Npos constr
+inst 3145:3154 <> power_ring
+binder 3157:3157 <> R:139
+R3166:3169 Coq.setoid_ring.Ncring <> Ring class
+R3171:3171 Coq.setoid_ring.Ncring <> R:139 var
+binder 3166:3171 <> H:148
+R3176:3180 Coq.setoid_ring.Algebra_syntax <> Power class
+R3187:3191 Coq.setoid_ring.Algebra_syntax <> power def
+binder 3193:3193 <> x:149
+binder 3195:3195 <> y:150
+R3200:3204 Coq.setoid_ring.Ncring <> pow_N def
+R3209:3210 Coq.setoid_ring.Ncring <> ZN def
+R3212:3212 Coq.setoid_ring.Ncring <> y:150 var
+R3206:3206 Coq.setoid_ring.Ncring <> x:149 var
+rec 3267:3279 <> Ring_morphism
+proj 3342:3355 <> ring_morphism0
+proj 3376:3389 <> ring_morphism1
+proj 3410:3426 <> ring_morphism_add
+proj 3468:3484 <> ring_morphism_sub
+proj 3526:3542 <> ring_morphism_mul
+proj 3584:3600 <> ring_morphism_opp
+proj 3633:3648 <> ring_morphism_eq
+binder 3282:3282 <> C:151
+binder 3284:3284 <> R:152
+R3296:3299 Coq.setoid_ring.Ncring <> Ring class
+R3301:3301 Coq.setoid_ring.Ncring <> C:151 var
+binder 3293:3294 <> Cr:161
+R3309:3312 Coq.setoid_ring.Ncring <> Ring class
+R3314:3314 Coq.setoid_ring.Ncring <> R:152 var
+binder 3306:3307 <> Rr:170
+R3321:3327 Coq.setoid_ring.Algebra_syntax <> Bracket class
+R3329:3329 Coq.setoid_ring.Ncring <> C:151 var
+R3331:3331 Coq.setoid_ring.Ncring <> R:152 var
+binder 3318:3319 <> Rh:171
+R3365:3368 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3362:3362 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3364:3364 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3399:3402 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3396:3396 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3398:3398 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+binder 3437:3437 <> x:175
+binder 3439:3439 <> y:176
+R3449:3452 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3442:3442 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3448:3448 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3444:3446 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3443:3443 Coq.setoid_ring.Ncring <> x:175 var
+R3447:3447 Coq.setoid_ring.Ncring <> y:176 var
+R3456:3458 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3453:3453 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3455:3455 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3454:3454 Coq.setoid_ring.Ncring <> x:175 var
+R3459:3459 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3461:3461 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3460:3460 Coq.setoid_ring.Ncring <> y:176 var
+binder 3495:3495 <> x:178
+binder 3497:3497 <> y:179
+R3507:3510 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3500:3500 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3506:3506 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3502:3504 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R3501:3501 Coq.setoid_ring.Ncring <> x:178 var
+R3505:3505 Coq.setoid_ring.Ncring <> y:179 var
+R3514:3516 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R3511:3511 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3513:3513 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3512:3512 Coq.setoid_ring.Ncring <> x:178 var
+R3517:3517 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3519:3519 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3518:3518 Coq.setoid_ring.Ncring <> y:179 var
+binder 3553:3553 <> x:181
+binder 3555:3555 <> y:182
+R3565:3568 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3558:3558 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3564:3564 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3560:3562 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3559:3559 Coq.setoid_ring.Ncring <> x:181 var
+R3563:3563 Coq.setoid_ring.Ncring <> y:182 var
+R3572:3574 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3569:3569 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3571:3571 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3570:3570 Coq.setoid_ring.Ncring <> x:181 var
+R3575:3575 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3577:3577 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3576:3576 Coq.setoid_ring.Ncring <> y:182 var
+binder 3612:3612 <> x:184
+R3619:3622 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3615:3615 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3618:3618 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3616:3616 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R3617:3617 Coq.setoid_ring.Ncring <> x:184 var
+R3623:3623 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R3624:3624 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3626:3626 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3625:3625 Coq.setoid_ring.Ncring <> x:184 var
+binder 3660:3660 <> x:186
+binder 3662:3662 <> y:187
+R3671:3674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3666:3669 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3665:3665 Coq.setoid_ring.Ncring <> x:186 var
+R3670:3670 Coq.setoid_ring.Ncring <> y:187 var
+R3678:3681 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3675:3675 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3677:3677 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3676:3676 Coq.setoid_ring.Ncring <> x:186 var
+R3682:3682 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3684:3684 Coq.setoid_ring.Algebra_syntax <> :::'['_x_']' not
+R3683:3683 Coq.setoid_ring.Ncring <> y:187 var
+sec 3697:3700 <> Ring
+binder 3713:3713 <> R:189
+R3725:3728 Coq.setoid_ring.Ncring <> Ring class
+R3730:3730 Coq.setoid_ring.Ncring <> R:189 var
+binder 3722:3723 <> Rr:198
+prf 3755:3766 <> pow_pos_comm
+binder 3778:3778 <> x:199
+binder 3780:3780 <> j:200
+R3799:3802 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3785:3787 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3784:3784 Coq.setoid_ring.Ncring <> x:199 var
+R3788:3794 Coq.setoid_ring.Ncring <> pow_pos def
+R3798:3798 Coq.setoid_ring.Ncring <> j:200 var
+R3796:3796 Coq.setoid_ring.Ncring <> x:199 var
+R3814:3816 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3803:3809 Coq.setoid_ring.Ncring <> pow_pos def
+R3813:3813 Coq.setoid_ring.Ncring <> j:200 var
+R3811:3811 Coq.setoid_ring.Ncring <> x:199 var
+R3817:3817 Coq.setoid_ring.Ncring <> x:199 var
+R3858:3871 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3858:3871 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3858:3871 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3885:3898 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3885:3898 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3885:3898 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3926:3939 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3958:3964 Coq.setoid_ring.Ncring <> pow_pos def
+R3942:3948 Coq.setoid_ring.Ncring <> pow_pos def
+R3926:3939 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3958:3964 Coq.setoid_ring.Ncring <> pow_pos def
+R3942:3948 Coq.setoid_ring.Ncring <> pow_pos def
+R3926:3939 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3958:3964 Coq.setoid_ring.Ncring <> pow_pos def
+R3942:3948 Coq.setoid_ring.Ncring <> pow_pos def
+R4000:4013 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4000:4013 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4000:4013 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4040:4053 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4040:4053 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4040:4053 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4080:4093 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4080:4093 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4080:4093 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4120:4133 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4120:4133 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4120:4133 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+prf 4187:4198 <> pow_pos_succ
+binder 4210:4210 <> x:201
+binder 4212:4212 <> j:202
+R4237:4240 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4215:4221 Coq.setoid_ring.Ncring <> pow_pos def
+R4226:4233 Coq.PArith.BinPos Pos succ def
+R4235:4235 Coq.setoid_ring.Ncring <> j:202 var
+R4223:4223 Coq.setoid_ring.Ncring <> x:201 var
+R4242:4244 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4241:4241 Coq.setoid_ring.Ncring <> x:201 var
+R4245:4251 Coq.setoid_ring.Ncring <> pow_pos def
+R4255:4255 Coq.setoid_ring.Ncring <> j:202 var
+R4253:4253 Coq.setoid_ring.Ncring <> x:201 var
+R4312:4325 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4345:4347 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4348:4354 Coq.setoid_ring.Ncring <> pow_pos def
+R4330:4336 Coq.setoid_ring.Ncring <> pow_pos def
+R4312:4325 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4345:4347 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4348:4354 Coq.setoid_ring.Ncring <> pow_pos def
+R4330:4336 Coq.setoid_ring.Ncring <> pow_pos def
+R4312:4325 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4345:4347 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4348:4354 Coq.setoid_ring.Ncring <> pow_pos def
+R4330:4336 Coq.setoid_ring.Ncring <> pow_pos def
+R4372:4385 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4405:4411 Coq.setoid_ring.Ncring <> pow_pos def
+R4388:4394 Coq.setoid_ring.Ncring <> pow_pos def
+R4372:4385 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4405:4411 Coq.setoid_ring.Ncring <> pow_pos def
+R4388:4394 Coq.setoid_ring.Ncring <> pow_pos def
+R4372:4385 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4405:4411 Coq.setoid_ring.Ncring <> pow_pos def
+R4388:4394 Coq.setoid_ring.Ncring <> pow_pos def
+R4433:4444 Coq.setoid_ring.Ncring <> pow_pos_comm thm
+R4433:4444 Coq.setoid_ring.Ncring <> pow_pos_comm thm
+R4433:4444 Coq.setoid_ring.Ncring <> pow_pos_comm thm
+R4458:4471 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4458:4471 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4458:4471 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+prf 4525:4535 <> pow_pos_add
+binder 4547:4547 <> x:203
+binder 4549:4549 <> i:204
+binder 4551:4551 <> j:205
+R4573:4576 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4556:4562 Coq.setoid_ring.Ncring <> pow_pos def
+R4568:4570 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R4567:4567 Coq.setoid_ring.Ncring <> i:204 var
+R4571:4571 Coq.setoid_ring.Ncring <> j:205 var
+R4564:4564 Coq.setoid_ring.Ncring <> x:203 var
+R4588:4590 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4577:4583 Coq.setoid_ring.Ncring <> pow_pos def
+R4587:4587 Coq.setoid_ring.Ncring <> i:204 var
+R4585:4585 Coq.setoid_ring.Ncring <> x:203 var
+R4591:4597 Coq.setoid_ring.Ncring <> pow_pos def
+R4601:4601 Coq.setoid_ring.Ncring <> j:205 var
+R4599:4599 Coq.setoid_ring.Ncring <> x:203 var
+R4651:4664 Coq.PArith.BinPos Pos xI_succ_xO thm
+R4677:4687 Coq.PArith.BinPos Pos add_1_r thm
+R4651:4664 Coq.PArith.BinPos Pos xI_succ_xO thm
+R4651:4664 Coq.PArith.BinPos Pos xI_succ_xO thm
+R4677:4687 Coq.PArith.BinPos Pos add_1_r thm
+R4677:4687 Coq.PArith.BinPos Pos add_1_r thm
+R4703:4714 Coq.PArith.BinPos Pos add_diag thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4703:4714 Coq.PArith.BinPos Pos add_diag thm
+R4703:4714 Coq.PArith.BinPos Pos add_diag thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4734:4746 Coq.PArith.BinPos Pos add_assoc thm
+R4781:4792 Coq.PArith.BinPos Pos add_comm thm
+R4802:4812 Coq.PArith.BinPos Pos add_1_r thm
+R4825:4836 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+R4781:4792 Coq.PArith.BinPos Pos add_comm thm
+R4781:4792 Coq.PArith.BinPos Pos add_comm thm
+R4802:4812 Coq.PArith.BinPos Pos add_1_r thm
+R4802:4812 Coq.PArith.BinPos Pos add_1_r thm
+R4825:4836 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+R4825:4836 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4862:4875 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4904:4915 Coq.PArith.BinPos Pos add_diag thm
+R4935:4947 Coq.PArith.BinPos Pos add_assoc thm
+R4904:4915 Coq.PArith.BinPos Pos add_diag thm
+R4904:4915 Coq.PArith.BinPos Pos add_diag thm
+R4935:4947 Coq.PArith.BinPos Pos add_assoc thm
+R4935:4947 Coq.PArith.BinPos Pos add_assoc thm
+R4935:4947 Coq.PArith.BinPos Pos add_assoc thm
+R4980:4993 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4980:4993 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R4980:4993 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R5019:5030 Coq.PArith.BinPos Pos add_comm thm
+R5040:5050 Coq.PArith.BinPos Pos add_1_r thm
+R5060:5071 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+R5019:5030 Coq.PArith.BinPos Pos add_comm thm
+R5019:5030 Coq.PArith.BinPos Pos add_comm thm
+R5040:5050 Coq.PArith.BinPos Pos add_1_r thm
+R5040:5050 Coq.PArith.BinPos Pos add_1_r thm
+R5060:5071 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+R5060:5071 Coq.setoid_ring.Ncring <> pow_pos_succ thm
+def 5116:5123 <> id_phi_N
+R5128:5128 Coq.Numbers.BinNums <> N ind
+binder 5126:5126 <> x:206
+R5133:5133 Coq.Numbers.BinNums <> N ind
+R5138:5138 Coq.setoid_ring.Ncring <> x:206 var
+prf 5149:5159 <> pow_N_pow_N
+binder 5171:5171 <> x:207
+binder 5173:5173 <> n:208
+R5196:5199 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R5176:5180 Coq.setoid_ring.Ncring <> pow_N def
+R5185:5192 Coq.setoid_ring.Ncring <> id_phi_N def
+R5194:5194 Coq.setoid_ring.Ncring <> n:208 var
+R5182:5182 Coq.setoid_ring.Ncring <> x:207 var
+R5200:5204 Coq.setoid_ring.Ncring <> pow_N def
+R5208:5208 Coq.setoid_ring.Ncring <> n:208 var
+R5206:5206 Coq.setoid_ring.Ncring <> x:207 var
+prf 5478:5489 <> ring_mul_0_l
+binder 5501:5501 <> x:209
+R5509:5512 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R5505:5507 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5508:5508 Coq.setoid_ring.Ncring <> x:209 var
+R5552:5552 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5569:5571 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5562:5562 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5566:5567 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5564:5564 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5572:5572 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R5552:5552 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5569:5571 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5562:5562 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5566:5567 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5564:5564 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5572:5572 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R5588:5599 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5588:5599 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5588:5599 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5610:5621 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5610:5621 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5610:5621 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5635:5646 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5635:5646 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5635:5646 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5655:5658 Coq.setoid_ring.Algebra_syntax <> zero def
+R5655:5658 Coq.setoid_ring.Algebra_syntax <> zero def
+R5684:5695 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R5684:5695 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R5684:5695 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R5707:5718 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5707:5718 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5707:5718 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R5735:5748 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R5760:5771 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5735:5748 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R5735:5748 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R5760:5771 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5760:5771 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R5785:5797 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R5809:5820 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5785:5797 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R5785:5797 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R5809:5820 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5809:5820 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+prf 5850:5861 <> ring_mul_0_r
+binder 5873:5873 <> x:210
+R5881:5884 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R5877:5879 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5876:5876 Coq.setoid_ring.Ncring <> x:210 var
+R5924:5924 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5942:5944 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5936:5937 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5941:5941 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5939:5939 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5945:5945 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R5924:5924 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5942:5944 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5936:5937 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5941:5941 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5939:5939 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5945:5945 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R5960:5971 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5983:5994 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R5960:5971 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5960:5971 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R5983:5994 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R5983:5994 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R6008:6019 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6028:6031 Coq.setoid_ring.Algebra_syntax <> zero def
+R6008:6019 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6008:6019 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6028:6031 Coq.setoid_ring.Algebra_syntax <> zero def
+R6058:6069 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6080:6091 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R6058:6069 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6058:6069 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6080:6091 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R6080:6091 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R6108:6121 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6133:6144 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6108:6121 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6108:6121 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6133:6144 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6133:6144 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6158:6170 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6182:6193 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6158:6170 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6158:6170 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6182:6193 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6182:6193 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+prf 6223:6236 <> ring_opp_mul_l
+binder 6247:6247 <> x:211
+binder 6249:6249 <> y:212
+R6260:6263 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R6252:6253 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6259:6259 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6255:6257 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6254:6254 Coq.setoid_ring.Ncring <> x:211 var
+R6258:6258 Coq.setoid_ring.Ncring <> y:212 var
+R6266:6268 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6264:6264 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6265:6265 Coq.setoid_ring.Ncring <> x:211 var
+R6269:6269 Coq.setoid_ring.Ncring <> y:212 var
+R6305:6316 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6322:6324 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6319:6320 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6305:6316 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6322:6324 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6319:6320 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6305:6316 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6322:6324 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6319:6320 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6340:6352 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6340:6352 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6340:6352 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6370:6381 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6385:6385 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6370:6381 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6385:6385 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6370:6381 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6385:6385 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6401:6414 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6401:6414 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6401:6414 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6431:6442 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R6431:6442 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R6431:6442 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R6456:6468 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6471:6471 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6484:6495 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6456:6468 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6471:6471 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6456:6468 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6471:6471 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6484:6495 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6484:6495 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6509:6520 Coq.setoid_ring.Ncring <> ring_mul_0_l thm
+R6530:6541 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6509:6520 Coq.setoid_ring.Ncring <> ring_mul_0_l thm
+R6509:6520 Coq.setoid_ring.Ncring <> ring_mul_0_l thm
+R6530:6541 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6530:6541 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+prf 6570:6583 <> ring_opp_mul_r
+binder 6594:6594 <> x:213
+binder 6596:6596 <> y:214
+R6607:6610 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R6599:6600 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6606:6606 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6602:6604 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6601:6601 Coq.setoid_ring.Ncring <> x:213 var
+R6605:6605 Coq.setoid_ring.Ncring <> y:214 var
+R6612:6614 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6611:6611 Coq.setoid_ring.Ncring <> x:213 var
+R6615:6615 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6616:6616 Coq.setoid_ring.Ncring <> y:214 var
+R6652:6663 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6667:6669 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6670:6671 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6652:6663 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6667:6669 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6670:6671 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6652:6663 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6667:6669 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6670:6671 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6687:6699 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6687:6699 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6687:6699 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6717:6728 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6732:6732 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6717:6728 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6732:6732 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6717:6728 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6732:6732 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6748:6761 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6748:6761 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6748:6761 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R6778:6789 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6778:6789 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6778:6789 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R6804:6816 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6819:6819 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6832:6843 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6804:6816 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6819:6819 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6804:6816 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R6819:6819 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6832:6843 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6832:6843 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R6857:6868 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R6878:6889 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6857:6868 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R6857:6868 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R6878:6889 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R6878:6889 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+prf 6919:6930 <> ring_opp_add
+binder 6941:6941 <> x:215
+binder 6943:6943 <> y:216
+R6954:6957 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R6946:6947 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6953:6953 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6949:6951 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R6948:6948 Coq.setoid_ring.Ncring <> x:215 var
+R6952:6952 Coq.setoid_ring.Ncring <> y:216 var
+R6960:6962 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R6958:6958 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6959:6959 Coq.setoid_ring.Ncring <> x:215 var
+R6963:6963 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6964:6964 Coq.setoid_ring.Ncring <> y:216 var
+R7000:7011 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7015:7016 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7020:7020 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7018:7018 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7000:7011 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7015:7016 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7020:7020 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7018:7018 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7000:7011 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7015:7016 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7020:7020 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7018:7018 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7039:7050 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7039:7050 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7039:7050 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7071:7082 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7093:7095 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7087:7089 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7090:7091 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7096:7098 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7104:7104 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7100:7102 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7071:7082 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7093:7095 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7087:7089 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7090:7091 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7096:7098 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7104:7104 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7100:7102 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7071:7082 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7093:7095 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7087:7089 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7090:7091 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7096:7098 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7104:7104 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7100:7102 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7123:7134 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7123:7134 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7123:7134 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7152:7164 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7152:7164 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7152:7164 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7182:7194 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7182:7194 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7182:7194 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7215:7228 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7232:7232 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7215:7228 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7232:7232 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7215:7228 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7232:7232 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7252:7265 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7269:7270 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7252:7265 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7269:7270 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7252:7265 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7269:7270 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7287:7300 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7287:7300 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7287:7300 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7319:7331 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7319:7331 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7319:7331 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7352:7365 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7370:7371 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7352:7365 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7370:7371 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7352:7365 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7370:7371 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7388:7401 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7388:7401 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7388:7401 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7419:7431 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7445:7456 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7419:7431 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7419:7431 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7445:7456 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7445:7456 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7471:7483 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7487:7487 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7502:7513 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7471:7483 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7487:7487 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7471:7483 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7487:7487 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7502:7513 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7502:7513 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7527:7539 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7527:7539 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7527:7539 Coq.setoid_ring.Ncring <> ring_add_comm meth
+prf 7569:7580 <> ring_opp_opp
+binder 7592:7592 <> x:217
+R7599:7602 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7595:7596 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7597:7597 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7598:7598 Coq.setoid_ring.Ncring <> x:217 var
+R7603:7603 Coq.setoid_ring.Ncring <> x:217 var
+R7638:7649 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7652:7653 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7654:7654 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7638:7649 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7652:7653 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7654:7654 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7638:7649 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7652:7653 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7654:7654 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7674:7685 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7674:7685 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7674:7685 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7704:7717 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7729:7740 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7704:7717 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7704:7717 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R7729:7740 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7729:7740 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R7755:7767 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7782:7793 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7755:7767 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7755:7767 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R7782:7793 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R7782:7793 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+prf 7824:7835 <> ring_sub_ext
+binder 7853:7854 <> x1:218
+binder 7856:7857 <> x2:219
+R7868:7871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7862:7865 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7860:7861 Coq.setoid_ring.Ncring <> x1:218 var
+R7866:7867 Coq.setoid_ring.Ncring <> x2:219 var
+binder 7880:7881 <> y1:220
+binder 7883:7884 <> y2:221
+R7895:7898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7889:7892 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7887:7888 Coq.setoid_ring.Ncring <> y1:220 var
+R7893:7894 Coq.setoid_ring.Ncring <> y2:221 var
+R7906:7909 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7901:7903 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R7899:7900 Coq.setoid_ring.Ncring <> x1:218 var
+R7904:7905 Coq.setoid_ring.Ncring <> y1:220 var
+R7912:7914 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R7910:7911 Coq.setoid_ring.Ncring <> x2:219 var
+R7915:7916 Coq.setoid_ring.Ncring <> y2:221 var
+R7957:7959 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R7973:7975 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7976:7976 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R7957:7959 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R7973:7975 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R7976:7976 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R8002:8004 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R8018:8020 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8021:8021 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R8002:8004 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R8018:8020 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8021:8021 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R8073:8084 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8073:8084 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8073:8084 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8110:8121 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8110:8121 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8110:8121 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R8193:8204 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R8225:8237 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R8257:8268 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R8285:8296 Coq.setoid_ring.Ncring <> ring_mul_0_l thm
+R8313:8324 Coq.setoid_ring.Ncring <> ring_distr_l meth
+prf 8361:8372 <> ring_add_0_r
+binder 8384:8384 <> x:222
+R8387:8387 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8393:8397 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8389:8391 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8388:8388 Coq.setoid_ring.Ncring <> x:222 var
+R8398:8398 Coq.setoid_ring.Ncring <> x:222 var
+prf 8442:8456 <> ring_add_assoc1
+binder 8467:8467 <> x:223
+binder 8469:8469 <> y:224
+binder 8471:8471 <> z:225
+R8485:8488 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8474:8474 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8480:8483 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8476:8478 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8475:8475 Coq.setoid_ring.Ncring <> x:223 var
+R8479:8479 Coq.setoid_ring.Ncring <> y:224 var
+R8484:8484 Coq.setoid_ring.Ncring <> z:225 var
+R8489:8489 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8495:8498 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8491:8493 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8490:8490 Coq.setoid_ring.Ncring <> y:224 var
+R8494:8494 Coq.setoid_ring.Ncring <> z:225 var
+R8499:8499 Coq.setoid_ring.Ncring <> x:223 var
+R8531:8544 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8531:8544 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8531:8544 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8561:8573 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R8561:8573 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R8561:8573 Coq.setoid_ring.Ncring <> ring_add_comm meth
+prf 8605:8619 <> ring_add_assoc2
+binder 8630:8630 <> x:226
+binder 8632:8632 <> y:227
+binder 8634:8634 <> z:228
+R8648:8651 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8637:8637 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8643:8646 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8639:8641 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8638:8638 Coq.setoid_ring.Ncring <> y:227 var
+R8642:8642 Coq.setoid_ring.Ncring <> x:226 var
+R8647:8647 Coq.setoid_ring.Ncring <> z:228 var
+R8652:8652 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8658:8661 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8654:8656 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R8653:8653 Coq.setoid_ring.Ncring <> y:227 var
+R8657:8657 Coq.setoid_ring.Ncring <> z:228 var
+R8662:8662 Coq.setoid_ring.Ncring <> x:226 var
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8701:8714 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R8729:8741 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R8729:8741 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R8729:8741 Coq.setoid_ring.Ncring <> ring_add_comm meth
+prf 8774:8786 <> ring_opp_zero
+R8792:8795 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8790:8790 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R8821:8832 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8821:8832 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8821:8832 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8846:8859 Coq.setoid_ring.Ncring <> ring_opp_mul_l thm
+R8846:8859 Coq.setoid_ring.Ncring <> ring_opp_mul_l thm
+R8846:8859 Coq.setoid_ring.Ncring <> ring_opp_mul_l thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8879:8890 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R8917:8920 Coq.setoid_ring.Ncring Ring <> sec
+R9075:9087 Coq.setoid_ring.Ncring <> ring_opp_zero thm
+R9104:9115 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R9132:9143 Coq.setoid_ring.Ncring <> ring_add_0_r thm
+R9160:9171 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R9189:9200 Coq.setoid_ring.Ncring <> ring_mul_1_r meth
+R9217:9228 Coq.setoid_ring.Ncring <> ring_mul_0_l thm
+R9246:9257 Coq.setoid_ring.Ncring <> ring_mul_0_r thm
+R9275:9286 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R9304:9315 Coq.setoid_ring.Ncring <> ring_distr_r meth
+R9333:9346 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R9364:9377 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R9403:9414 Coq.setoid_ring.Ncring <> ring_opp_add thm
+R9441:9452 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R9482:9495 Coq.setoid_ring.Ncring <> ring_opp_mul_l thm
+R9525:9538 Coq.setoid_ring.Ncring <> ring_opp_mul_r thm
+R9607:9607 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9614:9617 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9610:9612 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9607:9607 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9614:9617 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9610:9612 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9687:9687 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9694:9697 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9689:9691 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9687:9687 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9694:9697 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9689:9691 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R9729:9743 Coq.setoid_ring.Ncring <> ring_add_assoc1 thm
+R9648:9662 Coq.setoid_ring.Ncring <> ring_add_assoc2 thm

@@ -1,0 +1,332 @@
+DIGEST 3fee523fb6249a42f7e70049c177d736
+FCoq.Classes.RelationPairs
+R723:732 Coq.Lists.SetoidList <> <> lib
+R750:758 Coq.Relations.Relations <> <> lib
+R760:768 Coq.Classes.Morphisms <> <> lib
+abbrev 1008:1010 <> Fst
+R1017:1019 Coq.Init.Datatypes <> fst def
+abbrev 1042:1044 <> Snd
+R1051:1053 Coq.Init.Datatypes <> snd def
+R1072:1091 Coq.Classes.RelationClasses <> relation_conjunction def
+R1072:1091 Coq.Classes.RelationClasses <> relation_conjunction def
+R1132:1151 Coq.Classes.RelationClasses <> relation_equivalence def
+R1132:1151 Coq.Classes.RelationClasses <> relation_equivalence def
+R1187:1197 Coq.Classes.RelationClasses <> subrelation class
+R1187:1197 Coq.Classes.RelationClasses <> subrelation class
+R1234:1242 Coq.Classes.RelationClasses <> Reflexive class
+R1234:1242 Coq.Classes.RelationClasses <> Reflexive class
+R1274:1284 Coq.Classes.RelationClasses <> Irreflexive class
+R1274:1284 Coq.Classes.RelationClasses <> Irreflexive class
+R1316:1324 Coq.Classes.RelationClasses <> Symmetric class
+R1316:1324 Coq.Classes.RelationClasses <> Symmetric class
+R1356:1365 Coq.Classes.RelationClasses <> Transitive class
+R1356:1365 Coq.Classes.RelationClasses <> Transitive class
+R1397:1399 Coq.Classes.RelationClasses <> PER class
+R1397:1399 Coq.Classes.RelationClasses <> PER class
+R1431:1441 Coq.Classes.RelationClasses <> Equivalence class
+R1431:1441 Coq.Classes.RelationClasses <> Equivalence class
+R1473:1483 Coq.Classes.RelationClasses <> StrictOrder class
+R1473:1483 Coq.Classes.RelationClasses <> StrictOrder class
+def 1666:1675 <> RelCompFun
+binder 1678:1678 <> A:1
+binder 1682:1682 <> B:2
+R1694:1701 Coq.Relations.Relation_Definitions <> relation def
+R1703:1703 Coq.Classes.RelationPairs <> B:2 var
+binder 1692:1692 <> R:3
+R1709:1710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1708:1708 Coq.Classes.RelationPairs <> A:1 var
+R1711:1711 Coq.Classes.RelationPairs <> B:2 var
+binder 1706:1706 <> f:4
+R1716:1723 Coq.Relations.Relation_Definitions <> relation def
+R1725:1725 Coq.Classes.RelationPairs <> A:1 var
+binder 1735:1735 <> a:5
+binder 1737:1738 <> a':6
+R1743:1743 Coq.Classes.RelationPairs <> R:3 var
+R1746:1746 Coq.Classes.RelationPairs <> f:4 var
+R1748:1748 Coq.Classes.RelationPairs <> a:5 var
+R1752:1752 Coq.Classes.RelationPairs <> f:4 var
+R1754:1755 Coq.Classes.RelationPairs <> a':6 var
+R1869:1878 Coq.Classes.RelationPairs <> RelCompFun def
+not 1861:1861 <> ::signature_scope:x_'@@'_x
+R1957:1960 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R1961:1963 Coq.Classes.RelationPairs <> Fst abbrev
+not 1944:1944 <> ::signature_scope:x_'@@1'
+R2031:2034 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R2035:2037 Coq.Classes.RelationPairs <> Snd abbrev
+not 2018:2018 <> ::signature_scope:x_'@@2'
+rec 2258:2264 <> Measure
+binder 2267:2267 <> A:7
+binder 2269:2269 <> B:8
+R2278:2281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2277:2277 Coq.Classes.RelationPairs <> A:7 var
+R2282:2282 Coq.Classes.RelationPairs <> B:8 var
+binder 2273:2273 <> f:9
+inst 2333:2343 <> fst_measure
+binder 2346:2346 <> A:11
+binder 2348:2348 <> B:12
+R2354:2360 Coq.Classes.RelationPairs <> Measure class
+R2364:2366 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2363:2363 Coq.Classes.RelationPairs <> A:11 var
+R2367:2367 Coq.Classes.RelationPairs <> B:12 var
+R2370:2370 Coq.Classes.RelationPairs <> A:11 var
+R2372:2374 Coq.Classes.RelationPairs <> Fst abbrev
+inst 2403:2413 <> snd_measure
+binder 2416:2416 <> A:13
+binder 2418:2418 <> B:14
+R2424:2430 Coq.Classes.RelationPairs <> Measure class
+R2434:2436 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2433:2433 Coq.Classes.RelationPairs <> A:13 var
+R2437:2437 Coq.Classes.RelationPairs <> B:14 var
+R2440:2440 Coq.Classes.RelationPairs <> B:14 var
+R2442:2444 Coq.Classes.RelationPairs <> Snd abbrev
+def 2585:2591 <> RelProd
+binder 2594:2594 <> A:15
+binder 2605:2605 <> B:16
+R2619:2626 Coq.Relations.Relation_Definitions <> relation def
+R2628:2628 Coq.Classes.RelationPairs <> A:15 var
+binder 2616:2617 <> RA:17
+R2634:2641 Coq.Relations.Relation_Definitions <> relation def
+R2643:2643 Coq.Classes.RelationPairs <> B:16 var
+binder 2631:2632 <> RB:18
+R2648:2655 Coq.Relations.Relation_Definitions <> relation def
+R2659:2659 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2658:2658 Coq.Classes.RelationPairs <> A:15 var
+R2660:2660 Coq.Classes.RelationPairs <> B:16 var
+R2667:2686 Coq.Classes.RelationClasses <> relation_conjunction def
+R2690:2699 Coq.Classes.RelationPairs <> RelCompFun def
+R2703:2705 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2702:2702 Coq.Classes.RelationPairs <> A:15 var
+R2706:2706 Coq.Classes.RelationPairs <> B:16 var
+R2709:2709 Coq.Classes.RelationPairs <> A:15 var
+R2711:2712 Coq.Classes.RelationPairs <> RA:17 var
+R2714:2716 Coq.Init.Datatypes <> fst def
+R2722:2725 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@2' not
+R2720:2721 Coq.Classes.RelationPairs <> RB:18 var
+R2779:2785 Coq.Classes.RelationPairs <> RelProd def
+not 2772:2772 <> ::signature_scope:x_'*'_x
+sec 2815:2834 <> RelCompFun_Instances
+binder 2848:2848 <> A:19
+binder 2859:2859 <> B:20
+R2874:2881 Coq.Relations.Relation_Definitions <> relation def
+R2883:2883 Coq.Classes.RelationPairs <> B:20 var
+binder 2870:2870 <> R:21
+inst 2906:2925 <> RelCompFun_Reflexive
+R2933:2939 Coq.Classes.RelationPairs <> Measure class
+R2941:2941 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R2943:2943 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 2945:2945 <> f:22
+binder 2933:2945 <> H:23
+R2948:2956 Coq.Classes.RelationClasses <> Reflexive class
+R2960:2960 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 2948:2960 <> H0:24
+R2965:2973 Coq.Classes.RelationClasses <> Reflexive class
+R2977:2978 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R2976:2976 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R2979:2979 Coq.Classes.RelationPairs <> f:22 var
+inst 3028:3047 <> RelCompFun_Symmetric
+R3055:3061 Coq.Classes.RelationPairs <> Measure class
+R3063:3063 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R3065:3065 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 3067:3067 <> f:25
+binder 3055:3067 <> H:26
+R3070:3078 Coq.Classes.RelationClasses <> Symmetric class
+R3082:3082 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 3070:3082 <> H0:27
+R3087:3095 Coq.Classes.RelationClasses <> Symmetric class
+R3099:3100 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R3098:3098 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R3101:3101 Coq.Classes.RelationPairs <> f:25 var
+inst 3150:3170 <> RelCompFun_Transitive
+R3178:3184 Coq.Classes.RelationPairs <> Measure class
+R3186:3186 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R3188:3188 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 3190:3190 <> f:28
+binder 3178:3190 <> H:29
+R3193:3202 Coq.Classes.RelationClasses <> Transitive class
+R3206:3206 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 3193:3206 <> H0:30
+R3211:3220 Coq.Classes.RelationClasses <> Transitive class
+R3224:3225 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R3223:3223 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R3226:3226 Coq.Classes.RelationPairs <> f:28 var
+inst 3275:3296 <> RelCompFun_Irreflexive
+R3304:3310 Coq.Classes.RelationPairs <> Measure class
+R3312:3312 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R3314:3314 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 3316:3316 <> f:31
+binder 3304:3316 <> H:32
+R3319:3329 Coq.Classes.RelationClasses <> Irreflexive class
+R3333:3333 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 3319:3333 <> H0:33
+R3338:3348 Coq.Classes.RelationClasses <> Irreflexive class
+R3352:3353 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R3351:3351 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R3354:3354 Coq.Classes.RelationPairs <> f:31 var
+inst 3403:3424 <> RelCompFun_Equivalence
+R3432:3438 Coq.Classes.RelationPairs <> Measure class
+R3440:3440 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R3442:3442 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 3444:3444 <> f:34
+binder 3432:3444 <> H:35
+R3447:3457 Coq.Classes.RelationClasses <> Equivalence class
+R3461:3461 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 3447:3461 <> H0:36
+R3466:3476 Coq.Classes.RelationClasses <> Equivalence class
+R3480:3481 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R3479:3479 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R3482:3482 Coq.Classes.RelationPairs <> f:34 var
+inst 3511:3532 <> RelCompFun_StrictOrder
+R3540:3546 Coq.Classes.RelationPairs <> Measure class
+R3548:3548 Coq.Classes.RelationPairs <> RelCompFun_Instances.A var
+R3550:3550 Coq.Classes.RelationPairs <> RelCompFun_Instances.B var
+binder 3552:3552 <> f:37
+binder 3540:3552 <> H:38
+R3555:3565 Coq.Classes.RelationClasses <> StrictOrder class
+R3569:3569 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+binder 3555:3569 <> H0:39
+R3574:3584 Coq.Classes.RelationClasses <> StrictOrder class
+R3588:3589 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R3587:3587 Coq.Classes.RelationPairs <> RelCompFun_Instances.R var
+R3590:3590 Coq.Classes.RelationPairs <> f:37 var
+R3605:3624 Coq.Classes.RelationPairs RelCompFun_Instances <> sec
+sec 3636:3652 <> RelProd_Instances
+binder 3667:3667 <> A:40
+binder 3678:3678 <> B:41
+R3694:3701 Coq.Relations.Relation_Definitions <> relation def
+R3703:3703 Coq.Classes.RelationPairs <> A:40 var
+binder 3689:3690 <> RA:42
+R3712:3719 Coq.Relations.Relation_Definitions <> relation def
+R3721:3721 Coq.Classes.RelationPairs <> B:41 var
+binder 3707:3708 <> RB:43
+inst 3744:3760 <> RelProd_Reflexive
+R3764:3772 Coq.Classes.RelationClasses <> Reflexive class
+R3776:3777 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+binder 3764:3777 <> H:44
+R3780:3788 Coq.Classes.RelationClasses <> Reflexive class
+R3792:3793 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+binder 3780:3793 <> H0:45
+R3798:3806 Coq.Classes.RelationClasses <> Reflexive class
+R3811:3811 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R3809:3810 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R3812:3813 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 3862:3878 <> RelProd_Symmetric
+R3882:3890 Coq.Classes.RelationClasses <> Symmetric class
+R3894:3895 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+binder 3882:3895 <> H:46
+R3898:3906 Coq.Classes.RelationClasses <> Symmetric class
+R3910:3911 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+binder 3898:3911 <> H0:47
+R3918:3926 Coq.Classes.RelationClasses <> Symmetric class
+R3931:3931 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R3929:3930 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R3932:3933 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 3982:3999 <> RelProd_Transitive
+R4015:4024 Coq.Classes.RelationClasses <> Transitive class
+R4028:4029 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+binder 4015:4029 <> H:48
+R4032:4041 Coq.Classes.RelationClasses <> Transitive class
+R4045:4046 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+binder 4032:4046 <> H0:49
+R4051:4060 Coq.Classes.RelationClasses <> Transitive class
+R4065:4065 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4063:4064 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4066:4067 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 4124:4142 <> RelProd_Equivalence
+R4157:4167 Coq.Classes.RelationClasses <> Equivalence class
+R4171:4172 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+binder 4157:4172 <> H:50
+R4175:4185 Coq.Classes.RelationClasses <> Equivalence class
+R4189:4190 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+binder 4175:4190 <> H0:51
+R4195:4205 Coq.Classes.RelationClasses <> Equivalence class
+R4210:4210 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4208:4209 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4211:4212 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+prf 4225:4238 <> FstRel_ProdRel
+R4246:4265 Coq.Classes.RelationClasses <> relation_equivalence def
+R4270:4273 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@1' not
+R4268:4269 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4279:4280 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4300:4300 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4277:4278 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4291:4291 Coq.Classes.RelationPairs <> RelProd_Instances.B var
+R4296:4299 Coq.Init.Logic <> True ind
+prf 4341:4354 <> SndRel_ProdRel
+R4362:4381 Coq.Classes.RelationClasses <> relation_equivalence def
+R4386:4389 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@2' not
+R4384:4385 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R4393:4393 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4412:4415 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4404:4404 Coq.Classes.RelationPairs <> RelProd_Instances.A var
+R4408:4411 Coq.Init.Logic <> True ind
+R4416:4417 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 4468:4477 <> FstRel_sub
+R4485:4495 Coq.Classes.RelationClasses <> subrelation class
+R4508:4511 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@1' not
+R4506:4507 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4500:4500 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4498:4499 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4501:4502 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 4560:4569 <> SndRel_sub
+R4577:4587 Coq.Classes.RelationClasses <> subrelation class
+R4600:4603 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@2' not
+R4598:4599 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R4592:4592 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4590:4591 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4593:4594 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 4654:4664 <> pair_compat
+R4672:4677 Coq.Classes.Morphisms <> Proper class
+R4700:4703 Coq.Init.Datatypes <> pair constr
+R4682:4684 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4680:4681 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4687:4690 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4685:4686 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R4693:4693 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4691:4692 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4694:4695 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 4758:4767 <> fst_compat
+R4775:4780 Coq.Classes.Morphisms <> Proper class
+R4797:4799 Coq.Classes.RelationPairs <> Fst abbrev
+R4788:4792 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4785:4785 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4783:4784 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4786:4787 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R4793:4794 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+inst 4891:4900 <> snd_compat
+R4908:4913 Coq.Classes.Morphisms <> Proper class
+R4930:4932 Coq.Classes.RelationPairs <> Snd abbrev
+R4921:4925 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4918:4918 Coq.Classes.RelationPairs <> ::signature_scope:x_'*'_x not
+R4916:4917 Coq.Classes.RelationPairs <> RelProd_Instances.RA var
+R4919:4920 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R4926:4927 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+inst 5024:5040 <> RelCompFun_compat
+R5046:5047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5045:5045 Coq.Classes.RelationPairs <> RelProd_Instances.A var
+R5048:5048 Coq.Classes.RelationPairs <> RelProd_Instances.B var
+binder 5043:5043 <> f:52
+R5064:5069 Coq.Classes.Morphisms <> Proper class
+R5076:5078 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5081:5083 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5088:5089 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+binder 5074:5075 <> Ri:53
+binder 5084:5085 <> Ro:54
+binder 5064:5089 <> H:55
+R5098:5103 Coq.Classes.Morphisms <> Proper class
+R5129:5130 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R5127:5128 Coq.Classes.RelationPairs <> RelProd_Instances.RB var
+R5131:5131 Coq.Classes.RelationPairs <> f:52 var
+R5111:5113 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5108:5109 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R5106:5107 Coq.Classes.RelationPairs <> Ri:53 var
+R5110:5110 Coq.Classes.RelationPairs <> f:52 var
+R5119:5121 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5116:5117 Coq.Classes.RelationPairs <> ::signature_scope:x_'@@'_x not
+R5114:5115 Coq.Classes.RelationPairs <> Ri:53 var
+R5118:5118 Coq.Classes.RelationPairs <> f:52 var
+R5122:5123 Coq.Classes.RelationPairs <> Ro:54 var
+R5161:5170 Coq.Classes.RelationPairs <> RelCompFun def
+R5194:5210 Coq.Classes.RelationPairs RelProd_Instances <> sec
+R5236:5242 Coq.Classes.RelationPairs <> RelProd def
+R5244:5253 Coq.Classes.RelationPairs <> RelCompFun def
+R5288:5294 Coq.Classes.RelationPairs <> RelProd def

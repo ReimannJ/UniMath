@@ -1,0 +1,1063 @@
+DIGEST e5611ebaf5c7d75b3863085dd998a474
+FCoq.Floats.SpecFloat
+R691:696 Coq.ZArith.ZArith <> <> lib
+R698:707 Coq.Floats.FloatClass <> <> lib
+ind 1037:1046 <> spec_float
+constr 1055:1063 <> S754_zero
+constr 1080:1092 <> S754_infinity
+constr 1109:1116 <> S754_nan
+constr 1122:1132 <> S754_finite
+R1070:1073 Coq.Init.Datatypes <> bool ind
+binder 1066:1066 <> s:3
+R1099:1102 Coq.Init.Datatypes <> bool ind
+binder 1095:1095 <> s:4
+R1139:1142 Coq.Init.Datatypes <> bool ind
+binder 1135:1135 <> s:5
+R1150:1157 Coq.Numbers.BinNums <> positive ind
+binder 1146:1146 <> m:6
+R1165:1165 Coq.Numbers.BinNums <> Z ind
+binder 1161:1161 <> e:7
+sec 1399:1406 <> FloatOps
+var 1420:1423 FloatOps prec
+var 1425:1428 FloatOps emax
+R1432:1432 Coq.Numbers.BinNums <> Z ind
+def 1449:1452 <> emin
+R1464:1464 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1459:1459 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1460:1463 Coq.Floats.SpecFloat <> FloatOps.emax var
+R1465:1468 Coq.Floats.SpecFloat <> FloatOps.prec var
+def 1487:1490 <> fexp
+binder 1492:1492 <> e:10
+R1497:1501 Coq.ZArith.BinInt Z max def
+R1505:1507 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1504:1504 Coq.Floats.SpecFloat <> e:10 var
+R1508:1511 Coq.Floats.SpecFloat <> FloatOps.prec var
+R1514:1517 Coq.Floats.SpecFloat <> emin def
+sec 1531:1538 FloatOps Zdigits2
+def 1554:1564 <> digits2_pos
+R1571:1578 Coq.Numbers.BinNums <> positive ind
+binder 1567:1567 <> n:11
+R1583:1590 Coq.Numbers.BinNums <> positive ind
+R1607:1607 Coq.Floats.SpecFloat <> n:11 var
+R1622:1623 Coq.Numbers.BinNums <> xH constr
+R1628:1629 Coq.Numbers.BinNums <> xH constr
+R1639:1640 Coq.Numbers.BinNums <> xO constr
+R1647:1654 Coq.PArith.BinPos Pos succ def
+R1657:1667 Coq.Floats.SpecFloat <> digits2_pos:12 def
+R1680:1681 Coq.Numbers.BinNums <> xI constr
+R1688:1695 Coq.PArith.BinPos Pos succ def
+R1698:1708 Coq.Floats.SpecFloat <> digits2_pos:12 def
+def 1740:1747 <> Zdigits2
+binder 1749:1749 <> n:14
+R1766:1766 Coq.Floats.SpecFloat <> n:14 var
+R1781:1782 Coq.Numbers.BinNums <> Z0 constr
+R1787:1787 Coq.Floats.SpecFloat <> n:14 var
+R1797:1800 Coq.Numbers.BinNums <> Zpos constr
+R1807:1810 Coq.Numbers.BinNums <> Zpos constr
+R1813:1823 Coq.Floats.SpecFloat <> digits2_pos def
+R1836:1839 Coq.Numbers.BinNums <> Zneg constr
+R1846:1849 Coq.Numbers.BinNums <> Zpos constr
+R1852:1862 Coq.Floats.SpecFloat <> digits2_pos def
+R1884:1891 Coq.Floats.SpecFloat FloatOps.Zdigits2 <> sec
+sec 1905:1915 FloatOps ValidBinary
+def 1933:1950 <> canonical_mantissa
+binder 1952:1952 <> m:16
+binder 1954:1954 <> e:17
+R1965:1972 Coq.ZArith.Zbool <> Zeq_bool def
+R1975:1978 Coq.Floats.SpecFloat <> fexp def
+R2001:2003 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1981:1984 Coq.Numbers.BinNums <> Zpos constr
+R1987:1997 Coq.Floats.SpecFloat <> digits2_pos def
+R1999:1999 Coq.Floats.SpecFloat <> m:16 var
+R2004:2004 Coq.Floats.SpecFloat <> e:17 var
+R2008:2008 Coq.Floats.SpecFloat <> e:17 var
+def 2027:2033 <> bounded
+binder 2035:2035 <> m:18
+binder 2037:2037 <> e:19
+R2048:2051 Coq.Init.Datatypes <> andb def
+R2079:2086 Coq.ZArith.Zbool <> Zle_bool abbrev
+R2088:2088 Coq.Floats.SpecFloat <> e:19 var
+R2095:2097 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2091:2094 Coq.Floats.SpecFloat <> FloatOps.emax var
+R2098:2101 Coq.Floats.SpecFloat <> FloatOps.prec var
+R2054:2071 Coq.Floats.SpecFloat <> canonical_mantissa def
+R2073:2073 Coq.Floats.SpecFloat <> m:18 var
+R2075:2075 Coq.Floats.SpecFloat <> e:19 var
+def 2122:2133 <> valid_binary
+binder 2135:2135 <> x:20
+R2152:2152 Coq.Floats.SpecFloat <> x:20 var
+R2167:2177 Coq.Floats.SpecFloat <> S754_finite constr
+R2188:2194 Coq.Floats.SpecFloat <> bounded def
+R2213:2216 Coq.Init.Datatypes <> true constr
+R2235:2245 Coq.Floats.SpecFloat FloatOps.ValidBinary <> sec
+sec 2259:2262 FloatOps Iter
+binder 2278:2278 <> A:22
+var 2303:2303 FloatOps.Iter f
+R2308:2311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2307:2307 Coq.Floats.SpecFloat <> FloatOps.Iter.A var
+R2312:2312 Coq.Floats.SpecFloat <> FloatOps.Iter.A var
+def 2330:2337 <> iter_pos
+R2344:2351 Coq.Numbers.BinNums <> positive ind
+binder 2340:2340 <> n:24
+R2359:2359 Coq.Floats.SpecFloat <> FloatOps.Iter.A var
+binder 2355:2355 <> x:25
+R2375:2375 Coq.Floats.SpecFloat <> FloatOps.Iter.A var
+R2392:2392 Coq.Floats.SpecFloat <> n:24 var
+R2407:2408 Coq.Numbers.BinNums <> xI constr
+R2416:2423 Coq.Floats.SpecFloat <> iter_pos:26 def
+R2429:2436 Coq.Floats.SpecFloat <> iter_pos:26 def
+R2442:2442 Coq.Floats.SpecFloat <> FloatOps.Iter.f var
+R2444:2444 Coq.Floats.SpecFloat <> x:25 var
+R2456:2457 Coq.Numbers.BinNums <> xO constr
+R2465:2472 Coq.Floats.SpecFloat <> iter_pos:26 def
+R2478:2485 Coq.Floats.SpecFloat <> iter_pos:26 def
+R2490:2490 Coq.Floats.SpecFloat <> x:25 var
+R2501:2502 Coq.Numbers.BinNums <> xH constr
+R2507:2507 Coq.Floats.SpecFloat <> FloatOps.Iter.f var
+R2509:2509 Coq.Floats.SpecFloat <> x:25 var
+R2528:2531 Coq.Floats.SpecFloat FloatOps.Iter <> sec
+sec 2545:2552 FloatOps Rounding
+ind 2569:2576 <> location
+constr 2581:2589 <> loc_Exact
+constr 2593:2603 <> loc_Inexact
+R2617:2620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2607:2616 Coq.Init.Datatypes <> comparison ind
+R2621:2628 Coq.Floats.SpecFloat <> location:28 ind
+rec 2643:2652 <> shr_record
+proj 2659:2663 <> shr_m
+proj 2671:2675 <> shr_r
+proj 2686:2690 <> shr_s
+R2667:2667 Coq.Numbers.BinNums <> Z ind
+R2679:2682 Coq.Init.Datatypes <> bool ind
+R2694:2697 Coq.Init.Datatypes <> bool ind
+def 2718:2722 <> shr_1
+binder 2724:2726 <> mrs:34
+R2770:2772 Coq.Floats.SpecFloat <> mrs:34 var
+R2743:2758 Coq.Floats.SpecFloat <> Build_shr_record constr
+R2792:2794 Coq.Init.Datatypes <> orb def
+binder 2787:2787 <> s:36
+R2830:2831 Coq.Numbers.BinNums <> Z0 constr
+R2836:2851 Coq.Floats.SpecFloat <> Build_shr_record constr
+R2853:2854 Coq.Numbers.BinNums <> Z0 constr
+R2856:2860 Coq.Init.Datatypes <> false constr
+R2862:2862 Coq.Floats.SpecFloat <> s:36 var
+R2872:2875 Coq.Numbers.BinNums <> Zpos constr
+R2877:2878 Coq.Numbers.BinNums <> xH constr
+R2883:2898 Coq.Floats.SpecFloat <> Build_shr_record constr
+R2900:2901 Coq.Numbers.BinNums <> Z0 constr
+R2903:2906 Coq.Init.Datatypes <> true constr
+R2908:2908 Coq.Floats.SpecFloat <> s:36 var
+R2918:2921 Coq.Numbers.BinNums <> Zpos constr
+R2924:2925 Coq.Numbers.BinNums <> xO constr
+R2933:2948 Coq.Floats.SpecFloat <> Build_shr_record constr
+R2951:2954 Coq.Numbers.BinNums <> Zpos constr
+R2959:2963 Coq.Init.Datatypes <> false constr
+R2965:2965 Coq.Floats.SpecFloat <> s:36 var
+R2975:2978 Coq.Numbers.BinNums <> Zpos constr
+R2981:2982 Coq.Numbers.BinNums <> xI constr
+R2990:3005 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3008:3011 Coq.Numbers.BinNums <> Zpos constr
+R3016:3019 Coq.Init.Datatypes <> true constr
+R3021:3021 Coq.Floats.SpecFloat <> s:36 var
+R3031:3034 Coq.Numbers.BinNums <> Zneg constr
+R3036:3037 Coq.Numbers.BinNums <> xH constr
+R3042:3057 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3059:3060 Coq.Numbers.BinNums <> Z0 constr
+R3062:3065 Coq.Init.Datatypes <> true constr
+R3067:3067 Coq.Floats.SpecFloat <> s:36 var
+R3077:3080 Coq.Numbers.BinNums <> Zneg constr
+R3083:3084 Coq.Numbers.BinNums <> xO constr
+R3092:3107 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3110:3113 Coq.Numbers.BinNums <> Zneg constr
+R3118:3122 Coq.Init.Datatypes <> false constr
+R3124:3124 Coq.Floats.SpecFloat <> s:36 var
+R3134:3137 Coq.Numbers.BinNums <> Zneg constr
+R3140:3141 Coq.Numbers.BinNums <> xI constr
+R3149:3164 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3167:3170 Coq.Numbers.BinNums <> Zneg constr
+R3175:3178 Coq.Init.Datatypes <> true constr
+R3180:3180 Coq.Floats.SpecFloat <> s:36 var
+def 3209:3225 <> loc_of_shr_record
+binder 3227:3229 <> mrs:38
+R3246:3248 Coq.Floats.SpecFloat <> mrs:38 var
+R3263:3278 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3288:3292 Coq.Init.Datatypes <> false constr
+R3282:3286 Coq.Init.Datatypes <> false constr
+R3297:3305 Coq.Floats.SpecFloat <> loc_Exact constr
+R3315:3330 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3340:3343 Coq.Init.Datatypes <> true constr
+R3334:3338 Coq.Init.Datatypes <> false constr
+R3348:3358 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3360:3361 Coq.Init.Datatypes <> Lt constr
+R3371:3386 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3395:3399 Coq.Init.Datatypes <> false constr
+R3390:3393 Coq.Init.Datatypes <> true constr
+R3404:3414 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3416:3417 Coq.Init.Datatypes <> Eq constr
+R3427:3442 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3451:3454 Coq.Init.Datatypes <> true constr
+R3446:3449 Coq.Init.Datatypes <> true constr
+R3459:3469 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3471:3472 Coq.Init.Datatypes <> Gt constr
+def 3501:3517 <> shr_record_of_loc
+binder 3519:3519 <> m:40
+binder 3521:3521 <> l:41
+R3538:3538 Coq.Floats.SpecFloat <> l:41 var
+R3553:3561 Coq.Floats.SpecFloat <> loc_Exact constr
+R3566:3581 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3583:3583 Coq.Floats.SpecFloat <> m:40 var
+R3585:3589 Coq.Init.Datatypes <> false constr
+R3591:3595 Coq.Init.Datatypes <> false constr
+R3605:3615 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3617:3618 Coq.Init.Datatypes <> Lt constr
+R3623:3638 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3640:3640 Coq.Floats.SpecFloat <> m:40 var
+R3642:3646 Coq.Init.Datatypes <> false constr
+R3648:3651 Coq.Init.Datatypes <> true constr
+R3661:3671 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3673:3674 Coq.Init.Datatypes <> Eq constr
+R3679:3694 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3696:3696 Coq.Floats.SpecFloat <> m:40 var
+R3698:3701 Coq.Init.Datatypes <> true constr
+R3703:3707 Coq.Init.Datatypes <> false constr
+R3717:3727 Coq.Floats.SpecFloat <> loc_Inexact constr
+R3729:3730 Coq.Init.Datatypes <> Gt constr
+R3735:3750 Coq.Floats.SpecFloat <> Build_shr_record constr
+R3752:3752 Coq.Floats.SpecFloat <> m:40 var
+R3754:3757 Coq.Init.Datatypes <> true constr
+R3759:3762 Coq.Init.Datatypes <> true constr
+def 3791:3793 <> shr
+binder 3795:3797 <> mrs:43
+binder 3799:3799 <> e:44
+binder 3801:3801 <> n:45
+R3818:3818 Coq.Floats.SpecFloat <> n:45 var
+R3833:3836 Coq.Numbers.BinNums <> Zpos constr
+R3843:3843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3864:3865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3875:3875 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3844:3851 Coq.Floats.SpecFloat <> iter_pos def
+R3861:3863 Coq.Floats.SpecFloat <> mrs:43 var
+R3853:3857 Coq.Floats.SpecFloat <> shr_1 def
+R3868:3870 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3867:3867 Coq.Floats.SpecFloat <> e:44 var
+R3871:3871 Coq.Floats.SpecFloat <> n:45 var
+R3890:3890 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3894:3895 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3897:3897 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3891:3893 Coq.Floats.SpecFloat <> mrs:43 var
+R3896:3896 Coq.Floats.SpecFloat <> e:44 var
+def 3926:3933 <> shr_fexp
+binder 3935:3935 <> m:47
+binder 3937:3937 <> e:48
+binder 3939:3939 <> l:49
+R3950:3952 Coq.Floats.SpecFloat <> shr def
+R3955:3971 Coq.Floats.SpecFloat <> shr_record_of_loc def
+R3973:3973 Coq.Floats.SpecFloat <> m:47 var
+R3975:3975 Coq.Floats.SpecFloat <> l:49 var
+R3978:3978 Coq.Floats.SpecFloat <> e:48 var
+R4002:4004 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3981:3984 Coq.Floats.SpecFloat <> fexp def
+R3997:3999 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3987:3994 Coq.Floats.SpecFloat <> Zdigits2 def
+R3996:3996 Coq.Floats.SpecFloat <> m:47 var
+R4000:4000 Coq.Floats.SpecFloat <> e:48 var
+R4005:4005 Coq.Floats.SpecFloat <> e:48 var
+def 4025:4042 <> round_nearest_even
+binder 4044:4045 <> mx:50
+binder 4047:4048 <> lx:51
+R4065:4066 Coq.Floats.SpecFloat <> lx:51 var
+R4081:4089 Coq.Floats.SpecFloat <> loc_Exact constr
+R4094:4095 Coq.Floats.SpecFloat <> mx:50 var
+R4105:4115 Coq.Floats.SpecFloat <> loc_Inexact constr
+R4117:4118 Coq.Init.Datatypes <> Lt constr
+R4123:4124 Coq.Floats.SpecFloat <> mx:50 var
+R4134:4144 Coq.Floats.SpecFloat <> loc_Inexact constr
+R4146:4147 Coq.Init.Datatypes <> Eq constr
+R4155:4160 Coq.ZArith.BinInt Z even def
+R4162:4163 Coq.Floats.SpecFloat <> mx:50 var
+R4181:4183 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4179:4180 Coq.Floats.SpecFloat <> mx:50 var
+R4170:4171 Coq.Floats.SpecFloat <> mx:50 var
+R4197:4207 Coq.Floats.SpecFloat <> loc_Inexact constr
+R4209:4210 Coq.Init.Datatypes <> Gt constr
+R4218:4220 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4216:4217 Coq.Floats.SpecFloat <> mx:50 var
+def 4253:4268 <> binary_round_aux
+binder 4270:4271 <> sx:53
+binder 4273:4274 <> mx:54
+binder 4276:4277 <> ex:55
+binder 4279:4280 <> lx:56
+R4310:4317 Coq.Floats.SpecFloat <> shr_fexp def
+R4319:4320 Coq.Floats.SpecFloat <> mx:54 var
+R4322:4323 Coq.Floats.SpecFloat <> ex:55 var
+R4325:4326 Coq.Floats.SpecFloat <> lx:56 var
+R4296:4296 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4301:4302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4305:4305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4358:4365 Coq.Floats.SpecFloat <> shr_fexp def
+R4368:4385 Coq.Floats.SpecFloat <> round_nearest_even def
+R4388:4392 Coq.Floats.SpecFloat <> shr_m proj
+R4401:4417 Coq.Floats.SpecFloat <> loc_of_shr_record def
+R4429:4437 Coq.Floats.SpecFloat <> loc_Exact constr
+R4342:4342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4348:4349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4353:4353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4454:4458 Coq.Floats.SpecFloat <> shr_m proj
+R4479:4480 Coq.Numbers.BinNums <> Z0 constr
+R4485:4493 Coq.Floats.SpecFloat <> S754_zero constr
+R4495:4496 Coq.Floats.SpecFloat <> sx:53 var
+R4506:4509 Coq.Numbers.BinNums <> Zpos constr
+R4519:4526 Coq.ZArith.Zbool <> Zle_bool abbrev
+R4537:4539 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4533:4536 Coq.Floats.SpecFloat <> FloatOps.emax var
+R4540:4543 Coq.Floats.SpecFloat <> FloatOps.prec var
+R4577:4589 Coq.Floats.SpecFloat <> S754_infinity constr
+R4591:4592 Coq.Floats.SpecFloat <> sx:53 var
+R4551:4561 Coq.Floats.SpecFloat <> S754_finite constr
+R4563:4564 Coq.Floats.SpecFloat <> sx:53 var
+R4607:4614 Coq.Floats.SpecFloat <> S754_nan constr
+def 4643:4651 <> shl_align
+binder 4653:4654 <> mx:57
+binder 4656:4657 <> ex:58
+binder 4659:4661 <> ex':59
+R4682:4684 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4679:4681 Coq.Floats.SpecFloat <> ex':59 var
+R4685:4686 Coq.Floats.SpecFloat <> ex:58 var
+R4704:4707 Coq.Numbers.BinNums <> Zneg constr
+R4714:4714 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4729:4730 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4734:4734 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4715:4723 Coq.ZArith.Zpower <> shift_pos def
+R4727:4728 Coq.Floats.SpecFloat <> mx:57 var
+R4731:4733 Coq.Floats.SpecFloat <> ex':59 var
+R4749:4749 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4752:4753 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4756:4756 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4750:4751 Coq.Floats.SpecFloat <> mx:57 var
+R4754:4755 Coq.Floats.SpecFloat <> ex:58 var
+def 4785:4796 <> binary_round
+binder 4798:4799 <> sx:60
+binder 4801:4802 <> mx:61
+binder 4804:4805 <> ex:62
+R4833:4841 Coq.Floats.SpecFloat <> shl_align def
+R4843:4844 Coq.Floats.SpecFloat <> mx:61 var
+R4846:4847 Coq.Floats.SpecFloat <> ex:62 var
+R4850:4853 Coq.Floats.SpecFloat <> fexp def
+R4877:4879 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4856:4859 Coq.Numbers.BinNums <> Zpos constr
+R4862:4872 Coq.Floats.SpecFloat <> digits2_pos def
+R4874:4875 Coq.Floats.SpecFloat <> mx:61 var
+R4880:4881 Coq.Floats.SpecFloat <> ex:62 var
+R4821:4821 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4824:4825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4828:4828 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4893:4908 Coq.Floats.SpecFloat <> binary_round_aux def
+R4910:4911 Coq.Floats.SpecFloat <> sx:60 var
+R4914:4917 Coq.Numbers.BinNums <> Zpos constr
+R4926:4934 Coq.Floats.SpecFloat <> loc_Exact constr
+def 4953:4968 <> binary_normalize
+binder 4970:4970 <> m:63
+binder 4972:4972 <> e:64
+binder 4974:4978 <> szero:65
+R4995:4995 Coq.Floats.SpecFloat <> m:63 var
+R5010:5011 Coq.Numbers.BinNums <> Z0 constr
+R5016:5024 Coq.Floats.SpecFloat <> S754_zero constr
+R5026:5030 Coq.Floats.SpecFloat <> szero:65 var
+R5040:5043 Coq.Numbers.BinNums <> Zpos constr
+R5050:5061 Coq.Floats.SpecFloat <> binary_round def
+R5063:5067 Coq.Init.Datatypes <> false constr
+R5069:5069 Coq.Floats.SpecFloat <> m:63 var
+R5071:5071 Coq.Floats.SpecFloat <> e:64 var
+R5081:5084 Coq.Numbers.BinNums <> Zneg constr
+R5091:5102 Coq.Floats.SpecFloat <> binary_round def
+R5104:5107 Coq.Init.Datatypes <> true constr
+R5109:5109 Coq.Floats.SpecFloat <> m:63 var
+R5111:5111 Coq.Floats.SpecFloat <> e:64 var
+R5130:5137 Coq.Floats.SpecFloat FloatOps.Rounding <> sec
+def 5185:5189 <> SFopp
+binder 5191:5191 <> x:67
+R5206:5206 Coq.Floats.SpecFloat <> x:67 var
+R5219:5226 Coq.Floats.SpecFloat <> S754_nan constr
+R5231:5238 Coq.Floats.SpecFloat <> S754_nan constr
+R5246:5258 Coq.Floats.SpecFloat <> S754_infinity constr
+R5266:5278 Coq.Floats.SpecFloat <> S754_infinity constr
+R5281:5284 Coq.Init.Datatypes <> negb def
+R5296:5306 Coq.Floats.SpecFloat <> S754_finite constr
+R5314:5315 Coq.Init.Logic <> ex ind
+R5320:5330 Coq.Floats.SpecFloat <> S754_finite constr
+R5333:5336 Coq.Init.Datatypes <> negb def
+R5354:5362 Coq.Floats.SpecFloat <> S754_zero constr
+R5370:5378 Coq.Floats.SpecFloat <> S754_zero constr
+R5381:5384 Coq.Init.Datatypes <> negb def
+def 5413:5417 <> SFabs
+binder 5419:5419 <> x:69
+R5434:5434 Coq.Floats.SpecFloat <> x:69 var
+R5447:5454 Coq.Floats.SpecFloat <> S754_nan constr
+R5459:5466 Coq.Floats.SpecFloat <> S754_nan constr
+R5474:5486 Coq.Floats.SpecFloat <> S754_infinity constr
+R5494:5506 Coq.Floats.SpecFloat <> S754_infinity constr
+R5508:5512 Coq.Init.Datatypes <> false constr
+R5520:5530 Coq.Floats.SpecFloat <> S754_finite constr
+R5538:5539 Coq.Init.Logic <> ex ind
+R5544:5554 Coq.Floats.SpecFloat <> S754_finite constr
+R5556:5560 Coq.Init.Datatypes <> false constr
+R5574:5582 Coq.Floats.SpecFloat <> S754_zero constr
+R5590:5598 Coq.Floats.SpecFloat <> S754_zero constr
+R5600:5604 Coq.Init.Datatypes <> false constr
+def 5629:5637 <> SFcompare
+binder 5639:5640 <> f1:71
+binder 5642:5643 <> f2:72
+R5662:5663 Coq.Floats.SpecFloat <> f2:72 var
+R5658:5659 Coq.Floats.SpecFloat <> f1:71 var
+R5676:5683 Coq.Floats.SpecFloat <> S754_nan constr
+R5694:5701 Coq.Floats.SpecFloat <> S754_nan constr
+R5706:5709 Coq.Init.Datatypes <> None constr
+R5706:5709 Coq.Init.Datatypes <> None constr
+R5717:5729 Coq.Floats.SpecFloat <> S754_infinity constr
+R5735:5747 Coq.Floats.SpecFloat <> S754_infinity constr
+R5761:5764 Coq.Init.Datatypes <> Some constr
+R5792:5795 Coq.Init.Datatypes <> true constr
+R5798:5801 Coq.Init.Datatypes <> true constr
+R5806:5807 Coq.Init.Datatypes <> Eq constr
+R5817:5821 Coq.Init.Datatypes <> false constr
+R5824:5828 Coq.Init.Datatypes <> false constr
+R5833:5834 Coq.Init.Datatypes <> Eq constr
+R5844:5847 Coq.Init.Datatypes <> true constr
+R5850:5854 Coq.Init.Datatypes <> false constr
+R5859:5860 Coq.Init.Datatypes <> Lt constr
+R5870:5874 Coq.Init.Datatypes <> false constr
+R5877:5880 Coq.Init.Datatypes <> true constr
+R5885:5886 Coq.Init.Datatypes <> Gt constr
+R5904:5916 Coq.Floats.SpecFloat <> S754_infinity constr
+R5926:5929 Coq.Init.Datatypes <> Some constr
+R5950:5951 Coq.Init.Datatypes <> Gt constr
+R5942:5943 Coq.Init.Datatypes <> Lt constr
+R5963:5975 Coq.Floats.SpecFloat <> S754_infinity constr
+R5982:5985 Coq.Init.Datatypes <> Some constr
+R6006:6007 Coq.Init.Datatypes <> Lt constr
+R5998:5999 Coq.Init.Datatypes <> Gt constr
+R6016:6026 Coq.Floats.SpecFloat <> S754_finite constr
+R6035:6043 Coq.Floats.SpecFloat <> S754_zero constr
+R6050:6053 Coq.Init.Datatypes <> Some constr
+R6074:6075 Coq.Init.Datatypes <> Gt constr
+R6066:6067 Coq.Init.Datatypes <> Lt constr
+R6084:6092 Coq.Floats.SpecFloat <> S754_zero constr
+R6097:6107 Coq.Floats.SpecFloat <> S754_finite constr
+R6118:6121 Coq.Init.Datatypes <> Some constr
+R6142:6143 Coq.Init.Datatypes <> Lt constr
+R6134:6135 Coq.Init.Datatypes <> Gt constr
+R6152:6160 Coq.Floats.SpecFloat <> S754_zero constr
+R6165:6173 Coq.Floats.SpecFloat <> S754_zero constr
+R6180:6183 Coq.Init.Datatypes <> Some constr
+R6185:6186 Coq.Init.Datatypes <> Eq constr
+R6194:6204 Coq.Floats.SpecFloat <> S754_finite constr
+R6216:6226 Coq.Floats.SpecFloat <> S754_finite constr
+R6246:6249 Coq.Init.Datatypes <> Some constr
+R6277:6280 Coq.Init.Datatypes <> true constr
+R6283:6287 Coq.Init.Datatypes <> false constr
+R6292:6293 Coq.Init.Datatypes <> Lt constr
+R6303:6307 Coq.Init.Datatypes <> false constr
+R6310:6313 Coq.Init.Datatypes <> true constr
+R6318:6319 Coq.Init.Datatypes <> Gt constr
+R6329:6333 Coq.Init.Datatypes <> false constr
+R6336:6340 Coq.Init.Datatypes <> false constr
+R6359:6367 Coq.ZArith.BinInt Z compare def
+R6390:6391 Coq.Init.Datatypes <> Lt constr
+R6396:6397 Coq.Init.Datatypes <> Lt constr
+R6409:6410 Coq.Init.Datatypes <> Gt constr
+R6415:6416 Coq.Init.Datatypes <> Gt constr
+R6428:6429 Coq.Init.Datatypes <> Eq constr
+R6434:6441 Coq.PArith.BinPos <> Pcompare abbrev
+R6449:6450 Coq.Init.Datatypes <> Eq constr
+R6472:6475 Coq.Init.Datatypes <> true constr
+R6478:6481 Coq.Init.Datatypes <> true constr
+R6500:6508 Coq.ZArith.BinInt Z compare def
+R6531:6532 Coq.Init.Datatypes <> Lt constr
+R6537:6538 Coq.Init.Datatypes <> Gt constr
+R6550:6551 Coq.Init.Datatypes <> Gt constr
+R6556:6557 Coq.Init.Datatypes <> Lt constr
+R6569:6570 Coq.Init.Datatypes <> Eq constr
+R6575:6581 Coq.Init.Datatypes <> CompOpp def
+R6584:6591 Coq.PArith.BinPos <> Pcompare abbrev
+R6599:6600 Coq.Init.Datatypes <> Eq constr
+def 6648:6652 <> SFeqb
+binder 6654:6655 <> f1:79
+binder 6657:6658 <> f2:80
+R6673:6681 Coq.Floats.SpecFloat <> SFcompare def
+R6683:6684 Coq.Floats.SpecFloat <> f1:79 var
+R6686:6687 Coq.Floats.SpecFloat <> f2:80 var
+R6700:6703 Coq.Init.Datatypes <> Some constr
+R6705:6706 Coq.Init.Datatypes <> Eq constr
+R6711:6714 Coq.Init.Datatypes <> true constr
+R6727:6731 Coq.Init.Datatypes <> false constr
+def 6756:6760 <> SFltb
+binder 6762:6763 <> f1:81
+binder 6765:6766 <> f2:82
+R6781:6789 Coq.Floats.SpecFloat <> SFcompare def
+R6791:6792 Coq.Floats.SpecFloat <> f1:81 var
+R6794:6795 Coq.Floats.SpecFloat <> f2:82 var
+R6808:6811 Coq.Init.Datatypes <> Some constr
+R6813:6814 Coq.Init.Datatypes <> Lt constr
+R6819:6822 Coq.Init.Datatypes <> true constr
+R6835:6839 Coq.Init.Datatypes <> false constr
+def 6864:6868 <> SFleb
+binder 6870:6871 <> f1:83
+binder 6873:6874 <> f2:84
+R6889:6897 Coq.Floats.SpecFloat <> SFcompare def
+R6899:6900 Coq.Floats.SpecFloat <> f1:83 var
+R6902:6903 Coq.Floats.SpecFloat <> f2:84 var
+R6916:6919 Coq.Init.Datatypes <> Some constr
+R6922:6923 Coq.Init.Datatypes <> Lt constr
+R6927:6928 Coq.Init.Datatypes <> Eq constr
+R6934:6937 Coq.Init.Datatypes <> true constr
+R6934:6937 Coq.Init.Datatypes <> true constr
+R6950:6954 Coq.Init.Datatypes <> false constr
+def 6979:6988 <> SFclassify
+binder 6990:6990 <> f:85
+R7005:7005 Coq.Floats.SpecFloat <> f:85 var
+R7018:7025 Coq.Floats.SpecFloat <> S754_nan constr
+R7030:7032 Coq.Floats.FloatClass <> NaN constr
+R7040:7052 Coq.Floats.SpecFloat <> S754_infinity constr
+R7054:7058 Coq.Init.Datatypes <> false constr
+R7063:7066 Coq.Floats.FloatClass <> PInf constr
+R7074:7086 Coq.Floats.SpecFloat <> S754_infinity constr
+R7088:7091 Coq.Init.Datatypes <> true constr
+R7096:7099 Coq.Floats.FloatClass <> NInf constr
+R7107:7115 Coq.Floats.SpecFloat <> S754_zero constr
+R7117:7121 Coq.Init.Datatypes <> false constr
+R7126:7130 Coq.Floats.FloatClass <> PZero constr
+R7138:7146 Coq.Floats.SpecFloat <> S754_zero constr
+R7148:7151 Coq.Init.Datatypes <> true constr
+R7156:7160 Coq.Floats.FloatClass <> NZero constr
+R7168:7178 Coq.Floats.SpecFloat <> S754_finite constr
+R7180:7184 Coq.Init.Datatypes <> false constr
+R7216:7219 Coq.PArith.BinPos <> ::positive_scope:x_'=?'_x not
+R7203:7213 Coq.Floats.SpecFloat <> digits2_pos def
+R7220:7227 Coq.ZArith.BinInt Z to_pos def
+R7229:7232 Coq.Floats.SpecFloat <> FloatOps.prec var
+R7268:7272 Coq.Floats.FloatClass <> PSubn constr
+R7249:7255 Coq.Floats.FloatClass <> PNormal constr
+R7280:7290 Coq.Floats.SpecFloat <> S754_finite constr
+R7292:7295 Coq.Init.Datatypes <> true constr
+R7327:7330 Coq.PArith.BinPos <> ::positive_scope:x_'=?'_x not
+R7314:7324 Coq.Floats.SpecFloat <> digits2_pos def
+R7331:7338 Coq.ZArith.BinInt Z to_pos def
+R7340:7343 Coq.Floats.SpecFloat <> FloatOps.prec var
+R7379:7383 Coq.Floats.FloatClass <> NSubn constr
+R7360:7366 Coq.Floats.FloatClass <> NNormal constr
+def 7408:7412 <> SFmul
+binder 7414:7414 <> x:87
+binder 7416:7416 <> y:88
+R7434:7434 Coq.Floats.SpecFloat <> y:88 var
+R7431:7431 Coq.Floats.SpecFloat <> x:87 var
+R7447:7454 Coq.Floats.SpecFloat <> S754_nan constr
+R7464:7471 Coq.Floats.SpecFloat <> S754_nan constr
+R7476:7483 Coq.Floats.SpecFloat <> S754_nan constr
+R7476:7483 Coq.Floats.SpecFloat <> S754_nan constr
+R7491:7503 Coq.Floats.SpecFloat <> S754_infinity constr
+R7509:7521 Coq.Floats.SpecFloat <> S754_infinity constr
+R7529:7541 Coq.Floats.SpecFloat <> S754_infinity constr
+R7544:7547 Coq.Init.Datatypes <> xorb def
+R7562:7574 Coq.Floats.SpecFloat <> S754_infinity constr
+R7580:7590 Coq.Floats.SpecFloat <> S754_finite constr
+R7602:7614 Coq.Floats.SpecFloat <> S754_infinity constr
+R7617:7620 Coq.Init.Datatypes <> xorb def
+R7635:7645 Coq.Floats.SpecFloat <> S754_finite constr
+R7655:7667 Coq.Floats.SpecFloat <> S754_infinity constr
+R7675:7687 Coq.Floats.SpecFloat <> S754_infinity constr
+R7690:7693 Coq.Init.Datatypes <> xorb def
+R7708:7720 Coq.Floats.SpecFloat <> S754_infinity constr
+R7725:7733 Coq.Floats.SpecFloat <> S754_zero constr
+R7740:7747 Coq.Floats.SpecFloat <> S754_nan constr
+R7755:7763 Coq.Floats.SpecFloat <> S754_zero constr
+R7768:7780 Coq.Floats.SpecFloat <> S754_infinity constr
+R7787:7794 Coq.Floats.SpecFloat <> S754_nan constr
+R7802:7812 Coq.Floats.SpecFloat <> S754_finite constr
+R7822:7830 Coq.Floats.SpecFloat <> S754_zero constr
+R7838:7846 Coq.Floats.SpecFloat <> S754_zero constr
+R7849:7852 Coq.Init.Datatypes <> xorb def
+R7867:7875 Coq.Floats.SpecFloat <> S754_zero constr
+R7881:7891 Coq.Floats.SpecFloat <> S754_finite constr
+R7903:7911 Coq.Floats.SpecFloat <> S754_zero constr
+R7914:7917 Coq.Init.Datatypes <> xorb def
+R7932:7940 Coq.Floats.SpecFloat <> S754_zero constr
+R7946:7954 Coq.Floats.SpecFloat <> S754_zero constr
+R7962:7970 Coq.Floats.SpecFloat <> S754_zero constr
+R7973:7976 Coq.Init.Datatypes <> xorb def
+R7991:8001 Coq.Floats.SpecFloat <> S754_finite constr
+R8009:8010 Coq.Init.Logic <> ex ind
+R8013:8023 Coq.Floats.SpecFloat <> S754_finite constr
+R8043:8058 Coq.Floats.SpecFloat <> binary_round_aux def
+R8061:8064 Coq.Init.Datatypes <> xorb def
+R8074:8077 Coq.Numbers.BinNums <> Zpos constr
+R8082:8084 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R8093:8095 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8100:8108 Coq.Floats.SpecFloat <> loc_Exact constr
+def 8133:8141 <> cond_Zopp
+R8148:8151 Coq.Init.Datatypes <> bool ind
+binder 8144:8144 <> b:91
+binder 8154:8154 <> m:92
+R8162:8162 Coq.Floats.SpecFloat <> b:91 var
+R8182:8182 Coq.Floats.SpecFloat <> m:92 var
+R8169:8173 Coq.ZArith.BinInt Z opp def
+R8175:8175 Coq.Floats.SpecFloat <> m:92 var
+def 8199:8203 <> SFadd
+binder 8205:8205 <> x:93
+binder 8207:8207 <> y:94
+R8225:8225 Coq.Floats.SpecFloat <> y:94 var
+R8222:8222 Coq.Floats.SpecFloat <> x:93 var
+R8238:8245 Coq.Floats.SpecFloat <> S754_nan constr
+R8255:8262 Coq.Floats.SpecFloat <> S754_nan constr
+R8267:8274 Coq.Floats.SpecFloat <> S754_nan constr
+R8267:8274 Coq.Floats.SpecFloat <> S754_nan constr
+R8282:8294 Coq.Floats.SpecFloat <> S754_infinity constr
+R8300:8312 Coq.Floats.SpecFloat <> S754_infinity constr
+R8329:8336 Coq.Bool.Bool <> eqb def
+R8356:8363 Coq.Floats.SpecFloat <> S754_nan constr
+R8349:8349 Coq.Floats.SpecFloat <> x:93 var
+R8371:8383 Coq.Floats.SpecFloat <> S754_infinity constr
+R8393:8393 Coq.Floats.SpecFloat <> x:93 var
+R8404:8416 Coq.Floats.SpecFloat <> S754_infinity constr
+R8423:8423 Coq.Floats.SpecFloat <> y:94 var
+R8431:8439 Coq.Floats.SpecFloat <> S754_zero constr
+R8445:8453 Coq.Floats.SpecFloat <> S754_zero constr
+R8470:8477 Coq.Bool.Bool <> eqb def
+R8503:8511 Coq.Floats.SpecFloat <> S754_zero constr
+R8513:8517 Coq.Init.Datatypes <> false constr
+R8490:8490 Coq.Floats.SpecFloat <> x:93 var
+R8525:8533 Coq.Floats.SpecFloat <> S754_zero constr
+R8543:8543 Coq.Floats.SpecFloat <> y:94 var
+R8554:8562 Coq.Floats.SpecFloat <> S754_zero constr
+R8569:8569 Coq.Floats.SpecFloat <> x:93 var
+R8577:8587 Coq.Floats.SpecFloat <> S754_finite constr
+R8595:8596 Coq.Init.Logic <> ex ind
+R8599:8609 Coq.Floats.SpecFloat <> S754_finite constr
+R8639:8643 Coq.ZArith.BinInt Z min def
+binder 8633:8634 <> ez:97
+R8660:8675 Coq.Floats.SpecFloat <> binary_normalize def
+R8678:8682 Coq.ZArith.BinInt <> Zplus abbrev
+R8685:8693 Coq.Floats.SpecFloat <> cond_Zopp def
+R8699:8702 Coq.Numbers.BinNums <> Zpos constr
+R8705:8707 Coq.Init.Datatypes <> fst def
+R8710:8718 Coq.Floats.SpecFloat <> shl_align def
+R8726:8727 Coq.Floats.SpecFloat <> ez:97 var
+R8734:8742 Coq.Floats.SpecFloat <> cond_Zopp def
+R8748:8751 Coq.Numbers.BinNums <> Zpos constr
+R8754:8756 Coq.Init.Datatypes <> fst def
+R8759:8767 Coq.Floats.SpecFloat <> shl_align def
+R8775:8776 Coq.Floats.SpecFloat <> ez:97 var
+R8791:8792 Coq.Floats.SpecFloat <> ez:97 var
+R8794:8798 Coq.Init.Datatypes <> false constr
+def 8823:8827 <> SFsub
+binder 8829:8829 <> x:98
+binder 8831:8831 <> y:99
+R8849:8849 Coq.Floats.SpecFloat <> y:99 var
+R8846:8846 Coq.Floats.SpecFloat <> x:98 var
+R8862:8869 Coq.Floats.SpecFloat <> S754_nan constr
+R8879:8886 Coq.Floats.SpecFloat <> S754_nan constr
+R8891:8898 Coq.Floats.SpecFloat <> S754_nan constr
+R8891:8898 Coq.Floats.SpecFloat <> S754_nan constr
+R8906:8918 Coq.Floats.SpecFloat <> S754_infinity constr
+R8924:8936 Coq.Floats.SpecFloat <> S754_infinity constr
+R8953:8960 Coq.Bool.Bool <> eqb def
+R8966:8969 Coq.Init.Datatypes <> negb def
+R8987:8994 Coq.Floats.SpecFloat <> S754_nan constr
+R8980:8980 Coq.Floats.SpecFloat <> x:98 var
+R9002:9014 Coq.Floats.SpecFloat <> S754_infinity constr
+R9024:9024 Coq.Floats.SpecFloat <> x:98 var
+R9035:9047 Coq.Floats.SpecFloat <> S754_infinity constr
+R9055:9067 Coq.Floats.SpecFloat <> S754_infinity constr
+R9070:9073 Coq.Init.Datatypes <> negb def
+R9085:9093 Coq.Floats.SpecFloat <> S754_zero constr
+R9099:9107 Coq.Floats.SpecFloat <> S754_zero constr
+R9124:9131 Coq.Bool.Bool <> eqb def
+R9137:9140 Coq.Init.Datatypes <> negb def
+R9164:9172 Coq.Floats.SpecFloat <> S754_zero constr
+R9174:9178 Coq.Init.Datatypes <> false constr
+R9151:9151 Coq.Floats.SpecFloat <> x:98 var
+R9186:9194 Coq.Floats.SpecFloat <> S754_zero constr
+R9199:9209 Coq.Floats.SpecFloat <> S754_finite constr
+R9223:9233 Coq.Floats.SpecFloat <> S754_finite constr
+R9236:9239 Coq.Init.Datatypes <> negb def
+R9260:9268 Coq.Floats.SpecFloat <> S754_zero constr
+R9275:9275 Coq.Floats.SpecFloat <> x:98 var
+R9283:9293 Coq.Floats.SpecFloat <> S754_finite constr
+R9301:9302 Coq.Init.Logic <> ex ind
+R9305:9315 Coq.Floats.SpecFloat <> S754_finite constr
+R9345:9349 Coq.ZArith.BinInt Z min def
+binder 9339:9340 <> ez:102
+R9366:9381 Coq.Floats.SpecFloat <> binary_normalize def
+R9384:9389 Coq.ZArith.BinInt <> Zminus abbrev
+R9392:9400 Coq.Floats.SpecFloat <> cond_Zopp def
+R9406:9409 Coq.Numbers.BinNums <> Zpos constr
+R9412:9414 Coq.Init.Datatypes <> fst def
+R9417:9425 Coq.Floats.SpecFloat <> shl_align def
+R9433:9434 Coq.Floats.SpecFloat <> ez:102 var
+R9441:9449 Coq.Floats.SpecFloat <> cond_Zopp def
+R9455:9458 Coq.Numbers.BinNums <> Zpos constr
+R9461:9463 Coq.Init.Datatypes <> fst def
+R9466:9474 Coq.Floats.SpecFloat <> shl_align def
+R9482:9483 Coq.Floats.SpecFloat <> ez:102 var
+R9498:9499 Coq.Floats.SpecFloat <> ez:102 var
+R9501:9505 Coq.Init.Datatypes <> false constr
+def 9530:9546 <> new_location_even
+binder 9548:9555 <> nb_steps:103
+binder 9557:9557 <> k:104
+R9569:9576 Coq.ZArith.Zbool <> Zeq_bool def
+R9578:9578 Coq.Floats.SpecFloat <> k:104 var
+R9606:9616 Coq.Floats.SpecFloat <> loc_Inexact constr
+R9619:9627 Coq.ZArith.BinInt Z compare def
+R9631:9633 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9634:9634 Coq.Floats.SpecFloat <> k:104 var
+R9637:9644 Coq.Floats.SpecFloat <> nb_steps:103 var
+R9587:9595 Coq.Floats.SpecFloat <> loc_Exact constr
+def 9662:9677 <> new_location_odd
+binder 9679:9686 <> nb_steps:105
+binder 9688:9688 <> k:106
+R9700:9707 Coq.ZArith.Zbool <> Zeq_bool def
+R9709:9709 Coq.Floats.SpecFloat <> k:106 var
+R9743:9753 Coq.Floats.SpecFloat <> loc_Inexact constr
+R9767:9775 Coq.ZArith.BinInt Z compare def
+R9783:9785 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R9779:9781 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9782:9782 Coq.Floats.SpecFloat <> k:106 var
+R9789:9796 Coq.Floats.SpecFloat <> nb_steps:105 var
+R9811:9812 Coq.Init.Datatypes <> Lt constr
+R9817:9818 Coq.Init.Datatypes <> Lt constr
+R9828:9829 Coq.Init.Datatypes <> Eq constr
+R9834:9835 Coq.Init.Datatypes <> Lt constr
+R9845:9846 Coq.Init.Datatypes <> Gt constr
+R9851:9852 Coq.Init.Datatypes <> Gt constr
+R9718:9726 Coq.Floats.SpecFloat <> loc_Exact constr
+def 9879:9890 <> new_location
+binder 9892:9899 <> nb_steps:107
+R9911:9916 Coq.ZArith.BinInt Z even def
+R9918:9925 Coq.Floats.SpecFloat <> nb_steps:107 var
+R9964:9979 Coq.Floats.SpecFloat <> new_location_odd def
+R9981:9988 Coq.Floats.SpecFloat <> nb_steps:107 var
+R9932:9948 Coq.Floats.SpecFloat <> new_location_even def
+R9950:9957 Coq.Floats.SpecFloat <> nb_steps:107 var
+def 10005:10021 <> SFdiv_core_binary
+binder 10023:10024 <> m1:108
+binder 10026:10027 <> e1:109
+binder 10029:10030 <> m2:110
+binder 10032:10033 <> e2:111
+R10052:10059 Coq.Floats.SpecFloat <> Zdigits2 def
+R10061:10062 Coq.Floats.SpecFloat <> m1:108 var
+binder 10046:10047 <> d1:112
+R10081:10088 Coq.Floats.SpecFloat <> Zdigits2 def
+R10090:10091 Coq.Floats.SpecFloat <> m2:110 var
+binder 10075:10076 <> d2:113
+R10110:10114 Coq.ZArith.BinInt Z min def
+R10117:10120 Coq.Floats.SpecFloat <> fexp def
+R10130:10133 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10141:10141 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10125:10127 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10123:10124 Coq.Floats.SpecFloat <> d1:112 var
+R10128:10129 Coq.Floats.SpecFloat <> e1:109 var
+R10136:10138 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10134:10135 Coq.Floats.SpecFloat <> d2:113 var
+R10139:10140 Coq.Floats.SpecFloat <> e2:111 var
+R10148:10150 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10146:10147 Coq.Floats.SpecFloat <> e1:109 var
+R10151:10152 Coq.Floats.SpecFloat <> e2:111 var
+binder 10104:10105 <> e':114
+R10179:10181 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10174:10176 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10172:10173 Coq.Floats.SpecFloat <> e1:109 var
+R10177:10178 Coq.Floats.SpecFloat <> e2:111 var
+R10182:10183 Coq.Floats.SpecFloat <> e':114 var
+binder 10166:10166 <> s:115
+R10217:10217 Coq.Floats.SpecFloat <> s:115 var
+R10232:10235 Coq.Numbers.BinNums <> Zpos constr
+R10242:10249 Coq.ZArith.BinInt Z shiftl def
+R10251:10252 Coq.Floats.SpecFloat <> m1:108 var
+R10254:10254 Coq.Floats.SpecFloat <> s:115 var
+R10264:10265 Coq.Numbers.BinNums <> Z0 constr
+R10270:10271 Coq.Floats.SpecFloat <> m1:108 var
+R10281:10284 Coq.Numbers.BinNums <> Zneg constr
+R10291:10292 Coq.Numbers.BinNums <> Z0 constr
+binder 10199:10200 <> m':117
+R10326:10335 Coq.ZArith.BinInt Z div_eucl def
+R10337:10338 Coq.Floats.SpecFloat <> m':117 var
+R10340:10341 Coq.Floats.SpecFloat <> m2:110 var
+R10316:10316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10318:10319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10321:10321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10350:10350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10352:10353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10356:10357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10375:10375 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10354:10355 Coq.Floats.SpecFloat <> e':114 var
+R10358:10369 Coq.Floats.SpecFloat <> new_location def
+R10371:10372 Coq.Floats.SpecFloat <> m2:110 var
+def 10392:10396 <> SFdiv
+binder 10398:10398 <> x:118
+binder 10400:10400 <> y:119
+R10418:10418 Coq.Floats.SpecFloat <> y:119 var
+R10415:10415 Coq.Floats.SpecFloat <> x:118 var
+R10431:10438 Coq.Floats.SpecFloat <> S754_nan constr
+R10448:10455 Coq.Floats.SpecFloat <> S754_nan constr
+R10460:10467 Coq.Floats.SpecFloat <> S754_nan constr
+R10460:10467 Coq.Floats.SpecFloat <> S754_nan constr
+R10475:10487 Coq.Floats.SpecFloat <> S754_infinity constr
+R10493:10505 Coq.Floats.SpecFloat <> S754_infinity constr
+R10513:10520 Coq.Floats.SpecFloat <> S754_nan constr
+R10528:10540 Coq.Floats.SpecFloat <> S754_infinity constr
+R10546:10556 Coq.Floats.SpecFloat <> S754_finite constr
+R10568:10580 Coq.Floats.SpecFloat <> S754_infinity constr
+R10583:10586 Coq.Init.Datatypes <> xorb def
+R10601:10611 Coq.Floats.SpecFloat <> S754_finite constr
+R10621:10633 Coq.Floats.SpecFloat <> S754_infinity constr
+R10641:10649 Coq.Floats.SpecFloat <> S754_zero constr
+R10652:10655 Coq.Init.Datatypes <> xorb def
+R10670:10682 Coq.Floats.SpecFloat <> S754_infinity constr
+R10688:10696 Coq.Floats.SpecFloat <> S754_zero constr
+R10704:10716 Coq.Floats.SpecFloat <> S754_infinity constr
+R10719:10722 Coq.Init.Datatypes <> xorb def
+R10737:10745 Coq.Floats.SpecFloat <> S754_zero constr
+R10751:10763 Coq.Floats.SpecFloat <> S754_infinity constr
+R10771:10779 Coq.Floats.SpecFloat <> S754_zero constr
+R10782:10785 Coq.Init.Datatypes <> xorb def
+R10800:10810 Coq.Floats.SpecFloat <> S754_finite constr
+R10820:10828 Coq.Floats.SpecFloat <> S754_zero constr
+R10836:10848 Coq.Floats.SpecFloat <> S754_infinity constr
+R10851:10854 Coq.Init.Datatypes <> xorb def
+R10869:10877 Coq.Floats.SpecFloat <> S754_zero constr
+R10883:10893 Coq.Floats.SpecFloat <> S754_finite constr
+R10905:10913 Coq.Floats.SpecFloat <> S754_zero constr
+R10916:10919 Coq.Init.Datatypes <> xorb def
+R10934:10942 Coq.Floats.SpecFloat <> S754_zero constr
+R10948:10956 Coq.Floats.SpecFloat <> S754_zero constr
+R10964:10971 Coq.Floats.SpecFloat <> S754_nan constr
+R10979:10989 Coq.Floats.SpecFloat <> S754_finite constr
+R10997:10998 Coq.Init.Logic <> ex ind
+R11001:11011 Coq.Floats.SpecFloat <> S754_finite constr
+R11052:11068 Coq.Floats.SpecFloat <> SFdiv_core_binary def
+R11071:11074 Coq.Numbers.BinNums <> Zpos constr
+R11084:11087 Coq.Numbers.BinNums <> Zpos constr
+R11036:11036 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11039:11040 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11043:11044 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11047:11047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11105:11120 Coq.Floats.SpecFloat <> binary_round_aux def
+R11123:11126 Coq.Init.Datatypes <> xorb def
+def 11167:11184 <> SFsqrt_core_binary
+binder 11186:11186 <> m:122
+binder 11188:11188 <> e:123
+R11206:11213 Coq.Floats.SpecFloat <> Zdigits2 def
+R11215:11215 Coq.Floats.SpecFloat <> m:122 var
+binder 11201:11201 <> d:124
+R11234:11238 Coq.ZArith.BinInt Z min def
+R11241:11244 Coq.Floats.SpecFloat <> fexp def
+R11247:11252 Coq.ZArith.BinInt Z div2 def
+R11260:11262 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11256:11258 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11255:11255 Coq.Floats.SpecFloat <> d:124 var
+R11259:11259 Coq.Floats.SpecFloat <> e:123 var
+R11269:11274 Coq.ZArith.BinInt Z div2 def
+R11276:11276 Coq.Floats.SpecFloat <> e:123 var
+binder 11228:11229 <> e':125
+R11297:11299 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11296:11296 Coq.Floats.SpecFloat <> e:123 var
+R11301:11303 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11304:11305 Coq.Floats.SpecFloat <> e':125 var
+binder 11290:11290 <> s:126
+R11339:11339 Coq.Floats.SpecFloat <> s:126 var
+R11354:11357 Coq.Numbers.BinNums <> Zpos constr
+R11364:11371 Coq.ZArith.BinInt Z shiftl def
+R11373:11373 Coq.Floats.SpecFloat <> m:122 var
+R11375:11375 Coq.Floats.SpecFloat <> s:126 var
+R11385:11386 Coq.Numbers.BinNums <> Z0 constr
+R11391:11391 Coq.Floats.SpecFloat <> m:122 var
+R11401:11404 Coq.Numbers.BinNums <> Zneg constr
+R11411:11412 Coq.Numbers.BinNums <> Z0 constr
+binder 11321:11322 <> m':128
+R11445:11453 Coq.ZArith.BinInt Z sqrtrem def
+R11455:11456 Coq.Floats.SpecFloat <> m':128 var
+binder 11436:11436 <> q:129
+binder 11439:11439 <> r:130
+R11483:11490 Coq.ZArith.Zbool <> Zeq_bool def
+R11492:11492 Coq.Floats.SpecFloat <> r:130 var
+R11522:11532 Coq.Floats.SpecFloat <> loc_Inexact constr
+R11538:11545 Coq.ZArith.Zbool <> Zle_bool abbrev
+R11547:11547 Coq.Floats.SpecFloat <> r:130 var
+R11549:11549 Coq.Floats.SpecFloat <> q:129 var
+R11564:11565 Coq.Init.Datatypes <> Gt constr
+R11556:11557 Coq.Init.Datatypes <> Lt constr
+R11501:11509 Coq.Floats.SpecFloat <> loc_Exact constr
+binder 11469:11469 <> l:131
+R11575:11575 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11577:11578 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11581:11582 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11584:11584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11576:11576 Coq.Floats.SpecFloat <> q:129 var
+R11579:11580 Coq.Floats.SpecFloat <> e':125 var
+R11583:11583 Coq.Floats.SpecFloat <> l:131 var
+def 11601:11606 <> SFsqrt
+binder 11608:11608 <> x:132
+R11623:11623 Coq.Floats.SpecFloat <> x:132 var
+R11636:11643 Coq.Floats.SpecFloat <> S754_nan constr
+R11648:11655 Coq.Floats.SpecFloat <> S754_nan constr
+R11663:11675 Coq.Floats.SpecFloat <> S754_infinity constr
+R11677:11681 Coq.Init.Datatypes <> false constr
+R11686:11686 Coq.Floats.SpecFloat <> x:132 var
+R11694:11706 Coq.Floats.SpecFloat <> S754_infinity constr
+R11708:11711 Coq.Init.Datatypes <> true constr
+R11716:11723 Coq.Floats.SpecFloat <> S754_nan constr
+R11731:11741 Coq.Floats.SpecFloat <> S754_finite constr
+R11743:11746 Coq.Init.Datatypes <> true constr
+R11755:11762 Coq.Floats.SpecFloat <> S754_nan constr
+R11770:11778 Coq.Floats.SpecFloat <> S754_zero constr
+R11785:11785 Coq.Floats.SpecFloat <> x:132 var
+R11793:11803 Coq.Floats.SpecFloat <> S754_finite constr
+R11811:11812 Coq.Init.Logic <> ex ind
+R11844:11861 Coq.Floats.SpecFloat <> SFsqrt_core_binary def
+R11864:11867 Coq.Numbers.BinNums <> Zpos constr
+R11828:11828 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11831:11832 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11835:11836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11839:11839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11885:11900 Coq.Floats.SpecFloat <> binary_round_aux def
+R11902:11906 Coq.Init.Datatypes <> false constr
+def 11940:11956 <> SFnormfr_mantissa
+binder 11958:11958 <> f:134
+R11973:11973 Coq.Floats.SpecFloat <> f:134 var
+R11986:11996 Coq.Floats.SpecFloat <> S754_finite constr
+R12003:12004 Coq.Init.Logic <> ex ind
+R12018:12022 Coq.ZArith.BinInt Z eqb def
+R12028:12028 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R12029:12032 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12040:12043 Coq.Numbers.BinNums <> Npos constr
+def 12095:12101 <> SFldexp
+binder 12103:12103 <> f:136
+binder 12105:12105 <> e:137
+R12120:12120 Coq.Floats.SpecFloat <> f:136 var
+R12133:12143 Coq.Floats.SpecFloat <> S754_finite constr
+R12151:12152 Coq.Init.Logic <> ex ind
+R12157:12168 Coq.Floats.SpecFloat <> binary_round def
+R12179:12179 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12180:12180 Coq.Floats.SpecFloat <> e:137 var
+R12194:12194 Coq.Floats.SpecFloat <> f:136 var
+def 12219:12225 <> SFfrexp
+binder 12227:12227 <> f:139
+R12242:12242 Coq.Floats.SpecFloat <> f:139 var
+R12255:12265 Coq.Floats.SpecFloat <> S754_finite constr
+R12273:12274 Coq.Init.Logic <> ex ind
+R12302:12306 Coq.PArith.BinPos <> ::positive_scope:x_'<=?'_x not
+R12289:12296 Coq.ZArith.BinInt Z to_pos def
+R12298:12301 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12307:12317 Coq.Floats.SpecFloat <> digits2_pos def
+R12419:12421 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12415:12418 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12422:12426 Coq.ZArith.BinInt Z pos abbrev
+R12429:12439 Coq.Floats.SpecFloat <> digits2_pos def
+binder 12409:12409 <> d:141
+R12459:12459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12510:12511 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12525:12525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12460:12470 Coq.Floats.SpecFloat <> S754_finite constr
+R12476:12484 Coq.ZArith.Zpower <> shift_pos def
+R12487:12494 Coq.ZArith.BinInt Z to_pos def
+R12496:12496 Coq.Floats.SpecFloat <> d:141 var
+R12504:12504 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R12505:12508 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12520:12520 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12515:12515 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12516:12519 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12521:12521 Coq.Floats.SpecFloat <> d:141 var
+R12345:12345 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12371:12372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12384:12384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12346:12356 Coq.Floats.SpecFloat <> S754_finite constr
+R12365:12365 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R12366:12369 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12376:12376 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12377:12380 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12538:12538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12540:12541 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12558:12558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12539:12539 Coq.Floats.SpecFloat <> f:139 var
+R12550:12550 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12545:12545 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12546:12549 Coq.Floats.SpecFloat <> FloatOps.emax var
+R12551:12554 Coq.Floats.SpecFloat <> FloatOps.prec var
+def 12583:12587 <> SFone
+R12592:12603 Coq.Floats.SpecFloat <> binary_round def
+R12605:12609 Coq.Init.Datatypes <> false constr
+def 12630:12634 <> SFulp
+binder 12636:12636 <> x:142
+R12641:12647 Coq.Floats.SpecFloat <> SFldexp def
+R12649:12653 Coq.Floats.SpecFloat <> SFone def
+R12656:12659 Coq.Floats.SpecFloat <> fexp def
+R12662:12664 Coq.Init.Datatypes <> snd def
+R12667:12673 Coq.Floats.SpecFloat <> SFfrexp def
+R12675:12675 Coq.Floats.SpecFloat <> x:142 var
+def 12695:12704 <> SFpred_pos
+binder 12706:12706 <> x:143
+R12721:12721 Coq.Floats.SpecFloat <> x:143 var
+R12734:12744 Coq.Floats.SpecFloat <> S754_finite constr
+R12787:12790 Coq.PArith.BinPos <> ::positive_scope:x_'=?'_x not
+R12785:12786 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R12791:12799 Coq.ZArith.Zpower <> shift_pos def
+R12802:12809 Coq.ZArith.BinInt Z to_pos def
+R12811:12814 Coq.Floats.SpecFloat <> FloatOps.prec var
+R12910:12914 Coq.Floats.SpecFloat <> SFulp def
+R12916:12916 Coq.Floats.SpecFloat <> x:143 var
+R12844:12850 Coq.Floats.SpecFloat <> SFldexp def
+R12852:12856 Coq.Floats.SpecFloat <> SFone def
+R12859:12862 Coq.Floats.SpecFloat <> fexp def
+R12880:12882 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12865:12867 Coq.Init.Datatypes <> snd def
+R12870:12876 Coq.Floats.SpecFloat <> SFfrexp def
+R12878:12878 Coq.Floats.SpecFloat <> x:143 var
+binder 12766:12766 <> d:145
+R12927:12931 Coq.Floats.SpecFloat <> SFsub def
+R12933:12933 Coq.Floats.SpecFloat <> x:143 var
+R12935:12935 Coq.Floats.SpecFloat <> d:145 var
+R12948:12948 Coq.Floats.SpecFloat <> x:143 var
+def 12973:12983 <> SFmax_float
+R12992:13002 Coq.Floats.SpecFloat <> S754_finite constr
+R13004:13008 Coq.Init.Datatypes <> false constr
+R13038:13040 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+R13011:13019 Coq.ZArith.Zpower <> shift_pos def
+R13022:13029 Coq.ZArith.BinInt Z to_pos def
+R13031:13034 Coq.Floats.SpecFloat <> FloatOps.prec var
+R13049:13051 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13045:13048 Coq.Floats.SpecFloat <> FloatOps.emax var
+R13052:13055 Coq.Floats.SpecFloat <> FloatOps.prec var
+def 13073:13078 <> SFsucc
+binder 13080:13080 <> x:146
+R13095:13095 Coq.Floats.SpecFloat <> x:146 var
+R13108:13116 Coq.Floats.SpecFloat <> S754_zero constr
+R13123:13129 Coq.Floats.SpecFloat <> SFldexp def
+R13131:13135 Coq.Floats.SpecFloat <> SFone def
+R13137:13140 Coq.Floats.SpecFloat <> emin def
+R13148:13160 Coq.Floats.SpecFloat <> S754_infinity constr
+R13162:13166 Coq.Init.Datatypes <> false constr
+R13171:13171 Coq.Floats.SpecFloat <> x:146 var
+R13179:13191 Coq.Floats.SpecFloat <> S754_infinity constr
+R13193:13196 Coq.Init.Datatypes <> true constr
+R13201:13205 Coq.Floats.SpecFloat <> SFopp def
+R13207:13217 Coq.Floats.SpecFloat <> SFmax_float def
+R13225:13232 Coq.Floats.SpecFloat <> S754_nan constr
+R13237:13237 Coq.Floats.SpecFloat <> x:146 var
+R13245:13255 Coq.Floats.SpecFloat <> S754_finite constr
+R13257:13261 Coq.Init.Datatypes <> false constr
+R13270:13274 Coq.Floats.SpecFloat <> SFadd def
+R13276:13276 Coq.Floats.SpecFloat <> x:146 var
+R13279:13283 Coq.Floats.SpecFloat <> SFulp def
+R13285:13285 Coq.Floats.SpecFloat <> x:146 var
+R13294:13304 Coq.Floats.SpecFloat <> S754_finite constr
+R13306:13309 Coq.Init.Datatypes <> true constr
+R13318:13322 Coq.Floats.SpecFloat <> SFopp def
+R13325:13334 Coq.Floats.SpecFloat <> SFpred_pos def
+R13337:13341 Coq.Floats.SpecFloat <> SFopp def
+R13343:13343 Coq.Floats.SpecFloat <> x:146 var
+def 13370:13375 <> SFpred
+binder 13377:13377 <> f:148
+R13382:13386 Coq.Floats.SpecFloat <> SFopp def
+R13389:13394 Coq.Floats.SpecFloat <> SFsucc def
+R13397:13401 Coq.Floats.SpecFloat <> SFopp def
+R13403:13403 Coq.Floats.SpecFloat <> f:148 var
+R13412:13419 Coq.Floats.SpecFloat FloatOps <> sec

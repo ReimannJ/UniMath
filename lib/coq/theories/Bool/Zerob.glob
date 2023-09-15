@@ -1,0 +1,53 @@
+DIGEST 546698d2209991ab168ea41723ea1b72
+FCoq.Bool.Zerob
+R691:695 Coq.Arith.Arith <> <> lib
+R713:716 Coq.Bool.Bool <> <> lib
+def 760:764 <> zerob
+R769:771 Coq.Init.Datatypes <> nat ind
+binder 767:767 <> n:1
+R776:779 Coq.Init.Datatypes <> bool ind
+R792:792 Coq.Bool.Zerob <> n:1 var
+R805:805 Coq.Init.Datatypes <> O constr
+R810:813 Coq.Init.Datatypes <> true constr
+R821:821 Coq.Init.Datatypes <> S constr
+R828:832 Coq.Init.Datatypes <> false constr
+prf 848:863 <> zerob_true_intro
+R870:872 Coq.Init.Datatypes <> nat ind
+binder 866:866 <> n:3
+R882:885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R878:880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R877:877 Coq.Bool.Zerob <> n:3 var
+R893:895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R886:890 Coq.Bool.Zerob <> zerob def
+R892:892 Coq.Bool.Zerob <> n:3 var
+R896:899 Coq.Init.Datatypes <> true constr
+prf 1019:1033 <> zerob_true_elim
+R1040:1042 Coq.Init.Datatypes <> nat ind
+binder 1036:1036 <> n:4
+R1061:1064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1054:1056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1047:1051 Coq.Bool.Zerob <> zerob def
+R1053:1053 Coq.Bool.Zerob <> n:4 var
+R1057:1060 Coq.Init.Datatypes <> true constr
+R1066:1068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1065:1065 Coq.Bool.Zerob <> n:4 var
+prf 1142:1158 <> zerob_false_intro
+R1165:1167 Coq.Init.Datatypes <> nat ind
+binder 1161:1161 <> n:5
+R1178:1181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1173:1176 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1172:1172 Coq.Bool.Zerob <> n:5 var
+R1189:1191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1182:1186 Coq.Bool.Zerob <> zerob def
+R1188:1188 Coq.Bool.Zerob <> n:5 var
+R1192:1196 Coq.Init.Datatypes <> false constr
+prf 1332:1347 <> zerob_false_elim
+R1354:1356 Coq.Init.Datatypes <> nat ind
+binder 1350:1350 <> n:6
+R1376:1379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1368:1370 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1361:1365 Coq.Bool.Zerob <> zerob def
+R1367:1367 Coq.Bool.Zerob <> n:6 var
+R1371:1375 Coq.Init.Datatypes <> false constr
+R1381:1384 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1380:1380 Coq.Bool.Zerob <> n:6 var

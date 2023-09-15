@@ -1,0 +1,117 @@
+DIGEST 6ade17e53535ad77648eb9bcc7e240c9
+FCoq.ZArith.Zwf
+R691:701 Coq.ZArith.ZArith_base <> <> lib
+R719:724 Coq.Arith.Wf_nat <> <> lib
+R742:744 Coq.micromega.Lia <> <> lib
+def 931:933 <> Zwf
+R942:942 Coq.Numbers.BinNums <> Z ind
+binder 936:936 <> c:1
+binder 938:938 <> x:2
+binder 940:940 <> y:3
+R954:957 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R949:952 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R948:948 Coq.ZArith.Zwf <> c:1 var
+R953:953 Coq.ZArith.Zwf <> y:3 var
+R959:961 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R958:958 Coq.ZArith.Zwf <> x:2 var
+R962:962 Coq.ZArith.Zwf <> y:3 var
+sec 1026:1033 <> wf_proof
+var 1048:1048 wf_proof c
+R1052:1052 Coq.Numbers.BinNums <> Z ind
+var 1190:1190 wf_proof f
+R1195:1195 Coq.Numbers.BinNums <> Z ind
+binder 1193:1193 <> z:5
+R1201:1209 Coq.ZArith.BinInt Z abs_nat def
+R1213:1215 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1212:1212 Coq.ZArith.Zwf <> z:5 var
+R1216:1216 Coq.ZArith.Zwf <> wf_proof.c var
+prf 1229:1244 <> Zwf_well_founded
+R1248:1259 Coq.Init.Wf <> well_founded def
+R1262:1264 Coq.ZArith.Zwf <> Zwf def
+R1266:1266 Coq.ZArith.Zwf <> wf_proof.c var
+R1309:1311 Coq.Init.Datatypes <> nat ind
+binder 1307:1307 <> n:6
+R1317:1317 Coq.Numbers.BinNums <> Z ind
+binder 1315:1315 <> a:7
+R1343:1346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1334:1337 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1325:1327 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1322:1322 Coq.ZArith.Zwf <> wf_proof.f var
+R1324:1324 Coq.ZArith.Zwf <> a:7 var
+R1328:1328 Coq.ZArith.Zwf <> n:6 var
+R1339:1341 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1338:1338 Coq.ZArith.Zwf <> a:7 var
+R1342:1342 Coq.ZArith.Zwf <> wf_proof.c var
+R1347:1349 Coq.Init.Wf <> Acc ind
+R1359:1359 Coq.ZArith.Zwf <> a:7 var
+R1352:1354 Coq.ZArith.Zwf <> Zwf def
+R1356:1356 Coq.ZArith.Zwf <> wf_proof.c var
+R1309:1311 Coq.Init.Datatypes <> nat ind
+binder 1307:1307 <> n:8
+R1317:1317 Coq.Numbers.BinNums <> Z ind
+binder 1315:1315 <> a:9
+R1343:1346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1334:1337 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1325:1327 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1322:1322 Coq.ZArith.Zwf <> wf_proof.f var
+R1324:1324 Coq.ZArith.Zwf <> a:9 var
+R1328:1328 Coq.ZArith.Zwf <> n:8 var
+R1339:1341 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1338:1338 Coq.ZArith.Zwf <> a:9 var
+R1342:1342 Coq.ZArith.Zwf <> wf_proof.c var
+R1347:1349 Coq.Init.Wf <> Acc ind
+R1359:1359 Coq.ZArith.Zwf <> a:9 var
+R1352:1354 Coq.ZArith.Zwf <> Zwf def
+R1356:1356 Coq.ZArith.Zwf <> wf_proof.c var
+R1457:1465 Coq.Init.Wf <> Acc_intro constr
+R1475:1477 Coq.ZArith.Zwf <> Zwf def
+R1457:1465 Coq.Init.Wf <> Acc_intro constr
+R1567:1575 Coq.Init.Wf <> Acc_intro constr
+R1567:1575 Coq.Init.Wf <> Acc_intro constr
+R1610:1612 Coq.ZArith.Zwf <> Zwf def
+R1631:1643 Coq.ZArith.BinInt Z le_gt_cases thm
+R1645:1645 Coq.ZArith.Zwf <> wf_proof.c var
+R1631:1643 Coq.ZArith.BinInt Z le_gt_cases thm
+R1645:1645 Coq.ZArith.Zwf <> wf_proof.c var
+R1708:1708 Coq.ZArith.Zwf <> wf_proof.f var
+R1686:1700 Coq.Arith.PeanoNat Nat lt_le_trans thm
+R1708:1708 Coq.ZArith.Zwf <> wf_proof.f var
+R1686:1700 Coq.Arith.PeanoNat Nat lt_le_trans thm
+R1742:1742 Coq.ZArith.Zwf <> f vardef
+R1768:1768 Coq.Init.Datatypes <> S constr
+R1771:1771 Coq.ZArith.Zwf <> wf_proof.f var
+R1768:1768 Coq.Init.Datatypes <> S constr
+R1771:1771 Coq.ZArith.Zwf <> wf_proof.f var
+R1797:1804 Coq.ZArith.Zwf wf_proof <> sec
+def 1971:1976 <> Zwf_up
+R1985:1985 Coq.Numbers.BinNums <> Z ind
+binder 1979:1979 <> c:10
+binder 1981:1981 <> x:11
+binder 1983:1983 <> y:12
+R1992:1994 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R1996:1999 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R1991:1991 Coq.ZArith.Zwf <> y:12 var
+R1995:1995 Coq.ZArith.Zwf <> x:11 var
+R1995:1995 Coq.ZArith.Zwf <> x:11 var
+R2000:2000 Coq.ZArith.Zwf <> c:10 var
+sec 2067:2077 <> wf_proof_up
+var 2092:2092 wf_proof_up c
+R2096:2096 Coq.Numbers.BinNums <> Z ind
+var 2234:2234 wf_proof_up f
+R2239:2239 Coq.Numbers.BinNums <> Z ind
+binder 2237:2237 <> z:14
+R2245:2253 Coq.ZArith.BinInt Z abs_nat def
+R2257:2259 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2256:2256 Coq.ZArith.Zwf <> wf_proof_up.c var
+R2260:2260 Coq.ZArith.Zwf <> z:14 var
+prf 2273:2291 <> Zwf_up_well_founded
+R2295:2306 Coq.Init.Wf <> well_founded def
+R2309:2314 Coq.ZArith.Zwf <> Zwf_up def
+R2316:2316 Coq.ZArith.Zwf <> wf_proof_up.c var
+R2373:2373 Coq.ZArith.Zwf <> wf_proof_up.f var
+R2339:2360 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R2373:2373 Coq.ZArith.Zwf <> wf_proof_up.f var
+R2339:2360 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R2388:2393 Coq.ZArith.Zwf <> Zwf_up def
+R2396:2396 Coq.ZArith.Zwf <> f vardef
+R2420:2430 Coq.ZArith.Zwf wf_proof_up <> sec

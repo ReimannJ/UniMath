@@ -1,0 +1,631 @@
+DIGEST ff71ab62e2770a888523999a39c67e60
+FCoq.Numbers.Natural.Abstract.NOrder
+R841:844 Coq.Numbers.Natural.Abstract.NAdd <> <> lib
+R878:892 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+mod 855:864 <> NOrderProp
+R904:911 Coq.Numbers.Natural.Abstract.NAdd NAddProp <> modtype
+R913:913 Coq.Numbers.Natural.Abstract.NOrder N <> modtype
+prf 996:1002 NOrderProp lt_wf_0
+R1006:1017 Coq.Init.Wf <> well_founded def
+R1019:1020 Coq.Numbers.Natural.Abstract.NOrder N lt defax
+R1045:1046 Coq.Numbers.Natural.Abstract.NOrder N lt defax
+binder 1058:1058 <> n:1
+binder 1060:1060 <> m:2
+R1066:1069 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1071:1073 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1070:1070 Coq.Numbers.Natural.Abstract.NOrder <> n:1 var
+R1070:1070 Coq.Numbers.Natural.Abstract.NOrder <> n:1 var
+R1074:1074 Coq.Numbers.Natural.Abstract.NOrder <> m:2 var
+R1045:1046 Coq.Numbers.Natural.Abstract.NOrder N lt defax
+binder 1058:1058 <> n:3
+binder 1060:1060 <> m:4
+R1066:1069 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1071:1073 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R1070:1070 Coq.Numbers.Natural.Abstract.NOrder <> n:3 var
+R1070:1070 Coq.Numbers.Natural.Abstract.NOrder <> n:3 var
+R1074:1074 Coq.Numbers.Natural.Abstract.NOrder <> m:4 var
+R1084:1088 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_wf thm
+R1084:1088 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_wf thm
+R1133:1138 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R1133:1138 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 1252:1258 NOrderProp nlt_0_r
+binder 1269:1269 <> n:5
+R1272:1273 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1275:1277 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1274:1274 Coq.Numbers.Natural.Abstract.NOrder <> n:5 var
+R1303:1308 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ngt thm
+R1303:1308 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ngt thm
+R1317:1322 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R1317:1322 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+prf 1339:1348 NOrderProp nle_succ_0
+binder 1359:1359 <> n:6
+R1362:1364 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1373:1373 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1368:1371 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1365:1365 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R1367:1367 Coq.Numbers.Natural.Abstract.NOrder <> n:6 var
+R1401:1409 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R1401:1409 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R1429:1435 Coq.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+prf 1452:1457 NOrderProp le_0_r
+binder 1468:1468 <> n:7
+R1477:1481 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1472:1475 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1471:1471 Coq.Numbers.Natural.Abstract.NOrder <> n:7 var
+R1483:1486 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1482:1482 Coq.Numbers.Natural.Abstract.NOrder <> n:7 var
+R1547:1553 Coq.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R1580:1589 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R1580:1589 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+prf 1606:1614 NOrderProp lt_0_succ
+binder 1625:1625 <> n:8
+R1629:1631 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1632:1632 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R1634:1634 Coq.Numbers.Natural.Abstract.NOrder <> n:8 var
+R1670:1683 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R1709:1720 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+R1670:1683 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R1709:1720 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+prf 1738:1747 NOrderProp neq_0_lt_0
+binder 1758:1758 <> n:9
+R1767:1771 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1762:1765 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R1761:1761 Coq.Numbers.Natural.Abstract.NOrder <> n:9 var
+R1773:1775 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1776:1776 Coq.Numbers.Natural.Abstract.NOrder <> n:9 var
+R1851:1859 Coq.Numbers.Natural.Abstract.NOrder N lt_irrefl prfax
+R1851:1859 Coq.Numbers.Natural.Abstract.NOrder N lt_irrefl prfax
+R1902:1910 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+R1920:1929 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R1902:1910 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+R1920:1929 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 1947:1961 NOrderProp eq_0_gt_0_cases
+binder 1972:1972 <> n:10
+R1981:1984 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1976:1979 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1975:1975 Coq.Numbers.Natural.Abstract.NOrder <> n:10 var
+R1986:1988 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1989:1989 Coq.Numbers.Natural.Abstract.NOrder <> n:10 var
+R2047:2055 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+R2047:2055 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_0_succ thm
+prf 2072:2079 NOrderProp zero_one
+binder 2090:2090 <> n:11
+R2099:2102 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2094:2097 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2093:2093 Coq.Numbers.Natural.Abstract.NOrder <> n:11 var
+R2109:2112 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2104:2107 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2103:2103 Coq.Numbers.Natural.Abstract.NOrder <> n:11 var
+R2114:2116 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2117:2117 Coq.Numbers.Natural.Abstract.NOrder <> n:11 var
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2142:2149 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2279:2288 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R2322:2335 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2322:2335 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2362:2373 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+R2362:2373 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_succ_r thm
+prf 2390:2395 NOrderProp lt_1_r
+binder 2406:2406 <> n:12
+R2414:2418 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2410:2412 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2409:2409 Coq.Numbers.Natural.Abstract.NOrder <> n:12 var
+R2420:2423 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2419:2419 Coq.Numbers.Natural.Abstract.NOrder <> n:12 var
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2449:2456 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2512:2525 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2512:2525 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R2550:2561 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R2550:2561 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R2550:2561 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R2593:2599 Coq.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R2615:2624 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 2642:2647 NOrderProp le_1_r
+binder 2658:2658 <> n:13
+R2667:2671 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2662:2665 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2661:2661 Coq.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2678:2681 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2673:2676 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2672:2672 Coq.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2683:2686 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2682:2682 Coq.Numbers.Natural.Abstract.NOrder <> n:13 var
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2712:2719 Coq.Numbers.Natural.Abstract.NOrder N one_succ prfax
+R2772:2785 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+R2772:2785 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+R2809:2820 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R2823:2828 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_r thm
+R2831:2841 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_inj_wd thm
+R2809:2820 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R2809:2820 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R2823:2828 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_r thm
+R2823:2828 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_r thm
+R2831:2841 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_inj_wd thm
+R2831:2841 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_inj_wd thm
+R2900:2909 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+prf 2941:2947 NOrderProp lt_lt_0
+binder 2958:2958 <> n:14
+binder 2960:2960 <> m:15
+R2968:2971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2964:2966 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2963:2963 Coq.Numbers.Natural.Abstract.NOrder <> n:14 var
+R2967:2967 Coq.Numbers.Natural.Abstract.NOrder <> m:15 var
+R2973:2975 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2976:2976 Coq.Numbers.Natural.Abstract.NOrder <> m:15 var
+R3052:3060 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+R3052:3060 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+prf 3077:3083 NOrderProp lt_1_l'
+binder 3094:3094 <> n:16
+binder 3096:3096 <> m:17
+binder 3098:3098 <> p:18
+R3106:3109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3102:3104 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3101:3101 Coq.Numbers.Natural.Abstract.NOrder <> n:16 var
+R3105:3105 Coq.Numbers.Natural.Abstract.NOrder <> m:17 var
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3111:3113 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3110:3110 Coq.Numbers.Natural.Abstract.NOrder <> m:17 var
+R3114:3114 Coq.Numbers.Natural.Abstract.NOrder <> p:18 var
+R3120:3122 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3123:3123 Coq.Numbers.Natural.Abstract.NOrder <> p:18 var
+R3158:3163 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_1_l thm
+R3158:3163 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_1_l thm
+R3185:3195 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R3185:3195 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R3221:3226 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R3221:3226 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+sec 3302:3308 NOrderProp RelElim
+var 3321:3321 NOrderProp.RelElim R
+R3325:3332 Coq.Relations.Relation_Definitions <> relation def
+R3334:3336 Coq.Numbers.Natural.Abstract.NOrder N t defax
+var 3350:3353 NOrderProp.RelElim R_wd
+R3357:3362 Coq.Classes.Morphisms <> Proper class
+R3384:3384 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3369:3371 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3365:3368 Coq.Numbers.Natural.Abstract.NOrder N eq defax
+R3376:3378 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3372:3375 Coq.Numbers.Natural.Abstract.NOrder N eq defax
+R3379:3381 Coq.Init.Logic <> iff def
+prf 3396:3405 NOrderProp le_ind_rel
+R3412:3412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3428:3435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3420:3420 <> m:21
+R3423:3423 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3427:3427 Coq.Numbers.Natural.Abstract.NOrder <> m:21 var
+R3436:3436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3481:3490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3444:3444 <> n:22
+binder 3446:3446 <> m:23
+R3455:3458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3450:3453 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3449:3449 Coq.Numbers.Natural.Abstract.NOrder <> n:22 var
+R3454:3454 Coq.Numbers.Natural.Abstract.NOrder <> m:23 var
+R3464:3467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3459:3459 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3461:3461 Coq.Numbers.Natural.Abstract.NOrder <> n:22 var
+R3463:3463 Coq.Numbers.Natural.Abstract.NOrder <> m:23 var
+R3468:3468 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3471:3471 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R3473:3473 Coq.Numbers.Natural.Abstract.NOrder <> n:22 var
+R3477:3477 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R3479:3479 Coq.Numbers.Natural.Abstract.NOrder <> m:23 var
+binder 3498:3498 <> n:24
+binder 3500:3500 <> m:25
+R3509:3512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3504:3507 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3503:3503 Coq.Numbers.Natural.Abstract.NOrder <> n:24 var
+R3508:3508 Coq.Numbers.Natural.Abstract.NOrder <> m:25 var
+R3513:3513 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3515:3515 Coq.Numbers.Natural.Abstract.NOrder <> n:24 var
+R3517:3517 Coq.Numbers.Natural.Abstract.NOrder <> m:25 var
+R3607:3612 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ind thm
+R3607:3612 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ind thm
+R3665:3674 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R3665:3674 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R3665:3674 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R3699:3707 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R3699:3707 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R3722:3731 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+R3722:3731 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+prf 3760:3769 NOrderProp lt_ind_rel
+R3776:3776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3796:3803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3784:3784 <> m:26
+R3787:3787 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3792:3792 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R3794:3794 Coq.Numbers.Natural.Abstract.NOrder <> m:26 var
+R3804:3804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3848:3855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3812:3812 <> n:27
+binder 3814:3814 <> m:28
+R3822:3825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3818:3820 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3817:3817 Coq.Numbers.Natural.Abstract.NOrder <> n:27 var
+R3821:3821 Coq.Numbers.Natural.Abstract.NOrder <> m:28 var
+R3831:3834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3826:3826 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3828:3828 Coq.Numbers.Natural.Abstract.NOrder <> n:27 var
+R3830:3830 Coq.Numbers.Natural.Abstract.NOrder <> m:28 var
+R3835:3835 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3838:3838 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R3840:3840 Coq.Numbers.Natural.Abstract.NOrder <> n:27 var
+R3844:3844 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R3846:3846 Coq.Numbers.Natural.Abstract.NOrder <> m:28 var
+binder 3863:3863 <> n:29
+binder 3865:3865 <> m:30
+R3873:3876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3869:3871 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3868:3868 Coq.Numbers.Natural.Abstract.NOrder <> n:29 var
+R3872:3872 Coq.Numbers.Natural.Abstract.NOrder <> m:30 var
+R3877:3877 Coq.Numbers.Natural.Abstract.NOrder <> NOrderProp.RelElim.R var
+R3879:3879 Coq.Numbers.Natural.Abstract.NOrder <> n:29 var
+R3881:3881 Coq.Numbers.Natural.Abstract.NOrder <> m:30 var
+R3939:3952 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_exists_pred thm
+R3939:3952 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_exists_pred thm
+R4039:4044 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_ind thm
+R4039:4044 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_ind thm
+R4097:4110 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R4097:4110 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R4097:4110 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R4135:4143 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+R4135:4143 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_l thm
+R4168:4174 Coq.Numbers.Natural.Abstract.NOrder NOrderProp.RelElim <> sec
+prf 4216:4228 NOrderProp succ_pred_pos
+binder 4239:4239 <> n:31
+R4247:4250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4243:4245 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4246:4246 Coq.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4258:4261 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4251:4251 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R4254:4254 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4256:4256 Coq.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4262:4262 Coq.Numbers.Natural.Abstract.NOrder <> n:31 var
+R4290:4298 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R4290:4298 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R4340:4348 Coq.Numbers.Natural.Abstract.NOrder N lt_irrefl prfax
+prf 4365:4373 NOrderProp le_pred_l
+binder 4384:4384 <> n:32
+R4390:4393 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4387:4387 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4389:4389 Coq.Numbers.Natural.Abstract.NOrder <> n:32 var
+R4394:4394 Coq.Numbers.Natural.Abstract.NOrder <> n:32 var
+R4430:4435 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R4448:4457 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R4430:4435 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R4430:4435 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R4448:4457 Coq.Numbers.Natural.Abstract.NOrder NOrderProp eq_le_incl thm
+R4476:4484 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4494:4507 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+R4476:4484 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4476:4484 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4494:4507 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_diag_r thm
+prf 4524:4532 NOrderProp lt_pred_l
+binder 4543:4543 <> n:33
+R4552:4555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4547:4550 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4546:4546 Coq.Numbers.Natural.Abstract.NOrder <> n:33 var
+R4559:4561 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4556:4556 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4558:4558 Coq.Numbers.Natural.Abstract.NOrder <> n:33 var
+R4562:4562 Coq.Numbers.Natural.Abstract.NOrder <> n:33 var
+R4637:4645 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4655:4668 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+R4637:4645 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4637:4645 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R4655:4668 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_succ_diag_r thm
+prf 4685:4694 NOrderProp le_le_pred
+binder 4705:4705 <> n:34
+binder 4707:4707 <> m:35
+R4716:4719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4711:4714 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4710:4710 Coq.Numbers.Natural.Abstract.NOrder <> n:34 var
+R4715:4715 Coq.Numbers.Natural.Abstract.NOrder <> m:35 var
+R4723:4726 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4720:4720 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4722:4722 Coq.Numbers.Natural.Abstract.NOrder <> n:34 var
+R4727:4727 Coq.Numbers.Natural.Abstract.NOrder <> m:35 var
+R4757:4764 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R4757:4764 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R4780:4788 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R4780:4788 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 4817:4826 NOrderProp lt_lt_pred
+binder 4837:4837 <> n:36
+binder 4839:4839 <> m:37
+R4847:4850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4843:4845 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4842:4842 Coq.Numbers.Natural.Abstract.NOrder <> n:36 var
+R4846:4846 Coq.Numbers.Natural.Abstract.NOrder <> m:37 var
+R4854:4856 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4851:4851 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4853:4853 Coq.Numbers.Natural.Abstract.NOrder <> n:36 var
+R4857:4857 Coq.Numbers.Natural.Abstract.NOrder <> m:37 var
+R4887:4897 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R4887:4897 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_lt_trans thm
+R4913:4921 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R4913:4921 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 4950:4959 NOrderProp lt_le_pred
+binder 4970:4970 <> n:38
+binder 4972:4972 <> m:39
+R4980:4983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4976:4978 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4975:4975 Coq.Numbers.Natural.Abstract.NOrder <> n:38 var
+R4979:4979 Coq.Numbers.Natural.Abstract.NOrder <> m:39 var
+R4985:4988 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4984:4984 Coq.Numbers.Natural.Abstract.NOrder <> n:38 var
+R4989:4989 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R4991:4991 Coq.Numbers.Natural.Abstract.NOrder <> m:39 var
+R5084:5090 Coq.Numbers.Natural.Abstract.NOrder NOrderProp nlt_0_r thm
+R5114:5122 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5135:5143 Coq.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+R5114:5122 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5114:5122 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5135:5143 Coq.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+prf 5160:5169 NOrderProp lt_pred_le
+binder 5180:5180 <> n:40
+binder 5182:5182 <> m:41
+R5192:5195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5188:5190 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5185:5185 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5187:5187 Coq.Numbers.Natural.Abstract.NOrder <> n:40 var
+R5191:5191 Coq.Numbers.Natural.Abstract.NOrder <> m:41 var
+R5197:5200 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5196:5196 Coq.Numbers.Natural.Abstract.NOrder <> n:40 var
+R5201:5201 Coq.Numbers.Natural.Abstract.NOrder <> m:41 var
+R5281:5286 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5308:5317 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+R5281:5286 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5281:5286 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5308:5317 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_incl thm
+R5341:5349 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5341:5349 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5341:5349 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5368:5376 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R5368:5376 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+prf 5393:5402 NOrderProp lt_pred_lt
+binder 5413:5413 <> n:42
+binder 5415:5415 <> m:43
+R5425:5428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5419:5421 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5418:5418 Coq.Numbers.Natural.Abstract.NOrder <> n:42 var
+R5422:5422 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5424:5424 Coq.Numbers.Natural.Abstract.NOrder <> m:43 var
+R5430:5432 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5429:5429 Coq.Numbers.Natural.Abstract.NOrder <> n:42 var
+R5433:5433 Coq.Numbers.Natural.Abstract.NOrder <> m:43 var
+R5481:5481 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5463:5473 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R5507:5515 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R5481:5481 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5463:5473 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R5507:5515 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 5533:5542 NOrderProp le_pred_le
+binder 5553:5553 <> n:44
+binder 5555:5555 <> m:45
+R5566:5569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5559:5562 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5558:5558 Coq.Numbers.Natural.Abstract.NOrder <> n:44 var
+R5563:5563 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5565:5565 Coq.Numbers.Natural.Abstract.NOrder <> m:45 var
+R5571:5574 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5570:5570 Coq.Numbers.Natural.Abstract.NOrder <> n:44 var
+R5575:5575 Coq.Numbers.Natural.Abstract.NOrder <> m:45 var
+R5620:5620 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5605:5612 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R5646:5654 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R5620:5620 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5605:5612 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_trans thm
+R5646:5654 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+prf 5672:5683 NOrderProp pred_le_mono
+binder 5694:5694 <> n:46
+binder 5696:5696 <> m:47
+R5705:5708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5700:5703 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5699:5699 Coq.Numbers.Natural.Abstract.NOrder <> n:46 var
+R5704:5704 Coq.Numbers.Natural.Abstract.NOrder <> m:47 var
+R5712:5715 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5709:5709 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5711:5711 Coq.Numbers.Natural.Abstract.NOrder <> n:46 var
+R5716:5716 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5718:5718 Coq.Numbers.Natural.Abstract.NOrder <> m:47 var
+R5799:5808 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ind_rel thm
+R5799:5808 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_ind_rel thm
+R5840:5845 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5854:5859 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R5840:5845 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5840:5845 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R5854:5859 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R5896:5904 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5896:5904 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5896:5904 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5896:5904 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R5896:5904 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+prf 5921:5932 NOrderProp pred_lt_mono
+binder 5943:5943 <> n:48
+binder 5945:5945 <> m:49
+R5954:5958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5978:5978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5949:5952 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5948:5948 Coq.Numbers.Natural.Abstract.NOrder <> n:48 var
+R5964:5968 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5960:5962 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5959:5959 Coq.Numbers.Natural.Abstract.NOrder <> n:48 var
+R5963:5963 Coq.Numbers.Natural.Abstract.NOrder <> m:49 var
+R5972:5974 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5969:5969 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5971:5971 Coq.Numbers.Natural.Abstract.NOrder <> n:48 var
+R5975:5975 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R5977:5977 Coq.Numbers.Natural.Abstract.NOrder <> m:49 var
+R6029:6032 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6029:6032 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6043:6052 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6043:6052 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6065:6071 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6065:6071 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6097:6105 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6157:6168 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6097:6105 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6097:6105 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6097:6105 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6129:6137 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6157:6168 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6187:6190 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6187:6190 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6201:6210 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6201:6210 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_0_lt_0 thm
+R6233:6233 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6219:6225 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6233:6233 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6219:6225 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_lt_0 thm
+R6263:6263 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6245:6255 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R6263:6263 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6245:6255 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_trans thm
+R6287:6295 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R6287:6295 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_pred_l thm
+R6304:6315 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6304:6315 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_lt_mono thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+R6341:6349 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_pred thm
+prf 6372:6386 NOrderProp lt_succ_lt_pred
+binder 6397:6397 <> n:50
+binder 6399:6399 <> m:51
+R6409:6413 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6405:6407 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6402:6402 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R6404:6404 Coq.Numbers.Natural.Abstract.NOrder <> n:50 var
+R6408:6408 Coq.Numbers.Natural.Abstract.NOrder <> m:51 var
+R6415:6417 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6414:6414 Coq.Numbers.Natural.Abstract.NOrder <> n:50 var
+R6418:6418 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6420:6420 Coq.Numbers.Natural.Abstract.NOrder <> m:51 var
+R6472:6481 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R6450:6461 Coq.Numbers.Natural.Abstract.NOrder NOrderProp pred_lt_mono thm
+R6450:6461 Coq.Numbers.Natural.Abstract.NOrder NOrderProp pred_lt_mono thm
+R6472:6481 Coq.Numbers.Natural.Abstract.NOrder NOrderProp neq_succ_0 thm
+R6450:6461 Coq.Numbers.Natural.Abstract.NOrder NOrderProp pred_lt_mono thm
+R6496:6504 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R6496:6504 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R6496:6504 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+prf 6521:6535 NOrderProp le_succ_le_pred
+binder 6546:6546 <> n:52
+binder 6548:6548 <> m:53
+R6559:6562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6554:6557 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6551:6551 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R6553:6553 Coq.Numbers.Natural.Abstract.NOrder <> n:52 var
+R6558:6558 Coq.Numbers.Natural.Abstract.NOrder <> m:53 var
+R6564:6567 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6563:6563 Coq.Numbers.Natural.Abstract.NOrder <> n:52 var
+R6568:6568 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6570:6570 Coq.Numbers.Natural.Abstract.NOrder <> m:53 var
+R6641:6650 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_pred thm
+R6641:6650 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_le_pred thm
+R6663:6671 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+R6663:6671 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_succ_l thm
+prf 6688:6702 NOrderProp lt_pred_lt_succ
+binder 6713:6713 <> n:54
+binder 6715:6715 <> m:55
+R6725:6728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6721:6723 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6718:6718 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6720:6720 Coq.Numbers.Natural.Abstract.NOrder <> n:54 var
+R6724:6724 Coq.Numbers.Natural.Abstract.NOrder <> m:55 var
+R6730:6732 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6729:6729 Coq.Numbers.Natural.Abstract.NOrder <> n:54 var
+R6733:6733 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R6735:6735 Coq.Numbers.Natural.Abstract.NOrder <> m:55 var
+R6806:6814 Coq.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+R6806:6814 Coq.Numbers.Natural.Abstract.NOrder N lt_succ_r prfax
+R6827:6836 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_pred_le thm
+R6827:6836 Coq.Numbers.Natural.Abstract.NOrder NOrderProp lt_pred_le thm
+prf 6853:6867 NOrderProp le_pred_le_succ
+binder 6878:6878 <> n:56
+binder 6880:6880 <> m:57
+R6891:6895 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6886:6889 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6883:6883 Coq.Numbers.Natural.Abstract.NOrder N P abbrev
+R6885:6885 Coq.Numbers.Natural.Abstract.NOrder <> n:56 var
+R6890:6890 Coq.Numbers.Natural.Abstract.NOrder <> m:57 var
+R6897:6900 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6896:6896 Coq.Numbers.Natural.Abstract.NOrder <> n:56 var
+R6901:6901 Coq.Numbers.Natural.Abstract.NOrder N S abbrev
+R6903:6903 Coq.Numbers.Natural.Abstract.NOrder <> m:57 var
+R6942:6947 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R6942:6947 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R6942:6947 Coq.Numbers.Natural.Abstract.NOrder N pred_0 prfax
+R6972:6977 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R6972:6977 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R6972:6977 Coq.Numbers.Natural.Abstract.NOrder NOrderProp le_0_l thm
+R6997:7005 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R6997:7005 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R6997:7005 Coq.Numbers.Natural.Abstract.NOrder N pred_succ prfax
+R7014:7025 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R7014:7025 Coq.Numbers.Natural.Abstract.NOrder NOrderProp succ_le_mono thm
+R7038:7047 Coq.Numbers.Natural.Abstract.NOrder NOrderProp <> mod

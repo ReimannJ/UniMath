@@ -1,0 +1,656 @@
+DIGEST 4893b83f42224040de8445949eb38baf
+FCoq.Init.Hexadecimal
+R1025:1033 Coq.Init.Datatypes <> <> lib
+R1035:1040 Coq.Init.Specif <> <> lib
+R1042:1048 Coq.Init.Decimal <> <> lib
+ind 1157:1160 <> uint
+constr 1168:1170 <> Nil
+constr 1175:1176 <> D0
+constr 1190:1191 <> D1
+constr 1205:1206 <> D2
+constr 1220:1221 <> D3
+constr 1235:1236 <> D4
+constr 1250:1251 <> D5
+constr 1265:1266 <> D6
+constr 1280:1281 <> D7
+constr 1295:1296 <> D8
+constr 1310:1311 <> D9
+constr 1325:1326 <> Da
+constr 1340:1341 <> Db
+constr 1355:1356 <> Dc
+constr 1370:1371 <> Dd
+constr 1385:1386 <> De
+constr 1400:1401 <> Df
+R1181:1184 Coq.Init.Hexadecimal <> uint:1 ind
+R1196:1199 Coq.Init.Hexadecimal <> uint:1 ind
+R1211:1214 Coq.Init.Hexadecimal <> uint:1 ind
+R1226:1229 Coq.Init.Hexadecimal <> uint:1 ind
+R1241:1244 Coq.Init.Hexadecimal <> uint:1 ind
+R1256:1259 Coq.Init.Hexadecimal <> uint:1 ind
+R1271:1274 Coq.Init.Hexadecimal <> uint:1 ind
+R1286:1289 Coq.Init.Hexadecimal <> uint:1 ind
+R1301:1304 Coq.Init.Hexadecimal <> uint:1 ind
+R1316:1319 Coq.Init.Hexadecimal <> uint:1 ind
+R1331:1334 Coq.Init.Hexadecimal <> uint:1 ind
+R1346:1349 Coq.Init.Hexadecimal <> uint:1 ind
+R1361:1364 Coq.Init.Hexadecimal <> uint:1 ind
+R1376:1379 Coq.Init.Hexadecimal <> uint:1 ind
+R1391:1394 Coq.Init.Hexadecimal <> uint:1 ind
+R1406:1409 Coq.Init.Hexadecimal <> uint:1 ind
+abbrev 1615:1618 <> zero
+R1624:1625 Coq.Init.Hexadecimal <> D0 constr
+R1627:1629 Coq.Init.Hexadecimal <> Nil constr
+ind 1712:1721 <> signed_int
+constr 1726:1728 <> Pos
+constr 1741:1743 <> Neg
+R1733:1736 Coq.Init.Hexadecimal <> uint ind
+binder 1731:1731 <> d:5
+R1748:1751 Coq.Init.Hexadecimal <> uint ind
+binder 1746:1746 <> d:6
+abbrev 1764:1766 <> int
+R1771:1780 Coq.Init.Hexadecimal <> signed_int variant
+ind 2071:2081 <> hexadecimal
+constr 2089:2099 <> Hexadecimal
+constr 2121:2134 <> HexadecimalExp
+R2104:2106 Coq.Init.Hexadecimal <> int abbrev
+binder 2102:2102 <> i:9
+R2112:2115 Coq.Init.Hexadecimal <> uint ind
+binder 2110:2110 <> f:10
+R2139:2141 Coq.Init.Hexadecimal <> int abbrev
+binder 2137:2137 <> i:11
+R2147:2150 Coq.Init.Hexadecimal <> uint ind
+binder 2145:2145 <> f:12
+R2156:2166 Coq.Init.Decimal <> int abbrev
+binder 2154:2154 <> e:13
+R2191:2194 Coq.Init.Hexadecimal <> uint ind
+R2217:2219 Coq.Init.Hexadecimal <> signed_int variant
+R2242:2252 Coq.Init.Hexadecimal <> hexadecimal variant
+abbrev 2264:2273 <> int_eq_dec
+R2278:2294 Coq.Init.Hexadecimal <> signed_int_eq_dec scheme
+abbrev 2306:2312 <> int_beq
+R2317:2330 Coq.Init.Hexadecimal <> signed_int_beq scheme
+abbrev 2342:2360 <> internal_int_dec_lb
+R2365:2390 Coq.Init.Decimal <> internal_signed_int_dec_lb scheme
+abbrev 2402:2420 <> internal_int_dec_bl
+R2425:2450 Coq.Init.Decimal <> internal_signed_int_dec_bl scheme
+def 2809:2817 <> nb_digits
+binder 2819:2819 <> d:14
+R2832:2832 Coq.Init.Hexadecimal <> d:14 var
+R2843:2845 Coq.Init.Hexadecimal <> Nil constr
+R2850:2850 Coq.Init.Datatypes <> O constr
+R2856:2857 Coq.Init.Hexadecimal <> D0 constr
+R2863:2864 Coq.Init.Hexadecimal <> D1 constr
+R2870:2871 Coq.Init.Hexadecimal <> D2 constr
+R2877:2878 Coq.Init.Hexadecimal <> D3 constr
+R2884:2885 Coq.Init.Hexadecimal <> D4 constr
+R2891:2892 Coq.Init.Hexadecimal <> D5 constr
+R2898:2899 Coq.Init.Hexadecimal <> D6 constr
+R2905:2906 Coq.Init.Hexadecimal <> D7 constr
+R2912:2913 Coq.Init.Hexadecimal <> D8 constr
+R2919:2920 Coq.Init.Hexadecimal <> D9 constr
+R2928:2929 Coq.Init.Hexadecimal <> Da constr
+R2935:2936 Coq.Init.Hexadecimal <> Db constr
+R2942:2943 Coq.Init.Hexadecimal <> Dc constr
+R2949:2950 Coq.Init.Hexadecimal <> Dd constr
+R2956:2957 Coq.Init.Hexadecimal <> De constr
+R2963:2964 Coq.Init.Hexadecimal <> Df constr
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+R2975:2975 Coq.Init.Datatypes <> S constr
+R2978:2986 Coq.Init.Hexadecimal <> nb_digits:15 def
+R2988:2988 Coq.Init.Hexadecimal <> d:14 var
+def 3311:3316 <> nzhead
+binder 3318:3318 <> d:17
+R3331:3331 Coq.Init.Hexadecimal <> d:17 var
+R3342:3343 Coq.Init.Hexadecimal <> D0 constr
+R3350:3355 Coq.Init.Hexadecimal <> nzhead:18 def
+R3357:3357 Coq.Init.Hexadecimal <> d:17 var
+R3368:3368 Coq.Init.Hexadecimal <> d:17 var
+def 3442:3446 <> unorm
+binder 3448:3448 <> d:20
+R3461:3466 Coq.Init.Hexadecimal <> nzhead def
+R3468:3468 Coq.Init.Hexadecimal <> d:20 var
+R3479:3481 Coq.Init.Hexadecimal <> Nil constr
+R3486:3489 Coq.Init.Hexadecimal <> zero abbrev
+R3500:3500 Coq.Init.Hexadecimal <> d:20 var
+def 3571:3574 <> norm
+binder 3576:3576 <> d:21
+R3589:3589 Coq.Init.Hexadecimal <> d:21 var
+R3600:3602 Coq.Init.Hexadecimal <> Pos constr
+R3609:3611 Coq.Init.Hexadecimal <> Pos constr
+R3614:3618 Coq.Init.Hexadecimal <> unorm def
+R3620:3620 Coq.Init.Hexadecimal <> d:21 var
+R3627:3629 Coq.Init.Hexadecimal <> Neg constr
+R3646:3651 Coq.Init.Hexadecimal <> nzhead def
+R3653:3653 Coq.Init.Hexadecimal <> d:21 var
+R3666:3668 Coq.Init.Hexadecimal <> Nil constr
+R3673:3675 Coq.Init.Hexadecimal <> Pos constr
+R3677:3680 Coq.Init.Hexadecimal <> zero abbrev
+R3693:3695 Coq.Init.Hexadecimal <> Neg constr
+R3697:3697 Coq.Init.Hexadecimal <> d:21 var
+def 3883:3885 <> opp
+R3890:3892 Coq.Init.Hexadecimal <> int abbrev
+binder 3888:3888 <> d:23
+R3906:3906 Coq.Init.Hexadecimal <> d:23 var
+R3917:3919 Coq.Init.Hexadecimal <> Pos constr
+R3926:3928 Coq.Init.Hexadecimal <> Neg constr
+R3930:3930 Coq.Init.Hexadecimal <> d:23 var
+R3936:3938 Coq.Init.Hexadecimal <> Neg constr
+R3945:3947 Coq.Init.Hexadecimal <> Pos constr
+R3949:3949 Coq.Init.Hexadecimal <> d:23 var
+def 3970:3972 <> abs
+R3977:3979 Coq.Init.Hexadecimal <> int abbrev
+binder 3975:3975 <> d:25
+R3984:3987 Coq.Init.Hexadecimal <> uint ind
+R4000:4000 Coq.Init.Hexadecimal <> d:25 var
+R4011:4013 Coq.Init.Hexadecimal <> Pos constr
+R4020:4020 Coq.Init.Hexadecimal <> d:25 var
+R4026:4028 Coq.Init.Hexadecimal <> Neg constr
+R4035:4035 Coq.Init.Hexadecimal <> d:25 var
+def 4153:4158 <> revapp
+R4168:4171 Coq.Init.Hexadecimal <> uint ind
+binder 4161:4161 <> d:27
+binder 4163:4164 <> d':28
+R4185:4185 Coq.Init.Hexadecimal <> d:27 var
+R4196:4198 Coq.Init.Hexadecimal <> Nil constr
+R4203:4204 Coq.Init.Hexadecimal <> d':28 var
+R4210:4211 Coq.Init.Hexadecimal <> D0 constr
+R4218:4223 Coq.Init.Hexadecimal <> revapp:29 def
+R4228:4229 Coq.Init.Hexadecimal <> D0 constr
+R4231:4232 Coq.Init.Hexadecimal <> d':28 var
+R4225:4225 Coq.Init.Hexadecimal <> d:27 var
+R4239:4240 Coq.Init.Hexadecimal <> D1 constr
+R4247:4252 Coq.Init.Hexadecimal <> revapp:29 def
+R4257:4258 Coq.Init.Hexadecimal <> D1 constr
+R4260:4261 Coq.Init.Hexadecimal <> d':28 var
+R4254:4254 Coq.Init.Hexadecimal <> d:27 var
+R4268:4269 Coq.Init.Hexadecimal <> D2 constr
+R4276:4281 Coq.Init.Hexadecimal <> revapp:29 def
+R4286:4287 Coq.Init.Hexadecimal <> D2 constr
+R4289:4290 Coq.Init.Hexadecimal <> d':28 var
+R4283:4283 Coq.Init.Hexadecimal <> d:27 var
+R4297:4298 Coq.Init.Hexadecimal <> D3 constr
+R4305:4310 Coq.Init.Hexadecimal <> revapp:29 def
+R4315:4316 Coq.Init.Hexadecimal <> D3 constr
+R4318:4319 Coq.Init.Hexadecimal <> d':28 var
+R4312:4312 Coq.Init.Hexadecimal <> d:27 var
+R4326:4327 Coq.Init.Hexadecimal <> D4 constr
+R4334:4339 Coq.Init.Hexadecimal <> revapp:29 def
+R4344:4345 Coq.Init.Hexadecimal <> D4 constr
+R4347:4348 Coq.Init.Hexadecimal <> d':28 var
+R4341:4341 Coq.Init.Hexadecimal <> d:27 var
+R4355:4356 Coq.Init.Hexadecimal <> D5 constr
+R4363:4368 Coq.Init.Hexadecimal <> revapp:29 def
+R4373:4374 Coq.Init.Hexadecimal <> D5 constr
+R4376:4377 Coq.Init.Hexadecimal <> d':28 var
+R4370:4370 Coq.Init.Hexadecimal <> d:27 var
+R4384:4385 Coq.Init.Hexadecimal <> D6 constr
+R4392:4397 Coq.Init.Hexadecimal <> revapp:29 def
+R4402:4403 Coq.Init.Hexadecimal <> D6 constr
+R4405:4406 Coq.Init.Hexadecimal <> d':28 var
+R4399:4399 Coq.Init.Hexadecimal <> d:27 var
+R4413:4414 Coq.Init.Hexadecimal <> D7 constr
+R4421:4426 Coq.Init.Hexadecimal <> revapp:29 def
+R4431:4432 Coq.Init.Hexadecimal <> D7 constr
+R4434:4435 Coq.Init.Hexadecimal <> d':28 var
+R4428:4428 Coq.Init.Hexadecimal <> d:27 var
+R4442:4443 Coq.Init.Hexadecimal <> D8 constr
+R4450:4455 Coq.Init.Hexadecimal <> revapp:29 def
+R4460:4461 Coq.Init.Hexadecimal <> D8 constr
+R4463:4464 Coq.Init.Hexadecimal <> d':28 var
+R4457:4457 Coq.Init.Hexadecimal <> d:27 var
+R4471:4472 Coq.Init.Hexadecimal <> D9 constr
+R4479:4484 Coq.Init.Hexadecimal <> revapp:29 def
+R4489:4490 Coq.Init.Hexadecimal <> D9 constr
+R4492:4493 Coq.Init.Hexadecimal <> d':28 var
+R4486:4486 Coq.Init.Hexadecimal <> d:27 var
+R4500:4501 Coq.Init.Hexadecimal <> Da constr
+R4508:4513 Coq.Init.Hexadecimal <> revapp:29 def
+R4518:4519 Coq.Init.Hexadecimal <> Da constr
+R4521:4522 Coq.Init.Hexadecimal <> d':28 var
+R4515:4515 Coq.Init.Hexadecimal <> d:27 var
+R4529:4530 Coq.Init.Hexadecimal <> Db constr
+R4537:4542 Coq.Init.Hexadecimal <> revapp:29 def
+R4547:4548 Coq.Init.Hexadecimal <> Db constr
+R4550:4551 Coq.Init.Hexadecimal <> d':28 var
+R4544:4544 Coq.Init.Hexadecimal <> d:27 var
+R4558:4559 Coq.Init.Hexadecimal <> Dc constr
+R4566:4571 Coq.Init.Hexadecimal <> revapp:29 def
+R4576:4577 Coq.Init.Hexadecimal <> Dc constr
+R4579:4580 Coq.Init.Hexadecimal <> d':28 var
+R4573:4573 Coq.Init.Hexadecimal <> d:27 var
+R4587:4588 Coq.Init.Hexadecimal <> Dd constr
+R4595:4600 Coq.Init.Hexadecimal <> revapp:29 def
+R4605:4606 Coq.Init.Hexadecimal <> Dd constr
+R4608:4609 Coq.Init.Hexadecimal <> d':28 var
+R4602:4602 Coq.Init.Hexadecimal <> d:27 var
+R4616:4617 Coq.Init.Hexadecimal <> De constr
+R4624:4629 Coq.Init.Hexadecimal <> revapp:29 def
+R4634:4635 Coq.Init.Hexadecimal <> De constr
+R4637:4638 Coq.Init.Hexadecimal <> d':28 var
+R4631:4631 Coq.Init.Hexadecimal <> d:27 var
+R4645:4646 Coq.Init.Hexadecimal <> Df constr
+R4653:4658 Coq.Init.Hexadecimal <> revapp:29 def
+R4663:4664 Coq.Init.Hexadecimal <> Df constr
+R4666:4667 Coq.Init.Hexadecimal <> d':28 var
+R4660:4660 Coq.Init.Hexadecimal <> d:27 var
+def 4689:4691 <> rev
+binder 4693:4693 <> d:31
+R4698:4703 Coq.Init.Hexadecimal <> revapp def
+R4705:4705 Coq.Init.Hexadecimal <> d:31 var
+R4707:4709 Coq.Init.Hexadecimal <> Nil constr
+def 4724:4726 <> app
+binder 4728:4728 <> d:32
+binder 4730:4731 <> d':33
+R4736:4741 Coq.Init.Hexadecimal <> revapp def
+R4744:4746 Coq.Init.Hexadecimal <> rev def
+R4748:4748 Coq.Init.Hexadecimal <> d:32 var
+R4751:4752 Coq.Init.Hexadecimal <> d':33 var
+def 4767:4773 <> app_int
+binder 4775:4776 <> d1:34
+binder 4778:4779 <> d2:35
+R4792:4793 Coq.Init.Hexadecimal <> d1:34 var
+R4800:4802 Coq.Init.Hexadecimal <> Pos constr
+R4810:4812 Coq.Init.Hexadecimal <> Pos constr
+R4815:4817 Coq.Init.Hexadecimal <> app def
+R4819:4820 Coq.Init.Hexadecimal <> d1:34 var
+R4822:4823 Coq.Init.Hexadecimal <> d2:35 var
+R4828:4830 Coq.Init.Hexadecimal <> Neg constr
+R4838:4840 Coq.Init.Hexadecimal <> Neg constr
+R4843:4845 Coq.Init.Hexadecimal <> app def
+R4847:4848 Coq.Init.Hexadecimal <> d1:34 var
+R4850:4851 Coq.Init.Hexadecimal <> d2:35 var
+def 4986:4991 <> nztail
+binder 4993:4993 <> d:37
+binder 5012:5016 <> d_rev:38
+R5031:5035 Coq.Init.Hexadecimal <> d_rev:38 var
+R5048:5049 Coq.Init.Hexadecimal <> D0 constr
+R5074:5076 Coq.Init.Hexadecimal <> aux:39 var
+R5078:5082 Coq.Init.Hexadecimal <> d_rev:38 var
+binder 5065:5065 <> r:41
+binder 5068:5068 <> n:42
+R5087:5090 Coq.Init.Datatypes <> pair constr
+R5095:5095 Coq.Init.Datatypes <> S constr
+R5097:5097 Coq.Init.Hexadecimal <> n:42 var
+R5092:5092 Coq.Init.Hexadecimal <> r:41 var
+R5111:5114 Coq.Init.Datatypes <> pair constr
+R5122:5122 Coq.Init.Datatypes <> O constr
+R5116:5120 Coq.Init.Hexadecimal <> d_rev:38 var
+binder 5008:5010 <> aux:43
+R5151:5153 Coq.Init.Hexadecimal <> aux:43 var
+R5156:5158 Coq.Init.Hexadecimal <> rev def
+R5160:5160 Coq.Init.Hexadecimal <> d:37 var
+binder 5142:5142 <> r:44
+binder 5145:5145 <> n:45
+R5166:5169 Coq.Init.Datatypes <> pair constr
+R5179:5179 Coq.Init.Hexadecimal <> n:45 var
+R5172:5174 Coq.Init.Hexadecimal <> rev def
+R5176:5176 Coq.Init.Hexadecimal <> r:44 var
+def 5194:5203 <> nztail_int
+binder 5205:5205 <> d:46
+R5218:5218 Coq.Init.Hexadecimal <> d:46 var
+R5229:5231 Coq.Init.Hexadecimal <> Pos constr
+R5252:5257 Coq.Init.Hexadecimal <> nztail def
+R5259:5259 Coq.Init.Hexadecimal <> d:46 var
+binder 5243:5243 <> r:48
+binder 5246:5246 <> n:49
+R5264:5267 Coq.Init.Datatypes <> pair constr
+R5277:5277 Coq.Init.Hexadecimal <> n:49 var
+R5270:5272 Coq.Init.Hexadecimal <> Pos constr
+R5274:5274 Coq.Init.Hexadecimal <> r:48 var
+R5283:5285 Coq.Init.Hexadecimal <> Neg constr
+R5306:5311 Coq.Init.Hexadecimal <> nztail def
+R5313:5313 Coq.Init.Hexadecimal <> d:46 var
+binder 5297:5297 <> r:50
+binder 5300:5300 <> n:51
+R5318:5321 Coq.Init.Datatypes <> pair constr
+R5331:5331 Coq.Init.Hexadecimal <> n:51 var
+R5324:5326 Coq.Init.Hexadecimal <> Neg constr
+R5328:5328 Coq.Init.Hexadecimal <> r:50 var
+def 5467:5474 <> del_head
+binder 5476:5476 <> n:52
+binder 5478:5478 <> d:53
+R5491:5491 Coq.Init.Hexadecimal <> n:52 var
+R5502:5502 Coq.Init.Datatypes <> O constr
+R5507:5507 Coq.Init.Hexadecimal <> d:53 var
+R5513:5513 Coq.Init.Datatypes <> S constr
+R5530:5530 Coq.Init.Hexadecimal <> d:53 var
+R5543:5545 Coq.Init.Hexadecimal <> Nil constr
+R5550:5553 Coq.Init.Hexadecimal <> zero abbrev
+R5561:5562 Coq.Init.Hexadecimal <> D0 constr
+R5568:5569 Coq.Init.Hexadecimal <> D1 constr
+R5575:5576 Coq.Init.Hexadecimal <> D2 constr
+R5582:5583 Coq.Init.Hexadecimal <> D3 constr
+R5589:5590 Coq.Init.Hexadecimal <> D4 constr
+R5596:5597 Coq.Init.Hexadecimal <> D5 constr
+R5603:5604 Coq.Init.Hexadecimal <> D6 constr
+R5610:5611 Coq.Init.Hexadecimal <> D7 constr
+R5617:5618 Coq.Init.Hexadecimal <> D8 constr
+R5624:5625 Coq.Init.Hexadecimal <> D9 constr
+R5635:5636 Coq.Init.Hexadecimal <> Da constr
+R5642:5643 Coq.Init.Hexadecimal <> Db constr
+R5649:5650 Coq.Init.Hexadecimal <> Dc constr
+R5656:5657 Coq.Init.Hexadecimal <> Dd constr
+R5663:5664 Coq.Init.Hexadecimal <> De constr
+R5670:5671 Coq.Init.Hexadecimal <> Df constr
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+R5684:5691 Coq.Init.Hexadecimal <> del_head:54 def
+R5695:5695 Coq.Init.Hexadecimal <> d:53 var
+R5693:5693 Coq.Init.Hexadecimal <> n:52 var
+def 5724:5735 <> del_head_int
+binder 5737:5737 <> n:57
+binder 5739:5739 <> d:58
+R5752:5752 Coq.Init.Hexadecimal <> d:58 var
+R5763:5765 Coq.Init.Hexadecimal <> Pos constr
+R5772:5779 Coq.Init.Hexadecimal <> del_head def
+R5781:5781 Coq.Init.Hexadecimal <> n:57 var
+R5783:5783 Coq.Init.Hexadecimal <> d:58 var
+R5789:5791 Coq.Init.Hexadecimal <> Neg constr
+R5798:5805 Coq.Init.Hexadecimal <> del_head def
+R5807:5807 Coq.Init.Hexadecimal <> n:57 var
+R5809:5809 Coq.Init.Hexadecimal <> d:58 var
+def 5941:5948 <> del_tail
+binder 5950:5950 <> n:60
+binder 5952:5952 <> d:61
+R5957:5959 Coq.Init.Hexadecimal <> rev def
+R5962:5969 Coq.Init.Hexadecimal <> del_head def
+R5971:5971 Coq.Init.Hexadecimal <> n:60 var
+R5974:5976 Coq.Init.Hexadecimal <> rev def
+R5978:5978 Coq.Init.Hexadecimal <> d:61 var
+def 5995:6006 <> del_tail_int
+binder 6008:6008 <> n:62
+binder 6010:6010 <> d:63
+R6023:6023 Coq.Init.Hexadecimal <> d:63 var
+R6034:6036 Coq.Init.Hexadecimal <> Pos constr
+R6043:6045 Coq.Init.Hexadecimal <> Pos constr
+R6048:6055 Coq.Init.Hexadecimal <> del_tail def
+R6057:6057 Coq.Init.Hexadecimal <> n:62 var
+R6059:6059 Coq.Init.Hexadecimal <> d:63 var
+R6066:6068 Coq.Init.Hexadecimal <> Neg constr
+R6075:6077 Coq.Init.Hexadecimal <> Neg constr
+R6080:6087 Coq.Init.Hexadecimal <> del_tail def
+R6089:6089 Coq.Init.Hexadecimal <> n:62 var
+R6091:6091 Coq.Init.Hexadecimal <> d:63 var
+mod 6109:6114 <> Little
+def 6170:6173 Little succ
+binder 6175:6175 <> d:65
+R6188:6188 Coq.Init.Hexadecimal <> d:65 var
+R6199:6201 Coq.Init.Hexadecimal <> Nil constr
+R6206:6207 Coq.Init.Hexadecimal <> D1 constr
+R6209:6211 Coq.Init.Hexadecimal <> Nil constr
+R6217:6218 Coq.Init.Hexadecimal <> D0 constr
+R6225:6226 Coq.Init.Hexadecimal <> D1 constr
+R6228:6228 Coq.Init.Hexadecimal <> d:65 var
+R6234:6235 Coq.Init.Hexadecimal <> D1 constr
+R6242:6243 Coq.Init.Hexadecimal <> D2 constr
+R6245:6245 Coq.Init.Hexadecimal <> d:65 var
+R6251:6252 Coq.Init.Hexadecimal <> D2 constr
+R6259:6260 Coq.Init.Hexadecimal <> D3 constr
+R6262:6262 Coq.Init.Hexadecimal <> d:65 var
+R6268:6269 Coq.Init.Hexadecimal <> D3 constr
+R6276:6277 Coq.Init.Hexadecimal <> D4 constr
+R6279:6279 Coq.Init.Hexadecimal <> d:65 var
+R6285:6286 Coq.Init.Hexadecimal <> D4 constr
+R6293:6294 Coq.Init.Hexadecimal <> D5 constr
+R6296:6296 Coq.Init.Hexadecimal <> d:65 var
+R6302:6303 Coq.Init.Hexadecimal <> D5 constr
+R6310:6311 Coq.Init.Hexadecimal <> D6 constr
+R6313:6313 Coq.Init.Hexadecimal <> d:65 var
+R6319:6320 Coq.Init.Hexadecimal <> D6 constr
+R6327:6328 Coq.Init.Hexadecimal <> D7 constr
+R6330:6330 Coq.Init.Hexadecimal <> d:65 var
+R6336:6337 Coq.Init.Hexadecimal <> D7 constr
+R6344:6345 Coq.Init.Hexadecimal <> D8 constr
+R6347:6347 Coq.Init.Hexadecimal <> d:65 var
+R6353:6354 Coq.Init.Hexadecimal <> D8 constr
+R6361:6362 Coq.Init.Hexadecimal <> D9 constr
+R6364:6364 Coq.Init.Hexadecimal <> d:65 var
+R6370:6371 Coq.Init.Hexadecimal <> D9 constr
+R6378:6379 Coq.Init.Hexadecimal <> Da constr
+R6381:6381 Coq.Init.Hexadecimal <> d:65 var
+R6387:6388 Coq.Init.Hexadecimal <> Da constr
+R6395:6396 Coq.Init.Hexadecimal <> Db constr
+R6398:6398 Coq.Init.Hexadecimal <> d:65 var
+R6404:6405 Coq.Init.Hexadecimal <> Db constr
+R6412:6413 Coq.Init.Hexadecimal <> Dc constr
+R6415:6415 Coq.Init.Hexadecimal <> d:65 var
+R6421:6422 Coq.Init.Hexadecimal <> Dc constr
+R6429:6430 Coq.Init.Hexadecimal <> Dd constr
+R6432:6432 Coq.Init.Hexadecimal <> d:65 var
+R6438:6439 Coq.Init.Hexadecimal <> Dd constr
+R6446:6447 Coq.Init.Hexadecimal <> De constr
+R6449:6449 Coq.Init.Hexadecimal <> d:65 var
+R6455:6456 Coq.Init.Hexadecimal <> De constr
+R6463:6464 Coq.Init.Hexadecimal <> Df constr
+R6466:6466 Coq.Init.Hexadecimal <> d:65 var
+R6472:6473 Coq.Init.Hexadecimal <> Df constr
+R6480:6481 Coq.Init.Hexadecimal <> D0 constr
+R6484:6487 Coq.Init.Hexadecimal <> succ:66 def
+R6489:6489 Coq.Init.Hexadecimal <> d:65 var
+def 6548:6553 Little double
+def 7058:7068 Little succ_double
+binder 6555:6555 <> d:68
+binder 7070:7070 <> d:69
+R6568:6568 Coq.Init.Hexadecimal <> d:68 var
+R6579:6581 Coq.Init.Hexadecimal <> Nil constr
+R6586:6588 Coq.Init.Hexadecimal <> Nil constr
+R6594:6595 Coq.Init.Hexadecimal <> D0 constr
+R6602:6603 Coq.Init.Hexadecimal <> D0 constr
+R6606:6611 Coq.Init.Hexadecimal <> double:70 def
+R6613:6613 Coq.Init.Hexadecimal <> d:68 var
+R6620:6621 Coq.Init.Hexadecimal <> D1 constr
+R6628:6629 Coq.Init.Hexadecimal <> D2 constr
+R6632:6637 Coq.Init.Hexadecimal <> double:70 def
+R6639:6639 Coq.Init.Hexadecimal <> d:68 var
+R6646:6647 Coq.Init.Hexadecimal <> D2 constr
+R6654:6655 Coq.Init.Hexadecimal <> D4 constr
+R6658:6663 Coq.Init.Hexadecimal <> double:70 def
+R6665:6665 Coq.Init.Hexadecimal <> d:68 var
+R6672:6673 Coq.Init.Hexadecimal <> D3 constr
+R6680:6681 Coq.Init.Hexadecimal <> D6 constr
+R6684:6689 Coq.Init.Hexadecimal <> double:70 def
+R6691:6691 Coq.Init.Hexadecimal <> d:68 var
+R6698:6699 Coq.Init.Hexadecimal <> D4 constr
+R6706:6707 Coq.Init.Hexadecimal <> D8 constr
+R6710:6715 Coq.Init.Hexadecimal <> double:70 def
+R6717:6717 Coq.Init.Hexadecimal <> d:68 var
+R6724:6725 Coq.Init.Hexadecimal <> D5 constr
+R6732:6733 Coq.Init.Hexadecimal <> Da constr
+R6736:6741 Coq.Init.Hexadecimal <> double:70 def
+R6743:6743 Coq.Init.Hexadecimal <> d:68 var
+R6750:6751 Coq.Init.Hexadecimal <> D6 constr
+R6758:6759 Coq.Init.Hexadecimal <> Dc constr
+R6762:6767 Coq.Init.Hexadecimal <> double:70 def
+R6769:6769 Coq.Init.Hexadecimal <> d:68 var
+R6776:6777 Coq.Init.Hexadecimal <> D7 constr
+R6784:6785 Coq.Init.Hexadecimal <> De constr
+R6788:6793 Coq.Init.Hexadecimal <> double:70 def
+R6795:6795 Coq.Init.Hexadecimal <> d:68 var
+R6802:6803 Coq.Init.Hexadecimal <> D8 constr
+R6810:6811 Coq.Init.Hexadecimal <> D0 constr
+R6814:6824 Coq.Init.Hexadecimal <> succ_double:71 def
+R6826:6826 Coq.Init.Hexadecimal <> d:68 var
+R6833:6834 Coq.Init.Hexadecimal <> D9 constr
+R6841:6842 Coq.Init.Hexadecimal <> D2 constr
+R6845:6855 Coq.Init.Hexadecimal <> succ_double:71 def
+R6857:6857 Coq.Init.Hexadecimal <> d:68 var
+R6864:6865 Coq.Init.Hexadecimal <> Da constr
+R6872:6873 Coq.Init.Hexadecimal <> D4 constr
+R6876:6886 Coq.Init.Hexadecimal <> succ_double:71 def
+R6888:6888 Coq.Init.Hexadecimal <> d:68 var
+R6895:6896 Coq.Init.Hexadecimal <> Db constr
+R6903:6904 Coq.Init.Hexadecimal <> D6 constr
+R6907:6917 Coq.Init.Hexadecimal <> succ_double:71 def
+R6919:6919 Coq.Init.Hexadecimal <> d:68 var
+R6926:6927 Coq.Init.Hexadecimal <> Dc constr
+R6934:6935 Coq.Init.Hexadecimal <> D8 constr
+R6938:6948 Coq.Init.Hexadecimal <> succ_double:71 def
+R6950:6950 Coq.Init.Hexadecimal <> d:68 var
+R6957:6958 Coq.Init.Hexadecimal <> Dd constr
+R6965:6966 Coq.Init.Hexadecimal <> Da constr
+R6969:6979 Coq.Init.Hexadecimal <> succ_double:71 def
+R6981:6981 Coq.Init.Hexadecimal <> d:68 var
+R6988:6989 Coq.Init.Hexadecimal <> De constr
+R6996:6997 Coq.Init.Hexadecimal <> Dc constr
+R7000:7010 Coq.Init.Hexadecimal <> succ_double:71 def
+R7012:7012 Coq.Init.Hexadecimal <> d:68 var
+R7019:7020 Coq.Init.Hexadecimal <> Df constr
+R7027:7028 Coq.Init.Hexadecimal <> De constr
+R7031:7041 Coq.Init.Hexadecimal <> succ_double:71 def
+R7043:7043 Coq.Init.Hexadecimal <> d:68 var
+R7083:7083 Coq.Init.Hexadecimal <> d:69 var
+R7094:7096 Coq.Init.Hexadecimal <> Nil constr
+R7101:7102 Coq.Init.Hexadecimal <> D1 constr
+R7104:7106 Coq.Init.Hexadecimal <> Nil constr
+R7112:7113 Coq.Init.Hexadecimal <> D0 constr
+R7120:7121 Coq.Init.Hexadecimal <> D1 constr
+R7124:7129 Coq.Init.Hexadecimal <> double:70 def
+R7131:7131 Coq.Init.Hexadecimal <> d:69 var
+R7138:7139 Coq.Init.Hexadecimal <> D1 constr
+R7146:7147 Coq.Init.Hexadecimal <> D3 constr
+R7150:7155 Coq.Init.Hexadecimal <> double:70 def
+R7157:7157 Coq.Init.Hexadecimal <> d:69 var
+R7164:7165 Coq.Init.Hexadecimal <> D2 constr
+R7172:7173 Coq.Init.Hexadecimal <> D5 constr
+R7176:7181 Coq.Init.Hexadecimal <> double:70 def
+R7183:7183 Coq.Init.Hexadecimal <> d:69 var
+R7190:7191 Coq.Init.Hexadecimal <> D3 constr
+R7198:7199 Coq.Init.Hexadecimal <> D7 constr
+R7202:7207 Coq.Init.Hexadecimal <> double:70 def
+R7209:7209 Coq.Init.Hexadecimal <> d:69 var
+R7216:7217 Coq.Init.Hexadecimal <> D4 constr
+R7224:7225 Coq.Init.Hexadecimal <> D9 constr
+R7228:7233 Coq.Init.Hexadecimal <> double:70 def
+R7235:7235 Coq.Init.Hexadecimal <> d:69 var
+R7242:7243 Coq.Init.Hexadecimal <> D5 constr
+R7250:7251 Coq.Init.Hexadecimal <> Db constr
+R7254:7259 Coq.Init.Hexadecimal <> double:70 def
+R7261:7261 Coq.Init.Hexadecimal <> d:69 var
+R7268:7269 Coq.Init.Hexadecimal <> D6 constr
+R7276:7277 Coq.Init.Hexadecimal <> Dd constr
+R7280:7285 Coq.Init.Hexadecimal <> double:70 def
+R7287:7287 Coq.Init.Hexadecimal <> d:69 var
+R7294:7295 Coq.Init.Hexadecimal <> D7 constr
+R7302:7303 Coq.Init.Hexadecimal <> Df constr
+R7306:7311 Coq.Init.Hexadecimal <> double:70 def
+R7313:7313 Coq.Init.Hexadecimal <> d:69 var
+R7320:7321 Coq.Init.Hexadecimal <> D8 constr
+R7328:7329 Coq.Init.Hexadecimal <> D1 constr
+R7332:7342 Coq.Init.Hexadecimal <> succ_double:71 def
+R7344:7344 Coq.Init.Hexadecimal <> d:69 var
+R7351:7352 Coq.Init.Hexadecimal <> D9 constr
+R7359:7360 Coq.Init.Hexadecimal <> D3 constr
+R7363:7373 Coq.Init.Hexadecimal <> succ_double:71 def
+R7375:7375 Coq.Init.Hexadecimal <> d:69 var
+R7382:7383 Coq.Init.Hexadecimal <> Da constr
+R7390:7391 Coq.Init.Hexadecimal <> D5 constr
+R7394:7404 Coq.Init.Hexadecimal <> succ_double:71 def
+R7406:7406 Coq.Init.Hexadecimal <> d:69 var
+R7413:7414 Coq.Init.Hexadecimal <> Db constr
+R7421:7422 Coq.Init.Hexadecimal <> D7 constr
+R7425:7435 Coq.Init.Hexadecimal <> succ_double:71 def
+R7437:7437 Coq.Init.Hexadecimal <> d:69 var
+R7444:7445 Coq.Init.Hexadecimal <> Dc constr
+R7452:7453 Coq.Init.Hexadecimal <> D9 constr
+R7456:7466 Coq.Init.Hexadecimal <> succ_double:71 def
+R7468:7468 Coq.Init.Hexadecimal <> d:69 var
+R7475:7476 Coq.Init.Hexadecimal <> Dd constr
+R7483:7484 Coq.Init.Hexadecimal <> Db constr
+R7487:7497 Coq.Init.Hexadecimal <> succ_double:71 def
+R7499:7499 Coq.Init.Hexadecimal <> d:69 var
+R7506:7507 Coq.Init.Hexadecimal <> De constr
+R7514:7515 Coq.Init.Hexadecimal <> Dd constr
+R7518:7528 Coq.Init.Hexadecimal <> succ_double:71 def
+R7530:7530 Coq.Init.Hexadecimal <> d:69 var
+R7537:7538 Coq.Init.Hexadecimal <> Df constr
+R7545:7546 Coq.Init.Hexadecimal <> Df constr
+R7549:7559 Coq.Init.Hexadecimal <> succ_double:71 def
+R7561:7561 Coq.Init.Hexadecimal <> d:69 var
+R7576:7581 Coq.Init.Hexadecimal Little <> mod

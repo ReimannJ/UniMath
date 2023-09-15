@@ -1,0 +1,2995 @@
+DIGEST 9211f2de4083ac302006cf68f783a882
+FCoq.micromega.EnvRing
+R927:932 Coq.Setoids.Setoid <> <> lib
+R934:942 Coq.Classes.Morphisms <> <> lib
+R944:946 Coq.micromega.Env <> <> lib
+R948:953 Coq.PArith.BinPos <> <> lib
+R955:960 Coq.NArith.BinNat <> <> lib
+R962:967 Coq.ZArith.BinInt <> <> lib
+R985:995 Coq.setoid_ring.Ring_theory <> <> lib
+R1039:1048 Coq.setoid_ring.Ring_theory RingSyntax <> mod
+ind 1129:1133 <> PExpr
+constr 1151:1153 <> PEc
+constr 1170:1172 <> PEX
+constr 1196:1200 <> PEadd
+constr 1230:1234 <> PEsub
+constr 1264:1268 <> PEmul
+constr 1298:1302 <> PEopp
+constr 1323:1327 <> PEpow
+binder 1136:1136 <> C:1
+R1158:1161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1157:1157 Coq.micromega.EnvRing <> C:1 var
+R1162:1166 Coq.micromega.EnvRing <> PExpr:2 ind
+R1184:1187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1176:1183 Coq.Numbers.BinNums <> positive ind
+R1188:1192 Coq.micromega.EnvRing <> PExpr:2 ind
+R1209:1212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1204:1208 Coq.micromega.EnvRing <> PExpr:2 ind
+R1218:1221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1213:1217 Coq.micromega.EnvRing <> PExpr:2 ind
+R1222:1226 Coq.micromega.EnvRing <> PExpr:2 ind
+R1243:1246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1238:1242 Coq.micromega.EnvRing <> PExpr:2 ind
+R1252:1255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1247:1251 Coq.micromega.EnvRing <> PExpr:2 ind
+R1256:1260 Coq.micromega.EnvRing <> PExpr:2 ind
+R1277:1280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1272:1276 Coq.micromega.EnvRing <> PExpr:2 ind
+R1286:1289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1281:1285 Coq.micromega.EnvRing <> PExpr:2 ind
+R1290:1294 Coq.micromega.EnvRing <> PExpr:2 ind
+R1311:1314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1306:1310 Coq.micromega.EnvRing <> PExpr:2 ind
+R1315:1319 Coq.micromega.EnvRing <> PExpr:2 ind
+R1336:1339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1331:1335 Coq.micromega.EnvRing <> PExpr:2 ind
+R1341:1344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1340:1340 Coq.Numbers.BinNums <> N ind
+R1345:1349 Coq.micromega.EnvRing <> PExpr:2 ind
+R1362:1366 Coq.micromega.EnvRing <> PExpr ind
+R1362:1366 Coq.micromega.EnvRing <> PExpr ind
+ind 2699:2701 <> Pol
+constr 2719:2720 <> Pc
+constr 2735:2738 <> Pinj
+constr 2767:2768 <> PX
+binder 2704:2704 <> C:4
+R2725:2728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2724:2724 Coq.micromega.EnvRing <> C:4 var
+R2729:2731 Coq.micromega.EnvRing <> Pol:5 ind
+R2750:2753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2742:2749 Coq.Numbers.BinNums <> positive ind
+R2757:2760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2754:2756 Coq.micromega.EnvRing <> Pol:5 ind
+R2761:2763 Coq.micromega.EnvRing <> Pol:5 ind
+R2775:2778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2772:2774 Coq.micromega.EnvRing <> Pol:5 ind
+R2787:2790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2779:2786 Coq.Numbers.BinNums <> positive ind
+R2794:2797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2791:2793 Coq.micromega.EnvRing <> Pol:5 ind
+R2798:2800 Coq.micromega.EnvRing <> Pol:5 ind
+R2813:2815 Coq.micromega.EnvRing <> Pol ind
+R2813:2815 Coq.micromega.EnvRing <> Pol ind
+sec 2951:2961 <> MakeRingPol
+var 2996:2996 MakeRingPol R
+var 3015:3016 MakeRingPol rO
+var 3018:3019 MakeRingPol rI
+var 3027:3030 MakeRingPol radd
+var 3032:3035 MakeRingPol rmul
+var 3037:3040 MakeRingPol rsub
+var 3053:3056 MakeRingPol ropp
+R3023:3023 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3044:3045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3043:3043 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3047:3048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3046:3046 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3049:3049 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3061:3062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3060:3060 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3063:3063 Coq.micromega.EnvRing <> MakeRingPol.R var
+var 3077:3079 MakeRingPol req
+R3084:3087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3083:3083 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3089:3092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3088:3088 Coq.micromega.EnvRing <> MakeRingPol.R var
+var 3133:3136 MakeRingPol Rsth
+R3140:3150 Coq.Classes.RelationClasses <> Equivalence class
+R3152:3154 Coq.micromega.EnvRing <> MakeRingPol.req var
+var 3167:3170 MakeRingPol Reqe
+R3174:3184 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R3201:3203 Coq.micromega.EnvRing <> MakeRingPol.req var
+R3196:3199 Coq.micromega.EnvRing <> MakeRingPol.ropp var
+R3191:3194 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+R3186:3189 Coq.micromega.EnvRing <> MakeRingPol.radd var
+var 3216:3219 MakeRingPol ARth
+R3223:3240 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R3268:3270 Coq.micromega.EnvRing <> MakeRingPol.req var
+R3263:3266 Coq.micromega.EnvRing <> MakeRingPol.ropp var
+R3258:3261 Coq.micromega.EnvRing <> MakeRingPol.rsub var
+R3253:3256 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+R3248:3251 Coq.micromega.EnvRing <> MakeRingPol.radd var
+R3245:3246 Coq.micromega.EnvRing <> MakeRingPol.rI var
+R3242:3243 Coq.micromega.EnvRing <> MakeRingPol.rO var
+var 3304:3304 MakeRingPol C
+var 3324:3325 MakeRingPol cO
+var 3327:3328 MakeRingPol cI
+var 3335:3338 MakeRingPol cadd
+var 3340:3343 MakeRingPol cmul
+var 3345:3348 MakeRingPol csub
+var 3362:3365 MakeRingPol copp
+R3331:3331 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3353:3354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3352:3352 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3356:3357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3355:3355 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3358:3358 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3370:3371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3369:3369 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3372:3372 Coq.micromega.EnvRing <> MakeRingPol.C var
+var 3386:3389 MakeRingPol ceqb
+R3394:3395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3393:3393 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3397:3398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3396:3396 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3399:3402 Coq.Init.Datatypes <> bool ind
+var 3415:3417 MakeRingPol phi
+R3422:3425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3421:3421 Coq.micromega.EnvRing <> MakeRingPol.C var
+R3426:3426 Coq.micromega.EnvRing <> MakeRingPol.R var
+var 3439:3445 MakeRingPol CRmorph
+R3449:3458 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R3553:3555 Coq.micromega.EnvRing <> MakeRingPol.phi var
+R3548:3551 Coq.micromega.EnvRing <> MakeRingPol.ceqb var
+R3543:3546 Coq.micromega.EnvRing <> MakeRingPol.copp var
+R3538:3541 Coq.micromega.EnvRing <> MakeRingPol.csub var
+R3533:3536 Coq.micromega.EnvRing <> MakeRingPol.cmul var
+R3528:3531 Coq.micromega.EnvRing <> MakeRingPol.cadd var
+R3525:3526 Coq.micromega.EnvRing <> MakeRingPol.cI var
+R3522:3523 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R3486:3488 Coq.micromega.EnvRing <> MakeRingPol.req var
+R3481:3484 Coq.micromega.EnvRing <> MakeRingPol.ropp var
+R3476:3479 Coq.micromega.EnvRing <> MakeRingPol.rsub var
+R3471:3474 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+R3466:3469 Coq.micromega.EnvRing <> MakeRingPol.radd var
+R3463:3464 Coq.micromega.EnvRing <> MakeRingPol.rI var
+R3460:3461 Coq.micromega.EnvRing <> MakeRingPol.rO var
+var 3595:3598 MakeRingPol Cpow
+var 3618:3623 MakeRingPol Cp_phi
+R3628:3631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3627:3627 Coq.Numbers.BinNums <> N ind
+R3632:3635 Coq.micromega.EnvRing <> MakeRingPol.Cpow var
+var 3648:3651 MakeRingPol rpow
+R3656:3659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3655:3655 Coq.micromega.EnvRing <> MakeRingPol.R var
+R3664:3667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3660:3663 Coq.micromega.EnvRing <> MakeRingPol.Cpow var
+R3668:3668 Coq.micromega.EnvRing <> MakeRingPol.R var
+var 3681:3686 MakeRingPol pow_th
+R3690:3701 Coq.setoid_ring.Ring_theory <> power_theory rec
+R3722:3725 Coq.micromega.EnvRing <> MakeRingPol.rpow var
+R3715:3720 Coq.micromega.EnvRing <> MakeRingPol.Cp_phi var
+R3711:3713 Coq.micromega.EnvRing <> MakeRingPol.req var
+R3706:3709 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+R3703:3704 Coq.micromega.EnvRing <> MakeRingPol.rI var
+R3765:3766 Coq.micromega.EnvRing <> MakeRingPol.rO var
+not 3758:3758 MakeRingPol :::'0'
+R3785:3786 Coq.micromega.EnvRing <> MakeRingPol.rI var
+not 3778:3778 MakeRingPol :::'1'
+R3803:3806 Coq.micromega.EnvRing <> MakeRingPol.radd var
+not 3796:3796 MakeRingPol :::x_'+'_x
+R3822:3825 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+not 3815:3815 MakeRingPol :::x_'*'_x
+R3842:3845 Coq.micromega.EnvRing <> MakeRingPol.rsub var
+not 3835:3835 MakeRingPol :::x_'-'_x
+R3867:3870 Coq.micromega.EnvRing <> MakeRingPol.ropp var
+not 3857:3857 MakeRingPol :::'-'_x
+R3891:3893 Coq.micromega.EnvRing <> MakeRingPol.req var
+not 3883:3883 MakeRingPol :::x_'=='_x
+R3911:3917 Coq.setoid_ring.Ring_theory <> pow_pos def
+R3919:3922 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+not 3903:3903 MakeRingPol :::x_'^'_x
+R3961:3964 Coq.micromega.EnvRing <> MakeRingPol.cadd var
+not 3953:3953 MakeRingPol :::x_'+!'_x
+R3981:3984 Coq.micromega.EnvRing <> MakeRingPol.cmul var
+not 3973:3973 MakeRingPol :::x_'*!'_x
+R4003:4006 Coq.micromega.EnvRing <> MakeRingPol.csub var
+not 3994:3994 MakeRingPol :::x_'-!'_x
+R4029:4032 Coq.micromega.EnvRing <> MakeRingPol.copp var
+not 4018:4018 MakeRingPol :::'-!'_x
+R4054:4057 Coq.micromega.EnvRing <> MakeRingPol.ceqb var
+not 4045:4045 MakeRingPol :::x_'?=!'_x
+R4081:4083 Coq.micromega.EnvRing <> MakeRingPol.phi var
+not 4069:4069 MakeRingPol :::'['_x_']'
+R4150:4154 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4147:4149 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4158:4162 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4155:4157 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4163:4165 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4126:4129 Coq.micromega.EnvRing <> MakeRingPol.radd var
+R4196:4203 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R4205:4208 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4196:4203 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R4205:4208 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4256:4260 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4253:4255 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4264:4268 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4261:4263 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4269:4271 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4232:4235 Coq.micromega.EnvRing <> MakeRingPol.rmul var
+R4302:4309 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R4311:4314 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4302:4309 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R4311:4314 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4362:4366 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4359:4361 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4367:4369 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4338:4341 Coq.micromega.EnvRing <> MakeRingPol.ropp var
+R4400:4407 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R4409:4412 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4400:4407 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R4409:4412 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4460:4464 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4457:4459 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4468:4472 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4465:4467 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4473:4475 Coq.micromega.EnvRing <> MakeRingPol.req var
+R4436:4439 Coq.micromega.EnvRing <> MakeRingPol.rsub var
+R4506:4514 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R4526:4529 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R4521:4524 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4516:4519 Coq.micromega.EnvRing <> MakeRingPol.Rsth var
+R4506:4514 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R4526:4529 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R4521:4524 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4516:4519 Coq.micromega.EnvRing <> MakeRingPol.Rsth var
+R4739:4741 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R4739:4741 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R4814:4821 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R4823:4826 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R4924:4927 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R4924:4927 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R5006:5008 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R5006:5008 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R5081:5088 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R5090:5093 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R5191:5194 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R5191:5194 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+abbrev 5235:5239 <> PExpr
+R5245:5249 Coq.micromega.EnvRing <> PExpr ind
+R5251:5251 Coq.micromega.EnvRing <> MakeRingPol.C var
+abbrev 5265:5267 <> Pol
+R5273:5275 Coq.micromega.EnvRing <> Pol ind
+R5277:5277 Coq.micromega.EnvRing <> MakeRingPol.C var
+R5303:5307 Coq.micromega.EnvRing <> PExpr abbrev
+R5330:5332 Coq.micromega.EnvRing <> Pol abbrev
+def 5348:5349 <> P0
+R5354:5355 Coq.micromega.EnvRing <> Pc constr
+R5357:5358 Coq.micromega.EnvRing <> MakeRingPol.cO var
+def 5373:5374 <> P1
+R5379:5380 Coq.micromega.EnvRing <> Pc constr
+R5382:5383 Coq.micromega.EnvRing <> MakeRingPol.cI var
+def 5397:5399 <> Peq
+R5409:5411 Coq.micromega.EnvRing <> Pol abbrev
+binder 5402:5402 <> P:32
+R5409:5411 Coq.micromega.EnvRing <> Pol abbrev
+binder 5404:5405 <> P':33
+R5428:5431 Coq.Init.Datatypes <> bool ind
+R5447:5448 Coq.micromega.EnvRing <> P':33 var
+R5444:5444 Coq.micromega.EnvRing <> P:32 var
+R5459:5460 Coq.micromega.EnvRing <> Pc constr
+R5465:5466 Coq.micromega.EnvRing <> Pc constr
+R5475:5479 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R5487:5490 Coq.micromega.EnvRing <> Pinj constr
+R5497:5500 Coq.micromega.EnvRing <> Pinj constr
+R5522:5525 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R5540:5541 Coq.Init.Datatypes <> Eq constr
+R5546:5548 Coq.micromega.EnvRing <> Peq:34 def
+R5566:5570 Coq.Init.Datatypes <> false constr
+R5584:5585 Coq.micromega.EnvRing <> PX constr
+R5594:5595 Coq.micromega.EnvRing <> PX constr
+R5620:5623 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R5638:5639 Coq.Init.Datatypes <> Eq constr
+R5647:5649 Coq.micromega.EnvRing <> Peq:34 def
+R5653:5654 Coq.micromega.EnvRing <> P':33 var
+R5651:5651 Coq.micromega.EnvRing <> P:32 var
+R5675:5679 Coq.Init.Datatypes <> false constr
+R5661:5663 Coq.micromega.EnvRing <> Peq:34 def
+R5692:5696 Coq.Init.Datatypes <> false constr
+R5718:5722 Coq.Init.Datatypes <> false constr
+R5748:5750 Coq.micromega.EnvRing <> Peq def
+not 5739:5739 MakeRingPol :::x_'?=='_x
+def 5766:5771 <> mkPinj
+binder 5773:5773 <> j:37
+binder 5775:5775 <> P:38
+R5788:5788 Coq.micromega.EnvRing <> P:38 var
+R5799:5800 Coq.micromega.EnvRing <> Pc constr
+R5807:5807 Coq.micromega.EnvRing <> P:38 var
+R5813:5816 Coq.micromega.EnvRing <> Pinj constr
+R5826:5829 Coq.micromega.EnvRing <> Pinj constr
+R5833:5835 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R5832:5832 Coq.micromega.EnvRing <> j:37 var
+R5851:5854 Coq.micromega.EnvRing <> Pinj constr
+R5858:5858 Coq.micromega.EnvRing <> P:38 var
+R5856:5856 Coq.micromega.EnvRing <> j:37 var
+def 5880:5890 <> mkPinj_pred
+binder 5892:5892 <> j:40
+binder 5894:5894 <> P:41
+R5907:5907 Coq.micromega.EnvRing <> j:40 var
+R5918:5919 Coq.Numbers.BinNums <> xH constr
+R5924:5924 Coq.micromega.EnvRing <> P:41 var
+R5930:5931 Coq.Numbers.BinNums <> xO constr
+R5938:5941 Coq.micromega.EnvRing <> Pinj constr
+R5963:5963 Coq.micromega.EnvRing <> P:41 var
+R5944:5958 Coq.PArith.BinPos Pos pred_double def
+R5960:5960 Coq.micromega.EnvRing <> j:40 var
+R5969:5970 Coq.Numbers.BinNums <> xI constr
+R5977:5980 Coq.micromega.EnvRing <> Pinj constr
+R5989:5989 Coq.micromega.EnvRing <> P:41 var
+R5983:5984 Coq.Numbers.BinNums <> xO constr
+R5986:5986 Coq.micromega.EnvRing <> j:40 var
+def 6011:6014 <> mkPX
+binder 6016:6016 <> P:43
+binder 6018:6018 <> i:44
+binder 6020:6020 <> Q:45
+R6033:6033 Coq.micromega.EnvRing <> P:43 var
+R6044:6045 Coq.micromega.EnvRing <> Pc constr
+R6056:6060 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R6061:6062 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R6086:6087 Coq.micromega.EnvRing <> PX constr
+R6093:6093 Coq.micromega.EnvRing <> Q:45 var
+R6091:6091 Coq.micromega.EnvRing <> i:44 var
+R6089:6089 Coq.micromega.EnvRing <> P:43 var
+R6069:6074 Coq.micromega.EnvRing <> mkPinj def
+R6079:6079 Coq.micromega.EnvRing <> Q:45 var
+R6076:6077 Coq.Numbers.BinNums <> xH constr
+R6099:6102 Coq.micromega.EnvRing <> Pinj constr
+R6111:6112 Coq.micromega.EnvRing <> PX constr
+R6118:6118 Coq.micromega.EnvRing <> Q:45 var
+R6116:6116 Coq.micromega.EnvRing <> i:44 var
+R6114:6114 Coq.micromega.EnvRing <> P:43 var
+R6124:6125 Coq.micromega.EnvRing <> PX constr
+R6144:6148 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+R6149:6150 Coq.micromega.EnvRing <> P0 def
+R6179:6180 Coq.micromega.EnvRing <> PX constr
+R6186:6186 Coq.micromega.EnvRing <> Q:45 var
+R6184:6184 Coq.micromega.EnvRing <> i:44 var
+R6182:6182 Coq.micromega.EnvRing <> P:43 var
+R6157:6158 Coq.micromega.EnvRing <> PX constr
+R6172:6172 Coq.micromega.EnvRing <> Q:45 var
+R6166:6168 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R6169:6169 Coq.micromega.EnvRing <> i:44 var
+def 6208:6211 <> mkXi
+binder 6213:6213 <> i:47
+R6218:6219 Coq.micromega.EnvRing <> PX constr
+R6226:6227 Coq.micromega.EnvRing <> P0 def
+R6224:6224 Coq.micromega.EnvRing <> i:47 var
+R6221:6222 Coq.micromega.EnvRing <> P1 def
+def 6243:6245 <> mkX
+R6250:6253 Coq.micromega.EnvRing <> mkXi def
+def 6299:6302 <> Popp
+R6307:6309 Coq.micromega.EnvRing <> Pol abbrev
+binder 6305:6305 <> P:48
+R6314:6316 Coq.micromega.EnvRing <> Pol abbrev
+R6329:6329 Coq.micromega.EnvRing <> P:48 var
+R6340:6341 Coq.micromega.EnvRing <> Pc constr
+R6348:6349 Coq.micromega.EnvRing <> Pc constr
+R6352:6354 Coq.micromega.EnvRing MakeRingPol :::'-!'_x not
+R6362:6365 Coq.micromega.EnvRing <> Pinj constr
+R6374:6377 Coq.micromega.EnvRing <> Pinj constr
+R6382:6385 Coq.micromega.EnvRing <> Popp:49 def
+R6394:6395 Coq.micromega.EnvRing <> PX constr
+R6406:6407 Coq.micromega.EnvRing <> PX constr
+R6421:6424 Coq.micromega.EnvRing <> Popp:49 def
+R6410:6413 Coq.micromega.EnvRing <> Popp:49 def
+R6415:6415 Coq.micromega.EnvRing <> P:48 var
+R6458:6461 Coq.micromega.EnvRing <> Popp def
+not 6447:6447 MakeRingPol :::'--'_x
+def 6511:6515 <> PaddC
+R6520:6522 Coq.micromega.EnvRing <> Pol abbrev
+binder 6518:6518 <> P:51
+R6528:6528 Coq.micromega.EnvRing <> MakeRingPol.C var
+binder 6526:6526 <> c:52
+R6533:6535 Coq.micromega.EnvRing <> Pol abbrev
+R6548:6548 Coq.micromega.EnvRing <> P:51 var
+R6559:6560 Coq.micromega.EnvRing <> Pc constr
+R6568:6569 Coq.micromega.EnvRing <> Pc constr
+R6574:6577 Coq.micromega.EnvRing MakeRingPol :::x_'+!'_x not
+R6578:6578 Coq.micromega.EnvRing <> c:52 var
+R6585:6588 Coq.micromega.EnvRing <> Pinj constr
+R6597:6600 Coq.micromega.EnvRing <> Pinj constr
+R6605:6609 Coq.micromega.EnvRing <> PaddC:53 def
+R6613:6613 Coq.micromega.EnvRing <> c:52 var
+R6620:6621 Coq.micromega.EnvRing <> PX constr
+R6632:6633 Coq.micromega.EnvRing <> PX constr
+R6640:6644 Coq.micromega.EnvRing <> PaddC:53 def
+R6648:6648 Coq.micromega.EnvRing <> c:52 var
+R6635:6635 Coq.micromega.EnvRing <> P:51 var
+def 6669:6673 <> PsubC
+R6678:6680 Coq.micromega.EnvRing <> Pol abbrev
+binder 6676:6676 <> P:55
+R6686:6686 Coq.micromega.EnvRing <> MakeRingPol.C var
+binder 6684:6684 <> c:56
+R6691:6693 Coq.micromega.EnvRing <> Pol abbrev
+R6706:6706 Coq.micromega.EnvRing <> P:55 var
+R6717:6718 Coq.micromega.EnvRing <> Pc constr
+R6726:6727 Coq.micromega.EnvRing <> Pc constr
+R6732:6735 Coq.micromega.EnvRing MakeRingPol :::x_'-!'_x not
+R6736:6736 Coq.micromega.EnvRing <> c:56 var
+R6743:6746 Coq.micromega.EnvRing <> Pinj constr
+R6755:6758 Coq.micromega.EnvRing <> Pinj constr
+R6763:6767 Coq.micromega.EnvRing <> PsubC:57 def
+R6771:6771 Coq.micromega.EnvRing <> c:56 var
+R6778:6779 Coq.micromega.EnvRing <> PX constr
+R6790:6791 Coq.micromega.EnvRing <> PX constr
+R6798:6802 Coq.micromega.EnvRing <> PsubC:57 def
+R6806:6806 Coq.micromega.EnvRing <> c:56 var
+R6793:6793 Coq.micromega.EnvRing <> P:55 var
+sec 6826:6829 MakeRingPol PopI
+var 6844:6846 MakeRingPol.PopI Pop
+R6853:6856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6850:6852 Coq.micromega.EnvRing <> Pol abbrev
+R6860:6863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6857:6859 Coq.micromega.EnvRing <> Pol abbrev
+R6864:6866 Coq.micromega.EnvRing <> Pol abbrev
+var 6880:6880 MakeRingPol.PopI Q
+R6884:6886 Coq.micromega.EnvRing <> Pol abbrev
+def 6901:6905 <> PaddI
+R6910:6917 Coq.Numbers.BinNums <> positive ind
+binder 6908:6908 <> j:61
+R6923:6925 Coq.micromega.EnvRing <> Pol abbrev
+binder 6921:6921 <> P:62
+R6930:6932 Coq.micromega.EnvRing <> Pol abbrev
+R6946:6946 Coq.micromega.EnvRing <> P:62 var
+R6958:6959 Coq.micromega.EnvRing <> Pc constr
+R6966:6971 Coq.micromega.EnvRing <> mkPinj def
+R6976:6980 Coq.micromega.EnvRing <> PaddC def
+R6982:6982 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R6973:6973 Coq.micromega.EnvRing <> j:61 var
+R6992:6995 Coq.micromega.EnvRing <> Pinj constr
+R7017:7025 Coq.ZArith.BinInt Z pos_sub def
+R7030:7030 Coq.micromega.EnvRing <> j:61 var
+R7044:7047 Coq.Numbers.BinNums <> Zpos constr
+R7055:7060 Coq.micromega.EnvRing <> mkPinj def
+R7065:7067 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7081:7081 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7070:7073 Coq.micromega.EnvRing <> Pinj constr
+R7062:7062 Coq.micromega.EnvRing <> j:61 var
+R7091:7092 Coq.Numbers.BinNums <> Z0 constr
+R7097:7102 Coq.micromega.EnvRing <> mkPinj def
+R7107:7109 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7114:7114 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7104:7104 Coq.micromega.EnvRing <> j:61 var
+R7124:7127 Coq.Numbers.BinNums <> Zneg constr
+R7134:7139 Coq.micromega.EnvRing <> mkPinj def
+R7145:7149 Coq.micromega.EnvRing <> PaddI:63 def
+R7171:7172 Coq.micromega.EnvRing <> PX constr
+R7195:7195 Coq.micromega.EnvRing <> j:61 var
+R7209:7210 Coq.Numbers.BinNums <> xH constr
+R7215:7216 Coq.micromega.EnvRing <> PX constr
+R7223:7225 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7230:7230 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7218:7218 Coq.micromega.EnvRing <> P:62 var
+R7240:7241 Coq.Numbers.BinNums <> xO constr
+R7248:7249 Coq.micromega.EnvRing <> PX constr
+R7256:7260 Coq.micromega.EnvRing <> PaddI:63 def
+R7263:7277 Coq.PArith.BinPos Pos pred_double def
+R7279:7279 Coq.micromega.EnvRing <> j:61 var
+R7251:7251 Coq.micromega.EnvRing <> P:62 var
+R7293:7294 Coq.Numbers.BinNums <> xI constr
+R7301:7302 Coq.micromega.EnvRing <> PX constr
+R7309:7313 Coq.micromega.EnvRing <> PaddI:63 def
+R7316:7317 Coq.Numbers.BinNums <> xO constr
+R7319:7319 Coq.micromega.EnvRing <> j:61 var
+R7304:7304 Coq.micromega.EnvRing <> P:62 var
+def 7355:7359 <> PsubI
+R7364:7371 Coq.Numbers.BinNums <> positive ind
+binder 7362:7362 <> j:66
+R7377:7379 Coq.micromega.EnvRing <> Pol abbrev
+binder 7375:7375 <> P:67
+R7384:7386 Coq.micromega.EnvRing <> Pol abbrev
+R7400:7400 Coq.micromega.EnvRing <> P:67 var
+R7412:7413 Coq.micromega.EnvRing <> Pc constr
+R7420:7425 Coq.micromega.EnvRing <> mkPinj def
+R7430:7434 Coq.micromega.EnvRing <> PaddC def
+R7437:7438 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R7439:7439 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7427:7427 Coq.micromega.EnvRing <> j:66 var
+R7450:7453 Coq.micromega.EnvRing <> Pinj constr
+R7475:7483 Coq.ZArith.BinInt Z pos_sub def
+R7488:7488 Coq.micromega.EnvRing <> j:66 var
+R7502:7505 Coq.Numbers.BinNums <> Zpos constr
+R7513:7518 Coq.micromega.EnvRing <> mkPinj def
+R7523:7525 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7539:7539 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7528:7531 Coq.micromega.EnvRing <> Pinj constr
+R7520:7520 Coq.micromega.EnvRing <> j:66 var
+R7549:7550 Coq.Numbers.BinNums <> Z0 constr
+R7555:7560 Coq.micromega.EnvRing <> mkPinj def
+R7565:7567 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7572:7572 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7562:7562 Coq.micromega.EnvRing <> j:66 var
+R7582:7585 Coq.Numbers.BinNums <> Zneg constr
+R7592:7597 Coq.micromega.EnvRing <> mkPinj def
+R7603:7607 Coq.micromega.EnvRing <> PsubI:68 def
+R7629:7630 Coq.micromega.EnvRing <> PX constr
+R7653:7653 Coq.micromega.EnvRing <> j:66 var
+R7667:7668 Coq.Numbers.BinNums <> xH constr
+R7673:7674 Coq.micromega.EnvRing <> PX constr
+R7681:7683 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R7688:7688 Coq.micromega.EnvRing <> MakeRingPol.PopI.Q var
+R7676:7676 Coq.micromega.EnvRing <> P:67 var
+R7698:7699 Coq.Numbers.BinNums <> xO constr
+R7706:7707 Coq.micromega.EnvRing <> PX constr
+R7714:7718 Coq.micromega.EnvRing <> PsubI:68 def
+R7721:7735 Coq.PArith.BinPos Pos pred_double def
+R7737:7737 Coq.micromega.EnvRing <> j:66 var
+R7709:7709 Coq.micromega.EnvRing <> P:67 var
+R7751:7752 Coq.Numbers.BinNums <> xI constr
+R7759:7760 Coq.micromega.EnvRing <> PX constr
+R7767:7771 Coq.micromega.EnvRing <> PsubI:68 def
+R7774:7775 Coq.Numbers.BinNums <> xO constr
+R7777:7777 Coq.micromega.EnvRing <> j:66 var
+R7762:7762 Coq.micromega.EnvRing <> P:67 var
+var 7812:7813 MakeRingPol.PopI P'
+R7817:7819 Coq.micromega.EnvRing <> Pol abbrev
+def 7833:7837 <> PaddX
+R7843:7850 Coq.Numbers.BinNums <> positive ind
+binder 7840:7841 <> i':72
+R7856:7858 Coq.micromega.EnvRing <> Pol abbrev
+binder 7854:7854 <> P:73
+R7863:7865 Coq.micromega.EnvRing <> Pol abbrev
+R7878:7878 Coq.micromega.EnvRing <> P:73 var
+R7889:7890 Coq.micromega.EnvRing <> Pc constr
+R7897:7898 Coq.micromega.EnvRing <> PX constr
+R7906:7906 Coq.micromega.EnvRing <> P:73 var
+R7903:7904 Coq.micromega.EnvRing <> i':72 var
+R7900:7901 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R7912:7915 Coq.micromega.EnvRing <> Pinj constr
+R7948:7949 Coq.Numbers.BinNums <> xH constr
+R7955:7956 Coq.micromega.EnvRing <> PX constr
+R7961:7962 Coq.micromega.EnvRing <> i':72 var
+R7958:7959 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R7973:7974 Coq.Numbers.BinNums <> xO constr
+R7981:7982 Coq.micromega.EnvRing <> PX constr
+R7991:7994 Coq.micromega.EnvRing <> Pinj constr
+R7997:8011 Coq.PArith.BinPos Pos pred_double def
+R7987:7988 Coq.micromega.EnvRing <> i':72 var
+R7984:7985 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8026:8027 Coq.Numbers.BinNums <> xI constr
+R8034:8035 Coq.micromega.EnvRing <> PX constr
+R8044:8047 Coq.micromega.EnvRing <> Pinj constr
+R8050:8051 Coq.Numbers.BinNums <> xO constr
+R8040:8041 Coq.micromega.EnvRing <> i':72 var
+R8037:8038 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8072:8073 Coq.micromega.EnvRing <> PX constr
+R8095:8103 Coq.ZArith.BinInt Z pos_sub def
+R8107:8108 Coq.micromega.EnvRing <> i':72 var
+R8121:8124 Coq.Numbers.BinNums <> Zpos constr
+R8131:8134 Coq.micromega.EnvRing <> mkPX def
+R8157:8158 Coq.micromega.EnvRing <> i':72 var
+R8137:8139 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R8153:8154 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8142:8143 Coq.micromega.EnvRing <> PX constr
+R8149:8150 Coq.micromega.EnvRing <> P0 def
+R8145:8145 Coq.micromega.EnvRing <> P:73 var
+R8169:8170 Coq.Numbers.BinNums <> Z0 constr
+R8175:8178 Coq.micromega.EnvRing <> mkPX def
+R8181:8183 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R8187:8188 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8185:8185 Coq.micromega.EnvRing <> P:73 var
+R8202:8205 Coq.Numbers.BinNums <> Zneg constr
+R8212:8215 Coq.micromega.EnvRing <> mkPX def
+R8218:8222 Coq.micromega.EnvRing <> PaddX:74 def
+R8226:8226 Coq.micromega.EnvRing <> P:73 var
+def 8260:8264 <> PsubX
+R8270:8277 Coq.Numbers.BinNums <> positive ind
+binder 8267:8268 <> i':77
+R8283:8285 Coq.micromega.EnvRing <> Pol abbrev
+binder 8281:8281 <> P:78
+R8290:8292 Coq.micromega.EnvRing <> Pol abbrev
+R8305:8305 Coq.micromega.EnvRing <> P:78 var
+R8316:8317 Coq.micromega.EnvRing <> Pc constr
+R8324:8325 Coq.micromega.EnvRing <> PX constr
+R8337:8337 Coq.micromega.EnvRing <> P:78 var
+R8334:8335 Coq.micromega.EnvRing <> i':77 var
+R8328:8329 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R8330:8331 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8343:8346 Coq.micromega.EnvRing <> Pinj constr
+R8379:8380 Coq.Numbers.BinNums <> xH constr
+R8386:8387 Coq.micromega.EnvRing <> PX constr
+R8396:8397 Coq.micromega.EnvRing <> i':77 var
+R8390:8391 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R8392:8393 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8408:8409 Coq.Numbers.BinNums <> xO constr
+R8416:8417 Coq.micromega.EnvRing <> PX constr
+R8430:8433 Coq.micromega.EnvRing <> Pinj constr
+R8436:8450 Coq.PArith.BinPos Pos pred_double def
+R8426:8427 Coq.micromega.EnvRing <> i':77 var
+R8420:8421 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R8422:8423 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8465:8466 Coq.Numbers.BinNums <> xI constr
+R8473:8474 Coq.micromega.EnvRing <> PX constr
+R8487:8490 Coq.micromega.EnvRing <> Pinj constr
+R8493:8494 Coq.Numbers.BinNums <> xO constr
+R8483:8484 Coq.micromega.EnvRing <> i':77 var
+R8477:8478 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R8479:8480 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8515:8516 Coq.micromega.EnvRing <> PX constr
+R8538:8546 Coq.ZArith.BinInt Z pos_sub def
+R8550:8551 Coq.micromega.EnvRing <> i':77 var
+R8564:8567 Coq.Numbers.BinNums <> Zpos constr
+R8574:8577 Coq.micromega.EnvRing <> mkPX def
+R8600:8601 Coq.micromega.EnvRing <> i':77 var
+R8580:8582 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R8596:8597 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8585:8586 Coq.micromega.EnvRing <> PX constr
+R8592:8593 Coq.micromega.EnvRing <> P0 def
+R8588:8588 Coq.micromega.EnvRing <> P:78 var
+R8612:8613 Coq.Numbers.BinNums <> Z0 constr
+R8618:8621 Coq.micromega.EnvRing <> mkPX def
+R8624:8626 Coq.micromega.EnvRing <> MakeRingPol.PopI.Pop var
+R8630:8631 Coq.micromega.EnvRing <> MakeRingPol.PopI.P' var
+R8628:8628 Coq.micromega.EnvRing <> P:78 var
+R8645:8648 Coq.Numbers.BinNums <> Zneg constr
+R8655:8658 Coq.micromega.EnvRing <> mkPX def
+R8661:8665 Coq.micromega.EnvRing <> PsubX:79 def
+R8669:8669 Coq.micromega.EnvRing <> P:78 var
+R8699:8702 Coq.micromega.EnvRing MakeRingPol.PopI <> sec
+def 8716:8719 <> Padd
+R8728:8730 Coq.micromega.EnvRing <> Pol abbrev
+binder 8722:8722 <> P:82
+R8728:8730 Coq.micromega.EnvRing <> Pol abbrev
+binder 8724:8725 <> P':83
+R8747:8749 Coq.micromega.EnvRing <> Pol abbrev
+R8762:8763 Coq.micromega.EnvRing <> P':83 var
+R8774:8775 Coq.micromega.EnvRing <> Pc constr
+R8783:8787 Coq.micromega.EnvRing <> PaddC def
+R8789:8789 Coq.micromega.EnvRing <> P:82 var
+R8798:8801 Coq.micromega.EnvRing <> Pinj constr
+R8812:8816 Coq.micromega.EnvRing <> PaddI def
+R8829:8829 Coq.micromega.EnvRing <> P:82 var
+R8818:8821 Coq.micromega.EnvRing <> Padd:84 def
+R8835:8836 Coq.micromega.EnvRing <> PX constr
+R8860:8860 Coq.micromega.EnvRing <> P:82 var
+R8873:8874 Coq.micromega.EnvRing <> Pc constr
+R8881:8882 Coq.micromega.EnvRing <> PX constr
+R8891:8895 Coq.micromega.EnvRing <> PaddC def
+R8884:8885 Coq.micromega.EnvRing <> P':83 var
+R8909:8912 Coq.micromega.EnvRing <> Pinj constr
+R8948:8949 Coq.Numbers.BinNums <> xH constr
+R8954:8955 Coq.micromega.EnvRing <> PX constr
+R8964:8967 Coq.micromega.EnvRing <> Padd:84 def
+R8957:8958 Coq.micromega.EnvRing <> P':83 var
+R8983:8984 Coq.Numbers.BinNums <> xO constr
+R8991:8992 Coq.micromega.EnvRing <> PX constr
+R9001:9004 Coq.micromega.EnvRing <> Padd:84 def
+R9007:9010 Coq.micromega.EnvRing <> Pinj constr
+R9013:9027 Coq.PArith.BinPos Pos pred_double def
+R8994:8995 Coq.micromega.EnvRing <> P':83 var
+R9047:9048 Coq.Numbers.BinNums <> xI constr
+R9055:9056 Coq.micromega.EnvRing <> PX constr
+R9065:9068 Coq.micromega.EnvRing <> Padd:84 def
+R9071:9074 Coq.micromega.EnvRing <> Pinj constr
+R9077:9078 Coq.Numbers.BinNums <> xO constr
+R9058:9059 Coq.micromega.EnvRing <> P':83 var
+R9106:9107 Coq.micromega.EnvRing <> PX constr
+R9130:9138 Coq.ZArith.BinInt Z pos_sub def
+R9158:9161 Coq.Numbers.BinNums <> Zpos constr
+R9168:9171 Coq.micromega.EnvRing <> mkPX def
+R9199:9202 Coq.micromega.EnvRing <> Padd:84 def
+R9174:9177 Coq.micromega.EnvRing <> Padd:84 def
+R9191:9192 Coq.micromega.EnvRing <> P':83 var
+R9180:9181 Coq.micromega.EnvRing <> PX constr
+R9187:9188 Coq.micromega.EnvRing <> P0 def
+R9183:9183 Coq.micromega.EnvRing <> P:82 var
+R9218:9219 Coq.Numbers.BinNums <> Z0 constr
+R9224:9227 Coq.micromega.EnvRing <> mkPX def
+R9244:9247 Coq.micromega.EnvRing <> Padd:84 def
+R9230:9233 Coq.micromega.EnvRing <> Padd:84 def
+R9237:9238 Coq.micromega.EnvRing <> P':83 var
+R9235:9235 Coq.micromega.EnvRing <> P:82 var
+R9263:9266 Coq.Numbers.BinNums <> Zneg constr
+R9273:9276 Coq.micromega.EnvRing <> mkPX def
+R9301:9304 Coq.micromega.EnvRing <> Padd:84 def
+R9279:9283 Coq.micromega.EnvRing <> PaddX def
+R9295:9295 Coq.micromega.EnvRing <> P:82 var
+R9290:9291 Coq.micromega.EnvRing <> P':83 var
+R9285:9288 Coq.micromega.EnvRing <> Padd:84 def
+R9352:9355 Coq.micromega.EnvRing <> Padd def
+not 9344:9344 MakeRingPol :::x_'++'_x
+def 9369:9372 <> Psub
+R9381:9383 Coq.micromega.EnvRing <> Pol abbrev
+binder 9375:9375 <> P:88
+R9381:9383 Coq.micromega.EnvRing <> Pol abbrev
+binder 9377:9378 <> P':89
+R9400:9402 Coq.micromega.EnvRing <> Pol abbrev
+R9415:9416 Coq.micromega.EnvRing <> P':89 var
+R9427:9428 Coq.micromega.EnvRing <> Pc constr
+R9436:9440 Coq.micromega.EnvRing <> PsubC def
+R9442:9442 Coq.micromega.EnvRing <> P:88 var
+R9451:9454 Coq.micromega.EnvRing <> Pinj constr
+R9465:9469 Coq.micromega.EnvRing <> PsubI def
+R9482:9482 Coq.micromega.EnvRing <> P:88 var
+R9471:9474 Coq.micromega.EnvRing <> Psub:90 def
+R9488:9489 Coq.micromega.EnvRing <> PX constr
+R9513:9513 Coq.micromega.EnvRing <> P:88 var
+R9526:9527 Coq.micromega.EnvRing <> Pc constr
+R9534:9535 Coq.micromega.EnvRing <> PX constr
+R9569:9573 Coq.micromega.EnvRing <> PaddC def
+R9576:9577 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R9538:9539 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R9540:9541 Coq.micromega.EnvRing <> P':89 var
+R9591:9594 Coq.micromega.EnvRing <> Pinj constr
+R9630:9631 Coq.Numbers.BinNums <> xH constr
+R9636:9637 Coq.micromega.EnvRing <> PX constr
+R9650:9653 Coq.micromega.EnvRing <> Psub:90 def
+R9640:9641 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R9642:9643 Coq.micromega.EnvRing <> P':89 var
+R9669:9670 Coq.Numbers.BinNums <> xO constr
+R9677:9678 Coq.micromega.EnvRing <> PX constr
+R9691:9694 Coq.micromega.EnvRing <> Psub:90 def
+R9697:9700 Coq.micromega.EnvRing <> Pinj constr
+R9703:9717 Coq.PArith.BinPos Pos pred_double def
+R9681:9682 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R9683:9684 Coq.micromega.EnvRing <> P':89 var
+R9737:9738 Coq.Numbers.BinNums <> xI constr
+R9745:9746 Coq.micromega.EnvRing <> PX constr
+R9759:9762 Coq.micromega.EnvRing <> Psub:90 def
+R9765:9768 Coq.micromega.EnvRing <> Pinj constr
+R9771:9772 Coq.Numbers.BinNums <> xO constr
+R9749:9750 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R9751:9752 Coq.micromega.EnvRing <> P':89 var
+R9800:9801 Coq.micromega.EnvRing <> PX constr
+R9824:9832 Coq.ZArith.BinInt Z pos_sub def
+R9852:9855 Coq.Numbers.BinNums <> Zpos constr
+R9862:9865 Coq.micromega.EnvRing <> mkPX def
+R9893:9896 Coq.micromega.EnvRing <> Psub:90 def
+R9868:9871 Coq.micromega.EnvRing <> Psub:90 def
+R9885:9886 Coq.micromega.EnvRing <> P':89 var
+R9874:9875 Coq.micromega.EnvRing <> PX constr
+R9881:9882 Coq.micromega.EnvRing <> P0 def
+R9877:9877 Coq.micromega.EnvRing <> P:88 var
+R9912:9913 Coq.Numbers.BinNums <> Z0 constr
+R9918:9921 Coq.micromega.EnvRing <> mkPX def
+R9938:9941 Coq.micromega.EnvRing <> Psub:90 def
+R9924:9927 Coq.micromega.EnvRing <> Psub:90 def
+R9931:9932 Coq.micromega.EnvRing <> P':89 var
+R9929:9929 Coq.micromega.EnvRing <> P:88 var
+R9957:9960 Coq.Numbers.BinNums <> Zneg constr
+R9967:9970 Coq.micromega.EnvRing <> mkPX def
+R9995:9998 Coq.micromega.EnvRing <> Psub:90 def
+R9973:9977 Coq.micromega.EnvRing <> PsubX def
+R9989:9989 Coq.micromega.EnvRing <> P:88 var
+R9984:9985 Coq.micromega.EnvRing <> P':89 var
+R9979:9982 Coq.micromega.EnvRing <> Psub:90 def
+R10046:10049 Coq.micromega.EnvRing <> Psub def
+not 10038:10038 MakeRingPol :::x_'--'_x
+def 10087:10095 <> PmulC_aux
+R10100:10102 Coq.micromega.EnvRing <> Pol abbrev
+binder 10098:10098 <> P:94
+R10108:10108 Coq.micromega.EnvRing <> MakeRingPol.C var
+binder 10106:10106 <> c:95
+R10113:10115 Coq.micromega.EnvRing <> Pol abbrev
+R10128:10128 Coq.micromega.EnvRing <> P:94 var
+R10139:10140 Coq.micromega.EnvRing <> Pc constr
+R10148:10149 Coq.micromega.EnvRing <> Pc constr
+R10154:10157 Coq.micromega.EnvRing MakeRingPol :::x_'*!'_x not
+R10158:10158 Coq.micromega.EnvRing <> c:95 var
+R10165:10168 Coq.micromega.EnvRing <> Pinj constr
+R10177:10182 Coq.micromega.EnvRing <> mkPinj def
+R10187:10195 Coq.micromega.EnvRing <> PmulC_aux:96 def
+R10199:10199 Coq.micromega.EnvRing <> c:95 var
+R10206:10207 Coq.micromega.EnvRing <> PX constr
+R10218:10221 Coq.micromega.EnvRing <> mkPX def
+R10242:10250 Coq.micromega.EnvRing <> PmulC_aux:96 def
+R10254:10254 Coq.micromega.EnvRing <> c:95 var
+R10224:10232 Coq.micromega.EnvRing <> PmulC_aux:96 def
+R10236:10236 Coq.micromega.EnvRing <> c:95 var
+R10234:10234 Coq.micromega.EnvRing <> P:94 var
+def 10277:10281 <> PmulC
+binder 10283:10283 <> P:98
+binder 10285:10285 <> c:99
+R10296:10300 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R10295:10295 Coq.micromega.EnvRing <> c:99 var
+R10301:10302 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R10323:10327 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R10322:10322 Coq.micromega.EnvRing <> c:99 var
+R10328:10329 Coq.micromega.EnvRing <> MakeRingPol.cI var
+R10343:10351 Coq.micromega.EnvRing <> PmulC_aux def
+R10355:10355 Coq.micromega.EnvRing <> c:99 var
+R10353:10353 Coq.micromega.EnvRing <> P:98 var
+R10336:10336 Coq.micromega.EnvRing <> P:98 var
+R10309:10310 Coq.micromega.EnvRing <> P0 def
+sec 10368:10372 MakeRingPol PmulI
+var 10386:10389 MakeRingPol.PmulI Pmul
+R10396:10399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10393:10395 Coq.micromega.EnvRing <> Pol abbrev
+R10403:10406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10400:10402 Coq.micromega.EnvRing <> Pol abbrev
+R10407:10409 Coq.micromega.EnvRing <> Pol abbrev
+var 10423:10423 MakeRingPol.PmulI Q
+R10427:10429 Coq.micromega.EnvRing <> Pol abbrev
+def 10443:10447 <> PmulI
+R10452:10459 Coq.Numbers.BinNums <> positive ind
+binder 10450:10450 <> j:102
+R10465:10467 Coq.micromega.EnvRing <> Pol abbrev
+binder 10463:10463 <> P:103
+R10472:10474 Coq.micromega.EnvRing <> Pol abbrev
+R10488:10488 Coq.micromega.EnvRing <> P:103 var
+R10500:10501 Coq.micromega.EnvRing <> Pc constr
+R10508:10513 Coq.micromega.EnvRing <> mkPinj def
+R10518:10522 Coq.micromega.EnvRing <> PmulC def
+R10524:10524 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Q var
+R10515:10515 Coq.micromega.EnvRing <> j:102 var
+R10534:10537 Coq.micromega.EnvRing <> Pinj constr
+R10559:10567 Coq.ZArith.BinInt Z pos_sub def
+R10572:10572 Coq.micromega.EnvRing <> j:102 var
+R10586:10589 Coq.Numbers.BinNums <> Zpos constr
+R10596:10601 Coq.micromega.EnvRing <> mkPinj def
+R10606:10609 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Pmul var
+R10623:10623 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Q var
+R10612:10615 Coq.micromega.EnvRing <> Pinj constr
+R10603:10603 Coq.micromega.EnvRing <> j:102 var
+R10633:10634 Coq.Numbers.BinNums <> Z0 constr
+R10639:10644 Coq.micromega.EnvRing <> mkPinj def
+R10649:10652 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Pmul var
+R10657:10657 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Q var
+R10646:10646 Coq.micromega.EnvRing <> j:102 var
+R10667:10670 Coq.Numbers.BinNums <> Zneg constr
+R10677:10682 Coq.micromega.EnvRing <> mkPinj def
+R10688:10692 Coq.micromega.EnvRing <> PmulI:104 def
+R10714:10715 Coq.micromega.EnvRing <> PX constr
+R10740:10740 Coq.micromega.EnvRing <> j:102 var
+R10754:10755 Coq.Numbers.BinNums <> xH constr
+R10760:10763 Coq.micromega.EnvRing <> mkPX def
+R10783:10786 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Pmul var
+R10791:10791 Coq.micromega.EnvRing <> MakeRingPol.PmulI.Q var
+R10766:10770 Coq.micromega.EnvRing <> PmulI:104 def
+R10772:10773 Coq.Numbers.BinNums <> xH constr
+R10801:10802 Coq.Numbers.BinNums <> xO constr
+R10810:10813 Coq.micromega.EnvRing <> mkPX def
+R10832:10836 Coq.micromega.EnvRing <> PmulI:104 def
+R10839:10853 Coq.PArith.BinPos Pos pred_double def
+R10816:10820 Coq.micromega.EnvRing <> PmulI:104 def
+R10822:10822 Coq.micromega.EnvRing <> j:102 var
+R10870:10871 Coq.Numbers.BinNums <> xI constr
+R10879:10882 Coq.micromega.EnvRing <> mkPX def
+R10901:10905 Coq.micromega.EnvRing <> PmulI:104 def
+R10908:10909 Coq.Numbers.BinNums <> xO constr
+R10885:10889 Coq.micromega.EnvRing <> PmulI:104 def
+R10891:10891 Coq.micromega.EnvRing <> j:102 var
+R10942:10946 Coq.micromega.EnvRing MakeRingPol.PmulI <> sec
+def 10960:10963 <> Pmul
+R10974:10976 Coq.micromega.EnvRing <> Pol abbrev
+binder 10966:10966 <> P:107
+R10974:10976 Coq.micromega.EnvRing <> Pol abbrev
+binder 10968:10970 <> P'':108
+R10994:10996 Coq.micromega.EnvRing <> Pol abbrev
+R11010:11012 Coq.micromega.EnvRing <> P'':108 var
+R11024:11025 Coq.micromega.EnvRing <> Pc constr
+R11032:11036 Coq.micromega.EnvRing <> PmulC def
+R11038:11038 Coq.micromega.EnvRing <> P:107 var
+R11047:11050 Coq.micromega.EnvRing <> Pinj constr
+R11061:11065 Coq.micromega.EnvRing <> PmulI def
+R11078:11078 Coq.micromega.EnvRing <> P:107 var
+R11067:11070 Coq.micromega.EnvRing <> Pmul:109 def
+R11085:11086 Coq.micromega.EnvRing <> PX constr
+R11111:11111 Coq.micromega.EnvRing <> P:107 var
+R11125:11126 Coq.micromega.EnvRing <> Pc constr
+R11133:11137 Coq.micromega.EnvRing <> PmulC def
+R11139:11141 Coq.micromega.EnvRing <> P'':108 var
+R11152:11155 Coq.micromega.EnvRing <> Pinj constr
+R11215:11216 Coq.Numbers.BinNums <> xH constr
+R11221:11224 Coq.micromega.EnvRing <> Pmul:109 def
+R11242:11243 Coq.Numbers.BinNums <> xO constr
+R11250:11253 Coq.micromega.EnvRing <> Pmul:109 def
+R11256:11259 Coq.micromega.EnvRing <> Pinj constr
+R11262:11276 Coq.PArith.BinPos Pos pred_double def
+R11298:11299 Coq.Numbers.BinNums <> xI constr
+R11306:11309 Coq.micromega.EnvRing <> Pmul:109 def
+R11312:11315 Coq.micromega.EnvRing <> Pinj constr
+R11318:11319 Coq.Numbers.BinNums <> xO constr
+binder 11175:11177 <> QQ':113
+R11353:11356 Coq.micromega.EnvRing <> mkPX def
+R11373:11375 Coq.micromega.EnvRing <> QQ':113 var
+R11359:11362 Coq.micromega.EnvRing <> Pmul:109 def
+R11364:11364 Coq.micromega.EnvRing <> P:107 var
+R11384:11385 Coq.micromega.EnvRing <> PX constr
+R11413:11416 Coq.micromega.EnvRing <> Pmul:109 def
+binder 11406:11408 <> QQ':114
+R11444:11448 Coq.micromega.EnvRing <> PmulI def
+R11461:11461 Coq.micromega.EnvRing <> P:107 var
+R11458:11459 Coq.Numbers.BinNums <> xH constr
+R11450:11453 Coq.micromega.EnvRing <> Pmul:109 def
+binder 11437:11439 <> PQ':115
+R11484:11487 Coq.micromega.EnvRing <> Pmul:109 def
+R11490:11495 Coq.micromega.EnvRing <> mkPinj def
+R11497:11498 Coq.Numbers.BinNums <> xH constr
+binder 11477:11479 <> QP':116
+R11527:11530 Coq.micromega.EnvRing <> Pmul:109 def
+R11532:11532 Coq.micromega.EnvRing <> P:107 var
+binder 11520:11522 <> PP':117
+R11547:11547 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R11581:11585 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R11548:11551 Coq.micromega.EnvRing <> mkPX def
+R11579:11580 Coq.micromega.EnvRing <> P0 def
+R11567:11570 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R11554:11557 Coq.micromega.EnvRing <> mkPX def
+R11565:11566 Coq.micromega.EnvRing <> P0 def
+R11559:11561 Coq.micromega.EnvRing <> PP':117 var
+R11571:11573 Coq.micromega.EnvRing <> QP':116 var
+R11586:11589 Coq.micromega.EnvRing <> mkPX def
+R11597:11599 Coq.micromega.EnvRing <> QQ':114 var
+R11591:11593 Coq.micromega.EnvRing <> PQ':115 var
+R11633:11636 Coq.micromega.EnvRing <> Pmul def
+not 11625:11625 MakeRingPol :::x_'**'_x
+def 11650:11656 <> Psquare
+R11661:11663 Coq.micromega.EnvRing <> Pol abbrev
+binder 11659:11659 <> P:118
+R11668:11670 Coq.micromega.EnvRing <> Pol abbrev
+R11684:11684 Coq.micromega.EnvRing <> P:118 var
+R11696:11697 Coq.micromega.EnvRing <> Pc constr
+R11704:11705 Coq.micromega.EnvRing <> Pc constr
+R11709:11712 Coq.micromega.EnvRing MakeRingPol :::x_'*!'_x not
+R11721:11724 Coq.micromega.EnvRing <> Pinj constr
+R11733:11736 Coq.micromega.EnvRing <> Pinj constr
+R11741:11747 Coq.micromega.EnvRing <> Psquare:119 def
+R11757:11758 Coq.micromega.EnvRing <> PX constr
+R11787:11790 Coq.micromega.EnvRing <> Pmul def
+R11795:11800 Coq.micromega.EnvRing <> mkPinj def
+R11806:11810 Coq.micromega.EnvRing <> PmulC def
+R11817:11820 Coq.micromega.EnvRing MakeRingPol :::x_'+!'_x not
+R11815:11816 Coq.micromega.EnvRing <> MakeRingPol.cI var
+R11821:11822 Coq.micromega.EnvRing <> MakeRingPol.cI var
+R11802:11803 Coq.Numbers.BinNums <> xH constr
+R11792:11792 Coq.micromega.EnvRing <> P:118 var
+binder 11778:11782 <> twoPQ:121
+R11845:11851 Coq.micromega.EnvRing <> Psquare:119 def
+binder 11839:11840 <> Q2:122
+R11873:11879 Coq.micromega.EnvRing <> Psquare:119 def
+R11881:11881 Coq.micromega.EnvRing <> P:118 var
+binder 11867:11868 <> P2:123
+R11891:11894 Coq.micromega.EnvRing <> mkPX def
+R11922:11923 Coq.micromega.EnvRing <> Q2:122 var
+R11909:11912 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R11897:11900 Coq.micromega.EnvRing <> mkPX def
+R11907:11908 Coq.micromega.EnvRing <> P0 def
+R11902:11903 Coq.micromega.EnvRing <> P2:123 var
+R11913:11917 Coq.micromega.EnvRing <> twoPQ:121 var
+ind 12320:12322 <> Mon
+constr 12336:12339 <> mon0
+constr 12350:12353 <> zmon
+constr 12383:12386 <> vmon
+R12342:12344 Coq.micromega.EnvRing <> Mon:124 ind
+R12364:12367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12356:12363 Coq.Numbers.BinNums <> positive ind
+R12371:12374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12368:12370 Coq.micromega.EnvRing <> Mon:124 ind
+R12375:12377 Coq.micromega.EnvRing <> Mon:124 ind
+R12397:12400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12389:12396 Coq.Numbers.BinNums <> positive ind
+R12404:12407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12401:12403 Coq.micromega.EnvRing <> Mon:124 ind
+R12408:12410 Coq.micromega.EnvRing <> Mon:124 ind
+def 12426:12431 <> mkZmon
+binder 12433:12433 <> j:126
+binder 12435:12435 <> M:127
+R12449:12449 Coq.micromega.EnvRing <> M:127 var
+R12456:12459 Coq.micromega.EnvRing <> mon0 constr
+R12464:12467 Coq.micromega.EnvRing <> mon0 constr
+R12476:12479 Coq.micromega.EnvRing <> zmon constr
+R12483:12483 Coq.micromega.EnvRing <> M:127 var
+R12481:12481 Coq.micromega.EnvRing <> j:126 var
+def 12503:12511 <> zmon_pred
+binder 12513:12513 <> j:129
+binder 12515:12515 <> M:130
+R12529:12529 Coq.micromega.EnvRing <> j:129 var
+R12536:12537 Coq.Numbers.BinNums <> xH constr
+R12542:12542 Coq.micromega.EnvRing <> M:130 var
+R12551:12556 Coq.micromega.EnvRing <> mkZmon def
+R12571:12571 Coq.micromega.EnvRing <> M:130 var
+R12559:12566 Coq.PArith.BinPos Pos pred def
+R12568:12568 Coq.micromega.EnvRing <> j:129 var
+def 12591:12596 <> mkVmon
+binder 12598:12598 <> i:132
+binder 12600:12600 <> M:133
+R12614:12614 Coq.micromega.EnvRing <> M:133 var
+R12626:12629 Coq.micromega.EnvRing <> mon0 constr
+R12634:12637 Coq.micromega.EnvRing <> vmon constr
+R12641:12644 Coq.micromega.EnvRing <> mon0 constr
+R12639:12639 Coq.micromega.EnvRing <> i:132 var
+R12651:12654 Coq.micromega.EnvRing <> zmon constr
+R12663:12666 Coq.micromega.EnvRing <> vmon constr
+R12671:12679 Coq.micromega.EnvRing <> zmon_pred def
+R12668:12668 Coq.micromega.EnvRing <> i:132 var
+R12691:12694 Coq.micromega.EnvRing <> vmon constr
+R12704:12707 Coq.micromega.EnvRing <> vmon constr
+R12711:12711 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R12710:12710 Coq.micromega.EnvRing <> i:132 var
+def 12737:12743 <> MFactor
+R12749:12751 Coq.micromega.EnvRing <> Pol abbrev
+binder 12746:12746 <> P:135
+R12758:12760 Coq.micromega.EnvRing <> Mon ind
+binder 12755:12755 <> M:136
+R12768:12770 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12765:12767 Coq.micromega.EnvRing <> Pol abbrev
+R12771:12773 Coq.micromega.EnvRing <> Pol abbrev
+R12790:12790 Coq.micromega.EnvRing <> M:136 var
+R12787:12787 Coq.micromega.EnvRing <> P:135 var
+R12808:12811 Coq.micromega.EnvRing <> mon0 constr
+R12816:12816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12822:12823 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12825:12825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12817:12818 Coq.micromega.EnvRing <> Pc constr
+R12820:12821 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R12824:12824 Coq.micromega.EnvRing <> P:135 var
+R12832:12833 Coq.micromega.EnvRing <> Pc constr
+R12846:12846 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12848:12849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12855:12855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12847:12847 Coq.micromega.EnvRing <> P:135 var
+R12850:12851 Coq.micromega.EnvRing <> Pc constr
+R12853:12854 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R12862:12865 Coq.micromega.EnvRing <> Pinj constr
+R12870:12871 Coq.micromega.EnvRing <> P1 def
+R12874:12877 Coq.micromega.EnvRing <> zmon constr
+R12903:12906 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R12924:12925 Coq.Init.Datatypes <> Eq constr
+R12943:12949 Coq.micromega.EnvRing <> MFactor:137 def
+binder 12935:12935 <> R:140
+binder 12937:12937 <> S:141
+R12977:12977 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12989:12990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13002:13002 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12978:12983 Coq.micromega.EnvRing <> mkPinj def
+R12988:12988 Coq.micromega.EnvRing <> R:140 var
+R12991:12996 Coq.micromega.EnvRing <> mkPinj def
+R13001:13001 Coq.micromega.EnvRing <> S:141 var
+R13012:13013 Coq.Init.Datatypes <> Lt constr
+R13031:13037 Coq.micromega.EnvRing <> MFactor:137 def
+R13043:13046 Coq.micromega.EnvRing <> zmon constr
+R13051:13053 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+binder 13023:13023 <> R:142
+binder 13025:13025 <> S:143
+R13082:13082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13094:13095 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13107:13107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13083:13088 Coq.micromega.EnvRing <> mkPinj def
+R13093:13093 Coq.micromega.EnvRing <> R:142 var
+R13096:13101 Coq.micromega.EnvRing <> mkPinj def
+R13106:13106 Coq.micromega.EnvRing <> S:143 var
+R13117:13118 Coq.Init.Datatypes <> Gt constr
+R13123:13123 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13125:13126 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13132:13132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13124:13124 Coq.micromega.EnvRing <> P:135 var
+R13127:13128 Coq.micromega.EnvRing <> Pc constr
+R13130:13131 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R13148:13151 Coq.micromega.EnvRing <> Pinj constr
+R13158:13161 Coq.micromega.EnvRing <> vmon constr
+R13170:13170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13172:13173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13179:13179 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13171:13171 Coq.micromega.EnvRing <> P:135 var
+R13174:13175 Coq.micromega.EnvRing <> Pc constr
+R13177:13178 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R13185:13186 Coq.micromega.EnvRing <> PX constr
+R13188:13189 Coq.micromega.EnvRing <> P1 def
+R13197:13200 Coq.micromega.EnvRing <> zmon constr
+R13233:13241 Coq.micromega.EnvRing <> zmon_pred def
+binder 13227:13228 <> M2:144
+R13280:13286 Coq.micromega.EnvRing <> MFactor:137 def
+R13291:13291 Coq.micromega.EnvRing <> M:136 var
+binder 13269:13270 <> R1:145
+binder 13273:13274 <> S1:146
+R13325:13331 Coq.micromega.EnvRing <> MFactor:137 def
+R13336:13337 Coq.micromega.EnvRing <> M2:144 var
+binder 13314:13315 <> R2:147
+binder 13318:13319 <> S2:148
+R13357:13357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13370:13371 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13384:13384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13358:13361 Coq.micromega.EnvRing <> mkPX def
+R13368:13369 Coq.micromega.EnvRing <> R2:147 var
+R13363:13364 Coq.micromega.EnvRing <> R1:145 var
+R13372:13375 Coq.micromega.EnvRing <> mkPX def
+R13382:13383 Coq.micromega.EnvRing <> S2:148 var
+R13377:13378 Coq.micromega.EnvRing <> S1:146 var
+R13390:13391 Coq.micromega.EnvRing <> PX constr
+R13393:13394 Coq.micromega.EnvRing <> P1 def
+R13402:13405 Coq.micromega.EnvRing <> vmon constr
+R13429:13432 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R13449:13450 Coq.Init.Datatypes <> Eq constr
+R13470:13476 Coq.micromega.EnvRing <> MFactor:137 def
+R13482:13487 Coq.micromega.EnvRing <> mkZmon def
+R13489:13490 Coq.Numbers.BinNums <> xH constr
+binder 13460:13461 <> R1:149
+binder 13463:13464 <> S1:150
+R13516:13516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13529:13530 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13533:13533 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13517:13520 Coq.micromega.EnvRing <> mkPX def
+R13522:13523 Coq.micromega.EnvRing <> R1:149 var
+R13531:13532 Coq.micromega.EnvRing <> S1:150 var
+R13543:13544 Coq.Init.Datatypes <> Lt constr
+R13564:13570 Coq.micromega.EnvRing <> MFactor:137 def
+R13576:13579 Coq.micromega.EnvRing <> vmon constr
+R13583:13585 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+binder 13554:13555 <> R1:151
+binder 13557:13558 <> S1:152
+R13613:13613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13626:13627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13630:13630 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13614:13617 Coq.micromega.EnvRing <> mkPX def
+R13619:13620 Coq.micromega.EnvRing <> R1:151 var
+R13628:13629 Coq.micromega.EnvRing <> S1:152 var
+R13640:13641 Coq.Init.Datatypes <> Gt constr
+R13661:13667 Coq.micromega.EnvRing <> MFactor:137 def
+R13673:13678 Coq.micromega.EnvRing <> mkZmon def
+R13680:13681 Coq.Numbers.BinNums <> xH constr
+binder 13651:13652 <> R1:153
+binder 13654:13655 <> S1:154
+R13707:13707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13720:13721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13743:13743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13708:13711 Coq.micromega.EnvRing <> mkPX def
+R13713:13714 Coq.micromega.EnvRing <> R1:153 var
+R13722:13725 Coq.micromega.EnvRing <> mkPX def
+R13737:13738 Coq.micromega.EnvRing <> Pc constr
+R13740:13741 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R13732:13732 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+R13727:13728 Coq.micromega.EnvRing <> S1:154 var
+def 13777:13785 <> POneSubst
+R13792:13794 Coq.micromega.EnvRing <> Pol abbrev
+binder 13788:13789 <> P1:155
+R13802:13804 Coq.micromega.EnvRing <> Mon ind
+binder 13798:13799 <> M1:156
+R13812:13814 Coq.micromega.EnvRing <> Pol abbrev
+binder 13808:13809 <> P2:157
+R13818:13823 Coq.Init.Datatypes <> option ind
+R13825:13827 Coq.micromega.EnvRing <> Pol abbrev
+R13851:13857 Coq.micromega.EnvRing <> MFactor def
+R13862:13863 Coq.micromega.EnvRing <> M1:156 var
+R13859:13860 Coq.micromega.EnvRing <> P1:155 var
+binder 13841:13842 <> Q1:158
+binder 13844:13845 <> R1:159
+R13878:13879 Coq.micromega.EnvRing <> R1:159 var
+R13892:13893 Coq.micromega.EnvRing <> Pc constr
+R13905:13909 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R13910:13911 Coq.micromega.EnvRing <> MakeRingPol.cO var
+R13943:13946 Coq.Init.Datatypes <> Some constr
+R13949:13952 Coq.micromega.EnvRing <> Padd def
+R13958:13961 Coq.micromega.EnvRing <> Pmul def
+R13966:13967 Coq.micromega.EnvRing <> R1:159 var
+R13963:13964 Coq.micromega.EnvRing <> P2:157 var
+R13954:13955 Coq.micromega.EnvRing <> Q1:158 var
+R13918:13921 Coq.Init.Datatypes <> None constr
+R13982:13985 Coq.Init.Datatypes <> Some constr
+R13988:13991 Coq.micromega.EnvRing <> Padd def
+R13997:14000 Coq.micromega.EnvRing <> Pmul def
+R14005:14006 Coq.micromega.EnvRing <> R1:159 var
+R14002:14003 Coq.micromega.EnvRing <> P2:157 var
+R13993:13994 Coq.micromega.EnvRing <> Q1:158 var
+def 14031:14038 <> PNSubst1
+R14045:14047 Coq.micromega.EnvRing <> Pol abbrev
+binder 14041:14042 <> P1:161
+R14055:14057 Coq.micromega.EnvRing <> Mon ind
+binder 14051:14052 <> M1:162
+R14065:14067 Coq.micromega.EnvRing <> Pol abbrev
+binder 14061:14062 <> P2:163
+R14074:14076 Coq.Init.Datatypes <> nat ind
+binder 14071:14071 <> n:164
+R14081:14083 Coq.micromega.EnvRing <> Pol abbrev
+R14098:14106 Coq.micromega.EnvRing <> POneSubst def
+R14114:14115 Coq.micromega.EnvRing <> P2:163 var
+R14111:14112 Coq.micromega.EnvRing <> M1:162 var
+R14108:14109 Coq.micromega.EnvRing <> P1:161 var
+R14127:14130 Coq.Init.Datatypes <> Some constr
+R14144:14144 Coq.micromega.EnvRing <> n:164 var
+R14151:14151 Coq.Init.Datatypes <> S constr
+R14159:14166 Coq.micromega.EnvRing <> PNSubst1:165 def
+R14174:14175 Coq.micromega.EnvRing <> P2:163 var
+R14171:14172 Coq.micromega.EnvRing <> M1:162 var
+R14205:14206 Coq.micromega.EnvRing <> P1:161 var
+def 14231:14237 <> PNSubst
+R14244:14246 Coq.micromega.EnvRing <> Pol abbrev
+binder 14240:14241 <> P1:167
+R14254:14256 Coq.micromega.EnvRing <> Mon ind
+binder 14250:14251 <> M1:168
+R14264:14266 Coq.micromega.EnvRing <> Pol abbrev
+binder 14260:14261 <> P2:169
+R14273:14275 Coq.Init.Datatypes <> nat ind
+binder 14270:14270 <> n:170
+R14279:14284 Coq.Init.Datatypes <> option ind
+R14286:14288 Coq.micromega.EnvRing <> Pol abbrev
+R14303:14311 Coq.micromega.EnvRing <> POneSubst def
+R14319:14320 Coq.micromega.EnvRing <> P2:169 var
+R14316:14317 Coq.micromega.EnvRing <> M1:168 var
+R14313:14314 Coq.micromega.EnvRing <> P1:167 var
+R14332:14335 Coq.Init.Datatypes <> Some constr
+R14349:14349 Coq.micromega.EnvRing <> n:170 var
+R14356:14356 Coq.Init.Datatypes <> S constr
+R14364:14367 Coq.Init.Datatypes <> Some constr
+R14370:14377 Coq.micromega.EnvRing <> PNSubst1 def
+R14385:14386 Coq.micromega.EnvRing <> P2:169 var
+R14382:14383 Coq.micromega.EnvRing <> M1:168 var
+R14399:14402 Coq.Init.Datatypes <> None constr
+R14419:14422 Coq.Init.Datatypes <> None constr
+def 14445:14452 <> PSubstL1
+R14459:14461 Coq.micromega.EnvRing <> Pol abbrev
+binder 14455:14456 <> P1:172
+R14470:14473 Coq.Init.Datatypes <> list ind
+R14479:14481 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14476:14478 Coq.micromega.EnvRing <> Mon ind
+R14482:14484 Coq.micromega.EnvRing <> Pol abbrev
+binder 14465:14467 <> LM1:173
+R14492:14494 Coq.Init.Datatypes <> nat ind
+binder 14489:14489 <> n:174
+R14499:14501 Coq.micromega.EnvRing <> Pol abbrev
+R14516:14518 Coq.micromega.EnvRing <> LM1:173 var
+R14530:14533 Coq.Init.Datatypes <> cons constr
+R14535:14535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14538:14538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14541:14541 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14550:14557 Coq.micromega.EnvRing <> PSubstL1:175 def
+R14585:14585 Coq.micromega.EnvRing <> n:174 var
+R14560:14567 Coq.micromega.EnvRing <> PNSubst1 def
+R14578:14578 Coq.micromega.EnvRing <> n:174 var
+R14569:14570 Coq.micromega.EnvRing <> P1:172 var
+R14598:14599 Coq.micromega.EnvRing <> P1:172 var
+def 14622:14628 <> PSubstL
+R14635:14637 Coq.micromega.EnvRing <> Pol abbrev
+binder 14631:14632 <> P1:177
+R14646:14649 Coq.Init.Datatypes <> list ind
+R14655:14657 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14652:14654 Coq.micromega.EnvRing <> Mon ind
+R14658:14660 Coq.micromega.EnvRing <> Pol abbrev
+binder 14641:14643 <> LM1:178
+R14668:14670 Coq.Init.Datatypes <> nat ind
+binder 14665:14665 <> n:179
+R14675:14680 Coq.Init.Datatypes <> option ind
+R14682:14684 Coq.micromega.EnvRing <> Pol abbrev
+R14699:14701 Coq.micromega.EnvRing <> LM1:178 var
+R14713:14716 Coq.Init.Datatypes <> cons constr
+R14718:14718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14721:14721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14724:14724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14745:14751 Coq.micromega.EnvRing <> PNSubst def
+R14762:14762 Coq.micromega.EnvRing <> n:179 var
+R14753:14754 Coq.micromega.EnvRing <> P1:177 var
+R14777:14780 Coq.Init.Datatypes <> Some constr
+R14788:14791 Coq.Init.Datatypes <> Some constr
+R14794:14801 Coq.micromega.EnvRing <> PSubstL1 def
+R14810:14810 Coq.micromega.EnvRing <> n:179 var
+R14821:14824 Coq.Init.Datatypes <> None constr
+R14829:14835 Coq.micromega.EnvRing <> PSubstL:180 def
+R14844:14844 Coq.micromega.EnvRing <> n:179 var
+R14837:14838 Coq.micromega.EnvRing <> P1:177 var
+R14866:14869 Coq.Init.Datatypes <> None constr
+def 14892:14899 <> PNSubstL
+R14906:14908 Coq.micromega.EnvRing <> Pol abbrev
+binder 14902:14903 <> P1:182
+R14917:14920 Coq.Init.Datatypes <> list ind
+R14926:14928 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14923:14925 Coq.micromega.EnvRing <> Mon ind
+R14929:14931 Coq.micromega.EnvRing <> Pol abbrev
+binder 14912:14914 <> LM1:183
+R14941:14943 Coq.Init.Datatypes <> nat ind
+binder 14936:14936 <> m:184
+binder 14938:14938 <> n:185
+R14948:14950 Coq.micromega.EnvRing <> Pol abbrev
+R14965:14971 Coq.micromega.EnvRing <> PSubstL def
+R14980:14980 Coq.micromega.EnvRing <> n:185 var
+R14976:14978 Coq.micromega.EnvRing <> LM1:183 var
+R14973:14974 Coq.micromega.EnvRing <> P1:182 var
+R14992:14995 Coq.Init.Datatypes <> Some constr
+R15009:15009 Coq.micromega.EnvRing <> m:184 var
+R15016:15016 Coq.Init.Datatypes <> S constr
+R15024:15031 Coq.micromega.EnvRing <> PNSubstL:186 def
+R15043:15043 Coq.micromega.EnvRing <> n:185 var
+R15036:15038 Coq.micromega.EnvRing <> LM1:183 var
+R15070:15071 Coq.micromega.EnvRing <> P1:182 var
+def 15139:15142 <> Pphi
+R15146:15148 Coq.micromega.Env <> Env def
+R15150:15150 Coq.micromega.EnvRing <> MakeRingPol.R var
+binder 15144:15144 <> l:188
+R15156:15158 Coq.micromega.EnvRing <> Pol abbrev
+binder 15154:15154 <> P:189
+R15163:15163 Coq.micromega.EnvRing <> MakeRingPol.R var
+R15176:15176 Coq.micromega.EnvRing <> P:189 var
+R15187:15188 Coq.micromega.EnvRing <> Pc constr
+R15195:15195 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R15197:15197 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R15203:15206 Coq.micromega.EnvRing <> Pinj constr
+R15215:15218 Coq.micromega.EnvRing <> Pphi:190 def
+R15221:15224 Coq.micromega.Env <> jump def
+R15228:15228 Coq.micromega.EnvRing <> l:188 var
+R15237:15238 Coq.micromega.EnvRing <> PX constr
+R15270:15272 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R15257:15259 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R15249:15252 Coq.micromega.EnvRing <> Pphi:190 def
+R15256:15256 Coq.micromega.EnvRing <> P:189 var
+R15254:15254 Coq.micromega.EnvRing <> l:188 var
+R15260:15260 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R15265:15268 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R15261:15262 Coq.micromega.Env <> hd def
+R15264:15264 Coq.micromega.EnvRing <> l:188 var
+R15273:15276 Coq.micromega.EnvRing <> Pphi:190 def
+R15279:15282 Coq.micromega.Env <> tail def
+R15284:15284 Coq.micromega.EnvRing <> l:188 var
+R15381:15384 Coq.micromega.EnvRing <> Pphi def
+not 15368:15368 MakeRingPol :::x_'@'_x
+def 15447:15450 <> Mphi
+R15454:15456 Coq.micromega.Env <> Env def
+R15458:15458 Coq.micromega.EnvRing <> MakeRingPol.R var
+binder 15452:15452 <> l:192
+R15465:15467 Coq.micromega.EnvRing <> Mon ind
+binder 15462:15462 <> M:193
+R15472:15472 Coq.micromega.EnvRing <> MakeRingPol.R var
+R15485:15485 Coq.micromega.EnvRing <> M:193 var
+R15496:15499 Coq.micromega.EnvRing <> mon0 constr
+R15504:15505 Coq.micromega.EnvRing <> MakeRingPol.rI var
+R15511:15514 Coq.micromega.EnvRing <> zmon constr
+R15524:15527 Coq.micromega.EnvRing <> Mphi:194 def
+R15530:15533 Coq.micromega.Env <> jump def
+R15537:15537 Coq.micromega.EnvRing <> l:192 var
+R15547:15550 Coq.micromega.EnvRing <> vmon constr
+R15576:15578 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R15560:15563 Coq.micromega.EnvRing <> Mphi:194 def
+R15566:15569 Coq.micromega.Env <> tail def
+R15571:15571 Coq.micromega.EnvRing <> l:192 var
+R15579:15579 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R15584:15587 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R15580:15581 Coq.micromega.Env <> hd def
+R15583:15583 Coq.micromega.EnvRing <> l:192 var
+R15621:15624 Coq.micromega.EnvRing <> Mphi def
+not 15608:15608 MakeRingPol :::x_'@@'_x
+R15734:15742 Coq.ZArith.BinInt Z pos_sub def
+R15734:15742 Coq.ZArith.BinInt Z pos_sub def
+R15769:15783 Coq.ZArith.BinInt Z pos_sub_discr thm
+R15801:15809 Coq.ZArith.BinInt Z pos_sub def
+prf 15831:15836 <> Peq_ok
+binder 15838:15838 <> P:196
+binder 15840:15841 <> P':197
+R15862:15865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15845:15845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15854:15857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15847:15851 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+R15846:15846 Coq.micromega.EnvRing <> P:196 var
+R15852:15853 Coq.micromega.EnvRing <> P':197 var
+R15858:15861 Coq.Init.Datatypes <> true constr
+binder 15873:15873 <> l:198
+R15879:15882 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R15877:15877 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R15878:15878 Coq.micromega.EnvRing <> l:198 var
+R15876:15876 Coq.micromega.EnvRing <> P:196 var
+R15885:15886 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R15887:15887 Coq.micromega.EnvRing <> l:198 var
+R15883:15884 Coq.micromega.EnvRing <> P':197 var
+R16046:16053 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R16055:16061 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R16046:16053 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R16055:16061 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R16079:16094 Coq.PArith.BinPos Pos compare_spec thm
+R16079:16094 Coq.PArith.BinPos Pos compare_spec thm
+R16213:16228 Coq.PArith.BinPos Pos compare_spec thm
+R16213:16228 Coq.PArith.BinPos Pos compare_spec thm
+R16278:16282 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+R16278:16282 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+prf 16360:16367 <> Peq_spec
+binder 16369:16369 <> P:199
+binder 16371:16372 <> P':200
+R16379:16386 Coq.Init.Datatypes <> BoolSpec ind
+R16419:16423 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+R16418:16418 Coq.micromega.EnvRing <> P:199 var
+R16424:16425 Coq.micromega.EnvRing <> P':200 var
+R16412:16415 Coq.Init.Logic <> True ind
+binder 16396:16396 <> l:201
+R16402:16405 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R16400:16400 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16401:16401 Coq.micromega.EnvRing <> l:201 var
+R16399:16399 Coq.micromega.EnvRing <> P:199 var
+R16408:16408 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16409:16409 Coq.micromega.EnvRing <> l:201 var
+R16406:16407 Coq.micromega.EnvRing <> P':200 var
+R16451:16456 Coq.micromega.EnvRing <> Peq_ok thm
+R16451:16456 Coq.micromega.EnvRing <> Peq_ok thm
+R16476:16480 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+R16476:16480 Coq.micromega.EnvRing MakeRingPol :::x_'?=='_x not
+prf 16506:16510 <> Pphi0
+binder 16512:16512 <> l:202
+R16520:16523 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R16518:16518 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16519:16519 Coq.micromega.EnvRing <> l:202 var
+R16516:16517 Coq.micromega.EnvRing <> P0 def
+R16550:16555 Coq.setoid_ring.Ring_theory <> morph0 proj
+R16557:16563 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R16550:16555 Coq.setoid_ring.Ring_theory <> morph0 proj
+R16557:16563 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+prf 16581:16585 <> Pphi1
+binder 16587:16587 <> l:203
+R16595:16598 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R16593:16593 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16594:16594 Coq.micromega.EnvRing <> l:203 var
+R16591:16592 Coq.micromega.EnvRing <> P1 def
+R16625:16630 Coq.setoid_ring.Ring_theory <> morph1 proj
+R16632:16638 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R16625:16630 Coq.setoid_ring.Ring_theory <> morph1 proj
+R16632:16638 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+prf 16655:16663 <> env_morph
+binder 16665:16665 <> p:204
+binder 16667:16668 <> e1:205
+binder 16670:16671 <> e2:206
+R16677:16677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16699:16703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 16685:16685 <> x:207
+R16692:16694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16688:16689 Coq.micromega.EnvRing <> e1:205 var
+R16691:16691 Coq.micromega.EnvRing <> x:207 var
+R16695:16696 Coq.micromega.EnvRing <> e2:206 var
+R16698:16698 Coq.micromega.EnvRing <> x:207 var
+R16710:16712 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16705:16707 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16708:16709 Coq.micromega.EnvRing <> e1:205 var
+R16704:16704 Coq.micromega.EnvRing <> p:204 var
+R16714:16716 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R16717:16718 Coq.micromega.EnvRing <> e2:206 var
+R16713:16713 Coq.micromega.EnvRing <> p:204 var
+prf 16998:17006 <> Pjump_add
+binder 17008:17008 <> P:208
+binder 17010:17010 <> i:209
+binder 17012:17012 <> j:210
+binder 17014:17014 <> l:211
+R17040:17042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17021:17024 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17039:17039 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17025:17028 Coq.micromega.Env <> jump def
+R17038:17038 Coq.micromega.EnvRing <> l:211 var
+R17032:17034 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R17031:17031 Coq.micromega.EnvRing <> i:209 var
+R17035:17035 Coq.micromega.EnvRing <> j:210 var
+R17020:17020 Coq.micromega.EnvRing <> P:208 var
+R17044:17047 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17065:17065 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17048:17051 Coq.micromega.Env <> jump def
+R17056:17059 Coq.micromega.Env <> jump def
+R17063:17063 Coq.micromega.EnvRing <> l:211 var
+R17061:17061 Coq.micromega.EnvRing <> i:209 var
+R17053:17053 Coq.micromega.EnvRing <> j:210 var
+R17043:17043 Coq.micromega.EnvRing <> P:208 var
+R17083:17091 Coq.micromega.EnvRing <> env_morph thm
+R17083:17091 Coq.micromega.EnvRing <> env_morph thm
+R17113:17120 Coq.micromega.Env <> jump_add thm
+R17113:17120 Coq.micromega.Env <> jump_add thm
+R17113:17120 Coq.micromega.Env <> jump_add thm
+R17140:17151 Coq.PArith.BinPos Pos add_comm thm
+R17140:17151 Coq.PArith.BinPos Pos add_comm thm
+prf 17166:17178 <> Pjump_xO_tail
+binder 17180:17180 <> P:212
+binder 17182:17182 <> p:213
+binder 17184:17184 <> l:214
+R17216:17218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17191:17194 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17215:17215 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17195:17198 Coq.micromega.Env <> jump def
+R17208:17211 Coq.micromega.Env <> tail def
+R17213:17213 Coq.micromega.EnvRing <> l:214 var
+R17201:17202 Coq.Numbers.BinNums <> xO constr
+R17204:17204 Coq.micromega.EnvRing <> p:213 var
+R17190:17190 Coq.micromega.EnvRing <> P:212 var
+R17220:17223 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17237:17237 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17224:17227 Coq.micromega.Env <> jump def
+R17236:17236 Coq.micromega.EnvRing <> l:214 var
+R17230:17231 Coq.Numbers.BinNums <> xI constr
+R17233:17233 Coq.micromega.EnvRing <> p:213 var
+R17219:17219 Coq.micromega.EnvRing <> P:212 var
+R17255:17263 Coq.micromega.EnvRing <> env_morph thm
+R17255:17263 Coq.micromega.EnvRing <> env_morph thm
+prf 17302:17318 <> Pjump_pred_double
+binder 17320:17320 <> P:215
+binder 17322:17322 <> p:216
+binder 17324:17324 <> l:217
+R17369:17371 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17331:17334 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17368:17368 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17335:17338 Coq.micromega.Env <> jump def
+R17361:17364 Coq.micromega.Env <> tail def
+R17366:17366 Coq.micromega.EnvRing <> l:217 var
+R17341:17355 Coq.PArith.BinPos Pos pred_double def
+R17357:17357 Coq.micromega.EnvRing <> p:216 var
+R17330:17330 Coq.micromega.EnvRing <> P:215 var
+R17373:17376 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17390:17390 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17377:17380 Coq.micromega.Env <> jump def
+R17389:17389 Coq.micromega.EnvRing <> l:217 var
+R17383:17384 Coq.Numbers.BinNums <> xO constr
+R17386:17386 Coq.micromega.EnvRing <> p:216 var
+R17372:17372 Coq.micromega.EnvRing <> P:215 var
+R17408:17416 Coq.micromega.EnvRing <> env_morph thm
+R17408:17416 Coq.micromega.EnvRing <> env_morph thm
+R17437:17452 Coq.micromega.Env <> jump_pred_double thm
+R17437:17452 Coq.micromega.Env <> jump_pred_double thm
+R17437:17452 Coq.micromega.Env <> jump_pred_double thm
+prf 17484:17492 <> mkPinj_ok
+binder 17494:17494 <> j:218
+binder 17496:17496 <> l:219
+binder 17498:17498 <> P:220
+R17516:17519 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R17502:17502 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17513:17514 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17515:17515 Coq.micromega.EnvRing <> l:219 var
+R17503:17508 Coq.micromega.EnvRing <> mkPinj def
+R17512:17512 Coq.micromega.EnvRing <> P:220 var
+R17510:17510 Coq.micromega.EnvRing <> j:218 var
+R17521:17522 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17531:17531 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17523:17526 Coq.micromega.Env <> jump def
+R17530:17530 Coq.micromega.EnvRing <> l:219 var
+R17528:17528 Coq.micromega.EnvRing <> j:218 var
+R17520:17520 Coq.micromega.EnvRing <> P:220 var
+R17583:17591 Coq.micromega.EnvRing <> Pjump_add thm
+R17583:17591 Coq.micromega.EnvRing <> Pjump_add thm
+R17583:17591 Coq.micromega.EnvRing <> Pjump_add thm
+prf 17608:17618 <> pow_pos_add
+binder 17620:17620 <> x:221
+binder 17622:17622 <> i:222
+binder 17624:17624 <> j:223
+R17637:17640 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R17629:17630 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17636:17636 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17628:17628 Coq.micromega.EnvRing <> x:221 var
+R17632:17634 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R17631:17631 Coq.micromega.EnvRing <> j:223 var
+R17635:17635 Coq.micromega.EnvRing <> i:222 var
+R17644:17646 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R17642:17642 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17641:17641 Coq.micromega.EnvRing <> x:221 var
+R17643:17643 Coq.micromega.EnvRing <> i:222 var
+R17648:17648 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17647:17647 Coq.micromega.EnvRing <> x:221 var
+R17649:17649 Coq.micromega.EnvRing <> j:223 var
+R17670:17681 Coq.PArith.BinPos Pos add_comm thm
+R17670:17681 Coq.PArith.BinPos Pos add_comm thm
+R17670:17681 Coq.PArith.BinPos Pos add_comm thm
+R17693:17703 Coq.setoid_ring.Ring_theory <> pow_pos_add thm
+R17727:17737 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R17739:17742 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R17711:17718 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R17720:17723 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R17705:17708 Coq.micromega.EnvRing <> MakeRingPol.Rsth var
+R17693:17703 Coq.setoid_ring.Ring_theory <> pow_pos_add thm
+R17727:17737 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R17739:17742 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R17711:17718 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R17720:17723 Coq.micromega.EnvRing <> MakeRingPol.Reqe var
+R17705:17708 Coq.micromega.EnvRing <> MakeRingPol.Rsth var
+prf 17761:17769 <> ceqb_spec
+binder 17771:17771 <> c:224
+binder 17773:17774 <> c':225
+R17778:17785 Coq.Init.Datatypes <> BoolSpec ind
+R17808:17812 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R17807:17807 Coq.micromega.EnvRing <> c:224 var
+R17813:17814 Coq.micromega.EnvRing <> c':225 var
+R17801:17804 Coq.Init.Logic <> True ind
+R17791:17794 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R17788:17788 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R17790:17790 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R17789:17789 Coq.micromega.EnvRing <> c:224 var
+R17795:17795 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R17798:17798 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R17796:17797 Coq.micromega.EnvRing <> c':225 var
+R17840:17847 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R17849:17855 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R17840:17847 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R17849:17855 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R17877:17881 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+R17877:17881 Coq.micromega.EnvRing MakeRingPol :::x_'?=!'_x not
+prf 17907:17913 <> mkPX_ok
+binder 17915:17915 <> l:226
+binder 17917:17917 <> P:227
+binder 17919:17919 <> i:228
+binder 17921:17921 <> Q:229
+R17941:17944 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R17927:17927 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17938:17939 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17940:17940 Coq.micromega.EnvRing <> l:226 var
+R17928:17931 Coq.micromega.EnvRing <> mkPX def
+R17937:17937 Coq.micromega.EnvRing <> Q:229 var
+R17935:17935 Coq.micromega.EnvRing <> i:228 var
+R17933:17933 Coq.micromega.EnvRing <> P:227 var
+R17959:17961 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R17948:17950 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R17946:17946 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17947:17947 Coq.micromega.EnvRing <> l:226 var
+R17945:17945 Coq.micromega.EnvRing <> P:227 var
+R17951:17951 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17956:17957 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R17952:17953 Coq.micromega.Env <> hd def
+R17955:17955 Coq.micromega.EnvRing <> l:226 var
+R17958:17958 Coq.micromega.EnvRing <> i:228 var
+R17963:17964 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17971:17971 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R17965:17968 Coq.micromega.Env <> tail def
+R17970:17970 Coq.micromega.EnvRing <> l:226 var
+R17962:17962 Coq.micromega.EnvRing <> Q:229 var
+R17991:17994 Coq.micromega.EnvRing <> mkPX def
+R18018:18026 Coq.micromega.EnvRing <> ceqb_spec thm
+R18018:18026 Coq.micromega.EnvRing <> ceqb_spec thm
+R18079:18084 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18086:18092 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18096:18104 Coq.micromega.EnvRing <> mkPinj_ok thm
+R18079:18084 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18086:18092 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18079:18084 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18086:18092 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18096:18104 Coq.micromega.EnvRing <> mkPinj_ok thm
+R18096:18104 Coq.micromega.EnvRing <> mkPinj_ok thm
+R18141:18148 Coq.micromega.EnvRing <> Peq_spec thm
+R18141:18148 Coq.micromega.EnvRing <> Peq_spec thm
+R18200:18204 Coq.micromega.EnvRing <> Pphi0 thm
+R18207:18218 Coq.PArith.BinPos Pos add_comm thm
+R18221:18231 Coq.micromega.EnvRing <> pow_pos_add thm
+R18200:18204 Coq.micromega.EnvRing <> Pphi0 thm
+R18200:18204 Coq.micromega.EnvRing <> Pphi0 thm
+R18207:18218 Coq.PArith.BinPos Pos add_comm thm
+R18207:18218 Coq.PArith.BinPos Pos add_comm thm
+R18221:18231 Coq.micromega.EnvRing <> pow_pos_add thm
+R18221:18231 Coq.micromega.EnvRing <> pow_pos_add thm
+R18265:18269 Coq.micromega.EnvRing <> Pphi0 thm
+R18273:18277 Coq.micromega.EnvRing <> Pphi1 thm
+R18281:18289 Coq.micromega.EnvRing <> mkPinj_ok thm
+R18293:18299 Coq.micromega.EnvRing <> mkPX_ok thm
+R18304:18309 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18311:18317 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18323:18328 Coq.setoid_ring.Ring_theory <> morph1 proj
+R18330:18336 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18342:18347 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18349:18355 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18361:18369 Coq.setoid_ring.Ring_theory <> morph_add proj
+R18371:18377 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18383:18391 Coq.setoid_ring.Ring_theory <> morph_mul proj
+R18393:18399 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18405:18413 Coq.setoid_ring.Ring_theory <> morph_sub proj
+R18415:18421 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+R18427:18435 Coq.setoid_ring.Ring_theory <> morph_opp proj
+R18437:18443 Coq.micromega.EnvRing <> MakeRingPol.CRmorph var
+prf 18569:18576 <> PaddC_ok
+binder 18578:18578 <> c:230
+binder 18580:18580 <> P:231
+binder 18582:18582 <> l:232
+R18599:18602 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R18586:18586 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18596:18597 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18598:18598 Coq.micromega.EnvRing <> l:232 var
+R18587:18591 Coq.micromega.EnvRing <> PaddC def
+R18595:18595 Coq.micromega.EnvRing <> c:230 var
+R18593:18593 Coq.micromega.EnvRing <> P:231 var
+R18606:18608 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R18604:18604 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18605:18605 Coq.micromega.EnvRing <> l:232 var
+R18603:18603 Coq.micromega.EnvRing <> P:231 var
+R18609:18609 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18611:18611 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18610:18610 Coq.micromega.EnvRing <> c:230 var
+prf 18732:18739 <> PsubC_ok
+binder 18741:18741 <> c:233
+binder 18743:18743 <> P:234
+binder 18745:18745 <> l:235
+R18762:18765 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R18749:18749 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18759:18760 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18761:18761 Coq.micromega.EnvRing <> l:235 var
+R18750:18754 Coq.micromega.EnvRing <> PsubC def
+R18758:18758 Coq.micromega.EnvRing <> c:233 var
+R18756:18756 Coq.micromega.EnvRing <> P:234 var
+R18769:18771 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R18767:18767 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18768:18768 Coq.micromega.EnvRing <> l:235 var
+R18766:18766 Coq.micromega.EnvRing <> P:234 var
+R18772:18772 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18774:18774 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18773:18773 Coq.micromega.EnvRing <> c:233 var
+prf 18924:18935 <> PmulC_aux_ok
+binder 18937:18937 <> c:236
+binder 18939:18939 <> P:237
+binder 18941:18941 <> l:238
+R18962:18965 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R18945:18945 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18959:18960 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18961:18961 Coq.micromega.EnvRing <> l:238 var
+R18946:18954 Coq.micromega.EnvRing <> PmulC_aux def
+R18958:18958 Coq.micromega.EnvRing <> c:236 var
+R18956:18956 Coq.micromega.EnvRing <> P:237 var
+R18969:18971 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R18967:18967 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R18968:18968 Coq.micromega.EnvRing <> l:238 var
+R18966:18966 Coq.micromega.EnvRing <> P:237 var
+R18972:18972 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18974:18974 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R18973:18973 Coq.micromega.EnvRing <> c:236 var
+prf 19128:19135 <> PmulC_ok
+binder 19137:19137 <> c:239
+binder 19139:19139 <> P:240
+binder 19141:19141 <> l:241
+R19158:19161 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R19145:19145 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19155:19156 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19157:19157 Coq.micromega.EnvRing <> l:241 var
+R19146:19150 Coq.micromega.EnvRing <> PmulC def
+R19154:19154 Coq.micromega.EnvRing <> c:239 var
+R19152:19152 Coq.micromega.EnvRing <> P:240 var
+R19165:19167 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R19163:19163 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19164:19164 Coq.micromega.EnvRing <> l:241 var
+R19162:19162 Coq.micromega.EnvRing <> P:240 var
+R19168:19168 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R19170:19170 Coq.micromega.EnvRing MakeRingPol :::'['_x_']' not
+R19169:19169 Coq.micromega.EnvRing <> c:239 var
+R19190:19194 Coq.micromega.EnvRing <> PmulC def
+R19204:19212 Coq.micromega.EnvRing <> ceqb_spec thm
+R19204:19212 Coq.micromega.EnvRing <> ceqb_spec thm
+R19257:19265 Coq.micromega.EnvRing <> ceqb_spec thm
+R19257:19265 Coq.micromega.EnvRing <> ceqb_spec thm
+R19317:19328 Coq.micromega.EnvRing <> PmulC_aux_ok thm
+R19317:19328 Coq.micromega.EnvRing <> PmulC_aux_ok thm
+prf 19345:19351 <> Popp_ok
+binder 19353:19353 <> P:242
+binder 19355:19355 <> l:243
+R19366:19369 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R19359:19359 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19363:19364 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19365:19365 Coq.micromega.EnvRing <> l:243 var
+R19360:19361 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R19362:19362 Coq.micromega.EnvRing <> P:242 var
+R19370:19371 Coq.micromega.EnvRing MakeRingPol :::'-'_x not
+R19373:19373 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19374:19374 Coq.micromega.EnvRing <> l:243 var
+R19372:19372 Coq.micromega.EnvRing <> P:242 var
+R19531:19538 Coq.micromega.EnvRing <> PaddC_ok thm
+R19540:19547 Coq.micromega.EnvRing <> PsubC_ok thm
+R19549:19556 Coq.micromega.EnvRing <> PmulC_ok thm
+R19558:19564 Coq.micromega.EnvRing <> Popp_ok thm
+prf 19584:19591 <> PaddX_ok
+binder 19593:19594 <> P':244
+binder 19596:19596 <> P:245
+binder 19598:19598 <> k:246
+binder 19600:19600 <> l:247
+R19606:19606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19642:19648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 19614:19614 <> P:248
+binder 19616:19616 <> l:249
+R19628:19631 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R19619:19619 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19625:19626 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19627:19627 Coq.micromega.EnvRing <> l:249 var
+R19621:19622 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R19620:19620 Coq.micromega.EnvRing <> P:248 var
+R19623:19624 Coq.micromega.EnvRing <> P':244 var
+R19635:19637 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R19633:19633 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19634:19634 Coq.micromega.EnvRing <> l:249 var
+R19632:19632 Coq.micromega.EnvRing <> P:248 var
+R19640:19640 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19641:19641 Coq.micromega.EnvRing <> l:249 var
+R19638:19639 Coq.micromega.EnvRing <> P':244 var
+R19672:19675 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R19649:19649 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19667:19670 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19671:19671 Coq.micromega.EnvRing <> l:247 var
+R19650:19654 Coq.micromega.EnvRing <> PaddX def
+R19666:19666 Coq.micromega.EnvRing <> P:245 var
+R19664:19664 Coq.micromega.EnvRing <> k:246 var
+R19661:19662 Coq.micromega.EnvRing <> P':244 var
+R19656:19659 Coq.micromega.EnvRing <> Padd def
+R19679:19681 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R19677:19677 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19678:19678 Coq.micromega.EnvRing <> l:247 var
+R19676:19676 Coq.micromega.EnvRing <> P:245 var
+R19686:19688 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R19684:19684 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R19685:19685 Coq.micromega.EnvRing <> l:247 var
+R19682:19683 Coq.micromega.EnvRing <> P':244 var
+R19689:19689 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R19694:19695 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R19690:19691 Coq.micromega.Env <> hd def
+R19693:19693 Coq.micromega.EnvRing <> l:247 var
+R19696:19696 Coq.micromega.EnvRing <> k:246 var
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19829:19841 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19845:19861 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R19972:19982 Coq.micromega.EnvRing <> pow_pos_add thm
+R19972:19982 Coq.micromega.EnvRing <> pow_pos_add thm
+R19972:19982 Coq.micromega.EnvRing <> pow_pos_add thm
+R20030:20040 Coq.micromega.EnvRing <> pow_pos_add thm
+R20030:20040 Coq.micromega.EnvRing <> pow_pos_add thm
+R20030:20040 Coq.micromega.EnvRing <> pow_pos_add thm
+prf 20076:20082 <> Padd_ok
+binder 20084:20085 <> P':250
+binder 20087:20087 <> P:251
+binder 20089:20089 <> l:252
+R20104:20107 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R20093:20093 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R20101:20102 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R20103:20103 Coq.micromega.EnvRing <> l:252 var
+R20095:20098 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R20094:20094 Coq.micromega.EnvRing <> P:251 var
+R20099:20100 Coq.micromega.EnvRing <> P':250 var
+R20111:20113 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R20109:20109 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R20110:20110 Coq.micromega.EnvRing <> l:252 var
+R20108:20108 Coq.micromega.EnvRing <> P:251 var
+R20116:20116 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R20117:20117 Coq.micromega.EnvRing <> l:252 var
+R20114:20115 Coq.micromega.EnvRing <> P':250 var
+R20423:20431 Coq.micromega.EnvRing <> Pjump_add thm
+R20423:20431 Coq.micromega.EnvRing <> Pjump_add thm
+R20423:20431 Coq.micromega.EnvRing <> Pjump_add thm
+R20467:20475 Coq.micromega.EnvRing <> Pjump_add thm
+R20467:20475 Coq.micromega.EnvRing <> Pjump_add thm
+R20467:20475 Coq.micromega.EnvRing <> Pjump_add thm
+R20547:20559 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20547:20559 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20547:20559 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20606:20622 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20606:20622 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20606:20622 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20791:20803 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20791:20803 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20791:20803 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R20842:20858 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20842:20858 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20842:20858 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R20904:20907 Coq.micromega.Env <> tail def
+R21070:21080 Coq.micromega.EnvRing <> pow_pos_add thm
+R21070:21080 Coq.micromega.EnvRing <> pow_pos_add thm
+R21070:21080 Coq.micromega.EnvRing <> pow_pos_add thm
+R21118:21125 Coq.micromega.EnvRing <> PaddX_ok thm
+R21118:21125 Coq.micromega.EnvRing <> PaddX_ok thm
+R21118:21125 Coq.micromega.EnvRing <> PaddX_ok thm
+R21170:21180 Coq.micromega.EnvRing <> pow_pos_add thm
+R21170:21180 Coq.micromega.EnvRing <> pow_pos_add thm
+R21170:21180 Coq.micromega.EnvRing <> pow_pos_add thm
+prf 21217:21224 <> PsubX_ok
+binder 21226:21227 <> P':253
+binder 21229:21229 <> P:254
+binder 21231:21231 <> k:255
+binder 21233:21233 <> l:256
+R21239:21239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21275:21281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 21247:21247 <> P:257
+binder 21249:21249 <> l:258
+R21261:21264 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R21252:21252 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21258:21259 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21260:21260 Coq.micromega.EnvRing <> l:258 var
+R21254:21255 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R21253:21253 Coq.micromega.EnvRing <> P:257 var
+R21256:21257 Coq.micromega.EnvRing <> P':253 var
+R21268:21270 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R21266:21266 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21267:21267 Coq.micromega.EnvRing <> l:258 var
+R21265:21265 Coq.micromega.EnvRing <> P:257 var
+R21273:21273 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21274:21274 Coq.micromega.EnvRing <> l:258 var
+R21271:21272 Coq.micromega.EnvRing <> P':253 var
+R21305:21308 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R21282:21282 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21300:21303 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21304:21304 Coq.micromega.EnvRing <> l:256 var
+R21283:21287 Coq.micromega.EnvRing <> PsubX def
+R21299:21299 Coq.micromega.EnvRing <> P:254 var
+R21297:21297 Coq.micromega.EnvRing <> k:255 var
+R21294:21295 Coq.micromega.EnvRing <> P':253 var
+R21289:21292 Coq.micromega.EnvRing <> Psub def
+R21312:21314 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R21310:21310 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21311:21311 Coq.micromega.EnvRing <> l:256 var
+R21309:21309 Coq.micromega.EnvRing <> P:254 var
+R21319:21321 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R21317:21317 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21318:21318 Coq.micromega.EnvRing <> l:256 var
+R21315:21316 Coq.micromega.EnvRing <> P':253 var
+R21322:21322 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R21327:21328 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R21323:21324 Coq.micromega.Env <> hd def
+R21326:21326 Coq.micromega.EnvRing <> l:256 var
+R21329:21329 Coq.micromega.EnvRing <> k:255 var
+R21422:21428 Coq.micromega.EnvRing <> Popp_ok thm
+R21422:21428 Coq.micromega.EnvRing <> Popp_ok thm
+R21422:21428 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21485:21491 Coq.micromega.EnvRing <> Popp_ok thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21514:21526 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21530:21546 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R21658:21668 Coq.micromega.EnvRing <> pow_pos_add thm
+R21658:21668 Coq.micromega.EnvRing <> pow_pos_add thm
+R21658:21668 Coq.micromega.EnvRing <> pow_pos_add thm
+R21716:21726 Coq.micromega.EnvRing <> pow_pos_add thm
+R21716:21726 Coq.micromega.EnvRing <> pow_pos_add thm
+R21716:21726 Coq.micromega.EnvRing <> pow_pos_add thm
+prf 21762:21768 <> Psub_ok
+binder 21770:21771 <> P':259
+binder 21773:21773 <> P:260
+binder 21775:21775 <> l:261
+R21790:21793 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R21779:21779 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21787:21788 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21789:21789 Coq.micromega.EnvRing <> l:261 var
+R21781:21784 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R21780:21780 Coq.micromega.EnvRing <> P:260 var
+R21785:21786 Coq.micromega.EnvRing <> P':259 var
+R21797:21799 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R21795:21795 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21796:21796 Coq.micromega.EnvRing <> l:261 var
+R21794:21794 Coq.micromega.EnvRing <> P:260 var
+R21802:21802 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R21803:21803 Coq.micromega.EnvRing <> l:261 var
+R21800:21801 Coq.micromega.EnvRing <> P':259 var
+R22112:22120 Coq.micromega.EnvRing <> Pjump_add thm
+R22112:22120 Coq.micromega.EnvRing <> Pjump_add thm
+R22112:22120 Coq.micromega.EnvRing <> Pjump_add thm
+R22156:22164 Coq.micromega.EnvRing <> Pjump_add thm
+R22156:22164 Coq.micromega.EnvRing <> Pjump_add thm
+R22156:22164 Coq.micromega.EnvRing <> Pjump_add thm
+R22236:22248 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22236:22248 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22236:22248 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22295:22311 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22295:22311 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22295:22311 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22480:22492 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22480:22492 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22480:22492 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R22531:22547 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22531:22547 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22531:22547 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R22593:22596 Coq.micromega.Env <> tail def
+R22759:22769 Coq.micromega.EnvRing <> pow_pos_add thm
+R22759:22769 Coq.micromega.EnvRing <> pow_pos_add thm
+R22759:22769 Coq.micromega.EnvRing <> pow_pos_add thm
+R22807:22814 Coq.micromega.EnvRing <> PsubX_ok thm
+R22807:22814 Coq.micromega.EnvRing <> PsubX_ok thm
+R22807:22814 Coq.micromega.EnvRing <> PsubX_ok thm
+R22858:22868 Coq.micromega.EnvRing <> pow_pos_add thm
+R22858:22868 Coq.micromega.EnvRing <> pow_pos_add thm
+R22858:22868 Coq.micromega.EnvRing <> pow_pos_add thm
+prf 22904:22911 <> PmulI_ok
+binder 22913:22914 <> P':262
+R22921:22921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22967:22974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 22929:22929 <> P:263
+binder 22931:22931 <> l:264
+R22949:22952 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R22934:22934 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R22944:22947 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R22948:22948 Coq.micromega.EnvRing <> l:264 var
+R22935:22938 Coq.micromega.EnvRing <> Pmul def
+R22942:22943 Coq.micromega.EnvRing <> P':262 var
+R22940:22940 Coq.micromega.EnvRing <> P:263 var
+R22958:22960 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R22954:22956 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R22957:22957 Coq.micromega.EnvRing <> l:264 var
+R22953:22953 Coq.micromega.EnvRing <> P:263 var
+R22963:22965 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R22966:22966 Coq.micromega.EnvRing <> l:264 var
+R22961:22962 Coq.micromega.EnvRing <> P':262 var
+binder 22982:22982 <> P:265
+binder 22984:22984 <> p:266
+binder 22986:22986 <> l:267
+R23012:23015 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R22989:22989 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23007:23010 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23011:23011 Coq.micromega.EnvRing <> l:267 var
+R22990:22994 Coq.micromega.EnvRing <> PmulI def
+R23006:23006 Coq.micromega.EnvRing <> P:265 var
+R23004:23004 Coq.micromega.EnvRing <> p:266 var
+R23001:23002 Coq.micromega.EnvRing <> P':262 var
+R22996:22999 Coq.micromega.EnvRing <> Pmul def
+R23021:23023 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R23017:23019 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23020:23020 Coq.micromega.EnvRing <> l:267 var
+R23016:23016 Coq.micromega.EnvRing <> P:265 var
+R23026:23029 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23038:23038 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23030:23033 Coq.micromega.Env <> jump def
+R23037:23037 Coq.micromega.EnvRing <> l:267 var
+R23035:23035 Coq.micromega.EnvRing <> p:266 var
+R23024:23025 Coq.micromega.EnvRing <> P':262 var
+R23238:23246 Coq.micromega.EnvRing <> Pjump_add thm
+R23238:23246 Coq.micromega.EnvRing <> Pjump_add thm
+R23238:23246 Coq.micromega.EnvRing <> Pjump_add thm
+R23272:23280 Coq.micromega.EnvRing <> Pjump_add thm
+R23272:23280 Coq.micromega.EnvRing <> Pjump_add thm
+R23272:23280 Coq.micromega.EnvRing <> Pjump_add thm
+R23351:23363 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23351:23363 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23351:23363 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23401:23417 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R23401:23417 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R23401:23417 Coq.micromega.EnvRing <> Pjump_pred_double thm
+prf 23496:23502 <> Pmul_ok
+binder 23504:23504 <> P:268
+binder 23506:23507 <> P':269
+binder 23509:23509 <> l:270
+R23522:23525 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R23513:23513 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23519:23520 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23521:23521 Coq.micromega.EnvRing <> l:270 var
+R23515:23516 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R23514:23514 Coq.micromega.EnvRing <> P:268 var
+R23517:23518 Coq.micromega.EnvRing <> P':269 var
+R23529:23531 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R23527:23527 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23528:23528 Coq.micromega.EnvRing <> l:270 var
+R23526:23526 Coq.micromega.EnvRing <> P:268 var
+R23534:23534 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R23535:23535 Coq.micromega.EnvRing <> l:270 var
+R23532:23533 Coq.micromega.EnvRing <> P':269 var
+R23626:23633 Coq.micromega.EnvRing <> PmulC_ok thm
+R23626:23633 Coq.micromega.EnvRing <> PmulC_ok thm
+R23646:23653 Coq.micromega.EnvRing <> PmulI_ok thm
+R23646:23653 Coq.micromega.EnvRing <> PmulI_ok thm
+R23705:23714 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R23716:23719 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R23705:23714 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R23716:23719 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R23705:23714 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R23716:23719 Coq.micromega.EnvRing <> MakeRingPol.ARth var
+R23836:23848 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23836:23848 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23836:23848 Coq.micromega.EnvRing <> Pjump_xO_tail thm
+R23867:23883 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R23867:23883 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R23867:23883 Coq.micromega.EnvRing <> Pjump_pred_double thm
+R23908:23914 Coq.micromega.EnvRing <> Padd_ok thm
+R23918:23924 Coq.micromega.EnvRing <> mkPX_ok thm
+R23927:23933 Coq.micromega.EnvRing <> Padd_ok thm
+R23937:23943 Coq.micromega.EnvRing <> mkPX_ok thm
+R23969:23976 Coq.micromega.EnvRing <> PmulI_ok thm
+R23908:23914 Coq.micromega.EnvRing <> Padd_ok thm
+R23908:23914 Coq.micromega.EnvRing <> Padd_ok thm
+R23918:23924 Coq.micromega.EnvRing <> mkPX_ok thm
+R23918:23924 Coq.micromega.EnvRing <> mkPX_ok thm
+R23918:23924 Coq.micromega.EnvRing <> mkPX_ok thm
+R23918:23924 Coq.micromega.EnvRing <> mkPX_ok thm
+R23927:23933 Coq.micromega.EnvRing <> Padd_ok thm
+R23927:23933 Coq.micromega.EnvRing <> Padd_ok thm
+R23937:23943 Coq.micromega.EnvRing <> mkPX_ok thm
+R23937:23943 Coq.micromega.EnvRing <> mkPX_ok thm
+R23937:23943 Coq.micromega.EnvRing <> mkPX_ok thm
+R23969:23976 Coq.micromega.EnvRing <> PmulI_ok thm
+R23969:23976 Coq.micromega.EnvRing <> PmulI_ok thm
+R23969:23976 Coq.micromega.EnvRing <> PmulI_ok thm
+R24016:24019 Coq.micromega.Env <> tail def
+prf 24075:24084 <> Psquare_ok
+binder 24086:24086 <> P:271
+binder 24088:24088 <> l:272
+R24105:24108 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R24092:24092 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R24102:24103 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R24104:24104 Coq.micromega.EnvRing <> l:272 var
+R24093:24099 Coq.micromega.EnvRing <> Psquare def
+R24101:24101 Coq.micromega.EnvRing <> P:271 var
+R24112:24114 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R24110:24110 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R24111:24111 Coq.micromega.EnvRing <> l:272 var
+R24109:24109 Coq.micromega.EnvRing <> P:271 var
+R24116:24116 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R24117:24117 Coq.micromega.EnvRing <> l:272 var
+R24115:24115 Coq.micromega.EnvRing <> P:271 var
+R24232:24238 Coq.micromega.EnvRing <> Padd_ok thm
+R24241:24247 Coq.micromega.EnvRing <> Pmul_ok thm
+R24232:24238 Coq.micromega.EnvRing <> Padd_ok thm
+R24232:24238 Coq.micromega.EnvRing <> Padd_ok thm
+R24241:24247 Coq.micromega.EnvRing <> Pmul_ok thm
+R24241:24247 Coq.micromega.EnvRing <> Pmul_ok thm
+R24295:24295 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R24300:24301 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R24296:24297 Coq.micromega.Env <> hd def
+R24295:24295 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R24300:24301 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R24296:24297 Coq.micromega.Env <> hd def
+R24322:24322 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R24322:24322 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+prf 24341:24350 <> Mphi_morph
+binder 24352:24352 <> M:273
+binder 24354:24355 <> e1:274
+binder 24357:24358 <> e2:275
+R24364:24364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24386:24390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 24372:24372 <> x:276
+R24379:24381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24375:24376 Coq.micromega.EnvRing <> e1:274 var
+R24378:24378 Coq.micromega.EnvRing <> x:276 var
+R24382:24383 Coq.micromega.EnvRing <> e2:275 var
+R24385:24385 Coq.micromega.EnvRing <> x:276 var
+R24398:24400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24392:24395 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24396:24397 Coq.micromega.EnvRing <> e1:274 var
+R24391:24391 Coq.micromega.EnvRing <> M:273 var
+R24402:24405 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24406:24407 Coq.micromega.EnvRing <> e2:275 var
+R24401:24401 Coq.micromega.EnvRing <> M:273 var
+prf 24626:24638 <> Mjump_xO_tail
+binder 24640:24640 <> M:277
+binder 24642:24642 <> p:278
+binder 24644:24644 <> l:279
+R24677:24679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24651:24655 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24676:24676 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24656:24659 Coq.micromega.Env <> jump def
+R24669:24672 Coq.micromega.Env <> tail def
+R24674:24674 Coq.micromega.EnvRing <> l:279 var
+R24662:24663 Coq.Numbers.BinNums <> xO constr
+R24665:24665 Coq.micromega.EnvRing <> p:278 var
+R24650:24650 Coq.micromega.EnvRing <> M:277 var
+R24681:24685 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24699:24699 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24686:24689 Coq.micromega.Env <> jump def
+R24698:24698 Coq.micromega.EnvRing <> l:279 var
+R24692:24693 Coq.Numbers.BinNums <> xI constr
+R24695:24695 Coq.micromega.EnvRing <> p:278 var
+R24680:24680 Coq.micromega.EnvRing <> M:277 var
+R24717:24726 Coq.micromega.EnvRing <> Mphi_morph thm
+R24717:24726 Coq.micromega.EnvRing <> Mphi_morph thm
+prf 24765:24781 <> Mjump_pred_double
+binder 24783:24783 <> M:280
+binder 24785:24785 <> p:281
+binder 24787:24787 <> l:282
+R24833:24835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24794:24798 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24832:24832 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24799:24802 Coq.micromega.Env <> jump def
+R24825:24828 Coq.micromega.Env <> tail def
+R24830:24830 Coq.micromega.EnvRing <> l:282 var
+R24805:24819 Coq.PArith.BinPos Pos pred_double def
+R24821:24821 Coq.micromega.EnvRing <> p:281 var
+R24793:24793 Coq.micromega.EnvRing <> M:280 var
+R24837:24841 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24855:24855 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24842:24845 Coq.micromega.Env <> jump def
+R24854:24854 Coq.micromega.EnvRing <> l:282 var
+R24848:24849 Coq.Numbers.BinNums <> xO constr
+R24851:24851 Coq.micromega.EnvRing <> p:281 var
+R24836:24836 Coq.micromega.EnvRing <> M:280 var
+R24873:24882 Coq.micromega.EnvRing <> Mphi_morph thm
+R24873:24882 Coq.micromega.EnvRing <> Mphi_morph thm
+R24903:24918 Coq.micromega.Env <> jump_pred_double thm
+R24903:24918 Coq.micromega.Env <> jump_pred_double thm
+R24903:24918 Coq.micromega.Env <> jump_pred_double thm
+prf 24949:24957 <> Mjump_add
+binder 24959:24959 <> M:283
+binder 24961:24961 <> i:284
+binder 24963:24963 <> j:285
+binder 24965:24965 <> l:286
+R24992:24994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24972:24976 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24991:24991 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R24977:24980 Coq.micromega.Env <> jump def
+R24990:24990 Coq.micromega.EnvRing <> l:286 var
+R24984:24986 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R24983:24983 Coq.micromega.EnvRing <> i:284 var
+R24987:24987 Coq.micromega.EnvRing <> j:285 var
+R24971:24971 Coq.micromega.EnvRing <> M:283 var
+R24996:25000 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25018:25018 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25001:25004 Coq.micromega.Env <> jump def
+R25009:25012 Coq.micromega.Env <> jump def
+R25016:25016 Coq.micromega.EnvRing <> l:286 var
+R25014:25014 Coq.micromega.EnvRing <> i:284 var
+R25006:25006 Coq.micromega.EnvRing <> j:285 var
+R24995:24995 Coq.micromega.EnvRing <> M:283 var
+R25036:25045 Coq.micromega.EnvRing <> Mphi_morph thm
+R25036:25045 Coq.micromega.EnvRing <> Mphi_morph thm
+R25071:25078 Coq.micromega.Env <> jump_add thm
+R25081:25092 Coq.PArith.BinPos Pos add_comm thm
+R25071:25078 Coq.micromega.Env <> jump_add thm
+R25071:25078 Coq.micromega.Env <> jump_add thm
+R25081:25092 Coq.PArith.BinPos Pos add_comm thm
+R25081:25092 Coq.PArith.BinPos Pos add_comm thm
+prf 25108:25116 <> mkZmon_ok
+binder 25118:25118 <> M:287
+binder 25120:25120 <> j:288
+binder 25122:25122 <> l:289
+R25146:25149 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R25129:25129 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25140:25144 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25145:25145 Coq.micromega.EnvRing <> l:289 var
+R25130:25135 Coq.micromega.EnvRing <> mkZmon def
+R25139:25139 Coq.micromega.EnvRing <> M:287 var
+R25137:25137 Coq.micromega.EnvRing <> j:288 var
+R25150:25150 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25159:25163 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25164:25164 Coq.micromega.EnvRing <> l:289 var
+R25151:25154 Coq.micromega.EnvRing <> zmon constr
+R25158:25158 Coq.micromega.EnvRing <> M:287 var
+R25156:25156 Coq.micromega.EnvRing <> j:288 var
+prf 25217:25228 <> zmon_pred_ok
+binder 25230:25230 <> M:290
+binder 25232:25232 <> j:291
+binder 25234:25234 <> l:292
+R25268:25271 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R25241:25241 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25255:25260 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25267:25267 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25261:25264 Coq.micromega.Env <> tail def
+R25266:25266 Coq.micromega.EnvRing <> l:292 var
+R25242:25250 Coq.micromega.EnvRing <> zmon_pred def
+R25254:25254 Coq.micromega.EnvRing <> M:290 var
+R25252:25252 Coq.micromega.EnvRing <> j:291 var
+R25272:25272 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25281:25285 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25286:25286 Coq.micromega.EnvRing <> l:292 var
+R25273:25276 Coq.micromega.EnvRing <> zmon constr
+R25280:25280 Coq.micromega.EnvRing <> M:290 var
+R25278:25278 Coq.micromega.EnvRing <> j:291 var
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25328:25336 Coq.micromega.EnvRing <> mkZmon_ok thm
+R25371:25383 Coq.micromega.EnvRing <> Mjump_xO_tail thm
+R25371:25383 Coq.micromega.EnvRing <> Mjump_xO_tail thm
+R25371:25383 Coq.micromega.EnvRing <> Mjump_xO_tail thm
+R25399:25415 Coq.micromega.EnvRing <> Mjump_pred_double thm
+R25399:25415 Coq.micromega.EnvRing <> Mjump_pred_double thm
+R25399:25415 Coq.micromega.EnvRing <> Mjump_pred_double thm
+prf 25440:25448 <> mkVmon_ok
+binder 25450:25450 <> M:293
+binder 25452:25452 <> i:294
+binder 25454:25454 <> l:295
+R25476:25479 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R25461:25461 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25472:25474 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25475:25475 Coq.micromega.EnvRing <> l:295 var
+R25462:25467 Coq.micromega.EnvRing <> mkVmon def
+R25471:25471 Coq.micromega.EnvRing <> M:293 var
+R25469:25469 Coq.micromega.EnvRing <> i:294 var
+R25484:25486 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R25481:25482 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25483:25483 Coq.micromega.EnvRing <> l:295 var
+R25480:25480 Coq.micromega.EnvRing <> M:293 var
+R25487:25487 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R25492:25493 Coq.micromega.EnvRing MakeRingPol :::x_'^'_x not
+R25488:25489 Coq.micromega.Env <> hd def
+R25491:25491 Coq.micromega.EnvRing <> l:295 var
+R25494:25494 Coq.micromega.EnvRing <> i:294 var
+R25551:25562 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R25551:25562 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R25551:25562 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R25590:25600 Coq.micromega.EnvRing <> pow_pos_add thm
+R25590:25600 Coq.micromega.EnvRing <> pow_pos_add thm
+R25590:25600 Coq.micromega.EnvRing <> pow_pos_add thm
+R25677:25683 Coq.micromega.EnvRing <> MFactor def
+R25677:25683 Coq.micromega.EnvRing <> MFactor def
+R25703:25709 Coq.micromega.EnvRing <> MFactor def
+R25703:25709 Coq.micromega.EnvRing <> MFactor def
+prf 25783:25789 <> Mphi_ok
+binder 25791:25791 <> P:296
+binder 25793:25793 <> M:297
+binder 25795:25795 <> l:298
+R25815:25821 Coq.micromega.EnvRing <> MFactor def
+R25825:25825 Coq.micromega.EnvRing <> M:297 var
+R25823:25823 Coq.micromega.EnvRing <> P:296 var
+binder 25807:25807 <> Q:299
+binder 25809:25809 <> R:300
+R25838:25841 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R25836:25836 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R25837:25837 Coq.micromega.EnvRing <> l:298 var
+R25835:25835 Coq.micromega.EnvRing <> P:296 var
+R25845:25847 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R25843:25843 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R25844:25844 Coq.micromega.EnvRing <> l:298 var
+R25842:25842 Coq.micromega.EnvRing <> Q:299 var
+R25852:25854 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R25849:25850 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R25851:25851 Coq.micromega.EnvRing <> l:298 var
+R25848:25848 Coq.micromega.EnvRing <> M:297 var
+R25856:25856 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R25857:25857 Coq.micromega.EnvRing <> l:298 var
+R25855:25855 Coq.micromega.EnvRing <> R:300 var
+R25987:26002 Coq.PArith.BinPos Pos compare_spec thm
+R25987:26002 Coq.PArith.BinPos Pos compare_spec thm
+R26071:26079 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26071:26079 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26071:26079 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26071:26079 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26071:26079 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26146:26154 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26160:26168 Coq.micromega.EnvRing <> Mjump_add thm
+R26171:26182 Coq.PArith.BinPos Pos add_comm thm
+R26185:26195 Coq.PArith.BinPos Pos sub_add thm
+R26146:26154 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26146:26154 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26146:26154 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26146:26154 Coq.micromega.EnvRing <> mkPinj_ok thm
+R26160:26168 Coq.micromega.EnvRing <> Mjump_add thm
+R26160:26168 Coq.micromega.EnvRing <> Mjump_add thm
+R26171:26182 Coq.PArith.BinPos Pos add_comm thm
+R26171:26182 Coq.PArith.BinPos Pos add_comm thm
+R26185:26195 Coq.PArith.BinPos Pos sub_add thm
+R26185:26195 Coq.PArith.BinPos Pos sub_add thm
+R26185:26195 Coq.PArith.BinPos Pos sub_add thm
+R26280:26286 Coq.micromega.EnvRing <> mkPX_ok thm
+R26289:26300 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R26280:26286 Coq.micromega.EnvRing <> mkPX_ok thm
+R26280:26286 Coq.micromega.EnvRing <> mkPX_ok thm
+R26280:26286 Coq.micromega.EnvRing <> mkPX_ok thm
+R26280:26286 Coq.micromega.EnvRing <> mkPX_ok thm
+R26289:26300 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R26289:26300 Coq.micromega.EnvRing <> zmon_pred_ok thm
+R26341:26356 Coq.PArith.BinPos Pos compare_spec thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26466:26469 Coq.micromega.Env <> tail def
+R26341:26356 Coq.PArith.BinPos Pos compare_spec thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26420:26426 Coq.micromega.EnvRing <> mkPX_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26430:26438 Coq.micromega.EnvRing <> mkZmon_ok thm
+R26512:26522 Coq.micromega.EnvRing <> pow_pos_add thm
+R26525:26536 Coq.PArith.BinPos Pos add_comm thm
+R26539:26549 Coq.PArith.BinPos Pos sub_add thm
+R26512:26522 Coq.micromega.EnvRing <> pow_pos_add thm
+R26512:26522 Coq.micromega.EnvRing <> pow_pos_add thm
+R26525:26536 Coq.PArith.BinPos Pos add_comm thm
+R26525:26536 Coq.PArith.BinPos Pos add_comm thm
+R26539:26549 Coq.PArith.BinPos Pos sub_add thm
+R26539:26549 Coq.PArith.BinPos Pos sub_add thm
+R26584:26590 Coq.micromega.EnvRing <> mkPX_ok thm
+R26584:26590 Coq.micromega.EnvRing <> mkPX_ok thm
+R26584:26590 Coq.micromega.EnvRing <> mkPX_ok thm
+R26636:26646 Coq.micromega.EnvRing <> pow_pos_add thm
+R26649:26659 Coq.PArith.BinPos Pos sub_add thm
+R26636:26646 Coq.micromega.EnvRing <> pow_pos_add thm
+R26636:26646 Coq.micromega.EnvRing <> pow_pos_add thm
+R26649:26659 Coq.PArith.BinPos Pos sub_add thm
+R26649:26659 Coq.PArith.BinPos Pos sub_add thm
+prf 26695:26706 <> POneSubst_ok
+binder 26708:26709 <> P1:301
+binder 26711:26712 <> M1:302
+binder 26714:26715 <> P2:303
+binder 26717:26718 <> P3:304
+binder 26720:26720 <> l:305
+R26755:26758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26745:26747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26727:26735 Coq.micromega.EnvRing <> POneSubst def
+R26743:26744 Coq.micromega.EnvRing <> P2:303 var
+R26740:26741 Coq.micromega.EnvRing <> M1:302 var
+R26737:26738 Coq.micromega.EnvRing <> P1:301 var
+R26748:26751 Coq.Init.Datatypes <> Some constr
+R26753:26754 Coq.micromega.EnvRing <> P3:304 var
+R26772:26778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26764:26767 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R26761:26762 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R26763:26763 Coq.micromega.EnvRing <> l:305 var
+R26759:26760 Coq.micromega.EnvRing <> M1:302 var
+R26770:26770 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R26771:26771 Coq.micromega.EnvRing <> l:305 var
+R26768:26769 Coq.micromega.EnvRing <> P2:303 var
+R26783:26786 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R26781:26781 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R26782:26782 Coq.micromega.EnvRing <> l:305 var
+R26779:26780 Coq.micromega.EnvRing <> P1:301 var
+R26789:26789 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R26790:26790 Coq.micromega.EnvRing <> l:305 var
+R26787:26788 Coq.micromega.EnvRing <> P3:304 var
+R26809:26817 Coq.micromega.EnvRing <> POneSubst def
+R26834:26840 Coq.micromega.EnvRing <> Mphi_ok thm
+R26834:26840 Coq.micromega.EnvRing <> Mphi_ok thm
+R26923:26926 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R26929:26932 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R26923:26926 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R26929:26932 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R26954:26960 Coq.micromega.EnvRing <> Padd_ok thm
+R26963:26969 Coq.micromega.EnvRing <> Pmul_ok thm
+R26954:26960 Coq.micromega.EnvRing <> Padd_ok thm
+R26954:26960 Coq.micromega.EnvRing <> Padd_ok thm
+R26963:26969 Coq.micromega.EnvRing <> Pmul_ok thm
+R26963:26969 Coq.micromega.EnvRing <> Pmul_ok thm
+R27036:27044 Coq.micromega.EnvRing <> ceqb_spec thm
+R27036:27044 Coq.micromega.EnvRing <> ceqb_spec thm
+prf 27078:27088 <> PNSubst1_ok
+binder 27090:27090 <> n:306
+binder 27092:27093 <> P1:307
+binder 27095:27096 <> M1:308
+binder 27098:27099 <> P2:309
+binder 27101:27101 <> l:310
+R27122:27125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27114:27117 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27111:27112 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R27113:27113 Coq.micromega.EnvRing <> l:310 var
+R27109:27110 Coq.micromega.EnvRing <> M1:308 var
+R27120:27120 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27121:27121 Coq.micromega.EnvRing <> l:310 var
+R27118:27119 Coq.micromega.EnvRing <> P2:309 var
+R27130:27133 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27128:27128 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27129:27129 Coq.micromega.EnvRing <> l:310 var
+R27126:27127 Coq.micromega.EnvRing <> P1:307 var
+R27134:27134 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27154:27155 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27156:27156 Coq.micromega.EnvRing <> l:310 var
+R27135:27142 Coq.micromega.EnvRing <> PNSubst1 def
+R27153:27153 Coq.micromega.EnvRing <> n:306 var
+R27150:27151 Coq.micromega.EnvRing <> P2:309 var
+R27147:27148 Coq.micromega.EnvRing <> M1:308 var
+R27144:27145 Coq.micromega.EnvRing <> P1:307 var
+R27235:27246 Coq.micromega.EnvRing <> POneSubst_ok thm
+R27235:27246 Coq.micromega.EnvRing <> POneSubst_ok thm
+R27235:27246 Coq.micromega.EnvRing <> POneSubst_ok thm
+R27268:27276 Coq.micromega.EnvRing <> POneSubst def
+R27268:27276 Coq.micromega.EnvRing <> POneSubst def
+prf 27340:27349 <> PNSubst_ok
+binder 27351:27351 <> n:311
+binder 27353:27354 <> P1:312
+binder 27356:27357 <> M1:313
+binder 27359:27360 <> P2:314
+binder 27362:27362 <> l:315
+binder 27364:27365 <> P3:316
+R27401:27404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27391:27393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27373:27379 Coq.micromega.EnvRing <> PNSubst def
+R27390:27390 Coq.micromega.EnvRing <> n:311 var
+R27387:27388 Coq.micromega.EnvRing <> P2:314 var
+R27384:27385 Coq.micromega.EnvRing <> M1:313 var
+R27381:27382 Coq.micromega.EnvRing <> P1:312 var
+R27394:27397 Coq.Init.Datatypes <> Some constr
+R27399:27400 Coq.micromega.EnvRing <> P3:316 var
+R27418:27421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27410:27413 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27407:27408 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R27409:27409 Coq.micromega.EnvRing <> l:315 var
+R27405:27406 Coq.micromega.EnvRing <> M1:313 var
+R27416:27416 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27417:27417 Coq.micromega.EnvRing <> l:315 var
+R27414:27415 Coq.micromega.EnvRing <> P2:314 var
+R27426:27429 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27424:27424 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27425:27425 Coq.micromega.EnvRing <> l:315 var
+R27422:27423 Coq.micromega.EnvRing <> P1:312 var
+R27432:27432 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27433:27433 Coq.micromega.EnvRing <> l:315 var
+R27430:27431 Coq.micromega.EnvRing <> P3:316 var
+R27452:27458 Coq.micromega.EnvRing <> PNSubst def
+R27475:27486 Coq.micromega.EnvRing <> POneSubst_ok thm
+R27475:27486 Coq.micromega.EnvRing <> POneSubst_ok thm
+R27508:27516 Coq.micromega.EnvRing <> POneSubst def
+R27589:27599 Coq.micromega.EnvRing <> PNSubst1_ok thm
+R27589:27599 Coq.micromega.EnvRing <> PNSubst1_ok thm
+R27589:27599 Coq.micromega.EnvRing <> PNSubst1_ok thm
+R27589:27599 Coq.micromega.EnvRing <> PNSubst1_ok thm
+def 27625:27630 <> MPcond
+R27638:27641 Coq.Init.Datatypes <> list ind
+R27647:27649 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27644:27646 Coq.micromega.EnvRing <> Mon ind
+R27650:27652 Coq.micromega.EnvRing <> Pol abbrev
+binder 27633:27635 <> LM1:317
+R27660:27662 Coq.micromega.Env <> Env def
+R27664:27664 Coq.micromega.EnvRing <> MakeRingPol.R var
+binder 27657:27657 <> l:318
+R27686:27688 Coq.micromega.EnvRing <> LM1:317 var
+R27700:27703 Coq.Init.Datatypes <> cons constr
+R27705:27705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27708:27708 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27711:27711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27720:27720 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27734:27738 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27726:27729 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27723:27724 Coq.micromega.EnvRing MakeRingPol :::x_'@@'_x not
+R27725:27725 Coq.micromega.EnvRing <> l:318 var
+R27732:27732 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27733:27733 Coq.micromega.EnvRing <> l:318 var
+R27739:27744 Coq.micromega.EnvRing <> MPcond:319 def
+R27750:27750 Coq.micromega.EnvRing <> l:318 var
+R27762:27765 Coq.Init.Logic <> True ind
+prf 27783:27793 <> PSubstL1_ok
+binder 27795:27795 <> n:321
+binder 27797:27799 <> LM1:322
+binder 27801:27802 <> P1:323
+binder 27804:27804 <> l:324
+R27823:27826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27811:27816 Coq.micromega.EnvRing <> MPcond def
+R27822:27822 Coq.micromega.EnvRing <> l:324 var
+R27818:27820 Coq.micromega.EnvRing <> LM1:322 var
+R27831:27834 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R27829:27829 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27830:27830 Coq.micromega.EnvRing <> l:324 var
+R27827:27828 Coq.micromega.EnvRing <> P1:323 var
+R27835:27835 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27853:27854 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R27855:27855 Coq.micromega.EnvRing <> l:324 var
+R27836:27843 Coq.micromega.EnvRing <> PSubstL1 def
+R27852:27852 Coq.micromega.EnvRing <> n:321 var
+R27848:27850 Coq.micromega.EnvRing <> LM1:322 var
+R27845:27846 Coq.micromega.EnvRing <> P1:323 var
+R27986:27996 Coq.micromega.EnvRing <> PNSubst1_ok thm
+R27986:27996 Coq.micromega.EnvRing <> PNSubst1_ok thm
+prf 28013:28022 <> PSubstL_ok
+binder 28024:28024 <> n:325
+binder 28026:28028 <> LM1:326
+binder 28030:28031 <> P1:327
+binder 28033:28034 <> P2:328
+binder 28036:28036 <> l:329
+R28069:28072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28059:28061 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28043:28049 Coq.micromega.EnvRing <> PSubstL def
+R28058:28058 Coq.micromega.EnvRing <> n:325 var
+R28054:28056 Coq.micromega.EnvRing <> LM1:326 var
+R28051:28052 Coq.micromega.EnvRing <> P1:327 var
+R28062:28065 Coq.Init.Datatypes <> Some constr
+R28067:28068 Coq.micromega.EnvRing <> P2:328 var
+R28085:28088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28073:28078 Coq.micromega.EnvRing <> MPcond def
+R28084:28084 Coq.micromega.EnvRing <> l:329 var
+R28080:28082 Coq.micromega.EnvRing <> LM1:326 var
+R28093:28096 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R28091:28091 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R28092:28092 Coq.micromega.EnvRing <> l:329 var
+R28089:28090 Coq.micromega.EnvRing <> P1:327 var
+R28099:28099 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R28100:28100 Coq.micromega.EnvRing <> l:329 var
+R28097:28098 Coq.micromega.EnvRing <> P2:328 var
+R28215:28224 Coq.micromega.EnvRing <> PNSubst_ok thm
+R28215:28224 Coq.micromega.EnvRing <> PNSubst_ok thm
+R28249:28255 Coq.micromega.EnvRing <> PNSubst def
+R28297:28307 Coq.micromega.EnvRing <> PSubstL1_ok thm
+R28297:28307 Coq.micromega.EnvRing <> PSubstL1_ok thm
+R28297:28307 Coq.micromega.EnvRing <> PSubstL1_ok thm
+R28297:28307 Coq.micromega.EnvRing <> PSubstL1_ok thm
+prf 28354:28364 <> PNSubstL_ok
+binder 28366:28366 <> m:330
+binder 28368:28368 <> n:331
+binder 28370:28372 <> LM1:332
+binder 28374:28375 <> P1:333
+binder 28377:28377 <> l:334
+R28397:28400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28385:28390 Coq.micromega.EnvRing <> MPcond def
+R28396:28396 Coq.micromega.EnvRing <> l:334 var
+R28392:28394 Coq.micromega.EnvRing <> LM1:332 var
+R28405:28408 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R28403:28403 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R28404:28404 Coq.micromega.EnvRing <> l:334 var
+R28401:28402 Coq.micromega.EnvRing <> P1:333 var
+R28409:28409 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R28429:28430 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R28431:28431 Coq.micromega.EnvRing <> l:334 var
+R28410:28417 Coq.micromega.EnvRing <> PNSubstL def
+R28428:28428 Coq.micromega.EnvRing <> n:331 var
+R28426:28426 Coq.micromega.EnvRing <> m:330 var
+R28422:28424 Coq.micromega.EnvRing <> LM1:332 var
+R28419:28420 Coq.micromega.EnvRing <> P1:333 var
+R28523:28532 Coq.micromega.EnvRing <> PSubstL_ok thm
+R28523:28532 Coq.micromega.EnvRing <> PSubstL_ok thm
+R28523:28532 Coq.micromega.EnvRing <> PSubstL_ok thm
+R28554:28560 Coq.micromega.EnvRing <> PSubstL def
+R28554:28560 Coq.micromega.EnvRing <> PSubstL def
+def 28684:28687 <> mk_X
+binder 28689:28689 <> j:335
+R28694:28704 Coq.micromega.EnvRing <> mkPinj_pred def
+R28708:28710 Coq.micromega.EnvRing <> mkX def
+R28706:28706 Coq.micromega.EnvRing <> j:335 var
+def 28780:28785 <> PEeval
+R28790:28792 Coq.micromega.Env <> Env def
+R28794:28794 Coq.micromega.EnvRing <> MakeRingPol.R var
+binder 28788:28788 <> l:336
+R28801:28805 Coq.micromega.EnvRing <> PExpr abbrev
+binder 28798:28799 <> pe:337
+R28810:28810 Coq.micromega.EnvRing <> MakeRingPol.R var
+R28824:28825 Coq.micromega.EnvRing <> pe:337 var
+R28837:28839 Coq.micromega.EnvRing <> PEc constr
+R28846:28848 Coq.micromega.EnvRing <> MakeRingPol.phi var
+R28857:28859 Coq.micromega.EnvRing <> PEX constr
+R28866:28868 Coq.micromega.Env <> nth def
+R28872:28872 Coq.micromega.EnvRing <> l:336 var
+R28879:28883 Coq.micromega.EnvRing <> PEadd constr
+R28896:28896 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R28909:28913 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R28926:28926 Coq.micromega.EnvRing MakeRingPol :::x_'+'_x not
+R28897:28902 Coq.micromega.EnvRing <> PEeval:338 def
+R28904:28904 Coq.micromega.EnvRing <> l:336 var
+R28914:28919 Coq.micromega.EnvRing <> PEeval:338 def
+R28921:28921 Coq.micromega.EnvRing <> l:336 var
+R28933:28937 Coq.micromega.EnvRing <> PEsub constr
+R28950:28950 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R28963:28967 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R28980:28980 Coq.micromega.EnvRing MakeRingPol :::x_'-'_x not
+R28951:28956 Coq.micromega.EnvRing <> PEeval:338 def
+R28958:28958 Coq.micromega.EnvRing <> l:336 var
+R28968:28973 Coq.micromega.EnvRing <> PEeval:338 def
+R28975:28975 Coq.micromega.EnvRing <> l:336 var
+R28987:28991 Coq.micromega.EnvRing <> PEmul constr
+R29004:29004 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R29017:29021 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R29034:29034 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R29005:29010 Coq.micromega.EnvRing <> PEeval:338 def
+R29012:29012 Coq.micromega.EnvRing <> l:336 var
+R29022:29027 Coq.micromega.EnvRing <> PEeval:338 def
+R29029:29029 Coq.micromega.EnvRing <> l:336 var
+R29041:29045 Coq.micromega.EnvRing <> PEopp constr
+R29054:29056 Coq.micromega.EnvRing MakeRingPol :::'-'_x not
+R29069:29069 Coq.micromega.EnvRing MakeRingPol :::'-'_x not
+R29057:29062 Coq.micromega.EnvRing <> PEeval:338 def
+R29064:29064 Coq.micromega.EnvRing <> l:336 var
+R29076:29080 Coq.micromega.EnvRing <> PEpow constr
+R29091:29094 Coq.micromega.EnvRing <> MakeRingPol.rpow var
+R29112:29117 Coq.micromega.EnvRing <> MakeRingPol.Cp_phi var
+R29097:29102 Coq.micromega.EnvRing <> PEeval:338 def
+R29104:29104 Coq.micromega.EnvRing <> l:336 var
+prf 29166:29171 <> mkX_ok
+binder 29173:29173 <> p:340
+binder 29175:29175 <> l:341
+R29186:29189 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R29179:29181 Coq.micromega.Env <> nth def
+R29185:29185 Coq.micromega.EnvRing <> l:341 var
+R29183:29183 Coq.micromega.EnvRing <> p:340 var
+R29190:29190 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29197:29200 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29201:29201 Coq.micromega.EnvRing <> l:341 var
+R29191:29194 Coq.micromega.EnvRing <> mk_X def
+R29196:29196 Coq.micromega.EnvRing <> p:340 var
+R29264:29271 Coq.micromega.Env <> nth_spec thm
+R29264:29271 Coq.micromega.Env <> nth_spec thm
+R29264:29271 Coq.micromega.Env <> nth_spec thm
+R29290:29291 Coq.micromega.Env <> hd def
+R29311:29325 Coq.micromega.Env <> nth_pred_double thm
+R29328:29335 Coq.micromega.Env <> nth_jump thm
+R29311:29325 Coq.micromega.Env <> nth_pred_double thm
+R29311:29325 Coq.micromega.Env <> nth_pred_double thm
+R29328:29335 Coq.micromega.Env <> nth_jump thm
+R29328:29335 Coq.micromega.Env <> nth_jump thm
+R29359:29365 Coq.micromega.EnvRing <> Padd_ok thm
+R29367:29373 Coq.micromega.EnvRing <> Psub_ok thm
+sec 29394:29398 MakeRingPol POWER
+var 29412:29418 MakeRingPol.POWER subst_l
+R29425:29428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29422:29424 Coq.micromega.EnvRing <> Pol abbrev
+R29429:29431 Coq.micromega.EnvRing <> Pol abbrev
+def 29445:29452 <> Ppow_pos
+R29461:29463 Coq.micromega.EnvRing <> Pol abbrev
+binder 29455:29457 <> res:343
+binder 29459:29459 <> P:344
+R29469:29476 Coq.Numbers.BinNums <> positive ind
+binder 29467:29467 <> p:345
+R29481:29483 Coq.micromega.EnvRing <> Pol abbrev
+R29497:29497 Coq.micromega.EnvRing <> p:345 var
+R29509:29510 Coq.Numbers.BinNums <> xH constr
+R29515:29521 Coq.micromega.EnvRing <> MakeRingPol.POWER.subst_l var
+R29527:29530 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R29524:29526 Coq.micromega.EnvRing <> res:343 var
+R29531:29531 Coq.micromega.EnvRing <> P:344 var
+R29539:29540 Coq.Numbers.BinNums <> xO constr
+R29547:29554 Coq.micromega.EnvRing <> Ppow_pos:346 def
+R29577:29577 Coq.micromega.EnvRing <> p:345 var
+R29575:29575 Coq.micromega.EnvRing <> P:344 var
+R29557:29564 Coq.micromega.EnvRing <> Ppow_pos:346 def
+R29572:29572 Coq.micromega.EnvRing <> p:345 var
+R29570:29570 Coq.micromega.EnvRing <> P:344 var
+R29566:29568 Coq.micromega.EnvRing <> res:343 var
+R29584:29585 Coq.Numbers.BinNums <> xI constr
+R29592:29598 Coq.micromega.EnvRing <> MakeRingPol.POWER.subst_l var
+R29601:29601 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R29633:29637 Coq.micromega.EnvRing MakeRingPol :::x_'**'_x not
+R29602:29609 Coq.micromega.EnvRing <> Ppow_pos:346 def
+R29632:29632 Coq.micromega.EnvRing <> p:345 var
+R29630:29630 Coq.micromega.EnvRing <> P:344 var
+R29612:29619 Coq.micromega.EnvRing <> Ppow_pos:346 def
+R29627:29627 Coq.micromega.EnvRing <> p:345 var
+R29625:29625 Coq.micromega.EnvRing <> P:344 var
+R29621:29623 Coq.micromega.EnvRing <> res:343 var
+R29638:29638 Coq.micromega.EnvRing <> P:344 var
+def 29663:29668 <> Ppow_N
+binder 29670:29670 <> P:348
+binder 29672:29672 <> n:349
+R29686:29686 Coq.micromega.EnvRing <> n:349 var
+R29698:29699 Coq.Numbers.BinNums <> N0 constr
+R29704:29705 Coq.micromega.EnvRing <> P1 def
+R29712:29715 Coq.Numbers.BinNums <> Npos constr
+R29722:29729 Coq.micromega.EnvRing <> Ppow_pos def
+R29734:29734 Coq.micromega.EnvRing <> P:348 var
+R29731:29732 Coq.micromega.EnvRing <> P1 def
+prf 29755:29765 <> Ppow_pos_ok
+binder 29767:29767 <> l:351
+R29775:29775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29804:29812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 29783:29783 <> P:352
+R29797:29800 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R29795:29795 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29796:29796 Coq.micromega.EnvRing <> l:351 var
+R29786:29792 Coq.micromega.EnvRing <> MakeRingPol.POWER.subst_l var
+R29794:29794 Coq.micromega.EnvRing <> P:352 var
+R29802:29802 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29803:29803 Coq.micromega.EnvRing <> l:351 var
+R29801:29801 Coq.micromega.EnvRing <> P:352 var
+binder 29820:29822 <> res:353
+binder 29824:29824 <> P:354
+binder 29826:29826 <> p:355
+R29849:29852 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R29829:29829 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29846:29847 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29848:29848 Coq.micromega.EnvRing <> l:351 var
+R29830:29837 Coq.micromega.EnvRing <> Ppow_pos def
+R29845:29845 Coq.micromega.EnvRing <> p:355 var
+R29843:29843 Coq.micromega.EnvRing <> P:354 var
+R29839:29841 Coq.micromega.EnvRing <> res:353 var
+R29858:29860 Coq.micromega.EnvRing MakeRingPol :::x_'*'_x not
+R29856:29856 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29857:29857 Coq.micromega.EnvRing <> l:351 var
+R29853:29855 Coq.micromega.EnvRing <> res:353 var
+R29861:29861 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29878:29879 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R29880:29880 Coq.micromega.EnvRing <> l:351 var
+R29862:29868 Coq.setoid_ring.Ring_theory <> pow_pos def
+R29877:29877 Coq.micromega.EnvRing <> p:355 var
+R29875:29875 Coq.micromega.EnvRing <> P:354 var
+R29870:29873 Coq.micromega.EnvRing <> Pmul def
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+R30003:30009 Coq.micromega.EnvRing <> Pmul_ok thm
+prf 30050:30058 <> Ppow_N_ok
+binder 30060:30060 <> l:356
+R30068:30068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30097:30105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 30076:30076 <> P:357
+R30090:30093 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R30088:30088 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30089:30089 Coq.micromega.EnvRing <> l:356 var
+R30079:30085 Coq.micromega.EnvRing <> MakeRingPol.POWER.subst_l var
+R30087:30087 Coq.micromega.EnvRing <> P:357 var
+R30095:30095 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30096:30096 Coq.micromega.EnvRing <> l:356 var
+R30094:30094 Coq.micromega.EnvRing <> P:357 var
+binder 30113:30113 <> P:358
+binder 30115:30115 <> n:359
+R30132:30135 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R30118:30118 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30129:30130 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30131:30131 Coq.micromega.EnvRing <> l:356 var
+R30119:30124 Coq.micromega.EnvRing <> Ppow_N def
+R30128:30128 Coq.micromega.EnvRing <> n:359 var
+R30126:30126 Coq.micromega.EnvRing <> P:358 var
+R30136:30136 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30154:30155 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R30156:30156 Coq.micromega.EnvRing <> l:356 var
+R30137:30141 Coq.setoid_ring.Ring_theory <> pow_N def
+R30153:30153 Coq.micromega.EnvRing <> n:359 var
+R30151:30151 Coq.micromega.EnvRing <> P:358 var
+R30146:30149 Coq.micromega.EnvRing <> Pmul def
+R30143:30144 Coq.micromega.EnvRing <> P1 def
+R30230:30240 Coq.micromega.EnvRing <> Ppow_pos_ok thm
+R30230:30240 Coq.micromega.EnvRing <> Ppow_pos_ok thm
+R30230:30240 Coq.micromega.EnvRing <> Ppow_pos_ok thm
+R30275:30279 Coq.micromega.EnvRing MakeRingPol.POWER <> sec
+sec 30329:30342 MakeRingPol NORM_SUBST_REC
+var 30356:30356 MakeRingPol.NORM_SUBST_REC n
+R30360:30362 Coq.Init.Datatypes <> nat ind
+var 30376:30378 MakeRingPol.NORM_SUBST_REC lmp
+R30380:30383 Coq.Init.Datatypes <> list ind
+R30389:30389 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30386:30388 Coq.micromega.EnvRing <> Mon ind
+R30390:30392 Coq.micromega.EnvRing <> Pol abbrev
+var 30402:30408 MakeRingPol.NORM_SUBST_REC subst_l
+binder 30410:30410 <> P:362
+R30415:30422 Coq.micromega.EnvRing <> PNSubstL def
+R30432:30432 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.n var
+R30430:30430 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.n var
+R30426:30428 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.lmp var
+R30424:30424 Coq.micromega.EnvRing <> P:362 var
+var 30441:30450 MakeRingPol.NORM_SUBST_REC Pmul_subst
+binder 30452:30453 <> P1:363
+binder 30455:30456 <> P2:364
+R30461:30467 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.subst_l var
+R30470:30473 Coq.micromega.EnvRing <> Pmul def
+R30478:30479 Coq.micromega.EnvRing <> P2:364 var
+R30475:30476 Coq.micromega.EnvRing <> P1:363 var
+var 30489:30498 MakeRingPol.NORM_SUBST_REC Ppow_subst
+R30503:30508 Coq.micromega.EnvRing <> Ppow_N def
+R30510:30516 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.subst_l var
+def 30531:30538 <> norm_aux
+R30544:30548 Coq.micromega.EnvRing <> PExpr abbrev
+binder 30541:30542 <> pe:365
+R30553:30555 Coq.micromega.EnvRing <> Pol abbrev
+R30569:30570 Coq.micromega.EnvRing <> pe:365 var
+R30582:30584 Coq.micromega.EnvRing <> PEc constr
+R30591:30592 Coq.micromega.EnvRing <> Pc constr
+R30601:30603 Coq.micromega.EnvRing <> PEX constr
+R30610:30613 Coq.micromega.EnvRing <> mk_X def
+R30622:30626 Coq.micromega.EnvRing <> PEadd constr
+R30629:30633 Coq.micromega.EnvRing <> PEopp constr
+R30647:30650 Coq.micromega.EnvRing <> Psub def
+R30668:30675 Coq.micromega.EnvRing <> norm_aux:366 def
+R30653:30660 Coq.micromega.EnvRing <> norm_aux:366 def
+R30687:30691 Coq.micromega.EnvRing <> PEadd constr
+R30698:30702 Coq.micromega.EnvRing <> PEopp constr
+R30717:30720 Coq.micromega.EnvRing <> Psub def
+R30738:30745 Coq.micromega.EnvRing <> norm_aux:366 def
+R30723:30730 Coq.micromega.EnvRing <> norm_aux:366 def
+R30757:30761 Coq.micromega.EnvRing <> PEadd constr
+R30774:30777 Coq.micromega.EnvRing <> Padd def
+R30796:30803 Coq.micromega.EnvRing <> norm_aux:366 def
+R30780:30787 Coq.micromega.EnvRing <> norm_aux:366 def
+R30815:30819 Coq.micromega.EnvRing <> PEsub constr
+R30832:30835 Coq.micromega.EnvRing <> Psub def
+R30853:30860 Coq.micromega.EnvRing <> norm_aux:366 def
+R30838:30845 Coq.micromega.EnvRing <> norm_aux:366 def
+R30872:30876 Coq.micromega.EnvRing <> PEmul constr
+R30889:30892 Coq.micromega.EnvRing <> Pmul def
+R30910:30917 Coq.micromega.EnvRing <> norm_aux:366 def
+R30895:30902 Coq.micromega.EnvRing <> norm_aux:366 def
+R30929:30933 Coq.micromega.EnvRing <> PEopp constr
+R30942:30945 Coq.micromega.EnvRing <> Popp def
+R30948:30955 Coq.micromega.EnvRing <> norm_aux:366 def
+R30967:30971 Coq.micromega.EnvRing <> PEpow constr
+R30977:30977 Coq.micromega.EnvRing <> n vardefax
+R30982:30987 Coq.micromega.EnvRing <> Ppow_N def
+R31003:31010 Coq.micromega.EnvRing <> norm_aux:366 def
+binder 30994:30994 <> p:368
+R30999:30999 Coq.micromega.EnvRing <> p:368 var
+def 31041:31050 <> norm_subst
+binder 31052:31053 <> pe:369
+R31058:31064 Coq.micromega.EnvRing <> MakeRingPol.NORM_SUBST_REC.subst_l var
+R31067:31074 Coq.micromega.EnvRing <> norm_aux def
+R31076:31077 Coq.micromega.EnvRing <> pe:369 var
+def 31228:31236 <> get_PEopp
+binder 31238:31239 <> pe:370
+R31253:31254 Coq.micromega.EnvRing <> pe:370 var
+R31266:31270 Coq.micromega.EnvRing <> PEopp constr
+R31279:31282 Coq.Init.Datatypes <> Some constr
+R31298:31301 Coq.Init.Datatypes <> None constr
+prf 31320:31333 <> norm_aux_PEadd
+binder 31335:31337 <> pe1:372
+binder 31339:31341 <> pe2:373
+R31373:31379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31349:31356 Coq.micromega.EnvRing <> norm_aux def
+R31359:31363 Coq.micromega.EnvRing <> PEadd constr
+R31369:31371 Coq.micromega.EnvRing <> pe2:373 var
+R31365:31367 Coq.micromega.EnvRing <> pe1:372 var
+R31401:31409 Coq.micromega.EnvRing <> get_PEopp def
+R31411:31413 Coq.micromega.EnvRing <> pe2:373 var
+R31386:31394 Coq.micromega.EnvRing <> get_PEopp def
+R31396:31398 Coq.micromega.EnvRing <> pe1:372 var
+R31426:31429 Coq.Init.Datatypes <> Some constr
+R31442:31442 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31455:31460 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31474:31474 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31443:31450 Coq.micromega.EnvRing <> norm_aux def
+R31452:31454 Coq.micromega.EnvRing <> pe2:373 var
+R31461:31468 Coq.micromega.EnvRing <> norm_aux def
+R31482:31485 Coq.Init.Datatypes <> None constr
+R31488:31491 Coq.Init.Datatypes <> Some constr
+R31501:31501 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31514:31519 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31533:31533 Coq.micromega.EnvRing MakeRingPol :::x_'--'_x not
+R31502:31509 Coq.micromega.EnvRing <> norm_aux def
+R31511:31513 Coq.micromega.EnvRing <> pe1:372 var
+R31520:31527 Coq.micromega.EnvRing <> norm_aux def
+R31541:31544 Coq.Init.Datatypes <> None constr
+R31547:31550 Coq.Init.Datatypes <> None constr
+R31555:31555 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R31568:31573 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R31586:31586 Coq.micromega.EnvRing MakeRingPol :::x_'++'_x not
+R31556:31563 Coq.micromega.EnvRing <> norm_aux def
+R31565:31567 Coq.micromega.EnvRing <> pe1:372 var
+R31574:31581 Coq.micromega.EnvRing <> norm_aux def
+R31583:31585 Coq.micromega.EnvRing <> pe2:373 var
+R31615:31622 Coq.micromega.EnvRing <> norm_aux def
+R31625:31629 Coq.micromega.EnvRing <> PEadd constr
+R31615:31622 Coq.micromega.EnvRing <> norm_aux def
+R31625:31629 Coq.micromega.EnvRing <> PEadd constr
+prf 31746:31759 <> norm_aux_PEopp
+binder 31761:31762 <> pe:374
+R31776:31784 Coq.micromega.EnvRing <> get_PEopp def
+R31786:31787 Coq.micromega.EnvRing <> pe:374 var
+R31800:31803 Coq.Init.Datatypes <> Some constr
+R31823:31825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31812:31819 Coq.micromega.EnvRing <> norm_aux def
+R31821:31822 Coq.micromega.EnvRing <> pe:374 var
+R31826:31829 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R31842:31842 Coq.micromega.EnvRing MakeRingPol :::'--'_x not
+R31830:31837 Coq.micromega.EnvRing <> norm_aux def
+R31850:31853 Coq.Init.Datatypes <> None constr
+R31858:31861 Coq.Init.Logic <> True ind
+prf 31916:31928 <> norm_aux_spec
+binder 31930:31930 <> l:375
+binder 31932:31933 <> pe:376
+R31952:31955 Coq.micromega.EnvRing MakeRingPol :::x_'=='_x not
+R31941:31946 Coq.micromega.EnvRing <> PEeval def
+R31950:31951 Coq.micromega.EnvRing <> pe:376 var
+R31948:31948 Coq.micromega.EnvRing <> l:375 var
+R31956:31956 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R31968:31969 Coq.micromega.EnvRing MakeRingPol :::x_'@'_x not
+R31970:31970 Coq.micromega.EnvRing <> l:375 var
+R31957:31964 Coq.micromega.EnvRing <> norm_aux def
+R31966:31967 Coq.micromega.EnvRing <> pe:376 var
+R32116:32121 Coq.micromega.EnvRing <> mkX_ok thm
+R32116:32121 Coq.micromega.EnvRing <> mkX_ok thm
+R32184:32197 Coq.micromega.EnvRing <> norm_aux_PEopp thm
+R32184:32197 Coq.micromega.EnvRing <> norm_aux_PEopp thm
+R32224:32237 Coq.micromega.EnvRing <> norm_aux_PEopp thm
+R32224:32237 Coq.micromega.EnvRing <> norm_aux_PEopp thm
+R32258:32271 Coq.micromega.EnvRing <> norm_aux_PEadd thm
+R32258:32271 Coq.micromega.EnvRing <> norm_aux_PEadd thm
+R32258:32271 Coq.micromega.EnvRing <> norm_aux_PEadd thm
+R32293:32301 Coq.micromega.EnvRing <> get_PEopp def
+R32293:32301 Coq.micromega.EnvRing <> get_PEopp def
+R32293:32301 Coq.micromega.EnvRing <> get_PEopp def
+R32430:32436 Coq.micromega.EnvRing <> Pmul_ok thm
+R32430:32436 Coq.micromega.EnvRing <> Pmul_ok thm
+R32430:32436 Coq.micromega.EnvRing <> Pmul_ok thm
+R32493:32501 Coq.micromega.EnvRing <> Ppow_N_ok thm
+R32493:32501 Coq.micromega.EnvRing <> Ppow_N_ok thm
+R32493:32501 Coq.micromega.EnvRing <> Ppow_N_ok thm
+R32533:32542 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R32544:32549 Coq.micromega.EnvRing <> MakeRingPol.pow_th var
+R32533:32542 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R32544:32549 Coq.micromega.EnvRing <> MakeRingPol.pow_th var
+R32533:32542 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R32544:32549 Coq.micromega.EnvRing <> MakeRingPol.pow_th var
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32666:32672 Coq.micromega.EnvRing <> Pmul_ok thm
+R32688:32701 Coq.micromega.EnvRing MakeRingPol.NORM_SUBST_REC <> sec
+R32709:32719 Coq.micromega.EnvRing MakeRingPol <> sec

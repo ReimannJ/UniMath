@@ -1,0 +1,3088 @@
+DIGEST a9a21b40f65d62db3fc2a89d5ec70d1a
+FCoq.FSets.FSetPositive
+R1143:1146 Coq.Bool.Bool <> <> lib
+R1148:1155 Coq.Arith.PeanoNat <> <> lib
+R1157:1162 Coq.PArith.BinPos <> <> lib
+R1164:1174 Coq.Structures.OrderedType <> <> lib
+R1176:1188 Coq.Structures.OrderedTypeEx <> <> lib
+R1190:1202 Coq.FSets.FSetInterface <> <> lib
+R1353:1353 Coq.FSets.FSetInterface S <> mod
+R1370:1392 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits <> modtype
+mod 1338:1348 <> PositiveSet
+R1408:1430 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits <> modtype
+mod 1405:1405 <> PositiveSet.E
+def 1447:1449 PositiveSet elt
+R1454:1461 Coq.Numbers.BinNums <> positive ind
+ind 1484:1487 PositiveSet tree
+constr 1498:1501 PositiveSet Leaf
+constr 1516:1519 PositiveSet Node
+R1505:1508 Coq.FSets.FSetPositive <> tree:1 ind
+R1527:1530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1523:1526 Coq.FSets.FSetPositive <> tree:1 ind
+R1535:1538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1531:1534 Coq.Init.Datatypes <> bool ind
+R1543:1546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1539:1542 Coq.FSets.FSetPositive <> tree:1 ind
+R1547:1550 Coq.FSets.FSetPositive <> tree:1 ind
+def 1563:1570 PositiveSet tree_ind
+R1589:1592 Coq.FSets.FSetPositive PositiveSet tree ind
+def 1619:1619 PositiveSet t
+R1624:1627 Coq.FSets.FSetPositive PositiveSet tree ind
+def 1651:1655 PositiveSet empty
+R1659:1659 Coq.FSets.FSetPositive PositiveSet t def
+R1664:1667 Coq.FSets.FSetPositive PositiveSet Leaf constr
+def 1682:1689 PositiveSet is_empty
+R1696:1696 Coq.FSets.FSetPositive PositiveSet t def
+binder 1692:1692 <> m:3
+R1701:1704 Coq.Init.Datatypes <> bool ind
+R1718:1718 Coq.FSets.FSetPositive <> m:3 var
+R1731:1734 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R1739:1742 Coq.Init.Datatypes <> true constr
+R1750:1753 Coq.FSets.FSetPositive PositiveSet Node constr
+R1785:1789 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1790:1797 Coq.FSets.FSetPositive <> is_empty:4 def
+R1770:1774 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1775:1782 Coq.FSets.FSetPositive <> is_empty:4 def
+R1764:1767 Coq.Init.Datatypes <> negb def
+def 1821:1823 PositiveSet mem
+R1830:1832 Coq.FSets.FSetPositive PositiveSet elt def
+binder 1826:1826 <> i:6
+R1840:1840 Coq.FSets.FSetPositive PositiveSet t def
+binder 1836:1836 <> m:7
+R1856:1859 Coq.Init.Datatypes <> bool ind
+R1874:1874 Coq.FSets.FSetPositive <> m:7 var
+R1887:1890 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R1895:1899 Coq.Init.Datatypes <> false constr
+R1907:1910 Coq.FSets.FSetPositive PositiveSet Node constr
+R1935:1935 Coq.FSets.FSetPositive <> i:6 var
+R1970:1971 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1976:1978 Coq.FSets.FSetPositive <> mem:8 def
+R1980:1980 Coq.FSets.FSetPositive <> i:6 var
+R1995:1996 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R2001:2003 Coq.FSets.FSetPositive <> mem:8 def
+R2005:2005 Coq.FSets.FSetPositive <> i:6 var
+def 2042:2044 PositiveSet add
+R2051:2053 Coq.FSets.FSetPositive PositiveSet elt def
+binder 2047:2047 <> i:11
+R2061:2061 Coq.FSets.FSetPositive PositiveSet t def
+binder 2057:2057 <> m:12
+R2066:2066 Coq.FSets.FSetPositive PositiveSet t def
+R2081:2081 Coq.FSets.FSetPositive <> m:12 var
+R2094:2097 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2116:2116 Coq.FSets.FSetPositive <> i:11 var
+R2138:2141 Coq.FSets.FSetPositive PositiveSet Node constr
+R2153:2156 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2148:2151 Coq.Init.Datatypes <> true constr
+R2143:2146 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2169:2170 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2175:2178 Coq.FSets.FSetPositive PositiveSet Node constr
+R2199:2202 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2193:2197 Coq.Init.Datatypes <> false constr
+R2181:2183 Coq.FSets.FSetPositive <> add:13 def
+R2187:2190 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2185:2185 Coq.FSets.FSetPositive <> i:11 var
+R2215:2216 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R2221:2224 Coq.FSets.FSetPositive PositiveSet Node constr
+R2238:2240 Coq.FSets.FSetPositive <> add:13 def
+R2244:2247 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2242:2242 Coq.FSets.FSetPositive <> i:11 var
+R2231:2235 Coq.Init.Datatypes <> false constr
+R2226:2229 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2268:2271 Coq.FSets.FSetPositive PositiveSet Node constr
+R2296:2296 Coq.FSets.FSetPositive <> i:11 var
+R2318:2321 Coq.FSets.FSetPositive PositiveSet Node constr
+R2325:2328 Coq.Init.Datatypes <> true constr
+R2343:2344 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2349:2352 Coq.FSets.FSetPositive PositiveSet Node constr
+R2355:2357 Coq.FSets.FSetPositive <> add:13 def
+R2359:2359 Coq.FSets.FSetPositive <> i:11 var
+R2379:2380 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R2385:2388 Coq.FSets.FSetPositive PositiveSet Node constr
+R2395:2397 Coq.FSets.FSetPositive <> add:13 def
+R2399:2399 Coq.FSets.FSetPositive <> i:11 var
+def 2439:2447 PositiveSet singleton
+binder 2449:2449 <> i:17
+R2454:2456 Coq.FSets.FSetPositive PositiveSet add def
+R2460:2464 Coq.FSets.FSetPositive PositiveSet empty def
+R2458:2458 Coq.FSets.FSetPositive <> i:17 var
+def 2557:2560 PositiveSet node
+R2567:2567 Coq.FSets.FSetPositive PositiveSet t def
+binder 2563:2563 <> l:18
+R2574:2577 Coq.Init.Datatypes <> bool ind
+binder 2571:2571 <> b:19
+R2585:2585 Coq.FSets.FSetPositive PositiveSet t def
+binder 2581:2581 <> r:20
+R2590:2590 Coq.FSets.FSetPositive PositiveSet t def
+R2602:2602 Coq.FSets.FSetPositive <> b:19 var
+R2638:2638 Coq.FSets.FSetPositive <> r:20 var
+R2636:2636 Coq.FSets.FSetPositive <> l:18 var
+R2654:2657 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2659:2662 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2667:2670 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2688:2691 Coq.FSets.FSetPositive PositiveSet Node constr
+R2701:2701 Coq.FSets.FSetPositive <> r:20 var
+R2695:2699 Coq.Init.Datatypes <> false constr
+R2693:2693 Coq.FSets.FSetPositive <> l:18 var
+R2609:2612 Coq.FSets.FSetPositive PositiveSet Node constr
+R2618:2618 Coq.FSets.FSetPositive <> r:20 var
+R2616:2616 Coq.FSets.FSetPositive <> b:19 var
+R2614:2614 Coq.FSets.FSetPositive <> l:18 var
+def 2720:2725 PositiveSet remove
+R2732:2734 Coq.FSets.FSetPositive PositiveSet elt def
+binder 2728:2728 <> i:23
+R2742:2742 Coq.FSets.FSetPositive PositiveSet t def
+binder 2738:2738 <> m:24
+R2758:2758 Coq.FSets.FSetPositive PositiveSet t def
+R2773:2773 Coq.FSets.FSetPositive <> m:24 var
+R2788:2791 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2796:2799 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R2809:2812 Coq.FSets.FSetPositive PositiveSet Node constr
+R2837:2837 Coq.FSets.FSetPositive <> i:23 var
+R2861:2864 Coq.FSets.FSetPositive PositiveSet node def
+R2868:2872 Coq.Init.Datatypes <> false constr
+R2889:2890 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2895:2898 Coq.FSets.FSetPositive PositiveSet node def
+R2901:2906 Coq.FSets.FSetPositive <> remove:25 def
+R2908:2908 Coq.FSets.FSetPositive <> i:23 var
+R2930:2931 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R2936:2939 Coq.FSets.FSetPositive PositiveSet node def
+R2946:2951 Coq.FSets.FSetPositive <> remove:25 def
+R2953:2953 Coq.FSets.FSetPositive <> i:23 var
+def 2991:2995 PositiveSet union
+R3004:3004 Coq.FSets.FSetPositive PositiveSet t def
+binder 2998:2998 <> m:28
+binder 3000:3001 <> m':29
+R3009:3009 Coq.FSets.FSetPositive PositiveSet t def
+R3024:3024 Coq.FSets.FSetPositive <> m:28 var
+R3039:3042 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3047:3048 Coq.FSets.FSetPositive <> m':29 var
+R3058:3061 Coq.FSets.FSetPositive PositiveSet Node constr
+R3086:3087 Coq.FSets.FSetPositive <> m':29 var
+R3106:3109 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3114:3114 Coq.FSets.FSetPositive <> m:28 var
+R3128:3131 Coq.FSets.FSetPositive PositiveSet Node constr
+R3145:3148 Coq.FSets.FSetPositive PositiveSet Node constr
+R3172:3176 Coq.FSets.FSetPositive <> union:30 def
+R3165:3166 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R3151:3155 Coq.FSets.FSetPositive <> union:30 def
+def 3217:3221 PositiveSet inter
+R3230:3230 Coq.FSets.FSetPositive PositiveSet t def
+binder 3224:3224 <> m:33
+binder 3226:3227 <> m':34
+R3235:3235 Coq.FSets.FSetPositive PositiveSet t def
+R3250:3250 Coq.FSets.FSetPositive <> m:33 var
+R3265:3268 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3273:3276 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3286:3289 Coq.FSets.FSetPositive PositiveSet Node constr
+R3314:3315 Coq.FSets.FSetPositive <> m':34 var
+R3334:3337 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3342:3345 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3359:3362 Coq.FSets.FSetPositive PositiveSet Node constr
+R3376:3379 Coq.FSets.FSetPositive PositiveSet node def
+R3403:3407 Coq.FSets.FSetPositive <> inter:35 def
+R3396:3397 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3382:3386 Coq.FSets.FSetPositive <> inter:35 def
+def 3448:3451 PositiveSet diff
+R3460:3460 Coq.FSets.FSetPositive PositiveSet t def
+binder 3454:3454 <> m:38
+binder 3456:3457 <> m':39
+R3465:3465 Coq.FSets.FSetPositive PositiveSet t def
+R3480:3480 Coq.FSets.FSetPositive <> m:38 var
+R3495:3498 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3503:3506 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3516:3519 Coq.FSets.FSetPositive PositiveSet Node constr
+R3544:3545 Coq.FSets.FSetPositive <> m':39 var
+R3564:3567 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3572:3572 Coq.FSets.FSetPositive <> m:38 var
+R3586:3589 Coq.FSets.FSetPositive PositiveSet Node constr
+R3603:3606 Coq.FSets.FSetPositive PositiveSet node def
+R3634:3637 Coq.FSets.FSetPositive <> diff:40 def
+R3622:3623 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3624:3627 Coq.Init.Datatypes <> negb def
+R3609:3612 Coq.FSets.FSetPositive <> diff:40 def
+def 3678:3682 PositiveSet equal
+R3691:3691 Coq.FSets.FSetPositive PositiveSet t def
+binder 3685:3685 <> m:43
+binder 3687:3688 <> m':44
+R3695:3698 Coq.Init.Datatypes <> bool ind
+R3713:3713 Coq.FSets.FSetPositive <> m:43 var
+R3728:3731 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3736:3743 Coq.FSets.FSetPositive PositiveSet is_empty def
+R3745:3746 Coq.FSets.FSetPositive <> m':44 var
+R3756:3759 Coq.FSets.FSetPositive PositiveSet Node constr
+R3784:3785 Coq.FSets.FSetPositive <> m':44 var
+R3804:3807 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3812:3819 Coq.FSets.FSetPositive PositiveSet is_empty def
+R3821:3821 Coq.FSets.FSetPositive <> m:43 var
+R3835:3838 Coq.FSets.FSetPositive PositiveSet Node constr
+R3875:3879 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R3880:3884 Coq.FSets.FSetPositive <> equal:45 def
+R3860:3864 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R3865:3869 Coq.FSets.FSetPositive <> equal:45 def
+R3852:3854 Coq.Bool.Bool <> eqb def
+def 3924:3929 PositiveSet subset
+R3938:3938 Coq.FSets.FSetPositive PositiveSet t def
+binder 3932:3932 <> m:48
+binder 3934:3935 <> m':49
+R3942:3945 Coq.Init.Datatypes <> bool ind
+R3960:3960 Coq.FSets.FSetPositive <> m:48 var
+R3975:3978 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R3983:3986 Coq.Init.Datatypes <> true constr
+R3996:3999 Coq.FSets.FSetPositive PositiveSet Node constr
+R4024:4025 Coq.FSets.FSetPositive <> m':49 var
+R4044:4047 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R4052:4059 Coq.FSets.FSetPositive PositiveSet is_empty def
+R4061:4061 Coq.FSets.FSetPositive <> m:48 var
+R4075:4078 Coq.FSets.FSetPositive PositiveSet Node constr
+R4123:4127 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4128:4133 Coq.FSets.FSetPositive <> subset:50 def
+R4092:4092 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4106:4111 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4112:4117 Coq.FSets.FSetPositive <> subset:50 def
+R4099:4103 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R4093:4096 Coq.Init.Datatypes <> negb def
+def 4224:4233 PositiveSet rev_append
+R4242:4244 Coq.FSets.FSetPositive PositiveSet elt def
+binder 4236:4236 <> y:53
+binder 4238:4238 <> x:54
+R4249:4251 Coq.FSets.FSetPositive PositiveSet elt def
+R4266:4266 Coq.FSets.FSetPositive <> y:53 var
+R4286:4286 Coq.FSets.FSetPositive <> x:54 var
+R4297:4298 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4303:4312 Coq.FSets.FSetPositive <> rev_append:55 def
+R4317:4318 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4316:4316 Coq.FSets.FSetPositive <> x:54 var
+R4314:4314 Coq.FSets.FSetPositive <> y:53 var
+R4329:4330 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4335:4344 Coq.FSets.FSetPositive <> rev_append:55 def
+R4349:4350 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4348:4348 Coq.FSets.FSetPositive <> x:54 var
+R4346:4346 Coq.FSets.FSetPositive <> y:53 var
+R4376:4385 Coq.FSets.FSetPositive PositiveSet rev_append def
+not 4369:4369 PositiveSet :::x_'@'_x
+def 4415:4417 PositiveSet rev
+binder 4419:4419 <> x:57
+R4425:4425 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R4424:4424 Coq.FSets.FSetPositive <> x:57 var
+sec 4440:4443 PositiveSet Fold
+var 4460:4460 PositiveSet.Fold B
+var 4483:4483 PositiveSet.Fold f
+R4490:4493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4487:4489 Coq.FSets.FSetPositive PositiveSet elt def
+R4495:4498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4494:4494 Coq.FSets.FSetPositive <> PositiveSet.Fold.B var
+R4499:4499 Coq.FSets.FSetPositive <> PositiveSet.Fold.B var
+def 4802:4806 PositiveSet xfold
+R4813:4813 Coq.FSets.FSetPositive PositiveSet t def
+binder 4809:4809 <> m:60
+R4821:4821 Coq.FSets.FSetPositive <> PositiveSet.Fold.B var
+binder 4817:4817 <> v:61
+R4829:4831 Coq.FSets.FSetPositive PositiveSet elt def
+binder 4825:4825 <> i:62
+R4849:4849 Coq.FSets.FSetPositive <> m:60 var
+R4866:4869 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R4874:4874 Coq.FSets.FSetPositive <> v:61 var
+R4886:4889 Coq.FSets.FSetPositive PositiveSet Node constr
+R4893:4896 Coq.Init.Datatypes <> true constr
+R4913:4917 Coq.FSets.FSetPositive <> xfold:63 def
+R4950:4951 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4949:4949 Coq.FSets.FSetPositive <> i:62 var
+R4922:4922 Coq.FSets.FSetPositive <> PositiveSet.Fold.f var
+R4933:4937 Coq.FSets.FSetPositive <> xfold:63 def
+R4944:4945 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4943:4943 Coq.FSets.FSetPositive <> i:62 var
+R4941:4941 Coq.FSets.FSetPositive <> v:61 var
+R4925:4927 Coq.FSets.FSetPositive PositiveSet rev def
+R4929:4929 Coq.FSets.FSetPositive <> i:62 var
+R4963:4966 Coq.FSets.FSetPositive PositiveSet Node constr
+R4970:4974 Coq.Init.Datatypes <> false constr
+R4991:4995 Coq.FSets.FSetPositive <> xfold:63 def
+R5016:5017 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5015:5015 Coq.FSets.FSetPositive <> i:62 var
+R5000:5004 Coq.FSets.FSetPositive <> xfold:63 def
+R5011:5012 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5010:5010 Coq.FSets.FSetPositive <> i:62 var
+R5008:5008 Coq.FSets.FSetPositive <> v:61 var
+def 5045:5048 PositiveSet fold
+binder 5050:5050 <> m:65
+binder 5052:5052 <> i:66
+R5057:5061 Coq.FSets.FSetPositive PositiveSet xfold def
+R5065:5065 Coq.FSets.FSetPositive <> i:66 var
+R5063:5063 Coq.FSets.FSetPositive <> m:65 var
+R5077:5080 Coq.FSets.FSetPositive PositiveSet.Fold <> sec
+sec 5094:5104 PositiveSet Quantifiers
+var 5121:5121 PositiveSet.Quantifiers f
+R5128:5131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5125:5127 Coq.FSets.FSetPositive PositiveSet elt def
+R5132:5135 Coq.Init.Datatypes <> bool ind
+def 5152:5158 PositiveSet xforall
+R5165:5165 Coq.FSets.FSetPositive PositiveSet t def
+binder 5161:5161 <> m:68
+R5173:5175 Coq.FSets.FSetPositive PositiveSet elt def
+binder 5169:5169 <> i:69
+R5193:5193 Coq.FSets.FSetPositive <> m:68 var
+R5210:5213 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5218:5221 Coq.Init.Datatypes <> true constr
+R5233:5236 Coq.FSets.FSetPositive PositiveSet Node constr
+R5297:5301 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R5302:5308 Coq.FSets.FSetPositive <> xforall:70 def
+R5313:5314 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5312:5312 Coq.FSets.FSetPositive <> i:69 var
+R5257:5257 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R5278:5283 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R5284:5290 Coq.FSets.FSetPositive <> xforall:70 def
+R5295:5296 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5294:5294 Coq.FSets.FSetPositive <> i:69 var
+R5264:5268 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R5269:5269 Coq.FSets.FSetPositive <> PositiveSet.Quantifiers.f var
+R5272:5274 Coq.FSets.FSetPositive PositiveSet rev def
+R5276:5276 Coq.FSets.FSetPositive <> i:69 var
+R5258:5261 Coq.Init.Datatypes <> negb def
+def 5342:5348 PositiveSet for_all
+binder 5350:5350 <> m:72
+R5355:5361 Coq.FSets.FSetPositive PositiveSet xforall def
+R5363:5363 Coq.FSets.FSetPositive <> m:72 var
+def 5382:5388 PositiveSet xexists
+R5395:5395 Coq.FSets.FSetPositive PositiveSet t def
+binder 5391:5391 <> m:73
+R5403:5405 Coq.FSets.FSetPositive PositiveSet elt def
+binder 5399:5399 <> i:74
+R5423:5423 Coq.FSets.FSetPositive <> m:73 var
+R5440:5443 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5448:5452 Coq.Init.Datatypes <> false constr
+R5464:5467 Coq.FSets.FSetPositive PositiveSet Node constr
+R5513:5517 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R5518:5524 Coq.FSets.FSetPositive <> xexists:75 def
+R5529:5530 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5528:5528 Coq.FSets.FSetPositive <> i:74 var
+R5478:5478 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R5494:5499 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R5500:5506 Coq.FSets.FSetPositive <> xexists:75 def
+R5511:5512 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5510:5510 Coq.FSets.FSetPositive <> i:74 var
+R5480:5484 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R5485:5485 Coq.FSets.FSetPositive <> PositiveSet.Quantifiers.f var
+R5488:5490 Coq.FSets.FSetPositive PositiveSet rev def
+R5492:5492 Coq.FSets.FSetPositive <> i:74 var
+def 5558:5564 PositiveSet exists_
+binder 5566:5566 <> m:77
+R5571:5577 Coq.FSets.FSetPositive PositiveSet xexists def
+R5579:5579 Coq.FSets.FSetPositive <> m:77 var
+def 5598:5604 PositiveSet xfilter
+R5611:5611 Coq.FSets.FSetPositive PositiveSet t def
+binder 5607:5607 <> m:78
+R5619:5621 Coq.FSets.FSetPositive PositiveSet elt def
+binder 5615:5615 <> i:79
+R5626:5626 Coq.FSets.FSetPositive PositiveSet t def
+R5643:5643 Coq.FSets.FSetPositive <> m:78 var
+R5660:5663 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5668:5671 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5683:5686 Coq.FSets.FSetPositive PositiveSet Node constr
+R5697:5700 Coq.FSets.FSetPositive PositiveSet node def
+R5737:5743 Coq.FSets.FSetPositive <> xfilter:80 def
+R5748:5749 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5747:5747 Coq.FSets.FSetPositive <> i:79 var
+R5720:5724 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R5725:5725 Coq.FSets.FSetPositive <> PositiveSet.Quantifiers.f var
+R5728:5730 Coq.FSets.FSetPositive PositiveSet rev def
+R5732:5732 Coq.FSets.FSetPositive <> i:79 var
+R5703:5709 Coq.FSets.FSetPositive <> xfilter:80 def
+R5714:5715 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5713:5713 Coq.FSets.FSetPositive <> i:79 var
+def 5778:5783 PositiveSet filter
+binder 5785:5785 <> m:82
+R5790:5796 Coq.FSets.FSetPositive PositiveSet xfilter def
+R5798:5798 Coq.FSets.FSetPositive <> m:82 var
+def 5817:5826 PositiveSet xpartition
+R5833:5833 Coq.FSets.FSetPositive PositiveSet t def
+binder 5829:5829 <> m:83
+R5841:5843 Coq.FSets.FSetPositive PositiveSet elt def
+binder 5837:5837 <> i:84
+R5849:5851 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5848:5848 Coq.FSets.FSetPositive PositiveSet t def
+R5852:5852 Coq.FSets.FSetPositive PositiveSet t def
+R5869:5869 Coq.FSets.FSetPositive <> m:83 var
+R5886:5889 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5894:5894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5899:5899 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5904:5904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5895:5898 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5900:5903 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R5916:5919 Coq.FSets.FSetPositive PositiveSet Node constr
+R5955:5964 Coq.FSets.FSetPositive <> xpartition:85 def
+R5969:5970 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5968:5968 Coq.FSets.FSetPositive <> i:84 var
+binder 5945:5946 <> lt:87
+binder 5948:5949 <> lf:88
+R6000:6009 Coq.FSets.FSetPositive <> xpartition:85 def
+R6014:6015 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R6013:6013 Coq.FSets.FSetPositive <> i:84 var
+binder 5990:5991 <> rt:89
+binder 5993:5994 <> rf:90
+R6171:6171 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6188:6189 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6206:6206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6172:6175 Coq.FSets.FSetPositive PositiveSet node def
+R6186:6187 Coq.FSets.FSetPositive <> rt:89 var
+R6180:6184 Coq.Init.Datatypes <> false constr
+R6177:6178 Coq.FSets.FSetPositive <> lt:87 var
+R6190:6193 Coq.FSets.FSetPositive PositiveSet node def
+R6204:6205 Coq.FSets.FSetPositive <> rf:90 var
+R6198:6202 Coq.Init.Datatypes <> false constr
+R6195:6196 Coq.FSets.FSetPositive <> lf:88 var
+R6068:6068 Coq.FSets.FSetPositive <> PositiveSet.Quantifiers.f var
+R6071:6073 Coq.FSets.FSetPositive PositiveSet rev def
+R6075:6075 Coq.FSets.FSetPositive <> i:84 var
+binder 6062:6063 <> fi:91
+R6098:6098 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6112:6113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6134:6134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6099:6102 Coq.FSets.FSetPositive PositiveSet node def
+R6110:6111 Coq.FSets.FSetPositive <> rt:89 var
+R6107:6108 Coq.FSets.FSetPositive <> fi:91 var
+R6104:6105 Coq.FSets.FSetPositive <> lt:87 var
+R6114:6117 Coq.FSets.FSetPositive PositiveSet node def
+R6132:6133 Coq.FSets.FSetPositive <> rf:90 var
+R6123:6126 Coq.Init.Datatypes <> negb def
+R6128:6129 Coq.FSets.FSetPositive <> fi:91 var
+R6119:6120 Coq.FSets.FSetPositive <> lf:88 var
+def 6234:6242 PositiveSet partition
+binder 6244:6244 <> m:92
+R6249:6258 Coq.FSets.FSetPositive PositiveSet xpartition def
+R6260:6260 Coq.FSets.FSetPositive <> m:92 var
+R6272:6282 Coq.FSets.FSetPositive PositiveSet.Quantifiers <> sec
+def 6379:6387 PositiveSet xelements
+R6394:6394 Coq.FSets.FSetPositive PositiveSet t def
+binder 6390:6390 <> m:93
+R6402:6404 Coq.FSets.FSetPositive PositiveSet elt def
+binder 6398:6398 <> i:94
+R6411:6414 Coq.Init.Datatypes <> list ind
+R6416:6418 Coq.FSets.FSetPositive PositiveSet elt def
+binder 6408:6408 <> a:95
+R6434:6434 Coq.FSets.FSetPositive <> m:93 var
+R6449:6452 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R6457:6457 Coq.FSets.FSetPositive <> a:95 var
+R6467:6470 Coq.FSets.FSetPositive PositiveSet Node constr
+R6474:6478 Coq.Init.Datatypes <> false constr
+R6485:6493 Coq.FSets.FSetPositive <> xelements:96 def
+R6502:6510 Coq.FSets.FSetPositive <> xelements:96 def
+R6518:6518 Coq.FSets.FSetPositive <> a:95 var
+R6515:6516 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R6514:6514 Coq.FSets.FSetPositive <> i:94 var
+R6498:6499 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R6497:6497 Coq.FSets.FSetPositive <> i:94 var
+R6529:6532 Coq.FSets.FSetPositive PositiveSet Node constr
+R6536:6539 Coq.Init.Datatypes <> true constr
+R6546:6554 Coq.FSets.FSetPositive <> xelements:96 def
+R6568:6571 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6563:6565 Coq.FSets.FSetPositive PositiveSet rev def
+R6567:6567 Coq.FSets.FSetPositive <> i:94 var
+R6572:6580 Coq.FSets.FSetPositive <> xelements:96 def
+R6588:6588 Coq.FSets.FSetPositive <> a:95 var
+R6585:6586 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R6584:6584 Coq.FSets.FSetPositive <> i:94 var
+R6559:6560 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R6558:6558 Coq.FSets.FSetPositive <> i:94 var
+def 6614:6621 PositiveSet elements
+R6628:6628 Coq.FSets.FSetPositive PositiveSet t def
+binder 6624:6624 <> m:98
+R6634:6642 Coq.FSets.FSetPositive PositiveSet xelements def
+R6648:6650 Coq.Init.Datatypes <> nil constr
+R6644:6644 Coq.FSets.FSetPositive <> m:98 var
+def 6665:6672 PositiveSet cardinal
+R6679:6679 Coq.FSets.FSetPositive PositiveSet t def
+binder 6675:6675 <> m:99
+R6684:6686 Coq.Init.Datatypes <> nat ind
+R6701:6701 Coq.FSets.FSetPositive <> m:99 var
+R6716:6719 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R6724:6724 Coq.Init.Datatypes <> O constr
+R6734:6737 Coq.FSets.FSetPositive PositiveSet Node constr
+R6741:6745 Coq.Init.Datatypes <> false constr
+R6763:6765 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6753:6760 Coq.FSets.FSetPositive <> cardinal:100 def
+R6766:6773 Coq.FSets.FSetPositive <> cardinal:100 def
+R6790:6793 Coq.FSets.FSetPositive PositiveSet Node constr
+R6797:6800 Coq.Init.Datatypes <> true constr
+R6807:6807 Coq.Init.Datatypes <> S constr
+R6820:6822 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6810:6817 Coq.FSets.FSetPositive <> cardinal:100 def
+R6823:6830 Coq.FSets.FSetPositive <> cardinal:100 def
+def 6858:6861 PositiveSet omap
+R6870:6873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6867:6869 Coq.FSets.FSetPositive PositiveSet elt def
+R6874:6876 Coq.FSets.FSetPositive PositiveSet elt def
+binder 6864:6864 <> f:102
+binder 6879:6879 <> x:103
+R6894:6894 Coq.FSets.FSetPositive <> x:103 var
+R6909:6912 Coq.Init.Datatypes <> None constr
+R6917:6920 Coq.Init.Datatypes <> None constr
+R6930:6933 Coq.Init.Datatypes <> Some constr
+R6940:6943 Coq.Init.Datatypes <> Some constr
+R6946:6946 Coq.FSets.FSetPositive <> f:102 var
+def 7053:7058 PositiveSet choose
+R7064:7064 Coq.FSets.FSetPositive PositiveSet t def
+binder 7061:7061 <> m:105
+R7069:7074 Coq.Init.Datatypes <> option ind
+R7076:7078 Coq.FSets.FSetPositive PositiveSet elt def
+R7093:7093 Coq.FSets.FSetPositive <> m:105 var
+R7108:7111 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R7116:7119 Coq.Init.Datatypes <> None constr
+R7129:7132 Coq.FSets.FSetPositive PositiveSet Node constr
+R7179:7184 Coq.FSets.FSetPositive <> choose:106 def
+R7205:7208 Coq.Init.Datatypes <> None constr
+R7213:7216 Coq.FSets.FSetPositive PositiveSet omap def
+R7222:7227 Coq.FSets.FSetPositive <> choose:106 def
+R7218:7219 Coq.Numbers.BinNums <> xI constr
+R7244:7247 Coq.Init.Datatypes <> Some constr
+R7254:7257 Coq.Init.Datatypes <> Some constr
+R7260:7261 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R7153:7156 Coq.Init.Datatypes <> Some constr
+def 7296:7302 PositiveSet min_elt
+R7308:7308 Coq.FSets.FSetPositive PositiveSet t def
+binder 7305:7305 <> m:108
+R7313:7318 Coq.Init.Datatypes <> option ind
+R7320:7322 Coq.FSets.FSetPositive PositiveSet elt def
+R7337:7337 Coq.FSets.FSetPositive <> m:108 var
+R7352:7355 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R7360:7363 Coq.Init.Datatypes <> None constr
+R7373:7376 Coq.FSets.FSetPositive PositiveSet Node constr
+R7401:7407 Coq.FSets.FSetPositive <> min_elt:109 def
+R7428:7431 Coq.Init.Datatypes <> None constr
+R7458:7461 Coq.FSets.FSetPositive PositiveSet omap def
+R7467:7473 Coq.FSets.FSetPositive <> min_elt:109 def
+R7463:7464 Coq.Numbers.BinNums <> xI constr
+R7446:7449 Coq.Init.Datatypes <> Some constr
+R7490:7493 Coq.Init.Datatypes <> Some constr
+R7500:7503 Coq.Init.Datatypes <> Some constr
+R7506:7507 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+def 7542:7548 PositiveSet max_elt
+R7554:7554 Coq.FSets.FSetPositive PositiveSet t def
+binder 7551:7551 <> m:111
+R7559:7564 Coq.Init.Datatypes <> option ind
+R7566:7568 Coq.FSets.FSetPositive PositiveSet elt def
+R7583:7583 Coq.FSets.FSetPositive <> m:111 var
+R7598:7601 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R7606:7609 Coq.Init.Datatypes <> None constr
+R7619:7622 Coq.FSets.FSetPositive PositiveSet Node constr
+R7647:7653 Coq.FSets.FSetPositive <> max_elt:112 def
+R7674:7677 Coq.Init.Datatypes <> None constr
+R7704:7707 Coq.FSets.FSetPositive PositiveSet omap def
+R7713:7719 Coq.FSets.FSetPositive <> max_elt:112 def
+R7709:7710 Coq.Numbers.BinNums <> xO constr
+R7692:7695 Coq.Init.Datatypes <> Some constr
+R7736:7739 Coq.Init.Datatypes <> Some constr
+R7746:7749 Coq.Init.Datatypes <> Some constr
+R7752:7753 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+abbrev 7866:7868 PositiveSet lex
+R7890:7891 Coq.Init.Datatypes <> Eq constr
+R7900:7901 Coq.Init.Datatypes <> Lt constr
+R7906:7907 Coq.Init.Datatypes <> Lt constr
+R7911:7912 Coq.Init.Datatypes <> Gt constr
+R7917:7918 Coq.Init.Datatypes <> Gt constr
+def 7939:7950 PositiveSet compare_bool
+binder 7952:7952 <> a:114
+binder 7954:7954 <> b:115
+R7971:7971 Coq.FSets.FSetPositive <> b:115 var
+R7969:7969 Coq.FSets.FSetPositive <> a:114 var
+R7986:7990 Coq.Init.Datatypes <> false constr
+R7993:7996 Coq.Init.Datatypes <> true constr
+R8001:8002 Coq.Init.Datatypes <> Lt constr
+R8012:8015 Coq.Init.Datatypes <> true constr
+R8018:8022 Coq.Init.Datatypes <> false constr
+R8027:8028 Coq.Init.Datatypes <> Gt constr
+R8045:8046 Coq.Init.Datatypes <> Eq constr
+def 8069:8079 PositiveSet compare_fun
+R8088:8088 Coq.FSets.FSetPositive PositiveSet t def
+binder 8082:8082 <> m:118
+binder 8084:8085 <> m':119
+R8092:8101 Coq.Init.Datatypes <> comparison ind
+R8118:8119 Coq.FSets.FSetPositive <> m':119 var
+R8116:8116 Coq.FSets.FSetPositive <> m:118 var
+R8134:8137 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R8147:8154 Coq.FSets.FSetPositive PositiveSet is_empty def
+R8156:8157 Coq.FSets.FSetPositive <> m':119 var
+R8172:8173 Coq.Init.Datatypes <> Lt constr
+R8164:8165 Coq.Init.Datatypes <> Eq constr
+R8185:8188 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R8196:8203 Coq.FSets.FSetPositive PositiveSet is_empty def
+R8205:8205 Coq.FSets.FSetPositive <> m:118 var
+R8220:8221 Coq.Init.Datatypes <> Gt constr
+R8212:8213 Coq.Init.Datatypes <> Eq constr
+R8231:8234 Coq.FSets.FSetPositive PositiveSet Node constr
+R8242:8245 Coq.FSets.FSetPositive PositiveSet Node constr
+R8267:8269 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R8272:8283 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R8292:8294 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R8297:8307 Coq.FSets.FSetPositive <> compare_fun:120 def
+R8316:8326 Coq.FSets.FSetPositive <> compare_fun:120 def
+def 8359:8360 PositiveSet In
+binder 8362:8362 <> i:123
+binder 8364:8364 <> t:124
+R8376:8378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8369:8371 Coq.FSets.FSetPositive PositiveSet mem def
+R8375:8375 Coq.FSets.FSetPositive <> t:124 var
+R8373:8373 Coq.FSets.FSetPositive <> i:123 var
+R8379:8382 Coq.Init.Datatypes <> true constr
+def 8398:8402 PositiveSet Equal
+binder 8404:8404 <> s:125
+binder 8406:8407 <> s':126
+R8423:8425 Coq.FSets.FSetPositive PositiveSet elt def
+binder 8419:8419 <> a:127
+R8435:8439 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8428:8429 Coq.FSets.FSetPositive PositiveSet In def
+R8434:8434 Coq.FSets.FSetPositive <> s:125 var
+R8431:8431 Coq.FSets.FSetPositive <> a:127 var
+R8440:8441 Coq.FSets.FSetPositive PositiveSet In def
+R8446:8447 Coq.FSets.FSetPositive <> s':126 var
+R8443:8443 Coq.FSets.FSetPositive <> a:127 var
+def 8463:8468 PositiveSet Subset
+binder 8470:8470 <> s:128
+binder 8472:8473 <> s':129
+R8489:8491 Coq.FSets.FSetPositive PositiveSet elt def
+binder 8485:8485 <> a:130
+R8500:8503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8494:8495 Coq.FSets.FSetPositive PositiveSet In def
+R8499:8499 Coq.FSets.FSetPositive <> s:128 var
+R8497:8497 Coq.FSets.FSetPositive <> a:130 var
+R8504:8505 Coq.FSets.FSetPositive PositiveSet In def
+R8509:8510 Coq.FSets.FSetPositive <> s':129 var
+R8507:8507 Coq.FSets.FSetPositive <> a:130 var
+def 8526:8530 PositiveSet Empty
+binder 8532:8532 <> s:131
+R8548:8550 Coq.FSets.FSetPositive PositiveSet elt def
+binder 8544:8544 <> a:132
+R8553:8554 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8555:8556 Coq.FSets.FSetPositive PositiveSet In def
+R8560:8560 Coq.FSets.FSetPositive <> s:131 var
+R8558:8558 Coq.FSets.FSetPositive <> a:132 var
+def 8576:8582 PositiveSet For_all
+R8592:8595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8589:8591 Coq.FSets.FSetPositive PositiveSet elt def
+binder 8585:8585 <> P:133
+binder 8602:8602 <> s:134
+binder 8614:8614 <> x:135
+R8623:8626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8617:8618 Coq.FSets.FSetPositive PositiveSet In def
+R8622:8622 Coq.FSets.FSetPositive <> s:134 var
+R8620:8620 Coq.FSets.FSetPositive <> x:135 var
+R8627:8627 Coq.FSets.FSetPositive <> P:133 var
+R8629:8629 Coq.FSets.FSetPositive <> x:135 var
+def 8645:8650 PositiveSet Exists
+R8660:8663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8657:8659 Coq.FSets.FSetPositive PositiveSet elt def
+binder 8653:8653 <> P:136
+binder 8670:8670 <> s:137
+R8675:8681 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8683:8684 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8682:8682 <> x:138
+R8691:8694 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8685:8686 Coq.FSets.FSetPositive PositiveSet In def
+R8690:8690 Coq.FSets.FSetPositive <> s:137 var
+R8688:8688 Coq.FSets.FSetPositive <> x:138 var
+R8695:8695 Coq.FSets.FSetPositive <> P:136 var
+R8697:8697 Coq.FSets.FSetPositive <> x:138 var
+R8728:8732 Coq.FSets.FSetPositive PositiveSet Equal def
+not 8712:8712 PositiveSet :::x_'[=]'_x
+R8800:8805 Coq.FSets.FSetPositive PositiveSet Subset def
+not 8783:8783 PositiveSet :::x_'[<=]'_x
+def 8859:8860 PositiveSet eq
+R8865:8869 Coq.FSets.FSetPositive PositiveSet Equal def
+R8899:8903 Coq.FSets.FSetPositive PositiveSet Equal def
+R8905:8906 Coq.FSets.FSetPositive PositiveSet eq def
+def 8923:8924 PositiveSet lt
+binder 8926:8926 <> m:139
+binder 8928:8929 <> m':140
+R8950:8952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8934:8944 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R8948:8949 Coq.FSets.FSetPositive <> m':140 var
+R8946:8946 Coq.FSets.FSetPositive <> m:139 var
+R8953:8954 Coq.Init.Datatypes <> Lt constr
+prf 8998:9001 PositiveSet In_1
+binder 9011:9011 <> s:141
+binder 9013:9013 <> x:142
+binder 9015:9015 <> y:143
+R9026:9029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9018:9021 Coq.FSets.FSetPositive PositiveSet eq def
+R9023:9023 Coq.FSets.FSetPositive <> x:142 var
+R9025:9025 Coq.FSets.FSetPositive <> y:143 var
+R9036:9039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9030:9031 Coq.FSets.FSetPositive PositiveSet In def
+R9035:9035 Coq.FSets.FSetPositive <> s:141 var
+R9033:9033 Coq.FSets.FSetPositive <> x:142 var
+R9040:9041 Coq.FSets.FSetPositive PositiveSet In def
+R9045:9045 Coq.FSets.FSetPositive <> s:141 var
+R9043:9043 Coq.FSets.FSetPositive <> y:143 var
+prf 9129:9135 PositiveSet eq_refl
+binder 9145:9145 <> s:144
+R9148:9149 Coq.FSets.FSetPositive PositiveSet eq def
+R9153:9153 Coq.FSets.FSetPositive <> s:144 var
+R9151:9151 Coq.FSets.FSetPositive <> s:144 var
+R9172:9173 Coq.FSets.FSetPositive PositiveSet eq def
+R9176:9180 Coq.FSets.FSetPositive PositiveSet Equal def
+prf 9210:9215 PositiveSet eq_sym
+binder 9225:9225 <> s:145
+binder 9227:9228 <> s':146
+R9238:9241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9231:9232 Coq.FSets.FSetPositive PositiveSet eq def
+R9236:9237 Coq.FSets.FSetPositive <> s':146 var
+R9234:9234 Coq.FSets.FSetPositive <> s:145 var
+R9242:9243 Coq.FSets.FSetPositive PositiveSet eq def
+R9248:9248 Coq.FSets.FSetPositive <> s:145 var
+R9245:9246 Coq.FSets.FSetPositive <> s':146 var
+R9267:9268 Coq.FSets.FSetPositive PositiveSet eq def
+R9271:9275 Coq.FSets.FSetPositive PositiveSet Equal def
+prf 9319:9326 PositiveSet eq_trans
+binder 9336:9336 <> s:147
+binder 9338:9339 <> s':148
+binder 9341:9343 <> s'':149
+R9353:9356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9346:9347 Coq.FSets.FSetPositive PositiveSet eq def
+R9351:9352 Coq.FSets.FSetPositive <> s':148 var
+R9349:9349 Coq.FSets.FSetPositive <> s:147 var
+R9366:9369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9357:9358 Coq.FSets.FSetPositive PositiveSet eq def
+R9363:9365 Coq.FSets.FSetPositive <> s'':149 var
+R9360:9361 Coq.FSets.FSetPositive <> s':148 var
+R9370:9371 Coq.FSets.FSetPositive PositiveSet eq def
+R9375:9377 Coq.FSets.FSetPositive <> s'':149 var
+R9373:9373 Coq.FSets.FSetPositive <> s:147 var
+R9396:9397 Coq.FSets.FSetPositive PositiveSet eq def
+R9400:9404 Coq.FSets.FSetPositive PositiveSet Equal def
+prf 9494:9498 PositiveSet mem_1
+binder 9508:9508 <> s:150
+binder 9510:9510 <> x:151
+R9519:9522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9513:9514 Coq.FSets.FSetPositive PositiveSet In def
+R9518:9518 Coq.FSets.FSetPositive <> s:150 var
+R9516:9516 Coq.FSets.FSetPositive <> x:151 var
+R9530:9532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9523:9525 Coq.FSets.FSetPositive PositiveSet mem def
+R9529:9529 Coq.FSets.FSetPositive <> s:150 var
+R9527:9527 Coq.FSets.FSetPositive <> x:151 var
+R9533:9536 Coq.Init.Datatypes <> true constr
+R9555:9556 Coq.FSets.FSetPositive PositiveSet In def
+prf 9582:9586 PositiveSet mem_2
+binder 9596:9596 <> s:152
+binder 9598:9598 <> x:153
+R9615:9618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9608:9610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9601:9603 Coq.FSets.FSetPositive PositiveSet mem def
+R9607:9607 Coq.FSets.FSetPositive <> s:152 var
+R9605:9605 Coq.FSets.FSetPositive <> x:153 var
+R9611:9614 Coq.Init.Datatypes <> true constr
+R9619:9620 Coq.FSets.FSetPositive PositiveSet In def
+R9624:9624 Coq.FSets.FSetPositive <> s:152 var
+R9622:9622 Coq.FSets.FSetPositive <> x:153 var
+R9643:9644 Coq.FSets.FSetPositive PositiveSet In def
+prf 9707:9714 PositiveSet mem_Leaf
+binder 9724:9724 <> x:154
+R9737:9739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9727:9729 Coq.FSets.FSetPositive PositiveSet mem def
+R9733:9736 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R9731:9731 Coq.FSets.FSetPositive <> x:154 var
+R9740:9744 Coq.Init.Datatypes <> false constr
+prf 9826:9832 PositiveSet empty_1
+R9836:9840 Coq.FSets.FSetPositive PositiveSet Empty def
+R9842:9846 Coq.FSets.FSetPositive PositiveSet empty def
+R9865:9869 Coq.FSets.FSetPositive PositiveSet Empty def
+R9872:9873 Coq.FSets.FSetPositive PositiveSet In def
+R9891:9898 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R9891:9898 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R9891:9898 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+prf 9962:9969 PositiveSet mem_node
+binder 9979:9979 <> x:155
+binder 9981:9981 <> l:156
+binder 9983:9983 <> o:157
+binder 9985:9985 <> r:158
+R10006:10008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9988:9990 Coq.FSets.FSetPositive PositiveSet mem def
+R9995:9998 Coq.FSets.FSetPositive PositiveSet node def
+R10004:10004 Coq.FSets.FSetPositive <> r:158 var
+R10002:10002 Coq.FSets.FSetPositive <> o:157 var
+R10000:10000 Coq.FSets.FSetPositive <> l:156 var
+R9992:9992 Coq.FSets.FSetPositive <> x:155 var
+R10009:10011 Coq.FSets.FSetPositive PositiveSet mem def
+R10016:10019 Coq.FSets.FSetPositive PositiveSet Node constr
+R10025:10025 Coq.FSets.FSetPositive <> r:158 var
+R10023:10023 Coq.FSets.FSetPositive <> o:157 var
+R10021:10021 Coq.FSets.FSetPositive <> l:156 var
+R10013:10013 Coq.FSets.FSetPositive <> x:155 var
+R10171:10174 Coq.FSets.FSetPositive PositiveSet node def
+prf 10224:10236 PositiveSet is_empty_spec
+binder 10246:10246 <> s:159
+R10256:10260 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10249:10253 Coq.FSets.FSetPositive PositiveSet Empty def
+R10255:10255 Coq.FSets.FSetPositive <> s:159 var
+R10271:10273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10261:10268 Coq.FSets.FSetPositive PositiveSet is_empty def
+R10270:10270 Coq.FSets.FSetPositive <> s:159 var
+R10274:10277 Coq.Init.Datatypes <> true constr
+R10300:10304 Coq.FSets.FSetPositive PositiveSet Empty def
+R10307:10308 Coq.FSets.FSetPositive PositiveSet In def
+R10384:10396 Coq.Bool.Bool <> andb_lazy_alt thm
+R10400:10412 Coq.Bool.Bool <> andb_true_iff thm
+R10384:10396 Coq.Bool.Bool <> andb_lazy_alt thm
+R10384:10396 Coq.Bool.Bool <> andb_lazy_alt thm
+R10384:10396 Coq.Bool.Bool <> andb_lazy_alt thm
+R10400:10412 Coq.Bool.Bool <> andb_true_iff thm
+R10400:10412 Coq.Bool.Bool <> andb_true_iff thm
+R10400:10412 Coq.Bool.Bool <> andb_true_iff thm
+R10625:10626 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R10625:10626 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R10659:10660 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R10659:10660 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+prf 10737:10746 PositiveSet is_empty_1
+binder 10756:10756 <> s:160
+R10766:10769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10759:10763 Coq.FSets.FSetPositive PositiveSet Empty def
+R10765:10765 Coq.FSets.FSetPositive <> s:160 var
+R10780:10782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10770:10777 Coq.FSets.FSetPositive PositiveSet is_empty def
+R10779:10779 Coq.FSets.FSetPositive <> s:160 var
+R10783:10786 Coq.Init.Datatypes <> true constr
+R10813:10825 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R10813:10825 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R10813:10825 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+prf 10851:10860 PositiveSet is_empty_2
+binder 10870:10870 <> s:161
+R10890:10893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10883:10885 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10873:10880 Coq.FSets.FSetPositive PositiveSet is_empty def
+R10882:10882 Coq.FSets.FSetPositive <> s:161 var
+R10886:10889 Coq.Init.Datatypes <> true constr
+R10894:10898 Coq.FSets.FSetPositive PositiveSet Empty def
+R10900:10900 Coq.FSets.FSetPositive <> s:161 var
+R10927:10939 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R10927:10939 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R10927:10939 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+prf 11001:11013 PositiveSet subset_Leaf_s
+binder 11023:11023 <> s:162
+R11030:11035 Coq.FSets.FSetPositive PositiveSet :::x_'[<=]'_x not
+R11026:11029 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R11036:11036 Coq.FSets.FSetPositive <> s:162 var
+R11069:11075 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11069:11075 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+prf 11096:11106 PositiveSet subset_spec
+binder 11116:11116 <> s:163
+binder 11118:11119 <> s':164
+R11131:11135 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11123:11128 Coq.FSets.FSetPositive PositiveSet :::x_'[<=]'_x not
+R11122:11122 Coq.FSets.FSetPositive <> s:163 var
+R11129:11130 Coq.FSets.FSetPositive <> s':164 var
+R11147:11149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11136:11141 Coq.FSets.FSetPositive PositiveSet subset def
+R11145:11146 Coq.FSets.FSetPositive <> s':164 var
+R11143:11143 Coq.FSets.FSetPositive <> s:163 var
+R11150:11153 Coq.Init.Datatypes <> true constr
+R11269:11281 Coq.FSets.FSetPositive PositiveSet subset_Leaf_s thm
+R11269:11281 Coq.FSets.FSetPositive PositiveSet subset_Leaf_s thm
+R11325:11337 Coq.FSets.FSetPositive PositiveSet subset_Leaf_s thm
+R11325:11337 Coq.FSets.FSetPositive PositiveSet subset_Leaf_s thm
+R11359:11371 Coq.Bool.Bool <> andb_lazy_alt thm
+R11375:11387 Coq.Bool.Bool <> andb_true_iff thm
+R11394:11406 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R11359:11371 Coq.Bool.Bool <> andb_lazy_alt thm
+R11359:11371 Coq.Bool.Bool <> andb_lazy_alt thm
+R11359:11371 Coq.Bool.Bool <> andb_lazy_alt thm
+R11375:11387 Coq.Bool.Bool <> andb_true_iff thm
+R11375:11387 Coq.Bool.Bool <> andb_true_iff thm
+R11375:11387 Coq.Bool.Bool <> andb_true_iff thm
+R11394:11406 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R11394:11406 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R11394:11406 Coq.FSets.FSetPositive PositiveSet is_empty_spec thm
+R11475:11481 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11475:11481 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11621:11625 Coq.FSets.FSetPositive PositiveSet Empty def
+R11649:11655 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11659:11660 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R11649:11655 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11659:11660 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R11703:11707 Coq.FSets.FSetPositive PositiveSet Empty def
+R11731:11737 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11741:11742 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R11731:11737 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R11741:11742 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R11934:11946 Coq.Bool.Bool <> andb_lazy_alt thm
+R11950:11962 Coq.Bool.Bool <> andb_true_iff thm
+R11934:11946 Coq.Bool.Bool <> andb_lazy_alt thm
+R11934:11946 Coq.Bool.Bool <> andb_lazy_alt thm
+R11934:11946 Coq.Bool.Bool <> andb_lazy_alt thm
+R11950:11962 Coq.Bool.Bool <> andb_true_iff thm
+R11950:11962 Coq.Bool.Bool <> andb_true_iff thm
+R11950:11962 Coq.Bool.Bool <> andb_true_iff thm
+R12126:12127 Coq.FSets.FSetPositive PositiveSet In def
+R12202:12203 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R12202:12203 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R12250:12251 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R12250:12251 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R12543:12544 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R12543:12544 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R12592:12593 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R12592:12593 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+prf 12795:12802 PositiveSet subset_1
+binder 12812:12812 <> s:165
+binder 12814:12815 <> s':166
+R12829:12832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12818:12823 Coq.FSets.FSetPositive PositiveSet Subset def
+R12827:12828 Coq.FSets.FSetPositive <> s':166 var
+R12825:12825 Coq.FSets.FSetPositive <> s:165 var
+R12844:12846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12833:12838 Coq.FSets.FSetPositive PositiveSet subset def
+R12842:12843 Coq.FSets.FSetPositive <> s':166 var
+R12840:12840 Coq.FSets.FSetPositive <> s:165 var
+R12847:12850 Coq.Init.Datatypes <> true constr
+R12884:12894 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R12884:12894 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+prf 12920:12927 PositiveSet subset_2
+binder 12937:12937 <> s:167
+binder 12939:12940 <> s':168
+R12961:12964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12954:12956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12943:12948 Coq.FSets.FSetPositive PositiveSet subset def
+R12952:12953 Coq.FSets.FSetPositive <> s':168 var
+R12950:12950 Coq.FSets.FSetPositive <> s:167 var
+R12957:12960 Coq.Init.Datatypes <> true constr
+R12965:12970 Coq.FSets.FSetPositive PositiveSet Subset def
+R12974:12975 Coq.FSets.FSetPositive <> s':168 var
+R12972:12972 Coq.FSets.FSetPositive <> s:167 var
+R13009:13019 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R13009:13019 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+prf 13093:13104 PositiveSet equal_subset
+binder 13114:13114 <> s:169
+binder 13116:13117 <> s':170
+R13130:13132 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13120:13124 Coq.FSets.FSetPositive PositiveSet equal def
+R13128:13129 Coq.FSets.FSetPositive <> s':170 var
+R13126:13126 Coq.FSets.FSetPositive <> s:169 var
+R13144:13147 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13133:13138 Coq.FSets.FSetPositive PositiveSet subset def
+R13142:13143 Coq.FSets.FSetPositive <> s':170 var
+R13140:13140 Coq.FSets.FSetPositive <> s:169 var
+R13148:13153 Coq.FSets.FSetPositive PositiveSet subset def
+R13158:13158 Coq.FSets.FSetPositive <> s:169 var
+R13155:13156 Coq.FSets.FSetPositive <> s':170 var
+R13282:13290 Coq.Bool.Bool <> andb_comm thm
+R13282:13290 Coq.Bool.Bool <> andb_comm thm
+R13282:13290 Coq.Bool.Bool <> andb_comm thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13324:13336 Coq.Bool.Bool <> andb_lazy_alt thm
+R13347:13360 Coq.Bool.Bool <> eq_iff_eq_true thm
+R13347:13360 Coq.Bool.Bool <> eq_iff_eq_true thm
+R13347:13360 Coq.Bool.Bool <> eq_iff_eq_true thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13394:13405 Coq.Bool.Bool <> eqb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13379:13391 Coq.Bool.Bool <> andb_true_iff thm
+R13394:13405 Coq.Bool.Bool <> eqb_true_iff thm
+R13394:13405 Coq.Bool.Bool <> eqb_true_iff thm
+R13433:13445 Coq.Bool.Bool <> andb_true_iff thm
+R13433:13445 Coq.Bool.Bool <> andb_true_iff thm
+R13433:13445 Coq.Bool.Bool <> andb_true_iff thm
+R13433:13445 Coq.Bool.Bool <> andb_true_iff thm
+prf 13609:13618 PositiveSet equal_spec
+binder 13628:13628 <> s:171
+binder 13630:13631 <> s':172
+R13644:13648 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13634:13638 Coq.FSets.FSetPositive PositiveSet Equal def
+R13642:13643 Coq.FSets.FSetPositive <> s':172 var
+R13640:13640 Coq.FSets.FSetPositive <> s:171 var
+R13659:13661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13649:13653 Coq.FSets.FSetPositive PositiveSet equal def
+R13657:13658 Coq.FSets.FSetPositive <> s':172 var
+R13655:13655 Coq.FSets.FSetPositive <> s:171 var
+R13662:13665 Coq.Init.Datatypes <> true constr
+R13697:13708 Coq.FSets.FSetPositive PositiveSet equal_subset thm
+R13697:13708 Coq.FSets.FSetPositive PositiveSet equal_subset thm
+R13697:13708 Coq.FSets.FSetPositive PositiveSet equal_subset thm
+R13719:13731 Coq.Bool.Bool <> andb_true_iff thm
+R13719:13731 Coq.Bool.Bool <> andb_true_iff thm
+R13719:13731 Coq.Bool.Bool <> andb_true_iff thm
+R13750:13760 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R13750:13760 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R13750:13760 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R13750:13760 Coq.FSets.FSetPositive PositiveSet subset_spec thm
+R13770:13774 Coq.FSets.FSetPositive PositiveSet Equal def
+R13777:13782 Coq.FSets.FSetPositive PositiveSet Subset def
+prf 13813:13819 PositiveSet equal_1
+binder 13829:13829 <> s:173
+binder 13831:13832 <> s':174
+R13845:13848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13835:13839 Coq.FSets.FSetPositive PositiveSet Equal def
+R13843:13844 Coq.FSets.FSetPositive <> s':174 var
+R13841:13841 Coq.FSets.FSetPositive <> s:173 var
+R13859:13861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13849:13853 Coq.FSets.FSetPositive PositiveSet equal def
+R13857:13858 Coq.FSets.FSetPositive <> s':174 var
+R13855:13855 Coq.FSets.FSetPositive <> s:173 var
+R13862:13865 Coq.Init.Datatypes <> true constr
+R13899:13908 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R13899:13908 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+prf 13934:13940 PositiveSet equal_2
+binder 13950:13950 <> s:175
+binder 13952:13953 <> s':176
+R13973:13976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13966:13968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13956:13960 Coq.FSets.FSetPositive PositiveSet equal def
+R13964:13965 Coq.FSets.FSetPositive <> s':176 var
+R13962:13962 Coq.FSets.FSetPositive <> s:175 var
+R13969:13972 Coq.Init.Datatypes <> true constr
+R13977:13981 Coq.FSets.FSetPositive PositiveSet Equal def
+R13985:13986 Coq.FSets.FSetPositive <> s':176 var
+R13983:13983 Coq.FSets.FSetPositive <> s:175 var
+R14020:14029 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R14020:14029 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+prf 14055:14060 PositiveSet eq_dec
+binder 14071:14071 <> s:177
+binder 14073:14074 <> s':178
+R14077:14078 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14086:14092 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14102:14103 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14079:14080 Coq.FSets.FSetPositive PositiveSet eq def
+R14084:14085 Coq.FSets.FSetPositive <> s':178 var
+R14082:14082 Coq.FSets.FSetPositive <> s:177 var
+R14093:14094 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14095:14096 Coq.FSets.FSetPositive PositiveSet eq def
+R14100:14101 Coq.FSets.FSetPositive <> s':178 var
+R14098:14098 Coq.FSets.FSetPositive <> s:177 var
+R14126:14127 Coq.FSets.FSetPositive PositiveSet eq def
+R14151:14155 Coq.FSets.FSetPositive PositiveSet equal def
+R14151:14155 Coq.FSets.FSetPositive PositiveSet equal def
+R14190:14196 Coq.FSets.FSetPositive PositiveSet equal_2 thm
+R14190:14196 Coq.FSets.FSetPositive PositiveSet equal_2 thm
+R14243:14249 Coq.FSets.FSetPositive PositiveSet equal_1 thm
+R14243:14249 Coq.FSets.FSetPositive PositiveSet equal_1 thm
+R14243:14249 Coq.FSets.FSetPositive PositiveSet equal_1 thm
+prf 14342:14348 PositiveSet lex_Opp
+binder 14358:14358 <> u:179
+binder 14360:14360 <> v:180
+binder 14362:14363 <> u':181
+binder 14365:14366 <> v':182
+R14383:14386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14370:14372 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14369:14369 Coq.FSets.FSetPositive <> u:179 var
+R14373:14379 Coq.Init.Datatypes <> CompOpp def
+R14381:14382 Coq.FSets.FSetPositive <> u':181 var
+R14401:14408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14388:14390 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14387:14387 Coq.FSets.FSetPositive <> v:180 var
+R14391:14397 Coq.Init.Datatypes <> CompOpp def
+R14399:14400 Coq.FSets.FSetPositive <> v':182 var
+R14416:14418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14409:14411 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R14413:14413 Coq.FSets.FSetPositive <> u:179 var
+R14415:14415 Coq.FSets.FSetPositive <> v:180 var
+R14419:14425 Coq.Init.Datatypes <> CompOpp def
+R14428:14430 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R14432:14433 Coq.FSets.FSetPositive <> u':181 var
+R14435:14436 Coq.FSets.FSetPositive <> v':182 var
+prf 14508:14523 PositiveSet compare_bool_inv
+binder 14533:14533 <> b:183
+binder 14535:14536 <> b':184
+R14560:14562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14543:14554 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R14558:14559 Coq.FSets.FSetPositive <> b':184 var
+R14556:14556 Coq.FSets.FSetPositive <> b:183 var
+R14563:14569 Coq.Init.Datatypes <> CompOpp def
+R14572:14583 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R14588:14588 Coq.FSets.FSetPositive <> b:183 var
+R14585:14586 Coq.FSets.FSetPositive <> b':184 var
+prf 14644:14654 PositiveSet compare_inv
+binder 14664:14664 <> s:185
+binder 14666:14667 <> s':186
+R14686:14688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14670:14680 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R14684:14685 Coq.FSets.FSetPositive <> s':186 var
+R14682:14682 Coq.FSets.FSetPositive <> s:185 var
+R14689:14695 Coq.Init.Datatypes <> CompOpp def
+R14698:14708 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R14713:14713 Coq.FSets.FSetPositive <> s:185 var
+R14710:14711 Coq.FSets.FSetPositive <> s':186 var
+R14811:14821 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R14829:14836 Coq.FSets.FSetPositive PositiveSet is_empty def
+R14829:14836 Coq.FSets.FSetPositive PositiveSet is_empty def
+R14863:14873 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R14881:14888 Coq.FSets.FSetPositive PositiveSet is_empty def
+R14881:14888 Coq.FSets.FSetPositive PositiveSet is_empty def
+R14923:14938 Coq.FSets.FSetPositive PositiveSet compare_bool_inv thm
+R14923:14938 Coq.FSets.FSetPositive PositiveSet compare_bool_inv thm
+R14923:14938 Coq.FSets.FSetPositive PositiveSet compare_bool_inv thm
+R14951:14962 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R14987:14993 Coq.FSets.FSetPositive PositiveSet lex_Opp thm
+R14951:14962 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R14987:14993 Coq.FSets.FSetPositive PositiveSet lex_Opp thm
+prf 15018:15023 PositiveSet lex_Eq
+binder 15033:15033 <> u:187
+binder 15035:15035 <> v:188
+R15050:15054 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15045:15047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15038:15040 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R15042:15042 Coq.FSets.FSetPositive <> u:187 var
+R15044:15044 Coq.FSets.FSetPositive <> v:188 var
+R15048:15049 Coq.Init.Datatypes <> Eq constr
+R15059:15062 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15056:15056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15055:15055 Coq.FSets.FSetPositive <> u:187 var
+R15057:15058 Coq.Init.Datatypes <> Eq constr
+R15064:15064 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15063:15063 Coq.FSets.FSetPositive <> v:188 var
+R15065:15066 Coq.Init.Datatypes <> Eq constr
+prf 15140:15154 PositiveSet compare_bool_Eq
+binder 15164:15165 <> b1:189
+binder 15167:15168 <> b2:190
+R15198:15202 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15193:15195 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15175:15186 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R15191:15192 Coq.FSets.FSetPositive <> b2:190 var
+R15188:15189 Coq.FSets.FSetPositive <> b1:189 var
+R15196:15197 Coq.Init.Datatypes <> Eq constr
+R15212:15214 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15203:15205 Coq.Bool.Bool <> eqb def
+R15207:15208 Coq.FSets.FSetPositive <> b1:189 var
+R15210:15211 Coq.FSets.FSetPositive <> b2:190 var
+R15215:15218 Coq.Init.Datatypes <> true constr
+prf 15284:15296 PositiveSet compare_equal
+binder 15306:15306 <> s:191
+binder 15308:15309 <> s':192
+R15333:15337 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15328:15330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15312:15322 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R15326:15327 Coq.FSets.FSetPositive <> s':192 var
+R15324:15324 Coq.FSets.FSetPositive <> s:191 var
+R15331:15332 Coq.Init.Datatypes <> Eq constr
+R15348:15350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15338:15342 Coq.FSets.FSetPositive PositiveSet equal def
+R15346:15347 Coq.FSets.FSetPositive <> s':192 var
+R15344:15344 Coq.FSets.FSetPositive <> s:191 var
+R15351:15354 Coq.Init.Datatypes <> true constr
+R15462:15472 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R15475:15479 Coq.FSets.FSetPositive PositiveSet equal def
+R15487:15494 Coq.FSets.FSetPositive PositiveSet is_empty def
+R15487:15494 Coq.FSets.FSetPositive PositiveSet is_empty def
+R15533:15543 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R15546:15550 Coq.FSets.FSetPositive PositiveSet equal def
+R15558:15565 Coq.FSets.FSetPositive PositiveSet is_empty def
+R15558:15565 Coq.FSets.FSetPositive PositiveSet is_empty def
+R15616:15628 Coq.Bool.Bool <> andb_lazy_alt thm
+R15632:15644 Coq.Bool.Bool <> andb_true_iff thm
+R15616:15628 Coq.Bool.Bool <> andb_lazy_alt thm
+R15616:15628 Coq.Bool.Bool <> andb_lazy_alt thm
+R15616:15628 Coq.Bool.Bool <> andb_lazy_alt thm
+R15632:15644 Coq.Bool.Bool <> andb_true_iff thm
+R15632:15644 Coq.Bool.Bool <> andb_true_iff thm
+R15632:15644 Coq.Bool.Bool <> andb_true_iff thm
+R15679:15693 Coq.FSets.FSetPositive PositiveSet compare_bool_Eq thm
+R15679:15693 Coq.FSets.FSetPositive PositiveSet compare_bool_Eq thm
+R15679:15693 Coq.FSets.FSetPositive PositiveSet compare_bool_Eq thm
+R15724:15732 Coq.Init.Logic <> and_assoc thm
+R15724:15732 Coq.Init.Logic <> and_assoc thm
+R15724:15732 Coq.Init.Logic <> and_assoc thm
+R15747:15752 Coq.FSets.FSetPositive PositiveSet lex_Eq thm
+R15747:15752 Coq.FSets.FSetPositive PositiveSet lex_Eq thm
+R15747:15752 Coq.FSets.FSetPositive PositiveSet lex_Eq thm
+R15747:15752 Coq.FSets.FSetPositive PositiveSet lex_Eq thm
+prf 15785:15794 PositiveSet compare_gt
+binder 15804:15804 <> s:193
+binder 15806:15807 <> s':194
+R15831:15834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15826:15828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15810:15820 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R15824:15825 Coq.FSets.FSetPositive <> s':194 var
+R15822:15822 Coq.FSets.FSetPositive <> s:193 var
+R15829:15830 Coq.Init.Datatypes <> Gt constr
+R15835:15836 Coq.FSets.FSetPositive PositiveSet lt def
+R15841:15841 Coq.FSets.FSetPositive <> s:193 var
+R15838:15839 Coq.FSets.FSetPositive <> s':194 var
+R15864:15865 Coq.FSets.FSetPositive PositiveSet lt def
+R15889:15899 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R15889:15899 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R15889:15899 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R15912:15922 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R15912:15922 Coq.FSets.FSetPositive PositiveSet compare_fun def
+prf 15972:15981 PositiveSet compare_eq
+binder 15991:15991 <> s:195
+binder 15993:15994 <> s':196
+R16018:16021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16013:16015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15997:16007 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R16011:16012 Coq.FSets.FSetPositive <> s':196 var
+R16009:16009 Coq.FSets.FSetPositive <> s:195 var
+R16016:16017 Coq.Init.Datatypes <> Eq constr
+R16022:16023 Coq.FSets.FSetPositive PositiveSet eq def
+R16027:16028 Coq.FSets.FSetPositive <> s':196 var
+R16025:16025 Coq.FSets.FSetPositive <> s:195 var
+R16051:16052 Coq.FSets.FSetPositive PositiveSet eq def
+R16076:16088 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+R16091:16100 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R16076:16088 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+R16076:16088 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+R16091:16100 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R16091:16100 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+prf 16128:16134 PositiveSet compare
+R16152:16152 Coq.FSets.FSetPositive PositiveSet t def
+binder 16145:16145 <> s:197
+binder 16147:16148 <> s':198
+R16155:16161 Coq.Structures.OrderedType <> Compare ind
+R16171:16172 Coq.FSets.FSetPositive <> s':198 var
+R16169:16169 Coq.FSets.FSetPositive <> s:197 var
+R16166:16167 Coq.FSets.FSetPositive PositiveSet eq def
+R16163:16164 Coq.FSets.FSetPositive PositiveSet lt def
+R16205:16215 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R16205:16215 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R16243:16244 Coq.Structures.OrderedType <> EQ constr
+R16243:16244 Coq.Structures.OrderedType <> EQ constr
+R16253:16262 Coq.FSets.FSetPositive PositiveSet compare_eq thm
+R16253:16262 Coq.FSets.FSetPositive PositiveSet compare_eq thm
+R16278:16279 Coq.Structures.OrderedType <> LT constr
+R16278:16279 Coq.Structures.OrderedType <> LT constr
+R16304:16305 Coq.Structures.OrderedType <> GT constr
+R16304:16305 Coq.Structures.OrderedType <> GT constr
+R16314:16323 Coq.FSets.FSetPositive PositiveSet compare_gt thm
+R16314:16323 Coq.FSets.FSetPositive PositiveSet compare_gt thm
+sec 16351:16357 PositiveSet lt_spec
+ind 16373:16374 PositiveSet ct
+constr 16431:16436 PositiveSet ct_xxx
+constr 16464:16469 PositiveSet ct_xex
+constr 16497:16502 PositiveSet ct_exx
+constr 16530:16535 PositiveSet ct_glx
+constr 16563:16568 PositiveSet ct_lgx
+R16387:16390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16377:16386 Coq.Init.Datatypes <> comparison ind
+R16401:16404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16391:16400 Coq.Init.Datatypes <> comparison ind
+R16415:16418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16405:16414 Coq.Init.Datatypes <> comparison ind
+binder 16446:16446 <> x:201
+R16449:16450 Coq.FSets.FSetPositive <> ct:199 ind
+R16458:16458 Coq.FSets.FSetPositive <> x:201 var
+R16455:16455 Coq.FSets.FSetPositive <> x:201 var
+R16452:16452 Coq.FSets.FSetPositive <> x:201 var
+binder 16479:16479 <> x:202
+R16482:16483 Coq.FSets.FSetPositive <> ct:199 ind
+R16491:16491 Coq.FSets.FSetPositive <> x:202 var
+R16488:16489 Coq.Init.Datatypes <> Eq constr
+R16485:16485 Coq.FSets.FSetPositive <> x:202 var
+binder 16512:16512 <> x:203
+R16515:16516 Coq.FSets.FSetPositive <> ct:199 ind
+R16524:16524 Coq.FSets.FSetPositive <> x:203 var
+R16521:16521 Coq.FSets.FSetPositive <> x:203 var
+R16518:16519 Coq.Init.Datatypes <> Eq constr
+binder 16545:16545 <> x:204
+R16548:16549 Coq.FSets.FSetPositive <> ct:199 ind
+R16557:16557 Coq.FSets.FSetPositive <> x:204 var
+R16554:16555 Coq.Init.Datatypes <> Lt constr
+R16551:16552 Coq.Init.Datatypes <> Gt constr
+binder 16578:16578 <> x:205
+R16581:16582 Coq.FSets.FSetPositive <> ct:199 ind
+R16590:16590 Coq.FSets.FSetPositive <> x:205 var
+R16587:16588 Coq.Init.Datatypes <> Gt constr
+R16584:16585 Coq.Init.Datatypes <> Lt constr
+prf 16602:16607 PositiveSet ct_cxe
+binder 16617:16617 <> x:206
+R16620:16621 Coq.FSets.FSetPositive PositiveSet ct ind
+R16637:16638 Coq.Init.Datatypes <> Eq constr
+R16635:16635 Coq.FSets.FSetPositive <> x:206 var
+R16624:16630 Coq.Init.Datatypes <> CompOpp def
+R16632:16632 Coq.FSets.FSetPositive <> x:206 var
+prf 16689:16694 PositiveSet ct_xce
+binder 16704:16704 <> x:207
+R16707:16708 Coq.FSets.FSetPositive PositiveSet ct ind
+R16724:16725 Coq.Init.Datatypes <> Eq constr
+R16713:16719 Coq.Init.Datatypes <> CompOpp def
+R16721:16721 Coq.FSets.FSetPositive <> x:207 var
+R16710:16710 Coq.FSets.FSetPositive <> x:207 var
+prf 16776:16781 PositiveSet ct_lxl
+binder 16791:16791 <> x:208
+R16794:16795 Coq.FSets.FSetPositive PositiveSet ct ind
+R16802:16803 Coq.Init.Datatypes <> Lt constr
+R16800:16800 Coq.FSets.FSetPositive <> x:208 var
+R16797:16798 Coq.Init.Datatypes <> Lt constr
+prf 16854:16859 PositiveSet ct_gxg
+binder 16869:16869 <> x:209
+R16872:16873 Coq.FSets.FSetPositive PositiveSet ct ind
+R16880:16881 Coq.Init.Datatypes <> Gt constr
+R16878:16878 Coq.FSets.FSetPositive <> x:209 var
+R16875:16876 Coq.Init.Datatypes <> Gt constr
+prf 16932:16937 PositiveSet ct_xll
+binder 16947:16947 <> x:210
+R16950:16951 Coq.FSets.FSetPositive PositiveSet ct ind
+R16958:16959 Coq.Init.Datatypes <> Lt constr
+R16955:16956 Coq.Init.Datatypes <> Lt constr
+R16953:16953 Coq.FSets.FSetPositive <> x:210 var
+prf 17010:17015 PositiveSet ct_xgg
+binder 17025:17025 <> x:211
+R17028:17029 Coq.FSets.FSetPositive PositiveSet ct ind
+R17036:17037 Coq.Init.Datatypes <> Gt constr
+R17033:17034 Coq.Init.Datatypes <> Gt constr
+R17031:17031 Coq.FSets.FSetPositive <> x:211 var
+R17106:17107 Coq.FSets.FSetPositive <> ct ind
+prf 17221:17226 PositiveSet ct_lex
+binder 17236:17236 <> u:212
+binder 17238:17238 <> v:213
+binder 17240:17240 <> w:214
+binder 17242:17243 <> u':215
+binder 17245:17246 <> v':216
+binder 17248:17249 <> w':217
+R17264:17267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17256:17257 Coq.FSets.FSetPositive PositiveSet ct ind
+R17263:17263 Coq.FSets.FSetPositive <> w:214 var
+R17261:17261 Coq.FSets.FSetPositive <> v:213 var
+R17259:17259 Coq.FSets.FSetPositive <> u:212 var
+R17279:17282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17268:17269 Coq.FSets.FSetPositive PositiveSet ct ind
+R17277:17278 Coq.FSets.FSetPositive <> w':217 var
+R17274:17275 Coq.FSets.FSetPositive <> v':216 var
+R17271:17272 Coq.FSets.FSetPositive <> u':215 var
+R17283:17284 Coq.FSets.FSetPositive PositiveSet ct ind
+R17309:17311 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R17313:17313 Coq.FSets.FSetPositive <> w:214 var
+R17315:17316 Coq.FSets.FSetPositive <> w':217 var
+R17298:17300 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R17302:17302 Coq.FSets.FSetPositive <> v:213 var
+R17304:17305 Coq.FSets.FSetPositive <> v':216 var
+R17287:17289 Coq.FSets.FSetPositive PositiveSet lex abbrev
+R17291:17291 Coq.FSets.FSetPositive <> u:212 var
+R17293:17294 Coq.FSets.FSetPositive <> u':215 var
+prf 17457:17471 PositiveSet ct_compare_bool
+binder 17485:17485 <> a:218
+binder 17487:17487 <> b:219
+binder 17489:17489 <> c:220
+R17492:17493 Coq.FSets.FSetPositive PositiveSet ct ind
+R17534:17545 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R17549:17549 Coq.FSets.FSetPositive <> c:220 var
+R17547:17547 Coq.FSets.FSetPositive <> a:218 var
+R17515:17526 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R17530:17530 Coq.FSets.FSetPositive <> c:220 var
+R17528:17528 Coq.FSets.FSetPositive <> b:219 var
+R17496:17507 Coq.FSets.FSetPositive PositiveSet compare_bool def
+R17511:17511 Coq.FSets.FSetPositive <> b:219 var
+R17509:17509 Coq.FSets.FSetPositive <> a:218 var
+prf 17615:17628 PositiveSet compare_x_Leaf
+binder 17638:17638 <> s:221
+R17663:17665 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17645:17655 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R17659:17662 Coq.FSets.FSetPositive PositiveSet Leaf constr
+R17657:17657 Coq.FSets.FSetPositive <> s:221 var
+R17669:17676 Coq.FSets.FSetPositive PositiveSet is_empty def
+R17678:17678 Coq.FSets.FSetPositive <> s:221 var
+R17693:17694 Coq.Init.Datatypes <> Gt constr
+R17685:17686 Coq.Init.Datatypes <> Eq constr
+R17726:17736 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R17726:17736 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R17726:17736 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R17752:17759 Coq.FSets.FSetPositive PositiveSet is_empty def
+R17752:17759 Coq.FSets.FSetPositive PositiveSet is_empty def
+prf 17794:17808 PositiveSet compare_empty_x
+binder 17818:17818 <> a:222
+R17838:17845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17831:17833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17821:17828 Coq.FSets.FSetPositive PositiveSet is_empty def
+R17830:17830 Coq.FSets.FSetPositive <> a:222 var
+R17834:17837 Coq.Init.Datatypes <> true constr
+binder 17853:17853 <> b:223
+R17871:17873 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17856:17866 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R17870:17870 Coq.FSets.FSetPositive <> b:223 var
+R17868:17868 Coq.FSets.FSetPositive <> a:222 var
+R17877:17884 Coq.FSets.FSetPositive PositiveSet is_empty def
+R17886:17886 Coq.FSets.FSetPositive <> b:223 var
+R17901:17902 Coq.Init.Datatypes <> Lt constr
+R17893:17894 Coq.Init.Datatypes <> Eq constr
+R18028:18040 Coq.Bool.Bool <> andb_lazy_alt thm
+R18043:18055 Coq.Bool.Bool <> andb_true_iff thm
+R18028:18040 Coq.Bool.Bool <> andb_lazy_alt thm
+R18028:18040 Coq.Bool.Bool <> andb_lazy_alt thm
+R18043:18055 Coq.Bool.Bool <> andb_true_iff thm
+R18043:18055 Coq.Bool.Bool <> andb_true_iff thm
+R18219:18226 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18239:18246 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18219:18226 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18239:18246 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18239:18246 Coq.FSets.FSetPositive PositiveSet is_empty def
+prf 18278:18292 PositiveSet compare_x_empty
+binder 18302:18302 <> a:224
+R18322:18329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18315:18317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18305:18312 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18314:18314 Coq.FSets.FSetPositive <> a:224 var
+R18318:18321 Coq.Init.Datatypes <> true constr
+binder 18337:18337 <> b:225
+R18355:18357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18340:18350 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18354:18354 Coq.FSets.FSetPositive <> a:224 var
+R18352:18352 Coq.FSets.FSetPositive <> b:225 var
+R18361:18368 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18370:18370 Coq.FSets.FSetPositive <> b:225 var
+R18385:18386 Coq.Init.Datatypes <> Gt constr
+R18377:18378 Coq.Init.Datatypes <> Eq constr
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18420:18433 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R18458:18468 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18475:18489 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R18458:18468 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18458:18468 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18458:18468 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18475:18489 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R18475:18489 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+prf 18526:18539 PositiveSet ct_compare_fun
+binder 18553:18553 <> a:226
+binder 18555:18555 <> b:227
+binder 18557:18557 <> c:228
+R18560:18561 Coq.FSets.FSetPositive PositiveSet ct ind
+R18600:18610 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18614:18614 Coq.FSets.FSetPositive <> c:228 var
+R18612:18612 Coq.FSets.FSetPositive <> a:226 var
+R18582:18592 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18596:18596 Coq.FSets.FSetPositive <> c:228 var
+R18594:18594 Coq.FSets.FSetPositive <> b:227 var
+R18564:18574 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18578:18578 Coq.FSets.FSetPositive <> b:227 var
+R18576:18576 Coq.FSets.FSetPositive <> a:226 var
+R18762:18772 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18762:18772 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18762:18772 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R18792:18802 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18819:18826 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18829:18832 Coq.FSets.FSetPositive PositiveSet Node constr
+R18819:18826 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18829:18832 Coq.FSets.FSetPositive PositiveSet Node constr
+R18872:18886 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R18872:18886 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R18872:18886 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R18913:18923 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R18940:18947 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18950:18953 Coq.FSets.FSetPositive PositiveSet Node constr
+R18940:18947 Coq.FSets.FSetPositive PositiveSet is_empty def
+R18950:18953 Coq.FSets.FSetPositive PositiveSet Node constr
+R18998:19012 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R18998:19012 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R18998:19012 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19131:19141 Coq.FSets.FSetPositive PositiveSet compare_fun def
+R19157:19170 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19157:19170 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19157:19170 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19188:19195 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19198:19201 Coq.FSets.FSetPositive PositiveSet Node constr
+R19188:19195 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19198:19201 Coq.FSets.FSetPositive PositiveSet Node constr
+R19237:19251 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R19237:19251 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R19237:19251 Coq.FSets.FSetPositive PositiveSet compare_empty_x thm
+R19279:19286 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19289:19292 Coq.FSets.FSetPositive PositiveSet Node constr
+R19279:19286 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19289:19292 Coq.FSets.FSetPositive PositiveSet Node constr
+R19337:19351 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19337:19351 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19337:19351 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19397:19410 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19397:19410 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19397:19410 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19397:19410 Coq.FSets.FSetPositive PositiveSet compare_x_Leaf thm
+R19428:19435 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19438:19441 Coq.FSets.FSetPositive PositiveSet Node constr
+R19428:19435 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19438:19441 Coq.FSets.FSetPositive PositiveSet Node constr
+R19476:19486 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R19490:19504 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19476:19486 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R19476:19486 Coq.FSets.FSetPositive PositiveSet compare_inv thm
+R19490:19504 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19490:19504 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19532:19539 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19542:19545 Coq.FSets.FSetPositive PositiveSet Node constr
+R19532:19539 Coq.FSets.FSetPositive PositiveSet is_empty def
+R19542:19545 Coq.FSets.FSetPositive PositiveSet Node constr
+R19586:19600 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19586:19600 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19586:19600 Coq.FSets.FSetPositive PositiveSet compare_x_empty thm
+R19660:19665 Coq.FSets.FSetPositive PositiveSet ct_lex thm
+R19660:19665 Coq.FSets.FSetPositive PositiveSet ct_lex thm
+R19674:19688 Coq.FSets.FSetPositive PositiveSet ct_compare_bool thm
+R19674:19688 Coq.FSets.FSetPositive PositiveSet ct_compare_bool thm
+R19704:19709 Coq.FSets.FSetPositive PositiveSet ct_lex thm
+R19704:19709 Coq.FSets.FSetPositive PositiveSet ct_lex thm
+R19735:19741 Coq.FSets.FSetPositive PositiveSet.lt_spec <> sec
+prf 19753:19760 PositiveSet lt_trans
+binder 19770:19770 <> s:229
+binder 19772:19773 <> s':230
+binder 19775:19777 <> s'':231
+R19787:19790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19780:19781 Coq.FSets.FSetPositive PositiveSet lt def
+R19785:19786 Coq.FSets.FSetPositive <> s':230 var
+R19783:19783 Coq.FSets.FSetPositive <> s:229 var
+R19800:19803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19791:19792 Coq.FSets.FSetPositive PositiveSet lt def
+R19797:19799 Coq.FSets.FSetPositive <> s'':231 var
+R19794:19795 Coq.FSets.FSetPositive <> s':230 var
+R19804:19805 Coq.FSets.FSetPositive PositiveSet lt def
+R19809:19811 Coq.FSets.FSetPositive <> s'':231 var
+R19807:19807 Coq.FSets.FSetPositive <> s:229 var
+R19834:19835 Coq.FSets.FSetPositive PositiveSet lt def
+R19865:19878 Coq.FSets.FSetPositive PositiveSet ct_compare_fun thm
+R19865:19878 Coq.FSets.FSetPositive PositiveSet ct_compare_fun thm
+prf 19958:19966 PositiveSet lt_not_eq
+binder 19976:19976 <> s:232
+binder 19978:19979 <> s':233
+R19989:19992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19982:19983 Coq.FSets.FSetPositive PositiveSet lt def
+R19987:19988 Coq.FSets.FSetPositive <> s':233 var
+R19985:19985 Coq.FSets.FSetPositive <> s:232 var
+R19993:19994 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19995:19996 Coq.FSets.FSetPositive PositiveSet eq def
+R20000:20001 Coq.FSets.FSetPositive <> s':233 var
+R19998:19998 Coq.FSets.FSetPositive <> s:232 var
+R20024:20025 Coq.FSets.FSetPositive PositiveSet lt def
+R20028:20029 Coq.FSets.FSetPositive PositiveSet eq def
+R20063:20072 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R20078:20090 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+R20063:20072 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R20063:20072 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R20078:20090 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+R20078:20090 Coq.FSets.FSetPositive PositiveSet compare_equal thm
+prf 20160:20167 PositiveSet add_spec
+binder 20177:20177 <> x:234
+binder 20179:20179 <> y:235
+binder 20181:20181 <> s:236
+R20198:20202 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20184:20185 Coq.FSets.FSetPositive PositiveSet In def
+R20190:20192 Coq.FSets.FSetPositive PositiveSet add def
+R20196:20196 Coq.FSets.FSetPositive <> s:236 var
+R20194:20194 Coq.FSets.FSetPositive <> x:234 var
+R20187:20187 Coq.FSets.FSetPositive <> y:235 var
+R20206:20209 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20204:20204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20203:20203 Coq.FSets.FSetPositive <> x:234 var
+R20205:20205 Coq.FSets.FSetPositive <> y:235 var
+R20210:20211 Coq.FSets.FSetPositive PositiveSet In def
+R20215:20215 Coq.FSets.FSetPositive <> s:236 var
+R20213:20213 Coq.FSets.FSetPositive <> y:235 var
+R20238:20239 Coq.FSets.FSetPositive PositiveSet In def
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20333:20340 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+prf 20381:20385 PositiveSet add_1
+binder 20395:20395 <> s:237
+binder 20397:20397 <> x:238
+binder 20399:20399 <> y:239
+R20407:20410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20403:20405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20402:20402 Coq.FSets.FSetPositive <> x:238 var
+R20406:20406 Coq.FSets.FSetPositive <> y:239 var
+R20411:20412 Coq.FSets.FSetPositive PositiveSet In def
+R20417:20419 Coq.FSets.FSetPositive PositiveSet add def
+R20423:20423 Coq.FSets.FSetPositive <> s:237 var
+R20421:20421 Coq.FSets.FSetPositive <> x:238 var
+R20414:20414 Coq.FSets.FSetPositive <> y:239 var
+R20453:20460 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R20453:20460 Coq.FSets.FSetPositive PositiveSet add_spec thm
+prf 20495:20499 PositiveSet add_2
+binder 20509:20509 <> s:240
+binder 20511:20511 <> x:241
+binder 20513:20513 <> y:242
+R20522:20525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20516:20517 Coq.FSets.FSetPositive PositiveSet In def
+R20521:20521 Coq.FSets.FSetPositive <> s:240 var
+R20519:20519 Coq.FSets.FSetPositive <> y:242 var
+R20526:20527 Coq.FSets.FSetPositive PositiveSet In def
+R20532:20534 Coq.FSets.FSetPositive PositiveSet add def
+R20538:20538 Coq.FSets.FSetPositive <> s:240 var
+R20536:20536 Coq.FSets.FSetPositive <> x:241 var
+R20529:20529 Coq.FSets.FSetPositive <> y:242 var
+R20568:20575 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R20568:20575 Coq.FSets.FSetPositive PositiveSet add_spec thm
+prf 20611:20615 PositiveSet add_3
+binder 20625:20625 <> s:243
+binder 20627:20627 <> x:244
+binder 20629:20629 <> y:245
+R20636:20639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20633:20634 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20632:20632 Coq.FSets.FSetPositive <> x:244 var
+R20635:20635 Coq.FSets.FSetPositive <> y:245 var
+R20654:20657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20640:20641 Coq.FSets.FSetPositive PositiveSet In def
+R20646:20648 Coq.FSets.FSetPositive PositiveSet add def
+R20652:20652 Coq.FSets.FSetPositive <> s:243 var
+R20650:20650 Coq.FSets.FSetPositive <> x:244 var
+R20643:20643 Coq.FSets.FSetPositive <> y:245 var
+R20658:20659 Coq.FSets.FSetPositive PositiveSet In def
+R20663:20663 Coq.FSets.FSetPositive <> s:243 var
+R20661:20661 Coq.FSets.FSetPositive <> y:245 var
+R20703:20710 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R20703:20710 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R20703:20710 Coq.FSets.FSetPositive PositiveSet add_spec thm
+prf 20806:20816 PositiveSet remove_spec
+binder 20826:20826 <> x:246
+binder 20828:20828 <> y:247
+binder 20830:20830 <> s:248
+R20850:20854 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20833:20834 Coq.FSets.FSetPositive PositiveSet In def
+R20839:20844 Coq.FSets.FSetPositive PositiveSet remove def
+R20848:20848 Coq.FSets.FSetPositive <> s:248 var
+R20846:20846 Coq.FSets.FSetPositive <> x:246 var
+R20836:20836 Coq.FSets.FSetPositive <> y:247 var
+R20859:20862 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20856:20857 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20855:20855 Coq.FSets.FSetPositive <> x:246 var
+R20858:20858 Coq.FSets.FSetPositive <> y:247 var
+R20863:20864 Coq.FSets.FSetPositive PositiveSet In def
+R20868:20868 Coq.FSets.FSetPositive <> s:248 var
+R20866:20866 Coq.FSets.FSetPositive <> y:247 var
+R20891:20892 Coq.FSets.FSetPositive PositiveSet In def
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R20959:20966 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21024:21031 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+prf 21077:21084 PositiveSet remove_1
+binder 21094:21094 <> s:249
+binder 21096:21096 <> x:250
+binder 21098:21098 <> y:251
+R21104:21107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21102:21102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21101:21101 Coq.FSets.FSetPositive <> x:250 var
+R21103:21103 Coq.FSets.FSetPositive <> y:251 var
+R21108:21109 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21110:21111 Coq.FSets.FSetPositive PositiveSet In def
+R21116:21121 Coq.FSets.FSetPositive PositiveSet remove def
+R21125:21125 Coq.FSets.FSetPositive <> s:249 var
+R21123:21123 Coq.FSets.FSetPositive <> x:250 var
+R21113:21113 Coq.FSets.FSetPositive <> y:251 var
+R21154:21164 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21154:21164 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21154:21164 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+prf 21188:21195 PositiveSet remove_2
+binder 21205:21205 <> s:252
+binder 21207:21207 <> x:253
+binder 21209:21209 <> y:254
+R21216:21219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21213:21214 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R21212:21212 Coq.FSets.FSetPositive <> x:253 var
+R21215:21215 Coq.FSets.FSetPositive <> y:254 var
+R21226:21229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21220:21221 Coq.FSets.FSetPositive PositiveSet In def
+R21225:21225 Coq.FSets.FSetPositive <> s:252 var
+R21223:21223 Coq.FSets.FSetPositive <> y:254 var
+R21230:21231 Coq.FSets.FSetPositive PositiveSet In def
+R21236:21241 Coq.FSets.FSetPositive PositiveSet remove def
+R21245:21245 Coq.FSets.FSetPositive <> s:252 var
+R21243:21243 Coq.FSets.FSetPositive <> x:253 var
+R21233:21233 Coq.FSets.FSetPositive <> y:254 var
+R21274:21284 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21274:21284 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21274:21284 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+prf 21320:21327 PositiveSet remove_3
+binder 21337:21337 <> s:255
+binder 21339:21339 <> x:256
+binder 21341:21341 <> y:257
+R21361:21364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21344:21345 Coq.FSets.FSetPositive PositiveSet In def
+R21350:21355 Coq.FSets.FSetPositive PositiveSet remove def
+R21359:21359 Coq.FSets.FSetPositive <> s:255 var
+R21357:21357 Coq.FSets.FSetPositive <> x:256 var
+R21347:21347 Coq.FSets.FSetPositive <> y:257 var
+R21365:21366 Coq.FSets.FSetPositive PositiveSet In def
+R21370:21370 Coq.FSets.FSetPositive <> s:255 var
+R21368:21368 Coq.FSets.FSetPositive <> y:257 var
+R21404:21414 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21404:21414 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+R21404:21414 Coq.FSets.FSetPositive PositiveSet remove_spec thm
+prf 21477:21487 PositiveSet singleton_1
+binder 21497:21497 <> x:258
+binder 21499:21499 <> y:259
+R21520:21523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21502:21503 Coq.FSets.FSetPositive PositiveSet In def
+R21508:21516 Coq.FSets.FSetPositive PositiveSet singleton def
+R21518:21518 Coq.FSets.FSetPositive <> x:258 var
+R21505:21505 Coq.FSets.FSetPositive <> y:259 var
+R21525:21525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21524:21524 Coq.FSets.FSetPositive <> x:258 var
+R21526:21526 Coq.FSets.FSetPositive <> y:259 var
+R21549:21557 Coq.FSets.FSetPositive PositiveSet singleton def
+R21580:21587 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R21580:21587 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R21580:21587 Coq.FSets.FSetPositive PositiveSet add_spec thm
+R21601:21602 Coq.FSets.FSetPositive PositiveSet In def
+R21613:21620 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21613:21620 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R21613:21620 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+prf 21663:21673 PositiveSet singleton_2
+binder 21683:21683 <> x:260
+binder 21685:21685 <> y:261
+R21693:21696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21689:21691 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21688:21688 Coq.FSets.FSetPositive <> x:260 var
+R21692:21692 Coq.FSets.FSetPositive <> y:261 var
+R21697:21698 Coq.FSets.FSetPositive PositiveSet In def
+R21703:21711 Coq.FSets.FSetPositive PositiveSet singleton def
+R21713:21713 Coq.FSets.FSetPositive <> x:260 var
+R21700:21700 Coq.FSets.FSetPositive <> y:261 var
+R21737:21745 Coq.FSets.FSetPositive PositiveSet singleton def
+R21762:21766 Coq.FSets.FSetPositive PositiveSet add_1 thm
+R21762:21766 Coq.FSets.FSetPositive PositiveSet add_1 thm
+prf 21832:21841 PositiveSet union_spec
+binder 21851:21851 <> x:262
+binder 21853:21853 <> s:263
+binder 21855:21856 <> s':264
+R21876:21880 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21859:21860 Coq.FSets.FSetPositive PositiveSet In def
+R21865:21869 Coq.FSets.FSetPositive PositiveSet union def
+R21873:21874 Coq.FSets.FSetPositive <> s':264 var
+R21871:21871 Coq.FSets.FSetPositive <> s:263 var
+R21862:21862 Coq.FSets.FSetPositive <> x:262 var
+R21887:21890 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21881:21882 Coq.FSets.FSetPositive PositiveSet In def
+R21886:21886 Coq.FSets.FSetPositive <> s:263 var
+R21884:21884 Coq.FSets.FSetPositive <> x:262 var
+R21891:21892 Coq.FSets.FSetPositive PositiveSet In def
+R21896:21897 Coq.FSets.FSetPositive <> s':264 var
+R21894:21894 Coq.FSets.FSetPositive <> x:262 var
+R21920:21921 Coq.FSets.FSetPositive PositiveSet In def
+R22064:22075 Coq.Bool.Bool <> orb_true_iff thm
+R22064:22075 Coq.Bool.Bool <> orb_true_iff thm
+prf 22094:22100 PositiveSet union_1
+binder 22110:22110 <> s:265
+binder 22112:22113 <> s':266
+binder 22115:22115 <> x:267
+R22135:22138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22118:22119 Coq.FSets.FSetPositive PositiveSet In def
+R22124:22128 Coq.FSets.FSetPositive PositiveSet union def
+R22132:22133 Coq.FSets.FSetPositive <> s':266 var
+R22130:22130 Coq.FSets.FSetPositive <> s:265 var
+R22121:22121 Coq.FSets.FSetPositive <> x:267 var
+R22145:22148 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22139:22140 Coq.FSets.FSetPositive PositiveSet In def
+R22144:22144 Coq.FSets.FSetPositive <> s:265 var
+R22142:22142 Coq.FSets.FSetPositive <> x:267 var
+R22149:22150 Coq.FSets.FSetPositive PositiveSet In def
+R22154:22155 Coq.FSets.FSetPositive <> s':266 var
+R22152:22152 Coq.FSets.FSetPositive <> x:267 var
+R22184:22193 Coq.FSets.FSetPositive PositiveSet union_spec thm
+R22184:22193 Coq.FSets.FSetPositive PositiveSet union_spec thm
+prf 22222:22228 PositiveSet union_2
+binder 22238:22238 <> s:268
+binder 22240:22241 <> s':269
+binder 22243:22243 <> x:270
+R22252:22255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22246:22247 Coq.FSets.FSetPositive PositiveSet In def
+R22251:22251 Coq.FSets.FSetPositive <> s:268 var
+R22249:22249 Coq.FSets.FSetPositive <> x:270 var
+R22256:22257 Coq.FSets.FSetPositive PositiveSet In def
+R22262:22266 Coq.FSets.FSetPositive PositiveSet union def
+R22270:22271 Coq.FSets.FSetPositive <> s':269 var
+R22268:22268 Coq.FSets.FSetPositive <> s:268 var
+R22259:22259 Coq.FSets.FSetPositive <> x:270 var
+R22301:22310 Coq.FSets.FSetPositive PositiveSet union_spec thm
+R22301:22310 Coq.FSets.FSetPositive PositiveSet union_spec thm
+prf 22345:22351 PositiveSet union_3
+binder 22361:22361 <> s:271
+binder 22363:22364 <> s':272
+binder 22366:22366 <> x:273
+R22376:22379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22369:22370 Coq.FSets.FSetPositive PositiveSet In def
+R22374:22375 Coq.FSets.FSetPositive <> s':272 var
+R22372:22372 Coq.FSets.FSetPositive <> x:273 var
+R22380:22381 Coq.FSets.FSetPositive PositiveSet In def
+R22386:22390 Coq.FSets.FSetPositive PositiveSet union def
+R22394:22395 Coq.FSets.FSetPositive <> s':272 var
+R22392:22392 Coq.FSets.FSetPositive <> s:271 var
+R22383:22383 Coq.FSets.FSetPositive <> x:273 var
+R22425:22434 Coq.FSets.FSetPositive PositiveSet union_spec thm
+R22425:22434 Coq.FSets.FSetPositive PositiveSet union_spec thm
+prf 22505:22514 PositiveSet inter_spec
+binder 22524:22524 <> x:274
+binder 22526:22526 <> s:275
+binder 22528:22529 <> s':276
+R22549:22553 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22532:22533 Coq.FSets.FSetPositive PositiveSet In def
+R22538:22542 Coq.FSets.FSetPositive PositiveSet inter def
+R22546:22547 Coq.FSets.FSetPositive <> s':276 var
+R22544:22544 Coq.FSets.FSetPositive <> s:275 var
+R22535:22535 Coq.FSets.FSetPositive <> x:274 var
+R22560:22563 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22554:22555 Coq.FSets.FSetPositive PositiveSet In def
+R22559:22559 Coq.FSets.FSetPositive <> s:275 var
+R22557:22557 Coq.FSets.FSetPositive <> x:274 var
+R22564:22565 Coq.FSets.FSetPositive PositiveSet In def
+R22569:22570 Coq.FSets.FSetPositive <> s':276 var
+R22567:22567 Coq.FSets.FSetPositive <> x:274 var
+R22593:22594 Coq.FSets.FSetPositive PositiveSet In def
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22661:22668 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R22754:22766 Coq.Bool.Bool <> andb_true_iff thm
+R22754:22766 Coq.Bool.Bool <> andb_true_iff thm
+prf 22785:22791 PositiveSet inter_1
+binder 22801:22801 <> s:277
+binder 22803:22804 <> s':278
+binder 22806:22806 <> x:279
+R22826:22829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22809:22810 Coq.FSets.FSetPositive PositiveSet In def
+R22815:22819 Coq.FSets.FSetPositive PositiveSet inter def
+R22823:22824 Coq.FSets.FSetPositive <> s':278 var
+R22821:22821 Coq.FSets.FSetPositive <> s:277 var
+R22812:22812 Coq.FSets.FSetPositive <> x:279 var
+R22830:22831 Coq.FSets.FSetPositive PositiveSet In def
+R22835:22835 Coq.FSets.FSetPositive <> s:277 var
+R22833:22833 Coq.FSets.FSetPositive <> x:279 var
+R22870:22879 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R22870:22879 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R22870:22879 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+prf 22903:22909 PositiveSet inter_2
+binder 22919:22919 <> s:280
+binder 22921:22922 <> s':281
+binder 22924:22924 <> x:282
+R22944:22947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22927:22928 Coq.FSets.FSetPositive PositiveSet In def
+R22933:22937 Coq.FSets.FSetPositive PositiveSet inter def
+R22941:22942 Coq.FSets.FSetPositive <> s':281 var
+R22939:22939 Coq.FSets.FSetPositive <> s:280 var
+R22930:22930 Coq.FSets.FSetPositive <> x:282 var
+R22948:22949 Coq.FSets.FSetPositive PositiveSet In def
+R22953:22954 Coq.FSets.FSetPositive <> s':281 var
+R22951:22951 Coq.FSets.FSetPositive <> x:282 var
+R22989:22998 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R22989:22998 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R22989:22998 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+prf 23022:23028 PositiveSet inter_3
+binder 23038:23038 <> s:283
+binder 23040:23041 <> s':284
+binder 23043:23043 <> x:285
+R23052:23055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23046:23047 Coq.FSets.FSetPositive PositiveSet In def
+R23051:23051 Coq.FSets.FSetPositive <> s:283 var
+R23049:23049 Coq.FSets.FSetPositive <> x:285 var
+R23063:23066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23056:23057 Coq.FSets.FSetPositive PositiveSet In def
+R23061:23062 Coq.FSets.FSetPositive <> s':284 var
+R23059:23059 Coq.FSets.FSetPositive <> x:285 var
+R23067:23068 Coq.FSets.FSetPositive PositiveSet In def
+R23073:23077 Coq.FSets.FSetPositive PositiveSet inter def
+R23081:23082 Coq.FSets.FSetPositive <> s':284 var
+R23079:23079 Coq.FSets.FSetPositive <> s:283 var
+R23070:23070 Coq.FSets.FSetPositive <> x:285 var
+R23111:23120 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R23111:23120 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+R23111:23120 Coq.FSets.FSetPositive PositiveSet inter_spec thm
+prf 23190:23198 PositiveSet diff_spec
+binder 23208:23208 <> x:286
+binder 23210:23210 <> s:287
+binder 23212:23213 <> s':288
+R23232:23236 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23216:23217 Coq.FSets.FSetPositive PositiveSet In def
+R23222:23225 Coq.FSets.FSetPositive PositiveSet diff def
+R23229:23230 Coq.FSets.FSetPositive <> s':288 var
+R23227:23227 Coq.FSets.FSetPositive <> s:287 var
+R23219:23219 Coq.FSets.FSetPositive <> x:286 var
+R23243:23246 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23237:23238 Coq.FSets.FSetPositive PositiveSet In def
+R23242:23242 Coq.FSets.FSetPositive <> s:287 var
+R23240:23240 Coq.FSets.FSetPositive <> x:286 var
+R23247:23248 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23249:23250 Coq.FSets.FSetPositive PositiveSet In def
+R23254:23255 Coq.FSets.FSetPositive <> s':288 var
+R23252:23252 Coq.FSets.FSetPositive <> x:286 var
+R23278:23279 Coq.FSets.FSetPositive PositiveSet In def
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23365:23372 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R23462:23474 Coq.Bool.Bool <> andb_true_iff thm
+R23462:23474 Coq.Bool.Bool <> andb_true_iff thm
+R23462:23474 Coq.Bool.Bool <> andb_true_iff thm
+prf 23530:23535 PositiveSet diff_1
+binder 23545:23545 <> s:289
+binder 23547:23548 <> s':290
+binder 23550:23550 <> x:291
+R23569:23572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23553:23554 Coq.FSets.FSetPositive PositiveSet In def
+R23559:23562 Coq.FSets.FSetPositive PositiveSet diff def
+R23566:23567 Coq.FSets.FSetPositive <> s':290 var
+R23564:23564 Coq.FSets.FSetPositive <> s:289 var
+R23556:23556 Coq.FSets.FSetPositive <> x:291 var
+R23573:23574 Coq.FSets.FSetPositive PositiveSet In def
+R23578:23578 Coq.FSets.FSetPositive <> s:289 var
+R23576:23576 Coq.FSets.FSetPositive <> x:291 var
+R23613:23621 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23613:23621 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23613:23621 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+prf 23645:23650 PositiveSet diff_2
+binder 23660:23660 <> s:292
+binder 23662:23663 <> s':293
+binder 23665:23665 <> x:294
+R23684:23687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23668:23669 Coq.FSets.FSetPositive PositiveSet In def
+R23674:23677 Coq.FSets.FSetPositive PositiveSet diff def
+R23681:23682 Coq.FSets.FSetPositive <> s':293 var
+R23679:23679 Coq.FSets.FSetPositive <> s:292 var
+R23671:23671 Coq.FSets.FSetPositive <> x:294 var
+R23688:23689 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23690:23691 Coq.FSets.FSetPositive PositiveSet In def
+R23695:23696 Coq.FSets.FSetPositive <> s':293 var
+R23693:23693 Coq.FSets.FSetPositive <> x:294 var
+R23731:23739 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23731:23739 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23731:23739 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+prf 23763:23768 PositiveSet diff_3
+binder 23778:23778 <> s:295
+binder 23780:23781 <> s':296
+binder 23783:23783 <> x:297
+R23792:23795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23786:23787 Coq.FSets.FSetPositive PositiveSet In def
+R23791:23791 Coq.FSets.FSetPositive <> s:295 var
+R23789:23789 Coq.FSets.FSetPositive <> x:297 var
+R23805:23808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23796:23797 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23798:23799 Coq.FSets.FSetPositive PositiveSet In def
+R23803:23804 Coq.FSets.FSetPositive <> s':296 var
+R23801:23801 Coq.FSets.FSetPositive <> x:297 var
+R23809:23810 Coq.FSets.FSetPositive PositiveSet In def
+R23815:23818 Coq.FSets.FSetPositive PositiveSet diff def
+R23822:23823 Coq.FSets.FSetPositive <> s':296 var
+R23820:23820 Coq.FSets.FSetPositive <> s:295 var
+R23812:23812 Coq.FSets.FSetPositive <> x:297 var
+R23852:23860 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23852:23860 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+R23852:23860 Coq.FSets.FSetPositive PositiveSet diff_spec thm
+prf 23932:23937 PositiveSet fold_1
+binder 23947:23947 <> s:298
+binder 23950:23950 <> A:299
+R23965:23965 Coq.FSets.FSetPositive <> A:299 var
+binder 23961:23961 <> i:300
+R23976:23979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23973:23975 Coq.FSets.FSetPositive PositiveSet elt def
+R23981:23984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23980:23980 Coq.FSets.FSetPositive <> A:299 var
+R23985:23985 Coq.FSets.FSetPositive <> A:299 var
+binder 23969:23969 <> f:301
+R24005:24007 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23995:23998 Coq.FSets.FSetPositive PositiveSet fold def
+R24004:24004 Coq.FSets.FSetPositive <> i:300 var
+R24002:24002 Coq.FSets.FSetPositive <> s:298 var
+R24000:24000 Coq.FSets.FSetPositive <> f:301 var
+R24008:24016 Coq.Lists.List <> fold_left def
+R24050:24050 Coq.FSets.FSetPositive <> i:300 var
+R24038:24045 Coq.FSets.FSetPositive PositiveSet elements def
+R24047:24047 Coq.FSets.FSetPositive <> s:298 var
+binder 24023:24023 <> a:302
+binder 24025:24025 <> e:303
+R24030:24030 Coq.FSets.FSetPositive <> f:301 var
+R24034:24034 Coq.FSets.FSetPositive <> a:302 var
+R24032:24032 Coq.FSets.FSetPositive <> e:303 var
+R24073:24076 Coq.FSets.FSetPositive PositiveSet fold def
+R24079:24086 Coq.FSets.FSetPositive PositiveSet elements def
+binder 24136:24136 <> a:304
+binder 24138:24138 <> e:305
+R24145:24145 Coq.FSets.FSetPositive <> e:305 var
+R24147:24147 Coq.FSets.FSetPositive <> a:304 var
+binder 24136:24136 <> a:306
+binder 24138:24138 <> e:307
+R24145:24145 Coq.FSets.FSetPositive <> e:307 var
+R24147:24147 Coq.FSets.FSetPositive <> a:306 var
+binder 24173:24173 <> s:308
+binder 24175:24175 <> i:309
+binder 24177:24177 <> j:310
+binder 24179:24181 <> acc:311
+R24222:24230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24190:24198 Coq.Lists.List <> fold_left def
+R24208:24212 Coq.FSets.FSetPositive PositiveSet xfold def
+R24220:24220 Coq.FSets.FSetPositive <> j:310 var
+R24218:24218 Coq.FSets.FSetPositive <> i:309 var
+R24216:24216 Coq.FSets.FSetPositive <> s:308 var
+R24203:24205 Coq.FSets.FSetPositive <> acc:311 var
+R24231:24239 Coq.Lists.List <> fold_left def
+R24264:24264 Coq.FSets.FSetPositive <> i:309 var
+R24245:24253 Coq.FSets.FSetPositive PositiveSet xelements def
+R24259:24261 Coq.FSets.FSetPositive <> acc:311 var
+R24257:24257 Coq.FSets.FSetPositive <> j:310 var
+R24255:24255 Coq.FSets.FSetPositive <> s:308 var
+binder 24173:24173 <> s:312
+binder 24175:24175 <> i:313
+binder 24177:24177 <> j:314
+binder 24179:24181 <> acc:315
+R24222:24230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24190:24198 Coq.Lists.List <> fold_left def
+R24208:24212 Coq.FSets.FSetPositive PositiveSet xfold def
+R24220:24220 Coq.FSets.FSetPositive <> j:314 var
+R24218:24218 Coq.FSets.FSetPositive <> i:313 var
+R24216:24216 Coq.FSets.FSetPositive <> s:312 var
+R24203:24205 Coq.FSets.FSetPositive <> acc:315 var
+R24231:24239 Coq.Lists.List <> fold_left def
+R24264:24264 Coq.FSets.FSetPositive <> i:313 var
+R24245:24253 Coq.FSets.FSetPositive PositiveSet xelements def
+R24259:24261 Coq.FSets.FSetPositive <> acc:315 var
+R24257:24257 Coq.FSets.FSetPositive <> j:314 var
+R24255:24255 Coq.FSets.FSetPositive <> s:312 var
+R24473:24475 Coq.Init.Datatypes <> nil constr
+R24473:24475 Coq.Init.Datatypes <> nil constr
+prf 24533:24542 PositiveSet cardinal_1
+binder 24552:24552 <> s:316
+R24565:24567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24555:24562 Coq.FSets.FSetPositive PositiveSet cardinal def
+R24564:24564 Coq.FSets.FSetPositive <> s:316 var
+R24568:24573 Coq.Init.Datatypes <> length def
+R24576:24583 Coq.FSets.FSetPositive PositiveSet elements def
+R24585:24585 Coq.FSets.FSetPositive <> s:316 var
+R24609:24616 Coq.FSets.FSetPositive PositiveSet elements def
+binder 24641:24641 <> s:317
+binder 24643:24643 <> j:318
+binder 24645:24647 <> acc:319
+R24695:24697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24677:24679 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24667:24674 Coq.FSets.FSetPositive PositiveSet cardinal def
+R24676:24676 Coq.FSets.FSetPositive <> s:317 var
+R24680:24685 Coq.Init.Datatypes <> length def
+R24687:24689 Coq.FSets.FSetPositive <> acc:319 var
+R24698:24703 Coq.Init.Datatypes <> length def
+R24706:24714 Coq.FSets.FSetPositive PositiveSet xelements def
+R24720:24722 Coq.FSets.FSetPositive <> acc:319 var
+R24718:24718 Coq.FSets.FSetPositive <> j:318 var
+R24716:24716 Coq.FSets.FSetPositive <> s:317 var
+binder 24641:24641 <> s:320
+binder 24643:24643 <> j:321
+binder 24645:24647 <> acc:322
+R24695:24697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24677:24679 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24667:24674 Coq.FSets.FSetPositive PositiveSet cardinal def
+R24676:24676 Coq.FSets.FSetPositive <> s:320 var
+R24680:24685 Coq.Init.Datatypes <> length def
+R24687:24689 Coq.FSets.FSetPositive <> acc:322 var
+R24698:24703 Coq.Init.Datatypes <> length def
+R24706:24714 Coq.FSets.FSetPositive PositiveSet xelements def
+R24720:24722 Coq.FSets.FSetPositive <> acc:322 var
+R24718:24718 Coq.FSets.FSetPositive <> j:321 var
+R24716:24716 Coq.FSets.FSetPositive <> s:320 var
+R24870:24878 Coq.Init.Peano <> plus_n_Sm thm
+R24881:24893 Coq.Arith.PeanoNat Nat add_assoc thm
+R24870:24878 Coq.Init.Peano <> plus_n_Sm thm
+R24870:24878 Coq.Init.Peano <> plus_n_Sm thm
+R24881:24893 Coq.Arith.PeanoNat Nat add_assoc thm
+R24881:24893 Coq.Arith.PeanoNat Nat add_assoc thm
+R24947:24959 Coq.Arith.PeanoNat Nat add_assoc thm
+R24947:24959 Coq.Arith.PeanoNat Nat add_assoc thm
+R24947:24959 Coq.Arith.PeanoNat Nat add_assoc thm
+R25017:25028 Coq.Arith.PeanoNat Nat add_comm thm
+R25017:25028 Coq.Arith.PeanoNat Nat add_comm thm
+R25017:25028 Coq.Arith.PeanoNat Nat add_comm thm
+prf 25096:25107 PositiveSet xfilter_spec
+binder 25117:25117 <> f:323
+binder 25119:25119 <> s:324
+binder 25121:25121 <> x:325
+binder 25123:25123 <> i:326
+R25150:25154 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R25130:25131 Coq.FSets.FSetPositive PositiveSet In def
+R25136:25142 Coq.FSets.FSetPositive PositiveSet xfilter def
+R25148:25148 Coq.FSets.FSetPositive <> i:326 var
+R25146:25146 Coq.FSets.FSetPositive <> s:324 var
+R25144:25144 Coq.FSets.FSetPositive <> f:323 var
+R25133:25133 Coq.FSets.FSetPositive <> x:325 var
+R25161:25164 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25155:25156 Coq.FSets.FSetPositive PositiveSet In def
+R25160:25160 Coq.FSets.FSetPositive <> s:324 var
+R25158:25158 Coq.FSets.FSetPositive <> x:325 var
+R25172:25174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25165:25165 Coq.FSets.FSetPositive <> f:323 var
+R25169:25169 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R25168:25168 Coq.FSets.FSetPositive <> i:326 var
+R25170:25170 Coq.FSets.FSetPositive <> x:325 var
+R25175:25178 Coq.Init.Datatypes <> true constr
+R25210:25211 Coq.FSets.FSetPositive PositiveSet In def
+R25291:25298 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R25291:25298 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R25291:25298 Coq.FSets.FSetPositive PositiveSet mem_Leaf thm
+R25338:25345 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R25338:25345 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R25338:25345 Coq.FSets.FSetPositive PositiveSet mem_node thm
+R25451:25463 Coq.Bool.Bool <> andb_lazy_alt thm
+R25451:25463 Coq.Bool.Bool <> andb_lazy_alt thm
+R25451:25463 Coq.Bool.Bool <> andb_lazy_alt thm
+R25472:25484 Coq.Bool.Bool <> andb_true_iff thm
+R25472:25484 Coq.Bool.Bool <> andb_true_iff thm
+prf 25503:25510 PositiveSet filter_1
+binder 25521:25521 <> s:327
+binder 25523:25523 <> x:328
+binder 25525:25525 <> f:329
+R25551:25558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25529:25539 Coq.Lists.SetoidList <> compat_bool def
+R25541:25543 Coq.FSets.FSetPositive PositiveSet elt def
+R25545:25548 Coq.FSets.FSetPositive PositiveSet eq def
+R25550:25550 Coq.FSets.FSetPositive <> f:329 var
+R25576:25579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25559:25560 Coq.FSets.FSetPositive PositiveSet In def
+R25565:25570 Coq.FSets.FSetPositive PositiveSet filter def
+R25574:25574 Coq.FSets.FSetPositive <> s:327 var
+R25572:25572 Coq.FSets.FSetPositive <> f:329 var
+R25562:25562 Coq.FSets.FSetPositive <> x:328 var
+R25580:25581 Coq.FSets.FSetPositive PositiveSet In def
+R25585:25585 Coq.FSets.FSetPositive <> s:327 var
+R25583:25583 Coq.FSets.FSetPositive <> x:328 var
+R25604:25609 Coq.FSets.FSetPositive PositiveSet filter def
+R25636:25647 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25636:25647 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25636:25647 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+prf 25671:25678 PositiveSet filter_2
+binder 25689:25689 <> s:330
+binder 25691:25691 <> x:331
+binder 25693:25693 <> f:332
+R25719:25726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25697:25707 Coq.Lists.SetoidList <> compat_bool def
+R25709:25711 Coq.FSets.FSetPositive PositiveSet elt def
+R25713:25716 Coq.FSets.FSetPositive PositiveSet eq def
+R25718:25718 Coq.FSets.FSetPositive <> f:332 var
+R25744:25747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25727:25728 Coq.FSets.FSetPositive PositiveSet In def
+R25733:25738 Coq.FSets.FSetPositive PositiveSet filter def
+R25742:25742 Coq.FSets.FSetPositive <> s:330 var
+R25740:25740 Coq.FSets.FSetPositive <> f:332 var
+R25730:25730 Coq.FSets.FSetPositive <> x:331 var
+R25751:25753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25748:25748 Coq.FSets.FSetPositive <> f:332 var
+R25750:25750 Coq.FSets.FSetPositive <> x:331 var
+R25754:25757 Coq.Init.Datatypes <> true constr
+R25776:25781 Coq.FSets.FSetPositive PositiveSet filter def
+R25808:25819 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25808:25819 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25808:25819 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+prf 25843:25850 PositiveSet filter_3
+binder 25861:25861 <> s:333
+binder 25863:25863 <> x:334
+binder 25865:25865 <> f:335
+R25891:25894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25869:25879 Coq.Lists.SetoidList <> compat_bool def
+R25881:25883 Coq.FSets.FSetPositive PositiveSet elt def
+R25885:25888 Coq.FSets.FSetPositive PositiveSet eq def
+R25890:25890 Coq.FSets.FSetPositive <> f:335 var
+R25901:25908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25895:25896 Coq.FSets.FSetPositive PositiveSet In def
+R25900:25900 Coq.FSets.FSetPositive <> s:333 var
+R25898:25898 Coq.FSets.FSetPositive <> x:334 var
+R25919:25922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25912:25914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25909:25909 Coq.FSets.FSetPositive <> f:335 var
+R25911:25911 Coq.FSets.FSetPositive <> x:334 var
+R25915:25918 Coq.Init.Datatypes <> true constr
+R25923:25924 Coq.FSets.FSetPositive PositiveSet In def
+R25929:25934 Coq.FSets.FSetPositive PositiveSet filter def
+R25938:25938 Coq.FSets.FSetPositive <> s:333 var
+R25936:25936 Coq.FSets.FSetPositive <> f:335 var
+R25926:25926 Coq.FSets.FSetPositive <> x:334 var
+R25958:25963 Coq.FSets.FSetPositive PositiveSet filter def
+R25990:26001 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25990:26001 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+R25990:26001 Coq.FSets.FSetPositive PositiveSet xfilter_spec thm
+prf 26063:26074 PositiveSet xforall_spec
+binder 26084:26084 <> f:336
+binder 26086:26086 <> s:337
+binder 26088:26088 <> i:338
+R26115:26119 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26108:26110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26095:26101 Coq.FSets.FSetPositive PositiveSet xforall def
+R26107:26107 Coq.FSets.FSetPositive <> i:338 var
+R26105:26105 Coq.FSets.FSetPositive <> s:337 var
+R26103:26103 Coq.FSets.FSetPositive <> f:336 var
+R26111:26114 Coq.Init.Datatypes <> true constr
+R26120:26126 Coq.FSets.FSetPositive PositiveSet For_all def
+R26154:26154 Coq.FSets.FSetPositive <> s:337 var
+binder 26133:26133 <> x:339
+R26145:26147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26138:26138 Coq.FSets.FSetPositive <> f:336 var
+R26142:26142 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R26141:26141 Coq.FSets.FSetPositive <> i:338 var
+R26143:26143 Coq.FSets.FSetPositive <> x:339 var
+R26148:26151 Coq.Init.Datatypes <> true constr
+R26177:26183 Coq.FSets.FSetPositive PositiveSet For_all def
+R26186:26187 Coq.FSets.FSetPositive PositiveSet In def
+R26281:26293 Coq.Bool.Bool <> andb_lazy_alt thm
+R26299:26310 Coq.Bool.Bool <> orb_lazy_alt thm
+R26315:26327 Coq.Bool.Bool <> andb_true_iff thm
+R26281:26293 Coq.Bool.Bool <> andb_lazy_alt thm
+R26281:26293 Coq.Bool.Bool <> andb_lazy_alt thm
+R26281:26293 Coq.Bool.Bool <> andb_lazy_alt thm
+R26299:26310 Coq.Bool.Bool <> orb_lazy_alt thm
+R26299:26310 Coq.Bool.Bool <> orb_lazy_alt thm
+R26315:26327 Coq.Bool.Bool <> andb_true_iff thm
+R26315:26327 Coq.Bool.Bool <> andb_true_iff thm
+R26315:26327 Coq.Bool.Bool <> andb_true_iff thm
+prf 26692:26700 PositiveSet for_all_1
+binder 26711:26711 <> s:340
+binder 26713:26713 <> f:341
+R26739:26746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26717:26727 Coq.Lists.SetoidList <> compat_bool def
+R26729:26731 Coq.FSets.FSetPositive PositiveSet elt def
+R26733:26736 Coq.FSets.FSetPositive PositiveSet eq def
+R26738:26738 Coq.FSets.FSetPositive <> f:341 var
+R26778:26781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26747:26753 Coq.FSets.FSetPositive PositiveSet For_all def
+R26777:26777 Coq.FSets.FSetPositive <> s:340 var
+binder 26760:26760 <> x:342
+R26768:26770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26765:26765 Coq.FSets.FSetPositive <> f:341 var
+R26767:26767 Coq.FSets.FSetPositive <> x:342 var
+R26771:26774 Coq.Init.Datatypes <> true constr
+R26793:26795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26782:26788 Coq.FSets.FSetPositive PositiveSet for_all def
+R26792:26792 Coq.FSets.FSetPositive <> s:340 var
+R26790:26790 Coq.FSets.FSetPositive <> f:341 var
+R26796:26799 Coq.Init.Datatypes <> true constr
+R26832:26838 Coq.FSets.FSetPositive PositiveSet for_all def
+R26849:26860 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+R26849:26860 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+R26849:26860 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+prf 26886:26894 PositiveSet for_all_2
+binder 26905:26905 <> s:343
+binder 26907:26907 <> f:344
+R26933:26940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26911:26921 Coq.Lists.SetoidList <> compat_bool def
+R26923:26925 Coq.FSets.FSetPositive PositiveSet elt def
+R26927:26930 Coq.FSets.FSetPositive PositiveSet eq def
+R26932:26932 Coq.FSets.FSetPositive <> f:344 var
+R26959:26962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26952:26954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26941:26947 Coq.FSets.FSetPositive PositiveSet for_all def
+R26951:26951 Coq.FSets.FSetPositive <> s:343 var
+R26949:26949 Coq.FSets.FSetPositive <> f:344 var
+R26955:26958 Coq.Init.Datatypes <> true constr
+R26963:26969 Coq.FSets.FSetPositive PositiveSet For_all def
+R26993:26993 Coq.FSets.FSetPositive <> s:343 var
+binder 26976:26976 <> x:345
+R26984:26986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26981:26981 Coq.FSets.FSetPositive <> f:344 var
+R26983:26983 Coq.FSets.FSetPositive <> x:345 var
+R26987:26990 Coq.Init.Datatypes <> true constr
+R27026:27032 Coq.FSets.FSetPositive PositiveSet for_all def
+R27043:27054 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+R27043:27054 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+R27043:27054 Coq.FSets.FSetPositive PositiveSet xforall_spec thm
+prf 27117:27128 PositiveSet xexists_spec
+binder 27138:27138 <> f:346
+binder 27140:27140 <> s:347
+binder 27142:27142 <> i:348
+R27169:27173 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R27162:27164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27149:27155 Coq.FSets.FSetPositive PositiveSet xexists def
+R27161:27161 Coq.FSets.FSetPositive <> i:348 var
+R27159:27159 Coq.FSets.FSetPositive <> s:347 var
+R27157:27157 Coq.FSets.FSetPositive <> f:346 var
+R27165:27168 Coq.Init.Datatypes <> true constr
+R27174:27179 Coq.FSets.FSetPositive PositiveSet Exists def
+R27207:27207 Coq.FSets.FSetPositive <> s:347 var
+binder 27186:27186 <> x:349
+R27198:27200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27191:27191 Coq.FSets.FSetPositive <> f:346 var
+R27195:27195 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R27194:27194 Coq.FSets.FSetPositive <> i:348 var
+R27196:27196 Coq.FSets.FSetPositive <> x:349 var
+R27201:27204 Coq.Init.Datatypes <> true constr
+R27230:27235 Coq.FSets.FSetPositive PositiveSet Exists def
+R27238:27239 Coq.FSets.FSetPositive PositiveSet In def
+R27375:27386 Coq.Bool.Bool <> orb_lazy_alt thm
+R27390:27401 Coq.Bool.Bool <> orb_true_iff thm
+R27407:27419 Coq.Bool.Bool <> andb_lazy_alt thm
+R27422:27434 Coq.Bool.Bool <> andb_true_iff thm
+R27375:27386 Coq.Bool.Bool <> orb_lazy_alt thm
+R27375:27386 Coq.Bool.Bool <> orb_lazy_alt thm
+R27375:27386 Coq.Bool.Bool <> orb_lazy_alt thm
+R27390:27401 Coq.Bool.Bool <> orb_true_iff thm
+R27390:27401 Coq.Bool.Bool <> orb_true_iff thm
+R27390:27401 Coq.Bool.Bool <> orb_true_iff thm
+R27407:27419 Coq.Bool.Bool <> andb_lazy_alt thm
+R27407:27419 Coq.Bool.Bool <> andb_lazy_alt thm
+R27422:27434 Coq.Bool.Bool <> andb_true_iff thm
+R27422:27434 Coq.Bool.Bool <> andb_true_iff thm
+R27568:27569 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R27568:27569 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R27598:27599 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R27598:27599 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+prf 27661:27668 PositiveSet exists_1
+binder 27679:27679 <> s:350
+binder 27681:27681 <> f:351
+R27707:27716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27685:27695 Coq.Lists.SetoidList <> compat_bool def
+R27697:27699 Coq.FSets.FSetPositive PositiveSet elt def
+R27701:27704 Coq.FSets.FSetPositive PositiveSet eq def
+R27706:27706 Coq.FSets.FSetPositive <> f:351 var
+R27747:27750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27717:27722 Coq.FSets.FSetPositive PositiveSet Exists def
+R27746:27746 Coq.FSets.FSetPositive <> s:350 var
+binder 27729:27729 <> x:352
+R27737:27739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27734:27734 Coq.FSets.FSetPositive <> f:351 var
+R27736:27736 Coq.FSets.FSetPositive <> x:352 var
+R27740:27743 Coq.Init.Datatypes <> true constr
+R27762:27764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27751:27757 Coq.FSets.FSetPositive PositiveSet exists_ def
+R27761:27761 Coq.FSets.FSetPositive <> s:350 var
+R27759:27759 Coq.FSets.FSetPositive <> f:351 var
+R27765:27768 Coq.Init.Datatypes <> true constr
+R27801:27807 Coq.FSets.FSetPositive PositiveSet exists_ def
+R27818:27829 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+R27818:27829 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+R27818:27829 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+prf 27855:27862 PositiveSet exists_2
+binder 27873:27873 <> s:353
+binder 27875:27875 <> f:354
+R27901:27910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27879:27889 Coq.Lists.SetoidList <> compat_bool def
+R27891:27893 Coq.FSets.FSetPositive PositiveSet elt def
+R27895:27898 Coq.FSets.FSetPositive PositiveSet eq def
+R27900:27900 Coq.FSets.FSetPositive <> f:354 var
+R27929:27932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27922:27924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27911:27917 Coq.FSets.FSetPositive PositiveSet exists_ def
+R27921:27921 Coq.FSets.FSetPositive <> s:353 var
+R27919:27919 Coq.FSets.FSetPositive <> f:354 var
+R27925:27928 Coq.Init.Datatypes <> true constr
+R27933:27938 Coq.FSets.FSetPositive PositiveSet Exists def
+R27962:27962 Coq.FSets.FSetPositive <> s:353 var
+binder 27945:27945 <> x:355
+R27953:27955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27950:27950 Coq.FSets.FSetPositive <> f:354 var
+R27952:27952 Coq.FSets.FSetPositive <> x:355 var
+R27956:27959 Coq.Init.Datatypes <> true constr
+R27995:28001 Coq.FSets.FSetPositive PositiveSet exists_ def
+R28012:28023 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+R28012:28023 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+R28012:28023 Coq.FSets.FSetPositive PositiveSet xexists_spec thm
+prf 28089:28104 PositiveSet partition_filter
+binder 28115:28115 <> s:356
+binder 28117:28117 <> f:357
+R28137:28139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28124:28132 Coq.FSets.FSetPositive PositiveSet partition def
+R28136:28136 Coq.FSets.FSetPositive <> s:356 var
+R28134:28134 Coq.FSets.FSetPositive <> f:357 var
+R28140:28140 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28151:28152 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28183:28183 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28141:28146 Coq.FSets.FSetPositive PositiveSet filter def
+R28150:28150 Coq.FSets.FSetPositive <> s:356 var
+R28148:28148 Coq.FSets.FSetPositive <> f:357 var
+R28153:28158 Coq.FSets.FSetPositive PositiveSet filter def
+R28182:28182 Coq.FSets.FSetPositive <> s:356 var
+binder 28165:28165 <> x:358
+R28170:28173 Coq.Init.Datatypes <> negb def
+R28176:28176 Coq.FSets.FSetPositive <> f:357 var
+R28178:28178 Coq.FSets.FSetPositive <> x:358 var
+R28206:28214 Coq.FSets.FSetPositive PositiveSet partition def
+R28217:28222 Coq.FSets.FSetPositive PositiveSet filter def
+prf 28393:28403 PositiveSet partition_1
+binder 28414:28414 <> s:359
+binder 28416:28416 <> f:360
+R28442:28451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28420:28430 Coq.Lists.SetoidList <> compat_bool def
+R28432:28434 Coq.FSets.FSetPositive PositiveSet elt def
+R28436:28439 Coq.FSets.FSetPositive PositiveSet eq def
+R28441:28441 Coq.FSets.FSetPositive <> f:360 var
+R28452:28456 Coq.FSets.FSetPositive PositiveSet Equal def
+R28481:28486 Coq.FSets.FSetPositive PositiveSet filter def
+R28490:28490 Coq.FSets.FSetPositive <> s:359 var
+R28488:28488 Coq.FSets.FSetPositive <> f:360 var
+R28459:28461 Coq.Init.Datatypes <> fst def
+R28464:28472 Coq.FSets.FSetPositive PositiveSet partition def
+R28476:28476 Coq.FSets.FSetPositive <> s:359 var
+R28474:28474 Coq.FSets.FSetPositive <> f:360 var
+R28519:28534 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28519:28534 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28519:28534 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28543:28549 Coq.FSets.FSetPositive PositiveSet eq_refl thm
+R28543:28549 Coq.FSets.FSetPositive PositiveSet eq_refl thm
+prf 28566:28576 PositiveSet partition_2
+binder 28587:28587 <> s:361
+binder 28589:28589 <> f:362
+R28615:28624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28593:28603 Coq.Lists.SetoidList <> compat_bool def
+R28605:28607 Coq.FSets.FSetPositive PositiveSet elt def
+R28609:28612 Coq.FSets.FSetPositive PositiveSet eq def
+R28614:28614 Coq.FSets.FSetPositive <> f:362 var
+R28625:28629 Coq.FSets.FSetPositive PositiveSet Equal def
+R28654:28659 Coq.FSets.FSetPositive PositiveSet filter def
+R28683:28683 Coq.FSets.FSetPositive <> s:361 var
+binder 28666:28666 <> x:363
+R28671:28674 Coq.Init.Datatypes <> negb def
+R28677:28677 Coq.FSets.FSetPositive <> f:362 var
+R28679:28679 Coq.FSets.FSetPositive <> x:363 var
+R28632:28634 Coq.Init.Datatypes <> snd def
+R28637:28645 Coq.FSets.FSetPositive PositiveSet partition def
+R28649:28649 Coq.FSets.FSetPositive <> s:361 var
+R28647:28647 Coq.FSets.FSetPositive <> f:362 var
+R28712:28727 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28712:28727 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28712:28727 Coq.FSets.FSetPositive PositiveSet partition_filter thm
+R28736:28742 Coq.FSets.FSetPositive PositiveSet eq_refl thm
+R28736:28742 Coq.FSets.FSetPositive PositiveSet eq_refl thm
+abbrev 28801:28803 PositiveSet InL
+R28809:28811 Coq.Lists.SetoidList <> InA ind
+R28813:28816 Coq.FSets.FSetPositive PositiveSet eq def
+prf 28829:28842 PositiveSet xelements_spec
+binder 28852:28852 <> s:364
+binder 28854:28854 <> j:365
+binder 28856:28858 <> acc:366
+binder 28860:28860 <> y:367
+R28892:28904 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R28867:28869 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R28874:28882 Coq.FSets.FSetPositive PositiveSet xelements def
+R28888:28890 Coq.FSets.FSetPositive <> acc:366 var
+R28886:28886 Coq.FSets.FSetPositive <> j:365 var
+R28884:28884 Coq.FSets.FSetPositive <> s:364 var
+R28871:28871 Coq.FSets.FSetPositive <> y:367 var
+R28914:28917 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R28905:28907 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R28911:28913 Coq.FSets.FSetPositive <> acc:366 var
+R28909:28909 Coq.FSets.FSetPositive <> y:367 var
+R28918:28924 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28926:28927 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 28925:28925 <> x:368
+R28935:28938 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28929:28930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28934:28934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28928:28928 Coq.FSets.FSetPositive <> y:367 var
+R28932:28932 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R28931:28931 Coq.FSets.FSetPositive <> j:365 var
+R28933:28933 Coq.FSets.FSetPositive <> x:368 var
+R28946:28948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28939:28941 Coq.FSets.FSetPositive PositiveSet mem def
+R28945:28945 Coq.FSets.FSetPositive <> s:364 var
+R28943:28943 Coq.FSets.FSetPositive <> x:368 var
+R28949:28952 Coq.Init.Datatypes <> true constr
+R29190:29197 Coq.Lists.SetoidList <> InA_cons thm
+R29190:29197 Coq.Lists.SetoidList <> InA_cons thm
+R29190:29197 Coq.Lists.SetoidList <> InA_cons thm
+R29319:29320 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R29319:29320 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R29356:29357 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R29356:29357 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R29709:29710 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R29709:29710 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R29746:29747 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R29746:29747 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+prf 29957:29966 PositiveSet elements_1
+binder 29976:29976 <> s:369
+binder 29978:29978 <> x:370
+R29987:29990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29981:29982 Coq.FSets.FSetPositive PositiveSet In def
+R29986:29986 Coq.FSets.FSetPositive <> s:369 var
+R29984:29984 Coq.FSets.FSetPositive <> x:370 var
+R29991:29993 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R29998:30005 Coq.FSets.FSetPositive PositiveSet elements def
+R30007:30007 Coq.FSets.FSetPositive <> s:369 var
+R29995:29995 Coq.FSets.FSetPositive <> x:370 var
+R30031:30038 Coq.FSets.FSetPositive PositiveSet elements def
+R30041:30042 Coq.FSets.FSetPositive PositiveSet In def
+R30065:30078 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R30065:30078 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R30065:30078 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+prf 30120:30129 PositiveSet elements_2
+binder 30139:30139 <> s:371
+binder 30141:30141 <> x:372
+R30162:30165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30144:30146 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R30151:30158 Coq.FSets.FSetPositive PositiveSet elements def
+R30160:30160 Coq.FSets.FSetPositive <> s:371 var
+R30148:30148 Coq.FSets.FSetPositive <> x:372 var
+R30166:30167 Coq.FSets.FSetPositive PositiveSet In def
+R30171:30171 Coq.FSets.FSetPositive <> s:371 var
+R30169:30169 Coq.FSets.FSetPositive <> x:372 var
+R30194:30201 Coq.FSets.FSetPositive PositiveSet elements def
+R30204:30205 Coq.FSets.FSetPositive PositiveSet In def
+R30234:30247 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R30234:30247 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R30234:30247 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+prf 30355:30367 PositiveSet lt_rev_append
+binder 30377:30377 <> j:373
+binder 30379:30379 <> x:374
+binder 30381:30381 <> y:375
+R30392:30395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30384:30387 Coq.FSets.FSetPositive PositiveSet lt def
+R30389:30389 Coq.FSets.FSetPositive <> x:374 var
+R30391:30391 Coq.FSets.FSetPositive <> y:375 var
+R30396:30399 Coq.FSets.FSetPositive PositiveSet lt def
+R30403:30403 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R30402:30402 Coq.FSets.FSetPositive <> j:373 var
+R30404:30404 Coq.FSets.FSetPositive <> x:374 var
+R30409:30409 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R30408:30408 Coq.FSets.FSetPositive <> j:373 var
+R30410:30410 Coq.FSets.FSetPositive <> y:375 var
+prf 30471:30480 PositiveSet elements_3
+binder 30490:30490 <> s:376
+R30493:30496 Coq.Sorting.Sorted <> sort abbrev
+R30504:30511 Coq.FSets.FSetPositive PositiveSet elements def
+R30513:30513 Coq.FSets.FSetPositive <> s:376 var
+R30498:30501 Coq.FSets.FSetPositive PositiveSet lt def
+R30537:30544 Coq.FSets.FSetPositive PositiveSet elements def
+binder 30569:30569 <> s:377
+binder 30571:30571 <> j:378
+binder 30573:30575 <> acc:379
+R30597:30606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30584:30587 Coq.Sorting.Sorted <> sort abbrev
+R30594:30596 Coq.FSets.FSetPositive <> acc:379 var
+R30589:30592 Coq.FSets.FSetPositive PositiveSet lt def
+R30607:30607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30656:30666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 30615:30615 <> x:380
+binder 30617:30617 <> y:381
+R30626:30630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30620:30621 Coq.FSets.FSetPositive PositiveSet In def
+R30625:30625 Coq.FSets.FSetPositive <> s:377 var
+R30623:30623 Coq.FSets.FSetPositive <> x:380 var
+R30640:30643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30631:30633 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R30637:30639 Coq.FSets.FSetPositive <> acc:379 var
+R30635:30635 Coq.FSets.FSetPositive <> y:381 var
+R30644:30647 Coq.FSets.FSetPositive PositiveSet lt def
+R30651:30651 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R30650:30650 Coq.FSets.FSetPositive <> j:378 var
+R30652:30652 Coq.FSets.FSetPositive <> x:380 var
+R30655:30655 Coq.FSets.FSetPositive <> y:381 var
+R30667:30670 Coq.Sorting.Sorted <> sort abbrev
+R30678:30686 Coq.FSets.FSetPositive PositiveSet xelements def
+R30692:30694 Coq.FSets.FSetPositive <> acc:379 var
+R30690:30690 Coq.FSets.FSetPositive <> j:378 var
+R30688:30688 Coq.FSets.FSetPositive <> s:377 var
+R30672:30675 Coq.FSets.FSetPositive PositiveSet lt def
+binder 30569:30569 <> s:382
+binder 30571:30571 <> j:383
+binder 30573:30575 <> acc:384
+R30597:30606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30584:30587 Coq.Sorting.Sorted <> sort abbrev
+R30594:30596 Coq.FSets.FSetPositive <> acc:384 var
+R30589:30592 Coq.FSets.FSetPositive PositiveSet lt def
+R30607:30607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30656:30666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 30615:30615 <> x:385
+binder 30617:30617 <> y:386
+R30626:30630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30620:30621 Coq.FSets.FSetPositive PositiveSet In def
+R30625:30625 Coq.FSets.FSetPositive <> s:382 var
+R30623:30623 Coq.FSets.FSetPositive <> x:385 var
+R30640:30643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30631:30633 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R30637:30639 Coq.FSets.FSetPositive <> acc:384 var
+R30635:30635 Coq.FSets.FSetPositive <> y:386 var
+R30644:30647 Coq.FSets.FSetPositive PositiveSet lt def
+R30651:30651 Coq.FSets.FSetPositive PositiveSet :::x_'@'_x not
+R30650:30650 Coq.FSets.FSetPositive <> j:383 var
+R30652:30652 Coq.FSets.FSetPositive <> x:385 var
+R30655:30655 Coq.FSets.FSetPositive <> y:386 var
+R30667:30670 Coq.Sorting.Sorted <> sort abbrev
+R30678:30686 Coq.FSets.FSetPositive PositiveSet xelements def
+R30692:30694 Coq.FSets.FSetPositive <> acc:384 var
+R30690:30690 Coq.FSets.FSetPositive <> j:383 var
+R30688:30688 Coq.FSets.FSetPositive <> s:382 var
+R30672:30675 Coq.FSets.FSetPositive PositiveSet lt def
+R30920:30928 Coq.FSets.FSetPositive PositiveSet xelements def
+R30933:30934 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R30920:30928 Coq.FSets.FSetPositive PositiveSet xelements def
+R30933:30934 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R31008:31010 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R31015:31023 Coq.FSets.FSetPositive PositiveSet xelements def
+R31028:31029 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R31008:31010 Coq.FSets.FSetPositive PositiveSet InL abbrev
+R31015:31023 Coq.FSets.FSetPositive PositiveSet xelements def
+R31028:31029 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R31109:31122 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31109:31122 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31109:31122 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31236:31248 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31236:31248 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31257:31257 Coq.Init.Logic <> I constr
+R31257:31257 Coq.Init.Logic <> I constr
+R31338:31350 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31338:31350 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31359:31359 Coq.Init.Logic <> I constr
+R31359:31359 Coq.Init.Logic <> I constr
+R31379:31392 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31379:31392 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31379:31392 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31492:31504 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31492:31504 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31513:31513 Coq.Init.Logic <> I constr
+R31513:31513 Coq.Init.Logic <> I constr
+R31640:31653 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31640:31653 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31640:31653 Coq.FSets.FSetPositive PositiveSet xelements_spec thm
+R31759:31771 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31759:31771 Coq.FSets.FSetPositive PositiveSet lt_rev_append thm
+R31780:31780 Coq.Init.Logic <> I constr
+R31780:31780 Coq.Init.Logic <> I constr
+prf 31871:31881 PositiveSet elements_3w
+binder 31891:31891 <> s:387
+R31894:31899 Coq.Lists.SetoidList <> NoDupA ind
+R31907:31914 Coq.FSets.FSetPositive PositiveSet elements def
+R31916:31916 Coq.FSets.FSetPositive <> s:387 var
+R31901:31904 Coq.FSets.FSetPositive PositiveSet eq def
+R31964:31967 Coq.FSets.FSetPositive PositiveSet lt def
+R31946:31957 Coq.Lists.SetoidList <> SortA_NoDupA thm
+R31964:31967 Coq.FSets.FSetPositive PositiveSet lt def
+R31946:31957 Coq.Lists.SetoidList <> SortA_NoDupA thm
+R32009:32017 Coq.FSets.FSetPositive PositiveSet eq_refl def
+R32009:32017 Coq.FSets.FSetPositive PositiveSet eq_refl def
+R32040:32047 Coq.FSets.FSetPositive PositiveSet eq_sym def
+R32040:32047 Coq.FSets.FSetPositive PositiveSet eq_sym def
+R32070:32079 Coq.FSets.FSetPositive PositiveSet eq_trans def
+R32070:32079 Coq.FSets.FSetPositive PositiveSet eq_trans def
+R32126:32136 Coq.FSets.FSetPositive PositiveSet lt_not_eq thm
+R32126:32136 Coq.FSets.FSetPositive PositiveSet lt_not_eq thm
+R32186:32195 Coq.FSets.FSetPositive PositiveSet lt_trans thm
+R32186:32195 Coq.FSets.FSetPositive PositiveSet lt_trans thm
+R32229:32238 Coq.FSets.FSetPositive PositiveSet elements_3 thm
+R32229:32238 Coq.FSets.FSetPositive PositiveSet elements_3 thm
+prf 32294:32301 PositiveSet choose_1
+binder 32311:32311 <> s:388
+binder 32313:32313 <> x:389
+R32333:32336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32324:32326 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32316:32321 Coq.FSets.FSetPositive PositiveSet choose def
+R32323:32323 Coq.FSets.FSetPositive <> s:388 var
+R32327:32330 Coq.Init.Datatypes <> Some constr
+R32332:32332 Coq.FSets.FSetPositive <> x:389 var
+R32337:32338 Coq.FSets.FSetPositive PositiveSet In def
+R32342:32342 Coq.FSets.FSetPositive <> s:388 var
+R32340:32340 Coq.FSets.FSetPositive <> x:389 var
+R32531:32536 Coq.FSets.FSetPositive PositiveSet choose def
+R32531:32536 Coq.FSets.FSetPositive PositiveSet choose def
+R32644:32649 Coq.FSets.FSetPositive PositiveSet choose def
+R32644:32649 Coq.FSets.FSetPositive PositiveSet choose def
+prf 32769:32776 PositiveSet choose_2
+binder 32786:32786 <> s:390
+R32804:32807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32797:32799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32789:32794 Coq.FSets.FSetPositive PositiveSet choose def
+R32796:32796 Coq.FSets.FSetPositive <> s:390 var
+R32800:32803 Coq.Init.Datatypes <> None constr
+R32808:32812 Coq.FSets.FSetPositive PositiveSet Empty def
+R32814:32814 Coq.FSets.FSetPositive <> s:390 var
+R32837:32841 Coq.FSets.FSetPositive PositiveSet Empty def
+R32844:32845 Coq.FSets.FSetPositive PositiveSet In def
+R32916:32922 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R32916:32922 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R32995:33000 Coq.FSets.FSetPositive PositiveSet choose def
+R32995:33000 Coq.FSets.FSetPositive PositiveSet choose def
+R33050:33055 Coq.FSets.FSetPositive PositiveSet choose def
+R33050:33055 Coq.FSets.FSetPositive PositiveSet choose def
+prf 33234:33245 PositiveSet choose_empty
+binder 33255:33255 <> s:391
+R33275:33278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33268:33270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33258:33265 Coq.FSets.FSetPositive PositiveSet is_empty def
+R33267:33267 Coq.FSets.FSetPositive <> s:391 var
+R33271:33274 Coq.Init.Datatypes <> true constr
+R33287:33289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33279:33284 Coq.FSets.FSetPositive PositiveSet choose def
+R33286:33286 Coq.FSets.FSetPositive <> s:391 var
+R33290:33293 Coq.Init.Datatypes <> None constr
+R33331:33336 Coq.FSets.FSetPositive PositiveSet choose def
+R33331:33336 Coq.FSets.FSetPositive PositiveSet choose def
+R33374:33381 Coq.FSets.FSetPositive PositiveSet choose_1 thm
+R33374:33381 Coq.FSets.FSetPositive PositiveSet choose_1 thm
+R33396:33405 Coq.FSets.FSetPositive PositiveSet is_empty_2 thm
+R33396:33405 Coq.FSets.FSetPositive PositiveSet is_empty_2 thm
+prf 33446:33454 PositiveSet choose_3'
+binder 33464:33464 <> s:392
+binder 33466:33467 <> s':393
+R33480:33483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33470:33474 Coq.FSets.FSetPositive PositiveSet Equal def
+R33478:33479 Coq.FSets.FSetPositive <> s':393 var
+R33476:33476 Coq.FSets.FSetPositive <> s:392 var
+R33492:33494 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33484:33489 Coq.FSets.FSetPositive PositiveSet choose def
+R33491:33491 Coq.FSets.FSetPositive <> s:392 var
+R33495:33500 Coq.FSets.FSetPositive PositiveSet choose def
+R33502:33503 Coq.FSets.FSetPositive <> s':393 var
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33534:33543 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33613:33624 Coq.FSets.FSetPositive PositiveSet choose_empty thm
+R33613:33624 Coq.FSets.FSetPositive PositiveSet choose_empty thm
+R33694:33697 Coq.FSets.FSetPositive PositiveSet Node constr
+R33694:33697 Coq.FSets.FSetPositive PositiveSet Node constr
+R33733:33744 Coq.FSets.FSetPositive PositiveSet choose_empty thm
+R33733:33744 Coq.FSets.FSetPositive PositiveSet choose_empty thm
+R33766:33775 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33766:33775 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33766:33775 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33789:33794 Coq.FSets.FSetPositive PositiveSet eq_sym thm
+R33789:33794 Coq.FSets.FSetPositive PositiveSet eq_sym thm
+R33810:33819 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33810:33819 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33810:33819 Coq.FSets.FSetPositive PositiveSet equal_spec thm
+R33875:33887 Coq.Bool.Bool <> andb_lazy_alt thm
+R33891:33903 Coq.Bool.Bool <> andb_true_iff thm
+R33906:33917 Coq.Bool.Bool <> eqb_true_iff thm
+R33875:33887 Coq.Bool.Bool <> andb_lazy_alt thm
+R33875:33887 Coq.Bool.Bool <> andb_lazy_alt thm
+R33875:33887 Coq.Bool.Bool <> andb_lazy_alt thm
+R33891:33903 Coq.Bool.Bool <> andb_true_iff thm
+R33891:33903 Coq.Bool.Bool <> andb_true_iff thm
+R33891:33903 Coq.Bool.Bool <> andb_true_iff thm
+R33906:33917 Coq.Bool.Bool <> eqb_true_iff thm
+R33906:33917 Coq.Bool.Bool <> eqb_true_iff thm
+prf 34010:34017 PositiveSet choose_3
+binder 34027:34027 <> s:394
+binder 34029:34030 <> s':395
+binder 34032:34032 <> x:396
+binder 34034:34034 <> y:397
+R34058:34061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34049:34051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34041:34046 Coq.FSets.FSetPositive PositiveSet choose def
+R34048:34048 Coq.FSets.FSetPositive <> s:394 var
+R34052:34055 Coq.Init.Datatypes <> Some constr
+R34057:34057 Coq.FSets.FSetPositive <> x:396 var
+R34080:34083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34071:34073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34062:34067 Coq.FSets.FSetPositive PositiveSet choose def
+R34069:34070 Coq.FSets.FSetPositive <> s':395 var
+R34074:34077 Coq.Init.Datatypes <> Some constr
+R34079:34079 Coq.FSets.FSetPositive <> y:397 var
+R34094:34097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34084:34088 Coq.FSets.FSetPositive PositiveSet Equal def
+R34092:34093 Coq.FSets.FSetPositive <> s':395 var
+R34090:34090 Coq.FSets.FSetPositive <> s:394 var
+R34098:34101 Coq.FSets.FSetPositive PositiveSet eq def
+R34103:34103 Coq.FSets.FSetPositive <> x:396 var
+R34105:34105 Coq.FSets.FSetPositive <> y:397 var
+R34148:34156 Coq.FSets.FSetPositive PositiveSet choose_3' thm
+R34148:34156 Coq.FSets.FSetPositive PositiveSet choose_3' thm
+prf 34228:34236 PositiveSet min_elt_1
+binder 34246:34246 <> s:398
+binder 34248:34248 <> x:399
+R34269:34272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34260:34262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34251:34257 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34259:34259 Coq.FSets.FSetPositive <> s:398 var
+R34263:34266 Coq.Init.Datatypes <> Some constr
+R34268:34268 Coq.FSets.FSetPositive <> x:399 var
+R34273:34274 Coq.FSets.FSetPositive PositiveSet In def
+R34278:34278 Coq.FSets.FSetPositive <> s:398 var
+R34276:34276 Coq.FSets.FSetPositive <> x:399 var
+R34300:34301 Coq.FSets.FSetPositive PositiveSet In def
+R34400:34406 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34400:34406 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34564:34570 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34564:34570 Coq.FSets.FSetPositive PositiveSet min_elt def
+prf 34687:34695 PositiveSet min_elt_3
+binder 34705:34705 <> s:400
+R34724:34727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34717:34719 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34708:34714 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34716:34716 Coq.FSets.FSetPositive <> s:400 var
+R34720:34723 Coq.Init.Datatypes <> None constr
+R34728:34732 Coq.FSets.FSetPositive PositiveSet Empty def
+R34734:34734 Coq.FSets.FSetPositive <> s:400 var
+R34757:34761 Coq.FSets.FSetPositive PositiveSet Empty def
+R34764:34765 Coq.FSets.FSetPositive PositiveSet In def
+R34836:34842 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R34836:34842 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R34919:34925 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34919:34925 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34955:34961 Coq.FSets.FSetPositive PositiveSet min_elt def
+R34955:34961 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35069:35075 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35069:35075 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35157:35163 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35157:35163 Coq.FSets.FSetPositive PositiveSet min_elt def
+prf 35243:35251 PositiveSet min_elt_2
+binder 35261:35261 <> s:401
+binder 35263:35263 <> x:402
+binder 35265:35265 <> y:403
+R35286:35289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35277:35279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35268:35274 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35276:35276 Coq.FSets.FSetPositive <> s:401 var
+R35280:35283 Coq.Init.Datatypes <> Some constr
+R35285:35285 Coq.FSets.FSetPositive <> x:402 var
+R35296:35299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35290:35291 Coq.FSets.FSetPositive PositiveSet In def
+R35295:35295 Coq.FSets.FSetPositive <> s:401 var
+R35293:35293 Coq.FSets.FSetPositive <> y:403 var
+R35300:35301 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35302:35305 Coq.FSets.FSetPositive PositiveSet lt def
+R35307:35307 Coq.FSets.FSetPositive <> y:403 var
+R35309:35309 Coq.FSets.FSetPositive <> x:402 var
+R35332:35333 Coq.FSets.FSetPositive PositiveSet In def
+R35437:35443 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35437:35443 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35630:35638 Coq.FSets.FSetPositive PositiveSet min_elt_3 thm
+R35630:35638 Coq.FSets.FSetPositive PositiveSet min_elt_3 thm
+R35796:35802 Coq.FSets.FSetPositive PositiveSet min_elt def
+R35796:35802 Coq.FSets.FSetPositive PositiveSet min_elt def
+prf 36055:36063 PositiveSet max_elt_1
+binder 36073:36073 <> s:404
+binder 36075:36075 <> x:405
+R36096:36099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36087:36089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36078:36084 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36086:36086 Coq.FSets.FSetPositive <> s:404 var
+R36090:36093 Coq.Init.Datatypes <> Some constr
+R36095:36095 Coq.FSets.FSetPositive <> x:405 var
+R36100:36101 Coq.FSets.FSetPositive PositiveSet In def
+R36105:36105 Coq.FSets.FSetPositive <> s:404 var
+R36103:36103 Coq.FSets.FSetPositive <> x:405 var
+R36127:36128 Coq.FSets.FSetPositive PositiveSet In def
+R36227:36233 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36227:36233 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36391:36397 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36391:36397 Coq.FSets.FSetPositive PositiveSet max_elt def
+prf 36514:36522 PositiveSet max_elt_3
+binder 36532:36532 <> s:406
+R36551:36554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36544:36546 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36535:36541 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36543:36543 Coq.FSets.FSetPositive <> s:406 var
+R36547:36550 Coq.Init.Datatypes <> None constr
+R36555:36559 Coq.FSets.FSetPositive PositiveSet Empty def
+R36561:36561 Coq.FSets.FSetPositive <> s:406 var
+R36584:36588 Coq.FSets.FSetPositive PositiveSet Empty def
+R36591:36592 Coq.FSets.FSetPositive PositiveSet In def
+R36663:36669 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R36663:36669 Coq.FSets.FSetPositive PositiveSet empty_1 thm
+R36746:36752 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36746:36752 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36850:36856 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36850:36856 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36886:36892 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36886:36892 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36984:36990 Coq.FSets.FSetPositive PositiveSet max_elt def
+R36984:36990 Coq.FSets.FSetPositive PositiveSet max_elt def
+prf 37070:37078 PositiveSet max_elt_2
+binder 37088:37088 <> s:407
+binder 37090:37090 <> x:408
+binder 37092:37092 <> y:409
+R37113:37116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37104:37106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37095:37101 Coq.FSets.FSetPositive PositiveSet max_elt def
+R37103:37103 Coq.FSets.FSetPositive <> s:407 var
+R37107:37110 Coq.Init.Datatypes <> Some constr
+R37112:37112 Coq.FSets.FSetPositive <> x:408 var
+R37123:37126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37117:37118 Coq.FSets.FSetPositive PositiveSet In def
+R37122:37122 Coq.FSets.FSetPositive <> s:407 var
+R37120:37120 Coq.FSets.FSetPositive <> y:409 var
+R37127:37128 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37129:37132 Coq.FSets.FSetPositive PositiveSet lt def
+R37134:37134 Coq.FSets.FSetPositive <> x:408 var
+R37136:37136 Coq.FSets.FSetPositive <> y:409 var
+R37159:37160 Coq.FSets.FSetPositive PositiveSet In def
+R37264:37270 Coq.FSets.FSetPositive PositiveSet max_elt def
+R37264:37270 Coq.FSets.FSetPositive PositiveSet max_elt def
+R37457:37465 Coq.FSets.FSetPositive PositiveSet max_elt_3 thm
+R37457:37465 Coq.FSets.FSetPositive PositiveSet max_elt_3 thm
+R37623:37629 Coq.FSets.FSetPositive PositiveSet max_elt def
+R37623:37629 Coq.FSets.FSetPositive PositiveSet max_elt def
+R37840:37850 Coq.FSets.FSetPositive PositiveSet <> mod

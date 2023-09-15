@@ -1,0 +1,359 @@
+DIGEST f952835afb49f775b8eac81964409a2b
+FCoq.Floats.FloatAxioms
+R691:696 Coq.ZArith.ZArith <> <> lib
+R698:703 Coq.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R705:713 Coq.Floats.SpecFloat <> <> lib
+R715:723 Coq.Floats.PrimFloat <> <> lib
+R725:732 Coq.Floats.FloatOps <> <> lib
+abbrev 817:828 <> valid_binary
+R834:845 Coq.Floats.SpecFloat <> valid_binary def
+R852:855 Coq.Floats.FloatOps <> emax def
+R847:850 Coq.Floats.FloatOps <> prec def
+def 871:882 <> SF64classify
+R887:896 Coq.Floats.SpecFloat <> SFclassify def
+R898:901 Coq.Floats.FloatOps <> prec def
+def 915:921 <> SF64mul
+R926:930 Coq.Floats.SpecFloat <> SFmul def
+R937:940 Coq.Floats.FloatOps <> emax def
+R932:935 Coq.Floats.FloatOps <> prec def
+def 954:960 <> SF64add
+R965:969 Coq.Floats.SpecFloat <> SFadd def
+R976:979 Coq.Floats.FloatOps <> emax def
+R971:974 Coq.Floats.FloatOps <> prec def
+def 993:999 <> SF64sub
+R1004:1008 Coq.Floats.SpecFloat <> SFsub def
+R1015:1018 Coq.Floats.FloatOps <> emax def
+R1010:1013 Coq.Floats.FloatOps <> prec def
+def 1032:1038 <> SF64div
+R1043:1047 Coq.Floats.SpecFloat <> SFdiv def
+R1054:1057 Coq.Floats.FloatOps <> emax def
+R1049:1052 Coq.Floats.FloatOps <> prec def
+def 1071:1078 <> SF64sqrt
+R1083:1088 Coq.Floats.SpecFloat <> SFsqrt def
+R1095:1098 Coq.Floats.FloatOps <> emax def
+R1090:1093 Coq.Floats.FloatOps <> prec def
+def 1112:1119 <> SF64succ
+R1124:1129 Coq.Floats.SpecFloat <> SFsucc def
+R1136:1139 Coq.Floats.FloatOps <> emax def
+R1131:1134 Coq.Floats.FloatOps <> prec def
+def 1153:1160 <> SF64pred
+R1165:1170 Coq.Floats.SpecFloat <> SFpred def
+R1177:1180 Coq.Floats.FloatOps <> emax def
+R1172:1175 Coq.Floats.FloatOps <> prec def
+ax 1190:1202 <> Prim2SF_valid
+binder 1213:1213 <> x:1
+R1240:1242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1216:1227 Coq.Floats.FloatAxioms <> valid_binary abbrev
+R1230:1236 Coq.Floats.FloatOps <> Prim2SF def
+R1238:1238 Coq.Floats.FloatAxioms <> x:1 var
+R1243:1246 Coq.Init.Datatypes <> true constr
+ax 1255:1269 <> SF2Prim_Prim2SF
+binder 1280:1280 <> x:3
+R1302:1304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1283:1289 Coq.Floats.FloatOps <> SF2Prim def
+R1292:1298 Coq.Floats.FloatOps <> Prim2SF def
+R1300:1300 Coq.Floats.FloatAxioms <> x:3 var
+R1305:1305 Coq.Floats.FloatAxioms <> x:3 var
+ax 1314:1328 <> Prim2SF_SF2Prim
+binder 1339:1339 <> x:5
+R1363:1366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1356:1358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1342:1353 Coq.Floats.FloatAxioms <> valid_binary abbrev
+R1355:1355 Coq.Floats.FloatAxioms <> x:5 var
+R1359:1362 Coq.Init.Datatypes <> true constr
+R1386:1388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1367:1373 Coq.Floats.FloatOps <> Prim2SF def
+R1376:1382 Coq.Floats.FloatOps <> SF2Prim def
+R1384:1384 Coq.Floats.FloatAxioms <> x:5 var
+R1389:1389 Coq.Floats.FloatAxioms <> x:5 var
+prf 1401:1411 <> Prim2SF_inj
+binder 1422:1422 <> x:7
+binder 1424:1424 <> y:8
+R1448:1451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1436:1438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1427:1433 Coq.Floats.FloatOps <> Prim2SF def
+R1435:1435 Coq.Floats.FloatAxioms <> x:7 var
+R1439:1445 Coq.Floats.FloatOps <> Prim2SF def
+R1447:1447 Coq.Floats.FloatAxioms <> y:8 var
+R1453:1455 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1452:1452 Coq.Floats.FloatAxioms <> x:7 var
+R1456:1456 Coq.Floats.FloatAxioms <> y:8 var
+R1480:1494 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+R1480:1494 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+R1480:1494 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+R1518:1532 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+R1518:1532 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+R1518:1532 Coq.Floats.FloatAxioms <> SF2Prim_Prim2SF prfax
+prf 1564:1574 <> SF2Prim_inj
+binder 1585:1585 <> x:9
+binder 1587:1587 <> y:10
+R1611:1614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1599:1601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1590:1596 Coq.Floats.FloatOps <> SF2Prim def
+R1598:1598 Coq.Floats.FloatAxioms <> x:9 var
+R1602:1608 Coq.Floats.FloatOps <> SF2Prim def
+R1610:1610 Coq.Floats.FloatAxioms <> y:10 var
+R1636:1639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1629:1631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1615:1626 Coq.Floats.FloatAxioms <> valid_binary abbrev
+R1628:1628 Coq.Floats.FloatAxioms <> x:9 var
+R1632:1635 Coq.Init.Datatypes <> true constr
+R1661:1664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1654:1656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1640:1651 Coq.Floats.FloatAxioms <> valid_binary abbrev
+R1653:1653 Coq.Floats.FloatAxioms <> y:10 var
+R1657:1660 Coq.Init.Datatypes <> true constr
+R1666:1668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1665:1665 Coq.Floats.FloatAxioms <> x:9 var
+R1669:1669 Coq.Floats.FloatAxioms <> y:10 var
+R1693:1707 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+R1693:1707 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+R1693:1707 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+R1745:1759 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+R1745:1759 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+R1745:1759 Coq.Floats.FloatAxioms <> Prim2SF_SF2Prim prfax
+ax 1812:1819 <> opp_spec
+binder 1830:1830 <> x:11
+R1851:1853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1833:1839 Coq.Floats.FloatOps <> Prim2SF def
+R1842:1842 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:'-'_x not
+R1843:1843 Coq.Floats.FloatAxioms <> x:11 var
+R1854:1858 Coq.Floats.SpecFloat <> SFopp def
+R1861:1867 Coq.Floats.FloatOps <> Prim2SF def
+R1869:1869 Coq.Floats.FloatAxioms <> x:11 var
+ax 1879:1886 <> abs_spec
+binder 1897:1897 <> x:13
+R1915:1917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1900:1906 Coq.Floats.FloatOps <> Prim2SF def
+R1909:1911 Coq.Floats.PrimFloat <> abs prim
+R1913:1913 Coq.Floats.FloatAxioms <> x:13 var
+R1918:1922 Coq.Floats.SpecFloat <> SFabs def
+R1925:1931 Coq.Floats.FloatOps <> Prim2SF def
+R1933:1933 Coq.Floats.FloatAxioms <> x:13 var
+ax 1944:1951 <> eqb_spec
+binder 1962:1962 <> x:15
+binder 1964:1964 <> y:16
+R1981:1983 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1969:1972 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'=?'_x not
+R1968:1968 Coq.Floats.FloatAxioms <> x:15 var
+R1973:1973 Coq.Floats.FloatAxioms <> y:16 var
+R1984:1988 Coq.Floats.SpecFloat <> SFeqb def
+R1991:1997 Coq.Floats.FloatOps <> Prim2SF def
+R1999:1999 Coq.Floats.FloatAxioms <> x:15 var
+R2003:2009 Coq.Floats.FloatOps <> Prim2SF def
+R2011:2011 Coq.Floats.FloatAxioms <> y:16 var
+ax 2021:2028 <> ltb_spec
+binder 2039:2039 <> x:18
+binder 2041:2041 <> y:19
+R2058:2060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2046:2049 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'<?'_x not
+R2045:2045 Coq.Floats.FloatAxioms <> x:18 var
+R2050:2050 Coq.Floats.FloatAxioms <> y:19 var
+R2061:2065 Coq.Floats.SpecFloat <> SFltb def
+R2068:2074 Coq.Floats.FloatOps <> Prim2SF def
+R2076:2076 Coq.Floats.FloatAxioms <> x:18 var
+R2080:2086 Coq.Floats.FloatOps <> Prim2SF def
+R2088:2088 Coq.Floats.FloatAxioms <> y:19 var
+ax 2098:2105 <> leb_spec
+binder 2116:2116 <> x:21
+binder 2118:2118 <> y:22
+R2136:2138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2123:2127 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'<=?'_x not
+R2122:2122 Coq.Floats.FloatAxioms <> x:21 var
+R2128:2128 Coq.Floats.FloatAxioms <> y:22 var
+R2139:2143 Coq.Floats.SpecFloat <> SFleb def
+R2146:2152 Coq.Floats.FloatOps <> Prim2SF def
+R2154:2154 Coq.Floats.FloatAxioms <> x:21 var
+R2158:2164 Coq.Floats.FloatOps <> Prim2SF def
+R2166:2166 Coq.Floats.FloatAxioms <> y:22 var
+def 2182:2196 <> flatten_cmp_opt
+binder 2198:2198 <> c:24
+R2211:2211 Coq.Floats.FloatAxioms <> c:24 var
+R2222:2225 Coq.Init.Datatypes <> None constr
+R2230:2243 Coq.Floats.PrimFloat <> FNotComparable constr
+R2249:2252 Coq.Init.Datatypes <> Some constr
+R2254:2255 Coq.Init.Datatypes <> Eq constr
+R2260:2262 Coq.Floats.PrimFloat <> FEq constr
+R2268:2271 Coq.Init.Datatypes <> Some constr
+R2273:2274 Coq.Init.Datatypes <> Lt constr
+R2279:2281 Coq.Floats.PrimFloat <> FLt constr
+R2287:2290 Coq.Init.Datatypes <> Some constr
+R2292:2293 Coq.Init.Datatypes <> Gt constr
+R2298:2300 Coq.Floats.PrimFloat <> FGt constr
+ax 2315:2326 <> compare_spec
+binder 2337:2337 <> x:26
+binder 2339:2339 <> y:27
+R2356:2358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2344:2347 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'?='_x not
+R2343:2343 Coq.Floats.FloatAxioms <> x:26 var
+R2348:2348 Coq.Floats.FloatAxioms <> y:27 var
+R2359:2373 Coq.Floats.FloatAxioms <> flatten_cmp_opt def
+R2376:2384 Coq.Floats.SpecFloat <> SFcompare def
+R2387:2393 Coq.Floats.FloatOps <> Prim2SF def
+R2395:2395 Coq.Floats.FloatAxioms <> x:26 var
+R2399:2405 Coq.Floats.FloatOps <> Prim2SF def
+R2407:2407 Coq.Floats.FloatAxioms <> y:27 var
+mod 2420:2426 <> Leibniz
+ax 2435:2442 Leibniz eqb_spec
+binder 2453:2453 <> x:29
+binder 2455:2455 <> y:30
+R2480:2484 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2473:2475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2458:2468 Coq.Floats.PrimFloat Leibniz eqb prim
+R2470:2470 Coq.Floats.FloatAxioms <> x:29 var
+R2472:2472 Coq.Floats.FloatAxioms <> y:30 var
+R2476:2479 Coq.Init.Datatypes <> true constr
+R2486:2488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2485:2485 Coq.Floats.FloatAxioms <> x:29 var
+R2489:2489 Coq.Floats.FloatAxioms <> y:30 var
+R2496:2502 Coq.Floats.FloatAxioms Leibniz <> mod
+ax 2512:2524 <> classify_spec
+binder 2535:2535 <> x:32
+R2548:2550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2538:2545 Coq.Floats.PrimFloat <> classify prim
+R2547:2547 Coq.Floats.FloatAxioms <> x:32 var
+R2551:2562 Coq.Floats.FloatAxioms <> SF64classify def
+R2565:2571 Coq.Floats.FloatOps <> Prim2SF def
+R2573:2573 Coq.Floats.FloatAxioms <> x:32 var
+ax 2583:2590 <> mul_spec
+binder 2601:2601 <> x:34
+binder 2603:2603 <> y:35
+R2627:2629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2606:2612 Coq.Floats.FloatOps <> Prim2SF def
+R2616:2618 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'*'_x not
+R2615:2615 Coq.Floats.FloatAxioms <> x:34 var
+R2619:2619 Coq.Floats.FloatAxioms <> y:35 var
+R2630:2636 Coq.Floats.FloatAxioms <> SF64mul def
+R2639:2645 Coq.Floats.FloatOps <> Prim2SF def
+R2647:2647 Coq.Floats.FloatAxioms <> x:34 var
+R2651:2657 Coq.Floats.FloatOps <> Prim2SF def
+R2659:2659 Coq.Floats.FloatAxioms <> y:35 var
+ax 2669:2676 <> add_spec
+binder 2687:2687 <> x:37
+binder 2689:2689 <> y:38
+R2713:2715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2692:2698 Coq.Floats.FloatOps <> Prim2SF def
+R2702:2704 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'+'_x not
+R2701:2701 Coq.Floats.FloatAxioms <> x:37 var
+R2705:2705 Coq.Floats.FloatAxioms <> y:38 var
+R2716:2722 Coq.Floats.FloatAxioms <> SF64add def
+R2725:2731 Coq.Floats.FloatOps <> Prim2SF def
+R2733:2733 Coq.Floats.FloatAxioms <> x:37 var
+R2737:2743 Coq.Floats.FloatOps <> Prim2SF def
+R2745:2745 Coq.Floats.FloatAxioms <> y:38 var
+ax 2755:2762 <> sub_spec
+binder 2773:2773 <> x:40
+binder 2775:2775 <> y:41
+R2799:2801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2778:2784 Coq.Floats.FloatOps <> Prim2SF def
+R2788:2790 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'-'_x not
+R2787:2787 Coq.Floats.FloatAxioms <> x:40 var
+R2791:2791 Coq.Floats.FloatAxioms <> y:41 var
+R2802:2808 Coq.Floats.FloatAxioms <> SF64sub def
+R2811:2817 Coq.Floats.FloatOps <> Prim2SF def
+R2819:2819 Coq.Floats.FloatAxioms <> x:40 var
+R2823:2829 Coq.Floats.FloatOps <> Prim2SF def
+R2831:2831 Coq.Floats.FloatAxioms <> y:41 var
+ax 2841:2848 <> div_spec
+binder 2859:2859 <> x:43
+binder 2861:2861 <> y:44
+R2885:2887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2864:2870 Coq.Floats.FloatOps <> Prim2SF def
+R2874:2876 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'/'_x not
+R2873:2873 Coq.Floats.FloatAxioms <> x:43 var
+R2877:2877 Coq.Floats.FloatAxioms <> y:44 var
+R2888:2894 Coq.Floats.FloatAxioms <> SF64div def
+R2897:2903 Coq.Floats.FloatOps <> Prim2SF def
+R2905:2905 Coq.Floats.FloatAxioms <> x:43 var
+R2909:2915 Coq.Floats.FloatOps <> Prim2SF def
+R2917:2917 Coq.Floats.FloatAxioms <> y:44 var
+ax 2927:2935 <> sqrt_spec
+binder 2946:2946 <> x:46
+R2965:2967 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2949:2955 Coq.Floats.FloatOps <> Prim2SF def
+R2958:2961 Coq.Floats.PrimFloat <> sqrt prim
+R2963:2963 Coq.Floats.FloatAxioms <> x:46 var
+R2968:2975 Coq.Floats.FloatAxioms <> SF64sqrt def
+R2978:2984 Coq.Floats.FloatOps <> Prim2SF def
+R2986:2986 Coq.Floats.FloatAxioms <> x:46 var
+ax 2997:3010 <> of_uint63_spec
+binder 3021:3021 <> n:48
+R3045:3047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3024:3030 Coq.Floats.FloatOps <> Prim2SF def
+R3033:3041 Coq.Floats.PrimFloat <> of_uint63 prim
+R3043:3043 Coq.Floats.FloatAxioms <> n:48 var
+R3048:3063 Coq.Floats.SpecFloat <> binary_normalize def
+R3076:3079 Coq.Numbers.Cyclic.Int63.Uint63 <> to_Z def
+R3081:3081 Coq.Floats.FloatAxioms <> n:48 var
+R3088:3092 Coq.Init.Datatypes <> false constr
+R3070:3073 Coq.Floats.FloatOps <> emax def
+R3065:3068 Coq.Floats.FloatOps <> prec def
+ax 3101:3120 <> normfr_mantissa_spec
+binder 3131:3131 <> f:50
+R3158:3160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3134:3137 Coq.Numbers.Cyclic.Int63.Uint63 <> to_Z def
+R3140:3154 Coq.Floats.PrimFloat <> normfr_mantissa prim
+R3156:3156 Coq.Floats.FloatAxioms <> f:50 var
+R3161:3166 Coq.ZArith.BinInt Z of_N def
+R3169:3185 Coq.Floats.SpecFloat <> SFnormfr_mantissa def
+R3193:3199 Coq.Floats.FloatOps <> Prim2SF def
+R3201:3201 Coq.Floats.FloatAxioms <> f:50 var
+R3187:3190 Coq.Floats.FloatOps <> prec def
+ax 3213:3227 <> frshiftexp_spec
+binder 3238:3238 <> f:52
+R3254:3263 Coq.Floats.PrimFloat <> frshiftexp prim
+R3265:3265 Coq.Floats.FloatAxioms <> f:52 var
+binder 3246:3246 <> m:53
+binder 3248:3248 <> e:54
+R3303:3305 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3270:3270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3280:3281 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3302:3302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3271:3277 Coq.Floats.FloatOps <> Prim2SF def
+R3279:3279 Coq.Floats.FloatAxioms <> m:53 var
+R3283:3283 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3290:3293 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3284:3287 Coq.Numbers.Cyclic.Int63.Uint63 <> to_Z def
+R3289:3289 Coq.Floats.FloatAxioms <> e:54 var
+R3294:3298 Coq.Floats.FloatOps <> shift def
+R3306:3312 Coq.Floats.SpecFloat <> SFfrexp def
+R3325:3331 Coq.Floats.FloatOps <> Prim2SF def
+R3333:3333 Coq.Floats.FloatAxioms <> f:52 var
+R3319:3322 Coq.Floats.FloatOps <> emax def
+R3314:3317 Coq.Floats.FloatOps <> prec def
+ax 3343:3357 <> ldshiftexp_spec
+binder 3368:3368 <> f:56
+binder 3370:3370 <> e:57
+R3397:3399 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3373:3379 Coq.Floats.FloatOps <> Prim2SF def
+R3382:3391 Coq.Floats.PrimFloat <> ldshiftexp prim
+R3393:3393 Coq.Floats.FloatAxioms <> f:56 var
+R3395:3395 Coq.Floats.FloatAxioms <> e:57 var
+R3400:3406 Coq.Floats.SpecFloat <> SFldexp def
+R3419:3425 Coq.Floats.FloatOps <> Prim2SF def
+R3427:3427 Coq.Floats.FloatAxioms <> f:56 var
+R3431:3431 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3438:3441 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3432:3435 Coq.Numbers.Cyclic.Int63.Uint63 <> to_Z def
+R3437:3437 Coq.Floats.FloatAxioms <> e:57 var
+R3442:3446 Coq.Floats.FloatOps <> shift def
+R3413:3416 Coq.Floats.FloatOps <> emax def
+R3408:3411 Coq.Floats.FloatOps <> prec def
+ax 3457:3468 <> next_up_spec
+binder 3479:3479 <> x:59
+R3501:3503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3482:3488 Coq.Floats.FloatOps <> Prim2SF def
+R3491:3497 Coq.Floats.PrimFloat <> next_up prim
+R3499:3499 Coq.Floats.FloatAxioms <> x:59 var
+R3504:3511 Coq.Floats.FloatAxioms <> SF64succ def
+R3514:3520 Coq.Floats.FloatOps <> Prim2SF def
+R3522:3522 Coq.Floats.FloatAxioms <> x:59 var
+ax 3532:3545 <> next_down_spec
+binder 3556:3556 <> x:61
+R3580:3582 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3559:3565 Coq.Floats.FloatOps <> Prim2SF def
+R3568:3576 Coq.Floats.PrimFloat <> next_down prim
+R3578:3578 Coq.Floats.FloatAxioms <> x:61 var
+R3583:3590 Coq.Floats.FloatAxioms <> SF64pred def
+R3593:3599 Coq.Floats.FloatOps <> Prim2SF def
+R3601:3601 Coq.Floats.FloatAxioms <> x:61 var

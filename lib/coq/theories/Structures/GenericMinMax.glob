@@ -1,0 +1,2067 @@
+DIGEST 0da3d7a5600ed945cada743443b606a3
+FCoq.Structures.GenericMinMax
+R691:696 Coq.Structures.Orders <> <> lib
+R698:706 Coq.Structures.OrdersTac <> <> lib
+R708:718 Coq.Structures.OrdersFacts <> <> lib
+R720:725 Coq.Setoids.Setoid <> <> lib
+R727:735 Coq.Classes.Morphisms <> <> lib
+R737:742 Coq.Program.Basics <> <> lib
+R888:892 Coq.Structures.Orders EqLe' <> mod
+modtype 871:876 <> HasMax
+R871:876 Coq.Structures.GenericMinMax E <> mod
+ax 914:916 HasMax max
+R921:924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R920:920 Coq.Structures.GenericMinMax E t defax
+R926:929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R925:925 Coq.Structures.GenericMinMax E t defax
+R930:930 Coq.Structures.GenericMinMax E t defax
+ax 944:948 HasMax max_l
+binder 959:959 <> x:2
+binder 961:961 <> y:3
+R968:971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R965:966 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R964:964 Coq.Structures.GenericMinMax <> y:3 var
+R967:967 Coq.Structures.GenericMinMax <> x:2 var
+R979:982 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R972:974 Coq.Structures.GenericMinMax HasMax max defax
+R976:976 Coq.Structures.GenericMinMax <> x:2 var
+R978:978 Coq.Structures.GenericMinMax <> y:3 var
+R983:983 Coq.Structures.GenericMinMax <> x:2 var
+ax 997:1001 HasMax max_r
+binder 1012:1012 <> x:5
+binder 1014:1014 <> y:6
+R1021:1024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1018:1019 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1017:1017 Coq.Structures.GenericMinMax <> x:5 var
+R1020:1020 Coq.Structures.GenericMinMax <> y:6 var
+R1032:1035 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1025:1027 Coq.Structures.GenericMinMax HasMax max defax
+R1029:1029 Coq.Structures.GenericMinMax <> x:5 var
+R1031:1031 Coq.Structures.GenericMinMax <> y:6 var
+R1036:1036 Coq.Structures.GenericMinMax <> y:6 var
+R1043:1048 Coq.Structures.GenericMinMax HasMax <> modtype
+R1081:1085 Coq.Structures.Orders EqLe' <> mod
+modtype 1064:1069 <> HasMin
+R1064:1069 Coq.Structures.GenericMinMax E <> mod
+ax 1107:1109 HasMin min
+R1114:1117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1113:1113 Coq.Structures.GenericMinMax E t defax
+R1119:1122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1118:1118 Coq.Structures.GenericMinMax E t defax
+R1123:1123 Coq.Structures.GenericMinMax E t defax
+ax 1137:1141 HasMin min_l
+binder 1152:1152 <> x:9
+binder 1154:1154 <> y:10
+R1161:1164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1158:1159 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1157:1157 Coq.Structures.GenericMinMax <> x:9 var
+R1160:1160 Coq.Structures.GenericMinMax <> y:10 var
+R1172:1175 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1165:1167 Coq.Structures.GenericMinMax HasMin min defax
+R1169:1169 Coq.Structures.GenericMinMax <> x:9 var
+R1171:1171 Coq.Structures.GenericMinMax <> y:10 var
+R1176:1176 Coq.Structures.GenericMinMax <> x:9 var
+ax 1190:1194 HasMin min_r
+binder 1205:1205 <> x:12
+binder 1207:1207 <> y:13
+R1214:1217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1211:1212 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1210:1210 Coq.Structures.GenericMinMax <> y:13 var
+R1213:1213 Coq.Structures.GenericMinMax <> x:12 var
+R1225:1228 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1218:1220 Coq.Structures.GenericMinMax HasMin min defax
+R1222:1222 Coq.Structures.GenericMinMax <> x:12 var
+R1224:1224 Coq.Structures.GenericMinMax <> y:13 var
+R1229:1229 Coq.Structures.GenericMinMax <> y:13 var
+R1236:1241 Coq.Structures.GenericMinMax HasMin <> modtype
+R1270:1273 Coq.Structures.Orders EqLe <> mod
+R1279:1284 Coq.Structures.GenericMinMax HasMax <> mod
+R1286:1286 Coq.Structures.GenericMinMax E <> modtype
+R1291:1296 Coq.Structures.GenericMinMax HasMin <> mod
+R1298:1298 Coq.Structures.GenericMinMax E <> modtype
+modtype 1257:1265 <> HasMinMax
+def 1417:1420 <> gmax
+binder 1423:1423 <> A:15
+R1434:1435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1433:1433 Coq.Structures.GenericMinMax <> A:15 var
+R1437:1438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1436:1436 Coq.Structures.GenericMinMax <> A:15 var
+R1439:1448 Coq.Init.Datatypes <> comparison ind
+binder 1427:1429 <> cmp:16
+binder 1451:1451 <> x:17
+binder 1453:1453 <> y:18
+R1465:1467 Coq.Structures.GenericMinMax <> cmp:16 var
+R1471:1471 Coq.Structures.GenericMinMax <> y:18 var
+R1469:1469 Coq.Structures.GenericMinMax <> x:17 var
+R1478:1479 Coq.Init.Datatypes <> Lt constr
+R1484:1484 Coq.Structures.GenericMinMax <> y:18 var
+R1493:1493 Coq.Structures.GenericMinMax <> x:17 var
+def 1511:1514 <> gmin
+binder 1517:1517 <> A:19
+R1528:1529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1527:1527 Coq.Structures.GenericMinMax <> A:19 var
+R1531:1532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1530:1530 Coq.Structures.GenericMinMax <> A:19 var
+R1533:1542 Coq.Init.Datatypes <> comparison ind
+binder 1521:1523 <> cmp:20
+binder 1545:1545 <> x:21
+binder 1547:1547 <> y:22
+R1559:1561 Coq.Structures.GenericMinMax <> cmp:20 var
+R1565:1565 Coq.Structures.GenericMinMax <> y:22 var
+R1563:1563 Coq.Structures.GenericMinMax <> x:21 var
+R1572:1573 Coq.Init.Datatypes <> Gt constr
+R1578:1578 Coq.Structures.GenericMinMax <> y:22 var
+R1587:1587 Coq.Structures.GenericMinMax <> x:21 var
+R1626:1641 Coq.Structures.Orders OrderedTypeFull' <> mod
+R1647:1655 Coq.Structures.GenericMinMax HasMinMax <> mod
+R1657:1657 Coq.Structures.GenericMinMax O <> modtype
+mod 1602:1614 <> GenericMinMax
+def 1673:1675 GenericMinMax max
+R1680:1683 Coq.Structures.GenericMinMax <> gmax def
+R1685:1693 Coq.Structures.GenericMinMax O compare defax
+def 1708:1710 GenericMinMax min
+R1715:1718 Coq.Structures.GenericMinMax <> gmin def
+R1720:1728 Coq.Structures.GenericMinMax O compare defax
+prf 1739:1747 GenericMinMax ge_not_lt
+binder 1749:1749 <> x:23
+binder 1751:1751 <> y:24
+R1759:1762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1756:1757 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1755:1755 Coq.Structures.GenericMinMax <> y:24 var
+R1758:1758 Coq.Structures.GenericMinMax <> x:23 var
+R1766:1769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1764:1764 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1763:1763 Coq.Structures.GenericMinMax <> x:23 var
+R1765:1765 Coq.Structures.GenericMinMax <> y:24 var
+R1770:1774 Coq.Init.Logic <> False ind
+R1807:1829 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R1807:1829 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R1844:1850 Coq.Structures.GenericMinMax O le_lteq prfax
+R1844:1850 Coq.Structures.GenericMinMax O le_lteq prfax
+R1844:1850 Coq.Structures.GenericMinMax O le_lteq prfax
+prf 1944:1948 GenericMinMax max_l
+binder 1950:1950 <> x:25
+binder 1952:1952 <> y:26
+R1960:1963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1957:1958 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1956:1956 Coq.Structures.GenericMinMax <> y:26 var
+R1959:1959 Coq.Structures.GenericMinMax <> x:25 var
+R1971:1974 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1964:1966 Coq.Structures.GenericMinMax GenericMinMax max def
+R1968:1968 Coq.Structures.GenericMinMax <> x:25 var
+R1970:1970 Coq.Structures.GenericMinMax <> y:26 var
+R1975:1975 Coq.Structures.GenericMinMax <> x:25 var
+R2002:2004 Coq.Structures.GenericMinMax GenericMinMax max def
+R2007:2010 Coq.Structures.GenericMinMax <> gmax def
+R2018:2029 Coq.Structures.GenericMinMax O compare_spec prfax
+R2018:2029 Coq.Structures.GenericMinMax O compare_spec prfax
+R2068:2076 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+R2068:2076 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+prf 2104:2108 GenericMinMax max_r
+binder 2110:2110 <> x:27
+binder 2112:2112 <> y:28
+R2120:2123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2117:2118 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2116:2116 Coq.Structures.GenericMinMax <> x:27 var
+R2119:2119 Coq.Structures.GenericMinMax <> y:28 var
+R2131:2134 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2124:2126 Coq.Structures.GenericMinMax GenericMinMax max def
+R2128:2128 Coq.Structures.GenericMinMax <> x:27 var
+R2130:2130 Coq.Structures.GenericMinMax <> y:28 var
+R2135:2135 Coq.Structures.GenericMinMax <> y:28 var
+R2162:2164 Coq.Structures.GenericMinMax GenericMinMax max def
+R2167:2170 Coq.Structures.GenericMinMax <> gmax def
+R2178:2189 Coq.Structures.GenericMinMax O compare_spec prfax
+R2178:2189 Coq.Structures.GenericMinMax O compare_spec prfax
+R2228:2236 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+R2228:2236 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+prf 2264:2268 GenericMinMax min_l
+binder 2270:2270 <> x:29
+binder 2272:2272 <> y:30
+R2280:2283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2277:2278 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2276:2276 Coq.Structures.GenericMinMax <> x:29 var
+R2279:2279 Coq.Structures.GenericMinMax <> y:30 var
+R2291:2294 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2284:2286 Coq.Structures.GenericMinMax GenericMinMax min def
+R2288:2288 Coq.Structures.GenericMinMax <> x:29 var
+R2290:2290 Coq.Structures.GenericMinMax <> y:30 var
+R2295:2295 Coq.Structures.GenericMinMax <> x:29 var
+R2322:2324 Coq.Structures.GenericMinMax GenericMinMax min def
+R2327:2330 Coq.Structures.GenericMinMax <> gmin def
+R2338:2349 Coq.Structures.GenericMinMax O compare_spec prfax
+R2338:2349 Coq.Structures.GenericMinMax O compare_spec prfax
+R2388:2396 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+R2388:2396 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+prf 2424:2428 GenericMinMax min_r
+binder 2430:2430 <> x:31
+binder 2432:2432 <> y:32
+R2440:2443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2437:2438 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2436:2436 Coq.Structures.GenericMinMax <> y:32 var
+R2439:2439 Coq.Structures.GenericMinMax <> x:31 var
+R2451:2454 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2444:2446 Coq.Structures.GenericMinMax GenericMinMax min def
+R2448:2448 Coq.Structures.GenericMinMax <> x:31 var
+R2450:2450 Coq.Structures.GenericMinMax <> y:32 var
+R2455:2455 Coq.Structures.GenericMinMax <> y:32 var
+R2482:2484 Coq.Structures.GenericMinMax GenericMinMax min def
+R2487:2490 Coq.Structures.GenericMinMax <> gmin def
+R2498:2509 Coq.Structures.GenericMinMax O compare_spec prfax
+R2498:2509 Coq.Structures.GenericMinMax O compare_spec prfax
+R2548:2556 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+R2548:2556 Coq.Structures.GenericMinMax GenericMinMax ge_not_lt thm
+R2581:2593 Coq.Structures.GenericMinMax GenericMinMax <> mod
+R2721:2731 Coq.Structures.Orders TotalOrder' <> mod
+R2743:2751 Coq.Structures.GenericMinMax HasMinMax <> mod
+R2753:2753 Coq.Structures.GenericMinMax O <> modtype
+mod 2687:2709 <> MinMaxLogicalProperties
+R2788:2799 Coq.Structures.OrdersTac MakeOrderTac <> modtype
+R2801:2801 Coq.Structures.GenericMinMax O <> modtype
+R2803:2803 Coq.Structures.GenericMinMax O <> modtype
+mod 2772:2782 <> MinMaxLogicalProperties.Private_Tac
+prf 2898:2905 MinMaxLogicalProperties max_spec
+binder 2907:2907 <> n:33
+binder 2909:2909 <> m:34
+R2915:2915 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2937:2942 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2965:2965 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2921:2924 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2917:2919 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2916:2916 Coq.Structures.GenericMinMax <> n:33 var
+R2920:2920 Coq.Structures.GenericMinMax <> m:34 var
+R2932:2935 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2925:2927 Coq.Structures.GenericMinMax M max defax
+R2929:2929 Coq.Structures.GenericMinMax <> n:33 var
+R2931:2931 Coq.Structures.GenericMinMax <> m:34 var
+R2936:2936 Coq.Structures.GenericMinMax <> m:34 var
+R2949:2952 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2944:2947 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2943:2943 Coq.Structures.GenericMinMax <> m:34 var
+R2948:2948 Coq.Structures.GenericMinMax <> n:33 var
+R2960:2963 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2953:2955 Coq.Structures.GenericMinMax M max defax
+R2957:2957 Coq.Structures.GenericMinMax <> n:33 var
+R2959:2959 Coq.Structures.GenericMinMax <> m:34 var
+R2964:2964 Coq.Structures.GenericMinMax <> n:33 var
+R2986:2993 Coq.Structures.GenericMinMax O lt_total prfax
+R2986:2993 Coq.Structures.GenericMinMax O lt_total prfax
+R3037:3041 Coq.Structures.GenericMinMax M max_r defax
+R3037:3041 Coq.Structures.GenericMinMax M max_r defax
+R3052:3058 Coq.Structures.GenericMinMax O le_lteq prfax
+R3052:3058 Coq.Structures.GenericMinMax O le_lteq prfax
+R3052:3058 Coq.Structures.GenericMinMax O le_lteq prfax
+R3079:3082 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3098:3104 Coq.Structures.GenericMinMax O le_lteq prfax
+R3079:3082 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3098:3104 Coq.Structures.GenericMinMax O le_lteq prfax
+R3098:3104 Coq.Structures.GenericMinMax O le_lteq prfax
+R3145:3149 Coq.Structures.GenericMinMax M max_l defax
+R3145:3149 Coq.Structures.GenericMinMax M max_l defax
+prf 3285:3295 MinMaxLogicalProperties max_spec_le
+binder 3297:3297 <> n:35
+binder 3299:3299 <> m:36
+R3304:3304 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3327:3332 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3355:3355 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3311:3314 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3306:3309 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3305:3305 Coq.Structures.GenericMinMax <> n:35 var
+R3310:3310 Coq.Structures.GenericMinMax <> m:36 var
+R3322:3325 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3315:3317 Coq.Structures.GenericMinMax M max defax
+R3319:3319 Coq.Structures.GenericMinMax <> n:35 var
+R3321:3321 Coq.Structures.GenericMinMax <> m:36 var
+R3326:3326 Coq.Structures.GenericMinMax <> m:36 var
+R3339:3342 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3334:3337 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3333:3333 Coq.Structures.GenericMinMax <> m:36 var
+R3338:3338 Coq.Structures.GenericMinMax <> n:35 var
+R3350:3353 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3343:3345 Coq.Structures.GenericMinMax M max defax
+R3347:3347 Coq.Structures.GenericMinMax <> n:35 var
+R3349:3349 Coq.Structures.GenericMinMax <> m:36 var
+R3354:3354 Coq.Structures.GenericMinMax <> n:35 var
+R3376:3383 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3376:3383 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3450:3455 Coq.Classes.Morphisms <> Proper class
+R3473:3474 Coq.Structures.GenericMinMax O le defax
+R3460:3462 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3458:3459 Coq.Structures.GenericMinMax O eq defax
+R3465:3467 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3463:3464 Coq.Structures.GenericMinMax O eq defax
+R3468:3470 Coq.Init.Logic <> iff def
+inst 3538:3547 MinMaxLogicalProperties max_compat
+R3551:3556 Coq.Classes.Morphisms <> Proper class
+R3573:3575 Coq.Structures.GenericMinMax M max defax
+R3561:3563 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3559:3560 Coq.Structures.GenericMinMax O eq defax
+R3566:3568 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3564:3565 Coq.Structures.GenericMinMax O eq defax
+R3569:3570 Coq.Structures.GenericMinMax O eq defax
+R3625:3632 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3625:3632 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3654:3661 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3654:3661 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3682:3684 Coq.Structures.GenericMinMax M max defax
+R3708:3710 Coq.Structures.GenericMinMax M max defax
+R3682:3684 Coq.Structures.GenericMinMax M max defax
+R3708:3710 Coq.Structures.GenericMinMax M max defax
+R3781:3788 Coq.Structures.GenericMinMax O lt_total prfax
+R3781:3788 Coq.Structures.GenericMinMax O lt_total prfax
+prf 3897:3907 MinMaxLogicalProperties max_unicity
+binder 3909:3909 <> n:37
+binder 3911:3911 <> m:38
+binder 3913:3913 <> p:39
+R3918:3918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3958:3962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3919:3919 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3935:3940 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3957:3957 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3925:3928 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3921:3923 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3920:3920 Coq.Structures.GenericMinMax <> n:37 var
+R3924:3924 Coq.Structures.GenericMinMax <> m:38 var
+R3930:3933 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3929:3929 Coq.Structures.GenericMinMax <> p:39 var
+R3934:3934 Coq.Structures.GenericMinMax <> m:38 var
+R3947:3950 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3942:3945 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3941:3941 Coq.Structures.GenericMinMax <> m:38 var
+R3946:3946 Coq.Structures.GenericMinMax <> n:37 var
+R3952:3955 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3951:3951 Coq.Structures.GenericMinMax <> p:39 var
+R3956:3956 Coq.Structures.GenericMinMax <> n:37 var
+R3964:3967 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3963:3963 Coq.Structures.GenericMinMax <> p:39 var
+R3968:3970 Coq.Structures.GenericMinMax M max defax
+R3972:3972 Coq.Structures.GenericMinMax <> n:37 var
+R3974:3974 Coq.Structures.GenericMinMax <> m:38 var
+R3999:4006 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R3999:4006 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4025:4032 Coq.Structures.GenericMinMax O lt_total prfax
+R4025:4032 Coq.Structures.GenericMinMax O lt_total prfax
+prf 4070:4084 MinMaxLogicalProperties max_unicity_ext
+binder 4086:4086 <> f:40
+R4091:4091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4151:4157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4186:4186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4099:4099 <> n:41
+binder 4101:4101 <> m:42
+R4104:4104 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4124:4129 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4150:4150 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4110:4113 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4106:4108 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4105:4105 Coq.Structures.GenericMinMax <> n:41 var
+R4109:4109 Coq.Structures.GenericMinMax <> m:42 var
+R4119:4122 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4114:4114 Coq.Structures.GenericMinMax <> f:40 var
+R4116:4116 Coq.Structures.GenericMinMax <> n:41 var
+R4118:4118 Coq.Structures.GenericMinMax <> m:42 var
+R4123:4123 Coq.Structures.GenericMinMax <> m:42 var
+R4136:4139 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4131:4134 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4130:4130 Coq.Structures.GenericMinMax <> m:42 var
+R4135:4135 Coq.Structures.GenericMinMax <> n:41 var
+R4145:4148 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4140:4140 Coq.Structures.GenericMinMax <> f:40 var
+R4142:4142 Coq.Structures.GenericMinMax <> n:41 var
+R4144:4144 Coq.Structures.GenericMinMax <> m:42 var
+R4149:4149 Coq.Structures.GenericMinMax <> n:41 var
+binder 4165:4165 <> n:43
+binder 4167:4167 <> m:44
+R4175:4178 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4170:4170 Coq.Structures.GenericMinMax <> f:40 var
+R4172:4172 Coq.Structures.GenericMinMax <> n:43 var
+R4174:4174 Coq.Structures.GenericMinMax <> m:44 var
+R4179:4181 Coq.Structures.GenericMinMax M max defax
+R4183:4183 Coq.Structures.GenericMinMax <> n:43 var
+R4185:4185 Coq.Structures.GenericMinMax <> m:44 var
+R4211:4221 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_unicity thm
+R4211:4221 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_unicity thm
+prf 4290:4297 MinMaxLogicalProperties max_mono
+binder 4299:4299 <> f:45
+R4304:4304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4325:4330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4305:4310 Coq.Classes.Morphisms <> Proper class
+R4324:4324 Coq.Structures.GenericMinMax <> f:45 var
+R4315:4319 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4313:4314 Coq.Structures.GenericMinMax O eq defax
+R4320:4321 Coq.Structures.GenericMinMax O eq defax
+R4331:4331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4352:4357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4332:4337 Coq.Classes.Morphisms <> Proper class
+R4351:4351 Coq.Structures.GenericMinMax <> f:45 var
+R4342:4346 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4340:4341 Coq.Structures.GenericMinMax O le defax
+R4347:4348 Coq.Structures.GenericMinMax O le defax
+binder 4365:4365 <> x:46
+binder 4367:4367 <> y:47
+R4385:4388 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4370:4372 Coq.Structures.GenericMinMax M max defax
+R4375:4375 Coq.Structures.GenericMinMax <> f:45 var
+R4377:4377 Coq.Structures.GenericMinMax <> x:46 var
+R4381:4381 Coq.Structures.GenericMinMax <> f:45 var
+R4383:4383 Coq.Structures.GenericMinMax <> y:47 var
+R4389:4389 Coq.Structures.GenericMinMax <> f:45 var
+R4392:4394 Coq.Structures.GenericMinMax M max defax
+R4396:4396 Coq.Structures.GenericMinMax <> x:46 var
+R4398:4398 Coq.Structures.GenericMinMax <> y:47 var
+R4441:4448 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4496:4503 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4441:4448 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4496:4503 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4496:4503 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4560:4563 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4560:4563 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4613:4616 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4613:4616 Coq.Structures.Orders LeNotation :::x_'<='_x not
+prf 4719:4724 MinMaxLogicalProperties max_id
+binder 4726:4726 <> n:48
+R4737:4740 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4730:4732 Coq.Structures.GenericMinMax M max defax
+R4734:4734 Coq.Structures.GenericMinMax <> n:48 var
+R4736:4736 Coq.Structures.GenericMinMax <> n:48 var
+R4741:4741 Coq.Structures.GenericMinMax <> n:48 var
+R4758:4762 Coq.Structures.GenericMinMax M max_l defax
+R4758:4762 Coq.Structures.GenericMinMax M max_l defax
+abbrev 4787:4800 MinMaxLogicalProperties max_idempotent
+R4805:4810 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_id thm
+prf 4835:4843 MinMaxLogicalProperties max_assoc
+binder 4845:4845 <> m:49
+binder 4847:4847 <> n:50
+binder 4849:4849 <> p:51
+R4868:4871 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4853:4855 Coq.Structures.GenericMinMax M max defax
+R4857:4857 Coq.Structures.GenericMinMax <> m:49 var
+R4860:4862 Coq.Structures.GenericMinMax M max defax
+R4864:4864 Coq.Structures.GenericMinMax <> n:50 var
+R4866:4866 Coq.Structures.GenericMinMax <> p:51 var
+R4872:4874 Coq.Structures.GenericMinMax M max defax
+R4877:4879 Coq.Structures.GenericMinMax M max defax
+R4881:4881 Coq.Structures.GenericMinMax <> m:49 var
+R4883:4883 Coq.Structures.GenericMinMax <> n:50 var
+R4886:4886 Coq.Structures.GenericMinMax <> p:51 var
+R4907:4914 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4961:4968 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4907:4914 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4961:4968 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R4961:4968 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R5032:5036 Coq.Structures.GenericMinMax M max_r defax
+R5032:5036 Coq.Structures.GenericMinMax M max_r defax
+R5065:5069 Coq.Structures.GenericMinMax M max_l defax
+R5065:5069 Coq.Structures.GenericMinMax M max_l defax
+prf 5091:5098 MinMaxLogicalProperties max_comm
+binder 5100:5100 <> n:52
+binder 5102:5102 <> m:53
+R5113:5116 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5106:5108 Coq.Structures.GenericMinMax M max defax
+R5110:5110 Coq.Structures.GenericMinMax <> n:52 var
+R5112:5112 Coq.Structures.GenericMinMax <> m:53 var
+R5117:5119 Coq.Structures.GenericMinMax M max defax
+R5121:5121 Coq.Structures.GenericMinMax <> m:53 var
+R5123:5123 Coq.Structures.GenericMinMax <> n:52 var
+R5144:5151 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R5211:5215 Coq.Structures.GenericMinMax M max_l defax
+R5196:5200 Coq.Structures.GenericMinMax M max_r defax
+R5144:5151 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R5196:5200 Coq.Structures.GenericMinMax M max_r defax
+R5211:5215 Coq.Structures.GenericMinMax M max_l defax
+R5196:5200 Coq.Structures.GenericMinMax M max_r defax
+R5279:5281 Coq.Structures.GenericMinMax M max defax
+R5279:5281 Coq.Structures.GenericMinMax M max defax
+R5305:5312 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+prf 5400:5407 MinMaxLogicalProperties le_max_l
+binder 5409:5409 <> n:54
+binder 5411:5411 <> m:55
+R5416:5419 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5415:5415 Coq.Structures.GenericMinMax <> n:54 var
+R5420:5422 Coq.Structures.GenericMinMax M max defax
+R5424:5424 Coq.Structures.GenericMinMax <> n:54 var
+R5426:5426 Coq.Structures.GenericMinMax <> m:55 var
+prf 5459:5466 MinMaxLogicalProperties le_max_r
+binder 5468:5468 <> n:56
+binder 5470:5470 <> m:57
+R5475:5478 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5474:5474 Coq.Structures.GenericMinMax <> m:57 var
+R5479:5481 Coq.Structures.GenericMinMax M max defax
+R5483:5483 Coq.Structures.GenericMinMax <> n:56 var
+R5485:5485 Coq.Structures.GenericMinMax <> m:57 var
+prf 5518:5526 MinMaxLogicalProperties max_l_iff
+binder 5528:5528 <> n:58
+binder 5530:5530 <> m:59
+R5546:5550 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5541:5544 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5534:5536 Coq.Structures.GenericMinMax M max defax
+R5538:5538 Coq.Structures.GenericMinMax <> n:58 var
+R5540:5540 Coq.Structures.GenericMinMax <> m:59 var
+R5545:5545 Coq.Structures.GenericMinMax <> n:58 var
+R5552:5555 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5551:5551 Coq.Structures.GenericMinMax <> m:59 var
+R5556:5556 Coq.Structures.GenericMinMax <> n:58 var
+prf 5589:5597 MinMaxLogicalProperties max_r_iff
+binder 5599:5599 <> n:60
+binder 5601:5601 <> m:61
+R5617:5621 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5612:5615 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5605:5607 Coq.Structures.GenericMinMax M max defax
+R5609:5609 Coq.Structures.GenericMinMax <> n:60 var
+R5611:5611 Coq.Structures.GenericMinMax <> m:61 var
+R5616:5616 Coq.Structures.GenericMinMax <> m:61 var
+R5623:5626 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5622:5622 Coq.Structures.GenericMinMax <> n:60 var
+R5627:5627 Coq.Structures.GenericMinMax <> m:61 var
+prf 5660:5665 MinMaxLogicalProperties max_le
+binder 5667:5667 <> n:62
+binder 5669:5669 <> m:63
+binder 5671:5671 <> p:64
+R5687:5690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5676:5679 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5675:5675 Coq.Structures.GenericMinMax <> p:64 var
+R5680:5682 Coq.Structures.GenericMinMax M max defax
+R5684:5684 Coq.Structures.GenericMinMax <> n:62 var
+R5686:5686 Coq.Structures.GenericMinMax <> m:63 var
+R5697:5700 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5692:5695 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5691:5691 Coq.Structures.GenericMinMax <> p:64 var
+R5696:5696 Coq.Structures.GenericMinMax <> n:62 var
+R5702:5705 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5701:5701 Coq.Structures.GenericMinMax <> p:64 var
+R5706:5706 Coq.Structures.GenericMinMax <> m:63 var
+R5727:5734 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R5727:5734 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+prf 5786:5795 MinMaxLogicalProperties max_le_iff
+binder 5797:5797 <> n:65
+binder 5799:5799 <> m:66
+binder 5801:5801 <> p:67
+R5817:5821 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5806:5809 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5805:5805 Coq.Structures.GenericMinMax <> p:67 var
+R5810:5812 Coq.Structures.GenericMinMax M max defax
+R5814:5814 Coq.Structures.GenericMinMax <> n:65 var
+R5816:5816 Coq.Structures.GenericMinMax <> m:66 var
+R5828:5831 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5823:5826 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5822:5822 Coq.Structures.GenericMinMax <> p:67 var
+R5827:5827 Coq.Structures.GenericMinMax <> n:65 var
+R5833:5836 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5832:5832 Coq.Structures.GenericMinMax <> p:67 var
+R5837:5837 Coq.Structures.GenericMinMax <> m:66 var
+R5866:5871 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le thm
+R5866:5871 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le thm
+prf 5901:5910 MinMaxLogicalProperties max_lt_iff
+binder 5912:5912 <> n:68
+binder 5914:5914 <> m:69
+binder 5916:5916 <> p:70
+R5931:5935 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5921:5923 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5920:5920 Coq.Structures.GenericMinMax <> p:70 var
+R5924:5926 Coq.Structures.GenericMinMax M max defax
+R5928:5928 Coq.Structures.GenericMinMax <> n:68 var
+R5930:5930 Coq.Structures.GenericMinMax <> m:69 var
+R5941:5944 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5937:5939 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5936:5936 Coq.Structures.GenericMinMax <> p:70 var
+R5940:5940 Coq.Structures.GenericMinMax <> n:68 var
+R5946:5948 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5945:5945 Coq.Structures.GenericMinMax <> p:70 var
+R5949:5949 Coq.Structures.GenericMinMax <> m:69 var
+R5970:5977 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R5970:5977 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+prf 6052:6060 MinMaxLogicalProperties max_lub_l
+binder 6062:6062 <> n:71
+binder 6064:6064 <> m:72
+binder 6066:6066 <> p:73
+R6082:6085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6077:6080 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6070:6072 Coq.Structures.GenericMinMax M max defax
+R6074:6074 Coq.Structures.GenericMinMax <> n:71 var
+R6076:6076 Coq.Structures.GenericMinMax <> m:72 var
+R6081:6081 Coq.Structures.GenericMinMax <> p:73 var
+R6087:6090 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6086:6086 Coq.Structures.GenericMinMax <> n:71 var
+R6091:6091 Coq.Structures.GenericMinMax <> p:73 var
+prf 6124:6132 MinMaxLogicalProperties max_lub_r
+binder 6134:6134 <> n:74
+binder 6136:6136 <> m:75
+binder 6138:6138 <> p:76
+R6154:6157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6149:6152 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6142:6144 Coq.Structures.GenericMinMax M max defax
+R6146:6146 Coq.Structures.GenericMinMax <> n:74 var
+R6148:6148 Coq.Structures.GenericMinMax <> m:75 var
+R6153:6153 Coq.Structures.GenericMinMax <> p:76 var
+R6159:6162 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6158:6158 Coq.Structures.GenericMinMax <> m:75 var
+R6163:6163 Coq.Structures.GenericMinMax <> p:76 var
+prf 6196:6202 MinMaxLogicalProperties max_lub
+binder 6204:6204 <> n:77
+binder 6206:6206 <> m:78
+binder 6208:6208 <> p:79
+R6218:6221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6213:6216 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6212:6212 Coq.Structures.GenericMinMax <> n:77 var
+R6217:6217 Coq.Structures.GenericMinMax <> p:79 var
+R6228:6231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6223:6226 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6222:6222 Coq.Structures.GenericMinMax <> m:78 var
+R6227:6227 Coq.Structures.GenericMinMax <> p:79 var
+R6239:6242 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6232:6234 Coq.Structures.GenericMinMax M max defax
+R6236:6236 Coq.Structures.GenericMinMax <> n:77 var
+R6238:6238 Coq.Structures.GenericMinMax <> m:78 var
+R6243:6243 Coq.Structures.GenericMinMax <> p:79 var
+prf 6276:6286 MinMaxLogicalProperties max_lub_iff
+binder 6288:6288 <> n:80
+binder 6290:6290 <> m:81
+binder 6292:6292 <> p:82
+R6308:6312 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6303:6306 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6296:6298 Coq.Structures.GenericMinMax M max defax
+R6300:6300 Coq.Structures.GenericMinMax <> n:80 var
+R6302:6302 Coq.Structures.GenericMinMax <> m:81 var
+R6307:6307 Coq.Structures.GenericMinMax <> p:82 var
+R6319:6322 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6314:6317 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6313:6313 Coq.Structures.GenericMinMax <> n:80 var
+R6318:6318 Coq.Structures.GenericMinMax <> p:82 var
+R6324:6327 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6323:6323 Coq.Structures.GenericMinMax <> m:81 var
+R6328:6328 Coq.Structures.GenericMinMax <> p:82 var
+prf 6361:6370 MinMaxLogicalProperties max_lub_lt
+binder 6372:6372 <> n:83
+binder 6374:6374 <> m:84
+binder 6376:6376 <> p:85
+R6385:6388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6381:6383 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6380:6380 Coq.Structures.GenericMinMax <> n:83 var
+R6384:6384 Coq.Structures.GenericMinMax <> p:85 var
+R6394:6397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6390:6392 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6389:6389 Coq.Structures.GenericMinMax <> m:84 var
+R6393:6393 Coq.Structures.GenericMinMax <> p:85 var
+R6405:6407 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6398:6400 Coq.Structures.GenericMinMax M max defax
+R6402:6402 Coq.Structures.GenericMinMax <> n:83 var
+R6404:6404 Coq.Structures.GenericMinMax <> m:84 var
+R6408:6408 Coq.Structures.GenericMinMax <> p:85 var
+prf 6441:6454 MinMaxLogicalProperties max_lub_lt_iff
+binder 6456:6456 <> n:86
+binder 6458:6458 <> m:87
+binder 6460:6460 <> p:88
+R6475:6479 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6471:6473 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6464:6466 Coq.Structures.GenericMinMax M max defax
+R6468:6468 Coq.Structures.GenericMinMax <> n:86 var
+R6470:6470 Coq.Structures.GenericMinMax <> m:87 var
+R6474:6474 Coq.Structures.GenericMinMax <> p:88 var
+R6485:6488 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6481:6483 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6480:6480 Coq.Structures.GenericMinMax <> n:86 var
+R6484:6484 Coq.Structures.GenericMinMax <> p:88 var
+R6490:6492 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6489:6489 Coq.Structures.GenericMinMax <> m:87 var
+R6493:6493 Coq.Structures.GenericMinMax <> p:88 var
+prf 6526:6540 MinMaxLogicalProperties max_le_compat_l
+binder 6542:6542 <> n:89
+binder 6544:6544 <> m:90
+binder 6546:6546 <> p:91
+R6556:6559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6551:6554 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6550:6550 Coq.Structures.GenericMinMax <> n:89 var
+R6555:6555 Coq.Structures.GenericMinMax <> m:90 var
+R6567:6570 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6560:6562 Coq.Structures.GenericMinMax M max defax
+R6564:6564 Coq.Structures.GenericMinMax <> p:91 var
+R6566:6566 Coq.Structures.GenericMinMax <> n:89 var
+R6571:6573 Coq.Structures.GenericMinMax M max defax
+R6575:6575 Coq.Structures.GenericMinMax <> p:91 var
+R6577:6577 Coq.Structures.GenericMinMax <> m:90 var
+R6601:6611 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_lub_iff thm
+R6601:6611 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_lub_iff thm
+prf 6637:6651 MinMaxLogicalProperties max_le_compat_r
+binder 6653:6653 <> n:92
+binder 6655:6655 <> m:93
+binder 6657:6657 <> p:94
+R6667:6670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6662:6665 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6661:6661 Coq.Structures.GenericMinMax <> n:92 var
+R6666:6666 Coq.Structures.GenericMinMax <> m:93 var
+R6678:6681 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6671:6673 Coq.Structures.GenericMinMax M max defax
+R6675:6675 Coq.Structures.GenericMinMax <> n:92 var
+R6677:6677 Coq.Structures.GenericMinMax <> p:94 var
+R6682:6684 Coq.Structures.GenericMinMax M max defax
+R6686:6686 Coq.Structures.GenericMinMax <> m:93 var
+R6688:6688 Coq.Structures.GenericMinMax <> p:94 var
+R6712:6722 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_lub_iff thm
+R6712:6722 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_lub_iff thm
+prf 6748:6760 MinMaxLogicalProperties max_le_compat
+binder 6762:6762 <> n:95
+binder 6764:6764 <> m:96
+binder 6766:6766 <> p:97
+binder 6768:6768 <> q:98
+R6778:6781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6773:6776 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6772:6772 Coq.Structures.GenericMinMax <> n:95 var
+R6777:6777 Coq.Structures.GenericMinMax <> m:96 var
+R6788:6791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6783:6786 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6782:6782 Coq.Structures.GenericMinMax <> p:97 var
+R6787:6787 Coq.Structures.GenericMinMax <> q:98 var
+R6799:6802 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6792:6794 Coq.Structures.GenericMinMax M max defax
+R6796:6796 Coq.Structures.GenericMinMax <> n:95 var
+R6798:6798 Coq.Structures.GenericMinMax <> p:97 var
+R6803:6805 Coq.Structures.GenericMinMax M max defax
+R6807:6807 Coq.Structures.GenericMinMax <> m:96 var
+R6809:6809 Coq.Structures.GenericMinMax <> q:98 var
+R6851:6865 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+R6851:6865 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+R6895:6909 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_r thm
+R6895:6909 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_r thm
+prf 6971:6978 MinMaxLogicalProperties min_spec
+binder 6980:6980 <> n:99
+binder 6982:6982 <> m:100
+R6987:6987 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7009:7014 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7037:7037 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6993:6996 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6989:6991 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6988:6988 Coq.Structures.GenericMinMax <> n:99 var
+R6992:6992 Coq.Structures.GenericMinMax <> m:100 var
+R7004:7007 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6997:6999 Coq.Structures.GenericMinMax M min defax
+R7001:7001 Coq.Structures.GenericMinMax <> n:99 var
+R7003:7003 Coq.Structures.GenericMinMax <> m:100 var
+R7008:7008 Coq.Structures.GenericMinMax <> n:99 var
+R7021:7024 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7016:7019 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7015:7015 Coq.Structures.GenericMinMax <> m:100 var
+R7020:7020 Coq.Structures.GenericMinMax <> n:99 var
+R7032:7035 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7025:7027 Coq.Structures.GenericMinMax M min defax
+R7029:7029 Coq.Structures.GenericMinMax <> n:99 var
+R7031:7031 Coq.Structures.GenericMinMax <> m:100 var
+R7036:7036 Coq.Structures.GenericMinMax <> m:100 var
+R7058:7065 Coq.Structures.GenericMinMax O lt_total prfax
+R7058:7065 Coq.Structures.GenericMinMax O lt_total prfax
+R7109:7113 Coq.Structures.GenericMinMax M min_l defax
+R7109:7113 Coq.Structures.GenericMinMax M min_l defax
+R7124:7130 Coq.Structures.GenericMinMax O le_lteq prfax
+R7124:7130 Coq.Structures.GenericMinMax O le_lteq prfax
+R7124:7130 Coq.Structures.GenericMinMax O le_lteq prfax
+R7151:7154 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7170:7176 Coq.Structures.GenericMinMax O le_lteq prfax
+R7151:7154 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7170:7176 Coq.Structures.GenericMinMax O le_lteq prfax
+R7170:7176 Coq.Structures.GenericMinMax O le_lteq prfax
+R7217:7221 Coq.Structures.GenericMinMax M min_r defax
+R7217:7221 Coq.Structures.GenericMinMax M min_r defax
+prf 7236:7246 MinMaxLogicalProperties min_spec_le
+binder 7248:7248 <> n:101
+binder 7250:7250 <> m:102
+R7255:7255 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7278:7283 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7306:7306 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7262:7265 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7257:7260 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7256:7256 Coq.Structures.GenericMinMax <> n:101 var
+R7261:7261 Coq.Structures.GenericMinMax <> m:102 var
+R7273:7276 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7266:7268 Coq.Structures.GenericMinMax M min defax
+R7270:7270 Coq.Structures.GenericMinMax <> n:101 var
+R7272:7272 Coq.Structures.GenericMinMax <> m:102 var
+R7277:7277 Coq.Structures.GenericMinMax <> n:101 var
+R7290:7293 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7285:7288 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7284:7284 Coq.Structures.GenericMinMax <> m:102 var
+R7289:7289 Coq.Structures.GenericMinMax <> n:101 var
+R7301:7304 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7294:7296 Coq.Structures.GenericMinMax M min defax
+R7298:7298 Coq.Structures.GenericMinMax <> n:101 var
+R7300:7300 Coq.Structures.GenericMinMax <> m:102 var
+R7305:7305 Coq.Structures.GenericMinMax <> m:102 var
+R7327:7334 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7327:7334 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+inst 7399:7408 MinMaxLogicalProperties min_compat
+R7412:7417 Coq.Classes.Morphisms <> Proper class
+R7434:7436 Coq.Structures.GenericMinMax M min defax
+R7422:7424 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7420:7421 Coq.Structures.GenericMinMax O eq defax
+R7427:7429 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7425:7426 Coq.Structures.GenericMinMax O eq defax
+R7430:7431 Coq.Structures.GenericMinMax O eq defax
+R7484:7491 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7484:7491 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7513:7520 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7513:7520 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7540:7542 Coq.Structures.GenericMinMax M min defax
+R7566:7568 Coq.Structures.GenericMinMax M min defax
+R7540:7542 Coq.Structures.GenericMinMax M min defax
+R7566:7568 Coq.Structures.GenericMinMax M min defax
+R7636:7643 Coq.Structures.GenericMinMax O lt_total prfax
+R7636:7643 Coq.Structures.GenericMinMax O lt_total prfax
+prf 7680:7690 MinMaxLogicalProperties min_unicity
+binder 7692:7692 <> n:103
+binder 7694:7694 <> m:104
+binder 7696:7696 <> p:105
+R7701:7701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7741:7746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7702:7702 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7718:7723 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7740:7740 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7708:7711 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7704:7706 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7703:7703 Coq.Structures.GenericMinMax <> n:103 var
+R7707:7707 Coq.Structures.GenericMinMax <> m:104 var
+R7713:7716 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7712:7712 Coq.Structures.GenericMinMax <> p:105 var
+R7717:7717 Coq.Structures.GenericMinMax <> n:103 var
+R7730:7733 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7725:7728 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7724:7724 Coq.Structures.GenericMinMax <> m:104 var
+R7729:7729 Coq.Structures.GenericMinMax <> n:103 var
+R7735:7738 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7734:7734 Coq.Structures.GenericMinMax <> p:105 var
+R7739:7739 Coq.Structures.GenericMinMax <> m:104 var
+R7748:7751 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7747:7747 Coq.Structures.GenericMinMax <> p:105 var
+R7752:7754 Coq.Structures.GenericMinMax M min defax
+R7756:7756 Coq.Structures.GenericMinMax <> n:103 var
+R7758:7758 Coq.Structures.GenericMinMax <> m:104 var
+R7783:7790 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7783:7790 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R7809:7816 Coq.Structures.GenericMinMax O lt_total prfax
+R7809:7816 Coq.Structures.GenericMinMax O lt_total prfax
+prf 7854:7868 MinMaxLogicalProperties min_unicity_ext
+binder 7870:7870 <> f:106
+R7875:7875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7936:7942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7971:7971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7883:7883 <> n:107
+binder 7885:7885 <> m:108
+R7888:7888 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7908:7914 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7935:7935 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7894:7897 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7890:7892 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7889:7889 Coq.Structures.GenericMinMax <> n:107 var
+R7893:7893 Coq.Structures.GenericMinMax <> m:108 var
+R7903:7906 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7898:7898 Coq.Structures.GenericMinMax <> f:106 var
+R7900:7900 Coq.Structures.GenericMinMax <> n:107 var
+R7902:7902 Coq.Structures.GenericMinMax <> m:108 var
+R7907:7907 Coq.Structures.GenericMinMax <> n:107 var
+R7921:7924 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7916:7919 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7915:7915 Coq.Structures.GenericMinMax <> m:108 var
+R7920:7920 Coq.Structures.GenericMinMax <> n:107 var
+R7930:7933 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7925:7925 Coq.Structures.GenericMinMax <> f:106 var
+R7927:7927 Coq.Structures.GenericMinMax <> n:107 var
+R7929:7929 Coq.Structures.GenericMinMax <> m:108 var
+R7934:7934 Coq.Structures.GenericMinMax <> m:108 var
+binder 7950:7950 <> n:109
+binder 7952:7952 <> m:110
+R7960:7963 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7955:7955 Coq.Structures.GenericMinMax <> f:106 var
+R7957:7957 Coq.Structures.GenericMinMax <> n:109 var
+R7959:7959 Coq.Structures.GenericMinMax <> m:110 var
+R7964:7966 Coq.Structures.GenericMinMax M min defax
+R7968:7968 Coq.Structures.GenericMinMax <> n:109 var
+R7970:7970 Coq.Structures.GenericMinMax <> m:110 var
+R7996:8006 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_unicity thm
+R7996:8006 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_unicity thm
+prf 8027:8034 MinMaxLogicalProperties min_mono
+binder 8036:8036 <> f:111
+R8041:8041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8062:8067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8042:8047 Coq.Classes.Morphisms <> Proper class
+R8061:8061 Coq.Structures.GenericMinMax <> f:111 var
+R8052:8056 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8050:8051 Coq.Structures.GenericMinMax O eq defax
+R8057:8058 Coq.Structures.GenericMinMax O eq defax
+R8068:8068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8089:8094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8069:8074 Coq.Classes.Morphisms <> Proper class
+R8088:8088 Coq.Structures.GenericMinMax <> f:111 var
+R8079:8083 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8077:8078 Coq.Structures.GenericMinMax O le defax
+R8084:8085 Coq.Structures.GenericMinMax O le defax
+binder 8102:8102 <> x:112
+binder 8104:8104 <> y:113
+R8122:8125 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8107:8109 Coq.Structures.GenericMinMax M min defax
+R8112:8112 Coq.Structures.GenericMinMax <> f:111 var
+R8114:8114 Coq.Structures.GenericMinMax <> x:112 var
+R8118:8118 Coq.Structures.GenericMinMax <> f:111 var
+R8120:8120 Coq.Structures.GenericMinMax <> y:113 var
+R8126:8126 Coq.Structures.GenericMinMax <> f:111 var
+R8129:8131 Coq.Structures.GenericMinMax M min defax
+R8133:8133 Coq.Structures.GenericMinMax <> x:112 var
+R8135:8135 Coq.Structures.GenericMinMax <> y:113 var
+R8178:8185 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8233:8240 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8178:8185 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8233:8240 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8233:8240 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8297:8300 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8297:8300 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8350:8353 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8350:8353 Coq.Structures.Orders LeNotation :::x_'<='_x not
+prf 8401:8406 MinMaxLogicalProperties min_id
+binder 8408:8408 <> n:114
+R8419:8422 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8412:8414 Coq.Structures.GenericMinMax M min defax
+R8416:8416 Coq.Structures.GenericMinMax <> n:114 var
+R8418:8418 Coq.Structures.GenericMinMax <> n:114 var
+R8423:8423 Coq.Structures.GenericMinMax <> n:114 var
+R8440:8444 Coq.Structures.GenericMinMax M min_l defax
+R8440:8444 Coq.Structures.GenericMinMax M min_l defax
+abbrev 8469:8482 MinMaxLogicalProperties min_idempotent
+R8487:8492 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_id thm
+prf 8517:8525 MinMaxLogicalProperties min_assoc
+binder 8527:8527 <> m:115
+binder 8529:8529 <> n:116
+binder 8531:8531 <> p:117
+R8550:8553 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8535:8537 Coq.Structures.GenericMinMax M min defax
+R8539:8539 Coq.Structures.GenericMinMax <> m:115 var
+R8542:8544 Coq.Structures.GenericMinMax M min defax
+R8546:8546 Coq.Structures.GenericMinMax <> n:116 var
+R8548:8548 Coq.Structures.GenericMinMax <> p:117 var
+R8554:8556 Coq.Structures.GenericMinMax M min defax
+R8559:8561 Coq.Structures.GenericMinMax M min defax
+R8563:8563 Coq.Structures.GenericMinMax <> m:115 var
+R8565:8565 Coq.Structures.GenericMinMax <> n:116 var
+R8568:8568 Coq.Structures.GenericMinMax <> p:117 var
+R8589:8596 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8643:8650 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8589:8596 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8643:8650 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8643:8650 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8724:8728 Coq.Structures.GenericMinMax M min_l defax
+R8724:8728 Coq.Structures.GenericMinMax M min_l defax
+R8747:8751 Coq.Structures.GenericMinMax M min_r defax
+R8747:8751 Coq.Structures.GenericMinMax M min_r defax
+prf 8773:8780 MinMaxLogicalProperties min_comm
+binder 8782:8782 <> n:118
+binder 8784:8784 <> m:119
+R8795:8798 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8788:8790 Coq.Structures.GenericMinMax M min defax
+R8792:8792 Coq.Structures.GenericMinMax <> n:118 var
+R8794:8794 Coq.Structures.GenericMinMax <> m:119 var
+R8799:8801 Coq.Structures.GenericMinMax M min defax
+R8803:8803 Coq.Structures.GenericMinMax <> m:119 var
+R8805:8805 Coq.Structures.GenericMinMax <> n:118 var
+R8826:8833 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8893:8897 Coq.Structures.GenericMinMax M min_l defax
+R8878:8882 Coq.Structures.GenericMinMax M min_r defax
+R8826:8833 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R8878:8882 Coq.Structures.GenericMinMax M min_r defax
+R8878:8882 Coq.Structures.GenericMinMax M min_r defax
+R8893:8897 Coq.Structures.GenericMinMax M min_l defax
+R8961:8963 Coq.Structures.GenericMinMax M min defax
+R8961:8963 Coq.Structures.GenericMinMax M min defax
+R8987:8994 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+prf 9032:9039 MinMaxLogicalProperties le_min_r
+binder 9041:9041 <> n:120
+binder 9043:9043 <> m:121
+R9054:9057 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9047:9049 Coq.Structures.GenericMinMax M min defax
+R9051:9051 Coq.Structures.GenericMinMax <> n:120 var
+R9053:9053 Coq.Structures.GenericMinMax <> m:121 var
+R9058:9058 Coq.Structures.GenericMinMax <> m:121 var
+prf 9091:9098 MinMaxLogicalProperties le_min_l
+binder 9100:9100 <> n:122
+binder 9102:9102 <> m:123
+R9113:9116 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9106:9108 Coq.Structures.GenericMinMax M min defax
+R9110:9110 Coq.Structures.GenericMinMax <> n:122 var
+R9112:9112 Coq.Structures.GenericMinMax <> m:123 var
+R9117:9117 Coq.Structures.GenericMinMax <> n:122 var
+prf 9150:9158 MinMaxLogicalProperties min_l_iff
+binder 9160:9160 <> n:124
+binder 9162:9162 <> m:125
+R9178:9182 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9173:9176 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R9166:9168 Coq.Structures.GenericMinMax M min defax
+R9170:9170 Coq.Structures.GenericMinMax <> n:124 var
+R9172:9172 Coq.Structures.GenericMinMax <> m:125 var
+R9177:9177 Coq.Structures.GenericMinMax <> n:124 var
+R9184:9187 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9183:9183 Coq.Structures.GenericMinMax <> n:124 var
+R9188:9188 Coq.Structures.GenericMinMax <> m:125 var
+prf 9221:9229 MinMaxLogicalProperties min_r_iff
+binder 9231:9231 <> n:126
+binder 9233:9233 <> m:127
+R9249:9253 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9244:9247 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R9237:9239 Coq.Structures.GenericMinMax M min defax
+R9241:9241 Coq.Structures.GenericMinMax <> n:126 var
+R9243:9243 Coq.Structures.GenericMinMax <> m:127 var
+R9248:9248 Coq.Structures.GenericMinMax <> m:127 var
+R9255:9258 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9254:9254 Coq.Structures.GenericMinMax <> m:127 var
+R9259:9259 Coq.Structures.GenericMinMax <> n:126 var
+prf 9292:9297 MinMaxLogicalProperties min_le
+binder 9299:9299 <> n:128
+binder 9301:9301 <> m:129
+binder 9303:9303 <> p:130
+R9319:9322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9314:9317 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9307:9309 Coq.Structures.GenericMinMax M min defax
+R9311:9311 Coq.Structures.GenericMinMax <> n:128 var
+R9313:9313 Coq.Structures.GenericMinMax <> m:129 var
+R9318:9318 Coq.Structures.GenericMinMax <> p:130 var
+R9329:9332 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9324:9327 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9323:9323 Coq.Structures.GenericMinMax <> n:128 var
+R9328:9328 Coq.Structures.GenericMinMax <> p:130 var
+R9334:9337 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9333:9333 Coq.Structures.GenericMinMax <> m:129 var
+R9338:9338 Coq.Structures.GenericMinMax <> p:130 var
+R9359:9366 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R9359:9366 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+prf 9418:9427 MinMaxLogicalProperties min_le_iff
+binder 9429:9429 <> n:131
+binder 9431:9431 <> m:132
+binder 9433:9433 <> p:133
+R9449:9453 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9444:9447 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9437:9439 Coq.Structures.GenericMinMax M min defax
+R9441:9441 Coq.Structures.GenericMinMax <> n:131 var
+R9443:9443 Coq.Structures.GenericMinMax <> m:132 var
+R9448:9448 Coq.Structures.GenericMinMax <> p:133 var
+R9460:9463 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9455:9458 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9454:9454 Coq.Structures.GenericMinMax <> n:131 var
+R9459:9459 Coq.Structures.GenericMinMax <> p:133 var
+R9465:9468 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9464:9464 Coq.Structures.GenericMinMax <> m:132 var
+R9469:9469 Coq.Structures.GenericMinMax <> p:133 var
+R9498:9503 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le thm
+R9498:9503 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le thm
+prf 9533:9542 MinMaxLogicalProperties min_lt_iff
+binder 9544:9544 <> n:134
+binder 9546:9546 <> m:135
+binder 9548:9548 <> p:136
+R9563:9567 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9559:9561 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9552:9554 Coq.Structures.GenericMinMax M min defax
+R9556:9556 Coq.Structures.GenericMinMax <> n:134 var
+R9558:9558 Coq.Structures.GenericMinMax <> m:135 var
+R9562:9562 Coq.Structures.GenericMinMax <> p:136 var
+R9573:9576 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9569:9571 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9568:9568 Coq.Structures.GenericMinMax <> n:134 var
+R9572:9572 Coq.Structures.GenericMinMax <> p:136 var
+R9578:9580 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9577:9577 Coq.Structures.GenericMinMax <> m:135 var
+R9581:9581 Coq.Structures.GenericMinMax <> p:136 var
+R9602:9609 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R9602:9609 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+prf 9684:9692 MinMaxLogicalProperties min_glb_l
+binder 9694:9694 <> n:137
+binder 9696:9696 <> m:138
+binder 9698:9698 <> p:139
+R9714:9717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9703:9706 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9702:9702 Coq.Structures.GenericMinMax <> p:139 var
+R9707:9709 Coq.Structures.GenericMinMax M min defax
+R9711:9711 Coq.Structures.GenericMinMax <> n:137 var
+R9713:9713 Coq.Structures.GenericMinMax <> m:138 var
+R9719:9722 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9718:9718 Coq.Structures.GenericMinMax <> p:139 var
+R9723:9723 Coq.Structures.GenericMinMax <> n:137 var
+prf 9756:9764 MinMaxLogicalProperties min_glb_r
+binder 9766:9766 <> n:140
+binder 9768:9768 <> m:141
+binder 9770:9770 <> p:142
+R9786:9789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9775:9778 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9774:9774 Coq.Structures.GenericMinMax <> p:142 var
+R9779:9781 Coq.Structures.GenericMinMax M min defax
+R9783:9783 Coq.Structures.GenericMinMax <> n:140 var
+R9785:9785 Coq.Structures.GenericMinMax <> m:141 var
+R9791:9794 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9790:9790 Coq.Structures.GenericMinMax <> p:142 var
+R9795:9795 Coq.Structures.GenericMinMax <> m:141 var
+prf 9828:9834 MinMaxLogicalProperties min_glb
+binder 9836:9836 <> n:143
+binder 9838:9838 <> m:144
+binder 9840:9840 <> p:145
+R9850:9853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9845:9848 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9844:9844 Coq.Structures.GenericMinMax <> p:145 var
+R9849:9849 Coq.Structures.GenericMinMax <> n:143 var
+R9860:9863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9855:9858 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9854:9854 Coq.Structures.GenericMinMax <> p:145 var
+R9859:9859 Coq.Structures.GenericMinMax <> m:144 var
+R9865:9868 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9864:9864 Coq.Structures.GenericMinMax <> p:145 var
+R9869:9871 Coq.Structures.GenericMinMax M min defax
+R9873:9873 Coq.Structures.GenericMinMax <> n:143 var
+R9875:9875 Coq.Structures.GenericMinMax <> m:144 var
+prf 9908:9918 MinMaxLogicalProperties min_glb_iff
+binder 9920:9920 <> n:146
+binder 9922:9922 <> m:147
+binder 9924:9924 <> p:148
+R9940:9944 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9929:9932 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9928:9928 Coq.Structures.GenericMinMax <> p:148 var
+R9933:9935 Coq.Structures.GenericMinMax M min defax
+R9937:9937 Coq.Structures.GenericMinMax <> n:146 var
+R9939:9939 Coq.Structures.GenericMinMax <> m:147 var
+R9951:9954 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9946:9949 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9945:9945 Coq.Structures.GenericMinMax <> p:148 var
+R9950:9950 Coq.Structures.GenericMinMax <> n:146 var
+R9956:9959 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9955:9955 Coq.Structures.GenericMinMax <> p:148 var
+R9960:9960 Coq.Structures.GenericMinMax <> m:147 var
+prf 9993:10002 MinMaxLogicalProperties min_glb_lt
+binder 10004:10004 <> n:149
+binder 10006:10006 <> m:150
+binder 10008:10008 <> p:151
+R10017:10020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10013:10015 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10012:10012 Coq.Structures.GenericMinMax <> p:151 var
+R10016:10016 Coq.Structures.GenericMinMax <> n:149 var
+R10026:10029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10022:10024 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10021:10021 Coq.Structures.GenericMinMax <> p:151 var
+R10025:10025 Coq.Structures.GenericMinMax <> m:150 var
+R10031:10033 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10030:10030 Coq.Structures.GenericMinMax <> p:151 var
+R10034:10036 Coq.Structures.GenericMinMax M min defax
+R10038:10038 Coq.Structures.GenericMinMax <> n:149 var
+R10040:10040 Coq.Structures.GenericMinMax <> m:150 var
+prf 10073:10086 MinMaxLogicalProperties min_glb_lt_iff
+binder 10088:10088 <> n:152
+binder 10090:10090 <> m:153
+binder 10092:10092 <> p:154
+R10107:10111 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10097:10099 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10096:10096 Coq.Structures.GenericMinMax <> p:154 var
+R10100:10102 Coq.Structures.GenericMinMax M min defax
+R10104:10104 Coq.Structures.GenericMinMax <> n:152 var
+R10106:10106 Coq.Structures.GenericMinMax <> m:153 var
+R10117:10120 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10113:10115 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10112:10112 Coq.Structures.GenericMinMax <> p:154 var
+R10116:10116 Coq.Structures.GenericMinMax <> n:152 var
+R10122:10124 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10121:10121 Coq.Structures.GenericMinMax <> p:154 var
+R10125:10125 Coq.Structures.GenericMinMax <> m:153 var
+prf 10158:10172 MinMaxLogicalProperties min_le_compat_l
+binder 10174:10174 <> n:155
+binder 10176:10176 <> m:156
+binder 10178:10178 <> p:157
+R10188:10191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10183:10186 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10182:10182 Coq.Structures.GenericMinMax <> n:155 var
+R10187:10187 Coq.Structures.GenericMinMax <> m:156 var
+R10199:10202 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10192:10194 Coq.Structures.GenericMinMax M min defax
+R10196:10196 Coq.Structures.GenericMinMax <> p:157 var
+R10198:10198 Coq.Structures.GenericMinMax <> n:155 var
+R10203:10205 Coq.Structures.GenericMinMax M min defax
+R10207:10207 Coq.Structures.GenericMinMax <> p:157 var
+R10209:10209 Coq.Structures.GenericMinMax <> m:156 var
+R10233:10243 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_glb_iff thm
+R10233:10243 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_glb_iff thm
+prf 10269:10283 MinMaxLogicalProperties min_le_compat_r
+binder 10285:10285 <> n:158
+binder 10287:10287 <> m:159
+binder 10289:10289 <> p:160
+R10299:10302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10294:10297 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10293:10293 Coq.Structures.GenericMinMax <> n:158 var
+R10298:10298 Coq.Structures.GenericMinMax <> m:159 var
+R10310:10313 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10303:10305 Coq.Structures.GenericMinMax M min defax
+R10307:10307 Coq.Structures.GenericMinMax <> n:158 var
+R10309:10309 Coq.Structures.GenericMinMax <> p:160 var
+R10314:10316 Coq.Structures.GenericMinMax M min defax
+R10318:10318 Coq.Structures.GenericMinMax <> m:159 var
+R10320:10320 Coq.Structures.GenericMinMax <> p:160 var
+R10344:10354 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_glb_iff thm
+R10344:10354 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_glb_iff thm
+prf 10380:10392 MinMaxLogicalProperties min_le_compat
+binder 10394:10394 <> n:161
+binder 10396:10396 <> m:162
+binder 10398:10398 <> p:163
+binder 10400:10400 <> q:164
+R10410:10413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10405:10408 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10404:10404 Coq.Structures.GenericMinMax <> n:161 var
+R10409:10409 Coq.Structures.GenericMinMax <> m:162 var
+R10420:10424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10415:10418 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10414:10414 Coq.Structures.GenericMinMax <> p:163 var
+R10419:10419 Coq.Structures.GenericMinMax <> q:164 var
+R10432:10435 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10425:10427 Coq.Structures.GenericMinMax M min defax
+R10429:10429 Coq.Structures.GenericMinMax <> n:161 var
+R10431:10431 Coq.Structures.GenericMinMax <> p:163 var
+R10436:10438 Coq.Structures.GenericMinMax M min defax
+R10440:10440 Coq.Structures.GenericMinMax <> m:162 var
+R10442:10442 Coq.Structures.GenericMinMax <> q:164 var
+R10484:10498 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_l thm
+R10484:10498 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_l thm
+R10528:10542 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_r thm
+R10528:10542 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_r thm
+prf 10623:10640 MinMaxLogicalProperties min_max_absorption
+binder 10642:10642 <> n:165
+binder 10644:10644 <> m:166
+R10663:10666 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R10648:10650 Coq.Structures.GenericMinMax M max defax
+R10652:10652 Coq.Structures.GenericMinMax <> n:165 var
+R10655:10657 Coq.Structures.GenericMinMax M min defax
+R10659:10659 Coq.Structures.GenericMinMax <> n:165 var
+R10661:10661 Coq.Structures.GenericMinMax <> m:166 var
+R10667:10667 Coq.Structures.GenericMinMax <> n:165 var
+R10697:10704 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R10697:10704 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R10749:10753 Coq.Structures.GenericMinMax M max_l defax
+R10749:10753 Coq.Structures.GenericMinMax M max_l defax
+R10776:10783 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R10776:10783 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+prf 10821:10838 MinMaxLogicalProperties max_min_absorption
+binder 10840:10840 <> n:167
+binder 10842:10842 <> m:168
+R10861:10864 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R10846:10848 Coq.Structures.GenericMinMax M min defax
+R10850:10850 Coq.Structures.GenericMinMax <> n:167 var
+R10853:10855 Coq.Structures.GenericMinMax M max defax
+R10857:10857 Coq.Structures.GenericMinMax <> n:167 var
+R10859:10859 Coq.Structures.GenericMinMax <> m:168 var
+R10865:10865 Coq.Structures.GenericMinMax <> n:167 var
+R10895:10902 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R10895:10902 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R10951:10958 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R10951:10958 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R11009:11013 Coq.Structures.GenericMinMax M min_l defax
+R11009:11013 Coq.Structures.GenericMinMax M min_l defax
+prf 11064:11076 MinMaxLogicalProperties max_min_distr
+binder 11078:11078 <> n:169
+binder 11080:11080 <> m:170
+binder 11082:11082 <> p:171
+R11102:11105 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R11087:11089 Coq.Structures.GenericMinMax M max defax
+R11091:11091 Coq.Structures.GenericMinMax <> n:169 var
+R11094:11096 Coq.Structures.GenericMinMax M min defax
+R11098:11098 Coq.Structures.GenericMinMax <> m:170 var
+R11100:11100 Coq.Structures.GenericMinMax <> p:171 var
+R11106:11108 Coq.Structures.GenericMinMax M min defax
+R11111:11113 Coq.Structures.GenericMinMax M max defax
+R11115:11115 Coq.Structures.GenericMinMax <> n:169 var
+R11117:11117 Coq.Structures.GenericMinMax <> m:170 var
+R11121:11123 Coq.Structures.GenericMinMax M max defax
+R11125:11125 Coq.Structures.GenericMinMax <> n:169 var
+R11127:11127 Coq.Structures.GenericMinMax <> p:171 var
+R11155:11162 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_mono thm
+R11155:11162 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_mono thm
+R11211:11225 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+R11211:11225 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+prf 11246:11258 MinMaxLogicalProperties min_max_distr
+binder 11260:11260 <> n:172
+binder 11262:11262 <> m:173
+binder 11264:11264 <> p:174
+R11284:11287 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R11269:11271 Coq.Structures.GenericMinMax M min defax
+R11273:11273 Coq.Structures.GenericMinMax <> n:172 var
+R11276:11278 Coq.Structures.GenericMinMax M max defax
+R11280:11280 Coq.Structures.GenericMinMax <> m:173 var
+R11282:11282 Coq.Structures.GenericMinMax <> p:174 var
+R11288:11290 Coq.Structures.GenericMinMax M max defax
+R11293:11295 Coq.Structures.GenericMinMax M min defax
+R11297:11297 Coq.Structures.GenericMinMax <> n:172 var
+R11299:11299 Coq.Structures.GenericMinMax <> m:173 var
+R11303:11305 Coq.Structures.GenericMinMax M min defax
+R11307:11307 Coq.Structures.GenericMinMax <> n:172 var
+R11309:11309 Coq.Structures.GenericMinMax <> p:174 var
+R11337:11344 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_mono thm
+R11337:11344 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_mono thm
+R11393:11407 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_l thm
+R11393:11407 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_compat_l thm
+prf 11447:11461 MinMaxLogicalProperties max_min_modular
+binder 11463:11463 <> n:175
+binder 11465:11465 <> m:176
+binder 11467:11467 <> p:177
+R11495:11498 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R11472:11474 Coq.Structures.GenericMinMax M max defax
+R11476:11476 Coq.Structures.GenericMinMax <> n:175 var
+R11479:11481 Coq.Structures.GenericMinMax M min defax
+R11483:11483 Coq.Structures.GenericMinMax <> m:176 var
+R11486:11488 Coq.Structures.GenericMinMax M max defax
+R11490:11490 Coq.Structures.GenericMinMax <> n:175 var
+R11492:11492 Coq.Structures.GenericMinMax <> p:177 var
+R11499:11501 Coq.Structures.GenericMinMax M min defax
+R11504:11506 Coq.Structures.GenericMinMax M max defax
+R11508:11508 Coq.Structures.GenericMinMax <> n:175 var
+R11510:11510 Coq.Structures.GenericMinMax <> m:176 var
+R11514:11516 Coq.Structures.GenericMinMax M max defax
+R11518:11518 Coq.Structures.GenericMinMax <> n:175 var
+R11520:11520 Coq.Structures.GenericMinMax <> p:177 var
+R11543:11555 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_min_distr thm
+R11543:11555 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_min_distr thm
+R11543:11555 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_min_distr thm
+R11569:11576 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R11569:11576 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R11636:11643 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R11636:11643 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11697:11701 Coq.Structures.GenericMinMax M max_l defax
+R11723:11732 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+R11723:11732 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+R11723:11732 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11754:11758 Coq.Structures.GenericMinMax M max_l defax
+R11780:11789 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+R11780:11789 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+R11780:11789 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_le_iff thm
+prf 11810:11824 MinMaxLogicalProperties min_max_modular
+binder 11826:11826 <> n:178
+binder 11828:11828 <> m:179
+binder 11830:11830 <> p:180
+R11858:11861 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R11835:11837 Coq.Structures.GenericMinMax M min defax
+R11839:11839 Coq.Structures.GenericMinMax <> n:178 var
+R11842:11844 Coq.Structures.GenericMinMax M max defax
+R11846:11846 Coq.Structures.GenericMinMax <> m:179 var
+R11849:11851 Coq.Structures.GenericMinMax M min defax
+R11853:11853 Coq.Structures.GenericMinMax <> n:178 var
+R11855:11855 Coq.Structures.GenericMinMax <> p:180 var
+R11862:11864 Coq.Structures.GenericMinMax M max defax
+R11867:11869 Coq.Structures.GenericMinMax M min defax
+R11871:11871 Coq.Structures.GenericMinMax <> n:178 var
+R11873:11873 Coq.Structures.GenericMinMax <> m:179 var
+R11877:11879 Coq.Structures.GenericMinMax M min defax
+R11881:11881 Coq.Structures.GenericMinMax <> n:178 var
+R11883:11883 Coq.Structures.GenericMinMax <> p:180 var
+R11914:11926 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R11914:11926 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R11914:11926 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R11940:11947 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R11940:11947 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R12007:12014 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R12007:12014 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12068:12072 Coq.Structures.GenericMinMax M min_l defax
+R12094:12103 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+R12094:12103 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+R12094:12103 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12133:12137 Coq.Structures.GenericMinMax M min_l defax
+R12159:12168 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+R12159:12168 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+R12159:12168 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_iff thm
+prf 12214:12229 MinMaxLogicalProperties max_min_disassoc
+binder 12231:12231 <> n:181
+binder 12233:12233 <> m:182
+binder 12235:12235 <> p:183
+R12255:12258 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12240:12242 Coq.Structures.GenericMinMax M min defax
+R12244:12244 Coq.Structures.GenericMinMax <> n:181 var
+R12247:12249 Coq.Structures.GenericMinMax M max defax
+R12251:12251 Coq.Structures.GenericMinMax <> m:182 var
+R12253:12253 Coq.Structures.GenericMinMax <> p:183 var
+R12259:12261 Coq.Structures.GenericMinMax M max defax
+R12264:12266 Coq.Structures.GenericMinMax M min defax
+R12268:12268 Coq.Structures.GenericMinMax <> n:181 var
+R12270:12270 Coq.Structures.GenericMinMax <> m:182 var
+R12273:12273 Coq.Structures.GenericMinMax <> p:183 var
+R12300:12312 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R12300:12312 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R12300:12312 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_max_distr thm
+R12327:12341 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+R12344:12351 Coq.Structures.GenericMinMax MinMaxLogicalProperties le_min_r thm
+R12327:12341 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_le_compat_l thm
+R12344:12351 Coq.Structures.GenericMinMax MinMaxLogicalProperties le_min_r thm
+prf 12426:12441 MinMaxLogicalProperties max_min_antimono
+binder 12443:12443 <> f:184
+R12466:12470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12448:12453 Coq.Classes.Morphisms <> Proper class
+R12465:12465 Coq.Structures.GenericMinMax <> f:184 var
+R12458:12460 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12456:12457 Coq.Structures.GenericMinMax O eq defax
+R12461:12462 Coq.Structures.GenericMinMax O eq defax
+R12494:12498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12471:12476 Coq.Classes.Morphisms <> Proper class
+R12493:12493 Coq.Structures.GenericMinMax <> f:184 var
+R12481:12483 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12479:12480 Coq.Structures.GenericMinMax O le defax
+R12484:12487 Coq.Program.Basics <> flip def
+R12489:12490 Coq.Structures.GenericMinMax O le defax
+binder 12506:12506 <> x:185
+binder 12508:12508 <> y:186
+R12526:12529 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12511:12513 Coq.Structures.GenericMinMax M max defax
+R12516:12516 Coq.Structures.GenericMinMax <> f:184 var
+R12518:12518 Coq.Structures.GenericMinMax <> x:185 var
+R12522:12522 Coq.Structures.GenericMinMax <> f:184 var
+R12524:12524 Coq.Structures.GenericMinMax <> y:186 var
+R12530:12530 Coq.Structures.GenericMinMax <> f:184 var
+R12533:12535 Coq.Structures.GenericMinMax M min defax
+R12537:12537 Coq.Structures.GenericMinMax <> x:185 var
+R12539:12539 Coq.Structures.GenericMinMax <> y:186 var
+R12582:12589 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R12637:12644 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R12582:12589 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R12637:12644 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R12637:12644 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R12701:12704 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12701:12704 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12754:12757 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12754:12757 Coq.Structures.Orders LeNotation :::x_'<='_x not
+prf 12805:12820 MinMaxLogicalProperties min_max_antimono
+binder 12822:12822 <> f:187
+R12845:12849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12827:12832 Coq.Classes.Morphisms <> Proper class
+R12844:12844 Coq.Structures.GenericMinMax <> f:187 var
+R12837:12839 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12835:12836 Coq.Structures.GenericMinMax O eq defax
+R12840:12841 Coq.Structures.GenericMinMax O eq defax
+R12873:12877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12850:12855 Coq.Classes.Morphisms <> Proper class
+R12872:12872 Coq.Structures.GenericMinMax <> f:187 var
+R12860:12862 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12858:12859 Coq.Structures.GenericMinMax O le defax
+R12863:12866 Coq.Program.Basics <> flip def
+R12868:12869 Coq.Structures.GenericMinMax O le defax
+binder 12885:12885 <> x:188
+binder 12887:12887 <> y:189
+R12905:12908 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12890:12892 Coq.Structures.GenericMinMax M min defax
+R12895:12895 Coq.Structures.GenericMinMax <> f:187 var
+R12897:12897 Coq.Structures.GenericMinMax <> x:188 var
+R12901:12901 Coq.Structures.GenericMinMax <> f:187 var
+R12903:12903 Coq.Structures.GenericMinMax <> y:189 var
+R12909:12909 Coq.Structures.GenericMinMax <> f:187 var
+R12912:12914 Coq.Structures.GenericMinMax M max defax
+R12916:12916 Coq.Structures.GenericMinMax <> x:188 var
+R12918:12918 Coq.Structures.GenericMinMax <> y:189 var
+R12961:12968 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R13016:13023 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R12961:12968 Coq.Structures.GenericMinMax MinMaxLogicalProperties max_spec thm
+R13016:13023 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R13016:13023 Coq.Structures.GenericMinMax MinMaxLogicalProperties min_spec thm
+R13080:13083 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13080:13083 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13133:13136 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13133:13136 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13182:13204 Coq.Structures.GenericMinMax MinMaxLogicalProperties <> mod
+R13296:13311 Coq.Structures.Orders OrderedTypeFull' <> mod
+R13323:13331 Coq.Structures.GenericMinMax HasMinMax <> mod
+R13333:13333 Coq.Structures.GenericMinMax O <> modtype
+mod 13266:13284 <> MinMaxDecProperties
+prf 13384:13398 MinMaxDecProperties max_case_strong
+binder 13400:13400 <> n:190
+binder 13402:13402 <> m:191
+R13408:13411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13407:13407 Coq.Structures.GenericMinMax O t defax
+binder 13405:13405 <> P:192
+R13422:13422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13453:13459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13430:13430 <> x:193
+binder 13432:13432 <> y:194
+R13439:13442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13436:13437 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R13435:13435 Coq.Structures.GenericMinMax <> x:193 var
+R13438:13438 Coq.Structures.GenericMinMax <> y:194 var
+R13446:13449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13443:13443 Coq.Structures.GenericMinMax <> P:192 var
+R13445:13445 Coq.Structures.GenericMinMax <> x:193 var
+R13450:13450 Coq.Structures.GenericMinMax <> P:192 var
+R13452:13452 Coq.Structures.GenericMinMax <> y:194 var
+R13460:13460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13472:13476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13465:13468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13462:13463 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13461:13461 Coq.Structures.GenericMinMax <> m:191 var
+R13464:13464 Coq.Structures.GenericMinMax <> n:190 var
+R13469:13469 Coq.Structures.GenericMinMax <> P:192 var
+R13471:13471 Coq.Structures.GenericMinMax <> n:190 var
+R13477:13477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13489:13493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13482:13485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13479:13480 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13478:13478 Coq.Structures.GenericMinMax <> n:190 var
+R13481:13481 Coq.Structures.GenericMinMax <> m:191 var
+R13486:13486 Coq.Structures.GenericMinMax <> P:192 var
+R13488:13488 Coq.Structures.GenericMinMax <> m:191 var
+R13494:13494 Coq.Structures.GenericMinMax <> P:192 var
+R13497:13499 Coq.Structures.GenericMinMax M max defax
+R13501:13501 Coq.Structures.GenericMinMax <> n:190 var
+R13503:13503 Coq.Structures.GenericMinMax <> m:191 var
+R13545:13557 Coq.Init.Datatypes <> CompSpec2Type thm
+R13560:13571 Coq.Structures.GenericMinMax O compare_spec prfax
+R13545:13557 Coq.Init.Datatypes <> CompSpec2Type thm
+R13560:13571 Coq.Structures.GenericMinMax O compare_spec prfax
+R13605:13606 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13622:13628 Coq.Structures.GenericMinMax O le_lteq prfax
+R13605:13606 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13622:13628 Coq.Structures.GenericMinMax O le_lteq prfax
+R13622:13628 Coq.Structures.GenericMinMax O le_lteq prfax
+R13684:13688 Coq.Structures.GenericMinMax M max_r defax
+R13684:13688 Coq.Structures.GenericMinMax M max_r defax
+R13708:13709 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13725:13731 Coq.Structures.GenericMinMax O le_lteq prfax
+R13708:13709 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13725:13731 Coq.Structures.GenericMinMax O le_lteq prfax
+R13725:13731 Coq.Structures.GenericMinMax O le_lteq prfax
+R13787:13791 Coq.Structures.GenericMinMax M max_r defax
+R13787:13791 Coq.Structures.GenericMinMax M max_r defax
+R13811:13812 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13828:13834 Coq.Structures.GenericMinMax O le_lteq prfax
+R13811:13812 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R13828:13834 Coq.Structures.GenericMinMax O le_lteq prfax
+R13828:13834 Coq.Structures.GenericMinMax O le_lteq prfax
+R13890:13894 Coq.Structures.GenericMinMax M max_l defax
+R13890:13894 Coq.Structures.GenericMinMax M max_l defax
+prf 13919:13926 MinMaxDecProperties max_case
+binder 13928:13928 <> n:195
+binder 13930:13930 <> m:196
+R13936:13939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13935:13935 Coq.Structures.GenericMinMax O t defax
+binder 13933:13933 <> P:197
+R13950:13950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13983:13989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13958:13958 <> x:198
+binder 13960:13960 <> y:199
+R13969:13972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13964:13967 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R13963:13963 Coq.Structures.GenericMinMax <> x:198 var
+R13968:13968 Coq.Structures.GenericMinMax <> y:199 var
+R13976:13979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13973:13973 Coq.Structures.GenericMinMax <> P:197 var
+R13975:13975 Coq.Structures.GenericMinMax <> x:198 var
+R13980:13980 Coq.Structures.GenericMinMax <> P:197 var
+R13982:13982 Coq.Structures.GenericMinMax <> y:199 var
+R13993:13996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13990:13990 Coq.Structures.GenericMinMax <> P:197 var
+R13992:13992 Coq.Structures.GenericMinMax <> n:195 var
+R14000:14003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13997:13997 Coq.Structures.GenericMinMax <> P:197 var
+R13999:13999 Coq.Structures.GenericMinMax <> m:196 var
+R14004:14004 Coq.Structures.GenericMinMax <> P:197 var
+R14007:14009 Coq.Structures.GenericMinMax M max defax
+R14011:14011 Coq.Structures.GenericMinMax <> n:195 var
+R14013:14013 Coq.Structures.GenericMinMax <> m:196 var
+R14038:14052 Coq.Structures.GenericMinMax MinMaxDecProperties max_case_strong thm
+R14038:14052 Coq.Structures.GenericMinMax MinMaxDecProperties max_case_strong thm
+prf 14121:14127 MinMaxDecProperties max_dec
+binder 14129:14129 <> n:200
+binder 14131:14131 <> m:201
+R14135:14135 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14148:14152 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14165:14165 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14143:14146 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R14136:14138 Coq.Structures.GenericMinMax M max defax
+R14140:14140 Coq.Structures.GenericMinMax <> n:200 var
+R14142:14142 Coq.Structures.GenericMinMax <> m:201 var
+R14147:14147 Coq.Structures.GenericMinMax <> n:200 var
+R14160:14163 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R14153:14155 Coq.Structures.GenericMinMax M max defax
+R14157:14157 Coq.Structures.GenericMinMax <> n:200 var
+R14159:14159 Coq.Structures.GenericMinMax <> m:201 var
+R14164:14164 Coq.Structures.GenericMinMax <> m:201 var
+R14182:14189 Coq.Structures.GenericMinMax MinMaxDecProperties max_case thm
+R14182:14189 Coq.Structures.GenericMinMax MinMaxDecProperties max_case thm
+prf 14306:14320 MinMaxDecProperties min_case_strong
+binder 14322:14322 <> n:202
+binder 14324:14324 <> m:203
+R14332:14335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14329:14331 Coq.Structures.GenericMinMax O t defax
+binder 14327:14327 <> P:204
+R14345:14345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14378:14383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14353:14353 <> x:205
+binder 14355:14355 <> y:206
+R14364:14367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14359:14362 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R14358:14358 Coq.Structures.GenericMinMax <> x:205 var
+R14363:14363 Coq.Structures.GenericMinMax <> y:206 var
+R14371:14374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14368:14368 Coq.Structures.GenericMinMax <> P:204 var
+R14370:14370 Coq.Structures.GenericMinMax <> x:205 var
+R14375:14375 Coq.Structures.GenericMinMax <> P:204 var
+R14377:14377 Coq.Structures.GenericMinMax <> y:206 var
+R14384:14384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14396:14400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14389:14392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14386:14387 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14385:14385 Coq.Structures.GenericMinMax <> n:202 var
+R14388:14388 Coq.Structures.GenericMinMax <> m:203 var
+R14393:14393 Coq.Structures.GenericMinMax <> P:204 var
+R14395:14395 Coq.Structures.GenericMinMax <> n:202 var
+R14401:14401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14413:14417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14406:14409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14403:14404 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14402:14402 Coq.Structures.GenericMinMax <> m:203 var
+R14405:14405 Coq.Structures.GenericMinMax <> n:202 var
+R14410:14410 Coq.Structures.GenericMinMax <> P:204 var
+R14412:14412 Coq.Structures.GenericMinMax <> m:203 var
+R14418:14418 Coq.Structures.GenericMinMax <> P:204 var
+R14421:14423 Coq.Structures.GenericMinMax M min defax
+R14425:14425 Coq.Structures.GenericMinMax <> n:202 var
+R14427:14427 Coq.Structures.GenericMinMax <> m:203 var
+R14469:14481 Coq.Init.Datatypes <> CompSpec2Type thm
+R14484:14495 Coq.Structures.GenericMinMax O compare_spec prfax
+R14469:14481 Coq.Init.Datatypes <> CompSpec2Type thm
+R14484:14495 Coq.Structures.GenericMinMax O compare_spec prfax
+R14529:14530 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14546:14552 Coq.Structures.GenericMinMax O le_lteq prfax
+R14529:14530 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14546:14552 Coq.Structures.GenericMinMax O le_lteq prfax
+R14546:14552 Coq.Structures.GenericMinMax O le_lteq prfax
+R14608:14612 Coq.Structures.GenericMinMax M min_l defax
+R14608:14612 Coq.Structures.GenericMinMax M min_l defax
+R14632:14633 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14649:14655 Coq.Structures.GenericMinMax O le_lteq prfax
+R14632:14633 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14649:14655 Coq.Structures.GenericMinMax O le_lteq prfax
+R14649:14655 Coq.Structures.GenericMinMax O le_lteq prfax
+R14711:14715 Coq.Structures.GenericMinMax M min_l defax
+R14711:14715 Coq.Structures.GenericMinMax M min_l defax
+R14735:14736 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14752:14758 Coq.Structures.GenericMinMax O le_lteq prfax
+R14735:14736 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R14752:14758 Coq.Structures.GenericMinMax O le_lteq prfax
+R14752:14758 Coq.Structures.GenericMinMax O le_lteq prfax
+R14814:14818 Coq.Structures.GenericMinMax M min_r defax
+R14814:14818 Coq.Structures.GenericMinMax M min_r defax
+prf 14843:14850 MinMaxDecProperties min_case
+binder 14852:14852 <> n:207
+binder 14854:14854 <> m:208
+R14862:14865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14859:14861 Coq.Structures.GenericMinMax O t defax
+binder 14857:14857 <> P:209
+R14876:14876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14909:14915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14884:14884 <> x:210
+binder 14886:14886 <> y:211
+R14895:14898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14890:14893 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R14889:14889 Coq.Structures.GenericMinMax <> x:210 var
+R14894:14894 Coq.Structures.GenericMinMax <> y:211 var
+R14902:14905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14899:14899 Coq.Structures.GenericMinMax <> P:209 var
+R14901:14901 Coq.Structures.GenericMinMax <> x:210 var
+R14906:14906 Coq.Structures.GenericMinMax <> P:209 var
+R14908:14908 Coq.Structures.GenericMinMax <> y:211 var
+R14919:14922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14916:14916 Coq.Structures.GenericMinMax <> P:209 var
+R14918:14918 Coq.Structures.GenericMinMax <> n:207 var
+R14926:14929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14923:14923 Coq.Structures.GenericMinMax <> P:209 var
+R14925:14925 Coq.Structures.GenericMinMax <> m:208 var
+R14930:14930 Coq.Structures.GenericMinMax <> P:209 var
+R14933:14935 Coq.Structures.GenericMinMax M min defax
+R14937:14937 Coq.Structures.GenericMinMax <> n:207 var
+R14939:14939 Coq.Structures.GenericMinMax <> m:208 var
+R14964:14978 Coq.Structures.GenericMinMax MinMaxDecProperties min_case_strong thm
+R14964:14978 Coq.Structures.GenericMinMax MinMaxDecProperties min_case_strong thm
+prf 15003:15009 MinMaxDecProperties min_dec
+binder 15011:15011 <> n:212
+binder 15013:15013 <> m:213
+R15017:15017 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15030:15034 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15047:15047 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15025:15028 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R15018:15020 Coq.Structures.GenericMinMax M min defax
+R15022:15022 Coq.Structures.GenericMinMax <> n:212 var
+R15024:15024 Coq.Structures.GenericMinMax <> m:213 var
+R15029:15029 Coq.Structures.GenericMinMax <> n:212 var
+R15042:15045 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R15035:15037 Coq.Structures.GenericMinMax M min defax
+R15039:15039 Coq.Structures.GenericMinMax <> n:212 var
+R15041:15041 Coq.Structures.GenericMinMax <> m:213 var
+R15046:15046 Coq.Structures.GenericMinMax <> m:213 var
+R15072:15079 Coq.Structures.GenericMinMax MinMaxDecProperties min_case thm
+R15072:15079 Coq.Structures.GenericMinMax MinMaxDecProperties min_case thm
+R15187:15205 Coq.Structures.GenericMinMax MinMaxDecProperties <> mod
+R15243:15258 Coq.Structures.Orders OrderedTypeFull' <> mod
+R15270:15278 Coq.Structures.GenericMinMax HasMinMax <> mod
+R15280:15280 Coq.Structures.GenericMinMax O <> modtype
+mod 15216:15231 <> MinMaxProperties
+R15298:15314 Coq.Structures.Orders OTF_to_TotalOrder <> modtype
+R15316:15316 Coq.Structures.GenericMinMax O <> modtype
+mod 15292:15293 <> MinMaxProperties.OT
+R15328:15350 Coq.Structures.GenericMinMax MinMaxLogicalProperties <> modtype
+R15352:15353 Coq.Structures.GenericMinMax MinMaxProperties.OT <> modtype
+R15355:15355 Coq.Structures.GenericMinMax M <> modtype
+R15367:15385 Coq.Structures.GenericMinMax MinMaxDecProperties <> modtype
+R15387:15387 Coq.Structures.GenericMinMax O <> modtype
+R15389:15389 Coq.Structures.GenericMinMax M <> modtype
+def 15404:15408 MinMaxProperties max_l
+R15413:15417 Coq.Structures.GenericMinMax M max_l defax
+def 15432:15436 MinMaxProperties max_r
+R15441:15445 Coq.Structures.GenericMinMax M max_r defax
+def 15460:15464 MinMaxProperties min_l
+R15469:15473 Coq.Structures.GenericMinMax M min_l defax
+def 15488:15492 MinMaxProperties min_r
+R15497:15501 Coq.Structures.GenericMinMax M min_r defax
+abbrev 15514:15525 MinMaxProperties max_monotone
+R15530:15537 Coq.Structures.GenericMinMax MinMaxProperties max_mono thm
+abbrev 15550:15561 MinMaxProperties min_monotone
+R15566:15573 Coq.Structures.GenericMinMax MinMaxProperties min_mono thm
+abbrev 15586:15605 MinMaxProperties max_min_antimonotone
+R15610:15625 Coq.Structures.GenericMinMax MinMaxProperties max_min_antimono thm
+abbrev 15638:15657 MinMaxProperties min_max_antimonotone
+R15662:15677 Coq.Structures.GenericMinMax MinMaxProperties min_max_antimono thm
+R15684:15699 Coq.Structures.GenericMinMax MinMaxProperties <> mod
+R15833:15848 Coq.Structures.Orders UsualTotalOrder' <> mod
+R15860:15868 Coq.Structures.GenericMinMax HasMinMax <> mod
+R15870:15870 Coq.Structures.GenericMinMax O <> modtype
+mod 15793:15820 <> UsualMinMaxLogicalProperties
+R15884:15906 Coq.Structures.GenericMinMax MinMaxLogicalProperties <> modtype
+R15908:15908 Coq.Structures.GenericMinMax O <> modtype
+R15910:15910 Coq.Structures.GenericMinMax M <> modtype
+prf 15921:15932 UsualMinMaxLogicalProperties max_monotone
+binder 15934:15934 <> f:214
+R15958:15963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15938:15943 Coq.Classes.Morphisms <> Proper class
+R15957:15957 Coq.Structures.GenericMinMax <> f:214 var
+R15948:15952 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R15946:15947 Coq.Structures.GenericMinMax O le defax
+R15953:15954 Coq.Structures.GenericMinMax O le defax
+binder 15971:15971 <> x:215
+binder 15973:15973 <> y:216
+R15991:15993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15976:15978 Coq.Structures.GenericMinMax M max defax
+R15981:15981 Coq.Structures.GenericMinMax <> f:214 var
+R15983:15983 Coq.Structures.GenericMinMax <> x:215 var
+R15987:15987 Coq.Structures.GenericMinMax <> f:214 var
+R15989:15989 Coq.Structures.GenericMinMax <> y:216 var
+R15994:15994 Coq.Structures.GenericMinMax <> f:214 var
+R15997:15999 Coq.Structures.GenericMinMax M max defax
+R16001:16001 Coq.Structures.GenericMinMax <> x:215 var
+R16003:16003 Coq.Structures.GenericMinMax <> y:216 var
+R16029:16036 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties max_mono thm
+R16029:16036 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties max_mono thm
+prf 16070:16081 UsualMinMaxLogicalProperties min_monotone
+binder 16083:16083 <> f:217
+R16107:16112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16087:16092 Coq.Classes.Morphisms <> Proper class
+R16106:16106 Coq.Structures.GenericMinMax <> f:217 var
+R16097:16101 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R16095:16096 Coq.Structures.GenericMinMax O le defax
+R16102:16103 Coq.Structures.GenericMinMax O le defax
+binder 16120:16120 <> x:218
+binder 16122:16122 <> y:219
+R16140:16142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16125:16127 Coq.Structures.GenericMinMax M min defax
+R16130:16130 Coq.Structures.GenericMinMax <> f:217 var
+R16132:16132 Coq.Structures.GenericMinMax <> x:218 var
+R16136:16136 Coq.Structures.GenericMinMax <> f:217 var
+R16138:16138 Coq.Structures.GenericMinMax <> y:219 var
+R16143:16143 Coq.Structures.GenericMinMax <> f:217 var
+R16146:16148 Coq.Structures.GenericMinMax M min defax
+R16150:16150 Coq.Structures.GenericMinMax <> x:218 var
+R16152:16152 Coq.Structures.GenericMinMax <> y:219 var
+R16178:16185 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties min_mono thm
+R16178:16185 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties min_mono thm
+prf 16219:16238 UsualMinMaxLogicalProperties min_max_antimonotone
+binder 16240:16240 <> f:220
+R16269:16274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16244:16249 Coq.Classes.Morphisms <> Proper class
+R16268:16268 Coq.Structures.GenericMinMax <> f:220 var
+R16254:16258 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R16252:16253 Coq.Structures.GenericMinMax O le defax
+R16259:16262 Coq.Program.Basics <> flip def
+R16264:16265 Coq.Structures.GenericMinMax O le defax
+binder 16282:16282 <> x:221
+binder 16284:16284 <> y:222
+R16302:16304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16287:16289 Coq.Structures.GenericMinMax M min defax
+R16292:16292 Coq.Structures.GenericMinMax <> f:220 var
+R16294:16294 Coq.Structures.GenericMinMax <> x:221 var
+R16298:16298 Coq.Structures.GenericMinMax <> f:220 var
+R16300:16300 Coq.Structures.GenericMinMax <> y:222 var
+R16305:16305 Coq.Structures.GenericMinMax <> f:220 var
+R16308:16310 Coq.Structures.GenericMinMax M max defax
+R16312:16312 Coq.Structures.GenericMinMax <> x:221 var
+R16314:16314 Coq.Structures.GenericMinMax <> y:222 var
+R16340:16355 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties min_max_antimono thm
+R16340:16355 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties min_max_antimono thm
+prf 16389:16408 UsualMinMaxLogicalProperties max_min_antimonotone
+binder 16410:16410 <> f:223
+R16439:16444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16414:16419 Coq.Classes.Morphisms <> Proper class
+R16438:16438 Coq.Structures.GenericMinMax <> f:223 var
+R16424:16428 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R16422:16423 Coq.Structures.GenericMinMax O le defax
+R16429:16432 Coq.Program.Basics <> flip def
+R16434:16435 Coq.Structures.GenericMinMax O le defax
+binder 16452:16452 <> x:224
+binder 16454:16454 <> y:225
+R16472:16474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16457:16459 Coq.Structures.GenericMinMax M max defax
+R16462:16462 Coq.Structures.GenericMinMax <> f:223 var
+R16464:16464 Coq.Structures.GenericMinMax <> x:224 var
+R16468:16468 Coq.Structures.GenericMinMax <> f:223 var
+R16470:16470 Coq.Structures.GenericMinMax <> y:225 var
+R16475:16475 Coq.Structures.GenericMinMax <> f:223 var
+R16478:16480 Coq.Structures.GenericMinMax M min defax
+R16482:16482 Coq.Structures.GenericMinMax <> x:224 var
+R16484:16484 Coq.Structures.GenericMinMax <> y:225 var
+R16510:16525 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties max_min_antimono thm
+R16510:16525 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties max_min_antimono thm
+R16556:16583 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties <> mod
+R16631:16651 Coq.Structures.Orders UsualOrderedTypeFull' <> mod
+R16663:16671 Coq.Structures.GenericMinMax HasMinMax <> mod
+R16673:16673 Coq.Structures.GenericMinMax O <> modtype
+mod 16595:16618 <> UsualMinMaxDecProperties
+R16708:16726 Coq.Structures.GenericMinMax MinMaxDecProperties <> modtype
+R16728:16728 Coq.Structures.GenericMinMax O <> modtype
+R16730:16730 Coq.Structures.GenericMinMax M <> modtype
+mod 16693:16703 <> UsualMinMaxDecProperties.Private_Dec
+prf 16741:16755 UsualMinMaxDecProperties max_case_strong
+binder 16766:16766 <> n:226
+binder 16768:16768 <> m:227
+R16774:16777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16773:16773 Coq.Structures.GenericMinMax O t defax
+binder 16771:16771 <> P:228
+R16787:16787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16799:16803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16792:16795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16789:16790 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R16788:16788 Coq.Structures.GenericMinMax <> m:227 var
+R16791:16791 Coq.Structures.GenericMinMax <> n:226 var
+R16796:16796 Coq.Structures.GenericMinMax <> P:228 var
+R16798:16798 Coq.Structures.GenericMinMax <> n:226 var
+R16804:16804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16816:16820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16809:16812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16806:16807 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R16805:16805 Coq.Structures.GenericMinMax <> n:226 var
+R16808:16808 Coq.Structures.GenericMinMax <> m:227 var
+R16813:16813 Coq.Structures.GenericMinMax <> P:228 var
+R16815:16815 Coq.Structures.GenericMinMax <> m:227 var
+R16821:16821 Coq.Structures.GenericMinMax <> P:228 var
+R16824:16826 Coq.Structures.GenericMinMax M max defax
+R16828:16828 Coq.Structures.GenericMinMax <> n:226 var
+R16830:16830 Coq.Structures.GenericMinMax <> m:227 var
+R16856:16870 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_case_strong thm
+R16856:16870 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_case_strong thm
+prf 16908:16915 UsualMinMaxDecProperties max_case
+binder 16926:16926 <> n:229
+binder 16928:16928 <> m:230
+R16934:16937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16933:16933 Coq.Structures.GenericMinMax O t defax
+binder 16931:16931 <> P:231
+R16950:16953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16947:16947 Coq.Structures.GenericMinMax <> P:231 var
+R16949:16949 Coq.Structures.GenericMinMax <> n:229 var
+R16957:16960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16954:16954 Coq.Structures.GenericMinMax <> P:231 var
+R16956:16956 Coq.Structures.GenericMinMax <> m:230 var
+R16961:16961 Coq.Structures.GenericMinMax <> P:231 var
+R16964:16966 Coq.Structures.GenericMinMax M max defax
+R16968:16968 Coq.Structures.GenericMinMax <> n:229 var
+R16970:16970 Coq.Structures.GenericMinMax <> m:230 var
+R16996:17010 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_case_strong thm
+R16996:17010 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_case_strong thm
+prf 17036:17042 UsualMinMaxDecProperties max_dec
+binder 17053:17053 <> n:232
+binder 17055:17055 <> m:233
+R17058:17058 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17070:17074 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17086:17086 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17066:17068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17059:17061 Coq.Structures.GenericMinMax M max defax
+R17063:17063 Coq.Structures.GenericMinMax <> n:232 var
+R17065:17065 Coq.Structures.GenericMinMax <> m:233 var
+R17069:17069 Coq.Structures.GenericMinMax <> n:232 var
+R17082:17084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17075:17077 Coq.Structures.GenericMinMax M max defax
+R17079:17079 Coq.Structures.GenericMinMax <> n:232 var
+R17081:17081 Coq.Structures.GenericMinMax <> m:233 var
+R17085:17085 Coq.Structures.GenericMinMax <> m:233 var
+R17103:17109 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_dec thm
+R17103:17109 Coq.Structures.GenericMinMax UsualMinMaxDecProperties max_dec thm
+prf 17129:17143 UsualMinMaxDecProperties min_case_strong
+binder 17154:17154 <> n:234
+binder 17156:17156 <> m:235
+R17164:17167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17161:17163 Coq.Structures.GenericMinMax O t defax
+binder 17159:17159 <> P:236
+R17177:17177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17189:17193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17182:17185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17179:17180 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R17178:17178 Coq.Structures.GenericMinMax <> n:234 var
+R17181:17181 Coq.Structures.GenericMinMax <> m:235 var
+R17186:17186 Coq.Structures.GenericMinMax <> P:236 var
+R17188:17188 Coq.Structures.GenericMinMax <> n:234 var
+R17194:17194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17206:17210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17199:17202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17196:17197 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R17195:17195 Coq.Structures.GenericMinMax <> m:235 var
+R17198:17198 Coq.Structures.GenericMinMax <> n:234 var
+R17203:17203 Coq.Structures.GenericMinMax <> P:236 var
+R17205:17205 Coq.Structures.GenericMinMax <> m:235 var
+R17211:17211 Coq.Structures.GenericMinMax <> P:236 var
+R17214:17216 Coq.Structures.GenericMinMax M min defax
+R17218:17218 Coq.Structures.GenericMinMax <> n:234 var
+R17220:17220 Coq.Structures.GenericMinMax <> m:235 var
+R17246:17260 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_case_strong thm
+R17246:17260 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_case_strong thm
+prf 17298:17305 UsualMinMaxDecProperties min_case
+binder 17316:17316 <> n:237
+binder 17318:17318 <> m:238
+R17326:17329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17323:17325 Coq.Structures.GenericMinMax O t defax
+binder 17321:17321 <> P:239
+R17342:17345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17339:17339 Coq.Structures.GenericMinMax <> P:239 var
+R17341:17341 Coq.Structures.GenericMinMax <> n:237 var
+R17349:17352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17346:17346 Coq.Structures.GenericMinMax <> P:239 var
+R17348:17348 Coq.Structures.GenericMinMax <> m:238 var
+R17353:17353 Coq.Structures.GenericMinMax <> P:239 var
+R17356:17358 Coq.Structures.GenericMinMax M min defax
+R17360:17360 Coq.Structures.GenericMinMax <> n:237 var
+R17362:17362 Coq.Structures.GenericMinMax <> m:238 var
+R17388:17402 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_case_strong thm
+R17388:17402 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_case_strong thm
+prf 17428:17434 UsualMinMaxDecProperties min_dec
+binder 17445:17445 <> n:240
+binder 17447:17447 <> m:241
+R17450:17450 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17462:17466 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17478:17478 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17458:17460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17451:17453 Coq.Structures.GenericMinMax M min defax
+R17455:17455 Coq.Structures.GenericMinMax <> n:240 var
+R17457:17457 Coq.Structures.GenericMinMax <> m:241 var
+R17461:17461 Coq.Structures.GenericMinMax <> n:240 var
+R17474:17476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17467:17469 Coq.Structures.GenericMinMax M min defax
+R17471:17471 Coq.Structures.GenericMinMax <> n:240 var
+R17473:17473 Coq.Structures.GenericMinMax <> m:241 var
+R17477:17477 Coq.Structures.GenericMinMax <> m:241 var
+R17495:17501 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_dec thm
+R17495:17501 Coq.Structures.GenericMinMax UsualMinMaxDecProperties min_dec thm
+R17518:17541 Coq.Structures.GenericMinMax UsualMinMaxDecProperties <> mod
+R17585:17605 Coq.Structures.Orders UsualOrderedTypeFull' <> mod
+R17617:17625 Coq.Structures.GenericMinMax HasMinMax <> mod
+R17627:17627 Coq.Structures.GenericMinMax O <> modtype
+mod 17552:17572 <> UsualMinMaxProperties
+R17645:17661 Coq.Structures.Orders OTF_to_TotalOrder <> modtype
+R17663:17663 Coq.Structures.GenericMinMax O <> modtype
+mod 17639:17640 <> UsualMinMaxProperties.OT
+R17675:17702 Coq.Structures.GenericMinMax UsualMinMaxLogicalProperties <> modtype
+R17704:17705 Coq.Structures.GenericMinMax UsualMinMaxProperties.OT <> modtype
+R17707:17707 Coq.Structures.GenericMinMax M <> modtype
+R17719:17742 Coq.Structures.GenericMinMax UsualMinMaxDecProperties <> modtype
+R17744:17744 Coq.Structures.GenericMinMax O <> modtype
+R17746:17746 Coq.Structures.GenericMinMax M <> modtype
+def 17761:17765 UsualMinMaxProperties max_l
+R17770:17774 Coq.Structures.GenericMinMax M max_l defax
+def 17789:17793 UsualMinMaxProperties max_r
+R17798:17802 Coq.Structures.GenericMinMax M max_r defax
+def 17817:17821 UsualMinMaxProperties min_l
+R17826:17830 Coq.Structures.GenericMinMax M min_l defax
+def 17845:17849 UsualMinMaxProperties min_r
+R17854:17858 Coq.Structures.GenericMinMax M min_r defax
+R17865:17885 Coq.Structures.GenericMinMax UsualMinMaxProperties <> mod
+R18062:18072 Coq.Structures.Orders TotalOrder' <> mod
+R18084:18089 Coq.Structures.GenericMinMax HasMax <> mod
+R18091:18091 Coq.Structures.GenericMinMax O <> modtype
+R18103:18110 Coq.Structures.Equalities HasEqDec <> mod
+R18112:18112 Coq.Structures.GenericMinMax O <> modtype
+R18118:18127 Coq.Structures.Orders HasCompare <> mod
+R18129:18129 Coq.Structures.GenericMinMax O <> modtype
+mod 18029:18049 <> TOMaxEqDec_to_Compare
+def 18145:18151 TOMaxEqDec_to_Compare compare
+binder 18153:18153 <> x:242
+binder 18155:18155 <> y:243
+R18165:18170 Coq.Structures.GenericMinMax E eq_dec defax
+R18174:18174 Coq.Structures.GenericMinMax <> y:243 var
+R18172:18172 Coq.Structures.GenericMinMax <> x:242 var
+R18194:18199 Coq.Structures.GenericMinMax E eq_dec defax
+R18213:18213 Coq.Structures.GenericMinMax <> y:243 var
+R18202:18206 Coq.Structures.GenericMinMax M max defax
+R18208:18208 Coq.Structures.GenericMinMax <> x:242 var
+R18210:18210 Coq.Structures.GenericMinMax <> y:243 var
+R18228:18229 Coq.Init.Datatypes <> Gt constr
+R18220:18221 Coq.Init.Datatypes <> Lt constr
+R18181:18182 Coq.Init.Datatypes <> Eq constr
+prf 18240:18251 TOMaxEqDec_to_Compare compare_spec
+binder 18253:18253 <> x:244
+binder 18255:18255 <> y:245
+R18259:18266 Coq.Init.Datatypes <> CompSpec def
+R18279:18285 Coq.Structures.GenericMinMax TOMaxEqDec_to_Compare compare def
+R18287:18287 Coq.Structures.GenericMinMax <> x:244 var
+R18289:18289 Coq.Structures.GenericMinMax <> y:245 var
+R18276:18276 Coq.Structures.GenericMinMax <> y:245 var
+R18274:18274 Coq.Structures.GenericMinMax <> x:244 var
+R18271:18272 Coq.Structures.GenericMinMax O lt defax
+R18268:18269 Coq.Structures.GenericMinMax O eq defax
+R18309:18315 Coq.Structures.GenericMinMax TOMaxEqDec_to_Compare compare def
+R18334:18339 Coq.Structures.GenericMinMax E eq_dec defax
+R18334:18339 Coq.Structures.GenericMinMax E eq_dec defax
+R18334:18339 Coq.Structures.GenericMinMax E eq_dec defax
+R18334:18339 Coq.Structures.GenericMinMax E eq_dec defax
+R18334:18339 Coq.Structures.GenericMinMax E eq_dec defax
+R18374:18381 Coq.Structures.GenericMinMax O lt_total prfax
+R18374:18381 Coq.Structures.GenericMinMax O lt_total prfax
+R18407:18408 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R18407:18408 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R18433:18435 Coq.Structures.GenericMinMax M max defax
+R18433:18435 Coq.Structures.GenericMinMax M max defax
+R18468:18472 Coq.Structures.GenericMinMax M max_l defax
+R18468:18472 Coq.Structures.GenericMinMax M max_l defax
+R18483:18489 Coq.Structures.GenericMinMax O le_lteq prfax
+R18483:18489 Coq.Structures.GenericMinMax O le_lteq prfax
+R18483:18489 Coq.Structures.GenericMinMax O le_lteq prfax
+R18516:18523 Coq.Structures.GenericMinMax O lt_total prfax
+R18516:18523 Coq.Structures.GenericMinMax O lt_total prfax
+R18555:18558 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R18548:18550 Coq.Structures.GenericMinMax M max defax
+R18555:18558 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R18548:18550 Coq.Structures.GenericMinMax M max defax
+R18575:18579 Coq.Structures.GenericMinMax M max_r defax
+R18590:18596 Coq.Structures.GenericMinMax O le_lteq prfax
+R18575:18579 Coq.Structures.GenericMinMax M max_r defax
+R18590:18596 Coq.Structures.GenericMinMax O le_lteq prfax
+R18590:18596 Coq.Structures.GenericMinMax O le_lteq prfax
+R18621:18641 Coq.Structures.GenericMinMax TOMaxEqDec_to_Compare <> mod
+R18673:18682 Coq.Structures.Orders TotalOrder <> mod
+R18687:18692 Coq.Structures.GenericMinMax HasMax <> mod
+R18694:18694 Coq.Structures.GenericMinMax O <> modtype
+R18699:18706 Coq.Structures.Equalities HasEqDec <> mod
+R18708:18708 Coq.Structures.GenericMinMax O <> modtype
+R18715:18729 Coq.Structures.Orders OrderedTypeFull <> mod
+R18735:18735 Coq.Structures.GenericMinMax O <> modtype
+R18740:18740 Coq.Structures.GenericMinMax E <> modtype
+R18745:18765 Coq.Structures.GenericMinMax TOMaxEqDec_to_Compare <> modtype
+R18767:18767 Coq.Structures.GenericMinMax O <> modtype
+R18769:18769 Coq.Structures.GenericMinMax M <> modtype
+R18771:18771 Coq.Structures.GenericMinMax E <> modtype
+mod 18652:18668 <> TOMaxEqDec_to_OTF

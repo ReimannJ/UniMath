@@ -1,0 +1,513 @@
+DIGEST 230b5fcbdeea3d2f4177e252d102251b
+FCoq.Sets.Uniset
+R783:786 Coq.Bool.Bool <> <> lib
+R788:793 Coq.Sets.Permut <> <> lib
+sec 830:833 <> defs
+var 846:846 defs A
+var 864:866 defs eqA
+R871:874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R870:870 Coq.Sets.Uniset <> defs.A var
+R876:879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R875:875 Coq.Sets.Uniset <> defs.A var
+var 897:903 defs eqA_dec
+R918:918 Coq.Sets.Uniset <> defs.A var
+binder 914:914 <> x:3
+binder 916:916 <> y:4
+R921:921 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R929:933 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R943:943 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R922:924 Coq.Sets.Uniset <> defs.eqA var
+R928:928 Coq.Sets.Uniset <> y:4 var
+R926:926 Coq.Sets.Uniset <> x:3 var
+R934:935 Coq.Init.Logic <> ::type_scope:'~'_x not
+R936:938 Coq.Sets.Uniset <> defs.eqA var
+R942:942 Coq.Sets.Uniset <> y:4 var
+R940:940 Coq.Sets.Uniset <> x:3 var
+ind 957:962 <> uniset
+constr 977:982 <> Charac
+R986:986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R996:1000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R987:987 Coq.Sets.Uniset <> defs.A var
+R992:995 Coq.Init.Datatypes <> bool ind
+R1001:1006 Coq.Sets.Uniset <> uniset:6 ind
+def 1021:1026 <> charac
+R1031:1036 Coq.Sets.Uniset <> uniset ind
+binder 1029:1029 <> s:8
+R1042:1042 Coq.Sets.Uniset <> defs.A var
+binder 1040:1040 <> a:9
+R1047:1050 Coq.Init.Datatypes <> bool ind
+R1066:1066 Coq.Sets.Uniset <> s:8 var
+binder 1060:1060 <> f:10
+R1071:1071 Coq.Sets.Uniset <> f:10 var
+R1073:1073 Coq.Sets.Uniset <> a:9 var
+def 1088:1095 <> Emptyset
+R1100:1105 Coq.Sets.Uniset <> Charac constr
+R1114:1114 Coq.Sets.Uniset <> defs.A var
+binder 1112:1112 <> a:11
+R1119:1123 Coq.Init.Datatypes <> false constr
+def 1139:1145 <> Fullset
+R1150:1155 Coq.Sets.Uniset <> Charac constr
+R1164:1164 Coq.Sets.Uniset <> defs.A var
+binder 1162:1162 <> a:12
+R1169:1172 Coq.Init.Datatypes <> true constr
+def 1188:1196 <> Singleton
+R1201:1201 Coq.Sets.Uniset <> defs.A var
+binder 1199:1199 <> a:13
+R1209:1214 Coq.Sets.Uniset <> Charac constr
+R1228:1228 Coq.Sets.Uniset <> defs.A var
+binder 1225:1226 <> a':14
+R1246:1252 Coq.Sets.Uniset <> defs.eqA_dec var
+R1256:1257 Coq.Sets.Uniset <> a':14 var
+R1254:1254 Coq.Sets.Uniset <> a:13 var
+R1273:1276 Coq.Init.Specif <> left constr
+R1283:1286 Coq.Init.Datatypes <> true constr
+R1297:1301 Coq.Init.Specif <> right constr
+R1308:1312 Coq.Init.Datatypes <> false constr
+def 1339:1340 <> In
+R1345:1350 Coq.Sets.Uniset <> uniset ind
+binder 1343:1343 <> s:15
+R1356:1356 Coq.Sets.Uniset <> defs.A var
+binder 1354:1354 <> a:16
+R1379:1381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1369:1374 Coq.Sets.Uniset <> charac def
+R1378:1378 Coq.Sets.Uniset <> a:16 var
+R1376:1376 Coq.Sets.Uniset <> s:15 var
+R1382:1385 Coq.Init.Datatypes <> true constr
+R1409:1410 Coq.Sets.Uniset <> In def
+def 1456:1459 <> incl
+R1468:1473 Coq.Sets.Uniset <> uniset ind
+binder 1462:1463 <> s1:17
+binder 1465:1466 <> s2:18
+R1488:1488 Coq.Sets.Uniset <> defs.A var
+binder 1486:1486 <> a:19
+R1491:1497 Coq.Bool.Bool <> le def
+R1500:1505 Coq.Sets.Uniset <> charac def
+R1510:1510 Coq.Sets.Uniset <> a:19 var
+R1507:1508 Coq.Sets.Uniset <> s1:17 var
+R1514:1519 Coq.Sets.Uniset <> charac def
+R1524:1524 Coq.Sets.Uniset <> a:19 var
+R1521:1522 Coq.Sets.Uniset <> s2:18 var
+R1549:1552 Coq.Sets.Uniset <> incl def
+def 1597:1599 <> seq
+R1608:1613 Coq.Sets.Uniset <> uniset ind
+binder 1602:1603 <> s1:20
+binder 1605:1606 <> s2:21
+R1628:1628 Coq.Sets.Uniset <> defs.A var
+binder 1626:1626 <> a:22
+R1642:1644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1631:1636 Coq.Sets.Uniset <> charac def
+R1641:1641 Coq.Sets.Uniset <> a:22 var
+R1638:1639 Coq.Sets.Uniset <> s1:20 var
+R1645:1650 Coq.Sets.Uniset <> charac def
+R1655:1655 Coq.Sets.Uniset <> a:22 var
+R1652:1653 Coq.Sets.Uniset <> s2:21 var
+R1679:1681 Coq.Sets.Uniset <> seq def
+prf 1698:1704 <> le_refl
+binder 1715:1715 <> b:23
+R1718:1724 Coq.Bool.Bool <> le def
+R1726:1726 Coq.Sets.Uniset <> b:23 var
+R1728:1728 Coq.Sets.Uniset <> b:23 var
+prf 1813:1821 <> incl_left
+R1838:1843 Coq.Sets.Uniset <> uniset ind
+binder 1832:1833 <> s1:24
+binder 1835:1836 <> s2:25
+R1855:1858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1846:1848 Coq.Sets.Uniset <> seq def
+R1853:1854 Coq.Sets.Uniset <> s2:25 var
+R1850:1851 Coq.Sets.Uniset <> s1:24 var
+R1859:1862 Coq.Sets.Uniset <> incl def
+R1867:1868 Coq.Sets.Uniset <> s2:25 var
+R1864:1865 Coq.Sets.Uniset <> s1:24 var
+R1885:1888 Coq.Sets.Uniset <> incl def
+prf 1939:1948 <> incl_right
+R1965:1970 Coq.Sets.Uniset <> uniset ind
+binder 1959:1960 <> s1:26
+binder 1962:1963 <> s2:27
+R1982:1985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1973:1975 Coq.Sets.Uniset <> seq def
+R1980:1981 Coq.Sets.Uniset <> s2:27 var
+R1977:1978 Coq.Sets.Uniset <> s1:26 var
+R1986:1989 Coq.Sets.Uniset <> incl def
+R1994:1995 Coq.Sets.Uniset <> s1:26 var
+R1991:1992 Coq.Sets.Uniset <> s2:27 var
+R2012:2015 Coq.Sets.Uniset <> incl def
+prf 2066:2073 <> seq_refl
+R2086:2091 Coq.Sets.Uniset <> uniset ind
+binder 2084:2084 <> x:28
+R2094:2096 Coq.Sets.Uniset <> seq def
+R2100:2100 Coq.Sets.Uniset <> x:28 var
+R2098:2098 Coq.Sets.Uniset <> x:28 var
+R2129:2131 Coq.Sets.Uniset <> seq def
+prf 2191:2199 <> seq_trans
+R2216:2221 Coq.Sets.Uniset <> uniset ind
+binder 2210:2210 <> x:29
+binder 2212:2212 <> y:30
+binder 2214:2214 <> z:31
+R2231:2234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2224:2226 Coq.Sets.Uniset <> seq def
+R2230:2230 Coq.Sets.Uniset <> y:30 var
+R2228:2228 Coq.Sets.Uniset <> x:29 var
+R2242:2245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2235:2237 Coq.Sets.Uniset <> seq def
+R2241:2241 Coq.Sets.Uniset <> z:31 var
+R2239:2239 Coq.Sets.Uniset <> y:30 var
+R2246:2248 Coq.Sets.Uniset <> seq def
+R2252:2252 Coq.Sets.Uniset <> z:31 var
+R2250:2250 Coq.Sets.Uniset <> x:29 var
+R2269:2271 Coq.Sets.Uniset <> seq def
+prf 2354:2360 <> seq_sym
+R2375:2380 Coq.Sets.Uniset <> uniset ind
+binder 2371:2371 <> x:32
+binder 2373:2373 <> y:33
+R2390:2393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2383:2385 Coq.Sets.Uniset <> seq def
+R2389:2389 Coq.Sets.Uniset <> y:33 var
+R2387:2387 Coq.Sets.Uniset <> x:32 var
+R2394:2396 Coq.Sets.Uniset <> seq def
+R2400:2400 Coq.Sets.Uniset <> x:32 var
+R2398:2398 Coq.Sets.Uniset <> y:33 var
+R2417:2419 Coq.Sets.Uniset <> seq def
+def 2496:2500 <> union
+R2509:2514 Coq.Sets.Uniset <> uniset ind
+binder 2503:2504 <> m1:34
+binder 2506:2507 <> m2:35
+R2522:2527 Coq.Sets.Uniset <> Charac constr
+R2536:2536 Coq.Sets.Uniset <> defs.A var
+binder 2534:2534 <> a:36
+R2541:2543 Coq.Init.Datatypes <> orb def
+R2560:2565 Coq.Sets.Uniset <> charac def
+R2570:2570 Coq.Sets.Uniset <> a:36 var
+R2567:2568 Coq.Sets.Uniset <> m2:35 var
+R2546:2551 Coq.Sets.Uniset <> charac def
+R2556:2556 Coq.Sets.Uniset <> a:36 var
+R2553:2554 Coq.Sets.Uniset <> m1:34 var
+prf 2582:2597 <> union_empty_left
+R2610:2615 Coq.Sets.Uniset <> uniset ind
+binder 2608:2608 <> x:37
+R2618:2620 Coq.Sets.Uniset <> seq def
+R2625:2629 Coq.Sets.Uniset <> union def
+R2640:2640 Coq.Sets.Uniset <> x:37 var
+R2631:2638 Coq.Sets.Uniset <> Emptyset def
+R2622:2622 Coq.Sets.Uniset <> x:37 var
+R2658:2660 Coq.Sets.Uniset <> seq def
+R2670:2674 Coq.Sets.Uniset <> union def
+prf 2749:2765 <> union_empty_right
+R2778:2783 Coq.Sets.Uniset <> uniset ind
+binder 2776:2776 <> x:38
+R2786:2788 Coq.Sets.Uniset <> seq def
+R2793:2797 Coq.Sets.Uniset <> union def
+R2801:2808 Coq.Sets.Uniset <> Emptyset def
+R2799:2799 Coq.Sets.Uniset <> x:38 var
+R2790:2790 Coq.Sets.Uniset <> x:38 var
+R2826:2828 Coq.Sets.Uniset <> seq def
+R2838:2842 Coq.Sets.Uniset <> union def
+R2873:2883 Coq.Bool.Bool <> orb_b_false abbrev
+R2886:2891 Coq.Sets.Uniset <> charac def
+R2873:2883 Coq.Bool.Bool <> orb_b_false abbrev
+R2886:2891 Coq.Sets.Uniset <> charac def
+R2873:2883 Coq.Bool.Bool <> orb_b_false abbrev
+R2886:2891 Coq.Sets.Uniset <> charac def
+prf 2966:2975 <> union_comm
+R2990:2995 Coq.Sets.Uniset <> uniset ind
+binder 2986:2986 <> x:39
+binder 2988:2988 <> y:40
+R2998:3000 Coq.Sets.Uniset <> seq def
+R3015:3019 Coq.Sets.Uniset <> union def
+R3023:3023 Coq.Sets.Uniset <> x:39 var
+R3021:3021 Coq.Sets.Uniset <> y:40 var
+R3003:3007 Coq.Sets.Uniset <> union def
+R3011:3011 Coq.Sets.Uniset <> y:40 var
+R3009:3009 Coq.Sets.Uniset <> x:39 var
+R3041:3043 Coq.Sets.Uniset <> seq def
+R3053:3058 Coq.Sets.Uniset <> charac def
+R3068:3072 Coq.Sets.Uniset <> union def
+prf 3168:3176 <> union_ass
+R3194:3199 Coq.Sets.Uniset <> uniset ind
+binder 3188:3188 <> x:41
+binder 3190:3190 <> y:42
+binder 3192:3192 <> z:43
+R3202:3204 Coq.Sets.Uniset <> seq def
+R3229:3233 Coq.Sets.Uniset <> union def
+R3238:3242 Coq.Sets.Uniset <> union def
+R3246:3246 Coq.Sets.Uniset <> z:43 var
+R3244:3244 Coq.Sets.Uniset <> y:42 var
+R3235:3235 Coq.Sets.Uniset <> x:41 var
+R3207:3211 Coq.Sets.Uniset <> union def
+R3225:3225 Coq.Sets.Uniset <> z:43 var
+R3214:3218 Coq.Sets.Uniset <> union def
+R3222:3222 Coq.Sets.Uniset <> y:42 var
+R3220:3220 Coq.Sets.Uniset <> x:41 var
+R3265:3267 Coq.Sets.Uniset <> seq def
+R3277:3281 Coq.Sets.Uniset <> union def
+R3291:3296 Coq.Sets.Uniset <> charac def
+prf 3403:3410 <> seq_left
+R3427:3432 Coq.Sets.Uniset <> uniset ind
+binder 3421:3421 <> x:44
+binder 3423:3423 <> y:45
+binder 3425:3425 <> z:46
+R3442:3445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3435:3437 Coq.Sets.Uniset <> seq def
+R3441:3441 Coq.Sets.Uniset <> y:45 var
+R3439:3439 Coq.Sets.Uniset <> x:44 var
+R3446:3448 Coq.Sets.Uniset <> seq def
+R3463:3467 Coq.Sets.Uniset <> union def
+R3471:3471 Coq.Sets.Uniset <> z:46 var
+R3469:3469 Coq.Sets.Uniset <> y:45 var
+R3451:3455 Coq.Sets.Uniset <> union def
+R3459:3459 Coq.Sets.Uniset <> z:46 var
+R3457:3457 Coq.Sets.Uniset <> x:44 var
+R3489:3491 Coq.Sets.Uniset <> seq def
+R3501:3505 Coq.Sets.Uniset <> union def
+R3515:3520 Coq.Sets.Uniset <> charac def
+prf 3632:3640 <> seq_right
+R3657:3662 Coq.Sets.Uniset <> uniset ind
+binder 3651:3651 <> x:47
+binder 3653:3653 <> y:48
+binder 3655:3655 <> z:49
+R3672:3675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3665:3667 Coq.Sets.Uniset <> seq def
+R3671:3671 Coq.Sets.Uniset <> y:48 var
+R3669:3669 Coq.Sets.Uniset <> x:47 var
+R3676:3678 Coq.Sets.Uniset <> seq def
+R3693:3697 Coq.Sets.Uniset <> union def
+R3701:3701 Coq.Sets.Uniset <> y:48 var
+R3699:3699 Coq.Sets.Uniset <> z:49 var
+R3681:3685 Coq.Sets.Uniset <> union def
+R3689:3689 Coq.Sets.Uniset <> x:47 var
+R3687:3687 Coq.Sets.Uniset <> z:49 var
+R3719:3721 Coq.Sets.Uniset <> seq def
+R3731:3735 Coq.Sets.Uniset <> union def
+R3745:3750 Coq.Sets.Uniset <> charac def
+prf 4070:4081 <> union_rotate
+R4099:4104 Coq.Sets.Uniset <> uniset ind
+binder 4093:4093 <> x:50
+binder 4095:4095 <> y:51
+binder 4097:4097 <> z:52
+R4107:4109 Coq.Sets.Uniset <> seq def
+R4134:4138 Coq.Sets.Uniset <> union def
+R4143:4147 Coq.Sets.Uniset <> union def
+R4151:4151 Coq.Sets.Uniset <> y:51 var
+R4149:4149 Coq.Sets.Uniset <> x:50 var
+R4140:4140 Coq.Sets.Uniset <> z:52 var
+R4112:4116 Coq.Sets.Uniset <> union def
+R4121:4125 Coq.Sets.Uniset <> union def
+R4129:4129 Coq.Sets.Uniset <> z:52 var
+R4127:4127 Coq.Sets.Uniset <> y:51 var
+R4118:4118 Coq.Sets.Uniset <> x:50 var
+R4178:4186 Coq.Sets.Permut <> op_rotate thm
+R4201:4203 Coq.Sets.Uniset <> seq def
+R4195:4199 Coq.Sets.Uniset <> union def
+R4188:4193 Coq.Sets.Uniset <> uniset ind
+R4178:4186 Coq.Sets.Permut <> op_rotate thm
+R4201:4203 Coq.Sets.Uniset <> seq def
+R4195:4199 Coq.Sets.Uniset <> union def
+R4188:4193 Coq.Sets.Uniset <> uniset ind
+R4219:4227 Coq.Sets.Uniset <> seq_trans thm
+R4219:4227 Coq.Sets.Uniset <> seq_trans thm
+prf 4242:4250 <> seq_congr
+R4270:4275 Coq.Sets.Uniset <> uniset ind
+binder 4262:4262 <> x:53
+binder 4264:4264 <> y:54
+binder 4266:4266 <> z:55
+binder 4268:4268 <> t:56
+R4285:4288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4278:4280 Coq.Sets.Uniset <> seq def
+R4284:4284 Coq.Sets.Uniset <> y:54 var
+R4282:4282 Coq.Sets.Uniset <> x:53 var
+R4296:4299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4289:4291 Coq.Sets.Uniset <> seq def
+R4295:4295 Coq.Sets.Uniset <> t:56 var
+R4293:4293 Coq.Sets.Uniset <> z:55 var
+R4300:4302 Coq.Sets.Uniset <> seq def
+R4317:4321 Coq.Sets.Uniset <> union def
+R4325:4325 Coq.Sets.Uniset <> t:56 var
+R4323:4323 Coq.Sets.Uniset <> y:54 var
+R4305:4309 Coq.Sets.Uniset <> union def
+R4313:4313 Coq.Sets.Uniset <> z:55 var
+R4311:4311 Coq.Sets.Uniset <> x:53 var
+R4351:4360 Coq.Sets.Permut <> cong_congr thm
+R4375:4377 Coq.Sets.Uniset <> seq def
+R4369:4373 Coq.Sets.Uniset <> union def
+R4362:4367 Coq.Sets.Uniset <> uniset ind
+R4351:4360 Coq.Sets.Permut <> cong_congr thm
+R4375:4377 Coq.Sets.Uniset <> seq def
+R4369:4373 Coq.Sets.Uniset <> union def
+R4362:4367 Coq.Sets.Uniset <> uniset ind
+R4393:4401 Coq.Sets.Uniset <> seq_trans thm
+R4393:4401 Coq.Sets.Uniset <> seq_trans thm
+prf 4416:4430 <> union_perm_left
+R4448:4453 Coq.Sets.Uniset <> uniset ind
+binder 4442:4442 <> x:57
+binder 4444:4444 <> y:58
+binder 4446:4446 <> z:59
+R4456:4458 Coq.Sets.Uniset <> seq def
+R4483:4487 Coq.Sets.Uniset <> union def
+R4492:4496 Coq.Sets.Uniset <> union def
+R4500:4500 Coq.Sets.Uniset <> z:59 var
+R4498:4498 Coq.Sets.Uniset <> x:57 var
+R4489:4489 Coq.Sets.Uniset <> y:58 var
+R4461:4465 Coq.Sets.Uniset <> union def
+R4470:4474 Coq.Sets.Uniset <> union def
+R4478:4478 Coq.Sets.Uniset <> z:59 var
+R4476:4476 Coq.Sets.Uniset <> y:58 var
+R4467:4467 Coq.Sets.Uniset <> x:57 var
+R4527:4535 Coq.Sets.Permut <> perm_left thm
+R4550:4552 Coq.Sets.Uniset <> seq def
+R4544:4548 Coq.Sets.Uniset <> union def
+R4537:4542 Coq.Sets.Uniset <> uniset ind
+R4527:4535 Coq.Sets.Permut <> perm_left thm
+R4550:4552 Coq.Sets.Uniset <> seq def
+R4544:4548 Coq.Sets.Uniset <> union def
+R4537:4542 Coq.Sets.Uniset <> uniset ind
+R4568:4576 Coq.Sets.Uniset <> seq_trans thm
+R4568:4576 Coq.Sets.Uniset <> seq_trans thm
+prf 4591:4603 <> uniset_twist1
+R4623:4628 Coq.Sets.Uniset <> uniset ind
+binder 4615:4615 <> x:60
+binder 4617:4617 <> y:61
+binder 4619:4619 <> z:62
+binder 4621:4621 <> t:63
+R4634:4636 Coq.Sets.Uniset <> seq def
+R4671:4675 Coq.Sets.Uniset <> union def
+R4699:4699 Coq.Sets.Uniset <> z:62 var
+R4678:4682 Coq.Sets.Uniset <> union def
+R4687:4691 Coq.Sets.Uniset <> union def
+R4695:4695 Coq.Sets.Uniset <> t:63 var
+R4693:4693 Coq.Sets.Uniset <> x:60 var
+R4684:4684 Coq.Sets.Uniset <> y:61 var
+R4639:4643 Coq.Sets.Uniset <> union def
+R4648:4652 Coq.Sets.Uniset <> union def
+R4666:4666 Coq.Sets.Uniset <> t:63 var
+R4655:4659 Coq.Sets.Uniset <> union def
+R4663:4663 Coq.Sets.Uniset <> z:62 var
+R4661:4661 Coq.Sets.Uniset <> y:61 var
+R4645:4645 Coq.Sets.Uniset <> x:60 var
+R4725:4729 Coq.Sets.Permut <> twist thm
+R4744:4746 Coq.Sets.Uniset <> seq def
+R4738:4742 Coq.Sets.Uniset <> union def
+R4731:4736 Coq.Sets.Uniset <> uniset ind
+R4725:4729 Coq.Sets.Permut <> twist thm
+R4744:4746 Coq.Sets.Uniset <> seq def
+R4738:4742 Coq.Sets.Uniset <> union def
+R4731:4736 Coq.Sets.Uniset <> uniset ind
+R4762:4770 Coq.Sets.Uniset <> seq_trans thm
+R4762:4770 Coq.Sets.Uniset <> seq_trans thm
+prf 4785:4797 <> uniset_twist2
+R4817:4822 Coq.Sets.Uniset <> uniset ind
+binder 4809:4809 <> x:64
+binder 4811:4811 <> y:65
+binder 4813:4813 <> z:66
+binder 4815:4815 <> t:67
+R4828:4830 Coq.Sets.Uniset <> seq def
+R4865:4869 Coq.Sets.Uniset <> union def
+R4893:4893 Coq.Sets.Uniset <> t:67 var
+R4872:4876 Coq.Sets.Uniset <> union def
+R4881:4885 Coq.Sets.Uniset <> union def
+R4889:4889 Coq.Sets.Uniset <> z:66 var
+R4887:4887 Coq.Sets.Uniset <> x:64 var
+R4878:4878 Coq.Sets.Uniset <> y:65 var
+R4833:4837 Coq.Sets.Uniset <> union def
+R4842:4846 Coq.Sets.Uniset <> union def
+R4860:4860 Coq.Sets.Uniset <> t:67 var
+R4849:4853 Coq.Sets.Uniset <> union def
+R4857:4857 Coq.Sets.Uniset <> z:66 var
+R4855:4855 Coq.Sets.Uniset <> y:65 var
+R4839:4839 Coq.Sets.Uniset <> x:64 var
+R4934:4938 Coq.Sets.Uniset <> union def
+R4941:4945 Coq.Sets.Uniset <> union def
+R4950:4954 Coq.Sets.Uniset <> union def
+R4918:4926 Coq.Sets.Uniset <> seq_trans thm
+R4934:4938 Coq.Sets.Uniset <> union def
+R4941:4945 Coq.Sets.Uniset <> union def
+R4950:4954 Coq.Sets.Uniset <> union def
+R4918:4926 Coq.Sets.Uniset <> seq_trans thm
+R4974:4980 Coq.Sets.Uniset <> seq_sym thm
+R4989:4997 Coq.Sets.Uniset <> union_ass thm
+R4974:4980 Coq.Sets.Uniset <> seq_sym thm
+R4989:4997 Coq.Sets.Uniset <> union_ass thm
+R5008:5015 Coq.Sets.Uniset <> seq_left thm
+R5024:5038 Coq.Sets.Uniset <> union_perm_left thm
+R5008:5015 Coq.Sets.Uniset <> seq_left thm
+R5024:5038 Coq.Sets.Uniset <> union_perm_left thm
+prf 5083:5097 <> treesort_twist1
+R5119:5124 Coq.Sets.Uniset <> uniset ind
+binder 5109:5109 <> x:68
+binder 5111:5111 <> y:69
+binder 5113:5113 <> z:70
+binder 5115:5115 <> t:71
+binder 5117:5117 <> u:72
+R5147:5153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5130:5132 Coq.Sets.Uniset <> seq def
+R5137:5141 Coq.Sets.Uniset <> union def
+R5145:5145 Coq.Sets.Uniset <> z:70 var
+R5143:5143 Coq.Sets.Uniset <> y:69 var
+R5134:5134 Coq.Sets.Uniset <> u:72 var
+R5154:5156 Coq.Sets.Uniset <> seq def
+R5181:5185 Coq.Sets.Uniset <> union def
+R5209:5209 Coq.Sets.Uniset <> z:70 var
+R5188:5192 Coq.Sets.Uniset <> union def
+R5197:5201 Coq.Sets.Uniset <> union def
+R5205:5205 Coq.Sets.Uniset <> t:71 var
+R5203:5203 Coq.Sets.Uniset <> x:68 var
+R5194:5194 Coq.Sets.Uniset <> y:69 var
+R5159:5163 Coq.Sets.Uniset <> union def
+R5168:5172 Coq.Sets.Uniset <> union def
+R5176:5176 Coq.Sets.Uniset <> t:71 var
+R5174:5174 Coq.Sets.Uniset <> u:72 var
+R5165:5165 Coq.Sets.Uniset <> x:68 var
+R5250:5254 Coq.Sets.Uniset <> union def
+R5259:5263 Coq.Sets.Uniset <> union def
+R5266:5270 Coq.Sets.Uniset <> union def
+R5234:5242 Coq.Sets.Uniset <> seq_trans thm
+R5250:5254 Coq.Sets.Uniset <> union def
+R5259:5263 Coq.Sets.Uniset <> union def
+R5266:5270 Coq.Sets.Uniset <> union def
+R5234:5242 Coq.Sets.Uniset <> seq_trans thm
+R5290:5298 Coq.Sets.Uniset <> seq_right thm
+R5307:5314 Coq.Sets.Uniset <> seq_left thm
+R5290:5298 Coq.Sets.Uniset <> seq_right thm
+R5307:5314 Coq.Sets.Uniset <> seq_left thm
+R5334:5346 Coq.Sets.Uniset <> uniset_twist1 thm
+R5334:5346 Coq.Sets.Uniset <> uniset_twist1 thm
+prf 5361:5375 <> treesort_twist2
+R5397:5402 Coq.Sets.Uniset <> uniset ind
+binder 5387:5387 <> x:73
+binder 5389:5389 <> y:74
+binder 5391:5391 <> z:75
+binder 5393:5393 <> t:76
+binder 5395:5395 <> u:77
+R5425:5431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5408:5410 Coq.Sets.Uniset <> seq def
+R5415:5419 Coq.Sets.Uniset <> union def
+R5423:5423 Coq.Sets.Uniset <> z:75 var
+R5421:5421 Coq.Sets.Uniset <> y:74 var
+R5412:5412 Coq.Sets.Uniset <> u:77 var
+R5432:5434 Coq.Sets.Uniset <> seq def
+R5459:5463 Coq.Sets.Uniset <> union def
+R5487:5487 Coq.Sets.Uniset <> t:76 var
+R5466:5470 Coq.Sets.Uniset <> union def
+R5475:5479 Coq.Sets.Uniset <> union def
+R5483:5483 Coq.Sets.Uniset <> z:75 var
+R5481:5481 Coq.Sets.Uniset <> x:73 var
+R5472:5472 Coq.Sets.Uniset <> y:74 var
+R5437:5441 Coq.Sets.Uniset <> union def
+R5446:5450 Coq.Sets.Uniset <> union def
+R5454:5454 Coq.Sets.Uniset <> t:76 var
+R5452:5452 Coq.Sets.Uniset <> u:77 var
+R5443:5443 Coq.Sets.Uniset <> x:73 var
+R5528:5532 Coq.Sets.Uniset <> union def
+R5537:5541 Coq.Sets.Uniset <> union def
+R5544:5548 Coq.Sets.Uniset <> union def
+R5512:5520 Coq.Sets.Uniset <> seq_trans thm
+R5528:5532 Coq.Sets.Uniset <> union def
+R5537:5541 Coq.Sets.Uniset <> union def
+R5544:5548 Coq.Sets.Uniset <> union def
+R5512:5520 Coq.Sets.Uniset <> seq_trans thm
+R5568:5576 Coq.Sets.Uniset <> seq_right thm
+R5585:5592 Coq.Sets.Uniset <> seq_left thm
+R5568:5576 Coq.Sets.Uniset <> seq_right thm
+R5585:5592 Coq.Sets.Uniset <> seq_left thm
+R5612:5624 Coq.Sets.Uniset <> uniset_twist2 thm
+R5612:5624 Coq.Sets.Uniset <> uniset_twist2 thm
+R5795:5798 Coq.Sets.Uniset defs <> sec

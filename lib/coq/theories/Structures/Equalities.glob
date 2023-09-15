@@ -1,0 +1,509 @@
+DIGEST f3de9864a6175d392bc11f8008c3e1a5
+FCoq.Structures.Equalities
+R691:705 Coq.Classes.RelationClasses <> <> lib
+R723:726 Coq.Bool.Bool <> <> lib
+R728:736 Coq.Classes.Morphisms <> <> lib
+R738:743 Coq.Setoids.Setoid <> <> lib
+modtype 916:918 <> Nop
+R925:927 Coq.Structures.Equalities Nop <> modtype
+modtype 989:991 <> Typ
+ax 1017:1017 Typ t
+R1031:1033 Coq.Structures.Equalities Typ <> modtype
+R1116:1118 Coq.Structures.Equalities Typ <> mod
+modtype 1100:1104 <> HasEq
+R1100:1104 Coq.Structures.Equalities T <> mod
+ax 1145:1146 HasEq eq
+R1151:1154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1150:1150 Coq.Structures.Equalities T t defax
+R1156:1159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1155:1155 Coq.Structures.Equalities T t defax
+R1170:1174 Coq.Structures.Equalities HasEq <> modtype
+R1196:1198 Coq.Structures.Equalities Typ <> mod
+R1203:1207 Coq.Structures.Equalities HasEq <> mod
+modtype 1190:1191 <> Eq
+R1244:1245 Coq.Structures.Equalities Eq <> mod
+modtype 1223:1232 <> EqNotation
+R1223:1232 Coq.Structures.Equalities E <> mod
+R1265:1266 Coq.Structures.Equalities E eq defax
+not 1257:1257 EqNotation :::x_'=='_x
+R1325:1325 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1326:1327 Coq.Structures.Equalities E eq defax
+not 1312:1312 EqNotation :::x_'~='_x
+R1371:1380 Coq.Structures.Equalities EqNotation <> modtype
+R1403:1404 Coq.Structures.Equalities Eq <> mod
+R1409:1418 Coq.Structures.Equalities EqNotation <> mod
+modtype 1396:1398 <> Eq'
+R1522:1523 Coq.Structures.Equalities Eq <> mod
+modtype 1507:1510 <> IsEq
+R1507:1510 Coq.Structures.Equalities E <> mod
+inst 1556:1563 IsEq eq_equiv
+R1567:1577 Coq.Classes.RelationClasses <> Equivalence class
+R1579:1580 Coq.Structures.Equalities E eq defax
+R1587:1590 Coq.Structures.Equalities IsEq <> modtype
+R1695:1697 Coq.Structures.Equalities Eq' <> mod
+modtype 1676:1683 <> IsEqOrig
+R1676:1683 Coq.Structures.Equalities E <> mod
+ax 1709:1715 IsEqOrig eq_refl
+R1730:1730 Coq.Structures.Equalities E t defax
+binder 1726:1726 <> x:3
+R1734:1735 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1733:1733 Coq.Structures.Equalities <> x:3 var
+R1736:1736 Coq.Structures.Equalities <> x:3 var
+ax 1747:1752 IsEqOrig eq_sym
+R1769:1769 Coq.Structures.Equalities E t defax
+binder 1763:1763 <> x:5
+binder 1765:1765 <> y:6
+R1776:1779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1773:1774 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1772:1772 Coq.Structures.Equalities <> x:5 var
+R1775:1775 Coq.Structures.Equalities <> y:6 var
+R1781:1782 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1780:1780 Coq.Structures.Equalities <> y:6 var
+R1783:1783 Coq.Structures.Equalities <> x:5 var
+ax 1794:1801 IsEqOrig eq_trans
+R1820:1820 Coq.Structures.Equalities E t defax
+binder 1812:1812 <> x:8
+binder 1814:1814 <> y:9
+binder 1816:1816 <> z:10
+R1827:1830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1824:1825 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1823:1823 Coq.Structures.Equalities <> x:8 var
+R1826:1826 Coq.Structures.Equalities <> y:9 var
+R1835:1838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1832:1833 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1831:1831 Coq.Structures.Equalities <> y:9 var
+R1834:1834 Coq.Structures.Equalities <> z:10 var
+R1840:1841 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1839:1839 Coq.Structures.Equalities <> x:8 var
+R1842:1842 Coq.Structures.Equalities <> z:10 var
+R1945:1952 Coq.Structures.Equalities IsEqOrig <> modtype
+R2027:2029 Coq.Structures.Equalities Eq' <> mod
+modtype 2008:2015 <> HasEqDec
+R2008:2015 Coq.Structures.Equalities E <> mod
+ax 2045:2050 HasEqDec eq_dec
+R2067:2067 Coq.Structures.Equalities E t defax
+binder 2061:2061 <> x:12
+binder 2063:2063 <> y:13
+R2070:2071 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2076:2082 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2089:2090 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2073:2074 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2072:2072 Coq.Structures.Equalities <> x:12 var
+R2075:2075 Coq.Structures.Equalities <> y:13 var
+R2083:2084 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2086:2087 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2085:2085 Coq.Structures.Equalities <> x:12 var
+R2088:2088 Coq.Structures.Equalities <> y:13 var
+R2097:2104 Coq.Structures.Equalities HasEqDec <> modtype
+R2259:2261 Coq.Structures.Equalities Typ <> mod
+modtype 2242:2247 <> HasEqb
+R2242:2247 Coq.Structures.Equalities T <> mod
+ax 2284:2286 HasEqb eqb
+R2291:2294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2290:2290 Coq.Structures.Equalities T t defax
+R2296:2299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2295:2295 Coq.Structures.Equalities T t defax
+R2300:2303 Coq.Init.Datatypes <> bool ind
+R2310:2315 Coq.Structures.Equalities HasEqb <> modtype
+R2342:2344 Coq.Structures.Equalities Typ <> mod
+R2349:2353 Coq.Structures.Equalities HasEq <> mod
+R2355:2355 Coq.Structures.Equalities T <> modtype
+R2360:2365 Coq.Structures.Equalities HasEqb <> mod
+R2367:2367 Coq.Structures.Equalities T <> modtype
+modtype 2331:2337 <> EqbSpec
+ax 2383:2388 EqbSpec eqb_eq
+binder 2399:2399 <> x:16
+binder 2401:2401 <> y:17
+R2420:2424 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2413:2415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2404:2408 Coq.Structures.Equalities Y eqb defax
+R2412:2412 Coq.Structures.Equalities <> y:17 var
+R2410:2410 Coq.Structures.Equalities <> x:16 var
+R2416:2419 Coq.Init.Datatypes <> true constr
+R2425:2428 Coq.Structures.Equalities X eq defax
+R2432:2432 Coq.Structures.Equalities <> y:17 var
+R2430:2430 Coq.Structures.Equalities <> x:16 var
+R2439:2445 Coq.Structures.Equalities EqbSpec <> modtype
+R2476:2478 Coq.Structures.Equalities Typ <> mod
+R2483:2488 Coq.Structures.Equalities HasEqb <> mod
+R2490:2490 Coq.Structures.Equalities T <> modtype
+modtype 2461:2471 <> EqbNotation
+R2510:2514 Coq.Structures.Equalities E eqb defax
+not 2502:2502 EqbNotation :::x_'=?'_x
+R2553:2563 Coq.Structures.Equalities EqbNotation <> modtype
+R2592:2593 Coq.Structures.Equalities Eq <> mod
+R2599:2604 Coq.Structures.Equalities HasEqb <> mod
+R2606:2606 Coq.Structures.Equalities E <> modtype
+R2611:2617 Coq.Structures.Equalities EqbSpec <> mod
+R2619:2619 Coq.Structures.Equalities E <> modtype
+R2621:2621 Coq.Structures.Equalities E <> modtype
+modtype 2579:2587 <> HasEqBool
+R2756:2757 Coq.Structures.Equalities Eq <> mod
+R2762:2765 Coq.Structures.Equalities IsEq <> mod
+modtype 2740:2751 <> EqualityType
+R2801:2802 Coq.Structures.Equalities Eq <> mod
+R2807:2814 Coq.Structures.Equalities IsEqOrig <> mod
+modtype 2781:2796 <> EqualityTypeOrig
+R2850:2861 Coq.Structures.Equalities EqualityType <> mod
+R2866:2881 Coq.Structures.Equalities EqualityTypeOrig <> mod
+R2887:2888 Coq.Structures.Equalities Eq <> mod
+R2893:2896 Coq.Structures.Equalities IsEq <> mod
+R2901:2908 Coq.Structures.Equalities IsEqOrig <> mod
+modtype 2830:2845 <> EqualityTypeBoth
+R2941:2952 Coq.Structures.Equalities EqualityType <> mod
+R2958:2959 Coq.Structures.Equalities Eq <> mod
+R2964:2967 Coq.Structures.Equalities IsEq <> mod
+R2972:2979 Coq.Structures.Equalities HasEqDec <> mod
+modtype 2924:2936 <> DecidableType
+R3016:3031 Coq.Structures.Equalities EqualityTypeOrig <> mod
+R3037:3038 Coq.Structures.Equalities Eq <> mod
+R3043:3050 Coq.Structures.Equalities IsEqOrig <> mod
+R3055:3062 Coq.Structures.Equalities HasEqDec <> mod
+modtype 2995:3011 <> DecidableTypeOrig
+R3099:3111 Coq.Structures.Equalities DecidableType <> mod
+R3116:3132 Coq.Structures.Equalities DecidableTypeOrig <> mod
+R3138:3153 Coq.Structures.Equalities EqualityTypeBoth <> mod
+R3158:3165 Coq.Structures.Equalities HasEqDec <> mod
+modtype 3078:3094 <> DecidableTypeBoth
+R3204:3215 Coq.Structures.Equalities EqualityType <> mod
+R3221:3222 Coq.Structures.Equalities Eq <> mod
+R3227:3230 Coq.Structures.Equalities IsEq <> mod
+R3235:3243 Coq.Structures.Equalities HasEqBool <> mod
+modtype 3181:3199 <> BooleanEqualityType
+R3283:3295 Coq.Structures.Equalities DecidableType <> mod
+R3300:3318 Coq.Structures.Equalities BooleanEqualityType <> mod
+R3324:3325 Coq.Structures.Equalities Eq <> mod
+R3330:3333 Coq.Structures.Equalities IsEq <> mod
+R3338:3345 Coq.Structures.Equalities HasEqDec <> mod
+R3350:3358 Coq.Structures.Equalities HasEqBool <> mod
+modtype 3259:3278 <> BooleanDecidableType
+R3395:3411 Coq.Structures.Equalities DecidableTypeBoth <> mod
+R3416:3435 Coq.Structures.Equalities BooleanDecidableType <> mod
+R3441:3442 Coq.Structures.Equalities Eq <> mod
+R3447:3450 Coq.Structures.Equalities IsEq <> mod
+R3455:3462 Coq.Structures.Equalities IsEqOrig <> mod
+R3467:3474 Coq.Structures.Equalities HasEqDec <> mod
+R3479:3487 Coq.Structures.Equalities HasEqBool <> mod
+modtype 3374:3390 <> DecidableTypeFull
+R3557:3568 Coq.Structures.Equalities EqualityType <> mod
+R3573:3582 Coq.Structures.Equalities EqNotation <> mod
+modtype 3540:3552 <> EqualityType'
+R3618:3633 Coq.Structures.Equalities EqualityTypeOrig <> mod
+R3638:3647 Coq.Structures.Equalities EqNotation <> mod
+modtype 3597:3613 <> EqualityTypeOrig'
+R3683:3698 Coq.Structures.Equalities EqualityTypeBoth <> mod
+R3703:3712 Coq.Structures.Equalities EqNotation <> mod
+modtype 3662:3678 <> EqualityTypeBoth'
+R3745:3757 Coq.Structures.Equalities DecidableType <> mod
+R3762:3771 Coq.Structures.Equalities EqNotation <> mod
+modtype 3727:3740 <> DecidableType'
+R3808:3824 Coq.Structures.Equalities DecidableTypeOrig <> mod
+R3829:3838 Coq.Structures.Equalities EqNotation <> mod
+modtype 3786:3803 <> DecidableTypeOrig'
+R3875:3891 Coq.Structures.Equalities DecidableTypeBoth <> mod
+R3896:3905 Coq.Structures.Equalities EqNotation <> mod
+modtype 3853:3870 <> DecidableTypeBoth'
+R3945:3963 Coq.Structures.Equalities BooleanEqualityType <> mod
+R3968:3977 Coq.Structures.Equalities EqNotation <> mod
+R3982:3992 Coq.Structures.Equalities EqbNotation <> mod
+modtype 3920:3939 <> BooleanEqualityType'
+R4033:4052 Coq.Structures.Equalities BooleanDecidableType <> mod
+R4057:4066 Coq.Structures.Equalities EqNotation <> mod
+R4071:4081 Coq.Structures.Equalities EqbNotation <> mod
+modtype 4007:4027 <> BooleanDecidableType'
+R4118:4134 Coq.Structures.Equalities DecidableTypeFull <> mod
+R4139:4148 Coq.Structures.Equalities EqNotation <> mod
+modtype 4096:4113 <> DecidableTypeFull'
+R4273:4274 Coq.Structures.Equalities Eq <> mod
+R4279:4282 Coq.Structures.Equalities IsEq <> mod
+R4284:4284 Coq.Structures.Equalities E <> modtype
+R4290:4297 Coq.Structures.Equalities IsEqOrig <> mod
+R4299:4299 Coq.Structures.Equalities E <> modtype
+mod 4259:4268 <> BackportEq
+def 4314:4320 BackportEq eq_refl
+R4326:4346 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R4352:4361 Coq.Structures.Equalities F eq_equiv prfax
+def 4376:4381 BackportEq eq_sym
+R4387:4407 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R4413:4422 Coq.Structures.Equalities F eq_equiv prfax
+def 4437:4444 BackportEq eq_trans
+R4450:4471 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R4477:4486 Coq.Structures.Equalities F eq_equiv prfax
+R4493:4502 Coq.Structures.Equalities BackportEq <> mod
+R4525:4526 Coq.Structures.Equalities Eq <> mod
+R4531:4538 Coq.Structures.Equalities IsEqOrig <> mod
+R4540:4540 Coq.Structures.Equalities E <> modtype
+R4546:4549 Coq.Structures.Equalities IsEq <> mod
+R4551:4551 Coq.Structures.Equalities E <> modtype
+mod 4513:4520 <> UpdateEq
+inst 4574:4581 UpdateEq eq_equiv
+R4585:4595 Coq.Classes.RelationClasses <> Equivalence class
+R4597:4600 Coq.Structures.Equalities E eq defax
+R4618:4634 Coq.Classes.RelationClasses <> Build_Equivalence constr
+R4638:4646 Coq.Structures.Equalities F eq_refl prfax
+R4648:4655 Coq.Structures.Equalities F eq_sym prfax
+R4657:4666 Coq.Structures.Equalities F eq_trans prfax
+R4618:4634 Coq.Classes.RelationClasses <> Build_Equivalence constr
+R4638:4646 Coq.Structures.Equalities F eq_refl prfax
+R4648:4655 Coq.Structures.Equalities F eq_sym prfax
+R4657:4666 Coq.Structures.Equalities F eq_trans prfax
+R4679:4686 Coq.Structures.Equalities UpdateEq <> mod
+R4712:4723 Coq.Structures.Equalities EqualityType <> mod
+R4729:4744 Coq.Structures.Equalities EqualityTypeBoth <> mod
+R4750:4750 Coq.Structures.Equalities E <> modtype
+R4755:4764 Coq.Structures.Equalities BackportEq <> modtype
+mod 4697:4707 <> Backport_ET
+R4788:4803 Coq.Structures.Equalities EqualityTypeOrig <> mod
+R4809:4824 Coq.Structures.Equalities EqualityTypeBoth <> mod
+R4830:4830 Coq.Structures.Equalities E <> modtype
+R4835:4842 Coq.Structures.Equalities UpdateEq <> modtype
+mod 4775:4783 <> Update_ET
+R4868:4880 Coq.Structures.Equalities DecidableType <> mod
+R4886:4902 Coq.Structures.Equalities DecidableTypeBoth <> mod
+R4908:4908 Coq.Structures.Equalities E <> modtype
+R4913:4922 Coq.Structures.Equalities BackportEq <> modtype
+mod 4853:4863 <> Backport_DT
+R4946:4962 Coq.Structures.Equalities DecidableTypeOrig <> mod
+R4968:4984 Coq.Structures.Equalities DecidableTypeBoth <> mod
+R4990:4990 Coq.Structures.Equalities E <> modtype
+R4995:5002 Coq.Structures.Equalities UpdateEq <> modtype
+mod 4933:4941 <> Update_DT
+R5101:5102 Coq.Structures.Equalities Eq <> mod
+R5107:5114 Coq.Structures.Equalities HasEqDec <> mod
+R5116:5116 Coq.Structures.Equalities E <> modtype
+R5122:5130 Coq.Structures.Equalities HasEqBool <> mod
+R5132:5132 Coq.Structures.Equalities E <> modtype
+mod 5084:5096 <> HasEqDec2Bool
+def 5147:5149 HasEqDec2Bool eqb
+binder 5151:5151 <> x:19
+binder 5153:5153 <> y:20
+R5161:5168 Coq.Structures.Equalities F eq_dec defax
+R5172:5172 Coq.Structures.Equalities <> y:20 var
+R5170:5170 Coq.Structures.Equalities <> x:19 var
+R5189:5193 Coq.Init.Datatypes <> false constr
+R5179:5182 Coq.Init.Datatypes <> true constr
+prf 5203:5208 HasEqDec2Bool eqb_eq
+binder 5219:5219 <> x:21
+binder 5221:5221 <> y:22
+R5238:5242 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5231:5233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5224:5226 Coq.Structures.Equalities HasEqDec2Bool eqb def
+R5230:5230 Coq.Structures.Equalities <> y:22 var
+R5228:5228 Coq.Structures.Equalities <> x:21 var
+R5234:5237 Coq.Init.Datatypes <> true constr
+R5243:5246 Coq.Structures.Equalities E eq defax
+R5250:5250 Coq.Structures.Equalities <> y:22 var
+R5248:5248 Coq.Structures.Equalities <> x:21 var
+R5282:5284 Coq.Structures.Equalities HasEqDec2Bool eqb def
+R5296:5303 Coq.Structures.Equalities F eq_dec defax
+R5296:5303 Coq.Structures.Equalities F eq_dec defax
+R5408:5420 Coq.Structures.Equalities HasEqDec2Bool <> mod
+R5448:5449 Coq.Structures.Equalities Eq <> mod
+R5454:5462 Coq.Structures.Equalities HasEqBool <> mod
+R5464:5464 Coq.Structures.Equalities E <> modtype
+R5470:5477 Coq.Structures.Equalities HasEqDec <> mod
+R5479:5479 Coq.Structures.Equalities E <> modtype
+mod 5431:5443 <> HasEqBool2Dec
+prf 5489:5494 HasEqBool2Dec eq_dec
+binder 5505:5505 <> x:23
+binder 5507:5507 <> y:24
+R5510:5510 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5519:5521 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5531:5531 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5511:5514 Coq.Structures.Equalities E eq defax
+R5518:5518 Coq.Structures.Equalities <> y:24 var
+R5516:5516 Coq.Structures.Equalities <> x:23 var
+R5522:5522 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5523:5526 Coq.Structures.Equalities E eq defax
+R5530:5530 Coq.Structures.Equalities <> y:24 var
+R5528:5528 Coq.Structures.Equalities <> x:23 var
+R5567:5574 Coq.Structures.Equalities F eqb_eq defax
+R5567:5574 Coq.Structures.Equalities F eqb_eq defax
+R5594:5598 Coq.Structures.Equalities F eqb defax
+R5594:5598 Coq.Structures.Equalities F eqb defax
+R5699:5711 Coq.Structures.Equalities HasEqBool2Dec <> mod
+R5734:5746 Coq.Structures.Equalities DecidableType <> mod
+R5752:5771 Coq.Structures.Equalities BooleanDecidableType <> mod
+R5777:5777 Coq.Structures.Equalities E <> modtype
+R5782:5794 Coq.Structures.Equalities HasEqDec2Bool <> modtype
+mod 5722:5729 <> Dec2Bool
+R5817:5835 Coq.Structures.Equalities BooleanEqualityType <> mod
+R5841:5860 Coq.Structures.Equalities BooleanDecidableType <> mod
+R5866:5866 Coq.Structures.Equalities E <> modtype
+R5871:5883 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+mod 5805:5812 <> Bool2Dec
+R5969:5988 Coq.Structures.Equalities BooleanEqualityType' <> mod
+mod 5939:5955 <> BoolEqualityFacts
+inst 6050:6059 BoolEqualityFacts eqb_compat
+R6063:6068 Coq.Classes.Morphisms <> Proper class
+R6099:6101 Coq.Structures.Equalities E eqb defax
+R6075:6079 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6071:6074 Coq.Structures.Equalities E eq defax
+R6084:6088 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R6080:6083 Coq.Structures.Equalities E eq defax
+R6089:6096 Coq.Init.Logic <> eq ind
+R6145:6158 Coq.Bool.Bool <> eq_true_iff_eq thm
+R6145:6158 Coq.Bool.Bool <> eq_true_iff_eq thm
+R6175:6180 Coq.Structures.Equalities E eqb_eq defax
+R6175:6180 Coq.Structures.Equalities E eqb_eq defax
+R6175:6180 Coq.Structures.Equalities E eqb_eq defax
+R6175:6180 Coq.Structures.Equalities E eqb_eq defax
+prf 6270:6277 BoolEqualityFacts eqb_spec
+binder 6279:6279 <> x:25
+binder 6281:6281 <> y:26
+R6285:6291 Coq.Bool.Bool <> reflect ind
+R6295:6296 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6294:6294 Coq.Structures.Equalities <> x:25 var
+R6297:6297 Coq.Structures.Equalities <> y:26 var
+R6302:6305 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6301:6301 Coq.Structures.Equalities <> x:25 var
+R6306:6306 Coq.Structures.Equalities <> y:26 var
+R6323:6333 Coq.Bool.Bool <> iff_reflect thm
+R6323:6333 Coq.Bool.Bool <> iff_reflect thm
+R6352:6357 Coq.Structures.Equalities E eqb_eq defax
+R6352:6357 Coq.Structures.Equalities E eqb_eq defax
+prf 6409:6415 BoolEqualityFacts eqb_neq
+binder 6417:6417 <> x:27
+binder 6419:6419 <> y:28
+R6439:6443 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6423:6423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6430:6433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6425:6428 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6424:6424 Coq.Structures.Equalities <> x:27 var
+R6429:6429 Coq.Structures.Equalities <> y:28 var
+R6434:6438 Coq.Init.Datatypes <> false constr
+R6445:6448 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6444:6444 Coq.Structures.Equalities <> x:27 var
+R6449:6449 Coq.Structures.Equalities <> y:28 var
+R6474:6491 Coq.Bool.Bool <> not_true_iff_false thm
+R6494:6499 Coq.Structures.Equalities E eqb_eq defax
+R6474:6491 Coq.Bool.Bool <> not_true_iff_false thm
+R6474:6491 Coq.Bool.Bool <> not_true_iff_false thm
+R6494:6499 Coq.Structures.Equalities E eqb_eq defax
+R6494:6499 Coq.Structures.Equalities E eqb_eq defax
+prf 6552:6559 BoolEqualityFacts eqb_refl
+binder 6561:6561 <> x:29
+R6565:6565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6572:6575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6567:6570 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6566:6566 Coq.Structures.Equalities <> x:29 var
+R6571:6571 Coq.Structures.Equalities <> x:29 var
+R6576:6579 Coq.Init.Datatypes <> true constr
+R6599:6604 Coq.Structures.Equalities E eqb_eq defax
+R6599:6604 Coq.Structures.Equalities E eqb_eq defax
+prf 6619:6625 BoolEqualityFacts eqb_sym
+binder 6627:6627 <> x:30
+binder 6629:6629 <> y:31
+R6633:6633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6640:6644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6651:6651 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6635:6638 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6634:6634 Coq.Structures.Equalities <> x:30 var
+R6639:6639 Coq.Structures.Equalities <> y:31 var
+R6646:6649 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R6645:6645 Coq.Structures.Equalities <> y:31 var
+R6650:6650 Coq.Structures.Equalities <> x:30 var
+R6667:6680 Coq.Bool.Bool <> eq_true_iff_eq thm
+R6667:6680 Coq.Bool.Bool <> eq_true_iff_eq thm
+R6697:6702 Coq.Structures.Equalities E eqb_eq defax
+R6697:6702 Coq.Structures.Equalities E eqb_eq defax
+R6697:6702 Coq.Structures.Equalities E eqb_eq defax
+R6697:6702 Coq.Structures.Equalities E eqb_eq defax
+R6773:6789 Coq.Structures.Equalities BoolEqualityFacts <> mod
+R6944:6946 Coq.Structures.Equalities Typ <> mod
+R6952:6956 Coq.Structures.Equalities HasEq <> mod
+R6958:6958 Coq.Structures.Equalities T <> modtype
+modtype 6923:6932 <> HasUsualEq
+R6923:6932 Coq.Structures.Equalities T <> mod
+def 6973:6974 HasUsualEq eq
+R6980:6987 Coq.Init.Logic <> eq ind
+R6989:6989 Coq.Structures.Equalities T t defax
+R6996:7005 Coq.Structures.Equalities HasUsualEq <> modtype
+R7032:7033 Coq.Structures.Equalities Eq <> mod
+R7038:7040 Coq.Structures.Equalities Typ <> mod
+R7045:7054 Coq.Structures.Equalities HasUsualEq <> mod
+modtype 7021:7027 <> UsualEq
+R7083:7089 Coq.Structures.Equalities UsualEq <> mod
+R7095:7098 Coq.Structures.Equalities IsEq <> mod
+R7100:7100 Coq.Structures.Equalities E <> modtype
+modtype 7070:7078 <> UsualIsEq
+def 7184:7191 UsualIsEq eq_equiv
+R7195:7205 Coq.Classes.RelationClasses <> Equivalence class
+R7207:7210 Coq.Structures.Equalities E eq def
+R7215:7228 Coq.Classes.RelationClasses <> eq_equivalence inst
+R7235:7243 Coq.Structures.Equalities UsualIsEq <> modtype
+R7276:7282 Coq.Structures.Equalities UsualEq <> mod
+R7288:7295 Coq.Structures.Equalities IsEqOrig <> mod
+R7297:7297 Coq.Structures.Equalities E <> modtype
+modtype 7259:7271 <> UsualIsEqOrig
+def 7312:7318 UsualIsEqOrig eq_refl
+R7324:7336 Coq.Init.Logic <> eq_refl constr
+R7338:7340 Coq.Structures.Equalities E t defax
+def 7355:7360 UsualIsEqOrig eq_sym
+R7366:7377 Coq.Init.Logic <> eq_sym thm
+R7379:7381 Coq.Structures.Equalities E t defax
+def 7396:7403 UsualIsEqOrig eq_trans
+R7409:7422 Coq.Init.Logic <> eq_trans thm
+R7424:7426 Coq.Structures.Equalities E t defax
+R7433:7445 Coq.Structures.Equalities UsualIsEqOrig <> modtype
+R7482:7493 Coq.Structures.Equalities EqualityType <> mod
+R7499:7505 Coq.Structures.Equalities UsualEq <> mod
+R7510:7518 Coq.Structures.Equalities UsualIsEq <> mod
+modtype 7461:7477 <> UsualEqualityType
+R7556:7568 Coq.Structures.Equalities DecidableType <> mod
+R7574:7580 Coq.Structures.Equalities UsualEq <> mod
+R7585:7593 Coq.Structures.Equalities UsualIsEq <> mod
+R7598:7605 Coq.Structures.Equalities HasEqDec <> mod
+modtype 7534:7551 <> UsualDecidableType
+R7647:7663 Coq.Structures.Equalities DecidableTypeOrig <> mod
+R7669:7675 Coq.Structures.Equalities UsualEq <> mod
+R7680:7692 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R7697:7704 Coq.Structures.Equalities HasEqDec <> mod
+modtype 7621:7642 <> UsualDecidableTypeOrig
+R7746:7762 Coq.Structures.Equalities DecidableTypeBoth <> mod
+R7768:7774 Coq.Structures.Equalities UsualEq <> mod
+R7779:7787 Coq.Structures.Equalities UsualIsEq <> mod
+R7792:7804 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R7809:7816 Coq.Structures.Equalities HasEqDec <> mod
+modtype 7720:7741 <> UsualDecidableTypeBoth
+R7847:7853 Coq.Structures.Equalities UsualEq <> mod
+R7858:7866 Coq.Structures.Equalities HasEqBool <> mod
+modtype 7832:7842 <> UsualBoolEq
+R7908:7924 Coq.Structures.Equalities DecidableTypeFull <> mod
+R7930:7936 Coq.Structures.Equalities UsualEq <> mod
+R7941:7949 Coq.Structures.Equalities UsualIsEq <> mod
+R7954:7966 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R7971:7978 Coq.Structures.Equalities HasEqDec <> mod
+R7983:7991 Coq.Structures.Equalities HasEqBool <> mod
+modtype 7882:7903 <> UsualDecidableTypeFull
+modtype 8074:8090 <> MiniDecidableType
+R8102:8104 Coq.Structures.Equalities Typ <> mod
+ax 8118:8123 MiniDecidableType eq_dec
+R8140:8140 Coq.Structures.Equalities MiniDecidableType t defax
+binder 8134:8134 <> x:32
+binder 8136:8136 <> y:33
+R8143:8143 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8147:8149 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8154:8154 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8145:8145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8144:8144 Coq.Structures.Equalities <> x:32 var
+R8146:8146 Coq.Structures.Equalities <> y:33 var
+R8150:8150 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8152:8152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8151:8151 Coq.Structures.Equalities <> x:32 var
+R8153:8153 Coq.Structures.Equalities <> y:33 var
+R8161:8177 Coq.Structures.Equalities MiniDecidableType <> modtype
+R8200:8216 Coq.Structures.Equalities MiniDecidableType <> mod
+R8222:8243 Coq.Structures.Equalities UsualDecidableTypeBoth <> mod
+R8249:8249 Coq.Structures.Equalities M <> modtype
+R8254:8263 Coq.Structures.Equalities HasUsualEq <> mod
+R8268:8276 Coq.Structures.Equalities UsualIsEq <> mod
+R8281:8293 Coq.Structures.Equalities UsualIsEqOrig <> mod
+mod 8188:8195 <> Make_UDT
+R8317:8327 Coq.Structures.Equalities UsualBoolEq <> mod
+R8333:8354 Coq.Structures.Equalities UsualDecidableTypeFull <> mod
+R8360:8360 Coq.Structures.Equalities M <> modtype
+R8365:8373 Coq.Structures.Equalities UsualIsEq <> mod
+R8378:8390 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R8395:8407 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+mod 8304:8312 <> Make_UDTF

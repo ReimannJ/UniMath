@@ -1,0 +1,239 @@
+DIGEST 15163fd7557651f848a7fc88013d99a8
+FCoq.Logic.ExtensionalityFacts
+def 1349:1358 <> is_inverse
+binder 1360:1360 <> A:1
+binder 1362:1362 <> B:2
+binder 1364:1364 <> f:3
+binder 1366:1366 <> g:4
+R1371:1371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1395:1400 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1424:1424 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1381:1381 Coq.Logic.ExtensionalityFacts <> A:1 var
+binder 1379:1379 <> a:5
+R1391:1393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1384:1384 Coq.Logic.ExtensionalityFacts <> g:4 var
+R1387:1387 Coq.Logic.ExtensionalityFacts <> f:3 var
+R1389:1389 Coq.Logic.ExtensionalityFacts <> a:5 var
+R1394:1394 Coq.Logic.ExtensionalityFacts <> a:5 var
+R1410:1410 Coq.Logic.ExtensionalityFacts <> B:2 var
+binder 1408:1408 <> b:6
+R1420:1422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1413:1413 Coq.Logic.ExtensionalityFacts <> f:3 var
+R1416:1416 Coq.Logic.ExtensionalityFacts <> g:4 var
+R1418:1418 Coq.Logic.ExtensionalityFacts <> b:6 var
+R1423:1423 Coq.Logic.ExtensionalityFacts <> b:6 var
+rec 1524:1528 <> Delta
+proj 1537:1539 <> pi1
+proj 1544:1546 <> pi2
+proj 1551:1552 <> eq
+binder 1530:1530 <> A:7
+R1541:1541 Coq.Logic.ExtensionalityFacts <> A:7 var
+R1548:1548 Coq.Logic.ExtensionalityFacts <> A:7 var
+R1557:1557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1554:1556 Coq.Logic.ExtensionalityFacts <> pi1:9 meth
+R1558:1560 Coq.Logic.ExtensionalityFacts <> pi2:10 meth
+def 1577:1581 <> delta
+binder 1584:1584 <> A:12
+R1590:1590 Coq.Logic.ExtensionalityFacts <> A:12 var
+binder 1588:1588 <> a:13
+R1599:1601 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1599:1601 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1599:1601 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1609:1611 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R1609:1611 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R1619:1620 Coq.Logic.ExtensionalityFacts <> eq proj
+R1619:1620 Coq.Logic.ExtensionalityFacts <> eq proj
+R1606:1606 Coq.Logic.ExtensionalityFacts <> a:13 var
+R1616:1616 Coq.Logic.ExtensionalityFacts <> a:13 var
+R1625:1631 Coq.Init.Logic <> eq_refl constr
+R1633:1633 Coq.Logic.ExtensionalityFacts <> a:13 var
+R1650:1652 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1650:1652 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1671:1673 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R1671:1673 Coq.Logic.ExtensionalityFacts <> pi2 proj
+prf 1689:1716 <> diagonal_projs_same_behavior
+binder 1727:1727 <> A:14
+R1732:1736 Coq.Logic.ExtensionalityFacts <> Delta rec
+R1738:1738 Coq.Logic.ExtensionalityFacts <> A:14 var
+binder 1730:1730 <> x:15
+R1747:1749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1742:1744 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1746:1746 Coq.Logic.ExtensionalityFacts <> x:15 var
+R1750:1752 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R1754:1754 Coq.Logic.ExtensionalityFacts <> x:15 var
+prf 1817:1833 <> diagonal_inverse1
+binder 1844:1844 <> A:16
+R1847:1856 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R1871:1873 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R1865:1869 Coq.Logic.ExtensionalityFacts <> delta def
+R1862:1862 Coq.Logic.ExtensionalityFacts <> A:16 var
+prf 1955:1971 <> diagonal_inverse2
+binder 1982:1982 <> A:17
+R1985:1994 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R2009:2011 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R2003:2007 Coq.Logic.ExtensionalityFacts <> delta def
+R2000:2000 Coq.Logic.ExtensionalityFacts <> A:17 var
+abbrev 2136:2159 <> FunctionalExtensionality
+binder 2175:2175 <> A:18
+binder 2177:2177 <> B:19
+R2187:2190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2186:2186 Coq.Logic.ExtensionalityFacts <> A:18 var
+R2191:2191 Coq.Logic.ExtensionalityFacts <> B:19 var
+binder 2180:2180 <> f:20
+binder 2182:2182 <> g:21
+R2195:2195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2215:2219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2203:2203 <> x:22
+R2209:2211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2206:2206 Coq.Logic.ExtensionalityFacts <> f:20 var
+R2208:2208 Coq.Logic.ExtensionalityFacts <> x:22 var
+R2212:2212 Coq.Logic.ExtensionalityFacts <> g:21 var
+R2214:2214 Coq.Logic.ExtensionalityFacts <> x:22 var
+R2221:2223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2220:2220 Coq.Logic.ExtensionalityFacts <> f:20 var
+R2224:2224 Coq.Logic.ExtensionalityFacts <> g:21 var
+abbrev 2290:2301 <> EqDeltaProjs
+binder 2314:2314 <> A:23
+R2320:2322 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2326:2330 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2343:2343 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R2338:2341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2331:2335 Coq.Logic.ExtensionalityFacts <> Delta rec
+R2337:2337 Coq.Logic.ExtensionalityFacts <> A:23 var
+R2342:2342 Coq.Logic.ExtensionalityFacts <> A:23 var
+R2317:2319 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R2323:2325 Coq.Logic.ExtensionalityFacts <> pi2 proj
+abbrev 2400:2412 <> UniqueInverse
+binder 2425:2425 <> A:24
+binder 2427:2427 <> B:25
+R2433:2434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2432:2432 Coq.Logic.ExtensionalityFacts <> A:24 var
+R2435:2435 Coq.Logic.ExtensionalityFacts <> B:25 var
+binder 2430:2430 <> f:26
+binder 2438:2439 <> g1:27
+binder 2441:2442 <> g2:28
+R2460:2463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2445:2454 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R2458:2459 Coq.Logic.ExtensionalityFacts <> g1:27 var
+R2456:2456 Coq.Logic.ExtensionalityFacts <> f:26 var
+R2479:2482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2464:2473 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R2477:2478 Coq.Logic.ExtensionalityFacts <> g2:28 var
+R2475:2475 Coq.Logic.ExtensionalityFacts <> f:26 var
+R2485:2487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2483:2484 Coq.Logic.ExtensionalityFacts <> g1:27 var
+R2488:2489 Coq.Logic.ExtensionalityFacts <> g2:28 var
+def 2550:2555 <> action
+binder 2557:2557 <> A:29
+binder 2559:2559 <> B:30
+binder 2561:2561 <> C:31
+R2567:2568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2566:2566 Coq.Logic.ExtensionalityFacts <> A:29 var
+R2569:2569 Coq.Logic.ExtensionalityFacts <> B:30 var
+binder 2564:2564 <> f:32
+R2583:2584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2582:2582 Coq.Logic.ExtensionalityFacts <> B:30 var
+R2585:2585 Coq.Logic.ExtensionalityFacts <> C:31 var
+binder 2580:2580 <> h:33
+binder 2594:2594 <> x:34
+R2599:2599 Coq.Logic.ExtensionalityFacts <> h:33 var
+R2602:2602 Coq.Logic.ExtensionalityFacts <> f:32 var
+R2604:2604 Coq.Logic.ExtensionalityFacts <> x:34 var
+abbrev 2625:2648 <> BijectivityBijectiveComp
+binder 2661:2661 <> A:35
+binder 2663:2663 <> B:36
+binder 2665:2665 <> C:37
+R2671:2672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2670:2670 Coq.Logic.ExtensionalityFacts <> A:35 var
+R2673:2673 Coq.Logic.ExtensionalityFacts <> B:36 var
+binder 2668:2668 <> f:38
+binder 2676:2676 <> g:39
+R2695:2698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2681:2690 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R2694:2694 Coq.Logic.ExtensionalityFacts <> g:39 var
+R2692:2692 Coq.Logic.ExtensionalityFacts <> f:38 var
+R2699:2708 Coq.Logic.ExtensionalityFacts <> is_inverse def
+R2732:2737 Coq.Logic.ExtensionalityFacts <> action def
+R2739:2739 Coq.Logic.ExtensionalityFacts <> g:39 var
+R2721:2726 Coq.Logic.ExtensionalityFacts <> action def
+R2728:2728 Coq.Logic.ExtensionalityFacts <> f:38 var
+R2715:2716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2714:2714 Coq.Logic.ExtensionalityFacts <> B:36 var
+R2717:2717 Coq.Logic.ExtensionalityFacts <> C:37 var
+prf 2904:2928 <> FunctExt_iff_EqDeltaProjs
+R2956:2960 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2932:2955 Coq.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R2961:2972 Coq.Logic.ExtensionalityFacts <> EqDeltaProjs abbrev
+R3026:3053 Coq.Logic.ExtensionalityFacts <> diagonal_projs_same_behavior thm
+R3026:3053 Coq.Logic.ExtensionalityFacts <> diagonal_projs_same_behavior thm
+binder 3099:3099 <> x:40
+R3104:3106 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3120:3122 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R3120:3122 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R3130:3131 Coq.Logic.ExtensionalityFacts <> eq proj
+R3130:3131 Coq.Logic.ExtensionalityFacts <> eq proj
+R3117:3117 Coq.Logic.ExtensionalityFacts <> x:40 var
+R3127:3127 Coq.Logic.ExtensionalityFacts <> x:40 var
+R3136:3136 Coq.Logic.ExtensionalityFacts <> x:40 var
+binder 3099:3099 <> x:41
+R3104:3106 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3110:3112 Coq.Logic.ExtensionalityFacts <> pi1 proj
+R3120:3122 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R3120:3122 Coq.Logic.ExtensionalityFacts <> pi2 proj
+R3130:3131 Coq.Logic.ExtensionalityFacts <> eq proj
+R3130:3131 Coq.Logic.ExtensionalityFacts <> eq proj
+R3117:3117 Coq.Logic.ExtensionalityFacts <> x:41 var
+R3127:3127 Coq.Logic.ExtensionalityFacts <> x:41 var
+R3136:3136 Coq.Logic.ExtensionalityFacts <> x:41 var
+prf 3330:3349 <> FunctExt_UniqInverse
+R3377:3380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3353:3376 Coq.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R3381:3393 Coq.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+prf 3494:3517 <> UniqInverse_EqDeltaProjs
+R3534:3537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3521:3533 Coq.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+R3538:3549 Coq.Logic.ExtensionalityFacts <> EqDeltaProjs abbrev
+R3600:3604 Coq.Logic.ExtensionalityFacts <> delta def
+R3614:3630 Coq.Logic.ExtensionalityFacts <> diagonal_inverse1 thm
+R3640:3656 Coq.Logic.ExtensionalityFacts <> diagonal_inverse2 thm
+R3600:3604 Coq.Logic.ExtensionalityFacts <> delta def
+R3614:3630 Coq.Logic.ExtensionalityFacts <> diagonal_inverse1 thm
+R3640:3656 Coq.Logic.ExtensionalityFacts <> diagonal_inverse2 thm
+prf 3674:3697 <> FunctExt_iff_UniqInverse
+R3725:3729 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3701:3724 Coq.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R3730:3742 Coq.Logic.ExtensionalityFacts <> UniqueInverse abbrev
+R3772:3791 Coq.Logic.ExtensionalityFacts <> FunctExt_UniqInverse thm
+R3772:3791 Coq.Logic.ExtensionalityFacts <> FunctExt_UniqInverse thm
+R3811:3835 Coq.Logic.ExtensionalityFacts <> FunctExt_iff_EqDeltaProjs thm
+R3838:3861 Coq.Logic.ExtensionalityFacts <> UniqInverse_EqDeltaProjs thm
+R3811:3835 Coq.Logic.ExtensionalityFacts <> FunctExt_iff_EqDeltaProjs thm
+R3838:3861 Coq.Logic.ExtensionalityFacts <> UniqInverse_EqDeltaProjs thm
+prf 4035:4050 <> FunctExt_BijComp
+R4078:4081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4054:4077 Coq.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R4082:4105 Coq.Logic.ExtensionalityFacts <> BijectivityBijectiveComp abbrev
+R4158:4163 Coq.Logic.ExtensionalityFacts <> action def
+prf 4304:4319 <> BijComp_FunctExt
+R4347:4350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4323:4346 Coq.Logic.ExtensionalityFacts <> BijectivityBijectiveComp abbrev
+R4351:4374 Coq.Logic.ExtensionalityFacts <> FunctionalExtensionality abbrev
+R4410:4433 Coq.Logic.ExtensionalityFacts <> FunctExt_iff_UniqInverse thm
+R4410:4433 Coq.Logic.ExtensionalityFacts <> FunctExt_iff_UniqInverse thm
+R4598:4603 Coq.Logic.ExtensionalityFacts <> action def
+binder 4613:4613 <> x:42
+R4618:4618 Coq.Logic.ExtensionalityFacts <> x:42 var
+R4598:4603 Coq.Logic.ExtensionalityFacts <> action def
+binder 4613:4613 <> x:43
+R4618:4618 Coq.Logic.ExtensionalityFacts <> x:43 var
+binder 4647:4647 <> x:44
+R4652:4652 Coq.Logic.ExtensionalityFacts <> x:44 var
+binder 4647:4647 <> x:45
+R4652:4652 Coq.Logic.ExtensionalityFacts <> x:45 var
+binder 4647:4647 <> x:46
+R4652:4652 Coq.Logic.ExtensionalityFacts <> x:46 var

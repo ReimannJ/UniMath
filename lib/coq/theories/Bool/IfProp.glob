@@ -1,0 +1,102 @@
+DIGEST 1027f9a99218d257679dd7d6086eeebd
+FCoq.Bool.IfProp
+R691:694 Coq.Bool.Bool <> <> lib
+ind 708:713 <> IfProp
+constr 748:753 <> Iftrue
+constr 782:788 <> Iffalse
+binder 716:716 <> A:1
+binder 718:718 <> B:2
+R732:735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R728:731 Coq.Init.Datatypes <> bool ind
+R758:761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R757:757 Coq.Bool.IfProp <> A:1 var
+R762:767 Coq.Bool.IfProp <> IfProp:3 ind
+R773:776 Coq.Init.Datatypes <> true constr
+R771:771 Coq.Bool.IfProp <> B:2 var
+R769:769 Coq.Bool.IfProp <> A:1 var
+R793:796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R792:792 Coq.Bool.IfProp <> B:2 var
+R797:802 Coq.Bool.IfProp <> IfProp:3 ind
+R808:812 Coq.Init.Datatypes <> false constr
+R806:806 Coq.Bool.IfProp <> B:2 var
+R804:804 Coq.Bool.IfProp <> A:1 var
+prf 868:877 <> Iftrue_inv
+binder 889:889 <> A:5
+binder 891:891 <> B:6
+R902:905 Coq.Init.Datatypes <> bool ind
+binder 900:900 <> b:7
+R921:924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R909:914 Coq.Bool.IfProp <> IfProp ind
+R916:916 Coq.Bool.IfProp <> A:5 var
+R918:918 Coq.Bool.IfProp <> B:6 var
+R920:920 Coq.Bool.IfProp <> b:7 var
+R933:936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R926:928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R925:925 Coq.Bool.IfProp <> b:7 var
+R929:932 Coq.Init.Datatypes <> true constr
+R937:937 Coq.Bool.IfProp <> A:5 var
+R981:995 Coq.Bool.Bool <> diff_true_false thm
+R981:995 Coq.Bool.Bool <> diff_true_false thm
+prf 1026:1036 <> Iffalse_inv
+binder 1049:1049 <> A:8
+binder 1051:1051 <> B:9
+R1062:1065 Coq.Init.Datatypes <> bool ind
+binder 1060:1060 <> b:10
+R1081:1084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1069:1074 Coq.Bool.IfProp <> IfProp ind
+R1076:1076 Coq.Bool.IfProp <> A:8 var
+R1078:1078 Coq.Bool.IfProp <> B:9 var
+R1080:1080 Coq.Bool.IfProp <> b:10 var
+R1094:1097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1086:1088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1085:1085 Coq.Bool.IfProp <> b:10 var
+R1089:1093 Coq.Init.Datatypes <> false constr
+R1098:1098 Coq.Bool.IfProp <> B:9 var
+R1142:1156 Coq.Bool.Bool <> diff_true_false thm
+R1142:1156 Coq.Bool.Bool <> diff_true_false thm
+prf 1190:1200 <> IfProp_true
+binder 1211:1211 <> A:11
+binder 1213:1213 <> B:12
+R1236:1239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1221:1226 Coq.Bool.IfProp <> IfProp ind
+R1228:1228 Coq.Bool.IfProp <> A:11 var
+R1230:1230 Coq.Bool.IfProp <> B:12 var
+R1232:1235 Coq.Init.Datatypes <> true constr
+R1240:1240 Coq.Bool.IfProp <> A:11 var
+prf 1294:1305 <> IfProp_false
+binder 1316:1316 <> A:13
+binder 1318:1318 <> B:14
+R1342:1345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1326:1331 Coq.Bool.IfProp <> IfProp ind
+R1333:1333 Coq.Bool.IfProp <> A:13 var
+R1335:1335 Coq.Bool.IfProp <> B:14 var
+R1337:1341 Coq.Init.Datatypes <> false constr
+R1346:1346 Coq.Bool.IfProp <> B:14 var
+prf 1400:1408 <> IfProp_or
+binder 1420:1420 <> A:15
+binder 1422:1422 <> B:16
+R1433:1436 Coq.Init.Datatypes <> bool ind
+binder 1431:1431 <> b:17
+R1452:1455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1440:1445 Coq.Bool.IfProp <> IfProp ind
+R1447:1447 Coq.Bool.IfProp <> A:15 var
+R1449:1449 Coq.Bool.IfProp <> B:16 var
+R1451:1451 Coq.Bool.IfProp <> b:17 var
+R1457:1460 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1456:1456 Coq.Bool.IfProp <> A:15 var
+R1461:1461 Coq.Bool.IfProp <> B:16 var
+prf 1504:1513 <> IfProp_sum
+binder 1525:1525 <> A:18
+binder 1527:1527 <> B:19
+R1538:1541 Coq.Init.Datatypes <> bool ind
+binder 1536:1536 <> b:20
+R1557:1560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1545:1550 Coq.Bool.IfProp <> IfProp ind
+R1552:1552 Coq.Bool.IfProp <> A:18 var
+R1554:1554 Coq.Bool.IfProp <> B:19 var
+R1556:1556 Coq.Bool.IfProp <> b:20 var
+R1561:1561 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1563:1567 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1569:1569 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1562:1562 Coq.Bool.IfProp <> A:18 var
+R1568:1568 Coq.Bool.IfProp <> B:19 var

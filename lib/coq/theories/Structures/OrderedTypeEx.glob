@@ -1,0 +1,1229 @@
+DIGEST 902a6cef732c86449b6c79bab9773d39
+FCoq.Structures.OrderedTypeEx
+R691:701 Coq.Structures.OrderedType <> <> lib
+R719:729 Coq.ZArith.ZArith_base <> <> lib
+R747:754 Coq.Arith.PeanoNat <> <> lib
+R756:764 Coq.Arith.Peano_dec <> <> lib
+R766:776 Coq.Arith.Compare_dec <> <> lib
+R794:798 Coq.Strings.Ascii <> <> lib
+R800:805 Coq.Strings.String <> <> lib
+R823:828 Coq.NArith.NArith <> <> lib
+R830:833 Coq.NArith.Ndec <> <> lib
+modtype 994:1009 <> UsualOrderedType
+ax 1030:1030 UsualOrderedType t
+def 1052:1053 UsualOrderedType eq
+R1059:1060 Coq.Init.Logic <> eq ind
+R1062:1062 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+ax 1083:1084 UsualOrderedType lt
+R1089:1092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1088:1088 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+R1094:1097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1093:1093 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1116:1122 UsualOrderedType eq_refl
+R1128:1134 Coq.Init.Logic <> eq_refl constr
+R1136:1136 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1151:1156 UsualOrderedType eq_sym
+R1162:1167 Coq.Init.Logic <> eq_sym thm
+R1169:1169 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+def 1184:1191 UsualOrderedType eq_trans
+R1197:1204 Coq.Init.Logic <> eq_trans thm
+R1206:1206 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+ax 1216:1223 UsualOrderedType lt_trans
+R1242:1242 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1234:1234 <> x:3
+binder 1236:1236 <> y:4
+binder 1238:1238 <> z:5
+R1251:1254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1245:1246 Coq.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1248:1248 Coq.Structures.OrderedTypeEx <> x:3 var
+R1250:1250 Coq.Structures.OrderedTypeEx <> y:4 var
+R1261:1264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1255:1256 Coq.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1258:1258 Coq.Structures.OrderedTypeEx <> y:4 var
+R1260:1260 Coq.Structures.OrderedTypeEx <> z:5 var
+R1265:1266 Coq.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1268:1268 Coq.Structures.OrderedTypeEx <> x:3 var
+R1270:1270 Coq.Structures.OrderedTypeEx <> z:5 var
+ax 1280:1288 UsualOrderedType lt_not_eq
+R1305:1305 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1299:1299 <> x:7
+binder 1301:1301 <> y:8
+R1314:1317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1308:1309 Coq.Structures.OrderedTypeEx UsualOrderedType lt defax
+R1311:1311 Coq.Structures.OrderedTypeEx <> x:7 var
+R1313:1313 Coq.Structures.OrderedTypeEx <> y:8 var
+R1318:1319 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1320:1321 Coq.Structures.OrderedTypeEx UsualOrderedType eq def
+R1323:1323 Coq.Structures.OrderedTypeEx <> x:7 var
+R1325:1325 Coq.Structures.OrderedTypeEx <> y:8 var
+ax 1339:1345 UsualOrderedType compare
+R1362:1362 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1356:1356 <> x:10
+binder 1358:1358 <> y:11
+R1365:1371 Coq.Structures.OrderedType <> Compare ind
+R1381:1381 Coq.Structures.OrderedTypeEx <> y:11 var
+R1379:1379 Coq.Structures.OrderedTypeEx <> x:10 var
+R1376:1377 Coq.Structures.OrderedTypeEx UsualOrderedType eq def
+R1373:1374 Coq.Structures.OrderedTypeEx UsualOrderedType lt defax
+ax 1395:1400 UsualOrderedType eq_dec
+R1417:1417 Coq.Structures.OrderedTypeEx UsualOrderedType t defax
+binder 1411:1411 <> x:13
+binder 1413:1413 <> y:14
+R1420:1421 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1428:1434 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1443:1444 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1422:1423 Coq.Structures.OrderedTypeEx UsualOrderedType eq def
+R1425:1425 Coq.Structures.OrderedTypeEx <> x:13 var
+R1427:1427 Coq.Structures.OrderedTypeEx <> y:14 var
+R1435:1436 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1437:1438 Coq.Structures.OrderedTypeEx UsualOrderedType eq def
+R1440:1440 Coq.Structures.OrderedTypeEx <> x:13 var
+R1442:1442 Coq.Structures.OrderedTypeEx <> y:14 var
+R1451:1466 Coq.Structures.OrderedTypeEx UsualOrderedType <> modtype
+R1554:1569 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+R1575:1585 Coq.Structures.OrderedType OrderedType <> mod
+R1590:1590 Coq.Structures.OrderedTypeEx U <> modtype
+mod 1541:1549 <> UOT_to_OT
+R1699:1714 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 1686:1694 <> Nat_as_OT
+def 1731:1731 Nat_as_OT t
+R1736:1738 Coq.Init.Datatypes <> nat ind
+def 1755:1756 Nat_as_OT eq
+R1762:1763 Coq.Init.Logic <> eq ind
+R1765:1767 Coq.Init.Datatypes <> nat ind
+def 1783:1789 Nat_as_OT eq_refl
+R1795:1801 Coq.Init.Logic <> eq_refl constr
+R1803:1803 Coq.Structures.OrderedTypeEx Nat_as_OT t def
+def 1819:1824 Nat_as_OT eq_sym
+R1830:1835 Coq.Init.Logic <> eq_sym thm
+R1837:1837 Coq.Structures.OrderedTypeEx Nat_as_OT t def
+def 1853:1860 Nat_as_OT eq_trans
+R1866:1873 Coq.Init.Logic <> eq_trans thm
+R1875:1875 Coq.Structures.OrderedTypeEx Nat_as_OT t def
+def 1892:1893 Nat_as_OT lt
+R1898:1899 Coq.Init.Peano <> lt def
+prf 1911:1918 Nat_as_OT lt_trans
+R1937:1937 Coq.Structures.OrderedTypeEx Nat_as_OT t def
+binder 1929:1929 <> x:16
+binder 1931:1931 <> y:17
+binder 1933:1933 <> z:18
+R1946:1949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1940:1941 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R1943:1943 Coq.Structures.OrderedTypeEx <> x:16 var
+R1945:1945 Coq.Structures.OrderedTypeEx <> y:17 var
+R1956:1959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1950:1951 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R1953:1953 Coq.Structures.OrderedTypeEx <> y:17 var
+R1955:1955 Coq.Structures.OrderedTypeEx <> z:18 var
+R1960:1961 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R1963:1963 Coq.Structures.OrderedTypeEx <> x:16 var
+R1965:1965 Coq.Structures.OrderedTypeEx <> z:18 var
+R1984:1985 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R2002:2013 Coq.Arith.PeanoNat Nat lt_trans thm
+R2002:2013 Coq.Arith.PeanoNat Nat lt_trans thm
+prf 2043:2051 Nat_as_OT lt_not_eq
+R2068:2068 Coq.Structures.OrderedTypeEx Nat_as_OT t def
+binder 2062:2062 <> x:19
+binder 2064:2064 <> y:20
+R2077:2080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2071:2072 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R2074:2074 Coq.Structures.OrderedTypeEx <> x:19 var
+R2076:2076 Coq.Structures.OrderedTypeEx <> y:20 var
+R2081:2082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2083:2084 Coq.Structures.OrderedTypeEx Nat_as_OT eq def
+R2086:2086 Coq.Structures.OrderedTypeEx <> x:19 var
+R2088:2088 Coq.Structures.OrderedTypeEx <> y:20 var
+R2107:2108 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R2111:2112 Coq.Structures.OrderedTypeEx Nat_as_OT eq def
+R2150:2162 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R2150:2162 Coq.Arith.PeanoNat Nat lt_irrefl thm
+def 2184:2190 Nat_as_OT compare
+binder 2192:2192 <> x:21
+binder 2194:2194 <> y:22
+R2198:2204 Coq.Structures.OrderedType <> Compare ind
+R2214:2214 Coq.Structures.OrderedTypeEx <> y:22 var
+R2212:2212 Coq.Structures.OrderedTypeEx <> x:21 var
+R2209:2210 Coq.Structures.OrderedTypeEx Nat_as_OT eq def
+R2206:2207 Coq.Structures.OrderedTypeEx Nat_as_OT lt def
+R2239:2249 Coq.Arith.PeanoNat Nat compare def
+R2239:2249 Coq.Arith.PeanoNat Nat compare def
+R2276:2277 Coq.Structures.OrderedType <> EQ constr
+R2276:2277 Coq.Structures.OrderedType <> EQ constr
+R2290:2303 Coq.Arith.Compare_dec <> nat_compare_eq thm
+R2290:2303 Coq.Arith.Compare_dec <> nat_compare_eq thm
+R2318:2319 Coq.Structures.OrderedType <> LT constr
+R2318:2319 Coq.Structures.OrderedType <> LT constr
+R2332:2348 Coq.Arith.Compare_dec <> nat_compare_Lt_lt thm
+R2332:2348 Coq.Arith.Compare_dec <> nat_compare_Lt_lt thm
+R2363:2364 Coq.Structures.OrderedType <> GT constr
+R2363:2364 Coq.Structures.OrderedType <> GT constr
+R2377:2393 Coq.Arith.Compare_dec <> nat_compare_Gt_gt thm
+R2377:2393 Coq.Arith.Compare_dec <> nat_compare_Gt_gt thm
+def 2421:2426 Nat_as_OT eq_dec
+R2431:2440 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R2448:2456 Coq.Structures.OrderedTypeEx Nat_as_OT <> mod
+R2582:2597 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 2571:2577 <> Z_as_OT
+def 2614:2614 Z_as_OT t
+R2619:2619 Coq.Numbers.BinNums <> Z ind
+def 2635:2636 Z_as_OT eq
+R2642:2643 Coq.Init.Logic <> eq ind
+R2645:2645 Coq.Numbers.BinNums <> Z ind
+def 2661:2667 Z_as_OT eq_refl
+R2673:2679 Coq.Init.Logic <> eq_refl constr
+R2681:2681 Coq.Structures.OrderedTypeEx Z_as_OT t def
+def 2697:2702 Z_as_OT eq_sym
+R2708:2713 Coq.Init.Logic <> eq_sym thm
+R2715:2715 Coq.Structures.OrderedTypeEx Z_as_OT t def
+def 2731:2738 Z_as_OT eq_trans
+R2744:2751 Coq.Init.Logic <> eq_trans thm
+R2753:2753 Coq.Structures.OrderedTypeEx Z_as_OT t def
+def 2770:2771 Z_as_OT lt
+R2778:2778 Coq.Numbers.BinNums <> Z ind
+binder 2774:2774 <> x:23
+binder 2776:2776 <> y:24
+R2786:2786 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2785:2785 Coq.Structures.OrderedTypeEx <> x:23 var
+R2787:2787 Coq.Structures.OrderedTypeEx <> y:24 var
+prf 2800:2807 Z_as_OT lt_trans
+binder 2818:2818 <> x:25
+binder 2820:2820 <> y:26
+binder 2822:2822 <> z:27
+R2828:2831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2826:2826 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2825:2825 Coq.Structures.OrderedTypeEx <> x:25 var
+R2827:2827 Coq.Structures.OrderedTypeEx <> y:26 var
+R2835:2838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2833:2833 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2832:2832 Coq.Structures.OrderedTypeEx <> y:26 var
+R2834:2834 Coq.Structures.OrderedTypeEx <> z:27 var
+R2840:2840 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2839:2839 Coq.Structures.OrderedTypeEx <> x:25 var
+R2841:2841 Coq.Structures.OrderedTypeEx <> z:27 var
+R2859:2868 Coq.ZArith.BinInt Z lt_trans thm
+R2859:2868 Coq.ZArith.BinInt Z lt_trans thm
+prf 2885:2893 Z_as_OT lt_not_eq
+binder 2904:2904 <> x:28
+binder 2906:2906 <> y:29
+R2912:2915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2910:2910 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2909:2909 Coq.Structures.OrderedTypeEx <> x:28 var
+R2911:2911 Coq.Structures.OrderedTypeEx <> y:29 var
+R2916:2917 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2919:2919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2918:2918 Coq.Structures.OrderedTypeEx <> x:28 var
+R2920:2920 Coq.Structures.OrderedTypeEx <> y:29 var
+R2967:2977 Coq.ZArith.BinInt Z lt_irrefl thm
+R2967:2977 Coq.ZArith.BinInt Z lt_irrefl thm
+def 2999:3005 Z_as_OT compare
+binder 3007:3007 <> x:30
+binder 3009:3009 <> y:31
+R3013:3019 Coq.Structures.OrderedType <> Compare ind
+R3029:3029 Coq.Structures.OrderedTypeEx <> y:31 var
+R3027:3027 Coq.Structures.OrderedTypeEx <> x:30 var
+R3024:3025 Coq.Structures.OrderedTypeEx Z_as_OT eq def
+R3021:3022 Coq.Structures.OrderedTypeEx Z_as_OT lt def
+R3055:3058 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3055:3058 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3082:3083 Coq.Structures.OrderedType <> EQ constr
+R3082:3083 Coq.Structures.OrderedType <> EQ constr
+R3096:3107 Coq.ZArith.BinInt Z compare_eq thm
+R3096:3107 Coq.ZArith.BinInt Z compare_eq thm
+R3122:3123 Coq.Structures.OrderedType <> LT constr
+R3122:3123 Coq.Structures.OrderedType <> LT constr
+R3150:3151 Coq.Structures.OrderedType <> GT constr
+R3150:3151 Coq.Structures.OrderedType <> GT constr
+R3164:3170 Coq.ZArith.BinInt Z gt_lt thm
+R3164:3170 Coq.ZArith.BinInt Z gt_lt thm
+def 3198:3203 Z_as_OT eq_dec
+R3208:3215 Coq.ZArith.BinInt Z eq_dec def
+R3223:3229 Coq.Structures.OrderedTypeEx Z_as_OT <> mod
+R3382:3397 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 3364:3377 <> Positive_as_OT
+def 3413:3413 Positive_as_OT t
+R3416:3423 Coq.Numbers.BinNums <> positive ind
+def 3439:3440 Positive_as_OT eq
+R3444:3445 Coq.Init.Logic <> eq ind
+R3447:3454 Coq.Numbers.BinNums <> positive ind
+def 3470:3476 Positive_as_OT eq_refl
+R3482:3488 Coq.Init.Logic <> eq_refl constr
+R3490:3490 Coq.Structures.OrderedTypeEx Positive_as_OT t def
+def 3506:3511 Positive_as_OT eq_sym
+R3517:3522 Coq.Init.Logic <> eq_sym thm
+R3524:3524 Coq.Structures.OrderedTypeEx Positive_as_OT t def
+def 3540:3547 Positive_as_OT eq_trans
+R3553:3560 Coq.Init.Logic <> eq_trans thm
+R3562:3562 Coq.Structures.OrderedTypeEx Positive_as_OT t def
+def 3579:3580 Positive_as_OT lt
+R3585:3590 Coq.PArith.BinPos Pos lt def
+def 3607:3614 Positive_as_OT lt_trans
+R3619:3630 Coq.PArith.BinPos Pos lt_trans thm
+prf 3642:3650 Positive_as_OT lt_not_eq
+R3667:3667 Coq.Structures.OrderedTypeEx Positive_as_OT t def
+binder 3661:3661 <> x:32
+binder 3663:3663 <> y:33
+R3676:3679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3670:3671 Coq.Structures.OrderedTypeEx Positive_as_OT lt def
+R3673:3673 Coq.Structures.OrderedTypeEx <> x:32 var
+R3675:3675 Coq.Structures.OrderedTypeEx <> y:33 var
+R3680:3681 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3682:3683 Coq.Structures.OrderedTypeEx Positive_as_OT eq def
+R3685:3685 Coq.Structures.OrderedTypeEx <> x:32 var
+R3687:3687 Coq.Structures.OrderedTypeEx <> y:33 var
+R3746:3758 Coq.PArith.BinPos Pos lt_irrefl thm
+R3746:3758 Coq.PArith.BinPos Pos lt_irrefl thm
+def 3782:3788 Positive_as_OT compare
+binder 3790:3790 <> x:34
+binder 3792:3792 <> y:35
+R3796:3802 Coq.Structures.OrderedType <> Compare ind
+R3812:3812 Coq.Structures.OrderedTypeEx <> y:35 var
+R3810:3810 Coq.Structures.OrderedTypeEx <> x:34 var
+R3807:3808 Coq.Structures.OrderedTypeEx Positive_as_OT eq def
+R3804:3805 Coq.Structures.OrderedTypeEx Positive_as_OT lt def
+R3836:3839 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3836:3839 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3864:3865 Coq.Structures.OrderedType <> EQ constr
+R3864:3865 Coq.Structures.OrderedType <> EQ constr
+R3878:3891 Coq.PArith.BinPos Pos compare_eq thm
+R3878:3891 Coq.PArith.BinPos Pos compare_eq thm
+R3904:3905 Coq.Structures.OrderedType <> LT constr
+R3904:3905 Coq.Structures.OrderedType <> LT constr
+R3930:3931 Coq.Structures.OrderedType <> GT constr
+R3930:3931 Coq.Structures.OrderedType <> GT constr
+R3944:3952 Coq.PArith.BinPos Pos gt_lt thm
+R3944:3952 Coq.PArith.BinPos Pos gt_lt thm
+def 3980:3985 Positive_as_OT eq_dec
+R3990:3999 Coq.PArith.BinPos Pos eq_dec thm
+R4007:4020 Coq.Structures.OrderedTypeEx Positive_as_OT <> mod
+R4126:4141 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 4115:4121 <> N_as_OT
+def 4157:4157 N_as_OT t
+R4160:4160 Coq.Numbers.BinNums <> N ind
+def 4176:4177 N_as_OT eq
+R4181:4182 Coq.Init.Logic <> eq ind
+R4184:4184 Coq.Numbers.BinNums <> N ind
+def 4200:4206 N_as_OT eq_refl
+R4212:4218 Coq.Init.Logic <> eq_refl constr
+R4220:4220 Coq.Structures.OrderedTypeEx N_as_OT t def
+def 4236:4241 N_as_OT eq_sym
+R4247:4252 Coq.Init.Logic <> eq_sym thm
+R4254:4254 Coq.Structures.OrderedTypeEx N_as_OT t def
+def 4270:4277 N_as_OT eq_trans
+R4283:4290 Coq.Init.Logic <> eq_trans thm
+R4292:4292 Coq.Structures.OrderedTypeEx N_as_OT t def
+def 4309:4310 N_as_OT lt
+R4315:4318 Coq.NArith.BinNat N lt def
+def 4334:4341 N_as_OT lt_trans
+R4346:4355 Coq.NArith.BinNat N lt_trans thm
+def 4371:4379 N_as_OT lt_not_eq
+R4384:4391 Coq.NArith.BinNat N lt_neq thm
+def 4408:4414 N_as_OT compare
+binder 4416:4416 <> x:36
+binder 4418:4418 <> y:37
+R4422:4428 Coq.Structures.OrderedType <> Compare ind
+R4438:4438 Coq.Structures.OrderedTypeEx <> y:37 var
+R4436:4436 Coq.Structures.OrderedTypeEx <> x:36 var
+R4433:4434 Coq.Structures.OrderedTypeEx N_as_OT eq def
+R4430:4431 Coq.Structures.OrderedTypeEx N_as_OT lt def
+R4462:4465 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R4462:4465 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R4489:4490 Coq.Structures.OrderedType <> EQ constr
+R4489:4490 Coq.Structures.OrderedType <> EQ constr
+R4503:4514 Coq.NArith.BinNat N compare_eq thm
+R4503:4514 Coq.NArith.BinNat N compare_eq thm
+R4527:4528 Coq.Structures.OrderedType <> LT constr
+R4527:4528 Coq.Structures.OrderedType <> LT constr
+R4553:4554 Coq.Structures.OrderedType <> GT constr
+R4553:4554 Coq.Structures.OrderedType <> GT constr
+R4567:4573 Coq.NArith.BinNat N gt_lt thm
+R4567:4573 Coq.NArith.BinNat N gt_lt thm
+def 4601:4606 N_as_OT eq_dec
+R4611:4618 Coq.NArith.BinNat N eq_dec def
+R4626:4632 Coq.Structures.OrderedTypeEx N_as_OT <> mod
+R4793:4803 Coq.Structures.OrderedType OrderedType <> mod
+R4809:4819 Coq.Structures.OrderedType OrderedType <> mod
+mod 4771:4785 <> PairOrderedType
+R4835:4850 Coq.Structures.OrderedType OrderedTypeFacts <> modtype
+R4852:4853 Coq.Structures.OrderedTypeEx O1 <> modtype
+mod 4830:4832 <> PairOrderedType.MO1
+R4870:4885 Coq.Structures.OrderedType OrderedTypeFacts <> modtype
+R4887:4888 Coq.Structures.OrderedTypeEx O2 <> modtype
+mod 4865:4867 <> PairOrderedType.MO2
+def 4905:4905 PairOrderedType t
+R4910:4913 Coq.Init.Datatypes <> prod ind
+R4920:4923 Coq.Structures.OrderedTypeEx O2 t defax
+R4915:4918 Coq.Structures.OrderedTypeEx O1 t defax
+def 4939:4940 PairOrderedType eq
+binder 4942:4942 <> x:38
+binder 4944:4944 <> y:39
+R4970:4973 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4949:4953 Coq.Structures.OrderedTypeEx O1 eq defax
+R4964:4966 Coq.Init.Datatypes <> fst def
+R4968:4968 Coq.Structures.OrderedTypeEx <> y:39 var
+R4956:4958 Coq.Init.Datatypes <> fst def
+R4960:4960 Coq.Structures.OrderedTypeEx <> x:38 var
+R4974:4978 Coq.Structures.OrderedTypeEx O2 eq defax
+R4989:4991 Coq.Init.Datatypes <> snd def
+R4993:4993 Coq.Structures.OrderedTypeEx <> y:39 var
+R4981:4983 Coq.Init.Datatypes <> snd def
+R4985:4985 Coq.Structures.OrderedTypeEx <> x:38 var
+def 5010:5011 PairOrderedType lt
+binder 5013:5013 <> x:40
+binder 5015:5015 <> y:41
+R5045:5053 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5100:5100 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5024:5028 Coq.Structures.OrderedTypeEx O1 lt defax
+R5039:5041 Coq.Init.Datatypes <> fst def
+R5043:5043 Coq.Structures.OrderedTypeEx <> y:41 var
+R5031:5033 Coq.Init.Datatypes <> fst def
+R5035:5035 Coq.Structures.OrderedTypeEx <> x:40 var
+R5075:5078 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5054:5058 Coq.Structures.OrderedTypeEx O1 eq defax
+R5069:5071 Coq.Init.Datatypes <> fst def
+R5073:5073 Coq.Structures.OrderedTypeEx <> y:41 var
+R5061:5063 Coq.Init.Datatypes <> fst def
+R5065:5065 Coq.Structures.OrderedTypeEx <> x:40 var
+R5079:5083 Coq.Structures.OrderedTypeEx O2 lt defax
+R5094:5096 Coq.Init.Datatypes <> snd def
+R5098:5098 Coq.Structures.OrderedTypeEx <> y:41 var
+R5086:5088 Coq.Init.Datatypes <> snd def
+R5090:5090 Coq.Structures.OrderedTypeEx <> x:40 var
+prf 5111:5117 PairOrderedType eq_refl
+R5132:5132 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5128:5128 <> x:42
+R5135:5136 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5138:5138 Coq.Structures.OrderedTypeEx <> x:42 var
+R5140:5140 Coq.Structures.OrderedTypeEx <> x:42 var
+prf 5218:5223 PairOrderedType eq_sym
+R5240:5240 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5234:5234 <> x:43
+binder 5236:5236 <> y:44
+R5249:5252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5243:5244 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5246:5246 Coq.Structures.OrderedTypeEx <> x:43 var
+R5248:5248 Coq.Structures.OrderedTypeEx <> y:44 var
+R5253:5254 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5256:5256 Coq.Structures.OrderedTypeEx <> y:44 var
+R5258:5258 Coq.Structures.OrderedTypeEx <> x:43 var
+R5301:5302 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+prf 5337:5344 PairOrderedType eq_trans
+R5363:5363 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5355:5355 <> x:45
+binder 5357:5357 <> y:46
+binder 5359:5359 <> z:47
+R5372:5375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5366:5367 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5369:5369 Coq.Structures.OrderedTypeEx <> x:45 var
+R5371:5371 Coq.Structures.OrderedTypeEx <> y:46 var
+R5382:5385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5376:5377 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5379:5379 Coq.Structures.OrderedTypeEx <> y:46 var
+R5381:5381 Coq.Structures.OrderedTypeEx <> z:47 var
+R5386:5387 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5389:5389 Coq.Structures.OrderedTypeEx <> x:45 var
+R5391:5391 Coq.Structures.OrderedTypeEx <> z:47 var
+R5442:5443 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+prf 5502:5509 PairOrderedType lt_trans
+R5528:5528 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5520:5520 <> x:48
+binder 5522:5522 <> y:49
+binder 5524:5524 <> z:50
+R5537:5540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5531:5532 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5534:5534 Coq.Structures.OrderedTypeEx <> x:48 var
+R5536:5536 Coq.Structures.OrderedTypeEx <> y:49 var
+R5547:5550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5541:5542 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5544:5544 Coq.Structures.OrderedTypeEx <> y:49 var
+R5546:5546 Coq.Structures.OrderedTypeEx <> z:50 var
+R5551:5552 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5554:5554 Coq.Structures.OrderedTypeEx <> x:48 var
+R5556:5556 Coq.Structures.OrderedTypeEx <> z:50 var
+R5607:5608 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5611:5612 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5679:5687 Coq.Structures.OrderedTypeEx PairOrderedType lt_eq thm
+R5679:5687 Coq.Structures.OrderedTypeEx PairOrderedType lt_eq thm
+R5711:5719 Coq.Structures.OrderedTypeEx PairOrderedType eq_lt thm
+R5711:5719 Coq.Structures.OrderedTypeEx PairOrderedType eq_lt thm
+prf 5783:5791 PairOrderedType lt_not_eq
+R5808:5808 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5802:5802 <> x:51
+binder 5804:5804 <> y:52
+R5817:5820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5811:5812 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5814:5814 Coq.Structures.OrderedTypeEx <> x:51 var
+R5816:5816 Coq.Structures.OrderedTypeEx <> y:52 var
+R5821:5822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5823:5824 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5826:5826 Coq.Structures.OrderedTypeEx <> x:51 var
+R5828:5828 Coq.Structures.OrderedTypeEx <> y:52 var
+R5871:5872 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R5875:5876 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R5905:5916 Coq.Structures.OrderedTypeEx O1 lt_not_eq prfax
+R5905:5916 Coq.Structures.OrderedTypeEx O1 lt_not_eq prfax
+R5934:5945 Coq.Structures.OrderedTypeEx O2 lt_not_eq prfax
+R5934:5945 Coq.Structures.OrderedTypeEx O2 lt_not_eq prfax
+def 5974:5980 PairOrderedType compare
+R5997:5997 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 5991:5991 <> x:53
+binder 5993:5993 <> y:54
+R6000:6006 Coq.Structures.OrderedType <> Compare ind
+R6016:6016 Coq.Structures.OrderedTypeEx <> y:54 var
+R6014:6014 Coq.Structures.OrderedTypeEx <> x:53 var
+R6011:6012 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6008:6009 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R6055:6064 Coq.Structures.OrderedTypeEx O1 compare defax
+R6055:6064 Coq.Structures.OrderedTypeEx O1 compare defax
+R6081:6082 Coq.Structures.OrderedType <> LT constr
+R6092:6093 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R6081:6082 Coq.Structures.OrderedType <> LT constr
+R6113:6122 Coq.Structures.OrderedTypeEx O2 compare defax
+R6113:6122 Coq.Structures.OrderedTypeEx O2 compare defax
+R6139:6140 Coq.Structures.OrderedType <> LT constr
+R6150:6151 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R6139:6140 Coq.Structures.OrderedType <> LT constr
+R6167:6168 Coq.Structures.OrderedType <> EQ constr
+R6178:6179 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6167:6168 Coq.Structures.OrderedType <> EQ constr
+R6195:6196 Coq.Structures.OrderedType <> GT constr
+R6206:6207 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R6195:6196 Coq.Structures.OrderedType <> GT constr
+R6241:6242 Coq.Structures.OrderedType <> GT constr
+R6252:6253 Coq.Structures.OrderedTypeEx PairOrderedType lt def
+R6241:6242 Coq.Structures.OrderedType <> GT constr
+def 6285:6290 PairOrderedType eq_dec
+R6307:6307 Coq.Structures.OrderedTypeEx PairOrderedType t def
+binder 6301:6301 <> x:55
+binder 6303:6303 <> y:56
+R6310:6310 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6317:6321 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6330:6330 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6311:6312 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6314:6314 Coq.Structures.OrderedTypeEx <> x:55 var
+R6316:6316 Coq.Structures.OrderedTypeEx <> y:56 var
+R6322:6323 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6324:6325 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6327:6327 Coq.Structures.OrderedTypeEx <> x:55 var
+R6329:6329 Coq.Structures.OrderedTypeEx <> y:56 var
+R6356:6362 Coq.Structures.OrderedTypeEx PairOrderedType compare def
+R6356:6362 Coq.Structures.OrderedTypeEx PairOrderedType compare def
+R6423:6431 Coq.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6423:6431 Coq.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6443:6444 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6445:6446 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6465:6473 Coq.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6476:6481 Coq.Structures.OrderedTypeEx PairOrderedType eq_sym thm
+R6443:6444 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6445:6446 Coq.Structures.OrderedTypeEx PairOrderedType eq def
+R6465:6473 Coq.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6465:6473 Coq.Structures.OrderedTypeEx PairOrderedType lt_not_eq thm
+R6476:6481 Coq.Structures.OrderedTypeEx PairOrderedType eq_sym thm
+R6476:6481 Coq.Structures.OrderedTypeEx PairOrderedType eq_sym thm
+R6499:6513 Coq.Structures.OrderedTypeEx PairOrderedType <> mod
+R6851:6866 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 6824:6846 <> PositiveOrderedTypeBits
+def 6882:6882 PositiveOrderedTypeBits t
+R6885:6892 Coq.Numbers.BinNums <> positive ind
+def 6908:6909 PositiveOrderedTypeBits eq
+R6913:6914 Coq.Init.Logic <> eq ind
+R6916:6923 Coq.Numbers.BinNums <> positive ind
+def 6939:6945 PositiveOrderedTypeBits eq_refl
+R6951:6957 Coq.Init.Logic <> eq_refl constr
+R6959:6959 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 6975:6980 PositiveOrderedTypeBits eq_sym
+R6986:6991 Coq.Init.Logic <> eq_sym thm
+R6993:6993 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 7009:7016 PositiveOrderedTypeBits eq_trans
+R7022:7029 Coq.Init.Logic <> eq_trans thm
+R7031:7031 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+def 7046:7052 PositiveOrderedTypeBits bits_lt
+R7059:7066 Coq.Numbers.BinNums <> positive ind
+binder 7055:7055 <> p:57
+binder 7057:7057 <> q:58
+R7091:7091 Coq.Structures.OrderedTypeEx <> q:58 var
+R7088:7088 Coq.Structures.OrderedTypeEx <> p:57 var
+R7103:7104 Coq.Numbers.BinNums <> xH constr
+R7107:7108 Coq.Numbers.BinNums <> xI constr
+R7115:7118 Coq.Init.Logic <> True ind
+R7125:7126 Coq.Numbers.BinNums <> xH constr
+R7134:7138 Coq.Init.Logic <> False ind
+R7145:7146 Coq.Numbers.BinNums <> xO constr
+R7151:7152 Coq.Numbers.BinNums <> xO constr
+R7159:7165 Coq.Structures.OrderedTypeEx <> bits_lt:59 def
+R7169:7169 Coq.Structures.OrderedTypeEx <> q:58 var
+R7167:7167 Coq.Structures.OrderedTypeEx <> p:57 var
+R7176:7177 Coq.Numbers.BinNums <> xO constr
+R7187:7190 Coq.Init.Logic <> True ind
+R7197:7198 Coq.Numbers.BinNums <> xI constr
+R7203:7204 Coq.Numbers.BinNums <> xI constr
+R7211:7217 Coq.Structures.OrderedTypeEx <> bits_lt:59 def
+R7221:7221 Coq.Structures.OrderedTypeEx <> q:58 var
+R7219:7219 Coq.Structures.OrderedTypeEx <> p:57 var
+R7228:7229 Coq.Numbers.BinNums <> xI constr
+R7239:7243 Coq.Init.Logic <> False ind
+def 7267:7268 PositiveOrderedTypeBits lt
+R7271:7277 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+prf 7289:7301 PositiveOrderedTypeBits bits_lt_trans
+R7324:7331 Coq.Numbers.BinNums <> positive ind
+binder 7316:7316 <> x:62
+binder 7318:7318 <> y:63
+binder 7320:7320 <> z:64
+R7345:7348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7334:7340 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7342:7342 Coq.Structures.OrderedTypeEx <> x:62 var
+R7344:7344 Coq.Structures.OrderedTypeEx <> y:63 var
+R7360:7363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7349:7355 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7357:7357 Coq.Structures.OrderedTypeEx <> y:63 var
+R7359:7359 Coq.Structures.OrderedTypeEx <> z:64 var
+R7364:7370 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7372:7372 Coq.Structures.OrderedTypeEx <> x:62 var
+R7374:7374 Coq.Structures.OrderedTypeEx <> z:64 var
+prf 7573:7580 PositiveOrderedTypeBits lt_trans
+R7599:7599 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 7591:7591 <> x:65
+binder 7593:7593 <> y:66
+binder 7595:7595 <> z:67
+R7608:7611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7602:7603 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7605:7605 Coq.Structures.OrderedTypeEx <> x:65 var
+R7607:7607 Coq.Structures.OrderedTypeEx <> y:66 var
+R7618:7621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7612:7613 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7615:7615 Coq.Structures.OrderedTypeEx <> y:66 var
+R7617:7617 Coq.Structures.OrderedTypeEx <> z:67 var
+R7622:7623 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7625:7625 Coq.Structures.OrderedTypeEx <> x:65 var
+R7627:7627 Coq.Structures.OrderedTypeEx <> z:67 var
+R7647:7659 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_trans thm
+R7647:7659 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_trans thm
+prf 7678:7693 PositiveOrderedTypeBits bits_lt_antirefl
+R7708:7715 Coq.Numbers.BinNums <> positive ind
+binder 7704:7704 <> x:68
+R7718:7719 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7720:7726 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt def
+R7728:7728 Coq.Structures.OrderedTypeEx <> x:68 var
+R7730:7730 Coq.Structures.OrderedTypeEx <> x:68 var
+prf 7786:7794 PositiveOrderedTypeBits lt_not_eq
+R7811:7811 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 7805:7805 <> x:69
+binder 7807:7807 <> y:70
+R7820:7823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7814:7815 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7817:7817 Coq.Structures.OrderedTypeEx <> x:69 var
+R7819:7819 Coq.Structures.OrderedTypeEx <> y:70 var
+R7824:7825 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7826:7827 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits eq def
+R7829:7829 Coq.Structures.OrderedTypeEx <> x:69 var
+R7831:7831 Coq.Structures.OrderedTypeEx <> y:70 var
+R7903:7904 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R7921:7936 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_antirefl thm
+R7921:7936 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits bits_lt_antirefl thm
+def 7965:7971 PositiveOrderedTypeBits compare
+R7988:7988 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits t def
+binder 7982:7982 <> x:71
+binder 7984:7984 <> y:72
+R7991:7997 Coq.Structures.OrderedType <> Compare ind
+R8007:8007 Coq.Structures.OrderedTypeEx <> y:72 var
+R8005:8005 Coq.Structures.OrderedTypeEx <> x:71 var
+R8002:8003 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits eq def
+R7999:8000 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits lt def
+R8103:8104 Coq.Structures.OrderedType <> LT constr
+R8103:8104 Coq.Structures.OrderedType <> LT constr
+R8123:8124 Coq.Structures.OrderedType <> EQ constr
+R8123:8124 Coq.Structures.OrderedType <> EQ constr
+R8159:8160 Coq.Structures.OrderedType <> GT constr
+R8159:8160 Coq.Structures.OrderedType <> GT constr
+R8193:8194 Coq.Structures.OrderedType <> GT constr
+R8193:8194 Coq.Structures.OrderedType <> GT constr
+R8234:8235 Coq.Structures.OrderedType <> GT constr
+R8234:8235 Coq.Structures.OrderedType <> GT constr
+R8275:8276 Coq.Structures.OrderedType <> LT constr
+R8275:8276 Coq.Structures.OrderedType <> LT constr
+R8349:8350 Coq.Structures.OrderedType <> LT constr
+R8349:8350 Coq.Structures.OrderedType <> LT constr
+R8369:8370 Coq.Structures.OrderedType <> EQ constr
+R8369:8370 Coq.Structures.OrderedType <> EQ constr
+R8405:8406 Coq.Structures.OrderedType <> GT constr
+R8405:8406 Coq.Structures.OrderedType <> GT constr
+R8439:8440 Coq.Structures.OrderedType <> LT constr
+R8439:8440 Coq.Structures.OrderedType <> LT constr
+R8480:8481 Coq.Structures.OrderedType <> LT constr
+R8480:8481 Coq.Structures.OrderedType <> LT constr
+R8521:8522 Coq.Structures.OrderedType <> GT constr
+R8521:8522 Coq.Structures.OrderedType <> GT constr
+R8562:8563 Coq.Structures.OrderedType <> EQ constr
+R8562:8563 Coq.Structures.OrderedType <> EQ constr
+prf 8593:8598 PositiveOrderedTypeBits eq_dec
+R8606:8613 Coq.Numbers.BinNums <> positive ind
+binder 8601:8601 <> x:73
+binder 8603:8603 <> y:74
+R8617:8617 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8623:8627 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8634:8634 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8619:8621 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8618:8618 Coq.Structures.OrderedTypeEx <> x:73 var
+R8622:8622 Coq.Structures.OrderedTypeEx <> y:74 var
+R8629:8632 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8628:8628 Coq.Structures.OrderedTypeEx <> x:73 var
+R8633:8633 Coq.Structures.OrderedTypeEx <> y:74 var
+R8666:8669 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R8666:8669 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R8702:8715 Coq.PArith.BinPos Pos compare_eq thm
+R8702:8715 Coq.PArith.BinPos Pos compare_eq thm
+R8758:8773 Coq.PArith.BinPos Pos compare_refl thm
+R8758:8773 Coq.PArith.BinPos Pos compare_refl thm
+R8758:8773 Coq.PArith.BinPos Pos compare_refl thm
+R8824:8839 Coq.PArith.BinPos Pos compare_refl thm
+R8824:8839 Coq.PArith.BinPos Pos compare_refl thm
+R8824:8839 Coq.PArith.BinPos Pos compare_refl thm
+R8862:8884 Coq.Structures.OrderedTypeEx PositiveOrderedTypeBits <> mod
+R8910:8925 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 8895:8905 <> Ascii_as_OT
+def 8941:8941 Ascii_as_OT t
+R8946:8950 Coq.Strings.Ascii <> ascii ind
+def 8967:8968 Ascii_as_OT eq
+R8974:8975 Coq.Init.Logic <> eq ind
+R8977:8981 Coq.Strings.Ascii <> ascii ind
+def 8997:9003 Ascii_as_OT eq_refl
+R9009:9015 Coq.Init.Logic <> eq_refl constr
+R9017:9017 Coq.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9033:9038 Ascii_as_OT eq_sym
+R9044:9049 Coq.Init.Logic <> eq_sym thm
+R9051:9051 Coq.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9067:9074 Ascii_as_OT eq_trans
+R9080:9087 Coq.Init.Logic <> eq_trans thm
+R9089:9089 Coq.Structures.OrderedTypeEx Ascii_as_OT t def
+def 9106:9108 Ascii_as_OT cmp
+R9117:9120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9112:9116 Coq.Strings.Ascii <> ascii ind
+R9126:9129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9121:9125 Coq.Strings.Ascii <> ascii ind
+R9130:9139 Coq.Init.Datatypes <> comparison ind
+R9144:9156 Coq.Strings.Ascii <> compare def
+prf 9168:9173 Ascii_as_OT cmp_eq
+R9182:9186 Coq.Strings.Ascii <> ascii ind
+binder 9176:9176 <> a:75
+binder 9178:9178 <> b:76
+R9206:9212 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9201:9203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9194:9196 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9198:9198 Coq.Structures.OrderedTypeEx <> a:75 var
+R9200:9200 Coq.Structures.OrderedTypeEx <> b:76 var
+R9204:9205 Coq.Init.Datatypes <> Eq constr
+R9214:9216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9213:9213 Coq.Structures.OrderedTypeEx <> a:75 var
+R9217:9217 Coq.Structures.OrderedTypeEx <> b:76 var
+R9240:9242 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9245:9257 Coq.Strings.Ascii <> compare def
+R9272:9287 Coq.NArith.BinNat N compare_eq_iff thm
+R9272:9287 Coq.NArith.BinNat N compare_eq_iff thm
+R9272:9287 Coq.NArith.BinNat N compare_eq_iff thm
+R9353:9369 Coq.Strings.Ascii <> ascii_N_embedding thm
+R9353:9369 Coq.Strings.Ascii <> ascii_N_embedding thm
+R9353:9369 Coq.Strings.Ascii <> ascii_N_embedding thm
+R9390:9406 Coq.Strings.Ascii <> ascii_N_embedding thm
+R9390:9406 Coq.Strings.Ascii <> ascii_N_embedding thm
+R9390:9406 Coq.Strings.Ascii <> ascii_N_embedding thm
+prf 9447:9456 Ascii_as_OT cmp_lt_nat
+R9465:9469 Coq.Strings.Ascii <> ascii ind
+binder 9459:9459 <> a:77
+binder 9461:9461 <> b:78
+R9489:9495 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9484:9486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9477:9479 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9481:9481 Coq.Structures.OrderedTypeEx <> a:77 var
+R9483:9483 Coq.Structures.OrderedTypeEx <> b:78 var
+R9487:9488 Coq.Init.Datatypes <> Lt constr
+R9511:9513 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9497:9508 Coq.Strings.Ascii <> nat_of_ascii def
+R9510:9510 Coq.Structures.OrderedTypeEx <> a:77 var
+R9514:9525 Coq.Strings.Ascii <> nat_of_ascii def
+R9527:9527 Coq.Structures.OrderedTypeEx <> b:78 var
+R9555:9557 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9567:9578 Coq.Strings.Ascii <> nat_of_ascii def
+R9581:9593 Coq.Strings.Ascii <> compare def
+R9608:9624 Coq.NArith.Nnat N2Nat inj_compare thm
+R9608:9624 Coq.NArith.Nnat N2Nat inj_compare thm
+R9608:9624 Coq.NArith.Nnat N2Nat inj_compare thm
+R9639:9656 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R9639:9656 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R9639:9656 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+prf 9692:9702 Ascii_as_OT cmp_antisym
+R9711:9715 Coq.Strings.Ascii <> ascii ind
+binder 9705:9705 <> a:79
+binder 9707:9707 <> b:80
+R9730:9732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9723:9725 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9727:9727 Coq.Structures.OrderedTypeEx <> a:79 var
+R9729:9729 Coq.Structures.OrderedTypeEx <> b:80 var
+R9733:9739 Coq.Init.Datatypes <> CompOpp def
+R9742:9744 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9746:9746 Coq.Structures.OrderedTypeEx <> b:80 var
+R9748:9748 Coq.Structures.OrderedTypeEx <> a:79 var
+R9772:9774 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R9787:9803 Coq.NArith.BinNat N compare_antisym thm
+R9787:9803 Coq.NArith.BinNat N compare_antisym thm
+def 9827:9828 Ascii_as_OT lt
+R9837:9841 Coq.Strings.Ascii <> ascii ind
+binder 9831:9831 <> x:81
+binder 9833:9833 <> y:82
+R9860:9862 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R9848:9857 Coq.Strings.Ascii <> N_of_ascii def
+R9859:9859 Coq.Structures.OrderedTypeEx <> x:81 var
+R9863:9872 Coq.Strings.Ascii <> N_of_ascii def
+R9874:9874 Coq.Structures.OrderedTypeEx <> y:82 var
+prf 9889:9896 Ascii_as_OT lt_trans
+R9907:9911 Coq.Strings.Ascii <> ascii ind
+binder 9899:9899 <> x:83
+binder 9901:9901 <> y:84
+binder 9903:9903 <> z:85
+R9925:9928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9919:9920 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R9922:9922 Coq.Structures.OrderedTypeEx <> x:83 var
+R9924:9924 Coq.Structures.OrderedTypeEx <> y:84 var
+R9935:9938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9929:9930 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R9932:9932 Coq.Structures.OrderedTypeEx <> y:84 var
+R9934:9934 Coq.Structures.OrderedTypeEx <> z:85 var
+R9939:9940 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R9942:9942 Coq.Structures.OrderedTypeEx <> x:83 var
+R9944:9944 Coq.Structures.OrderedTypeEx <> z:85 var
+R9966:9975 Coq.NArith.BinNat N lt_trans thm
+R9966:9975 Coq.NArith.BinNat N lt_trans thm
+prf 9994:10002 Ascii_as_OT lt_not_eq
+R10011:10015 Coq.Strings.Ascii <> ascii ind
+binder 10005:10005 <> x:86
+binder 10007:10007 <> y:87
+R10030:10033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10024:10025 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10027:10027 Coq.Structures.OrderedTypeEx <> x:86 var
+R10029:10029 Coq.Structures.OrderedTypeEx <> y:87 var
+R10035:10038 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10034:10034 Coq.Structures.OrderedTypeEx <> x:86 var
+R10039:10039 Coq.Structures.OrderedTypeEx <> y:87 var
+R10085:10095 Coq.NArith.BinNat N lt_irrefl thm
+R10085:10095 Coq.NArith.BinNat N lt_irrefl thm
+prf 10125:10141 Ascii_as_OT compare_helper_eq
+R10150:10154 Coq.Strings.Ascii <> ascii ind
+binder 10144:10144 <> a:88
+binder 10146:10146 <> b:89
+R10169:10171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10162:10164 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10166:10166 Coq.Structures.OrderedTypeEx <> a:88 var
+R10168:10168 Coq.Structures.OrderedTypeEx <> b:89 var
+R10172:10173 Coq.Init.Datatypes <> Eq constr
+binder 10158:10158 <> E:90
+R10182:10184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10181:10181 Coq.Structures.OrderedTypeEx <> a:88 var
+R10185:10185 Coq.Structures.OrderedTypeEx <> b:89 var
+R10211:10216 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R10211:10216 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+prf 10241:10257 Ascii_as_OT compare_helper_gt
+R10266:10270 Coq.Strings.Ascii <> ascii ind
+binder 10260:10260 <> a:91
+binder 10262:10262 <> b:92
+R10285:10287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10278:10280 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10282:10282 Coq.Structures.OrderedTypeEx <> a:91 var
+R10284:10284 Coq.Structures.OrderedTypeEx <> b:92 var
+R10288:10289 Coq.Init.Datatypes <> Gt constr
+binder 10274:10274 <> G:93
+R10297:10298 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10300:10300 Coq.Structures.OrderedTypeEx <> b:92 var
+R10302:10302 Coq.Structures.OrderedTypeEx <> a:91 var
+R10328:10343 Coq.NArith.BinNat N compare_gt_iff thm
+R10328:10343 Coq.NArith.BinNat N compare_gt_iff thm
+def 10367:10373 Ascii_as_OT compare
+R10382:10386 Coq.Strings.Ascii <> ascii ind
+binder 10376:10376 <> a:94
+binder 10378:10378 <> b:95
+R10391:10397 Coq.Structures.OrderedType <> Compare ind
+R10407:10407 Coq.Structures.OrderedTypeEx <> b:95 var
+R10405:10405 Coq.Structures.OrderedTypeEx <> a:94 var
+R10402:10403 Coq.Structures.OrderedTypeEx Ascii_as_OT eq def
+R10399:10400 Coq.Structures.OrderedTypeEx Ascii_as_OT lt def
+R10422:10424 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R10426:10426 Coq.Structures.OrderedTypeEx <> a:94 var
+R10428:10428 Coq.Structures.OrderedTypeEx <> b:95 var
+R10447:10450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10443:10445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10446:10446 Coq.Structures.OrderedTypeEx <> z:96 var
+R10464:10465 Coq.Init.Datatypes <> Lt constr
+binder 10474:10474 <> E:97
+R10479:10480 Coq.Structures.OrderedType <> LT constr
+R10482:10482 Coq.Structures.OrderedTypeEx <> E:97 var
+R10490:10491 Coq.Init.Datatypes <> Gt constr
+binder 10500:10500 <> E:98
+R10505:10506 Coq.Structures.OrderedType <> GT constr
+R10509:10525 Coq.Structures.OrderedTypeEx Ascii_as_OT compare_helper_gt thm
+R10527:10527 Coq.Structures.OrderedTypeEx <> E:98 var
+R10536:10537 Coq.Init.Datatypes <> Eq constr
+binder 10546:10546 <> E:99
+R10551:10552 Coq.Structures.OrderedType <> EQ constr
+R10555:10571 Coq.Structures.OrderedTypeEx Ascii_as_OT compare_helper_eq thm
+R10573:10573 Coq.Structures.OrderedTypeEx <> E:99 var
+R10584:10596 Coq.Init.Logic <> eq_refl constr
+def 10613:10618 Ascii_as_OT eq_dec
+R10627:10631 Coq.Strings.Ascii <> ascii ind
+binder 10621:10621 <> x:100
+binder 10623:10623 <> y:101
+R10635:10635 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10641:10646 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10656:10656 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10637:10639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10636:10636 Coq.Structures.OrderedTypeEx <> x:100 var
+R10640:10640 Coq.Structures.OrderedTypeEx <> y:101 var
+R10647:10649 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10655:10655 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10651:10653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10650:10650 Coq.Structures.OrderedTypeEx <> x:100 var
+R10654:10654 Coq.Structures.OrderedTypeEx <> y:101 var
+R10661:10669 Coq.Strings.Ascii <> ascii_dec def
+R10671:10671 Coq.Structures.OrderedTypeEx <> x:100 var
+R10673:10673 Coq.Structures.OrderedTypeEx <> y:101 var
+R10680:10690 Coq.Structures.OrderedTypeEx Ascii_as_OT <> mod
+R10794:10809 Coq.Structures.OrderedTypeEx UsualOrderedType <> mod
+mod 10778:10789 <> String_as_OT
+def 10826:10826 String_as_OT t
+R10831:10836 Coq.Strings.String <> string ind
+def 10853:10854 String_as_OT eq
+R10860:10861 Coq.Init.Logic <> eq ind
+R10863:10868 Coq.Strings.String <> string ind
+def 10884:10890 String_as_OT eq_refl
+R10896:10902 Coq.Init.Logic <> eq_refl constr
+R10904:10904 Coq.Structures.OrderedTypeEx String_as_OT t def
+def 10920:10925 String_as_OT eq_sym
+R10931:10936 Coq.Init.Logic <> eq_sym thm
+R10938:10938 Coq.Structures.OrderedTypeEx String_as_OT t def
+def 10954:10961 String_as_OT eq_trans
+R10967:10974 Coq.Init.Logic <> eq_trans thm
+R10976:10976 Coq.Structures.OrderedTypeEx String_as_OT t def
+ind 10992:10994 String_as_OT lts
+constr 11032:11040 String_as_OT lts_empty
+constr 11091:11098 String_as_OT lts_tail
+constr 11169:11176 String_as_OT lts_head
+R11004:11007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10998:11003 Coq.Strings.String <> string ind
+R11014:11017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11008:11013 Coq.Strings.String <> string ind
+binder 11051:11051 <> a:104
+binder 11053:11053 <> s:105
+R11056:11058 Coq.Structures.OrderedTypeEx <> lts:102 ind
+R11073:11078 Coq.Strings.String <> String constr
+R11080:11080 Coq.Structures.OrderedTypeEx <> a:104 var
+R11082:11082 Coq.Structures.OrderedTypeEx <> s:105 var
+R11060:11070 Coq.Strings.String <> EmptyString constr
+binder 11109:11109 <> a:106
+binder 11111:11112 <> s1:107
+binder 11114:11115 <> s2:108
+R11127:11130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11118:11120 Coq.Structures.OrderedTypeEx <> lts:102 ind
+R11125:11126 Coq.Structures.OrderedTypeEx <> s2:108 var
+R11122:11123 Coq.Structures.OrderedTypeEx <> s1:107 var
+R11131:11133 Coq.Structures.OrderedTypeEx <> lts:102 ind
+R11150:11155 Coq.Strings.String <> String constr
+R11157:11157 Coq.Structures.OrderedTypeEx <> a:106 var
+R11159:11160 Coq.Structures.OrderedTypeEx <> s2:108 var
+R11136:11141 Coq.Strings.String <> String constr
+R11143:11143 Coq.Structures.OrderedTypeEx <> a:106 var
+R11145:11146 Coq.Structures.OrderedTypeEx <> s1:107 var
+R11194:11198 Coq.Strings.Ascii <> ascii ind
+binder 11188:11188 <> a:109
+binder 11190:11190 <> b:110
+binder 11201:11202 <> s1:111
+binder 11204:11205 <> s2:112
+R11252:11263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11216:11217 Coq.Init.Peano <> lt def
+R11220:11231 Coq.Strings.Ascii <> nat_of_ascii def
+R11233:11233 Coq.Structures.OrderedTypeEx <> a:109 var
+R11237:11248 Coq.Strings.Ascii <> nat_of_ascii def
+R11250:11250 Coq.Structures.OrderedTypeEx <> b:110 var
+R11264:11266 Coq.Structures.OrderedTypeEx <> lts:102 ind
+R11283:11288 Coq.Strings.String <> String constr
+R11290:11290 Coq.Structures.OrderedTypeEx <> b:110 var
+R11292:11293 Coq.Structures.OrderedTypeEx <> s2:112 var
+R11269:11274 Coq.Strings.String <> String constr
+R11276:11276 Coq.Structures.OrderedTypeEx <> a:109 var
+R11278:11279 Coq.Structures.OrderedTypeEx <> s1:111 var
+def 11311:11312 String_as_OT lt
+R11317:11319 Coq.Structures.OrderedTypeEx String_as_OT lts ind
+prf 11331:11350 String_as_OT nat_of_ascii_inverse
+binder 11352:11352 <> a:113
+binder 11354:11354 <> b:114
+R11389:11392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11372:11374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11358:11369 Coq.Strings.Ascii <> nat_of_ascii def
+R11371:11371 Coq.Structures.OrderedTypeEx <> a:113 var
+R11375:11386 Coq.Strings.Ascii <> nat_of_ascii def
+R11388:11388 Coq.Structures.OrderedTypeEx <> b:114 var
+R11394:11396 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11393:11393 Coq.Structures.OrderedTypeEx <> a:113 var
+R11397:11397 Coq.Structures.OrderedTypeEx <> b:114 var
+R11438:11456 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11438:11456 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11438:11456 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11478:11496 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11478:11496 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11478:11496 Coq.Strings.Ascii <> ascii_nat_embedding thm
+R11512:11518 Coq.Init.Logic <> f_equal thm
+R11512:11518 Coq.Init.Logic <> f_equal thm
+prf 11543:11557 String_as_OT lts_tail_unique
+binder 11559:11559 <> a:115
+binder 11561:11562 <> s1:116
+binder 11564:11565 <> s2:117
+R11599:11606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11569:11570 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R11573:11578 Coq.Strings.String <> String constr
+R11580:11580 Coq.Structures.OrderedTypeEx <> a:115 var
+R11582:11583 Coq.Structures.OrderedTypeEx <> s1:116 var
+R11587:11592 Coq.Strings.String <> String constr
+R11594:11594 Coq.Structures.OrderedTypeEx <> a:115 var
+R11596:11597 Coq.Structures.OrderedTypeEx <> s2:117 var
+R11607:11608 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R11610:11611 Coq.Structures.OrderedTypeEx <> s1:116 var
+R11613:11614 Coq.Structures.OrderedTypeEx <> s2:117 var
+R11679:11690 Coq.Strings.Ascii <> nat_of_ascii def
+R11679:11690 Coq.Strings.Ascii <> nat_of_ascii def
+R11711:11723 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R11711:11723 Coq.Arith.PeanoNat Nat lt_irrefl thm
+prf 11762:11769 String_as_OT lt_trans
+R11788:11788 Coq.Structures.OrderedTypeEx String_as_OT t def
+binder 11780:11780 <> x:118
+binder 11782:11782 <> y:119
+binder 11784:11784 <> z:120
+R11797:11800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11791:11792 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R11794:11794 Coq.Structures.OrderedTypeEx <> x:118 var
+R11796:11796 Coq.Structures.OrderedTypeEx <> y:119 var
+R11807:11810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11801:11802 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R11804:11804 Coq.Structures.OrderedTypeEx <> y:119 var
+R11806:11806 Coq.Structures.OrderedTypeEx <> z:120 var
+R11811:11812 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R11814:11814 Coq.Structures.OrderedTypeEx <> x:118 var
+R11816:11816 Coq.Structures.OrderedTypeEx <> z:120 var
+R12202:12213 Coq.Arith.PeanoNat Nat lt_trans thm
+R12202:12213 Coq.Arith.PeanoNat Nat lt_trans thm
+prf 12245:12253 String_as_OT lt_not_eq
+R12270:12270 Coq.Structures.OrderedTypeEx String_as_OT t def
+binder 12264:12264 <> x:121
+binder 12266:12266 <> y:122
+R12279:12282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12273:12274 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R12276:12276 Coq.Structures.OrderedTypeEx <> x:121 var
+R12278:12278 Coq.Structures.OrderedTypeEx <> y:122 var
+R12283:12284 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12285:12286 Coq.Structures.OrderedTypeEx String_as_OT eq def
+R12288:12288 Coq.Structures.OrderedTypeEx <> x:121 var
+R12290:12290 Coq.Structures.OrderedTypeEx <> y:122 var
+R12503:12504 Coq.Structures.OrderedTypeEx String_as_OT eq def
+R12562:12574 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R12562:12574 Coq.Arith.PeanoNat Nat lt_irrefl thm
+def 12610:12612 String_as_OT cmp
+R12622:12625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12616:12621 Coq.Strings.String <> string ind
+R12632:12635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12626:12631 Coq.Strings.String <> string ind
+R12636:12645 Coq.Init.Datatypes <> comparison ind
+R12650:12663 Coq.Strings.String <> compare def
+prf 12675:12680 String_as_OT cmp_eq
+R12689:12694 Coq.Strings.String <> string ind
+binder 12683:12683 <> a:123
+binder 12685:12685 <> b:124
+R12714:12720 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12709:12711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12702:12704 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R12706:12706 Coq.Structures.OrderedTypeEx <> a:123 var
+R12708:12708 Coq.Structures.OrderedTypeEx <> b:124 var
+R12712:12713 Coq.Init.Datatypes <> Eq constr
+R12722:12724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12721:12721 Coq.Structures.OrderedTypeEx <> a:123 var
+R12725:12725 Coq.Structures.OrderedTypeEx <> b:124 var
+R12804:12816 Coq.Strings.Ascii <> compare def
+R12804:12816 Coq.Strings.Ascii <> compare def
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R12915:12932 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13084:13101 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13084:13101 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13084:13101 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13160:13177 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13160:13177 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13160:13177 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+prf 13198:13208 String_as_OT cmp_antisym
+R13217:13222 Coq.Strings.String <> string ind
+binder 13211:13211 <> a:125
+binder 13213:13213 <> b:126
+R13237:13239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13230:13232 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R13234:13234 Coq.Structures.OrderedTypeEx <> a:125 var
+R13236:13236 Coq.Structures.OrderedTypeEx <> b:126 var
+R13240:13246 Coq.Init.Datatypes <> CompOpp def
+R13249:13251 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R13253:13253 Coq.Structures.OrderedTypeEx <> b:126 var
+R13255:13255 Coq.Structures.OrderedTypeEx <> a:125 var
+R13359:13371 Coq.Strings.Ascii <> compare def
+R13359:13371 Coq.Strings.Ascii <> compare def
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13483:13497 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13435:13457 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_antisym thm
+R13483:13497 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R13483:13497 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+R13483:13497 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+prf 13532:13537 String_as_OT cmp_lt
+R13546:13551 Coq.Strings.String <> string ind
+binder 13540:13540 <> a:127
+binder 13542:13542 <> b:128
+R13571:13577 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13566:13568 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13559:13561 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R13563:13563 Coq.Structures.OrderedTypeEx <> a:127 var
+R13565:13565 Coq.Structures.OrderedTypeEx <> b:128 var
+R13569:13570 Coq.Init.Datatypes <> Lt constr
+R13578:13579 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R13581:13581 Coq.Structures.OrderedTypeEx <> a:127 var
+R13583:13583 Coq.Structures.OrderedTypeEx <> b:128 var
+R13702:13710 Coq.Structures.OrderedTypeEx String_as_OT lts_empty constr
+R13702:13710 Coq.Structures.OrderedTypeEx String_as_OT lts_empty constr
+R13729:13741 Coq.Strings.Ascii <> compare def
+R13729:13741 Coq.Strings.Ascii <> compare def
+R13860:13877 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13860:13877 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13860:13877 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13907:13927 Coq.Structures.OrderedTypeEx String_as_OT lts_tail constr
+R13907:13927 Coq.Structures.OrderedTypeEx String_as_OT lts_tail constr
+R13996:14013 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13996:14013 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R13996:14013 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14113:14125 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R14128:14139 Coq.Strings.Ascii <> nat_of_ascii def
+R14113:14125 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R14128:14139 Coq.Strings.Ascii <> nat_of_ascii def
+R14182:14202 Coq.Structures.OrderedTypeEx String_as_OT lts_head constr
+R14182:14202 Coq.Structures.OrderedTypeEx String_as_OT lts_head constr
+R14221:14242 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14221:14242 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14221:14242 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14354:14356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14337:14349 Coq.Strings.Ascii <> compare def
+R14357:14358 Coq.Init.Datatypes <> Eq constr
+R14354:14356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14337:14349 Coq.Strings.Ascii <> compare def
+R14357:14358 Coq.Init.Datatypes <> Eq constr
+R14370:14387 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14370:14387 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_eq thm
+R14467:14488 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14467:14488 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14467:14488 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp_lt_nat thm
+R14509:14523 Coq.Structures.OrderedTypeEx Ascii_as_OT cmp def
+prf 14598:14614 String_as_OT compare_helper_lt
+R14623:14628 Coq.Strings.String <> string ind
+binder 14617:14617 <> a:129
+binder 14619:14619 <> b:130
+R14643:14645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14636:14638 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R14640:14640 Coq.Structures.OrderedTypeEx <> a:129 var
+R14642:14642 Coq.Structures.OrderedTypeEx <> b:130 var
+R14646:14647 Coq.Init.Datatypes <> Lt constr
+binder 14632:14632 <> L:131
+R14655:14656 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R14658:14658 Coq.Structures.OrderedTypeEx <> a:129 var
+R14660:14660 Coq.Structures.OrderedTypeEx <> b:130 var
+R14686:14691 Coq.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+R14686:14691 Coq.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+prf 14716:14732 String_as_OT compare_helper_gt
+R14741:14746 Coq.Strings.String <> string ind
+binder 14735:14735 <> a:132
+binder 14737:14737 <> b:133
+R14761:14763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14754:14756 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R14758:14758 Coq.Structures.OrderedTypeEx <> a:132 var
+R14760:14760 Coq.Structures.OrderedTypeEx <> b:133 var
+R14764:14765 Coq.Init.Datatypes <> Gt constr
+binder 14750:14750 <> G:134
+R14773:14774 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R14776:14776 Coq.Structures.OrderedTypeEx <> b:133 var
+R14778:14778 Coq.Structures.OrderedTypeEx <> a:132 var
+R14802:14812 Coq.Structures.OrderedTypeEx String_as_OT cmp_antisym thm
+R14802:14812 Coq.Structures.OrderedTypeEx String_as_OT cmp_antisym thm
+R14802:14812 Coq.Structures.OrderedTypeEx String_as_OT cmp_antisym thm
+R14832:14842 Coq.Init.Datatypes <> CompOpp_iff thm
+R14832:14842 Coq.Init.Datatypes <> CompOpp_iff thm
+R14832:14842 Coq.Init.Datatypes <> CompOpp_iff thm
+R14864:14869 Coq.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+R14864:14869 Coq.Structures.OrderedTypeEx String_as_OT cmp_lt thm
+prf 14894:14910 String_as_OT compare_helper_eq
+R14919:14924 Coq.Strings.String <> string ind
+binder 14913:14913 <> a:135
+binder 14915:14915 <> b:136
+R14939:14941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14932:14934 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R14936:14936 Coq.Structures.OrderedTypeEx <> a:135 var
+R14938:14938 Coq.Structures.OrderedTypeEx <> b:136 var
+R14942:14943 Coq.Init.Datatypes <> Eq constr
+binder 14928:14928 <> E:137
+R14952:14954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14951:14951 Coq.Structures.OrderedTypeEx <> a:135 var
+R14955:14955 Coq.Structures.OrderedTypeEx <> b:136 var
+R14981:14986 Coq.Structures.OrderedTypeEx String_as_OT cmp_eq thm
+R14981:14986 Coq.Structures.OrderedTypeEx String_as_OT cmp_eq thm
+def 15010:15016 String_as_OT compare
+R15025:15030 Coq.Strings.String <> string ind
+binder 15019:15019 <> a:138
+binder 15021:15021 <> b:139
+R15035:15041 Coq.Structures.OrderedType <> Compare ind
+R15051:15051 Coq.Structures.OrderedTypeEx <> b:139 var
+R15049:15049 Coq.Structures.OrderedTypeEx <> a:138 var
+R15046:15047 Coq.Structures.OrderedTypeEx String_as_OT eq def
+R15043:15044 Coq.Structures.OrderedTypeEx String_as_OT lt def
+R15066:15068 Coq.Structures.OrderedTypeEx String_as_OT cmp def
+R15070:15070 Coq.Structures.OrderedTypeEx <> a:138 var
+R15072:15072 Coq.Structures.OrderedTypeEx <> b:139 var
+R15091:15094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15087:15089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15090:15090 Coq.Structures.OrderedTypeEx <> z:140 var
+R15108:15109 Coq.Init.Datatypes <> Lt constr
+binder 15118:15118 <> E:141
+R15123:15124 Coq.Structures.OrderedType <> LT constr
+R15127:15143 Coq.Structures.OrderedTypeEx String_as_OT compare_helper_lt thm
+R15145:15145 Coq.Structures.OrderedTypeEx <> E:141 var
+R15154:15155 Coq.Init.Datatypes <> Gt constr
+binder 15164:15164 <> E:142
+R15169:15170 Coq.Structures.OrderedType <> GT constr
+R15173:15189 Coq.Structures.OrderedTypeEx String_as_OT compare_helper_gt thm
+R15191:15191 Coq.Structures.OrderedTypeEx <> E:142 var
+R15200:15201 Coq.Init.Datatypes <> Eq constr
+binder 15210:15210 <> E:143
+R15215:15216 Coq.Structures.OrderedType <> EQ constr
+R15219:15235 Coq.Structures.OrderedTypeEx String_as_OT compare_helper_eq thm
+R15237:15237 Coq.Structures.OrderedTypeEx <> E:143 var
+R15248:15260 Coq.Init.Logic <> eq_refl constr
+def 15277:15282 String_as_OT eq_dec
+R15291:15296 Coq.Strings.String <> string ind
+binder 15285:15285 <> x:144
+binder 15287:15287 <> y:145
+R15300:15300 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15306:15311 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15321:15321 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15302:15304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15301:15301 Coq.Structures.OrderedTypeEx <> x:144 var
+R15305:15305 Coq.Structures.OrderedTypeEx <> y:145 var
+R15312:15314 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15320:15320 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15316:15318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15315:15315 Coq.Structures.OrderedTypeEx <> x:144 var
+R15319:15319 Coq.Structures.OrderedTypeEx <> y:145 var
+R15326:15335 Coq.Strings.String <> string_dec def
+R15337:15337 Coq.Structures.OrderedTypeEx <> x:144 var
+R15339:15339 Coq.Structures.OrderedTypeEx <> y:145 var
+R15346:15357 Coq.Structures.OrderedTypeEx String_as_OT <> mod

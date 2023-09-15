@@ -1,0 +1,544 @@
+DIGEST c505eb56eb8aeebe95c8fbe73a295cb1
+FCoq.ZArith.Zdigits
+R808:814 Coq.Bool.Bvector <> <> lib
+R832:837 Coq.ZArith.ZArith <> <> lib
+R855:860 Coq.ZArith.Zpower <> <> lib
+R878:880 Coq.micromega.Lia <> <> lib
+sec 1165:1188 <> VALUE_OF_BOOLEAN_VECTORS
+def 1549:1557 <> bit_value
+R1562:1565 Coq.Init.Datatypes <> bool ind
+binder 1560:1560 <> b:1
+R1570:1570 Coq.Numbers.BinNums <> Z ind
+R1585:1585 Coq.ZArith.Zdigits <> b:1 var
+R1600:1603 Coq.Init.Datatypes <> true constr
+R1620:1624 Coq.Init.Datatypes <> false constr
+prf 1651:1662 <> binary_value
+R1675:1677 Coq.Init.Datatypes <> nat ind
+binder 1673:1673 <> n:3
+R1689:1692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1680:1686 Coq.Bool.Bvector <> Bvector def
+R1688:1688 Coq.ZArith.Zdigits <> n:3 var
+R1693:1693 Coq.Numbers.BinNums <> Z ind
+R1717:1724 Coq.Init.Datatypes <> nat_rect scheme
+R1717:1724 Coq.Init.Datatypes <> nat_rect scheme
+R1798:1800 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1787:1795 Coq.ZArith.Zdigits <> bit_value def
+R1802:1804 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1798:1800 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1787:1795 Coq.ZArith.Zdigits <> bit_value def
+R1802:1804 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+prf 1834:1848 <> two_compl_value
+R1861:1863 Coq.Init.Datatypes <> nat ind
+binder 1859:1859 <> n:4
+R1879:1882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1866:1872 Coq.Bool.Bvector <> Bvector def
+R1875:1875 Coq.Init.Datatypes <> S constr
+R1877:1877 Coq.ZArith.Zdigits <> n:4 var
+R1883:1883 Coq.Numbers.BinNums <> Z ind
+R1955:1956 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1957:1965 Coq.ZArith.Zdigits <> bit_value def
+R1955:1956 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1957:1965 Coq.ZArith.Zdigits <> bit_value def
+R2014:2016 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2003:2011 Coq.ZArith.Zdigits <> bit_value def
+R2018:2020 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2014:2016 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2003:2011 Coq.ZArith.Zdigits <> bit_value def
+R2018:2020 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2046:2069 Coq.ZArith.Zdigits VALUE_OF_BOOLEAN_VECTORS <> sec
+sec 2081:2094 <> ENCODING_VALUE
+def 2457:2461 <> Zmod2
+R2466:2466 Coq.Numbers.BinNums <> Z ind
+binder 2464:2464 <> z:5
+R2482:2482 Coq.ZArith.Zdigits <> z:5 var
+R2497:2498 Coq.Numbers.BinNums <> Z0 constr
+R2515:2518 Coq.Numbers.BinNums <> Zpos constr
+R2546:2547 Coq.Numbers.BinNums <> xI constr
+R2554:2557 Coq.Numbers.BinNums <> Zpos constr
+R2569:2570 Coq.Numbers.BinNums <> xO constr
+R2577:2580 Coq.Numbers.BinNums <> Zpos constr
+R2592:2593 Coq.Numbers.BinNums <> xH constr
+R2618:2621 Coq.Numbers.BinNums <> Zneg constr
+R2647:2648 Coq.Numbers.BinNums <> xI constr
+R2662:2664 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2656:2659 Coq.Numbers.BinNums <> Zneg constr
+R2675:2676 Coq.Numbers.BinNums <> xO constr
+R2683:2686 Coq.Numbers.BinNums <> Zneg constr
+R2695:2696 Coq.Numbers.BinNums <> xH constr
+prf 2732:2742 <> Zmod2_twice
+R2759:2759 Coq.Numbers.BinNums <> Z ind
+binder 2757:2757 <> z:9
+R2763:2765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2762:2762 Coq.ZArith.Zdigits <> z:9 var
+R2778:2780 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2768:2770 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2771:2775 Coq.ZArith.Zdigits <> Zmod2 def
+R2777:2777 Coq.ZArith.Zdigits <> z:9 var
+R2781:2789 Coq.ZArith.Zdigits <> bit_value def
+R2792:2796 Coq.ZArith.BinInt Z odd def
+R2798:2798 Coq.ZArith.Zdigits <> z:9 var
+R2958:2977 Coq.PArith.BinPos Pos pred_double_succ thm
+R2958:2977 Coq.PArith.BinPos Pos pred_double_succ thm
+R2958:2977 Coq.PArith.BinPos Pos pred_double_succ thm
+prf 3064:3074 <> Z_to_binary
+R3087:3089 Coq.Init.Datatypes <> nat ind
+binder 3085:3085 <> n:10
+R3093:3096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3092:3092 Coq.Numbers.BinNums <> Z ind
+R3097:3103 Coq.Bool.Bvector <> Bvector def
+R3105:3105 Coq.ZArith.Zdigits <> n:10 var
+R3159:3162 Coq.Bool.Bvector <> Bnil def
+R3159:3162 Coq.Bool.Bvector <> Bnil def
+R3177:3181 Coq.Bool.Bvector <> Bcons def
+R3184:3188 Coq.ZArith.BinInt Z odd def
+R3201:3206 Coq.ZArith.BinInt Z div2 def
+R3177:3181 Coq.Bool.Bvector <> Bcons def
+R3184:3188 Coq.ZArith.BinInt Z odd def
+R3201:3206 Coq.ZArith.BinInt Z div2 def
+prf 3235:3248 <> Z_to_two_compl
+R3261:3263 Coq.Init.Datatypes <> nat ind
+binder 3259:3259 <> n:11
+R3267:3270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3266:3266 Coq.Numbers.BinNums <> Z ind
+R3271:3277 Coq.Bool.Bvector <> Bvector def
+R3280:3280 Coq.Init.Datatypes <> S constr
+R3282:3282 Coq.ZArith.Zdigits <> n:11 var
+R3338:3342 Coq.Bool.Bvector <> Bcons def
+R3345:3349 Coq.ZArith.BinInt Z odd def
+R3356:3359 Coq.Bool.Bvector <> Bnil def
+R3338:3342 Coq.Bool.Bvector <> Bcons def
+R3345:3349 Coq.ZArith.BinInt Z odd def
+R3356:3359 Coq.Bool.Bvector <> Bnil def
+R3375:3379 Coq.Bool.Bvector <> Bcons def
+R3382:3386 Coq.ZArith.BinInt Z odd def
+R3393:3393 Coq.Init.Datatypes <> S constr
+R3403:3407 Coq.ZArith.Zdigits <> Zmod2 def
+R3375:3379 Coq.Bool.Bvector <> Bcons def
+R3382:3386 Coq.ZArith.BinInt Z odd def
+R3393:3393 Coq.Init.Datatypes <> S constr
+R3403:3407 Coq.ZArith.Zdigits <> Zmod2 def
+R3432:3445 Coq.ZArith.Zdigits ENCODING_VALUE <> sec
+sec 3457:3469 <> Z_BRIC_A_BRAC
+prf 3602:3616 <> binary_value_Sn
+R3634:3636 Coq.Init.Datatypes <> nat ind
+binder 3632:3632 <> n:12
+R3642:3645 Coq.Init.Datatypes <> bool ind
+binder 3640:3640 <> b:13
+R3652:3658 Coq.Bool.Bvector <> Bvector def
+R3660:3660 Coq.ZArith.Zdigits <> n:12 var
+binder 3649:3650 <> bv:14
+R3699:3707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3670:3681 Coq.ZArith.Zdigits <> binary_value thm
+R3684:3684 Coq.Init.Datatypes <> S constr
+R3686:3686 Coq.ZArith.Zdigits <> n:12 var
+R3692:3695 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R3691:3691 Coq.ZArith.Zdigits <> b:13 var
+R3696:3697 Coq.ZArith.Zdigits <> bv:14 var
+R3720:3722 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3709:3717 Coq.ZArith.Zdigits <> bit_value def
+R3719:3719 Coq.ZArith.Zdigits <> b:13 var
+R3724:3726 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3727:3738 Coq.ZArith.Zdigits <> binary_value thm
+R3740:3740 Coq.ZArith.Zdigits <> n:12 var
+R3742:3743 Coq.ZArith.Zdigits <> bv:14 var
+prf 3792:3805 <> Z_to_binary_Sn
+R3823:3825 Coq.Init.Datatypes <> nat ind
+binder 3821:3821 <> n:15
+R3831:3834 Coq.Init.Datatypes <> bool ind
+binder 3829:3829 <> b:16
+R3840:3840 Coq.Numbers.BinNums <> Z ind
+binder 3838:3838 <> z:17
+R3860:3869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3852:3855 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R3851:3851 Coq.ZArith.Zdigits <> z:17 var
+R3909:3911 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3870:3880 Coq.ZArith.Zdigits <> Z_to_binary thm
+R3883:3883 Coq.Init.Datatypes <> S constr
+R3885:3885 Coq.ZArith.Zdigits <> n:15 var
+R3900:3902 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3889:3897 Coq.ZArith.Zdigits <> bit_value def
+R3899:3899 Coq.ZArith.Zdigits <> b:16 var
+R3904:3906 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3907:3907 Coq.ZArith.Zdigits <> z:17 var
+R3912:3916 Coq.Bool.Bvector <> Bcons def
+R3918:3918 Coq.ZArith.Zdigits <> b:16 var
+R3920:3920 Coq.ZArith.Zdigits <> n:15 var
+R3923:3933 Coq.ZArith.Zdigits <> Z_to_binary thm
+R3935:3935 Coq.ZArith.Zdigits <> n:15 var
+R3937:3937 Coq.ZArith.Zdigits <> z:17 var
+prf 4037:4052 <> binary_value_pos
+R4070:4072 Coq.Init.Datatypes <> nat ind
+binder 4068:4068 <> n:18
+R4079:4085 Coq.Bool.Bvector <> Bvector def
+R4087:4087 Coq.ZArith.Zdigits <> n:18 var
+binder 4076:4077 <> bv:19
+R4109:4112 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R4092:4103 Coq.ZArith.Zdigits <> binary_value thm
+R4105:4105 Coq.ZArith.Zdigits <> n:18 var
+R4107:4108 Coq.ZArith.Zdigits <> bv:19 var
+R4205:4216 Coq.ZArith.Zdigits <> binary_value thm
+R4205:4216 Coq.ZArith.Zdigits <> binary_value thm
+R4205:4216 Coq.ZArith.Zdigits <> binary_value thm
+prf 4264:4281 <> two_compl_value_Sn
+R4299:4301 Coq.Init.Datatypes <> nat ind
+binder 4297:4297 <> n:20
+R4308:4314 Coq.Bool.Bvector <> Bvector def
+R4317:4317 Coq.Init.Datatypes <> S constr
+R4319:4319 Coq.ZArith.Zdigits <> n:20 var
+binder 4305:4306 <> bv:21
+R4326:4329 Coq.Init.Datatypes <> bool ind
+binder 4324:4324 <> b:22
+R4379:4387 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4339:4353 Coq.ZArith.Zdigits <> two_compl_value thm
+R4356:4356 Coq.Init.Datatypes <> S constr
+R4358:4358 Coq.ZArith.Zdigits <> n:20 var
+R4362:4366 Coq.Bool.Bvector <> Bcons def
+R4368:4368 Coq.ZArith.Zdigits <> b:22 var
+R4371:4371 Coq.Init.Datatypes <> S constr
+R4373:4373 Coq.ZArith.Zdigits <> n:20 var
+R4376:4377 Coq.ZArith.Zdigits <> bv:21 var
+R4400:4402 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4389:4397 Coq.ZArith.Zdigits <> bit_value def
+R4399:4399 Coq.ZArith.Zdigits <> b:22 var
+R4404:4406 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4407:4421 Coq.ZArith.Zdigits <> two_compl_value thm
+R4423:4423 Coq.ZArith.Zdigits <> n:20 var
+R4425:4426 Coq.ZArith.Zdigits <> bv:21 var
+prf 4475:4491 <> Z_to_two_compl_Sn
+R4509:4511 Coq.Init.Datatypes <> nat ind
+binder 4507:4507 <> n:23
+R4517:4520 Coq.Init.Datatypes <> bool ind
+binder 4515:4515 <> b:24
+R4526:4526 Coq.Numbers.BinNums <> Z ind
+binder 4524:4524 <> z:25
+R4578:4586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4536:4549 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R4552:4552 Coq.Init.Datatypes <> S constr
+R4554:4554 Coq.ZArith.Zdigits <> n:23 var
+R4569:4571 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4558:4566 Coq.ZArith.Zdigits <> bit_value def
+R4568:4568 Coq.ZArith.Zdigits <> b:24 var
+R4573:4575 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4576:4576 Coq.ZArith.Zdigits <> z:25 var
+R4587:4591 Coq.Bool.Bvector <> Bcons def
+R4593:4593 Coq.ZArith.Zdigits <> b:24 var
+R4596:4596 Coq.Init.Datatypes <> S constr
+R4598:4598 Coq.ZArith.Zdigits <> n:23 var
+R4602:4615 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R4617:4617 Coq.ZArith.Zdigits <> n:23 var
+R4619:4619 Coq.ZArith.Zdigits <> z:25 var
+R4774:4793 Coq.PArith.BinPos Pos succ_pred_double thm
+R4774:4793 Coq.PArith.BinPos Pos succ_pred_double thm
+R4774:4793 Coq.PArith.BinPos Pos succ_pred_double thm
+prf 4824:4839 <> Z_to_binary_Sn_z
+R4857:4859 Coq.Init.Datatypes <> nat ind
+binder 4855:4855 <> n:26
+R4865:4865 Coq.Numbers.BinNums <> Z ind
+binder 4863:4863 <> z:27
+R4894:4902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4875:4885 Coq.ZArith.Zdigits <> Z_to_binary thm
+R4888:4888 Coq.Init.Datatypes <> S constr
+R4890:4890 Coq.ZArith.Zdigits <> n:26 var
+R4893:4893 Coq.ZArith.Zdigits <> z:27 var
+R4903:4907 Coq.Bool.Bvector <> Bcons def
+R4910:4914 Coq.ZArith.BinInt Z odd def
+R4916:4916 Coq.ZArith.Zdigits <> z:27 var
+R4919:4919 Coq.ZArith.Zdigits <> n:26 var
+R4922:4932 Coq.ZArith.Zdigits <> Z_to_binary thm
+R4934:4934 Coq.ZArith.Zdigits <> n:26 var
+R4937:4942 Coq.ZArith.BinInt Z div2 def
+R4944:4944 Coq.ZArith.Zdigits <> z:27 var
+prf 4992:5003 <> Z_div2_value
+R5020:5020 Coq.Numbers.BinNums <> Z ind
+binder 5018:5018 <> z:28
+R5039:5042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5031:5034 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5030:5030 Coq.ZArith.Zdigits <> z:28 var
+R5081:5083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5063:5065 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5044:5052 Coq.ZArith.Zdigits <> bit_value def
+R5055:5059 Coq.ZArith.BinInt Z odd def
+R5061:5061 Coq.ZArith.Zdigits <> z:28 var
+R5067:5069 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5070:5075 Coq.ZArith.BinInt Z div2 def
+R5077:5077 Coq.ZArith.Zdigits <> z:28 var
+R5084:5084 Coq.ZArith.Zdigits <> z:28 var
+prf 5198:5202 <> Pdiv2
+R5215:5215 Coq.Numbers.BinNums <> Z ind
+binder 5213:5213 <> z:29
+R5228:5231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5220:5223 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5219:5219 Coq.ZArith.Zdigits <> z:29 var
+R5241:5244 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5233:5238 Coq.ZArith.BinInt Z div2 def
+R5240:5240 Coq.ZArith.Zdigits <> z:29 var
+prf 5392:5410 <> Zdiv2_two_power_nat
+R5428:5428 Coq.Numbers.BinNums <> Z ind
+binder 5426:5426 <> z:30
+R5434:5436 Coq.Init.Datatypes <> nat ind
+binder 5432:5432 <> n:31
+R5456:5465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5448:5451 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5447:5447 Coq.ZArith.Zdigits <> z:30 var
+R5493:5496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5468:5470 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5467:5467 Coq.ZArith.Zdigits <> z:30 var
+R5471:5483 Coq.ZArith.Zpower <> two_power_nat def
+R5486:5486 Coq.Init.Datatypes <> S constr
+R5488:5488 Coq.ZArith.Zdigits <> n:31 var
+R5506:5508 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5498:5503 Coq.ZArith.BinInt Z div2 def
+R5505:5505 Coq.ZArith.Zdigits <> z:30 var
+R5509:5521 Coq.ZArith.Zpower <> two_power_nat def
+R5523:5523 Coq.ZArith.Zdigits <> n:31 var
+R5574:5576 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5563:5565 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5566:5571 Coq.ZArith.BinInt Z div2 def
+R5578:5580 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5581:5593 Coq.ZArith.Zpower <> two_power_nat def
+R5574:5576 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5563:5565 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5566:5571 Coq.ZArith.BinInt Z div2 def
+R5578:5580 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5581:5593 Coq.ZArith.Zpower <> two_power_nat def
+R5623:5637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R5623:5637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R5623:5637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R5654:5672 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R5654:5672 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R5717:5732 Coq.ZArith.Zeven <> Zeven_div2 thm
+R5717:5732 Coq.ZArith.Zeven <> Zeven_div2 thm
+R5717:5732 Coq.ZArith.Zeven <> Zeven_div2 thm
+R5717:5732 Coq.ZArith.Zeven <> Zeven_div2 thm
+R5757:5771 Coq.ZArith.Zeven <> Zodd_div2 thm
+R5757:5771 Coq.ZArith.Zeven <> Zodd_div2 thm
+prf 5803:5821 <> Z_to_two_compl_Sn_z
+R5839:5841 Coq.Init.Datatypes <> nat ind
+binder 5837:5837 <> n:32
+R5847:5847 Coq.Numbers.BinNums <> Z ind
+binder 5845:5845 <> z:33
+R5879:5887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5857:5870 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R5873:5873 Coq.Init.Datatypes <> S constr
+R5875:5875 Coq.ZArith.Zdigits <> n:32 var
+R5878:5878 Coq.ZArith.Zdigits <> z:33 var
+R5888:5892 Coq.Bool.Bvector <> Bcons def
+R5895:5899 Coq.ZArith.BinInt Z odd def
+R5901:5901 Coq.ZArith.Zdigits <> z:33 var
+R5905:5905 Coq.Init.Datatypes <> S constr
+R5907:5907 Coq.ZArith.Zdigits <> n:32 var
+R5911:5924 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R5926:5926 Coq.ZArith.Zdigits <> n:32 var
+R5929:5933 Coq.ZArith.Zdigits <> Zmod2 def
+R5935:5935 Coq.ZArith.Zdigits <> z:33 var
+prf 5983:5997 <> Zeven_bit_value
+R6014:6014 Coq.Numbers.BinNums <> Z ind
+binder 6012:6012 <> z:34
+R6030:6033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6017:6027 Coq.ZArith.Zeven <> Zeven def
+R6029:6029 Coq.ZArith.Zdigits <> z:34 var
+R6053:6055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6034:6042 Coq.ZArith.Zdigits <> bit_value def
+R6045:6049 Coq.ZArith.BinInt Z odd def
+R6051:6051 Coq.ZArith.Zdigits <> z:34 var
+R6093:6101 Coq.ZArith.Zdigits <> bit_value def
+prf 6214:6227 <> Zodd_bit_value
+R6244:6244 Coq.Numbers.BinNums <> Z ind
+binder 6242:6242 <> z:35
+R6259:6262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6247:6256 Coq.ZArith.Zeven <> Zodd def
+R6258:6258 Coq.ZArith.Zdigits <> z:35 var
+R6282:6284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6263:6271 Coq.ZArith.Zdigits <> bit_value def
+R6274:6278 Coq.ZArith.BinInt Z odd def
+R6280:6280 Coq.ZArith.Zdigits <> z:35 var
+R6322:6330 Coq.ZArith.Zdigits <> bit_value def
+prf 6461:6485 <> Zge_minus_two_power_nat_S
+R6503:6505 Coq.Init.Datatypes <> nat ind
+binder 6501:6501 <> n:36
+R6511:6511 Coq.Numbers.BinNums <> Z ind
+binder 6509:6509 <> z:37
+R6551:6554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6523:6526 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R6522:6522 Coq.ZArith.Zdigits <> z:37 var
+R6527:6528 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6529:6541 Coq.ZArith.Zpower <> two_power_nat def
+R6544:6544 Coq.Init.Datatypes <> S constr
+R6546:6546 Coq.ZArith.Zdigits <> n:36 var
+R6563:6566 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R6556:6560 Coq.ZArith.Zdigits <> Zmod2 def
+R6562:6562 Coq.ZArith.Zdigits <> z:37 var
+R6567:6568 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6569:6581 Coq.ZArith.Zpower <> two_power_nat def
+R6583:6583 Coq.ZArith.Zdigits <> n:36 var
+R6623:6637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R6623:6637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R6623:6637 Coq.ZArith.Zpower <> two_power_nat_S thm
+R6659:6669 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R6659:6669 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R6689:6707 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R6689:6707 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R6736:6750 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R6736:6750 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R6736:6750 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R6785:6798 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+R6785:6798 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+R6785:6798 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+prf 6835:6853 <> Zlt_two_power_nat_S
+R6871:6873 Coq.Init.Datatypes <> nat ind
+binder 6869:6869 <> n:38
+R6879:6879 Coq.Numbers.BinNums <> Z ind
+binder 6877:6877 <> z:39
+R6916:6919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6891:6893 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6890:6890 Coq.ZArith.Zdigits <> z:39 var
+R6894:6906 Coq.ZArith.Zpower <> two_power_nat def
+R6909:6909 Coq.Init.Datatypes <> S constr
+R6911:6911 Coq.ZArith.Zdigits <> n:38 var
+R6928:6930 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6921:6925 Coq.ZArith.Zdigits <> Zmod2 def
+R6927:6927 Coq.ZArith.Zdigits <> z:39 var
+R6931:6943 Coq.ZArith.Zpower <> two_power_nat def
+R6945:6945 Coq.ZArith.Zdigits <> n:38 var
+R6985:6999 Coq.ZArith.Zpower <> two_power_nat_S thm
+R6985:6999 Coq.ZArith.Zpower <> two_power_nat_S thm
+R6985:6999 Coq.ZArith.Zpower <> two_power_nat_S thm
+R7021:7031 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R7021:7031 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R7051:7069 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R7051:7069 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R7098:7112 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R7098:7112 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R7098:7112 Coq.ZArith.Zdigits <> Zeven_bit_value thm
+R7147:7160 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+R7147:7160 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+R7147:7160 Coq.ZArith.Zdigits <> Zodd_bit_value thm
+R7193:7205 Coq.ZArith.Zdigits Z_BRIC_A_BRAC <> sec
+sec 7217:7230 <> COHERENT_VALUE
+prf 7359:7379 <> binary_to_Z_to_binary
+R7397:7399 Coq.Init.Datatypes <> nat ind
+binder 7395:7395 <> n:40
+R7406:7412 Coq.Bool.Bvector <> Bvector def
+R7414:7414 Coq.ZArith.Zdigits <> n:40 var
+binder 7403:7404 <> bv:41
+R7451:7453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7418:7428 Coq.ZArith.Zdigits <> Z_to_binary thm
+R7430:7430 Coq.ZArith.Zdigits <> n:40 var
+R7433:7444 Coq.ZArith.Zdigits <> binary_value thm
+R7446:7446 Coq.ZArith.Zdigits <> n:40 var
+R7448:7449 Coq.ZArith.Zdigits <> bv:41 var
+R7454:7455 Coq.ZArith.Zdigits <> bv:41 var
+R7527:7541 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R7527:7541 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R7527:7541 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R7556:7569 Coq.ZArith.Zdigits <> Z_to_binary_Sn thm
+R7556:7569 Coq.ZArith.Zdigits <> Z_to_binary_Sn thm
+R7556:7569 Coq.ZArith.Zdigits <> Z_to_binary_Sn thm
+R7556:7569 Coq.ZArith.Zdigits <> Z_to_binary_Sn thm
+R7610:7625 Coq.ZArith.Zdigits <> binary_value_pos thm
+R7610:7625 Coq.ZArith.Zdigits <> binary_value_pos thm
+prf 7644:7670 <> two_compl_to_Z_to_two_compl
+R7688:7690 Coq.Init.Datatypes <> nat ind
+binder 7686:7686 <> n:42
+R7697:7703 Coq.Bool.Bvector <> Bvector def
+R7705:7705 Coq.ZArith.Zdigits <> n:42 var
+binder 7694:7695 <> bv:43
+R7711:7714 Coq.Init.Datatypes <> bool ind
+binder 7709:7709 <> b:44
+R7775:7777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7724:7737 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R7739:7739 Coq.ZArith.Zdigits <> n:42 var
+R7742:7756 Coq.ZArith.Zdigits <> two_compl_value thm
+R7758:7758 Coq.ZArith.Zdigits <> n:42 var
+R7761:7765 Coq.Bool.Bvector <> Bcons def
+R7767:7767 Coq.ZArith.Zdigits <> b:44 var
+R7769:7769 Coq.ZArith.Zdigits <> n:42 var
+R7771:7772 Coq.ZArith.Zdigits <> bv:43 var
+R7778:7782 Coq.Bool.Bvector <> Bcons def
+R7784:7784 Coq.ZArith.Zdigits <> b:44 var
+R7786:7786 Coq.ZArith.Zdigits <> n:42 var
+R7788:7789 Coq.ZArith.Zdigits <> bv:43 var
+R7882:7899 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R7882:7899 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R7882:7899 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R7914:7930 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn thm
+R7914:7930 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn thm
+R7914:7930 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn thm
+prf 7976:7991 <> Z_to_binary_to_Z
+R8009:8011 Coq.Init.Datatypes <> nat ind
+binder 8007:8007 <> n:45
+R8017:8017 Coq.Numbers.BinNums <> Z ind
+binder 8015:8015 <> z:46
+R8037:8046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8029:8032 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R8028:8028 Coq.ZArith.Zdigits <> z:46 var
+R8070:8073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8049:8051 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R8048:8048 Coq.ZArith.Zdigits <> z:46 var
+R8052:8064 Coq.ZArith.Zpower <> two_power_nat def
+R8066:8066 Coq.ZArith.Zdigits <> n:45 var
+R8106:8108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8074:8085 Coq.ZArith.Zdigits <> binary_value thm
+R8087:8087 Coq.ZArith.Zdigits <> n:45 var
+R8090:8100 Coq.ZArith.Zdigits <> Z_to_binary thm
+R8102:8102 Coq.ZArith.Zdigits <> n:45 var
+R8104:8104 Coq.ZArith.Zdigits <> z:46 var
+R8109:8109 Coq.ZArith.Zdigits <> z:46 var
+R8162:8174 Coq.ZArith.Zpower <> two_power_nat def
+R8177:8185 Coq.ZArith.Zpower <> shift_nat def
+R8229:8244 Coq.ZArith.Zdigits <> Z_to_binary_Sn_z thm
+R8229:8244 Coq.ZArith.Zdigits <> Z_to_binary_Sn_z thm
+R8229:8244 Coq.ZArith.Zdigits <> Z_to_binary_Sn_z thm
+R8259:8273 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R8259:8273 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R8259:8273 Coq.ZArith.Zdigits <> binary_value_Sn thm
+R8303:8314 Coq.ZArith.Zdigits <> Z_div2_value thm
+R8303:8314 Coq.ZArith.Zdigits <> Z_div2_value thm
+R8334:8338 Coq.ZArith.Zdigits <> Pdiv2 thm
+R8334:8338 Coq.ZArith.Zdigits <> Pdiv2 thm
+R8361:8379 Coq.ZArith.Zdigits <> Zdiv2_two_power_nat thm
+R8361:8379 Coq.ZArith.Zdigits <> Zdiv2_two_power_nat thm
+prf 8407:8425 <> Z_to_two_compl_to_Z
+R8443:8445 Coq.Init.Datatypes <> nat ind
+binder 8441:8441 <> n:47
+R8451:8451 Coq.Numbers.BinNums <> Z ind
+binder 8449:8449 <> z:48
+R8487:8496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8463:8466 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R8462:8462 Coq.ZArith.Zdigits <> z:48 var
+R8467:8468 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8469:8481 Coq.ZArith.Zpower <> two_power_nat def
+R8483:8483 Coq.ZArith.Zdigits <> n:47 var
+R8520:8523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8499:8501 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R8498:8498 Coq.ZArith.Zdigits <> z:48 var
+R8502:8514 Coq.ZArith.Zpower <> two_power_nat def
+R8516:8516 Coq.ZArith.Zdigits <> n:47 var
+R8562:8564 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8524:8538 Coq.ZArith.Zdigits <> two_compl_value thm
+R8540:8540 Coq.ZArith.Zdigits <> n:47 var
+R8543:8556 Coq.ZArith.Zdigits <> Z_to_two_compl thm
+R8558:8558 Coq.ZArith.Zdigits <> n:47 var
+R8560:8560 Coq.ZArith.Zdigits <> z:48 var
+R8565:8565 Coq.ZArith.Zdigits <> z:48 var
+R8618:8630 Coq.ZArith.Zpower <> two_power_nat def
+R8633:8641 Coq.ZArith.Zpower <> shift_nat def
+R8681:8684 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8672:8674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8686:8688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8681:8684 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8672:8674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8686:8688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8754:8772 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn_z thm
+R8754:8772 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn_z thm
+R8754:8772 Coq.ZArith.Zdigits <> Z_to_two_compl_Sn_z thm
+R8787:8804 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R8787:8804 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R8787:8804 Coq.ZArith.Zdigits <> two_compl_value_Sn thm
+R8840:8850 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R8840:8850 Coq.ZArith.Zdigits <> Zmod2_twice thm
+R8872:8896 Coq.ZArith.Zdigits <> Zge_minus_two_power_nat_S thm
+R8872:8896 Coq.ZArith.Zdigits <> Zge_minus_two_power_nat_S thm
+R8916:8934 Coq.ZArith.Zdigits <> Zlt_two_power_nat_S thm
+R8916:8934 Coq.ZArith.Zdigits <> Zlt_two_power_nat_S thm
+R8955:8968 Coq.ZArith.Zdigits COHERENT_VALUE <> sec

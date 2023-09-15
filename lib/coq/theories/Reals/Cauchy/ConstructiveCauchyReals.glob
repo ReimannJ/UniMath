@@ -1,0 +1,2537 @@
+DIGEST c1645f20097b93557bd739ea62b3a60f
+FCoq.Reals.Cauchy.ConstructiveCauchyReals
+R766:771 Coq.QArith.QArith <> <> lib
+R789:794 Coq.QArith.Qpower <> <> lib
+R812:815 Coq.QArith.Qabs <> <> lib
+R833:838 Coq.QArith.Qround <> <> lib
+R856:880 Coq.Logic.ConstructiveEpsilon <> <> lib
+R891:900 Coq.Classes.CMorphisms <> <> lib
+R918:920 Coq.micromega.Lia <> <> lib
+R938:940 Coq.micromega.Lqa <> <> lib
+R958:963 Coq.Reals.Cauchy.QExtra <> <> lib
+R981:997 Coq.Reals.Cauchy.ConstructiveExtra <> <> lib
+def 2126:2135 <> QCauchySeq
+R2144:2147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2143:2143 Coq.Numbers.BinNums <> Z ind
+R2148:2148 Coq.QArith.QArith_base <> Q rec
+binder 2138:2139 <> xn:1
+R2177:2177 Coq.Numbers.BinNums <> Z ind
+binder 2173:2173 <> k:2
+R2187:2187 Coq.Numbers.BinNums <> Z ind
+binder 2181:2181 <> p:3
+binder 2183:2183 <> q:4
+R2205:2211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2197:2200 Coq.ZArith.BinInt Z le def
+R2202:2202 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:3 var
+R2204:2204 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:2 var
+R2220:2226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2212:2215 Coq.ZArith.BinInt Z le def
+R2217:2217 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:4 var
+R2219:2219 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:2 var
+R2245:2247 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R2227:2230 Coq.QArith.Qabs <> Qabs def
+R2237:2239 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2233:2234 Coq.Reals.Cauchy.ConstructiveCauchyReals <> xn:1 var
+R2236:2236 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:3 var
+R2240:2241 Coq.Reals.Cauchy.ConstructiveCauchyReals <> xn:1 var
+R2243:2243 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:4 var
+R2249:2251 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2252:2252 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:2 var
+def 2267:2272 <> QBound
+R2281:2284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2280:2280 Coq.Numbers.BinNums <> Z ind
+R2285:2285 Coq.QArith.QArith_base <> Q rec
+binder 2275:2276 <> xn:5
+R2297:2297 Coq.Numbers.BinNums <> Z ind
+binder 2289:2293 <> scale:6
+R2326:2326 Coq.Numbers.BinNums <> Z ind
+binder 2322:2322 <> k:7
+R2347:2349 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R2336:2339 Coq.QArith.Qabs <> Qabs def
+R2342:2343 Coq.Reals.Cauchy.ConstructiveCauchyReals <> xn:5 var
+R2345:2345 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:7 var
+R2351:2353 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2354:2358 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale:6 var
+rec 2444:2448 <> CReal
+proj 2465:2467 <> seq
+proj 2481:2485 <> scale
+proj 2494:2499 <> cauchy
+proj 2521:2525 <> bound
+R2472:2475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2471 Coq.Numbers.BinNums <> Z ind
+R2476:2476 Coq.QArith.QArith_base <> Q rec
+R2489:2489 Coq.Numbers.BinNums <> Z ind
+R2503:2512 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QCauchySeq def
+R2514:2516 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq:9 meth
+R2529:2534 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QBound def
+R2536:2538 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq:9 meth
+R2540:2544 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale:10 meth
+def 2797:2803 <> CRealLt
+R2812:2816 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 2806:2806 <> x:13
+binder 2808:2808 <> y:14
+R2830:2831 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2833:2835 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2837:2840 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2876:2877 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2836:2836 Coq.Numbers.BinNums <> Z ind
+binder 2832:2832 <> n:15
+R2841:2843 Coq.QArith.QArith_base <> Qlt def
+R2847:2849 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2851:2853 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2854:2854 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:15 var
+R2865:2867 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2858:2860 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R2862:2862 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:14 var
+R2864:2864 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:15 var
+R2868:2870 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R2872:2872 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:13 var
+R2874:2874 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:15 var
+def 2892:2902 <> CRealLtProp
+R2911:2915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 2905:2905 <> x:16
+binder 2907:2907 <> y:17
+R2930:2936 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2942:2943 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2941:2941 Coq.Numbers.BinNums <> Z ind
+binder 2937:2937 <> n:18
+R2944:2946 Coq.QArith.QArith_base <> Qlt def
+R2950:2952 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2954:2956 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2957:2957 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:18 var
+R2967:2969 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R2960:2962 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R2964:2964 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:17 var
+R2966:2966 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:18 var
+R2970:2972 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R2974:2974 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:16 var
+R2976:2976 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:18 var
+def 2992:2998 <> CRealGt
+R3007:3011 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 3001:3001 <> x:19
+binder 3003:3003 <> y:20
+R3017:3023 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R3025:3025 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:20 var
+R3027:3027 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:19 var
+def 3041:3052 <> CReal_appart
+R3061:3065 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 3055:3055 <> x:21
+binder 3057:3057 <> y:22
+R3071:3073 Coq.Init.Datatypes <> sum ind
+R3090:3096 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R3098:3098 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:22 var
+R3100:3100 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:21 var
+R3076:3082 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R3084:3084 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:21 var
+R3086:3086 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:22 var
+R3118:3124 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+not 3111:3111 <> ::CReal_scope:x_'<'_x
+R3154:3160 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGt def
+not 3147:3147 <> ::CReal_scope:x_'>'_x
+R3190:3201 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_appart def
+not 3183:3183 <> ::CReal_scope:x_'#'_x
+prf 3274:3287 <> CRealLtEpsilon
+R3304:3308 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 3298:3298 <> x:23
+binder 3300:3300 <> y:24
+R3330:3333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3315:3325 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtProp def
+R3327:3327 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:23 var
+R3329:3329 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:24 var
+R3335:3337 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R3334:3334 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:23 var
+R3338:3338 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:24 var
+R3371:3381 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtProp def
+R3397:3440 Coq.Reals.Cauchy.ConstructiveExtra <> constructive_indefinite_ground_description_Z thm
+R3397:3440 Coq.Reals.Cauchy.ConstructiveExtra <> constructive_indefinite_ground_description_Z thm
+R3482:3491 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R3495:3497 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3499:3501 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R3513:3515 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R3506:3508 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R3516:3518 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R3482:3491 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R3495:3497 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3499:3501 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R3513:3515 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R3506:3508 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R3516:3518 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R3599:3608 Coq.QArith.QArith_base <> Qle_not_lt thm
+R3599:3608 Coq.QArith.QArith_base <> Qle_not_lt thm
+prf 3639:3651 <> CRealLtForget
+R3668:3672 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 3662:3662 <> x:25
+binder 3664:3664 <> y:26
+R3684:3687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3680:3682 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R3679:3679 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:25 var
+R3683:3683 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:26 var
+R3688:3698 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtProp def
+R3700:3700 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:25 var
+R3702:3702 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:26 var
+prf 3850:3864 <> CRealLt_lpo_dec
+R3881:3885 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 3875:3875 <> x:27
+binder 3877:3877 <> y:28
+R3892:3892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4001:4009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3908:3911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3905:3907 Coq.Init.Datatypes <> nat ind
+binder 3901:3901 <> P:29
+R3919:3919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3948:3972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3929:3931 Coq.Init.Datatypes <> nat ind
+binder 3927:3927 <> n:30
+R3934:3934 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3938:3942 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3947:3947 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3935:3935 Coq.Reals.Cauchy.ConstructiveCauchyReals <> P:29 var
+R3937:3937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:30 var
+R3943:3943 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3944:3944 Coq.Reals.Cauchy.ConstructiveCauchyReals <> P:29 var
+R3946:3946 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:30 var
+R3983:3986 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R4000:4000 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3973:3973 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R3975:3977 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R3982:3982 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 3974:3974 <> n:31
+R3978:3978 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3979:3979 Coq.Reals.Cauchy.ConstructiveCauchyReals <> P:29 var
+R3981:3981 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:31 var
+binder 3994:3994 <> n:32
+R3997:3997 Coq.Reals.Cauchy.ConstructiveCauchyReals <> P:29 var
+R3999:3999 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:32 var
+R4021:4024 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R4045:4045 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R4010:4016 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R4018:4018 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:27 var
+R4020:4020 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:28 var
+R4036:4039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4025:4031 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R4033:4033 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:27 var
+R4035:4035 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:28 var
+R4040:4044 Coq.Init.Logic <> False ind
+R4096:4098 Coq.Init.Datatypes <> nat ind
+binder 4094:4094 <> n:33
+R4156:4159 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R4130:4132 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R4107:4109 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4114:4126 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4128:4128 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:33 var
+R4133:4135 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4140:4152 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4154:4154 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:33 var
+R4161:4163 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R4165:4168 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4184:4184 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4169:4181 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4183:4183 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:33 var
+R4096:4098 Coq.Init.Datatypes <> nat ind
+binder 4094:4094 <> n:34
+R4156:4159 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R4130:4132 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R4107:4109 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4114:4126 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4128:4128 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:34 var
+R4133:4135 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4140:4152 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4154:4154 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:34 var
+R4161:4163 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R4165:4168 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4184:4184 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4169:4181 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4183:4183 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:34 var
+R4215:4224 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R4228:4230 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R4232:4235 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4251:4251 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4236:4248 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4312:4314 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R4289:4291 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4296:4308 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4315:4317 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4322:4334 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4215:4224 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R4228:4230 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R4232:4235 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4251:4251 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R4236:4248 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4312:4314 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R4289:4291 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4296:4308 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4315:4317 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R4322:4334 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4419:4431 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4419:4431 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_rev def
+R4509:4517 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat def
+R4509:4517 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat def
+R4536:4547 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_id thm
+R4536:4547 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_id thm
+R4536:4547 Coq.Reals.Cauchy.ConstructiveExtra <> Z_inj_nat_id thm
+R4571:4580 Coq.QArith.QArith_base <> Qle_not_lt thm
+R4571:4580 Coq.QArith.QArith_base <> Qle_not_lt thm
+def 4650:4656 <> CRealLe
+R4665:4669 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 4659:4659 <> x:35
+binder 4661:4661 <> y:36
+R4695:4698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4684:4690 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R4692:4692 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:36 var
+R4694:4694 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:35 var
+R4699:4703 Coq.Init.Logic <> False ind
+def 4718:4724 <> CRealGe
+R4733:4737 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 4727:4727 <> x:37
+binder 4729:4729 <> y:38
+R4743:4749 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R4751:4751 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:38 var
+R4753:4753 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:37 var
+R4771:4777 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+not 4763:4763 <> ::CReal_scope:x_'<='_x
+R4808:4814 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGe def
+not 4800:4800 <> ::CReal_scope:x_'>='_x
+R4865:4868 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4860:4863 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R4870:4873 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+not 4841:4841 <> ::CReal_scope:x_'<='_x_'<='_x
+R4919:4922 Coq.Init.Datatypes <> prod ind
+R4935:4937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R4926:4929 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+not 4901:4901 <> ::CReal_scope:x_'<='_x_'<'_x
+R4984:4987 Coq.Init.Datatypes <> prod ind
+R4999:5001 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R4991:4993 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+not 4966:4966 <> ::CReal_scope:x_'<'_x_'<'_x
+R5048:5051 Coq.Init.Datatypes <> prod ind
+R5063:5066 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R5055:5057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+not 5030:5030 <> ::CReal_scope:x_'<'_x_'<='_x
+def 5138:5144 <> CRealEq
+R5153:5157 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 5147:5147 <> x:39
+binder 5149:5149 <> y:40
+R5172:5172 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5184:5189 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5201:5201 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5173:5179 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R5181:5181 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:40 var
+R5183:5183 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:39 var
+R5190:5196 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R5198:5198 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:39 var
+R5200:5200 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:40 var
+R5219:5225 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+not 5211:5211 <> ::CReal_scope:x_'=='_x
+prf 5249:5262 <> CRealLe_not_lt
+R5279:5283 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 5273:5273 <> x:41
+binder 5275:5275 <> y:42
+R5290:5290 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5339:5348 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5302:5302 Coq.Numbers.BinNums <> Z ind
+binder 5298:5298 <> n:43
+R5323:5326 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5313:5315 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R5306:5308 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5310:5310 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:41 var
+R5312:5312 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:43 var
+R5316:5318 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5320:5320 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:42 var
+R5322:5322 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:43 var
+R5328:5330 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5332:5334 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R5335:5335 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:43 var
+R5350:5353 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R5349:5349 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:41 var
+R5354:5354 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:42 var
+R5478:5487 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R5491:5493 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5495:5497 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R5509:5511 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R5502:5504 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5512:5514 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5478:5487 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R5491:5493 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5495:5497 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R5509:5511 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R5502:5504 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5512:5514 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+prf 5599:5610 <> CRealEq_diff
+R5628:5632 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 5622:5622 <> x:44
+binder 5624:5624 <> y:45
+R5651:5659 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5640:5646 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R5648:5648 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:44 var
+R5650:5650 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:45 var
+R5669:5669 Coq.Numbers.BinNums <> Z ind
+binder 5667:5667 <> n:46
+R5673:5673 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5698:5703 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5713:5713 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5674:5677 Coq.QArith.Qabs <> Qabs def
+R5687:5689 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R5680:5682 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5684:5684 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:44 var
+R5686:5686 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:46 var
+R5690:5692 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R5694:5694 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:45 var
+R5696:5696 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:46 var
+R5705:5707 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5709:5711 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R5712:5712 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:46 var
+R5804:5817 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R5804:5817 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R5878:5891 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R5878:5891 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R5946:5963 Coq.QArith.Qabs <> Qabs_Qle_condition thm
+R5946:5963 Coq.QArith.Qabs <> Qabs_Qle_condition thm
+R6004:6017 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R6059:6076 Coq.QArith.Qabs <> Qabs_Qle_condition thm
+R6004:6017 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R6004:6017 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_not_lt thm
+R6059:6076 Coq.QArith.Qabs <> Qabs_Qle_condition thm
+R6059:6076 Coq.QArith.Qabs <> Qabs_Qle_condition thm
+prf 6304:6319 <> CRealLt_aboveSig
+R6337:6341 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 6331:6331 <> x:47
+binder 6333:6333 <> y:48
+R6349:6349 Coq.Numbers.BinNums <> Z ind
+binder 6345:6345 <> n:49
+R6388:6392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6365:6367 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R6359:6361 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6363:6363 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6364:6364 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6375:6377 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6368:6370 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6372:6372 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:48 var
+R6374:6374 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6378:6380 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6382:6382 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:47 var
+R6384:6384 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6407:6424 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R6427:6428 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6462:6462 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6446:6448 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6436:6438 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6429:6431 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6433:6433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:48 var
+R6435:6435 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6439:6441 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6443:6443 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:47 var
+R6445:6445 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6451:6453 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6455:6457 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6458:6458 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+binder 6398:6398 <> k:50
+R6481:6481 Coq.Numbers.BinNums <> Z ind
+binder 6479:6479 <> p:51
+R6502:6510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6494:6497 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6493:6493 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:51 var
+R6498:6498 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:49 var
+R6518:6520 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R6513:6514 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6517:6517 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6515:6515 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6516:6516 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:50 var
+R6528:6530 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6521:6523 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6525:6525 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:48 var
+R6527:6527 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:51 var
+R6531:6533 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6535:6535 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:47 var
+R6537:6537 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:51 var
+R6582:6599 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R6602:6603 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6637:6637 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6625:6627 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6613:6615 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6605:6607 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6617:6619 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6630:6630 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6632:6632 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6582:6599 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R6602:6603 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6637:6637 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R6625:6627 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6613:6615 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R6605:6607 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6617:6619 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R6630:6630 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R6632:6632 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R6677:6693 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R6677:6693 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R6717:6727 Coq.QArith.Qpower <> Qpower_0_lt thm
+R6717:6727 Coq.QArith.Qpower <> Qpower_0_lt thm
+R6748:6763 Coq.QArith.QArith_base <> Qinv_lt_0_compat thm
+R6748:6763 Coq.QArith.QArith_base <> Qinv_lt_0_compat thm
+R6781:6795 Coq.QArith.QArith_base <> Qinv_involutive thm
+R6801:6810 Coq.QArith.Qpower <> Qpower_opp thm
+R6781:6795 Coq.QArith.QArith_base <> Qinv_involutive thm
+R6781:6795 Coq.QArith.QArith_base <> Qinv_involutive thm
+R6801:6810 Coq.QArith.Qpower <> Qpower_opp thm
+R6801:6810 Coq.QArith.Qpower <> Qpower_opp thm
+R6847:6852 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R6847:6852 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R6910:6915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R6910:6915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R6968:6985 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R6968:6985 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R6968:6985 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+prf 7115:7131 <> CRealLt_aboveSig'
+R7149:7153 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 7143:7143 <> x:52
+binder 7145:7145 <> y:53
+R7161:7161 Coq.Numbers.BinNums <> Z ind
+binder 7157:7157 <> n:54
+R7200:7204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7177:7179 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R7171:7173 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7175:7175 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7176:7176 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7187:7189 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7180:7182 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7184:7184 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:53 var
+R7186:7186 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7190:7192 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7194:7194 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:52 var
+R7196:7196 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7219:7236 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R7239:7240 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7274:7274 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7258:7260 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7248:7250 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7241:7243 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7245:7245 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:53 var
+R7247:7247 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7251:7253 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7255:7255 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:52 var
+R7257:7257 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7263:7265 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7267:7269 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7270:7270 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+binder 7210:7210 <> k:55
+R7293:7293 Coq.Numbers.BinNums <> Z ind
+binder 7291:7291 <> p:56
+R7314:7322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7306:7309 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7305:7305 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:56 var
+R7310:7310 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7346:7348 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R7325:7327 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7329:7330 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7345:7345 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7331:7335 Coq.ZArith.BinInt Z min def
+R7340:7340 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7338:7338 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7339:7339 Coq.Reals.Cauchy.ConstructiveCauchyReals <> k:55 var
+R7344:7344 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:54 var
+R7356:7358 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7349:7351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7353:7353 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:53 var
+R7355:7355 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:56 var
+R7359:7361 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7363:7363 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:52 var
+R7365:7365 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:56 var
+R7414:7429 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_aboveSig thm
+R7414:7429 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_aboveSig thm
+R7457:7474 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R7477:7479 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7511:7511 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7497:7500 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7510:7510 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7487:7489 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7480:7482 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7490:7492 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7502:7504 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7506:7508 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7457:7474 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R7477:7479 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7511:7511 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R7497:7500 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7510:7510 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7487:7489 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7480:7482 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7490:7492 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7502:7504 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7506:7508 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7581:7598 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R7603:7607 Coq.ZArith.BinInt Z min def
+R7613:7614 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7610:7611 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7625:7625 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7622:7623 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7630:7639 Coq.ZArith.BinInt Z le_min_l thm
+R7581:7598 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R7603:7607 Coq.ZArith.BinInt Z min def
+R7613:7614 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7610:7611 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7625:7625 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7622:7623 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7630:7639 Coq.ZArith.BinInt Z le_min_l thm
+R7674:7689 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R7674:7689 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R7674:7689 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R7707:7723 Coq.QArith.QArith_base <> Qmult_le_compat_r thm
+R7707:7723 Coq.QArith.QArith_base <> Qmult_le_compat_r thm
+R7781:7792 Coq.QArith.QArith_base <> Qle_lt_trans thm
+R7781:7792 Coq.QArith.QArith_base <> Qle_lt_trans thm
+prf 7819:7831 <> CRealLt_above
+R7849:7853 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 7843:7843 <> x:57
+binder 7845:7845 <> y:58
+R7872:7879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7861:7867 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R7869:7869 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:57 var
+R7871:7871 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:58 var
+R7880:7881 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7883:7885 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7887:7889 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7961:7962 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7886:7886 Coq.Numbers.BinNums <> Z ind
+binder 7882:7882 <> n:59
+R7901:7901 Coq.Numbers.BinNums <> Z ind
+binder 7897:7897 <> p:60
+R7924:7927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7916:7919 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7915:7915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:60 var
+R7920:7920 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:59 var
+R7938:7940 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R7930:7932 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R7934:7936 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R7937:7937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:59 var
+R7948:7950 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R7941:7943 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7945:7945 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:58 var
+R7947:7947 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:60 var
+R7951:7953 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R7955:7955 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:57 var
+R7957:7957 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:60 var
+R8008:8024 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_aboveSig' thm
+R8008:8024 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_aboveSig' thm
+R8055:8072 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R8075:8077 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R8109:8109 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R8095:8098 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8108:8108 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8085:8087 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8078:8080 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8088:8090 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8100:8102 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R8104:8106 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R8055:8072 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R8075:8077 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R8109:8109 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R8095:8098 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8108:8108 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8085:8087 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8078:8080 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8088:8090 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8100:8102 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R8104:8106 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R8140:8144 Coq.ZArith.BinInt Z min def
+R8149:8151 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8147:8147 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8140:8144 Coq.ZArith.BinInt Z min def
+R8149:8151 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R8147:8147 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+prf 8259:8276 <> CRealLt_above_same
+R8294:8298 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 8288:8288 <> x:61
+binder 8290:8290 <> y:62
+R8306:8306 Coq.Numbers.BinNums <> Z ind
+binder 8302:8302 <> n:63
+R8347:8351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8324:8326 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R8316:8318 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R8320:8322 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R8323:8323 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:63 var
+R8334:8336 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R8327:8329 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8331:8331 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:62 var
+R8333:8333 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:63 var
+R8337:8339 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8341:8341 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:61 var
+R8343:8343 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:63 var
+R8361:8361 Coq.Numbers.BinNums <> Z ind
+binder 8359:8359 <> p:64
+R8374:8377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8366:8369 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8365:8365 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:64 var
+R8370:8370 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:63 var
+R8378:8380 Coq.QArith.QArith_base <> Qlt def
+R8383:8385 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8387:8387 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:61 var
+R8389:8389 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:64 var
+R8393:8395 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8397:8397 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:62 var
+R8399:8399 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:64 var
+R8470:8475 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R8470:8475 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R8525:8530 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R8525:8530 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R8575:8592 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R8575:8592 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R8575:8592 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+prf 8619:8630 <> CRealLt_asym
+R8647:8651 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 8641:8641 <> x:65
+binder 8643:8643 <> y:66
+R8659:8662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8655:8657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R8654:8654 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:65 var
+R8658:8658 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:66 var
+R8664:8667 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R8663:8663 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:65 var
+R8668:8668 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:66 var
+R8708:8720 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above thm
+R8708:8720 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above thm
+R8763:8780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above_same thm
+R8763:8780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above_same thm
+R8801:8810 Coq.QArith.QArith_base <> Qlt_not_le thm
+R8813:8815 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8820:8824 Coq.ZArith.BinInt Z min def
+R8853:8855 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8860:8864 Coq.ZArith.BinInt Z min def
+R8801:8810 Coq.QArith.QArith_base <> Qlt_not_le thm
+R8813:8815 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8820:8824 Coq.ZArith.BinInt Z min def
+R8853:8855 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8860:8864 Coq.ZArith.BinInt Z min def
+R8892:8901 Coq.ZArith.BinInt Z le_min_l thm
+R8892:8901 Coq.ZArith.BinInt Z le_min_l thm
+R8912:8922 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R8912:8922 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R8932:8941 Coq.QArith.QArith_base <> Qplus_lt_l thm
+R8948:8948 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R8949:8951 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8956:8960 Coq.ZArith.BinInt Z min def
+R8932:8941 Coq.QArith.QArith_base <> Qplus_lt_l thm
+R8948:8948 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R8949:8951 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R8956:8960 Coq.ZArith.BinInt Z min def
+R8980:8990 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R8980:8990 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R8980:8990 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R9000:9008 Coq.QArith.QArith_base <> Qlt_trans thm
+R9014:9014 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9016:9016 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R9000:9008 Coq.QArith.QArith_base <> Qlt_trans thm
+R9014:9014 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9016:9016 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R9037:9047 Coq.QArith.Qpower <> Qpower_0_lt thm
+R9037:9047 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 9122:9135 <> CRealLt_irrefl
+R9148:9152 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 9146:9146 <> x:67
+R9160:9163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9156:9158 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R9155:9155 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:67 var
+R9159:9159 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:67 var
+R9164:9168 Coq.Init.Logic <> False ind
+R9201:9212 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+R9201:9212 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+prf 9240:9251 <> CRealLe_refl
+R9266:9270 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 9262:9262 <> x:68
+R9274:9277 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R9273:9273 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:68 var
+R9278:9278 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:68 var
+R9323:9334 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+R9323:9334 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+prf 9373:9384 <> CRealEq_refl
+R9399:9403 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 9395:9395 <> x:69
+R9407:9410 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R9406:9406 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:69 var
+R9411:9411 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:69 var
+R9444:9455 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_refl thm
+R9444:9455 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_refl thm
+R9444:9455 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_refl thm
+prf 9470:9480 <> CRealEq_sym
+R9497:9501 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 9491:9491 <> x:70
+binder 9493:9493 <> y:71
+R9515:9518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9504:9510 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R9512:9512 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:70 var
+R9514:9514 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:71 var
+R9519:9525 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R9527:9527 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:71 var
+R9529:9529 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:70 var
+prf 9606:9616 <> CRealLt_dec
+R9635:9639 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 9627:9627 <> x:72
+binder 9629:9629 <> y:73
+binder 9631:9631 <> z:74
+R9651:9654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9647:9649 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R9646:9646 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:72 var
+R9650:9650 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:73 var
+R9655:9657 Coq.Init.Datatypes <> sum ind
+R9669:9671 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R9668:9668 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:74 var
+R9672:9672 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:73 var
+R9661:9663 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R9660:9660 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:72 var
+R9664:9664 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:74 var
+R9719:9736 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R9739:9740 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R9776:9776 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R9762:9765 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9775:9775 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9750:9752 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9742:9744 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9754:9756 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9767:9769 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9771:9773 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R9719:9736 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R9739:9740 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R9776:9776 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R9762:9765 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9775:9775 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9750:9752 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R9742:9744 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9754:9756 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9767:9769 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9771:9773 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R9803:9819 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R9822:9836 Coq.QArith.QArith_base <> Qinv_involutive thm
+R9842:9851 Coq.QArith.Qpower <> Qpower_opp thm
+R9803:9819 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R9803:9819 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R9803:9819 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R9803:9819 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R9822:9836 Coq.QArith.QArith_base <> Qinv_involutive thm
+R9822:9836 Coq.QArith.QArith_base <> Qinv_involutive thm
+R9842:9851 Coq.QArith.Qpower <> Qpower_opp thm
+R9842:9851 Coq.QArith.Qpower <> Qpower_opp thm
+R9875:9885 Coq.QArith.Qpower <> Qpower_0_lt thm
+R9875:9885 Coq.QArith.Qpower <> Qpower_0_lt thm
+R9906:9921 Coq.QArith.QArith_base <> Qinv_lt_0_compat thm
+R9906:9921 Coq.QArith.QArith_base <> Qinv_lt_0_compat thm
+R9942:9951 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R9954:9954 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9958:9962 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9984:9984 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9956:9956 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R9972:9974 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R9964:9966 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9976:9978 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9989:9991 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9997:10001 Coq.ZArith.BinInt Z min def
+R10009:10011 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10006:10007 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10055:10060 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R10085:10090 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R9942:9951 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R9954:9954 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9958:9962 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9984:9984 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R9956:9956 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R9972:9974 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R9964:9966 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9976:9978 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9989:9991 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R9997:10001 Coq.ZArith.BinInt Z min def
+R10009:10011 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10006:10007 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10055:10060 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R10085:10090 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R10120:10124 Coq.ZArith.BinInt Z min def
+R10135:10137 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10133:10133 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10120:10124 Coq.ZArith.BinInt Z min def
+R10135:10137 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10133:10133 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10120:10124 Coq.ZArith.BinInt Z min def
+R10135:10137 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10133:10133 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10173:10177 Coq.ZArith.BinInt Z min def
+R10184:10184 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10182:10182 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10173:10177 Coq.ZArith.BinInt Z min def
+R10184:10184 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10182:10182 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10173:10177 Coq.ZArith.BinInt Z min def
+R10184:10184 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10182:10182 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10230:10247 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R10230:10247 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R10230:10247 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R10230:10247 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R10230:10247 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R10293:10296 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R10273:10275 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10276:10280 Coq.ZArith.BinInt Z min def
+R10288:10290 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10285:10286 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10298:10301 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10309:10309 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10305:10307 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10302:10303 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10344:10361 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R10293:10296 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R10273:10275 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10276:10280 Coq.ZArith.BinInt Z min def
+R10288:10290 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10285:10286 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10298:10301 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10309:10309 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10305:10307 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10302:10303 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10344:10361 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R10293:10296 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R10273:10275 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10276:10280 Coq.ZArith.BinInt Z min def
+R10288:10290 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10285:10286 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10298:10301 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10309:10309 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R10305:10307 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10302:10303 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10344:10361 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R10391:10406 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R10391:10406 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R10391:10406 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R10391:10406 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R10391:10406 Coq.QArith.Qpower <> Qpower_minus_pos thm
+def 10442:10455 <> linear_order_T
+binder 10457:10457 <> x:75
+binder 10459:10459 <> y:76
+binder 10461:10461 <> z:77
+R10466:10476 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R10478:10478 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:75 var
+R10480:10480 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:77 var
+R10482:10482 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:76 var
+prf 10492:10508 <> CReal_le_lt_trans
+R10527:10531 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 10519:10519 <> x:78
+binder 10521:10521 <> y:79
+binder 10523:10523 <> z:80
+R10544:10547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10539:10542 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R10538:10538 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:78 var
+R10543:10543 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:79 var
+R10553:10556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10549:10551 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R10548:10548 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:79 var
+R10552:10552 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:80 var
+R10558:10560 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R10557:10557 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:78 var
+R10561:10561 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:80 var
+R10607:10620 Coq.Reals.Cauchy.ConstructiveCauchyReals <> linear_order_T def
+R10607:10620 Coq.Reals.Cauchy.ConstructiveCauchyReals <> linear_order_T def
+prf 10699:10715 <> CReal_lt_le_trans
+R10734:10738 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 10726:10726 <> x:81
+binder 10728:10728 <> y:82
+binder 10730:10730 <> z:83
+R10750:10753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10746:10748 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R10745:10745 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:81 var
+R10749:10749 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:82 var
+R10760:10763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10755:10758 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R10754:10754 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:82 var
+R10759:10759 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:83 var
+R10765:10767 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R10764:10764 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:81 var
+R10768:10768 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:83 var
+R10814:10827 Coq.Reals.Cauchy.ConstructiveCauchyReals <> linear_order_T def
+R10814:10827 Coq.Reals.Cauchy.ConstructiveCauchyReals <> linear_order_T def
+prf 10906:10919 <> CReal_le_trans
+R10938:10942 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 10930:10930 <> x:84
+binder 10932:10932 <> y:85
+binder 10934:10934 <> z:86
+R10955:10958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10950:10953 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R10949:10949 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:84 var
+R10954:10954 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:85 var
+R10965:10968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10960:10963 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R10959:10959 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:85 var
+R10964:10964 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:86 var
+R10970:10973 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R10969:10969 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:84 var
+R10974:10974 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:86 var
+R11043:11059 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_lt_le_trans thm
+R11043:11059 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_lt_le_trans thm
+prf 11091:11104 <> CReal_lt_trans
+R11123:11127 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 11115:11115 <> x:87
+binder 11117:11117 <> y:88
+binder 11119:11119 <> z:89
+R11139:11142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11135:11137 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R11134:11134 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:87 var
+R11138:11138 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:88 var
+R11148:11151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11144:11146 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R11143:11143 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:88 var
+R11147:11147 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:89 var
+R11153:11155 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R11152:11152 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:87 var
+R11156:11156 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:89 var
+R11203:11219 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_lt_le_trans thm
+R11203:11219 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_lt_le_trans thm
+R11243:11254 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+R11243:11254 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_asym thm
+prf 11282:11294 <> CRealEq_trans
+R11313:11317 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 11305:11305 <> x:90
+binder 11307:11307 <> y:91
+binder 11309:11309 <> z:92
+R11335:11338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11324:11330 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11332:11332 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:90 var
+R11334:11334 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:91 var
+R11350:11353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11339:11345 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11347:11347 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:91 var
+R11349:11349 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:92 var
+R11354:11360 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11362:11362 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:90 var
+R11364:11364 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:92 var
+R11509:11519 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R11509:11519 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R11579:11589 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R11579:11589 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R11653:11657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R11659:11665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11653:11657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R11659:11665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11693:11704 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R11653:11657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R11659:11665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11729:11739 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_sym thm
+R11653:11657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R11659:11665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11768:11780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R11653:11657 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R11659:11665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11693:11704 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R11729:11739 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_sym thm
+R11768:11780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+inst 11824:11835 <> CRealEq_relT
+R11839:11866 Coq.Classes.CRelationClasses <> Equivalence class
+R11868:11874 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R11903:11914 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R11903:11914 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R11927:11937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_sym thm
+R11927:11937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_sym thm
+R11950:11962 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R11950:11962 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+inst 11990:12002 <> CRealLt_morph
+R12008:12024 Coq.Classes.CMorphisms <> Proper class
+R12118:12124 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R12033:12053 Coq.Classes.CMorphisms <> respectful def
+R12064:12084 Coq.Classes.CMorphisms <> respectful def
+R12094:12114 Coq.Classes.CRelationClasses <> iffT def
+R12086:12092 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R12055:12061 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R12281:12291 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12281:12291 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12357:12367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12357:12367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12454:12464 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12454:12464 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12530:12540 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+R12530:12540 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_dec thm
+inst 12624:12636 <> CRealGt_morph
+R12642:12658 Coq.Classes.CMorphisms <> Proper class
+R12752:12758 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGt def
+R12667:12687 Coq.Classes.CMorphisms <> respectful def
+R12698:12718 Coq.Classes.CMorphisms <> respectful def
+R12728:12748 Coq.Classes.CRelationClasses <> iffT def
+R12720:12726 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R12689:12695 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R12808:12820 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+R12808:12820 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+inst 12860:12877 <> CReal_appart_morph
+R12883:12899 Coq.Classes.CMorphisms <> Proper class
+R12993:13004 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_appart def
+R12908:12928 Coq.Classes.CMorphisms <> respectful def
+R12939:12959 Coq.Classes.CMorphisms <> respectful def
+R12969:12989 Coq.Classes.CRelationClasses <> iffT def
+R12961:12967 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R12930:12936 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R13451:13455 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13444:13450 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R13463:13467 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13456:13462 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R13468:13470 Coq.Init.Logic <> iff def
+R13413:13423 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtProp def
+R13575:13587 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtForget thm
+R13575:13587 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtForget thm
+R13596:13609 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtEpsilon thm
+R13596:13609 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtEpsilon thm
+R13696:13708 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtForget thm
+R13696:13708 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtForget thm
+R13717:13730 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtEpsilon thm
+R13717:13730 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLtEpsilon thm
+R13851:13855 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13844:13850 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R13863:13867 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13856:13862 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R13868:13870 Coq.Init.Logic <> iff def
+R13817:13823 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R13979:13985 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R14108:14114 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R14264:14268 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14257:14263 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R14276:14280 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14269:14275 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R14281:14283 Coq.Init.Logic <> iff def
+R14230:14236 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGe def
+R14359:14365 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGe def
+R14374:14386 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+R14374:14386 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+prf 14413:14428 <> CRealLt_proper_l
+R14447:14451 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 14439:14439 <> x:93
+binder 14441:14441 <> y:94
+binder 14443:14443 <> z:95
+R14469:14476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14458:14464 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R14466:14466 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:93 var
+R14468:14468 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:94 var
+R14488:14491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14477:14483 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R14485:14485 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:93 var
+R14487:14487 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:95 var
+R14492:14498 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R14500:14500 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:94 var
+R14502:14502 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:95 var
+R14549:14561 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+R14549:14561 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+R14589:14600 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R14589:14600 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+prf 14632:14647 <> CRealLt_proper_r
+R14666:14670 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 14658:14658 <> x:96
+binder 14660:14660 <> y:97
+binder 14662:14662 <> z:98
+R14688:14695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14677:14683 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R14685:14685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:96 var
+R14687:14687 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:97 var
+R14707:14710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14696:14702 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R14704:14704 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:98 var
+R14706:14706 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:96 var
+R14711:14717 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R14719:14719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:98 var
+R14721:14721 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:97 var
+R14768:14780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+R14787:14798 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R14768:14780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_morph inst
+R14787:14798 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+prf 14855:14870 <> CRealLe_proper_l
+R14889:14893 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 14881:14881 <> x:99
+binder 14883:14883 <> y:100
+binder 14885:14885 <> z:101
+R14911:14918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14900:14906 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R14908:14908 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:99 var
+R14910:14910 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:100 var
+R14930:14933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14919:14925 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R14927:14927 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:99 var
+R14929:14929 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:101 var
+R14934:14940 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R14942:14942 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:100 var
+R14944:14944 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:101 var
+R14991:15003 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+R14991:15003 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+R15031:15042 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R15031:15042 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+prf 15074:15089 <> CRealLe_proper_r
+R15108:15112 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 15100:15100 <> x:102
+binder 15102:15102 <> y:103
+binder 15104:15104 <> z:104
+R15130:15137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15119:15125 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R15127:15127 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:102 var
+R15129:15129 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:103 var
+R15149:15152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15138:15144 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R15146:15146 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:104 var
+R15148:15148 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:102 var
+R15153:15159 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe def
+R15161:15161 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:104 var
+R15163:15163 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:103 var
+R15210:15222 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+R15229:15240 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+R15210:15222 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLe_morph def
+R15229:15240 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_refl thm
+prf 15332:15346 <> inject_Q_cauchy
+R15361:15361 Coq.QArith.QArith_base <> Q rec
+binder 15357:15357 <> q:105
+R15364:15373 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QCauchySeq def
+R15385:15385 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:105 var
+R15428:15445 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R15428:15445 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R15461:15471 Coq.QArith.Qpower <> Qpower_0_lt thm
+R15461:15471 Coq.QArith.Qpower <> Qpower_0_lt thm
+def 15500:15507 <> inject_Q
+R15514:15514 Coq.QArith.QArith_base <> Q rec
+binder 15510:15510 <> q:106
+R15519:15523 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R15533:15535 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R15533:15535 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R15533:15535 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R15560:15564 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R15560:15564 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R15593:15598 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R15593:15598 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R15624:15628 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R15624:15628 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R15549:15549 Coq.Numbers.BinNums <> Z ind
+binder 15545:15545 <> n:107
+R15554:15554 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:106 var
+R15569:15586 Coq.Reals.Cauchy.QExtra <> Qbound_ltabs_ZExp2 def
+R15588:15588 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:106 var
+R15603:15617 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q_cauchy thm
+R15619:15619 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:106 var
+R15642:15642 Coq.Numbers.BinNums <> Z ind
+R15647:15669 Coq.Reals.Cauchy.QExtra <> Qbound_ltabs_ZExp2_spec thm
+R15671:15671 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:106 var
+def 15690:15697 <> inject_Z
+R15702:15705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15701:15701 Coq.Numbers.BinNums <> Z ind
+R15706:15710 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 15721:15721 <> n:108
+R15726:15733 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R15737:15739 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R15736:15736 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:108 var
+R15762:15769 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+not 15754:15754 <> ::CReal_scope:'0'
+R15806:15813 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+not 15798:15798 <> ::CReal_scope:'1'
+R15850:15857 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+not 15842:15842 <> ::CReal_scope:'2'
+prf 15884:15894 <> CRealLt_0_1
+R15898:15904 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R15907:15914 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R15920:15927 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+prf 15979:15994 <> CReal_injectQPos
+R16009:16009 Coq.QArith.QArith_base <> Q rec
+binder 16005:16005 <> q:109
+R16025:16028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16018:16020 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R16021:16021 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:109 var
+R16029:16035 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt def
+R16038:16045 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R16051:16058 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R16060:16060 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:109 var
+R16096:16113 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R16116:16116 Coq.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R16120:16123 Coq.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R16118:16118 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R16096:16113 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R16116:16116 Coq.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R16120:16123 Coq.QArith.QArith_base <> ::Q_scope:x_'/'_x not
+R16118:16118 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R16149:16149 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16149:16149 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16170:16186 Coq.QArith.QArith_base <> Qmult_lt_compat_r thm
+R16170:16186 Coq.QArith.QArith_base <> Qmult_lt_compat_r thm
+R16230:16246 Coq.QArith.QArith_base <> Qmult_lt_compat_r thm
+R16254:16255 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16258:16258 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16256:16256 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16230:16246 Coq.QArith.QArith_base <> Qmult_lt_compat_r thm
+R16254:16255 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16258:16258 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16256:16256 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16282:16292 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16282:16292 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16423:16433 Coq.QArith.QArith_base <> Qmult_assoc thm
+R16439:16449 Coq.QArith.Qpower <> Qpower_plus thm
+R16423:16433 Coq.QArith.QArith_base <> Qmult_assoc thm
+R16423:16433 Coq.QArith.QArith_base <> Qmult_assoc thm
+R16439:16449 Coq.QArith.Qpower <> Qpower_plus thm
+R16439:16449 Coq.QArith.Qpower <> Qpower_plus thm
+R16484:16485 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16482:16482 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16484:16485 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16482:16482 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16508:16517 Coq.QArith.Qpower <> Qpower_0_r thm
+R16508:16517 Coq.QArith.Qpower <> Qpower_0_r thm
+R16508:16517 Coq.QArith.Qpower <> Qpower_0_r thm
+prf 16545:16560 <> inject_Q_compare
+R16576:16580 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 16572:16572 <> x:110
+R16588:16588 Coq.Numbers.BinNums <> Z ind
+binder 16584:16584 <> p:111
+R16597:16600 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R16596:16596 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:110 var
+R16601:16608 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R16618:16621 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16625:16625 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R16611:16613 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R16615:16615 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:110 var
+R16617:16617 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:111 var
+R16623:16623 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16624:16624 Coq.Reals.Cauchy.ConstructiveCauchyReals <> p:111 var
+R16686:16686 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R16684:16684 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16702:16712 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16686:16686 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R16684:16684 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16702:16712 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16733:16733 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R16731:16731 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16749:16759 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16733:16733 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R16731:16731 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R16749:16759 Coq.QArith.Qpower <> Qpower_0_lt thm
+R16784:16789 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R16784:16789 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R16813:16821 Coq.ZArith.BinInt Z min_dec thm
+R16813:16821 Coq.ZArith.BinInt Z min_dec thm
+R16951:16968 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R16951:16968 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R16951:16968 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R17047:17051 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17044:17046 Coq.QArith.QArith_base <> Qeq def
+R17052:17058 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R17016:17023 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R17198:17198 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17196:17196 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17214:17224 Coq.QArith.Qpower <> Qpower_0_lt thm
+R17198:17198 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17196:17196 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17214:17224 Coq.QArith.Qpower <> Qpower_0_lt thm
+R17198:17198 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17196:17196 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17214:17224 Coq.QArith.Qpower <> Qpower_0_lt thm
+inst 17263:17278 <> inject_Q_morph_T
+R17284:17300 Coq.Classes.CMorphisms <> Proper class
+R17344:17351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R17309:17329 Coq.Classes.CMorphisms <> respectful def
+R17335:17341 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R17331:17333 Coq.QArith.QArith_base <> Qeq def
+R17467:17467 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17465:17465 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17483:17493 Coq.QArith.Qpower <> Qpower_0_lt thm
+R17467:17467 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17465:17465 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17483:17493 Coq.QArith.Qpower <> Qpower_0_lt thm
+R17467:17467 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R17465:17465 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R17483:17493 Coq.QArith.Qpower <> Qpower_0_lt thm
+def 17623:17636 <> CReal_plus_seq
+R17645:17649 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 17639:17639 <> x:112
+binder 17641:17641 <> y:113
+R17666:17666 Coq.Numbers.BinNums <> Z ind
+binder 17662:17662 <> n:114
+R17671:17674 Coq.QArith.Qreduction <> Qred def
+R17690:17692 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R17677:17679 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R17681:17681 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:112 var
+R17685:17685 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17684:17684 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:114 var
+R17693:17695 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R17697:17697 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:113 var
+R17701:17701 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17700:17700 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:114 var
+def 17722:17737 <> CReal_plus_scale
+R17746:17750 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 17740:17740 <> x:115
+binder 17742:17742 <> y:116
+R17755:17755 Coq.Numbers.BinNums <> Z ind
+R17787:17789 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17762:17766 Coq.ZArith.BinInt Z max def
+R17771:17775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R17768:17768 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:115 var
+R17781:17785 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R17778:17778 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:116 var
+prf 17800:17816 <> CReal_plus_cauchy
+R17834:17838 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 17828:17828 <> x:117
+binder 17830:17830 <> y:118
+R17844:17853 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QCauchySeq def
+R17856:17869 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R17871:17871 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:117 var
+R17873:17873 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:118 var
+R17919:17932 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R17950:17955 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R17962:17962 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17970:17970 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17978:17978 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17950:17955 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R17962:17962 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17970:17970 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17978:17978 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18032:18037 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R18044:18044 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18052:18052 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18060:18060 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18032:18037 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R18044:18044 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18052:18052 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18060:18060 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18114:18125 Coq.QArith.Qreduction <> Qred_correct thm
+R18114:18125 Coq.QArith.Qreduction <> Qred_correct thm
+R18114:18125 Coq.QArith.Qreduction <> Qred_correct thm
+R18114:18125 Coq.QArith.Qreduction <> Qred_correct thm
+R18114:18125 Coq.QArith.Qreduction <> Qred_correct thm
+R18138:18155 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18138:18155 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18138:18155 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18189:18204 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R18189:18204 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R18189:18204 Coq.QArith.Qpower <> Qpower_minus_pos thm
+prf 18242:18257 <> CReal_plus_bound
+R18275:18279 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 18269:18269 <> x:119
+binder 18271:18271 <> y:120
+R18285:18290 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QBound def
+R18293:18306 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R18308:18308 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:119 var
+R18310:18310 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:120 var
+R18314:18329 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_scale def
+R18331:18331 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:119 var
+R18333:18333 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:120 var
+R18369:18382 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R18385:18400 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_scale def
+R18417:18421 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18427:18427 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18417:18421 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18427:18427 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18458:18462 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18468:18468 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18458:18462 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18468:18468 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18495:18505 Coq.QArith.Qpower <> Qpower_plus thm
+R18495:18505 Coq.QArith.Qpower <> Qpower_plus thm
+R18495:18505 Coq.QArith.Qpower <> Qpower_plus thm
+R18528:18545 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R18550:18554 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18560:18564 Coq.ZArith.BinInt Z max def
+R18567:18571 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18577:18581 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18528:18545 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R18550:18554 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18560:18564 Coq.ZArith.BinInt Z max def
+R18567:18571 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18577:18581 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18632:18649 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R18654:18658 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18664:18668 Coq.ZArith.BinInt Z max def
+R18671:18675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18681:18685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18632:18649 Coq.QArith.Qpower <> Qpower_le_compat_l thm
+R18654:18658 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18664:18668 Coq.ZArith.BinInt Z max def
+R18671:18675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18681:18685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18733:18750 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18733:18750 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18733:18750 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R18784:18795 Coq.QArith.Qreduction <> Qred_correct thm
+R18784:18795 Coq.QArith.Qreduction <> Qred_correct thm
+R18784:18795 Coq.QArith.Qreduction <> Qred_correct thm
+def 18822:18831 <> CReal_plus
+R18840:18844 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 18834:18834 <> x:121
+binder 18836:18836 <> y:122
+R18849:18853 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R18863:18865 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R18863:18865 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R18863:18865 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R18892:18896 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18892:18896 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R18925:18930 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R18925:18930 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R18960:18964 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18960:18964 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R18870:18883 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R18885:18885 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:121 var
+R18887:18887 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:122 var
+R18901:18916 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_scale def
+R18918:18918 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:121 var
+R18920:18920 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:122 var
+R18935:18951 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_cauchy thm
+R18953:18953 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:121 var
+R18955:18955 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:122 var
+R18969:18984 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_bound thm
+R18986:18986 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:121 var
+R18988:18988 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:122 var
+R19008:19017 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+not 19001:19001 <> ::CReal_scope:x_'+'_x
+def 19046:19058 <> CReal_opp_seq
+R19065:19069 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19061:19061 <> x:123
+R19086:19086 Coq.Numbers.BinNums <> Z ind
+binder 19082:19082 <> n:124
+R19091:19092 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R19093:19095 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R19097:19097 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:123 var
+R19099:19099 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:124 var
+def 19115:19129 <> CReal_opp_scale
+R19136:19140 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19132:19132 <> x:125
+R19145:19145 Coq.Numbers.BinNums <> Z ind
+R19155:19159 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R19152:19152 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:125 var
+prf 19170:19185 <> CReal_opp_cauchy
+R19201:19205 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19197:19197 <> x:126
+R19211:19220 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QCauchySeq def
+R19223:19235 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R19237:19237 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:126 var
+R19279:19291 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R19309:19314 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R19309:19314 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R19368:19385 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R19368:19385 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R19368:19385 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+prf 19421:19435 <> CReal_opp_bound
+R19451:19455 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19447:19447 <> x:127
+R19461:19466 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QBound def
+R19469:19481 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R19483:19483 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:127 var
+R19487:19501 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_scale def
+R19503:19503 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:127 var
+R19537:19549 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R19552:19566 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_scale def
+R19583:19587 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R19583:19587 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R19614:19631 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R19614:19631 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R19614:19631 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+def 19672:19680 <> CReal_opp
+R19687:19691 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19683:19683 <> x:128
+R19696:19700 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R19710:19712 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R19710:19712 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R19710:19712 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R19736:19740 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R19736:19740 Coq.Reals.Cauchy.ConstructiveCauchyReals <> scale proj
+R19766:19771 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R19766:19771 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R19798:19802 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R19798:19802 Coq.Reals.Cauchy.ConstructiveCauchyReals <> bound proj
+R19717:19729 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R19731:19731 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:128 var
+R19745:19759 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_scale def
+R19761:19761 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:128 var
+R19776:19791 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_cauchy thm
+R19793:19793 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:128 var
+R19807:19821 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_bound thm
+R19823:19823 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:128 var
+R19849:19857 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp def
+not 19839:19839 <> ::CReal_scope:'-'_x
+def 19889:19899 <> CReal_minus
+R19908:19912 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 19902:19902 <> x:129
+binder 19904:19904 <> y:130
+R19917:19921 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+R19928:19937 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R19939:19939 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:129 var
+R19942:19950 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp def
+R19952:19952 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:130 var
+R19970:19980 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_minus def
+not 19963:19963 <> ::CReal_scope:x_'-'_x
+prf 20039:20051 <> CReal_red_seq
+R20067:20070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20066:20066 Coq.Numbers.BinNums <> Z ind
+R20071:20071 Coq.QArith.QArith_base <> Q rec
+binder 20062:20062 <> a:131
+R20079:20079 Coq.Numbers.BinNums <> Z ind
+binder 20075:20075 <> b:132
+R20087:20096 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QCauchySeq def
+R20098:20098 Coq.Reals.Cauchy.ConstructiveCauchyReals <> a:131 var
+binder 20083:20083 <> c:133
+R20106:20111 Coq.Reals.Cauchy.ConstructiveCauchyReals <> QBound def
+R20113:20113 Coq.Reals.Cauchy.ConstructiveCauchyReals <> a:131 var
+R20115:20115 Coq.Reals.Cauchy.ConstructiveCauchyReals <> b:132 var
+binder 20102:20102 <> d:134
+R20142:20144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20121:20123 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R20126:20132 Coq.Reals.Cauchy.ConstructiveCauchyReals <> mkCReal constr
+R20134:20134 Coq.Reals.Cauchy.ConstructiveCauchyReals <> a:131 var
+R20136:20136 Coq.Reals.Cauchy.ConstructiveCauchyReals <> b:132 var
+R20138:20138 Coq.Reals.Cauchy.ConstructiveCauchyReals <> c:133 var
+R20140:20140 Coq.Reals.Cauchy.ConstructiveCauchyReals <> d:134 var
+R20145:20145 Coq.Reals.Cauchy.ConstructiveCauchyReals <> a:131 var
+prf 20182:20197 <> CReal_plus_assoc
+R20217:20221 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 20209:20209 <> x:135
+binder 20211:20211 <> y:136
+binder 20213:20213 <> z:137
+R20240:20243 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R20229:20229 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20235:20238 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20231:20233 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20230:20230 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:135 var
+R20234:20234 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:136 var
+R20239:20239 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:137 var
+R20245:20248 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20254:20254 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20244:20244 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:135 var
+R20250:20252 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20249:20249 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:136 var
+R20253:20253 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:137 var
+R20286:20297 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R20286:20297 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R20318:20327 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R20330:20343 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20359:20371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20389:20400 Coq.QArith.Qreduction <> Qred_correct thm
+R20423:20423 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20421:20421 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20423:20423 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20421:20421 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20445:20450 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20457:20457 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20465:20465 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20473:20473 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20445:20450 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20457:20457 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20465:20465 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20473:20473 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20527:20532 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20539:20539 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20547:20547 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20555:20555 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20527:20532 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20539:20539 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20547:20547 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20555:20555 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20602:20612 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R20602:20612 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R20625:20642 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R20625:20642 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R20625:20642 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R20676:20691 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R20676:20691 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R20676:20691 Coq.QArith.Qpower <> Qpower_minus_pos thm
+prf 20729:20743 <> CReal_plus_comm
+R20760:20764 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 20754:20754 <> x:138
+binder 20756:20756 <> y:139
+R20776:20779 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R20772:20774 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20771:20771 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:138 var
+R20775:20775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:139 var
+R20781:20783 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R20780:20780 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:139 var
+R20784:20784 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:138 var
+R20814:20825 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R20814:20825 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R20847:20856 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R20859:20872 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R20888:20900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20888:20900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20888:20900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20888:20900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20888:20900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R20918:20929 Coq.QArith.Qreduction <> Qred_correct thm
+R20918:20929 Coq.QArith.Qreduction <> Qred_correct thm
+R20918:20929 Coq.QArith.Qreduction <> Qred_correct thm
+R20918:20929 Coq.QArith.Qreduction <> Qred_correct thm
+R20918:20929 Coq.QArith.Qreduction <> Qred_correct thm
+R20947:20952 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20959:20959 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20967:20967 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20975:20975 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20947:20952 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R20959:20959 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20967:20967 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20975:20975 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21029:21034 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R21041:21041 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21049:21049 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21057:21057 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21029:21034 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R21041:21041 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21049:21049 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21057:21057 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21104:21114 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R21104:21114 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R21127:21144 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R21127:21144 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R21127:21144 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R21178:21193 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R21178:21193 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R21178:21193 Coq.QArith.Qpower <> Qpower_minus_pos thm
+prf 21231:21244 <> CReal_plus_0_l
+R21259:21263 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 21255:21255 <> r:140
+R21284:21287 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R21280:21282 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R21270:21277 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R21283:21283 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:140 var
+R21288:21288 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:140 var
+R21316:21327 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R21316:21327 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R21349:21358 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R21361:21374 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R21377:21384 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R21400:21412 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21400:21412 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21400:21412 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21400:21412 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21400:21412 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21425:21436 Coq.QArith.Qreduction <> Qred_correct thm
+R21425:21436 Coq.QArith.Qreduction <> Qred_correct thm
+R21425:21436 Coq.QArith.Qreduction <> Qred_correct thm
+R21454:21459 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R21472:21472 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21454:21459 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R21472:21472 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21525:21535 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R21525:21535 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R21548:21565 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R21548:21565 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R21548:21565 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+prf 21601:21614 <> CReal_plus_0_r
+R21629:21633 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 21625:21625 <> r:141
+R21645:21648 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R21641:21643 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R21640:21640 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:141 var
+R21649:21649 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:141 var
+R21678:21692 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R21678:21692 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R21678:21692 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R21701:21714 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R21701:21714 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+prf 21729:21750 <> CReal_plus_lt_compat_l
+R21771:21775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 21763:21763 <> x:142
+binder 21765:21765 <> y:143
+binder 21767:21767 <> z:144
+R21783:21786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21779:21781 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R21778:21778 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:143 var
+R21782:21782 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:144 var
+R21792:21794 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R21788:21790 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R21787:21787 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:142 var
+R21791:21791 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:143 var
+R21796:21798 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R21795:21795 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:142 var
+R21799:21799 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:144 var
+R21838:21850 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above thm
+R21838:21850 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealLt_above thm
+R21907:21916 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R21919:21932 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R21963:21975 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21963:21975 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21963:21975 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21963:21975 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21963:21975 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R21993:22004 Coq.QArith.Qreduction <> Qred_correct thm
+R21993:22004 Coq.QArith.Qreduction <> Qred_correct thm
+R21993:22004 Coq.QArith.Qreduction <> Qred_correct thm
+R21993:22004 Coq.QArith.Qreduction <> Qred_correct thm
+R21993:22004 Coq.QArith.Qreduction <> Qred_correct thm
+R22030:22030 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22030:22030 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 22068:22089 <> CReal_plus_lt_compat_r
+R22110:22114 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 22102:22102 <> x:145
+binder 22104:22104 <> y:146
+binder 22106:22106 <> z:147
+R22122:22125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22118:22120 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22117:22117 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:146 var
+R22121:22121 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:147 var
+R22131:22133 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22127:22129 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22126:22126 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:146 var
+R22130:22130 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:145 var
+R22135:22137 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22134:22134 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:147 var
+R22138:22138 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:145 var
+R22183:22197 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22183:22197 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22183:22197 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22183:22197 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22183:22197 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22211:22232 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R22211:22232 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+prf 22247:22265 <> CReal_plus_lt_reg_l
+R22286:22290 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 22278:22278 <> x:148
+binder 22280:22280 <> y:149
+binder 22282:22282 <> z:150
+R22306:22309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22298:22300 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22294:22296 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22293:22293 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:148 var
+R22297:22297 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:149 var
+R22302:22304 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22301:22301 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:148 var
+R22305:22305 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:150 var
+R22311:22313 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22310:22310 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:149 var
+R22314:22314 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:150 var
+R22380:22382 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22380:22382 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22422:22424 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R22407:22409 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22415:22417 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22425:22427 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22433:22435 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22476:22478 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R22454:22456 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22459:22468 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R22479:22481 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22484:22493 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R22422:22424 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R22407:22409 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22415:22417 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22425:22427 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22433:22435 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22476:22478 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R22454:22456 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22459:22468 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R22479:22481 Coq.Reals.Cauchy.ConstructiveCauchyReals <> seq proj
+R22484:22493 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R22518:22533 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R22518:22533 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R22518:22533 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R22553:22555 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R22549:22551 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R22571:22581 Coq.QArith.Qpower <> Qpower_0_lt thm
+R22553:22555 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R22549:22551 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R22571:22581 Coq.QArith.Qpower <> Qpower_0_lt thm
+R22606:22615 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R22618:22631 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R22663:22675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R22663:22675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R22663:22675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R22663:22675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R22663:22675 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R22707:22718 Coq.QArith.Qreduction <> Qred_correct thm
+R22707:22718 Coq.QArith.Qreduction <> Qred_correct thm
+R22707:22718 Coq.QArith.Qreduction <> Qred_correct thm
+R22707:22718 Coq.QArith.Qreduction <> Qred_correct thm
+R22707:22718 Coq.QArith.Qreduction <> Qred_correct thm
+prf 22739:22757 <> CReal_plus_lt_reg_r
+R22778:22782 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 22770:22770 <> x:151
+binder 22772:22772 <> y:152
+binder 22774:22774 <> z:153
+R22798:22801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22790:22792 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22786:22788 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22785:22785 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:152 var
+R22789:22789 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:151 var
+R22794:22796 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R22793:22793 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:153 var
+R22797:22797 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:151 var
+R22803:22805 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R22802:22802 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:152 var
+R22806:22806 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:153 var
+R22847:22861 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22868:22882 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22847:22861 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22847:22861 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22868:22882 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22868:22882 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R22903:22921 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R22903:22921 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+prf 22954:22972 <> CReal_plus_le_reg_l
+R22993:22997 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 22985:22985 <> x:154
+binder 22987:22987 <> y:155
+binder 22989:22989 <> z:156
+R23014:23017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23005:23008 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23001:23003 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23000:23000 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:154 var
+R23004:23004 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:155 var
+R23010:23012 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23009:23009 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:154 var
+R23013:23013 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:156 var
+R23019:23022 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23018:23018 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:155 var
+R23023:23023 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:156 var
+R23081:23102 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R23081:23102 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+prf 23131:23149 <> CReal_plus_le_reg_r
+R23170:23174 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 23162:23162 <> x:157
+binder 23164:23164 <> y:158
+binder 23166:23166 <> z:159
+R23191:23194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23182:23185 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23178:23180 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23177:23177 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:158 var
+R23181:23181 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:157 var
+R23187:23189 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23186:23186 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:159 var
+R23190:23190 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:157 var
+R23196:23199 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23195:23195 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:158 var
+R23200:23200 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:159 var
+R23258:23279 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_r thm
+R23258:23279 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_r thm
+prf 23308:23329 <> CReal_plus_le_compat_l
+binder 23340:23340 <> r:160
+binder 23342:23343 <> r1:161
+binder 23345:23346 <> r2:162
+R23357:23360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23351:23354 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23349:23350 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:161 var
+R23355:23356 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:162 var
+R23367:23370 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23362:23364 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23361:23361 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:160 var
+R23365:23366 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:161 var
+R23372:23374 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23371:23371 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:160 var
+R23375:23376 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:162 var
+R23434:23452 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R23434:23452 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+prf 23491:23513 <> CReal_plus_le_lt_compat
+R23540:23544 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 23526:23527 <> r1:163
+binder 23529:23530 <> r2:164
+binder 23532:23533 <> r3:165
+binder 23535:23536 <> r4:166
+R23555:23558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23549:23552 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23547:23548 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:163 var
+R23553:23554 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:164 var
+R23566:23569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23561:23563 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R23559:23560 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r3:165 var
+R23564:23565 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r4:166 var
+R23577:23579 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R23572:23574 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23570:23571 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:163 var
+R23575:23576 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r3:165 var
+R23582:23584 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23580:23581 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:164 var
+R23585:23586 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r4:166 var
+R23668:23670 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23642:23658 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_le_lt_trans thm
+R23668:23670 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23642:23658 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_le_lt_trans thm
+R23700:23714 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23718:23732 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23700:23714 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23700:23714 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23718:23732 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23718:23732 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R23757:23775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R23757:23775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R23811:23832 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R23811:23832 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+prf 23862:23881 <> CReal_plus_le_compat
+R23908:23912 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 23894:23895 <> r1:167
+binder 23897:23898 <> r2:168
+binder 23900:23901 <> r3:169
+binder 23903:23904 <> r4:170
+R23923:23926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23917:23920 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23915:23916 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:167 var
+R23921:23922 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:168 var
+R23935:23938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23929:23932 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23927:23928 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r3:169 var
+R23933:23934 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r4:170 var
+R23946:23949 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R23941:23943 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23939:23940 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:167 var
+R23944:23945 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r3:169 var
+R23952:23954 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R23950:23951 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:168 var
+R23955:23956 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r4:170 var
+R24035:24037 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R24012:24025 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_le_trans thm
+R24035:24037 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R24012:24025 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_le_trans thm
+R24067:24081 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24085:24099 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24067:24081 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24067:24081 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24085:24099 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24085:24099 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24124:24142 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R24124:24142 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R24178:24199 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_le_compat_l thm
+R24178:24199 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_le_compat_l thm
+prf 24229:24244 <> CReal_plus_opp_r
+R24259:24263 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 24255:24255 <> x:171
+R24277:24280 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R24271:24273 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R24270:24270 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:171 var
+R24274:24275 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R24276:24276 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:171 var
+R24309:24320 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R24309:24320 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_diff thm
+R24342:24351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24354:24367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R24370:24378 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp def
+R24381:24393 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R24396:24403 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24421:24433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R24446:24457 Coq.QArith.Qreduction <> Qred_correct thm
+R24446:24457 Coq.QArith.Qreduction <> Qred_correct thm
+R24446:24457 Coq.QArith.Qreduction <> Qred_correct thm
+R24475:24480 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R24493:24493 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24475:24480 Coq.Reals.Cauchy.ConstructiveCauchyReals <> cauchy proj
+R24493:24493 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24546:24556 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R24546:24556 Coq.QArith.QArith_base <> Qlt_le_weak thm
+R24569:24586 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R24569:24586 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+R24569:24586 Coq.QArith.Qabs <> Qabs_Qlt_condition thm
+prf 24622:24637 <> CReal_plus_opp_l
+R24652:24656 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 24648:24648 <> x:172
+R24670:24673 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R24666:24668 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R24663:24664 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R24665:24665 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:172 var
+R24669:24669 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:172 var
+R24703:24717 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24703:24717 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24703:24717 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24726:24741 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R24726:24741 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+prf 24756:24774 <> CReal_plus_proper_r
+R24793:24797 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 24785:24785 <> x:173
+binder 24787:24787 <> y:174
+binder 24789:24789 <> z:175
+R24815:24818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24804:24810 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R24812:24812 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:173 var
+R24814:24814 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:174 var
+R24819:24825 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R24828:24837 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24839:24839 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:173 var
+R24841:24841 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:175 var
+R24845:24854 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24856:24856 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:174 var
+R24858:24858 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:175 var
+R24886:24898 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R24903:24912 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24886:24898 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R24903:24912 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24929:24943 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24929:24943 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24953:24965 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R24970:24979 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24953:24965 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R24970:24979 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R24999:25013 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R24999:25013 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R25042:25060 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25042:25060 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25116:25134 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25116:25134 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+prf 25185:25203 <> CReal_plus_proper_l
+R25222:25226 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 25214:25214 <> x:176
+binder 25216:25216 <> y:177
+binder 25218:25218 <> z:178
+R25244:25247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25233:25239 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25241:25241 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:176 var
+R25243:25243 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:177 var
+R25248:25254 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25257:25266 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25268:25268 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:178 var
+R25270:25270 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:176 var
+R25274:25283 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25285:25285 Coq.Reals.Cauchy.ConstructiveCauchyReals <> z:178 var
+R25287:25287 Coq.Reals.Cauchy.ConstructiveCauchyReals <> y:177 var
+R25332:25350 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25332:25350 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25406:25424 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25406:25424 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25532:25536 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25525:25531 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25544:25548 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R25537:25543 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25549:25555 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25495:25504 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25621:25633 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R25638:25647 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25621:25633 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R25638:25647 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25701:25719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25701:25719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25765:25783 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25765:25783 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R25818:25836 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_proper_r thm
+R25818:25836 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_proper_r thm
+inst 25873:25890 <> CReal_plus_morph_T
+R25896:25912 Coq.Classes.CMorphisms <> Proper class
+R25992:26001 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R25921:25941 Coq.Classes.CMorphisms <> respectful def
+R25952:25972 Coq.Classes.CMorphisms <> respectful def
+R25982:25988 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25974:25980 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R25943:25949 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq def
+R26041:26053 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R26058:26067 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R26041:26053 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealEq_trans thm
+R26058:26067 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R26121:26139 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R26121:26139 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R26185:26203 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R26185:26203 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R26238:26256 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_proper_r thm
+R26238:26256 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_proper_r thm
+prf 26280:26298 <> CReal_plus_eq_reg_l
+R26320:26324 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 26310:26310 <> r:179
+binder 26312:26313 <> r1:180
+binder 26315:26316 <> r2:181
+R26348:26351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26338:26341 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R26333:26335 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26332:26332 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:179 var
+R26336:26337 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:180 var
+R26343:26345 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26342:26342 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:179 var
+R26346:26347 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:181 var
+R26354:26357 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R26352:26353 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:180 var
+R26358:26359 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:181 var
+R26420:26441 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R26420:26441 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R26491:26512 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+R26491:26512 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_compat_l thm
+prf 26552:26562 <> CReal_opp_0
+R26568:26571 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R26566:26566 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26591:26609 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R26591:26609 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R26625:26638 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R26641:26656 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26625:26638 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R26625:26638 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R26641:26656 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26641:26656 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+prf 26684:26703 <> CReal_opp_plus_distr
+binder 26714:26715 <> r1:182
+binder 26717:26718 <> r2:183
+R26732:26735 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R26721:26723 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26731:26731 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26726:26728 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26724:26725 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:182 var
+R26729:26730 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:183 var
+R26740:26742 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26736:26737 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26738:26739 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:182 var
+R26743:26744 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26745:26746 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:183 var
+R26773:26791 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R26796:26796 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26773:26791 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R26796:26796 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R26813:26828 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26832:26846 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R26849:26849 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26856:26871 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26813:26828 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26813:26828 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26832:26846 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R26849:26849 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26832:26846 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R26849:26849 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R26856:26871 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26856:26871 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26888:26903 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26910:26925 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26928:26941 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R26888:26903 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26888:26903 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R26910:26925 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26910:26925 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26928:26941 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R26928:26941 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R26954:26969 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26954:26969 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R26954:26969 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+prf 26997:27016 <> CReal_opp_involutive
+R27029:27033 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal rec
+binder 27027:27027 <> x:184
+R27039:27042 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R27036:27036 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27037:27037 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27038:27038 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:184 var
+R27043:27043 Coq.Reals.Cauchy.ConstructiveCauchyReals <> x:184 var
+R27070:27088 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R27091:27091 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27070:27088 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_eq_reg_l thm
+R27091:27091 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27107:27122 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27125:27140 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27107:27122 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27107:27122 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27125:27140 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27125:27140 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+prf 27168:27192 <> CReal_opp_gt_lt_contravar
+binder 27203:27204 <> r1:185
+binder 27206:27207 <> r2:186
+R27217:27220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27212:27214 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'>'_x not
+R27210:27211 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:185 var
+R27215:27216 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:186 var
+R27225:27227 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R27221:27222 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27223:27224 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:185 var
+R27228:27229 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27230:27231 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:186 var
+R27250:27256 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CRealGt def
+R27276:27294 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R27299:27301 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R27276:27294 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_l thm
+R27299:27301 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R27318:27333 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27336:27351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27354:27367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R27318:27333 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27318:27333 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27336:27351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27336:27351 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27354:27367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R27354:27367 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_r thm
+R27380:27394 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27400:27415 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27418:27433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27380:27394 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27380:27394 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27400:27415 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27400:27415 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27418:27433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27418:27433 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_l thm
+R27446:27459 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27446:27459 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27446:27459 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+prf 27483:27507 <> CReal_opp_ge_le_contravar
+binder 27518:27519 <> r1:187
+binder 27521:27522 <> r2:188
+R27533:27536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27527:27530 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'>='_x not
+R27525:27526 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:187 var
+R27531:27532 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:188 var
+R27541:27544 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R27537:27538 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27539:27540 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r1:187 var
+R27545:27546 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27547:27548 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r2:188 var
+R27606:27624 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_r thm
+R27630:27630 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'-'_x not
+R27627:27627 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27606:27624 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_lt_reg_r thm
+R27630:27630 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'-'_x not
+R27627:27627 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27646:27656 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_minus def
+R27670:27685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27688:27703 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27706:27719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27670:27685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27670:27685 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27688:27703 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27688:27703 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27706:27719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27706:27719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27733:27747 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27750:27750 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27760:27775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27778:27793 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27796:27809 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27733:27747 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27750:27750 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27733:27747 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_comm thm
+R27750:27750 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R27760:27775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27760:27775 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_assoc thm
+R27778:27793 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27778:27793 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_opp_r thm
+R27796:27809 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+R27796:27809 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_0_l thm
+prf 27837:27849 <> inject_Q_plus
+R27866:27866 Coq.QArith.QArith_base <> Q rec
+binder 27860:27860 <> q:189
+binder 27862:27862 <> r:190
+R27889:27892 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R27873:27880 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R27884:27886 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R27883:27883 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:189 var
+R27887:27887 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:190 var
+R27903:27905 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R27893:27900 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R27902:27902 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:189 var
+R27906:27913 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R27915:27915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:190 var
+R27979:27988 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus def
+R27991:28004 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_plus_seq def
+R28007:28014 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28045:28057 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28083:28094 Coq.QArith.Qreduction <> Qred_correct thm
+R28083:28094 Coq.QArith.Qreduction <> Qred_correct thm
+R28083:28094 Coq.QArith.Qreduction <> Qred_correct thm
+R28083:28094 Coq.QArith.Qreduction <> Qred_correct thm
+R28083:28094 Coq.QArith.Qreduction <> Qred_correct thm
+R28122:28122 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28120:28120 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28138:28148 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28122:28122 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28120:28120 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28138:28148 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28122:28122 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28120:28120 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28138:28148 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 28174:28185 <> inject_Q_one
+R28199:28202 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R28189:28196 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28276:28276 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28274:28274 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28292:28302 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28276:28276 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28274:28274 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28292:28302 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28276:28276 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28274:28274 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28292:28302 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 28328:28338 <> inject_Q_lt
+R28355:28355 Coq.QArith.QArith_base <> Q rec
+binder 28349:28349 <> q:191
+binder 28351:28351 <> r:192
+R28369:28372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28362:28364 Coq.QArith.QArith_base <> Qlt def
+R28366:28366 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:191 var
+R28368:28368 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:192 var
+R28383:28385 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R28373:28380 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28382:28382 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:191 var
+R28386:28393 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28395:28395 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:192 var
+R28435:28452 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R28455:28456 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R28460:28460 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R28458:28458 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R28435:28452 Coq.Reals.Cauchy.QExtra <> QarchimedeanExp2_Z def
+R28455:28456 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R28460:28460 Coq.QArith.QArith_base <> ::Q_scope:'/'_x not
+R28458:28458 Coq.QArith.QArith_base <> ::Q_scope:x_'-'_x not
+R28485:28501 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R28504:28518 Coq.QArith.QArith_base <> Qinv_involutive thm
+R28524:28533 Coq.QArith.Qpower <> Qpower_opp thm
+R28485:28501 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R28485:28501 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R28485:28501 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R28485:28501 Coq.QArith.QArith_base <> Qinv_lt_contravar thm
+R28504:28518 Coq.QArith.QArith_base <> Qinv_involutive thm
+R28504:28518 Coq.QArith.QArith_base <> Qinv_involutive thm
+R28524:28533 Coq.QArith.Qpower <> Qpower_opp thm
+R28524:28533 Coq.QArith.Qpower <> Qpower_opp thm
+R28556:28556 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R28554:28554 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R28556:28556 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R28554:28554 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R28580:28595 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R28580:28595 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R28580:28595 Coq.QArith.Qpower <> Qpower_minus_pos thm
+R28613:28627 Coq.QArith.QArith_base <> Qlt_shift_inv_l thm
+R28613:28627 Coq.QArith.QArith_base <> Qlt_shift_inv_l thm
+R28645:28655 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28645:28655 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 28675:28686 <> opp_inject_Q
+R28701:28701 Coq.QArith.QArith_base <> Q rec
+binder 28697:28697 <> q:193
+R28721:28724 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R28708:28715 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28718:28718 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R28719:28719 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:193 var
+R28725:28726 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R28727:28734 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28736:28736 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:193 var
+R28816:28828 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_opp_seq def
+R28831:28838 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28863:28875 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28863:28875 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28863:28875 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28863:28875 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28863:28875 Coq.Reals.Cauchy.ConstructiveCauchyReals <> CReal_red_seq thm
+R28902:28902 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28900:28900 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28918:28928 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28902:28902 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28900:28900 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28918:28928 Coq.QArith.Qpower <> Qpower_0_lt thm
+R28902:28902 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R28900:28900 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R28918:28928 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 28954:28964 <> lt_inject_Q
+R28981:28981 Coq.QArith.QArith_base <> Q rec
+binder 28975:28975 <> q:194
+binder 28977:28977 <> r:195
+R29011:29014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28998:29000 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<'_x not
+R28988:28995 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R28997:28997 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:194 var
+R29001:29008 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R29010:29010 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:195 var
+R29017:29019 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R29016:29016 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:194 var
+R29020:29020 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:195 var
+R29073:29085 Coq.QArith.QArith_base <> Qlt_minus_iff thm
+R29073:29085 Coq.QArith.QArith_base <> Qlt_minus_iff thm
+R29100:29100 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R29098:29098 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R29116:29126 Coq.QArith.Qpower <> Qpower_0_lt thm
+R29100:29100 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R29098:29098 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R29116:29126 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 29152:29162 <> le_inject_Q
+R29179:29179 Coq.QArith.QArith_base <> Q rec
+binder 29173:29173 <> q:196
+binder 29175:29175 <> r:197
+R29210:29213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29196:29199 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R29186:29193 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R29195:29195 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:196 var
+R29200:29207 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R29209:29209 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:197 var
+R29216:29219 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29215:29215 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:196 var
+R29220:29220 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:197 var
+R29263:29272 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R29263:29272 Coq.QArith.QArith_base <> Qlt_le_dec thm
+R29329:29339 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q_lt thm
+R29329:29339 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q_lt thm
+prf 29382:29392 <> inject_Q_le
+R29409:29409 Coq.QArith.QArith_base <> Q rec
+binder 29403:29403 <> q:198
+binder 29405:29405 <> r:199
+R29426:29429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29418:29421 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R29417:29417 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:198 var
+R29422:29422 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:199 var
+R29440:29443 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'<='_x not
+R29430:29437 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R29439:29439 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:198 var
+R29444:29451 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q def
+R29453:29453 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:199 var
+R29513:29513 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R29511:29511 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R29529:29539 Coq.QArith.Qpower <> Qpower_0_lt thm
+R29513:29513 Coq.QArith.QArith_base <> ::Q_scope:x_'>'_x not
+R29511:29511 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R29529:29539 Coq.QArith.Qpower <> Qpower_0_lt thm
+prf 29565:29577 <> inject_Z_plus
+R29594:29594 Coq.Numbers.BinNums <> Z ind
+binder 29588:29588 <> q:200
+binder 29590:29590 <> r:201
+R29617:29620 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R29601:29608 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29612:29614 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29611:29611 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:200 var
+R29615:29615 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:201 var
+R29631:29633 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'+'_x not
+R29621:29628 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29630:29630 Coq.Reals.Cauchy.ConstructiveCauchyReals <> q:200 var
+R29634:29641 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29643:29643 Coq.Reals.Cauchy.ConstructiveCauchyReals <> r:201 var
+R29674:29681 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29707:29709 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29703:29705 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29721:29721 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29725:29729 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29733:29733 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29723:29723 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29731:29731 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29707:29709 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29703:29705 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29721:29721 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29725:29729 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29733:29733 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R29723:29723 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29731:29731 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29749:29761 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q_plus thm
+R29749:29761 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Q_plus thm
+R29776:29790 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R29776:29790 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R29776:29790 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+prf 29818:29829 <> opp_inject_Z
+R29844:29844 Coq.Numbers.BinNums <> Z ind
+binder 29840:29840 <> n:202
+R29864:29867 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:x_'=='_x not
+R29851:29858 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29861:29861 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R29862:29862 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:202 var
+R29868:29869 Coq.Reals.Cauchy.ConstructiveCauchyReals <> ::CReal_scope:'-'_x not
+R29870:29877 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29879:29879 Coq.Reals.Cauchy.ConstructiveCauchyReals <> n:202 var
+R29908:29915 Coq.Reals.Cauchy.ConstructiveCauchyReals <> inject_Z def
+R29938:29940 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29936:29936 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R29952:29953 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R29957:29957 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R29955:29955 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29938:29940 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29936:29936 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R29952:29953 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R29957:29957 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R29955:29955 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R29975:29986 Coq.Reals.Cauchy.ConstructiveCauchyReals <> opp_inject_Q thm
+R29975:29986 Coq.Reals.Cauchy.ConstructiveCauchyReals <> opp_inject_Q thm
+R29975:29986 Coq.Reals.Cauchy.ConstructiveCauchyReals <> opp_inject_Q thm

@@ -1,0 +1,167 @@
+DIGEST 1aac175f76e30c0b7971c578dffafa45
+FCoq.Bool.BoolEq
+R777:780 Coq.Bool.Bool <> <> lib
+sec 792:802 <> Bool_eq_dec
+var 817:817 Bool_eq_dec A
+var 838:840 Bool_eq_dec beq
+R845:848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R844:844 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+R850:853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R849:849 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+R854:857 Coq.Init.Datatypes <> bool ind
+var 872:879 Bool_eq_dec beq_refl
+R892:892 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 890:890 <> x:3
+R899:901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R895:898 Coq.Init.Datatypes <> true constr
+R902:904 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R906:906 Coq.Bool.BoolEq <> x:3 var
+R908:908 Coq.Bool.BoolEq <> x:3 var
+var 923:928 Bool_eq_dec beq_eq
+R943:943 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 939:939 <> x:5
+binder 941:941 <> y:6
+R960:963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R950:952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R946:949 Coq.Init.Datatypes <> true constr
+R953:955 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R957:957 Coq.Bool.BoolEq <> x:5 var
+R959:959 Coq.Bool.BoolEq <> y:6 var
+R965:967 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R964:964 Coq.Bool.BoolEq <> x:5 var
+R968:968 Coq.Bool.BoolEq <> y:6 var
+def 985:995 <> beq_eq_true
+R1010:1010 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1006:1006 <> x:8
+binder 1008:1008 <> y:9
+R1018:1021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1014:1016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1013:1013 Coq.Bool.BoolEq <> x:8 var
+R1017:1017 Coq.Bool.BoolEq <> y:9 var
+R1026:1028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1022:1025 Coq.Init.Datatypes <> true constr
+R1029:1031 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1033:1033 Coq.Bool.BoolEq <> x:8 var
+R1035:1035 Coq.Bool.BoolEq <> y:9 var
+R1087:1094 Coq.Bool.BoolEq <> Bool_eq_dec.beq_refl var
+R1087:1094 Coq.Bool.BoolEq <> Bool_eq_dec.beq_refl var
+def 1122:1137 <> beq_eq_not_false
+R1152:1152 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1148:1148 <> x:10
+binder 1150:1150 <> y:11
+R1160:1163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1156:1158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1155:1155 Coq.Bool.BoolEq <> x:10 var
+R1159:1159 Coq.Bool.BoolEq <> y:11 var
+R1169:1172 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1164:1168 Coq.Init.Datatypes <> false constr
+R1173:1175 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1177:1177 Coq.Bool.BoolEq <> x:10 var
+R1179:1179 Coq.Bool.BoolEq <> y:11 var
+R1224:1234 Coq.Bool.BoolEq <> beq_eq_true def
+R1224:1234 Coq.Bool.BoolEq <> beq_eq_true def
+R1224:1234 Coq.Bool.BoolEq <> beq_eq_true def
+R1224:1234 Coq.Bool.BoolEq <> beq_eq_true def
+def 1285:1300 <> beq_false_not_eq
+R1315:1315 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1311:1311 <> x:12
+binder 1313:1313 <> y:13
+R1333:1336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1323:1325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1318:1322 Coq.Init.Datatypes <> false constr
+R1326:1328 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1330:1330 Coq.Bool.BoolEq <> x:12 var
+R1332:1332 Coq.Bool.BoolEq <> y:13 var
+R1338:1341 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1337:1337 Coq.Bool.BoolEq <> x:12 var
+R1342:1342 Coq.Bool.BoolEq <> y:13 var
+R1379:1379 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1375:1375 <> x:14
+binder 1377:1377 <> y:15
+R1390:1392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1385:1389 Coq.Init.Datatypes <> false constr
+R1393:1395 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1397:1397 Coq.Bool.BoolEq <> x:14 var
+R1399:1399 Coq.Bool.BoolEq <> y:15 var
+binder 1383:1383 <> H:16
+R1406:1408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1405:1405 Coq.Bool.BoolEq <> x:14 var
+R1409:1409 Coq.Bool.BoolEq <> y:15 var
+binder 1403:1403 <> e:17
+R1415:1430 Coq.Bool.BoolEq <> beq_eq_not_false def
+R1432:1432 Coq.Bool.BoolEq <> x:14 var
+R1434:1434 Coq.Bool.BoolEq <> y:15 var
+R1436:1436 Coq.Bool.BoolEq <> e:17 var
+R1438:1438 Coq.Bool.BoolEq <> H:16 var
+R1379:1379 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1375:1375 <> x:18
+binder 1377:1377 <> y:19
+R1390:1392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1385:1389 Coq.Init.Datatypes <> false constr
+R1393:1395 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1397:1397 Coq.Bool.BoolEq <> x:18 var
+R1399:1399 Coq.Bool.BoolEq <> y:19 var
+binder 1383:1383 <> H:20
+R1406:1408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1405:1405 Coq.Bool.BoolEq <> x:18 var
+R1409:1409 Coq.Bool.BoolEq <> y:19 var
+binder 1403:1403 <> e:21
+R1415:1430 Coq.Bool.BoolEq <> beq_eq_not_false def
+R1432:1432 Coq.Bool.BoolEq <> x:18 var
+R1434:1434 Coq.Bool.BoolEq <> y:19 var
+R1436:1436 Coq.Bool.BoolEq <> e:21 var
+R1438:1438 Coq.Bool.BoolEq <> H:20 var
+def 1467:1479 <> exists_beq_eq
+R1494:1494 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1490:1490 <> x:22
+binder 1492:1492 <> y:23
+R1497:1497 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1499:1501 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1506:1508 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1520:1520 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1502:1505 Coq.Init.Datatypes <> bool ind
+binder 1498:1498 <> b:24
+R1510:1512 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1509:1509 Coq.Bool.BoolEq <> b:24 var
+R1513:1515 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1517:1517 Coq.Bool.BoolEq <> x:22 var
+R1519:1519 Coq.Bool.BoolEq <> y:23 var
+R1560:1562 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1560:1562 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+def 1612:1627 <> not_eq_false_beq
+R1642:1642 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1638:1638 <> x:25
+binder 1640:1640 <> y:26
+R1651:1654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1646:1649 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1645:1645 Coq.Bool.BoolEq <> x:25 var
+R1650:1650 Coq.Bool.BoolEq <> y:26 var
+R1660:1662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1655:1659 Coq.Init.Datatypes <> false constr
+R1663:1665 Coq.Bool.BoolEq <> Bool_eq_dec.beq var
+R1667:1667 Coq.Bool.BoolEq <> x:25 var
+R1669:1669 Coq.Bool.BoolEq <> y:26 var
+R1724:1740 Coq.Bool.Bool <> not_true_is_false thm
+R1724:1740 Coq.Bool.Bool <> not_true_is_false thm
+R1777:1782 Coq.Bool.BoolEq <> Bool_eq_dec.beq_eq var
+R1777:1782 Coq.Bool.BoolEq <> Bool_eq_dec.beq_eq var
+def 1841:1846 <> eq_dec
+R1861:1861 Coq.Bool.BoolEq <> Bool_eq_dec.A var
+binder 1857:1857 <> x:27
+binder 1859:1859 <> y:28
+R1864:1864 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1870:1874 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1881:1881 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1866:1868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1865:1865 Coq.Bool.BoolEq <> x:27 var
+R1869:1869 Coq.Bool.BoolEq <> y:28 var
+R1876:1879 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1875:1875 Coq.Bool.BoolEq <> x:27 var
+R1880:1880 Coq.Bool.BoolEq <> y:28 var
+R1915:1927 Coq.Bool.BoolEq <> exists_beq_eq def
+R1915:1927 Coq.Bool.BoolEq <> exists_beq_eq def
+R1984:1989 Coq.Bool.BoolEq <> Bool_eq_dec.beq_eq var
+R1984:1989 Coq.Bool.BoolEq <> Bool_eq_dec.beq_eq var
+R2023:2038 Coq.Bool.BoolEq <> beq_false_not_eq def
+R2023:2038 Coq.Bool.BoolEq <> beq_false_not_eq def
+R2069:2079 Coq.Bool.BoolEq Bool_eq_dec <> sec

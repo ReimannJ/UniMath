@@ -1,0 +1,349 @@
+DIGEST b60d08f1b9241b663d89baddd5e610f2
+FCoq.Logic.JMeq
+R863:867 Coq.Logic.Eqdep <> <> lib
+ind 934:937 <> JMeq
+constr 988:996 <> JMeq_refl
+binder 940:940 <> A:1
+R951:951 Coq.Logic.JMeq <> A:1 var
+binder 949:949 <> x:2
+binder 963:963 <> B:3
+R972:975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R971:971 Coq.Logic.JMeq <> B:3 var
+R1000:1003 Coq.Logic.JMeq <> JMeq:4 ind
+R1007:1007 Coq.Logic.JMeq <> x:2 var
+R1005:1005 Coq.Logic.JMeq <> x:2 var
+R1047:1055 Coq.Logic.JMeq <> JMeq_refl constr
+R1047:1055 Coq.Logic.JMeq <> JMeq_refl constr
+def 1198:1205 <> JMeq_hom
+binder 1208:1208 <> A:6
+R1225:1225 Coq.Logic.JMeq <> A:6 var
+binder 1219:1219 <> x:7
+binder 1221:1221 <> y:8
+R1231:1234 Coq.Logic.JMeq <> JMeq ind
+R1238:1238 Coq.Logic.JMeq <> y:8 var
+R1236:1236 Coq.Logic.JMeq <> x:7 var
+prf 1285:1292 <> JMeq_sym
+binder 1304:1304 <> A:9
+binder 1306:1306 <> B:10
+R1317:1317 Coq.Logic.JMeq <> A:9 var
+binder 1315:1315 <> x:11
+R1323:1323 Coq.Logic.JMeq <> B:10 var
+binder 1321:1321 <> y:12
+R1335:1338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1327:1330 Coq.Logic.JMeq <> JMeq ind
+R1334:1334 Coq.Logic.JMeq <> y:12 var
+R1332:1332 Coq.Logic.JMeq <> x:11 var
+R1339:1342 Coq.Logic.JMeq <> JMeq ind
+R1346:1346 Coq.Logic.JMeq <> x:11 var
+R1344:1344 Coq.Logic.JMeq <> y:12 var
+prf 1487:1496 <> JMeq_trans
+binder 1509:1509 <> A:13
+binder 1511:1511 <> B:14
+binder 1513:1513 <> C:15
+R1524:1524 Coq.Logic.JMeq <> A:13 var
+binder 1522:1522 <> x:16
+R1530:1530 Coq.Logic.JMeq <> B:14 var
+binder 1528:1528 <> y:17
+R1536:1536 Coq.Logic.JMeq <> C:15 var
+binder 1534:1534 <> z:18
+R1548:1551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1540:1543 Coq.Logic.JMeq <> JMeq ind
+R1547:1547 Coq.Logic.JMeq <> y:17 var
+R1545:1545 Coq.Logic.JMeq <> x:16 var
+R1560:1563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1552:1555 Coq.Logic.JMeq <> JMeq ind
+R1559:1559 Coq.Logic.JMeq <> z:18 var
+R1557:1557 Coq.Logic.JMeq <> y:17 var
+R1564:1567 Coq.Logic.JMeq <> JMeq ind
+R1571:1571 Coq.Logic.JMeq <> z:18 var
+R1569:1569 Coq.Logic.JMeq <> x:16 var
+prf 1657:1663 <> JMeq_eq
+binder 1675:1675 <> A:19
+R1688:1688 Coq.Logic.JMeq <> A:19 var
+binder 1684:1684 <> x:20
+binder 1686:1686 <> y:21
+R1700:1703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1692:1695 Coq.Logic.JMeq <> JMeq ind
+R1699:1699 Coq.Logic.JMeq <> y:21 var
+R1697:1697 Coq.Logic.JMeq <> x:20 var
+R1705:1707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1704:1704 Coq.Logic.JMeq <> x:20 var
+R1708:1708 Coq.Logic.JMeq <> y:21 var
+R1768:1777 Coq.Logic.Eqdep EqdepTheory inj_pairT2 abbrev
+R1768:1777 Coq.Logic.Eqdep EqdepTheory inj_pairT2 abbrev
+prf 1803:1810 <> JMeq_ind
+binder 1822:1822 <> A:22
+R1833:1833 Coq.Logic.JMeq <> A:22 var
+binder 1831:1831 <> x:23
+R1840:1843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1839:1839 Coq.Logic.JMeq <> A:22 var
+binder 1837:1837 <> P:24
+R1856:1859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1853:1853 Coq.Logic.JMeq <> P:24 var
+R1855:1855 Coq.Logic.JMeq <> x:23 var
+binder 1867:1867 <> y:25
+R1878:1881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1870:1873 Coq.Logic.JMeq <> JMeq ind
+R1877:1877 Coq.Logic.JMeq <> y:25 var
+R1875:1875 Coq.Logic.JMeq <> x:23 var
+R1882:1882 Coq.Logic.JMeq <> P:24 var
+R1884:1884 Coq.Logic.JMeq <> y:25 var
+R1920:1926 Coq.Logic.JMeq <> JMeq_eq thm
+R1920:1926 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2002:2009 <> JMeq_rec
+binder 2021:2021 <> A:26
+R2032:2032 Coq.Logic.JMeq <> A:26 var
+binder 2030:2030 <> x:27
+R2039:2042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2038:2038 Coq.Logic.JMeq <> A:26 var
+binder 2036:2036 <> P:28
+R2054:2057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2051:2051 Coq.Logic.JMeq <> P:28 var
+R2053:2053 Coq.Logic.JMeq <> x:27 var
+binder 2065:2065 <> y:29
+R2076:2079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2068:2071 Coq.Logic.JMeq <> JMeq ind
+R2075:2075 Coq.Logic.JMeq <> y:29 var
+R2073:2073 Coq.Logic.JMeq <> x:27 var
+R2080:2080 Coq.Logic.JMeq <> P:28 var
+R2082:2082 Coq.Logic.JMeq <> y:29 var
+R2118:2124 Coq.Logic.JMeq <> JMeq_eq thm
+R2118:2124 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2163:2171 <> JMeq_rect
+binder 2183:2183 <> A:30
+R2194:2194 Coq.Logic.JMeq <> A:30 var
+binder 2192:2192 <> x:31
+R2201:2202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2200:2200 Coq.Logic.JMeq <> A:30 var
+binder 2198:2198 <> P:32
+R2215:2218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2212:2212 Coq.Logic.JMeq <> P:32 var
+R2214:2214 Coq.Logic.JMeq <> x:31 var
+binder 2226:2226 <> y:33
+R2237:2240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2232 Coq.Logic.JMeq <> JMeq ind
+R2236:2236 Coq.Logic.JMeq <> y:33 var
+R2234:2234 Coq.Logic.JMeq <> x:31 var
+R2241:2241 Coq.Logic.JMeq <> P:32 var
+R2243:2243 Coq.Logic.JMeq <> y:33 var
+R2279:2285 Coq.Logic.JMeq <> JMeq_eq thm
+R2279:2285 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2324:2333 <> JMeq_ind_r
+binder 2345:2345 <> A:34
+R2356:2356 Coq.Logic.JMeq <> A:34 var
+binder 2354:2354 <> x:35
+R2363:2366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2362:2362 Coq.Logic.JMeq <> A:34 var
+binder 2360:2360 <> P:36
+R2380:2383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2377:2377 Coq.Logic.JMeq <> P:36 var
+R2379:2379 Coq.Logic.JMeq <> x:35 var
+binder 2391:2391 <> y:37
+R2402:2405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2394:2397 Coq.Logic.JMeq <> JMeq ind
+R2401:2401 Coq.Logic.JMeq <> x:35 var
+R2399:2399 Coq.Logic.JMeq <> y:37 var
+R2406:2406 Coq.Logic.JMeq <> P:36 var
+R2408:2408 Coq.Logic.JMeq <> y:37 var
+R2463:2470 Coq.Logic.JMeq <> JMeq_sym thm
+R2444:2450 Coq.Logic.JMeq <> JMeq_eq thm
+R2463:2470 Coq.Logic.JMeq <> JMeq_sym thm
+R2444:2450 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2498:2507 <> JMeq_rec_r
+binder 2519:2519 <> A:38
+R2530:2530 Coq.Logic.JMeq <> A:38 var
+binder 2528:2528 <> x:39
+R2537:2540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2536:2536 Coq.Logic.JMeq <> A:38 var
+binder 2534:2534 <> P:40
+R2553:2556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2550:2550 Coq.Logic.JMeq <> P:40 var
+R2552:2552 Coq.Logic.JMeq <> x:39 var
+binder 2564:2564 <> y:41
+R2575:2578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2567:2570 Coq.Logic.JMeq <> JMeq ind
+R2574:2574 Coq.Logic.JMeq <> x:39 var
+R2572:2572 Coq.Logic.JMeq <> y:41 var
+R2579:2579 Coq.Logic.JMeq <> P:40 var
+R2581:2581 Coq.Logic.JMeq <> y:41 var
+R2636:2643 Coq.Logic.JMeq <> JMeq_sym thm
+R2617:2623 Coq.Logic.JMeq <> JMeq_eq thm
+R2636:2643 Coq.Logic.JMeq <> JMeq_sym thm
+R2617:2623 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2671:2681 <> JMeq_rect_r
+binder 2693:2693 <> A:42
+R2704:2704 Coq.Logic.JMeq <> A:42 var
+binder 2702:2702 <> x:43
+R2711:2714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2710:2710 Coq.Logic.JMeq <> A:42 var
+binder 2708:2708 <> P:44
+R2728:2731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2725:2725 Coq.Logic.JMeq <> P:44 var
+R2727:2727 Coq.Logic.JMeq <> x:43 var
+binder 2739:2739 <> y:45
+R2750:2753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2742:2745 Coq.Logic.JMeq <> JMeq ind
+R2749:2749 Coq.Logic.JMeq <> x:43 var
+R2747:2747 Coq.Logic.JMeq <> y:45 var
+R2754:2754 Coq.Logic.JMeq <> P:44 var
+R2756:2756 Coq.Logic.JMeq <> y:45 var
+R2811:2818 Coq.Logic.JMeq <> JMeq_sym thm
+R2792:2798 Coq.Logic.JMeq <> JMeq_eq thm
+R2811:2818 Coq.Logic.JMeq <> JMeq_sym thm
+R2792:2798 Coq.Logic.JMeq <> JMeq_eq thm
+prf 2846:2855 <> JMeq_congr
+binder 2868:2868 <> A:46
+R2879:2879 Coq.Logic.JMeq <> A:46 var
+binder 2877:2877 <> x:47
+binder 2883:2883 <> B:48
+R2895:2896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2894:2894 Coq.Logic.JMeq <> A:46 var
+R2897:2897 Coq.Logic.JMeq <> B:48 var
+binder 2892:2892 <> f:49
+R2903:2903 Coq.Logic.JMeq <> A:46 var
+binder 2901:2901 <> y:50
+R2915:2918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2907:2910 Coq.Logic.JMeq <> JMeq ind
+R2914:2914 Coq.Logic.JMeq <> y:50 var
+R2912:2912 Coq.Logic.JMeq <> x:47 var
+R2922:2924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2919:2919 Coq.Logic.JMeq <> f:49 var
+R2921:2921 Coq.Logic.JMeq <> x:47 var
+R2925:2925 Coq.Logic.JMeq <> f:49 var
+R2927:2927 Coq.Logic.JMeq <> y:50 var
+R2962:2968 Coq.Logic.JMeq <> JMeq_eq thm
+R2962:2968 Coq.Logic.JMeq <> JMeq_eq thm
+R3115:3119 Coq.Logic.Eqdep <> <> lib
+prf 3129:3142 <> JMeq_eq_dep_id
+binder 3155:3155 <> A:51
+binder 3157:3157 <> B:52
+R3168:3168 Coq.Logic.JMeq <> A:51 var
+binder 3166:3166 <> x:53
+R3174:3174 Coq.Logic.JMeq <> B:52 var
+binder 3172:3172 <> y:54
+R3186:3189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3178:3181 Coq.Logic.JMeq <> JMeq ind
+R3185:3185 Coq.Logic.JMeq <> y:54 var
+R3183:3183 Coq.Logic.JMeq <> x:53 var
+R3190:3195 Coq.Logic.EqdepFacts <> eq_dep ind
+R3221:3221 Coq.Logic.JMeq <> y:54 var
+R3219:3219 Coq.Logic.JMeq <> B:52 var
+R3217:3217 Coq.Logic.JMeq <> x:53 var
+R3215:3215 Coq.Logic.JMeq <> A:51 var
+binder 3207:3207 <> X:55
+R3212:3212 Coq.Logic.JMeq <> X:55 var
+R3249:3260 Coq.Logic.EqdepFacts <> eq_dep_intro constr
+R3249:3260 Coq.Logic.EqdepFacts <> eq_dep_intro constr
+prf 3275:3288 <> eq_dep_id_JMeq
+binder 3301:3301 <> A:56
+binder 3303:3303 <> B:57
+R3314:3314 Coq.Logic.JMeq <> A:56 var
+binder 3312:3312 <> x:58
+R3320:3320 Coq.Logic.JMeq <> B:57 var
+binder 3318:3318 <> y:59
+R3356:3359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3324:3329 Coq.Logic.EqdepFacts <> eq_dep ind
+R3355:3355 Coq.Logic.JMeq <> y:59 var
+R3353:3353 Coq.Logic.JMeq <> B:57 var
+R3351:3351 Coq.Logic.JMeq <> x:58 var
+R3349:3349 Coq.Logic.JMeq <> A:56 var
+binder 3341:3341 <> X:60
+R3346:3346 Coq.Logic.JMeq <> X:60 var
+R3360:3363 Coq.Logic.JMeq <> JMeq ind
+R3367:3367 Coq.Logic.JMeq <> y:59 var
+R3365:3365 Coq.Logic.JMeq <> x:58 var
+R3395:3403 Coq.Logic.JMeq <> JMeq_refl constr
+R3395:3403 Coq.Logic.JMeq <> JMeq_refl constr
+prf 3493:3503 <> eq_dep_JMeq
+binder 3515:3515 <> U:61
+binder 3517:3517 <> P:62
+binder 3519:3519 <> p:63
+binder 3521:3521 <> x:64
+binder 3523:3523 <> q:65
+binder 3525:3525 <> y:66
+R3546:3549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3528:3533 Coq.Logic.EqdepFacts <> eq_dep ind
+R3545:3545 Coq.Logic.JMeq <> y:66 var
+R3543:3543 Coq.Logic.JMeq <> q:65 var
+R3541:3541 Coq.Logic.JMeq <> x:64 var
+R3539:3539 Coq.Logic.JMeq <> p:63 var
+R3537:3537 Coq.Logic.JMeq <> P:62 var
+R3535:3535 Coq.Logic.JMeq <> U:61 var
+R3550:3553 Coq.Logic.JMeq <> JMeq ind
+R3557:3557 Coq.Logic.JMeq <> y:66 var
+R3555:3555 Coq.Logic.JMeq <> x:64 var
+R3585:3593 Coq.Logic.JMeq <> JMeq_refl constr
+R3585:3593 Coq.Logic.JMeq <> JMeq_refl constr
+prf 3608:3636 <> eq_dep_strictly_stronger_JMeq
+R3641:3647 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3659:3660 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3648:3648 <> U:67
+binder 3650:3650 <> P:68
+binder 3652:3652 <> p:69
+binder 3654:3654 <> q:70
+binder 3656:3656 <> x:71
+binder 3658:3658 <> y:72
+R3669:3672 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3661:3664 Coq.Logic.JMeq <> JMeq ind
+R3668:3668 Coq.Logic.JMeq <> y:72 var
+R3666:3666 Coq.Logic.JMeq <> x:71 var
+R3673:3674 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3675:3680 Coq.Logic.EqdepFacts <> eq_dep ind
+R3692:3692 Coq.Logic.JMeq <> y:72 var
+R3690:3690 Coq.Logic.JMeq <> q:70 var
+R3688:3688 Coq.Logic.JMeq <> x:71 var
+R3686:3686 Coq.Logic.JMeq <> p:69 var
+R3684:3684 Coq.Logic.JMeq <> P:68 var
+R3682:3682 Coq.Logic.JMeq <> U:67 var
+R3709:3712 Coq.Init.Datatypes <> bool ind
+R3709:3712 Coq.Init.Datatypes <> bool ind
+R3732:3735 Coq.Init.Logic <> True ind
+R3732:3735 Coq.Init.Logic <> True ind
+R3746:3749 Coq.Init.Datatypes <> true constr
+R3746:3749 Coq.Init.Datatypes <> true constr
+R3759:3763 Coq.Init.Datatypes <> false constr
+R3759:3763 Coq.Init.Datatypes <> false constr
+R3773:3773 Coq.Init.Logic <> I constr
+R3773:3773 Coq.Init.Logic <> I constr
+R3783:3783 Coq.Init.Logic <> I constr
+R3783:3783 Coq.Init.Logic <> I constr
+R3829:3829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3825:3828 Coq.Init.Datatypes <> true constr
+R3830:3834 Coq.Init.Datatypes <> false constr
+R3829:3829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3825:3828 Coq.Init.Datatypes <> true constr
+R3830:3834 Coq.Init.Datatypes <> false constr
+prf 4031:4041 <> JMeq_eq_dep
+binder 4055:4055 <> U:73
+R4061:4062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4060:4060 Coq.Logic.JMeq <> U:73 var
+binder 4058:4058 <> P:74
+binder 4069:4069 <> p:75
+binder 4071:4071 <> q:76
+R4076:4076 Coq.Logic.JMeq <> P:74 var
+R4078:4078 Coq.Logic.JMeq <> p:75 var
+binder 4074:4074 <> x:77
+R4084:4084 Coq.Logic.JMeq <> P:74 var
+R4086:4086 Coq.Logic.JMeq <> q:76 var
+binder 4082:4082 <> y:78
+R4098:4101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4094:4096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4093:4093 Coq.Logic.JMeq <> p:75 var
+R4097:4097 Coq.Logic.JMeq <> q:76 var
+R4110:4113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4102:4105 Coq.Logic.JMeq <> JMeq ind
+R4109:4109 Coq.Logic.JMeq <> y:78 var
+R4107:4107 Coq.Logic.JMeq <> x:77 var
+R4114:4119 Coq.Logic.EqdepFacts <> eq_dep ind
+R4131:4131 Coq.Logic.JMeq <> y:78 var
+R4129:4129 Coq.Logic.JMeq <> q:76 var
+R4127:4127 Coq.Logic.JMeq <> x:77 var
+R4125:4125 Coq.Logic.JMeq <> p:75 var
+R4123:4123 Coq.Logic.JMeq <> P:74 var
+R4121:4121 Coq.Logic.JMeq <> U:73 var
+R4184:4190 Coq.Logic.JMeq <> JMeq_eq thm
+R4184:4190 Coq.Logic.JMeq <> JMeq_eq thm
+abbrev 4254:4261 <> sym_JMeq
+R4266:4273 Coq.Logic.JMeq <> JMeq_sym thm
+abbrev 4300:4309 <> trans_JMeq
+R4314:4323 Coq.Logic.JMeq <> JMeq_trans thm

@@ -1,0 +1,503 @@
+DIGEST 9a448f609769d37454fcaa9df10b7401
+FCoq.ZArith.Zbool
+R691:696 Coq.ZArith.BinInt <> <> lib
+R714:718 Coq.ZArith.Zeven <> <> lib
+R736:741 Coq.ZArith.Zorder <> <> lib
+R759:766 Coq.ZArith.Zcompare <> <> lib
+R784:793 Coq.ZArith.ZArith_dec <> <> lib
+R811:817 Coq.Bool.Sumbool <> <> lib
+def 1051:1062 <> Z_lt_ge_bool
+R1069:1069 Coq.Numbers.BinNums <> Z ind
+binder 1065:1065 <> x:1
+binder 1067:1067 <> y:2
+R1075:1089 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1092:1102 Coq.ZArith.ZArith_dec <> Z_lt_ge_dec def
+R1106:1106 Coq.ZArith.Zbool <> y:2 var
+R1104:1104 Coq.ZArith.Zbool <> x:1 var
+def 1121:1132 <> Z_ge_lt_bool
+R1139:1139 Coq.Numbers.BinNums <> Z ind
+binder 1135:1135 <> x:3
+binder 1137:1137 <> y:4
+R1145:1159 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1162:1172 Coq.ZArith.ZArith_dec <> Z_ge_lt_dec def
+R1176:1176 Coq.ZArith.Zbool <> y:4 var
+R1174:1174 Coq.ZArith.Zbool <> x:3 var
+def 1192:1203 <> Z_le_gt_bool
+R1210:1210 Coq.Numbers.BinNums <> Z ind
+binder 1206:1206 <> x:5
+binder 1208:1208 <> y:6
+R1216:1230 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1233:1243 Coq.ZArith.ZArith_dec <> Z_le_gt_dec def
+R1247:1247 Coq.ZArith.Zbool <> y:6 var
+R1245:1245 Coq.ZArith.Zbool <> x:5 var
+def 1262:1273 <> Z_gt_le_bool
+R1280:1280 Coq.Numbers.BinNums <> Z ind
+binder 1276:1276 <> x:7
+binder 1278:1278 <> y:8
+R1286:1300 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1303:1313 Coq.ZArith.ZArith_dec <> Z_gt_le_dec def
+R1317:1317 Coq.ZArith.Zbool <> y:8 var
+R1315:1315 Coq.ZArith.Zbool <> x:7 var
+def 1333:1341 <> Z_eq_bool
+R1348:1348 Coq.Numbers.BinNums <> Z ind
+binder 1344:1344 <> x:9
+binder 1346:1346 <> y:10
+R1354:1368 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1371:1378 Coq.ZArith.BinInt Z eq_dec def
+R1380:1380 Coq.ZArith.Zbool <> x:9 var
+R1382:1382 Coq.ZArith.Zbool <> y:10 var
+def 1397:1408 <> Z_noteq_bool
+R1415:1415 Coq.Numbers.BinNums <> Z ind
+binder 1411:1411 <> x:11
+binder 1413:1413 <> y:12
+R1421:1435 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1438:1448 Coq.ZArith.ZArith_dec <> Z_noteq_dec thm
+R1450:1450 Coq.ZArith.Zbool <> x:11 var
+R1452:1452 Coq.ZArith.Zbool <> y:12 var
+def 1468:1481 <> Zeven_odd_bool
+R1486:1486 Coq.Numbers.BinNums <> Z ind
+binder 1484:1484 <> x:13
+R1492:1506 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1509:1521 Coq.ZArith.Zeven <> Zeven_odd_dec def
+R1523:1523 Coq.ZArith.Zbool <> x:13 var
+abbrev 1659:1666 <> Zle_bool
+R1671:1675 Coq.ZArith.BinInt Z leb def
+abbrev 1702:1709 <> Zge_bool
+R1714:1718 Coq.ZArith.BinInt Z geb def
+abbrev 1745:1752 <> Zlt_bool
+R1757:1761 Coq.ZArith.BinInt Z ltb def
+abbrev 1788:1795 <> Zgt_bool
+R1800:1804 Coq.ZArith.BinInt Z gtb def
+def 1958:1965 <> Zeq_bool
+R1972:1972 Coq.Numbers.BinNums <> Z ind
+binder 1968:1968 <> x:14
+binder 1970:1970 <> y:15
+R1987:1990 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R1986:1986 Coq.ZArith.Zbool <> x:14 var
+R1991:1991 Coq.ZArith.Zbool <> y:15 var
+R2004:2005 Coq.Init.Datatypes <> Eq constr
+R2010:2013 Coq.Init.Datatypes <> true constr
+R2026:2030 Coq.Init.Datatypes <> false constr
+def 2051:2059 <> Zneq_bool
+R2066:2066 Coq.Numbers.BinNums <> Z ind
+binder 2062:2062 <> x:16
+binder 2064:2064 <> y:17
+R2081:2084 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R2080:2080 Coq.ZArith.Zbool <> x:16 var
+R2085:2085 Coq.ZArith.Zbool <> y:17 var
+R2098:2099 Coq.Init.Datatypes <> Eq constr
+R2104:2108 Coq.Init.Datatypes <> false constr
+R2121:2124 Coq.Init.Datatypes <> true constr
+prf 2197:2205 <> Zle_cases
+binder 2207:2207 <> n:18
+binder 2209:2209 <> m:19
+R2217:2221 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R2216:2216 Coq.ZArith.Zbool <> n:18 var
+R2222:2222 Coq.ZArith.Zbool <> m:19 var
+R2242:2244 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R2241:2241 Coq.ZArith.Zbool <> n:18 var
+R2245:2245 Coq.ZArith.Zbool <> m:19 var
+R2230:2233 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2229:2229 Coq.ZArith.Zbool <> n:18 var
+R2234:2234 Coq.ZArith.Zbool <> m:19 var
+R2261:2270 Coq.ZArith.BinInt Z leb_spec thm
+R2261:2270 Coq.ZArith.BinInt Z leb_spec thm
+prf 2305:2313 <> Zlt_cases
+binder 2315:2315 <> n:20
+binder 2317:2317 <> m:21
+R2325:2328 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R2324:2324 Coq.ZArith.Zbool <> n:20 var
+R2329:2329 Coq.ZArith.Zbool <> m:21 var
+R2348:2351 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R2347:2347 Coq.ZArith.Zbool <> n:20 var
+R2352:2352 Coq.ZArith.Zbool <> m:21 var
+R2337:2339 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2336:2336 Coq.ZArith.Zbool <> n:20 var
+R2340:2340 Coq.ZArith.Zbool <> m:21 var
+R2368:2377 Coq.ZArith.BinInt Z ltb_spec thm
+R2368:2377 Coq.ZArith.BinInt Z ltb_spec thm
+prf 2412:2420 <> Zge_cases
+binder 2422:2422 <> n:22
+binder 2424:2424 <> m:23
+R2432:2436 Coq.ZArith.BinInt <> ::Z_scope:x_'>=?'_x not
+R2431:2431 Coq.ZArith.Zbool <> n:22 var
+R2437:2437 Coq.ZArith.Zbool <> m:23 var
+R2457:2459 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2456:2456 Coq.ZArith.Zbool <> n:22 var
+R2460:2460 Coq.ZArith.Zbool <> m:23 var
+R2445:2448 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R2444:2444 Coq.ZArith.Zbool <> n:22 var
+R2449:2449 Coq.ZArith.Zbool <> m:23 var
+R2479:2487 Coq.ZArith.BinInt Z geb_leb thm
+R2479:2487 Coq.ZArith.BinInt Z geb_leb thm
+R2479:2487 Coq.ZArith.BinInt Z geb_leb thm
+R2495:2504 Coq.ZArith.BinInt Z leb_spec thm
+R2495:2504 Coq.ZArith.BinInt Z leb_spec thm
+prf 2539:2547 <> Zgt_cases
+binder 2549:2549 <> n:24
+binder 2551:2551 <> m:25
+R2559:2562 Coq.ZArith.BinInt <> ::Z_scope:x_'>?'_x not
+R2558:2558 Coq.ZArith.Zbool <> n:24 var
+R2563:2563 Coq.ZArith.Zbool <> m:25 var
+R2582:2585 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2581:2581 Coq.ZArith.Zbool <> n:24 var
+R2586:2586 Coq.ZArith.Zbool <> m:25 var
+R2571:2573 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R2570:2570 Coq.ZArith.Zbool <> n:24 var
+R2574:2574 Coq.ZArith.Zbool <> m:25 var
+R2605:2613 Coq.ZArith.BinInt Z gtb_ltb thm
+R2605:2613 Coq.ZArith.BinInt Z gtb_ltb thm
+R2605:2613 Coq.ZArith.BinInt Z gtb_ltb thm
+R2621:2630 Coq.ZArith.BinInt Z ltb_spec thm
+R2621:2630 Coq.ZArith.BinInt Z ltb_spec thm
+prf 2714:2728 <> Zle_bool_imp_le
+binder 2730:2730 <> n:26
+binder 2732:2732 <> m:27
+R2752:2756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2763:2763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2736:2736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2738:2742 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R2737:2737 Coq.ZArith.Zbool <> n:26 var
+R2743:2743 Coq.ZArith.Zbool <> m:27 var
+R2748:2751 Coq.Init.Datatypes <> true constr
+R2758:2761 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2757:2757 Coq.ZArith.Zbool <> n:26 var
+R2762:2762 Coq.ZArith.Zbool <> m:27 var
+R2780:2787 Coq.ZArith.BinInt Z leb_le thm
+R2780:2787 Coq.ZArith.BinInt Z leb_le thm
+prf 2802:2816 <> Zle_imp_le_bool
+binder 2818:2818 <> n:28
+binder 2820:2820 <> m:29
+R2824:2824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2831:2835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2826:2829 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2825:2825 Coq.ZArith.Zbool <> n:28 var
+R2830:2830 Coq.ZArith.Zbool <> m:29 var
+R2836:2836 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2844:2847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2838:2842 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R2837:2837 Coq.ZArith.Zbool <> n:28 var
+R2843:2843 Coq.ZArith.Zbool <> m:29 var
+R2848:2851 Coq.Init.Datatypes <> true constr
+R2868:2875 Coq.ZArith.BinInt Z leb_le thm
+R2868:2875 Coq.ZArith.BinInt Z leb_le thm
+abbrev 2893:2905 <> Zle_bool_refl
+R2910:2919 Coq.ZArith.BinInt Z leb_refl thm
+prf 2944:2959 <> Zle_bool_antisym
+binder 2961:2961 <> n:30
+binder 2963:2963 <> m:31
+R2984:2987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2968:2968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2976:2979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2970:2974 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R2969:2969 Coq.ZArith.Zbool <> n:30 var
+R2975:2975 Coq.ZArith.Zbool <> m:31 var
+R2980:2983 Coq.Init.Datatypes <> true constr
+R3004:3007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2988:2988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2996:2999 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2990:2994 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R2989:2989 Coq.ZArith.Zbool <> m:31 var
+R2995:2995 Coq.ZArith.Zbool <> n:30 var
+R3000:3003 Coq.Init.Datatypes <> true constr
+R3009:3011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3008:3008 Coq.ZArith.Zbool <> n:30 var
+R3012:3012 Coq.ZArith.Zbool <> m:31 var
+R3032:3039 Coq.ZArith.BinInt Z leb_le thm
+R3032:3039 Coq.ZArith.BinInt Z leb_le thm
+R3032:3039 Coq.ZArith.BinInt Z leb_le thm
+R3032:3039 Coq.ZArith.BinInt Z leb_le thm
+R3032:3039 Coq.ZArith.BinInt Z leb_le thm
+R3048:3060 Coq.ZArith.BinInt Z le_antisymm thm
+R3048:3060 Coq.ZArith.BinInt Z le_antisymm thm
+prf 3075:3088 <> Zle_bool_trans
+binder 3090:3090 <> n:32
+binder 3092:3092 <> m:33
+binder 3094:3094 <> p:34
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3099:3099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3107:3110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3101:3105 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3100:3100 Coq.ZArith.Zbool <> n:32 var
+R3106:3106 Coq.ZArith.Zbool <> m:33 var
+R3111:3114 Coq.Init.Datatypes <> true constr
+R3135:3138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3119:3119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3127:3130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3121:3125 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3120:3120 Coq.ZArith.Zbool <> m:33 var
+R3126:3126 Coq.ZArith.Zbool <> p:34 var
+R3131:3134 Coq.Init.Datatypes <> true constr
+R3139:3139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3147:3150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3141:3145 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3140:3140 Coq.ZArith.Zbool <> n:32 var
+R3146:3146 Coq.ZArith.Zbool <> p:34 var
+R3151:3154 Coq.Init.Datatypes <> true constr
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3174:3181 Coq.ZArith.BinInt Z leb_le thm
+R3190:3199 Coq.ZArith.BinInt Z le_trans thm
+R3190:3199 Coq.ZArith.BinInt Z le_trans thm
+def 3219:3232 <> Zle_bool_total
+binder 3234:3234 <> x:35
+binder 3236:3236 <> y:36
+R3242:3243 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3258:3264 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3279:3280 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3251:3253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3245:3249 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3244:3244 Coq.ZArith.Zbool <> x:35 var
+R3250:3250 Coq.ZArith.Zbool <> y:36 var
+R3254:3257 Coq.Init.Datatypes <> true constr
+R3272:3274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3266:3270 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3265:3265 Coq.ZArith.Zbool <> y:36 var
+R3271:3271 Coq.ZArith.Zbool <> x:35 var
+R3275:3278 Coq.Init.Datatypes <> true constr
+R3301:3305 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3301:3305 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3354:3361 Coq.ZArith.BinInt Z leb_gt thm
+R3354:3361 Coq.ZArith.BinInt Z leb_gt thm
+R3379:3386 Coq.ZArith.BinInt Z leb_le thm
+R3389:3400 Coq.ZArith.BinInt Z lt_le_incl thm
+R3379:3386 Coq.ZArith.BinInt Z leb_le thm
+R3389:3400 Coq.ZArith.BinInt Z lt_le_incl thm
+prf 3419:3436 <> Zle_bool_plus_mono
+binder 3438:3438 <> n:37
+binder 3440:3440 <> m:38
+binder 3442:3442 <> p:39
+binder 3444:3444 <> q:40
+R3465:3469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3449:3449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3457:3460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3451:3455 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3450:3450 Coq.ZArith.Zbool <> n:37 var
+R3456:3456 Coq.ZArith.Zbool <> m:38 var
+R3461:3464 Coq.Init.Datatypes <> true constr
+R3486:3490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3470:3470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3478:3481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3472:3476 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3471:3471 Coq.ZArith.Zbool <> p:39 var
+R3477:3477 Coq.ZArith.Zbool <> q:40 var
+R3482:3485 Coq.Init.Datatypes <> true constr
+R3491:3491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3507:3510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3497:3501 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3493:3495 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3492:3492 Coq.ZArith.Zbool <> n:37 var
+R3496:3496 Coq.ZArith.Zbool <> p:39 var
+R3503:3505 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3502:3502 Coq.ZArith.Zbool <> m:38 var
+R3506:3506 Coq.ZArith.Zbool <> q:40 var
+R3511:3514 Coq.Init.Datatypes <> true constr
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3534:3541 Coq.ZArith.BinInt Z leb_le thm
+R3550:3562 Coq.ZArith.BinInt Z add_le_mono thm
+R3550:3562 Coq.ZArith.BinInt Z add_le_mono thm
+prf 3577:3584 <> Zone_pos
+R3595:3597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3589:3593 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3598:3602 Coq.Init.Datatypes <> false constr
+prf 3638:3649 <> Zone_min_pos
+binder 3651:3651 <> n:41
+R3672:3675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3655:3655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3663:3666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3657:3661 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3656:3656 Coq.ZArith.Zbool <> n:41 var
+R3667:3671 Coq.Init.Datatypes <> false constr
+R3676:3676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3684:3687 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3678:3682 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3683:3683 Coq.ZArith.Zbool <> n:41 var
+R3688:3691 Coq.Init.Datatypes <> true constr
+R3710:3717 Coq.ZArith.BinInt Z leb_le thm
+R3720:3727 Coq.ZArith.BinInt Z leb_gt thm
+R3710:3717 Coq.ZArith.BinInt Z leb_le thm
+R3710:3717 Coq.ZArith.BinInt Z leb_le thm
+R3720:3727 Coq.ZArith.BinInt Z leb_gt thm
+R3720:3727 Coq.ZArith.BinInt Z leb_gt thm
+R3736:3746 Coq.ZArith.BinInt Z le_succ_l thm
+R3736:3746 Coq.ZArith.BinInt Z le_succ_l thm
+prf 3797:3810 <> Zle_is_le_bool
+binder 3812:3812 <> n:42
+binder 3814:3814 <> m:43
+R3818:3818 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3825:3830 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3820:3823 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3819:3819 Coq.ZArith.Zbool <> n:42 var
+R3824:3824 Coq.ZArith.Zbool <> m:43 var
+R3831:3831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3839:3842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3833:3837 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3832:3832 Coq.ZArith.Zbool <> n:42 var
+R3838:3838 Coq.ZArith.Zbool <> m:43 var
+R3843:3846 Coq.Init.Datatypes <> true constr
+R3873:3880 Coq.ZArith.BinInt Z leb_le thm
+R3873:3880 Coq.ZArith.BinInt Z leb_le thm
+prf 3895:3908 <> Zge_is_le_bool
+binder 3910:3910 <> n:44
+binder 3912:3912 <> m:45
+R3916:3916 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3923:3928 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3918:3921 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R3917:3917 Coq.ZArith.Zbool <> n:44 var
+R3922:3922 Coq.ZArith.Zbool <> m:45 var
+R3929:3929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3937:3940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3931:3935 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3930:3930 Coq.ZArith.Zbool <> m:45 var
+R3936:3936 Coq.ZArith.Zbool <> n:44 var
+R3941:3944 Coq.Init.Datatypes <> true constr
+R3987:3994 Coq.ZArith.BinInt Z leb_le thm
+R3987:3994 Coq.ZArith.BinInt Z leb_le thm
+prf 4009:4022 <> Zlt_is_lt_bool
+binder 4024:4024 <> n:46
+binder 4026:4026 <> m:47
+R4030:4030 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4036:4041 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4032:4034 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4031:4031 Coq.ZArith.Zbool <> n:46 var
+R4035:4035 Coq.ZArith.Zbool <> m:47 var
+R4042:4042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4049:4052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4044:4047 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R4043:4043 Coq.ZArith.Zbool <> n:46 var
+R4048:4048 Coq.ZArith.Zbool <> m:47 var
+R4053:4056 Coq.Init.Datatypes <> true constr
+R4083:4090 Coq.ZArith.BinInt Z ltb_lt thm
+R4083:4090 Coq.ZArith.BinInt Z ltb_lt thm
+prf 4105:4118 <> Zgt_is_gt_bool
+binder 4120:4120 <> n:48
+binder 4122:4122 <> m:49
+R4126:4126 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4132:4137 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4128:4130 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R4127:4127 Coq.ZArith.Zbool <> n:48 var
+R4131:4131 Coq.ZArith.Zbool <> m:49 var
+R4138:4138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4145:4148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4140:4143 Coq.ZArith.BinInt <> ::Z_scope:x_'>?'_x not
+R4139:4139 Coq.ZArith.Zbool <> n:48 var
+R4144:4144 Coq.ZArith.Zbool <> m:49 var
+R4149:4152 Coq.Init.Datatypes <> true constr
+R4187:4195 Coq.ZArith.BinInt Z gtb_ltb thm
+R4187:4195 Coq.ZArith.BinInt Z gtb_ltb thm
+R4187:4195 Coq.ZArith.BinInt Z gtb_ltb thm
+R4214:4221 Coq.ZArith.BinInt Z ltb_lt thm
+R4214:4221 Coq.ZArith.BinInt Z ltb_lt thm
+prf 4236:4249 <> Zlt_is_le_bool
+binder 4251:4251 <> n:50
+binder 4253:4253 <> m:51
+R4257:4257 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4263:4268 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4259:4261 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4258:4258 Coq.ZArith.Zbool <> n:50 var
+R4262:4262 Coq.ZArith.Zbool <> m:51 var
+R4269:4269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4281:4284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4271:4275 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R4270:4270 Coq.ZArith.Zbool <> n:50 var
+R4277:4279 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4276:4276 Coq.ZArith.Zbool <> m:51 var
+R4285:4288 Coq.Init.Datatypes <> true constr
+R4307:4314 Coq.ZArith.BinInt Z leb_le thm
+R4307:4314 Coq.ZArith.BinInt Z leb_le thm
+R4307:4314 Coq.ZArith.BinInt Z leb_le thm
+R4323:4334 Coq.ZArith.BinInt Z lt_le_pred thm
+R4323:4334 Coq.ZArith.BinInt Z lt_le_pred thm
+prf 4349:4362 <> Zgt_is_le_bool
+binder 4364:4364 <> n:52
+binder 4366:4366 <> m:53
+R4370:4370 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4376:4381 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4372:4374 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R4371:4371 Coq.ZArith.Zbool <> n:52 var
+R4375:4375 Coq.ZArith.Zbool <> m:53 var
+R4382:4382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4394:4397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4384:4388 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R4383:4383 Coq.ZArith.Zbool <> m:53 var
+R4390:4392 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4389:4389 Coq.ZArith.Zbool <> n:52 var
+R4398:4401 Coq.Init.Datatypes <> true constr
+R4436:4443 Coq.ZArith.BinInt Z leb_le thm
+R4436:4443 Coq.ZArith.BinInt Z leb_le thm
+R4436:4443 Coq.ZArith.BinInt Z leb_le thm
+R4452:4463 Coq.ZArith.BinInt Z lt_le_pred thm
+R4452:4463 Coq.ZArith.BinInt Z lt_le_pred thm
+prf 4526:4539 <> Zeq_is_eq_bool
+binder 4541:4541 <> x:54
+binder 4543:4543 <> y:55
+R4552:4556 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4548:4550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4547:4547 Coq.ZArith.Zbool <> x:54 var
+R4551:4551 Coq.ZArith.Zbool <> y:55 var
+R4569:4571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4557:4564 Coq.ZArith.Zbool <> Zeq_bool def
+R4566:4566 Coq.ZArith.Zbool <> x:54 var
+R4568:4568 Coq.ZArith.Zbool <> y:55 var
+R4572:4575 Coq.Init.Datatypes <> true constr
+R4593:4600 Coq.ZArith.Zbool <> Zeq_bool def
+R4615:4630 Coq.ZArith.BinInt Z compare_eq_iff thm
+R4615:4630 Coq.ZArith.BinInt Z compare_eq_iff thm
+R4615:4630 Coq.ZArith.BinInt Z compare_eq_iff thm
+R4642:4650 Coq.ZArith.BinInt Z compare def
+R4642:4650 Coq.ZArith.BinInt Z compare def
+prf 4676:4686 <> Zeq_bool_eq
+binder 4688:4688 <> x:56
+binder 4690:4690 <> y:57
+R4713:4716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4706:4708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4694:4701 Coq.ZArith.Zbool <> Zeq_bool def
+R4703:4703 Coq.ZArith.Zbool <> x:56 var
+R4705:4705 Coq.ZArith.Zbool <> y:57 var
+R4709:4712 Coq.Init.Datatypes <> true constr
+R4718:4720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4717:4717 Coq.ZArith.Zbool <> x:56 var
+R4721:4721 Coq.ZArith.Zbool <> y:57 var
+R4738:4751 Coq.ZArith.Zbool <> Zeq_is_eq_bool thm
+R4738:4751 Coq.ZArith.Zbool <> Zeq_is_eq_bool thm
+prf 4766:4777 <> Zeq_bool_neq
+binder 4779:4779 <> x:58
+binder 4781:4781 <> y:59
+R4805:4808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4797:4799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4785:4792 Coq.ZArith.Zbool <> Zeq_bool def
+R4794:4794 Coq.ZArith.Zbool <> x:58 var
+R4796:4796 Coq.ZArith.Zbool <> y:59 var
+R4800:4804 Coq.Init.Datatypes <> false constr
+R4810:4813 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4809:4809 Coq.ZArith.Zbool <> x:58 var
+R4814:4814 Coq.ZArith.Zbool <> y:59 var
+R4833:4846 Coq.ZArith.Zbool <> Zeq_is_eq_bool thm
+R4833:4846 Coq.ZArith.Zbool <> Zeq_is_eq_bool thm
+R4833:4846 Coq.ZArith.Zbool <> Zeq_is_eq_bool thm
+R4862:4869 Coq.ZArith.Zbool <> Zeq_bool def
+prf 4884:4894 <> Zeq_bool_if
+binder 4896:4896 <> x:60
+binder 4898:4898 <> y:61
+R4905:4912 Coq.ZArith.Zbool <> Zeq_bool def
+R4914:4914 Coq.ZArith.Zbool <> x:60 var
+R4916:4916 Coq.ZArith.Zbool <> y:61 var
+R4933:4934 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4932:4932 Coq.ZArith.Zbool <> x:60 var
+R4935:4935 Coq.ZArith.Zbool <> y:61 var
+R4924:4924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4923:4923 Coq.ZArith.Zbool <> x:60 var
+R4925:4925 Coq.ZArith.Zbool <> y:61 var
+R4958:4968 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R4976:4987 Coq.ZArith.Zbool <> Zeq_bool_neq thm
+R4958:4968 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R4976:4987 Coq.ZArith.Zbool <> Zeq_bool_neq thm
+R5005:5012 Coq.ZArith.Zbool <> Zeq_bool def

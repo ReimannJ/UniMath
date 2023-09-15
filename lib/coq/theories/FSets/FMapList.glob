@@ -1,0 +1,3974 @@
+DIGEST 48bbeffca02ef72612e3661e1796d97e
+FCoq.FSets.FMapList
+R891:896 Coq.funind.FunInd <> <> lib
+R898:910 Coq.FSets.FMapInterface <> <> lib
+R976:986 Coq.Structures.OrderedType OrderedType <> mod
+mod 969:971 <> Raw
+R1011:1026 Coq.Structures.OrderedType OrderedTypeFacts <> modtype
+R1028:1028 Coq.FSets.FMapList X <> modtype
+mod 1005:1006 <> Raw.MX
+R1051:1064 Coq.Structures.OrderedType KeyOrderedType <> modtype
+R1066:1066 Coq.FSets.FMapList X <> modtype
+mod 1045:1046 <> Raw.PX
+def 1081:1083 Raw key
+R1088:1090 Coq.FSets.FMapList X t defax
+def 1104:1104 Raw t
+binder 1107:1109 <> elt:1
+R1120:1123 Coq.Init.Datatypes <> list ind
+R1129:1131 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1126:1128 Coq.FSets.FMapList X t defax
+R1132:1134 Coq.FSets.FMapList <> elt:1 var
+sec 1147:1149 Raw Elt
+var 1161:1163 Raw.Elt elt
+abbrev 1183:1185 Raw eqk
+R1191:1193 Coq.FSets.FMapList Raw eqk def
+R1201:1203 Coq.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1217:1220 Raw eqke
+R1226:1229 Coq.FSets.FMapList Raw eqke def
+R1237:1239 Coq.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1253:1255 Raw ltk
+R1261:1263 Coq.FSets.FMapList Raw ltk def
+R1271:1273 Coq.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1287:1292 Raw MapsTo
+R1298:1303 Coq.FSets.FMapList Raw MapsTo def
+R1311:1313 Coq.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1327:1328 Raw In
+R1334:1335 Coq.FSets.FMapList Raw In def
+R1343:1345 Coq.FSets.FMapList <> Raw.Elt.elt var
+abbrev 1359:1362 Raw Sort
+R1368:1371 Coq.Sorting.Sorted <> sort abbrev
+R1373:1375 Coq.FSets.FMapList Raw ltk abbrev
+abbrev 1388:1390 Raw Inf
+R1396:1402 Coq.Sorting.Sorted <> lelistA abbrev
+R1405:1407 Coq.FSets.FMapList Raw ltk abbrev
+def 1442:1446 Raw empty
+R1450:1450 Coq.FSets.FMapList Raw t def
+R1452:1454 Coq.FSets.FMapList <> Raw.Elt.elt var
+R1459:1461 Coq.Init.Datatypes <> nil constr
+def 1476:1480 Raw Empty
+binder 1482:1482 <> m:3
+R1499:1501 Coq.FSets.FMapList Raw key def
+binder 1495:1495 <> a:4
+R1506:1508 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 1504:1504 <> e:5
+R1513:1514 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1515:1520 Coq.FSets.FMapList Raw MapsTo abbrev
+R1526:1526 Coq.FSets.FMapList <> m:3 var
+R1524:1524 Coq.FSets.FMapList <> e:5 var
+R1522:1522 Coq.FSets.FMapList <> a:4 var
+prf 1536:1542 Raw empty_1
+R1546:1550 Coq.FSets.FMapList Raw Empty def
+R1552:1556 Coq.FSets.FMapList Raw empty def
+R1574:1578 Coq.FSets.FMapList Raw Empty def
+R1580:1584 Coq.FSets.FMapList Raw empty def
+prf 1678:1689 Raw empty_sorted
+R1693:1696 Coq.FSets.FMapList Raw Sort abbrev
+R1698:1702 Coq.FSets.FMapList Raw empty def
+R1720:1724 Coq.FSets.FMapList Raw empty def
+def 1771:1778 Raw is_empty
+R1785:1785 Coq.FSets.FMapList Raw t def
+R1787:1789 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 1781:1781 <> l:6
+R1794:1797 Coq.Init.Datatypes <> bool ind
+R1805:1805 Coq.FSets.FMapList <> l:6 var
+R1822:1826 Coq.Init.Datatypes <> false constr
+R1812:1815 Coq.Init.Datatypes <> true constr
+prf 1836:1845 Raw is_empty_1
+binder 1855:1855 <> m:7
+R1865:1868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1858:1862 Coq.FSets.FMapList Raw Empty def
+R1864:1864 Coq.FSets.FMapList <> m:7 var
+R1879:1881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1869:1876 Coq.FSets.FMapList Raw is_empty def
+R1878:1878 Coq.FSets.FMapList <> m:7 var
+R1882:1885 Coq.Init.Datatypes <> true constr
+R1903:1907 Coq.FSets.FMapList Raw Empty def
+R1910:1918 Coq.FSets.FMapList Raw MapsTo def
+R1979:1981 Coq.Lists.SetoidList <> InA ind
+R2002:2005 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1996:1996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1998:1999 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2001:2001 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1988:1988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1990:1991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1993:1993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1983:1986 Coq.FSets.FMapList Raw eqke abbrev
+R1979:1981 Coq.Lists.SetoidList <> InA ind
+R2002:2005 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1996:1996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1998:1999 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2001:2001 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1988:1988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1990:1991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1993:1993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1983:1986 Coq.FSets.FMapList Raw eqke abbrev
+prf 2047:2056 Raw is_empty_2
+binder 2067:2067 <> m:8
+R2087:2090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2080:2082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2070:2077 Coq.FSets.FMapList Raw is_empty def
+R2079:2079 Coq.FSets.FMapList <> m:8 var
+R2083:2086 Coq.Init.Datatypes <> true constr
+R2091:2095 Coq.FSets.FMapList Raw Empty def
+R2097:2097 Coq.FSets.FMapList <> m:8 var
+R2205:2207 Coq.FSets.FMapList Raw key def
+binder 2201:2201 <> k:9
+R2215:2215 Coq.FSets.FMapList Raw t def
+R2217:2219 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 2211:2211 <> s:10
+R2235:2238 Coq.Init.Datatypes <> bool ind
+R2250:2250 Coq.FSets.FMapList <> s:10 var
+R2261:2263 Coq.Init.Datatypes <> nil constr
+R2268:2272 Coq.Init.Datatypes <> false constr
+R2284:2287 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2278:2278 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2281:2281 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2283:2283 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2312 Coq.FSets.FMapList X compare defax
+R2314:2314 Coq.FSets.FMapList <> k:9 var
+R2332:2333 Coq.Structures.OrderedType <> LT constr
+R2340:2344 Coq.Init.Datatypes <> false constr
+R2354:2355 Coq.Structures.OrderedType <> EQ constr
+R2362:2365 Coq.Init.Datatypes <> true constr
+R2375:2376 Coq.Structures.OrderedType <> GT constr
+R2383:2385 Coq.FSets.FMapList <> mem:11 def
+R2387:2387 Coq.FSets.FMapList <> k:9 var
+binder 2201:2201 <> k:13
+binder 2211:2211 <> s:14
+binder 2201:2201 <> k:15
+binder 2211:2211 <> s:16
+binder 2201:2201 <> k:18
+binder 2211:2211 <> s:19
+R2250:2250 Coq.FSets.FMapList <> s:19 var
+R2261:2263 Coq.Init.Datatypes <> nil constr
+R2268:2272 Coq.Init.Datatypes <> false constr
+R2284:2287 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2278:2278 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2281:2281 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2283:2283 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2312 Coq.FSets.FMapList X compare defax
+R2314:2314 Coq.FSets.FMapList <> k:18 var
+R2332:2333 Coq.Structures.OrderedType <> LT constr
+R2340:2344 Coq.Init.Datatypes <> false constr
+R2354:2355 Coq.Structures.OrderedType <> EQ constr
+R2362:2365 Coq.Init.Datatypes <> true constr
+R2375:2376 Coq.Structures.OrderedType <> GT constr
+R2383:2385 Coq.FSets.FMapList <> mem:17 def
+R2387:2387 Coq.FSets.FMapList <> k:18 var
+binder 2201:2201 <> k:21
+binder 2211:2211 <> s:22
+R2250:2250 Coq.FSets.FMapList <> s:22 var
+R2261:2263 Coq.Init.Datatypes <> nil constr
+R2268:2272 Coq.Init.Datatypes <> false constr
+R2284:2287 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2278:2278 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2281:2281 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2283:2283 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2312 Coq.FSets.FMapList X compare defax
+R2314:2314 Coq.FSets.FMapList <> k:21 var
+R2332:2333 Coq.Structures.OrderedType <> LT constr
+R2340:2344 Coq.Init.Datatypes <> false constr
+R2354:2355 Coq.Structures.OrderedType <> EQ constr
+R2362:2365 Coq.Init.Datatypes <> true constr
+R2375:2376 Coq.Structures.OrderedType <> GT constr
+R2383:2385 Coq.FSets.FMapList <> mem:23 def
+R2387:2387 Coq.FSets.FMapList <> k:21 var
+prf 2413:2417 Raw mem_1
+binder 2428:2428 <> m:48
+R2434:2437 Coq.FSets.FMapList Raw Sort abbrev
+R2439:2439 Coq.FSets.FMapList <> m:48 var
+binder 2431:2432 <> Hm:49
+binder 2442:2442 <> x:50
+R2451:2454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2445:2446 Coq.FSets.FMapList Raw In abbrev
+R2450:2450 Coq.FSets.FMapList <> m:48 var
+R2448:2448 Coq.FSets.FMapList <> x:50 var
+R2462:2464 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2455:2457 Coq.FSets.FMapList Raw mem def
+R2461:2461 Coq.FSets.FMapList <> m:48 var
+R2459:2459 Coq.FSets.FMapList <> x:50 var
+R2465:2468 Coq.Init.Datatypes <> true constr
+R2542:2544 Coq.FSets.FMapList Raw mem def
+R2542:2544 Coq.FSets.FMapList Raw mem def
+R2626:2627 Coq.FSets.FMapList Raw In abbrev
+R2640:2643 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2632:2632 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2635:2636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2639:2639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2626:2627 Coq.FSets.FMapList Raw In abbrev
+R2640:2643 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2632:2632 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2635:2636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2639:2639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2671:2684 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R2671:2684 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R2720:2727 Coq.Sorting.Sorted <> sort_inv abbrev
+R2720:2727 Coq.Sorting.Sorted <> sort_inv abbrev
+R2750:2755 Coq.FSets.FMapList Raw In_inv thm
+R2750:2755 Coq.FSets.FMapList Raw In_inv thm
+R2793:2796 Coq.FSets.FMapList X eq defax
+R2793:2796 Coq.FSets.FMapList X eq defax
+prf 2841:2845 Raw mem_2
+binder 2856:2856 <> m:51
+R2862:2865 Coq.FSets.FMapList Raw Sort abbrev
+R2867:2867 Coq.FSets.FMapList <> m:51 var
+binder 2859:2860 <> Hm:52
+binder 2870:2870 <> x:53
+R2887:2890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2880:2882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2873:2875 Coq.FSets.FMapList Raw mem def
+R2879:2879 Coq.FSets.FMapList <> m:51 var
+R2877:2877 Coq.FSets.FMapList <> x:53 var
+R2883:2886 Coq.Init.Datatypes <> true constr
+R2891:2892 Coq.FSets.FMapList Raw In abbrev
+R2896:2896 Coq.FSets.FMapList <> m:51 var
+R2894:2894 Coq.FSets.FMapList <> x:53 var
+R2954:2958 Coq.FSets.FMapList Raw In def
+R2960:2968 Coq.FSets.FMapList Raw MapsTo def
+R2994:2996 Coq.FSets.FMapList Raw mem def
+R2994:2996 Coq.FSets.FMapList Raw mem def
+R3197:3199 Coq.FSets.FMapList Raw key def
+binder 3195:3195 <> k:54
+R3206:3206 Coq.FSets.FMapList Raw t def
+R3208:3210 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 3203:3203 <> s:55
+R3226:3231 Coq.Init.Datatypes <> option ind
+R3233:3235 Coq.FSets.FMapList <> Raw.Elt.elt var
+R3247:3247 Coq.FSets.FMapList <> s:55 var
+R3258:3260 Coq.Init.Datatypes <> nil constr
+R3265:3268 Coq.Init.Datatypes <> None constr
+R3280:3281 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3274:3274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3277:3277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3279:3279 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3299:3307 Coq.FSets.FMapList X compare defax
+R3309:3309 Coq.FSets.FMapList <> k:54 var
+R3327:3328 Coq.Structures.OrderedType <> LT constr
+R3335:3338 Coq.Init.Datatypes <> None constr
+R3348:3349 Coq.Structures.OrderedType <> EQ constr
+R3356:3359 Coq.Init.Datatypes <> Some constr
+R3371:3372 Coq.Structures.OrderedType <> GT constr
+R3379:3382 Coq.FSets.FMapList <> find:56 def
+R3384:3384 Coq.FSets.FMapList <> k:54 var
+binder 3195:3195 <> k:58
+binder 3203:3203 <> s:59
+binder 3195:3195 <> k:60
+binder 3203:3203 <> s:61
+binder 3195:3195 <> k:63
+binder 3203:3203 <> s:64
+R3247:3247 Coq.FSets.FMapList <> s:64 var
+R3258:3260 Coq.Init.Datatypes <> nil constr
+R3265:3268 Coq.Init.Datatypes <> None constr
+R3280:3281 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3274:3274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3277:3277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3279:3279 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3299:3307 Coq.FSets.FMapList X compare defax
+R3309:3309 Coq.FSets.FMapList <> k:63 var
+R3327:3328 Coq.Structures.OrderedType <> LT constr
+R3335:3338 Coq.Init.Datatypes <> None constr
+R3348:3349 Coq.Structures.OrderedType <> EQ constr
+R3356:3359 Coq.Init.Datatypes <> Some constr
+R3371:3372 Coq.Structures.OrderedType <> GT constr
+R3379:3382 Coq.FSets.FMapList <> find:62 def
+R3384:3384 Coq.FSets.FMapList <> k:63 var
+binder 3195:3195 <> k:66
+binder 3203:3203 <> s:67
+R3247:3247 Coq.FSets.FMapList <> s:67 var
+R3258:3260 Coq.Init.Datatypes <> nil constr
+R3265:3268 Coq.Init.Datatypes <> None constr
+R3280:3281 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3274:3274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3277:3277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3279:3279 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3299:3307 Coq.FSets.FMapList X compare defax
+R3309:3309 Coq.FSets.FMapList <> k:66 var
+R3327:3328 Coq.Structures.OrderedType <> LT constr
+R3335:3338 Coq.Init.Datatypes <> None constr
+R3348:3349 Coq.Structures.OrderedType <> EQ constr
+R3356:3359 Coq.Init.Datatypes <> Some constr
+R3371:3372 Coq.Structures.OrderedType <> GT constr
+R3379:3382 Coq.FSets.FMapList <> find:68 def
+R3384:3384 Coq.FSets.FMapList <> k:66 var
+prf 3411:3416 Raw find_2
+binder 3428:3428 <> m:93
+binder 3430:3430 <> x:94
+binder 3432:3432 <> e:95
+R3452:3455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3443:3445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3435:3438 Coq.FSets.FMapList Raw find def
+R3442:3442 Coq.FSets.FMapList <> m:93 var
+R3440:3440 Coq.FSets.FMapList <> x:94 var
+R3446:3449 Coq.Init.Datatypes <> Some constr
+R3451:3451 Coq.FSets.FMapList <> e:95 var
+R3456:3461 Coq.FSets.FMapList Raw MapsTo abbrev
+R3467:3467 Coq.FSets.FMapList <> m:93 var
+R3465:3465 Coq.FSets.FMapList <> e:95 var
+R3463:3463 Coq.FSets.FMapList <> x:94 var
+R3497:3505 Coq.FSets.FMapList Raw MapsTo def
+R3531:3534 Coq.FSets.FMapList Raw find def
+R3531:3534 Coq.FSets.FMapList Raw find def
+prf 3619:3624 Raw find_1
+binder 3636:3636 <> m:96
+R3642:3645 Coq.FSets.FMapList Raw Sort abbrev
+R3647:3647 Coq.FSets.FMapList <> m:96 var
+binder 3639:3640 <> Hm:97
+binder 3650:3650 <> x:98
+binder 3652:3652 <> e:99
+R3667:3670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3655:3660 Coq.FSets.FMapList Raw MapsTo abbrev
+R3666:3666 Coq.FSets.FMapList <> m:96 var
+R3664:3664 Coq.FSets.FMapList <> e:99 var
+R3662:3662 Coq.FSets.FMapList <> x:98 var
+R3679:3681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3671:3674 Coq.FSets.FMapList Raw find def
+R3678:3678 Coq.FSets.FMapList <> m:96 var
+R3676:3676 Coq.FSets.FMapList <> x:98 var
+R3682:3685 Coq.Init.Datatypes <> Some constr
+R3687:3687 Coq.FSets.FMapList <> e:99 var
+R3747:3755 Coq.FSets.FMapList Raw MapsTo def
+R3781:3784 Coq.FSets.FMapList Raw find def
+R3781:3784 Coq.FSets.FMapList Raw find def
+R3925:3938 Coq.FSets.FMapList Raw Sort_In_cons_1 thm
+R3944:3955 Coq.FSets.FMapList Raw InA_eqke_eqk thm
+R3925:3938 Coq.FSets.FMapList Raw Sort_In_cons_1 thm
+R3944:3955 Coq.FSets.FMapList Raw InA_eqke_eqk thm
+R4073:4086 Coq.FSets.FMapList Raw Sort_In_cons_1 thm
+R4092:4103 Coq.FSets.FMapList Raw InA_eqke_eqk thm
+R4073:4086 Coq.FSets.FMapList Raw Sort_In_cons_1 thm
+R4092:4103 Coq.FSets.FMapList Raw InA_eqke_eqk thm
+R4245:4247 Coq.FSets.FMapList Raw key def
+binder 4241:4241 <> k:100
+R4255:4257 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 4251:4251 <> x:101
+R4265:4265 Coq.FSets.FMapList Raw t def
+R4267:4269 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 4261:4261 <> s:102
+R4285:4285 Coq.FSets.FMapList Raw t def
+R4287:4289 Coq.FSets.FMapList <> Raw.Elt.elt var
+R4301:4301 Coq.FSets.FMapList <> s:102 var
+R4312:4314 Coq.Init.Datatypes <> nil constr
+R4324:4327 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4319:4319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4321:4321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4323:4323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4320:4320 Coq.FSets.FMapList <> k:100 var
+R4322:4322 Coq.FSets.FMapList <> x:101 var
+R4328:4330 Coq.Init.Datatypes <> nil constr
+R4342:4345 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4336:4336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4339:4339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4341:4341 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4362:4370 Coq.FSets.FMapList X compare defax
+R4372:4372 Coq.FSets.FMapList <> k:100 var
+R4390:4391 Coq.Structures.OrderedType <> LT constr
+R4403:4404 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4398:4398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4400:4400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4402:4402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4399:4399 Coq.FSets.FMapList <> k:100 var
+R4401:4401 Coq.FSets.FMapList <> x:101 var
+R4405:4405 Coq.FSets.FMapList <> s:102 var
+R4415:4416 Coq.Structures.OrderedType <> EQ constr
+R4428:4429 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4423:4423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4425:4425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4427:4427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4424:4424 Coq.FSets.FMapList <> k:100 var
+R4426:4426 Coq.FSets.FMapList <> x:101 var
+R4440:4441 Coq.Structures.OrderedType <> GT constr
+R4454:4457 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4448:4448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4451:4451 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4453:4453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4458:4460 Coq.FSets.FMapList <> add:103 def
+R4464:4464 Coq.FSets.FMapList <> x:101 var
+R4462:4462 Coq.FSets.FMapList <> k:100 var
+binder 4241:4241 <> k:105
+binder 4251:4251 <> x:106
+binder 4261:4261 <> s:107
+binder 4241:4241 <> k:108
+binder 4251:4251 <> x:109
+binder 4261:4261 <> s:110
+binder 4241:4241 <> k:112
+binder 4251:4251 <> x:113
+binder 4261:4261 <> s:114
+R4301:4301 Coq.FSets.FMapList <> s:114 var
+R4312:4314 Coq.Init.Datatypes <> nil constr
+R4324:4327 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4319:4319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4321:4321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4323:4323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4320:4320 Coq.FSets.FMapList <> k:112 var
+R4322:4322 Coq.FSets.FMapList <> x:113 var
+R4328:4330 Coq.Init.Datatypes <> nil constr
+R4342:4345 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4336:4336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4339:4339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4341:4341 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4362:4370 Coq.FSets.FMapList X compare defax
+R4372:4372 Coq.FSets.FMapList <> k:112 var
+R4390:4391 Coq.Structures.OrderedType <> LT constr
+R4403:4404 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4398:4398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4400:4400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4402:4402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4399:4399 Coq.FSets.FMapList <> k:112 var
+R4401:4401 Coq.FSets.FMapList <> x:113 var
+R4405:4405 Coq.FSets.FMapList <> s:114 var
+R4415:4416 Coq.Structures.OrderedType <> EQ constr
+R4428:4429 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4423:4423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4425:4425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4427:4427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4424:4424 Coq.FSets.FMapList <> k:112 var
+R4426:4426 Coq.FSets.FMapList <> x:113 var
+R4440:4441 Coq.Structures.OrderedType <> GT constr
+R4454:4457 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4448:4448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4451:4451 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4453:4453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4458:4460 Coq.FSets.FMapList <> add:111 def
+R4464:4464 Coq.FSets.FMapList <> x:113 var
+R4462:4462 Coq.FSets.FMapList <> k:112 var
+binder 4241:4241 <> k:116
+binder 4251:4251 <> x:117
+binder 4261:4261 <> s:118
+R4301:4301 Coq.FSets.FMapList <> s:118 var
+R4312:4314 Coq.Init.Datatypes <> nil constr
+R4324:4327 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4319:4319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4321:4321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4323:4323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4320:4320 Coq.FSets.FMapList <> k:116 var
+R4322:4322 Coq.FSets.FMapList <> x:117 var
+R4328:4330 Coq.Init.Datatypes <> nil constr
+R4342:4345 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4336:4336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4339:4339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4341:4341 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4362:4370 Coq.FSets.FMapList X compare defax
+R4372:4372 Coq.FSets.FMapList <> k:116 var
+R4390:4391 Coq.Structures.OrderedType <> LT constr
+R4403:4404 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4398:4398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4400:4400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4402:4402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4399:4399 Coq.FSets.FMapList <> k:116 var
+R4401:4401 Coq.FSets.FMapList <> x:117 var
+R4405:4405 Coq.FSets.FMapList <> s:118 var
+R4415:4416 Coq.Structures.OrderedType <> EQ constr
+R4428:4429 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4423:4423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4425:4425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4427:4427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4424:4424 Coq.FSets.FMapList <> k:116 var
+R4426:4426 Coq.FSets.FMapList <> x:117 var
+R4440:4441 Coq.Structures.OrderedType <> GT constr
+R4454:4457 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4448:4448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4451:4451 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4453:4453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4458:4460 Coq.FSets.FMapList <> add:119 def
+R4464:4464 Coq.FSets.FMapList <> x:117 var
+R4462:4462 Coq.FSets.FMapList <> k:116 var
+prf 4490:4494 Raw add_1
+binder 4505:4505 <> m:146
+binder 4507:4507 <> x:147
+binder 4509:4509 <> y:148
+binder 4511:4511 <> e:149
+R4522:4525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4514:4517 Coq.FSets.FMapList X eq defax
+R4521:4521 Coq.FSets.FMapList <> y:148 var
+R4519:4519 Coq.FSets.FMapList <> x:147 var
+R4526:4531 Coq.FSets.FMapList Raw MapsTo abbrev
+R4538:4540 Coq.FSets.FMapList Raw add def
+R4546:4546 Coq.FSets.FMapList <> m:146 var
+R4544:4544 Coq.FSets.FMapList <> e:149 var
+R4542:4542 Coq.FSets.FMapList <> x:147 var
+R4535:4535 Coq.FSets.FMapList <> e:149 var
+R4533:4533 Coq.FSets.FMapList <> y:148 var
+R4605:4613 Coq.FSets.FMapList Raw MapsTo def
+R4639:4641 Coq.FSets.FMapList Raw add def
+R4639:4641 Coq.FSets.FMapList Raw add def
+prf 4692:4696 Raw add_2
+binder 4707:4707 <> m:150
+binder 4709:4709 <> x:151
+binder 4711:4711 <> y:152
+binder 4713:4713 <> e:153
+binder 4715:4716 <> e':154
+R4731:4734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4721:4722 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4723:4726 Coq.FSets.FMapList X eq defax
+R4730:4730 Coq.FSets.FMapList <> y:152 var
+R4728:4728 Coq.FSets.FMapList <> x:151 var
+R4747:4750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4735:4740 Coq.FSets.FMapList Raw MapsTo abbrev
+R4746:4746 Coq.FSets.FMapList <> m:150 var
+R4744:4744 Coq.FSets.FMapList <> e:153 var
+R4742:4742 Coq.FSets.FMapList <> y:152 var
+R4751:4756 Coq.FSets.FMapList Raw MapsTo abbrev
+R4763:4765 Coq.FSets.FMapList Raw add def
+R4772:4772 Coq.FSets.FMapList <> m:150 var
+R4769:4770 Coq.FSets.FMapList <> e':154 var
+R4767:4767 Coq.FSets.FMapList <> x:151 var
+R4760:4760 Coq.FSets.FMapList <> e:153 var
+R4758:4758 Coq.FSets.FMapList <> y:152 var
+R4839:4847 Coq.FSets.FMapList Raw MapsTo def
+R4873:4875 Coq.FSets.FMapList Raw add def
+R4873:4875 Coq.FSets.FMapList Raw add def
+prf 5078:5082 Raw add_3
+binder 5093:5093 <> m:155
+binder 5095:5095 <> x:156
+binder 5097:5097 <> y:157
+binder 5099:5099 <> e:158
+binder 5101:5102 <> e':159
+R5117:5120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5107:5108 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5109:5112 Coq.FSets.FMapList X eq defax
+R5116:5116 Coq.FSets.FMapList <> y:157 var
+R5114:5114 Coq.FSets.FMapList <> x:156 var
+R5144:5147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5121:5126 Coq.FSets.FMapList Raw MapsTo abbrev
+R5133:5135 Coq.FSets.FMapList Raw add def
+R5142:5142 Coq.FSets.FMapList <> m:155 var
+R5139:5140 Coq.FSets.FMapList <> e':159 var
+R5137:5137 Coq.FSets.FMapList <> x:156 var
+R5130:5130 Coq.FSets.FMapList <> e:158 var
+R5128:5128 Coq.FSets.FMapList <> y:157 var
+R5148:5153 Coq.FSets.FMapList Raw MapsTo abbrev
+R5159:5159 Coq.FSets.FMapList <> m:155 var
+R5157:5157 Coq.FSets.FMapList <> e:158 var
+R5155:5155 Coq.FSets.FMapList <> y:157 var
+R5251:5259 Coq.FSets.FMapList Raw MapsTo def
+R5285:5287 Coq.FSets.FMapList Raw add def
+R5285:5287 Coq.FSets.FMapList Raw add def
+R5320:5327 Coq.FSets.FMapList Raw In_inv_3 thm
+R5320:5327 Coq.FSets.FMapList Raw In_inv_3 thm
+R5344:5351 Coq.FSets.FMapList Raw In_inv_3 thm
+R5344:5351 Coq.FSets.FMapList Raw In_inv_3 thm
+R5383:5390 Coq.FSets.FMapList Raw In_inv_3 thm
+R5383:5390 Coq.FSets.FMapList Raw In_inv_3 thm
+prf 5439:5445 Raw add_Inf
+R5459:5459 Coq.FSets.FMapList Raw t def
+R5461:5463 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 5457:5457 <> m:160
+R5471:5473 Coq.FSets.FMapList Raw key def
+binder 5466:5466 <> x:161
+binder 5468:5469 <> x':162
+R5481:5483 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 5476:5476 <> e:163
+binder 5478:5479 <> e':164
+R5502:5505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5489:5491 Coq.FSets.FMapList Raw Inf abbrev
+R5501:5501 Coq.FSets.FMapList <> m:160 var
+R5493:5493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5496:5496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5499:5499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5494:5495 Coq.FSets.FMapList <> x':162 var
+R5497:5498 Coq.FSets.FMapList <> e':164 var
+R5523:5526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5506:5508 Coq.FSets.FMapList Raw ltk abbrev
+R5518:5518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5520:5520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5522:5522 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5519:5519 Coq.FSets.FMapList <> x:161 var
+R5521:5521 Coq.FSets.FMapList <> e:163 var
+R5510:5510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5513:5513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5516:5516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5511:5512 Coq.FSets.FMapList <> x':162 var
+R5514:5515 Coq.FSets.FMapList <> e':164 var
+R5527:5529 Coq.FSets.FMapList Raw Inf abbrev
+R5540:5542 Coq.FSets.FMapList Raw add def
+R5548:5548 Coq.FSets.FMapList <> m:160 var
+R5546:5546 Coq.FSets.FMapList <> e:163 var
+R5544:5544 Coq.FSets.FMapList <> x:161 var
+R5531:5531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5534:5534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5537:5537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5532:5533 Coq.FSets.FMapList <> x':162 var
+R5535:5536 Coq.FSets.FMapList <> e':164 var
+R5680:5688 Coq.FSets.FMapList X compare defax
+R5680:5688 Coq.FSets.FMapList X compare defax
+prf 5759:5768 Raw add_sorted
+binder 5779:5779 <> m:165
+R5785:5788 Coq.FSets.FMapList Raw Sort abbrev
+R5790:5790 Coq.FSets.FMapList <> m:165 var
+binder 5782:5783 <> Hm:166
+binder 5793:5793 <> x:167
+binder 5795:5795 <> e:168
+R5798:5801 Coq.FSets.FMapList Raw Sort abbrev
+R5804:5806 Coq.FSets.FMapList Raw add def
+R5812:5812 Coq.FSets.FMapList <> m:165 var
+R5810:5810 Coq.FSets.FMapList <> e:168 var
+R5808:5808 Coq.FSets.FMapList <> x:167 var
+R5903:5911 Coq.FSets.FMapList X compare defax
+R5903:5911 Coq.FSets.FMapList X compare defax
+R5996:5996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5999:5999 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6002:6002 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5984:5989 Coq.FSets.FMapList Raw Inf_eq thm
+R5996:5996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5999:5999 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6002:6002 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5984:5989 Coq.FSets.FMapList Raw Inf_eq thm
+R6057:6059 Coq.FSets.FMapList Raw key def
+binder 6053:6053 <> k:169
+R6067:6067 Coq.FSets.FMapList Raw t def
+R6069:6071 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 6063:6063 <> s:170
+R6087:6087 Coq.FSets.FMapList Raw t def
+R6089:6091 Coq.FSets.FMapList <> Raw.Elt.elt var
+R6103:6103 Coq.FSets.FMapList <> s:170 var
+R6114:6116 Coq.Init.Datatypes <> nil constr
+R6121:6123 Coq.Init.Datatypes <> nil constr
+R6135:6138 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6129:6129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6132:6132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6134:6134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6155:6163 Coq.FSets.FMapList X compare defax
+R6165:6165 Coq.FSets.FMapList <> k:169 var
+R6183:6184 Coq.Structures.OrderedType <> LT constr
+R6191:6191 Coq.FSets.FMapList <> s:170 var
+R6201:6202 Coq.Structures.OrderedType <> EQ constr
+R6219:6220 Coq.Structures.OrderedType <> GT constr
+R6233:6236 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6227:6227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6230:6230 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6232:6232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6237:6242 Coq.FSets.FMapList <> remove:171 def
+R6244:6244 Coq.FSets.FMapList <> k:169 var
+binder 6053:6053 <> k:173
+binder 6063:6063 <> s:174
+binder 6053:6053 <> k:175
+binder 6063:6063 <> s:176
+binder 6053:6053 <> k:178
+binder 6063:6063 <> s:179
+R6103:6103 Coq.FSets.FMapList <> s:179 var
+R6114:6116 Coq.Init.Datatypes <> nil constr
+R6121:6123 Coq.Init.Datatypes <> nil constr
+R6135:6138 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6129:6129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6132:6132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6134:6134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6155:6163 Coq.FSets.FMapList X compare defax
+R6165:6165 Coq.FSets.FMapList <> k:178 var
+R6183:6184 Coq.Structures.OrderedType <> LT constr
+R6191:6191 Coq.FSets.FMapList <> s:179 var
+R6201:6202 Coq.Structures.OrderedType <> EQ constr
+R6219:6220 Coq.Structures.OrderedType <> GT constr
+R6233:6236 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6227:6227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6230:6230 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6232:6232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6237:6242 Coq.FSets.FMapList <> remove:177 def
+R6244:6244 Coq.FSets.FMapList <> k:178 var
+binder 6053:6053 <> k:181
+binder 6063:6063 <> s:182
+R6103:6103 Coq.FSets.FMapList <> s:182 var
+R6114:6116 Coq.Init.Datatypes <> nil constr
+R6121:6123 Coq.Init.Datatypes <> nil constr
+R6135:6138 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6129:6129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6132:6132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6134:6134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6155:6163 Coq.FSets.FMapList X compare defax
+R6165:6165 Coq.FSets.FMapList <> k:181 var
+R6183:6184 Coq.Structures.OrderedType <> LT constr
+R6191:6191 Coq.FSets.FMapList <> s:182 var
+R6201:6202 Coq.Structures.OrderedType <> EQ constr
+R6219:6220 Coq.Structures.OrderedType <> GT constr
+R6233:6236 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6227:6227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6230:6230 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6232:6232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6237:6242 Coq.FSets.FMapList <> remove:183 def
+R6244:6244 Coq.FSets.FMapList <> k:181 var
+prf 6270:6277 Raw remove_1
+binder 6288:6288 <> m:208
+R6294:6297 Coq.FSets.FMapList Raw Sort abbrev
+R6299:6299 Coq.FSets.FMapList <> m:208 var
+binder 6291:6292 <> Hm:209
+binder 6302:6302 <> x:210
+binder 6304:6304 <> y:211
+R6315:6318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6307:6310 Coq.FSets.FMapList X eq defax
+R6314:6314 Coq.FSets.FMapList <> y:211 var
+R6312:6312 Coq.FSets.FMapList <> x:210 var
+R6319:6320 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6321:6322 Coq.FSets.FMapList Raw In abbrev
+R6327:6332 Coq.FSets.FMapList Raw remove def
+R6336:6336 Coq.FSets.FMapList <> m:208 var
+R6334:6334 Coq.FSets.FMapList <> x:210 var
+R6324:6324 Coq.FSets.FMapList <> y:211 var
+R6413:6418 Coq.FSets.FMapList Raw remove def
+R6413:6418 Coq.FSets.FMapList Raw remove def
+R6487:6500 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R6487:6500 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R6594:6607 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R6594:6607 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R6643:6643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6646:6646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6649:6649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6631:6636 Coq.FSets.FMapList Raw Inf_eq thm
+R6672:6681 Coq.FSets.FMapList X eq_trans prfax
+R6643:6643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6646:6646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6649:6649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6631:6636 Coq.FSets.FMapList Raw Inf_eq thm
+R6672:6681 Coq.FSets.FMapList X eq_trans prfax
+R6761:6762 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6763:6764 Coq.FSets.FMapList Raw In abbrev
+R6769:6774 Coq.FSets.FMapList Raw remove def
+R6761:6762 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6763:6764 Coq.FSets.FMapList Raw In abbrev
+R6769:6774 Coq.FSets.FMapList Raw remove def
+prf 6911:6918 Raw remove_2
+binder 6929:6929 <> m:212
+R6935:6938 Coq.FSets.FMapList Raw Sort abbrev
+R6940:6940 Coq.FSets.FMapList <> m:212 var
+binder 6932:6933 <> Hm:213
+binder 6943:6943 <> x:214
+binder 6945:6945 <> y:215
+binder 6947:6947 <> e:216
+R6962:6965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6952:6953 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6954:6957 Coq.FSets.FMapList X eq defax
+R6961:6961 Coq.FSets.FMapList <> y:215 var
+R6959:6959 Coq.FSets.FMapList <> x:214 var
+R6978:6981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6966:6971 Coq.FSets.FMapList Raw MapsTo abbrev
+R6977:6977 Coq.FSets.FMapList <> m:212 var
+R6975:6975 Coq.FSets.FMapList <> e:216 var
+R6973:6973 Coq.FSets.FMapList <> y:215 var
+R6982:6987 Coq.FSets.FMapList Raw MapsTo abbrev
+R6994:6999 Coq.FSets.FMapList Raw remove def
+R7003:7003 Coq.FSets.FMapList <> m:212 var
+R7001:7001 Coq.FSets.FMapList <> x:214 var
+R6991:6991 Coq.FSets.FMapList <> e:216 var
+R6989:6989 Coq.FSets.FMapList <> y:215 var
+R7066:7074 Coq.FSets.FMapList Raw MapsTo def
+R7100:7105 Coq.FSets.FMapList Raw remove def
+R7167:7169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7154:7162 Coq.FSets.FMapList X compare defax
+R7167:7169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7154:7162 Coq.FSets.FMapList X compare defax
+R7100:7105 Coq.FSets.FMapList Raw remove def
+prf 7337:7344 Raw remove_3
+binder 7355:7355 <> m:217
+R7361:7364 Coq.FSets.FMapList Raw Sort abbrev
+R7366:7366 Coq.FSets.FMapList <> m:217 var
+binder 7358:7359 <> Hm:218
+binder 7369:7369 <> x:219
+binder 7371:7371 <> y:220
+binder 7373:7373 <> e:221
+R7401:7404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7378:7383 Coq.FSets.FMapList Raw MapsTo abbrev
+R7390:7395 Coq.FSets.FMapList Raw remove def
+R7399:7399 Coq.FSets.FMapList <> m:217 var
+R7397:7397 Coq.FSets.FMapList <> x:219 var
+R7387:7387 Coq.FSets.FMapList <> e:221 var
+R7385:7385 Coq.FSets.FMapList <> y:220 var
+R7405:7410 Coq.FSets.FMapList Raw MapsTo abbrev
+R7416:7416 Coq.FSets.FMapList <> m:217 var
+R7414:7414 Coq.FSets.FMapList <> e:221 var
+R7412:7412 Coq.FSets.FMapList <> y:220 var
+R7478:7486 Coq.FSets.FMapList Raw MapsTo def
+R7512:7517 Coq.FSets.FMapList Raw remove def
+R7512:7517 Coq.FSets.FMapList Raw remove def
+prf 7593:7602 Raw remove_Inf
+R7616:7616 Coq.FSets.FMapList Raw t def
+R7618:7620 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 7614:7614 <> m:222
+R7628:7631 Coq.FSets.FMapList Raw Sort abbrev
+R7633:7633 Coq.FSets.FMapList <> m:222 var
+binder 7623:7624 <> Hm:223
+R7641:7643 Coq.FSets.FMapList Raw key def
+binder 7636:7636 <> x:224
+binder 7638:7639 <> x':225
+R7649:7651 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 7646:7647 <> e':226
+R7670:7673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7657:7659 Coq.FSets.FMapList Raw Inf abbrev
+R7669:7669 Coq.FSets.FMapList <> m:222 var
+R7661:7661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7664:7664 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7667:7667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7662:7663 Coq.FSets.FMapList <> x':225 var
+R7665:7666 Coq.FSets.FMapList <> e':226 var
+R7674:7676 Coq.FSets.FMapList Raw Inf abbrev
+R7687:7692 Coq.FSets.FMapList Raw remove def
+R7696:7696 Coq.FSets.FMapList <> m:222 var
+R7694:7694 Coq.FSets.FMapList <> x:224 var
+R7678:7678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7681:7681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7684:7684 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7679:7680 Coq.FSets.FMapList <> x':225 var
+R7682:7683 Coq.FSets.FMapList <> e':226 var
+R7825:7833 Coq.FSets.FMapList X compare defax
+R7825:7833 Coq.FSets.FMapList X compare defax
+R7894:7894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7898:7898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7902:7902 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7882:7887 Coq.FSets.FMapList Raw Inf_lt thm
+R7894:7894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7898:7898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7902:7902 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7882:7887 Coq.FSets.FMapList Raw Inf_lt thm
+prf 7964:7976 Raw remove_sorted
+binder 7987:7987 <> m:227
+R7993:7996 Coq.FSets.FMapList Raw Sort abbrev
+R7998:7998 Coq.FSets.FMapList <> m:227 var
+binder 7990:7991 <> Hm:228
+binder 8001:8001 <> x:229
+R8004:8007 Coq.FSets.FMapList Raw Sort abbrev
+R8010:8015 Coq.FSets.FMapList Raw remove def
+R8019:8019 Coq.FSets.FMapList <> m:227 var
+R8017:8017 Coq.FSets.FMapList <> x:229 var
+R8110:8118 Coq.FSets.FMapList X compare defax
+R8110:8118 Coq.FSets.FMapList X compare defax
+def 8202:8209 Raw elements
+R8215:8215 Coq.FSets.FMapList Raw t def
+R8217:8219 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 8212:8212 <> m:230
+R8225:8225 Coq.FSets.FMapList <> m:230 var
+prf 8235:8244 Raw elements_1
+binder 8255:8255 <> m:231
+binder 8257:8257 <> x:232
+binder 8259:8259 <> e:233
+R8276:8279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8264:8269 Coq.FSets.FMapList Raw MapsTo abbrev
+R8275:8275 Coq.FSets.FMapList <> m:231 var
+R8273:8273 Coq.FSets.FMapList <> e:233 var
+R8271:8271 Coq.FSets.FMapList <> x:232 var
+R8280:8282 Coq.Lists.SetoidList <> InA ind
+R8296:8303 Coq.FSets.FMapList Raw elements def
+R8305:8305 Coq.FSets.FMapList <> m:231 var
+R8289:8289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8291:8291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8293:8293 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8290:8290 Coq.FSets.FMapList <> x:232 var
+R8292:8292 Coq.FSets.FMapList <> e:233 var
+R8284:8287 Coq.FSets.FMapList Raw eqke abbrev
+prf 8335:8344 Raw elements_2
+binder 8355:8355 <> m:234
+binder 8357:8357 <> x:235
+binder 8359:8359 <> e:236
+R8391:8394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8364:8366 Coq.Lists.SetoidList <> InA ind
+R8380:8387 Coq.FSets.FMapList Raw elements def
+R8389:8389 Coq.FSets.FMapList <> m:234 var
+R8373:8373 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8375:8375 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8377:8377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8374:8374 Coq.FSets.FMapList <> x:235 var
+R8376:8376 Coq.FSets.FMapList <> e:236 var
+R8368:8371 Coq.FSets.FMapList Raw eqke abbrev
+R8395:8400 Coq.FSets.FMapList Raw MapsTo abbrev
+R8406:8406 Coq.FSets.FMapList <> m:234 var
+R8404:8404 Coq.FSets.FMapList <> e:236 var
+R8402:8402 Coq.FSets.FMapList <> x:235 var
+prf 8435:8444 Raw elements_3
+binder 8455:8455 <> m:237
+R8461:8464 Coq.FSets.FMapList Raw Sort abbrev
+R8466:8466 Coq.FSets.FMapList <> m:237 var
+binder 8458:8459 <> Hm:238
+R8470:8473 Coq.Sorting.Sorted <> sort abbrev
+R8480:8487 Coq.FSets.FMapList Raw elements def
+R8489:8489 Coq.FSets.FMapList <> m:237 var
+R8475:8477 Coq.FSets.FMapList Raw ltk abbrev
+prf 8519:8529 Raw elements_3w
+binder 8540:8540 <> m:239
+R8546:8549 Coq.FSets.FMapList Raw Sort abbrev
+R8551:8551 Coq.FSets.FMapList <> m:239 var
+binder 8543:8544 <> Hm:240
+R8555:8560 Coq.Lists.SetoidList <> NoDupA ind
+R8567:8574 Coq.FSets.FMapList Raw elements def
+R8576:8576 Coq.FSets.FMapList <> m:239 var
+R8562:8564 Coq.FSets.FMapList Raw eqk abbrev
+R8603:8613 Coq.FSets.FMapList Raw Sort_NoDupA thm
+R8603:8613 Coq.FSets.FMapList Raw Sort_NoDupA thm
+R8623:8632 Coq.FSets.FMapList Raw elements_3 thm
+R8623:8632 Coq.FSets.FMapList Raw elements_3 thm
+binder 8679:8679 <> A:241
+R8692:8693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8689:8691 Coq.FSets.FMapList Raw key def
+R8697:8698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8694:8696 Coq.FSets.FMapList <> Raw.Elt.elt var
+R8700:8701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8699:8699 Coq.FSets.FMapList <> A:241 var
+R8702:8702 Coq.FSets.FMapList <> A:241 var
+binder 8687:8687 <> f:242
+R8707:8707 Coq.FSets.FMapList Raw t def
+R8709:8711 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 8705:8705 <> m:243
+R8719:8719 Coq.FSets.FMapList <> A:241 var
+binder 8715:8717 <> acc:244
+R8736:8736 Coq.FSets.FMapList <> A:241 var
+R8749:8749 Coq.FSets.FMapList <> m:243 var
+R8761:8763 Coq.Init.Datatypes <> nil constr
+R8768:8770 Coq.FSets.FMapList <> acc:244 var
+R8782:8783 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8777:8777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8781:8781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8790:8793 Coq.FSets.FMapList <> fold:245 def
+R8801:8801 Coq.FSets.FMapList <> f:242 var
+R8807:8809 Coq.FSets.FMapList <> acc:244 var
+R8795:8795 Coq.FSets.FMapList <> f:242 var
+binder 8679:8679 <> A:247
+binder 8687:8687 <> f:248
+binder 8705:8705 <> m:249
+binder 8715:8717 <> acc:250
+binder 8679:8679 <> A:251
+binder 8687:8687 <> f:252
+binder 8705:8705 <> m:253
+binder 8715:8717 <> acc:254
+binder 8679:8679 <> A:256
+binder 8687:8687 <> f:257
+binder 8705:8705 <> m:258
+binder 8715:8717 <> acc:259
+R8749:8749 Coq.FSets.FMapList <> m:258 var
+R8761:8763 Coq.Init.Datatypes <> nil constr
+R8768:8770 Coq.FSets.FMapList <> acc:259 var
+R8782:8783 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8777:8777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8781:8781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8790:8793 Coq.FSets.FMapList <> fold:255 def
+R8801:8801 Coq.FSets.FMapList <> f:257 var
+R8807:8809 Coq.FSets.FMapList <> acc:259 var
+R8795:8795 Coq.FSets.FMapList <> f:257 var
+binder 8679:8679 <> A:261
+binder 8687:8687 <> f:262
+binder 8705:8705 <> m:263
+binder 8715:8717 <> acc:264
+R8749:8749 Coq.FSets.FMapList <> m:263 var
+R8761:8763 Coq.Init.Datatypes <> nil constr
+R8768:8770 Coq.FSets.FMapList <> acc:264 var
+R8782:8783 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8777:8777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8779:8779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8781:8781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8790:8793 Coq.FSets.FMapList <> fold:265 def
+R8801:8801 Coq.FSets.FMapList <> f:262 var
+R8807:8809 Coq.FSets.FMapList <> acc:264 var
+R8795:8795 Coq.FSets.FMapList <> f:262 var
+prf 8826:8831 Raw fold_1
+binder 8842:8842 <> m:285
+binder 8845:8845 <> A:286
+R8855:8855 Coq.FSets.FMapList <> A:286 var
+binder 8853:8853 <> i:287
+R8863:8864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8860:8862 Coq.FSets.FMapList Raw key def
+R8868:8869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8865:8867 Coq.FSets.FMapList <> Raw.Elt.elt var
+R8871:8872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8870:8870 Coq.FSets.FMapList <> A:286 var
+R8873:8873 Coq.FSets.FMapList <> A:286 var
+binder 8858:8858 <> f:288
+R8889:8891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8879:8882 Coq.FSets.FMapList Raw fold def
+R8888:8888 Coq.FSets.FMapList <> i:287 var
+R8886:8886 Coq.FSets.FMapList <> m:285 var
+R8884:8884 Coq.FSets.FMapList <> f:288 var
+R8892:8900 Coq.Lists.List <> fold_left def
+R8948:8948 Coq.FSets.FMapList <> i:287 var
+R8936:8943 Coq.FSets.FMapList Raw elements def
+R8945:8945 Coq.FSets.FMapList <> m:285 var
+binder 8907:8907 <> a:289
+binder 8909:8909 <> p:290
+R8914:8914 Coq.FSets.FMapList <> f:288 var
+R8932:8932 Coq.FSets.FMapList <> a:289 var
+R8925:8927 Coq.Init.Datatypes <> snd def
+R8929:8929 Coq.FSets.FMapList <> p:290 var
+R8917:8919 Coq.Init.Datatypes <> fst def
+R8921:8921 Coq.FSets.FMapList <> p:290 var
+R8989:8992 Coq.FSets.FMapList Raw fold def
+R8989:8992 Coq.FSets.FMapList Raw fold def
+R9055:9056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9052:9054 Coq.FSets.FMapList <> Raw.Elt.elt var
+R9060:9061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9057:9059 Coq.FSets.FMapList <> Raw.Elt.elt var
+R9062:9065 Coq.Init.Datatypes <> bool ind
+binder 9048:9050 <> cmp:291
+R9075:9075 Coq.FSets.FMapList Raw t def
+R9077:9079 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 9068:9068 <> m:292
+binder 9070:9071 <> m':293
+R9095:9098 Coq.Init.Datatypes <> bool ind
+R9114:9115 Coq.FSets.FMapList <> m':293 var
+R9111:9111 Coq.FSets.FMapList <> m:292 var
+R9127:9129 Coq.Init.Datatypes <> nil constr
+R9132:9134 Coq.Init.Datatypes <> nil constr
+R9139:9142 Coq.Init.Datatypes <> true constr
+R9154:9155 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9149:9149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9151:9151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9153:9153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9166:9167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9159:9159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9162:9162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9165:9165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9186:9194 Coq.FSets.FMapList X compare defax
+R9215:9216 Coq.Structures.OrderedType <> EQ constr
+R9231:9234 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9223:9225 Coq.FSets.FMapList <> cmp:291 var
+R9235:9239 Coq.FSets.FMapList <> equal:294 def
+R9241:9243 Coq.FSets.FMapList <> cmp:291 var
+R9267:9271 Coq.Init.Datatypes <> false constr
+R9296:9300 Coq.Init.Datatypes <> false constr
+binder 9048:9050 <> cmp:297
+binder 9068:9068 <> m:298
+binder 9070:9071 <> m':299
+binder 9048:9050 <> cmp:300
+binder 9068:9068 <> m:301
+binder 9070:9071 <> m':302
+binder 9048:9050 <> cmp:304
+binder 9068:9068 <> m:305
+binder 9070:9071 <> m':306
+R9114:9115 Coq.FSets.FMapList <> m':306 var
+R9111:9111 Coq.FSets.FMapList <> m:305 var
+R9127:9129 Coq.Init.Datatypes <> nil constr
+R9132:9134 Coq.Init.Datatypes <> nil constr
+R9139:9142 Coq.Init.Datatypes <> true constr
+R9154:9155 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9149:9149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9151:9151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9153:9153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9166:9167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9159:9159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9162:9162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9165:9165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9186:9194 Coq.FSets.FMapList X compare defax
+R9215:9216 Coq.Structures.OrderedType <> EQ constr
+R9231:9234 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9223:9225 Coq.FSets.FMapList <> cmp:304 var
+R9235:9239 Coq.FSets.FMapList <> equal:303 def
+R9241:9243 Coq.FSets.FMapList <> cmp:304 var
+R9267:9271 Coq.Init.Datatypes <> false constr
+R9296:9300 Coq.Init.Datatypes <> false constr
+binder 9048:9050 <> cmp:309
+binder 9068:9068 <> m:310
+binder 9070:9071 <> m':311
+R9114:9115 Coq.FSets.FMapList <> m':311 var
+R9111:9111 Coq.FSets.FMapList <> m:310 var
+R9127:9129 Coq.Init.Datatypes <> nil constr
+R9132:9134 Coq.Init.Datatypes <> nil constr
+R9139:9142 Coq.Init.Datatypes <> true constr
+R9154:9155 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9149:9149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9151:9151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9153:9153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9166:9167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9159:9159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9162:9162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9165:9165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9186:9194 Coq.FSets.FMapList X compare defax
+R9215:9216 Coq.Structures.OrderedType <> EQ constr
+R9231:9234 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9223:9225 Coq.FSets.FMapList <> cmp:309 var
+R9235:9239 Coq.FSets.FMapList <> equal:312 def
+R9241:9243 Coq.FSets.FMapList <> cmp:309 var
+R9267:9271 Coq.Init.Datatypes <> false constr
+R9296:9300 Coq.Init.Datatypes <> false constr
+def 9321:9326 Raw Equivb
+binder 9328:9330 <> cmp:351
+binder 9332:9332 <> m:352
+binder 9334:9335 <> m':353
+R9342:9342 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9371:9378 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9443:9443 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 9350:9350 <> k:354
+R9359:9363 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9353:9354 Coq.FSets.FMapList Raw In abbrev
+R9358:9358 Coq.FSets.FMapList <> m:352 var
+R9356:9356 Coq.FSets.FMapList <> k:354 var
+R9364:9365 Coq.FSets.FMapList Raw In abbrev
+R9369:9370 Coq.FSets.FMapList <> m':353 var
+R9367:9367 Coq.FSets.FMapList <> k:354 var
+binder 9386:9386 <> k:355
+binder 9388:9388 <> e:356
+binder 9390:9391 <> e':357
+R9406:9409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9394:9399 Coq.FSets.FMapList Raw MapsTo abbrev
+R9405:9405 Coq.FSets.FMapList <> m:352 var
+R9403:9403 Coq.FSets.FMapList <> e:356 var
+R9401:9401 Coq.FSets.FMapList <> k:355 var
+R9424:9427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9410:9415 Coq.FSets.FMapList Raw MapsTo abbrev
+R9422:9423 Coq.FSets.FMapList <> m':353 var
+R9419:9420 Coq.FSets.FMapList <> e':357 var
+R9417:9417 Coq.FSets.FMapList <> k:355 var
+R9436:9438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9428:9430 Coq.FSets.FMapList <> cmp:351 var
+R9432:9432 Coq.FSets.FMapList <> e:356 var
+R9434:9435 Coq.FSets.FMapList <> e':357 var
+R9439:9442 Coq.Init.Datatypes <> true constr
+prf 9453:9459 Raw equal_1
+binder 9470:9470 <> m:358
+R9476:9479 Coq.FSets.FMapList Raw Sort abbrev
+R9481:9481 Coq.FSets.FMapList <> m:358 var
+binder 9473:9474 <> Hm:359
+binder 9484:9485 <> m':360
+R9493:9496 Coq.FSets.FMapList Raw Sort abbrev
+R9498:9499 Coq.FSets.FMapList <> m':360 var
+binder 9488:9490 <> Hm':361
+binder 9502:9504 <> cmp:362
+R9524:9527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9509:9514 Coq.FSets.FMapList Raw Equivb def
+R9522:9523 Coq.FSets.FMapList <> m':360 var
+R9520:9520 Coq.FSets.FMapList <> m:358 var
+R9516:9518 Coq.FSets.FMapList <> cmp:362 var
+R9542:9544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9528:9532 Coq.FSets.FMapList Raw equal def
+R9540:9541 Coq.FSets.FMapList <> m':360 var
+R9538:9538 Coq.FSets.FMapList <> m:358 var
+R9534:9536 Coq.FSets.FMapList <> cmp:362 var
+R9545:9548 Coq.Init.Datatypes <> true constr
+R9667:9671 Coq.FSets.FMapList Raw equal def
+R9710:9715 Coq.FSets.FMapList Raw Equivb def
+R9667:9671 Coq.FSets.FMapList Raw equal def
+R9770:9772 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9757:9765 Coq.FSets.FMapList X compare defax
+R9770:9772 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9757:9765 Coq.FSets.FMapList X compare defax
+R9822:9824 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9825:9828 Coq.Init.Datatypes <> true constr
+R9822:9824 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9825:9828 Coq.Init.Datatypes <> true constr
+R9960:9965 Coq.FSets.FMapList Raw Equivb def
+R10006:10007 Coq.FSets.FMapList Raw In abbrev
+R10017:10019 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10012:10012 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10014:10014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10016:10016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10006:10007 Coq.FSets.FMapList Raw In abbrev
+R10017:10019 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10012:10012 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10014:10014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10016:10016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10078:10083 Coq.FSets.FMapList Raw In_inv thm
+R10078:10083 Coq.FSets.FMapList Raw In_inv thm
+R10129:10142 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10129:10142 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10204:10212 Coq.FSets.FMapList Raw MapsTo_eq thm
+R10204:10212 Coq.FSets.FMapList Raw MapsTo_eq thm
+R10262:10263 Coq.FSets.FMapList Raw In abbrev
+R10275:10277 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10268:10268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10271:10271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10274:10274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10262:10263 Coq.FSets.FMapList Raw In abbrev
+R10275:10277 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10268:10268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10271:10271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10274:10274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10337:10342 Coq.FSets.FMapList Raw In_inv thm
+R10337:10342 Coq.FSets.FMapList Raw In_inv thm
+R10389:10402 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10389:10402 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10464:10472 Coq.FSets.FMapList Raw MapsTo_eq thm
+R10464:10472 Coq.FSets.FMapList Raw MapsTo_eq thm
+R10523:10530 Coq.FSets.FMapList X eq_dec defax
+R10523:10530 Coq.FSets.FMapList X eq_dec defax
+R10523:10530 Coq.FSets.FMapList X eq_dec defax
+R10553:10561 Coq.FSets.FMapList X compare defax
+R10553:10561 Coq.FSets.FMapList X compare defax
+R10642:10643 Coq.FSets.FMapList Raw In abbrev
+R10655:10656 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10648:10648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10651:10651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10654:10654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10642:10643 Coq.FSets.FMapList Raw In abbrev
+R10655:10656 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10648:10648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10651:10651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10654:10654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10705:10710 Coq.FSets.FMapList Raw In_inv thm
+R10705:10710 Coq.FSets.FMapList Raw In_inv thm
+R10756:10758 Coq.FSets.FMapList Raw Inf abbrev
+R10760:10760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10762:10762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10764:10764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10756:10758 Coq.FSets.FMapList Raw Inf abbrev
+R10760:10760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10762:10762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10764:10764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10790:10790 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10793:10793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10796:10796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10778:10783 Coq.FSets.FMapList Raw Inf_lt thm
+R10790:10790 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10793:10793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10796:10796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10778:10783 Coq.FSets.FMapList Raw Inf_lt thm
+R10812:10825 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10812:10825 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R10867:10868 Coq.FSets.FMapList Raw In abbrev
+R10879:10880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10874:10874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10876:10876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10878:10878 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10867:10868 Coq.FSets.FMapList Raw In abbrev
+R10879:10880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10874:10874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10876:10876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10878:10878 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10930:10935 Coq.FSets.FMapList Raw In_inv thm
+R10930:10935 Coq.FSets.FMapList Raw In_inv thm
+R10980:10982 Coq.FSets.FMapList Raw Inf abbrev
+R10984:10984 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10987:10987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10990:10990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10980:10982 Coq.FSets.FMapList Raw Inf abbrev
+R10984:10984 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10987:10987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10990:10990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11016:11016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11018:11018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11020:11020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11004:11009 Coq.FSets.FMapList Raw Inf_lt thm
+R11016:11016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11018:11018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11020:11020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11004:11009 Coq.FSets.FMapList Raw Inf_lt thm
+R11036:11049 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R11036:11049 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+prf 11334:11340 Raw equal_2
+binder 11351:11351 <> m:363
+R11357:11360 Coq.FSets.FMapList Raw Sort abbrev
+R11362:11362 Coq.FSets.FMapList <> m:363 var
+binder 11354:11355 <> Hm:364
+binder 11365:11366 <> m':365
+R11372:11375 Coq.FSets.FMapList Raw Sort abbrev
+R11377:11378 Coq.FSets.FMapList <> m':365 var
+binder 11369:11370 <> Hm:366
+binder 11381:11383 <> cmp:367
+R11409:11412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11402:11404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11388:11392 Coq.FSets.FMapList Raw equal def
+R11400:11401 Coq.FSets.FMapList <> m':365 var
+R11398:11398 Coq.FSets.FMapList <> m:363 var
+R11394:11396 Coq.FSets.FMapList <> cmp:367 var
+R11405:11408 Coq.Init.Datatypes <> true constr
+R11413:11418 Coq.FSets.FMapList Raw Equivb def
+R11426:11427 Coq.FSets.FMapList <> m':365 var
+R11424:11424 Coq.FSets.FMapList <> m:363 var
+R11420:11422 Coq.FSets.FMapList <> cmp:367 var
+R11546:11550 Coq.FSets.FMapList Raw equal def
+R11589:11594 Coq.FSets.FMapList Raw Equivb def
+R11673:11675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11660:11668 Coq.FSets.FMapList X compare defax
+R11673:11675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11660:11668 Coq.FSets.FMapList X compare defax
+R11546:11550 Coq.FSets.FMapList Raw equal def
+R11768:11776 Coq.Init.Datatypes <> andb_prop thm
+R11768:11776 Coq.Init.Datatypes <> andb_prop thm
+R11832:11837 Coq.FSets.FMapList Raw In_inv thm
+R11832:11837 Coq.FSets.FMapList Raw In_inv thm
+R11891:11900 Coq.FSets.FMapList X eq_trans prfax
+R11891:11900 Coq.FSets.FMapList X eq_trans prfax
+R12033:12041 Coq.Init.Datatypes <> andb_prop thm
+R12033:12041 Coq.Init.Datatypes <> andb_prop thm
+R12097:12102 Coq.FSets.FMapList Raw In_inv thm
+R12097:12102 Coq.FSets.FMapList Raw In_inv thm
+R12155:12164 Coq.FSets.FMapList X eq_trans prfax
+R12155:12164 Coq.FSets.FMapList X eq_trans prfax
+R12295:12303 Coq.Init.Datatypes <> andb_prop thm
+R12295:12303 Coq.Init.Datatypes <> andb_prop thm
+R12469:12482 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R12469:12482 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R12511:12519 Coq.FSets.FMapList Raw MapsTo_eq thm
+R12511:12519 Coq.FSets.FMapList Raw MapsTo_eq thm
+R12609:12622 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R12609:12622 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R12650:12658 Coq.FSets.FMapList Raw MapsTo_eq thm
+R12650:12658 Coq.FSets.FMapList Raw MapsTo_eq thm
+prf 12797:12806 Raw equal_cons
+binder 12817:12819 <> cmp:368
+binder 12821:12822 <> l1:369
+binder 12824:12825 <> l2:370
+binder 12827:12827 <> x:371
+binder 12829:12829 <> y:372
+R12844:12847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12832:12835 Coq.FSets.FMapList Raw Sort abbrev
+R12839:12840 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12838:12838 Coq.FSets.FMapList <> x:371 var
+R12841:12842 Coq.FSets.FMapList <> l1:369 var
+R12860:12865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12848:12851 Coq.FSets.FMapList Raw Sort abbrev
+R12855:12856 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12854:12854 Coq.FSets.FMapList <> y:372 var
+R12857:12858 Coq.FSets.FMapList <> l2:370 var
+R12873:12876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12866:12868 Coq.FSets.FMapList Raw eqk abbrev
+R12872:12872 Coq.FSets.FMapList <> y:372 var
+R12870:12870 Coq.FSets.FMapList <> x:371 var
+R12903:12909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12961:12961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12896:12898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12877:12879 Coq.FSets.FMapList <> cmp:368 var
+R12882:12884 Coq.Init.Datatypes <> snd def
+R12886:12886 Coq.FSets.FMapList <> x:371 var
+R12890:12892 Coq.Init.Datatypes <> snd def
+R12894:12894 Coq.FSets.FMapList <> y:372 var
+R12899:12902 Coq.Init.Datatypes <> true constr
+R12926:12930 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12910:12915 Coq.FSets.FMapList Raw Equivb def
+R12924:12925 Coq.FSets.FMapList <> l2:370 var
+R12921:12922 Coq.FSets.FMapList <> l1:369 var
+R12917:12919 Coq.FSets.FMapList <> cmp:368 var
+R12931:12936 Coq.FSets.FMapList Raw Equivb def
+R12954:12957 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12953:12953 Coq.FSets.FMapList <> y:372 var
+R12958:12959 Coq.FSets.FMapList <> l2:370 var
+R12944:12947 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12943:12943 Coq.FSets.FMapList <> x:371 var
+R12948:12949 Coq.FSets.FMapList <> l1:369 var
+R12938:12940 Coq.FSets.FMapList <> cmp:368 var
+R13090:13096 Coq.FSets.FMapList Raw equal_2 thm
+R13090:13096 Coq.FSets.FMapList Raw equal_2 thm
+R13152:13158 Coq.FSets.FMapList Raw equal_1 thm
+R13152:13158 Coq.FSets.FMapList Raw equal_1 thm
+R13174:13180 Coq.FSets.FMapList Raw equal_2 thm
+R13174:13180 Coq.FSets.FMapList Raw equal_2 thm
+R13202:13208 Coq.FSets.FMapList Raw equal_1 thm
+R13202:13208 Coq.FSets.FMapList Raw equal_1 thm
+var 13281:13284 Raw.Elt elt'
+def 13329:13331 Raw map
+R13339:13342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13336:13338 Coq.FSets.FMapList <> Raw.Elt.elt var
+R13343:13346 Coq.FSets.FMapList <> Raw.Elt.elt' var
+binder 13334:13334 <> f:374
+R13352:13352 Coq.FSets.FMapList Raw t def
+R13354:13356 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 13350:13350 <> m:375
+R13361:13361 Coq.FSets.FMapList Raw t def
+R13363:13366 Coq.FSets.FMapList <> Raw.Elt.elt' var
+R13379:13379 Coq.FSets.FMapList <> m:375 var
+R13391:13393 Coq.Init.Datatypes <> nil constr
+R13398:13400 Coq.Init.Datatypes <> nil constr
+R13412:13413 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13407:13407 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13409:13409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13411:13411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13427:13430 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13420:13420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13422:13422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13426:13426 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13423:13423 Coq.FSets.FMapList <> f:374 var
+R13431:13433 Coq.FSets.FMapList <> map:376 def
+R13435:13435 Coq.FSets.FMapList <> f:374 var
+def 13457:13460 Raw mapi
+R13469:13472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13466:13468 Coq.FSets.FMapList Raw key def
+R13476:13479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13473:13475 Coq.FSets.FMapList <> Raw.Elt.elt var
+R13480:13483 Coq.FSets.FMapList <> Raw.Elt.elt' var
+binder 13463:13463 <> f:378
+R13489:13489 Coq.FSets.FMapList Raw t def
+R13491:13493 Coq.FSets.FMapList <> Raw.Elt.elt var
+binder 13487:13487 <> m:379
+R13498:13498 Coq.FSets.FMapList Raw t def
+R13500:13503 Coq.FSets.FMapList <> Raw.Elt.elt' var
+R13516:13516 Coq.FSets.FMapList <> m:379 var
+R13528:13530 Coq.Init.Datatypes <> nil constr
+R13535:13537 Coq.Init.Datatypes <> nil constr
+R13549:13550 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13544:13544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13546:13546 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13548:13548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13566:13569 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13557:13557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13559:13559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13565:13565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13560:13560 Coq.FSets.FMapList <> f:378 var
+R13570:13573 Coq.FSets.FMapList <> mapi:380 def
+R13575:13575 Coq.FSets.FMapList <> f:378 var
+R13593:13595 Coq.FSets.FMapList Raw.Elt <> sec
+sec 13606:13609 Raw Elt2
+var 13736:13738 Raw.Elt2 elt
+var 13740:13743 Raw.Elt2 elt'
+prf 13791:13795 Raw map_1
+R13809:13809 Coq.FSets.FMapList Raw t def
+R13811:13813 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 13807:13807 <> m:384
+R13818:13820 Coq.FSets.FMapList Raw key def
+binder 13816:13816 <> x:385
+R13825:13827 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 13823:13823 <> e:386
+R13835:13836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13832:13834 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R13837:13840 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 13830:13830 <> f:387
+R13858:13861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13846:13851 Coq.FSets.FMapList Raw MapsTo def
+R13857:13857 Coq.FSets.FMapList <> m:384 var
+R13855:13855 Coq.FSets.FMapList <> e:386 var
+R13853:13853 Coq.FSets.FMapList <> x:385 var
+R13862:13867 Coq.FSets.FMapList Raw MapsTo def
+R13878:13880 Coq.FSets.FMapList Raw map def
+R13884:13884 Coq.FSets.FMapList <> m:384 var
+R13882:13882 Coq.FSets.FMapList <> f:387 var
+R13872:13872 Coq.FSets.FMapList <> f:387 var
+R13874:13874 Coq.FSets.FMapList <> e:386 var
+R13869:13869 Coq.FSets.FMapList <> x:385 var
+R14088:14091 Coq.FSets.FMapList Raw eqke def
+R14141:14146 Coq.FSets.FMapList Raw MapsTo def
+prf 14172:14176 Raw map_2
+R14190:14190 Coq.FSets.FMapList Raw t def
+R14192:14194 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 14188:14188 <> m:388
+R14199:14201 Coq.FSets.FMapList Raw key def
+binder 14197:14197 <> x:389
+R14209:14210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14206:14208 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R14211:14214 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 14204:14204 <> f:390
+R14234:14237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14220:14221 Coq.FSets.FMapList Raw In def
+R14226:14228 Coq.FSets.FMapList Raw map def
+R14232:14232 Coq.FSets.FMapList <> m:388 var
+R14230:14230 Coq.FSets.FMapList <> f:390 var
+R14223:14223 Coq.FSets.FMapList <> x:389 var
+R14238:14239 Coq.FSets.FMapList Raw In def
+R14243:14243 Coq.FSets.FMapList <> m:388 var
+R14241:14241 Coq.FSets.FMapList <> x:389 var
+R14525:14528 Coq.FSets.FMapList Raw eqke def
+prf 14652:14662 Raw map_lelistA
+R14677:14677 Coq.FSets.FMapList Raw t def
+R14679:14681 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 14674:14674 <> m:391
+R14686:14688 Coq.FSets.FMapList Raw key def
+binder 14684:14684 <> x:392
+R14693:14695 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 14691:14691 <> e:393
+R14701:14704 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 14698:14699 <> e':394
+R14712:14713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14709:14711 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R14714:14717 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 14707:14707 <> f:395
+R14749:14754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14723:14729 Coq.Sorting.Sorted <> lelistA abbrev
+R14748:14748 Coq.FSets.FMapList <> m:391 var
+R14742:14742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14744:14744 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14746:14746 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14743:14743 Coq.FSets.FMapList <> x:392 var
+R14745:14745 Coq.FSets.FMapList <> e:393 var
+R14733:14735 Coq.FSets.FMapList Raw ltk def
+R14737:14739 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R14755:14761 Coq.Sorting.Sorted <> lelistA abbrev
+R14783:14785 Coq.FSets.FMapList Raw map def
+R14789:14789 Coq.FSets.FMapList <> m:391 var
+R14787:14787 Coq.FSets.FMapList <> f:395 var
+R14775:14775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14777:14777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14780:14780 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14776:14776 Coq.FSets.FMapList <> x:392 var
+R14778:14779 Coq.FSets.FMapList <> e':394 var
+R14765:14767 Coq.FSets.FMapList Raw ltk def
+R14769:14772 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+prf 14941:14950 Raw map_sorted
+R14965:14965 Coq.FSets.FMapList Raw t def
+R14967:14969 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 14962:14962 <> m:396
+R14977:14980 Coq.Sorting.Sorted <> sort abbrev
+R14993:14993 Coq.FSets.FMapList <> m:396 var
+R14984:14986 Coq.FSets.FMapList Raw ltk def
+R14988:14990 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 14972:14973 <> Hm:397
+R15001:15004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14998:15000 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R15005:15008 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 14996:14996 <> f:398
+R15014:15017 Coq.Sorting.Sorted <> sort abbrev
+R15032:15034 Coq.FSets.FMapList Raw map def
+R15038:15038 Coq.FSets.FMapList <> m:396 var
+R15036:15036 Coq.FSets.FMapList <> f:398 var
+R15021:15023 Coq.FSets.FMapList Raw ltk def
+R15025:15028 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+R15158:15168 Coq.FSets.FMapList Raw map_lelistA thm
+R15158:15168 Coq.FSets.FMapList Raw map_lelistA thm
+prf 15223:15228 Raw mapi_1
+R15242:15242 Coq.FSets.FMapList Raw t def
+R15244:15246 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 15240:15240 <> m:399
+R15251:15253 Coq.FSets.FMapList Raw key def
+binder 15249:15249 <> x:400
+R15258:15260 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 15256:15256 <> e:401
+R15268:15269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15265:15267 Coq.FSets.FMapList Raw key def
+R15273:15274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15270:15272 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R15275:15278 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15263:15263 <> f:402
+R15296:15301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15284:15289 Coq.FSets.FMapList Raw MapsTo def
+R15295:15295 Coq.FSets.FMapList <> m:399 var
+R15293:15293 Coq.FSets.FMapList <> e:401 var
+R15291:15291 Coq.FSets.FMapList <> x:400 var
+R15302:15308 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15310:15311 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15309:15309 <> y:403
+R15320:15323 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15312:15315 Coq.FSets.FMapList X eq defax
+R15319:15319 Coq.FSets.FMapList <> x:400 var
+R15317:15317 Coq.FSets.FMapList <> y:403 var
+R15324:15329 Coq.FSets.FMapList Raw MapsTo def
+R15342:15345 Coq.FSets.FMapList Raw mapi def
+R15349:15349 Coq.FSets.FMapList <> m:399 var
+R15347:15347 Coq.FSets.FMapList <> f:402 var
+R15334:15334 Coq.FSets.FMapList <> f:402 var
+R15338:15338 Coq.FSets.FMapList <> e:401 var
+R15336:15336 Coq.FSets.FMapList <> y:403 var
+R15331:15331 Coq.FSets.FMapList <> x:400 var
+R15621:15624 Coq.FSets.FMapList Raw eqke def
+prf 15734:15739 Raw mapi_2
+R15753:15753 Coq.FSets.FMapList Raw t def
+R15755:15757 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 15751:15751 <> m:404
+R15762:15764 Coq.FSets.FMapList Raw key def
+binder 15760:15760 <> x:405
+R15772:15773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15769:15771 Coq.FSets.FMapList Raw key def
+R15777:15778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15774:15776 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R15779:15782 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 15767:15767 <> f:406
+R15803:15806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15788:15789 Coq.FSets.FMapList Raw In def
+R15794:15797 Coq.FSets.FMapList Raw mapi def
+R15801:15801 Coq.FSets.FMapList <> m:404 var
+R15799:15799 Coq.FSets.FMapList <> f:406 var
+R15791:15791 Coq.FSets.FMapList <> x:405 var
+R15807:15808 Coq.FSets.FMapList Raw In def
+R15812:15812 Coq.FSets.FMapList <> m:404 var
+R15810:15810 Coq.FSets.FMapList <> x:405 var
+R16095:16098 Coq.FSets.FMapList Raw eqke def
+prf 16222:16233 Raw mapi_lelistA
+R16248:16248 Coq.FSets.FMapList Raw t def
+R16250:16252 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 16245:16245 <> m:407
+R16257:16259 Coq.FSets.FMapList Raw key def
+binder 16255:16255 <> x:408
+R16264:16266 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 16262:16262 <> e:409
+R16274:16275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16271:16273 Coq.FSets.FMapList Raw key def
+R16279:16280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16276:16278 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R16281:16284 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 16269:16269 <> f:410
+R16316:16321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16290:16296 Coq.Sorting.Sorted <> lelistA abbrev
+R16315:16315 Coq.FSets.FMapList <> m:407 var
+R16309:16309 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16311:16311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16313:16313 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16310:16310 Coq.FSets.FMapList <> x:408 var
+R16312:16312 Coq.FSets.FMapList <> e:409 var
+R16300:16302 Coq.FSets.FMapList Raw ltk def
+R16304:16306 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R16322:16328 Coq.Sorting.Sorted <> lelistA abbrev
+R16353:16356 Coq.FSets.FMapList Raw mapi def
+R16360:16360 Coq.FSets.FMapList <> m:407 var
+R16358:16358 Coq.FSets.FMapList <> f:410 var
+R16342:16342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16344:16344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16350:16350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16343:16343 Coq.FSets.FMapList <> x:408 var
+R16345:16345 Coq.FSets.FMapList <> f:410 var
+R16349:16349 Coq.FSets.FMapList <> e:409 var
+R16347:16347 Coq.FSets.FMapList <> x:408 var
+R16332:16334 Coq.FSets.FMapList Raw ltk def
+R16336:16339 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+prf 16513:16523 Raw mapi_sorted
+binder 16534:16534 <> m:411
+R16542:16545 Coq.Sorting.Sorted <> sort abbrev
+R16558:16558 Coq.FSets.FMapList <> m:411 var
+R16549:16551 Coq.FSets.FMapList Raw ltk def
+R16553:16555 Coq.FSets.FMapList <> Raw.Elt2.elt var
+binder 16537:16538 <> Hm:412
+R16567:16569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16564:16566 Coq.FSets.FMapList Raw key def
+R16573:16576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16570:16572 Coq.FSets.FMapList <> Raw.Elt2.elt var
+R16577:16580 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+binder 16561:16561 <> f:413
+R16586:16589 Coq.Sorting.Sorted <> sort abbrev
+R16604:16607 Coq.FSets.FMapList Raw mapi def
+R16611:16611 Coq.FSets.FMapList <> m:411 var
+R16609:16609 Coq.FSets.FMapList <> f:413 var
+R16593:16595 Coq.FSets.FMapList Raw ltk def
+R16597:16600 Coq.FSets.FMapList <> Raw.Elt2.elt' var
+R16719:16722 Coq.FSets.FMapList Raw.Elt2 <> sec
+sec 16733:16736 Raw Elt3
+var 16766:16768 Raw.Elt3 elt
+var 16770:16773 Raw.Elt3 elt'
+var 16775:16779 Raw.Elt3 elt''
+var 16798:16798 Raw.Elt3 f
+R16812:16815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16802:16807 Coq.Init.Datatypes <> option ind
+R16809:16811 Coq.FSets.FMapList <> Raw.Elt3.elt var
+R16827:16830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16816:16821 Coq.Init.Datatypes <> option ind
+R16823:16826 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R16831:16836 Coq.Init.Datatypes <> option ind
+R16838:16842 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+def 16857:16867 Raw option_cons
+binder 16870:16870 <> A:418
+R16880:16882 Coq.FSets.FMapList Raw key def
+binder 16878:16878 <> k:419
+R16887:16892 Coq.Init.Datatypes <> option ind
+R16894:16894 Coq.FSets.FMapList <> A:418 var
+binder 16885:16885 <> o:420
+R16899:16902 Coq.Init.Datatypes <> list ind
+R16908:16908 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16905:16907 Coq.FSets.FMapList Raw key def
+R16909:16909 Coq.FSets.FMapList <> A:418 var
+binder 16897:16897 <> l:421
+R16924:16924 Coq.FSets.FMapList <> o:420 var
+R16936:16939 Coq.Init.Datatypes <> Some constr
+R16951:16952 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16946:16946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16948:16948 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16950:16950 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16947:16947 Coq.FSets.FMapList <> k:419 var
+R16953:16953 Coq.FSets.FMapList <> l:421 var
+R16960:16963 Coq.Init.Datatypes <> None constr
+R16968:16968 Coq.FSets.FMapList <> l:421 var
+def 16987:16992 Raw map2_l
+R16999:16999 Coq.FSets.FMapList Raw t def
+R17001:17003 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 16995:16995 <> m:423
+R17008:17008 Coq.FSets.FMapList Raw t def
+R17010:17014 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R17027:17027 Coq.FSets.FMapList <> m:423 var
+R17039:17041 Coq.Init.Datatypes <> nil constr
+R17046:17048 Coq.Init.Datatypes <> nil constr
+R17060:17061 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17055:17055 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17057:17057 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17059:17059 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17067:17077 Coq.FSets.FMapList Raw option_cons def
+R17100:17105 Coq.FSets.FMapList <> map2_l:424 def
+R17082:17082 Coq.FSets.FMapList <> Raw.Elt3.f var
+R17093:17096 Coq.Init.Datatypes <> None constr
+R17085:17088 Coq.Init.Datatypes <> Some constr
+def 17127:17132 Raw map2_r
+R17140:17140 Coq.FSets.FMapList Raw t def
+R17142:17145 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 17135:17136 <> m':426
+R17150:17150 Coq.FSets.FMapList Raw t def
+R17152:17156 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R17169:17170 Coq.FSets.FMapList <> m':426 var
+R17182:17184 Coq.Init.Datatypes <> nil constr
+R17189:17191 Coq.Init.Datatypes <> nil constr
+R17204:17205 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17198:17198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17200:17200 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17203:17203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17212:17222 Coq.FSets.FMapList Raw option_cons def
+R17246:17251 Coq.FSets.FMapList <> map2_r:427 def
+R17227:17227 Coq.FSets.FMapList <> Raw.Elt3.f var
+R17235:17238 Coq.Init.Datatypes <> Some constr
+R17229:17232 Coq.Init.Datatypes <> None constr
+def 17274:17277 Raw map2
+R17284:17284 Coq.FSets.FMapList Raw t def
+R17286:17288 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 17280:17280 <> m:429
+R17299:17302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17293:17293 Coq.FSets.FMapList Raw t def
+R17295:17298 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R17303:17303 Coq.FSets.FMapList Raw t def
+R17305:17309 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R17322:17322 Coq.FSets.FMapList <> m:429 var
+R17334:17336 Coq.Init.Datatypes <> nil constr
+R17341:17346 Coq.FSets.FMapList Raw map2_r def
+R17358:17361 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17353:17353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17355:17355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17357:17357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17392:17392 Coq.FSets.FMapList Raw t def
+R17394:17397 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 17387:17388 <> m':432
+R17402:17402 Coq.FSets.FMapList Raw t def
+R17404:17408 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R17427:17428 Coq.FSets.FMapList <> m':432 var
+R17446:17448 Coq.Init.Datatypes <> nil constr
+R17453:17458 Coq.FSets.FMapList Raw map2_l def
+R17460:17460 Coq.FSets.FMapList <> m:429 var
+R17480:17483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17473:17473 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17476:17476 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17479:17479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17508:17516 Coq.FSets.FMapList X compare defax
+R17543:17544 Coq.Structures.OrderedType <> LT constr
+R17551:17561 Coq.FSets.FMapList Raw option_cons def
+R17584:17587 Coq.FSets.FMapList <> map2:430 def
+R17591:17592 Coq.FSets.FMapList <> m':432 var
+R17566:17566 Coq.FSets.FMapList <> Raw.Elt3.f var
+R17577:17580 Coq.Init.Datatypes <> None constr
+R17569:17572 Coq.Init.Datatypes <> Some constr
+R17610:17611 Coq.Structures.OrderedType <> EQ constr
+R17618:17628 Coq.FSets.FMapList Raw option_cons def
+R17656:17659 Coq.FSets.FMapList <> map2:430 def
+R17633:17633 Coq.FSets.FMapList <> Raw.Elt3.f var
+R17645:17648 Coq.Init.Datatypes <> Some constr
+R17636:17639 Coq.Init.Datatypes <> Some constr
+R17682:17683 Coq.Structures.OrderedType <> GT constr
+R17690:17700 Coq.FSets.FMapList Raw option_cons def
+R17725:17732 Coq.FSets.FMapList <> map2_aux:433 var
+R17706:17706 Coq.FSets.FMapList <> Raw.Elt3.f var
+R17714:17717 Coq.Init.Datatypes <> Some constr
+R17708:17711 Coq.Init.Datatypes <> None constr
+abbrev 17783:17786 Raw oee'
+R17802:17804 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17792:17797 Coq.Init.Datatypes <> option ind
+R17799:17801 Coq.FSets.FMapList <> Raw.Elt3.elt var
+R17805:17810 Coq.Init.Datatypes <> option ind
+R17812:17815 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+def 17834:17840 Raw combine
+R17847:17847 Coq.FSets.FMapList Raw t def
+R17849:17851 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 17843:17843 <> m:435
+R17862:17865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17856:17856 Coq.FSets.FMapList Raw t def
+R17858:17861 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R17866:17866 Coq.FSets.FMapList Raw t def
+R17868:17871 Coq.FSets.FMapList Raw oee' abbrev
+R17884:17884 Coq.FSets.FMapList <> m:435 var
+R17896:17898 Coq.Init.Datatypes <> nil constr
+R17903:17905 Coq.FSets.FMapList Raw map def
+binder 17912:17913 <> e':438
+R17918:17918 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17923:17923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17931:17931 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17919:17922 Coq.Init.Datatypes <> None constr
+R17924:17927 Coq.Init.Datatypes <> Some constr
+R17929:17930 Coq.FSets.FMapList <> e':438 var
+R17944:17947 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17939:17939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17941:17941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17943:17943 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17979:17979 Coq.FSets.FMapList Raw t def
+R17981:17984 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 17976:17977 <> m':439
+R17989:17992 Coq.Init.Datatypes <> list ind
+R17998:18000 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17995:17997 Coq.FSets.FMapList Raw key def
+R18001:18004 Coq.FSets.FMapList Raw oee' abbrev
+R18024:18025 Coq.FSets.FMapList <> m':439 var
+R18043:18045 Coq.Init.Datatypes <> nil constr
+R18050:18052 Coq.FSets.FMapList Raw map def
+R18079:18079 Coq.FSets.FMapList <> m:435 var
+binder 18059:18059 <> e:442
+R18064:18064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18071:18071 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18076:18076 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18065:18068 Coq.Init.Datatypes <> Some constr
+R18070:18070 Coq.FSets.FMapList <> e:442 var
+R18072:18075 Coq.Init.Datatypes <> None constr
+R18099:18102 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18092:18092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18095:18095 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18098:18098 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18127:18135 Coq.FSets.FMapList X compare defax
+R18162:18163 Coq.Structures.OrderedType <> LT constr
+R18188:18189 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18170:18170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18172:18172 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18187:18187 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18173:18173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18180:18181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18186:18186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18174:18177 Coq.Init.Datatypes <> Some constr
+R18182:18185 Coq.Init.Datatypes <> None constr
+R18190:18196 Coq.FSets.FMapList <> combine:436 def
+R18200:18201 Coq.FSets.FMapList <> m':439 var
+R18218:18219 Coq.Structures.OrderedType <> EQ constr
+R18247:18248 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18226:18226 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18228:18228 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18246:18246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18229:18229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18236:18237 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18245:18245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18230:18233 Coq.Init.Datatypes <> Some constr
+R18238:18241 Coq.Init.Datatypes <> Some constr
+R18249:18255 Coq.FSets.FMapList <> combine:436 def
+R18277:18278 Coq.Structures.OrderedType <> GT constr
+R18304:18305 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18285:18285 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18288:18288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18303:18303 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18289:18289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18294:18294 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18302:18302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18290:18293 Coq.Init.Datatypes <> None constr
+R18295:18298 Coq.Init.Datatypes <> Some constr
+R18306:18316 Coq.FSets.FMapList <> combine_aux:440 var
+def 18368:18382 Raw fold_right_pair
+binder 18385:18385 <> A:443
+binder 18387:18387 <> B:444
+binder 18389:18389 <> C:445
+R18401:18402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18400:18400 Coq.FSets.FMapList <> A:443 var
+R18404:18405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18403:18403 Coq.FSets.FMapList <> B:444 var
+R18407:18408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18406:18406 Coq.FSets.FMapList <> C:445 var
+R18409:18409 Coq.FSets.FMapList <> C:445 var
+binder 18397:18397 <> f:446
+R18414:18417 Coq.Init.Datatypes <> list ind
+R18421:18421 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18420:18420 Coq.FSets.FMapList <> A:443 var
+R18422:18422 Coq.FSets.FMapList <> B:444 var
+binder 18412:18412 <> l:447
+R18428:18428 Coq.FSets.FMapList <> C:445 var
+binder 18426:18426 <> i:448
+R18436:18450 Coq.Lists.List <> fold_right def
+R18483:18483 Coq.FSets.FMapList <> l:447 var
+R18481:18481 Coq.FSets.FMapList <> i:448 var
+binder 18457:18457 <> p:449
+R18462:18462 Coq.FSets.FMapList <> f:446 var
+R18473:18475 Coq.Init.Datatypes <> snd def
+R18477:18477 Coq.FSets.FMapList <> p:449 var
+R18465:18467 Coq.Init.Datatypes <> fst def
+R18469:18469 Coq.FSets.FMapList <> p:449 var
+def 18498:18505 Raw map2_alt
+binder 18507:18507 <> m:450
+binder 18509:18510 <> m':451
+R18536:18542 Coq.FSets.FMapList Raw combine def
+R18546:18547 Coq.FSets.FMapList <> m':451 var
+R18544:18544 Coq.FSets.FMapList <> m:450 var
+R18526:18526 Coq.FSets.FMapList Raw t def
+R18528:18531 Coq.FSets.FMapList Raw oee' abbrev
+binder 18521:18522 <> m0:452
+R18583:18585 Coq.FSets.FMapList Raw map def
+R18616:18617 Coq.FSets.FMapList <> m0:452 var
+binder 18592:18592 <> p:453
+R18597:18597 Coq.FSets.FMapList <> Raw.Elt3.f var
+R18608:18610 Coq.Init.Datatypes <> snd def
+R18612:18612 Coq.FSets.FMapList <> p:453 var
+R18600:18602 Coq.Init.Datatypes <> fst def
+R18604:18604 Coq.FSets.FMapList <> p:453 var
+R18563:18563 Coq.FSets.FMapList Raw t def
+R18566:18571 Coq.Init.Datatypes <> option ind
+R18573:18577 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+binder 18558:18559 <> m1:454
+R18624:18638 Coq.FSets.FMapList Raw fold_right_pair def
+R18668:18670 Coq.Init.Datatypes <> nil constr
+R18665:18666 Coq.FSets.FMapList <> m1:454 var
+R18641:18651 Coq.FSets.FMapList Raw option_cons def
+R18657:18661 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+prf 18680:18693 Raw map2_alt_equiv
+binder 18704:18704 <> m:455
+binder 18706:18707 <> m':456
+R18723:18725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18710:18717 Coq.FSets.FMapList Raw map2_alt def
+R18721:18722 Coq.FSets.FMapList <> m':456 var
+R18719:18719 Coq.FSets.FMapList <> m:455 var
+R18726:18729 Coq.FSets.FMapList Raw map2 def
+R18733:18734 Coq.FSets.FMapList <> m':456 var
+R18731:18731 Coq.FSets.FMapList <> m:455 var
+R18752:18759 Coq.FSets.FMapList Raw map2_alt def
+R19079:19087 Coq.FSets.FMapList X compare defax
+R19079:19087 Coq.FSets.FMapList X compare defax
+prf 19162:19176 Raw combine_lelistA
+binder 19189:19189 <> m:457
+binder 19191:19192 <> m':458
+R19197:19199 Coq.FSets.FMapList Raw key def
+binder 19195:19195 <> x:459
+R19204:19206 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 19202:19202 <> e:460
+R19212:19215 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 19209:19210 <> e':461
+R19222:19225 Coq.FSets.FMapList Raw oee' abbrev
+binder 19218:19220 <> e'':462
+R19257:19262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19231:19237 Coq.Sorting.Sorted <> lelistA abbrev
+R19256:19256 Coq.FSets.FMapList <> m:457 var
+R19250:19250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19252:19252 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19254:19254 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19251:19251 Coq.FSets.FMapList <> x:459 var
+R19253:19253 Coq.FSets.FMapList <> e:460 var
+R19241:19243 Coq.FSets.FMapList Raw ltk def
+R19245:19247 Coq.FSets.FMapList <> Raw.Elt3.elt var
+R19292:19297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19263:19269 Coq.Sorting.Sorted <> lelistA abbrev
+R19290:19291 Coq.FSets.FMapList <> m':458 var
+R19283:19283 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19285:19285 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19288:19288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19284:19284 Coq.FSets.FMapList <> x:459 var
+R19286:19287 Coq.FSets.FMapList <> e':461 var
+R19273:19275 Coq.FSets.FMapList Raw ltk def
+R19277:19280 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R19298:19304 Coq.Sorting.Sorted <> lelistA abbrev
+R19327:19333 Coq.FSets.FMapList Raw combine def
+R19337:19338 Coq.FSets.FMapList <> m':458 var
+R19335:19335 Coq.FSets.FMapList <> m:457 var
+R19318:19318 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19320:19320 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19324:19324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19319:19319 Coq.FSets.FMapList <> x:459 var
+R19321:19323 Coq.FSets.FMapList <> e'':462 var
+R19308:19310 Coq.FSets.FMapList Raw ltk def
+R19312:19315 Coq.FSets.FMapList Raw oee' abbrev
+R19388:19398 Coq.FSets.FMapList Raw map_lelistA thm
+R19388:19398 Coq.FSets.FMapList Raw map_lelistA thm
+R19456:19462 Coq.FSets.FMapList Raw combine def
+R19480:19482 Coq.Init.Datatypes <> nil constr
+R19473:19476 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19465:19465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19468:19469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19472:19472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19504:19506 Coq.FSets.FMapList Raw map def
+R19551:19552 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19544:19544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19547:19547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19550:19550 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 19513:19513 <> e:463
+R19518:19518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19525:19525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19540:19540 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19519:19522 Coq.Init.Datatypes <> Some constr
+R19524:19524 Coq.FSets.FMapList <> e:463 var
+R19526:19529 Coq.Init.Datatypes <> None constr
+R19535:19538 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R19456:19462 Coq.FSets.FMapList Raw combine def
+R19480:19482 Coq.Init.Datatypes <> nil constr
+R19473:19476 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19465:19465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19468:19469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19472:19472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19504:19506 Coq.FSets.FMapList Raw map def
+R19551:19552 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19544:19544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19547:19547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19550:19550 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 19513:19513 <> e:464
+R19518:19518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19525:19525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19540:19540 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19519:19522 Coq.Init.Datatypes <> Some constr
+R19524:19524 Coq.FSets.FMapList <> e:464 var
+R19526:19529 Coq.Init.Datatypes <> None constr
+R19535:19538 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R19572:19582 Coq.FSets.FMapList Raw map_lelistA thm
+R19572:19582 Coq.FSets.FMapList Raw map_lelistA thm
+R19668:19676 Coq.FSets.FMapList X compare defax
+R19668:19676 Coq.FSets.FMapList X compare defax
+prf 19822:19835 Raw combine_sorted
+binder 19848:19848 <> m:465
+R19856:19859 Coq.Sorting.Sorted <> sort abbrev
+R19872:19872 Coq.FSets.FMapList <> m:465 var
+R19863:19865 Coq.FSets.FMapList Raw ltk def
+R19867:19869 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 19851:19852 <> Hm:466
+binder 19875:19876 <> m':467
+R19885:19888 Coq.Sorting.Sorted <> sort abbrev
+R19902:19903 Coq.FSets.FMapList <> m':467 var
+R19892:19894 Coq.FSets.FMapList Raw ltk def
+R19896:19899 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 19879:19881 <> Hm':468
+R19909:19912 Coq.Sorting.Sorted <> sort abbrev
+R19927:19933 Coq.FSets.FMapList Raw combine def
+R19937:19938 Coq.FSets.FMapList <> m':467 var
+R19935:19935 Coq.FSets.FMapList <> m:465 var
+R19916:19918 Coq.FSets.FMapList Raw ltk def
+R19920:19923 Coq.FSets.FMapList Raw oee' abbrev
+R19997:20006 Coq.FSets.FMapList Raw map_sorted thm
+R19997:20006 Coq.FSets.FMapList Raw map_sorted thm
+R20073:20079 Coq.FSets.FMapList Raw combine def
+R20096:20098 Coq.Init.Datatypes <> nil constr
+R20089:20092 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20082:20082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20085:20086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20088:20088 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20120:20122 Coq.FSets.FMapList Raw map def
+R20166:20167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20160:20160 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20163:20163 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20165:20165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 20129:20129 <> e:469
+R20134:20134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20141:20141 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20156:20156 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20135:20138 Coq.Init.Datatypes <> Some constr
+R20140:20140 Coq.FSets.FMapList <> e:469 var
+R20142:20145 Coq.Init.Datatypes <> None constr
+R20151:20154 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20073:20079 Coq.FSets.FMapList Raw combine def
+R20096:20098 Coq.Init.Datatypes <> nil constr
+R20089:20092 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20082:20082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20085:20086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20088:20088 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20120:20122 Coq.FSets.FMapList Raw map def
+R20166:20167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20160:20160 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20163:20163 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20165:20165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 20129:20129 <> e:470
+R20134:20134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20141:20141 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20156:20156 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20135:20138 Coq.Init.Datatypes <> Some constr
+R20140:20140 Coq.FSets.FMapList <> e:470 var
+R20142:20145 Coq.Init.Datatypes <> None constr
+R20151:20154 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20186:20195 Coq.FSets.FMapList Raw map_sorted thm
+R20186:20195 Coq.FSets.FMapList Raw map_sorted thm
+R20278:20286 Coq.FSets.FMapList X compare defax
+R20278:20286 Coq.FSets.FMapList X compare defax
+R20362:20368 Coq.Sorting.Sorted <> lelistA abbrev
+R20404:20405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20397:20397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20400:20400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20403:20403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20388:20388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20390:20391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20394:20394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20371:20373 Coq.FSets.FMapList Raw ltk def
+R20381:20384 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20362:20368 Coq.Sorting.Sorted <> lelistA abbrev
+R20404:20405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20397:20397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20400:20400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20403:20403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20388:20388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20390:20391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20394:20394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20371:20373 Coq.FSets.FMapList Raw ltk def
+R20381:20384 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20428:20442 Coq.FSets.FMapList Raw combine_lelistA thm
+R20428:20442 Coq.FSets.FMapList Raw combine_lelistA thm
+R20525:20531 Coq.Sorting.Sorted <> lelistA abbrev
+R20551:20551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20553:20554 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20557:20557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20534:20536 Coq.FSets.FMapList Raw ltk def
+R20544:20547 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20585:20585 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20588:20588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20591:20591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20573:20578 Coq.FSets.FMapList Raw Inf_eq thm
+R20525:20531 Coq.Sorting.Sorted <> lelistA abbrev
+R20551:20551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20553:20554 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20557:20557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20534:20536 Coq.FSets.FMapList Raw ltk def
+R20544:20547 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+R20585:20585 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20588:20588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20591:20591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20573:20578 Coq.FSets.FMapList Raw Inf_eq thm
+R20609:20623 Coq.FSets.FMapList Raw combine_lelistA thm
+R20609:20623 Coq.FSets.FMapList Raw combine_lelistA thm
+R20706:20712 Coq.Sorting.Sorted <> lelistA abbrev
+R20772:20778 Coq.FSets.FMapList Raw combine def
+R20786:20787 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20781:20781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20783:20783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20785:20785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20732:20732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20735:20736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20752:20752 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20737:20737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20742:20743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20751:20751 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20738:20741 Coq.Init.Datatypes <> None constr
+R20744:20747 Coq.Init.Datatypes <> Some constr
+R20715:20717 Coq.FSets.FMapList Raw ltk def
+R20725:20728 Coq.FSets.FMapList Raw oee' abbrev
+R20706:20712 Coq.Sorting.Sorted <> lelistA abbrev
+R20772:20778 Coq.FSets.FMapList Raw combine def
+R20786:20787 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20781:20781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20783:20783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20785:20785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20732:20732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20735:20736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20752:20752 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20737:20737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20742:20743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20751:20751 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20738:20741 Coq.Init.Datatypes <> None constr
+R20744:20747 Coq.Init.Datatypes <> Some constr
+R20715:20717 Coq.FSets.FMapList Raw ltk def
+R20725:20728 Coq.FSets.FMapList Raw oee' abbrev
+R20806:20812 Coq.Sorting.Sorted <> lelistA abbrev
+R20845:20846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20840:20840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20842:20842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20844:20844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20831:20831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20834:20835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20837:20837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20815:20817 Coq.FSets.FMapList Raw ltk def
+R20825:20827 Coq.FSets.FMapList <> Raw.Elt3.elt var
+R20806:20812 Coq.Sorting.Sorted <> lelistA abbrev
+R20845:20846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20840:20840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20842:20842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20844:20844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20831:20831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20834:20835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20837:20837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20815:20817 Coq.FSets.FMapList Raw ltk def
+R20825:20827 Coq.FSets.FMapList <> Raw.Elt3.elt var
+R20868:20882 Coq.FSets.FMapList Raw combine_lelistA thm
+R20868:20882 Coq.FSets.FMapList Raw combine_lelistA thm
+prf 20907:20917 Raw map2_sorted
+binder 20930:20930 <> m:471
+R20938:20941 Coq.Sorting.Sorted <> sort abbrev
+R20954:20954 Coq.FSets.FMapList <> m:471 var
+R20945:20947 Coq.FSets.FMapList Raw ltk def
+R20949:20951 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 20933:20934 <> Hm:472
+binder 20957:20958 <> m':473
+R20967:20970 Coq.Sorting.Sorted <> sort abbrev
+R20984:20985 Coq.FSets.FMapList <> m':473 var
+R20974:20976 Coq.FSets.FMapList Raw ltk def
+R20978:20981 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 20961:20963 <> Hm':474
+R20991:20994 Coq.Sorting.Sorted <> sort abbrev
+R21010:21013 Coq.FSets.FMapList Raw map2 def
+R21017:21018 Coq.FSets.FMapList <> m':473 var
+R21015:21015 Coq.FSets.FMapList <> m:471 var
+R20998:21000 Coq.FSets.FMapList Raw ltk def
+R21002:21006 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R21050:21063 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R21050:21063 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R21050:21063 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R21074:21081 Coq.FSets.FMapList Raw map2_alt def
+R21097:21110 Coq.FSets.FMapList Raw combine_sorted thm
+R21097:21110 Coq.FSets.FMapList Raw combine_sorted thm
+R21131:21137 Coq.FSets.FMapList Raw combine def
+R21131:21137 Coq.FSets.FMapList Raw combine def
+R21184:21187 Coq.FSets.FMapList Raw oee' abbrev
+binder 21180:21180 <> p:475
+R21192:21192 Coq.FSets.FMapList <> Raw.Elt3.f var
+R21203:21205 Coq.Init.Datatypes <> snd def
+R21207:21207 Coq.FSets.FMapList <> p:475 var
+R21195:21197 Coq.Init.Datatypes <> fst def
+R21199:21199 Coq.FSets.FMapList <> p:475 var
+R21184:21187 Coq.FSets.FMapList Raw oee' abbrev
+binder 21180:21180 <> p:476
+R21192:21192 Coq.FSets.FMapList <> Raw.Elt3.f var
+R21203:21205 Coq.Init.Datatypes <> snd def
+R21207:21207 Coq.FSets.FMapList <> p:476 var
+R21195:21197 Coq.Init.Datatypes <> fst def
+R21199:21199 Coq.FSets.FMapList <> p:476 var
+R21225:21234 Coq.FSets.FMapList Raw map_sorted thm
+R21245:21250 Coq.Init.Datatypes <> option ind
+R21252:21256 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R21225:21234 Coq.FSets.FMapList Raw map_sorted thm
+R21245:21250 Coq.Init.Datatypes <> option ind
+R21252:21256 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R21277:21279 Coq.FSets.FMapList Raw map def
+R21277:21279 Coq.FSets.FMapList Raw map def
+R21659:21659 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21662:21663 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21679:21679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21664:21667 Coq.Init.Datatypes <> None constr
+R21673:21677 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R21647:21652 Coq.FSets.FMapList Raw Inf_lt thm
+R21659:21659 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21662:21663 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21679:21679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21664:21667 Coq.Init.Datatypes <> None constr
+R21673:21677 Coq.FSets.FMapList <> Raw.Elt3.elt'' var
+R21647:21652 Coq.FSets.FMapList Raw Inf_lt thm
+def 21705:21716 Raw at_least_one
+R21721:21726 Coq.Init.Datatypes <> option ind
+R21728:21730 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 21719:21719 <> o:477
+R21736:21741 Coq.Init.Datatypes <> option ind
+R21743:21746 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 21733:21734 <> o':478
+R21763:21764 Coq.FSets.FMapList <> o':478 var
+R21760:21760 Coq.FSets.FMapList <> o:477 var
+R21776:21779 Coq.Init.Datatypes <> None constr
+R21782:21785 Coq.Init.Datatypes <> None constr
+R21790:21793 Coq.Init.Datatypes <> None constr
+R21809:21812 Coq.Init.Datatypes <> Some constr
+R21814:21814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21816:21816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21819:21819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21815:21815 Coq.FSets.FMapList <> o:477 var
+R21817:21818 Coq.FSets.FMapList <> o':478 var
+prf 21835:21843 Raw combine_1
+binder 21856:21856 <> m:481
+R21864:21867 Coq.Sorting.Sorted <> sort abbrev
+R21880:21880 Coq.FSets.FMapList <> m:481 var
+R21871:21873 Coq.FSets.FMapList Raw ltk def
+R21875:21877 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 21859:21860 <> Hm:482
+binder 21883:21884 <> m':483
+R21893:21896 Coq.Sorting.Sorted <> sort abbrev
+R21910:21911 Coq.FSets.FMapList <> m':483 var
+R21900:21902 Coq.FSets.FMapList Raw ltk def
+R21904:21907 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 21887:21889 <> Hm':484
+R21917:21919 Coq.FSets.FMapList Raw key def
+binder 21915:21915 <> x:485
+R21946:21948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21925:21928 Coq.FSets.FMapList Raw find def
+R21933:21939 Coq.FSets.FMapList Raw combine def
+R21943:21944 Coq.FSets.FMapList <> m':483 var
+R21941:21941 Coq.FSets.FMapList <> m:481 var
+R21930:21930 Coq.FSets.FMapList <> x:485 var
+R21949:21960 Coq.FSets.FMapList Raw at_least_one def
+R21974:21977 Coq.FSets.FMapList Raw find def
+R21981:21982 Coq.FSets.FMapList <> m':483 var
+R21979:21979 Coq.FSets.FMapList <> x:485 var
+R21963:21966 Coq.FSets.FMapList Raw find def
+R21970:21970 Coq.FSets.FMapList <> m:481 var
+R21968:21968 Coq.FSets.FMapList <> x:485 var
+R22099:22107 Coq.FSets.FMapList X compare defax
+R22099:22107 Coq.FSets.FMapList X compare defax
+R22227:22235 Coq.FSets.FMapList X compare defax
+R22227:22235 Coq.FSets.FMapList X compare defax
+R22396:22404 Coq.FSets.FMapList X compare defax
+R22396:22404 Coq.FSets.FMapList X compare defax
+R22553:22561 Coq.FSets.FMapList X compare defax
+R22589:22597 Coq.FSets.FMapList X compare defax
+R22631:22639 Coq.FSets.FMapList X compare defax
+R22553:22561 Coq.FSets.FMapList X compare defax
+R22589:22597 Coq.FSets.FMapList X compare defax
+R22589:22597 Coq.FSets.FMapList X compare defax
+R22589:22597 Coq.FSets.FMapList X compare defax
+R22835:22837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22802:22805 Coq.FSets.FMapList Raw find def
+R22810:22816 Coq.FSets.FMapList Raw combine def
+R22825:22828 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22819:22819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22821:22822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22824:22824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22838:22849 Coq.FSets.FMapList Raw at_least_one def
+R22857:22860 Coq.FSets.FMapList Raw find def
+R22851:22854 Coq.Init.Datatypes <> None constr
+R22835:22837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22802:22805 Coq.FSets.FMapList Raw find def
+R22810:22816 Coq.FSets.FMapList Raw combine def
+R22825:22828 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22819:22819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22821:22822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22824:22824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22838:22849 Coq.FSets.FMapList Raw at_least_one def
+R22857:22860 Coq.FSets.FMapList Raw find def
+R22851:22854 Coq.Init.Datatypes <> None constr
+R22963:22965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22930:22933 Coq.FSets.FMapList Raw find def
+R22938:22944 Coq.FSets.FMapList Raw combine def
+R22953:22956 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22947:22947 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22949:22950 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22952:22952 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22966:22969 Coq.Init.Datatypes <> Some constr
+R22971:22971 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22978:22979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22989:22989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22972:22975 Coq.Init.Datatypes <> Some constr
+R22980:22983 Coq.FSets.FMapList Raw find def
+R22963:22965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22930:22933 Coq.FSets.FMapList Raw find def
+R22938:22944 Coq.FSets.FMapList Raw combine def
+R22953:22956 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22947:22947 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22949:22950 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22952:22952 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22966:22969 Coq.Init.Datatypes <> Some constr
+R22971:22971 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22978:22979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22989:22989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22972:22975 Coq.Init.Datatypes <> Some constr
+R22980:22983 Coq.FSets.FMapList Raw find def
+R23086:23097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23053:23056 Coq.FSets.FMapList Raw find def
+R23061:23067 Coq.FSets.FMapList Raw combine def
+R23076:23079 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23070:23070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23072:23073 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23075:23075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23098:23109 Coq.FSets.FMapList Raw at_least_one def
+R23123:23126 Coq.FSets.FMapList Raw find def
+R23112:23115 Coq.FSets.FMapList Raw find def
+R23086:23097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23053:23056 Coq.FSets.FMapList Raw find def
+R23061:23067 Coq.FSets.FMapList Raw combine def
+R23076:23079 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23070:23070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23072:23073 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23075:23075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23098:23109 Coq.FSets.FMapList Raw at_least_one def
+R23123:23126 Coq.FSets.FMapList Raw find def
+R23112:23115 Coq.FSets.FMapList Raw find def
+def 23204:23222 Raw at_least_one_then_f
+R23227:23232 Coq.Init.Datatypes <> option ind
+R23234:23236 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 23225:23225 <> o:486
+R23242:23247 Coq.Init.Datatypes <> option ind
+R23249:23252 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 23239:23240 <> o':487
+R23269:23270 Coq.FSets.FMapList <> o':487 var
+R23266:23266 Coq.FSets.FMapList <> o:486 var
+R23282:23285 Coq.Init.Datatypes <> None constr
+R23288:23291 Coq.Init.Datatypes <> None constr
+R23296:23299 Coq.Init.Datatypes <> None constr
+R23315:23315 Coq.FSets.FMapList <> Raw.Elt3.f var
+R23319:23320 Coq.FSets.FMapList <> o':487 var
+R23317:23317 Coq.FSets.FMapList <> o:486 var
+prf 23336:23341 Raw map2_0
+binder 23354:23354 <> m:490
+R23362:23365 Coq.Sorting.Sorted <> sort abbrev
+R23378:23378 Coq.FSets.FMapList <> m:490 var
+R23369:23371 Coq.FSets.FMapList Raw ltk def
+R23373:23375 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 23357:23358 <> Hm:491
+binder 23381:23382 <> m':492
+R23391:23394 Coq.Sorting.Sorted <> sort abbrev
+R23408:23409 Coq.FSets.FMapList <> m':492 var
+R23398:23400 Coq.FSets.FMapList Raw ltk def
+R23402:23405 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 23385:23387 <> Hm':493
+R23415:23417 Coq.FSets.FMapList Raw key def
+binder 23413:23413 <> x:494
+R23441:23443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23423:23426 Coq.FSets.FMapList Raw find def
+R23431:23434 Coq.FSets.FMapList Raw map2 def
+R23438:23439 Coq.FSets.FMapList <> m':492 var
+R23436:23436 Coq.FSets.FMapList <> m:490 var
+R23428:23428 Coq.FSets.FMapList <> x:494 var
+R23444:23462 Coq.FSets.FMapList Raw at_least_one_then_f def
+R23476:23479 Coq.FSets.FMapList Raw find def
+R23483:23484 Coq.FSets.FMapList <> m':492 var
+R23481:23481 Coq.FSets.FMapList <> x:494 var
+R23465:23468 Coq.FSets.FMapList Raw find def
+R23472:23472 Coq.FSets.FMapList <> m:490 var
+R23470:23470 Coq.FSets.FMapList <> x:494 var
+R23516:23529 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R23516:23529 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R23516:23529 Coq.FSets.FMapList Raw map2_alt_equiv thm
+R23540:23547 Coq.FSets.FMapList Raw map2_alt def
+R23562:23570 Coq.FSets.FMapList Raw combine_1 thm
+R23562:23570 Coq.FSets.FMapList Raw combine_1 thm
+R23596:23609 Coq.FSets.FMapList Raw combine_sorted thm
+R23596:23609 Coq.FSets.FMapList Raw combine_sorted thm
+R23639:23642 Coq.FSets.FMapList Raw oee' abbrev
+binder 23635:23635 <> p:495
+R23647:23647 Coq.FSets.FMapList <> Raw.Elt3.f var
+R23658:23660 Coq.Init.Datatypes <> snd def
+R23662:23662 Coq.FSets.FMapList <> p:495 var
+R23650:23652 Coq.Init.Datatypes <> fst def
+R23654:23654 Coq.FSets.FMapList <> p:495 var
+R23639:23642 Coq.FSets.FMapList Raw oee' abbrev
+binder 23635:23635 <> p:496
+R23647:23647 Coq.FSets.FMapList <> Raw.Elt3.f var
+R23658:23660 Coq.Init.Datatypes <> snd def
+R23662:23662 Coq.FSets.FMapList <> p:496 var
+R23650:23652 Coq.Init.Datatypes <> fst def
+R23654:23654 Coq.FSets.FMapList <> p:496 var
+R23679:23685 Coq.FSets.FMapList Raw combine def
+R23679:23685 Coq.FSets.FMapList Raw combine def
+R23722:23725 Coq.FSets.FMapList Raw find def
+R23722:23725 Coq.FSets.FMapList Raw find def
+R23761:23764 Coq.FSets.FMapList Raw find def
+R23761:23764 Coq.FSets.FMapList Raw find def
+R23861:23864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23858:23858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23867:23867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23861:23864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23858:23858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23867:23867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23885:23885 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23894:23897 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23914:23914 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23889:23890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23887:23887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23892:23892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23904:23907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23899:23899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23900:23903 Coq.Init.Datatypes <> None constr
+R23909:23909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23910:23913 Coq.Init.Datatypes <> None constr
+R23885:23885 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23894:23897 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23914:23914 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23889:23890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23887:23887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23892:23892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23904:23907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23899:23899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23900:23903 Coq.Init.Datatypes <> None constr
+R23909:23909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23910:23913 Coq.Init.Datatypes <> None constr
+R24109:24117 Coq.FSets.FMapList X compare defax
+R24109:24117 Coq.FSets.FMapList X compare defax
+R24181:24181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24184:24184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24188:24188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24181:24181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24184:24184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24188:24188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24345:24348 Coq.FSets.FMapList Raw find def
+R24345:24348 Coq.FSets.FMapList Raw find def
+R24380:24382 Coq.FSets.FMapList Raw ltk def
+R24409:24409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24411:24411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24420:24420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24412:24412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24415:24415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24419:24419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24396:24396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24398:24398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24407:24407 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24399:24399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24402:24402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24406:24406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24390:24393 Coq.FSets.FMapList Raw oee' abbrev
+R24380:24382 Coq.FSets.FMapList Raw ltk def
+R24409:24409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24411:24411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24420:24420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24412:24412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24415:24415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24419:24419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24396:24396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24398:24398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24407:24407 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24399:24399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24402:24402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24406:24406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24390:24393 Coq.FSets.FMapList Raw oee' abbrev
+R24448:24461 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R24467:24472 Coq.FSets.FMapList Raw Inf_lt thm
+R24448:24461 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R24467:24472 Coq.FSets.FMapList Raw Inf_lt thm
+R24500:24505 Coq.FSets.FMapList Raw find_2 thm
+R24500:24505 Coq.FSets.FMapList Raw find_2 thm
+R24560:24562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24536:24554 Coq.FSets.FMapList Raw at_least_one_then_f def
+R24563:24563 Coq.FSets.FMapList <> Raw.Elt3.f var
+R24560:24562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24536:24554 Coq.FSets.FMapList Raw at_least_one_then_f def
+R24563:24563 Coq.FSets.FMapList <> Raw.Elt3.f var
+R24681:24681 Coq.FSets.FMapList <> Raw.Elt3.f var
+R24681:24681 Coq.FSets.FMapList <> Raw.Elt3.f var
+R24774:24777 Coq.FSets.FMapList Raw find def
+R24774:24777 Coq.FSets.FMapList Raw find def
+R24809:24811 Coq.FSets.FMapList Raw eqk def
+R24838:24838 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24840:24840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24849:24849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24841:24841 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24844:24844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24848:24848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24825:24825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24827:24827 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24836:24836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24828:24828 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24831:24831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24835:24835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24819:24822 Coq.FSets.FMapList Raw oee' abbrev
+R24809:24811 Coq.FSets.FMapList Raw eqk def
+R24838:24838 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24840:24840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24849:24849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24841:24841 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24844:24844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24848:24848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24825:24825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24827:24827 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24836:24836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24828:24828 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24831:24831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24835:24835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24819:24822 Coq.FSets.FMapList Raw oee' abbrev
+R24895:24908 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R24914:24919 Coq.FSets.FMapList Raw Inf_eq thm
+R24922:24928 Coq.FSets.FMapList Raw eqk_sym thm
+R24895:24908 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R24914:24919 Coq.FSets.FMapList Raw Inf_eq thm
+R24922:24928 Coq.FSets.FMapList Raw eqk_sym thm
+R24957:24962 Coq.FSets.FMapList Raw find_2 thm
+R24957:24962 Coq.FSets.FMapList Raw find_2 thm
+R25014:25014 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25014:25014 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25234:25242 Coq.FSets.FMapList X compare defax
+R25234:25242 Coq.FSets.FMapList X compare defax
+R25310:25310 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25310:25310 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25403:25406 Coq.FSets.FMapList Raw find def
+R25403:25406 Coq.FSets.FMapList Raw find def
+R25438:25440 Coq.FSets.FMapList Raw ltk def
+R25467:25467 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25469:25469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25478:25478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25470:25470 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25473:25473 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25477:25477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25454:25454 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25456:25456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25465:25465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25457:25457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25460:25460 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25464:25464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25448:25451 Coq.FSets.FMapList Raw oee' abbrev
+R25438:25440 Coq.FSets.FMapList Raw ltk def
+R25467:25467 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25469:25469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25478:25478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25470:25470 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25473:25473 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25477:25477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25454:25454 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25456:25456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25465:25465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25457:25457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25460:25460 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25464:25464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25448:25451 Coq.FSets.FMapList Raw oee' abbrev
+R25506:25519 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R25525:25530 Coq.FSets.FMapList Raw Inf_lt thm
+R25506:25519 Coq.FSets.FMapList Raw Sort_Inf_NotIn thm
+R25525:25530 Coq.FSets.FMapList Raw Inf_lt thm
+R25558:25563 Coq.FSets.FMapList Raw find_2 thm
+R25558:25563 Coq.FSets.FMapList Raw find_2 thm
+R25643:25643 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25643:25643 Coq.FSets.FMapList <> Raw.Elt3.f var
+prf 25817:25822 Raw map2_1
+binder 25835:25835 <> m:497
+R25843:25846 Coq.Sorting.Sorted <> sort abbrev
+R25859:25859 Coq.FSets.FMapList <> m:497 var
+R25850:25852 Coq.FSets.FMapList Raw ltk def
+R25854:25856 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 25838:25839 <> Hm:498
+binder 25862:25863 <> m':499
+R25872:25875 Coq.Sorting.Sorted <> sort abbrev
+R25889:25890 Coq.FSets.FMapList <> m':499 var
+R25879:25881 Coq.FSets.FMapList Raw ltk def
+R25883:25886 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 25866:25868 <> Hm':500
+R25895:25897 Coq.FSets.FMapList Raw key def
+binder 25893:25893 <> x:501
+R25920:25925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25909:25912 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25903:25904 Coq.FSets.FMapList Raw In def
+R25908:25908 Coq.FSets.FMapList <> m:497 var
+R25906:25906 Coq.FSets.FMapList <> x:501 var
+R25913:25914 Coq.FSets.FMapList Raw In def
+R25918:25919 Coq.FSets.FMapList <> m':499 var
+R25916:25916 Coq.FSets.FMapList <> x:501 var
+R25944:25946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25926:25929 Coq.FSets.FMapList Raw find def
+R25934:25937 Coq.FSets.FMapList Raw map2 def
+R25941:25942 Coq.FSets.FMapList <> m':499 var
+R25939:25939 Coq.FSets.FMapList <> m:497 var
+R25931:25931 Coq.FSets.FMapList <> x:501 var
+R25947:25947 Coq.FSets.FMapList <> Raw.Elt3.f var
+R25961:25964 Coq.FSets.FMapList Raw find def
+R25968:25969 Coq.FSets.FMapList <> m':499 var
+R25966:25966 Coq.FSets.FMapList <> x:501 var
+R25950:25953 Coq.FSets.FMapList Raw find def
+R25957:25957 Coq.FSets.FMapList <> m:497 var
+R25955:25955 Coq.FSets.FMapList <> x:501 var
+R25998:26003 Coq.FSets.FMapList Raw map2_0 thm
+R25998:26003 Coq.FSets.FMapList Raw map2_0 thm
+R25998:26003 Coq.FSets.FMapList Raw map2_0 thm
+R25998:26003 Coq.FSets.FMapList Raw map2_0 thm
+R25998:26003 Coq.FSets.FMapList Raw map2_0 thm
+R26052:26057 Coq.FSets.FMapList Raw find_1 thm
+R26052:26057 Coq.FSets.FMapList Raw find_1 thm
+R26052:26057 Coq.FSets.FMapList Raw find_1 thm
+R26077:26080 Coq.FSets.FMapList Raw find def
+R26077:26080 Coq.FSets.FMapList Raw find def
+R26112:26117 Coq.FSets.FMapList Raw find_1 thm
+R26112:26117 Coq.FSets.FMapList Raw find_1 thm
+R26112:26117 Coq.FSets.FMapList Raw find_1 thm
+R26138:26141 Coq.FSets.FMapList Raw find def
+R26138:26141 Coq.FSets.FMapList Raw find def
+prf 26174:26179 Raw map2_2
+binder 26192:26192 <> m:502
+R26200:26203 Coq.Sorting.Sorted <> sort abbrev
+R26216:26216 Coq.FSets.FMapList <> m:502 var
+R26207:26209 Coq.FSets.FMapList Raw ltk def
+R26211:26213 Coq.FSets.FMapList <> Raw.Elt3.elt var
+binder 26195:26196 <> Hm:503
+binder 26219:26220 <> m':504
+R26229:26232 Coq.Sorting.Sorted <> sort abbrev
+R26246:26247 Coq.FSets.FMapList <> m':504 var
+R26236:26238 Coq.FSets.FMapList Raw ltk def
+R26240:26243 Coq.FSets.FMapList <> Raw.Elt3.elt' var
+binder 26223:26225 <> Hm':505
+R26252:26254 Coq.FSets.FMapList Raw key def
+binder 26250:26250 <> x:506
+R26276:26279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26260:26261 Coq.FSets.FMapList Raw In def
+R26266:26269 Coq.FSets.FMapList Raw map2 def
+R26273:26274 Coq.FSets.FMapList <> m':504 var
+R26271:26271 Coq.FSets.FMapList <> m:502 var
+R26263:26263 Coq.FSets.FMapList <> x:506 var
+R26286:26289 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R26280:26281 Coq.FSets.FMapList Raw In def
+R26285:26285 Coq.FSets.FMapList <> m:502 var
+R26283:26283 Coq.FSets.FMapList <> x:506 var
+R26290:26291 Coq.FSets.FMapList Raw In def
+R26295:26296 Coq.FSets.FMapList <> m':504 var
+R26293:26293 Coq.FSets.FMapList <> x:506 var
+R26350:26355 Coq.FSets.FMapList Raw map2_0 thm
+R26350:26355 Coq.FSets.FMapList Raw map2_0 thm
+R26378:26383 Coq.FSets.FMapList Raw find_1 thm
+R26386:26396 Coq.FSets.FMapList Raw map2_sorted thm
+R26378:26383 Coq.FSets.FMapList Raw find_1 thm
+R26386:26396 Coq.FSets.FMapList Raw map2_sorted thm
+R26378:26383 Coq.FSets.FMapList Raw find_1 thm
+R26386:26396 Coq.FSets.FMapList Raw map2_sorted thm
+R26424:26429 Coq.FSets.FMapList Raw find_2 thm
+R26424:26429 Coq.FSets.FMapList Raw find_2 thm
+R26453:26458 Coq.FSets.FMapList Raw find_2 thm
+R26453:26458 Coq.FSets.FMapList Raw find_2 thm
+R26480:26483 Coq.FSets.FMapList Raw find def
+R26504:26507 Coq.FSets.FMapList Raw find def
+R26480:26483 Coq.FSets.FMapList Raw find def
+R26504:26507 Coq.FSets.FMapList Raw find def
+R26504:26507 Coq.FSets.FMapList Raw find def
+R26629:26632 Coq.FSets.FMapList Raw.Elt3 <> sec
+R26639:26641 Coq.FSets.FMapList Raw <> mod
+R26661:26671 Coq.Structures.OrderedType OrderedType <> mod
+R26677:26677 Coq.FSets.FMapInterface S <> mod
+R26696:26696 Coq.FSets.FMapList X <> modtype
+mod 26652:26655 <> Make
+R26713:26715 Coq.FSets.FMapList Raw <> modtype
+R26717:26717 Coq.FSets.FMapList X <> modtype
+mod 26706:26708 <> Make.Raw
+R26732:26732 Coq.FSets.FMapList X <> modtype
+mod 26727:26727 <> Make.E
+def 26747:26749 Make key
+R26754:26756 Coq.FSets.FMapList Make t defax
+rec 26767:26771 Make slist
+proj 26790:26793 Make this
+proj 26809:26814 Make sorted
+binder 26774:26776 <> elt:507
+R26798:26802 Coq.FSets.FMapList Make t def
+R26804:26806 Coq.FSets.FMapList <> elt:507 var
+R26818:26821 Coq.Sorting.Sorted <> sort abbrev
+R26841:26844 Coq.FSets.FMapList <> this:509 meth
+R26825:26834 Coq.FSets.FMapList Make ltk def
+R26836:26838 Coq.FSets.FMapList <> elt:507 var
+def 26859:26859 Make t
+binder 26862:26864 <> elt:511
+R26882:26886 Coq.FSets.FMapList Make slist rec
+R26888:26890 Coq.FSets.FMapList <> elt:511 var
+sec 26902:26904 Make Elt
+var 26917:26919 Make.Elt elt
+var 26921:26924 Make.Elt elt'
+var 26926:26930 Make.Elt elt''
+R26959:26959 Coq.FSets.FMapList Make t def
+R26961:26963 Coq.FSets.FMapList <> Make.Elt.elt var
+R26988:26990 Coq.FSets.FMapList Make key def
+R27013:27015 Coq.FSets.FMapList <> Make.Elt.elt var
+def 27031:27035 Make empty
+R27039:27039 Coq.FSets.FMapList Make t def
+R27041:27043 Coq.FSets.FMapList <> Make.Elt.elt var
+R27048:27058 Coq.FSets.FMapList Make Build_slist constr
+R27061:27076 Coq.FSets.FMapList Make empty_sorted thm
+R27078:27080 Coq.FSets.FMapList <> Make.Elt.elt var
+def 27096:27103 Make is_empty
+binder 27105:27105 <> m:515
+R27109:27112 Coq.Init.Datatypes <> bool ind
+R27117:27128 Coq.FSets.FMapList Make is_empty def
+R27131:27134 Coq.FSets.FMapList Make this proj
+R27136:27136 Coq.FSets.FMapList <> m:515 var
+def 27152:27154 Make add
+binder 27156:27156 <> x:516
+binder 27158:27158 <> e:517
+binder 27160:27160 <> m:518
+R27164:27164 Coq.FSets.FMapList Make t def
+R27166:27168 Coq.FSets.FMapList <> Make.Elt.elt var
+R27173:27183 Coq.FSets.FMapList Make Build_slist constr
+R27186:27199 Coq.FSets.FMapList Make add_sorted thm
+R27214:27214 Coq.FSets.FMapList <> e:517 var
+R27212:27212 Coq.FSets.FMapList <> x:516 var
+R27202:27207 Coq.FSets.FMapList Make sorted proj
+R27209:27209 Coq.FSets.FMapList <> m:518 var
+def 27230:27233 Make find
+binder 27235:27235 <> x:519
+binder 27237:27237 <> m:520
+R27241:27246 Coq.Init.Datatypes <> option ind
+R27248:27250 Coq.FSets.FMapList <> Make.Elt.elt var
+R27255:27262 Coq.FSets.FMapList Make find def
+R27267:27270 Coq.FSets.FMapList Make this proj
+R27272:27272 Coq.FSets.FMapList <> m:520 var
+R27264:27264 Coq.FSets.FMapList <> x:519 var
+def 27288:27293 Make remove
+binder 27295:27295 <> x:521
+binder 27297:27297 <> m:522
+R27301:27301 Coq.FSets.FMapList Make t def
+R27303:27305 Coq.FSets.FMapList <> Make.Elt.elt var
+R27310:27320 Coq.FSets.FMapList Make Build_slist constr
+R27323:27339 Coq.FSets.FMapList Make remove_sorted thm
+R27352:27352 Coq.FSets.FMapList <> x:521 var
+R27342:27347 Coq.FSets.FMapList Make sorted proj
+R27349:27349 Coq.FSets.FMapList <> m:522 var
+def 27368:27370 Make mem
+binder 27372:27372 <> x:523
+binder 27374:27374 <> m:524
+R27378:27381 Coq.Init.Datatypes <> bool ind
+R27386:27392 Coq.FSets.FMapList Make mem def
+R27397:27400 Coq.FSets.FMapList Make this proj
+R27402:27402 Coq.FSets.FMapList <> m:524 var
+R27394:27394 Coq.FSets.FMapList <> x:523 var
+def 27418:27420 Make map
+binder 27422:27422 <> f:525
+binder 27424:27424 <> m:526
+R27428:27428 Coq.FSets.FMapList Make t def
+R27430:27433 Coq.FSets.FMapList <> Make.Elt.elt' var
+R27438:27448 Coq.FSets.FMapList Make Build_slist constr
+R27451:27464 Coq.FSets.FMapList Make map_sorted thm
+R27477:27477 Coq.FSets.FMapList <> f:525 var
+R27467:27472 Coq.FSets.FMapList Make sorted proj
+R27474:27474 Coq.FSets.FMapList <> m:526 var
+def 27493:27496 Make mapi
+R27504:27505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27501:27503 Coq.FSets.FMapList Make key def
+R27509:27510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27506:27508 Coq.FSets.FMapList <> Make.Elt.elt var
+R27511:27514 Coq.FSets.FMapList <> Make.Elt.elt' var
+binder 27499:27499 <> f:527
+binder 27517:27517 <> m:528
+R27521:27521 Coq.FSets.FMapList Make t def
+R27523:27526 Coq.FSets.FMapList <> Make.Elt.elt' var
+R27531:27541 Coq.FSets.FMapList Make Build_slist constr
+R27544:27558 Coq.FSets.FMapList Make mapi_sorted thm
+R27571:27571 Coq.FSets.FMapList <> f:527 var
+R27561:27566 Coq.FSets.FMapList Make sorted proj
+R27568:27568 Coq.FSets.FMapList <> m:528 var
+def 27587:27590 Make map2
+binder 27592:27592 <> f:529
+binder 27594:27594 <> m:530
+R27600:27600 Coq.FSets.FMapList Make t def
+R27602:27605 Coq.FSets.FMapList <> Make.Elt.elt' var
+binder 27597:27598 <> m':531
+R27610:27610 Coq.FSets.FMapList Make t def
+R27612:27616 Coq.FSets.FMapList <> Make.Elt.elt'' var
+R27624:27634 Coq.FSets.FMapList Make Build_slist constr
+R27637:27651 Coq.FSets.FMapList Make map2_sorted thm
+R27667:27672 Coq.FSets.FMapList Make sorted proj
+R27674:27675 Coq.FSets.FMapList <> m':531 var
+R27656:27661 Coq.FSets.FMapList Make sorted proj
+R27663:27663 Coq.FSets.FMapList <> m:530 var
+R27653:27653 Coq.FSets.FMapList <> f:529 var
+def 27692:27699 Make elements
+binder 27701:27701 <> m:532
+R27705:27708 Coq.Init.Datatypes <> list ind
+R27714:27714 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27711:27713 Coq.FSets.FMapList Make key def
+R27715:27717 Coq.FSets.FMapList <> Make.Elt.elt var
+R27724:27735 Coq.FSets.FMapList Make elements def
+R27737:27739 Coq.FSets.FMapList <> Make.Elt.elt var
+R27742:27745 Coq.FSets.FMapList Make this proj
+R27747:27747 Coq.FSets.FMapList <> m:532 var
+def 27763:27770 Make cardinal
+binder 27772:27772 <> m:533
+R27777:27782 Coq.Init.Datatypes <> length def
+R27785:27788 Coq.FSets.FMapList Make this proj
+R27790:27790 Coq.FSets.FMapList <> m:533 var
+def 27806:27809 Make fold
+binder 27812:27812 <> A:534
+R27825:27826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27822:27824 Coq.FSets.FMapList Make key def
+R27830:27831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27827:27829 Coq.FSets.FMapList <> Make.Elt.elt var
+R27833:27834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27832:27832 Coq.FSets.FMapList <> A:534 var
+R27835:27835 Coq.FSets.FMapList <> A:534 var
+binder 27820:27820 <> f:535
+binder 27838:27838 <> m:536
+R27843:27843 Coq.FSets.FMapList <> A:534 var
+binder 27841:27841 <> i:537
+R27848:27848 Coq.FSets.FMapList <> A:534 var
+R27854:27861 Coq.FSets.FMapList Make fold def
+R27863:27865 Coq.FSets.FMapList <> Make.Elt.elt var
+R27867:27867 Coq.FSets.FMapList <> A:534 var
+R27869:27869 Coq.FSets.FMapList <> f:535 var
+R27872:27875 Coq.FSets.FMapList Make this proj
+R27877:27877 Coq.FSets.FMapList <> m:536 var
+R27880:27880 Coq.FSets.FMapList <> i:537 var
+def 27895:27899 Make equal
+binder 27901:27903 <> cmp:538
+binder 27905:27905 <> m:539
+binder 27907:27908 <> m':540
+R27912:27915 Coq.Init.Datatypes <> bool ind
+R27921:27929 Coq.FSets.FMapList Make equal def
+R27931:27933 Coq.FSets.FMapList <> Make.Elt.elt var
+R27935:27937 Coq.FSets.FMapList <> cmp:538 var
+R27940:27943 Coq.FSets.FMapList Make this proj
+R27945:27945 Coq.FSets.FMapList <> m:539 var
+R27949:27952 Coq.FSets.FMapList Make this proj
+R27954:27955 Coq.FSets.FMapList <> m':540 var
+def 27972:27977 Make MapsTo
+binder 27979:27979 <> x:541
+binder 27981:27981 <> e:542
+binder 27983:27983 <> m:543
+R27995:28007 Coq.FSets.FMapList Make MapsTo def
+R28014:28017 Coq.FSets.FMapList Make this proj
+R28019:28019 Coq.FSets.FMapList <> m:543 var
+R28011:28011 Coq.FSets.FMapList <> e:542 var
+R28009:28009 Coq.FSets.FMapList <> x:541 var
+def 28035:28036 Make In
+binder 28038:28038 <> x:544
+binder 28040:28040 <> m:545
+R28052:28060 Coq.FSets.FMapList Make In def
+R28065:28068 Coq.FSets.FMapList Make this proj
+R28070:28070 Coq.FSets.FMapList <> m:545 var
+R28062:28062 Coq.FSets.FMapList <> x:544 var
+def 28086:28090 Make Empty
+binder 28092:28092 <> m:546
+R28104:28112 Coq.FSets.FMapList Make Empty def
+R28115:28118 Coq.FSets.FMapList Make this proj
+R28120:28120 Coq.FSets.FMapList <> m:546 var
+def 28137:28141 Make Equal
+binder 28143:28143 <> m:547
+binder 28145:28146 <> m':548
+binder 28158:28158 <> y:549
+R28169:28171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28161:28164 Coq.FSets.FMapList Make find def
+R28168:28168 Coq.FSets.FMapList <> m:547 var
+R28166:28166 Coq.FSets.FMapList <> y:549 var
+R28172:28175 Coq.FSets.FMapList Make find def
+R28179:28180 Coq.FSets.FMapList <> m':548 var
+R28177:28177 Coq.FSets.FMapList <> y:549 var
+def 28195:28199 Make Equiv
+R28212:28213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28209:28211 Coq.FSets.FMapList <> Make.Elt.elt var
+R28217:28218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28214:28216 Coq.FSets.FMapList <> Make.Elt.elt var
+binder 28202:28207 <> eq_elt:550
+binder 28225:28225 <> m:551
+binder 28227:28228 <> m':552
+R28242:28242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28271:28285 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28346:28346 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 28250:28250 <> k:553
+R28259:28263 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R28253:28254 Coq.FSets.FMapList Make In def
+R28258:28258 Coq.FSets.FMapList <> m:551 var
+R28256:28256 Coq.FSets.FMapList <> k:553 var
+R28264:28265 Coq.FSets.FMapList Make In def
+R28269:28270 Coq.FSets.FMapList <> m':552 var
+R28267:28267 Coq.FSets.FMapList <> k:553 var
+binder 28293:28293 <> k:554
+binder 28295:28295 <> e:555
+binder 28297:28298 <> e':556
+R28313:28316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28301:28306 Coq.FSets.FMapList Make MapsTo def
+R28312:28312 Coq.FSets.FMapList <> m:551 var
+R28310:28310 Coq.FSets.FMapList <> e:555 var
+R28308:28308 Coq.FSets.FMapList <> k:554 var
+R28331:28334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28317:28322 Coq.FSets.FMapList Make MapsTo def
+R28329:28330 Coq.FSets.FMapList <> m':552 var
+R28326:28327 Coq.FSets.FMapList <> e':556 var
+R28324:28324 Coq.FSets.FMapList <> k:554 var
+R28335:28340 Coq.FSets.FMapList <> eq_elt:550 var
+R28344:28345 Coq.FSets.FMapList <> e':556 var
+R28342:28342 Coq.FSets.FMapList <> e:555 var
+def 28361:28366 Make Equivb
+binder 28368:28370 <> cmp:557
+binder 28372:28372 <> m:558
+binder 28374:28375 <> m':559
+R28388:28397 Coq.FSets.FMapList Make Equivb def
+R28399:28401 Coq.FSets.FMapList <> Make.Elt.elt var
+R28403:28405 Coq.FSets.FMapList <> cmp:557 var
+R28408:28411 Coq.FSets.FMapList Make this proj
+R28413:28413 Coq.FSets.FMapList <> m:558 var
+R28417:28420 Coq.FSets.FMapList Make this proj
+R28422:28423 Coq.FSets.FMapList <> m':559 var
+def 28440:28445 Make eq_key
+R28449:28449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28457:28461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28453:28453 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28450:28452 Coq.FSets.FMapList Make key def
+R28454:28456 Coq.FSets.FMapList <> Make.Elt.elt var
+R28462:28462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28470:28474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28466:28466 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28463:28465 Coq.FSets.FMapList Make key def
+R28467:28469 Coq.FSets.FMapList <> Make.Elt.elt var
+R28484:28493 Coq.FSets.FMapList Make eqk def
+R28495:28497 Coq.FSets.FMapList <> Make.Elt.elt var
+def 28512:28521 Make eq_key_elt
+R28525:28525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28533:28537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28529:28529 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28526:28528 Coq.FSets.FMapList Make key def
+R28530:28532 Coq.FSets.FMapList <> Make.Elt.elt var
+R28538:28538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28546:28550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28542:28542 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28539:28541 Coq.FSets.FMapList Make key def
+R28543:28545 Coq.FSets.FMapList <> Make.Elt.elt var
+R28559:28569 Coq.FSets.FMapList Make eqke def
+R28571:28573 Coq.FSets.FMapList <> Make.Elt.elt var
+def 28588:28593 Make lt_key
+R28597:28597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28605:28609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28601:28601 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28598:28600 Coq.FSets.FMapList Make key def
+R28602:28604 Coq.FSets.FMapList <> Make.Elt.elt var
+R28610:28610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28618:28622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28614:28614 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28611:28613 Coq.FSets.FMapList Make key def
+R28615:28617 Coq.FSets.FMapList <> Make.Elt.elt var
+R28632:28641 Coq.FSets.FMapList Make ltk def
+R28643:28645 Coq.FSets.FMapList <> Make.Elt.elt var
+prf 28656:28663 Make MapsTo_1
+binder 28674:28674 <> m:560
+binder 28676:28676 <> x:561
+binder 28678:28678 <> y:562
+binder 28680:28680 <> e:563
+R28691:28694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28683:28686 Coq.FSets.FMapList Make eq defax
+R28690:28690 Coq.FSets.FMapList <> y:562 var
+R28688:28688 Coq.FSets.FMapList <> x:561 var
+R28707:28710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28695:28700 Coq.FSets.FMapList Make MapsTo def
+R28706:28706 Coq.FSets.FMapList <> m:560 var
+R28704:28704 Coq.FSets.FMapList <> e:563 var
+R28702:28702 Coq.FSets.FMapList <> x:561 var
+R28711:28716 Coq.FSets.FMapList Make MapsTo def
+R28722:28722 Coq.FSets.FMapList <> m:560 var
+R28720:28720 Coq.FSets.FMapList <> e:563 var
+R28718:28718 Coq.FSets.FMapList <> y:562 var
+R28751:28766 Coq.FSets.FMapList Make MapsTo_eq thm
+R28768:28770 Coq.FSets.FMapList <> Make.Elt.elt var
+R28773:28776 Coq.FSets.FMapList Make this proj
+R28751:28766 Coq.FSets.FMapList Make MapsTo_eq thm
+R28768:28770 Coq.FSets.FMapList <> Make.Elt.elt var
+R28773:28776 Coq.FSets.FMapList Make this proj
+prf 28796:28800 Make mem_1
+binder 28811:28811 <> m:564
+binder 28813:28813 <> x:565
+R28822:28825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28816:28817 Coq.FSets.FMapList Make In def
+R28821:28821 Coq.FSets.FMapList <> m:564 var
+R28819:28819 Coq.FSets.FMapList <> x:565 var
+R28833:28835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28826:28828 Coq.FSets.FMapList Make mem def
+R28832:28832 Coq.FSets.FMapList <> m:564 var
+R28830:28830 Coq.FSets.FMapList <> x:565 var
+R28836:28839 Coq.Init.Datatypes <> true constr
+R28868:28876 Coq.FSets.FMapList Make mem_1 thm
+R28878:28880 Coq.FSets.FMapList <> Make.Elt.elt var
+R28883:28886 Coq.FSets.FMapList Make this proj
+R28892:28897 Coq.FSets.FMapList Make sorted proj
+R28868:28876 Coq.FSets.FMapList Make mem_1 thm
+R28878:28880 Coq.FSets.FMapList <> Make.Elt.elt var
+R28883:28886 Coq.FSets.FMapList Make this proj
+R28892:28897 Coq.FSets.FMapList Make sorted proj
+prf 28916:28920 Make mem_2
+binder 28931:28931 <> m:566
+binder 28933:28933 <> x:567
+R28950:28953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28943:28945 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28936:28938 Coq.FSets.FMapList Make mem def
+R28942:28942 Coq.FSets.FMapList <> m:566 var
+R28940:28940 Coq.FSets.FMapList <> x:567 var
+R28946:28949 Coq.Init.Datatypes <> true constr
+R28954:28955 Coq.FSets.FMapList Make In def
+R28959:28959 Coq.FSets.FMapList <> m:566 var
+R28957:28957 Coq.FSets.FMapList <> x:567 var
+R28988:28996 Coq.FSets.FMapList Make mem_2 thm
+R28998:29000 Coq.FSets.FMapList <> Make.Elt.elt var
+R29003:29006 Coq.FSets.FMapList Make this proj
+R29012:29017 Coq.FSets.FMapList Make sorted proj
+R28988:28996 Coq.FSets.FMapList Make mem_2 thm
+R28998:29000 Coq.FSets.FMapList <> Make.Elt.elt var
+R29003:29006 Coq.FSets.FMapList Make this proj
+R29012:29017 Coq.FSets.FMapList Make sorted proj
+prf 29037:29043 Make empty_1
+R29047:29051 Coq.FSets.FMapList Make Empty def
+R29053:29057 Coq.FSets.FMapList Make empty def
+R29076:29086 Coq.FSets.FMapList Make empty_1 thm
+R29088:29090 Coq.FSets.FMapList <> Make.Elt.elt var
+R29076:29086 Coq.FSets.FMapList Make empty_1 thm
+R29088:29090 Coq.FSets.FMapList <> Make.Elt.elt var
+prf 29107:29116 Make is_empty_1
+binder 29127:29127 <> m:568
+R29137:29140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29130:29134 Coq.FSets.FMapList Make Empty def
+R29136:29136 Coq.FSets.FMapList <> m:568 var
+R29151:29153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29141:29148 Coq.FSets.FMapList Make is_empty def
+R29150:29150 Coq.FSets.FMapList <> m:568 var
+R29154:29157 Coq.Init.Datatypes <> true constr
+R29186:29199 Coq.FSets.FMapList Make is_empty_1 thm
+R29201:29203 Coq.FSets.FMapList <> Make.Elt.elt var
+R29206:29209 Coq.FSets.FMapList Make this proj
+R29186:29199 Coq.FSets.FMapList Make is_empty_1 thm
+R29201:29203 Coq.FSets.FMapList <> Make.Elt.elt var
+R29206:29209 Coq.FSets.FMapList Make this proj
+prf 29228:29237 Make is_empty_2
+binder 29249:29249 <> m:569
+R29269:29272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29262:29264 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29252:29259 Coq.FSets.FMapList Make is_empty def
+R29261:29261 Coq.FSets.FMapList <> m:569 var
+R29265:29268 Coq.Init.Datatypes <> true constr
+R29273:29277 Coq.FSets.FMapList Make Empty def
+R29279:29279 Coq.FSets.FMapList <> m:569 var
+R29308:29321 Coq.FSets.FMapList Make is_empty_2 thm
+R29323:29325 Coq.FSets.FMapList <> Make.Elt.elt var
+R29328:29331 Coq.FSets.FMapList Make this proj
+R29308:29321 Coq.FSets.FMapList Make is_empty_2 thm
+R29323:29325 Coq.FSets.FMapList <> Make.Elt.elt var
+R29328:29331 Coq.FSets.FMapList Make this proj
+prf 29351:29355 Make add_1
+binder 29366:29366 <> m:570
+binder 29368:29368 <> x:571
+binder 29370:29370 <> y:572
+binder 29372:29372 <> e:573
+R29383:29386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29375:29378 Coq.FSets.FMapList Make eq defax
+R29382:29382 Coq.FSets.FMapList <> y:572 var
+R29380:29380 Coq.FSets.FMapList <> x:571 var
+R29387:29392 Coq.FSets.FMapList Make MapsTo def
+R29399:29401 Coq.FSets.FMapList Make add def
+R29407:29407 Coq.FSets.FMapList <> m:570 var
+R29405:29405 Coq.FSets.FMapList <> e:573 var
+R29403:29403 Coq.FSets.FMapList <> x:571 var
+R29396:29396 Coq.FSets.FMapList <> e:573 var
+R29394:29394 Coq.FSets.FMapList <> y:572 var
+R29437:29445 Coq.FSets.FMapList Make add_1 thm
+R29447:29449 Coq.FSets.FMapList <> Make.Elt.elt var
+R29452:29455 Coq.FSets.FMapList Make this proj
+R29437:29445 Coq.FSets.FMapList Make add_1 thm
+R29447:29449 Coq.FSets.FMapList <> Make.Elt.elt var
+R29452:29455 Coq.FSets.FMapList Make this proj
+prf 29474:29478 Make add_2
+binder 29489:29489 <> m:574
+binder 29491:29491 <> x:575
+binder 29493:29493 <> y:576
+binder 29495:29495 <> e:577
+binder 29497:29498 <> e':578
+R29511:29514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29501:29502 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29503:29506 Coq.FSets.FMapList Make eq defax
+R29510:29510 Coq.FSets.FMapList <> y:576 var
+R29508:29508 Coq.FSets.FMapList <> x:575 var
+R29527:29530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29515:29520 Coq.FSets.FMapList Make MapsTo def
+R29526:29526 Coq.FSets.FMapList <> m:574 var
+R29524:29524 Coq.FSets.FMapList <> e:577 var
+R29522:29522 Coq.FSets.FMapList <> y:576 var
+R29531:29536 Coq.FSets.FMapList Make MapsTo def
+R29543:29545 Coq.FSets.FMapList Make add def
+R29552:29552 Coq.FSets.FMapList <> m:574 var
+R29549:29550 Coq.FSets.FMapList <> e':578 var
+R29547:29547 Coq.FSets.FMapList <> x:575 var
+R29540:29540 Coq.FSets.FMapList <> e:577 var
+R29538:29538 Coq.FSets.FMapList <> y:576 var
+R29582:29590 Coq.FSets.FMapList Make add_2 thm
+R29592:29594 Coq.FSets.FMapList <> Make.Elt.elt var
+R29597:29600 Coq.FSets.FMapList Make this proj
+R29582:29590 Coq.FSets.FMapList Make add_2 thm
+R29592:29594 Coq.FSets.FMapList <> Make.Elt.elt var
+R29597:29600 Coq.FSets.FMapList Make this proj
+prf 29619:29623 Make add_3
+binder 29634:29634 <> m:579
+binder 29636:29636 <> x:580
+binder 29638:29638 <> y:581
+binder 29640:29640 <> e:582
+binder 29642:29643 <> e':583
+R29656:29659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29646:29647 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29648:29651 Coq.FSets.FMapList Make eq defax
+R29655:29655 Coq.FSets.FMapList <> y:581 var
+R29653:29653 Coq.FSets.FMapList <> x:580 var
+R29683:29686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29660:29665 Coq.FSets.FMapList Make MapsTo def
+R29672:29674 Coq.FSets.FMapList Make add def
+R29681:29681 Coq.FSets.FMapList <> m:579 var
+R29678:29679 Coq.FSets.FMapList <> e':583 var
+R29676:29676 Coq.FSets.FMapList <> x:580 var
+R29669:29669 Coq.FSets.FMapList <> e:582 var
+R29667:29667 Coq.FSets.FMapList <> y:581 var
+R29687:29692 Coq.FSets.FMapList Make MapsTo def
+R29698:29698 Coq.FSets.FMapList <> m:579 var
+R29696:29696 Coq.FSets.FMapList <> e:582 var
+R29694:29694 Coq.FSets.FMapList <> y:581 var
+R29727:29735 Coq.FSets.FMapList Make add_3 thm
+R29737:29739 Coq.FSets.FMapList <> Make.Elt.elt var
+R29742:29745 Coq.FSets.FMapList Make this proj
+R29727:29735 Coq.FSets.FMapList Make add_3 thm
+R29737:29739 Coq.FSets.FMapList <> Make.Elt.elt var
+R29742:29745 Coq.FSets.FMapList Make this proj
+prf 29765:29772 Make remove_1
+binder 29783:29783 <> m:584
+binder 29785:29785 <> x:585
+binder 29787:29787 <> y:586
+R29798:29801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29790:29793 Coq.FSets.FMapList Make eq defax
+R29797:29797 Coq.FSets.FMapList <> y:586 var
+R29795:29795 Coq.FSets.FMapList <> x:585 var
+R29802:29803 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29804:29805 Coq.FSets.FMapList Make In def
+R29810:29815 Coq.FSets.FMapList Make remove def
+R29819:29819 Coq.FSets.FMapList <> m:584 var
+R29817:29817 Coq.FSets.FMapList <> x:585 var
+R29807:29807 Coq.FSets.FMapList <> y:586 var
+R29849:29860 Coq.FSets.FMapList Make remove_1 thm
+R29862:29864 Coq.FSets.FMapList <> Make.Elt.elt var
+R29867:29870 Coq.FSets.FMapList Make this proj
+R29876:29881 Coq.FSets.FMapList Make sorted proj
+R29849:29860 Coq.FSets.FMapList Make remove_1 thm
+R29862:29864 Coq.FSets.FMapList <> Make.Elt.elt var
+R29867:29870 Coq.FSets.FMapList Make this proj
+R29876:29881 Coq.FSets.FMapList Make sorted proj
+prf 29900:29907 Make remove_2
+binder 29918:29918 <> m:587
+binder 29920:29920 <> x:588
+binder 29922:29922 <> y:589
+binder 29924:29924 <> e:590
+R29937:29940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29927:29928 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29929:29932 Coq.FSets.FMapList Make eq defax
+R29936:29936 Coq.FSets.FMapList <> y:589 var
+R29934:29934 Coq.FSets.FMapList <> x:588 var
+R29953:29956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29941:29946 Coq.FSets.FMapList Make MapsTo def
+R29952:29952 Coq.FSets.FMapList <> m:587 var
+R29950:29950 Coq.FSets.FMapList <> e:590 var
+R29948:29948 Coq.FSets.FMapList <> y:589 var
+R29957:29962 Coq.FSets.FMapList Make MapsTo def
+R29969:29974 Coq.FSets.FMapList Make remove def
+R29978:29978 Coq.FSets.FMapList <> m:587 var
+R29976:29976 Coq.FSets.FMapList <> x:588 var
+R29966:29966 Coq.FSets.FMapList <> e:590 var
+R29964:29964 Coq.FSets.FMapList <> y:589 var
+R30008:30019 Coq.FSets.FMapList Make remove_2 thm
+R30021:30023 Coq.FSets.FMapList <> Make.Elt.elt var
+R30026:30029 Coq.FSets.FMapList Make this proj
+R30035:30040 Coq.FSets.FMapList Make sorted proj
+R30008:30019 Coq.FSets.FMapList Make remove_2 thm
+R30021:30023 Coq.FSets.FMapList <> Make.Elt.elt var
+R30026:30029 Coq.FSets.FMapList Make this proj
+R30035:30040 Coq.FSets.FMapList Make sorted proj
+prf 30059:30066 Make remove_3
+binder 30077:30077 <> m:591
+binder 30079:30079 <> x:592
+binder 30081:30081 <> y:593
+binder 30083:30083 <> e:594
+R30109:30112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30086:30091 Coq.FSets.FMapList Make MapsTo def
+R30098:30103 Coq.FSets.FMapList Make remove def
+R30107:30107 Coq.FSets.FMapList <> m:591 var
+R30105:30105 Coq.FSets.FMapList <> x:592 var
+R30095:30095 Coq.FSets.FMapList <> e:594 var
+R30093:30093 Coq.FSets.FMapList <> y:593 var
+R30113:30118 Coq.FSets.FMapList Make MapsTo def
+R30124:30124 Coq.FSets.FMapList <> m:591 var
+R30122:30122 Coq.FSets.FMapList <> e:594 var
+R30120:30120 Coq.FSets.FMapList <> y:593 var
+R30153:30164 Coq.FSets.FMapList Make remove_3 thm
+R30166:30168 Coq.FSets.FMapList <> Make.Elt.elt var
+R30171:30174 Coq.FSets.FMapList Make this proj
+R30180:30185 Coq.FSets.FMapList Make sorted proj
+R30153:30164 Coq.FSets.FMapList Make remove_3 thm
+R30166:30168 Coq.FSets.FMapList <> Make.Elt.elt var
+R30171:30174 Coq.FSets.FMapList Make this proj
+R30180:30185 Coq.FSets.FMapList Make sorted proj
+prf 30205:30210 Make find_1
+binder 30221:30221 <> m:595
+binder 30223:30223 <> x:596
+binder 30225:30225 <> e:597
+R30240:30243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30228:30233 Coq.FSets.FMapList Make MapsTo def
+R30239:30239 Coq.FSets.FMapList <> m:595 var
+R30237:30237 Coq.FSets.FMapList <> e:597 var
+R30235:30235 Coq.FSets.FMapList <> x:596 var
+R30252:30254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30244:30247 Coq.FSets.FMapList Make find def
+R30251:30251 Coq.FSets.FMapList <> m:595 var
+R30249:30249 Coq.FSets.FMapList <> x:596 var
+R30255:30258 Coq.Init.Datatypes <> Some constr
+R30260:30260 Coq.FSets.FMapList <> e:597 var
+R30289:30298 Coq.FSets.FMapList Make find_1 thm
+R30300:30302 Coq.FSets.FMapList <> Make.Elt.elt var
+R30305:30308 Coq.FSets.FMapList Make this proj
+R30314:30319 Coq.FSets.FMapList Make sorted proj
+R30289:30298 Coq.FSets.FMapList Make find_1 thm
+R30300:30302 Coq.FSets.FMapList <> Make.Elt.elt var
+R30305:30308 Coq.FSets.FMapList Make this proj
+R30314:30319 Coq.FSets.FMapList Make sorted proj
+prf 30338:30343 Make find_2
+binder 30354:30354 <> m:598
+binder 30356:30356 <> x:599
+binder 30358:30358 <> e:600
+R30378:30381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30369:30371 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30361:30364 Coq.FSets.FMapList Make find def
+R30368:30368 Coq.FSets.FMapList <> m:598 var
+R30366:30366 Coq.FSets.FMapList <> x:599 var
+R30372:30375 Coq.Init.Datatypes <> Some constr
+R30377:30377 Coq.FSets.FMapList <> e:600 var
+R30382:30387 Coq.FSets.FMapList Make MapsTo def
+R30393:30393 Coq.FSets.FMapList <> m:598 var
+R30391:30391 Coq.FSets.FMapList <> e:600 var
+R30389:30389 Coq.FSets.FMapList <> x:599 var
+R30422:30431 Coq.FSets.FMapList Make find_2 thm
+R30433:30435 Coq.FSets.FMapList <> Make.Elt.elt var
+R30438:30441 Coq.FSets.FMapList Make this proj
+R30422:30431 Coq.FSets.FMapList Make find_2 thm
+R30433:30435 Coq.FSets.FMapList <> Make.Elt.elt var
+R30438:30441 Coq.FSets.FMapList Make this proj
+prf 30461:30470 Make elements_1
+binder 30481:30481 <> m:601
+binder 30483:30483 <> x:602
+binder 30485:30485 <> e:603
+R30500:30503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30488:30493 Coq.FSets.FMapList Make MapsTo def
+R30499:30499 Coq.FSets.FMapList <> m:601 var
+R30497:30497 Coq.FSets.FMapList <> e:603 var
+R30495:30495 Coq.FSets.FMapList <> x:602 var
+R30504:30506 Coq.Lists.SetoidList <> InA ind
+R30526:30533 Coq.FSets.FMapList Make elements def
+R30535:30535 Coq.FSets.FMapList <> m:601 var
+R30519:30519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30521:30521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30523:30523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30520:30520 Coq.FSets.FMapList <> x:602 var
+R30522:30522 Coq.FSets.FMapList <> e:603 var
+R30508:30517 Coq.FSets.FMapList Make eq_key_elt def
+R30565:30578 Coq.FSets.FMapList Make elements_1 thm
+R30580:30582 Coq.FSets.FMapList <> Make.Elt.elt var
+R30585:30588 Coq.FSets.FMapList Make this proj
+R30565:30578 Coq.FSets.FMapList Make elements_1 thm
+R30580:30582 Coq.FSets.FMapList <> Make.Elt.elt var
+R30585:30588 Coq.FSets.FMapList Make this proj
+prf 30607:30616 Make elements_2
+binder 30627:30627 <> m:604
+binder 30629:30629 <> x:605
+binder 30631:30631 <> e:606
+R30667:30670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30634:30636 Coq.Lists.SetoidList <> InA ind
+R30656:30663 Coq.FSets.FMapList Make elements def
+R30665:30665 Coq.FSets.FMapList <> m:604 var
+R30649:30649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30651:30651 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30653:30653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30650:30650 Coq.FSets.FMapList <> x:605 var
+R30652:30652 Coq.FSets.FMapList <> e:606 var
+R30638:30647 Coq.FSets.FMapList Make eq_key_elt def
+R30671:30676 Coq.FSets.FMapList Make MapsTo def
+R30682:30682 Coq.FSets.FMapList <> m:604 var
+R30680:30680 Coq.FSets.FMapList <> e:606 var
+R30678:30678 Coq.FSets.FMapList <> x:605 var
+R30711:30724 Coq.FSets.FMapList Make elements_2 thm
+R30726:30728 Coq.FSets.FMapList <> Make.Elt.elt var
+R30731:30734 Coq.FSets.FMapList Make this proj
+R30711:30724 Coq.FSets.FMapList Make elements_2 thm
+R30726:30728 Coq.FSets.FMapList <> Make.Elt.elt var
+R30731:30734 Coq.FSets.FMapList Make this proj
+prf 30753:30762 Make elements_3
+binder 30773:30773 <> m:607
+R30776:30779 Coq.Sorting.Sorted <> sort abbrev
+R30789:30796 Coq.FSets.FMapList Make elements def
+R30798:30798 Coq.FSets.FMapList <> m:607 var
+R30781:30786 Coq.FSets.FMapList Make lt_key def
+R30828:30841 Coq.FSets.FMapList Make elements_3 thm
+R30843:30845 Coq.FSets.FMapList <> Make.Elt.elt var
+R30848:30851 Coq.FSets.FMapList Make this proj
+R30857:30862 Coq.FSets.FMapList Make sorted proj
+R30828:30841 Coq.FSets.FMapList Make elements_3 thm
+R30843:30845 Coq.FSets.FMapList <> Make.Elt.elt var
+R30848:30851 Coq.FSets.FMapList Make this proj
+R30857:30862 Coq.FSets.FMapList Make sorted proj
+prf 30881:30891 Make elements_3w
+binder 30902:30902 <> m:608
+R30905:30910 Coq.Lists.SetoidList <> NoDupA ind
+R30920:30927 Coq.FSets.FMapList Make elements def
+R30929:30929 Coq.FSets.FMapList <> m:608 var
+R30912:30917 Coq.FSets.FMapList Make eq_key def
+R30959:30973 Coq.FSets.FMapList Make elements_3w thm
+R30975:30977 Coq.FSets.FMapList <> Make.Elt.elt var
+R30980:30983 Coq.FSets.FMapList Make this proj
+R30989:30994 Coq.FSets.FMapList Make sorted proj
+R30959:30973 Coq.FSets.FMapList Make elements_3w thm
+R30975:30977 Coq.FSets.FMapList <> Make.Elt.elt var
+R30980:30983 Coq.FSets.FMapList Make this proj
+R30989:30994 Coq.FSets.FMapList Make sorted proj
+prf 31014:31023 Make cardinal_1
+binder 31034:31034 <> m:609
+R31047:31049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31037:31044 Coq.FSets.FMapList Make cardinal def
+R31046:31046 Coq.FSets.FMapList <> m:609 var
+R31050:31055 Coq.Init.Datatypes <> length def
+R31058:31065 Coq.FSets.FMapList Make elements def
+R31067:31067 Coq.FSets.FMapList <> m:609 var
+prf 31113:31118 Make fold_1
+binder 31129:31129 <> m:610
+binder 31132:31132 <> A:611
+R31147:31147 Coq.FSets.FMapList <> A:611 var
+binder 31143:31143 <> i:612
+R31158:31161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31155:31157 Coq.FSets.FMapList Make key def
+R31165:31168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31162:31164 Coq.FSets.FMapList <> Make.Elt.elt var
+R31170:31173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31169:31169 Coq.FSets.FMapList <> A:611 var
+R31174:31174 Coq.FSets.FMapList <> A:611 var
+binder 31151:31151 <> f:613
+R31196:31198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31186:31189 Coq.FSets.FMapList Make fold def
+R31195:31195 Coq.FSets.FMapList <> i:612 var
+R31193:31193 Coq.FSets.FMapList <> m:610 var
+R31191:31191 Coq.FSets.FMapList <> f:613 var
+R31199:31207 Coq.Lists.List <> fold_left def
+R31255:31255 Coq.FSets.FMapList <> i:612 var
+R31243:31250 Coq.FSets.FMapList Make elements def
+R31252:31252 Coq.FSets.FMapList <> m:610 var
+binder 31214:31214 <> a:614
+binder 31216:31216 <> p:615
+R31221:31221 Coq.FSets.FMapList <> f:613 var
+R31239:31239 Coq.FSets.FMapList <> a:614 var
+R31232:31234 Coq.Init.Datatypes <> snd def
+R31236:31236 Coq.FSets.FMapList <> p:615 var
+R31224:31226 Coq.Init.Datatypes <> fst def
+R31228:31228 Coq.FSets.FMapList <> p:615 var
+R31284:31293 Coq.FSets.FMapList Make fold_1 thm
+R31295:31297 Coq.FSets.FMapList <> Make.Elt.elt var
+R31300:31303 Coq.FSets.FMapList Make this proj
+R31284:31293 Coq.FSets.FMapList Make fold_1 thm
+R31295:31297 Coq.FSets.FMapList <> Make.Elt.elt var
+R31300:31303 Coq.FSets.FMapList Make this proj
+prf 31323:31329 Make equal_1
+binder 31340:31340 <> m:616
+binder 31342:31343 <> m':617
+binder 31345:31347 <> cmp:618
+R31365:31368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31350:31355 Coq.FSets.FMapList Make Equivb def
+R31363:31364 Coq.FSets.FMapList <> m':617 var
+R31361:31361 Coq.FSets.FMapList <> m:616 var
+R31357:31359 Coq.FSets.FMapList <> cmp:618 var
+R31383:31385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31369:31373 Coq.FSets.FMapList Make equal def
+R31381:31382 Coq.FSets.FMapList <> m':617 var
+R31379:31379 Coq.FSets.FMapList <> m:616 var
+R31375:31377 Coq.FSets.FMapList <> cmp:618 var
+R31386:31389 Coq.Init.Datatypes <> true constr
+R31421:31431 Coq.FSets.FMapList Make equal_1 thm
+R31433:31435 Coq.FSets.FMapList <> Make.Elt.elt var
+R31438:31441 Coq.FSets.FMapList Make this proj
+R31447:31452 Coq.FSets.FMapList Make sorted proj
+R31458:31461 Coq.FSets.FMapList Make this proj
+R31468:31473 Coq.FSets.FMapList Make sorted proj
+R31421:31431 Coq.FSets.FMapList Make equal_1 thm
+R31433:31435 Coq.FSets.FMapList <> Make.Elt.elt var
+R31438:31441 Coq.FSets.FMapList Make this proj
+R31447:31452 Coq.FSets.FMapList Make sorted proj
+R31458:31461 Coq.FSets.FMapList Make this proj
+R31468:31473 Coq.FSets.FMapList Make sorted proj
+prf 31493:31499 Make equal_2
+binder 31510:31510 <> m:619
+binder 31512:31513 <> m':620
+binder 31515:31517 <> cmp:621
+R31541:31544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31534:31536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31520:31524 Coq.FSets.FMapList Make equal def
+R31532:31533 Coq.FSets.FMapList <> m':620 var
+R31530:31530 Coq.FSets.FMapList <> m:619 var
+R31526:31528 Coq.FSets.FMapList <> cmp:621 var
+R31537:31540 Coq.Init.Datatypes <> true constr
+R31545:31550 Coq.FSets.FMapList Make Equivb def
+R31558:31559 Coq.FSets.FMapList <> m':620 var
+R31556:31556 Coq.FSets.FMapList <> m:619 var
+R31552:31554 Coq.FSets.FMapList <> cmp:621 var
+R31591:31601 Coq.FSets.FMapList Make equal_2 thm
+R31603:31605 Coq.FSets.FMapList <> Make.Elt.elt var
+R31608:31611 Coq.FSets.FMapList Make this proj
+R31617:31622 Coq.FSets.FMapList Make sorted proj
+R31628:31631 Coq.FSets.FMapList Make this proj
+R31638:31643 Coq.FSets.FMapList Make sorted proj
+R31591:31601 Coq.FSets.FMapList Make equal_2 thm
+R31603:31605 Coq.FSets.FMapList <> Make.Elt.elt var
+R31608:31611 Coq.FSets.FMapList Make this proj
+R31617:31622 Coq.FSets.FMapList Make sorted proj
+R31628:31631 Coq.FSets.FMapList Make this proj
+R31638:31643 Coq.FSets.FMapList Make sorted proj
+R31662:31664 Coq.FSets.FMapList Make.Elt <> sec
+prf 31675:31679 Make map_1
+binder 31691:31693 <> elt:622
+binder 31695:31698 <> elt':623
+R31709:31709 Coq.FSets.FMapList Make t def
+R31711:31713 Coq.FSets.FMapList <> elt:622 var
+binder 31706:31706 <> m:624
+R31718:31720 Coq.FSets.FMapList Make key def
+binder 31716:31716 <> x:625
+R31725:31727 Coq.FSets.FMapList <> elt:622 var
+binder 31723:31723 <> e:626
+R31735:31736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31732:31734 Coq.FSets.FMapList <> elt:622 var
+R31737:31740 Coq.FSets.FMapList <> elt':623 var
+binder 31730:31730 <> f:627
+R31764:31767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31752:31757 Coq.FSets.FMapList Make MapsTo def
+R31763:31763 Coq.FSets.FMapList <> m:624 var
+R31761:31761 Coq.FSets.FMapList <> e:626 var
+R31759:31759 Coq.FSets.FMapList <> x:625 var
+R31768:31773 Coq.FSets.FMapList Make MapsTo def
+R31784:31786 Coq.FSets.FMapList Make map def
+R31790:31790 Coq.FSets.FMapList <> m:624 var
+R31788:31788 Coq.FSets.FMapList <> f:627 var
+R31778:31778 Coq.FSets.FMapList <> f:627 var
+R31780:31780 Coq.FSets.FMapList <> e:626 var
+R31775:31775 Coq.FSets.FMapList <> x:625 var
+R31829:31837 Coq.FSets.FMapList Make map_1 thm
+R31849:31852 Coq.FSets.FMapList Make this proj
+R31829:31837 Coq.FSets.FMapList Make map_1 thm
+R31849:31852 Coq.FSets.FMapList Make this proj
+prf 31871:31875 Make map_2
+binder 31887:31889 <> elt:628
+binder 31891:31894 <> elt':629
+R31905:31905 Coq.FSets.FMapList Make t def
+R31907:31909 Coq.FSets.FMapList <> elt:628 var
+binder 31902:31902 <> m:630
+R31914:31916 Coq.FSets.FMapList Make key def
+binder 31912:31912 <> x:631
+R31924:31925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31921:31923 Coq.FSets.FMapList <> elt:628 var
+R31926:31929 Coq.FSets.FMapList <> elt':629 var
+binder 31919:31919 <> f:632
+R31955:31958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31941:31942 Coq.FSets.FMapList Make In def
+R31947:31949 Coq.FSets.FMapList Make map def
+R31953:31953 Coq.FSets.FMapList <> m:630 var
+R31951:31951 Coq.FSets.FMapList <> f:632 var
+R31944:31944 Coq.FSets.FMapList <> x:631 var
+R31959:31960 Coq.FSets.FMapList Make In def
+R31964:31964 Coq.FSets.FMapList <> m:630 var
+R31962:31962 Coq.FSets.FMapList <> x:631 var
+R32002:32010 Coq.FSets.FMapList Make map_2 thm
+R32022:32025 Coq.FSets.FMapList Make this proj
+R32002:32010 Coq.FSets.FMapList Make map_2 thm
+R32022:32025 Coq.FSets.FMapList Make this proj
+prf 32045:32050 Make mapi_1
+binder 32062:32064 <> elt:633
+binder 32066:32069 <> elt':634
+R32080:32080 Coq.FSets.FMapList Make t def
+R32082:32084 Coq.FSets.FMapList <> elt:633 var
+binder 32077:32077 <> m:635
+R32089:32091 Coq.FSets.FMapList Make key def
+binder 32087:32087 <> x:636
+R32096:32098 Coq.FSets.FMapList <> elt:633 var
+binder 32094:32094 <> e:637
+R32115:32116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32112:32114 Coq.FSets.FMapList Make key def
+R32120:32121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32117:32119 Coq.FSets.FMapList <> elt:633 var
+R32122:32125 Coq.FSets.FMapList <> elt':634 var
+binder 32110:32110 <> f:638
+R32141:32152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32129:32134 Coq.FSets.FMapList Make MapsTo def
+R32140:32140 Coq.FSets.FMapList <> m:635 var
+R32138:32138 Coq.FSets.FMapList <> e:637 var
+R32136:32136 Coq.FSets.FMapList <> x:636 var
+R32153:32159 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32161:32162 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32160:32160 <> y:639
+R32171:32174 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32163:32166 Coq.FSets.FMapList Make eq defax
+R32170:32170 Coq.FSets.FMapList <> x:636 var
+R32168:32168 Coq.FSets.FMapList <> y:639 var
+R32175:32180 Coq.FSets.FMapList Make MapsTo def
+R32193:32196 Coq.FSets.FMapList Make mapi def
+R32200:32200 Coq.FSets.FMapList <> m:635 var
+R32198:32198 Coq.FSets.FMapList <> f:638 var
+R32185:32185 Coq.FSets.FMapList <> f:638 var
+R32189:32189 Coq.FSets.FMapList <> e:637 var
+R32187:32187 Coq.FSets.FMapList <> y:639 var
+R32182:32182 Coq.FSets.FMapList <> x:636 var
+R32239:32248 Coq.FSets.FMapList Make mapi_1 thm
+R32260:32263 Coq.FSets.FMapList Make this proj
+R32239:32248 Coq.FSets.FMapList Make mapi_1 thm
+R32260:32263 Coq.FSets.FMapList Make this proj
+prf 32282:32287 Make mapi_2
+binder 32299:32301 <> elt:640
+binder 32303:32306 <> elt':641
+R32317:32317 Coq.FSets.FMapList Make t def
+R32319:32321 Coq.FSets.FMapList <> elt:640 var
+binder 32314:32314 <> m:642
+R32326:32328 Coq.FSets.FMapList Make key def
+binder 32324:32324 <> x:643
+R32345:32346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32342:32344 Coq.FSets.FMapList Make key def
+R32350:32351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32347:32349 Coq.FSets.FMapList <> elt:640 var
+R32352:32355 Coq.FSets.FMapList <> elt':641 var
+binder 32340:32340 <> f:644
+R32374:32377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32359:32360 Coq.FSets.FMapList Make In def
+R32365:32368 Coq.FSets.FMapList Make mapi def
+R32372:32372 Coq.FSets.FMapList <> m:642 var
+R32370:32370 Coq.FSets.FMapList <> f:644 var
+R32362:32362 Coq.FSets.FMapList <> x:643 var
+R32378:32379 Coq.FSets.FMapList Make In def
+R32383:32383 Coq.FSets.FMapList <> m:642 var
+R32381:32381 Coq.FSets.FMapList <> x:643 var
+R32421:32430 Coq.FSets.FMapList Make mapi_2 thm
+R32442:32445 Coq.FSets.FMapList Make this proj
+R32421:32430 Coq.FSets.FMapList Make mapi_2 thm
+R32442:32445 Coq.FSets.FMapList Make this proj
+prf 32465:32470 Make map2_1
+binder 32482:32484 <> elt:645
+binder 32486:32489 <> elt':646
+binder 32491:32495 <> elt'':647
+R32506:32506 Coq.FSets.FMapList Make t def
+R32508:32510 Coq.FSets.FMapList <> elt:645 var
+binder 32503:32503 <> m:648
+R32517:32517 Coq.FSets.FMapList Make t def
+R32519:32522 Coq.FSets.FMapList <> elt':646 var
+binder 32513:32514 <> m':649
+R32529:32531 Coq.FSets.FMapList Make key def
+binder 32527:32527 <> x:650
+R32546:32547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32536:32541 Coq.Init.Datatypes <> option ind
+R32543:32545 Coq.FSets.FMapList <> elt:645 var
+R32559:32560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32548:32553 Coq.Init.Datatypes <> option ind
+R32555:32558 Coq.FSets.FMapList <> elt':646 var
+R32561:32566 Coq.Init.Datatypes <> option ind
+R32568:32572 Coq.FSets.FMapList <> elt'':647 var
+binder 32534:32534 <> f:651
+R32594:32605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32583:32586 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32577:32578 Coq.FSets.FMapList Make In def
+R32582:32582 Coq.FSets.FMapList <> m:648 var
+R32580:32580 Coq.FSets.FMapList <> x:650 var
+R32587:32588 Coq.FSets.FMapList Make In def
+R32592:32593 Coq.FSets.FMapList <> m':649 var
+R32590:32590 Coq.FSets.FMapList <> x:650 var
+R32626:32628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32606:32609 Coq.FSets.FMapList Make find def
+R32614:32617 Coq.FSets.FMapList Make map2 def
+R32623:32624 Coq.FSets.FMapList <> m':649 var
+R32621:32621 Coq.FSets.FMapList <> m:648 var
+R32619:32619 Coq.FSets.FMapList <> f:651 var
+R32611:32611 Coq.FSets.FMapList <> x:650 var
+R32629:32629 Coq.FSets.FMapList <> f:651 var
+R32643:32646 Coq.FSets.FMapList Make find def
+R32650:32651 Coq.FSets.FMapList <> m':649 var
+R32648:32648 Coq.FSets.FMapList <> x:650 var
+R32632:32635 Coq.FSets.FMapList Make find def
+R32639:32639 Coq.FSets.FMapList <> m:648 var
+R32637:32637 Coq.FSets.FMapList <> x:650 var
+R32705:32714 Coq.FSets.FMapList Make map2_1 thm
+R32734:32737 Coq.FSets.FMapList Make this proj
+R32743:32748 Coq.FSets.FMapList Make sorted proj
+R32754:32757 Coq.FSets.FMapList Make this proj
+R32764:32769 Coq.FSets.FMapList Make sorted proj
+R32705:32714 Coq.FSets.FMapList Make map2_1 thm
+R32734:32737 Coq.FSets.FMapList Make this proj
+R32743:32748 Coq.FSets.FMapList Make sorted proj
+R32754:32757 Coq.FSets.FMapList Make this proj
+R32764:32769 Coq.FSets.FMapList Make sorted proj
+prf 32792:32797 Make map2_2
+binder 32809:32811 <> elt:652
+binder 32813:32816 <> elt':653
+binder 32818:32822 <> elt'':654
+R32833:32833 Coq.FSets.FMapList Make t def
+R32835:32837 Coq.FSets.FMapList <> elt:652 var
+binder 32830:32830 <> m:655
+R32844:32844 Coq.FSets.FMapList Make t def
+R32846:32849 Coq.FSets.FMapList <> elt':653 var
+binder 32840:32841 <> m':656
+R32856:32858 Coq.FSets.FMapList Make key def
+binder 32854:32854 <> x:657
+R32873:32874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32863:32868 Coq.Init.Datatypes <> option ind
+R32870:32872 Coq.FSets.FMapList <> elt:652 var
+R32886:32887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32875:32880 Coq.Init.Datatypes <> option ind
+R32882:32885 Coq.FSets.FMapList <> elt':653 var
+R32888:32893 Coq.Init.Datatypes <> option ind
+R32895:32899 Coq.FSets.FMapList <> elt'':654 var
+binder 32861:32861 <> f:658
+R32929:32932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32911:32912 Coq.FSets.FMapList Make In def
+R32917:32920 Coq.FSets.FMapList Make map2 def
+R32926:32927 Coq.FSets.FMapList <> m':656 var
+R32924:32924 Coq.FSets.FMapList <> m:655 var
+R32922:32922 Coq.FSets.FMapList <> f:658 var
+R32914:32914 Coq.FSets.FMapList <> x:657 var
+R32939:32942 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32933:32934 Coq.FSets.FMapList Make In def
+R32938:32938 Coq.FSets.FMapList <> m:655 var
+R32936:32936 Coq.FSets.FMapList <> x:657 var
+R32943:32944 Coq.FSets.FMapList Make In def
+R32948:32949 Coq.FSets.FMapList <> m':656 var
+R32946:32946 Coq.FSets.FMapList <> x:657 var
+R33002:33011 Coq.FSets.FMapList Make map2_2 thm
+R33031:33034 Coq.FSets.FMapList Make this proj
+R33040:33045 Coq.FSets.FMapList Make sorted proj
+R33051:33054 Coq.FSets.FMapList Make this proj
+R33061:33066 Coq.FSets.FMapList Make sorted proj
+R33002:33011 Coq.FSets.FMapList Make map2_2 thm
+R33031:33034 Coq.FSets.FMapList Make this proj
+R33040:33045 Coq.FSets.FMapList Make sorted proj
+R33051:33054 Coq.FSets.FMapList Make this proj
+R33061:33066 Coq.FSets.FMapList Make sorted proj
+R33087:33090 Coq.FSets.FMapList Make <> mod
+R33114:33124 Coq.Structures.OrderedType OrderedType <> mod
+R33131:33141 Coq.Structures.OrderedType OrderedType <> mod
+R33147:33150 Coq.FSets.FMapInterface Sord <> mod
+R33172:33172 Coq.FSets.FMapList D <> modtype
+R33204:33204 Coq.FSets.FMapList X <> modtype
+mod 33101:33108 <> Make_ord
+R33223:33223 Coq.FSets.FMapList D <> modtype
+mod 33215:33218 <> Make_ord.Data
+R33241:33244 Coq.FSets.FMapList Make <> modtype
+R33246:33246 Coq.FSets.FMapList X <> modtype
+mod 33233:33236 <> Make_ord.MapS
+R33257:33260 Coq.FSets.FMapList Make_ord.MapS <> mod
+R33277:33292 Coq.Structures.OrderedType OrderedTypeFacts <> modtype
+R33294:33294 Coq.FSets.FMapList D <> modtype
+mod 33271:33272 <> Make_ord.MD
+R33305:33306 Coq.FSets.FMapList Make_ord.MD <> mod
+def 33321:33321 Make_ord t
+R33326:33331 Coq.FSets.FMapList Make_ord t def
+R33333:33335 Coq.FSets.FMapList D t defax
+def 33350:33352 Make_ord cmp
+binder 33354:33354 <> e:659
+binder 33356:33357 <> e':660
+R33368:33376 Coq.FSets.FMapList D compare defax
+R33380:33381 Coq.FSets.FMapList <> e':660 var
+R33378:33378 Coq.FSets.FMapList <> e:659 var
+R33388:33389 Coq.Structures.OrderedType <> EQ constr
+R33396:33399 Coq.Init.Datatypes <> true constr
+R33408:33412 Coq.Init.Datatypes <> false constr
+def 33429:33435 Make_ord eq_list
+R33445:33448 Coq.Init.Datatypes <> list ind
+R33454:33456 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R33451:33453 Coq.FSets.FMapList X t defax
+R33457:33459 Coq.FSets.FMapList D t defax
+binder 33438:33438 <> m:661
+binder 33440:33441 <> m':662
+R33484:33485 Coq.FSets.FMapList <> m':662 var
+R33481:33481 Coq.FSets.FMapList <> m:661 var
+R33497:33499 Coq.Init.Datatypes <> nil constr
+R33502:33504 Coq.Init.Datatypes <> nil constr
+R33509:33512 Coq.Init.Logic <> True ind
+R33524:33525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33519:33519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33521:33521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33523:33523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33536:33537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33529:33529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33532:33532 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33535:33535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33556:33564 Coq.FSets.FMapList X compare defax
+R33585:33586 Coq.Structures.OrderedType <> EQ constr
+R33602:33605 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33593:33596 Coq.FSets.FMapList D eq defax
+R33606:33612 Coq.FSets.FMapList <> eq_list:663 def
+R33639:33643 Coq.Init.Logic <> False ind
+R33668:33672 Coq.Init.Logic <> False ind
+def 33693:33694 Make_ord eq
+binder 33696:33696 <> m:666
+binder 33698:33699 <> m':667
+R33704:33710 Coq.FSets.FMapList Make_ord eq_list def
+R33722:33725 Coq.FSets.FMapList Make_ord this proj
+R33727:33728 Coq.FSets.FMapList <> m':667 var
+R33713:33716 Coq.FSets.FMapList Make_ord this proj
+R33718:33718 Coq.FSets.FMapList <> m:666 var
+def 33742:33748 Make_ord lt_list
+R33758:33761 Coq.Init.Datatypes <> list ind
+R33767:33769 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R33764:33766 Coq.FSets.FMapList X t defax
+R33770:33772 Coq.FSets.FMapList D t defax
+binder 33751:33751 <> m:668
+binder 33753:33754 <> m':669
+R33797:33798 Coq.FSets.FMapList <> m':669 var
+R33794:33794 Coq.FSets.FMapList <> m:668 var
+R33810:33812 Coq.Init.Datatypes <> nil constr
+R33815:33817 Coq.Init.Datatypes <> nil constr
+R33822:33826 Coq.Init.Logic <> False ind
+R33833:33835 Coq.Init.Datatypes <> nil constr
+R33844:33847 Coq.Init.Logic <> True ind
+R33857:33859 Coq.Init.Datatypes <> nil constr
+R33865:33869 Coq.Init.Logic <> False ind
+R33881:33882 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33876:33876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33878:33878 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33880:33880 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33893:33894 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33886:33886 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33889:33889 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33892:33892 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33913:33921 Coq.FSets.FMapList X compare defax
+R33942:33943 Coq.Structures.OrderedType <> LT constr
+R33950:33953 Coq.Init.Logic <> True ind
+R33964:33965 Coq.Structures.OrderedType <> GT constr
+R33972:33976 Coq.Init.Logic <> False ind
+R33987:33988 Coq.Structures.OrderedType <> EQ constr
+R34004:34008 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R34034:34034 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R33995:33998 Coq.FSets.FMapList D lt defax
+R34018:34021 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34009:34012 Coq.FSets.FMapList D eq defax
+R34022:34028 Coq.FSets.FMapList <> lt_list:670 def
+def 34065:34066 Make_ord lt
+binder 34068:34068 <> m:673
+binder 34070:34071 <> m':674
+R34076:34082 Coq.FSets.FMapList Make_ord lt_list def
+R34094:34097 Coq.FSets.FMapList Make_ord this proj
+R34099:34100 Coq.FSets.FMapList <> m':674 var
+R34085:34088 Coq.FSets.FMapList Make_ord this proj
+R34090:34090 Coq.FSets.FMapList <> m:673 var
+prf 34111:34118 Make_ord eq_equal
+binder 34129:34129 <> m:675
+binder 34131:34132 <> m':676
+R34142:34146 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R34135:34136 Coq.FSets.FMapList Make_ord eq def
+R34140:34141 Coq.FSets.FMapList <> m':676 var
+R34138:34138 Coq.FSets.FMapList <> m:675 var
+R34161:34163 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34147:34151 Coq.FSets.FMapList Make_ord equal def
+R34159:34160 Coq.FSets.FMapList <> m':676 var
+R34157:34157 Coq.FSets.FMapList <> m:675 var
+R34153:34155 Coq.FSets.FMapList Make_ord cmp def
+R34164:34167 Coq.Init.Datatypes <> true constr
+R34231:34232 Coq.FSets.FMapList Make_ord eq def
+R34263:34267 Coq.FSets.FMapList Make_ord equal def
+R34313:34314 Coq.FSets.FMapList Make_ord eq def
+R34351:34355 Coq.FSets.FMapList Make_ord equal def
+R34430:34434 Coq.FSets.FMapList Make_ord equal def
+R34455:34463 Coq.FSets.FMapList X compare defax
+R34455:34463 Coq.FSets.FMapList X compare defax
+R34515:34517 Coq.FSets.FMapList Make_ord cmp def
+R34617:34627 Coq.FSets.FMapList Make_ord Build_slist constr
+R34617:34627 Coq.FSets.FMapList Make_ord Build_slist constr
+R34643:34647 Coq.FSets.FMapList Make_ord equal def
+R34650:34651 Coq.FSets.FMapList Make_ord eq def
+R34690:34698 Coq.Init.Datatypes <> andb_prop thm
+R34690:34698 Coq.Init.Datatypes <> andb_prop thm
+R34740:34742 Coq.FSets.FMapList Make_ord cmp def
+R34798:34806 Coq.Init.Datatypes <> andb_prop thm
+R34798:34806 Coq.Init.Datatypes <> andb_prop thm
+R34886:34896 Coq.FSets.FMapList Make_ord Build_slist constr
+R34886:34896 Coq.FSets.FMapList Make_ord Build_slist constr
+R34912:34916 Coq.FSets.FMapList Make_ord equal def
+R34919:34920 Coq.FSets.FMapList Make_ord eq def
+prf 34960:34963 Make_ord eq_1
+binder 34974:34974 <> m:677
+binder 34976:34977 <> m':678
+R34995:34998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34980:34985 Coq.FSets.FMapList Make_ord Equivb def
+R34993:34994 Coq.FSets.FMapList <> m':678 var
+R34991:34991 Coq.FSets.FMapList <> m:677 var
+R34987:34989 Coq.FSets.FMapList Make_ord cmp def
+R34999:35000 Coq.FSets.FMapList Make_ord eq def
+R35004:35005 Coq.FSets.FMapList <> m':678 var
+R35002:35002 Coq.FSets.FMapList <> m:677 var
+R35038:35044 Coq.FSets.FMapList Make_ord equal_1 thm
+R35046:35048 Coq.FSets.FMapList D t defax
+R35055:35057 Coq.FSets.FMapList Make_ord cmp def
+R35038:35044 Coq.FSets.FMapList Make_ord equal_1 thm
+R35046:35048 Coq.FSets.FMapList D t defax
+R35055:35057 Coq.FSets.FMapList Make_ord cmp def
+R35075:35082 Coq.FSets.FMapList Make_ord eq_equal thm
+R35075:35082 Coq.FSets.FMapList Make_ord eq_equal thm
+prf 35115:35118 Make_ord eq_2
+binder 35129:35129 <> m:679
+binder 35131:35132 <> m':680
+R35142:35145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35135:35136 Coq.FSets.FMapList Make_ord eq def
+R35140:35141 Coq.FSets.FMapList <> m':680 var
+R35138:35138 Coq.FSets.FMapList <> m:679 var
+R35146:35151 Coq.FSets.FMapList Make_ord Equivb def
+R35159:35160 Coq.FSets.FMapList <> m':680 var
+R35157:35157 Coq.FSets.FMapList <> m:679 var
+R35153:35155 Coq.FSets.FMapList Make_ord cmp def
+R35193:35199 Coq.FSets.FMapList Make_ord equal_2 thm
+R35201:35203 Coq.FSets.FMapList D t defax
+R35210:35212 Coq.FSets.FMapList Make_ord cmp def
+R35193:35199 Coq.FSets.FMapList Make_ord equal_2 thm
+R35201:35203 Coq.FSets.FMapList D t defax
+R35210:35212 Coq.FSets.FMapList Make_ord cmp def
+R35230:35237 Coq.FSets.FMapList Make_ord eq_equal thm
+R35230:35237 Coq.FSets.FMapList Make_ord eq_equal thm
+prf 35270:35276 Make_ord eq_refl
+R35291:35291 Coq.FSets.FMapList Make_ord t def
+binder 35287:35287 <> m:681
+R35294:35295 Coq.FSets.FMapList Make_ord eq def
+R35299:35299 Coq.FSets.FMapList <> m:681 var
+R35297:35297 Coq.FSets.FMapList <> m:681 var
+R35345:35346 Coq.FSets.FMapList Make_ord eq def
+R35386:35394 Coq.FSets.FMapList X compare defax
+R35386:35394 Coq.FSets.FMapList X compare defax
+R35435:35457 Coq.FSets.FMapList Make_ord lt_antirefl thm
+R35435:35457 Coq.FSets.FMapList Make_ord lt_antirefl thm
+R35486:35494 Coq.FSets.FMapList D eq_refl prfax
+R35486:35494 Coq.FSets.FMapList D eq_refl prfax
+R35542:35564 Coq.FSets.FMapList Make_ord lt_antirefl thm
+R35542:35564 Coq.FSets.FMapList Make_ord lt_antirefl thm
+prf 35590:35595 Make_ord eq_sym
+R35614:35614 Coq.FSets.FMapList Make_ord t def
+binder 35606:35607 <> m1:682
+binder 35609:35610 <> m2:683
+R35625:35628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35617:35618 Coq.FSets.FMapList Make_ord eq def
+R35623:35624 Coq.FSets.FMapList <> m2:683 var
+R35620:35621 Coq.FSets.FMapList <> m1:682 var
+R35629:35630 Coq.FSets.FMapList Make_ord eq def
+R35635:35636 Coq.FSets.FMapList <> m1:682 var
+R35632:35633 Coq.FSets.FMapList <> m2:683 var
+R35714:35715 Coq.FSets.FMapList Make_ord eq def
+R35795:35803 Coq.FSets.FMapList X compare defax
+R35795:35803 Coq.FSets.FMapList X compare defax
+R35922:35932 Coq.FSets.FMapList Make_ord Build_slist constr
+R35922:35932 Coq.FSets.FMapList Make_ord Build_slist constr
+prf 35958:35965 Make_ord eq_trans
+R35987:35987 Coq.FSets.FMapList Make_ord t def
+binder 35976:35977 <> m1:684
+binder 35979:35980 <> m2:685
+binder 35982:35983 <> m3:686
+R35998:36001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35990:35991 Coq.FSets.FMapList Make_ord eq def
+R35996:35997 Coq.FSets.FMapList <> m2:685 var
+R35993:35994 Coq.FSets.FMapList <> m1:684 var
+R36010:36013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36002:36003 Coq.FSets.FMapList Make_ord eq def
+R36008:36009 Coq.FSets.FMapList <> m3:686 var
+R36005:36006 Coq.FSets.FMapList <> m2:685 var
+R36014:36015 Coq.FSets.FMapList Make_ord eq def
+R36020:36021 Coq.FSets.FMapList <> m3:686 var
+R36017:36018 Coq.FSets.FMapList <> m1:684 var
+R36134:36135 Coq.FSets.FMapList Make_ord eq def
+R36266:36274 Coq.FSets.FMapList X compare defax
+R36312:36320 Coq.FSets.FMapList X compare defax
+R36266:36274 Coq.FSets.FMapList X compare defax
+R36312:36320 Coq.FSets.FMapList X compare defax
+R36312:36320 Coq.FSets.FMapList X compare defax
+R36312:36320 Coq.FSets.FMapList X compare defax
+R36395:36404 Coq.FSets.FMapList D eq_trans prfax
+R36395:36404 Coq.FSets.FMapList D eq_trans prfax
+R36502:36512 Coq.FSets.FMapList Make_ord Build_slist constr
+R36519:36529 Coq.FSets.FMapList Make_ord Build_slist constr
+R36502:36512 Coq.FSets.FMapList Make_ord Build_slist constr
+R36519:36529 Coq.FSets.FMapList Make_ord Build_slist constr
+prf 36560:36567 Make_ord lt_trans
+R36589:36589 Coq.FSets.FMapList Make_ord t def
+binder 36578:36579 <> m1:687
+binder 36581:36582 <> m2:688
+binder 36584:36585 <> m3:689
+R36600:36603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36592:36593 Coq.FSets.FMapList Make_ord lt def
+R36598:36599 Coq.FSets.FMapList <> m2:688 var
+R36595:36596 Coq.FSets.FMapList <> m1:687 var
+R36612:36615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36604:36605 Coq.FSets.FMapList Make_ord lt def
+R36610:36611 Coq.FSets.FMapList <> m3:689 var
+R36607:36608 Coq.FSets.FMapList <> m2:688 var
+R36616:36617 Coq.FSets.FMapList Make_ord lt def
+R36622:36623 Coq.FSets.FMapList <> m3:689 var
+R36619:36620 Coq.FSets.FMapList <> m1:687 var
+R36736:36737 Coq.FSets.FMapList Make_ord lt def
+R36868:36876 Coq.FSets.FMapList X compare defax
+R36914:36922 Coq.FSets.FMapList X compare defax
+R36868:36876 Coq.FSets.FMapList X compare defax
+R36914:36922 Coq.FSets.FMapList X compare defax
+R36914:36922 Coq.FSets.FMapList X compare defax
+R36914:36922 Coq.FSets.FMapList X compare defax
+R37003:37012 Coq.FSets.FMapList D lt_trans prfax
+R37003:37012 Coq.FSets.FMapList D lt_trans prfax
+R37042:37046 Coq.FSets.FMapList Make_ord lt_eq thm
+R37042:37046 Coq.FSets.FMapList Make_ord lt_eq thm
+R37076:37080 Coq.FSets.FMapList Make_ord eq_lt thm
+R37076:37080 Coq.FSets.FMapList Make_ord eq_lt thm
+R37120:37129 Coq.FSets.FMapList D eq_trans prfax
+R37120:37129 Coq.FSets.FMapList D eq_trans prfax
+R37227:37237 Coq.FSets.FMapList Make_ord Build_slist constr
+R37244:37254 Coq.FSets.FMapList Make_ord Build_slist constr
+R37227:37237 Coq.FSets.FMapList Make_ord Build_slist constr
+R37244:37254 Coq.FSets.FMapList Make_ord Build_slist constr
+prf 37285:37293 Make_ord lt_not_eq
+R37312:37312 Coq.FSets.FMapList Make_ord t def
+binder 37304:37305 <> m1:690
+binder 37307:37308 <> m2:691
+R37323:37326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37315:37316 Coq.FSets.FMapList Make_ord lt def
+R37321:37322 Coq.FSets.FMapList <> m2:691 var
+R37318:37319 Coq.FSets.FMapList <> m1:690 var
+R37327:37328 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37329:37330 Coq.FSets.FMapList Make_ord eq def
+R37335:37336 Coq.FSets.FMapList <> m2:691 var
+R37332:37333 Coq.FSets.FMapList <> m1:690 var
+R37417:37418 Coq.FSets.FMapList Make_ord eq def
+R37421:37422 Coq.FSets.FMapList Make_ord lt def
+R37522:37530 Coq.FSets.FMapList X compare defax
+R37522:37530 Coq.FSets.FMapList X compare defax
+R37582:37592 Coq.FSets.FMapList D lt_not_eq prfax
+R37582:37592 Coq.FSets.FMapList D lt_not_eq prfax
+R37662:37672 Coq.FSets.FMapList Make_ord Build_slist constr
+R37662:37672 Coq.FSets.FMapList Make_ord Build_slist constr
+R37722:37723 Coq.FSets.FMapList Make_ord eq def
+R37726:37727 Coq.FSets.FMapList Make_ord lt def
+def 37795:37801 Make_ord compare
+binder 37812:37813 <> m1:692
+binder 37815:37816 <> m2:693
+R37819:37825 Coq.Structures.OrderedType <> Compare ind
+R37836:37837 Coq.FSets.FMapList <> m2:693 var
+R37833:37834 Coq.FSets.FMapList <> m1:692 var
+R37830:37831 Coq.FSets.FMapList Make_ord eq def
+R37827:37828 Coq.FSets.FMapList Make_ord lt def
+R37921:37922 Coq.Structures.OrderedType <> EQ constr
+R37932:37933 Coq.Structures.OrderedType <> LT constr
+R37943:37944 Coq.Structures.OrderedType <> GT constr
+R37921:37922 Coq.Structures.OrderedType <> EQ constr
+R37932:37933 Coq.Structures.OrderedType <> LT constr
+R37943:37944 Coq.Structures.OrderedType <> GT constr
+R38018:38026 Coq.FSets.FMapList X compare defax
+R38045:38046 Coq.Structures.OrderedType <> LT constr
+R38058:38059 Coq.Structures.OrderedType <> GT constr
+R38018:38026 Coq.FSets.FMapList X compare defax
+R38045:38046 Coq.Structures.OrderedType <> LT constr
+R38058:38059 Coq.Structures.OrderedType <> GT constr
+R38086:38094 Coq.FSets.FMapList D compare defax
+R38113:38114 Coq.Structures.OrderedType <> LT constr
+R38126:38127 Coq.Structures.OrderedType <> GT constr
+R38086:38094 Coq.FSets.FMapList D compare defax
+R38113:38114 Coq.Structures.OrderedType <> LT constr
+R38126:38127 Coq.Structures.OrderedType <> GT constr
+R38159:38162 Coq.Sorting.Sorted <> sort abbrev
+R38165:38174 Coq.FSets.FMapList Make_ord ltk def
+R38182:38184 Coq.FSets.FMapList D t defax
+R38159:38162 Coq.Sorting.Sorted <> sort abbrev
+R38165:38174 Coq.FSets.FMapList Make_ord ltk def
+R38182:38184 Coq.FSets.FMapList D t defax
+R38238:38241 Coq.Sorting.Sorted <> sort abbrev
+R38244:38253 Coq.FSets.FMapList Make_ord ltk def
+R38261:38263 Coq.FSets.FMapList D t defax
+R38238:38241 Coq.Sorting.Sorted <> sort abbrev
+R38244:38253 Coq.FSets.FMapList Make_ord ltk def
+R38261:38263 Coq.FSets.FMapList D t defax
+R38323:38333 Coq.FSets.FMapList Make_ord Build_slist constr
+R38353:38354 Coq.Structures.OrderedType <> LT constr
+R38364:38365 Coq.Structures.OrderedType <> EQ constr
+R38375:38376 Coq.Structures.OrderedType <> GT constr
+R38323:38333 Coq.FSets.FMapList Make_ord Build_slist constr
+R38353:38354 Coq.Structures.OrderedType <> LT constr
+R38364:38365 Coq.Structures.OrderedType <> EQ constr
+R38375:38376 Coq.Structures.OrderedType <> GT constr
+R38402:38409 Coq.FSets.FMapList Make_ord <> mod

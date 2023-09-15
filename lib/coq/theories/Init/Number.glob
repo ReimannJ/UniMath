@@ -1,0 +1,46 @@
+DIGEST c45d1e182716d37d991480cd79b939d1
+FCoq.Init.Number
+R732:738 Coq.Init.Decimal <> <> lib
+R740:750 Coq.Init.Hexadecimal <> <> lib
+ind 762:765 <> uint
+constr 770:780 <> UIntDecimal
+constr 801:815 <> UIntHexadecimal
+R785:796 Coq.Init.Decimal <> uint ind
+binder 783:783 <> u:3
+R820:835 Coq.Init.Hexadecimal <> uint ind
+binder 818:818 <> u:4
+ind 848:857 <> signed_int
+constr 862:871 <> IntDecimal
+constr 891:904 <> IntHexadecimal
+R876:886 Coq.Init.Decimal <> int abbrev
+binder 874:874 <> i:7
+R909:923 Coq.Init.Hexadecimal <> int abbrev
+binder 907:907 <> i:8
+abbrev 936:938 <> int
+R943:952 Coq.Init.Number <> signed_int variant
+ind 964:969 <> number
+constr 974:980 <> Decimal
+constr 1004:1014 <> Hexadecimal
+R985:999 Coq.Init.Decimal <> decimal variant
+binder 983:983 <> d:11
+R1019:1041 Coq.Init.Hexadecimal <> hexadecimal variant
+binder 1017:1017 <> h:12
+R1066:1069 Coq.Init.Number <> uint variant
+R1092:1094 Coq.Init.Number <> signed_int variant
+R1117:1122 Coq.Init.Number <> number variant
+abbrev 1134:1143 <> int_eq_dec
+R1148:1164 Coq.Init.Number <> signed_int_eq_dec scheme
+abbrev 1176:1182 <> int_beq
+R1187:1200 Coq.Init.Number <> signed_int_beq scheme
+abbrev 1212:1230 <> internal_int_dec_lb
+R1235:1260 Coq.Init.Decimal <> internal_signed_int_dec_lb scheme
+abbrev 1272:1290 <> internal_int_dec_bl
+R1295:1320 Coq.Init.Decimal <> internal_signed_int_dec_bl scheme
+def 1540:1551 <> uint_of_uint
+R1556:1559 Coq.Init.Number <> uint variant
+binder 1554:1554 <> i:13
+R1565:1565 Coq.Init.Number <> i:13 var
+def 1579:1588 <> int_of_int
+R1593:1595 Coq.Init.Number <> int abbrev
+binder 1591:1591 <> i:14
+R1601:1601 Coq.Init.Number <> i:14 var

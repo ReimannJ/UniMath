@@ -1,0 +1,369 @@
+DIGEST 4c3a2b07d856ca0300b513d34be05a4e
+FCoq.Lists.StreamMemo
+R691:699 Coq.Logic.Eqdep_dec <> <> lib
+R717:723 Coq.Lists.Streams <> <> lib
+sec 878:889 <> MemoFunction
+var 902:902 MemoFunction A
+var 920:920 MemoFunction f
+R926:929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R923:925 Coq.Init.Datatypes <> nat ind
+R930:930 Coq.Lists.StreamMemo <> MemoFunction.A var
+def 945:953 <> memo_make
+R958:960 Coq.Init.Datatypes <> nat ind
+binder 956:956 <> n:3
+R965:970 Coq.Lists.Streams <> Stream coind
+R972:972 Coq.Lists.StreamMemo <> MemoFunction.A var
+R977:980 Coq.Lists.Streams <> Cons constr
+R989:997 Coq.Lists.StreamMemo <> memo_make:4 def
+R1000:1000 Coq.Init.Datatypes <> S constr
+R1002:1002 Coq.Lists.StreamMemo <> n:3 var
+R983:983 Coq.Lists.StreamMemo <> MemoFunction.f var
+R985:985 Coq.Lists.StreamMemo <> n:3 var
+def 1019:1027 <> memo_list
+R1032:1040 Coq.Lists.StreamMemo <> memo_make def
+def 1055:1062 <> memo_get
+R1067:1069 Coq.Init.Datatypes <> nat ind
+binder 1065:1065 <> n:5
+R1075:1080 Coq.Lists.Streams <> Stream coind
+R1082:1082 Coq.Lists.StreamMemo <> MemoFunction.A var
+binder 1073:1073 <> l:6
+R1087:1087 Coq.Lists.StreamMemo <> MemoFunction.A var
+R1100:1100 Coq.Lists.StreamMemo <> n:5 var
+R1113:1113 Coq.Init.Datatypes <> O constr
+R1118:1119 Coq.Lists.Streams <> hd def
+R1121:1121 Coq.Lists.StreamMemo <> l:6 var
+R1129:1129 Coq.Init.Datatypes <> S constr
+R1137:1144 Coq.Lists.StreamMemo <> memo_get:7 def
+R1150:1151 Coq.Lists.Streams <> tl def
+R1153:1153 Coq.Lists.StreamMemo <> l:6 var
+prf 1172:1187 <> memo_get_correct
+binder 1197:1197 <> n:9
+R1220:1222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1200:1207 Coq.Lists.StreamMemo <> memo_get def
+R1209:1209 Coq.Lists.StreamMemo <> n:9 var
+R1211:1219 Coq.Lists.StreamMemo <> memo_list def
+R1223:1223 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1225:1225 Coq.Lists.StreamMemo <> n:9 var
+binder 1254:1254 <> n:10
+binder 1256:1256 <> m:11
+R1283:1285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1259:1266 Coq.Lists.StreamMemo <> memo_get def
+R1268:1268 Coq.Lists.StreamMemo <> n:10 var
+R1271:1279 Coq.Lists.StreamMemo <> memo_make def
+R1281:1281 Coq.Lists.StreamMemo <> m:11 var
+R1286:1286 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1290:1292 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1289:1289 Coq.Lists.StreamMemo <> n:10 var
+R1293:1293 Coq.Lists.StreamMemo <> m:11 var
+binder 1254:1254 <> n:12
+binder 1256:1256 <> m:13
+R1283:1285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1259:1266 Coq.Lists.StreamMemo <> memo_get def
+R1268:1268 Coq.Lists.StreamMemo <> n:12 var
+R1271:1279 Coq.Lists.StreamMemo <> memo_make def
+R1281:1281 Coq.Lists.StreamMemo <> m:13 var
+R1286:1286 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1290:1292 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1289:1289 Coq.Lists.StreamMemo <> n:12 var
+R1293:1293 Coq.Lists.StreamMemo <> m:13 var
+R1399:1407 Coq.Init.Peano <> plus_n_Sm thm
+R1399:1407 Coq.Init.Peano <> plus_n_Sm thm
+R1399:1407 Coq.Init.Peano <> plus_n_Sm thm
+R1442:1442 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1446:1448 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1442:1442 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1446:1448 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1485:1492 Coq.Init.Peano <> plus_n_O thm
+R1485:1492 Coq.Init.Peano <> plus_n_O thm
+R1485:1492 Coq.Init.Peano <> plus_n_O thm
+var 1673:1673 MemoFunction g
+R1677:1680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1676:1676 Coq.Lists.StreamMemo <> MemoFunction.A var
+R1681:1681 Coq.Lists.StreamMemo <> MemoFunction.A var
+var 1696:1705 MemoFunction Hg_correct
+binder 1715:1715 <> n:15
+R1725:1727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1718:1718 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1721:1721 Coq.Init.Datatypes <> S constr
+R1723:1723 Coq.Lists.StreamMemo <> n:15 var
+R1728:1728 Coq.Lists.StreamMemo <> MemoFunction.g var
+R1731:1731 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1733:1733 Coq.Lists.StreamMemo <> n:15 var
+def 1749:1758 <> imemo_make
+R1764:1764 Coq.Lists.StreamMemo <> MemoFunction.A var
+binder 1761:1762 <> fn:17
+R1769:1774 Coq.Lists.Streams <> Stream coind
+R1776:1776 Coq.Lists.StreamMemo <> MemoFunction.A var
+R1794:1794 Coq.Lists.StreamMemo <> MemoFunction.g var
+R1796:1797 Coq.Lists.StreamMemo <> fn:17 var
+binder 1787:1789 <> fn1:19
+R1804:1807 Coq.Lists.Streams <> Cons constr
+R1814:1823 Coq.Lists.StreamMemo <> imemo_make:18 def
+R1825:1827 Coq.Lists.StreamMemo <> fn1:19 var
+R1809:1811 Coq.Lists.StreamMemo <> fn1:19 var
+def 1843:1852 <> imemo_list
+R1867:1867 Coq.Lists.StreamMemo <> MemoFunction.f var
+binder 1861:1862 <> f0:20
+R1876:1879 Coq.Lists.Streams <> Cons constr
+R1885:1894 Coq.Lists.StreamMemo <> imemo_make def
+R1896:1897 Coq.Lists.StreamMemo <> f0:20 var
+R1881:1882 Coq.Lists.StreamMemo <> f0:20 var
+prf 1910:1926 <> imemo_get_correct
+binder 1936:1936 <> n:21
+R1960:1962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1939:1946 Coq.Lists.StreamMemo <> memo_get def
+R1948:1948 Coq.Lists.StreamMemo <> n:21 var
+R1950:1959 Coq.Lists.StreamMemo <> imemo_list def
+R1963:1963 Coq.Lists.StreamMemo <> MemoFunction.f var
+R1965:1965 Coq.Lists.StreamMemo <> n:21 var
+binder 1994:1994 <> n:22
+binder 1996:1996 <> m:23
+R2028:2030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1999:2006 Coq.Lists.StreamMemo <> memo_get def
+R2008:2008 Coq.Lists.StreamMemo <> n:22 var
+R2011:2020 Coq.Lists.StreamMemo <> imemo_make def
+R2023:2023 Coq.Lists.StreamMemo <> MemoFunction.f var
+R2025:2025 Coq.Lists.StreamMemo <> m:23 var
+R2031:2031 Coq.Lists.StreamMemo <> MemoFunction.f var
+R2034:2034 Coq.Init.Datatypes <> S constr
+R2038:2040 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2037:2037 Coq.Lists.StreamMemo <> n:22 var
+R2041:2041 Coq.Lists.StreamMemo <> m:23 var
+binder 1994:1994 <> n:24
+binder 1996:1996 <> m:25
+R2028:2030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1999:2006 Coq.Lists.StreamMemo <> memo_get def
+R2008:2008 Coq.Lists.StreamMemo <> n:24 var
+R2011:2020 Coq.Lists.StreamMemo <> imemo_make def
+R2023:2023 Coq.Lists.StreamMemo <> MemoFunction.f var
+R2025:2025 Coq.Lists.StreamMemo <> m:25 var
+R2031:2031 Coq.Lists.StreamMemo <> MemoFunction.f var
+R2034:2034 Coq.Init.Datatypes <> S constr
+R2038:2040 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2037:2037 Coq.Lists.StreamMemo <> n:24 var
+R2041:2041 Coq.Lists.StreamMemo <> m:25 var
+R2098:2103 Coq.Init.Logic <> eq_sym thm
+R2106:2115 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2098:2103 Coq.Init.Logic <> eq_sym thm
+R2106:2115 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2098:2103 Coq.Init.Logic <> eq_sym thm
+R2106:2115 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2153:2162 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2174:2182 Coq.Init.Peano <> plus_n_Sm thm
+R2153:2162 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2153:2162 Coq.Lists.StreamMemo <> MemoFunction.Hg_correct var
+R2174:2182 Coq.Init.Peano <> plus_n_Sm thm
+R2174:2182 Coq.Init.Peano <> plus_n_Sm thm
+R2238:2247 Coq.Lists.StreamMemo <> imemo_list def
+R2280:2287 Coq.Init.Peano <> plus_n_O thm
+R2280:2287 Coq.Init.Peano <> plus_n_O thm
+R2280:2287 Coq.Init.Peano <> plus_n_O thm
+R2306:2317 Coq.Lists.StreamMemo MemoFunction <> sec
+ind 2504:2511 <> memo_val
+constr 2543:2551 <> memo_mval
+R2521:2524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2518:2520 Coq.Init.Datatypes <> nat ind
+binder 2514:2514 <> A:26
+binder 2561:2561 <> n:29
+R2567:2570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2564:2564 Coq.Lists.StreamMemo <> A:26 var
+R2566:2566 Coq.Lists.StreamMemo <> n:29 var
+R2571:2578 Coq.Lists.StreamMemo <> memo_val:27 ind
+R2591:2598 Coq.Lists.StreamMemo <> memo_val ind
+R2591:2598 Coq.Lists.StreamMemo <> memo_val ind
+sec 2628:2648 <> DependentMemoFunction
+var 2661:2661 DependentMemoFunction A
+R2667:2670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2664:2666 Coq.Init.Datatypes <> nat ind
+var 2686:2686 DependentMemoFunction f
+binder 2696:2696 <> n:31
+R2699:2699 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R2701:2701 Coq.Lists.StreamMemo <> n:31 var
+abbrev 2714:2721 <> memo_val
+R2727:2734 Coq.Lists.StreamMemo <> memo_val ind
+R2736:2736 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+def 2750:2754 <> is_eq
+R2763:2765 Coq.Init.Datatypes <> nat ind
+binder 2757:2757 <> n:33
+binder 2759:2759 <> m:34
+R2770:2770 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2776:2780 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2785:2785 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2772:2774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2771:2771 Coq.Lists.StreamMemo <> n:33 var
+R2775:2775 Coq.Lists.StreamMemo <> m:34 var
+R2781:2784 Coq.Init.Logic <> True ind
+R2801:2801 Coq.Lists.StreamMemo <> m:34 var
+R2798:2798 Coq.Lists.StreamMemo <> n:33 var
+R2810:2810 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2816:2820 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2825:2825 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2812:2814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2811:2811 Coq.Lists.StreamMemo <> n:37 var
+R2815:2815 Coq.Lists.StreamMemo <> m:36 var
+R2821:2824 Coq.Init.Logic <> True ind
+R2843:2846 Coq.Init.Specif <> left constr
+R2854:2860 Coq.Init.Logic <> eq_refl constr
+R2848:2851 Coq.Init.Logic <> True ind
+R2872:2872 Coq.Init.Datatypes <> S constr
+R2880:2884 Coq.Init.Specif <> right constr
+R2897:2897 Coq.Init.Logic <> I constr
+R2888:2890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2891:2891 Coq.Init.Datatypes <> S constr
+R2903:2903 Coq.Init.Datatypes <> S constr
+R2914:2918 Coq.Init.Specif <> right constr
+R2931:2931 Coq.Init.Logic <> I constr
+R2925:2927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2921:2921 Coq.Init.Datatypes <> S constr
+R2937:2937 Coq.Init.Datatypes <> S constr
+R2943:2943 Coq.Init.Datatypes <> S constr
+R2962:2966 Coq.Lists.StreamMemo <> is_eq:35 def
+R2986:2989 Coq.Init.Specif <> left constr
+R2996:2999 Coq.Init.Specif <> left constr
+R3007:3013 Coq.Init.Logic <> f_equal thm
+R3015:3015 Coq.Init.Datatypes <> S constr
+R3001:3004 Coq.Init.Logic <> True ind
+R3027:3031 Coq.Init.Specif <> right constr
+R3038:3042 Coq.Init.Specif <> right constr
+R3058:3058 Coq.Init.Logic <> I constr
+R3049:3051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3045:3045 Coq.Init.Datatypes <> S constr
+R3052:3052 Coq.Init.Datatypes <> S constr
+def 3088:3099 <> memo_get_val
+binder 3101:3101 <> n:38
+R3107:3114 Coq.Lists.StreamMemo <> memo_val abbrev
+binder 3104:3104 <> v:39
+R3118:3118 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R3120:3120 Coq.Lists.StreamMemo <> n:38 var
+R3131:3131 Coq.Lists.StreamMemo <> v:39 var
+R3140:3148 Coq.Lists.StreamMemo <> memo_mval constr
+R3167:3171 Coq.Lists.StreamMemo <> is_eq def
+R3173:3173 Coq.Lists.StreamMemo <> n:38 var
+R3188:3191 Coq.Init.Specif <> left constr
+R3217:3218 Coq.Init.Logic <> eq ind
+R3236:3239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3233:3233 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R3235:3235 Coq.Lists.StreamMemo <> y:42 var
+R3240:3240 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R3242:3242 Coq.Lists.StreamMemo <> n:38 var
+R3260:3266 Coq.Init.Logic <> eq_refl constr
+R3280:3280 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R3282:3282 Coq.Lists.StreamMemo <> n:38 var
+binder 3275:3276 <> v1:43
+R3287:3288 Coq.Lists.StreamMemo <> v1:43 var
+R3307:3311 Coq.Init.Specif <> right constr
+R3326:3326 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R3333:3333 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R3335:3335 Coq.Lists.StreamMemo <> n:38 var
+var 3357:3358 DependentMemoFunction mf
+binder 3360:3360 <> n:44
+R3366:3374 Coq.Lists.StreamMemo <> memo_mval constr
+R3379:3379 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R3381:3381 Coq.Lists.StreamMemo <> n:44 var
+R3376:3376 Coq.Lists.StreamMemo <> n:44 var
+def 3397:3406 <> dmemo_list
+R3411:3419 Coq.Lists.StreamMemo <> memo_list def
+R3423:3424 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+def 3439:3447 <> dmemo_get
+binder 3449:3449 <> n:45
+binder 3451:3451 <> l:46
+R3456:3467 Coq.Lists.StreamMemo <> memo_get_val def
+R3469:3469 Coq.Lists.StreamMemo <> n:45 var
+R3472:3479 Coq.Lists.StreamMemo <> memo_get def
+R3483:3483 Coq.Lists.StreamMemo <> n:45 var
+R3485:3485 Coq.Lists.StreamMemo <> l:46 var
+prf 3498:3514 <> dmemo_get_correct
+binder 3524:3524 <> n:47
+R3549:3551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3527:3535 Coq.Lists.StreamMemo <> dmemo_get def
+R3537:3537 Coq.Lists.StreamMemo <> n:47 var
+R3539:3548 Coq.Lists.StreamMemo <> dmemo_list def
+R3552:3552 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R3554:3554 Coq.Lists.StreamMemo <> n:47 var
+R3581:3589 Coq.Lists.StreamMemo <> dmemo_get def
+R3592:3601 Coq.Lists.StreamMemo <> dmemo_list def
+R3613:3628 Coq.Lists.StreamMemo <> memo_get_correct thm
+R3639:3640 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R3630:3637 Coq.Lists.StreamMemo <> memo_val abbrev
+R3613:3628 Coq.Lists.StreamMemo <> memo_get_correct thm
+R3639:3640 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R3630:3637 Coq.Lists.StreamMemo <> memo_val abbrev
+R3613:3628 Coq.Lists.StreamMemo <> memo_get_correct thm
+R3639:3640 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R3630:3637 Coq.Lists.StreamMemo <> memo_val abbrev
+R3659:3663 Coq.Lists.StreamMemo <> is_eq def
+R3659:3663 Coq.Lists.StreamMemo <> is_eq def
+R3703:3705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3706:3712 Coq.Init.Logic <> eq_refl constr
+R3703:3705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3706:3712 Coq.Init.Logic <> eq_refl constr
+R3726:3742 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R3726:3742 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+var 4109:4109 DependentMemoFunction g
+binder 4119:4119 <> n:48
+R4125:4128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4122:4122 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R4124:4124 Coq.Lists.StreamMemo <> n:48 var
+R4129:4129 Coq.Lists.StreamMemo <> DependentMemoFunction.A var
+R4132:4132 Coq.Init.Datatypes <> S constr
+R4134:4134 Coq.Lists.StreamMemo <> n:48 var
+var 4150:4159 DependentMemoFunction Hg_correct
+binder 4169:4169 <> n:50
+R4179:4181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4172:4172 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R4175:4175 Coq.Init.Datatypes <> S constr
+R4177:4177 Coq.Lists.StreamMemo <> n:50 var
+R4182:4182 Coq.Lists.StreamMemo <> DependentMemoFunction.g var
+R4184:4184 Coq.Lists.StreamMemo <> n:50 var
+R4187:4187 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R4189:4189 Coq.Lists.StreamMemo <> n:50 var
+var 4198:4199 DependentMemoFunction mg
+binder 4201:4201 <> v:52
+R4213:4213 Coq.Lists.StreamMemo <> v:52 var
+R4233:4241 Coq.Lists.StreamMemo <> memo_mval constr
+R4252:4260 Coq.Lists.StreamMemo <> memo_mval constr
+R4270:4270 Coq.Lists.StreamMemo <> DependentMemoFunction.g var
+R4263:4263 Coq.Init.Datatypes <> S constr
+def 4296:4306 <> dimemo_list
+R4311:4320 Coq.Lists.StreamMemo <> imemo_list def
+R4327:4328 Coq.Lists.StreamMemo <> DependentMemoFunction.mg var
+R4324:4325 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+prf 4340:4357 <> dimemo_get_correct
+binder 4367:4367 <> n:54
+R4393:4395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4370:4378 Coq.Lists.StreamMemo <> dmemo_get def
+R4380:4380 Coq.Lists.StreamMemo <> n:54 var
+R4382:4392 Coq.Lists.StreamMemo <> dimemo_list def
+R4396:4396 Coq.Lists.StreamMemo <> DependentMemoFunction.f var
+R4398:4398 Coq.Lists.StreamMemo <> n:54 var
+R4425:4433 Coq.Lists.StreamMemo <> dmemo_get def
+R4436:4446 Coq.Lists.StreamMemo <> dimemo_list def
+R4458:4474 Coq.Lists.StreamMemo <> imemo_get_correct thm
+R4488:4489 Coq.Lists.StreamMemo <> DependentMemoFunction.mg var
+R4485:4486 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R4476:4483 Coq.Lists.StreamMemo <> memo_val abbrev
+R4458:4474 Coq.Lists.StreamMemo <> imemo_get_correct thm
+R4488:4489 Coq.Lists.StreamMemo <> DependentMemoFunction.mg var
+R4485:4486 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R4476:4483 Coq.Lists.StreamMemo <> memo_val abbrev
+R4458:4474 Coq.Lists.StreamMemo <> imemo_get_correct thm
+R4488:4489 Coq.Lists.StreamMemo <> DependentMemoFunction.mg var
+R4485:4486 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R4476:4483 Coq.Lists.StreamMemo <> memo_val abbrev
+R4458:4474 Coq.Lists.StreamMemo <> imemo_get_correct thm
+R4488:4489 Coq.Lists.StreamMemo <> DependentMemoFunction.mg var
+R4485:4486 Coq.Lists.StreamMemo <> DependentMemoFunction.mf var
+R4476:4483 Coq.Lists.StreamMemo <> memo_val abbrev
+R4508:4512 Coq.Lists.StreamMemo <> is_eq def
+R4508:4512 Coq.Lists.StreamMemo <> is_eq def
+R4554:4556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4557:4563 Coq.Init.Logic <> eq_refl constr
+R4554:4556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4557:4563 Coq.Init.Logic <> eq_refl constr
+R4579:4595 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R4579:4595 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R4927:4928 Coq.Lists.StreamMemo <> mf vardef
+R4939:4948 Coq.Lists.StreamMemo <> DependentMemoFunction.Hg_correct var
+R4939:4948 Coq.Lists.StreamMemo <> DependentMemoFunction.Hg_correct var
+R4939:4948 Coq.Lists.StreamMemo <> DependentMemoFunction.Hg_correct var
+R4967:4987 Coq.Lists.StreamMemo DependentMemoFunction <> sec

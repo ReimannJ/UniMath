@@ -1,0 +1,894 @@
+DIGEST 85240d789a629c4a194eeef8567ed24c
+FCoq.Sorting.Heap
+R968:971 Coq.Lists.List <> <> lib
+R973:980 Coq.Sets.Multiset <> <> lib
+R982:993 Coq.Sorting.PermutSetoid <> <> lib
+R995:1003 Coq.Relations.Relations <> <> lib
+R1005:1011 Coq.Sorting.Sorting <> <> lib
+sec 1023:1026 <> defs
+var 1127:1127 defs A
+var 1148:1150 defs leA
+R1154:1161 Coq.Relations.Relation_Definitions <> relation def
+R1163:1163 Coq.Sorting.Heap <> defs.A var
+var 1177:1179 defs eqA
+R1183:1190 Coq.Relations.Relation_Definitions <> relation def
+R1192:1192 Coq.Sorting.Heap <> defs.A var
+var 1202:1204 defs gtA
+R1211:1211 Coq.Sorting.Heap <> defs.A var
+binder 1207:1207 <> x:4
+binder 1209:1209 <> y:5
+R1217:1218 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1219:1221 Coq.Sorting.Heap <> defs.leA var
+R1223:1223 Coq.Sorting.Heap <> x:4 var
+R1225:1225 Coq.Sorting.Heap <> y:5 var
+var 1242:1248 defs leA_dec
+R1263:1263 Coq.Sorting.Heap <> defs.A var
+binder 1259:1259 <> x:6
+binder 1261:1261 <> y:7
+R1266:1266 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1274:1278 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1286:1286 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1267:1269 Coq.Sorting.Heap <> defs.leA var
+R1271:1271 Coq.Sorting.Heap <> x:6 var
+R1273:1273 Coq.Sorting.Heap <> y:7 var
+R1279:1281 Coq.Sorting.Heap <> defs.leA var
+R1283:1283 Coq.Sorting.Heap <> y:7 var
+R1285:1285 Coq.Sorting.Heap <> x:6 var
+var 1302:1308 defs eqA_dec
+R1323:1323 Coq.Sorting.Heap <> defs.A var
+binder 1319:1319 <> x:9
+binder 1321:1321 <> y:10
+R1326:1326 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1334:1338 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1348:1348 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1327:1329 Coq.Sorting.Heap <> defs.eqA var
+R1331:1331 Coq.Sorting.Heap <> x:9 var
+R1333:1333 Coq.Sorting.Heap <> y:10 var
+R1339:1340 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1341:1343 Coq.Sorting.Heap <> defs.eqA var
+R1345:1345 Coq.Sorting.Heap <> x:9 var
+R1347:1347 Coq.Sorting.Heap <> y:10 var
+var 1364:1371 defs leA_refl
+R1386:1386 Coq.Sorting.Heap <> defs.A var
+binder 1382:1382 <> x:12
+binder 1384:1384 <> y:13
+R1396:1399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1389:1391 Coq.Sorting.Heap <> defs.eqA var
+R1393:1393 Coq.Sorting.Heap <> x:12 var
+R1395:1395 Coq.Sorting.Heap <> y:13 var
+R1400:1402 Coq.Sorting.Heap <> defs.leA var
+R1404:1404 Coq.Sorting.Heap <> x:12 var
+R1406:1406 Coq.Sorting.Heap <> y:13 var
+var 1422:1430 defs leA_trans
+R1447:1447 Coq.Sorting.Heap <> defs.A var
+binder 1441:1441 <> x:15
+binder 1443:1443 <> y:16
+binder 1445:1445 <> z:17
+R1457:1460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1450:1452 Coq.Sorting.Heap <> defs.leA var
+R1454:1454 Coq.Sorting.Heap <> x:15 var
+R1456:1456 Coq.Sorting.Heap <> y:16 var
+R1468:1471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1461:1463 Coq.Sorting.Heap <> defs.leA var
+R1465:1465 Coq.Sorting.Heap <> y:16 var
+R1467:1467 Coq.Sorting.Heap <> z:17 var
+R1472:1474 Coq.Sorting.Heap <> defs.leA var
+R1476:1476 Coq.Sorting.Heap <> x:15 var
+R1478:1478 Coq.Sorting.Heap <> z:17 var
+var 1494:1504 defs leA_antisym
+R1519:1519 Coq.Sorting.Heap <> defs.A var
+binder 1515:1515 <> x:19
+binder 1517:1517 <> y:20
+R1529:1532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1522:1524 Coq.Sorting.Heap <> defs.leA var
+R1526:1526 Coq.Sorting.Heap <> x:19 var
+R1528:1528 Coq.Sorting.Heap <> y:20 var
+R1540:1543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1533:1535 Coq.Sorting.Heap <> defs.leA var
+R1537:1537 Coq.Sorting.Heap <> y:20 var
+R1539:1539 Coq.Sorting.Heap <> x:19 var
+R1544:1546 Coq.Sorting.Heap <> defs.eqA var
+R1548:1548 Coq.Sorting.Heap <> x:19 var
+R1550:1550 Coq.Sorting.Heap <> y:20 var
+var 1668:1675 defs emptyBag
+R1680:1687 Coq.Sets.Multiset <> EmptyBag def
+R1689:1689 Coq.Sorting.Heap <> defs.A var
+var 1698:1709 defs singletonBag
+R1714:1725 Coq.Sets.Multiset <> SingletonBag def
+R1729:1735 Coq.Sorting.Heap <> defs.eqA_dec var
+ind 1751:1754 <> Tree
+constr 1765:1773 <> Tree_Leaf
+constr 1788:1796 <> Tree_Node
+R1777:1780 Coq.Sorting.Heap <> Tree:22 ind
+R1801:1804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1800:1800 Coq.Sorting.Heap <> defs.A var
+R1809:1812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1805:1808 Coq.Sorting.Heap <> Tree:22 ind
+R1817:1820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1813:1816 Coq.Sorting.Heap <> Tree:22 ind
+R1821:1824 Coq.Sorting.Heap <> Tree:22 ind
+def 1934:1941 <> leA_Tree
+R1946:1946 Coq.Sorting.Heap <> defs.A var
+binder 1944:1944 <> a:24
+R1952:1955 Coq.Sorting.Heap <> Tree ind
+binder 1950:1950 <> t:25
+R1971:1971 Coq.Sorting.Heap <> t:25 var
+R1986:1994 Coq.Sorting.Heap <> Tree_Leaf constr
+R1999:2002 Coq.Init.Logic <> True ind
+R2012:2020 Coq.Sorting.Heap <> Tree_Node constr
+R2033:2035 Coq.Sorting.Heap <> defs.leA var
+R2037:2037 Coq.Sorting.Heap <> a:24 var
+prf 2059:2071 <> leA_Tree_Leaf
+R2084:2084 Coq.Sorting.Heap <> defs.A var
+binder 2082:2082 <> a:27
+R2087:2094 Coq.Sorting.Heap <> leA_Tree def
+R2096:2096 Coq.Sorting.Heap <> a:27 var
+R2098:2106 Coq.Sorting.Heap <> Tree_Leaf constr
+prf 2166:2178 <> leA_Tree_Node
+R2198:2198 Coq.Sorting.Heap <> defs.A var
+binder 2194:2194 <> a:28
+binder 2196:2196 <> b:29
+R2206:2209 Coq.Sorting.Heap <> Tree ind
+binder 2202:2202 <> G:30
+binder 2204:2204 <> D:31
+R2220:2223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2215 Coq.Sorting.Heap <> defs.leA var
+R2217:2217 Coq.Sorting.Heap <> a:28 var
+R2219:2219 Coq.Sorting.Heap <> b:29 var
+R2224:2231 Coq.Sorting.Heap <> leA_Tree def
+R2233:2233 Coq.Sorting.Heap <> a:28 var
+R2236:2244 Coq.Sorting.Heap <> Tree_Node constr
+R2246:2246 Coq.Sorting.Heap <> b:29 var
+R2248:2248 Coq.Sorting.Heap <> G:30 var
+R2250:2250 Coq.Sorting.Heap <> D:31 var
+ind 2347:2353 <> is_heap
+constr 2379:2389 <> nil_is_heap
+constr 2417:2428 <> node_is_heap
+R2361:2364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2357:2360 Coq.Sorting.Heap <> Tree ind
+R2393:2399 Coq.Sorting.Heap <> is_heap:32 ind
+R2401:2409 Coq.Sorting.Heap <> Tree_Leaf constr
+R2448:2448 Coq.Sorting.Heap <> defs.A var
+binder 2446:2446 <> a:34
+R2458:2461 Coq.Sorting.Heap <> Tree ind
+binder 2452:2453 <> T1:35
+binder 2455:2456 <> T2:36
+R2486:2497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2473:2480 Coq.Sorting.Heap <> leA_Tree def
+R2482:2482 Coq.Sorting.Heap <> a:34 var
+R2484:2485 Coq.Sorting.Heap <> T1:35 var
+R2511:2522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2498:2505 Coq.Sorting.Heap <> leA_Tree def
+R2507:2507 Coq.Sorting.Heap <> a:34 var
+R2509:2510 Coq.Sorting.Heap <> T2:36 var
+R2533:2536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2523:2529 Coq.Sorting.Heap <> is_heap:32 ind
+R2531:2532 Coq.Sorting.Heap <> T1:35 var
+R2547:2550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2537:2543 Coq.Sorting.Heap <> is_heap:32 ind
+R2545:2546 Coq.Sorting.Heap <> T2:36 var
+R2551:2557 Coq.Sorting.Heap <> is_heap:32 ind
+R2560:2568 Coq.Sorting.Heap <> Tree_Node constr
+R2570:2570 Coq.Sorting.Heap <> a:34 var
+R2572:2573 Coq.Sorting.Heap <> T1:35 var
+R2575:2576 Coq.Sorting.Heap <> T2:36 var
+prf 2589:2599 <> invert_heap
+R2617:2617 Coq.Sorting.Heap <> defs.A var
+binder 2615:2615 <> a:37
+R2627:2630 Coq.Sorting.Heap <> Tree ind
+binder 2621:2622 <> T1:38
+binder 2624:2625 <> T2:39
+R2667:2676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2640:2646 Coq.Sorting.Heap <> is_heap ind
+R2649:2657 Coq.Sorting.Heap <> Tree_Node constr
+R2659:2659 Coq.Sorting.Heap <> a:37 var
+R2661:2662 Coq.Sorting.Heap <> T1:38 var
+R2664:2665 Coq.Sorting.Heap <> T2:39 var
+R2690:2693 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2677:2684 Coq.Sorting.Heap <> leA_Tree def
+R2686:2686 Coq.Sorting.Heap <> a:37 var
+R2688:2689 Coq.Sorting.Heap <> T1:38 var
+R2707:2710 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2694:2701 Coq.Sorting.Heap <> leA_Tree def
+R2703:2703 Coq.Sorting.Heap <> a:37 var
+R2705:2706 Coq.Sorting.Heap <> T2:39 var
+R2721:2724 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2711:2717 Coq.Sorting.Heap <> is_heap ind
+R2719:2720 Coq.Sorting.Heap <> T1:38 var
+R2725:2731 Coq.Sorting.Heap <> is_heap ind
+R2733:2734 Coq.Sorting.Heap <> T2:39 var
+prf 2886:2897 <> is_heap_rect
+R2918:2921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2914:2917 Coq.Sorting.Heap <> Tree ind
+binder 2912:2912 <> P:40
+R2945:2954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2934:2934 Coq.Sorting.Heap <> P:40 var
+R2936:2944 Coq.Sorting.Heap <> Tree_Leaf constr
+R2955:2955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3085:3095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2966:2966 Coq.Sorting.Heap <> defs.A var
+binder 2964:2964 <> a:41
+R2976:2979 Coq.Sorting.Heap <> Tree ind
+binder 2970:2971 <> T1:42
+binder 2973:2974 <> T2:43
+R2997:3001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2984:2991 Coq.Sorting.Heap <> leA_Tree def
+R2993:2993 Coq.Sorting.Heap <> a:41 var
+R2995:2996 Coq.Sorting.Heap <> T1:42 var
+R3015:3019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3002:3009 Coq.Sorting.Heap <> leA_Tree def
+R3011:3011 Coq.Sorting.Heap <> a:41 var
+R3013:3014 Coq.Sorting.Heap <> T2:43 var
+R3030:3033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3020:3026 Coq.Sorting.Heap <> is_heap ind
+R3028:3029 Coq.Sorting.Heap <> T1:42 var
+R3038:3041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3034:3034 Coq.Sorting.Heap <> P:40 var
+R3036:3037 Coq.Sorting.Heap <> T1:42 var
+R3052:3055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3042:3048 Coq.Sorting.Heap <> is_heap ind
+R3050:3051 Coq.Sorting.Heap <> T2:43 var
+R3060:3063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3056:3056 Coq.Sorting.Heap <> P:40 var
+R3058:3059 Coq.Sorting.Heap <> T2:43 var
+R3064:3064 Coq.Sorting.Heap <> P:40 var
+R3067:3075 Coq.Sorting.Heap <> Tree_Node constr
+R3077:3077 Coq.Sorting.Heap <> a:41 var
+R3079:3080 Coq.Sorting.Heap <> T1:42 var
+R3082:3083 Coq.Sorting.Heap <> T2:43 var
+R3105:3108 Coq.Sorting.Heap <> Tree ind
+binder 3103:3103 <> T:44
+R3120:3123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3111:3117 Coq.Sorting.Heap <> is_heap ind
+R3119:3119 Coq.Sorting.Heap <> T:44 var
+R3124:3124 Coq.Sorting.Heap <> P:40 var
+R3126:3126 Coq.Sorting.Heap <> T:44 var
+R3220:3230 Coq.Sorting.Heap <> invert_heap thm
+R3220:3230 Coq.Sorting.Heap <> invert_heap thm
+prf 3448:3458 <> is_heap_rec
+R3479:3482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3475:3478 Coq.Sorting.Heap <> Tree ind
+binder 3473:3473 <> P:45
+R3505:3514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3494:3494 Coq.Sorting.Heap <> P:45 var
+R3496:3504 Coq.Sorting.Heap <> Tree_Leaf constr
+R3515:3515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3645:3655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3526:3526 Coq.Sorting.Heap <> defs.A var
+binder 3524:3524 <> a:46
+R3536:3539 Coq.Sorting.Heap <> Tree ind
+binder 3530:3531 <> T1:47
+binder 3533:3534 <> T2:48
+R3557:3561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3544:3551 Coq.Sorting.Heap <> leA_Tree def
+R3553:3553 Coq.Sorting.Heap <> a:46 var
+R3555:3556 Coq.Sorting.Heap <> T1:47 var
+R3575:3579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3562:3569 Coq.Sorting.Heap <> leA_Tree def
+R3571:3571 Coq.Sorting.Heap <> a:46 var
+R3573:3574 Coq.Sorting.Heap <> T2:48 var
+R3590:3593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3580:3586 Coq.Sorting.Heap <> is_heap ind
+R3588:3589 Coq.Sorting.Heap <> T1:47 var
+R3598:3601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3594:3594 Coq.Sorting.Heap <> P:45 var
+R3596:3597 Coq.Sorting.Heap <> T1:47 var
+R3612:3615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3602:3608 Coq.Sorting.Heap <> is_heap ind
+R3610:3611 Coq.Sorting.Heap <> T2:48 var
+R3620:3623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3616:3616 Coq.Sorting.Heap <> P:45 var
+R3618:3619 Coq.Sorting.Heap <> T2:48 var
+R3624:3624 Coq.Sorting.Heap <> P:45 var
+R3627:3635 Coq.Sorting.Heap <> Tree_Node constr
+R3637:3637 Coq.Sorting.Heap <> a:46 var
+R3639:3640 Coq.Sorting.Heap <> T1:47 var
+R3642:3643 Coq.Sorting.Heap <> T2:48 var
+R3665:3668 Coq.Sorting.Heap <> Tree ind
+binder 3663:3663 <> T:49
+R3680:3683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3671:3677 Coq.Sorting.Heap <> is_heap ind
+R3679:3679 Coq.Sorting.Heap <> T:49 var
+R3684:3684 Coq.Sorting.Heap <> P:45 var
+R3686:3686 Coq.Sorting.Heap <> T:49 var
+R3780:3790 Coq.Sorting.Heap <> invert_heap thm
+R3780:3790 Coq.Sorting.Heap <> invert_heap thm
+prf 3929:3937 <> low_trans
+R3955:3958 Coq.Sorting.Heap <> Tree ind
+binder 3953:3953 <> T:50
+R3966:3966 Coq.Sorting.Heap <> defs.A var
+binder 3962:3962 <> a:51
+binder 3964:3964 <> b:52
+R3977:3980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3970:3972 Coq.Sorting.Heap <> defs.leA var
+R3974:3974 Coq.Sorting.Heap <> a:51 var
+R3976:3976 Coq.Sorting.Heap <> b:52 var
+R3993:3996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3981:3988 Coq.Sorting.Heap <> leA_Tree def
+R3990:3990 Coq.Sorting.Heap <> b:52 var
+R3992:3992 Coq.Sorting.Heap <> T:50 var
+R3997:4004 Coq.Sorting.Heap <> leA_Tree def
+R4006:4006 Coq.Sorting.Heap <> a:51 var
+R4008:4008 Coq.Sorting.Heap <> T:50 var
+R4090:4098 Coq.Sorting.Heap <> defs.leA_trans var
+R4090:4098 Coq.Sorting.Heap <> defs.leA_trans var
+ind 4188:4196 <> merge_lem
+constr 4227:4237 <> merge_exist
+R4205:4208 Coq.Init.Datatypes <> list ind
+R4210:4210 Coq.Sorting.Heap <> defs.A var
+binder 4199:4200 <> l1:53
+binder 4202:4203 <> l2:54
+R4254:4257 Coq.Init.Datatypes <> list ind
+R4259:4259 Coq.Sorting.Heap <> defs.A var
+binder 4252:4252 <> l:57
+R4280:4289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4268:4273 Coq.Sorting.Sorted <> Sorted ind
+R4279:4279 Coq.Sorting.Heap <> l:57 var
+R4275:4277 Coq.Sorting.Heap <> defs.leA var
+R4394:4403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4290:4292 Coq.Sets.Multiset <> meq def
+R4329:4334 Coq.Sets.Multiset <> munion def
+R4366:4378 Coq.Sorting.PermutSetoid <> list_contents def
+R4390:4391 Coq.Sorting.Heap <> l2:54 var
+R4382:4388 Coq.Sorting.Heap <> defs.eqA_dec var
+R4337:4349 Coq.Sorting.PermutSetoid <> list_contents def
+R4361:4362 Coq.Sorting.Heap <> l1:53 var
+R4353:4359 Coq.Sorting.Heap <> defs.eqA_dec var
+R4295:4307 Coq.Sorting.PermutSetoid <> list_contents def
+R4319:4319 Coq.Sorting.Heap <> l:57 var
+R4311:4317 Coq.Sorting.Heap <> defs.eqA_dec var
+R4404:4404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4464:4474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4412:4412 <> a:58
+R4429:4432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4415:4419 Coq.Sorting.Sorted <> HdRel ind
+R4427:4428 Coq.Sorting.Heap <> l1:53 var
+R4425:4425 Coq.Sorting.Heap <> a:58 var
+R4421:4423 Coq.Sorting.Heap <> defs.leA var
+R4447:4450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4433:4437 Coq.Sorting.Sorted <> HdRel ind
+R4445:4446 Coq.Sorting.Heap <> l2:54 var
+R4443:4443 Coq.Sorting.Heap <> a:58 var
+R4439:4441 Coq.Sorting.Heap <> defs.leA var
+R4451:4455 Coq.Sorting.Sorted <> HdRel ind
+R4463:4463 Coq.Sorting.Heap <> l:57 var
+R4461:4461 Coq.Sorting.Heap <> a:58 var
+R4457:4459 Coq.Sorting.Heap <> defs.leA var
+R4475:4483 Coq.Sorting.Heap <> merge_lem:55 ind
+R4488:4489 Coq.Sorting.Heap <> l2:54 var
+R4485:4486 Coq.Sorting.Heap <> l1:53 var
+R4501:4509 Coq.Classes.Morphisms <> <> mod
+R4527:4537 Coq.Classes.RelationClasses <> Equivalence class
+R4541:4543 Coq.Sets.Multiset <> meq def
+R4545:4545 Coq.Sorting.Heap <> defs.A var
+R4603:4611 Coq.Sets.Multiset <> meq_trans thm
+R4603:4611 Coq.Sets.Multiset <> meq_trans thm
+R4636:4641 Coq.Classes.Morphisms <> Proper class
+R4676:4681 Coq.Sets.Multiset <> munion def
+R4683:4683 Coq.Sorting.Heap <> defs.A var
+R4650:4654 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'++>'_x not
+R4645:4647 Coq.Sets.Multiset <> meq def
+R4649:4649 Coq.Sorting.Heap <> defs.A var
+R4661:4665 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'++>'_x not
+R4656:4658 Coq.Sets.Multiset <> meq def
+R4667:4669 Coq.Sets.Multiset <> meq def
+R4729:4737 Coq.Sets.Multiset <> meq_congr thm
+R4729:4737 Coq.Sets.Multiset <> meq_congr thm
+prf 4756:4760 <> merge
+R4778:4781 Coq.Init.Datatypes <> list ind
+R4783:4783 Coq.Sorting.Heap <> defs.A var
+binder 4775:4776 <> l1:59
+R4799:4806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4786:4791 Coq.Sorting.Sorted <> Sorted ind
+R4797:4798 Coq.Sorting.Heap <> l1:59 var
+R4793:4795 Coq.Sorting.Heap <> defs.leA var
+R4817:4820 Coq.Init.Datatypes <> list ind
+R4822:4822 Coq.Sorting.Heap <> defs.A var
+binder 4814:4815 <> l2:60
+R4838:4841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4825:4830 Coq.Sorting.Sorted <> Sorted ind
+R4836:4837 Coq.Sorting.Heap <> l2:60 var
+R4832:4834 Coq.Sorting.Heap <> defs.leA var
+R4842:4850 Coq.Sorting.Heap <> merge_lem ind
+R4852:4853 Coq.Sorting.Heap <> l1:59 var
+R4855:4856 Coq.Sorting.Heap <> l2:60 var
+R4916:4926 Coq.Sorting.Heap <> merge_exist constr
+R4916:4926 Coq.Sorting.Heap <> merge_exist constr
+R5079:5082 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5060:5070 Coq.Sorting.Heap <> merge_exist constr
+R5079:5082 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5060:5070 Coq.Sorting.Heap <> merge_exist constr
+R5131:5137 Coq.Sorting.Heap <> defs.leA_dec var
+R5131:5137 Coq.Sorting.Heap <> defs.leA_dec var
+R5193:5202 Coq.Sorting.Sorted <> Sorted_inv thm
+R5193:5202 Coq.Sorting.Sorted <> Sorted_inv thm
+R5249:5252 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5249:5252 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5308:5311 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5289:5299 Coq.Sorting.Heap <> merge_exist constr
+R5308:5311 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5289:5299 Coq.Sorting.Heap <> merge_exist constr
+R5354:5362 Coq.Sorting.Sorted <> cons_sort abbrev
+R5365:5372 Coq.Sorting.Sorted <> cons_leA abbrev
+R5354:5362 Coq.Sorting.Sorted <> cons_sort abbrev
+R5365:5372 Coq.Sorting.Sorted <> cons_leA abbrev
+R5425:5434 Coq.Sets.Multiset <> munion_ass thm
+R5425:5434 Coq.Sets.Multiset <> munion_ass thm
+R5425:5434 Coq.Sets.Multiset <> munion_ass thm
+R5455:5462 Coq.Sorting.Sorted <> cons_leA abbrev
+R5455:5462 Coq.Sorting.Sorted <> cons_leA abbrev
+R5478:5486 Coq.Sorting.Sorted <> HdRel_inv thm
+R5490:5492 Coq.Sorting.Heap <> defs.leA var
+R5478:5486 Coq.Sorting.Sorted <> HdRel_inv thm
+R5490:5492 Coq.Sorting.Heap <> defs.leA var
+R5561:5570 Coq.Sorting.Sorted <> Sorted_inv thm
+R5561:5570 Coq.Sorting.Sorted <> Sorted_inv thm
+R5690:5693 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5670:5680 Coq.Sorting.Heap <> merge_exist constr
+R5717:5725 Coq.Sorting.Sorted <> cons_sort abbrev
+R5728:5735 Coq.Sorting.Sorted <> cons_leA abbrev
+R5690:5693 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5670:5680 Coq.Sorting.Heap <> merge_exist constr
+R5717:5725 Coq.Sorting.Sorted <> cons_sort abbrev
+R5717:5725 Coq.Sorting.Sorted <> cons_sort abbrev
+R5717:5725 Coq.Sorting.Sorted <> cons_sort abbrev
+R5728:5735 Coq.Sorting.Sorted <> cons_leA abbrev
+R5728:5735 Coq.Sorting.Sorted <> cons_leA abbrev
+R5728:5735 Coq.Sorting.Sorted <> cons_leA abbrev
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5798:5807 Coq.Sets.Multiset <> munion_ass thm
+R5823:5833 Coq.Sets.Multiset <> munion_comm thm
+R5823:5833 Coq.Sets.Multiset <> munion_comm thm
+R5823:5833 Coq.Sets.Multiset <> munion_comm thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5855:5864 Coq.Sets.Multiset <> munion_ass thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5882:5892 Coq.Sets.Multiset <> munion_comm thm
+R5931:5938 Coq.Sorting.Sorted <> cons_leA abbrev
+R5931:5938 Coq.Sorting.Sorted <> cons_leA abbrev
+R5954:5962 Coq.Sorting.Sorted <> HdRel_inv thm
+R5966:5968 Coq.Sorting.Heap <> defs.leA var
+R5954:5962 Coq.Sorting.Sorted <> HdRel_inv thm
+R5966:5968 Coq.Sorting.Heap <> defs.leA var
+def 6281:6288 <> contents
+R6293:6296 Coq.Sorting.Heap <> Tree ind
+binder 6291:6291 <> t:61
+R6301:6308 Coq.Sets.Multiset <> multiset ind
+R6310:6310 Coq.Sorting.Heap <> defs.A var
+R6325:6325 Coq.Sorting.Heap <> t:61 var
+R6340:6348 Coq.Sorting.Heap <> Tree_Leaf constr
+R6353:6360 Coq.Sorting.Heap <> defs.emptyBag var
+R6370:6378 Coq.Sorting.Heap <> Tree_Node constr
+R6392:6397 Coq.Sets.Multiset <> munion def
+R6414:6419 Coq.Sets.Multiset <> munion def
+R6436:6447 Coq.Sorting.Heap <> defs.singletonBag var
+R6422:6429 Coq.Sorting.Heap <> contents:62 def
+R6400:6407 Coq.Sorting.Heap <> contents:62 def
+def 6550:6559 <> equiv_Tree
+R6568:6571 Coq.Sorting.Heap <> Tree ind
+binder 6562:6563 <> t1:64
+binder 6565:6566 <> t2:65
+R6577:6579 Coq.Sets.Multiset <> meq def
+R6596:6603 Coq.Sorting.Heap <> contents def
+R6605:6606 Coq.Sorting.Heap <> t2:65 var
+R6582:6589 Coq.Sorting.Heap <> contents def
+R6591:6592 Coq.Sorting.Heap <> t1:64 var
+ind 6709:6719 <> insert_spec
+constr 6750:6761 <> insert_exist
+R6724:6724 Coq.Sorting.Heap <> defs.A var
+binder 6722:6722 <> a:66
+R6730:6733 Coq.Sorting.Heap <> Tree ind
+binder 6728:6728 <> T:67
+R6779:6782 Coq.Sorting.Heap <> Tree ind
+binder 6776:6777 <> T1:70
+R6801:6810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6791:6797 Coq.Sorting.Heap <> is_heap ind
+R6799:6800 Coq.Sorting.Heap <> T1:70 var
+R6867:6876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6811:6813 Coq.Sets.Multiset <> meq def
+R6830:6835 Coq.Sets.Multiset <> munion def
+R6851:6862 Coq.Sorting.Heap <> defs.singletonBag var
+R6864:6864 Coq.Sorting.Heap <> a:66 var
+R6838:6845 Coq.Sorting.Heap <> contents def
+R6847:6847 Coq.Sorting.Heap <> T:67 var
+R6816:6823 Coq.Sorting.Heap <> contents def
+R6825:6826 Coq.Sorting.Heap <> T1:70 var
+R6877:6877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6930:6940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6887:6887 Coq.Sorting.Heap <> defs.A var
+binder 6885:6885 <> b:71
+R6897:6900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6890:6892 Coq.Sorting.Heap <> defs.leA var
+R6894:6894 Coq.Sorting.Heap <> b:71 var
+R6896:6896 Coq.Sorting.Heap <> a:66 var
+R6913:6916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6901:6908 Coq.Sorting.Heap <> leA_Tree def
+R6910:6910 Coq.Sorting.Heap <> b:71 var
+R6912:6912 Coq.Sorting.Heap <> T:67 var
+R6917:6924 Coq.Sorting.Heap <> leA_Tree def
+R6926:6926 Coq.Sorting.Heap <> b:71 var
+R6928:6929 Coq.Sorting.Heap <> T1:70 var
+R6941:6951 Coq.Sorting.Heap <> insert_spec:68 ind
+R6955:6955 Coq.Sorting.Heap <> T:67 var
+R6953:6953 Coq.Sorting.Heap <> a:66 var
+prf 6968:6973 <> insert
+R6986:6989 Coq.Sorting.Heap <> Tree ind
+binder 6984:6984 <> T:72
+R7001:7004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6992:6998 Coq.Sorting.Heap <> is_heap ind
+R7000:7000 Coq.Sorting.Heap <> T:72 var
+R7014:7014 Coq.Sorting.Heap <> defs.A var
+binder 7012:7012 <> a:73
+R7017:7027 Coq.Sorting.Heap <> insert_spec ind
+R7029:7029 Coq.Sorting.Heap <> a:73 var
+R7031:7031 Coq.Sorting.Heap <> T:72 var
+R7104:7112 Coq.Sorting.Heap <> Tree_Node constr
+R7116:7124 Coq.Sorting.Heap <> Tree_Leaf constr
+R7126:7134 Coq.Sorting.Heap <> Tree_Leaf constr
+R7085:7096 Coq.Sorting.Heap <> insert_exist constr
+R7155:7166 Coq.Sorting.Heap <> node_is_heap constr
+R7169:7179 Coq.Sorting.Heap <> nil_is_heap constr
+R7182:7194 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7104:7112 Coq.Sorting.Heap <> Tree_Node constr
+R7116:7124 Coq.Sorting.Heap <> Tree_Leaf constr
+R7126:7134 Coq.Sorting.Heap <> Tree_Leaf constr
+R7085:7096 Coq.Sorting.Heap <> insert_exist constr
+R7155:7166 Coq.Sorting.Heap <> node_is_heap constr
+R7155:7166 Coq.Sorting.Heap <> node_is_heap constr
+R7155:7166 Coq.Sorting.Heap <> node_is_heap constr
+R7169:7179 Coq.Sorting.Heap <> nil_is_heap constr
+R7182:7194 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7169:7179 Coq.Sorting.Heap <> nil_is_heap constr
+R7182:7194 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7169:7179 Coq.Sorting.Heap <> nil_is_heap constr
+R7182:7194 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7230:7232 Coq.Sets.Multiset <> meq def
+R7235:7240 Coq.Sets.Multiset <> munion def
+R7254:7265 Coq.Sorting.Heap <> node_is_heap constr
+R7254:7265 Coq.Sorting.Heap <> node_is_heap constr
+R7293:7299 Coq.Sorting.Heap <> defs.leA_dec var
+R7293:7299 Coq.Sorting.Heap <> defs.leA_dec var
+R7370:7378 Coq.Sorting.Heap <> Tree_Node constr
+R7351:7362 Coq.Sorting.Heap <> insert_exist constr
+R7407:7418 Coq.Sorting.Heap <> node_is_heap constr
+R7421:7431 Coq.Sorting.Heap <> nil_is_heap constr
+R7434:7446 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7370:7378 Coq.Sorting.Heap <> Tree_Node constr
+R7351:7362 Coq.Sorting.Heap <> insert_exist constr
+R7407:7418 Coq.Sorting.Heap <> node_is_heap constr
+R7407:7418 Coq.Sorting.Heap <> node_is_heap constr
+R7407:7418 Coq.Sorting.Heap <> node_is_heap constr
+R7421:7431 Coq.Sorting.Heap <> nil_is_heap constr
+R7434:7446 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7421:7431 Coq.Sorting.Heap <> nil_is_heap constr
+R7434:7446 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7421:7431 Coq.Sorting.Heap <> nil_is_heap constr
+R7434:7446 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7481:7495 Coq.Sets.Multiset <> treesort_twist1 thm
+R7481:7495 Coq.Sets.Multiset <> treesort_twist1 thm
+R7595:7603 Coq.Sorting.Heap <> Tree_Node constr
+R7576:7587 Coq.Sorting.Heap <> insert_exist constr
+R7633:7644 Coq.Sorting.Heap <> node_is_heap constr
+R7647:7657 Coq.Sorting.Heap <> nil_is_heap constr
+R7660:7672 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7595:7603 Coq.Sorting.Heap <> Tree_Node constr
+R7576:7587 Coq.Sorting.Heap <> insert_exist constr
+R7633:7644 Coq.Sorting.Heap <> node_is_heap constr
+R7633:7644 Coq.Sorting.Heap <> node_is_heap constr
+R7633:7644 Coq.Sorting.Heap <> node_is_heap constr
+R7647:7657 Coq.Sorting.Heap <> nil_is_heap constr
+R7660:7672 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7647:7657 Coq.Sorting.Heap <> nil_is_heap constr
+R7660:7672 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7647:7657 Coq.Sorting.Heap <> nil_is_heap constr
+R7660:7672 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7700:7711 Coq.Sorting.Heap <> node_is_heap constr
+R7725:7736 Coq.Sorting.Heap <> node_is_heap constr
+R7739:7749 Coq.Sorting.Heap <> nil_is_heap constr
+R7752:7764 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7700:7711 Coq.Sorting.Heap <> node_is_heap constr
+R7725:7736 Coq.Sorting.Heap <> node_is_heap constr
+R7725:7736 Coq.Sorting.Heap <> node_is_heap constr
+R7725:7736 Coq.Sorting.Heap <> node_is_heap constr
+R7725:7736 Coq.Sorting.Heap <> node_is_heap constr
+R7739:7749 Coq.Sorting.Heap <> nil_is_heap constr
+R7752:7764 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7739:7749 Coq.Sorting.Heap <> nil_is_heap constr
+R7752:7764 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7739:7749 Coq.Sorting.Heap <> nil_is_heap constr
+R7752:7764 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7739:7749 Coq.Sorting.Heap <> nil_is_heap constr
+R7752:7764 Coq.Sorting.Heap <> leA_Tree_Leaf thm
+R7792:7800 Coq.Sorting.Heap <> low_trans thm
+R7792:7800 Coq.Sorting.Heap <> low_trans thm
+R7877:7885 Coq.Sorting.Heap <> low_trans thm
+R7877:7885 Coq.Sorting.Heap <> low_trans thm
+R7933:7947 Coq.Sets.Multiset <> treesort_twist2 thm
+R7933:7947 Coq.Sets.Multiset <> treesort_twist2 thm
+ind 8036:8045 <> build_heap
+constr 8072:8081 <> heap_exist
+R8050:8053 Coq.Init.Datatypes <> list ind
+R8055:8055 Coq.Sorting.Heap <> defs.A var
+binder 8048:8048 <> l:74
+R8098:8101 Coq.Sorting.Heap <> Tree ind
+binder 8096:8096 <> T:77
+R8119:8128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8110:8116 Coq.Sorting.Heap <> is_heap ind
+R8118:8118 Coq.Sorting.Heap <> T:77 var
+R8173:8176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8129:8131 Coq.Sets.Multiset <> meq def
+R8162:8169 Coq.Sorting.Heap <> contents def
+R8171:8171 Coq.Sorting.Heap <> T:77 var
+R8134:8146 Coq.Sorting.PermutSetoid <> list_contents def
+R8158:8158 Coq.Sorting.Heap <> l:74 var
+R8150:8156 Coq.Sorting.Heap <> defs.eqA_dec var
+R8177:8186 Coq.Sorting.Heap <> build_heap:75 ind
+R8188:8188 Coq.Sorting.Heap <> l:74 var
+prf 8200:8211 <> list_to_heap
+R8224:8227 Coq.Init.Datatypes <> list ind
+R8229:8229 Coq.Sorting.Heap <> defs.A var
+binder 8222:8222 <> l:78
+R8232:8241 Coq.Sorting.Heap <> build_heap ind
+R8243:8243 Coq.Sorting.Heap <> l:78 var
+R8290:8299 Coq.Sorting.Heap <> heap_exist constr
+R8301:8303 Coq.Init.Datatypes <> nil constr
+R8305:8313 Coq.Sorting.Heap <> Tree_Leaf constr
+R8290:8299 Coq.Sorting.Heap <> heap_exist constr
+R8301:8303 Coq.Init.Datatypes <> nil constr
+R8305:8313 Coq.Sorting.Heap <> Tree_Leaf constr
+R8356:8358 Coq.Sets.Multiset <> meq def
+R8367:8377 Coq.Sorting.Heap <> nil_is_heap constr
+R8367:8377 Coq.Sorting.Heap <> nil_is_heap constr
+R8428:8433 Coq.Sorting.Heap <> insert thm
+R8428:8433 Coq.Sorting.Heap <> insert thm
+R8461:8470 Coq.Sorting.Heap <> heap_exist constr
+R8461:8470 Coq.Sorting.Heap <> heap_exist constr
+R8535:8540 Coq.Sets.Multiset <> munion def
+R8556:8567 Coq.Sorting.Heap <> defs.singletonBag var
+R8543:8550 Coq.Sorting.Heap <> contents def
+R8519:8527 Coq.Sets.Multiset <> meq_trans thm
+R8535:8540 Coq.Sets.Multiset <> munion def
+R8556:8567 Coq.Sorting.Heap <> defs.singletonBag var
+R8543:8550 Coq.Sorting.Heap <> contents def
+R8519:8527 Coq.Sets.Multiset <> meq_trans thm
+R8600:8605 Coq.Sets.Multiset <> munion def
+R8625:8632 Coq.Sorting.Heap <> contents def
+R8608:8619 Coq.Sorting.Heap <> defs.singletonBag var
+R8584:8592 Coq.Sets.Multiset <> meq_trans thm
+R8600:8605 Coq.Sets.Multiset <> munion def
+R8625:8632 Coq.Sorting.Heap <> contents def
+R8608:8619 Coq.Sorting.Heap <> defs.singletonBag var
+R8584:8592 Coq.Sets.Multiset <> meq_trans thm
+R8649:8657 Coq.Sets.Multiset <> meq_right thm
+R8649:8657 Coq.Sets.Multiset <> meq_right thm
+R8694:8704 Coq.Sets.Multiset <> munion_comm thm
+R8694:8704 Coq.Sets.Multiset <> munion_comm thm
+R8717:8723 Coq.Sets.Multiset <> meq_sym thm
+R8717:8723 Coq.Sets.Multiset <> meq_sym thm
+ind 8809:8817 <> flat_spec
+constr 8842:8851 <> flat_exist
+R8822:8825 Coq.Sorting.Heap <> Tree ind
+binder 8820:8820 <> T:79
+R8868:8871 Coq.Init.Datatypes <> list ind
+R8873:8873 Coq.Sorting.Heap <> defs.A var
+binder 8866:8866 <> l:82
+R8894:8903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8882:8887 Coq.Sorting.Sorted <> Sorted ind
+R8893:8893 Coq.Sorting.Heap <> l:82 var
+R8889:8891 Coq.Sorting.Heap <> defs.leA var
+R8904:8904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8946:8956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8914:8914 Coq.Sorting.Heap <> defs.A var
+binder 8912:8912 <> a:83
+R8929:8932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8917:8924 Coq.Sorting.Heap <> leA_Tree def
+R8926:8926 Coq.Sorting.Heap <> a:83 var
+R8928:8928 Coq.Sorting.Heap <> T:79 var
+R8933:8937 Coq.Sorting.Sorted <> HdRel ind
+R8945:8945 Coq.Sorting.Heap <> l:82 var
+R8943:8943 Coq.Sorting.Heap <> a:83 var
+R8939:8941 Coq.Sorting.Heap <> defs.leA var
+R9001:9004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8957:8959 Coq.Sets.Multiset <> meq def
+R8975:8987 Coq.Sorting.PermutSetoid <> list_contents def
+R8999:8999 Coq.Sorting.Heap <> l:82 var
+R8991:8997 Coq.Sorting.Heap <> defs.eqA_dec var
+R8962:8969 Coq.Sorting.Heap <> contents def
+R8971:8971 Coq.Sorting.Heap <> T:79 var
+R9005:9013 Coq.Sorting.Heap <> flat_spec:80 ind
+R9015:9015 Coq.Sorting.Heap <> T:79 var
+prf 9027:9038 <> heap_to_list
+R9051:9054 Coq.Sorting.Heap <> Tree ind
+binder 9049:9049 <> T:84
+R9066:9069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9057:9063 Coq.Sorting.Heap <> is_heap ind
+R9065:9065 Coq.Sorting.Heap <> T:84 var
+R9070:9078 Coq.Sorting.Heap <> flat_spec ind
+R9080:9080 Coq.Sorting.Heap <> T:84 var
+R9151:9153 Coq.Init.Datatypes <> nil constr
+R9159:9159 Coq.Sorting.Heap <> defs.A var
+R9134:9143 Coq.Sorting.Heap <> flat_exist constr
+R9151:9153 Coq.Init.Datatypes <> nil constr
+R9159:9159 Coq.Sorting.Heap <> defs.A var
+R9134:9143 Coq.Sorting.Heap <> flat_exist constr
+R9256:9260 Coq.Sorting.Heap <> merge thm
+R9256:9260 Coq.Sorting.Heap <> merge thm
+R9310:9313 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9292:9301 Coq.Sorting.Heap <> flat_exist constr
+R9310:9313 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9292:9301 Coq.Sorting.Heap <> flat_exist constr
+R9378:9383 Coq.Sets.Multiset <> munion def
+R9416:9421 Coq.Sets.Multiset <> munion def
+R9453:9464 Coq.Sorting.Heap <> defs.singletonBag var
+R9424:9436 Coq.Sorting.PermutSetoid <> list_contents def
+R9440:9446 Coq.Sorting.Heap <> defs.eqA_dec var
+R9386:9398 Coq.Sorting.PermutSetoid <> list_contents def
+R9402:9408 Coq.Sorting.Heap <> defs.eqA_dec var
+R9356:9364 Coq.Sets.Multiset <> meq_trans thm
+R9378:9383 Coq.Sets.Multiset <> munion def
+R9416:9421 Coq.Sets.Multiset <> munion def
+R9453:9464 Coq.Sorting.Heap <> defs.singletonBag var
+R9424:9436 Coq.Sorting.PermutSetoid <> list_contents def
+R9440:9446 Coq.Sorting.Heap <> defs.eqA_dec var
+R9386:9398 Coq.Sorting.PermutSetoid <> list_contents def
+R9402:9408 Coq.Sorting.Heap <> defs.eqA_dec var
+R9356:9364 Coq.Sets.Multiset <> meq_trans thm
+R9482:9490 Coq.Sets.Multiset <> meq_congr thm
+R9482:9490 Coq.Sets.Multiset <> meq_congr thm
+R9546:9551 Coq.Sets.Multiset <> munion def
+R9572:9577 Coq.Sets.Multiset <> munion def
+R9609:9621 Coq.Sorting.PermutSetoid <> list_contents def
+R9625:9631 Coq.Sorting.Heap <> defs.eqA_dec var
+R9580:9592 Coq.Sorting.PermutSetoid <> list_contents def
+R9596:9602 Coq.Sorting.Heap <> defs.eqA_dec var
+R9554:9565 Coq.Sorting.Heap <> defs.singletonBag var
+R9524:9532 Coq.Sets.Multiset <> meq_trans thm
+R9546:9551 Coq.Sets.Multiset <> munion def
+R9572:9577 Coq.Sets.Multiset <> munion def
+R9609:9621 Coq.Sorting.PermutSetoid <> list_contents def
+R9625:9631 Coq.Sorting.Heap <> defs.eqA_dec var
+R9580:9592 Coq.Sorting.PermutSetoid <> list_contents def
+R9596:9602 Coq.Sorting.Heap <> defs.eqA_dec var
+R9554:9565 Coq.Sorting.Heap <> defs.singletonBag var
+R9524:9532 Coq.Sets.Multiset <> meq_trans thm
+R9650:9662 Coq.Sets.Multiset <> munion_rotate thm
+R9650:9662 Coq.Sets.Multiset <> munion_rotate thm
+R9675:9683 Coq.Sets.Multiset <> meq_right thm
+R9692:9698 Coq.Sets.Multiset <> meq_sym thm
+R9675:9683 Coq.Sets.Multiset <> meq_right thm
+R9692:9698 Coq.Sets.Multiset <> meq_sym thm
+prf 9782:9789 <> treesort
+R9806:9809 Coq.Init.Datatypes <> list ind
+R9811:9811 Coq.Sorting.Heap <> defs.A var
+binder 9804:9804 <> l:85
+R9818:9818 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R9820:9822 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R9829:9831 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R9844:9846 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R9872:9872 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R9823:9826 Coq.Init.Datatypes <> list ind
+R9828:9828 Coq.Sorting.Heap <> defs.A var
+binder 9819:9819 <> m:86
+R9832:9837 Coq.Sorting.Sorted <> Sorted ind
+R9843:9843 Coq.Sorting.Heap <> m:86 var
+R9839:9841 Coq.Sorting.Heap <> defs.leA var
+binder 9819:9819 <> m:87
+R9847:9857 Coq.Sorting.PermutSetoid <> permutation def
+R9871:9871 Coq.Sorting.Heap <> m:87 var
+R9869:9869 Coq.Sorting.Heap <> l:85 var
+R9861:9867 Coq.Sorting.Heap <> defs.eqA_dec var
+R9904:9914 Coq.Sorting.PermutSetoid <> permutation def
+R9927:9938 Coq.Sorting.Heap <> list_to_heap thm
+R9927:9938 Coq.Sorting.Heap <> list_to_heap thm
+R9966:9977 Coq.Sorting.Heap <> heap_to_list thm
+R9966:9977 Coq.Sorting.Heap <> heap_to_list thm
+R10078:10085 Coq.Sorting.Heap <> contents def
+R10062:10070 Coq.Sets.Multiset <> meq_trans thm
+R10078:10085 Coq.Sorting.Heap <> contents def
+R10062:10070 Coq.Sets.Multiset <> meq_trans thm
+R10127:10130 Coq.Sorting.Heap defs <> sec

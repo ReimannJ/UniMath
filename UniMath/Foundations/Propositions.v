@@ -24,29 +24,54 @@ Notation UU := Type.
 (** ** The type [hProp] of types of h-level 1 *)
 Unset Printing Notations.
 Global Set Universe Polymorphism.
-#[bypass_check(universes)]
-  Definition hProp@{k} : Type@{Set} := total2  (λ X : Type@{k}, isaprop X).
-
+Global Set Polymorphic Inductive Cumulativity.
 Set Printing Universes.
-Print hProp.
 
- Theorem equivhprop@{k}: hProp@{k} ≃ hProp@{Set}.
- Proof. use tpair.
-       -intro hprop_k. induction hprop_k as [x H']. use tpair.
-        + exact (resize_prop x H').
-        + exact H'.
-       - cbn. use isweq_iso.
-         + intro A. exact A.
-         + cbn. intro X. induction X as [x H']. use idpath.
-         + cbn. intro Y. induction Y as [y H']. use idpath.
- Defined.
+Print resize_prop.
+#[bypass_check(universes)]
+Definition hProp@{k} : Type@{Set} := total2@{Set k}(λ X : Type@{k}, isaprop X).
 
-  Definition make_hProp@{k} (X : Type@{k}) (is : isaprop X) : hProp@{k}
+#[bypass_check(universes)]
+  Definition make_hProp@{k +} (X : Type@{k}) (is : isaprop X) : hProp@{k}
   := (resize_prop X is ,, is).
+Print make_hProp.
 Definition hProptoType := @pr1 _ _ : hProp -> Type.
 Coercion hProptoType : hProp >-> Sortclass.
 
+
+
 Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
+Print propproperty.
+
+Print isapropiscontr.
+Lemma isapropisaprop@{k +} (X : Type@{k}) : isaprop (isaprop X).
+Proof. apply impred_isaprop. intro t. apply impred_isaprop. intro s. apply isapropiscontr.
+Defined.
+
+Set Printing Universes.
+
+Lemma resize_isaprop@{k +} (X : Type@{k}) (is : isaprop X) : isaprop@{Set} (resize_prop X is).
+Proof. unfold resize_prop.
+       set (H:= proofirrelevance X is).
+       apply invproofirrelevance.
+       unfold isProofIrrelevant. intros x y. set (H1 := H x y). exact H1.
+Defined.
+
+Theorem equivhprop@{k +}: hProp@{k} ≃ hProp@{Set}.
+Proof. use tpair.
+       -intro hprop_k. induction hprop_k as [X H']. use tpair.
+        + exact (resize_prop X H').
+        + exact (resize_isaprop X H').
+       - cbn. use isweq_iso.
+         + intro A. induction A as [X is]. use tpair.
+           * exact X.
+           * cbn. intros. set (contr':= is x x'). cbn in contr'. unfold iscontr. use tpair.
+             exact (pr1 contr'). cbn. intro. destruct contr'. cbn. exact (pr2 t).
+         + cbn. intro X. induction X as [x H']. unfold resize_prop. unfold resize_isaprop.
+           (* proof incomplete *)
+           use idpath.
+         + cbn. intro Y. induction Y as [y H']. use idpath.
+Defined.
 
 (** ** The type [tildehProp] of pairs (P, p : P) where [P : hProp] *)
 
@@ -57,11 +82,12 @@ Definition make_tildehProp {P : hProp} (p : P) : tildehProp := tpair _ P p.
 (* convenient corollaries of some theorems that take separate isaprop
    arguments: *)
 
-Corollary subtypeInjectivity_prop {A : UU} (B : A -> hProp) :
+Corollary subtypeInjectivity_prop@{k j +} {A : Type@{k}} (B : A -> hProp@{j}) :
   ∏ (x y : total2 B), (x = y) ≃ (pr1 x = pr1 y).
 Proof.
-  intros. apply subtypeInjectivity. intro. apply propproperty.
+  intros. apply subtypeInjectivity. intro. Show Universes. apply propproperty. Show Universes.
 Defined.
+
 
 Corollary subtypePath_prop {A : UU} {B : A -> hProp}
    {s s' : total2 (λ x, B x)} : pr1 s = pr1 s' -> s = s'.

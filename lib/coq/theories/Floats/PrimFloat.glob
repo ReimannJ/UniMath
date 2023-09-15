@@ -1,0 +1,156 @@
+DIGEST 9e3c2ca2c37a46de9c6f42e954195239
+FCoq.Floats.PrimFloat
+R691:699 Coq.Numbers.Cyclic.Int63.PrimInt63 <> <> lib
+R701:710 Coq.Floats.FloatClass <> <> lib
+ind 957:972 <> float_comparison
+constr 983:985 <> FEq
+constr 989:991 <> FLt
+constr 995:997 <> FGt
+constr 1001:1014 <> FNotComparable
+ax 1213:1217 <> float
+rec 1279:1291 <> float_wrapper
+proj 1309:1318 <> float_wrap
+R1322:1326 Coq.Floats.PrimFloat <> float prim
+def 1387:1393 <> printer
+R1400:1412 Coq.Floats.PrimFloat <> float_wrapper rec
+binder 1396:1396 <> x:5
+R1417:1421 Coq.Floats.PrimFloat <> float prim
+R1426:1435 Coq.Floats.PrimFloat <> float_wrap proj
+R1437:1437 Coq.Floats.PrimFloat <> x:5 var
+def 1451:1456 <> parser
+R1463:1467 Coq.Floats.PrimFloat <> float prim
+binder 1459:1459 <> x:6
+R1472:1476 Coq.Floats.PrimFloat <> float prim
+R1481:1481 Coq.Floats.PrimFloat <> x:6 var
+mod 1524:1550 <> PrimFloatNotationsInternalA
+R1657:1683 Coq.Floats.PrimFloat PrimFloatNotationsInternalA <> mod
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1702:1706 Coq.Floats.PrimFloat <> float prim
+R1708:1713 Coq.Floats.PrimFloat <> parser def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+R1715:1721 Coq.Floats.PrimFloat <> printer def
+ax 1784:1791 <> classify
+ax 1826:1828 <> abs
+ax 1858:1861 <> sqrt
+ax 1892:1894 <> opp
+ax 2023:2025 <> eqb
+ax 2054:2056 <> ltb
+ax 2085:2087 <> leb
+ax 2116:2122 <> compare
+mod 2185:2191 <> Leibniz
+ax 2204:2206 Leibniz eqb
+R2270:2276 Coq.Floats.PrimFloat Leibniz <> mod
+ax 2290:2292 <> mul
+ax 2322:2324 <> add
+ax 2354:2356 <> sub
+ax 2386:2388 <> div
+mod 2422:2448 <> PrimFloatNotationsInternalB
+R2470:2472 Coq.Floats.PrimFloat <> opp prim
+not 2460:2460 PrimFloatNotationsInternalB ::float_scope:'-'_x
+R2514:2516 Coq.Floats.PrimFloat <> eqb prim
+not 2501:2501 PrimFloatNotationsInternalB ::float_scope:x_'=?'_x
+R2592:2594 Coq.Floats.PrimFloat <> ltb prim
+not 2579:2579 PrimFloatNotationsInternalB ::float_scope:x_'<?'_x
+R2671:2673 Coq.Floats.PrimFloat <> leb prim
+not 2657:2657 PrimFloatNotationsInternalB ::float_scope:x_'<=?'_x
+R2749:2755 Coq.Floats.PrimFloat <> compare prim
+not 2736:2736 PrimFloatNotationsInternalB ::float_scope:x_'?='_x
+R2830:2832 Coq.Floats.PrimFloat <> mul prim
+not 2818:2818 PrimFloatNotationsInternalB ::float_scope:x_'*'_x
+R2875:2877 Coq.Floats.PrimFloat <> add prim
+not 2863:2863 PrimFloatNotationsInternalB ::float_scope:x_'+'_x
+R2920:2922 Coq.Floats.PrimFloat <> sub prim
+not 2908:2908 PrimFloatNotationsInternalB ::float_scope:x_'-'_x
+R2965:2967 Coq.Floats.PrimFloat <> div prim
+not 2953:2953 PrimFloatNotationsInternalB ::float_scope:x_'/'_x
+R2993:3019 Coq.Floats.PrimFloat PrimFloatNotationsInternalB <> mod
+ax 3170:3178 <> of_uint63
+ax 3527:3541 <> normfr_mantissa
+ax 3725:3734 <> frshiftexp
+ax 3836:3845 <> ldshiftexp
+ax 3991:3997 <> next_up
+ax 4100:4108 <> next_down
+def 4199:4206 <> infinity
+R4227:4229 Coq.Floats.PrimFloat <> div prim
+R4232:4240 Coq.Floats.PrimFloat <> of_uint63 prim
+R4246:4254 Coq.Floats.PrimFloat <> of_uint63 prim
+def 4271:4282 <> neg_infinity
+R4303:4305 Coq.Floats.PrimFloat <> opp prim
+R4307:4314 Coq.Floats.PrimFloat <> infinity def
+def 4328:4330 <> nan
+R4351:4353 Coq.Floats.PrimFloat <> div prim
+R4356:4364 Coq.Floats.PrimFloat <> of_uint63 prim
+R4370:4378 Coq.Floats.PrimFloat <> of_uint63 prim
+def 4549:4551 <> one
+R4573:4581 Coq.Floats.PrimFloat <> of_uint63 prim
+def 4598:4601 <> zero
+R4623:4631 Coq.Floats.PrimFloat <> of_uint63 prim
+def 4648:4655 <> neg_zero
+R4677:4677 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:'-'_x not
+R4678:4681 Coq.Floats.PrimFloat <> zero def
+def 4702:4704 <> two
+R4726:4734 Coq.Floats.PrimFloat <> of_uint63 prim
+def 4794:4799 <> is_nan
+binder 4801:4801 <> f:7
+R4806:4809 Coq.Init.Datatypes <> negb def
+R4813:4816 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'=?'_x not
+R4812:4812 Coq.Floats.PrimFloat <> f:7 var
+R4817:4817 Coq.Floats.PrimFloat <> f:7 var
+def 4839:4845 <> is_zero
+binder 4847:4847 <> f:8
+R4854:4857 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'=?'_x not
+R4853:4853 Coq.Floats.PrimFloat <> f:8 var
+R4858:4861 Coq.Floats.PrimFloat <> zero def
+def 4915:4925 <> is_infinity
+binder 4927:4927 <> f:9
+R4938:4941 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'=?'_x not
+R4933:4935 Coq.Floats.PrimFloat <> abs prim
+R4937:4937 Coq.Floats.PrimFloat <> f:9 var
+R4942:4949 Coq.Floats.PrimFloat <> infinity def
+def 4971:4979 <> is_finite
+R4986:4990 Coq.Floats.PrimFloat <> float prim
+binder 4982:4982 <> x:10
+R4996:4999 Coq.Init.Datatypes <> negb def
+R5010:5013 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R5002:5007 Coq.Floats.PrimFloat <> is_nan def
+R5009:5009 Coq.Floats.PrimFloat <> x:10 var
+R5014:5024 Coq.Floats.PrimFloat <> is_infinity def
+R5026:5026 Coq.Floats.PrimFloat <> x:10 var
+def 5111:5118 <> get_sign
+binder 5120:5120 <> f:11
+R5139:5145 Coq.Floats.PrimFloat <> is_zero def
+R5147:5147 Coq.Floats.PrimFloat <> f:11 var
+R5175:5175 Coq.Floats.PrimFloat <> f:11 var
+R5158:5160 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'/'_x not
+R5155:5157 Coq.Floats.PrimFloat <> one def
+R5161:5161 Coq.Floats.PrimFloat <> f:11 var
+binder 5131:5131 <> f:12
+R5184:5187 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:x_'<?'_x not
+R5183:5183 Coq.Floats.PrimFloat <> f:12 var
+R5188:5191 Coq.Floats.PrimFloat <> zero def
+mod 5216:5233 <> PrimFloatNotations
+R5277:5303 Coq.Floats.PrimFloat PrimFloatNotationsInternalA <> mod
+R5315:5341 Coq.Floats.PrimFloat PrimFloatNotationsInternalB <> mod
+R5348:5365 Coq.Floats.PrimFloat PrimFloatNotations <> mod

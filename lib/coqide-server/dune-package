@@ -1,0 +1,140 @@
+(lang dune 3.9)
+(name coqide-server)
+(version dev)
+(sections
+ (lib /home/jesse/hprop_set_1/UniMath/lib/coqide-server)
+ (libexec /home/jesse/hprop_set_1/UniMath/lib/coqide-server)
+ (bin /home/jesse/hprop_set_1/UniMath/bin)
+ (doc /home/jesse/hprop_set_1/UniMath/share/doc/coqide-server))
+(files
+ (lib
+  (META
+   core/core.a
+   core/core.cma
+   core/core.cmxa
+   core/document.cmi
+   core/document.cmt
+   core/document.cmti
+   core/document.cmx
+   core/document.ml
+   core/document.mli
+   dune-package
+   opam
+   protocol/interface.cmi
+   protocol/interface.cmt
+   protocol/interface.cmx
+   protocol/interface.ml
+   protocol/protocol.a
+   protocol/protocol.cma
+   protocol/protocol.cmxa
+   protocol/richpp.cmi
+   protocol/richpp.cmt
+   protocol/richpp.cmti
+   protocol/richpp.cmx
+   protocol/richpp.ml
+   protocol/richpp.mli
+   protocol/serialize.cmi
+   protocol/serialize.cmt
+   protocol/serialize.cmti
+   protocol/serialize.cmx
+   protocol/serialize.ml
+   protocol/serialize.mli
+   protocol/xml_lexer.cmi
+   protocol/xml_lexer.cmt
+   protocol/xml_lexer.cmti
+   protocol/xml_lexer.cmx
+   protocol/xml_lexer.ml
+   protocol/xml_lexer.mli
+   protocol/xml_parser.cmi
+   protocol/xml_parser.cmt
+   protocol/xml_parser.cmti
+   protocol/xml_parser.cmx
+   protocol/xml_parser.ml
+   protocol/xml_parser.mli
+   protocol/xml_printer.cmi
+   protocol/xml_printer.cmt
+   protocol/xml_printer.cmti
+   protocol/xml_printer.cmx
+   protocol/xml_printer.ml
+   protocol/xml_printer.mli
+   protocol/xmlprotocol.cmi
+   protocol/xmlprotocol.cmt
+   protocol/xmlprotocol.cmti
+   protocol/xmlprotocol.cmx
+   protocol/xmlprotocol.ml
+   protocol/xmlprotocol.mli))
+ (libexec (core/core.cmxs protocol/protocol.cmxs))
+ (bin (coqidetop.byte coqidetop.opt))
+ (doc (LICENSE README.md)))
+(library
+ (name coqide-server.core)
+ (kind normal)
+ (archives (byte core/core.cma) (native core/core.cmxa))
+ (plugins (byte core/core.cma) (native core/core.cmxs))
+ (native_archives core/core.a)
+ (requires coq-core.boot coq-core.lib)
+ (modes byte native)
+ (modules
+  (singleton
+   (obj_name document)
+   (visibility public)
+   (source
+    (path Document)
+    (intf (path core/document.mli))
+    (impl (path core/document.ml))))))
+(library
+ (name coqide-server.protocol)
+ (kind normal)
+ (archives (byte protocol/protocol.cma) (native protocol/protocol.cmxa))
+ (plugins (byte protocol/protocol.cma) (native protocol/protocol.cmxs))
+ (native_archives protocol/protocol.a)
+ (requires coq-core.lib)
+ (modes byte native)
+ (modules
+  (unwrapped
+   (module
+    (obj_name interface)
+    (visibility public)
+    (source (path Interface) (impl (path protocol/interface.ml))))
+   (module
+    (obj_name richpp)
+    (visibility public)
+    (source
+     (path Richpp)
+     (intf (path protocol/richpp.mli))
+     (impl (path protocol/richpp.ml))))
+   (module
+    (obj_name serialize)
+    (visibility public)
+    (source
+     (path Serialize)
+     (intf (path protocol/serialize.mli))
+     (impl (path protocol/serialize.ml))))
+   (module
+    (obj_name xml_lexer)
+    (visibility public)
+    (source
+     (path Xml_lexer)
+     (intf (path protocol/xml_lexer.mli))
+     (impl (path protocol/xml_lexer.ml))))
+   (module
+    (obj_name xml_parser)
+    (visibility public)
+    (source
+     (path Xml_parser)
+     (intf (path protocol/xml_parser.mli))
+     (impl (path protocol/xml_parser.ml))))
+   (module
+    (obj_name xml_printer)
+    (visibility public)
+    (source
+     (path Xml_printer)
+     (intf (path protocol/xml_printer.mli))
+     (impl (path protocol/xml_printer.ml))))
+   (module
+    (obj_name xmlprotocol)
+    (visibility public)
+    (source
+     (path Xmlprotocol)
+     (intf (path protocol/xmlprotocol.mli))
+     (impl (path protocol/xmlprotocol.ml)))))))

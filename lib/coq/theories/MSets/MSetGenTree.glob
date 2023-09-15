@@ -1,0 +1,2342 @@
+DIGEST 53931735825ab7d4dc7c068b4cf97b43
+FCoq.MSets.MSetGenTree
+R1442:1447 Coq.funind.FunInd <> <> lib
+R1449:1454 Coq.Structures.Orders <> <> lib
+R1456:1466 Coq.Structures.OrdersFacts <> <> lib
+R1468:1480 Coq.MSets.MSetInterface <> <> lib
+R1482:1489 Coq.Arith.PeanoNat <> <> lib
+R1500:1504 Coq.Arith.Arith <> <> lib
+modtype 1735:1741 <> InfoTyp
+ax 1755:1755 InfoTyp t
+R1768:1774 Coq.MSets.MSetGenTree InfoTyp <> modtype
+R1832:1842 Coq.Structures.Orders OrderedType <> mod
+R1850:1856 Coq.MSets.MSetGenTree InfoTyp <> mod
+modtype 1825:1827 <> Ops
+def 1872:1874 Ops elt
+R1879:1881 Coq.MSets.MSetGenTree X t defax
+R1911:1913 Coq.MSets.MSetGenTree Ops elt def
+ind 1934:1937 Ops tree
+constr 1952:1955 Ops Leaf
+constr 1966:1969 Ops Node
+R1959:1962 Coq.MSets.MSetGenTree <> tree:2 ind
+R1979:1982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1973:1978 Coq.MSets.MSetGenTree Info t defax
+R1987:1990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1986 Coq.MSets.MSetGenTree <> tree:2 ind
+R1994:1997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1991:1993 Coq.MSets.MSetGenTree X t defax
+R2002:2005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1998:2001 Coq.MSets.MSetGenTree <> tree:2 ind
+R2006:2009 Coq.MSets.MSetGenTree <> tree:2 ind
+def 2068:2072 Ops empty
+R2077:2080 Coq.MSets.MSetGenTree Ops Leaf constr
+def 2095:2102 Ops is_empty
+binder 2104:2104 <> t:4
+R2116:2116 Coq.MSets.MSetGenTree <> t:4 var
+R2126:2129 Coq.MSets.MSetGenTree Ops Leaf constr
+R2134:2137 Coq.Init.Datatypes <> true constr
+R2147:2151 Coq.Init.Datatypes <> false constr
+def 2331:2333 Ops mem
+binder 2335:2335 <> x:6
+binder 2337:2337 <> t:7
+R2349:2349 Coq.MSets.MSetGenTree <> t:7 var
+R2359:2362 Coq.MSets.MSetGenTree Ops Leaf constr
+R2367:2371 Coq.Init.Datatypes <> false constr
+R2376:2379 Coq.MSets.MSetGenTree Ops Node constr
+R2401:2409 Coq.MSets.MSetGenTree X compare defax
+R2411:2411 Coq.MSets.MSetGenTree <> x:6 var
+R2427:2428 Coq.Init.Datatypes <> Lt constr
+R2433:2435 Coq.MSets.MSetGenTree <> mem:8 def
+R2437:2437 Coq.MSets.MSetGenTree <> x:6 var
+R2448:2449 Coq.Init.Datatypes <> Eq constr
+R2454:2457 Coq.Init.Datatypes <> true constr
+R2466:2467 Coq.Init.Datatypes <> Gt constr
+R2472:2474 Coq.MSets.MSetGenTree <> mem:8 def
+R2476:2476 Coq.MSets.MSetGenTree <> x:6 var
+def 2551:2557 Ops min_elt
+R2564:2567 Coq.MSets.MSetGenTree Ops tree ind
+binder 2560:2560 <> t:10
+R2572:2577 Coq.Init.Datatypes <> option ind
+R2579:2581 Coq.MSets.MSetGenTree Ops elt def
+R2593:2593 Coq.MSets.MSetGenTree <> t:10 var
+R2603:2606 Coq.MSets.MSetGenTree Ops Leaf constr
+R2611:2614 Coq.Init.Datatypes <> None constr
+R2619:2622 Coq.MSets.MSetGenTree Ops Node constr
+R2626:2629 Coq.MSets.MSetGenTree Ops Leaf constr
+R2638:2641 Coq.Init.Datatypes <> Some constr
+R2648:2651 Coq.MSets.MSetGenTree Ops Node constr
+R2664:2670 Coq.MSets.MSetGenTree <> min_elt:11 def
+def 2690:2696 Ops max_elt
+R2703:2706 Coq.MSets.MSetGenTree Ops tree ind
+binder 2699:2699 <> t:13
+R2711:2716 Coq.Init.Datatypes <> option ind
+R2718:2720 Coq.MSets.MSetGenTree Ops elt def
+R2733:2733 Coq.MSets.MSetGenTree <> t:13 var
+R2744:2747 Coq.MSets.MSetGenTree Ops Leaf constr
+R2752:2755 Coq.Init.Datatypes <> None constr
+R2761:2764 Coq.MSets.MSetGenTree Ops Node constr
+R2772:2775 Coq.MSets.MSetGenTree Ops Leaf constr
+R2780:2783 Coq.Init.Datatypes <> Some constr
+R2791:2794 Coq.MSets.MSetGenTree Ops Node constr
+R2807:2813 Coq.MSets.MSetGenTree <> max_elt:14 def
+def 2836:2841 Ops choose
+R2846:2852 Coq.MSets.MSetGenTree Ops min_elt def
+def 2898:2901 Ops fold
+binder 2904:2904 <> A:16
+R2920:2923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2917:2919 Coq.MSets.MSetGenTree Ops elt def
+R2925:2928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2924:2924 Coq.MSets.MSetGenTree <> A:16 var
+R2929:2929 Coq.MSets.MSetGenTree <> A:16 var
+binder 2914:2914 <> f:17
+R2936:2939 Coq.MSets.MSetGenTree Ops tree ind
+binder 2933:2933 <> t:18
+R2949:2949 Coq.MSets.MSetGenTree <> A:16 var
+binder 2943:2946 <> base:19
+R2954:2954 Coq.MSets.MSetGenTree <> A:16 var
+R2967:2967 Coq.MSets.MSetGenTree <> t:18 var
+R2978:2981 Coq.MSets.MSetGenTree Ops Leaf constr
+R2986:2989 Coq.MSets.MSetGenTree <> base:19 var
+R2995:2998 Coq.MSets.MSetGenTree Ops Node constr
+R3011:3014 Coq.MSets.MSetGenTree <> fold:20 def
+R3021:3021 Coq.MSets.MSetGenTree <> f:17 var
+R3026:3029 Coq.MSets.MSetGenTree <> fold:20 def
+R3035:3038 Coq.MSets.MSetGenTree <> base:19 var
+R3031:3031 Coq.MSets.MSetGenTree <> f:17 var
+R3016:3016 Coq.MSets.MSetGenTree <> f:17 var
+def 3058:3069 Ops elements_aux
+binder 3071:3073 <> acc:22
+binder 3075:3075 <> s:23
+R3088:3088 Coq.MSets.MSetGenTree <> s:23 var
+R3100:3103 Coq.MSets.MSetGenTree Ops Leaf constr
+R3108:3110 Coq.MSets.MSetGenTree <> acc:22 var
+R3117:3120 Coq.MSets.MSetGenTree Ops Node constr
+R3133:3144 Coq.MSets.MSetGenTree <> elements_aux:24 def
+R3148:3151 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3152:3163 Coq.MSets.MSetGenTree <> elements_aux:24 def
+R3165:3167 Coq.MSets.MSetGenTree <> acc:22 var
+def 3193:3200 Ops elements
+R3205:3216 Coq.MSets.MSetGenTree Ops elements_aux def
+R3218:3220 Coq.Init.Datatypes <> nil constr
+def 3233:3248 Ops rev_elements_aux
+binder 3250:3252 <> acc:26
+binder 3254:3254 <> s:27
+R3267:3267 Coq.MSets.MSetGenTree <> s:27 var
+R3279:3282 Coq.MSets.MSetGenTree Ops Leaf constr
+R3287:3289 Coq.MSets.MSetGenTree <> acc:26 var
+R3296:3299 Coq.MSets.MSetGenTree Ops Node constr
+R3312:3327 Coq.MSets.MSetGenTree <> rev_elements_aux:28 def
+R3331:3334 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3335:3350 Coq.MSets.MSetGenTree <> rev_elements_aux:28 def
+R3352:3354 Coq.MSets.MSetGenTree <> acc:26 var
+def 3380:3391 Ops rev_elements
+R3396:3411 Coq.MSets.MSetGenTree Ops rev_elements_aux def
+R3413:3415 Coq.Init.Datatypes <> nil constr
+def 3428:3435 Ops cardinal
+R3442:3445 Coq.MSets.MSetGenTree Ops tree ind
+binder 3438:3438 <> s:30
+R3450:3452 Coq.Init.Datatypes <> nat ind
+R3465:3465 Coq.MSets.MSetGenTree <> s:30 var
+R3477:3480 Coq.MSets.MSetGenTree Ops Leaf constr
+R3492:3495 Coq.MSets.MSetGenTree Ops Node constr
+R3508:3508 Coq.Init.Datatypes <> S constr
+R3521:3523 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3511:3518 Coq.MSets.MSetGenTree <> cardinal:31 def
+R3524:3531 Coq.MSets.MSetGenTree <> cardinal:31 def
+def 3553:3560 Ops maxdepth
+binder 3562:3562 <> s:33
+R3574:3574 Coq.MSets.MSetGenTree <> s:33 var
+R3584:3587 Coq.MSets.MSetGenTree Ops Leaf constr
+R3597:3600 Coq.MSets.MSetGenTree Ops Node constr
+R3613:3613 Coq.Init.Datatypes <> S constr
+R3616:3618 Coq.Init.Peano <> max abbrev
+R3621:3628 Coq.MSets.MSetGenTree <> maxdepth:34 def
+R3634:3641 Coq.MSets.MSetGenTree <> maxdepth:34 def
+def 3663:3670 Ops mindepth
+binder 3672:3672 <> s:36
+R3684:3684 Coq.MSets.MSetGenTree <> s:36 var
+R3694:3697 Coq.MSets.MSetGenTree Ops Leaf constr
+R3707:3710 Coq.MSets.MSetGenTree Ops Node constr
+R3723:3723 Coq.Init.Datatypes <> S constr
+R3726:3728 Coq.Init.Peano <> min abbrev
+R3731:3738 Coq.MSets.MSetGenTree <> mindepth:37 def
+R3744:3751 Coq.MSets.MSetGenTree <> mindepth:37 def
+def 3909:3915 Ops for_all
+R3923:3924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3920:3922 Coq.MSets.MSetGenTree Ops elt def
+R3925:3928 Coq.Init.Datatypes <> bool ind
+binder 3918:3918 <> f:39
+binder 3931:3931 <> s:40
+R3942:3942 Coq.MSets.MSetGenTree <> s:40 var
+R3953:3956 Coq.MSets.MSetGenTree Ops Leaf constr
+R3961:3964 Coq.Init.Datatypes <> true constr
+R3970:3973 Coq.MSets.MSetGenTree Ops Node constr
+R4005:4009 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R4010:4016 Coq.MSets.MSetGenTree <> for_all:41 def
+R4018:4018 Coq.MSets.MSetGenTree <> f:39 var
+R3989:3993 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R3994:4000 Coq.MSets.MSetGenTree <> for_all:41 def
+R4002:4002 Coq.MSets.MSetGenTree <> f:39 var
+R3986:3986 Coq.MSets.MSetGenTree <> f:39 var
+def 4037:4043 Ops exists_
+R4051:4052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4048:4050 Coq.MSets.MSetGenTree Ops elt def
+R4053:4056 Coq.Init.Datatypes <> bool ind
+binder 4046:4046 <> f:43
+binder 4059:4059 <> s:44
+R4070:4070 Coq.MSets.MSetGenTree <> s:44 var
+R4081:4084 Coq.MSets.MSetGenTree Ops Leaf constr
+R4089:4093 Coq.Init.Datatypes <> false constr
+R4099:4102 Coq.MSets.MSetGenTree Ops Node constr
+R4134:4138 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R4139:4145 Coq.MSets.MSetGenTree <> exists_:45 def
+R4147:4147 Coq.MSets.MSetGenTree <> f:43 var
+R4118:4122 Coq.Bool.Bool <> ::lazy_bool_scope:x_'|||'_x not
+R4123:4129 Coq.MSets.MSetGenTree <> exists_:45 def
+R4131:4131 Coq.MSets.MSetGenTree <> f:43 var
+R4115:4115 Coq.MSets.MSetGenTree <> f:43 var
+ind 4732:4742 Ops enumeration
+constr 4750:4752 Ops End
+constr 4771:4774 Ops More
+R4756:4766 Coq.MSets.MSetGenTree <> enumeration:47 ind
+R4781:4784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4778:4780 Coq.MSets.MSetGenTree Ops elt def
+R4789:4792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4785:4788 Coq.MSets.MSetGenTree Ops tree ind
+R4804:4807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4793:4803 Coq.MSets.MSetGenTree <> enumeration:47 ind
+R4808:4818 Coq.MSets.MSetGenTree <> enumeration:47 ind
+def 4917:4920 Ops cons
+binder 4922:4922 <> s:49
+binder 4924:4924 <> e:50
+R4928:4938 Coq.MSets.MSetGenTree Ops enumeration ind
+R4950:4950 Coq.MSets.MSetGenTree <> s:49 var
+R4961:4964 Coq.MSets.MSetGenTree Ops Leaf constr
+R4969:4969 Coq.MSets.MSetGenTree <> e:50 var
+R4975:4978 Coq.MSets.MSetGenTree Ops Node constr
+R4991:4994 Coq.MSets.MSetGenTree <> cons:51 def
+R4999:5002 Coq.MSets.MSetGenTree Ops More constr
+R5008:5008 Coq.MSets.MSetGenTree <> e:50 var
+def 5072:5083 Ops compare_more
+binder 5085:5086 <> x1:53
+R5105:5106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5094:5104 Coq.MSets.MSetGenTree Ops enumeration ind
+R5107:5116 Coq.Init.Datatypes <> comparison ind
+binder 5089:5092 <> cont:54
+binder 5119:5120 <> e2:55
+R5132:5133 Coq.MSets.MSetGenTree <> e2:55 var
+R5143:5145 Coq.MSets.MSetGenTree Ops End constr
+R5150:5151 Coq.Init.Datatypes <> Gt constr
+R5156:5159 Coq.MSets.MSetGenTree Ops More constr
+R5184:5192 Coq.MSets.MSetGenTree X compare defax
+R5194:5195 Coq.MSets.MSetGenTree <> x1:53 var
+R5213:5214 Coq.Init.Datatypes <> Eq constr
+R5219:5222 Coq.MSets.MSetGenTree <> cont:54 var
+R5225:5228 Coq.MSets.MSetGenTree Ops cons def
+R5233:5234 Coq.MSets.MSetGenTree <> e2:55 var
+R5245:5246 Coq.Init.Datatypes <> Lt constr
+R5251:5252 Coq.Init.Datatypes <> Lt constr
+R5262:5263 Coq.Init.Datatypes <> Gt constr
+R5268:5269 Coq.Init.Datatypes <> Gt constr
+def 5361:5372 Ops compare_cont
+binder 5374:5375 <> s1:57
+R5394:5395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5383:5393 Coq.MSets.MSetGenTree Ops enumeration ind
+R5396:5405 Coq.Init.Datatypes <> comparison ind
+binder 5378:5381 <> cont:58
+binder 5408:5409 <> e2:59
+R5421:5422 Coq.MSets.MSetGenTree <> s1:57 var
+R5433:5436 Coq.MSets.MSetGenTree Ops Leaf constr
+R5441:5444 Coq.MSets.MSetGenTree <> cont:58 var
+R5446:5447 Coq.MSets.MSetGenTree <> e2:59 var
+R5453:5456 Coq.MSets.MSetGenTree Ops Node constr
+R5477:5488 Coq.MSets.MSetGenTree <> compare_cont:60 def
+R5534:5535 Coq.MSets.MSetGenTree <> e2:59 var
+R5494:5505 Coq.MSets.MSetGenTree Ops compare_more def
+R5511:5522 Coq.MSets.MSetGenTree <> compare_cont:60 def
+R5527:5530 Coq.MSets.MSetGenTree <> cont:58 var
+def 5585:5595 Ops compare_end
+binder 5597:5598 <> e2:62
+R5610:5611 Coq.MSets.MSetGenTree <> e2:62 var
+R5618:5620 Coq.MSets.MSetGenTree Ops End constr
+R5625:5626 Coq.Init.Datatypes <> Eq constr
+R5635:5636 Coq.Init.Datatypes <> Lt constr
+def 5687:5693 Ops compare
+binder 5695:5696 <> s1:64
+binder 5698:5699 <> s2:65
+R5704:5715 Coq.MSets.MSetGenTree Ops compare_cont def
+R5717:5718 Coq.MSets.MSetGenTree <> s1:64 var
+R5720:5730 Coq.MSets.MSetGenTree Ops compare_end def
+R5733:5736 Coq.MSets.MSetGenTree Ops cons def
+R5738:5739 Coq.MSets.MSetGenTree <> s2:65 var
+R5741:5743 Coq.MSets.MSetGenTree Ops End constr
+def 5759:5763 Ops equal
+binder 5765:5766 <> s1:66
+binder 5768:5769 <> s2:67
+R5781:5787 Coq.MSets.MSetGenTree Ops compare def
+R5789:5790 Coq.MSets.MSetGenTree <> s1:66 var
+R5792:5793 Coq.MSets.MSetGenTree <> s2:67 var
+R5800:5801 Coq.Init.Datatypes <> Eq constr
+R5806:5809 Coq.Init.Datatypes <> true constr
+R5818:5822 Coq.Init.Datatypes <> false constr
+def 6351:6357 Ops subsetl
+R6376:6379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6372:6375 Coq.MSets.MSetGenTree Ops tree ind
+R6380:6383 Coq.Init.Datatypes <> bool ind
+binder 6360:6368 <> subset_l1:68
+binder 6386:6387 <> x1:69
+binder 6389:6390 <> s2:70
+R6394:6397 Coq.Init.Datatypes <> bool ind
+R6409:6410 Coq.MSets.MSetGenTree <> s2:70 var
+R6421:6424 Coq.MSets.MSetGenTree Ops Leaf constr
+R6429:6433 Coq.Init.Datatypes <> false constr
+R6439:6442 Coq.MSets.MSetGenTree Ops Node constr
+R6469:6477 Coq.MSets.MSetGenTree X compare defax
+R6479:6480 Coq.MSets.MSetGenTree <> x1:69 var
+R6498:6499 Coq.Init.Datatypes <> Eq constr
+R6504:6512 Coq.MSets.MSetGenTree <> subset_l1:68 var
+R6525:6526 Coq.Init.Datatypes <> Lt constr
+R6531:6537 Coq.MSets.MSetGenTree <> subsetl:71 def
+R6549:6550 Coq.MSets.MSetGenTree <> x1:69 var
+R6539:6547 Coq.MSets.MSetGenTree <> subset_l1:68 var
+R6563:6564 Coq.Init.Datatypes <> Gt constr
+R6578:6582 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R6583:6591 Coq.MSets.MSetGenTree <> subset_l1:68 var
+R6593:6594 Coq.MSets.MSetGenTree <> s2:70 var
+R6569:6571 Coq.MSets.MSetGenTree Ops mem def
+R6573:6574 Coq.MSets.MSetGenTree <> x1:69 var
+def 6621:6627 Ops subsetr
+R6646:6649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6642:6645 Coq.MSets.MSetGenTree Ops tree ind
+R6650:6653 Coq.Init.Datatypes <> bool ind
+binder 6630:6638 <> subset_r1:73
+binder 6656:6657 <> x1:74
+binder 6659:6660 <> s2:75
+R6664:6667 Coq.Init.Datatypes <> bool ind
+R6679:6680 Coq.MSets.MSetGenTree <> s2:75 var
+R6691:6694 Coq.MSets.MSetGenTree Ops Leaf constr
+R6699:6703 Coq.Init.Datatypes <> false constr
+R6709:6712 Coq.MSets.MSetGenTree Ops Node constr
+R6739:6747 Coq.MSets.MSetGenTree X compare defax
+R6749:6750 Coq.MSets.MSetGenTree <> x1:74 var
+R6768:6769 Coq.Init.Datatypes <> Eq constr
+R6774:6782 Coq.MSets.MSetGenTree <> subset_r1:73 var
+R6795:6796 Coq.Init.Datatypes <> Lt constr
+R6810:6814 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R6815:6823 Coq.MSets.MSetGenTree <> subset_r1:73 var
+R6825:6826 Coq.MSets.MSetGenTree <> s2:75 var
+R6801:6803 Coq.MSets.MSetGenTree Ops mem def
+R6805:6806 Coq.MSets.MSetGenTree <> x1:74 var
+R6836:6837 Coq.Init.Datatypes <> Gt constr
+R6842:6848 Coq.MSets.MSetGenTree <> subsetr:76 def
+R6860:6861 Coq.MSets.MSetGenTree <> x1:74 var
+R6850:6858 Coq.MSets.MSetGenTree <> subset_r1:73 var
+def 6891:6896 Ops subset
+binder 6898:6899 <> s1:78
+binder 6901:6902 <> s2:79
+R6906:6909 Coq.Init.Datatypes <> bool ind
+R6924:6925 Coq.MSets.MSetGenTree <> s2:79 var
+R6920:6921 Coq.MSets.MSetGenTree <> s1:78 var
+R6936:6939 Coq.MSets.MSetGenTree Ops Leaf constr
+R6947:6950 Coq.Init.Datatypes <> true constr
+R6956:6959 Coq.MSets.MSetGenTree Ops Node constr
+R6970:6973 Coq.MSets.MSetGenTree Ops Leaf constr
+R6978:6982 Coq.Init.Datatypes <> false constr
+R6988:6991 Coq.MSets.MSetGenTree Ops Node constr
+R7005:7008 Coq.MSets.MSetGenTree Ops Node constr
+R7035:7043 Coq.MSets.MSetGenTree X compare defax
+R7064:7065 Coq.Init.Datatypes <> Eq constr
+R7082:7086 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7087:7092 Coq.MSets.MSetGenTree <> subset:80 def
+R7070:7075 Coq.MSets.MSetGenTree <> subset:80 def
+R7108:7109 Coq.Init.Datatypes <> Lt constr
+R7139:7143 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7144:7149 Coq.MSets.MSetGenTree <> subset:80 def
+R7154:7155 Coq.MSets.MSetGenTree <> s2:79 var
+R7114:7120 Coq.MSets.MSetGenTree Ops subsetl def
+R7123:7128 Coq.MSets.MSetGenTree <> subset:80 def
+R7165:7166 Coq.Init.Datatypes <> Gt constr
+R7196:7200 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R7201:7206 Coq.MSets.MSetGenTree <> subset:80 def
+R7211:7212 Coq.MSets.MSetGenTree <> s2:79 var
+R7171:7177 Coq.MSets.MSetGenTree Ops subsetr def
+R7180:7185 Coq.MSets.MSetGenTree <> subset:80 def
+R7234:7236 Coq.MSets.MSetGenTree Ops <> modtype
+R7326:7336 Coq.Structures.Orders OrderedType <> mod
+R7344:7350 Coq.MSets.MSetGenTree InfoTyp <> mod
+R7362:7364 Coq.MSets.MSetGenTree Ops <> mod
+R7366:7366 Coq.MSets.MSetGenTree X <> modtype
+R7368:7371 Coq.MSets.MSetGenTree Info <> modtype
+modtype 7317:7321 <> Props
+R7317:7321 Coq.MSets.MSetGenTree M <> mod
+ind 7418:7420 Props InT
+constr 7454:7459 Props IsRoot
+constr 7516:7521 Props InLeft
+constr 7577:7583 Props InRight
+R7427:7429 Coq.MSets.MSetGenTree M elt def
+binder 7423:7423 <> x:83
+R7438:7441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7434:7437 Coq.MSets.MSetGenTree M tree ind
+binder 7470:7470 <> c:86
+binder 7472:7472 <> l:87
+binder 7474:7474 <> r:88
+binder 7476:7476 <> y:89
+R7487:7490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7479:7482 Coq.MSets.MSetGenTree X eq defax
+R7486:7486 Coq.MSets.MSetGenTree <> y:89 var
+R7484:7484 Coq.MSets.MSetGenTree <> x:83 var
+R7491:7493 Coq.MSets.MSetGenTree <> InT:84 ind
+R7498:7501 Coq.MSets.MSetGenTree M Node constr
+R7503:7503 Coq.MSets.MSetGenTree <> c:86 var
+R7505:7505 Coq.MSets.MSetGenTree <> l:87 var
+R7507:7507 Coq.MSets.MSetGenTree <> y:89 var
+R7509:7509 Coq.MSets.MSetGenTree <> r:88 var
+R7495:7495 Coq.MSets.MSetGenTree <> x:83 var
+binder 7532:7532 <> c:90
+binder 7534:7534 <> l:91
+binder 7536:7536 <> r:92
+binder 7538:7538 <> y:93
+R7548:7551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7541:7543 Coq.MSets.MSetGenTree <> InT:84 ind
+R7547:7547 Coq.MSets.MSetGenTree <> l:91 var
+R7545:7545 Coq.MSets.MSetGenTree <> x:83 var
+R7552:7554 Coq.MSets.MSetGenTree <> InT:84 ind
+R7559:7562 Coq.MSets.MSetGenTree M Node constr
+R7564:7564 Coq.MSets.MSetGenTree <> c:90 var
+R7566:7566 Coq.MSets.MSetGenTree <> l:91 var
+R7568:7568 Coq.MSets.MSetGenTree <> y:93 var
+R7570:7570 Coq.MSets.MSetGenTree <> r:92 var
+R7556:7556 Coq.MSets.MSetGenTree <> x:83 var
+binder 7594:7594 <> c:94
+binder 7596:7596 <> l:95
+binder 7598:7598 <> r:96
+binder 7600:7600 <> y:97
+R7610:7613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7603:7605 Coq.MSets.MSetGenTree <> InT:84 ind
+R7609:7609 Coq.MSets.MSetGenTree <> r:96 var
+R7607:7607 Coq.MSets.MSetGenTree <> x:83 var
+R7614:7616 Coq.MSets.MSetGenTree <> InT:84 ind
+R7621:7624 Coq.MSets.MSetGenTree M Node constr
+R7626:7626 Coq.MSets.MSetGenTree <> c:94 var
+R7628:7628 Coq.MSets.MSetGenTree <> l:95 var
+R7630:7630 Coq.MSets.MSetGenTree <> y:97 var
+R7632:7632 Coq.MSets.MSetGenTree <> r:96 var
+R7618:7618 Coq.MSets.MSetGenTree <> x:83 var
+def 7648:7649 Props In
+R7654:7656 Coq.MSets.MSetGenTree Props InT ind
+def 7697:7701 Props Equal
+binder 7703:7703 <> s:98
+binder 7705:7706 <> s':99
+R7722:7724 Coq.MSets.MSetGenTree M elt def
+binder 7718:7718 <> a:100
+R7734:7738 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7727:7729 Coq.MSets.MSetGenTree Props InT ind
+R7731:7731 Coq.MSets.MSetGenTree <> a:100 var
+R7733:7733 Coq.MSets.MSetGenTree <> s:98 var
+R7739:7741 Coq.MSets.MSetGenTree Props InT ind
+R7743:7743 Coq.MSets.MSetGenTree <> a:100 var
+R7745:7746 Coq.MSets.MSetGenTree <> s':99 var
+def 7760:7765 Props Subset
+binder 7767:7767 <> s:101
+binder 7769:7770 <> s':102
+R7786:7788 Coq.MSets.MSetGenTree M elt def
+binder 7782:7782 <> a:103
+R7798:7801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7791:7793 Coq.MSets.MSetGenTree Props InT ind
+R7795:7795 Coq.MSets.MSetGenTree <> a:103 var
+R7797:7797 Coq.MSets.MSetGenTree <> s:101 var
+R7802:7804 Coq.MSets.MSetGenTree Props InT ind
+R7806:7806 Coq.MSets.MSetGenTree <> a:103 var
+R7808:7809 Coq.MSets.MSetGenTree <> s':102 var
+def 7823:7827 Props Empty
+binder 7829:7829 <> s:104
+R7845:7847 Coq.MSets.MSetGenTree M elt def
+binder 7841:7841 <> a:105
+R7850:7851 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7852:7854 Coq.MSets.MSetGenTree Props InT ind
+R7856:7856 Coq.MSets.MSetGenTree <> a:105 var
+R7858:7858 Coq.MSets.MSetGenTree <> s:104 var
+def 7872:7878 Props For_all
+R7888:7891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7885:7887 Coq.MSets.MSetGenTree M elt def
+binder 7881:7881 <> P:106
+binder 7898:7898 <> s:107
+binder 7910:7910 <> x:108
+R7920:7923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7913:7915 Coq.MSets.MSetGenTree Props InT ind
+R7917:7917 Coq.MSets.MSetGenTree <> x:108 var
+R7919:7919 Coq.MSets.MSetGenTree <> s:107 var
+R7924:7924 Coq.MSets.MSetGenTree <> P:106 var
+R7926:7926 Coq.MSets.MSetGenTree <> x:108 var
+def 7940:7945 Props Exists
+R7955:7958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7952:7954 Coq.MSets.MSetGenTree M elt def
+binder 7948:7948 <> P:109
+binder 7965:7965 <> s:110
+R7970:7976 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7978:7979 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7977:7977 <> x:111
+R7987:7990 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7980:7982 Coq.MSets.MSetGenTree Props InT ind
+R7984:7984 Coq.MSets.MSetGenTree <> x:111 var
+R7986:7986 Coq.MSets.MSetGenTree <> s:110 var
+R7991:7991 Coq.MSets.MSetGenTree <> P:109 var
+R7993:7993 Coq.MSets.MSetGenTree <> x:111 var
+def 8136:8142 Props lt_tree
+binder 8144:8144 <> x:112
+binder 8146:8146 <> s:113
+binder 8158:8158 <> y:114
+R8168:8171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8161:8163 Coq.MSets.MSetGenTree Props InT ind
+R8165:8165 Coq.MSets.MSetGenTree <> y:114 var
+R8167:8167 Coq.MSets.MSetGenTree <> s:113 var
+R8172:8175 Coq.MSets.MSetGenTree X lt defax
+R8179:8179 Coq.MSets.MSetGenTree <> x:112 var
+R8177:8177 Coq.MSets.MSetGenTree <> y:114 var
+def 8193:8199 Props gt_tree
+binder 8201:8201 <> x:115
+binder 8203:8203 <> s:116
+binder 8215:8215 <> y:117
+R8225:8228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8218:8220 Coq.MSets.MSetGenTree Props InT ind
+R8222:8222 Coq.MSets.MSetGenTree <> y:117 var
+R8224:8224 Coq.MSets.MSetGenTree <> s:116 var
+R8229:8232 Coq.MSets.MSetGenTree X lt defax
+R8236:8236 Coq.MSets.MSetGenTree <> y:117 var
+R8234:8234 Coq.MSets.MSetGenTree <> x:115 var
+ind 8296:8298 Props bst
+constr 8322:8327 Props BSLeaf
+constr 8344:8349 Props BSNode
+R8306:8309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8302:8305 Coq.MSets.MSetGenTree M tree ind
+R8331:8333 Coq.MSets.MSetGenTree <> bst:118 ind
+R8335:8338 Coq.MSets.MSetGenTree M Leaf constr
+binder 8360:8360 <> c:120
+binder 8362:8362 <> x:121
+binder 8364:8364 <> l:122
+binder 8366:8366 <> r:123
+R8374:8377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8369:8371 Coq.MSets.MSetGenTree <> bst:118 ind
+R8373:8373 Coq.MSets.MSetGenTree <> l:122 var
+R8383:8391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8378:8380 Coq.MSets.MSetGenTree <> bst:118 ind
+R8382:8382 Coq.MSets.MSetGenTree <> r:123 var
+R8403:8406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8392:8398 Coq.MSets.MSetGenTree Props lt_tree def
+R8400:8400 Coq.MSets.MSetGenTree <> x:121 var
+R8402:8402 Coq.MSets.MSetGenTree <> l:122 var
+R8418:8421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8407:8413 Coq.MSets.MSetGenTree Props gt_tree def
+R8415:8415 Coq.MSets.MSetGenTree <> x:121 var
+R8417:8417 Coq.MSets.MSetGenTree <> r:123 var
+R8422:8424 Coq.MSets.MSetGenTree <> bst:118 ind
+R8427:8430 Coq.MSets.MSetGenTree M Node constr
+R8432:8432 Coq.MSets.MSetGenTree <> c:120 var
+R8434:8434 Coq.MSets.MSetGenTree <> l:122 var
+R8436:8436 Coq.MSets.MSetGenTree <> x:121 var
+R8438:8438 Coq.MSets.MSetGenTree <> r:123 var
+def 8529:8532 Props IsOk
+R8537:8539 Coq.MSets.MSetGenTree Props bst ind
+ind 8549:8550 Props Ok
+constr 8571:8572 Props ok
+rec 8549:8550 Props Ok
+proj 8571:8572 Props ok
+R8555:8558 Coq.MSets.MSetGenTree M tree ind
+binder 8553:8553 <> s:124
+R8576:8578 Coq.MSets.MSetGenTree Props bst ind
+R8580:8580 Coq.MSets.MSetGenTree <> s:124 var
+inst 8603:8608 Props bst_Ok
+binder 8610:8610 <> s:127
+R8618:8620 Coq.MSets.MSetGenTree Props bst ind
+R8622:8622 Coq.MSets.MSetGenTree <> s:127 var
+binder 8613:8614 <> Hs:128
+R8627:8628 Coq.MSets.MSetGenTree Props Ok class
+R8630:8630 Coq.MSets.MSetGenTree <> s:127 var
+R8637:8638 Coq.MSets.MSetGenTree Props ok def
+def 8659:8666 Props ltb_tree
+binder 8668:8668 <> x:129
+binder 8670:8670 <> s:130
+R8682:8682 Coq.MSets.MSetGenTree <> s:130 var
+R8693:8696 Coq.MSets.MSetGenTree M Leaf constr
+R8701:8704 Coq.Init.Datatypes <> true constr
+R8710:8713 Coq.MSets.MSetGenTree M Node constr
+R8737:8745 Coq.MSets.MSetGenTree X compare defax
+R8747:8747 Coq.MSets.MSetGenTree <> x:129 var
+R8764:8765 Coq.Init.Datatypes <> Gt constr
+R8782:8785 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8770:8777 Coq.MSets.MSetGenTree <> ltb_tree:131 def
+R8779:8779 Coq.MSets.MSetGenTree <> x:129 var
+R8786:8793 Coq.MSets.MSetGenTree <> ltb_tree:131 def
+R8795:8795 Coq.MSets.MSetGenTree <> x:129 var
+R8812:8816 Coq.Init.Datatypes <> false constr
+def 8843:8850 Props gtb_tree
+binder 8852:8852 <> x:133
+binder 8854:8854 <> s:134
+R8866:8866 Coq.MSets.MSetGenTree <> s:134 var
+R8877:8880 Coq.MSets.MSetGenTree M Leaf constr
+R8885:8888 Coq.Init.Datatypes <> true constr
+R8894:8897 Coq.MSets.MSetGenTree M Node constr
+R8921:8929 Coq.MSets.MSetGenTree X compare defax
+R8931:8931 Coq.MSets.MSetGenTree <> x:133 var
+R8948:8949 Coq.Init.Datatypes <> Lt constr
+R8966:8969 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R8954:8961 Coq.MSets.MSetGenTree <> gtb_tree:135 def
+R8963:8963 Coq.MSets.MSetGenTree <> x:133 var
+R8970:8977 Coq.MSets.MSetGenTree <> gtb_tree:135 def
+R8979:8979 Coq.MSets.MSetGenTree <> x:133 var
+R8996:9000 Coq.Init.Datatypes <> false constr
+def 9027:9030 Props isok
+binder 9032:9032 <> s:137
+R9044:9044 Coq.MSets.MSetGenTree <> s:137 var
+R9055:9058 Coq.MSets.MSetGenTree M Leaf constr
+R9063:9066 Coq.Init.Datatypes <> true constr
+R9072:9075 Coq.MSets.MSetGenTree M Node constr
+R9121:9124 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9105:9108 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9095:9098 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9089:9092 Coq.MSets.MSetGenTree <> isok:138 def
+R9099:9102 Coq.MSets.MSetGenTree <> isok:138 def
+R9109:9116 Coq.MSets.MSetGenTree Props ltb_tree def
+R9125:9132 Coq.MSets.MSetGenTree Props gtb_tree def
+R9209:9224 Coq.Structures.OrdersFacts OrderedTypeFacts <> modtype
+R9226:9226 Coq.MSets.MSetGenTree X <> modtype
+mod 9203:9204 <> Props.MX
+def 9281:9288 Props tree_ind
+R9307:9310 Coq.MSets.MSetGenTree M tree ind
+def 9330:9336 Props bst_ind
+R9355:9357 Coq.MSets.MSetGenTree Props bst ind
+R9493:9494 Coq.MSets.MSetGenTree Props In def
+R9496:9502 Coq.MSets.MSetGenTree Props lt_tree def
+R9504:9510 Coq.MSets.MSetGenTree Props gt_tree def
+R9544:9546 Coq.MSets.MSetGenTree <> InT ind
+R9548:9550 Coq.MSets.MSetGenTree <> bst ind
+R9578:9579 Coq.MSets.MSetGenTree Props Ok class
+R9729:9730 Coq.MSets.MSetGenTree Props Ok class
+R9733:9736 Coq.MSets.MSetGenTree M Node constr
+R9729:9730 Coq.MSets.MSetGenTree Props Ok class
+R9733:9736 Coq.MSets.MSetGenTree M Node constr
+R9786:9787 Coq.MSets.MSetGenTree Props Ok class
+R9789:9792 Coq.MSets.MSetGenTree M Leaf constr
+R9786:9787 Coq.MSets.MSetGenTree Props Ok class
+R9789:9792 Coq.MSets.MSetGenTree M Leaf constr
+R9823:9825 Coq.MSets.MSetGenTree Props bst ind
+R9823:9825 Coq.MSets.MSetGenTree Props bst ind
+R9846:9847 Coq.MSets.MSetGenTree Props Ok class
+R10024:10027 Coq.MSets.MSetGenTree M Leaf constr
+R10024:10027 Coq.MSets.MSetGenTree M Leaf constr
+R10043:10046 Coq.MSets.MSetGenTree M Node constr
+R10043:10046 Coq.MSets.MSetGenTree M Node constr
+R10532:10538 Coq.MSets.MSetGenTree Props lt_tree def
+R10532:10538 Coq.MSets.MSetGenTree Props lt_tree def
+R10549:10551 Coq.MSets.MSetGenTree Props InT ind
+R10549:10551 Coq.MSets.MSetGenTree Props InT ind
+R10607:10613 Coq.MSets.MSetGenTree Props gt_tree def
+R10607:10613 Coq.MSets.MSetGenTree Props gt_tree def
+R10624:10626 Coq.MSets.MSetGenTree Props InT ind
+R10624:10626 Coq.MSets.MSetGenTree Props InT ind
+prf 10761:10772 Props ltb_tree_iff
+binder 10783:10783 <> x:140
+binder 10785:10785 <> s:141
+R10799:10803 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10788:10794 Coq.MSets.MSetGenTree Props lt_tree def
+R10796:10796 Coq.MSets.MSetGenTree <> x:140 var
+R10798:10798 Coq.MSets.MSetGenTree <> s:141 var
+R10816:10818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10804:10811 Coq.MSets.MSetGenTree Props ltb_tree def
+R10813:10813 Coq.MSets.MSetGenTree <> x:140 var
+R10815:10815 Coq.MSets.MSetGenTree <> s:141 var
+R10819:10822 Coq.Init.Datatypes <> true constr
+R10883:10889 Coq.MSets.MSetGenTree Props lt_tree def
+R10967:10970 Coq.MSets.MSetGenTree X lt defax
+R10967:10970 Coq.MSets.MSetGenTree X lt defax
+R11035:11038 Coq.MSets.MSetGenTree X lt defax
+R11035:11038 Coq.MSets.MSetGenTree X lt defax
+R11071:11083 Coq.Bool.Bool <> andb_true_iff thm
+R11071:11083 Coq.Bool.Bool <> andb_true_iff thm
+R11071:11083 Coq.Bool.Bool <> andb_true_iff thm
+R11071:11083 Coq.Bool.Bool <> andb_true_iff thm
+R11109:11115 Coq.MSets.MSetGenTree Props lt_tree def
+prf 11151:11162 Props gtb_tree_iff
+binder 11173:11173 <> x:142
+binder 11175:11175 <> s:143
+R11189:11193 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11178:11184 Coq.MSets.MSetGenTree Props gt_tree def
+R11186:11186 Coq.MSets.MSetGenTree <> x:142 var
+R11188:11188 Coq.MSets.MSetGenTree <> s:143 var
+R11206:11208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11194:11201 Coq.MSets.MSetGenTree Props gtb_tree def
+R11203:11203 Coq.MSets.MSetGenTree <> x:142 var
+R11205:11205 Coq.MSets.MSetGenTree <> s:143 var
+R11209:11212 Coq.Init.Datatypes <> true constr
+R11273:11279 Coq.MSets.MSetGenTree Props gt_tree def
+R11357:11360 Coq.MSets.MSetGenTree X lt defax
+R11357:11360 Coq.MSets.MSetGenTree X lt defax
+R11393:11405 Coq.Bool.Bool <> andb_true_iff thm
+R11393:11405 Coq.Bool.Bool <> andb_true_iff thm
+R11393:11405 Coq.Bool.Bool <> andb_true_iff thm
+R11393:11405 Coq.Bool.Bool <> andb_true_iff thm
+R11431:11437 Coq.MSets.MSetGenTree Props gt_tree def
+R11503:11506 Coq.MSets.MSetGenTree X lt defax
+R11503:11506 Coq.MSets.MSetGenTree X lt defax
+prf 11541:11548 Props isok_iff
+binder 11559:11559 <> s:144
+R11566:11570 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11562:11563 Coq.MSets.MSetGenTree Props Ok class
+R11565:11565 Coq.MSets.MSetGenTree <> s:144 var
+R11577:11579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11571:11574 Coq.MSets.MSetGenTree Props isok def
+R11576:11576 Coq.MSets.MSetGenTree <> s:144 var
+R11580:11583 Coq.Init.Datatypes <> true constr
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11694:11705 Coq.MSets.MSetGenTree Props ltb_tree_iff thm
+R11711:11722 Coq.MSets.MSetGenTree Props gtb_tree_iff thm
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11661:11673 Coq.Bool.Bool <> andb_true_iff thm
+R11694:11705 Coq.MSets.MSetGenTree Props ltb_tree_iff thm
+R11694:11705 Coq.MSets.MSetGenTree Props ltb_tree_iff thm
+R11711:11722 Coq.MSets.MSetGenTree Props gtb_tree_iff thm
+R11711:11722 Coq.MSets.MSetGenTree Props gtb_tree_iff thm
+inst 11765:11771 Props isok_Ok
+binder 11773:11773 <> s:145
+R11790:11793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11783:11785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11777:11780 Coq.MSets.MSetGenTree Props isok def
+R11782:11782 Coq.MSets.MSetGenTree <> s:145 var
+R11786:11789 Coq.Init.Datatypes <> true constr
+R11794:11795 Coq.MSets.MSetGenTree Props Ok class
+R11797:11797 Coq.MSets.MSetGenTree <> s:145 var
+R11829:11836 Coq.MSets.MSetGenTree Props isok_iff thm
+R11829:11836 Coq.MSets.MSetGenTree Props isok_iff thm
+prf 11893:11896 Props In_1
+binder 11908:11908 <> s:146
+binder 11910:11910 <> x:147
+binder 11912:11912 <> y:148
+R11923:11926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11915:11918 Coq.MSets.MSetGenTree X eq defax
+R11922:11922 Coq.MSets.MSetGenTree <> y:148 var
+R11920:11920 Coq.MSets.MSetGenTree <> x:147 var
+R11934:11937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11927:11929 Coq.MSets.MSetGenTree Props InT ind
+R11931:11931 Coq.MSets.MSetGenTree <> x:147 var
+R11933:11933 Coq.MSets.MSetGenTree <> s:146 var
+R11938:11940 Coq.MSets.MSetGenTree Props InT ind
+R11942:11942 Coq.MSets.MSetGenTree <> y:148 var
+R11944:11944 Coq.MSets.MSetGenTree <> s:146 var
+inst 12055:12063 Props In_compat
+R12067:12072 Coq.Classes.Morphisms <> Proper class
+R12092:12094 Coq.MSets.MSetGenTree Props InT ind
+R12079:12081 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12075:12078 Coq.MSets.MSetGenTree X eq defax
+R12084:12086 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12082:12083 Coq.Init.Logic <> eq ind
+R12087:12089 Coq.Init.Logic <> iff def
+R12110:12130 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R12110:12130 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R12179:12182 Coq.MSets.MSetGenTree Props In_1 thm
+R12179:12182 Coq.MSets.MSetGenTree Props In_1 thm
+prf 12210:12220 Props In_node_iff
+binder 12232:12232 <> c:149
+binder 12234:12234 <> l:150
+binder 12236:12236 <> x:151
+binder 12238:12238 <> r:152
+binder 12240:12240 <> y:153
+R12265:12269 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12245:12247 Coq.MSets.MSetGenTree Props InT ind
+R12249:12249 Coq.MSets.MSetGenTree <> y:153 var
+R12252:12255 Coq.MSets.MSetGenTree M Node constr
+R12257:12257 Coq.MSets.MSetGenTree <> c:149 var
+R12259:12259 Coq.MSets.MSetGenTree <> l:150 var
+R12261:12261 Coq.MSets.MSetGenTree <> x:151 var
+R12263:12263 Coq.MSets.MSetGenTree <> r:152 var
+R12277:12280 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12270:12272 Coq.MSets.MSetGenTree Props InT ind
+R12274:12274 Coq.MSets.MSetGenTree <> y:153 var
+R12276:12276 Coq.MSets.MSetGenTree <> l:150 var
+R12289:12292 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12281:12284 Coq.MSets.MSetGenTree X eq defax
+R12288:12288 Coq.MSets.MSetGenTree <> x:151 var
+R12286:12286 Coq.MSets.MSetGenTree <> y:153 var
+R12293:12295 Coq.MSets.MSetGenTree Props InT ind
+R12297:12297 Coq.MSets.MSetGenTree <> y:153 var
+R12299:12299 Coq.MSets.MSetGenTree <> r:152 var
+prf 12336:12346 Props In_leaf_iff
+binder 12357:12357 <> x:154
+R12370:12374 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12360:12362 Coq.MSets.MSetGenTree Props InT ind
+R12364:12364 Coq.MSets.MSetGenTree <> x:154 var
+R12366:12369 Coq.MSets.MSetGenTree M Leaf constr
+R12375:12379 Coq.Init.Logic <> False ind
+prf 12462:12468 Props lt_leaf
+R12483:12485 Coq.MSets.MSetGenTree M elt def
+binder 12479:12479 <> x:155
+R12488:12494 Coq.MSets.MSetGenTree Props lt_tree def
+R12496:12496 Coq.MSets.MSetGenTree <> x:155 var
+R12498:12501 Coq.MSets.MSetGenTree M Leaf constr
+prf 12542:12548 Props gt_leaf
+R12563:12565 Coq.MSets.MSetGenTree M elt def
+binder 12559:12559 <> x:156
+R12568:12574 Coq.MSets.MSetGenTree Props gt_tree def
+R12576:12576 Coq.MSets.MSetGenTree <> x:156 var
+R12578:12581 Coq.MSets.MSetGenTree M Leaf constr
+prf 12622:12633 Props lt_tree_node
+R12652:12654 Coq.MSets.MSetGenTree M elt def
+binder 12646:12646 <> x:157
+binder 12648:12648 <> y:158
+R12664:12667 Coq.MSets.MSetGenTree M tree ind
+binder 12658:12658 <> l:159
+binder 12660:12660 <> r:160
+R12675:12680 Coq.MSets.MSetGenTree Info t defax
+binder 12671:12671 <> i:161
+R12696:12699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12685:12691 Coq.MSets.MSetGenTree Props lt_tree def
+R12693:12693 Coq.MSets.MSetGenTree <> x:157 var
+R12695:12695 Coq.MSets.MSetGenTree <> l:159 var
+R12711:12714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12700:12706 Coq.MSets.MSetGenTree Props lt_tree def
+R12708:12708 Coq.MSets.MSetGenTree <> x:157 var
+R12710:12710 Coq.MSets.MSetGenTree <> r:160 var
+R12723:12726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12715:12718 Coq.MSets.MSetGenTree X lt defax
+R12722:12722 Coq.MSets.MSetGenTree <> x:157 var
+R12720:12720 Coq.MSets.MSetGenTree <> y:158 var
+R12727:12733 Coq.MSets.MSetGenTree Props lt_tree def
+R12735:12735 Coq.MSets.MSetGenTree <> x:157 var
+R12738:12741 Coq.MSets.MSetGenTree M Node constr
+R12743:12743 Coq.MSets.MSetGenTree <> i:161 var
+R12745:12745 Coq.MSets.MSetGenTree <> l:159 var
+R12747:12747 Coq.MSets.MSetGenTree <> y:158 var
+R12749:12749 Coq.MSets.MSetGenTree <> r:160 var
+R12768:12774 Coq.MSets.MSetGenTree Props lt_tree def
+prf 12810:12821 Props gt_tree_node
+R12840:12842 Coq.MSets.MSetGenTree M elt def
+binder 12834:12834 <> x:162
+binder 12836:12836 <> y:163
+R12852:12855 Coq.MSets.MSetGenTree M tree ind
+binder 12846:12846 <> l:164
+binder 12848:12848 <> r:165
+R12863:12868 Coq.MSets.MSetGenTree Info t defax
+binder 12859:12859 <> i:166
+R12884:12887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12873:12879 Coq.MSets.MSetGenTree Props gt_tree def
+R12881:12881 Coq.MSets.MSetGenTree <> x:162 var
+R12883:12883 Coq.MSets.MSetGenTree <> l:164 var
+R12899:12902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12888:12894 Coq.MSets.MSetGenTree Props gt_tree def
+R12896:12896 Coq.MSets.MSetGenTree <> x:162 var
+R12898:12898 Coq.MSets.MSetGenTree <> r:165 var
+R12911:12914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12903:12906 Coq.MSets.MSetGenTree X lt defax
+R12910:12910 Coq.MSets.MSetGenTree <> y:163 var
+R12908:12908 Coq.MSets.MSetGenTree <> x:162 var
+R12915:12921 Coq.MSets.MSetGenTree Props gt_tree def
+R12923:12923 Coq.MSets.MSetGenTree <> x:162 var
+R12926:12929 Coq.MSets.MSetGenTree M Node constr
+R12931:12931 Coq.MSets.MSetGenTree <> i:166 var
+R12933:12933 Coq.MSets.MSetGenTree <> l:164 var
+R12935:12935 Coq.MSets.MSetGenTree <> y:163 var
+R12937:12937 Coq.MSets.MSetGenTree <> r:165 var
+R12956:12962 Coq.MSets.MSetGenTree Props gt_tree def
+prf 13068:13081 Props lt_tree_not_in
+R13098:13100 Coq.MSets.MSetGenTree M elt def
+binder 13094:13094 <> x:167
+R13108:13111 Coq.MSets.MSetGenTree M tree ind
+binder 13104:13104 <> t:168
+R13126:13129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13115:13121 Coq.MSets.MSetGenTree Props lt_tree def
+R13123:13123 Coq.MSets.MSetGenTree <> x:167 var
+R13125:13125 Coq.MSets.MSetGenTree <> t:168 var
+R13130:13131 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13132:13134 Coq.MSets.MSetGenTree Props InT ind
+R13136:13136 Coq.MSets.MSetGenTree <> x:167 var
+R13138:13138 Coq.MSets.MSetGenTree <> t:168 var
+prf 13183:13195 Props lt_tree_trans
+binder 13207:13207 <> x:169
+binder 13209:13209 <> y:170
+R13220:13223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13212:13215 Coq.MSets.MSetGenTree X lt defax
+R13219:13219 Coq.MSets.MSetGenTree <> y:170 var
+R13217:13217 Coq.MSets.MSetGenTree <> x:169 var
+binder 13231:13231 <> t:171
+R13245:13248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13234:13240 Coq.MSets.MSetGenTree Props lt_tree def
+R13242:13242 Coq.MSets.MSetGenTree <> x:169 var
+R13244:13244 Coq.MSets.MSetGenTree <> t:171 var
+R13249:13255 Coq.MSets.MSetGenTree Props lt_tree def
+R13257:13257 Coq.MSets.MSetGenTree <> y:170 var
+R13259:13259 Coq.MSets.MSetGenTree <> t:171 var
+prf 13289:13302 Props gt_tree_not_in
+R13319:13321 Coq.MSets.MSetGenTree M elt def
+binder 13315:13315 <> x:172
+R13329:13332 Coq.MSets.MSetGenTree M tree ind
+binder 13325:13325 <> t:173
+R13347:13350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13336:13342 Coq.MSets.MSetGenTree Props gt_tree def
+R13344:13344 Coq.MSets.MSetGenTree <> x:172 var
+R13346:13346 Coq.MSets.MSetGenTree <> t:173 var
+R13351:13352 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13353:13355 Coq.MSets.MSetGenTree Props InT ind
+R13357:13357 Coq.MSets.MSetGenTree <> x:172 var
+R13359:13359 Coq.MSets.MSetGenTree <> t:173 var
+prf 13404:13416 Props gt_tree_trans
+binder 13428:13428 <> x:174
+binder 13430:13430 <> y:175
+R13441:13444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13433:13436 Coq.MSets.MSetGenTree X lt defax
+R13440:13440 Coq.MSets.MSetGenTree <> x:174 var
+R13438:13438 Coq.MSets.MSetGenTree <> y:175 var
+binder 13452:13452 <> t:176
+R13466:13469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13455:13461 Coq.MSets.MSetGenTree Props gt_tree def
+R13463:13463 Coq.MSets.MSetGenTree <> x:174 var
+R13465:13465 Coq.MSets.MSetGenTree <> t:176 var
+R13470:13476 Coq.MSets.MSetGenTree Props gt_tree def
+R13478:13478 Coq.MSets.MSetGenTree <> y:175 var
+R13480:13480 Coq.MSets.MSetGenTree <> t:176 var
+inst 13523:13536 Props lt_tree_compat
+R13540:13545 Coq.Classes.Morphisms <> Proper class
+R13575:13581 Coq.MSets.MSetGenTree Props lt_tree def
+R13552:13556 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13548:13551 Coq.MSets.MSetGenTree X eq defax
+R13565:13569 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13557:13564 Coq.Init.Logic <> eq ind
+R13570:13572 Coq.Init.Logic <> iff def
+R13598:13618 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R13598:13618 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+inst 13719:13732 Props gt_tree_compat
+R13736:13741 Coq.Classes.Morphisms <> Proper class
+R13771:13777 Coq.MSets.MSetGenTree Props gt_tree def
+R13748:13752 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13744:13747 Coq.MSets.MSetGenTree X eq defax
+R13761:13765 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13753:13760 Coq.Init.Logic <> eq ind
+R13766:13768 Coq.Init.Logic <> iff def
+R13794:13814 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R13794:13814 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R14162:14164 Coq.MSets.MSetGenTree Props bst ind
+R14162:14164 Coq.MSets.MSetGenTree Props bst ind
+R14171:14172 Coq.MSets.MSetGenTree Props Ok class
+R14205:14206 Coq.MSets.MSetGenTree Props Ok class
+R14209:14212 Coq.MSets.MSetGenTree M Node constr
+R14205:14206 Coq.MSets.MSetGenTree Props Ok class
+R14209:14212 Coq.MSets.MSetGenTree M Node constr
+R14259:14265 Coq.MSets.MSetGenTree Props lt_tree def
+R14270:14273 Coq.MSets.MSetGenTree M Node constr
+R14259:14265 Coq.MSets.MSetGenTree Props lt_tree def
+R14270:14273 Coq.MSets.MSetGenTree M Node constr
+R14318:14324 Coq.MSets.MSetGenTree Props gt_tree def
+R14329:14332 Coq.MSets.MSetGenTree M Node constr
+R14318:14324 Coq.MSets.MSetGenTree Props gt_tree def
+R14329:14332 Coq.MSets.MSetGenTree M Node constr
+R14352:14363 Coq.MSets.MSetGenTree Props gt_tree_node thm
+R14293:14304 Coq.MSets.MSetGenTree Props lt_tree_node thm
+prf 14444:14453 Props empty_spec
+R14457:14461 Coq.MSets.MSetGenTree Props Empty def
+R14463:14467 Coq.MSets.MSetGenTree M empty def
+inst 14528:14535 Props empty_ok
+R14539:14540 Coq.MSets.MSetGenTree Props Ok class
+R14542:14546 Coq.MSets.MSetGenTree M empty def
+prf 14601:14613 Props is_empty_spec
+binder 14624:14624 <> s:177
+R14644:14648 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14637:14639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14627:14634 Coq.MSets.MSetGenTree M is_empty def
+R14636:14636 Coq.MSets.MSetGenTree <> s:177 var
+R14640:14643 Coq.Init.Datatypes <> true constr
+R14649:14653 Coq.MSets.MSetGenTree Props Empty def
+R14655:14655 Coq.MSets.MSetGenTree <> s:177 var
+prf 14835:14842 Props mem_spec
+binder 14853:14853 <> s:178
+binder 14855:14855 <> x:179
+R14859:14860 Coq.MSets.MSetGenTree Props Ok class
+R14862:14862 Coq.MSets.MSetGenTree <> s:178 var
+binder 14859:14862 <> H:180
+R14880:14884 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14873:14875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14866:14868 Coq.MSets.MSetGenTree M mem def
+R14870:14870 Coq.MSets.MSetGenTree <> x:179 var
+R14872:14872 Coq.MSets.MSetGenTree <> s:178 var
+R14876:14879 Coq.Init.Datatypes <> true constr
+R14885:14887 Coq.MSets.MSetGenTree Props InT ind
+R14889:14889 Coq.MSets.MSetGenTree <> x:179 var
+R14891:14891 Coq.MSets.MSetGenTree <> s:178 var
+prf 15155:15167 Props min_elt_spec1
+binder 15169:15169 <> s:241
+binder 15171:15171 <> x:242
+R15193:15196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15184:15186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15175:15181 Coq.MSets.MSetGenTree M min_elt def
+R15183:15183 Coq.MSets.MSetGenTree <> s:241 var
+R15187:15190 Coq.Init.Datatypes <> Some constr
+R15192:15192 Coq.MSets.MSetGenTree <> x:242 var
+R15197:15199 Coq.MSets.MSetGenTree Props InT ind
+R15201:15201 Coq.MSets.MSetGenTree <> x:242 var
+R15203:15203 Coq.MSets.MSetGenTree <> s:241 var
+R15236:15242 Coq.MSets.MSetGenTree M min_elt def
+R15236:15242 Coq.MSets.MSetGenTree M min_elt def
+prf 15285:15297 Props min_elt_spec2
+binder 15299:15299 <> s:243
+binder 15301:15301 <> x:244
+binder 15303:15303 <> y:245
+R15307:15308 Coq.MSets.MSetGenTree Props Ok class
+R15310:15310 Coq.MSets.MSetGenTree <> s:243 var
+binder 15307:15310 <> H:246
+R15334:15337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15325:15327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15316:15322 Coq.MSets.MSetGenTree M min_elt def
+R15324:15324 Coq.MSets.MSetGenTree <> s:243 var
+R15328:15331 Coq.Init.Datatypes <> Some constr
+R15333:15333 Coq.MSets.MSetGenTree <> x:244 var
+R15345:15348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15338:15340 Coq.MSets.MSetGenTree Props InT ind
+R15342:15342 Coq.MSets.MSetGenTree <> y:245 var
+R15344:15344 Coq.MSets.MSetGenTree <> s:243 var
+R15349:15350 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15351:15354 Coq.MSets.MSetGenTree X lt defax
+R15358:15358 Coq.MSets.MSetGenTree <> x:244 var
+R15356:15356 Coq.MSets.MSetGenTree <> y:245 var
+R15402:15408 Coq.MSets.MSetGenTree M min_elt def
+R15402:15408 Coq.MSets.MSetGenTree M min_elt def
+R15604:15607 Coq.MSets.MSetGenTree X lt defax
+R15635:15647 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R15604:15607 Coq.MSets.MSetGenTree X lt defax
+R15635:15647 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R15682:15685 Coq.MSets.MSetGenTree X lt defax
+R15682:15685 Coq.MSets.MSetGenTree X lt defax
+R15716:15716 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15717:15720 Coq.MSets.MSetGenTree X lt defax
+R15716:15716 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15717:15720 Coq.MSets.MSetGenTree X lt defax
+prf 15761:15773 Props min_elt_spec3
+binder 15775:15775 <> s:247
+R15795:15798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15788:15790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15779:15785 Coq.MSets.MSetGenTree M min_elt def
+R15787:15787 Coq.MSets.MSetGenTree <> s:247 var
+R15791:15794 Coq.Init.Datatypes <> None constr
+R15799:15803 Coq.MSets.MSetGenTree Props Empty def
+R15805:15805 Coq.MSets.MSetGenTree <> s:247 var
+R15838:15844 Coq.MSets.MSetGenTree M min_elt def
+R15838:15844 Coq.MSets.MSetGenTree M min_elt def
+prf 15941:15953 Props max_elt_spec1
+binder 15955:15955 <> s:248
+binder 15957:15957 <> x:249
+R15979:15982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15970:15972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15961:15967 Coq.MSets.MSetGenTree M max_elt def
+R15969:15969 Coq.MSets.MSetGenTree <> s:248 var
+R15973:15976 Coq.Init.Datatypes <> Some constr
+R15978:15978 Coq.MSets.MSetGenTree <> x:249 var
+R15983:15985 Coq.MSets.MSetGenTree Props InT ind
+R15987:15987 Coq.MSets.MSetGenTree <> x:249 var
+R15989:15989 Coq.MSets.MSetGenTree <> s:248 var
+R16022:16028 Coq.MSets.MSetGenTree M max_elt def
+R16022:16028 Coq.MSets.MSetGenTree M max_elt def
+prf 16071:16083 Props max_elt_spec2
+binder 16085:16085 <> s:250
+binder 16087:16087 <> x:251
+binder 16089:16089 <> y:252
+R16093:16094 Coq.MSets.MSetGenTree Props Ok class
+R16096:16096 Coq.MSets.MSetGenTree <> s:250 var
+binder 16093:16096 <> H:253
+R16120:16123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16111:16113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16102:16108 Coq.MSets.MSetGenTree M max_elt def
+R16110:16110 Coq.MSets.MSetGenTree <> s:250 var
+R16114:16117 Coq.Init.Datatypes <> Some constr
+R16119:16119 Coq.MSets.MSetGenTree <> x:251 var
+R16131:16134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16124:16126 Coq.MSets.MSetGenTree Props InT ind
+R16128:16128 Coq.MSets.MSetGenTree <> y:252 var
+R16130:16130 Coq.MSets.MSetGenTree <> s:250 var
+R16135:16136 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16137:16140 Coq.MSets.MSetGenTree X lt defax
+R16144:16144 Coq.MSets.MSetGenTree <> y:252 var
+R16142:16142 Coq.MSets.MSetGenTree <> x:251 var
+R16188:16194 Coq.MSets.MSetGenTree M max_elt def
+R16188:16194 Coq.MSets.MSetGenTree M max_elt def
+R16390:16393 Coq.MSets.MSetGenTree X lt defax
+R16421:16433 Coq.MSets.MSetGenTree Props max_elt_spec1 thm
+R16390:16393 Coq.MSets.MSetGenTree X lt defax
+R16421:16433 Coq.MSets.MSetGenTree Props max_elt_spec1 thm
+R16468:16471 Coq.MSets.MSetGenTree X lt defax
+R16468:16471 Coq.MSets.MSetGenTree X lt defax
+R16502:16502 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16503:16506 Coq.MSets.MSetGenTree X lt defax
+R16502:16502 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16503:16506 Coq.MSets.MSetGenTree X lt defax
+prf 16547:16559 Props max_elt_spec3
+binder 16561:16561 <> s:254
+R16581:16584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16574:16576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16565:16571 Coq.MSets.MSetGenTree M max_elt def
+R16573:16573 Coq.MSets.MSetGenTree <> s:254 var
+R16577:16580 Coq.Init.Datatypes <> None constr
+R16585:16589 Coq.MSets.MSetGenTree Props Empty def
+R16591:16591 Coq.MSets.MSetGenTree <> s:254 var
+R16624:16630 Coq.MSets.MSetGenTree M max_elt def
+R16624:16630 Coq.MSets.MSetGenTree M max_elt def
+prf 16727:16738 Props choose_spec1
+binder 16749:16749 <> s:255
+binder 16751:16751 <> x:256
+R16771:16774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16762:16764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16754:16759 Coq.MSets.MSetGenTree M choose def
+R16761:16761 Coq.MSets.MSetGenTree <> s:255 var
+R16765:16768 Coq.Init.Datatypes <> Some constr
+R16770:16770 Coq.MSets.MSetGenTree <> x:256 var
+R16775:16777 Coq.MSets.MSetGenTree Props InT ind
+R16779:16779 Coq.MSets.MSetGenTree <> x:256 var
+R16781:16781 Coq.MSets.MSetGenTree <> s:255 var
+R16798:16810 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R16798:16810 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+prf 16825:16836 Props choose_spec2
+binder 16847:16847 <> s:257
+R16865:16868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16858:16860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16850:16855 Coq.MSets.MSetGenTree M choose def
+R16857:16857 Coq.MSets.MSetGenTree <> s:257 var
+R16861:16864 Coq.Init.Datatypes <> None constr
+R16869:16873 Coq.MSets.MSetGenTree Props Empty def
+R16875:16875 Coq.MSets.MSetGenTree <> s:257 var
+R16892:16904 Coq.MSets.MSetGenTree Props min_elt_spec3 thm
+R16892:16904 Coq.MSets.MSetGenTree Props min_elt_spec3 thm
+prf 16919:16930 Props choose_spec3
+binder 16941:16941 <> s:258
+binder 16943:16944 <> s':259
+binder 16946:16946 <> x:260
+binder 16948:16949 <> x':261
+R16953:16954 Coq.MSets.MSetGenTree Props Ok class
+R16956:16956 Coq.MSets.MSetGenTree <> s:258 var
+binder 16953:16956 <> H:262
+R16959:16960 Coq.MSets.MSetGenTree Props Ok class
+R16962:16963 Coq.MSets.MSetGenTree <> s':259 var
+binder 16959:16963 <> H0:263
+R16986:16989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16977:16979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16969:16974 Coq.MSets.MSetGenTree M choose def
+R16976:16976 Coq.MSets.MSetGenTree <> s:258 var
+R16980:16983 Coq.Init.Datatypes <> Some constr
+R16985:16985 Coq.MSets.MSetGenTree <> x:260 var
+R17009:17014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16999:17001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16990:16995 Coq.MSets.MSetGenTree M choose def
+R16997:16998 Coq.MSets.MSetGenTree <> s':259 var
+R17002:17005 Coq.Init.Datatypes <> Some constr
+R17007:17008 Coq.MSets.MSetGenTree <> x':261 var
+R17025:17028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17015:17019 Coq.MSets.MSetGenTree Props Equal def
+R17021:17021 Coq.MSets.MSetGenTree <> s:258 var
+R17023:17024 Coq.MSets.MSetGenTree <> s':259 var
+R17029:17032 Coq.MSets.MSetGenTree X eq defax
+R17036:17037 Coq.MSets.MSetGenTree <> x':261 var
+R17034:17034 Coq.MSets.MSetGenTree <> x:260 var
+R17055:17060 Coq.MSets.MSetGenTree M choose def
+R17063:17067 Coq.MSets.MSetGenTree Props Equal def
+R17113:17113 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17114:17117 Coq.MSets.MSetGenTree X lt defax
+R17113:17113 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17114:17117 Coq.MSets.MSetGenTree X lt defax
+R17134:17146 Coq.MSets.MSetGenTree Props min_elt_spec2 thm
+R17134:17146 Coq.MSets.MSetGenTree Props min_elt_spec2 thm
+R17189:17201 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R17189:17201 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R17213:17213 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17214:17217 Coq.MSets.MSetGenTree X lt defax
+R17213:17213 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17214:17217 Coq.MSets.MSetGenTree X lt defax
+R17234:17246 Coq.MSets.MSetGenTree Props min_elt_spec2 thm
+R17234:17246 Coq.MSets.MSetGenTree Props min_elt_spec2 thm
+R17286:17298 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+R17286:17298 Coq.MSets.MSetGenTree Props min_elt_spec1 thm
+prf 17364:17378 Props elements_spec1'
+binder 17389:17389 <> s:264
+binder 17391:17393 <> acc:265
+binder 17395:17395 <> x:266
+R17430:17434 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17399:17401 Coq.Lists.SetoidList <> InA ind
+R17411:17422 Coq.MSets.MSetGenTree M elements_aux def
+R17424:17426 Coq.MSets.MSetGenTree <> acc:265 var
+R17428:17428 Coq.MSets.MSetGenTree <> s:264 var
+R17408:17408 Coq.MSets.MSetGenTree <> x:266 var
+R17403:17406 Coq.MSets.MSetGenTree X eq defax
+R17442:17445 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R17435:17437 Coq.MSets.MSetGenTree Props InT ind
+R17439:17439 Coq.MSets.MSetGenTree <> x:266 var
+R17441:17441 Coq.MSets.MSetGenTree <> s:264 var
+R17446:17448 Coq.Lists.SetoidList <> InA ind
+R17457:17459 Coq.MSets.MSetGenTree <> acc:265 var
+R17455:17455 Coq.MSets.MSetGenTree <> x:266 var
+R17450:17453 Coq.MSets.MSetGenTree X eq defax
+prf 17659:17672 Props elements_spec1
+binder 17683:17683 <> s:267
+binder 17685:17685 <> x:268
+R17711:17715 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17688:17690 Coq.Lists.SetoidList <> InA ind
+R17700:17707 Coq.MSets.MSetGenTree M elements def
+R17709:17709 Coq.MSets.MSetGenTree <> s:267 var
+R17697:17697 Coq.MSets.MSetGenTree <> x:268 var
+R17692:17695 Coq.MSets.MSetGenTree X eq defax
+R17716:17718 Coq.MSets.MSetGenTree Props InT ind
+R17720:17720 Coq.MSets.MSetGenTree <> x:268 var
+R17722:17722 Coq.MSets.MSetGenTree <> s:267 var
+R17753:17767 Coq.MSets.MSetGenTree Props elements_spec1' thm
+R17771:17773 Coq.Init.Datatypes <> nil constr
+R17753:17767 Coq.MSets.MSetGenTree Props elements_spec1' thm
+R17771:17773 Coq.Init.Datatypes <> nil constr
+prf 17823:17837 Props elements_spec2'
+binder 17848:17848 <> s:269
+binder 17850:17852 <> acc:270
+R17856:17857 Coq.MSets.MSetGenTree Props Ok class
+R17859:17859 Coq.MSets.MSetGenTree <> s:269 var
+binder 17856:17859 <> H:271
+R17876:17880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17863:17866 Coq.Sorting.Sorted <> sort abbrev
+R17873:17875 Coq.MSets.MSetGenTree <> acc:270 var
+R17868:17871 Coq.MSets.MSetGenTree X lt defax
+R17881:17881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17937:17942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17895:17897 Coq.MSets.MSetGenTree M elt def
+binder 17889:17889 <> x:272
+binder 17891:17891 <> y:273
+R17914:17917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17900:17902 Coq.Lists.SetoidList <> InA ind
+R17911:17913 Coq.MSets.MSetGenTree <> acc:270 var
+R17909:17909 Coq.MSets.MSetGenTree <> x:272 var
+R17904:17907 Coq.MSets.MSetGenTree X eq defax
+R17925:17928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17918:17920 Coq.MSets.MSetGenTree Props InT ind
+R17922:17922 Coq.MSets.MSetGenTree <> y:273 var
+R17924:17924 Coq.MSets.MSetGenTree <> s:269 var
+R17929:17932 Coq.MSets.MSetGenTree X lt defax
+R17936:17936 Coq.MSets.MSetGenTree <> x:272 var
+R17934:17934 Coq.MSets.MSetGenTree <> y:273 var
+R17943:17946 Coq.Sorting.Sorted <> sort abbrev
+R17954:17965 Coq.MSets.MSetGenTree M elements_aux def
+R17967:17969 Coq.MSets.MSetGenTree <> acc:270 var
+R17971:17971 Coq.MSets.MSetGenTree <> s:269 var
+R17948:17951 Coq.MSets.MSetGenTree X lt defax
+R18098:18105 Coq.Lists.SetoidList <> InA_InfA thm
+R18098:18105 Coq.Lists.SetoidList <> InA_InfA thm
+R18142:18156 Coq.MSets.MSetGenTree Props elements_spec1' thm
+R18142:18156 Coq.MSets.MSetGenTree Props elements_spec1' thm
+R18228:18242 Coq.MSets.MSetGenTree Props elements_spec1' thm
+R18228:18242 Coq.MSets.MSetGenTree Props elements_spec1' thm
+prf 18283:18296 Props elements_spec2
+binder 18307:18307 <> s:274
+R18311:18312 Coq.MSets.MSetGenTree Props Ok class
+R18314:18314 Coq.MSets.MSetGenTree <> s:274 var
+binder 18311:18314 <> H:275
+R18318:18321 Coq.Sorting.Sorted <> sort abbrev
+R18329:18336 Coq.MSets.MSetGenTree M elements def
+R18338:18338 Coq.MSets.MSetGenTree <> s:274 var
+R18323:18326 Coq.MSets.MSetGenTree X lt defax
+R18365:18372 Coq.MSets.MSetGenTree M elements def
+R18381:18395 Coq.MSets.MSetGenTree Props elements_spec2' thm
+R18381:18395 Coq.MSets.MSetGenTree Props elements_spec2' thm
+prf 18481:18495 Props elements_spec2w
+binder 18506:18506 <> s:276
+R18510:18511 Coq.MSets.MSetGenTree Props Ok class
+R18513:18513 Coq.MSets.MSetGenTree <> s:276 var
+binder 18510:18513 <> H:277
+R18517:18522 Coq.Lists.SetoidList <> NoDupA ind
+R18530:18537 Coq.MSets.MSetGenTree M elements def
+R18539:18539 Coq.MSets.MSetGenTree <> s:276 var
+R18524:18527 Coq.MSets.MSetGenTree X eq defax
+R18566:18577 Coq.Lists.SetoidList <> SortA_NoDupA thm
+R18566:18577 Coq.Lists.SetoidList <> SortA_NoDupA thm
+prf 18606:18626 Props elements_aux_cardinal
+binder 18638:18638 <> s:278
+binder 18640:18642 <> acc:279
+R18674:18676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18656:18658 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18646:18651 Coq.Init.Datatypes <> length def
+R18653:18655 Coq.MSets.MSetGenTree <> acc:279 var
+R18659:18666 Coq.MSets.MSetGenTree M cardinal def
+R18668:18668 Coq.MSets.MSetGenTree <> s:278 var
+R18677:18682 Coq.Init.Datatypes <> length def
+R18685:18696 Coq.MSets.MSetGenTree M elements_aux def
+R18698:18700 Coq.MSets.MSetGenTree <> acc:279 var
+R18702:18702 Coq.MSets.MSetGenTree <> s:278 var
+R18800:18811 Coq.Arith.PeanoNat Nat add_comm thm
+R18814:18821 Coq.MSets.MSetGenTree M cardinal def
+R18800:18811 Coq.Arith.PeanoNat Nat add_comm thm
+R18814:18821 Coq.MSets.MSetGenTree M cardinal def
+R18800:18811 Coq.Arith.PeanoNat Nat add_comm thm
+R18814:18821 Coq.MSets.MSetGenTree M cardinal def
+R18845:18858 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18861:18873 Coq.Arith.PeanoNat Nat add_assoc thm
+R18845:18858 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18845:18858 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18861:18873 Coq.Arith.PeanoNat Nat add_assoc thm
+R18861:18873 Coq.Arith.PeanoNat Nat add_assoc thm
+prf 18888:18904 Props elements_cardinal
+R18919:18922 Coq.MSets.MSetGenTree M tree ind
+binder 18915:18915 <> s:280
+R18935:18937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18925:18932 Coq.MSets.MSetGenTree M cardinal def
+R18934:18934 Coq.MSets.MSetGenTree <> s:280 var
+R18938:18943 Coq.Init.Datatypes <> length def
+R18946:18953 Coq.MSets.MSetGenTree M elements def
+R18955:18955 Coq.MSets.MSetGenTree <> s:280 var
+binder 18978:18978 <> s:281
+R18983:19003 Coq.MSets.MSetGenTree Props elements_aux_cardinal thm
+R19005:19005 Coq.MSets.MSetGenTree <> s:281 var
+R19007:19009 Coq.Init.Datatypes <> nil constr
+binder 18978:18978 <> s:282
+R18983:19003 Coq.MSets.MSetGenTree Props elements_aux_cardinal thm
+R19005:19005 Coq.MSets.MSetGenTree <> s:282 var
+R19007:19009 Coq.Init.Datatypes <> nil constr
+def 19030:19042 Props cardinal_spec
+R19047:19050 Coq.MSets.MSetGenTree M tree ind
+binder 19045:19045 <> s:283
+R19056:19057 Coq.MSets.MSetGenTree Props Ok class
+R19059:19059 Coq.MSets.MSetGenTree <> s:283 var
+binder 19053:19054 <> Hs:284
+R19065:19081 Coq.MSets.MSetGenTree Props elements_cardinal thm
+R19083:19083 Coq.MSets.MSetGenTree <> s:283 var
+prf 19093:19104 Props elements_app
+binder 19116:19116 <> s:285
+binder 19118:19120 <> acc:286
+R19141:19143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19123:19134 Coq.MSets.MSetGenTree M elements_aux def
+R19136:19138 Coq.MSets.MSetGenTree <> acc:286 var
+R19140:19140 Coq.MSets.MSetGenTree <> s:285 var
+R19154:19157 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19144:19151 Coq.MSets.MSetGenTree M elements def
+R19153:19153 Coq.MSets.MSetGenTree <> s:285 var
+R19158:19160 Coq.MSets.MSetGenTree <> acc:286 var
+R19234:19241 Coq.MSets.MSetGenTree M elements def
+R19275:19283 Coq.Lists.List <> app_nil_r thm
+R19287:19293 Coq.Lists.List <> app_ass abbrev
+R19275:19283 Coq.Lists.List <> app_nil_r thm
+R19275:19283 Coq.Lists.List <> app_nil_r thm
+R19275:19283 Coq.Lists.List <> app_nil_r thm
+R19275:19283 Coq.Lists.List <> app_nil_r thm
+R19287:19293 Coq.Lists.List <> app_ass abbrev
+R19287:19293 Coq.Lists.List <> app_ass abbrev
+R19287:19293 Coq.Lists.List <> app_ass abbrev
+prf 19314:19326 Props elements_node
+binder 19328:19328 <> c:287
+binder 19330:19330 <> l:288
+binder 19332:19332 <> x:289
+binder 19334:19334 <> r:290
+R19362:19364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19339:19346 Coq.MSets.MSetGenTree M elements def
+R19349:19352 Coq.MSets.MSetGenTree M Node constr
+R19354:19354 Coq.MSets.MSetGenTree <> c:287 var
+R19356:19356 Coq.MSets.MSetGenTree <> l:288 var
+R19358:19358 Coq.MSets.MSetGenTree <> x:289 var
+R19360:19360 Coq.MSets.MSetGenTree <> r:290 var
+R19375:19378 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19365:19372 Coq.MSets.MSetGenTree M elements def
+R19374:19374 Coq.MSets.MSetGenTree <> l:288 var
+R19380:19383 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19379:19379 Coq.MSets.MSetGenTree <> x:289 var
+R19384:19391 Coq.MSets.MSetGenTree M elements def
+R19393:19393 Coq.MSets.MSetGenTree <> r:290 var
+R19411:19418 Coq.MSets.MSetGenTree M elements def
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19457:19465 Coq.Lists.List <> app_nil_r thm
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19442:19453 Coq.MSets.MSetGenTree Props elements_app thm
+R19457:19465 Coq.Lists.List <> app_nil_r thm
+R19457:19465 Coq.Lists.List <> app_nil_r thm
+R19457:19465 Coq.Lists.List <> app_nil_r thm
+R19457:19465 Coq.Lists.List <> app_nil_r thm
+prf 19480:19495 Props rev_elements_app
+binder 19507:19507 <> s:291
+binder 19509:19511 <> acc:292
+R19536:19538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19514:19529 Coq.MSets.MSetGenTree M rev_elements_aux def
+R19531:19533 Coq.MSets.MSetGenTree <> acc:292 var
+R19535:19535 Coq.MSets.MSetGenTree <> s:291 var
+R19553:19556 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19539:19550 Coq.MSets.MSetGenTree M rev_elements def
+R19552:19552 Coq.MSets.MSetGenTree <> s:291 var
+R19557:19559 Coq.MSets.MSetGenTree <> acc:292 var
+R19633:19644 Coq.MSets.MSetGenTree M rev_elements def
+R19678:19686 Coq.Lists.List <> app_nil_r thm
+R19690:19696 Coq.Lists.List <> app_ass abbrev
+R19678:19686 Coq.Lists.List <> app_nil_r thm
+R19678:19686 Coq.Lists.List <> app_nil_r thm
+R19678:19686 Coq.Lists.List <> app_nil_r thm
+R19678:19686 Coq.Lists.List <> app_nil_r thm
+R19690:19696 Coq.Lists.List <> app_ass abbrev
+R19690:19696 Coq.Lists.List <> app_ass abbrev
+R19690:19696 Coq.Lists.List <> app_ass abbrev
+prf 19717:19733 Props rev_elements_node
+binder 19735:19735 <> c:293
+binder 19737:19737 <> l:294
+binder 19739:19739 <> x:295
+binder 19741:19741 <> r:296
+R19773:19775 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19746:19757 Coq.MSets.MSetGenTree M rev_elements def
+R19760:19763 Coq.MSets.MSetGenTree M Node constr
+R19765:19765 Coq.MSets.MSetGenTree <> c:293 var
+R19767:19767 Coq.MSets.MSetGenTree <> l:294 var
+R19769:19769 Coq.MSets.MSetGenTree <> x:295 var
+R19771:19771 Coq.MSets.MSetGenTree <> r:296 var
+R19790:19793 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19776:19787 Coq.MSets.MSetGenTree M rev_elements def
+R19789:19789 Coq.MSets.MSetGenTree <> r:296 var
+R19795:19798 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19794:19794 Coq.MSets.MSetGenTree <> x:295 var
+R19799:19810 Coq.MSets.MSetGenTree M rev_elements def
+R19812:19812 Coq.MSets.MSetGenTree <> l:294 var
+R19830:19841 Coq.MSets.MSetGenTree M rev_elements def
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19884:19892 Coq.Lists.List <> app_nil_r thm
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19865:19880 Coq.MSets.MSetGenTree Props rev_elements_app thm
+R19884:19892 Coq.Lists.List <> app_nil_r thm
+R19884:19892 Coq.Lists.List <> app_nil_r thm
+R19884:19892 Coq.Lists.List <> app_nil_r thm
+R19884:19892 Coq.Lists.List <> app_nil_r thm
+prf 19907:19922 Props rev_elements_rev
+binder 19924:19924 <> s:297
+R19942:19944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19928:19939 Coq.MSets.MSetGenTree M rev_elements def
+R19941:19941 Coq.MSets.MSetGenTree <> s:297 var
+R19945:19947 Coq.Lists.List <> rev def
+R19950:19957 Coq.MSets.MSetGenTree M elements def
+R19959:19959 Coq.MSets.MSetGenTree <> s:297 var
+R20024:20036 Coq.MSets.MSetGenTree Props elements_node thm
+R20039:20055 Coq.MSets.MSetGenTree Props rev_elements_node thm
+R20068:20080 Coq.Lists.List <> rev_app_distr thm
+R20024:20036 Coq.MSets.MSetGenTree Props elements_node thm
+R20024:20036 Coq.MSets.MSetGenTree Props elements_node thm
+R20039:20055 Coq.MSets.MSetGenTree Props rev_elements_node thm
+R20039:20055 Coq.MSets.MSetGenTree Props rev_elements_node thm
+R20068:20080 Coq.Lists.List <> rev_app_distr thm
+R20068:20080 Coq.Lists.List <> rev_app_distr thm
+R20104:20110 Coq.Lists.List <> app_ass abbrev
+R20104:20110 Coq.Lists.List <> app_ass abbrev
+R20104:20110 Coq.Lists.List <> app_ass abbrev
+R20104:20110 Coq.Lists.List <> app_ass abbrev
+prf 20220:20233 Props sorted_app_inv
+binder 20235:20236 <> l1:298
+binder 20238:20239 <> l2:299
+R20262:20266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20244:20247 Coq.Sorting.Sorted <> sort abbrev
+R20257:20258 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20255:20256 Coq.MSets.MSetGenTree <> l1:298 var
+R20259:20260 Coq.MSets.MSetGenTree <> l2:299 var
+R20249:20252 Coq.MSets.MSetGenTree X lt defax
+R20279:20282 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20267:20270 Coq.Sorting.Sorted <> sort abbrev
+R20277:20278 Coq.MSets.MSetGenTree <> l1:298 var
+R20272:20275 Coq.MSets.MSetGenTree X lt defax
+R20295:20299 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20283:20286 Coq.Sorting.Sorted <> sort abbrev
+R20293:20294 Coq.MSets.MSetGenTree <> l2:299 var
+R20288:20291 Coq.MSets.MSetGenTree X lt defax
+binder 20307:20308 <> x1:300
+binder 20310:20311 <> x2:301
+R20328:20331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20314:20316 Coq.Lists.SetoidList <> InA ind
+R20326:20327 Coq.MSets.MSetGenTree <> l1:298 var
+R20323:20324 Coq.MSets.MSetGenTree <> x1:300 var
+R20318:20321 Coq.MSets.MSetGenTree X eq defax
+R20346:20349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20332:20334 Coq.Lists.SetoidList <> InA ind
+R20344:20345 Coq.MSets.MSetGenTree <> l2:299 var
+R20341:20342 Coq.MSets.MSetGenTree <> x2:301 var
+R20336:20339 Coq.MSets.MSetGenTree X eq defax
+R20350:20353 Coq.MSets.MSetGenTree X lt defax
+R20358:20359 Coq.MSets.MSetGenTree <> x2:301 var
+R20355:20356 Coq.MSets.MSetGenTree <> x1:300 var
+R20454:20460 Coq.Lists.SetoidList <> InA_nil thm
+R20454:20460 Coq.Lists.SetoidList <> InA_nil thm
+R20454:20460 Coq.Lists.SetoidList <> InA_nil thm
+R20711:20718 Coq.Lists.SetoidList <> InA_cons thm
+R20711:20718 Coq.Lists.SetoidList <> InA_cons thm
+R20711:20718 Coq.Lists.SetoidList <> InA_cons thm
+R20799:20802 Coq.MSets.MSetGenTree X eq defax
+R20810:20811 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20773:20786 Coq.Lists.SetoidList <> SortA_InfA_InA thm
+R20799:20802 Coq.MSets.MSetGenTree X eq defax
+R20810:20811 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20773:20786 Coq.Lists.SetoidList <> SortA_InfA_InA thm
+R20841:20851 Coq.Lists.SetoidList <> InA_app_iff thm
+R20841:20851 Coq.Lists.SetoidList <> InA_app_iff thm
+R20841:20851 Coq.Lists.SetoidList <> InA_app_iff thm
+prf 20888:20903 Props elements_sort_ok
+binder 20905:20905 <> s:302
+R20931:20934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20909:20912 Coq.Sorting.Sorted <> sort abbrev
+R20920:20927 Coq.MSets.MSetGenTree M elements def
+R20929:20929 Coq.MSets.MSetGenTree <> s:302 var
+R20914:20917 Coq.MSets.MSetGenTree X lt defax
+R20935:20936 Coq.MSets.MSetGenTree Props Ok class
+R20938:20938 Coq.MSets.MSetGenTree <> s:302 var
+R21004:21016 Coq.MSets.MSetGenTree Props elements_node thm
+R21004:21016 Coq.MSets.MSetGenTree Props elements_node thm
+R21004:21016 Coq.MSets.MSetGenTree Props elements_node thm
+R21042:21055 Coq.MSets.MSetGenTree Props sorted_app_inv thm
+R21042:21055 Coq.MSets.MSetGenTree Props sorted_app_inv thm
+R21173:21186 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R21173:21186 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R21173:21186 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R21204:21211 Coq.Lists.SetoidList <> InA_cons thm
+R21204:21211 Coq.Lists.SetoidList <> InA_cons thm
+R21204:21211 Coq.Lists.SetoidList <> InA_cons thm
+R21279:21282 Coq.MSets.MSetGenTree X eq defax
+R21288:21295 Coq.MSets.MSetGenTree M elements def
+R21253:21266 Coq.Lists.SetoidList <> SortA_InfA_InA thm
+R21279:21282 Coq.MSets.MSetGenTree X eq defax
+R21288:21295 Coq.MSets.MSetGenTree M elements def
+R21253:21266 Coq.Lists.SetoidList <> SortA_InfA_InA thm
+R21327:21340 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R21327:21340 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R21327:21340 Coq.MSets.MSetGenTree Props elements_spec1 thm
+prf 21389:21400 Props for_all_spec
+binder 21402:21402 <> s:303
+binder 21404:21404 <> f:304
+R21428:21433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21488:21488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21408:21413 Coq.Classes.Morphisms <> Proper class
+R21427:21427 Coq.MSets.MSetGenTree <> f:304 var
+R21420:21422 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R21416:21419 Coq.MSets.MSetGenTree X eq defax
+R21423:21424 Coq.Init.Logic <> eq ind
+R21452:21456 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21445:21447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21434:21440 Coq.MSets.MSetGenTree M for_all def
+R21442:21442 Coq.MSets.MSetGenTree <> f:304 var
+R21444:21444 Coq.MSets.MSetGenTree <> s:303 var
+R21448:21451 Coq.Init.Datatypes <> true constr
+R21457:21463 Coq.MSets.MSetGenTree Props For_all def
+binder 21470:21470 <> x:305
+R21478:21480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21475:21475 Coq.MSets.MSetGenTree <> f:304 var
+R21477:21477 Coq.MSets.MSetGenTree <> x:305 var
+R21481:21484 Coq.Init.Datatypes <> true constr
+R21487:21487 Coq.MSets.MSetGenTree <> s:303 var
+R21517:21523 Coq.MSets.MSetGenTree Props For_all def
+R21619:21631 Coq.Bool.Bool <> andb_lazy_alt thm
+R21635:21647 Coq.Bool.Bool <> andb_true_iff thm
+R21619:21631 Coq.Bool.Bool <> andb_lazy_alt thm
+R21619:21631 Coq.Bool.Bool <> andb_lazy_alt thm
+R21619:21631 Coq.Bool.Bool <> andb_lazy_alt thm
+R21619:21631 Coq.Bool.Bool <> andb_lazy_alt thm
+R21635:21647 Coq.Bool.Bool <> andb_true_iff thm
+R21635:21647 Coq.Bool.Bool <> andb_true_iff thm
+R21635:21647 Coq.Bool.Bool <> andb_true_iff thm
+R21635:21647 Coq.Bool.Bool <> andb_true_iff thm
+prf 21711:21721 Props exists_spec
+binder 21723:21723 <> s:306
+binder 21725:21725 <> f:307
+R21749:21754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21808:21808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21729:21734 Coq.Classes.Morphisms <> Proper class
+R21748:21748 Coq.MSets.MSetGenTree <> f:307 var
+R21741:21743 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R21737:21740 Coq.MSets.MSetGenTree X eq defax
+R21744:21745 Coq.Init.Logic <> eq ind
+R21773:21777 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21766:21768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21755:21761 Coq.MSets.MSetGenTree M exists_ def
+R21763:21763 Coq.MSets.MSetGenTree <> f:307 var
+R21765:21765 Coq.MSets.MSetGenTree <> s:306 var
+R21769:21772 Coq.Init.Datatypes <> true constr
+R21778:21783 Coq.MSets.MSetGenTree Props Exists def
+binder 21790:21790 <> x:308
+R21798:21800 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21795:21795 Coq.MSets.MSetGenTree <> f:307 var
+R21797:21797 Coq.MSets.MSetGenTree <> x:308 var
+R21801:21804 Coq.Init.Datatypes <> true constr
+R21807:21807 Coq.MSets.MSetGenTree <> s:306 var
+R21837:21842 Coq.MSets.MSetGenTree Props Exists def
+R21966:21977 Coq.Bool.Bool <> orb_lazy_alt thm
+R21981:21992 Coq.Bool.Bool <> orb_true_iff thm
+R21966:21977 Coq.Bool.Bool <> orb_lazy_alt thm
+R21966:21977 Coq.Bool.Bool <> orb_lazy_alt thm
+R21966:21977 Coq.Bool.Bool <> orb_lazy_alt thm
+R21966:21977 Coq.Bool.Bool <> orb_lazy_alt thm
+R21981:21992 Coq.Bool.Bool <> orb_true_iff thm
+R21981:21992 Coq.Bool.Bool <> orb_true_iff thm
+R21981:21992 Coq.Bool.Bool <> orb_true_iff thm
+R21981:21992 Coq.Bool.Bool <> orb_true_iff thm
+prf 22240:22249 Props fold_spec'
+binder 22252:22252 <> A:309
+R22263:22266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22260:22262 Coq.MSets.MSetGenTree M elt def
+R22268:22271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22267:22267 Coq.MSets.MSetGenTree <> A:309 var
+R22272:22272 Coq.MSets.MSetGenTree <> A:309 var
+binder 22256:22256 <> f:310
+R22280:22283 Coq.MSets.MSetGenTree M tree ind
+binder 22276:22276 <> s:311
+R22291:22291 Coq.MSets.MSetGenTree <> A:309 var
+binder 22287:22287 <> i:312
+R22301:22304 Coq.Init.Datatypes <> list ind
+R22306:22308 Coq.MSets.MSetGenTree M elt def
+binder 22295:22297 <> acc:313
+R22355:22357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22314:22322 Coq.Lists.List <> fold_left def
+R22354:22354 Coq.MSets.MSetGenTree <> i:312 var
+R22334:22345 Coq.MSets.MSetGenTree M elements_aux def
+R22347:22349 Coq.MSets.MSetGenTree <> acc:313 var
+R22351:22351 Coq.MSets.MSetGenTree <> s:311 var
+R22325:22328 Coq.Program.Basics <> flip def
+R22330:22330 Coq.MSets.MSetGenTree <> f:310 var
+R22358:22366 Coq.Lists.List <> fold_left def
+R22382:22385 Coq.MSets.MSetGenTree M fold def
+R22391:22391 Coq.MSets.MSetGenTree <> i:312 var
+R22389:22389 Coq.MSets.MSetGenTree <> s:311 var
+R22387:22387 Coq.MSets.MSetGenTree <> f:310 var
+R22377:22379 Coq.MSets.MSetGenTree <> acc:313 var
+R22369:22372 Coq.Program.Basics <> flip def
+R22374:22374 Coq.MSets.MSetGenTree <> f:310 var
+R22503:22506 Coq.Program.Basics <> flip def
+prf 22538:22546 Props fold_spec
+R22551:22554 Coq.MSets.MSetGenTree M tree ind
+binder 22549:22549 <> s:314
+binder 22558:22558 <> A:315
+R22566:22566 Coq.MSets.MSetGenTree <> A:315 var
+binder 22562:22562 <> i:316
+R22577:22580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22574:22576 Coq.MSets.MSetGenTree M elt def
+R22582:22585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22581:22581 Coq.MSets.MSetGenTree <> A:315 var
+R22586:22586 Coq.MSets.MSetGenTree <> A:315 var
+binder 22570:22570 <> f:317
+R22602:22604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22592:22595 Coq.MSets.MSetGenTree M fold def
+R22601:22601 Coq.MSets.MSetGenTree <> i:316 var
+R22599:22599 Coq.MSets.MSetGenTree <> s:314 var
+R22597:22597 Coq.MSets.MSetGenTree <> f:317 var
+R22605:22613 Coq.Lists.List <> fold_left def
+R22637:22637 Coq.MSets.MSetGenTree <> i:316 var
+R22625:22632 Coq.MSets.MSetGenTree M elements def
+R22634:22634 Coq.MSets.MSetGenTree <> s:314 var
+R22616:22619 Coq.Program.Basics <> flip def
+R22621:22621 Coq.MSets.MSetGenTree <> f:317 var
+R22665:22672 Coq.MSets.MSetGenTree M elements def
+R22741:22750 Coq.MSets.MSetGenTree Props fold_spec' thm
+R22741:22750 Coq.MSets.MSetGenTree Props fold_spec' thm
+R22741:22750 Coq.MSets.MSetGenTree Props fold_spec' thm
+prf 22812:22823 Props subsetl_spec
+binder 22834:22842 <> subset_l1:318
+binder 22844:22845 <> l1:319
+binder 22847:22848 <> x1:320
+binder 22850:22851 <> c1:321
+binder 22853:22854 <> s2:322
+R22859:22860 Coq.MSets.MSetGenTree Props Ok class
+R22863:22866 Coq.MSets.MSetGenTree M Node constr
+R22868:22869 Coq.MSets.MSetGenTree <> c1:321 var
+R22871:22872 Coq.MSets.MSetGenTree <> l1:319 var
+R22874:22875 Coq.MSets.MSetGenTree <> x1:320 var
+R22877:22880 Coq.MSets.MSetGenTree M Leaf constr
+binder 22859:22881 <> H:323
+R22884:22885 Coq.MSets.MSetGenTree Props Ok class
+R22887:22888 Coq.MSets.MSetGenTree <> s2:322 var
+binder 22884:22888 <> H0:324
+R22893:22893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22948:22954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23020:23021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 22901:22901 <> s:325
+R22905:22906 Coq.MSets.MSetGenTree Props Ok class
+R22908:22908 Coq.MSets.MSetGenTree <> s:325 var
+binder 22905:22908 <> H1:326
+R22931:22935 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22924:22926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22913:22921 Coq.MSets.MSetGenTree <> subset_l1:318 var
+R22923:22923 Coq.MSets.MSetGenTree <> s:325 var
+R22927:22930 Coq.Init.Datatypes <> true constr
+R22936:22941 Coq.MSets.MSetGenTree Props Subset def
+R22943:22944 Coq.MSets.MSetGenTree <> l1:319 var
+R22946:22946 Coq.MSets.MSetGenTree <> s:325 var
+R22985:22989 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22978:22980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22955:22961 Coq.MSets.MSetGenTree M subsetl def
+R22963:22971 Coq.MSets.MSetGenTree <> subset_l1:318 var
+R22973:22974 Coq.MSets.MSetGenTree <> x1:320 var
+R22976:22977 Coq.MSets.MSetGenTree <> s2:322 var
+R22981:22984 Coq.Init.Datatypes <> true constr
+R22990:22995 Coq.MSets.MSetGenTree Props Subset def
+R22998:23001 Coq.MSets.MSetGenTree M Node constr
+R23003:23004 Coq.MSets.MSetGenTree <> c1:321 var
+R23006:23007 Coq.MSets.MSetGenTree <> l1:319 var
+R23009:23010 Coq.MSets.MSetGenTree <> x1:320 var
+R23012:23015 Coq.MSets.MSetGenTree M Leaf constr
+R23018:23019 Coq.MSets.MSetGenTree <> s2:322 var
+R23097:23102 Coq.MSets.MSetGenTree Props Subset def
+R23147:23149 Coq.MSets.MSetGenTree Props InT ind
+R23154:23157 Coq.MSets.MSetGenTree M Leaf constr
+R23147:23149 Coq.MSets.MSetGenTree Props InT ind
+R23154:23157 Coq.MSets.MSetGenTree M Leaf constr
+R23304:23309 Coq.MSets.MSetGenTree Props Subset def
+R23335:23338 Coq.MSets.MSetGenTree X eq defax
+R23335:23338 Coq.MSets.MSetGenTree X eq defax
+R23379:23381 Coq.MSets.MSetGenTree Props InT ind
+R23386:23389 Coq.MSets.MSetGenTree M Node constr
+R23379:23381 Coq.MSets.MSetGenTree Props InT ind
+R23386:23389 Coq.MSets.MSetGenTree M Node constr
+R23487:23492 Coq.MSets.MSetGenTree Props Subset def
+R23518:23520 Coq.MSets.MSetGenTree Props InT ind
+R23525:23528 Coq.MSets.MSetGenTree M Node constr
+R23518:23520 Coq.MSets.MSetGenTree Props InT ind
+R23525:23528 Coq.MSets.MSetGenTree M Node constr
+R23583:23585 Coq.MSets.MSetGenTree Props InT ind
+R23590:23593 Coq.MSets.MSetGenTree M Node constr
+R23583:23585 Coq.MSets.MSetGenTree Props InT ind
+R23590:23593 Coq.MSets.MSetGenTree M Node constr
+R23651:23663 Coq.Bool.Bool <> andb_lazy_alt thm
+R23666:23678 Coq.Bool.Bool <> andb_true_iff thm
+R23651:23663 Coq.Bool.Bool <> andb_lazy_alt thm
+R23651:23663 Coq.Bool.Bool <> andb_lazy_alt thm
+R23666:23678 Coq.Bool.Bool <> andb_true_iff thm
+R23666:23678 Coq.Bool.Bool <> andb_true_iff thm
+R23721:23726 Coq.MSets.MSetGenTree Props Subset def
+R23802:23809 Coq.MSets.MSetGenTree Props mem_spec thm
+R23802:23809 Coq.MSets.MSetGenTree Props mem_spec thm
+R23802:23809 Coq.MSets.MSetGenTree Props mem_spec thm
+R23802:23809 Coq.MSets.MSetGenTree Props mem_spec thm
+R23827:23834 Coq.MSets.MSetGenTree Props mem_spec thm
+R23827:23834 Coq.MSets.MSetGenTree Props mem_spec thm
+R23827:23834 Coq.MSets.MSetGenTree Props mem_spec thm
+R23827:23834 Coq.MSets.MSetGenTree Props mem_spec thm
+R23852:23854 Coq.MSets.MSetGenTree Props InT ind
+R23860:23863 Coq.MSets.MSetGenTree M Node constr
+R23852:23854 Coq.MSets.MSetGenTree Props InT ind
+R23860:23863 Coq.MSets.MSetGenTree M Node constr
+prf 23922:23933 Props subsetr_spec
+binder 23944:23952 <> subset_r1:327
+binder 23954:23955 <> r1:328
+binder 23957:23958 <> x1:329
+binder 23960:23961 <> c1:330
+binder 23963:23964 <> s2:331
+R23992:23995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23968:23970 Coq.MSets.MSetGenTree Props bst ind
+R23973:23976 Coq.MSets.MSetGenTree M Node constr
+R23978:23979 Coq.MSets.MSetGenTree <> c1:330 var
+R23981:23984 Coq.MSets.MSetGenTree M Leaf constr
+R23986:23987 Coq.MSets.MSetGenTree <> x1:329 var
+R23989:23990 Coq.MSets.MSetGenTree <> r1:328 var
+R24002:24006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23996:23998 Coq.MSets.MSetGenTree Props bst ind
+R24000:24001 Coq.MSets.MSetGenTree <> s2:331 var
+R24007:24007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24063:24069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24135:24135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 24015:24015 <> s:332
+R24023:24027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24062:24062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24018:24020 Coq.MSets.MSetGenTree Props bst ind
+R24022:24022 Coq.MSets.MSetGenTree <> s:332 var
+R24046:24050 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R24039:24041 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24028:24036 Coq.MSets.MSetGenTree <> subset_r1:327 var
+R24038:24038 Coq.MSets.MSetGenTree <> s:332 var
+R24042:24045 Coq.Init.Datatypes <> true constr
+R24051:24056 Coq.MSets.MSetGenTree Props Subset def
+R24058:24059 Coq.MSets.MSetGenTree <> r1:328 var
+R24061:24061 Coq.MSets.MSetGenTree <> s:332 var
+R24100:24104 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R24093:24095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24070:24076 Coq.MSets.MSetGenTree M subsetr def
+R24078:24086 Coq.MSets.MSetGenTree <> subset_r1:327 var
+R24088:24089 Coq.MSets.MSetGenTree <> x1:329 var
+R24091:24092 Coq.MSets.MSetGenTree <> s2:331 var
+R24096:24099 Coq.Init.Datatypes <> true constr
+R24105:24110 Coq.MSets.MSetGenTree Props Subset def
+R24113:24116 Coq.MSets.MSetGenTree M Node constr
+R24118:24119 Coq.MSets.MSetGenTree <> c1:330 var
+R24121:24124 Coq.MSets.MSetGenTree M Leaf constr
+R24126:24127 Coq.MSets.MSetGenTree <> x1:329 var
+R24129:24130 Coq.MSets.MSetGenTree <> r1:328 var
+R24133:24134 Coq.MSets.MSetGenTree <> s2:331 var
+R24211:24216 Coq.MSets.MSetGenTree Props Subset def
+R24261:24263 Coq.MSets.MSetGenTree Props InT ind
+R24268:24271 Coq.MSets.MSetGenTree M Leaf constr
+R24261:24263 Coq.MSets.MSetGenTree Props InT ind
+R24268:24271 Coq.MSets.MSetGenTree M Leaf constr
+R24418:24423 Coq.MSets.MSetGenTree Props Subset def
+R24449:24452 Coq.MSets.MSetGenTree X eq defax
+R24449:24452 Coq.MSets.MSetGenTree X eq defax
+R24493:24495 Coq.MSets.MSetGenTree Props InT ind
+R24500:24503 Coq.MSets.MSetGenTree M Node constr
+R24493:24495 Coq.MSets.MSetGenTree Props InT ind
+R24500:24503 Coq.MSets.MSetGenTree M Node constr
+R24561:24573 Coq.Bool.Bool <> andb_lazy_alt thm
+R24576:24588 Coq.Bool.Bool <> andb_true_iff thm
+R24561:24573 Coq.Bool.Bool <> andb_lazy_alt thm
+R24561:24573 Coq.Bool.Bool <> andb_lazy_alt thm
+R24576:24588 Coq.Bool.Bool <> andb_true_iff thm
+R24576:24588 Coq.Bool.Bool <> andb_true_iff thm
+R24632:24637 Coq.MSets.MSetGenTree Props Subset def
+R24713:24720 Coq.MSets.MSetGenTree Props mem_spec thm
+R24713:24720 Coq.MSets.MSetGenTree Props mem_spec thm
+R24713:24720 Coq.MSets.MSetGenTree Props mem_spec thm
+R24713:24720 Coq.MSets.MSetGenTree Props mem_spec thm
+R24738:24745 Coq.MSets.MSetGenTree Props mem_spec thm
+R24738:24745 Coq.MSets.MSetGenTree Props mem_spec thm
+R24738:24745 Coq.MSets.MSetGenTree Props mem_spec thm
+R24738:24745 Coq.MSets.MSetGenTree Props mem_spec thm
+R24763:24765 Coq.MSets.MSetGenTree Props InT ind
+R24771:24774 Coq.MSets.MSetGenTree M Node constr
+R24763:24765 Coq.MSets.MSetGenTree Props InT ind
+R24771:24774 Coq.MSets.MSetGenTree M Node constr
+R24872:24877 Coq.MSets.MSetGenTree Props Subset def
+R24903:24905 Coq.MSets.MSetGenTree Props InT ind
+R24910:24913 Coq.MSets.MSetGenTree M Node constr
+R24903:24905 Coq.MSets.MSetGenTree Props InT ind
+R24910:24913 Coq.MSets.MSetGenTree M Node constr
+R24968:24970 Coq.MSets.MSetGenTree Props InT ind
+R24975:24978 Coq.MSets.MSetGenTree M Node constr
+R24968:24970 Coq.MSets.MSetGenTree Props InT ind
+R24975:24978 Coq.MSets.MSetGenTree M Node constr
+prf 25036:25046 Props subset_spec
+binder 25057:25058 <> s1:333
+binder 25060:25061 <> s2:334
+R25065:25066 Coq.MSets.MSetGenTree Props Ok class
+R25068:25069 Coq.MSets.MSetGenTree <> s1:333 var
+binder 25065:25069 <> H:335
+R25072:25073 Coq.MSets.MSetGenTree Props Ok class
+R25075:25076 Coq.MSets.MSetGenTree <> s2:334 var
+binder 25072:25076 <> H0:336
+R25101:25105 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R25094:25096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25082:25087 Coq.MSets.MSetGenTree M subset def
+R25089:25090 Coq.MSets.MSetGenTree <> s1:333 var
+R25092:25093 Coq.MSets.MSetGenTree <> s2:334 var
+R25097:25100 Coq.Init.Datatypes <> true constr
+R25106:25111 Coq.MSets.MSetGenTree Props Subset def
+R25113:25114 Coq.MSets.MSetGenTree <> s1:333 var
+R25116:25117 Coq.MSets.MSetGenTree <> s2:334 var
+R25194:25199 Coq.MSets.MSetGenTree Props Subset def
+R25271:25276 Coq.MSets.MSetGenTree Props Subset def
+R25324:25326 Coq.MSets.MSetGenTree Props InT ind
+R25331:25334 Coq.MSets.MSetGenTree M Leaf constr
+R25324:25326 Coq.MSets.MSetGenTree Props InT ind
+R25331:25334 Coq.MSets.MSetGenTree M Leaf constr
+R25399:25411 Coq.Bool.Bool <> andb_lazy_alt thm
+R25414:25426 Coq.Bool.Bool <> andb_true_iff thm
+R25399:25411 Coq.Bool.Bool <> andb_lazy_alt thm
+R25399:25411 Coq.Bool.Bool <> andb_lazy_alt thm
+R25414:25426 Coq.Bool.Bool <> andb_true_iff thm
+R25414:25426 Coq.Bool.Bool <> andb_true_iff thm
+R25475:25480 Coq.MSets.MSetGenTree Props Subset def
+R25506:25509 Coq.MSets.MSetGenTree X eq defax
+R25506:25509 Coq.MSets.MSetGenTree X eq defax
+R25550:25552 Coq.MSets.MSetGenTree Props InT ind
+R25557:25560 Coq.MSets.MSetGenTree M Node constr
+R25550:25552 Coq.MSets.MSetGenTree Props InT ind
+R25557:25560 Coq.MSets.MSetGenTree M Node constr
+R25615:25617 Coq.MSets.MSetGenTree Props InT ind
+R25622:25625 Coq.MSets.MSetGenTree M Node constr
+R25615:25617 Coq.MSets.MSetGenTree Props InT ind
+R25622:25625 Coq.MSets.MSetGenTree M Node constr
+R25683:25695 Coq.Bool.Bool <> andb_lazy_alt thm
+R25698:25710 Coq.Bool.Bool <> andb_true_iff thm
+R25683:25695 Coq.Bool.Bool <> andb_lazy_alt thm
+R25683:25695 Coq.Bool.Bool <> andb_lazy_alt thm
+R25698:25710 Coq.Bool.Bool <> andb_true_iff thm
+R25698:25710 Coq.Bool.Bool <> andb_true_iff thm
+R25738:25749 Coq.MSets.MSetGenTree Props subsetl_spec thm
+R25752:25757 Coq.MSets.MSetGenTree M subset def
+R25738:25749 Coq.MSets.MSetGenTree Props subsetl_spec thm
+R25752:25757 Coq.MSets.MSetGenTree M subset def
+R25738:25749 Coq.MSets.MSetGenTree Props subsetl_spec thm
+R25752:25757 Coq.MSets.MSetGenTree M subset def
+R25808:25813 Coq.MSets.MSetGenTree Props Subset def
+R25839:25841 Coq.MSets.MSetGenTree Props InT ind
+R25846:25849 Coq.MSets.MSetGenTree M Node constr
+R25839:25841 Coq.MSets.MSetGenTree Props InT ind
+R25846:25849 Coq.MSets.MSetGenTree M Node constr
+R25904:25906 Coq.MSets.MSetGenTree Props InT ind
+R25911:25914 Coq.MSets.MSetGenTree M Node constr
+R25904:25906 Coq.MSets.MSetGenTree Props InT ind
+R25911:25914 Coq.MSets.MSetGenTree M Node constr
+R25972:25984 Coq.Bool.Bool <> andb_lazy_alt thm
+R25987:25999 Coq.Bool.Bool <> andb_true_iff thm
+R25972:25984 Coq.Bool.Bool <> andb_lazy_alt thm
+R25972:25984 Coq.Bool.Bool <> andb_lazy_alt thm
+R25987:25999 Coq.Bool.Bool <> andb_true_iff thm
+R25987:25999 Coq.Bool.Bool <> andb_true_iff thm
+R26027:26038 Coq.MSets.MSetGenTree Props subsetr_spec thm
+R26041:26046 Coq.MSets.MSetGenTree M subset def
+R26027:26038 Coq.MSets.MSetGenTree Props subsetr_spec thm
+R26041:26046 Coq.MSets.MSetGenTree M subset def
+R26027:26038 Coq.MSets.MSetGenTree Props subsetr_spec thm
+R26041:26046 Coq.MSets.MSetGenTree M subset def
+R26097:26102 Coq.MSets.MSetGenTree Props Subset def
+R26128:26130 Coq.MSets.MSetGenTree Props InT ind
+R26135:26138 Coq.MSets.MSetGenTree M Node constr
+R26128:26130 Coq.MSets.MSetGenTree Props InT ind
+R26135:26138 Coq.MSets.MSetGenTree M Node constr
+R26193:26195 Coq.MSets.MSetGenTree Props InT ind
+R26200:26203 Coq.MSets.MSetGenTree M Node constr
+R26193:26195 Coq.MSets.MSetGenTree Props InT ind
+R26200:26203 Coq.MSets.MSetGenTree M Node constr
+R26333:26362 Coq.MSets.MSetInterface MakeListOrdering <> modtype
+R26364:26364 Coq.MSets.MSetGenTree X <> modtype
+mod 26328:26328 <> Props.L
+def 26379:26380 Props eq
+R26385:26389 Coq.MSets.MSetGenTree Props Equal def
+inst 26411:26418 Props eq_equiv
+R26422:26432 Coq.Classes.RelationClasses <> Equivalence class
+R26434:26435 Coq.MSets.MSetGenTree Props eq def
+prf 26469:26474 Props eq_Leq
+binder 26485:26485 <> s:337
+binder 26487:26488 <> s':338
+R26498:26502 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26491:26492 Coq.MSets.MSetGenTree Props eq def
+R26494:26494 Coq.MSets.MSetGenTree <> s:337 var
+R26496:26497 Coq.MSets.MSetGenTree <> s':338 var
+R26503:26506 Coq.MSets.MSetGenTree Props eq def
+R26522:26529 Coq.MSets.MSetGenTree M elements def
+R26531:26532 Coq.MSets.MSetGenTree <> s':338 var
+R26509:26516 Coq.MSets.MSetGenTree M elements def
+R26518:26518 Coq.MSets.MSetGenTree <> s:337 var
+R26551:26552 Coq.MSets.MSetGenTree Props eq def
+R26555:26559 Coq.MSets.MSetGenTree Props Equal def
+R26562:26565 Coq.MSets.MSetGenTree Props eq def
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+R26592:26605 Coq.MSets.MSetGenTree Props elements_spec1 thm
+def 26639:26640 Props lt
+R26651:26654 Coq.MSets.MSetGenTree M tree ind
+binder 26643:26644 <> s1:339
+binder 26646:26647 <> s2:340
+R26668:26674 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26682:26683 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 26675:26677 <> s1':341
+binder 26679:26681 <> s2':342
+R26690:26693 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26684:26685 Coq.MSets.MSetGenTree Props Ok class
+R26687:26689 Coq.MSets.MSetGenTree <> s1':341 var
+R26700:26703 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26694:26695 Coq.MSets.MSetGenTree Props Ok class
+R26697:26699 Coq.MSets.MSetGenTree <> s2':342 var
+R26713:26716 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26704:26705 Coq.MSets.MSetGenTree Props eq def
+R26707:26708 Coq.MSets.MSetGenTree <> s1:339 var
+R26710:26712 Coq.MSets.MSetGenTree <> s1':341 var
+R26726:26732 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26717:26718 Coq.MSets.MSetGenTree Props eq def
+R26720:26721 Coq.MSets.MSetGenTree <> s2:340 var
+R26723:26725 Coq.MSets.MSetGenTree <> s2':342 var
+R26733:26736 Coq.MSets.MSetGenTree Props lt def
+R26754:26761 Coq.MSets.MSetGenTree M elements def
+R26763:26765 Coq.MSets.MSetGenTree <> s2':342 var
+R26739:26746 Coq.MSets.MSetGenTree M elements def
+R26748:26750 Coq.MSets.MSetGenTree <> s1':341 var
+R26794:26797 Coq.MSets.MSetGenTree Props eq def
+R26799:26808 Coq.Lists.SetoidList <> equivlistA def
+inst 26831:26841 Props lt_strorder
+R26845:26855 Coq.Classes.RelationClasses <> StrictOrder class
+R26857:26858 Coq.MSets.MSetGenTree Props lt def
+R26930:26936 Coq.Lists.SetoidList <> eqlistA ind
+R26958:26965 Coq.MSets.MSetGenTree M elements def
+R26944:26951 Coq.MSets.MSetGenTree M elements def
+R26938:26941 Coq.MSets.MSetGenTree X eq defax
+R26930:26936 Coq.Lists.SetoidList <> eqlistA ind
+R26958:26965 Coq.MSets.MSetGenTree M elements def
+R26944:26951 Coq.MSets.MSetGenTree M elements def
+R26938:26941 Coq.MSets.MSetGenTree X eq defax
+R27017:27020 Coq.MSets.MSetGenTree X lt defax
+R26981:27004 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R27017:27020 Coq.MSets.MSetGenTree X lt defax
+R26981:27004 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R27050:27055 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27050:27055 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27050:27055 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27121:27143 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R27146:27153 Coq.MSets.MSetGenTree M elements def
+R27121:27143 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R27146:27153 Coq.MSets.MSetGenTree M elements def
+R27331:27337 Coq.Lists.SetoidList <> eqlistA ind
+R27360:27367 Coq.MSets.MSetGenTree M elements def
+R27345:27352 Coq.MSets.MSetGenTree M elements def
+R27339:27342 Coq.MSets.MSetGenTree X eq defax
+R27331:27337 Coq.Lists.SetoidList <> eqlistA ind
+R27360:27367 Coq.MSets.MSetGenTree M elements def
+R27345:27352 Coq.MSets.MSetGenTree M elements def
+R27339:27342 Coq.MSets.MSetGenTree X eq defax
+R27421:27424 Coq.MSets.MSetGenTree X lt defax
+R27385:27408 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R27421:27424 Coq.MSets.MSetGenTree X lt defax
+R27385:27408 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R27454:27459 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27454:27459 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27454:27459 Coq.MSets.MSetGenTree Props eq_Leq thm
+R27516:27523 Coq.MSets.MSetGenTree M elements def
+R27516:27523 Coq.MSets.MSetGenTree M elements def
+inst 27580:27588 Props lt_compat
+R27592:27597 Coq.Classes.Morphisms <> Proper class
+R27615:27616 Coq.MSets.MSetGenTree Props lt def
+R27602:27604 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R27600:27601 Coq.MSets.MSetGenTree Props eq def
+R27607:27609 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R27605:27606 Coq.MSets.MSetGenTree Props eq def
+R27610:27612 Coq.Init.Logic <> iff def
+def 28172:28180 Props flatten_e
+R28187:28197 Coq.MSets.MSetGenTree M enumeration ind
+binder 28183:28183 <> e:343
+R28202:28205 Coq.Init.Datatypes <> list ind
+R28207:28209 Coq.MSets.MSetGenTree M elt def
+R28220:28220 Coq.MSets.MSetGenTree <> e:343 var
+R28231:28233 Coq.MSets.MSetGenTree M End constr
+R28238:28240 Coq.Init.Datatypes <> nil constr
+R28246:28249 Coq.MSets.MSetGenTree M More constr
+R28261:28264 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28275:28278 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28265:28272 Coq.MSets.MSetGenTree M elements def
+R28279:28287 Coq.MSets.MSetGenTree <> flatten_e:344 def
+prf 28304:28321 Props flatten_e_elements
+binder 28333:28333 <> l:346
+binder 28335:28335 <> x:347
+binder 28337:28337 <> r:348
+binder 28339:28339 <> c:349
+binder 28341:28341 <> e:350
+R28381:28383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28355:28358 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28345:28352 Coq.MSets.MSetGenTree M elements def
+R28354:28354 Coq.MSets.MSetGenTree <> l:346 var
+R28359:28367 Coq.MSets.MSetGenTree Props flatten_e def
+R28370:28373 Coq.MSets.MSetGenTree M More constr
+R28375:28375 Coq.MSets.MSetGenTree <> x:347 var
+R28377:28377 Coq.MSets.MSetGenTree <> r:348 var
+R28379:28379 Coq.MSets.MSetGenTree <> e:350 var
+R28407:28410 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28384:28391 Coq.MSets.MSetGenTree M elements def
+R28394:28397 Coq.MSets.MSetGenTree M Node constr
+R28399:28399 Coq.MSets.MSetGenTree <> c:349 var
+R28401:28401 Coq.MSets.MSetGenTree <> l:346 var
+R28403:28403 Coq.MSets.MSetGenTree <> x:347 var
+R28405:28405 Coq.MSets.MSetGenTree <> r:348 var
+R28411:28419 Coq.MSets.MSetGenTree Props flatten_e def
+R28421:28421 Coq.MSets.MSetGenTree <> e:350 var
+R28452:28464 Coq.MSets.MSetGenTree Props elements_node thm
+R28467:28473 Coq.Lists.List <> app_ass abbrev
+R28452:28464 Coq.MSets.MSetGenTree Props elements_node thm
+R28452:28464 Coq.MSets.MSetGenTree Props elements_node thm
+R28467:28473 Coq.Lists.List <> app_ass abbrev
+R28467:28473 Coq.Lists.List <> app_ass abbrev
+prf 28488:28493 Props cons_1
+binder 28504:28504 <> s:351
+binder 28506:28506 <> e:352
+R28531:28533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28511:28519 Coq.MSets.MSetGenTree Props flatten_e def
+R28522:28525 Coq.MSets.MSetGenTree M cons def
+R28527:28527 Coq.MSets.MSetGenTree <> s:351 var
+R28529:28529 Coq.MSets.MSetGenTree <> e:352 var
+R28544:28547 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28534:28541 Coq.MSets.MSetGenTree M elements def
+R28543:28543 Coq.MSets.MSetGenTree <> s:351 var
+R28548:28556 Coq.MSets.MSetGenTree Props flatten_e def
+R28558:28558 Coq.MSets.MSetGenTree <> e:352 var
+R28624:28641 Coq.MSets.MSetGenTree Props flatten_e_elements thm
+R28624:28641 Coq.MSets.MSetGenTree Props flatten_e_elements thm
+def 28700:28702 Props Cmp
+binder 28704:28704 <> c:353
+binder 28706:28706 <> x:354
+binder 28708:28708 <> y:355
+R28713:28720 Coq.Init.Datatypes <> CompSpec def
+R28736:28736 Coq.MSets.MSetGenTree <> c:353 var
+R28734:28734 Coq.MSets.MSetGenTree <> y:355 var
+R28732:28732 Coq.MSets.MSetGenTree <> x:354 var
+R28727:28730 Coq.MSets.MSetGenTree Props lt def
+R28722:28725 Coq.MSets.MSetGenTree Props eq def
+R28758:28760 Coq.MSets.MSetGenTree Props Cmp def
+R28762:28765 Coq.Program.Basics <> flip def
+prf 28782:28796 Props compare_end_Cmp
+binder 28808:28809 <> e2:356
+R28812:28814 Coq.MSets.MSetGenTree Props Cmp def
+R28817:28827 Coq.MSets.MSetGenTree M compare_end def
+R28829:28830 Coq.MSets.MSetGenTree <> e2:356 var
+R28833:28835 Coq.Init.Datatypes <> nil constr
+R28838:28846 Coq.MSets.MSetGenTree Props flatten_e def
+R28848:28849 Coq.MSets.MSetGenTree <> e2:356 var
+prf 28925:28940 Props compare_more_Cmp
+binder 28951:28952 <> x1:357
+binder 28954:28957 <> cont:358
+binder 28959:28960 <> x2:359
+binder 28962:28963 <> r2:360
+binder 28965:28966 <> e2:361
+binder 28968:28968 <> l:362
+R29028:29034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28973:28975 Coq.MSets.MSetGenTree Props Cmp def
+R28978:28981 Coq.MSets.MSetGenTree <> cont:358 var
+R28984:28987 Coq.MSets.MSetGenTree M cons def
+R28989:28990 Coq.MSets.MSetGenTree <> r2:360 var
+R28992:28993 Coq.MSets.MSetGenTree <> e2:361 var
+R28997:28997 Coq.MSets.MSetGenTree <> l:362 var
+R29011:29014 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29000:29007 Coq.MSets.MSetGenTree M elements def
+R29009:29010 Coq.MSets.MSetGenTree <> r2:360 var
+R29015:29023 Coq.MSets.MSetGenTree Props flatten_e def
+R29025:29026 Coq.MSets.MSetGenTree <> e2:361 var
+R29035:29037 Coq.MSets.MSetGenTree Props Cmp def
+R29040:29051 Coq.MSets.MSetGenTree M compare_more def
+R29053:29054 Coq.MSets.MSetGenTree <> x1:357 var
+R29056:29059 Coq.MSets.MSetGenTree <> cont:358 var
+R29062:29065 Coq.MSets.MSetGenTree M More constr
+R29067:29068 Coq.MSets.MSetGenTree <> x2:359 var
+R29070:29071 Coq.MSets.MSetGenTree <> r2:360 var
+R29073:29074 Coq.MSets.MSetGenTree <> e2:361 var
+R29081:29082 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29079:29080 Coq.MSets.MSetGenTree <> x1:357 var
+R29083:29083 Coq.MSets.MSetGenTree <> l:362 var
+R29093:29101 Coq.MSets.MSetGenTree Props flatten_e def
+R29104:29107 Coq.MSets.MSetGenTree M More constr
+R29109:29110 Coq.MSets.MSetGenTree <> x2:359 var
+R29112:29113 Coq.MSets.MSetGenTree <> r2:360 var
+R29115:29116 Coq.MSets.MSetGenTree <> e2:361 var
+prf 29194:29209 Props compare_cont_Cmp
+binder 29220:29221 <> s1:363
+binder 29223:29226 <> cont:364
+binder 29228:29229 <> e2:365
+binder 29231:29231 <> l:366
+R29235:29235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29274:29279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 29243:29243 <> e:367
+R29246:29248 Coq.MSets.MSetGenTree Props Cmp def
+R29251:29254 Coq.MSets.MSetGenTree <> cont:364 var
+R29256:29256 Coq.MSets.MSetGenTree <> e:367 var
+R29259:29259 Coq.MSets.MSetGenTree <> l:366 var
+R29262:29270 Coq.MSets.MSetGenTree Props flatten_e def
+R29272:29272 Coq.MSets.MSetGenTree <> e:367 var
+R29280:29282 Coq.MSets.MSetGenTree Props Cmp def
+R29285:29296 Coq.MSets.MSetGenTree M compare_cont def
+R29298:29299 Coq.MSets.MSetGenTree <> s1:363 var
+R29301:29304 Coq.MSets.MSetGenTree <> cont:364 var
+R29306:29307 Coq.MSets.MSetGenTree <> e2:365 var
+R29322:29325 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29311:29318 Coq.MSets.MSetGenTree M elements def
+R29320:29321 Coq.MSets.MSetGenTree <> s1:363 var
+R29326:29326 Coq.MSets.MSetGenTree <> l:366 var
+R29330:29338 Coq.MSets.MSetGenTree Props flatten_e def
+R29340:29341 Coq.MSets.MSetGenTree <> e2:365 var
+R29416:29428 Coq.MSets.MSetGenTree Props elements_node thm
+R29431:29437 Coq.Lists.List <> app_ass abbrev
+R29416:29428 Coq.MSets.MSetGenTree Props elements_node thm
+R29416:29428 Coq.MSets.MSetGenTree Props elements_node thm
+R29431:29437 Coq.Lists.List <> app_ass abbrev
+R29431:29437 Coq.Lists.List <> app_ass abbrev
+R29516:29531 Coq.MSets.MSetGenTree Props compare_more_Cmp thm
+R29516:29531 Coq.MSets.MSetGenTree Props compare_more_Cmp thm
+R29546:29551 Coq.MSets.MSetGenTree Props cons_1 thm
+R29546:29551 Coq.MSets.MSetGenTree Props cons_1 thm
+R29546:29551 Coq.MSets.MSetGenTree Props cons_1 thm
+prf 29572:29582 Props compare_Cmp
+binder 29593:29594 <> s1:368
+binder 29596:29597 <> s2:369
+R29601:29603 Coq.MSets.MSetGenTree Props Cmp def
+R29606:29612 Coq.MSets.MSetGenTree M compare def
+R29614:29615 Coq.MSets.MSetGenTree <> s1:368 var
+R29617:29618 Coq.MSets.MSetGenTree <> s2:369 var
+R29622:29629 Coq.MSets.MSetGenTree M elements def
+R29631:29632 Coq.MSets.MSetGenTree <> s1:368 var
+R29636:29643 Coq.MSets.MSetGenTree M elements def
+R29645:29646 Coq.MSets.MSetGenTree <> s2:369 var
+R29673:29679 Coq.MSets.MSetGenTree M compare def
+R29695:29703 Coq.Lists.List <> app_nil_r thm
+R29706:29713 Coq.MSets.MSetGenTree M elements def
+R29695:29703 Coq.Lists.List <> app_nil_r thm
+R29706:29713 Coq.MSets.MSetGenTree M elements def
+R29695:29703 Coq.Lists.List <> app_nil_r thm
+R29706:29713 Coq.MSets.MSetGenTree M elements def
+R29731:29738 Coq.MSets.MSetGenTree M elements def
+R29750:29758 Coq.MSets.MSetGenTree Props flatten_e def
+R29761:29764 Coq.MSets.MSetGenTree M cons def
+R29769:29771 Coq.MSets.MSetGenTree M End constr
+R29789:29794 Coq.MSets.MSetGenTree Props cons_1 thm
+R29812:29820 Coq.Lists.List <> app_nil_r thm
+R29731:29738 Coq.MSets.MSetGenTree M elements def
+R29750:29758 Coq.MSets.MSetGenTree Props flatten_e def
+R29761:29764 Coq.MSets.MSetGenTree M cons def
+R29769:29771 Coq.MSets.MSetGenTree M End constr
+R29789:29794 Coq.MSets.MSetGenTree Props cons_1 thm
+R29789:29794 Coq.MSets.MSetGenTree Props cons_1 thm
+R29812:29820 Coq.Lists.List <> app_nil_r thm
+R29812:29820 Coq.Lists.List <> app_nil_r thm
+R29837:29852 Coq.MSets.MSetGenTree Props compare_cont_Cmp thm
+R29837:29852 Coq.MSets.MSetGenTree Props compare_cont_Cmp thm
+R29877:29891 Coq.MSets.MSetGenTree Props compare_end_Cmp thm
+R29877:29891 Coq.MSets.MSetGenTree Props compare_end_Cmp thm
+prf 29912:29923 Props compare_spec
+binder 29934:29935 <> s1:370
+binder 29937:29938 <> s2:371
+R29942:29943 Coq.MSets.MSetGenTree Props Ok class
+R29945:29946 Coq.MSets.MSetGenTree <> s1:370 var
+binder 29942:29946 <> H:372
+R29949:29950 Coq.MSets.MSetGenTree Props Ok class
+R29952:29953 Coq.MSets.MSetGenTree <> s2:371 var
+binder 29949:29953 <> H0:373
+R29958:29965 Coq.Init.Datatypes <> CompSpec def
+R29980:29986 Coq.MSets.MSetGenTree M compare def
+R29988:29989 Coq.MSets.MSetGenTree <> s1:370 var
+R29991:29992 Coq.MSets.MSetGenTree <> s2:371 var
+R29976:29977 Coq.MSets.MSetGenTree <> s2:371 var
+R29973:29974 Coq.MSets.MSetGenTree <> s1:370 var
+R29970:29971 Coq.MSets.MSetGenTree Props lt def
+R29967:29968 Coq.MSets.MSetGenTree Props eq def
+R30023:30033 Coq.MSets.MSetGenTree Props compare_Cmp thm
+R30023:30033 Coq.MSets.MSetGenTree Props compare_Cmp thm
+R30065:30070 Coq.MSets.MSetGenTree Props eq_Leq thm
+R30065:30070 Coq.MSets.MSetGenTree Props eq_Leq thm
+R30065:30070 Coq.MSets.MSetGenTree Props eq_Leq thm
+prf 30205:30214 Props equal_spec
+binder 30225:30226 <> s1:374
+binder 30228:30229 <> s2:375
+R30233:30234 Coq.MSets.MSetGenTree Props Ok class
+R30236:30237 Coq.MSets.MSetGenTree <> s1:374 var
+binder 30233:30237 <> H:376
+R30240:30241 Coq.MSets.MSetGenTree Props Ok class
+R30243:30244 Coq.MSets.MSetGenTree <> s2:375 var
+binder 30240:30244 <> H0:377
+R30267:30271 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R30260:30262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30249:30253 Coq.MSets.MSetGenTree M equal def
+R30255:30256 Coq.MSets.MSetGenTree <> s1:374 var
+R30258:30259 Coq.MSets.MSetGenTree <> s2:375 var
+R30263:30266 Coq.Init.Datatypes <> true constr
+R30272:30273 Coq.MSets.MSetGenTree Props eq def
+R30275:30276 Coq.MSets.MSetGenTree <> s1:374 var
+R30278:30279 Coq.MSets.MSetGenTree <> s2:375 var
+R30296:30300 Coq.MSets.MSetGenTree M equal def
+R30334:30345 Coq.MSets.MSetGenTree Props compare_spec thm
+R30334:30345 Coq.MSets.MSetGenTree Props compare_spec thm
+R30438:30460 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R30438:30460 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R30496:30518 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R30496:30518 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 30600:30616 Props mindepth_maxdepth
+binder 30618:30618 <> s:378
+R30632:30635 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30622:30629 Coq.MSets.MSetGenTree M mindepth def
+R30631:30631 Coq.MSets.MSetGenTree <> s:378 var
+R30636:30643 Coq.MSets.MSetGenTree M maxdepth def
+R30645:30645 Coq.MSets.MSetGenTree <> s:378 var
+R30694:30709 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R30694:30709 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R30694:30709 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R30727:30734 Coq.MSets.MSetGenTree M mindepth def
+R30727:30734 Coq.MSets.MSetGenTree M mindepth def
+R30747:30758 Coq.Arith.PeanoNat Nat le_min_l thm
+R30747:30758 Coq.Arith.PeanoNat Nat le_min_l thm
+R30776:30783 Coq.MSets.MSetGenTree M maxdepth def
+R30776:30783 Coq.MSets.MSetGenTree M maxdepth def
+R30805:30816 Coq.Arith.PeanoNat Nat le_max_l thm
+R30805:30816 Coq.Arith.PeanoNat Nat le_max_l thm
+prf 30831:30847 Props maxdepth_cardinal
+binder 30849:30849 <> s:379
+R30863:30865 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30853:30860 Coq.MSets.MSetGenTree M cardinal def
+R30862:30862 Coq.MSets.MSetGenTree <> s:379 var
+R30867:30868 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R30879:30879 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R30869:30876 Coq.MSets.MSetGenTree M maxdepth def
+R30878:30878 Coq.MSets.MSetGenTree <> s:379 var
+R30897:30904 Coq.Init.Peano <> lt def
+R30973:30986 Coq.Arith.PeanoNat Nat add_succ_r thm
+R30992:31005 Coq.Arith.PeanoNat Nat add_succ_l thm
+R31008:31018 Coq.Arith.PeanoNat Nat add_0_r thm
+R30973:30986 Coq.Arith.PeanoNat Nat add_succ_r thm
+R30973:30986 Coq.Arith.PeanoNat Nat add_succ_r thm
+R30992:31005 Coq.Arith.PeanoNat Nat add_succ_l thm
+R30992:31005 Coq.Arith.PeanoNat Nat add_succ_l thm
+R31008:31018 Coq.Arith.PeanoNat Nat add_0_r thm
+R31008:31018 Coq.Arith.PeanoNat Nat add_0_r thm
+R31030:31044 Coq.Arith.PeanoNat Nat add_le_mono thm
+R31101:31115 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31030:31044 Coq.Arith.PeanoNat Nat add_le_mono thm
+R31101:31115 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31101:31115 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31135:31146 Coq.Arith.PeanoNat Nat le_max_l thm
+R31135:31146 Coq.Arith.PeanoNat Nat le_max_l thm
+R31160:31171 Coq.Arith.PeanoNat Nat le_max_r thm
+R31160:31171 Coq.Arith.PeanoNat Nat le_max_r thm
+prf 31186:31202 Props mindepth_cardinal
+binder 31204:31204 <> s:380
+R31222:31225 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31209:31210 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R31221:31221 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R31211:31218 Coq.MSets.MSetGenTree M mindepth def
+R31220:31220 Coq.MSets.MSetGenTree <> s:380 var
+R31226:31226 Coq.Init.Datatypes <> S constr
+R31229:31236 Coq.MSets.MSetGenTree M cardinal def
+R31238:31238 Coq.MSets.MSetGenTree <> s:380 var
+R31257:31264 Coq.Init.Peano <> lt def
+R31333:31346 Coq.Arith.PeanoNat Nat add_succ_r thm
+R31352:31365 Coq.Arith.PeanoNat Nat add_succ_l thm
+R31368:31378 Coq.Arith.PeanoNat Nat add_0_r thm
+R31333:31346 Coq.Arith.PeanoNat Nat add_succ_r thm
+R31333:31346 Coq.Arith.PeanoNat Nat add_succ_r thm
+R31352:31365 Coq.Arith.PeanoNat Nat add_succ_l thm
+R31352:31365 Coq.Arith.PeanoNat Nat add_succ_l thm
+R31368:31378 Coq.Arith.PeanoNat Nat add_0_r thm
+R31368:31378 Coq.Arith.PeanoNat Nat add_0_r thm
+R31390:31404 Coq.Arith.PeanoNat Nat add_le_mono thm
+R31461:31475 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31390:31404 Coq.Arith.PeanoNat Nat add_le_mono thm
+R31461:31475 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31461:31475 Coq.Arith.PeanoNat Nat pow_le_mono thm
+R31495:31506 Coq.Arith.PeanoNat Nat le_min_l thm
+R31495:31506 Coq.Arith.PeanoNat Nat le_min_l thm
+R31520:31531 Coq.Arith.PeanoNat Nat le_min_r thm
+R31520:31531 Coq.Arith.PeanoNat Nat le_min_r thm
+prf 31546:31566 Props maxdepth_log_cardinal
+binder 31568:31568 <> s:381
+R31581:31585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31573:31576 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R31572:31572 Coq.MSets.MSetGenTree <> s:381 var
+R31577:31580 Coq.MSets.MSetGenTree M Leaf constr
+R31607:31609 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31586:31593 Coq.Arith.PeanoNat Nat log2 def
+R31596:31603 Coq.MSets.MSetGenTree M cardinal def
+R31605:31605 Coq.MSets.MSetGenTree <> s:381 var
+R31610:31617 Coq.MSets.MSetGenTree M maxdepth def
+R31619:31619 Coq.MSets.MSetGenTree <> s:381 var
+R31647:31662 Coq.Arith.PeanoNat Nat log2_lt_pow2 thm
+R31647:31662 Coq.Arith.PeanoNat Nat log2_lt_pow2 thm
+R31702:31718 Coq.MSets.MSetGenTree Props maxdepth_cardinal thm
+R31702:31718 Coq.MSets.MSetGenTree Props maxdepth_cardinal thm
+prf 31733:31753 Props mindepth_log_cardinal
+binder 31755:31755 <> s:382
+R31769:31772 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31759:31766 Coq.MSets.MSetGenTree M mindepth def
+R31768:31768 Coq.MSets.MSetGenTree <> s:382 var
+R31773:31780 Coq.Arith.PeanoNat Nat log2 def
+R31783:31783 Coq.Init.Datatypes <> S constr
+R31786:31793 Coq.MSets.MSetGenTree M cardinal def
+R31795:31795 Coq.MSets.MSetGenTree <> s:382 var
+R31814:31829 Coq.Arith.PeanoNat Nat log2_le_pow2 thm
+R31814:31829 Coq.Arith.PeanoNat Nat log2_le_pow2 thm
+R31856:31872 Coq.MSets.MSetGenTree Props mindepth_cardinal thm
+R31856:31872 Coq.MSets.MSetGenTree Props mindepth_cardinal thm
+R31885:31889 Coq.MSets.MSetGenTree Props <> modtype

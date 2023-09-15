@@ -1,0 +1,616 @@
+DIGEST d196d350513a395a451b2d608e615d92
+FCoq.setoid_ring.Ncring_tac
+R691:694 Coq.Lists.List <> <> lib
+R712:717 Coq.Setoids.Setoid <> <> lib
+R735:740 Coq.PArith.BinPos <> <> lib
+R758:764 Coq.setoid_ring.BinList <> <> lib
+R782:791 Coq.ZArith.Znumtheory <> <> lib
+R809:817 Coq.Classes.Morphisms <> <> lib
+R819:824 Coq.Setoids.Setoid <> <> lib
+R826:829 Coq.Bool.Bool <> <> lib
+R847:852 Coq.ZArith.ZArith <> <> lib
+R870:883 Coq.setoid_ring.Algebra_syntax <> <> lib
+R901:906 Coq.setoid_ring.Ncring <> <> lib
+R924:937 Coq.setoid_ring.Ncring_polynom <> <> lib
+R955:968 Coq.setoid_ring.Ncring_initial <> <> lib
+rec 1004:1006 <> nth
+binder 1009:1009 <> R:1
+R1020:1020 Coq.setoid_ring.Ncring_tac <> R:1 var
+binder 1018:1018 <> t:2
+R1026:1029 Coq.Init.Datatypes <> list ind
+R1031:1031 Coq.setoid_ring.Ncring_tac <> R:1 var
+binder 1024:1024 <> l:3
+R1037:1039 Coq.Init.Datatypes <> nat ind
+binder 1035:1035 <> i:4
+inst 1064:1069 <> Ifind0
+binder 1072:1072 <> R:6
+R1083:1083 Coq.setoid_ring.Ncring_tac <> R:6 var
+binder 1081:1081 <> t:7
+binder 1086:1086 <> l:8
+R1091:1093 Coq.setoid_ring.Ncring_tac <> nth class
+R1098:1099 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1097:1097 Coq.setoid_ring.Ncring_tac <> t:7 var
+R1100:1100 Coq.setoid_ring.Ncring_tac <> l:8 var
+R1095:1095 Coq.setoid_ring.Ncring_tac <> t:7 var
+inst 1136:1141 <> IfindS
+binder 1144:1144 <> R:9
+R1159:1159 Coq.setoid_ring.Ncring_tac <> R:9 var
+binder 1153:1154 <> t2:10
+binder 1156:1157 <> t1:11
+binder 1162:1162 <> l:12
+binder 1164:1164 <> i:13
+R1171:1173 Coq.setoid_ring.Ncring_tac <> nth class
+R1180:1180 Coq.setoid_ring.Ncring_tac <> i:13 var
+R1178:1178 Coq.setoid_ring.Ncring_tac <> l:12 var
+R1175:1176 Coq.setoid_ring.Ncring_tac <> t1:11 var
+R1187:1189 Coq.setoid_ring.Ncring_tac <> nth class
+R1203:1203 Coq.Init.Datatypes <> S constr
+R1205:1205 Coq.setoid_ring.Ncring_tac <> i:13 var
+R1197:1198 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1195:1196 Coq.setoid_ring.Ncring_tac <> t2:10 var
+R1199:1199 Coq.setoid_ring.Ncring_tac <> l:12 var
+R1191:1192 Coq.setoid_ring.Ncring_tac <> t1:11 var
+rec 1229:1234 <> closed
+binder 1237:1237 <> T:14
+R1248:1251 Coq.Init.Datatypes <> list ind
+R1253:1253 Coq.setoid_ring.Ncring_tac <> T:14 var
+binder 1246:1246 <> l:15
+inst 1277:1287 <> Iclosed_nil
+binder 1289:1289 <> T:17
+R1295:1300 Coq.setoid_ring.Ncring_tac <> closed class
+R1309:1311 Coq.Init.Datatypes <> nil constr
+R1306:1306 Coq.setoid_ring.Ncring_tac <> T:17 var
+inst 1343:1354 <> Iclosed_cons
+binder 1356:1356 <> T:18
+binder 1358:1358 <> t:19
+R1363:1366 Coq.Init.Datatypes <> list ind
+R1368:1368 Coq.setoid_ring.Ncring_tac <> T:18 var
+binder 1361:1361 <> l:20
+R1376:1381 Coq.setoid_ring.Ncring_tac <> closed class
+R1383:1383 Coq.setoid_ring.Ncring_tac <> l:20 var
+R1390:1395 Coq.setoid_ring.Ncring_tac <> closed class
+R1399:1400 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1398:1398 Coq.setoid_ring.Ncring_tac <> t:19 var
+R1401:1401 Coq.setoid_ring.Ncring_tac <> l:20 var
+rec 1421:1425 <> reify
+binder 1428:1428 <> R:21
+R1440:1443 Coq.setoid_ring.Ncring <> Ring class
+R1449:1449 Coq.setoid_ring.Ncring_tac <> R:21 var
+binder 1437:1438 <> Rr:30
+R1456:1460 Coq.setoid_ring.Ring_polynom <> PExpr ind
+R1462:1462 Coq.Numbers.BinNums <> Z ind
+binder 1454:1454 <> e:31
+R1471:1474 Coq.Init.Datatypes <> list ind
+R1476:1476 Coq.setoid_ring.Ncring_tac <> R:21 var
+binder 1466:1469 <> lvar:32
+R1482:1482 Coq.setoid_ring.Ncring_tac <> R:21 var
+binder 1480:1480 <> t:33
+inst 1507:1516 <> reify_zero
+binder 1519:1519 <> R:35
+binder 1528:1531 <> lvar:36
+binder 1533:1534 <> op:37
+R1539:1542 Coq.setoid_ring.Ncring <> Ring class
+R1548:1548 Coq.setoid_ring.Ncring_tac <> R:35 var
+R1558:1559 Coq.setoid_ring.Ncring_tac <> op:37 var
+binder 1539:1560 <> H:45
+R1566:1570 Coq.setoid_ring.Ncring_tac <> reify class
+R1598:1599 Coq.setoid_ring.Ncring_tac <> op:37 var
+R1593:1596 Coq.setoid_ring.Ncring_tac <> lvar:36 var
+R1584:1586 Coq.setoid_ring.Ring_polynom <> PEc constr
+R1580:1581 Coq.setoid_ring.Ncring_tac <> op:37 var
+inst 1632:1640 <> reify_one
+binder 1643:1643 <> R:46
+binder 1652:1655 <> lvar:47
+binder 1657:1658 <> op:48
+R1663:1666 Coq.setoid_ring.Ncring <> Ring class
+R1672:1672 Coq.setoid_ring.Ncring_tac <> R:46 var
+R1682:1683 Coq.setoid_ring.Ncring_tac <> op:48 var
+binder 1663:1684 <> H:56
+R1690:1694 Coq.setoid_ring.Ncring_tac <> reify class
+R1723:1724 Coq.setoid_ring.Ncring_tac <> op:48 var
+R1718:1721 Coq.setoid_ring.Ncring_tac <> lvar:47 var
+R1709:1711 Coq.setoid_ring.Ring_polynom <> PEc constr
+R1704:1705 Coq.setoid_ring.Ncring_tac <> op:48 var
+inst 1757:1763 <> reifyZ0
+binder 1766:1766 <> R:57
+binder 1775:1778 <> lvar:58
+R1784:1787 Coq.setoid_ring.Ncring <> Ring class
+R1793:1793 Coq.setoid_ring.Ncring_tac <> R:57 var
+binder 1784:1794 <> H:67
+R1800:1804 Coq.setoid_ring.Ncring_tac <> reify class
+R1820:1821 Coq.Numbers.BinNums <> Z0 constr
+R1815:1818 Coq.setoid_ring.Ncring_tac <> lvar:58 var
+R1807:1809 Coq.setoid_ring.Ring_polynom <> PEc constr
+R1811:1812 Coq.Numbers.BinNums <> Z0 constr
+inst 1857:1865 <> reifyZpos
+binder 1868:1868 <> R:68
+binder 1877:1880 <> lvar:69
+R1885:1892 Coq.Numbers.BinNums <> positive ind
+binder 1883:1883 <> p:70
+R1898:1901 Coq.setoid_ring.Ncring <> Ring class
+R1907:1907 Coq.setoid_ring.Ncring_tac <> R:68 var
+binder 1898:1908 <> H:79
+R1914:1918 Coq.setoid_ring.Ncring_tac <> reify class
+R1941:1944 Coq.Numbers.BinNums <> Zpos constr
+R1946:1946 Coq.setoid_ring.Ncring_tac <> p:70 var
+R1935:1938 Coq.setoid_ring.Ncring_tac <> lvar:69 var
+R1921:1923 Coq.setoid_ring.Ring_polynom <> PEc constr
+R1926:1929 Coq.Numbers.BinNums <> Zpos constr
+R1931:1931 Coq.setoid_ring.Ncring_tac <> p:70 var
+inst 1983:1991 <> reifyZneg
+binder 1994:1994 <> R:80
+binder 2003:2006 <> lvar:81
+R2011:2018 Coq.Numbers.BinNums <> positive ind
+binder 2009:2009 <> p:82
+R2024:2027 Coq.setoid_ring.Ncring <> Ring class
+R2033:2033 Coq.setoid_ring.Ncring_tac <> R:80 var
+binder 2024:2034 <> H:91
+R2040:2044 Coq.setoid_ring.Ncring_tac <> reify class
+R2067:2070 Coq.Numbers.BinNums <> Zneg constr
+R2072:2072 Coq.setoid_ring.Ncring_tac <> p:82 var
+R2061:2064 Coq.setoid_ring.Ncring_tac <> lvar:81 var
+R2047:2049 Coq.setoid_ring.Ring_polynom <> PEc constr
+R2052:2055 Coq.Numbers.BinNums <> Zneg constr
+R2057:2057 Coq.setoid_ring.Ncring_tac <> p:82 var
+inst 2109:2117 <> reify_add
+binder 2120:2120 <> R:92
+binder 2130:2131 <> e1:93
+binder 2133:2136 <> lvar:94
+binder 2138:2139 <> t1:95
+binder 2141:2142 <> e2:96
+binder 2144:2145 <> t2:97
+binder 2147:2148 <> op:98
+R2154:2157 Coq.setoid_ring.Ncring <> Ring class
+R2163:2163 Coq.setoid_ring.Ncring_tac <> R:92 var
+R2171:2172 Coq.setoid_ring.Ncring_tac <> op:98 var
+binder 2154:2173 <> H:106
+R2180:2184 Coq.setoid_ring.Ncring_tac <> reify class
+R2204:2205 Coq.setoid_ring.Ncring_tac <> t1:95 var
+R2199:2202 Coq.setoid_ring.Ncring_tac <> lvar:94 var
+R2196:2197 Coq.setoid_ring.Ncring_tac <> e1:93 var
+R2192:2193 Coq.setoid_ring.Ncring_tac <> op:98 var
+R2212:2216 Coq.setoid_ring.Ncring_tac <> reify class
+R2236:2237 Coq.setoid_ring.Ncring_tac <> t2:97 var
+R2231:2234 Coq.setoid_ring.Ncring_tac <> lvar:94 var
+R2228:2229 Coq.setoid_ring.Ncring_tac <> e2:96 var
+R2224:2225 Coq.setoid_ring.Ncring_tac <> op:98 var
+R2243:2247 Coq.setoid_ring.Ncring_tac <> reify class
+R2279:2280 Coq.setoid_ring.Ncring_tac <> op:98 var
+R2282:2283 Coq.setoid_ring.Ncring_tac <> t1:95 var
+R2285:2286 Coq.setoid_ring.Ncring_tac <> t2:97 var
+R2273:2276 Coq.setoid_ring.Ncring_tac <> lvar:94 var
+R2260:2264 Coq.setoid_ring.Ring_polynom <> PEadd constr
+R2269:2270 Coq.setoid_ring.Ncring_tac <> e2:96 var
+R2266:2267 Coq.setoid_ring.Ncring_tac <> e1:93 var
+R2255:2256 Coq.setoid_ring.Ncring_tac <> op:98 var
+inst 2320:2328 <> reify_mul
+binder 2331:2331 <> R:107
+binder 2342:2343 <> e1:108
+binder 2345:2348 <> lvar:109
+binder 2350:2351 <> t1:110
+binder 2353:2354 <> e2:111
+binder 2356:2357 <> t2:112
+binder 2359:2360 <> op:113
+R2366:2369 Coq.setoid_ring.Ncring <> Ring class
+R2375:2375 Coq.setoid_ring.Ncring_tac <> R:107 var
+R2383:2384 Coq.setoid_ring.Ncring_tac <> op:113 var
+binder 2366:2385 <> H:121
+R2392:2396 Coq.setoid_ring.Ncring_tac <> reify class
+R2416:2417 Coq.setoid_ring.Ncring_tac <> t1:110 var
+R2411:2414 Coq.setoid_ring.Ncring_tac <> lvar:109 var
+R2408:2409 Coq.setoid_ring.Ncring_tac <> e1:108 var
+R2404:2405 Coq.setoid_ring.Ncring_tac <> op:113 var
+R2424:2428 Coq.setoid_ring.Ncring_tac <> reify class
+R2448:2449 Coq.setoid_ring.Ncring_tac <> t2:112 var
+R2443:2446 Coq.setoid_ring.Ncring_tac <> lvar:109 var
+R2440:2441 Coq.setoid_ring.Ncring_tac <> e2:111 var
+R2436:2437 Coq.setoid_ring.Ncring_tac <> op:113 var
+R2455:2459 Coq.setoid_ring.Ncring_tac <> reify class
+R2491:2492 Coq.setoid_ring.Ncring_tac <> op:113 var
+R2494:2495 Coq.setoid_ring.Ncring_tac <> t1:110 var
+R2497:2498 Coq.setoid_ring.Ncring_tac <> t2:112 var
+R2485:2488 Coq.setoid_ring.Ncring_tac <> lvar:109 var
+R2472:2476 Coq.setoid_ring.Ring_polynom <> PEmul constr
+R2481:2482 Coq.setoid_ring.Ncring_tac <> e2:111 var
+R2478:2479 Coq.setoid_ring.Ncring_tac <> e1:108 var
+R2467:2468 Coq.setoid_ring.Ncring_tac <> op:113 var
+inst 2535:2547 <> reify_mul_ext
+binder 2550:2550 <> R:122
+R2560:2563 Coq.setoid_ring.Ncring <> Ring class
+R2565:2565 Coq.setoid_ring.Ncring_tac <> R:122 var
+binder 2560:2565 <> H:131
+binder 2570:2573 <> lvar:132
+R2578:2578 Coq.Numbers.BinNums <> Z ind
+binder 2576:2576 <> z:133
+binder 2581:2582 <> e2:134
+binder 2584:2585 <> t2:135
+R2591:2594 Coq.setoid_ring.Ncring <> Ring class
+R2600:2600 Coq.setoid_ring.Ncring_tac <> R:122 var
+binder 2591:2601 <> H0:144
+R2608:2612 Coq.setoid_ring.Ncring_tac <> reify class
+R2622:2623 Coq.setoid_ring.Ncring_tac <> t2:135 var
+R2617:2620 Coq.setoid_ring.Ncring_tac <> lvar:132 var
+R2614:2615 Coq.setoid_ring.Ncring_tac <> e2:134 var
+R2629:2633 Coq.setoid_ring.Ncring_tac <> reify class
+R2667:2680 Coq.setoid_ring.Algebra_syntax <> multiplication def
+R2682:2682 Coq.Numbers.BinNums <> Z ind
+R2688:2688 Coq.setoid_ring.Ncring_tac <> z:133 var
+R2690:2691 Coq.setoid_ring.Ncring_tac <> t2:135 var
+R2654:2657 Coq.setoid_ring.Ncring_tac <> lvar:132 var
+R2636:2640 Coq.setoid_ring.Ring_polynom <> PEmul constr
+R2650:2651 Coq.setoid_ring.Ncring_tac <> e2:134 var
+R2643:2645 Coq.setoid_ring.Ring_polynom <> PEc constr
+R2647:2647 Coq.setoid_ring.Ncring_tac <> z:133 var
+inst 2727:2735 <> reify_sub
+binder 2738:2738 <> R:145
+binder 2747:2748 <> e1:146
+binder 2750:2753 <> lvar:147
+binder 2755:2756 <> t1:148
+binder 2758:2759 <> e2:149
+binder 2761:2762 <> t2:150
+binder 2764:2765 <> op:151
+R2770:2773 Coq.setoid_ring.Ncring <> Ring class
+R2779:2779 Coq.setoid_ring.Ncring_tac <> R:145 var
+R2787:2788 Coq.setoid_ring.Ncring_tac <> op:151 var
+binder 2770:2789 <> H:159
+R2796:2800 Coq.setoid_ring.Ncring_tac <> reify class
+R2820:2821 Coq.setoid_ring.Ncring_tac <> t1:148 var
+R2815:2818 Coq.setoid_ring.Ncring_tac <> lvar:147 var
+R2812:2813 Coq.setoid_ring.Ncring_tac <> e1:146 var
+R2808:2809 Coq.setoid_ring.Ncring_tac <> op:151 var
+R2828:2832 Coq.setoid_ring.Ncring_tac <> reify class
+R2852:2853 Coq.setoid_ring.Ncring_tac <> t2:150 var
+R2847:2850 Coq.setoid_ring.Ncring_tac <> lvar:147 var
+R2844:2845 Coq.setoid_ring.Ncring_tac <> e2:149 var
+R2840:2841 Coq.setoid_ring.Ncring_tac <> op:151 var
+R2859:2863 Coq.setoid_ring.Ncring_tac <> reify class
+R2895:2896 Coq.setoid_ring.Ncring_tac <> op:151 var
+R2898:2899 Coq.setoid_ring.Ncring_tac <> t1:148 var
+R2901:2902 Coq.setoid_ring.Ncring_tac <> t2:150 var
+R2889:2892 Coq.setoid_ring.Ncring_tac <> lvar:147 var
+R2876:2880 Coq.setoid_ring.Ring_polynom <> PEsub constr
+R2885:2886 Coq.setoid_ring.Ncring_tac <> e2:149 var
+R2882:2883 Coq.setoid_ring.Ncring_tac <> e1:146 var
+R2871:2872 Coq.setoid_ring.Ncring_tac <> op:151 var
+inst 2936:2944 <> reify_opp
+binder 2947:2947 <> R:160
+binder 2956:2957 <> e1:161
+binder 2959:2962 <> lvar:162
+binder 2964:2965 <> t1:163
+binder 2968:2969 <> op:164
+R2974:2977 Coq.setoid_ring.Ncring <> Ring class
+R2983:2983 Coq.setoid_ring.Ncring_tac <> R:160 var
+R2991:2992 Coq.setoid_ring.Ncring_tac <> op:164 var
+binder 2974:2993 <> H:172
+R3000:3004 Coq.setoid_ring.Ncring_tac <> reify class
+R3024:3025 Coq.setoid_ring.Ncring_tac <> t1:163 var
+R3019:3022 Coq.setoid_ring.Ncring_tac <> lvar:162 var
+R3016:3017 Coq.setoid_ring.Ncring_tac <> e1:161 var
+R3012:3013 Coq.setoid_ring.Ncring_tac <> op:164 var
+R3031:3035 Coq.setoid_ring.Ncring_tac <> reify class
+R3064:3065 Coq.setoid_ring.Ncring_tac <> op:164 var
+R3067:3068 Coq.setoid_ring.Ncring_tac <> t1:163 var
+R3058:3061 Coq.setoid_ring.Ncring_tac <> lvar:162 var
+R3048:3052 Coq.setoid_ring.Ring_polynom <> PEopp constr
+R3054:3055 Coq.setoid_ring.Ncring_tac <> e1:161 var
+R3043:3044 Coq.setoid_ring.Ncring_tac <> op:164 var
+inst 3102:3110 <> reify_pow
+binder 3113:3113 <> R:173
+R3123:3126 Coq.setoid_ring.Ncring <> Ring class
+R3128:3128 Coq.setoid_ring.Ncring_tac <> R:173 var
+binder 3123:3128 <> H:182
+binder 3132:3133 <> e1:183
+binder 3135:3138 <> lvar:184
+binder 3140:3141 <> t1:185
+binder 3143:3143 <> n:186
+R3149:3152 Coq.setoid_ring.Ncring <> Ring class
+R3158:3158 Coq.setoid_ring.Ncring_tac <> R:173 var
+binder 3149:3159 <> H0:195
+R3166:3170 Coq.setoid_ring.Ncring_tac <> reify class
+R3180:3181 Coq.setoid_ring.Ncring_tac <> t1:185 var
+R3175:3178 Coq.setoid_ring.Ncring_tac <> lvar:184 var
+R3172:3173 Coq.setoid_ring.Ncring_tac <> e1:183 var
+R3187:3191 Coq.setoid_ring.Ncring_tac <> reify class
+R3212:3216 Coq.setoid_ring.Ncring <> pow_N def
+R3221:3221 Coq.setoid_ring.Ncring_tac <> n:186 var
+R3218:3219 Coq.setoid_ring.Ncring_tac <> t1:185 var
+R3206:3209 Coq.setoid_ring.Ncring_tac <> lvar:184 var
+R3194:3198 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R3203:3203 Coq.setoid_ring.Ncring_tac <> n:186 var
+R3200:3201 Coq.setoid_ring.Ncring_tac <> e1:183 var
+inst 3257:3265 <> reify_var
+binder 3268:3268 <> R:196
+binder 3276:3276 <> t:197
+binder 3278:3281 <> lvar:198
+binder 3283:3283 <> i:199
+R3289:3291 Coq.setoid_ring.Ncring_tac <> nth class
+R3293:3293 Coq.setoid_ring.Ncring_tac <> R:196 var
+R3295:3295 Coq.setoid_ring.Ncring_tac <> t:197 var
+R3297:3300 Coq.setoid_ring.Ncring_tac <> lvar:198 var
+R3302:3302 Coq.setoid_ring.Ncring_tac <> i:199 var
+binder 3289:3302 <> H:200
+R3312:3315 Coq.setoid_ring.Ncring <> Ring class
+R3321:3321 Coq.setoid_ring.Ncring_tac <> R:196 var
+binder 3308:3309 <> Rr:209
+R3328:3332 Coq.setoid_ring.Ncring_tac <> reify class
+R3376:3376 Coq.setoid_ring.Ncring_tac <> t:197 var
+R3371:3374 Coq.setoid_ring.Ncring_tac <> lvar:198 var
+R3345:3347 Coq.setoid_ring.Ring_polynom <> PEX constr
+R3352:3366 Coq.PArith.BinPos Pos of_succ_nat def
+R3368:3368 Coq.setoid_ring.Ncring_tac <> i:199 var
+R3349:3349 Coq.Numbers.BinNums <> Z ind
+R3340:3341 Coq.setoid_ring.Ncring_tac <> Rr:209 var
+rec 3402:3410 <> reifylist
+binder 3413:3413 <> R:210
+R3425:3428 Coq.setoid_ring.Ncring <> Ring class
+R3434:3434 Coq.setoid_ring.Ncring_tac <> R:210 var
+binder 3422:3423 <> Rr:219
+R3445:3448 Coq.Init.Datatypes <> list ind
+R3451:3455 Coq.setoid_ring.Ring_polynom <> PExpr ind
+R3457:3457 Coq.Numbers.BinNums <> Z ind
+binder 3439:3443 <> lexpr:220
+R3467:3470 Coq.Init.Datatypes <> list ind
+R3472:3472 Coq.setoid_ring.Ncring_tac <> R:210 var
+binder 3462:3465 <> lvar:221
+R3485:3488 Coq.Init.Datatypes <> list ind
+R3490:3490 Coq.setoid_ring.Ncring_tac <> R:210 var
+binder 3479:3483 <> lterm:222
+inst 3514:3522 <> reify_nil
+binder 3525:3525 <> R:224
+binder 3533:3536 <> lvar:225
+R3546:3549 Coq.setoid_ring.Ncring <> Ring class
+R3555:3555 Coq.setoid_ring.Ncring_tac <> R:224 var
+binder 3542:3543 <> Rr:234
+R3562:3570 Coq.setoid_ring.Ncring_tac <> reifylist class
+R3593:3595 Coq.Init.Datatypes <> nil constr
+R3597:3597 Coq.setoid_ring.Ncring_tac <> R:224 var
+R3586:3589 Coq.setoid_ring.Ncring_tac <> lvar:225 var
+R3582:3584 Coq.Init.Datatypes <> nil constr
+R3578:3579 Coq.setoid_ring.Ncring_tac <> Rr:234 var
+inst 3630:3639 <> reify_cons
+binder 3642:3642 <> R:235
+binder 3650:3651 <> e1:236
+binder 3653:3656 <> lvar:237
+binder 3658:3659 <> t1:238
+binder 3661:3666 <> lexpr2:239
+binder 3668:3673 <> lterm2:240
+R3682:3685 Coq.setoid_ring.Ncring <> Ring class
+R3691:3691 Coq.setoid_ring.Ncring_tac <> R:235 var
+binder 3678:3679 <> Rr:249
+R3699:3703 Coq.setoid_ring.Ncring_tac <> reify class
+R3723:3724 Coq.setoid_ring.Ncring_tac <> t1:238 var
+R3718:3721 Coq.setoid_ring.Ncring_tac <> lvar:237 var
+R3715:3716 Coq.setoid_ring.Ncring_tac <> e1:236 var
+R3711:3712 Coq.setoid_ring.Ncring_tac <> Rr:249 var
+R3731:3739 Coq.setoid_ring.Ncring_tac <> reifylist class
+R3763:3768 Coq.setoid_ring.Ncring_tac <> lterm2:240 var
+R3758:3761 Coq.setoid_ring.Ncring_tac <> lvar:237 var
+R3751:3756 Coq.setoid_ring.Ncring_tac <> lexpr2:239 var
+R3747:3748 Coq.setoid_ring.Ncring_tac <> Rr:249 var
+R3775:3783 Coq.setoid_ring.Ncring_tac <> reifylist class
+R3816:3817 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3814:3815 Coq.setoid_ring.Ncring_tac <> t1:238 var
+R3818:3823 Coq.setoid_ring.Ncring_tac <> lterm2:240 var
+R3808:3811 Coq.setoid_ring.Ncring_tac <> lvar:237 var
+R3798:3799 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3796:3797 Coq.setoid_ring.Ncring_tac <> e1:236 var
+R3800:3805 Coq.setoid_ring.Ncring_tac <> lexpr2:239 var
+R3791:3792 Coq.setoid_ring.Ncring_tac <> Rr:249 var
+def 3848:3858 <> list_reifyl
+binder 3861:3861 <> R:250
+binder 3869:3873 <> lexpr:251
+binder 3875:3878 <> lvar:252
+binder 3880:3884 <> lterm:253
+R3894:3897 Coq.setoid_ring.Ncring <> Ring class
+R3903:3903 Coq.setoid_ring.Ncring_tac <> R:250 var
+binder 3890:3891 <> Rr:262
+R3911:3919 Coq.setoid_ring.Ncring_tac <> reifylist class
+R3942:3946 Coq.setoid_ring.Ncring_tac <> lterm:253 var
+R3937:3940 Coq.setoid_ring.Ncring_tac <> lvar:252 var
+R3931:3935 Coq.setoid_ring.Ncring_tac <> lexpr:251 var
+R3927:3928 Coq.setoid_ring.Ncring_tac <> Rr:262 var
+R3952:3957 Coq.setoid_ring.Ncring_tac <> closed class
+R3963:3963 Coq.setoid_ring.Ncring_tac <> R:250 var
+R3966:3969 Coq.setoid_ring.Ncring_tac <> lvar:252 var
+binder 3952:3969 <> H:263
+R3976:3976 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3981:3981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3987:3987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3977:3980 Coq.setoid_ring.Ncring_tac <> lvar:252 var
+R3982:3986 Coq.setoid_ring.Ncring_tac <> lexpr:251 var
+R4061:4064 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4061:4064 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4100:4102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4100:4102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4160:4161 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4164:4165 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4166:4168 Coq.Init.Datatypes <> nil constr
+R4120:4121 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4124:4125 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4126:4128 Coq.Init.Datatypes <> nil constr
+R4082:4083 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4086:4087 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4088:4090 Coq.Init.Datatypes <> nil constr
+prf 4185:4191 <> Zeqb_ok
+R4207:4207 Coq.Numbers.BinNums <> Z ind
+binder 4201:4201 <> x:264
+binder 4203:4203 <> y:265
+R4229:4232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4222:4224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4210:4217 Coq.ZArith.Zbool <> Zeq_bool def
+R4219:4219 Coq.setoid_ring.Ncring_tac <> x:264 var
+R4221:4221 Coq.setoid_ring.Ncring_tac <> y:265 var
+R4225:4228 Coq.Init.Datatypes <> true constr
+R4234:4237 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4233:4233 Coq.setoid_ring.Ncring_tac <> x:264 var
+R4238:4238 Coq.setoid_ring.Ncring_tac <> y:265 var
+R4265:4275 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R4265:4275 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R4265:4275 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R4409:4411 Coq.Init.Datatypes <> nil constr
+R4409:4411 Coq.Init.Datatypes <> nil constr
+R4430:4431 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4435:4436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4430:4431 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4435:4436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4536:4541 Coq.setoid_ring.Ncring_polynom <> PEeval def
+R4543:4543 Coq.Numbers.BinNums <> Z ind
+R4565:4572 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R4593:4593 Coq.Numbers.BinNums <> N ind
+R4624:4624 Coq.Numbers.BinNums <> N ind
+binder 4622:4622 <> n:266
+R4629:4629 Coq.setoid_ring.Ncring_tac <> n:266 var
+R4634:4638 Coq.setoid_ring.Ncring <> pow_N def
+R4705:4710 Coq.setoid_ring.Ncring_polynom <> PEeval def
+R4712:4712 Coq.Numbers.BinNums <> Z ind
+R4734:4741 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R4762:4762 Coq.Numbers.BinNums <> N ind
+R4793:4793 Coq.Numbers.BinNums <> N ind
+binder 4791:4791 <> n:267
+R4798:4798 Coq.setoid_ring.Ncring_tac <> n:267 var
+R4803:4807 Coq.setoid_ring.Ncring <> pow_N def
+prf 4887:4890 <> comm
+binder 4901:4901 <> R:268
+R4910:4913 Coq.setoid_ring.Ncring <> Ring class
+R4915:4915 Coq.setoid_ring.Ncring_tac <> R:268 var
+binder 4910:4915 <> H:277
+R4922:4922 Coq.Numbers.BinNums <> Z ind
+binder 4918:4918 <> c:278
+R4930:4930 Coq.setoid_ring.Ncring_tac <> R:268 var
+binder 4926:4926 <> x:279
+R4952:4955 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4937:4940 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4951:4951 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4936:4936 Coq.setoid_ring.Ncring_tac <> x:279 var
+R4941:4948 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R4950:4950 Coq.setoid_ring.Ncring_tac <> c:278 var
+R4956:4956 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4967:4970 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R4957:4964 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R4966:4966 Coq.setoid_ring.Ncring_tac <> c:278 var
+R4971:4971 Coq.setoid_ring.Ncring_tac <> x:279 var
+R5041:5048 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5041:5048 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5041:5048 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5206:5213 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5206:5213 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5206:5213 Coq.setoid_ring.Ncring_initial <> same_gen thm
+R5576:5576 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5580:5581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5588:5588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5576:5576 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5580:5581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5588:5588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5838:5849 Coq.setoid_ring.Ncring_polynom <> ring_correct thm
+R5851:5851 Coq.Numbers.BinNums <> Z ind
+R5916:5923 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R5965:5968 Coq.setoid_ring.Ncring_tac <> comm thm
+R5991:5998 Coq.ZArith.Zbool <> Zeq_bool def
+R6000:6006 Coq.setoid_ring.Ncring_tac <> Zeqb_ok thm
+R6008:6008 Coq.Numbers.BinNums <> N ind
+R6017:6017 Coq.Numbers.BinNums <> N ind
+binder 6015:6015 <> n:280
+R6022:6022 Coq.setoid_ring.Ncring_tac <> n:280 var
+R6044:6048 Coq.setoid_ring.Ncring <> pow_N def
+R6093:6100 Coq.setoid_ring.Ncring_polynom <> mkpow_th constr
+R5532:5542 Coq.setoid_ring.Ncring_tac <> list_reifyl def
+R6344:6345 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6344:6345 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8376:8378 Coq.Init.Datatypes <> nil constr
+R8376:8378 Coq.Init.Datatypes <> nil constr
+R6387:6388 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6387:6388 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8349:8351 Coq.Init.Datatypes <> nil constr
+R8349:8351 Coq.Init.Datatypes <> nil constr
+R6466:6490 Coq.setoid_ring.Ncring_polynom <> norm_subst def
+R6502:6502 Coq.Numbers.BinNums <> Z ind
+R6512:6516 Coq.ZArith.BinInt Z add def
+R6518:6522 Coq.ZArith.BinInt Z mul def
+R6524:6528 Coq.ZArith.BinInt Z sub def
+R6530:6534 Coq.ZArith.BinInt Z opp def
+R6538:6539 Coq.Init.Logic <> eq ind
+R6541:6541 Coq.Numbers.BinNums <> Z ind
+R6544:6547 Coq.setoid_ring.Ncring_initial <> Zops inst
+R6549:6556 Coq.ZArith.Zbool <> Zeq_bool def
+R6624:6642 Coq.setoid_ring.Ncring_polynom <> Pphi def
+R6644:6644 Coq.Numbers.BinNums <> Z ind
+R6665:6667 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R6669:6671 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R6673:6675 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R6677:6678 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R6680:6683 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R6687:6709 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R6877:6879 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6912:6918 Coq.Init.Logic <> eq_refl constr
+R6980:6980 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7140:7144 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R6982:7002 Coq.setoid_ring.Ncring_polynom <> PEeval def
+R7004:7004 Coq.Numbers.BinNums <> Z ind
+R7022:7024 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R7026:7028 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R7030:7032 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R7034:7035 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R7037:7040 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R7044:7066 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R7068:7068 Coq.Numbers.BinNums <> N ind
+R7077:7077 Coq.Numbers.BinNums <> N ind
+binder 7075:7075 <> n:281
+R7082:7082 Coq.setoid_ring.Ncring_tac <> n:281 var
+R7098:7114 Coq.setoid_ring.Ring_theory <> pow_N def
+R7120:7133 Coq.setoid_ring.Algebra_syntax <> multiplication def
+R7167:7194 Coq.setoid_ring.Ncring_polynom <> norm_subst_ok thm
+R7206:7206 Coq.Numbers.BinNums <> Z ind
+R7218:7222 Coq.ZArith.BinInt Z add def
+R7224:7228 Coq.ZArith.BinInt Z mul def
+R7230:7234 Coq.ZArith.BinInt Z sub def
+R7236:7240 Coq.ZArith.BinInt Z opp def
+R7244:7245 Coq.Init.Logic <> eq ind
+R7247:7247 Coq.Numbers.BinNums <> Z ind
+R7268:7270 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R7272:7274 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R7276:7278 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R7280:7281 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R7283:7286 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R7292:7314 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R7330:7333 Coq.setoid_ring.Ncring_tac <> comm thm
+R7341:7343 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R7345:7347 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R7349:7351 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R7353:7354 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R7356:7359 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R7368:7374 Coq.setoid_ring.Ncring_tac <> Zeqb_ok thm
+R7395:7402 Coq.setoid_ring.Ncring_polynom <> mkpow_th constr
+R7990:8008 Coq.setoid_ring.Ncring_polynom <> Pphi def
+R8010:8010 Coq.Numbers.BinNums <> Z ind
+R8018:8020 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R8022:8024 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R8026:8028 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R8030:8031 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R8033:8036 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R8058:8080 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R7680:7698 Coq.setoid_ring.Ncring_polynom <> Pphi def
+R7700:7700 Coq.Numbers.BinNums <> Z ind
+R7708:7710 Coq.setoid_ring.Algebra_syntax <> :::'_+_' not
+R7712:7714 Coq.setoid_ring.Algebra_syntax <> :::'_*_' not
+R7716:7718 Coq.setoid_ring.Algebra_syntax <> :::'_-_' not
+R7720:7721 Coq.setoid_ring.Algebra_syntax <> :::'-_' not
+R7723:7726 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R7744:7766 Coq.setoid_ring.Ncring_initial <> gen_phiZ def
+R8446:8448 Coq.Init.Datatypes <> nil constr
+R8446:8448 Coq.Init.Datatypes <> nil constr
+R8467:8468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8467:8468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8614:8614 Coq.Init.Datatypes <> S constr
+R8614:8614 Coq.Init.Datatypes <> S constr
+R8964:8965 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8964:8965 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8995:8996 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8997:8999 Coq.Init.Datatypes <> nil constr
+R9077:9077 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9081:9082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9089:9089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9077:9077 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9081:9082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9089:9089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9162:9167 Coq.Init.Datatypes <> length def
+R9036:9046 Coq.setoid_ring.Ncring_tac <> list_reifyl def

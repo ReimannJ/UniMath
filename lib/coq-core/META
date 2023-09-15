@@ -1,0 +1,420 @@
+package "boot" (
+  directory = "boot"
+  version = "dev"
+  description = "Coq Enviroment and Paths facilities"
+  requires = "coq-core.config"
+  archive(byte) = "boot.cma"
+  archive(native) = "boot.cmxa"
+  plugin(byte) = "boot.cma"
+  plugin(native) = "boot.cmxs"
+)
+package "clib" (
+  directory = "clib"
+  version = "dev"
+  description = "Coq's Utility Library [general purpose]"
+  requires = "str threads unix"
+  archive(byte) = "clib.cma"
+  archive(native) = "clib.cmxa"
+  plugin(byte) = "clib.cma"
+  plugin(native) = "clib.cmxs"
+)
+package "config" (
+  directory = "config"
+  version = "dev"
+  description = "Coq Configuration Variables"
+  requires = ""
+  archive(byte) = "config.cma"
+  archive(native) = "config.cmxa"
+  plugin(byte) = "config.cma"
+  plugin(native) = "config.cmxs"
+)
+package "engine" (
+  directory = "engine"
+  version = "dev"
+  description = "Coq's Tactic Engine"
+  requires = "coq-core.library"
+  archive(byte) = "engine.cma"
+  archive(native) = "engine.cmxa"
+  plugin(byte) = "engine.cma"
+  plugin(native) = "engine.cmxs"
+)
+package "gramlib" (
+  directory = "gramlib"
+  version = "dev"
+  description = ""
+  requires = "coq-core.lib"
+  archive(byte) = "gramlib.cma"
+  archive(native) = "gramlib.cmxa"
+  plugin(byte) = "gramlib.cma"
+  plugin(native) = "gramlib.cmxs"
+)
+package "interp" (
+  directory = "interp"
+  version = "dev"
+  description =
+  "Coq's Syntactic Interpretation for AST [notations, implicits]"
+  requires = "coq-core.pretyping zarith"
+  archive(byte) = "interp.cma"
+  archive(native) = "interp.cmxa"
+  plugin(byte) = "interp.cma"
+  plugin(native) = "interp.cmxs"
+)
+package "kernel" (
+  directory = "kernel"
+  version = "dev"
+  description = "The Coq Kernel"
+  requires = "coq-core.boot coq-core.lib coq-core.vm dynlink"
+  archive(byte) = "kernel.cma"
+  archive(native) = "kernel.cmxa"
+  plugin(byte) = "kernel.cma"
+  plugin(native) = "kernel.cmxs"
+)
+package "lib" (
+  directory = "lib"
+  version = "dev"
+  description = "Coq's Utility Library [coq-specific]"
+  requires = "coq-core.boot coq-core.clib coq-core.config"
+  archive(byte) = "lib.cma"
+  archive(native) = "lib.cmxa"
+  plugin(byte) = "lib.cma"
+  plugin(native) = "lib.cmxs"
+)
+package "library" (
+  directory = "library"
+  version = "dev"
+  description = "Coq's Loadable Libraries (vo) Support"
+  requires = "coq-core.kernel"
+  archive(byte) = "library.cma"
+  archive(native) = "library.cmxa"
+  plugin(byte) = "library.cma"
+  plugin(native) = "library.cmxs"
+)
+package "parsing" (
+  directory = "parsing"
+  version = "dev"
+  description = ""
+  requires = "coq-core.gramlib coq-core.interp"
+  archive(byte) = "parsing.cma"
+  archive(native) = "parsing.cmxa"
+  plugin(byte) = "parsing.cma"
+  plugin(native) = "parsing.cmxs"
+)
+package "plugins" (
+  directory = "plugins"
+  package "btauto" (
+    directory = "btauto"
+    version = "dev"
+    description = "Coq's btauto plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "btauto_plugin.cma"
+    archive(native) = "btauto_plugin.cmxa"
+    plugin(byte) = "btauto_plugin.cma"
+    plugin(native) = "btauto_plugin.cmxs"
+  )
+  package "cc" (
+    directory = "cc"
+    version = "dev"
+    description = "Coq's congruence closure plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "cc_plugin.cma"
+    archive(native) = "cc_plugin.cmxa"
+    plugin(byte) = "cc_plugin.cma"
+    plugin(native) = "cc_plugin.cmxs"
+  )
+  package "derive" (
+    directory = "derive"
+    version = "dev"
+    description = "Coq's derive plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "derive_plugin.cma"
+    archive(native) = "derive_plugin.cmxa"
+    plugin(byte) = "derive_plugin.cma"
+    plugin(native) = "derive_plugin.cmxs"
+  )
+  package "extraction" (
+    directory = "extraction"
+    version = "dev"
+    description = "Coq's extraction plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "extraction_plugin.cma"
+    archive(native) = "extraction_plugin.cmxa"
+    plugin(byte) = "extraction_plugin.cma"
+    plugin(native) = "extraction_plugin.cmxs"
+  )
+  package "firstorder" (
+    directory = "firstorder"
+    version = "dev"
+    description = "Coq's first order logic solver plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "firstorder_plugin.cma"
+    archive(native) = "firstorder_plugin.cmxa"
+    plugin(byte) = "firstorder_plugin.cma"
+    plugin(native) = "firstorder_plugin.cmxs"
+  )
+  package "funind" (
+    directory = "funind"
+    version = "dev"
+    description = "Coq's functional induction plugin"
+    requires = "coq-core.plugins.extraction"
+    archive(byte) = "funind_plugin.cma"
+    archive(native) = "funind_plugin.cmxa"
+    plugin(byte) = "funind_plugin.cma"
+    plugin(native) = "funind_plugin.cmxs"
+  )
+  package "ltac" (
+    directory = "ltac"
+    version = "dev"
+    description = "Coq's LTAC tactic language"
+    requires = "coq-core.stm"
+    archive(byte) = "ltac_plugin.cma"
+    archive(native) = "ltac_plugin.cmxa"
+    plugin(byte) = "ltac_plugin.cma"
+    plugin(native) = "ltac_plugin.cmxs"
+  )
+  package "ltac2" (
+    directory = "ltac2"
+    version = "dev"
+    description = "Ltac2 plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "ltac2_plugin.cma"
+    archive(native) = "ltac2_plugin.cmxa"
+    plugin(byte) = "ltac2_plugin.cma"
+    plugin(native) = "ltac2_plugin.cmxs"
+  )
+  package "micromega" (
+    directory = "micromega"
+    version = "dev"
+    description = "Coq's micromega plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "micromega_plugin.cma"
+    archive(native) = "micromega_plugin.cmxa"
+    plugin(byte) = "micromega_plugin.cma"
+    plugin(native) = "micromega_plugin.cmxs"
+  )
+  package "nsatz" (
+    directory = "nsatz"
+    version = "dev"
+    description = "Coq's nsatz solver plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "nsatz_plugin.cma"
+    archive(native) = "nsatz_plugin.cmxa"
+    plugin(byte) = "nsatz_plugin.cma"
+    plugin(native) = "nsatz_plugin.cmxs"
+  )
+  package "number_string_notation" (
+    directory = "number_string_notation"
+    version = "dev"
+    description = "Coq number and string notation plugin"
+    requires = "coq-core.vernac"
+    archive(byte) = "number_string_notation_plugin.cma"
+    archive(native) = "number_string_notation_plugin.cmxa"
+    plugin(byte) = "number_string_notation_plugin.cma"
+    plugin(native) = "number_string_notation_plugin.cmxs"
+  )
+  package "ring" (
+    directory = "ring"
+    version = "dev"
+    description = "Coq's ring plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "ring_plugin.cma"
+    archive(native) = "ring_plugin.cmxa"
+    plugin(byte) = "ring_plugin.cma"
+    plugin(native) = "ring_plugin.cmxs"
+  )
+  package "rtauto" (
+    directory = "rtauto"
+    version = "dev"
+    description = "Coq's rtauto plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "rtauto_plugin.cma"
+    archive(native) = "rtauto_plugin.cmxa"
+    plugin(byte) = "rtauto_plugin.cma"
+    plugin(native) = "rtauto_plugin.cmxs"
+  )
+  package "ssreflect" (
+    directory = "ssreflect"
+    version = "dev"
+    description = "Coq's ssreflect plugin"
+    requires = "coq-core.plugins.ssrmatching"
+    archive(byte) = "ssreflect_plugin.cma"
+    archive(native) = "ssreflect_plugin.cmxa"
+    plugin(byte) = "ssreflect_plugin.cma"
+    plugin(native) = "ssreflect_plugin.cmxs"
+  )
+  package "ssrmatching" (
+    directory = "ssrmatching"
+    version = "dev"
+    description = "Coq ssrmatching plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "ssrmatching_plugin.cma"
+    archive(native) = "ssrmatching_plugin.cmxa"
+    plugin(byte) = "ssrmatching_plugin.cma"
+    plugin(native) = "ssrmatching_plugin.cmxs"
+  )
+  package "tauto" (
+    directory = "tauto"
+    version = "dev"
+    description = "Coq's tauto tactic"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "tauto_plugin.cma"
+    archive(native) = "tauto_plugin.cmxa"
+    plugin(byte) = "tauto_plugin.cma"
+    plugin(native) = "tauto_plugin.cmxs"
+  )
+  package "tutorial" (
+    directory = "tutorial"
+    package "p0" (
+      directory = "p0"
+      version = "dev"
+      description = ""
+      requires = "coq-core.plugins.ltac"
+      archive(byte) = "tuto0_plugin.cma"
+      archive(native) = "tuto0_plugin.cmxa"
+      plugin(byte) = "tuto0_plugin.cma"
+      plugin(native) = "tuto0_plugin.cmxs"
+    )
+    package "p1" (
+      directory = "p1"
+      version = "dev"
+      description = ""
+      requires = "coq-core.plugins.ltac"
+      archive(byte) = "tuto1_plugin.cma"
+      archive(native) = "tuto1_plugin.cmxa"
+      plugin(byte) = "tuto1_plugin.cma"
+      plugin(native) = "tuto1_plugin.cmxs"
+    )
+    package "p2" (
+      directory = "p2"
+      version = "dev"
+      description = ""
+      requires = "coq-core.plugins.ltac"
+      archive(byte) = "tuto2_plugin.cma"
+      archive(native) = "tuto2_plugin.cmxa"
+      plugin(byte) = "tuto2_plugin.cma"
+      plugin(native) = "tuto2_plugin.cmxs"
+    )
+    package "p3" (
+      directory = "p3"
+      version = "dev"
+      description = ""
+      requires = "coq-core.plugins.ltac"
+      archive(byte) = "tuto3_plugin.cma"
+      archive(native) = "tuto3_plugin.cmxa"
+      plugin(byte) = "tuto3_plugin.cma"
+      plugin(native) = "tuto3_plugin.cmxs"
+    )
+    version = "48b810b"
+  )
+  package "zify" (
+    directory = "zify"
+    version = "dev"
+    description = "Coq's zify plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "zify_plugin.cma"
+    archive(native) = "zify_plugin.cmxa"
+    plugin(byte) = "zify_plugin.cma"
+    plugin(native) = "zify_plugin.cmxs"
+  )
+  version = "48b810b"
+)
+package "pretyping" (
+  directory = "pretyping"
+  version = "dev"
+  description = "Coq's Type Inference Component (Pretyper)"
+  requires = "coq-core.engine"
+  archive(byte) = "pretyping.cma"
+  archive(native) = "pretyping.cmxa"
+  plugin(byte) = "pretyping.cma"
+  plugin(native) = "pretyping.cmxs"
+)
+package "printing" (
+  directory = "printing"
+  version = "dev"
+  description = "Coq's Term Pretty Printing Library"
+  requires = "coq-core.parsing coq-core.proofs"
+  archive(byte) = "printing.cma"
+  archive(native) = "printing.cmxa"
+  plugin(byte) = "printing.cma"
+  plugin(native) = "printing.cmxs"
+)
+package "proofs" (
+  directory = "proofs"
+  version = "dev"
+  description =
+  "Coq's Higher-level Refinement Proof Engine and Top-level Proof Structure"
+  requires = "coq-core.pretyping"
+  archive(byte) = "proofs.cma"
+  archive(native) = "proofs.cmxa"
+  plugin(byte) = "proofs.cma"
+  plugin(native) = "proofs.cmxs"
+)
+package "stm" (
+  directory = "stm"
+  version = "dev"
+  description = "Coq's Document Manager and Proof Checking Scheduler"
+  requires = "coq-core.sysinit"
+  archive(byte) = "stm.cma"
+  archive(native) = "stm.cmxa"
+  plugin(byte) = "stm.cma"
+  plugin(native) = "stm.cmxs"
+)
+package "sysinit" (
+  directory = "sysinit"
+  version = "dev"
+  description = "Coq's initialization"
+  requires = "coq-core.boot coq-core.vernac findlib"
+  archive(byte) = "sysinit.cma"
+  archive(native) = "sysinit.cmxa"
+  plugin(byte) = "sysinit.cma"
+  plugin(native) = "sysinit.cmxs"
+)
+package "tactics" (
+  directory = "tactics"
+  version = "dev"
+  description = "Coq's Core Tactics [ML implementation]"
+  requires = "coq-core.printing"
+  archive(byte) = "tactics.cma"
+  archive(native) = "tactics.cmxa"
+  plugin(byte) = "tactics.cma"
+  plugin(native) = "tactics.cmxs"
+)
+package "top_printers" (
+  directory = "top_printers"
+  version = "dev"
+  description = "Coq's Debug Printers"
+  requires = "coq-core.plugins.ltac coq-core.toplevel"
+  archive(byte) = "top_printers.cma"
+  archive(native) = "top_printers.cmxa"
+  plugin(byte) = "top_printers.cma"
+  plugin(native) = "top_printers.cmxs"
+)
+package "toplevel" (
+  directory = "toplevel"
+  version = "dev"
+  description = "Coq's Interactive Shell [terminal-based]"
+  requires = "coq-core.stm"
+  archive(byte) = "toplevel.cma"
+  archive(native) = "toplevel.cmxa"
+  plugin(byte) = "toplevel.cma"
+  plugin(native) = "toplevel.cmxs"
+)
+package "vernac" (
+  directory = "vernac"
+  version = "dev"
+  description = "Coq's Vernacular Language"
+  requires = "coq-core.parsing coq-core.tactics findlib.dynload"
+  archive(byte) = "vernac.cma"
+  archive(native) = "vernac.cmxa"
+  plugin(byte) = "vernac.cma"
+  plugin(native) = "vernac.cmxs"
+)
+package "vm" (
+  directory = "vm"
+  version = "dev"
+  description = "Coq's Kernel Abstract Reduction Machine [C implementation]"
+  requires = ""
+  archive(byte) = "coqrun.cma"
+  archive(native) = "coqrun.cmxa"
+  plugin(byte) = "coqrun.cma"
+  plugin(native) = "coqrun.cmxs"
+)

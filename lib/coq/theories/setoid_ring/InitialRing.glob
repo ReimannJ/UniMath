@@ -1,0 +1,1918 @@
+DIGEST ab292fc1e4f21b3a84f337213e8c87a4
+FCoq.setoid_ring.InitialRing
+R691:695 Coq.ZArith.Zbool <> <> lib
+R713:718 Coq.ZArith.BinInt <> <> lib
+R736:741 Coq.NArith.BinNat <> <> lib
+R759:764 Coq.Setoids.Setoid <> <> lib
+R782:792 Coq.setoid_ring.Ring_theory <> <> lib
+R810:821 Coq.setoid_ring.Ring_polynom <> <> lib
+R831:834 Coq.Lists.List <> <> mod
+R903:912 Coq.setoid_ring.Ring_theory RingSyntax <> mod
+def 1004:1014 <> NotConstant
+R1019:1023 Coq.Init.Datatypes <> false constr
+prf 1065:1068 <> Zsth
+R1072:1084 Coq.Setoids.Setoid <> Setoid_Theory def
+R1086:1086 Coq.Numbers.BinNums <> Z ind
+R1090:1091 Coq.Init.Logic <> eq ind
+R1093:1093 Coq.Numbers.BinNums <> Z ind
+R1104:1108 Coq.setoid_ring.Ring_theory <> Eqsth thm
+R1110:1110 Coq.Numbers.BinNums <> Z ind
+prf 1121:1124 <> Zeqe
+R1128:1138 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R1160:1161 Coq.Init.Logic <> eq ind
+R1163:1163 Coq.Numbers.BinNums <> Z ind
+R1152:1156 Coq.ZArith.BinInt Z opp def
+R1146:1150 Coq.ZArith.BinInt Z mul def
+R1140:1144 Coq.ZArith.BinInt Z add def
+R1174:1179 Coq.setoid_ring.Ring_theory <> Eq_ext thm
+R1193:1197 Coq.ZArith.BinInt Z opp def
+R1187:1191 Coq.ZArith.BinInt Z mul def
+R1181:1185 Coq.ZArith.BinInt Z add def
+prf 1208:1210 <> Zth
+R1214:1224 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R1265:1266 Coq.Init.Logic <> eq ind
+R1268:1268 Coq.Numbers.BinNums <> Z ind
+R1257:1261 Coq.ZArith.BinInt Z opp def
+R1251:1255 Coq.ZArith.BinInt Z sub def
+R1245:1249 Coq.ZArith.BinInt Z mul def
+R1239:1243 Coq.ZArith.BinInt Z add def
+R1230:1233 Coq.Numbers.BinNums <> Zpos constr
+R1235:1236 Coq.Numbers.BinNums <> xH constr
+R1226:1227 Coq.Numbers.BinNums <> Z0 constr
+R1299:1307 Coq.ZArith.BinInt Z add_0_l thm
+R1299:1307 Coq.ZArith.BinInt Z add_0_l thm
+R1316:1325 Coq.ZArith.BinInt Z add_comm thm
+R1316:1325 Coq.ZArith.BinInt Z add_comm thm
+R1334:1344 Coq.ZArith.BinInt Z add_assoc thm
+R1334:1344 Coq.ZArith.BinInt Z add_assoc thm
+R1354:1362 Coq.ZArith.BinInt Z mul_1_l thm
+R1354:1362 Coq.ZArith.BinInt Z mul_1_l thm
+R1371:1380 Coq.ZArith.BinInt Z mul_comm thm
+R1371:1380 Coq.ZArith.BinInt Z mul_comm thm
+R1389:1399 Coq.ZArith.BinInt Z mul_assoc thm
+R1389:1399 Coq.ZArith.BinInt Z mul_assoc thm
+R1409:1425 Coq.ZArith.BinInt Z mul_add_distr_r thm
+R1409:1425 Coq.ZArith.BinInt Z mul_add_distr_r thm
+R1443:1452 Coq.ZArith.BinInt Z sub_diag thm
+R1443:1452 Coq.ZArith.BinInt Z sub_diag thm
+sec 1598:1606 <> ZMORPHISM
+var 1619:1619 ZMORPHISM R
+var 1640:1641 ZMORPHISM rO
+var 1643:1644 ZMORPHISM rI
+var 1652:1655 ZMORPHISM radd
+var 1657:1660 ZMORPHISM rmul
+var 1662:1665 ZMORPHISM rsub
+var 1678:1681 ZMORPHISM ropp
+R1648:1648 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1669:1670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1668:1668 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1672:1673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1671:1671 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1674:1674 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1686:1689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1685:1685 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1690:1690 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+var 1704:1706 ZMORPHISM req
+R1711:1714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1710:1710 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1716:1719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1715:1715 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1744:1745 Coq.setoid_ring.InitialRing <> ZMORPHISM.rO var
+not 1737:1737 ZMORPHISM :::'0'
+R1765:1766 Coq.setoid_ring.InitialRing <> ZMORPHISM.rI var
+not 1758:1758 ZMORPHISM :::'1'
+R1792:1795 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+not 1780:1780 ZMORPHISM :::x_'+'_x
+R1826:1829 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+not 1813:1813 ZMORPHISM :::x_'*'_x
+R1861:1864 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+not 1848:1848 ZMORPHISM :::x_'-'_x
+R1892:1895 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+not 1882:1882 ZMORPHISM :::'-'_x
+R1925:1927 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+not 1912:1912 ZMORPHISM :::x_'=='_x
+var 1946:1949 ZMORPHISM Rsth
+R1953:1965 Coq.Setoids.Setoid <> Setoid_Theory def
+R1967:1967 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R1969:1971 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2005:2005 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2007:2009 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2005:2005 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2007:2009 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2043:2063 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R2069:2072 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2005:2005 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2007:2009 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2107:2127 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R2133:2136 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2005:2005 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2007:2009 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2171:2192 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R2198:2201 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2005:2005 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2007:2009 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2043:2063 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R2069:2072 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2107:2127 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R2133:2136 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R2171:2192 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R2198:2201 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+var 2275:2278 ZMORPHISM Reqe
+R2282:2292 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R2309:2311 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2304:2307 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R2299:2302 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R2294:2297 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R2354:2358 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2351:2353 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2362:2366 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2359:2361 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2367:2369 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2330:2333 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R2403:2410 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R2412:2415 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2403:2410 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R2412:2415 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2464:2468 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2461:2463 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2472:2476 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2469:2471 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2477:2479 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2440:2443 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R2513:2520 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R2522:2525 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2513:2520 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R2522:2525 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2574:2578 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2571:2573 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2579:2581 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R2550:2553 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R2615:2622 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R2624:2627 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R2615:2622 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R2624:2627 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+def 2647:2657 <> gen_phiPOS1
+R2662:2669 Coq.Numbers.BinNums <> positive ind
+binder 2660:2660 <> p:11
+R2674:2674 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2687:2687 Coq.setoid_ring.InitialRing <> p:11 var
+R2698:2699 Coq.Numbers.BinNums <> xH constr
+R2710:2711 Coq.Numbers.BinNums <> xO constr
+R2718:2718 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2724:2728 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2742:2742 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2720:2722 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2729:2739 Coq.setoid_ring.InitialRing <> gen_phiPOS1:12 def
+R2741:2741 Coq.setoid_ring.InitialRing <> p:11 var
+R2748:2749 Coq.Numbers.BinNums <> xI constr
+R2757:2760 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2786:2786 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2761:2761 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2767:2771 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2785:2785 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2763:2765 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2772:2782 Coq.setoid_ring.InitialRing <> gen_phiPOS1:12 def
+R2784:2784 Coq.setoid_ring.InitialRing <> p:11 var
+def 2806:2815 <> gen_phiPOS
+R2820:2827 Coq.Numbers.BinNums <> positive ind
+binder 2818:2818 <> p:14
+R2832:2832 Coq.setoid_ring.InitialRing <> ZMORPHISM.R var
+R2845:2845 Coq.setoid_ring.InitialRing <> p:14 var
+R2856:2857 Coq.Numbers.BinNums <> xH constr
+R2868:2869 Coq.Numbers.BinNums <> xO constr
+R2871:2872 Coq.Numbers.BinNums <> xH constr
+R2879:2881 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2889:2890 Coq.Numbers.BinNums <> xO constr
+R2897:2897 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2903:2907 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2920:2920 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2899:2901 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2908:2917 Coq.setoid_ring.InitialRing <> gen_phiPOS:15 def
+R2919:2919 Coq.setoid_ring.InitialRing <> p:14 var
+R2926:2927 Coq.Numbers.BinNums <> xI constr
+R2929:2930 Coq.Numbers.BinNums <> xH constr
+R2936:2939 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2944:2944 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2941:2942 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2950:2951 Coq.Numbers.BinNums <> xI constr
+R2959:2962 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2987:2987 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2963:2963 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2969:2973 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2986:2986 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R2965:2967 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R2974:2983 Coq.setoid_ring.InitialRing <> gen_phiPOS:15 def
+R2985:2985 Coq.setoid_ring.InitialRing <> p:14 var
+def 3009:3017 <> gen_phiZ1
+binder 3019:3019 <> z:17
+R3032:3032 Coq.setoid_ring.InitialRing <> z:17 var
+R3043:3046 Coq.Numbers.BinNums <> Zpos constr
+R3053:3063 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R3071:3072 Coq.Numbers.BinNums <> Z0 constr
+R3083:3086 Coq.Numbers.BinNums <> Zneg constr
+R3093:3094 Coq.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3108:3108 Coq.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3095:3105 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+def 3130:3137 <> gen_phiZ
+binder 3139:3139 <> z:19
+R3152:3152 Coq.setoid_ring.InitialRing <> z:19 var
+R3163:3166 Coq.Numbers.BinNums <> Zpos constr
+R3173:3182 Coq.setoid_ring.InitialRing <> gen_phiPOS def
+R3190:3191 Coq.Numbers.BinNums <> Z0 constr
+R3202:3205 Coq.Numbers.BinNums <> Zneg constr
+R3212:3213 Coq.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3226:3226 Coq.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R3214:3223 Coq.setoid_ring.InitialRing <> gen_phiPOS def
+R3257:3264 Coq.setoid_ring.InitialRing <> gen_phiZ def
+not 3245:3245 ZMORPHISM :::'['_x_']'
+def 3283:3291 <> get_signZ
+binder 3293:3293 <> z:21
+R3306:3306 Coq.setoid_ring.InitialRing <> z:21 var
+R3317:3320 Coq.Numbers.BinNums <> Zneg constr
+R3327:3330 Coq.Init.Datatypes <> Some constr
+R3333:3336 Coq.Numbers.BinNums <> Zpos constr
+R3350:3353 Coq.Init.Datatypes <> None constr
+prf 3370:3381 <> get_signZ_th
+R3385:3395 Coq.setoid_ring.Ring_theory <> sign_theory rec
+R3412:3420 Coq.setoid_ring.InitialRing <> get_signZ def
+R3403:3410 Coq.ZArith.Zbool <> Zeq_bool def
+R3397:3401 Coq.ZArith.BinInt Z opp def
+R3538:3545 Coq.ZArith.Zbool <> Zeq_bool def
+R3556:3569 Coq.ZArith.BinInt Z compare_refl thm
+R3556:3569 Coq.ZArith.BinInt Z compare_refl thm
+R3556:3569 Coq.ZArith.BinInt Z compare_refl thm
+sec 3598:3608 ZMORPHISM ALMOST_RING
+var 3621:3624 ZMORPHISM.ALMOST_RING ARth
+R3628:3645 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R3671:3673 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3666:3669 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R3661:3664 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R3656:3659 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R3651:3654 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R3716:3720 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3713:3715 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3724:3728 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3721:3723 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3729:3731 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R3692:3695 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R3765:3773 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R3785:3788 Coq.setoid_ring.InitialRing <> ZMORPHISM.ALMOST_RING.ARth var
+R3780:3783 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R3775:3778 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R3765:3773 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R3785:3788 Coq.setoid_ring.InitialRing <> ZMORPHISM.ALMOST_RING.ARth var
+R3780:3783 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R3775:3778 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 3904:3911 <> same_gen
+binder 3922:3922 <> x:24
+R3938:3941 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R3925:3935 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R3937:3937 Coq.setoid_ring.InitialRing <> x:24 var
+R3942:3951 Coq.setoid_ring.InitialRing <> gen_phiPOS def
+R3953:3953 Coq.setoid_ring.InitialRing <> x:24 var
+prf 4109:4126 <> ARgen_phiPOS_Psucc
+binder 4137:4137 <> x:25
+R4167:4170 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R4143:4153 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4156:4163 Coq.PArith.BinPos Pos succ def
+R4165:4165 Coq.setoid_ring.InitialRing <> x:25 var
+R4172:4175 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4189:4189 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4176:4186 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4188:4188 Coq.setoid_ring.InitialRing <> x:25 var
+prf 4307:4322 <> ARgen_phiPOS_add
+binder 4333:4333 <> x:26
+binder 4335:4335 <> y:27
+R4360:4363 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R4341:4351 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4355:4357 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R4354:4354 Coq.setoid_ring.InitialRing <> x:26 var
+R4358:4358 Coq.setoid_ring.InitialRing <> y:27 var
+R4364:4364 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4378:4382 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4396:4396 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R4365:4375 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4377:4377 Coq.setoid_ring.InitialRing <> x:26 var
+R4383:4393 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4395:4395 Coq.setoid_ring.InitialRing <> y:27 var
+R4504:4521 Coq.PArith.BinPos Pos add_carry_spec thm
+R4504:4521 Coq.PArith.BinPos Pos add_carry_spec thm
+R4504:4521 Coq.PArith.BinPos Pos add_carry_spec thm
+R4534:4551 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4534:4551 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4534:4551 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4586:4596 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4586:4596 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4648:4658 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4648:4658 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4680:4697 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4680:4697 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4680:4697 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4750:4760 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4750:4760 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4812:4822 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4812:4822 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4864:4881 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4864:4881 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+R4864:4881 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_Psucc thm
+prf 4920:4936 <> ARgen_phiPOS_mult
+binder 4950:4950 <> x:28
+binder 4952:4952 <> y:29
+R4974:4977 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R4955:4965 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4969:4971 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R4968:4968 Coq.setoid_ring.InitialRing <> x:28 var
+R4972:4972 Coq.setoid_ring.InitialRing <> y:29 var
+R4991:4993 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R4978:4988 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R4990:4990 Coq.setoid_ring.InitialRing <> x:28 var
+R4994:5004 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5006:5006 Coq.setoid_ring.InitialRing <> y:29 var
+R5087:5102 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R5087:5102 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R5087:5102 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R5161:5171 Coq.setoid_ring.InitialRing ZMORPHISM.ALMOST_RING <> sec
+var 5185:5187 ZMORPHISM Rth
+R5191:5201 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R5227:5229 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5222:5225 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R5217:5220 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R5212:5215 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R5207:5210 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+var 5237:5240 ZMORPHISM ARth
+R5245:5252 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R5264:5266 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R5259:5262 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R5254:5257 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R5309:5313 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5306:5308 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5317:5321 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5314:5316 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5322:5324 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R5285:5288 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R5358:5366 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R5378:5381 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5373:5376 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R5368:5371 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R5358:5366 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R5378:5381 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5373:5376 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R5368:5371 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 5535:5543 <> same_genZ
+binder 5554:5554 <> x:31
+R5560:5563 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5557:5557 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5559:5559 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5558:5558 Coq.setoid_ring.InitialRing <> x:31 var
+R5564:5572 Coq.setoid_ring.InitialRing <> gen_phiZ1 def
+R5574:5574 Coq.setoid_ring.InitialRing <> x:31 var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R5627:5634 Coq.setoid_ring.InitialRing <> same_gen thm
+R5636:5639 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+prf 5663:5673 <> gen_Zeqb_ok
+binder 5684:5684 <> x:32
+binder 5686:5686 <> y:33
+R5711:5714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5704:5706 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5692:5699 Coq.ZArith.Zbool <> Zeq_bool def
+R5701:5701 Coq.setoid_ring.InitialRing <> x:32 var
+R5703:5703 Coq.setoid_ring.InitialRing <> y:33 var
+R5707:5710 Coq.Init.Datatypes <> true constr
+R5718:5721 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5715:5715 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5717:5717 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5716:5716 Coq.setoid_ring.InitialRing <> x:32 var
+R5722:5722 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5724:5724 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R5723:5723 Coq.setoid_ring.InitialRing <> y:33 var
+R5767:5777 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R5793:5797 Coq.setoid_ring.Ring_theory <> IDphi def
+R5767:5777 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+prf 5840:5856 <> gen_phiZ1_pos_sub
+binder 5867:5867 <> x:34
+binder 5869:5869 <> y:35
+R5898:5901 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R5873:5881 Coq.setoid_ring.InitialRing <> gen_phiZ1 def
+R5884:5892 Coq.ZArith.BinInt Z pos_sub def
+R5894:5894 Coq.setoid_ring.InitialRing <> x:34 var
+R5896:5896 Coq.setoid_ring.InitialRing <> y:35 var
+R5915:5917 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R5902:5912 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5914:5914 Coq.setoid_ring.InitialRing <> x:34 var
+R5918:5918 Coq.setoid_ring.InitialRing ZMORPHISM :::'-'_x not
+R5919:5929 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R5931:5931 Coq.setoid_ring.InitialRing <> y:35 var
+R5966:5979 Coq.ZArith.BinInt Z pos_sub_spec thm
+R5966:5979 Coq.ZArith.BinInt Z pos_sub_spec thm
+R5966:5979 Coq.ZArith.BinInt Z pos_sub_spec thm
+R5989:6004 Coq.PArith.BinPos Pos compare_spec thm
+R5989:6004 Coq.PArith.BinPos Pos compare_spec thm
+R6046:6053 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6055:6057 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6046:6053 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6055:6057 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6046:6053 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6055:6057 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6081:6091 Coq.PArith.BinPos Pos sub_add thm
+R6081:6091 Coq.PArith.BinPos Pos sub_add thm
+R6081:6091 Coq.PArith.BinPos Pos sub_add thm
+R6114:6125 Coq.PArith.BinPos Pos add_comm thm
+R6114:6125 Coq.PArith.BinPos Pos add_comm thm
+R6114:6125 Coq.PArith.BinPos Pos add_comm thm
+R6139:6154 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6156:6159 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6139:6154 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6156:6159 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6139:6154 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6156:6159 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6185:6192 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6194:6196 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6185:6192 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6194:6196 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6185:6192 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6194:6196 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6219:6229 Coq.PArith.BinPos Pos sub_add thm
+R6219:6229 Coq.PArith.BinPos Pos sub_add thm
+R6219:6229 Coq.PArith.BinPos Pos sub_add thm
+R6255:6270 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6272:6275 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6255:6270 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6272:6275 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6255:6270 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6272:6275 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6302:6312 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R6316:6316 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+R6330:6337 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6339:6341 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6302:6312 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R6316:6316 Coq.PArith.BinPos <> ::positive_scope:x_'-'_x not
+R6330:6337 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6339:6341 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6330:6337 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R6339:6341 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+prf 6365:6376 <> gen_phiZ_add
+binder 6387:6387 <> x:36
+binder 6389:6389 <> y:37
+R6399:6402 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R6392:6392 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6398:6398 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6394:6396 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6393:6393 Coq.setoid_ring.InitialRing <> x:36 var
+R6397:6397 Coq.setoid_ring.InitialRing <> y:37 var
+R6406:6408 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'+'_x not
+R6403:6403 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6405:6405 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6404:6404 Coq.setoid_ring.InitialRing <> x:36 var
+R6409:6409 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6411:6411 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6410:6410 Coq.setoid_ring.InitialRing <> y:37 var
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6451:6459 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6538:6553 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6555:6558 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6538:6553 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6555:6558 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6570:6586 Coq.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6570:6586 Coq.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6599:6615 Coq.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6599:6615 Coq.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6599:6615 Coq.setoid_ring.InitialRing <> gen_phiZ1_pos_sub thm
+R6625:6633 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R6635:6637 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6625:6633 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R6635:6637 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6652:6667 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6669:6672 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6652:6667 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6669:6672 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6652:6667 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R6669:6672 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+prf 6696:6707 <> gen_phiZ_mul
+binder 6718:6718 <> x:38
+binder 6720:6720 <> y:39
+R6730:6733 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R6723:6723 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6729:6729 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6725:6727 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6724:6724 Coq.setoid_ring.InitialRing <> x:38 var
+R6728:6728 Coq.setoid_ring.InitialRing <> y:39 var
+R6737:6739 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'*'_x not
+R6734:6734 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6736:6736 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6735:6735 Coq.setoid_ring.InitialRing <> x:38 var
+R6740:6740 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6742:6742 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6741:6741 Coq.setoid_ring.InitialRing <> y:39 var
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6781:6789 Coq.setoid_ring.InitialRing <> same_genZ thm
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6840:6856 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R6858:6861 Coq.setoid_ring.InitialRing <> ZMORPHISM.ARth var
+R6892:6899 Coq.setoid_ring.Ring_theory <> Ropp_opp thm
+R6911:6913 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6906:6909 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R6901:6904 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R6892:6899 Coq.setoid_ring.Ring_theory <> Ropp_opp thm
+R6911:6913 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6906:6909 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R6901:6904 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R6892:6899 Coq.setoid_ring.Ring_theory <> Ropp_opp thm
+R6911:6913 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R6906:6909 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R6901:6904 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+prf 6937:6948 <> gen_phiZ_ext
+R6965:6965 Coq.Numbers.BinNums <> Z ind
+binder 6959:6959 <> x:40
+binder 6961:6961 <> y:41
+R6973:6976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6969:6971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6968:6968 Coq.setoid_ring.InitialRing <> x:40 var
+R6972:6972 Coq.setoid_ring.InitialRing <> y:41 var
+R6980:6983 Coq.setoid_ring.InitialRing ZMORPHISM :::x_'=='_x not
+R6977:6977 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6979:6979 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6978:6978 Coq.setoid_ring.InitialRing <> x:40 var
+R6984:6984 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6986:6986 Coq.setoid_ring.InitialRing ZMORPHISM :::'['_x_']' not
+R6985:6985 Coq.setoid_ring.InitialRing <> y:41 var
+prf 7083:7096 <> gen_phiZ_morph
+R7102:7111 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R7190:7197 Coq.setoid_ring.InitialRing <> gen_phiZ def
+R7181:7188 Coq.ZArith.Zbool <> Zeq_bool def
+R7175:7179 Coq.ZArith.BinInt Z opp def
+R7169:7173 Coq.ZArith.BinInt Z sub def
+R7163:7167 Coq.ZArith.BinInt Z mul def
+R7157:7161 Coq.ZArith.BinInt Z add def
+R7145:7148 Coq.Numbers.BinNums <> Zpos constr
+R7150:7151 Coq.Numbers.BinNums <> xH constr
+R7141:7142 Coq.Numbers.BinNums <> Z0 constr
+R7137:7139 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R7132:7135 Coq.setoid_ring.InitialRing <> ZMORPHISM.ropp var
+R7127:7130 Coq.setoid_ring.InitialRing <> ZMORPHISM.rsub var
+R7122:7125 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R7117:7120 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R7229:7238 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R7310:7317 Coq.setoid_ring.InitialRing <> gen_phiZ def
+R7301:7308 Coq.ZArith.Zbool <> Zeq_bool def
+R7295:7299 Coq.ZArith.BinInt Z mul def
+R7289:7293 Coq.ZArith.BinInt Z add def
+R7262:7265 Coq.Numbers.BinNums <> Zpos constr
+R7267:7268 Coq.Numbers.BinNums <> xH constr
+R7258:7259 Coq.Numbers.BinNums <> Z0 constr
+R7254:7256 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R7249:7252 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R7244:7247 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R7229:7238 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R7310:7317 Coq.setoid_ring.InitialRing <> gen_phiZ def
+R7301:7308 Coq.ZArith.Zbool <> Zeq_bool def
+R7295:7299 Coq.ZArith.BinInt Z mul def
+R7289:7293 Coq.ZArith.BinInt Z add def
+R7262:7265 Coq.Numbers.BinNums <> Zpos constr
+R7267:7268 Coq.Numbers.BinNums <> xH constr
+R7258:7259 Coq.Numbers.BinNums <> Z0 constr
+R7254:7256 Coq.setoid_ring.InitialRing <> ZMORPHISM.req var
+R7249:7252 Coq.setoid_ring.InitialRing <> ZMORPHISM.rmul var
+R7244:7247 Coq.setoid_ring.InitialRing <> ZMORPHISM.radd var
+R7330:7337 Coq.setoid_ring.Ring_theory <> mkRmorph constr
+R7330:7337 Coq.setoid_ring.Ring_theory <> mkRmorph constr
+R7365:7376 Coq.setoid_ring.InitialRing <> gen_phiZ_add thm
+R7365:7376 Coq.setoid_ring.InitialRing <> gen_phiZ_add thm
+R7386:7397 Coq.setoid_ring.InitialRing <> gen_phiZ_mul thm
+R7386:7397 Coq.setoid_ring.InitialRing <> gen_phiZ_mul thm
+R7406:7416 Coq.setoid_ring.InitialRing <> gen_Zeqb_ok thm
+R7406:7416 Coq.setoid_ring.InitialRing <> gen_Zeqb_ok thm
+R7429:7440 Coq.setoid_ring.Ring_theory <> Smorph_morph thm
+R7468:7479 Coq.setoid_ring.InitialRing <> gen_phiZ_ext thm
+R7456:7458 Coq.setoid_ring.InitialRing <> Zth thm
+R7452:7454 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R7447:7450 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R7442:7445 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R7429:7440 Coq.setoid_ring.Ring_theory <> Smorph_morph thm
+R7468:7479 Coq.setoid_ring.InitialRing <> gen_phiZ_ext thm
+R7456:7458 Coq.setoid_ring.InitialRing <> Zth thm
+R7452:7454 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rth var
+R7447:7450 Coq.setoid_ring.InitialRing <> ZMORPHISM.Reqe var
+R7442:7445 Coq.setoid_ring.InitialRing <> ZMORPHISM.Rsth var
+R7494:7502 Coq.setoid_ring.InitialRing ZMORPHISM <> sec
+prf 7548:7551 <> Nsth
+R7555:7567 Coq.Setoids.Setoid <> Setoid_Theory def
+R7569:7569 Coq.Numbers.BinNums <> N ind
+R7573:7574 Coq.Init.Logic <> eq ind
+R7576:7576 Coq.Numbers.BinNums <> N ind
+R7587:7591 Coq.setoid_ring.Ring_theory <> Eqsth thm
+R7593:7593 Coq.Numbers.BinNums <> N ind
+prf 7604:7608 <> Nseqe
+R7612:7623 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R7639:7640 Coq.Init.Logic <> eq ind
+R7642:7642 Coq.Numbers.BinNums <> N ind
+R7631:7635 Coq.NArith.BinNat N mul def
+R7625:7629 Coq.NArith.BinNat N add def
+R7653:7660 Coq.setoid_ring.Ring_theory <> Eq_s_ext thm
+R7668:7672 Coq.NArith.BinNat N mul def
+R7662:7666 Coq.NArith.BinNat N add def
+prf 7683:7685 <> Nth
+R7689:7704 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R7728:7729 Coq.Init.Logic <> eq ind
+R7731:7731 Coq.Numbers.BinNums <> N ind
+R7720:7724 Coq.NArith.BinNat N mul def
+R7714:7718 Coq.NArith.BinNat N add def
+R7762:7770 Coq.NArith.BinNat N add_0_l thm
+R7762:7770 Coq.NArith.BinNat N add_0_l thm
+R7779:7788 Coq.NArith.BinNat N add_comm thm
+R7779:7788 Coq.NArith.BinNat N add_comm thm
+R7797:7807 Coq.NArith.BinNat N add_assoc thm
+R7797:7807 Coq.NArith.BinNat N add_assoc thm
+R7817:7825 Coq.NArith.BinNat N mul_1_l thm
+R7817:7825 Coq.NArith.BinNat N mul_1_l thm
+R7834:7842 Coq.NArith.BinNat N mul_0_l thm
+R7834:7842 Coq.NArith.BinNat N mul_0_l thm
+R7851:7860 Coq.NArith.BinNat N mul_comm thm
+R7851:7860 Coq.NArith.BinNat N mul_comm thm
+R7869:7879 Coq.NArith.BinNat N mul_assoc thm
+R7869:7879 Coq.NArith.BinNat N mul_assoc thm
+R7889:7905 Coq.NArith.BinNat N mul_add_distr_r thm
+R7889:7905 Coq.NArith.BinNat N mul_add_distr_r thm
+def 7925:7928 <> Nsub
+R7933:7937 Coq.setoid_ring.Ring_theory <> SRsub def
+R7939:7943 Coq.NArith.BinNat N add def
+def 7957:7960 <> Nopp
+R7967:7971 Coq.setoid_ring.Ring_theory <> SRopp def
+R7973:7973 Coq.Numbers.BinNums <> N ind
+prf 7984:7987 <> Neqe
+R7991:8001 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R8022:8023 Coq.Init.Logic <> eq ind
+R8025:8025 Coq.Numbers.BinNums <> N ind
+R8015:8018 Coq.setoid_ring.InitialRing <> Nopp def
+R8009:8013 Coq.NArith.BinNat N mul def
+R8003:8007 Coq.NArith.BinNat N add def
+R8036:8045 Coq.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R8047:8051 Coq.setoid_ring.InitialRing <> Nseqe thm
+prf 8062:8065 <> Nath
+R8070:8087 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R8121:8122 Coq.Init.Logic <> eq ind
+R8124:8124 Coq.Numbers.BinNums <> N ind
+R8114:8117 Coq.setoid_ring.InitialRing <> Nopp def
+R8109:8112 Coq.setoid_ring.InitialRing <> Nsub def
+R8103:8107 Coq.NArith.BinNat N mul def
+R8097:8101 Coq.NArith.BinNat N add def
+R8135:8143 Coq.setoid_ring.Ring_theory <> SRth_ARth thm
+R8150:8152 Coq.setoid_ring.InitialRing <> Nth thm
+R8145:8148 Coq.setoid_ring.InitialRing <> Nsth thm
+prf 8163:8169 <> Neqb_ok
+binder 8180:8180 <> x:42
+binder 8182:8182 <> y:43
+R8201:8204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8194:8196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8185:8189 Coq.NArith.BinNat N eqb def
+R8191:8191 Coq.setoid_ring.InitialRing <> x:42 var
+R8193:8193 Coq.setoid_ring.InitialRing <> y:43 var
+R8197:8200 Coq.Init.Datatypes <> true constr
+R8206:8208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8205:8205 Coq.setoid_ring.InitialRing <> x:42 var
+R8209:8209 Coq.setoid_ring.InitialRing <> y:43 var
+binder 8230:8230 <> x:44
+binder 8232:8232 <> y:45
+R8237:8241 Coq.Init.Logic <> proj1 thm
+R8244:8251 Coq.NArith.BinNat N eqb_eq thm
+R8253:8253 Coq.setoid_ring.InitialRing <> x:44 var
+R8255:8255 Coq.setoid_ring.InitialRing <> y:45 var
+binder 8230:8230 <> x:46
+binder 8232:8232 <> y:47
+R8237:8241 Coq.Init.Logic <> proj1 thm
+R8244:8251 Coq.NArith.BinNat N eqb_eq thm
+R8253:8253 Coq.setoid_ring.InitialRing <> x:46 var
+R8255:8255 Coq.setoid_ring.InitialRing <> y:47 var
+sec 8383:8391 <> NMORPHISM
+var 8404:8404 NMORPHISM R
+var 8426:8427 NMORPHISM rO
+var 8429:8430 NMORPHISM rI
+var 8438:8441 NMORPHISM radd
+var 8443:8446 NMORPHISM rmul
+R8434:8434 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8450:8451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8449:8449 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8453:8454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8452:8452 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8455:8455 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+var 8469:8471 NMORPHISM req
+R8476:8479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8475:8475 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8481:8484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8480:8480 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8509:8510 Coq.setoid_ring.InitialRing <> NMORPHISM.rO var
+not 8502:8502 NMORPHISM :::'0'
+R8530:8531 Coq.setoid_ring.InitialRing <> NMORPHISM.rI var
+not 8523:8523 NMORPHISM :::'1'
+R8557:8560 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+not 8545:8545 NMORPHISM :::x_'+'_x
+R8591:8594 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+not 8578:8578 NMORPHISM :::x_'*'_x
+var 8612:8615 NMORPHISM Rsth
+R8619:8631 Coq.Setoids.Setoid <> Setoid_Theory def
+R8633:8633 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8635:8637 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8671:8671 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8673:8675 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8671:8671 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8673:8675 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8709:8729 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R8735:8738 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8671:8671 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8673:8675 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8773:8793 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R8799:8802 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8671:8671 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8673:8675 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8837:8858 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R8864:8867 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8671:8671 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R8673:8675 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8709:8729 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R8735:8738 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8773:8793 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R8799:8802 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R8837:8858 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R8864:8867 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+var 8942:8946 NMORPHISM SReqe
+R8950:8961 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R8973:8975 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R8968:8971 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R8963:8966 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+var 8988:8991 NMORPHISM SRth
+R8995:9010 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R9026:9028 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9021:9024 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9016:9019 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+var 9036:9039 NMORPHISM ARth
+R9044:9052 Coq.setoid_ring.Ring_theory <> SRth_ARth thm
+R9059:9062 Coq.setoid_ring.InitialRing <> NMORPHISM.SRth var
+R9054:9057 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+var 9070:9073 NMORPHISM Reqe
+R9078:9087 Coq.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R9089:9093 Coq.setoid_ring.InitialRing <> NMORPHISM.SReqe var
+var 9101:9104 NMORPHISM ropp
+R9111:9115 Coq.setoid_ring.Ring_theory <> SRopp def
+R9117:9117 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+var 9126:9129 NMORPHISM rsub
+R9136:9140 Coq.setoid_ring.Ring_theory <> SRsub def
+R9142:9142 Coq.setoid_ring.InitialRing <> NMORPHISM.R var
+R9144:9147 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9175:9178 Coq.setoid_ring.InitialRing <> NMORPHISM.rsub var
+not 9162:9162 NMORPHISM :::x_'-'_x
+R9206:9209 Coq.setoid_ring.InitialRing <> NMORPHISM.ropp var
+not 9196:9196 NMORPHISM :::'-'_x
+R9239:9241 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+not 9226:9226 NMORPHISM :::x_'=='_x
+R9289:9293 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9286:9288 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9297:9301 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9294:9296 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9302:9304 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9265:9268 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9338:9345 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R9347:9350 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9338:9345 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R9347:9350 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9399:9403 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9396:9398 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9407:9411 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9404:9406 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9412:9414 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R9375:9378 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9448:9455 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R9457:9460 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9448:9455 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R9457:9460 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+def 9530:9538 <> gen_phiN1
+binder 9540:9540 <> x:57
+R9553:9553 Coq.setoid_ring.InitialRing <> x:57 var
+R9564:9565 Coq.Numbers.BinNums <> N0 constr
+R9576:9579 Coq.Numbers.BinNums <> Npos constr
+R9586:9596 Coq.setoid_ring.InitialRing <> gen_phiPOS1 def
+R9610:9610 Coq.setoid_ring.InitialRing <> x:57 var
+R9605:9608 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9600:9603 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+def 9632:9639 <> gen_phiN
+binder 9641:9641 <> x:59
+R9654:9654 Coq.setoid_ring.InitialRing <> x:59 var
+R9665:9666 Coq.Numbers.BinNums <> N0 constr
+R9677:9680 Coq.Numbers.BinNums <> Npos constr
+R9687:9696 Coq.setoid_ring.InitialRing <> gen_phiPOS def
+R9710:9710 Coq.setoid_ring.InitialRing <> x:59 var
+R9705:9708 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R9700:9703 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+R9741:9748 Coq.setoid_ring.InitialRing <> gen_phiN def
+not 9729:9729 NMORPHISM :::'['_x_']'
+prf 9762:9770 <> same_genN
+binder 9781:9781 <> x:61
+R9787:9790 Coq.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R9784:9784 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9786:9786 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9785:9785 Coq.setoid_ring.InitialRing <> x:61 var
+R9791:9799 Coq.setoid_ring.InitialRing <> gen_phiN1 def
+R9801:9801 Coq.setoid_ring.InitialRing <> x:61 var
+R9869:9876 Coq.setoid_ring.InitialRing <> same_gen thm
+R9888:9891 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R9883:9886 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9878:9881 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R9869:9876 Coq.setoid_ring.InitialRing <> same_gen thm
+R9888:9891 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R9883:9886 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9878:9881 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R9869:9876 Coq.setoid_ring.InitialRing <> same_gen thm
+R9888:9891 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R9883:9886 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R9878:9881 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 9909:9920 <> gen_phiN_add
+binder 9931:9931 <> x:62
+binder 9933:9933 <> y:63
+R9943:9946 Coq.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R9936:9936 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9942:9942 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9938:9940 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R9937:9937 Coq.setoid_ring.InitialRing <> x:62 var
+R9941:9941 Coq.setoid_ring.InitialRing <> y:63 var
+R9950:9952 Coq.setoid_ring.InitialRing NMORPHISM :::x_'+'_x not
+R9947:9947 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9949:9949 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9948:9948 Coq.setoid_ring.InitialRing <> x:62 var
+R9953:9953 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9955:9955 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R9954:9954 Coq.setoid_ring.InitialRing <> y:63 var
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R9994:10002 Coq.setoid_ring.InitialRing <> same_genN thm
+R10050:10065 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R10077:10080 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10072:10075 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10067:10070 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R10050:10065 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_add thm
+R10077:10080 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10072:10075 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10067:10070 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 10098:10110 <> gen_phiN_mult
+binder 10121:10121 <> x:64
+binder 10123:10123 <> y:65
+R10133:10136 Coq.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R10126:10126 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10132:10132 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10128:10130 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R10127:10127 Coq.setoid_ring.InitialRing <> x:64 var
+R10131:10131 Coq.setoid_ring.InitialRing <> y:65 var
+R10140:10142 Coq.setoid_ring.InitialRing NMORPHISM :::x_'*'_x not
+R10137:10137 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10139:10139 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10138:10138 Coq.setoid_ring.InitialRing <> x:64 var
+R10143:10143 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10145:10145 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10144:10144 Coq.setoid_ring.InitialRing <> y:65 var
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10184:10192 Coq.setoid_ring.InitialRing <> same_genN thm
+R10240:10256 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R10268:10271 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10263:10266 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10258:10261 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+R10240:10256 Coq.setoid_ring.InitialRing <> ARgen_phiPOS_mult thm
+R10268:10271 Coq.setoid_ring.InitialRing <> NMORPHISM.ARth var
+R10263:10266 Coq.setoid_ring.InitialRing <> NMORPHISM.Reqe var
+R10258:10261 Coq.setoid_ring.InitialRing <> NMORPHISM.Rsth var
+prf 10289:10300 <> gen_phiN_sub
+binder 10311:10311 <> x:66
+binder 10313:10313 <> y:67
+R10326:10329 Coq.setoid_ring.InitialRing NMORPHISM :::x_'=='_x not
+R10316:10316 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10325:10325 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10317:10320 Coq.setoid_ring.InitialRing <> Nsub def
+R10324:10324 Coq.setoid_ring.InitialRing <> y:67 var
+R10322:10322 Coq.setoid_ring.InitialRing <> x:66 var
+R10333:10335 Coq.setoid_ring.InitialRing NMORPHISM :::x_'-'_x not
+R10330:10330 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10332:10332 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10331:10331 Coq.setoid_ring.InitialRing <> x:66 var
+R10336:10336 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10338:10338 Coq.setoid_ring.InitialRing NMORPHISM :::'['_x_']' not
+R10337:10337 Coq.setoid_ring.InitialRing <> y:67 var
+R10355:10366 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R10355:10366 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+prf 10429:10442 <> gen_phiN_morph
+R10446:10455 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R10548:10555 Coq.setoid_ring.InitialRing <> gen_phiN def
+R10542:10546 Coq.NArith.BinNat N eqb def
+R10537:10540 Coq.setoid_ring.InitialRing <> Nopp def
+R10532:10535 Coq.setoid_ring.InitialRing <> Nsub def
+R10526:10530 Coq.NArith.BinNat N mul def
+R10520:10524 Coq.NArith.BinNat N add def
+R10481:10483 Coq.setoid_ring.InitialRing <> NMORPHISM.req var
+R10476:10479 Coq.setoid_ring.InitialRing <> NMORPHISM.ropp var
+R10471:10474 Coq.setoid_ring.InitialRing <> NMORPHISM.rsub var
+R10466:10469 Coq.setoid_ring.InitialRing <> NMORPHISM.rmul var
+R10461:10464 Coq.setoid_ring.InitialRing <> NMORPHISM.radd var
+R10613:10624 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R10613:10624 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R10633:10644 Coq.setoid_ring.InitialRing <> gen_phiN_sub thm
+R10633:10644 Coq.setoid_ring.InitialRing <> gen_phiN_sub thm
+R10653:10665 Coq.setoid_ring.InitialRing <> gen_phiN_mult thm
+R10653:10665 Coq.setoid_ring.InitialRing <> gen_phiN_mult thm
+R10691:10698 Coq.NArith.BinNat N eqb_eq thm
+R10691:10698 Coq.NArith.BinNat N eqb_eq thm
+R10729:10737 Coq.setoid_ring.InitialRing NMORPHISM <> sec
+def 10807:10811 <> Nword
+R10816:10819 Coq.Init.Datatypes <> list ind
+R10821:10821 Coq.Numbers.BinNums <> N ind
+def 10835:10837 <> NwO
+R10841:10845 Coq.setoid_ring.InitialRing <> Nword def
+R10850:10852 Coq.Init.Datatypes <> nil constr
+def 10866:10868 <> NwI
+R10872:10876 Coq.setoid_ring.InitialRing <> Nword def
+R10884:10887 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10888:10890 Coq.Init.Datatypes <> nil constr
+def 10905:10910 <> Nwcons
+binder 10912:10912 <> n:68
+R10919:10923 Coq.setoid_ring.InitialRing <> Nword def
+binder 10915:10915 <> w:69
+R10928:10932 Coq.setoid_ring.InitialRing <> Nword def
+R10948:10948 Coq.setoid_ring.InitialRing <> n:68 var
+R10945:10945 Coq.setoid_ring.InitialRing <> w:69 var
+R10959:10961 Coq.Init.Datatypes <> nil constr
+R10971:10973 Coq.Init.Datatypes <> nil constr
+R10988:10991 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10987:10987 Coq.setoid_ring.InitialRing <> n:68 var
+R10992:10992 Coq.setoid_ring.InitialRing <> w:69 var
+def 11011:11015 <> Nwadd
+R11026:11030 Coq.setoid_ring.InitialRing <> Nword def
+binder 11018:11019 <> w1:72
+binder 11021:11022 <> w2:73
+R11047:11051 Coq.setoid_ring.InitialRing <> Nword def
+R11068:11069 Coq.setoid_ring.InitialRing <> w2:73 var
+R11064:11065 Coq.setoid_ring.InitialRing <> w1:72 var
+R11082:11083 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11091:11093 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11110:11113 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11104:11104 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R11114:11118 Coq.setoid_ring.InitialRing <> Nwadd:74 def
+R11132:11134 Coq.Init.Datatypes <> nil constr
+R11142:11143 Coq.setoid_ring.InitialRing <> w2:73 var
+R11152:11154 Coq.Init.Datatypes <> nil constr
+R11159:11160 Coq.setoid_ring.InitialRing <> w1:72 var
+def 11181:11185 <> Nwopp
+R11190:11194 Coq.setoid_ring.InitialRing <> Nword def
+binder 11188:11188 <> w:77
+R11199:11203 Coq.setoid_ring.InitialRing <> Nword def
+R11208:11213 Coq.setoid_ring.InitialRing <> Nwcons def
+R11219:11219 Coq.setoid_ring.InitialRing <> w:77 var
+def 11234:11238 <> Nwsub
+binder 11240:11241 <> w1:78
+binder 11243:11244 <> w2:79
+R11249:11253 Coq.setoid_ring.InitialRing <> Nwadd def
+R11259:11263 Coq.setoid_ring.InitialRing <> Nwopp def
+R11265:11266 Coq.setoid_ring.InitialRing <> w2:79 var
+R11255:11256 Coq.setoid_ring.InitialRing <> w1:78 var
+def 11280:11285 <> Nwscal
+R11292:11292 Coq.Numbers.BinNums <> N ind
+binder 11288:11288 <> n:80
+R11300:11304 Coq.setoid_ring.InitialRing <> Nword def
+binder 11296:11296 <> w:81
+R11320:11324 Coq.setoid_ring.InitialRing <> Nword def
+R11337:11337 Coq.setoid_ring.InitialRing <> w:81 var
+R11349:11352 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11366:11369 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11361:11361 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R11360:11360 Coq.setoid_ring.InitialRing <> n:80 var
+R11370:11375 Coq.setoid_ring.InitialRing <> Nwscal:82 def
+R11377:11377 Coq.setoid_ring.InitialRing <> n:80 var
+R11386:11388 Coq.Init.Datatypes <> nil constr
+R11393:11395 Coq.Init.Datatypes <> nil constr
+def 11414:11418 <> Nwmul
+R11429:11433 Coq.setoid_ring.InitialRing <> Nword def
+binder 11421:11422 <> w1:84
+binder 11424:11425 <> w2:85
+R11450:11454 Coq.setoid_ring.InitialRing <> Nword def
+R11467:11468 Coq.setoid_ring.InitialRing <> w1:84 var
+R11482:11483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11491:11495 Coq.setoid_ring.InitialRing <> Nwopp def
+R11498:11502 Coq.setoid_ring.InitialRing <> Nwmul:86 def
+R11508:11509 Coq.setoid_ring.InitialRing <> w2:85 var
+R11518:11519 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11527:11531 Coq.setoid_ring.InitialRing <> Nwsub def
+R11549:11553 Coq.setoid_ring.InitialRing <> Nwmul:86 def
+R11559:11560 Coq.setoid_ring.InitialRing <> w2:85 var
+R11534:11539 Coq.setoid_ring.InitialRing <> Nwscal def
+R11544:11545 Coq.setoid_ring.InitialRing <> w2:85 var
+R11567:11569 Coq.Init.Datatypes <> nil constr
+R11574:11576 Coq.Init.Datatypes <> nil constr
+def 11594:11599 <> Nw_is0
+R11606:11610 Coq.setoid_ring.InitialRing <> Nword def
+binder 11602:11602 <> w:88
+R11615:11618 Coq.Init.Datatypes <> bool ind
+R11631:11631 Coq.setoid_ring.InitialRing <> w:88 var
+R11642:11644 Coq.Init.Datatypes <> nil constr
+R11649:11652 Coq.Init.Datatypes <> true constr
+R11661:11664 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11671:11676 Coq.setoid_ring.InitialRing <> Nw_is0:89 def
+R11690:11694 Coq.Init.Datatypes <> false constr
+def 11713:11721 <> Nweq_bool
+R11732:11736 Coq.setoid_ring.InitialRing <> Nword def
+binder 11724:11725 <> w1:91
+binder 11727:11728 <> w2:92
+R11753:11756 Coq.Init.Datatypes <> bool ind
+R11773:11774 Coq.setoid_ring.InitialRing <> w2:92 var
+R11769:11770 Coq.setoid_ring.InitialRing <> w1:91 var
+R11787:11788 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11796:11797 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11813:11817 Coq.NArith.BinNat N eqb def
+R11853:11857 Coq.Init.Datatypes <> false constr
+R11830:11838 Coq.setoid_ring.InitialRing <> Nweq_bool:93 def
+R11863:11865 Coq.Init.Datatypes <> nil constr
+R11873:11878 Coq.setoid_ring.InitialRing <> Nw_is0 def
+R11880:11881 Coq.setoid_ring.InitialRing <> w2:92 var
+R11890:11892 Coq.Init.Datatypes <> nil constr
+R11897:11902 Coq.setoid_ring.InitialRing <> Nw_is0 def
+R11904:11905 Coq.setoid_ring.InitialRing <> w1:91 var
+sec 11923:11935 <> NWORDMORPHISM
+var 11948:11948 NWORDMORPHISM R
+var 11969:11970 NWORDMORPHISM rO
+var 11972:11973 NWORDMORPHISM rI
+var 11981:11984 NWORDMORPHISM radd
+var 11986:11989 NWORDMORPHISM rmul
+var 11991:11994 NWORDMORPHISM rsub
+var 12007:12010 NWORDMORPHISM ropp
+R11977:11977 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R11998:11999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11997:11997 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12001:12002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12000:12000 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12003:12003 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12015:12018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12014:12014 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12019:12019 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+var 12033:12035 NWORDMORPHISM req
+R12040:12043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12039:12039 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12045:12048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12044:12044 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12073:12074 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+not 12066:12066 NWORDMORPHISM :::'0'
+R12094:12095 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+not 12087:12087 NWORDMORPHISM :::'1'
+R12121:12124 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+not 12109:12109 NWORDMORPHISM :::x_'+'_x
+R12155:12158 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+not 12142:12142 NWORDMORPHISM :::x_'*'_x
+R12190:12193 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+not 12177:12177 NWORDMORPHISM :::x_'-'_x
+R12221:12224 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+not 12211:12211 NWORDMORPHISM :::'-'_x
+R12254:12256 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+not 12241:12241 NWORDMORPHISM :::x_'=='_x
+var 12275:12278 NWORDMORPHISM Rsth
+R12282:12294 Coq.Setoids.Setoid <> Setoid_Theory def
+R12296:12296 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12298:12300 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12334:12334 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12336:12338 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12334:12334 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12336:12338 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12372:12392 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R12398:12401 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12334:12334 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12336:12338 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12436:12456 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R12462:12465 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12334:12334 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12336:12338 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12500:12521 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R12527:12530 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12334:12334 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R12336:12338 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12372:12392 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R12398:12401 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12436:12456 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R12462:12465 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R12500:12521 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R12527:12530 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+var 12604:12607 NWORDMORPHISM Reqe
+R12611:12621 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R12638:12640 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12633:12636 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R12628:12631 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R12623:12626 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R12683:12687 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12680:12682 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12691:12695 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12688:12690 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12696:12698 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12659:12662 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R12732:12739 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R12741:12744 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12732:12739 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R12741:12744 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12793:12797 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12790:12792 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12801:12805 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12798:12800 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12806:12808 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12769:12772 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R12842:12849 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R12851:12854 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12842:12849 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R12851:12854 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12903:12907 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12900:12902 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12908:12910 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R12879:12882 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R12944:12951 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R12953:12956 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R12944:12951 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R12953:12956 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+var 12976:12979 NWORDMORPHISM ARth
+R12983:13000 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R13026:13028 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13021:13024 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R13016:13019 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R13011:13014 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13006:13009 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13071:13075 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13068:13070 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13079:13083 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13076:13078 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13084:13086 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R13047:13050 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R13120:13128 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R13140:13143 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13135:13138 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13130:13133 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R13120:13128 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R13140:13143 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13135:13138 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13130:13133 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+def 13262:13273 <> gen_phiNword
+R13280:13284 Coq.setoid_ring.InitialRing <> Nword def
+binder 13276:13276 <> w:107
+R13289:13289 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.R var
+R13302:13302 Coq.setoid_ring.InitialRing <> w:107 var
+R13313:13315 Coq.Init.Datatypes <> nil constr
+R13327:13330 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13331:13333 Coq.Init.Datatypes <> nil constr
+R13338:13345 Coq.setoid_ring.InitialRing <> gen_phiN def
+R13358:13361 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13353:13356 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13350:13351 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R13347:13348 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R13371:13374 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13369:13370 Coq.Numbers.BinNums <> N0 constr
+R13381:13382 Coq.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R13383:13394 Coq.setoid_ring.InitialRing <> gen_phiNword:108 def
+R13404:13405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13438:13440 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R13412:13419 Coq.setoid_ring.InitialRing <> gen_phiN def
+R13432:13435 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13427:13430 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13424:13425 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R13421:13422 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R13441:13452 Coq.setoid_ring.InitialRing <> gen_phiNword:108 def
+prf 13472:13487 <> gen_phiNword0_ok
+binder 13498:13498 <> w:110
+R13516:13519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13509:13511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13501:13506 Coq.setoid_ring.InitialRing <> Nw_is0 def
+R13508:13508 Coq.setoid_ring.InitialRing <> w:110 var
+R13512:13515 Coq.Init.Datatypes <> true constr
+R13534:13537 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R13520:13531 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R13533:13533 Coq.setoid_ring.InitialRing <> w:110 var
+R13700:13709 Coq.setoid_ring.Ring_theory <> ARopp_zero thm
+R13721:13724 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13716:13719 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13711:13714 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R13700:13709 Coq.setoid_ring.Ring_theory <> ARopp_zero thm
+R13721:13724 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R13716:13719 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+R13711:13714 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+prf 13760:13776 <> gen_phiNword_cons
+binder 13787:13787 <> w:111
+binder 13789:13789 <> n:112
+R13815:13818 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R13796:13807 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R13811:13812 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13810:13810 Coq.setoid_ring.InitialRing <> n:112 var
+R13813:13813 Coq.setoid_ring.InitialRing <> w:111 var
+R13845:13847 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R13819:13826 Coq.setoid_ring.InitialRing <> gen_phiN def
+R13844:13844 Coq.setoid_ring.InitialRing <> n:112 var
+R13839:13842 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R13834:13837 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R13831:13832 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R13828:13829 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R13848:13859 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R13861:13861 Coq.setoid_ring.InitialRing <> w:111 var
+prf 13968:13986 <> gen_phiNword_Nwcons
+binder 13997:13997 <> w:113
+binder 13999:13999 <> n:114
+R14031:14034 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R14006:14017 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14020:14025 Coq.setoid_ring.InitialRing <> Nwcons def
+R14029:14029 Coq.setoid_ring.InitialRing <> w:113 var
+R14027:14027 Coq.setoid_ring.InitialRing <> n:114 var
+R14061:14063 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'-'_x not
+R14035:14042 Coq.setoid_ring.InitialRing <> gen_phiN def
+R14060:14060 Coq.setoid_ring.InitialRing <> n:114 var
+R14055:14058 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R14050:14053 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R14047:14048 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R14044:14045 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R14064:14075 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14077:14077 Coq.setoid_ring.InitialRing <> w:113 var
+R14142:14147 Coq.setoid_ring.InitialRing <> Nwcons def
+R14159:14175 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14159:14175 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14159:14175 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+prf 14205:14219 <> gen_phiNword_ok
+binder 14230:14231 <> w1:115
+binder 14233:14234 <> w2:116
+R14262:14265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14255:14257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14240:14248 Coq.setoid_ring.InitialRing <> Nweq_bool def
+R14253:14254 Coq.setoid_ring.InitialRing <> w2:116 var
+R14250:14251 Coq.setoid_ring.InitialRing <> w1:115 var
+R14258:14261 Coq.Init.Datatypes <> true constr
+R14281:14284 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R14266:14277 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14279:14280 Coq.setoid_ring.InitialRing <> w1:115 var
+R14285:14296 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14298:14299 Coq.setoid_ring.InitialRing <> w2:116 var
+R14374:14389 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14374:14389 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14374:14389 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14421:14437 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14421:14437 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14421:14437 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14523:14538 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14523:14538 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14523:14538 Coq.setoid_ring.InitialRing <> gen_phiNword0_ok thm
+R14579:14595 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14579:14595 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14579:14595 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14609:14613 Coq.NArith.BinNat N eqb def
+R14609:14613 Coq.NArith.BinNat N eqb def
+R14661:14668 Coq.NArith.BinNat N eqb_eq thm
+R14661:14668 Coq.NArith.BinNat N eqb_eq thm
+prf 14782:14789 <> Nwadd_ok
+binder 14800:14800 <> x:117
+binder 14802:14802 <> y:118
+R14832:14835 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R14808:14819 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14822:14826 Coq.setoid_ring.InitialRing <> Nwadd def
+R14830:14830 Coq.setoid_ring.InitialRing <> y:118 var
+R14828:14828 Coq.setoid_ring.InitialRing <> x:117 var
+R14850:14852 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'+'_x not
+R14836:14847 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14849:14849 Coq.setoid_ring.InitialRing <> x:117 var
+R14853:14864 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R14866:14866 Coq.setoid_ring.InitialRing <> y:118 var
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R14999:15015 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+binder 15033:15036 <> sreq:119
+R15041:15052 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R15065:15073 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15075:15078 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15059:15062 Coq.setoid_ring.InitialRing <> sreq:119 var
+R15054:15057 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+binder 15033:15036 <> sreq:120
+R15041:15052 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R15065:15073 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15075:15078 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15059:15062 Coq.setoid_ring.InitialRing <> sreq:120 var
+R15054:15057 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R15099:15102 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+binder 15033:15036 <> sreq:121
+R15041:15052 Coq.setoid_ring.InitialRing <> gen_phiN_add thm
+R15065:15073 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15075:15078 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15059:15062 Coq.setoid_ring.InitialRing <> sreq:121 var
+R15054:15057 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R15164:15165 Coq.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R15166:15177 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15164:15165 Coq.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R15166:15177 Coq.setoid_ring.InitialRing <> gen_phiNword def
+prf 15208:15215 <> Nwopp_ok
+binder 15226:15226 <> x:122
+R15251:15254 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15229:15240 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15243:15247 Coq.setoid_ring.InitialRing <> Nwopp def
+R15249:15249 Coq.setoid_ring.InitialRing <> x:122 var
+R15255:15256 Coq.setoid_ring.InitialRing NWORDMORPHISM :::'-'_x not
+R15257:15268 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15270:15270 Coq.setoid_ring.InitialRing <> x:122 var
+R15287:15291 Coq.setoid_ring.InitialRing <> Nwopp def
+R15317:15335 Coq.setoid_ring.InitialRing <> gen_phiNword_Nwcons thm
+R15317:15335 Coq.setoid_ring.InitialRing <> gen_phiNword_Nwcons thm
+R15317:15335 Coq.setoid_ring.InitialRing <> gen_phiNword_Nwcons thm
+prf 15356:15364 <> Nwscal_ok
+binder 15375:15375 <> n:123
+binder 15377:15377 <> x:124
+R15407:15410 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15382:15393 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15396:15401 Coq.setoid_ring.InitialRing <> Nwscal def
+R15405:15405 Coq.setoid_ring.InitialRing <> x:124 var
+R15403:15403 Coq.setoid_ring.InitialRing <> n:123 var
+R15437:15439 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'*'_x not
+R15411:15418 Coq.setoid_ring.InitialRing <> gen_phiN def
+R15436:15436 Coq.setoid_ring.InitialRing <> n:123 var
+R15431:15434 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R15426:15429 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R15423:15424 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rI var
+R15420:15421 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rO var
+R15440:15451 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15453:15453 Coq.setoid_ring.InitialRing <> x:124 var
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15542:15558 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+binder 15575:15578 <> sreq:125
+R15583:15595 Coq.setoid_ring.InitialRing <> gen_phiN_mult thm
+R15608:15616 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15618:15621 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15602:15605 Coq.setoid_ring.InitialRing <> sreq:125 var
+R15597:15600 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+binder 15575:15578 <> sreq:126
+R15583:15595 Coq.setoid_ring.InitialRing <> gen_phiN_mult thm
+R15608:15616 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15618:15621 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15602:15605 Coq.setoid_ring.InitialRing <> sreq:126 var
+R15597:15600 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+R15641:15644 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Reqe var
+binder 15575:15578 <> sreq:127
+R15583:15595 Coq.setoid_ring.InitialRing <> gen_phiN_mult thm
+R15608:15616 Coq.setoid_ring.Ring_theory <> ARth_SRth thm
+R15618:15621 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ARth var
+R15602:15605 Coq.setoid_ring.InitialRing <> sreq:127 var
+R15597:15600 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.Rsth var
+prf 15706:15713 <> Nwmul_ok
+binder 15724:15724 <> x:128
+binder 15726:15726 <> y:129
+R15756:15759 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'=='_x not
+R15732:15743 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15746:15750 Coq.setoid_ring.InitialRing <> Nwmul def
+R15754:15754 Coq.setoid_ring.InitialRing <> y:129 var
+R15752:15752 Coq.setoid_ring.InitialRing <> x:128 var
+R15774:15776 Coq.setoid_ring.InitialRing NWORDMORPHISM :::x_'*'_x not
+R15760:15771 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15773:15773 Coq.setoid_ring.InitialRing <> x:128 var
+R15777:15788 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R15790:15790 Coq.setoid_ring.InitialRing <> y:129 var
+R15884:15891 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R15884:15891 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R15884:15891 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R15919:15935 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15919:15935 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15919:15935 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R15971:15975 Coq.setoid_ring.InitialRing <> Nwsub def
+R15988:15995 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R15988:15995 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R15988:15995 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16008:16016 Coq.setoid_ring.InitialRing <> Nwscal_ok thm
+R16008:16016 Coq.setoid_ring.InitialRing <> Nwscal_ok thm
+R16008:16016 Coq.setoid_ring.InitialRing <> Nwscal_ok thm
+R16029:16036 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16029:16036 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16029:16036 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16064:16080 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R16064:16080 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+R16064:16080 Coq.setoid_ring.InitialRing <> gen_phiNword_cons thm
+prf 16159:16176 <> gen_phiNword_morph
+R16182:16191 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R16266:16277 Coq.setoid_ring.InitialRing <> gen_phiNword def
+R16256:16264 Coq.setoid_ring.InitialRing <> Nweq_bool def
+R16250:16254 Coq.setoid_ring.InitialRing <> Nwopp def
+R16244:16248 Coq.setoid_ring.InitialRing <> Nwsub def
+R16238:16242 Coq.setoid_ring.InitialRing <> Nwmul def
+R16232:16236 Coq.setoid_ring.InitialRing <> Nwadd def
+R16228:16230 Coq.setoid_ring.InitialRing <> NwI def
+R16224:16226 Coq.setoid_ring.InitialRing <> NwO def
+R16217:16219 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.req var
+R16212:16215 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.ropp var
+R16207:16210 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rsub var
+R16202:16205 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.rmul var
+R16197:16200 Coq.setoid_ring.InitialRing <> NWORDMORPHISM.radd var
+R16330:16337 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16330:16337 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16358:16362 Coq.setoid_ring.InitialRing <> Nwsub def
+R16374:16381 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16374:16381 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16374:16381 Coq.setoid_ring.InitialRing <> Nwadd_ok thm
+R16393:16400 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16393:16400 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16393:16400 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16418:16425 Coq.setoid_ring.InitialRing <> Nwmul_ok thm
+R16418:16425 Coq.setoid_ring.InitialRing <> Nwmul_ok thm
+R16436:16443 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16436:16443 Coq.setoid_ring.InitialRing <> Nwopp_ok thm
+R16454:16468 Coq.setoid_ring.InitialRing <> gen_phiNword_ok thm
+R16454:16468 Coq.setoid_ring.InitialRing <> gen_phiNword_ok thm
+R16481:16493 Coq.setoid_ring.InitialRing NWORDMORPHISM <> sec
+sec 16505:16511 <> GEN_DIV
+var 16529:16529 GEN_DIV R
+var 16540:16541 GEN_DIV rO
+var 16549:16550 GEN_DIV rI
+var 16558:16561 GEN_DIV radd
+var 16593:16596 GEN_DIV rmul
+var 16614:16617 GEN_DIV rsub
+var 16635:16638 GEN_DIV ropp
+var 16665:16667 GEN_DIV req
+var 16688:16688 GEN_DIV C
+var 16699:16700 GEN_DIV cO
+var 16708:16709 GEN_DIV cI
+var 16731:16734 GEN_DIV cadd
+var 16752:16755 GEN_DIV cmul
+var 16773:16776 GEN_DIV csub
+var 16808:16811 GEN_DIV copp
+var 16824:16827 GEN_DIV ceqb
+var 16848:16850 GEN_DIV phi
+R16545:16545 Coq.setoid_ring.InitialRing <> R:130 var
+R16554:16554 Coq.setoid_ring.InitialRing <> R:130 var
+R16566:16569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16565:16565 Coq.setoid_ring.InitialRing <> R:130 var
+R16571:16574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16570:16570 Coq.setoid_ring.InitialRing <> R:130 var
+R16575:16575 Coq.setoid_ring.InitialRing <> R:130 var
+R16601:16604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16600:16600 Coq.setoid_ring.InitialRing <> R:130 var
+R16606:16609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16605:16605 Coq.setoid_ring.InitialRing <> R:130 var
+R16610:16610 Coq.setoid_ring.InitialRing <> R:130 var
+R16622:16625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16621:16621 Coq.setoid_ring.InitialRing <> R:130 var
+R16627:16630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16626:16626 Coq.setoid_ring.InitialRing <> R:130 var
+R16631:16631 Coq.setoid_ring.InitialRing <> R:130 var
+R16643:16646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16642:16642 Coq.setoid_ring.InitialRing <> R:130 var
+R16647:16647 Coq.setoid_ring.InitialRing <> R:130 var
+R16672:16675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16671:16671 Coq.setoid_ring.InitialRing <> R:130 var
+R16677:16680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16676:16676 Coq.setoid_ring.InitialRing <> R:130 var
+R16704:16704 Coq.setoid_ring.InitialRing <> C:138 var
+R16713:16713 Coq.setoid_ring.InitialRing <> C:138 var
+R16739:16742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16738:16738 Coq.setoid_ring.InitialRing <> C:138 var
+R16744:16747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16743:16743 Coq.setoid_ring.InitialRing <> C:138 var
+R16748:16748 Coq.setoid_ring.InitialRing <> C:138 var
+R16760:16763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16759:16759 Coq.setoid_ring.InitialRing <> C:138 var
+R16765:16768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16764:16764 Coq.setoid_ring.InitialRing <> C:138 var
+R16769:16769 Coq.setoid_ring.InitialRing <> C:138 var
+R16781:16784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16780:16780 Coq.setoid_ring.InitialRing <> C:138 var
+R16786:16789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16785:16785 Coq.setoid_ring.InitialRing <> C:138 var
+R16790:16790 Coq.setoid_ring.InitialRing <> C:138 var
+R16816:16819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16815:16815 Coq.setoid_ring.InitialRing <> C:138 var
+R16820:16820 Coq.setoid_ring.InitialRing <> C:138 var
+R16832:16835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16831:16831 Coq.setoid_ring.InitialRing <> C:138 var
+R16837:16840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16836:16836 Coq.setoid_ring.InitialRing <> C:138 var
+R16841:16844 Coq.Init.Datatypes <> bool ind
+R16855:16858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16854:16854 Coq.setoid_ring.InitialRing <> C:138 var
+R16859:16859 Coq.setoid_ring.InitialRing <> R:130 var
+var 16873:16876 GEN_DIV Rsth
+R16880:16892 Coq.Setoids.Setoid <> Setoid_Theory def
+R16894:16894 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R16896:16898 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+var 16911:16914 GEN_DIV Reqe
+R16918:16928 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R16945:16947 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R16940:16943 Coq.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R16935:16938 Coq.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R16930:16933 Coq.setoid_ring.InitialRing <> GEN_DIV.radd var
+var 16960:16963 GEN_DIV ARth
+R16967:16984 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R17012:17014 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17007:17010 Coq.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17002:17005 Coq.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R16997:17000 Coq.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R16992:16995 Coq.setoid_ring.InitialRing <> GEN_DIV.radd var
+R16989:16990 Coq.setoid_ring.InitialRing <> GEN_DIV.rI var
+R16986:16987 Coq.setoid_ring.InitialRing <> GEN_DIV.rO var
+var 17027:17031 GEN_DIV morph
+R17035:17044 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R17107:17109 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R17102:17105 Coq.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+R17097:17100 Coq.setoid_ring.InitialRing <> GEN_DIV.copp var
+R17092:17095 Coq.setoid_ring.InitialRing <> GEN_DIV.csub var
+R17087:17090 Coq.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R17082:17085 Coq.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R17079:17080 Coq.setoid_ring.InitialRing <> GEN_DIV.cI var
+R17076:17077 Coq.setoid_ring.InitialRing <> GEN_DIV.cO var
+R17072:17074 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17067:17070 Coq.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17062:17065 Coq.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R17057:17060 Coq.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17052:17055 Coq.setoid_ring.InitialRing <> GEN_DIV.radd var
+R17049:17050 Coq.setoid_ring.InitialRing <> GEN_DIV.rI var
+R17046:17047 Coq.setoid_ring.InitialRing <> GEN_DIV.rO var
+R17164:17164 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R17166:17168 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17164:17164 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R17166:17168 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17199:17219 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R17225:17228 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17164:17164 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R17166:17168 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17260:17280 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R17286:17289 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17164:17164 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R17166:17168 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17321:17342 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R17348:17351 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17164:17164 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+R17166:17168 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17199:17219 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R17225:17228 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17260:17280 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R17286:17289 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17321:17342 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R17348:17351 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17444:17448 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17441:17443 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17452:17456 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17449:17451 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17457:17459 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17420:17423 Coq.setoid_ring.InitialRing <> GEN_DIV.radd var
+R17491:17498 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R17500:17503 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17491:17498 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R17500:17503 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17551:17555 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17548:17550 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17559:17563 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17556:17558 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17564:17566 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17527:17530 Coq.setoid_ring.InitialRing <> GEN_DIV.rmul var
+R17598:17605 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R17607:17610 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17598:17605 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R17607:17610 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17658:17662 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17655:17657 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17663:17665 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17634:17637 Coq.setoid_ring.InitialRing <> GEN_DIV.ropp var
+R17697:17704 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R17706:17709 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17697:17704 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R17706:17709 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17757:17761 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17754:17756 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17765:17769 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17762:17764 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17770:17772 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R17733:17736 Coq.setoid_ring.InitialRing <> GEN_DIV.rsub var
+R17804:17812 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R17824:17827 Coq.setoid_ring.InitialRing <> GEN_DIV.ARth var
+R17819:17822 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17814:17817 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+R17804:17812 Coq.setoid_ring.Ring_theory <> ARsub_ext inst
+R17824:17827 Coq.setoid_ring.InitialRing <> GEN_DIV.ARth var
+R17819:17822 Coq.setoid_ring.InitialRing <> GEN_DIV.Reqe var
+R17814:17817 Coq.setoid_ring.InitialRing <> GEN_DIV.Rsth var
+def 17894:17901 <> triv_div
+binder 17903:17903 <> x:151
+binder 17905:17905 <> y:152
+R17916:17919 Coq.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+R17923:17923 Coq.setoid_ring.InitialRing <> y:152 var
+R17921:17921 Coq.setoid_ring.InitialRing <> x:151 var
+R17947:17947 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17950:17951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17953:17953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17948:17949 Coq.setoid_ring.InitialRing <> GEN_DIV.cO var
+R17952:17952 Coq.setoid_ring.InitialRing <> x:151 var
+R17930:17930 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17933:17934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17937:17937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17931:17932 Coq.setoid_ring.InitialRing <> GEN_DIV.cI var
+R17935:17936 Coq.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18027:18029 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18031:18032 Coq.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18027:18029 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18031:18032 Coq.setoid_ring.InitialRing <> GEN_DIV.cO var
+R18078:18080 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18082:18083 Coq.setoid_ring.InitialRing <> GEN_DIV.cI var
+R18078:18080 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18082:18083 Coq.setoid_ring.InitialRing <> GEN_DIV.cI var
+R18129:18131 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18134:18137 Coq.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R18129:18131 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18134:18137 Coq.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R18200:18202 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18205:18208 Coq.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R18200:18202 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18205:18208 Coq.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R18271:18273 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18276:18279 Coq.setoid_ring.InitialRing <> GEN_DIV.csub var
+R18271:18273 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18276:18279 Coq.setoid_ring.InitialRing <> GEN_DIV.csub var
+R18342:18344 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18347:18350 Coq.setoid_ring.InitialRing <> GEN_DIV.copp var
+R18342:18344 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18347:18350 Coq.setoid_ring.InitialRing <> GEN_DIV.copp var
+R18370:18378 Coq.setoid_ring.Ring_theory <> morph_opp proj
+R18380:18384 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18303:18311 Coq.setoid_ring.Ring_theory <> morph_sub proj
+R18313:18317 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18232:18240 Coq.setoid_ring.Ring_theory <> morph_mul proj
+R18242:18246 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18161:18169 Coq.setoid_ring.Ring_theory <> morph_add proj
+R18171:18175 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18098:18103 Coq.setoid_ring.Ring_theory <> morph1 proj
+R18105:18109 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18047:18052 Coq.setoid_ring.Ring_theory <> morph0 proj
+R18054:18058 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+prf 18408:18418 <> triv_div_th
+R18422:18443 Coq.setoid_ring.Ring_theory <> div_theory rec
+R18464:18471 Coq.setoid_ring.InitialRing <> triv_div def
+R18460:18462 Coq.setoid_ring.InitialRing <> GEN_DIV.phi var
+R18455:18458 Coq.setoid_ring.InitialRing <> GEN_DIV.cmul var
+R18450:18453 Coq.setoid_ring.InitialRing <> GEN_DIV.cadd var
+R18446:18448 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R18517:18524 Coq.setoid_ring.InitialRing <> triv_div def
+R18541:18548 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R18550:18554 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18571:18574 Coq.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+R18541:18548 Coq.setoid_ring.Ring_theory <> morph_eq proj
+R18550:18554 Coq.setoid_ring.InitialRing <> GEN_DIV.morph var
+R18571:18574 Coq.setoid_ring.InitialRing <> GEN_DIV.ceqb var
+var 18659:18662 GEN_DIV zphi
+R18667:18670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18666:18666 Coq.Numbers.BinNums <> Z ind
+R18671:18671 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+prf 18682:18693 <> Ztriv_div_th
+R18697:18706 Coq.setoid_ring.Ring_theory <> div_theory rec
+R18729:18737 Coq.ZArith.BinInt Z quotrem def
+R18724:18727 Coq.setoid_ring.InitialRing <> GEN_DIV.zphi var
+R18718:18722 Coq.ZArith.BinInt Z mul def
+R18712:18716 Coq.ZArith.BinInt Z add def
+R18708:18710 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R18789:18800 Coq.ZArith.BinInt Z quotrem_eq thm
+R18813:18821 Coq.ZArith.BinInt Z quotrem def
+R18789:18800 Coq.ZArith.BinInt Z quotrem_eq thm
+R18813:18821 Coq.ZArith.BinInt Z quotrem def
+R18849:18858 Coq.ZArith.BinInt Z mul_comm thm
+R18849:18858 Coq.ZArith.BinInt Z mul_comm thm
+R18849:18858 Coq.ZArith.BinInt Z mul_comm thm
+var 18886:18889 GEN_DIV nphi
+R18894:18897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18893:18893 Coq.Numbers.BinNums <> N ind
+R18898:18898 Coq.setoid_ring.InitialRing <> GEN_DIV.R var
+prf 18909:18920 <> Ntriv_div_th
+R18924:18933 Coq.setoid_ring.Ring_theory <> div_theory rec
+R18956:18965 Coq.NArith.BinNat N div_eucl def
+R18951:18954 Coq.setoid_ring.InitialRing <> GEN_DIV.nphi var
+R18945:18949 Coq.NArith.BinNat N mul def
+R18939:18943 Coq.NArith.BinNat N add def
+R18935:18937 Coq.setoid_ring.InitialRing <> GEN_DIV.req var
+R19009:19023 Coq.NArith.BinNat N div_eucl_spec thm
+R19036:19045 Coq.NArith.BinNat N div_eucl def
+R19009:19023 Coq.NArith.BinNat N div_eucl_spec thm
+R19036:19045 Coq.NArith.BinNat N div_eucl def
+R19073:19082 Coq.NArith.BinNat N mul_comm thm
+R19073:19082 Coq.NArith.BinNat N mul_comm thm
+R19073:19082 Coq.NArith.BinNat N mul_comm thm
+R19104:19110 Coq.setoid_ring.InitialRing GEN_DIV <> sec
+R19852:19862 Coq.setoid_ring.InitialRing <> NotConstant def
+R19714:19724 Coq.setoid_ring.InitialRing <> NotConstant def
+R19714:19724 Coq.setoid_ring.InitialRing <> NotConstant def
+R19817:19818 Coq.Numbers.BinNums <> xI constr
+R19781:19791 Coq.setoid_ring.InitialRing <> NotConstant def
+R19737:19747 Coq.setoid_ring.InitialRing <> NotConstant def
+R19474:19484 Coq.setoid_ring.InitialRing <> NotConstant def
+R19474:19484 Coq.setoid_ring.InitialRing <> NotConstant def
+R19611:19612 Coq.Numbers.BinNums <> xO constr
+R19541:19551 Coq.setoid_ring.InitialRing <> NotConstant def
+R19497:19507 Coq.setoid_ring.InitialRing <> NotConstant def
+R20082:20092 Coq.setoid_ring.InitialRing <> NotConstant def
+R20082:20092 Coq.setoid_ring.InitialRing <> NotConstant def
+R20145:20146 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20139:20142 Coq.Numbers.BinNums <> Npos constr
+R20147:20149 Coq.Init.Datatypes <> nil constr
+R20105:20115 Coq.setoid_ring.InitialRing <> NotConstant def
+R20015:20017 Coq.setoid_ring.InitialRing <> NwO def
+R20341:20351 Coq.setoid_ring.InitialRing <> NotConstant def
+R20341:20351 Coq.setoid_ring.InitialRing <> NotConstant def
+R20398:20401 Coq.Numbers.BinNums <> Npos constr
+R20364:20374 Coq.setoid_ring.InitialRing <> NotConstant def
+R20741:20751 Coq.setoid_ring.InitialRing <> NotConstant def
+R20741:20751 Coq.setoid_ring.InitialRing <> NotConstant def
+R20798:20801 Coq.Numbers.BinNums <> Zpos constr
+R20764:20774 Coq.setoid_ring.InitialRing <> NotConstant def
+R20605:20615 Coq.setoid_ring.InitialRing <> NotConstant def
+R20605:20615 Coq.setoid_ring.InitialRing <> NotConstant def
+R20662:20665 Coq.Numbers.BinNums <> Zneg constr
+R20628:20638 Coq.setoid_ring.InitialRing <> NotConstant def
+R21218:21228 Coq.setoid_ring.InitialRing <> NotConstant def
+R21308:21318 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R21308:21318 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R21373:21388 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R21373:21388 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R21436:21453 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R21436:21453 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R21411:21419 Coq.setoid_ring.Ring_theory <> SRth_ARth thm
+R21345:21352 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R21588:21598 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R21588:21598 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R21619:21630 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R21619:21630 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R21649:21658 Coq.setoid_ring.Ring_theory <> SReqe_Reqe thm
+R21798:21808 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R21798:21808 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R21869:21884 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R21869:21884 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R21941:21958 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R21941:21958 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R21991:22008 Coq.setoid_ring.InitialRing <> gen_phiNword_morph thm
+R21907:21920 Coq.setoid_ring.InitialRing <> gen_phiN_morph thm
+R21835:21848 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+rec 22077:22080 <> hypo
+proj 22104:22112 <> hypo_type
+proj 22125:22134 <> hypo_proof
+R22138:22146 Coq.setoid_ring.InitialRing <> hypo_type:156 meth
+R22210:22213 Coq.Init.Datatypes <> None constr
+R22210:22213 Coq.Init.Datatypes <> None constr
+R22406:22409 Coq.Init.Datatypes <> Some constr
+R22406:22409 Coq.Init.Datatypes <> Some constr
+R22251:22268 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R22251:22268 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R22326:22331 Coq.setoid_ring.InitialRing <> mkhypo constr
+R22335:22342 Coq.setoid_ring.Ring_theory <> pow_N_th def
+R22492:22495 Coq.Init.Datatypes <> None constr
+R22492:22495 Coq.Init.Datatypes <> None constr
+R22964:22967 Coq.Init.Datatypes <> Some constr
+R22964:22967 Coq.Init.Datatypes <> Some constr
+R22536:22545 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R22602:22602 Coq.Numbers.BinNums <> Z ind
+R22536:22545 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R22602:22602 Coq.Numbers.BinNums <> Z ind
+R22728:22737 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R22728:22737 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R22860:22865 Coq.setoid_ring.InitialRing <> mkhypo constr
+R22869:22884 Coq.setoid_ring.Ring_theory <> get_sign_None_th thm
+R22666:22671 Coq.setoid_ring.InitialRing <> mkhypo constr
+R22674:22684 Coq.setoid_ring.Ring_theory <> sign_theory rec
+R22696:22704 Coq.setoid_ring.InitialRing <> get_signZ def
+R22707:22718 Coq.setoid_ring.InitialRing <> get_signZ_th thm
+R23068:23077 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23134:23134 Coq.Numbers.BinNums <> Z ind
+R23144:23148 Coq.ZArith.BinInt Z add def
+R23150:23154 Coq.ZArith.BinInt Z mul def
+R23068:23077 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23134:23134 Coq.Numbers.BinNums <> Z ind
+R23144:23148 Coq.ZArith.BinInt Z add def
+R23150:23154 Coq.ZArith.BinInt Z mul def
+R23232:23241 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23298:23298 Coq.Numbers.BinNums <> N ind
+R23308:23312 Coq.NArith.BinNat N add def
+R23314:23318 Coq.NArith.BinNat N mul def
+R23232:23241 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23298:23298 Coq.Numbers.BinNums <> N ind
+R23308:23312 Coq.NArith.BinNat N add def
+R23314:23318 Coq.NArith.BinNat N mul def
+R23396:23405 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23396:23405 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R23526:23531 Coq.setoid_ring.InitialRing <> mkhypo constr
+R23534:23544 Coq.setoid_ring.InitialRing <> triv_div_th thm
+R23361:23366 Coq.setoid_ring.InitialRing <> mkhypo constr
+R23369:23380 Coq.setoid_ring.InitialRing <> Ntriv_div_th thm
+R23197:23202 Coq.setoid_ring.InitialRing <> mkhypo constr
+R23205:23216 Coq.setoid_ring.InitialRing <> Ztriv_div_th thm
+R23694:23697 Coq.Init.Datatypes <> None constr
+R23694:23697 Coq.Init.Datatypes <> None constr
+R23742:23745 Coq.Init.Datatypes <> Some constr
+R23742:23745 Coq.Init.Datatypes <> Some constr
+R23961:23968 Coq.setoid_ring.Ring_theory <> Abstract constr
+R23961:23968 Coq.setoid_ring.Ring_theory <> Abstract constr
+R24017:24029 Coq.setoid_ring.Ring_theory <> Computational constr
+R24017:24029 Coq.setoid_ring.Ring_theory <> Computational constr
+R24258:24265 Coq.setoid_ring.Ring_theory <> Morphism constr
+R24258:24265 Coq.setoid_ring.Ring_theory <> Morphism constr
+R24310:24319 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R24310:24319 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R24368:24377 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R24368:24377 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R24431:24444 Coq.setoid_ring.Ring_theory <> SRmorph_Rmorph thm
+R24085:24102 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R24085:24102 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R24157:24163 Coq.setoid_ring.Ring_theory <> IDmorph thm
+R24978:24981 Coq.Init.Datatypes <> None constr
+R24978:24981 Coq.Init.Datatypes <> None constr
+R25017:25020 Coq.Init.Datatypes <> Some constr
+R25017:25020 Coq.Init.Datatypes <> Some constr
+R25035:25053 Coq.setoid_ring.Ring_polynom <> ring_rw_pow_correct thm
+R24994:25008 Coq.setoid_ring.Ring_polynom <> ring_rw_correct thm
+R25219:25228 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R25219:25228 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R25573:25578 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25581:25592 Coq.setoid_ring.Ring_theory <> power_theory rec
+R25573:25578 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25581:25592 Coq.setoid_ring.Ring_theory <> power_theory rec
+R25758:25763 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25766:25775 Coq.setoid_ring.Ring_theory <> div_theory rec
+R25758:25763 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25766:25775 Coq.setoid_ring.Ring_theory <> div_theory rec
+R25936:25941 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25944:25954 Coq.setoid_ring.Ring_theory <> sign_theory rec
+R25936:25941 Coq.setoid_ring.InitialRing <> mkhypo constr
+R25944:25954 Coq.setoid_ring.Ring_theory <> sign_theory rec
+R26117:26128 Coq.setoid_ring.Ring_polynom <> ring_correct thm
+R26614:26614 Coq.Init.Datatypes <> O constr
+R26614:26614 Coq.Init.Datatypes <> O constr
+R26637:26637 Coq.Init.Datatypes <> S constr
+R26637:26637 Coq.Init.Datatypes <> S constr
+R26673:26677 Coq.Init.Datatypes <> false constr
+R26627:26630 Coq.Init.Datatypes <> true constr
+R26724:26725 Coq.Numbers.BinNums <> xI constr
+R26724:26725 Coq.Numbers.BinNums <> xI constr
+R26746:26747 Coq.Numbers.BinNums <> xO constr
+R26746:26747 Coq.Numbers.BinNums <> xO constr
+R26768:26769 Coq.Numbers.BinNums <> xH constr
+R26768:26769 Coq.Numbers.BinNums <> xH constr
+R26816:26830 Coq.PArith.BinPos Pos of_succ_nat def
+R26816:26830 Coq.PArith.BinPos Pos of_succ_nat def
+R26866:26870 Coq.Init.Datatypes <> false constr
+R26782:26785 Coq.Init.Datatypes <> true constr
+R26917:26918 Coq.Numbers.BinNums <> N0 constr
+R26917:26918 Coq.Numbers.BinNums <> N0 constr
+R26941:26944 Coq.Numbers.BinNums <> Npos constr
+R26941:26944 Coq.Numbers.BinNums <> Npos constr
+R26978:26982 Coq.Init.Datatypes <> false constr
+R26931:26934 Coq.Init.Datatypes <> true constr
+R27029:27030 Coq.Numbers.BinNums <> Z0 constr
+R27029:27030 Coq.Numbers.BinNums <> Z0 constr
+R27053:27056 Coq.Numbers.BinNums <> Zpos constr
+R27053:27056 Coq.Numbers.BinNums <> Zpos constr
+R27077:27080 Coq.Numbers.BinNums <> Zneg constr
+R27077:27080 Coq.Numbers.BinNums <> Zneg constr
+R27128:27135 Coq.ZArith.BinInt Z of_nat def
+R27128:27135 Coq.ZArith.BinInt Z of_nat def
+R27183:27188 Coq.ZArith.BinInt Z of_N def
+R27183:27188 Coq.ZArith.BinInt Z of_N def
+R27230:27234 Coq.Init.Datatypes <> false constr
+R27043:27046 Coq.Init.Datatypes <> true constr

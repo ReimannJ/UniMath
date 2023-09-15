@@ -1,0 +1,138 @@
+DIGEST 76822b285850365157e9f4ced6c9c150
+FCoq.Floats.FloatOps
+R691:696 Coq.ZArith.ZArith <> <> lib
+R698:703 Coq.Numbers.Cyclic.Int63.Uint63 <> <> lib
+R705:713 Coq.Floats.SpecFloat <> <> lib
+R715:723 Coq.Floats.PrimFloat <> <> lib
+def 824:827 <> prec
+def 849:852 <> emax
+abbrev 874:877 <> emin
+R883:886 Coq.Floats.SpecFloat <> emin def
+R893:896 Coq.Floats.FloatOps <> emax def
+R888:891 Coq.Floats.FloatOps <> prec def
+def 912:916 <> shift
+mod 962:962 <> Z
+def 978:982 Z frexp
+binder 984:984 <> f:1
+R1008:1017 Coq.Floats.PrimFloat <> frshiftexp prim
+R1019:1019 Coq.Floats.FloatOps <> f:1 var
+binder 998:998 <> m:2
+binder 1001:1002 <> se:3
+R1028:1028 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1030:1031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1056:1056 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1029:1029 Coq.Floats.FloatOps <> m:2 var
+R1038:1040 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1033:1035 Coq.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ'_x not
+R1036:1037 Coq.Floats.FloatOps <> se:3 var
+R1041:1045 Coq.Floats.FloatOps <> shift def
+def 1073:1077 Z ldexp
+binder 1079:1079 <> f:4
+binder 1081:1081 <> e:5
+R1100:1104 Coq.ZArith.BinInt Z max def
+R1107:1111 Coq.ZArith.BinInt Z min def
+R1113:1113 Coq.Floats.FloatOps <> e:5 var
+R1120:1122 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1116:1119 Coq.Floats.FloatOps <> emax def
+R1123:1126 Coq.Floats.FloatOps <> emin abbrev
+R1142:1144 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1135:1137 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1131:1134 Coq.Floats.FloatOps <> emin abbrev
+R1138:1141 Coq.Floats.FloatOps <> emax def
+binder 1094:1095 <> e':6
+R1155:1164 Coq.Floats.PrimFloat <> ldshiftexp prim
+R1166:1166 Coq.Floats.FloatOps <> f:4 var
+R1169:1172 Coq.Numbers.Cyclic.Int63.Uint63 <> of_Z def
+R1177:1179 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1175:1176 Coq.Floats.FloatOps <> e':6 var
+R1180:1184 Coq.Floats.FloatOps <> shift def
+R1193:1193 Coq.Floats.FloatOps Z <> mod
+abbrev 1269:1273 <> frexp
+R1278:1284 Coq.Floats.FloatOps <> frexp def
+abbrev 1375:1379 <> ldexp
+R1384:1390 Coq.Floats.FloatOps <> ldexp def
+def 1420:1422 <> ulp
+binder 1424:1424 <> f:7
+R1429:1435 Coq.Floats.FloatOps <> ldexp def
+R1437:1439 Coq.Floats.PrimFloat <> one def
+R1442:1445 Coq.Floats.SpecFloat <> fexp def
+R1458:1460 Coq.Init.Datatypes <> snd def
+R1463:1469 Coq.Floats.FloatOps <> frexp def
+R1471:1471 Coq.Floats.FloatOps <> f:7 var
+R1452:1455 Coq.Floats.FloatOps <> emax def
+R1447:1450 Coq.Floats.FloatOps <> prec def
+def 1633:1639 <> Prim2SF
+binder 1641:1641 <> f:8
+R1651:1656 Coq.Floats.PrimFloat <> is_nan def
+R1658:1658 Coq.Floats.FloatOps <> f:8 var
+R1684:1690 Coq.Floats.PrimFloat <> is_zero def
+R1692:1692 Coq.Floats.FloatOps <> f:8 var
+R1737:1747 Coq.Floats.PrimFloat <> is_infinity def
+R1749:1749 Coq.Floats.FloatOps <> f:8 var
+R1830:1836 Coq.Floats.FloatOps <> frexp def
+R1838:1838 Coq.Floats.FloatOps <> f:8 var
+binder 1819:1819 <> r:9
+binder 1822:1824 <> exp:10
+R1870:1872 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1867:1869 Coq.Floats.FloatOps <> exp:10 var
+R1873:1876 Coq.Floats.FloatOps <> prec def
+binder 1861:1861 <> e:11
+R1915:1922 Coq.Floats.SpecFloat <> shr_fexp def
+R1935:1938 Coq.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ'_x not
+R1956:1956 Coq.Numbers.Cyclic.Int63.Uint63 Uint63NotationsInternalD ::uint63_scope:'φ'_x not
+R1939:1953 Coq.Floats.PrimFloat <> normfr_mantissa prim
+R1955:1955 Coq.Floats.FloatOps <> r:9 var
+R1966:1966 Coq.Floats.FloatOps <> e:11 var
+R1968:1976 Coq.Floats.SpecFloat <> loc_Exact constr
+R1929:1932 Coq.Floats.FloatOps <> emax def
+R1924:1927 Coq.Floats.FloatOps <> prec def
+binder 1903:1905 <> shr:12
+binder 1908:1909 <> e':13
+R2001:2005 Coq.Floats.SpecFloat <> shr_m proj
+R2007:2009 Coq.Floats.FloatOps <> shr:12 var
+R2032:2035 Coq.Numbers.BinNums <> Zpos constr
+R2042:2052 Coq.Floats.SpecFloat <> S754_finite constr
+R2055:2062 Coq.Floats.PrimFloat <> get_sign def
+R2064:2064 Coq.Floats.FloatOps <> f:8 var
+R2069:2070 Coq.Floats.FloatOps <> e':13 var
+R2088:2091 Coq.Numbers.BinNums <> Zneg constr
+R2097:2098 Coq.Numbers.BinNums <> Z0 constr
+R2103:2111 Coq.Floats.SpecFloat <> S754_zero constr
+R2113:2117 Coq.Init.Datatypes <> false constr
+R2103:2111 Coq.Floats.SpecFloat <> S754_zero constr
+R2113:2117 Coq.Init.Datatypes <> false constr
+R1756:1768 Coq.Floats.SpecFloat <> S754_infinity constr
+R1771:1778 Coq.Floats.PrimFloat <> get_sign def
+R1780:1780 Coq.Floats.FloatOps <> f:8 var
+R1699:1707 Coq.Floats.SpecFloat <> S754_zero constr
+R1710:1717 Coq.Floats.PrimFloat <> get_sign def
+R1719:1719 Coq.Floats.FloatOps <> f:8 var
+R1665:1672 Coq.Floats.SpecFloat <> S754_nan constr
+def 2173:2179 <> SF2Prim
+binder 2181:2182 <> ef:14
+R2195:2196 Coq.Floats.FloatOps <> ef:14 var
+R2207:2214 Coq.Floats.SpecFloat <> S754_nan constr
+R2219:2221 Coq.Floats.PrimFloat <> nan def
+R2227:2235 Coq.Floats.SpecFloat <> S754_zero constr
+R2237:2241 Coq.Init.Datatypes <> false constr
+R2246:2249 Coq.Floats.PrimFloat <> zero def
+R2255:2263 Coq.Floats.SpecFloat <> S754_zero constr
+R2265:2268 Coq.Init.Datatypes <> true constr
+R2273:2280 Coq.Floats.PrimFloat <> neg_zero def
+R2286:2298 Coq.Floats.SpecFloat <> S754_infinity constr
+R2300:2304 Coq.Init.Datatypes <> false constr
+R2309:2316 Coq.Floats.PrimFloat <> infinity def
+R2322:2334 Coq.Floats.SpecFloat <> S754_infinity constr
+R2336:2339 Coq.Init.Datatypes <> true constr
+R2344:2355 Coq.Floats.PrimFloat <> neg_infinity def
+R2361:2371 Coq.Floats.SpecFloat <> S754_finite constr
+R2396:2404 Coq.Floats.PrimFloat <> of_uint63 prim
+R2407:2410 Coq.Numbers.Cyclic.Int63.Uint63 <> of_Z def
+R2413:2416 Coq.Numbers.BinNums <> Zpos constr
+binder 2390:2391 <> pm:16
+R2438:2444 Coq.Floats.FloatOps <> ldexp def
+R2446:2447 Coq.Floats.FloatOps <> pm:16 var
+binder 2433:2433 <> f:17
+R2484:2484 Coq.Floats.FloatOps <> f:17 var
+R2469:2469 Coq.Floats.PrimFloat PrimFloatNotationsInternalB ::float_scope:'-'_x not
+R2470:2470 Coq.Floats.FloatOps <> f:17 var

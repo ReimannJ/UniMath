@@ -1,0 +1,394 @@
+DIGEST c35ba23c97a3553f8692e3a79109cf7b
+FCoq.Logic.Adjointification
+mod 891:896 <> lemmas
+def 969:987 lemmas commute_homotopy_id
+binder 990:990 <> A:1
+R999:1002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R998:998 Coq.Logic.Adjointification <> A:1 var
+R1003:1003 Coq.Logic.Adjointification <> A:1 var
+binder 994:994 <> f:2
+binder 1020:1020 <> a:3
+R1026:1028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1023:1023 Coq.Logic.Adjointification <> f:2 var
+R1025:1025 Coq.Logic.Adjointification <> a:3 var
+R1029:1029 Coq.Logic.Adjointification <> a:3 var
+binder 1009:1009 <> H:4
+R1039:1039 Coq.Logic.Adjointification <> A:1 var
+binder 1033:1033 <> x:5
+binder 1035:1035 <> y:6
+R1048:1050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1047:1047 Coq.Logic.Adjointification <> x:5 var
+R1051:1051 Coq.Logic.Adjointification <> y:6 var
+binder 1043:1043 <> p:7
+R1074:1076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1058:1065 Coq.Init.Logic <> eq_trans thm
+R1073:1073 Coq.Logic.Adjointification <> p:7 var
+R1068:1068 Coq.Logic.Adjointification <> H:4 var
+R1070:1070 Coq.Logic.Adjointification <> x:5 var
+R1077:1084 Coq.Init.Logic <> eq_trans thm
+R1101:1101 Coq.Logic.Adjointification <> H:4 var
+R1103:1103 Coq.Logic.Adjointification <> y:6 var
+R1087:1093 Coq.Init.Logic <> f_equal thm
+R1097:1097 Coq.Logic.Adjointification <> p:7 var
+R1095:1095 Coq.Logic.Adjointification <> f:2 var
+R1117:1117 Coq.Logic.Adjointification <> p:7 var
+R1124:1126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1158:1160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1142:1149 Coq.Init.Logic <> eq_trans thm
+R1157:1157 Coq.Logic.Adjointification <> p:8 var
+R1152:1152 Coq.Logic.Adjointification <> H:4 var
+R1154:1154 Coq.Logic.Adjointification <> x:5 var
+R1161:1168 Coq.Init.Logic <> eq_trans thm
+R1185:1185 Coq.Logic.Adjointification <> H:4 var
+R1187:1187 Coq.Logic.Adjointification <> y:9 var
+R1171:1177 Coq.Init.Logic <> f_equal thm
+R1181:1181 Coq.Logic.Adjointification <> p:8 var
+R1179:1179 Coq.Logic.Adjointification <> f:2 var
+R1200:1206 Coq.Init.Logic <> eq_refl constr
+R1211:1216 Coq.Init.Logic <> eq_sym thm
+R1219:1233 Coq.Init.Logic <> eq_trans_refl_l thm
+R1236:1236 Coq.Logic.Adjointification <> H:4 var
+R1238:1238 Coq.Logic.Adjointification <> x:5 var
+R1252:1257 Coq.Logic.Adjointification lemmas <> mod
+sec 1269:1278 <> adjointify
+binder 1290:1290 <> A:10
+binder 1292:1292 <> B:11
+R1301:1304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1300:1300 Coq.Logic.Adjointification <> A:10 var
+R1305:1305 Coq.Logic.Adjointification <> B:11 var
+binder 1296:1296 <> f:12
+R1314:1317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1313:1313 Coq.Logic.Adjointification <> B:11 var
+R1318:1318 Coq.Logic.Adjointification <> A:10 var
+binder 1309:1309 <> g:13
+sec 1377:1385 adjointify g_adjoint
+binder 1414:1414 <> a:14
+R1424:1426 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1417:1417 Coq.Logic.Adjointification <> adjointify.g var
+R1420:1420 Coq.Logic.Adjointification <> adjointify.f var
+R1422:1422 Coq.Logic.Adjointification <> a:14 var
+R1427:1427 Coq.Logic.Adjointification <> a:14 var
+binder 1399:1403 <> gf_id:15
+binder 1448:1448 <> b:16
+R1458:1460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1451:1451 Coq.Logic.Adjointification <> adjointify.f var
+R1454:1454 Coq.Logic.Adjointification <> adjointify.g var
+R1456:1456 Coq.Logic.Adjointification <> b:16 var
+R1461:1461 Coq.Logic.Adjointification <> b:16 var
+binder 1433:1437 <> fg_id:17
+def 1477:1511 <> f_adjoint_gives_g_adjoint_pointwise
+R1520:1520 Coq.Logic.Adjointification <> adjointify.B var
+binder 1516:1516 <> b:18
+R1557:1559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1542:1546 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1549:1549 Coq.Logic.Adjointification <> adjointify.f var
+R1552:1552 Coq.Logic.Adjointification <> adjointify.g var
+R1554:1554 Coq.Logic.Adjointification <> b:18 var
+R1560:1566 Coq.Init.Logic <> f_equal thm
+R1571:1575 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R1578:1578 Coq.Logic.Adjointification <> adjointify.g var
+R1580:1580 Coq.Logic.Adjointification <> b:18 var
+R1568:1568 Coq.Logic.Adjointification <> adjointify.f var
+binder 1524:1538 <> f_adjoint_at_gb:19
+R1600:1602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1589:1593 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R1596:1596 Coq.Logic.Adjointification <> adjointify.g var
+R1598:1598 Coq.Logic.Adjointification <> b:18 var
+R1603:1609 Coq.Init.Logic <> f_equal thm
+R1614:1618 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1620:1620 Coq.Logic.Adjointification <> b:18 var
+R1611:1611 Coq.Logic.Adjointification <> adjointify.g var
+R1849:1856 Coq.Init.Logic <> eq_trans thm
+R1936:1942 Coq.Init.Logic <> eq_rect scheme
+R2226:2233 Coq.Init.Logic <> eq_trans thm
+R2353:2364 Coq.Init.Logic <> eq_id_comm_r thm
+R2376:2376 Coq.Logic.Adjointification <> adjointify.g var
+R2378:2378 Coq.Logic.Adjointification <> b:18 var
+R2368:2372 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R2236:2243 Coq.Init.Logic <> eq_trans thm
+R2317:2331 Coq.Init.Logic <> f_equal_compose thm
+R2335:2335 Coq.Logic.Adjointification <> adjointify.g var
+R2333:2333 Coq.Logic.Adjointification <> adjointify.f var
+R2257:2263 Coq.Init.Logic <> f_equal thm
+R2288:2302 Coq.Logic.Adjointification <> f_adjoint_at_gb:19 var
+binder 2270:2270 <> p:20
+R2275:2281 Coq.Init.Logic <> f_equal thm
+R2285:2285 Coq.Logic.Adjointification <> p:20 var
+R2283:2283 Coq.Logic.Adjointification <> adjointify.g var
+R2013:2020 Coq.Init.Logic <> eq_trans thm
+R2186:2203 Coq.Init.Logic <> eq_trans_map_distr thm
+R2205:2205 Coq.Logic.Adjointification <> adjointify.g var
+R2023:2030 Coq.Init.Logic <> eq_trans thm
+R2091:2097 Coq.Init.Logic <> f_equal thm
+R2135:2153 Coq.Logic.Adjointification <> commute_homotopy_id def
+R2162:2166 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R2168:2168 Coq.Logic.Adjointification <> b:18 var
+R2155:2159 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+binder 2104:2104 <> p:21
+R2109:2115 Coq.Init.Logic <> f_equal thm
+R2119:2119 Coq.Logic.Adjointification <> p:21 var
+R2117:2117 Coq.Logic.Adjointification <> adjointify.g var
+R2044:2049 Coq.Init.Logic <> eq_sym thm
+R2052:2069 Coq.Init.Logic <> eq_trans_map_distr thm
+R2071:2071 Coq.Logic.Adjointification <> adjointify.g var
+binder 1979:1979 <> p:22
+R1996:1998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1984:1991 Coq.Init.Logic <> eq_trans thm
+R1993:1993 Coq.Logic.Adjointification <> p:22 var
+R1945:1951 Coq.Init.Logic <> f_equal thm
+R1956:1960 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1963:1963 Coq.Logic.Adjointification <> adjointify.f var
+R1966:1966 Coq.Logic.Adjointification <> adjointify.g var
+R1968:1968 Coq.Logic.Adjointification <> b:18 var
+R1953:1953 Coq.Logic.Adjointification <> adjointify.g var
+R1868:1873 Coq.Init.Logic <> eq_sym thm
+R1876:1894 Coq.Logic.Adjointification <> commute_homotopy_id def
+R1903:1909 Coq.Init.Logic <> f_equal thm
+R1914:1918 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1920:1920 Coq.Logic.Adjointification <> b:18 var
+R1911:1911 Coq.Logic.Adjointification <> adjointify.g var
+R1896:1900 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R1737:1747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1655:1662 Coq.Init.Logic <> eq_trans thm
+R1725:1729 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R1732:1732 Coq.Logic.Adjointification <> adjointify.g var
+R1734:1734 Coq.Logic.Adjointification <> b:18 var
+R1665:1671 Coq.Init.Logic <> f_equal thm
+R1693:1699 Coq.Init.Logic <> f_equal thm
+R1704:1708 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1710:1710 Coq.Logic.Adjointification <> b:18 var
+R1701:1701 Coq.Logic.Adjointification <> adjointify.g var
+binder 1678:1678 <> a:23
+R1683:1683 Coq.Logic.Adjointification <> adjointify.g var
+R1686:1686 Coq.Logic.Adjointification <> adjointify.f var
+R1688:1688 Coq.Logic.Adjointification <> a:23 var
+R1748:1755 Coq.Init.Logic <> eq_trans thm
+R1819:1825 Coq.Init.Logic <> f_equal thm
+R1830:1834 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1836:1836 Coq.Logic.Adjointification <> b:18 var
+R1827:1827 Coq.Logic.Adjointification <> adjointify.g var
+R1758:1764 Coq.Init.Logic <> f_equal thm
+R1769:1775 Coq.Init.Logic <> f_equal thm
+R1797:1801 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R1803:1803 Coq.Logic.Adjointification <> b:18 var
+binder 1782:1782 <> b:24
+R1787:1787 Coq.Logic.Adjointification <> adjointify.f var
+R1790:1790 Coq.Logic.Adjointification <> adjointify.g var
+R1792:1792 Coq.Logic.Adjointification <> b:24 var
+R1766:1766 Coq.Logic.Adjointification <> adjointify.g var
+binder 1632:1645 <> precomposed_eq:25
+R2398:2402 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R2404:2404 Coq.Logic.Adjointification <> b:18 var
+binder 2437:2438 <> p1:27
+binder 2440:2441 <> p2:28
+R2535:2545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2488:2497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2451:2458 Coq.Init.Logic <> eq_trans thm
+R2486:2487 Coq.Logic.Adjointification <> p1:27 var
+R2461:2467 Coq.Init.Logic <> f_equal thm
+R2472:2478 Coq.Init.Logic <> f_equal thm
+R2482:2482 Coq.Logic.Adjointification <> p:26 var
+R2480:2480 Coq.Logic.Adjointification <> adjointify.g var
+R2498:2505 Coq.Init.Logic <> eq_trans thm
+R2533:2534 Coq.Logic.Adjointification <> p2:28 var
+R2508:2514 Coq.Init.Logic <> f_equal thm
+R2519:2525 Coq.Init.Logic <> f_equal thm
+R2529:2529 Coq.Logic.Adjointification <> p:26 var
+R2516:2516 Coq.Logic.Adjointification <> adjointify.g var
+R2548:2550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2546:2547 Coq.Logic.Adjointification <> p1:27 var
+R2551:2552 Coq.Logic.Adjointification <> p2:28 var
+R2564:2570 Coq.Init.Logic <> eq_refl constr
+binder 2579:2580 <> p1:29
+binder 2582:2583 <> p2:30
+binder 2585:2586 <> eq:31
+R2598:2605 Coq.Init.Logic <> eq_trans thm
+R2678:2692 Coq.Init.Logic <> eq_trans_refl_l thm
+R2608:2615 Coq.Init.Logic <> eq_trans thm
+R2664:2665 Coq.Logic.Adjointification <> eq:31 var
+R2627:2632 Coq.Init.Logic <> eq_sym thm
+R2635:2649 Coq.Init.Logic <> eq_trans_refl_l thm
+R2707:2711 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R2714:2714 Coq.Logic.Adjointification <> adjointify.g var
+R2716:2716 Coq.Logic.Adjointification <> b:18 var
+R2721:2727 Coq.Init.Logic <> f_equal thm
+R2732:2736 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R2738:2738 Coq.Logic.Adjointification <> b:18 var
+R2729:2729 Coq.Logic.Adjointification <> adjointify.g var
+R2742:2755 Coq.Logic.Adjointification <> precomposed_eq:25 var
+def 2848:2872 <> f_adjoint_gives_g_adjoint
+binder 2896:2896 <> a:32
+R2910:2912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2899:2903 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R2906:2906 Coq.Logic.Adjointification <> adjointify.f var
+R2908:2908 Coq.Logic.Adjointification <> a:32 var
+R2913:2919 Coq.Init.Logic <> f_equal thm
+R2924:2928 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R2930:2930 Coq.Logic.Adjointification <> a:32 var
+R2921:2921 Coq.Logic.Adjointification <> adjointify.f var
+binder 2877:2885 <> f_adjoint:33
+R2941:2941 Coq.Logic.Adjointification <> adjointify.B var
+binder 2937:2937 <> b:34
+R2957:2959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2946:2950 Coq.Logic.Adjointification <> adjointify.g_adjoint.gf_id var
+R2953:2953 Coq.Logic.Adjointification <> adjointify.g var
+R2955:2955 Coq.Logic.Adjointification <> b:34 var
+R2960:2966 Coq.Init.Logic <> f_equal thm
+R2971:2975 Coq.Logic.Adjointification <> adjointify.g_adjoint.fg_id var
+R2977:2977 Coq.Logic.Adjointification <> b:34 var
+R2968:2968 Coq.Logic.Adjointification <> adjointify.g var
+R2985:3019 Coq.Logic.Adjointification <> f_adjoint_gives_g_adjoint_pointwise def
+R3021:3021 Coq.Logic.Adjointification <> b:34 var
+R3024:3032 Coq.Logic.Adjointification <> f_adjoint:33 var
+R3035:3035 Coq.Logic.Adjointification <> adjointify.g var
+R3037:3037 Coq.Logic.Adjointification <> b:34 var
+R3046:3054 Coq.Logic.Adjointification adjointify.g_adjoint <> sec
+sec 3066:3075 adjointify correction
+binder 3104:3104 <> a:35
+R3114:3116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3107:3107 Coq.Logic.Adjointification <> adjointify.g var
+R3110:3110 Coq.Logic.Adjointification <> adjointify.f var
+R3112:3112 Coq.Logic.Adjointification <> a:35 var
+R3117:3117 Coq.Logic.Adjointification <> a:35 var
+binder 3089:3093 <> gf_id:36
+binder 3138:3138 <> b:37
+R3148:3150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3141:3141 Coq.Logic.Adjointification <> adjointify.f var
+R3144:3144 Coq.Logic.Adjointification <> adjointify.g var
+R3146:3146 Coq.Logic.Adjointification <> b:37 var
+R3151:3151 Coq.Logic.Adjointification <> b:37 var
+binder 3123:3127 <> fg_id:38
+def 3224:3229 <> fg_id'
+binder 3231:3231 <> b:39
+R3242:3244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3235:3235 Coq.Logic.Adjointification <> adjointify.f var
+R3238:3238 Coq.Logic.Adjointification <> adjointify.g var
+R3240:3240 Coq.Logic.Adjointification <> b:39 var
+R3245:3245 Coq.Logic.Adjointification <> b:39 var
+R3252:3259 Coq.Init.Logic <> eq_trans thm
+R3294:3301 Coq.Init.Logic <> eq_trans thm
+R3330:3334 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3336:3336 Coq.Logic.Adjointification <> b:39 var
+R3304:3310 Coq.Init.Logic <> f_equal thm
+R3315:3319 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R3322:3322 Coq.Logic.Adjointification <> adjointify.g var
+R3324:3324 Coq.Logic.Adjointification <> b:39 var
+R3312:3312 Coq.Logic.Adjointification <> adjointify.f var
+R3262:3267 Coq.Init.Logic <> eq_sym thm
+R3270:3274 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3277:3277 Coq.Logic.Adjointification <> adjointify.f var
+R3280:3280 Coq.Logic.Adjointification <> adjointify.g var
+R3282:3282 Coq.Logic.Adjointification <> b:39 var
+def 3376:3384 <> f_adjoint
+binder 3386:3386 <> a:40
+R3402:3404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3390:3395 Coq.Logic.Adjointification <> fg_id' def
+R3398:3398 Coq.Logic.Adjointification <> adjointify.f var
+R3400:3400 Coq.Logic.Adjointification <> a:40 var
+R3405:3411 Coq.Init.Logic <> f_equal thm
+R3416:3420 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R3422:3422 Coq.Logic.Adjointification <> a:40 var
+R3413:3413 Coq.Logic.Adjointification <> adjointify.f var
+R3580:3587 Coq.Init.Logic <> eq_trans thm
+R3898:3903 Coq.Init.Logic <> eq_sym thm
+R3906:3924 Coq.Logic.Adjointification <> commute_homotopy_id def
+R3933:3939 Coq.Init.Logic <> f_equal thm
+R3944:3948 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R3950:3950 Coq.Logic.Adjointification <> a:40 var
+R3941:3941 Coq.Logic.Adjointification <> adjointify.f var
+R3926:3930 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3590:3597 Coq.Init.Logic <> eq_trans thm
+R3720:3726 Coq.Init.Logic <> f_equal thm
+R3763:3770 Coq.Init.Logic <> eq_trans thm
+R3836:3841 Coq.Init.Logic <> eq_sym thm
+R3844:3858 Coq.Init.Logic <> f_equal_compose thm
+binder 3867:3867 <> b:41
+R3872:3872 Coq.Logic.Adjointification <> adjointify.f var
+R3875:3875 Coq.Logic.Adjointification <> adjointify.g var
+R3877:3877 Coq.Logic.Adjointification <> b:41 var
+R3860:3860 Coq.Logic.Adjointification <> adjointify.f var
+R3784:3798 Coq.Init.Logic <> f_equal_compose thm
+R3819:3819 Coq.Logic.Adjointification <> adjointify.f var
+binder 3805:3805 <> a:42
+R3810:3810 Coq.Logic.Adjointification <> adjointify.g var
+R3813:3813 Coq.Logic.Adjointification <> adjointify.f var
+R3815:3815 Coq.Logic.Adjointification <> a:42 var
+binder 3733:3733 <> p:43
+R3738:3745 Coq.Init.Logic <> eq_trans thm
+R3747:3747 Coq.Logic.Adjointification <> p:43 var
+R3609:3615 Coq.Init.Logic <> f_equal thm
+R3676:3681 Coq.Init.Logic <> eq_sym thm
+R3684:3695 Coq.Init.Logic <> eq_id_comm_r thm
+R3705:3705 Coq.Logic.Adjointification <> a:40 var
+R3699:3703 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+binder 3622:3622 <> H:44
+R3627:3634 Coq.Init.Logic <> eq_trans thm
+R3651:3655 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3658:3658 Coq.Logic.Adjointification <> adjointify.f var
+R3660:3660 Coq.Logic.Adjointification <> a:40 var
+R3637:3643 Coq.Init.Logic <> f_equal thm
+R3647:3647 Coq.Logic.Adjointification <> H:44 var
+R3645:3645 Coq.Logic.Adjointification <> adjointify.f var
+R3507:3517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3455:3462 Coq.Init.Logic <> eq_trans thm
+R3495:3499 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3502:3502 Coq.Logic.Adjointification <> adjointify.f var
+R3504:3504 Coq.Logic.Adjointification <> a:40 var
+R3465:3471 Coq.Init.Logic <> f_equal thm
+R3476:3480 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R3483:3483 Coq.Logic.Adjointification <> adjointify.g var
+R3486:3486 Coq.Logic.Adjointification <> adjointify.f var
+R3488:3488 Coq.Logic.Adjointification <> a:40 var
+R3473:3473 Coq.Logic.Adjointification <> adjointify.f var
+R3518:3525 Coq.Init.Logic <> eq_trans thm
+R3550:3556 Coq.Init.Logic <> f_equal thm
+R3561:3565 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R3567:3567 Coq.Logic.Adjointification <> a:40 var
+R3558:3558 Coq.Logic.Adjointification <> adjointify.f var
+R3528:3532 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3535:3535 Coq.Logic.Adjointification <> adjointify.f var
+R3538:3538 Coq.Logic.Adjointification <> adjointify.g var
+R3541:3541 Coq.Logic.Adjointification <> adjointify.f var
+R3543:3543 Coq.Logic.Adjointification <> a:40 var
+binder 3434:3445 <> symmetric_eq:45
+R3970:3974 Coq.Logic.Adjointification <> adjointify.correction.fg_id var
+R3977:3977 Coq.Logic.Adjointification <> adjointify.f var
+R3980:3980 Coq.Logic.Adjointification <> adjointify.g var
+R3983:3983 Coq.Logic.Adjointification <> adjointify.f var
+R3985:3985 Coq.Logic.Adjointification <> a:40 var
+binder 4014:4015 <> p':47
+R4035:4038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4019:4021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4022:4029 Coq.Init.Logic <> eq_trans thm
+R4033:4034 Coq.Logic.Adjointification <> p':47 var
+R4031:4031 Coq.Logic.Adjointification <> p:46 var
+R4060:4062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4039:4046 Coq.Init.Logic <> eq_trans thm
+R4049:4054 Coq.Init.Logic <> eq_sym thm
+R4056:4056 Coq.Logic.Adjointification <> p:46 var
+R4063:4064 Coq.Logic.Adjointification <> p':47 var
+R4076:4082 Coq.Init.Logic <> eq_refl constr
+binder 4091:4092 <> p':48
+binder 4094:4095 <> eq:49
+R4107:4114 Coq.Init.Logic <> eq_trans thm
+R4137:4144 Coq.Init.Logic <> eq_trans thm
+R4150:4164 Coq.Init.Logic <> eq_trans_refl_l thm
+R4146:4147 Coq.Logic.Adjointification <> eq:49 var
+R4117:4131 Coq.Init.Logic <> eq_trans_refl_l thm
+R4181:4192 Coq.Logic.Adjointification <> symmetric_eq:45 var
+def 4286:4294 <> g_adjoint
+binder 4307:4307 <> b:50
+R4321:4323 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4310:4314 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R4317:4317 Coq.Logic.Adjointification <> adjointify.g var
+R4319:4319 Coq.Logic.Adjointification <> b:50 var
+R4324:4330 Coq.Init.Logic <> f_equal thm
+R4335:4340 Coq.Logic.Adjointification <> fg_id' def
+R4342:4342 Coq.Logic.Adjointification <> b:50 var
+R4332:4332 Coq.Logic.Adjointification <> adjointify.g var
+R4350:4374 Coq.Logic.Adjointification <> f_adjoint_gives_g_adjoint def
+R4389:4397 Coq.Logic.Adjointification <> f_adjoint def
+R4382:4387 Coq.Logic.Adjointification <> fg_id' def
+R4376:4380 Coq.Logic.Adjointification <> adjointify.correction.gf_id var
+R4405:4414 Coq.Logic.Adjointification adjointify.correction <> sec
+R4422:4431 Coq.Logic.Adjointification adjointify <> sec

@@ -1,0 +1,136 @@
+DIGEST 9f1426fdf622f8ce77c5519ab5ba3960
+FCoq.Sets.Partial_Order
+R1838:1846 Coq.Sets.Ensembles <> <> lib
+R1864:1874 Coq.Sets.Relations_1 <> <> lib
+sec 1886:1899 <> Partial_orders
+var 1913:1913 Partial_orders U
+def 1937:1943 <> Carrier
+R1948:1955 Coq.Sets.Ensembles <> Ensemble def
+R1957:1957 Coq.Sets.Partial_Order <> Partial_orders.U var
+def 1974:1976 <> Rel
+R1981:1988 Coq.Sets.Relations_1 <> Relation def
+R1990:1990 Coq.Sets.Partial_Order <> Partial_orders.U var
+rec 2003:2004 <> PO
+proj 2039:2048 <> Carrier_of
+proj 2070:2075 <> Rel_of
+proj 2097:2104 <> PO_cond1
+proj 2138:2145 <> PO_cond2
+R2052:2059 Coq.Sets.Ensembles <> Ensemble def
+R2061:2061 Coq.Sets.Partial_Order <> Partial_orders.U var
+R2079:2086 Coq.Sets.Relations_1 <> Relation def
+R2088:2088 Coq.Sets.Partial_Order <> Partial_orders.U var
+R2108:2116 Coq.Sets.Ensembles <> Inhabited ind
+R2120:2129 Coq.Sets.Partial_Order <> Carrier_of:3 meth
+R2118:2118 Coq.Sets.Partial_Order <> Partial_orders.U var
+R2149:2153 Coq.Sets.Relations_1 <> Order ind
+R2157:2162 Coq.Sets.Partial_Order <> Rel_of:4 meth
+R2155:2155 Coq.Sets.Partial_Order <> Partial_orders.U var
+var 2178:2178 Partial_orders p
+R2182:2183 Coq.Sets.Partial_Order <> PO rec
+def 2200:2212 <> Strict_Rel_of
+R2216:2218 Coq.Sets.Partial_Order <> Rel def
+R2231:2231 Coq.Sets.Partial_Order <> Partial_orders.U var
+binder 2227:2227 <> x:8
+binder 2229:2229 <> y:9
+R2248:2251 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2236:2241 Coq.Sets.Partial_Order <> Rel_of proj
+R2243:2243 Coq.Sets.Partial_Order <> Partial_orders.p var
+R2245:2245 Coq.Sets.Partial_Order <> x:8 var
+R2247:2247 Coq.Sets.Partial_Order <> y:9 var
+R2253:2256 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2252:2252 Coq.Sets.Partial_Order <> x:8 var
+R2257:2257 Coq.Sets.Partial_Order <> y:9 var
+ind 2273:2278 <> covers
+constr 2302:2321 <> Definition_of_covers
+R2285:2285 Coq.Sets.Partial_Order <> Partial_orders.U var
+binder 2281:2281 <> y:10
+binder 2283:2283 <> x:11
+R2346:2353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2329:2341 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2343:2343 Coq.Sets.Partial_Order <> x:11 var
+R2345:2345 Coq.Sets.Partial_Order <> y:10 var
+R2410:2417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2354:2356 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2409:2409 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2357:2363 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2369:2370 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2364:2364 <> z:14
+R2388:2391 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2371:2383 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2385:2385 Coq.Sets.Partial_Order <> x:11 var
+R2387:2387 Coq.Sets.Partial_Order <> z:14 var
+R2392:2404 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2406:2406 Coq.Sets.Partial_Order <> z:14 var
+R2408:2408 Coq.Sets.Partial_Order <> y:10 var
+R2418:2423 Coq.Sets.Partial_Order <> covers:12 ind
+R2427:2427 Coq.Sets.Partial_Order <> x:11 var
+R2425:2425 Coq.Sets.Partial_Order <> y:10 var
+R2435:2448 Coq.Sets.Partial_Order Partial_orders <> sec
+R2474:2483 Coq.Sets.Partial_Order <> Carrier_of proj
+R2485:2490 Coq.Sets.Partial_Order <> Rel_of proj
+R2492:2504 Coq.Sets.Partial_Order <> Strict_Rel_of def
+sec 2574:2592 <> Partial_order_facts
+var 2606:2606 Partial_order_facts U
+var 2627:2627 Partial_order_facts D
+R2631:2632 Coq.Sets.Partial_Order <> PO rec
+R2634:2634 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+prf 2646:2675 <> Strict_Rel_Transitive_with_Rel
+R2696:2696 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+binder 2690:2690 <> x:17
+binder 2692:2692 <> y:18
+binder 2694:2694 <> z:19
+R2726:2729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2705:2717 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2723:2723 Coq.Sets.Partial_Order <> x:17 var
+R2725:2725 Coq.Sets.Partial_Order <> y:18 var
+R2721:2721 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R2719:2719 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R2745:2748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2731:2736 Coq.Sets.Partial_Order <> Rel_of proj
+R2738:2738 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R2740:2740 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R2742:2742 Coq.Sets.Partial_Order <> y:18 var
+R2744:2744 Coq.Sets.Partial_Order <> z:19 var
+R2749:2761 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2767:2767 Coq.Sets.Partial_Order <> x:17 var
+R2769:2769 Coq.Sets.Partial_Order <> z:19 var
+R2765:2765 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R2763:2763 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R2792:2804 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R2830:2830 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R2830:2830 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+prf 3097:3131 <> Strict_Rel_Transitive_with_Rel_left
+R3152:3152 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+binder 3146:3146 <> x:20
+binder 3148:3148 <> y:21
+binder 3150:3150 <> z:22
+R3176:3179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3162:3167 Coq.Sets.Partial_Order <> Rel_of proj
+R3169:3169 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R3171:3171 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R3173:3173 Coq.Sets.Partial_Order <> x:20 var
+R3175:3175 Coq.Sets.Partial_Order <> y:21 var
+R3201:3204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3180:3192 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R3198:3198 Coq.Sets.Partial_Order <> y:21 var
+R3200:3200 Coq.Sets.Partial_Order <> z:22 var
+R3196:3196 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R3194:3194 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R3205:3217 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R3223:3223 Coq.Sets.Partial_Order <> x:20 var
+R3225:3225 Coq.Sets.Partial_Order <> z:22 var
+R3221:3221 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R3219:3219 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R3248:3260 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R3286:3286 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R3286:3286 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+prf 3555:3575 <> Strict_Rel_Transitive
+R3579:3588 Coq.Sets.Relations_1 <> Transitive def
+R3593:3605 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R3609:3609 Coq.Sets.Partial_Order <> Partial_order_facts.D var
+R3607:3607 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R3590:3590 Coq.Sets.Partial_Order <> Partial_order_facts.U var
+R3657:3686 Coq.Sets.Partial_Order <> Strict_Rel_Transitive_with_Rel thm
+R3730:3742 Coq.Sets.Partial_Order <> Strict_Rel_of def
+R3657:3686 Coq.Sets.Partial_Order <> Strict_Rel_Transitive_with_Rel thm
+R3780:3798 Coq.Sets.Partial_Order Partial_order_facts <> sec

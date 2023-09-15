@@ -1,0 +1,1393 @@
+DIGEST 82d2bab8fa2359a52215e7fcfd068e98
+FCoq.Structures.OrdersFacts
+R691:694 Coq.Bool.Bool <> <> lib
+R696:701 Coq.Program.Basics <> <> lib
+R703:711 Coq.Structures.OrdersTac <> <> lib
+R729:734 Coq.Structures.Orders <> <> lib
+R855:866 Coq.Structures.Orders DecStrOrder' <> mod
+modtype 832:843 <> CompareFacts
+R832:843 Coq.Structures.OrdersFacts O <> mod
+R892:898 Coq.Structures.OrdersFacts O compare defax
+not 884:884 CompareFacts :::x_'?='_x
+prf 941:954 CompareFacts compare_eq_iff
+binder 956:956 <> x:1
+binder 958:958 <> y:2
+R975:979 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R962:962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R969:972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R964:967 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R963:963 Coq.Structures.OrdersFacts <> x:1 var
+R968:968 Coq.Structures.OrdersFacts <> y:2 var
+R973:974 Coq.Init.Datatypes <> Eq constr
+R981:982 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R980:980 Coq.Structures.OrdersFacts <> x:1 var
+R983:983 Coq.Structures.OrdersFacts <> y:2 var
+R1000:1011 Coq.Structures.OrdersFacts O compare_spec prfax
+R1084:1096 Coq.Classes.RelationClasses <> irreflexivity def
+R1000:1011 Coq.Structures.OrdersFacts O compare_spec prfax
+R1084:1096 Coq.Classes.RelationClasses <> irreflexivity def
+R1084:1096 Coq.Classes.RelationClasses <> irreflexivity def
+prf 1113:1122 CompareFacts compare_eq
+binder 1124:1124 <> x:3
+binder 1126:1126 <> y:4
+R1143:1146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1130:1130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1137:1140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1132:1135 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R1131:1131 Coq.Structures.OrdersFacts <> x:3 var
+R1136:1136 Coq.Structures.OrdersFacts <> y:4 var
+R1141:1142 Coq.Init.Datatypes <> Eq constr
+R1148:1149 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1147:1147 Coq.Structures.OrdersFacts <> x:3 var
+R1150:1150 Coq.Structures.OrdersFacts <> y:4 var
+R1168:1181 Coq.Structures.OrdersFacts CompareFacts compare_eq_iff thm
+R1168:1181 Coq.Structures.OrdersFacts CompareFacts compare_eq_iff thm
+prf 1198:1211 CompareFacts compare_lt_iff
+binder 1213:1213 <> x:5
+binder 1215:1215 <> y:6
+R1232:1236 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1219:1219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1226:1229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1221:1224 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R1220:1220 Coq.Structures.OrdersFacts <> x:5 var
+R1225:1225 Coq.Structures.OrdersFacts <> y:6 var
+R1230:1231 Coq.Init.Datatypes <> Lt constr
+R1238:1238 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1237:1237 Coq.Structures.OrdersFacts <> x:5 var
+R1239:1239 Coq.Structures.OrdersFacts <> y:6 var
+R1257:1268 Coq.Structures.OrdersFacts O compare_spec prfax
+R1341:1353 Coq.Classes.RelationClasses <> irreflexivity def
+R1257:1268 Coq.Structures.OrdersFacts O compare_spec prfax
+R1341:1353 Coq.Classes.RelationClasses <> irreflexivity def
+R1341:1353 Coq.Classes.RelationClasses <> irreflexivity def
+prf 1370:1383 CompareFacts compare_gt_iff
+binder 1385:1385 <> x:7
+binder 1387:1387 <> y:8
+R1404:1408 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1391:1391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1398:1401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1393:1396 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R1392:1392 Coq.Structures.OrdersFacts <> x:7 var
+R1397:1397 Coq.Structures.OrdersFacts <> y:8 var
+R1402:1403 Coq.Init.Datatypes <> Gt constr
+R1410:1410 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1409:1409 Coq.Structures.OrdersFacts <> y:8 var
+R1411:1411 Coq.Structures.OrdersFacts <> x:7 var
+R1428:1439 Coq.Structures.OrdersFacts O compare_spec prfax
+R1512:1524 Coq.Classes.RelationClasses <> irreflexivity def
+R1428:1439 Coq.Structures.OrdersFacts O compare_spec prfax
+R1512:1524 Coq.Classes.RelationClasses <> irreflexivity def
+R1512:1524 Coq.Classes.RelationClasses <> irreflexivity def
+prf 1541:1555 CompareFacts compare_nlt_iff
+binder 1557:1557 <> x:9
+binder 1559:1559 <> y:10
+R1577:1581 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1563:1563 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1570:1574 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1565:1568 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R1564:1564 Coq.Structures.OrdersFacts <> x:9 var
+R1569:1569 Coq.Structures.OrdersFacts <> y:10 var
+R1575:1576 Coq.Init.Datatypes <> Lt constr
+R1582:1583 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1587:1587 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1585:1585 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1584:1584 Coq.Structures.OrdersFacts <> x:9 var
+R1586:1586 Coq.Structures.OrdersFacts <> y:10 var
+R1607:1620 Coq.Structures.OrdersFacts CompareFacts compare_lt_iff thm
+R1607:1620 Coq.Structures.OrdersFacts CompareFacts compare_lt_iff thm
+R1607:1620 Coq.Structures.OrdersFacts CompareFacts compare_lt_iff thm
+prf 1648:1662 CompareFacts compare_ngt_iff
+binder 1664:1664 <> x:11
+binder 1666:1666 <> y:12
+R1684:1688 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1670:1670 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1677:1681 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1672:1675 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R1671:1671 Coq.Structures.OrdersFacts <> x:11 var
+R1676:1676 Coq.Structures.OrdersFacts <> y:12 var
+R1682:1683 Coq.Init.Datatypes <> Gt constr
+R1689:1690 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1694:1694 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1692:1692 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1691:1691 Coq.Structures.OrdersFacts <> y:12 var
+R1693:1693 Coq.Structures.OrdersFacts <> x:11 var
+R1714:1727 Coq.Structures.OrdersFacts CompareFacts compare_gt_iff thm
+R1714:1727 Coq.Structures.OrdersFacts CompareFacts compare_gt_iff thm
+R1714:1727 Coq.Structures.OrdersFacts CompareFacts compare_gt_iff thm
+R1769:1782 Coq.Structures.OrdersFacts CompareFacts compare_eq_iff thm
+R1784:1797 Coq.Structures.OrdersFacts CompareFacts compare_lt_iff thm
+R1799:1812 Coq.Structures.OrdersFacts CompareFacts compare_gt_iff thm
+inst 1844:1857 CompareFacts compare_compat
+R1861:1866 Coq.Classes.Morphisms <> Proper class
+R1889:1895 Coq.Structures.OrdersFacts O compare defax
+R1871:1873 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1869:1870 Coq.Structures.OrdersFacts O eq defax
+R1876:1878 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1874:1875 Coq.Structures.OrdersFacts O eq defax
+R1879:1886 Coq.Init.Logic <> eq ind
+R1942:1953 Coq.Structures.OrdersFacts O compare_spec prfax
+R1942:1953 Coq.Structures.OrdersFacts O compare_spec prfax
+prf 2025:2036 CompareFacts compare_refl
+binder 2038:2038 <> x:13
+R2042:2042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2049:2052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2044:2047 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R2043:2043 Coq.Structures.OrdersFacts <> x:13 var
+R2048:2048 Coq.Structures.OrdersFacts <> x:13 var
+R2053:2054 Coq.Init.Datatypes <> Eq constr
+R2071:2082 Coq.Structures.OrdersFacts O compare_spec prfax
+R2111:2123 Coq.Classes.RelationClasses <> irreflexivity def
+R2071:2082 Coq.Structures.OrdersFacts O compare_spec prfax
+R2111:2123 Coq.Classes.RelationClasses <> irreflexivity def
+R2111:2123 Coq.Classes.RelationClasses <> irreflexivity def
+prf 2147:2161 CompareFacts compare_antisym
+binder 2163:2163 <> x:14
+binder 2165:2165 <> y:15
+R2169:2169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2176:2179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2171:2174 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R2170:2170 Coq.Structures.OrdersFacts <> y:15 var
+R2175:2175 Coq.Structures.OrdersFacts <> x:14 var
+R2180:2186 Coq.Init.Datatypes <> CompOpp def
+R2190:2193 Coq.Structures.OrdersFacts CompareFacts :::x_'?='_x not
+R2189:2189 Coq.Structures.OrdersFacts <> x:14 var
+R2194:2194 Coq.Structures.OrdersFacts <> y:15 var
+R2213:2224 Coq.Structures.OrdersFacts O compare_spec prfax
+R2213:2224 Coq.Structures.OrdersFacts O compare_spec prfax
+R2299:2310 Coq.Structures.OrdersFacts CompareFacts <> modtype
+R2396:2411 Coq.Structures.Orders OrderedTypeFull' <> mod
+mod 2365:2384 <> OrderedTypeFullFacts
+R2436:2450 Coq.Structures.OrdersTac OTF_to_OrderTac <> modtype
+R2452:2452 Coq.Structures.OrdersFacts O <> modtype
+mod 2424:2431 <> OrderedTypeFullFacts.OrderTac
+inst 2540:2548 OrderedTypeFullFacts le_compat
+R2552:2557 Coq.Classes.Morphisms <> Proper class
+R2575:2576 Coq.Structures.OrdersFacts O le defax
+R2562:2564 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2560:2561 Coq.Structures.OrdersFacts O eq defax
+R2567:2569 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2565:2566 Coq.Structures.OrdersFacts O eq defax
+R2570:2572 Coq.Init.Logic <> iff def
+inst 2633:2643 OrderedTypeFullFacts le_preorder
+R2647:2654 Coq.Classes.RelationClasses <> PreOrder class
+R2656:2657 Coq.Structures.OrdersFacts O le defax
+inst 2713:2720 OrderedTypeFullFacts le_order
+R2724:2735 Coq.Classes.RelationClasses <> PartialOrder class
+R2740:2741 Coq.Structures.OrdersFacts O le defax
+R2737:2738 Coq.Structures.OrdersFacts O eq defax
+inst 2795:2804 OrderedTypeFullFacts le_antisym
+R2808:2820 Coq.Classes.RelationClasses <> Antisymmetric class
+R2827:2828 Coq.Structures.OrdersFacts O le defax
+R2824:2825 Coq.Structures.OrdersFacts O eq defax
+R2845:2865 Coq.Classes.RelationClasses <> partial_order_antisym inst
+R2845:2865 Coq.Classes.RelationClasses <> partial_order_antisym inst
+prf 2894:2906 OrderedTypeFullFacts le_not_gt_iff
+binder 2917:2917 <> x:16
+binder 2919:2919 <> y:17
+R2926:2930 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2923:2924 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2922:2922 Coq.Structures.OrdersFacts <> x:16 var
+R2925:2925 Coq.Structures.OrdersFacts <> y:17 var
+R2931:2931 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2933:2933 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2932:2932 Coq.Structures.OrdersFacts <> y:17 var
+R2934:2934 Coq.Structures.OrdersFacts <> x:16 var
+prf 2966:2978 OrderedTypeFullFacts lt_not_ge_iff
+binder 2989:2989 <> x:18
+binder 2991:2991 <> y:19
+R2997:3001 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2995:2995 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2994:2994 Coq.Structures.OrdersFacts <> x:18 var
+R2996:2996 Coq.Structures.OrdersFacts <> y:19 var
+R3002:3002 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3004:3005 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3003:3003 Coq.Structures.OrdersFacts <> y:19 var
+R3006:3006 Coq.Structures.OrdersFacts <> x:18 var
+prf 3038:3045 OrderedTypeFullFacts le_or_gt
+binder 3056:3056 <> x:20
+binder 3058:3058 <> y:21
+R3065:3068 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3062:3063 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3061:3061 Coq.Structures.OrdersFacts <> x:20 var
+R3064:3064 Coq.Structures.OrdersFacts <> y:21 var
+R3070:3070 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3069:3069 Coq.Structures.OrdersFacts <> y:21 var
+R3071:3071 Coq.Structures.OrdersFacts <> x:20 var
+R3102:3108 Coq.Structures.OrdersFacts O le_lteq prfax
+R3121:3134 Coq.Structures.OrdersFacts O compare_spec prfax
+R3102:3108 Coq.Structures.OrdersFacts O le_lteq prfax
+R3102:3108 Coq.Structures.OrdersFacts O le_lteq prfax
+R3121:3134 Coq.Structures.OrdersFacts O compare_spec prfax
+prf 3161:3168 OrderedTypeFullFacts lt_or_ge
+binder 3179:3179 <> x:22
+binder 3181:3181 <> y:23
+R3187:3190 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3185:3185 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3184:3184 Coq.Structures.OrdersFacts <> x:22 var
+R3186:3186 Coq.Structures.OrdersFacts <> y:23 var
+R3192:3193 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3191:3191 Coq.Structures.OrdersFacts <> y:23 var
+R3194:3194 Coq.Structures.OrdersFacts <> x:22 var
+R3225:3231 Coq.Structures.OrdersFacts O le_lteq prfax
+R3244:3257 Coq.Structures.OrdersFacts O compare_spec prfax
+R3225:3231 Coq.Structures.OrdersFacts O le_lteq prfax
+R3225:3231 Coq.Structures.OrdersFacts O le_lteq prfax
+R3244:3257 Coq.Structures.OrdersFacts O compare_spec prfax
+prf 3286:3296 OrderedTypeFullFacts eq_is_le_ge
+binder 3307:3307 <> x:24
+binder 3309:3309 <> y:25
+R3316:3320 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3313:3314 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3312:3312 Coq.Structures.OrdersFacts <> x:24 var
+R3315:3315 Coq.Structures.OrdersFacts <> y:25 var
+R3325:3328 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3322:3323 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3321:3321 Coq.Structures.OrdersFacts <> x:24 var
+R3324:3324 Coq.Structures.OrdersFacts <> y:25 var
+R3330:3331 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3329:3329 Coq.Structures.OrdersFacts <> y:25 var
+R3332:3332 Coq.Structures.OrdersFacts <> x:24 var
+R3366:3377 Coq.Structures.OrdersFacts CompareFacts <> mod
+R3379:3379 Coq.Structures.OrdersFacts O <> modtype
+prf 3390:3403 OrderedTypeFullFacts compare_le_iff
+binder 3405:3405 <> x:26
+binder 3407:3407 <> y:27
+R3428:3432 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3422:3425 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3411:3417 Coq.Structures.OrdersFacts O compare defax
+R3421:3421 Coq.Structures.OrdersFacts <> y:27 var
+R3419:3419 Coq.Structures.OrdersFacts <> x:26 var
+R3426:3427 Coq.Init.Datatypes <> Gt constr
+R3434:3435 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3433:3433 Coq.Structures.OrdersFacts <> x:26 var
+R3436:3436 Coq.Structures.OrdersFacts <> y:27 var
+R3456:3468 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3456:3468 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3456:3468 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3477:3491 Coq.Structures.OrdersFacts OrderedTypeFullFacts compare_ngt_iff thm
+R3477:3491 Coq.Structures.OrdersFacts OrderedTypeFullFacts compare_ngt_iff thm
+prf 3508:3521 OrderedTypeFullFacts compare_ge_iff
+binder 3523:3523 <> x:28
+binder 3525:3525 <> y:29
+R3546:3550 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3540:3543 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3529:3535 Coq.Structures.OrdersFacts O compare defax
+R3539:3539 Coq.Structures.OrdersFacts <> y:29 var
+R3537:3537 Coq.Structures.OrdersFacts <> x:28 var
+R3544:3545 Coq.Init.Datatypes <> Lt constr
+R3552:3553 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3551:3551 Coq.Structures.OrdersFacts <> y:29 var
+R3554:3554 Coq.Structures.OrdersFacts <> x:28 var
+R3574:3586 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3574:3586 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3574:3586 Coq.Structures.OrdersFacts OrderedTypeFullFacts le_not_gt_iff thm
+R3595:3609 Coq.Structures.OrdersFacts OrderedTypeFullFacts compare_nlt_iff thm
+R3595:3609 Coq.Structures.OrdersFacts OrderedTypeFullFacts compare_nlt_iff thm
+R3623:3642 Coq.Structures.OrdersFacts OrderedTypeFullFacts <> mod
+R3720:3731 Coq.Structures.Orders OrderedType' <> mod
+mod 3692:3707 <> OrderedTypeFacts
+R3757:3770 Coq.Structures.OrdersTac OT_to_OrderTac <> modtype
+R3772:3772 Coq.Structures.OrdersFacts O <> modtype
+mod 3745:3752 <> OrderedTypeFacts.OrderTac
+R3855:3855 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3856:3857 Coq.Structures.OrdersFacts O lt defax
+not 3842:3842 OrderedTypeFacts ::order:x_'<='_x
+R3889:3895 Coq.Structures.OrdersFacts O compare defax
+not 3881:3881 OrderedTypeFacts ::order:x_'?='_x
+R4035:4046 Coq.Structures.OrdersFacts O compare_spec prfax
+R4138:4149 Coq.Structures.OrdersFacts O compare_spec prfax
+def 4360:4366 OrderedTypeFacts eq_refl
+R4371:4371 Coq.Structures.OrdersFacts O t defax
+binder 4369:4369 <> x:30
+R4377:4378 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4376:4376 Coq.Structures.OrdersFacts <> x:30 var
+R4379:4379 Coq.Structures.OrdersFacts <> x:30 var
+R4384:4404 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R4406:4406 Coq.Structures.OrdersFacts <> x:30 var
+def 4423:4428 OrderedTypeFacts eq_sym
+R4435:4435 Coq.Structures.OrdersFacts O t defax
+binder 4431:4431 <> x:31
+binder 4433:4433 <> y:32
+R4444:4447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4441:4442 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4440:4440 Coq.Structures.OrdersFacts <> x:31 var
+R4443:4443 Coq.Structures.OrdersFacts <> y:32 var
+R4449:4450 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4448:4448 Coq.Structures.OrdersFacts <> y:32 var
+R4451:4451 Coq.Structures.OrdersFacts <> x:31 var
+R4456:4476 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R4480:4480 Coq.Structures.OrdersFacts <> y:32 var
+R4478:4478 Coq.Structures.OrdersFacts <> x:31 var
+def 4497:4504 OrderedTypeFacts eq_trans
+R4513:4513 Coq.Structures.OrdersFacts O t defax
+binder 4507:4507 <> x:33
+binder 4509:4509 <> y:34
+binder 4511:4511 <> z:35
+R4522:4525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4519:4520 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4518:4518 Coq.Structures.OrdersFacts <> x:33 var
+R4521:4521 Coq.Structures.OrdersFacts <> y:34 var
+R4530:4533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4527:4528 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4526:4526 Coq.Structures.OrdersFacts <> y:34 var
+R4529:4529 Coq.Structures.OrdersFacts <> z:35 var
+R4535:4536 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4534:4534 Coq.Structures.OrdersFacts <> x:33 var
+R4537:4537 Coq.Structures.OrdersFacts <> z:35 var
+R4545:4566 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R4572:4572 Coq.Structures.OrdersFacts <> z:35 var
+R4570:4570 Coq.Structures.OrdersFacts <> y:34 var
+R4568:4568 Coq.Structures.OrdersFacts <> x:33 var
+def 4589:4596 OrderedTypeFacts lt_trans
+R4605:4605 Coq.Structures.OrdersFacts O t defax
+binder 4599:4599 <> x:36
+binder 4601:4601 <> y:37
+binder 4603:4603 <> z:38
+R4613:4616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4611:4611 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4610:4610 Coq.Structures.OrdersFacts <> x:36 var
+R4612:4612 Coq.Structures.OrdersFacts <> y:37 var
+R4620:4623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4618:4618 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4617:4617 Coq.Structures.OrdersFacts <> y:37 var
+R4619:4619 Coq.Structures.OrdersFacts <> z:38 var
+R4625:4625 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4624:4624 Coq.Structures.OrdersFacts <> x:36 var
+R4626:4626 Coq.Structures.OrdersFacts <> z:38 var
+R4634:4655 Coq.Classes.RelationClasses <> StrictOrder_Transitive meth
+R4661:4661 Coq.Structures.OrdersFacts <> z:38 var
+R4659:4659 Coq.Structures.OrdersFacts <> y:37 var
+R4657:4657 Coq.Structures.OrdersFacts <> x:36 var
+def 4678:4686 OrderedTypeFacts lt_irrefl
+R4691:4691 Coq.Structures.OrdersFacts O t defax
+binder 4689:4689 <> x:39
+R4696:4696 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4698:4698 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4697:4697 Coq.Structures.OrdersFacts <> x:39 var
+R4699:4699 Coq.Structures.OrdersFacts <> x:39 var
+R4704:4726 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R4728:4728 Coq.Structures.OrdersFacts <> x:39 var
+R4742:4753 Coq.Structures.OrdersFacts CompareFacts <> mod
+R4755:4755 Coq.Structures.OrdersFacts O <> modtype
+abbrev 4769:4782 OrderedTypeFacts compare_le_iff
+R4787:4801 Coq.Structures.OrdersFacts OrderedTypeFacts compare_ngt_iff thm
+abbrev 4830:4843 OrderedTypeFacts compare_ge_iff
+R4848:4862 Coq.Structures.OrdersFacts OrderedTypeFacts compare_nlt_iff thm
+def 4929:4934 OrderedTypeFacts eq_dec
+R4939:4944 Coq.Structures.OrdersFacts O eq_dec defax
+prf 4956:4961 OrderedTypeFacts lt_dec
+R4978:4978 Coq.Structures.OrdersFacts O t defax
+binder 4972:4972 <> x:40
+binder 4974:4974 <> y:41
+R4981:4981 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4988:4992 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5001:5001 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4982:4983 Coq.Structures.OrdersFacts O lt defax
+R4987:4987 Coq.Structures.OrdersFacts <> y:41 var
+R4985:4985 Coq.Structures.OrdersFacts <> x:40 var
+R4993:4994 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4995:4996 Coq.Structures.OrdersFacts O lt defax
+R5000:5000 Coq.Structures.OrdersFacts <> y:41 var
+R4998:4998 Coq.Structures.OrdersFacts <> x:40 var
+R5038:5050 Coq.Init.Datatypes <> CompSpec2Type thm
+R5053:5064 Coq.Structures.OrdersFacts O compare_spec prfax
+R5038:5050 Coq.Init.Datatypes <> CompSpec2Type thm
+R5053:5064 Coq.Structures.OrdersFacts O compare_spec prfax
+def 5135:5137 OrderedTypeFacts eqb
+binder 5139:5139 <> x:42
+binder 5141:5141 <> y:43
+R5145:5148 Coq.Init.Datatypes <> bool ind
+R5156:5161 Coq.Structures.OrdersFacts OrderedTypeFacts eq_dec def
+R5165:5165 Coq.Structures.OrdersFacts <> y:43 var
+R5163:5163 Coq.Structures.OrdersFacts <> x:42 var
+R5182:5186 Coq.Init.Datatypes <> false constr
+R5172:5175 Coq.Init.Datatypes <> true constr
+prf 5198:5206 OrderedTypeFacts if_eq_dec
+binder 5208:5208 <> x:44
+binder 5210:5210 <> y:45
+binder 5213:5213 <> B:46
+R5226:5226 Coq.Structures.OrdersFacts <> B:46 var
+binder 5221:5221 <> b:47
+binder 5223:5224 <> b':48
+R5235:5235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5264:5272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5317:5317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5239:5244 Coq.Structures.OrdersFacts OrderedTypeFacts eq_dec def
+R5248:5248 Coq.Structures.OrdersFacts <> y:45 var
+R5246:5246 Coq.Structures.OrdersFacts <> x:44 var
+R5262:5263 Coq.Structures.OrdersFacts <> b':48 var
+R5255:5255 Coq.Structures.OrdersFacts <> b:47 var
+R5279:5285 Coq.Structures.OrdersFacts O compare defax
+R5289:5289 Coq.Structures.OrdersFacts <> y:45 var
+R5287:5287 Coq.Structures.OrdersFacts <> x:44 var
+R5296:5297 Coq.Init.Datatypes <> Eq constr
+R5302:5302 Coq.Structures.OrdersFacts <> b:47 var
+R5311:5312 Coq.Structures.OrdersFacts <> b':48 var
+R5340:5345 Coq.Structures.OrdersFacts OrderedTypeFacts eq_dec def
+prf 5395:5401 OrderedTypeFacts eqb_alt
+binder 5416:5416 <> x:49
+binder 5418:5418 <> y:50
+R5428:5430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5421:5423 Coq.Structures.OrdersFacts OrderedTypeFacts eqb def
+R5427:5427 Coq.Structures.OrdersFacts <> y:50 var
+R5425:5425 Coq.Structures.OrdersFacts <> x:49 var
+R5437:5443 Coq.Structures.OrdersFacts O compare defax
+R5447:5447 Coq.Structures.OrdersFacts <> y:50 var
+R5445:5445 Coq.Structures.OrdersFacts <> x:49 var
+R5454:5455 Coq.Init.Datatypes <> Eq constr
+R5460:5463 Coq.Init.Datatypes <> true constr
+R5472:5476 Coq.Init.Datatypes <> false constr
+R5501:5503 Coq.Structures.OrdersFacts OrderedTypeFacts eqb def
+R5520:5528 Coq.Structures.OrdersFacts OrderedTypeFacts if_eq_dec thm
+R5520:5528 Coq.Structures.OrdersFacts OrderedTypeFacts if_eq_dec thm
+inst 5560:5569 OrderedTypeFacts eqb_compat
+R5573:5578 Coq.Classes.Morphisms <> Proper class
+R5601:5603 Coq.Structures.OrdersFacts OrderedTypeFacts eqb def
+R5583:5585 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5581:5582 Coq.Structures.OrdersFacts O eq defax
+R5588:5590 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5586:5587 Coq.Structures.OrdersFacts O eq defax
+R5591:5598 Coq.Init.Logic <> eq ind
+R5657:5663 Coq.Structures.OrdersFacts OrderedTypeFacts eqb_alt thm
+R5657:5663 Coq.Structures.OrdersFacts OrderedTypeFacts eqb_alt thm
+R5657:5663 Coq.Structures.OrdersFacts OrderedTypeFacts eqb_alt thm
+R5657:5663 Coq.Structures.OrdersFacts OrderedTypeFacts eqb_alt thm
+R5696:5711 Coq.Structures.OrdersFacts OrderedTypeFacts <> mod
+R5848:5859 Coq.Structures.Orders OrderedType' <> mod
+mod 5822:5836 <> OrderedTypeTest
+R5885:5900 Coq.Structures.OrdersFacts OrderedTypeFacts <> modtype
+R5902:5902 Coq.Structures.OrdersFacts O <> modtype
+mod 5879:5880 <> OrderedTypeTest.MO
+prf 5939:5947 OrderedTypeTest lt_not_eq
+binder 5949:5949 <> x:51
+binder 5951:5951 <> y:52
+R5958:5961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5956:5956 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5955:5955 Coq.Structures.OrdersFacts <> x:51 var
+R5957:5957 Coq.Structures.OrdersFacts <> y:52 var
+R5962:5962 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5964:5965 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5963:5963 Coq.Structures.OrdersFacts <> x:51 var
+R5966:5966 Coq.Structures.OrdersFacts <> y:52 var
+prf 5997:6001 OrderedTypeTest lt_eq
+binder 6003:6003 <> x:53
+binder 6005:6005 <> y:54
+binder 6007:6007 <> z:55
+R6014:6017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6012:6012 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6011:6011 Coq.Structures.OrdersFacts <> x:53 var
+R6013:6013 Coq.Structures.OrdersFacts <> y:54 var
+R6022:6025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6019:6020 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6018:6018 Coq.Structures.OrdersFacts <> y:54 var
+R6021:6021 Coq.Structures.OrdersFacts <> z:55 var
+R6027:6027 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6026:6026 Coq.Structures.OrdersFacts <> x:53 var
+R6028:6028 Coq.Structures.OrdersFacts <> z:55 var
+prf 6058:6062 OrderedTypeTest eq_lt
+binder 6064:6064 <> x:56
+binder 6066:6066 <> y:57
+binder 6068:6068 <> z:58
+R6076:6079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6073:6074 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6072:6072 Coq.Structures.OrdersFacts <> x:56 var
+R6075:6075 Coq.Structures.OrdersFacts <> y:57 var
+R6083:6086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6081:6081 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6080:6080 Coq.Structures.OrdersFacts <> y:57 var
+R6082:6082 Coq.Structures.OrdersFacts <> z:58 var
+R6088:6088 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6087:6087 Coq.Structures.OrdersFacts <> x:56 var
+R6089:6089 Coq.Structures.OrdersFacts <> z:58 var
+prf 6119:6123 OrderedTypeTest le_eq
+binder 6125:6125 <> x:59
+binder 6127:6127 <> y:60
+binder 6129:6129 <> z:61
+R6137:6140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6134:6135 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6136:6136 Coq.Structures.OrdersFacts <> y:60 var
+R6133:6133 Coq.Structures.OrdersFacts <> x:59 var
+R6145:6148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6142:6143 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6141:6141 Coq.Structures.OrdersFacts <> y:60 var
+R6144:6144 Coq.Structures.OrdersFacts <> z:61 var
+R6150:6151 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6152:6152 Coq.Structures.OrdersFacts <> z:61 var
+R6149:6149 Coq.Structures.OrdersFacts <> x:59 var
+prf 6182:6186 OrderedTypeTest eq_le
+binder 6188:6188 <> x:62
+binder 6190:6190 <> y:63
+binder 6192:6192 <> z:64
+R6200:6203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6197:6198 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6196:6196 Coq.Structures.OrdersFacts <> x:62 var
+R6199:6199 Coq.Structures.OrdersFacts <> y:63 var
+R6208:6211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6205:6206 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6207:6207 Coq.Structures.OrdersFacts <> z:64 var
+R6204:6204 Coq.Structures.OrdersFacts <> y:63 var
+R6213:6214 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6215:6215 Coq.Structures.OrdersFacts <> z:64 var
+R6212:6212 Coq.Structures.OrdersFacts <> x:62 var
+prf 6245:6250 OrderedTypeTest neq_eq
+binder 6252:6252 <> x:65
+binder 6254:6254 <> y:66
+binder 6256:6256 <> z:67
+R6265:6268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6260:6260 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6262:6263 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6261:6261 Coq.Structures.OrdersFacts <> x:65 var
+R6264:6264 Coq.Structures.OrdersFacts <> y:66 var
+R6273:6276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6270:6271 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6269:6269 Coq.Structures.OrdersFacts <> y:66 var
+R6272:6272 Coq.Structures.OrdersFacts <> z:67 var
+R6277:6277 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6279:6280 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6278:6278 Coq.Structures.OrdersFacts <> x:65 var
+R6281:6281 Coq.Structures.OrdersFacts <> z:67 var
+prf 6311:6316 OrderedTypeTest eq_neq
+binder 6318:6318 <> x:68
+binder 6320:6320 <> y:69
+binder 6322:6322 <> z:70
+R6330:6333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6327:6328 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6326:6326 Coq.Structures.OrdersFacts <> x:68 var
+R6329:6329 Coq.Structures.OrdersFacts <> y:69 var
+R6339:6342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6334:6334 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6336:6337 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6335:6335 Coq.Structures.OrdersFacts <> y:69 var
+R6338:6338 Coq.Structures.OrdersFacts <> z:70 var
+R6343:6343 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6345:6346 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6344:6344 Coq.Structures.OrdersFacts <> x:68 var
+R6347:6347 Coq.Structures.OrdersFacts <> z:70 var
+prf 6377:6387 OrderedTypeTest le_lt_trans
+binder 6389:6389 <> x:71
+binder 6391:6391 <> y:72
+binder 6393:6393 <> z:73
+R6401:6404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6398:6399 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6400:6400 Coq.Structures.OrdersFacts <> y:72 var
+R6397:6397 Coq.Structures.OrdersFacts <> x:71 var
+R6408:6411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6406:6406 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6405:6405 Coq.Structures.OrdersFacts <> y:72 var
+R6407:6407 Coq.Structures.OrdersFacts <> z:73 var
+R6413:6413 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6412:6412 Coq.Structures.OrdersFacts <> x:71 var
+R6414:6414 Coq.Structures.OrdersFacts <> z:73 var
+prf 6444:6454 OrderedTypeTest lt_le_trans
+binder 6456:6456 <> x:74
+binder 6458:6458 <> y:75
+binder 6460:6460 <> z:76
+R6467:6470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6465:6465 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6464:6464 Coq.Structures.OrdersFacts <> x:74 var
+R6466:6466 Coq.Structures.OrdersFacts <> y:75 var
+R6475:6478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6472:6473 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6474:6474 Coq.Structures.OrdersFacts <> z:76 var
+R6471:6471 Coq.Structures.OrdersFacts <> y:75 var
+R6480:6480 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6479:6479 Coq.Structures.OrdersFacts <> x:74 var
+R6481:6481 Coq.Structures.OrdersFacts <> z:76 var
+prf 6511:6518 OrderedTypeTest le_trans
+binder 6520:6520 <> x:77
+binder 6522:6522 <> y:78
+binder 6524:6524 <> z:79
+R6532:6535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6529:6530 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6531:6531 Coq.Structures.OrdersFacts <> y:78 var
+R6528:6528 Coq.Structures.OrdersFacts <> x:77 var
+R6540:6543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6537:6538 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6539:6539 Coq.Structures.OrdersFacts <> z:79 var
+R6536:6536 Coq.Structures.OrdersFacts <> y:78 var
+R6545:6546 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6547:6547 Coq.Structures.OrdersFacts <> z:79 var
+R6544:6544 Coq.Structures.OrdersFacts <> x:77 var
+prf 6577:6586 OrderedTypeTest le_antisym
+binder 6588:6588 <> x:80
+binder 6590:6590 <> y:81
+R6598:6601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6595:6596 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6597:6597 Coq.Structures.OrdersFacts <> y:81 var
+R6594:6594 Coq.Structures.OrdersFacts <> x:80 var
+R6606:6609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6603:6604 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6605:6605 Coq.Structures.OrdersFacts <> x:80 var
+R6602:6602 Coq.Structures.OrdersFacts <> y:81 var
+R6611:6612 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6610:6610 Coq.Structures.OrdersFacts <> x:80 var
+R6613:6613 Coq.Structures.OrdersFacts <> y:81 var
+prf 6643:6648 OrderedTypeTest le_neq
+binder 6650:6650 <> x:82
+binder 6652:6652 <> y:83
+R6660:6663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6657:6658 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6659:6659 Coq.Structures.OrdersFacts <> y:83 var
+R6656:6656 Coq.Structures.OrdersFacts <> x:82 var
+R6669:6672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6664:6664 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6666:6667 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6665:6665 Coq.Structures.OrdersFacts <> x:82 var
+R6668:6668 Coq.Structures.OrdersFacts <> y:83 var
+R6674:6674 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6673:6673 Coq.Structures.OrdersFacts <> x:82 var
+R6675:6675 Coq.Structures.OrdersFacts <> y:83 var
+prf 6705:6711 OrderedTypeTest neq_sym
+binder 6713:6713 <> x:84
+binder 6715:6715 <> y:85
+R6724:6727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6719:6719 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6721:6722 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6720:6720 Coq.Structures.OrdersFacts <> x:84 var
+R6723:6723 Coq.Structures.OrdersFacts <> y:85 var
+R6728:6728 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6730:6731 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6729:6729 Coq.Structures.OrdersFacts <> y:85 var
+R6732:6732 Coq.Structures.OrdersFacts <> x:84 var
+prf 6762:6766 OrderedTypeTest lt_le
+binder 6768:6768 <> x:86
+binder 6770:6770 <> y:87
+R6777:6780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6775:6775 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6774:6774 Coq.Structures.OrdersFacts <> x:86 var
+R6776:6776 Coq.Structures.OrdersFacts <> y:87 var
+R6782:6783 Coq.Structures.OrdersFacts OrderedTypeFacts ::order:x_'<='_x not
+R6784:6784 Coq.Structures.OrdersFacts <> y:87 var
+R6781:6781 Coq.Structures.OrdersFacts <> x:86 var
+prf 6814:6822 OrderedTypeTest gt_not_eq
+binder 6824:6824 <> x:88
+binder 6826:6826 <> y:89
+R6833:6836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6831:6831 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6830:6830 Coq.Structures.OrdersFacts <> y:89 var
+R6832:6832 Coq.Structures.OrdersFacts <> x:88 var
+R6837:6837 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6839:6840 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6838:6838 Coq.Structures.OrdersFacts <> x:88 var
+R6841:6841 Coq.Structures.OrdersFacts <> y:89 var
+prf 6871:6879 OrderedTypeTest eq_not_lt
+binder 6881:6881 <> x:90
+binder 6883:6883 <> y:91
+R6891:6894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6888:6889 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6887:6887 Coq.Structures.OrdersFacts <> x:90 var
+R6890:6890 Coq.Structures.OrdersFacts <> y:91 var
+R6895:6895 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6897:6897 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6896:6896 Coq.Structures.OrdersFacts <> x:90 var
+R6898:6898 Coq.Structures.OrdersFacts <> y:91 var
+prf 6928:6936 OrderedTypeTest eq_not_gt
+binder 6938:6938 <> x:92
+binder 6940:6940 <> y:93
+R6948:6951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6945:6946 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6944:6944 Coq.Structures.OrdersFacts <> x:92 var
+R6947:6947 Coq.Structures.OrdersFacts <> y:93 var
+R6952:6953 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6955:6955 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6954:6954 Coq.Structures.OrdersFacts <> y:93 var
+R6956:6956 Coq.Structures.OrdersFacts <> x:92 var
+prf 6986:6994 OrderedTypeTest lt_not_gt
+binder 6996:6996 <> x:94
+binder 6998:6998 <> y:95
+R7005:7008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7003:7003 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7002:7002 Coq.Structures.OrdersFacts <> x:94 var
+R7004:7004 Coq.Structures.OrdersFacts <> y:95 var
+R7009:7010 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7012:7012 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7011:7011 Coq.Structures.OrdersFacts <> y:95 var
+R7013:7013 Coq.Structures.OrdersFacts <> x:94 var
+prf 7043:7055 OrderedTypeTest eq_is_nlt_ngt
+binder 7057:7057 <> x:96
+binder 7059:7059 <> y:97
+R7067:7071 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7064:7065 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7063:7063 Coq.Structures.OrdersFacts <> x:96 var
+R7066:7066 Coq.Structures.OrdersFacts <> y:97 var
+R7076:7079 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7072:7072 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7074:7074 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7073:7073 Coq.Structures.OrdersFacts <> x:96 var
+R7075:7075 Coq.Structures.OrdersFacts <> y:97 var
+R7080:7080 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7082:7082 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7081:7081 Coq.Structures.OrdersFacts <> y:97 var
+R7083:7083 Coq.Structures.OrdersFacts <> x:96 var
+R7122:7136 Coq.Structures.OrdersFacts OrderedTypeTest <> mod
+R7364:7378 Coq.Structures.Orders OrderedTypeFull <> mod
+R7384:7398 Coq.Structures.Orders OrderedTypeFull <> mod
+mod 7346:7359 <> OrderedTypeRev
+def 7413:7413 OrderedTypeRev t
+R7418:7420 Coq.Structures.OrdersFacts O t defax
+def 7434:7435 OrderedTypeRev eq
+R7440:7443 Coq.Structures.OrdersFacts O eq defax
+inst 7473:7480 OrderedTypeRev eq_equiv
+R7484:7494 Coq.Classes.RelationClasses <> Equivalence class
+R7496:7497 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+def 7511:7516 OrderedTypeRev eq_dec
+R7521:7528 Coq.Structures.OrdersFacts O eq_dec defax
+def 7543:7544 OrderedTypeRev lt
+R7549:7552 Coq.Program.Basics <> flip def
+R7554:7557 Coq.Structures.OrdersFacts O lt defax
+def 7571:7572 OrderedTypeRev le
+R7577:7580 Coq.Program.Basics <> flip def
+R7582:7585 Coq.Structures.OrdersFacts O le defax
+inst 7608:7618 OrderedTypeRev lt_strorder
+R7621:7631 Coq.Classes.RelationClasses <> StrictOrder class
+R7633:7634 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R7651:7652 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+inst 7692:7700 OrderedTypeRev lt_compat
+R7704:7709 Coq.Classes.Morphisms <> Proper class
+R7727:7728 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R7714:7716 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7712:7713 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+R7719:7721 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R7717:7718 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+R7722:7724 Coq.Init.Logic <> iff def
+R7745:7746 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+prf 7774:7780 OrderedTypeRev le_lteq
+binder 7791:7791 <> x:98
+binder 7793:7793 <> y:99
+R7802:7806 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7796:7797 Coq.Structures.OrdersFacts OrderedTypeRev le def
+R7801:7801 Coq.Structures.OrdersFacts <> y:99 var
+R7799:7799 Coq.Structures.OrdersFacts <> x:98 var
+R7813:7816 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7807:7808 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R7812:7812 Coq.Structures.OrdersFacts <> y:99 var
+R7810:7810 Coq.Structures.OrdersFacts <> x:98 var
+R7817:7818 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+R7822:7822 Coq.Structures.OrdersFacts <> y:99 var
+R7820:7820 Coq.Structures.OrdersFacts <> x:98 var
+R7847:7848 Coq.Structures.OrdersFacts OrderedTypeRev le def
+R7851:7852 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R7855:7858 Coq.Program.Basics <> flip def
+R7869:7877 Coq.Structures.OrdersFacts O le_lteq prfax
+R7869:7877 Coq.Structures.OrdersFacts O le_lteq prfax
+R7869:7877 Coq.Structures.OrdersFacts O le_lteq prfax
+def 7908:7914 OrderedTypeRev compare
+R7919:7922 Coq.Program.Basics <> flip def
+R7924:7932 Coq.Structures.OrdersFacts O compare defax
+prf 7942:7953 OrderedTypeRev compare_spec
+binder 7964:7964 <> x:100
+binder 7966:7966 <> y:101
+R7969:7976 Coq.Init.Datatypes <> CompSpec def
+R7989:7995 Coq.Structures.OrdersFacts OrderedTypeRev compare def
+R7999:7999 Coq.Structures.OrdersFacts <> y:101 var
+R7997:7997 Coq.Structures.OrdersFacts <> x:100 var
+R7986:7986 Coq.Structures.OrdersFacts <> y:101 var
+R7984:7984 Coq.Structures.OrdersFacts <> x:100 var
+R7981:7982 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R7978:7979 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+R8029:8035 Coq.Structures.OrdersFacts OrderedTypeRev compare def
+R8038:8039 Coq.Structures.OrdersFacts OrderedTypeRev eq def
+R8042:8043 Coq.Structures.OrdersFacts OrderedTypeRev lt def
+R8046:8049 Coq.Program.Basics <> flip def
+R8062:8075 Coq.Structures.OrdersFacts O compare_spec prfax
+R8062:8075 Coq.Structures.OrdersFacts O compare_spec prfax
+R8114:8127 Coq.Structures.OrdersFacts OrderedTypeRev <> mod
+R8521:8527 Coq.Structures.Orders EqLtLe' <> mod
+R8539:8544 Coq.Structures.Orders HasCmp <> mod
+R8546:8546 Coq.Structures.OrdersFacts E <> modtype
+modtype 8493:8509 <> CompareBasedOrder
+R8493:8509 Coq.Structures.OrdersFacts E <> mod
+R8493:8509 Coq.Structures.OrdersFacts C <> mod
+R8559:8569 Coq.Structures.Orders CmpNotation <> mod
+R8571:8571 Coq.Structures.OrdersFacts E <> modtype
+R8573:8573 Coq.Structures.OrdersFacts C <> modtype
+R8585:8588 Coq.Structures.Equalities IsEq <> mod
+R8590:8590 Coq.Structures.OrdersFacts E <> modtype
+ax 8600:8613 CompareBasedOrder compare_eq_iff
+binder 8624:8624 <> x:102
+binder 8626:8626 <> y:103
+R8642:8646 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8629:8629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8636:8639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8631:8634 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R8630:8630 Coq.Structures.OrdersFacts <> x:102 var
+R8635:8635 Coq.Structures.OrdersFacts <> y:103 var
+R8640:8641 Coq.Init.Datatypes <> Eq constr
+R8648:8651 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8647:8647 Coq.Structures.OrdersFacts <> x:102 var
+R8652:8652 Coq.Structures.OrdersFacts <> y:103 var
+ax 8662:8675 CompareBasedOrder compare_lt_iff
+binder 8686:8686 <> x:105
+binder 8688:8688 <> y:106
+R8704:8708 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8691:8691 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8698:8701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8693:8696 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R8692:8692 Coq.Structures.OrdersFacts <> x:105 var
+R8697:8697 Coq.Structures.OrdersFacts <> y:106 var
+R8702:8703 Coq.Init.Datatypes <> Lt constr
+R8710:8712 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8709:8709 Coq.Structures.OrdersFacts <> x:105 var
+R8713:8713 Coq.Structures.OrdersFacts <> y:106 var
+ax 8723:8736 CompareBasedOrder compare_le_iff
+binder 8747:8747 <> x:108
+binder 8749:8749 <> y:109
+R8766:8770 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8752:8752 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8759:8763 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8754:8757 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R8753:8753 Coq.Structures.OrdersFacts <> x:108 var
+R8758:8758 Coq.Structures.OrdersFacts <> y:109 var
+R8764:8765 Coq.Init.Datatypes <> Gt constr
+R8772:8775 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8771:8771 Coq.Structures.OrdersFacts <> x:108 var
+R8776:8776 Coq.Structures.OrdersFacts <> y:109 var
+ax 8786:8800 CompareBasedOrder compare_antisym
+binder 8811:8811 <> x:111
+binder 8813:8813 <> y:112
+R8816:8816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8823:8826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8818:8821 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R8817:8817 Coq.Structures.OrdersFacts <> y:112 var
+R8822:8822 Coq.Structures.OrdersFacts <> x:111 var
+R8827:8833 Coq.Init.Datatypes <> CompOpp def
+R8837:8840 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R8836:8836 Coq.Structures.OrdersFacts <> x:111 var
+R8841:8841 Coq.Structures.OrdersFacts <> y:112 var
+R8849:8865 Coq.Structures.OrdersFacts CompareBasedOrder <> modtype
+R8915:8921 Coq.Structures.Orders EqLtLe' <> mod
+R8935:8940 Coq.Structures.Orders HasCmp <> mod
+R8942:8942 Coq.Structures.OrdersFacts E <> modtype
+R8956:8972 Coq.Structures.OrdersFacts CompareBasedOrder <> mod
+R8974:8974 Coq.Structures.OrdersFacts E <> modtype
+R8976:8976 Coq.Structures.OrdersFacts C <> modtype
+modtype 8881:8902 <> CompareBasedOrderFacts
+R8881:8902 Coq.Structures.OrdersFacts E <> mod
+R8881:8902 Coq.Structures.OrdersFacts C <> mod
+R8881:8902 Coq.Structures.OrdersFacts O <> mod
+prf 8988:8999 CompareBasedOrderFacts compare_spec
+binder 9001:9001 <> x:114
+binder 9003:9003 <> y:115
+R9007:9017 Coq.Init.Datatypes <> CompareSpec ind
+R9040:9041 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9039:9039 Coq.Structures.OrdersFacts <> x:114 var
+R9042:9042 Coq.Structures.OrdersFacts <> y:115 var
+R9034:9034 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9033:9033 Coq.Structures.OrdersFacts <> y:115 var
+R9035:9035 Coq.Structures.OrdersFacts <> x:114 var
+R9028:9028 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9027:9027 Coq.Structures.OrdersFacts <> x:114 var
+R9029:9029 Coq.Structures.OrdersFacts <> y:115 var
+R9021:9022 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R9020:9020 Coq.Structures.OrdersFacts <> x:114 var
+R9023:9023 Coq.Structures.OrdersFacts <> y:115 var
+R9065:9071 Coq.Structures.OrdersFacts C compare defax
+R9065:9071 Coq.Structures.OrdersFacts C compare defax
+R9116:9129 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R9116:9129 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R9146:9159 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9146:9159 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9174:9188 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9191:9201 Coq.Init.Datatypes <> CompOpp_iff thm
+R9174:9188 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9174:9188 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9191:9201 Coq.Init.Datatypes <> CompOpp_iff thm
+R9191:9201 Coq.Init.Datatypes <> CompOpp_iff thm
+R9219:9232 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9219:9232 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+prf 9249:9258 CompareBasedOrderFacts compare_eq
+binder 9260:9260 <> x:116
+binder 9262:9262 <> y:117
+R9279:9282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9266:9266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9273:9276 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9268:9271 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9267:9267 Coq.Structures.OrdersFacts <> x:116 var
+R9272:9272 Coq.Structures.OrdersFacts <> y:117 var
+R9277:9278 Coq.Init.Datatypes <> Eq constr
+R9284:9285 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R9283:9283 Coq.Structures.OrdersFacts <> x:116 var
+R9286:9286 Coq.Structures.OrdersFacts <> y:117 var
+R9304:9317 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R9304:9317 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+prf 9334:9345 CompareBasedOrderFacts compare_refl
+binder 9347:9347 <> x:118
+R9351:9351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9358:9361 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9353:9356 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9352:9352 Coq.Structures.OrdersFacts <> x:118 var
+R9357:9357 Coq.Structures.OrdersFacts <> x:118 var
+R9362:9363 Coq.Init.Datatypes <> Eq constr
+R9385:9398 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R9385:9398 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+prf 9415:9428 CompareBasedOrderFacts compare_gt_iff
+binder 9430:9430 <> x:119
+binder 9432:9432 <> y:120
+R9449:9453 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9436:9436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9443:9446 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9438:9441 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9437:9437 Coq.Structures.OrdersFacts <> x:119 var
+R9442:9442 Coq.Structures.OrdersFacts <> y:120 var
+R9447:9448 Coq.Init.Datatypes <> Gt constr
+R9455:9455 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9454:9454 Coq.Structures.OrdersFacts <> y:120 var
+R9456:9456 Coq.Structures.OrdersFacts <> x:119 var
+R9483:9496 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9499:9513 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9516:9526 Coq.Init.Datatypes <> CompOpp_iff thm
+R9483:9496 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9483:9496 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9499:9513 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9499:9513 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9516:9526 Coq.Init.Datatypes <> CompOpp_iff thm
+R9516:9526 Coq.Init.Datatypes <> CompOpp_iff thm
+prf 9543:9556 CompareBasedOrderFacts compare_ge_iff
+binder 9558:9558 <> x:121
+binder 9560:9560 <> y:122
+R9578:9582 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9564:9564 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9571:9575 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9566:9569 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9565:9565 Coq.Structures.OrdersFacts <> x:121 var
+R9570:9570 Coq.Structures.OrdersFacts <> y:122 var
+R9576:9577 Coq.Init.Datatypes <> Lt constr
+R9584:9585 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9583:9583 Coq.Structures.OrdersFacts <> y:122 var
+R9586:9586 Coq.Structures.OrdersFacts <> x:121 var
+R9613:9626 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9629:9643 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9646:9656 Coq.Init.Datatypes <> CompOpp_iff thm
+R9613:9626 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9613:9626 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9629:9643 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9629:9643 Coq.Structures.OrdersFacts O compare_antisym prfax
+R9646:9656 Coq.Init.Datatypes <> CompOpp_iff thm
+R9646:9656 Coq.Init.Datatypes <> CompOpp_iff thm
+prf 9673:9687 CompareBasedOrderFacts compare_ngt_iff
+binder 9689:9689 <> x:123
+binder 9691:9691 <> y:124
+R9709:9713 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9695:9695 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9702:9706 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9697:9700 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9696:9696 Coq.Structures.OrdersFacts <> x:123 var
+R9701:9701 Coq.Structures.OrdersFacts <> y:124 var
+R9707:9708 Coq.Init.Datatypes <> Gt constr
+R9714:9715 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9719:9719 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9717:9717 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9716:9716 Coq.Structures.OrdersFacts <> y:124 var
+R9718:9718 Coq.Structures.OrdersFacts <> x:123 var
+R9739:9752 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_gt_iff thm
+R9739:9752 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_gt_iff thm
+R9739:9752 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_gt_iff thm
+prf 9780:9794 CompareBasedOrderFacts compare_nlt_iff
+binder 9796:9796 <> x:125
+binder 9798:9798 <> y:126
+R9816:9820 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9802:9802 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9809:9813 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9804:9807 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9803:9803 Coq.Structures.OrdersFacts <> x:125 var
+R9808:9808 Coq.Structures.OrdersFacts <> y:126 var
+R9814:9815 Coq.Init.Datatypes <> Lt constr
+R9821:9822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9826:9826 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9824:9824 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9823:9823 Coq.Structures.OrdersFacts <> x:125 var
+R9825:9825 Coq.Structures.OrdersFacts <> y:126 var
+R9846:9859 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9846:9859 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R9846:9859 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+prf 9887:9901 CompareBasedOrderFacts compare_nle_iff
+binder 9903:9903 <> x:127
+binder 9905:9905 <> y:128
+R9922:9926 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9909:9909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9916:9919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9911:9914 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R9910:9910 Coq.Structures.OrdersFacts <> x:127 var
+R9915:9915 Coq.Structures.OrdersFacts <> y:128 var
+R9920:9921 Coq.Init.Datatypes <> Gt constr
+R9927:9928 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9933:9933 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9930:9931 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9929:9929 Coq.Structures.OrdersFacts <> x:127 var
+R9932:9932 Coq.Structures.OrdersFacts <> y:128 var
+R9956:9969 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9956:9969 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9956:9969 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R9982:9988 Coq.Structures.OrdersFacts C compare defax
+prf 10036:10050 CompareBasedOrderFacts compare_nge_iff
+binder 10052:10052 <> x:129
+binder 10054:10054 <> y:130
+R10071:10075 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10058:10058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10065:10068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10060:10063 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R10059:10059 Coq.Structures.OrdersFacts <> x:129 var
+R10064:10064 Coq.Structures.OrdersFacts <> y:130 var
+R10069:10070 Coq.Init.Datatypes <> Lt constr
+R10076:10077 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10082:10082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10079:10080 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10078:10078 Coq.Structures.OrdersFacts <> y:130 var
+R10081:10081 Coq.Structures.OrdersFacts <> x:129 var
+R10109:10123 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_nle_iff thm
+R10126:10140 Coq.Structures.OrdersFacts O compare_antisym prfax
+R10143:10153 Coq.Init.Datatypes <> CompOpp_iff thm
+R10109:10123 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_nle_iff thm
+R10109:10123 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_nle_iff thm
+R10126:10140 Coq.Structures.OrdersFacts O compare_antisym prfax
+R10126:10140 Coq.Structures.OrdersFacts O compare_antisym prfax
+R10143:10153 Coq.Init.Datatypes <> CompOpp_iff thm
+R10143:10153 Coq.Init.Datatypes <> CompOpp_iff thm
+prf 10170:10178 CompareBasedOrderFacts lt_irrefl
+binder 10180:10180 <> x:131
+R10184:10186 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10190:10190 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10188:10188 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10187:10187 Coq.Structures.OrdersFacts <> x:131 var
+R10189:10189 Coq.Structures.OrdersFacts <> x:131 var
+R10217:10230 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10233:10244 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_refl thm
+R10217:10230 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10217:10230 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10233:10244 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_refl thm
+R10233:10244 Coq.Structures.OrdersFacts CompareBasedOrderFacts compare_refl thm
+prf 10261:10271 CompareBasedOrderFacts lt_eq_cases
+binder 10273:10273 <> n:132
+binder 10275:10275 <> m:133
+R10285:10289 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10280:10283 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10279:10279 Coq.Structures.OrdersFacts <> n:132 var
+R10284:10284 Coq.Structures.OrdersFacts <> m:133 var
+R10295:10298 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10291:10293 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10290:10290 Coq.Structures.OrdersFacts <> n:132 var
+R10294:10294 Coq.Structures.OrdersFacts <> m:133 var
+R10300:10301 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R10299:10299 Coq.Structures.OrdersFacts <> n:132 var
+R10302:10302 Coq.Structures.OrdersFacts <> m:133 var
+R10325:10338 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10344:10357 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R10363:10376 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R10325:10338 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10325:10338 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R10344:10357 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R10344:10357 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R10363:10376 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R10363:10376 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R10391:10394 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R10391:10394 Coq.Structures.Orders CmpNotation :::x_'?='_x not
+R10425:10446 Coq.Structures.OrdersFacts CompareBasedOrderFacts <> modtype
+R10534:10540 Coq.Structures.Orders EqLtLe' <> mod
+R10554:10559 Coq.Structures.Orders HasCmp <> mod
+R10561:10561 Coq.Structures.OrdersFacts E <> modtype
+R10575:10589 Coq.Structures.Orders HasBoolOrdFuns' <> mod
+R10591:10591 Coq.Structures.OrdersFacts E <> modtype
+R10605:10621 Coq.Structures.OrdersFacts CompareBasedOrder <> mod
+R10623:10623 Coq.Structures.OrdersFacts E <> modtype
+R10625:10625 Coq.Structures.OrdersFacts C <> modtype
+R10639:10650 Coq.Structures.Orders BoolOrdSpecs <> mod
+R10652:10652 Coq.Structures.OrdersFacts E <> modtype
+R10654:10654 Coq.Structures.OrdersFacts F <> modtype
+modtype 10508:10521 <> BoolOrderFacts
+R10508:10521 Coq.Structures.OrdersFacts E <> mod
+R10508:10521 Coq.Structures.OrdersFacts C <> mod
+R10508:10521 Coq.Structures.OrdersFacts F <> mod
+R10508:10521 Coq.Structures.OrdersFacts O <> mod
+R10508:10521 Coq.Structures.OrdersFacts S <> mod
+R10667:10688 Coq.Structures.OrdersFacts CompareBasedOrderFacts <> mod
+R10690:10690 Coq.Structures.OrdersFacts E <> modtype
+R10692:10692 Coq.Structures.OrdersFacts C <> modtype
+R10694:10694 Coq.Structures.OrdersFacts O <> modtype
+prf 10863:10871 BoolOrderFacts leb_spec0
+binder 10873:10873 <> x:134
+binder 10875:10875 <> y:135
+R10879:10885 Coq.Bool.Bool <> reflect ind
+R10889:10890 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10888:10888 Coq.Structures.OrdersFacts <> x:134 var
+R10891:10891 Coq.Structures.OrdersFacts <> y:135 var
+R10896:10898 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10895:10895 Coq.Structures.OrdersFacts <> x:134 var
+R10899:10899 Coq.Structures.OrdersFacts <> y:135 var
+R10917:10927 Coq.Bool.Bool <> iff_reflect thm
+R10917:10927 Coq.Bool.Bool <> iff_reflect thm
+R10946:10951 Coq.Structures.OrdersFacts S leb_le defax
+R10946:10951 Coq.Structures.OrdersFacts S leb_le defax
+prf 10970:10977 BoolOrderFacts leb_spec
+binder 10979:10979 <> x:136
+binder 10981:10981 <> y:137
+R10985:10992 Coq.Init.Datatypes <> BoolSpec ind
+R11009:11011 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R11008:11008 Coq.Structures.OrdersFacts <> x:136 var
+R11012:11012 Coq.Structures.OrdersFacts <> y:137 var
+R11003:11003 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11002:11002 Coq.Structures.OrdersFacts <> y:137 var
+R11004:11004 Coq.Structures.OrdersFacts <> x:136 var
+R10996:10997 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10995:10995 Coq.Structures.OrdersFacts <> x:136 var
+R10998:10998 Coq.Structures.OrdersFacts <> y:137 var
+R11029:11037 Coq.Structures.OrdersFacts BoolOrderFacts leb_spec0 thm
+R11029:11037 Coq.Structures.OrdersFacts BoolOrderFacts leb_spec0 thm
+R11078:11091 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11094:11108 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+R11078:11091 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11078:11091 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11094:11108 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+R11094:11108 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+prf 11123:11131 BoolOrderFacts ltb_spec0
+binder 11133:11133 <> x:138
+binder 11135:11135 <> y:139
+R11139:11145 Coq.Bool.Bool <> reflect ind
+R11149:11149 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11148:11148 Coq.Structures.OrdersFacts <> x:138 var
+R11150:11150 Coq.Structures.OrdersFacts <> y:139 var
+R11155:11156 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R11154:11154 Coq.Structures.OrdersFacts <> x:138 var
+R11157:11157 Coq.Structures.OrdersFacts <> y:139 var
+R11175:11185 Coq.Bool.Bool <> iff_reflect thm
+R11175:11185 Coq.Bool.Bool <> iff_reflect thm
+R11204:11209 Coq.Structures.OrdersFacts S ltb_lt defax
+R11204:11209 Coq.Structures.OrdersFacts S ltb_lt defax
+prf 11228:11235 BoolOrderFacts ltb_spec
+binder 11237:11237 <> x:140
+binder 11239:11239 <> y:141
+R11243:11250 Coq.Init.Datatypes <> BoolSpec ind
+R11267:11268 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R11266:11266 Coq.Structures.OrdersFacts <> x:140 var
+R11269:11269 Coq.Structures.OrdersFacts <> y:141 var
+R11260:11261 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11259:11259 Coq.Structures.OrdersFacts <> y:141 var
+R11262:11262 Coq.Structures.OrdersFacts <> x:140 var
+R11254:11254 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11253:11253 Coq.Structures.OrdersFacts <> x:140 var
+R11255:11255 Coq.Structures.OrdersFacts <> y:141 var
+R11286:11294 Coq.Structures.OrdersFacts BoolOrderFacts ltb_spec0 thm
+R11286:11294 Coq.Structures.OrdersFacts BoolOrderFacts ltb_spec0 thm
+R11335:11348 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11351:11365 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+R11335:11348 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11335:11348 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11351:11365 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+R11351:11365 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+prf 11427:11433 BoolOrderFacts leb_nle
+binder 11435:11435 <> x:142
+binder 11437:11437 <> y:143
+R11456:11460 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11448:11450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11442:11446 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R11441:11441 Coq.Structures.OrdersFacts <> x:142 var
+R11447:11447 Coq.Structures.OrdersFacts <> y:143 var
+R11451:11455 Coq.Init.Datatypes <> false constr
+R11461:11463 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11470:11470 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11465:11468 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11464:11464 Coq.Structures.OrdersFacts <> x:142 var
+R11469:11469 Coq.Structures.OrdersFacts <> y:143 var
+R11495:11512 Coq.Bool.Bool <> not_true_iff_false thm
+R11515:11520 Coq.Structures.OrdersFacts S leb_le defax
+R11495:11512 Coq.Bool.Bool <> not_true_iff_false thm
+R11495:11512 Coq.Bool.Bool <> not_true_iff_false thm
+R11515:11520 Coq.Structures.OrdersFacts S leb_le defax
+R11515:11520 Coq.Structures.OrdersFacts S leb_le defax
+prf 11535:11540 BoolOrderFacts leb_gt
+binder 11542:11542 <> x:144
+binder 11544:11544 <> y:145
+R11563:11567 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11555:11557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11549:11553 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R11548:11548 Coq.Structures.OrdersFacts <> x:144 var
+R11554:11554 Coq.Structures.OrdersFacts <> y:145 var
+R11558:11562 Coq.Init.Datatypes <> false constr
+R11569:11571 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11568:11568 Coq.Structures.OrdersFacts <> y:145 var
+R11572:11572 Coq.Structures.OrdersFacts <> x:144 var
+R11594:11600 Coq.Structures.OrdersFacts BoolOrderFacts leb_nle thm
+R11606:11619 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11622:11636 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+R11594:11600 Coq.Structures.OrdersFacts BoolOrderFacts leb_nle thm
+R11594:11600 Coq.Structures.OrdersFacts BoolOrderFacts leb_nle thm
+R11606:11619 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11606:11619 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R11622:11636 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+R11622:11636 Coq.Structures.OrdersFacts BoolOrderFacts compare_nge_iff thm
+prf 11651:11657 BoolOrderFacts ltb_nlt
+binder 11659:11659 <> x:146
+binder 11661:11661 <> y:147
+R11679:11683 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11671:11673 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11666:11669 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R11665:11665 Coq.Structures.OrdersFacts <> x:146 var
+R11670:11670 Coq.Structures.OrdersFacts <> y:147 var
+R11674:11678 Coq.Init.Datatypes <> false constr
+R11684:11686 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11692:11692 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11688:11690 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11687:11687 Coq.Structures.OrdersFacts <> x:146 var
+R11691:11691 Coq.Structures.OrdersFacts <> y:147 var
+R11717:11734 Coq.Bool.Bool <> not_true_iff_false thm
+R11737:11742 Coq.Structures.OrdersFacts S ltb_lt defax
+R11717:11734 Coq.Bool.Bool <> not_true_iff_false thm
+R11717:11734 Coq.Bool.Bool <> not_true_iff_false thm
+R11737:11742 Coq.Structures.OrdersFacts S ltb_lt defax
+R11737:11742 Coq.Structures.OrdersFacts S ltb_lt defax
+prf 11757:11762 BoolOrderFacts ltb_ge
+binder 11764:11764 <> x:148
+binder 11766:11766 <> y:149
+R11784:11788 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11776:11778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11771:11774 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R11770:11770 Coq.Structures.OrdersFacts <> x:148 var
+R11775:11775 Coq.Structures.OrdersFacts <> y:149 var
+R11779:11783 Coq.Init.Datatypes <> false constr
+R11790:11793 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11789:11789 Coq.Structures.OrdersFacts <> y:149 var
+R11794:11794 Coq.Structures.OrdersFacts <> x:148 var
+R11816:11822 Coq.Structures.OrdersFacts BoolOrderFacts ltb_nlt thm
+R11828:11841 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11844:11858 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+R11816:11822 Coq.Structures.OrdersFacts BoolOrderFacts ltb_nlt thm
+R11816:11822 Coq.Structures.OrdersFacts BoolOrderFacts ltb_nlt thm
+R11828:11841 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11828:11841 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R11844:11858 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+R11844:11858 Coq.Structures.OrdersFacts BoolOrderFacts compare_ngt_iff thm
+prf 11919:11926 BoolOrderFacts leb_refl
+binder 11928:11928 <> x:150
+R11939:11941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11933:11937 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R11932:11932 Coq.Structures.OrdersFacts <> x:150 var
+R11938:11938 Coq.Structures.OrdersFacts <> x:150 var
+R11942:11945 Coq.Init.Datatypes <> true constr
+R11961:11966 Coq.Structures.OrdersFacts S leb_le defax
+R11961:11966 Coq.Structures.OrdersFacts S leb_le defax
+R11975:11985 Coq.Structures.OrdersFacts BoolOrderFacts lt_eq_cases thm
+R11975:11985 Coq.Structures.OrdersFacts BoolOrderFacts lt_eq_cases thm
+prf 12011:12021 BoolOrderFacts leb_antisym
+binder 12023:12023 <> x:151
+binder 12025:12025 <> y:152
+R12036:12038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12030:12034 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R12029:12029 Coq.Structures.OrdersFacts <> y:152 var
+R12035:12035 Coq.Structures.OrdersFacts <> x:151 var
+R12039:12042 Coq.Init.Datatypes <> negb def
+R12046:12049 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R12045:12045 Coq.Structures.OrdersFacts <> x:151 var
+R12050:12050 Coq.Structures.OrdersFacts <> y:152 var
+R12067:12080 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12067:12080 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12095:12107 Coq.Bool.Bool <> negb_true_iff thm
+R12110:12115 Coq.Structures.OrdersFacts S leb_le defax
+R12118:12123 Coq.Structures.OrdersFacts BoolOrderFacts ltb_ge thm
+R12095:12107 Coq.Bool.Bool <> negb_true_iff thm
+R12095:12107 Coq.Bool.Bool <> negb_true_iff thm
+R12110:12115 Coq.Structures.OrdersFacts S leb_le defax
+R12110:12115 Coq.Structures.OrdersFacts S leb_le defax
+R12118:12123 Coq.Structures.OrdersFacts BoolOrderFacts ltb_ge thm
+R12118:12123 Coq.Structures.OrdersFacts BoolOrderFacts ltb_ge thm
+prf 12138:12147 BoolOrderFacts ltb_irrefl
+binder 12149:12149 <> x:153
+R12159:12161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12154:12157 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R12153:12153 Coq.Structures.OrdersFacts <> x:153 var
+R12158:12158 Coq.Structures.OrdersFacts <> x:153 var
+R12162:12166 Coq.Init.Datatypes <> false constr
+R12182:12187 Coq.Structures.OrdersFacts BoolOrderFacts ltb_ge thm
+R12182:12187 Coq.Structures.OrdersFacts BoolOrderFacts ltb_ge thm
+R12196:12206 Coq.Structures.OrdersFacts BoolOrderFacts lt_eq_cases thm
+R12196:12206 Coq.Structures.OrdersFacts BoolOrderFacts lt_eq_cases thm
+prf 12232:12242 BoolOrderFacts ltb_antisym
+binder 12244:12244 <> x:154
+binder 12246:12246 <> y:155
+R12256:12258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12251:12254 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R12250:12250 Coq.Structures.OrdersFacts <> y:155 var
+R12255:12255 Coq.Structures.OrdersFacts <> x:154 var
+R12259:12262 Coq.Init.Datatypes <> negb def
+R12266:12270 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R12265:12265 Coq.Structures.OrdersFacts <> x:154 var
+R12271:12271 Coq.Structures.OrdersFacts <> y:155 var
+R12288:12301 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12288:12301 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12316:12328 Coq.Bool.Bool <> negb_true_iff thm
+R12331:12336 Coq.Structures.OrdersFacts S ltb_lt defax
+R12339:12344 Coq.Structures.OrdersFacts BoolOrderFacts leb_gt thm
+R12316:12328 Coq.Bool.Bool <> negb_true_iff thm
+R12316:12328 Coq.Bool.Bool <> negb_true_iff thm
+R12331:12336 Coq.Structures.OrdersFacts S ltb_lt defax
+R12331:12336 Coq.Structures.OrdersFacts S ltb_lt defax
+R12339:12344 Coq.Structures.OrdersFacts BoolOrderFacts leb_gt thm
+R12339:12344 Coq.Structures.OrdersFacts BoolOrderFacts leb_gt thm
+prf 12422:12432 BoolOrderFacts eqb_compare
+binder 12434:12434 <> x:156
+binder 12436:12436 <> y:157
+R12441:12441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12448:12451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12443:12446 Coq.Structures.Equalities EqbNotation :::x_'=?'_x not
+R12442:12442 Coq.Structures.OrdersFacts <> x:156 var
+R12447:12447 Coq.Structures.OrdersFacts <> y:157 var
+R12458:12464 Coq.Structures.OrdersFacts C compare defax
+R12468:12468 Coq.Structures.OrdersFacts <> y:157 var
+R12466:12466 Coq.Structures.OrdersFacts <> x:156 var
+R12475:12476 Coq.Init.Datatypes <> Eq constr
+R12481:12484 Coq.Init.Datatypes <> true constr
+R12493:12497 Coq.Init.Datatypes <> false constr
+R12517:12530 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12517:12530 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12541:12546 Coq.Structures.OrdersFacts S eqb_eq defax
+R12552:12565 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R12541:12546 Coq.Structures.OrdersFacts S eqb_eq defax
+R12541:12546 Coq.Structures.OrdersFacts S eqb_eq defax
+R12552:12565 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R12552:12565 Coq.Structures.OrdersFacts O compare_eq_iff prfax
+R12581:12587 Coq.Structures.OrdersFacts C compare defax
+prf 12602:12612 BoolOrderFacts ltb_compare
+binder 12614:12614 <> x:158
+binder 12616:12616 <> y:159
+R12621:12621 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12628:12631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12623:12626 Coq.Structures.Orders LtbNotation :::x_'<?'_x not
+R12622:12622 Coq.Structures.OrdersFacts <> x:158 var
+R12627:12627 Coq.Structures.OrdersFacts <> y:159 var
+R12638:12644 Coq.Structures.OrdersFacts C compare defax
+R12648:12648 Coq.Structures.OrdersFacts <> y:159 var
+R12646:12646 Coq.Structures.OrdersFacts <> x:158 var
+R12655:12656 Coq.Init.Datatypes <> Lt constr
+R12661:12664 Coq.Init.Datatypes <> true constr
+R12673:12677 Coq.Init.Datatypes <> false constr
+R12697:12710 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12697:12710 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12721:12726 Coq.Structures.OrdersFacts S ltb_lt defax
+R12732:12745 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R12721:12726 Coq.Structures.OrdersFacts S ltb_lt defax
+R12721:12726 Coq.Structures.OrdersFacts S ltb_lt defax
+R12732:12745 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R12732:12745 Coq.Structures.OrdersFacts O compare_lt_iff prfax
+R12761:12767 Coq.Structures.OrdersFacts C compare defax
+prf 12782:12792 BoolOrderFacts leb_compare
+binder 12794:12794 <> x:160
+binder 12796:12796 <> y:161
+R12801:12801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12809:12812 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12803:12807 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R12802:12802 Coq.Structures.OrdersFacts <> x:160 var
+R12808:12808 Coq.Structures.OrdersFacts <> y:161 var
+R12819:12825 Coq.Structures.OrdersFacts C compare defax
+R12829:12829 Coq.Structures.OrdersFacts <> y:161 var
+R12827:12827 Coq.Structures.OrdersFacts <> x:160 var
+R12836:12837 Coq.Init.Datatypes <> Gt constr
+R12842:12846 Coq.Init.Datatypes <> false constr
+R12855:12858 Coq.Init.Datatypes <> true constr
+R12878:12891 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12878:12891 Coq.Bool.Bool <> eq_true_iff_eq thm
+R12902:12907 Coq.Structures.OrdersFacts S leb_le defax
+R12913:12926 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R12902:12907 Coq.Structures.OrdersFacts S leb_le defax
+R12902:12907 Coq.Structures.OrdersFacts S leb_le defax
+R12913:12926 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R12913:12926 Coq.Structures.OrdersFacts O compare_le_iff prfax
+R12942:12948 Coq.Structures.OrdersFacts C compare defax
+R12961:12974 Coq.Structures.OrdersFacts BoolOrderFacts <> modtype

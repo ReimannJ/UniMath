@@ -1,0 +1,64 @@
+DIGEST 74651c3c678ccaca17cbbdb6e98c1a87
+FCoq.Arith.Minus
+R809:821 Coq.Arith.Arith_prebase <> <> lib
+abbrev 1014:1022 <> minus_n_O
+R1027:1053 Coq.Arith.Arith_prebase <> minus_n_O_stt def
+abbrev 1227:1236 <> minus_Sn_m
+R1241:1268 Coq.Arith.Arith_prebase <> minus_Sn_m_stt def
+def 1291:1307 <> pred_of_minus_stt
+binder 1316:1316 <> n:1
+R1321:1326 Coq.Init.Logic <> eq_sym thm
+R1329:1339 Coq.Arith.PeanoNat Nat sub_1_r thm
+R1341:1341 Coq.Arith.Minus <> n:1 var
+R1352:1368 Coq.Arith.Minus <> pred_of_minus_stt def
+abbrev 1501:1513 <> pred_of_minus
+R1517:1533 Coq.Arith.Minus <> pred_of_minus_stt def
+abbrev 1660:1669 <> minus_diag
+R1674:1685 Coq.Arith.PeanoNat Nat sub_diag thm
+abbrev 1850:1867 <> minus_diag_reverse
+R1872:1907 Coq.Arith.Arith_prebase <> minus_diag_reverse_stt def
+def 1930:1942 <> minus_n_n_stt
+binder 1951:1951 <> n:2
+R1956:1961 Coq.Init.Logic <> eq_sym thm
+R1964:1975 Coq.Arith.PeanoNat Nat sub_diag thm
+R1977:1977 Coq.Arith.Minus <> n:2 var
+R1988:2000 Coq.Arith.Minus <> minus_n_n_stt def
+abbrev 2134:2142 <> minus_n_n
+R2147:2159 Coq.Arith.Minus <> minus_n_n_stt def
+abbrev 2266:2291 <> minus_plus_simpl_l_reverse
+R2296:2339 Coq.Arith.Arith_prebase <> minus_plus_simpl_l_reverse_stt def
+abbrev 2507:2516 <> plus_minus
+R2521:2548 Coq.Arith.Arith_prebase <> plus_minus_stt def
+abbrev 2683:2692 <> minus_plus
+R2697:2724 Coq.Arith.Arith_prebase <> minus_plus_stt def
+abbrev 2859:2873 <> le_plus_minus_r
+R2878:2910 Coq.Arith.Arith_prebase <> le_plus_minus_r_stt def
+abbrev 3045:3057 <> le_plus_minus
+R3062:3092 Coq.Arith.Arith_prebase <> le_plus_minus_stt def
+abbrev 3235:3251 <> minus_le_compat_r
+R3256:3272 Coq.Arith.PeanoNat Nat sub_le_mono_r thm
+abbrev 3431:3447 <> minus_le_compat_l
+R3452:3468 Coq.Arith.PeanoNat Nat sub_le_mono_l thm
+abbrev 3622:3629 <> le_minus
+R3634:3645 Coq.Arith.PeanoNat Nat le_sub_l thm
+abbrev 3782:3789 <> lt_minus
+R3794:3803 Coq.Arith.PeanoNat Nat sub_lt thm
+abbrev 3995:4007 <> lt_O_minus_lt
+R4012:4042 Coq.Arith.Arith_prebase <> lt_O_minus_lt_stt def
+def 4065:4082 <> not_le_minus_0_stt
+binder 4091:4091 <> n:3
+binder 4093:4093 <> m:4
+binder 4095:4096 <> Hn:5
+R4101:4105 Coq.Init.Logic <> proj2 thm
+R4127:4140 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R4147:4151 Coq.Init.Logic <> proj2 thm
+R4170:4171 Coq.Arith.Minus <> Hn:5 var
+R4154:4163 Coq.Arith.PeanoNat Nat lt_nge thm
+R4108:4119 Coq.Arith.PeanoNat Nat sub_0_le thm
+R4121:4121 Coq.Arith.Minus <> n:3 var
+R4123:4123 Coq.Arith.Minus <> m:4 var
+R4183:4200 Coq.Arith.Minus <> not_le_minus_0_stt def
+abbrev 4353:4366 <> not_le_minus_0
+R4371:4388 Coq.Arith.Minus <> not_le_minus_0_stt def
+R4407:4408 Coq.Arith.Lt <> <> lib
+R4410:4411 Coq.Arith.Le <> <> lib

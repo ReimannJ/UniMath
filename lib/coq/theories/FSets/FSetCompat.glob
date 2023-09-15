@@ -1,0 +1,1956 @@
+DIGEST 8d3c3d0cc7eeab48935395e16aa8a051
+FCoq.FSets.FSetCompat
+R765:777 Coq.FSets.FSetInterface <> <> lib
+R779:787 Coq.FSets.FSetFacts <> <> lib
+R789:801 Coq.MSets.MSetInterface <> <> lib
+R803:811 Coq.MSets.MSetFacts <> <> lib
+R929:955 Coq.Structures.DecidableType DecidableType <> mod
+R962:980 Coq.MSets.MSetInterface WSets <> mod
+R1005:1007 Coq.FSets.FSetCompat E t defax
+R1057:1060 Coq.FSets.FSetCompat E eq defax
+R1067:1085 Coq.FSets.FSetInterface WSfun <> mod
+R1087:1087 Coq.FSets.FSetCompat E <> modtype
+mod 910:923 <> Backport_WSets
+def 1103:1105 Backport_WSets elt
+R1110:1112 Coq.FSets.FSetCompat E t defax
+def 1127:1127 Backport_WSets t
+R1132:1134 Coq.FSets.FSetCompat M t defax
+R1157:1157 Coq.FSets.FSetCompat Backport_WSets t def
+R1181:1183 Coq.FSets.FSetCompat Backport_WSets elt def
+R1208:1211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1205:1207 Coq.FSets.FSetCompat Backport_WSets elt def
+R1212:1215 Coq.Init.Datatypes <> bool ind
+def 1231:1232 Backport_WSets In
+R1239:1242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1236:1238 Coq.FSets.FSetCompat Backport_WSets elt def
+R1244:1247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1243:1243 Coq.FSets.FSetCompat Backport_WSets t def
+R1256:1259 Coq.FSets.FSetCompat M In defax
+def 1274:1278 Backport_WSets Equal
+binder 1280:1280 <> s:1
+binder 1282:1283 <> s':2
+R1299:1301 Coq.FSets.FSetCompat Backport_WSets elt def
+binder 1295:1295 <> a:3
+R1310:1314 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1304:1305 Coq.FSets.FSetCompat Backport_WSets In def
+R1309:1309 Coq.FSets.FSetCompat <> s:1 var
+R1307:1307 Coq.FSets.FSetCompat <> a:3 var
+R1315:1316 Coq.FSets.FSetCompat Backport_WSets In def
+R1320:1321 Coq.FSets.FSetCompat <> s':2 var
+R1318:1318 Coq.FSets.FSetCompat <> a:3 var
+def 1336:1341 Backport_WSets Subset
+binder 1343:1343 <> s:4
+binder 1345:1346 <> s':5
+R1362:1364 Coq.FSets.FSetCompat Backport_WSets elt def
+binder 1358:1358 <> a:6
+R1373:1376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1367:1368 Coq.FSets.FSetCompat Backport_WSets In def
+R1372:1372 Coq.FSets.FSetCompat <> s:4 var
+R1370:1370 Coq.FSets.FSetCompat <> a:6 var
+R1377:1378 Coq.FSets.FSetCompat Backport_WSets In def
+R1382:1383 Coq.FSets.FSetCompat <> s':5 var
+R1380:1380 Coq.FSets.FSetCompat <> a:6 var
+def 1398:1402 Backport_WSets Empty
+binder 1404:1404 <> s:7
+R1420:1422 Coq.FSets.FSetCompat Backport_WSets elt def
+binder 1416:1416 <> a:8
+R1425:1426 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1427:1428 Coq.FSets.FSetCompat Backport_WSets In def
+R1432:1432 Coq.FSets.FSetCompat <> s:7 var
+R1430:1430 Coq.FSets.FSetCompat <> a:8 var
+def 1447:1453 Backport_WSets For_all
+R1463:1466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1460:1462 Coq.FSets.FSetCompat Backport_WSets elt def
+binder 1456:1456 <> P:9
+binder 1473:1473 <> s:10
+binder 1485:1485 <> x:11
+R1494:1497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1488:1489 Coq.FSets.FSetCompat Backport_WSets In def
+R1493:1493 Coq.FSets.FSetCompat <> s:10 var
+R1491:1491 Coq.FSets.FSetCompat <> x:11 var
+R1498:1498 Coq.FSets.FSetCompat <> P:9 var
+R1500:1500 Coq.FSets.FSetCompat <> x:11 var
+def 1515:1520 Backport_WSets Exists
+R1530:1533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1527:1529 Coq.FSets.FSetCompat Backport_WSets elt def
+binder 1523:1523 <> P:12
+binder 1540:1540 <> s:13
+R1545:1551 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1553:1554 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1552:1552 <> x:14
+R1561:1564 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1555:1556 Coq.FSets.FSetCompat Backport_WSets In def
+R1560:1560 Coq.FSets.FSetCompat <> s:13 var
+R1558:1558 Coq.FSets.FSetCompat <> x:14 var
+R1565:1565 Coq.FSets.FSetCompat <> P:12 var
+R1567:1567 Coq.FSets.FSetCompat <> x:14 var
+def 1582:1586 Backport_WSets empty
+R1590:1590 Coq.FSets.FSetCompat Backport_WSets t def
+R1595:1601 Coq.FSets.FSetCompat M empty defax
+def 1616:1623 Backport_WSets is_empty
+R1628:1631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1627:1627 Coq.FSets.FSetCompat Backport_WSets t def
+R1632:1635 Coq.Init.Datatypes <> bool ind
+R1640:1649 Coq.FSets.FSetCompat M is_empty defax
+def 1664:1666 Backport_WSets mem
+R1673:1676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1670:1672 Coq.FSets.FSetCompat Backport_WSets elt def
+R1678:1681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1677:1677 Coq.FSets.FSetCompat Backport_WSets t def
+R1682:1685 Coq.Init.Datatypes <> bool ind
+R1690:1694 Coq.FSets.FSetCompat M mem defax
+def 1709:1711 Backport_WSets add
+R1718:1721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1715:1717 Coq.FSets.FSetCompat Backport_WSets elt def
+R1723:1726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1722:1722 Coq.FSets.FSetCompat Backport_WSets t def
+R1727:1727 Coq.FSets.FSetCompat Backport_WSets t def
+R1732:1736 Coq.FSets.FSetCompat M add defax
+def 1751:1759 Backport_WSets singleton
+R1766:1769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1763:1765 Coq.FSets.FSetCompat Backport_WSets elt def
+R1770:1770 Coq.FSets.FSetCompat Backport_WSets t def
+R1775:1785 Coq.FSets.FSetCompat M singleton defax
+def 1800:1805 Backport_WSets remove
+R1812:1815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1809:1811 Coq.FSets.FSetCompat Backport_WSets elt def
+R1817:1820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1816:1816 Coq.FSets.FSetCompat Backport_WSets t def
+R1821:1821 Coq.FSets.FSetCompat Backport_WSets t def
+R1826:1833 Coq.FSets.FSetCompat M remove defax
+def 1848:1852 Backport_WSets union
+R1857:1860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1856:1856 Coq.FSets.FSetCompat Backport_WSets t def
+R1862:1865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1861:1861 Coq.FSets.FSetCompat Backport_WSets t def
+R1866:1866 Coq.FSets.FSetCompat Backport_WSets t def
+R1871:1877 Coq.FSets.FSetCompat M union defax
+def 1892:1896 Backport_WSets inter
+R1901:1904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1900:1900 Coq.FSets.FSetCompat Backport_WSets t def
+R1906:1909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1905 Coq.FSets.FSetCompat Backport_WSets t def
+R1910:1910 Coq.FSets.FSetCompat Backport_WSets t def
+R1915:1921 Coq.FSets.FSetCompat M inter defax
+def 1936:1939 Backport_WSets diff
+R1944:1947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1943:1943 Coq.FSets.FSetCompat Backport_WSets t def
+R1949:1952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1948:1948 Coq.FSets.FSetCompat Backport_WSets t def
+R1953:1953 Coq.FSets.FSetCompat Backport_WSets t def
+R1958:1963 Coq.FSets.FSetCompat M diff defax
+def 1978:1979 Backport_WSets eq
+R1984:1987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1983 Coq.FSets.FSetCompat Backport_WSets t def
+R1989:1992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1988:1988 Coq.FSets.FSetCompat Backport_WSets t def
+R2001:2004 Coq.FSets.FSetCompat M eq def
+def 2019:2024 Backport_WSets eq_dec
+binder 2035:2035 <> s:15
+binder 2037:2038 <> s':16
+R2041:2041 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2049:2051 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2060:2060 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2042:2043 Coq.FSets.FSetCompat Backport_WSets eq def
+R2047:2048 Coq.FSets.FSetCompat <> s':16 var
+R2045:2045 Coq.FSets.FSetCompat <> s:15 var
+R2052:2052 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2053:2054 Coq.FSets.FSetCompat Backport_WSets eq def
+R2058:2059 Coq.FSets.FSetCompat <> s':16 var
+R2056:2056 Coq.FSets.FSetCompat <> s:15 var
+R2064:2071 Coq.FSets.FSetCompat M eq_dec defax
+def 2086:2090 Backport_WSets equal
+R2095:2098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2094:2094 Coq.FSets.FSetCompat Backport_WSets t def
+R2100:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2099:2099 Coq.FSets.FSetCompat Backport_WSets t def
+R2104:2107 Coq.Init.Datatypes <> bool ind
+R2112:2118 Coq.FSets.FSetCompat M equal defax
+def 2133:2138 Backport_WSets subset
+R2143:2146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2142:2142 Coq.FSets.FSetCompat Backport_WSets t def
+R2148:2151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2147:2147 Coq.FSets.FSetCompat Backport_WSets t def
+R2152:2155 Coq.Init.Datatypes <> bool ind
+R2160:2167 Coq.FSets.FSetCompat M subset defax
+def 2182:2185 Backport_WSets fold
+binder 2196:2196 <> A:17
+R2206:2206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2220:2224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2210:2213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2207:2209 Coq.FSets.FSetCompat Backport_WSets elt def
+R2215:2218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2214:2214 Coq.FSets.FSetCompat <> A:17 var
+R2219:2219 Coq.FSets.FSetCompat <> A:17 var
+R2226:2229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2225:2225 Coq.FSets.FSetCompat Backport_WSets t def
+R2231:2234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2230:2230 Coq.FSets.FSetCompat <> A:17 var
+R2235:2235 Coq.FSets.FSetCompat <> A:17 var
+R2240:2245 Coq.FSets.FSetCompat M fold defax
+def 2260:2266 Backport_WSets for_all
+R2270:2270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2274:2277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2271:2273 Coq.FSets.FSetCompat Backport_WSets elt def
+R2278:2281 Coq.Init.Datatypes <> bool ind
+R2288:2291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2287:2287 Coq.FSets.FSetCompat Backport_WSets t def
+R2292:2295 Coq.Init.Datatypes <> bool ind
+R2300:2308 Coq.FSets.FSetCompat M for_all defax
+def 2323:2329 Backport_WSets exists_
+R2333:2333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2345:2349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2337:2340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2334:2336 Coq.FSets.FSetCompat Backport_WSets elt def
+R2341:2344 Coq.Init.Datatypes <> bool ind
+R2351:2354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2350:2350 Coq.FSets.FSetCompat Backport_WSets t def
+R2355:2358 Coq.Init.Datatypes <> bool ind
+R2363:2371 Coq.FSets.FSetCompat M exists_ defax
+def 2386:2391 Backport_WSets filter
+R2395:2395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2407:2411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2399:2402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2396:2398 Coq.FSets.FSetCompat Backport_WSets elt def
+R2403:2406 Coq.Init.Datatypes <> bool ind
+R2413:2416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2412:2412 Coq.FSets.FSetCompat Backport_WSets t def
+R2417:2417 Coq.FSets.FSetCompat Backport_WSets t def
+R2422:2429 Coq.FSets.FSetCompat M filter defax
+def 2444:2452 Backport_WSets partition
+R2456:2456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2468:2472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2460:2463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2457:2459 Coq.FSets.FSetCompat Backport_WSets elt def
+R2464:2467 Coq.Init.Datatypes <> bool ind
+R2474:2477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2473:2473 Coq.FSets.FSetCompat Backport_WSets t def
+R2479:2481 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2478:2478 Coq.FSets.FSetCompat Backport_WSets t def
+R2482:2482 Coq.FSets.FSetCompat Backport_WSets t def
+R2486:2496 Coq.FSets.FSetCompat M partition defax
+def 2511:2518 Backport_WSets cardinal
+R2523:2526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2522:2522 Coq.FSets.FSetCompat Backport_WSets t def
+R2527:2529 Coq.Init.Datatypes <> nat ind
+R2534:2543 Coq.FSets.FSetCompat M cardinal defax
+def 2558:2565 Backport_WSets elements
+R2570:2573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2569:2569 Coq.FSets.FSetCompat Backport_WSets t def
+R2574:2577 Coq.Init.Datatypes <> list ind
+R2579:2581 Coq.FSets.FSetCompat Backport_WSets elt def
+R2586:2595 Coq.FSets.FSetCompat M elements defax
+def 2610:2615 Backport_WSets choose
+R2620:2623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2619:2619 Coq.FSets.FSetCompat Backport_WSets t def
+R2624:2629 Coq.Init.Datatypes <> option ind
+R2631:2633 Coq.FSets.FSetCompat Backport_WSets elt def
+R2638:2645 Coq.FSets.FSetCompat M choose defax
+R2663:2678 Coq.MSets.MSetFacts WFacts <> modtype
+R2680:2680 Coq.FSets.FSetCompat M <> modtype
+mod 2657:2658 <> Backport_WSets.MF
+def 2696:2699 Backport_WSets In_1
+binder 2710:2710 <> s:18
+binder 2712:2712 <> x:19
+binder 2714:2714 <> y:20
+R2725:2728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2717:2720 Coq.FSets.FSetCompat E eq defax
+R2724:2724 Coq.FSets.FSetCompat <> y:20 var
+R2722:2722 Coq.FSets.FSetCompat <> x:19 var
+R2735:2738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2729:2730 Coq.FSets.FSetCompat Backport_WSets In def
+R2734:2734 Coq.FSets.FSetCompat <> s:18 var
+R2732:2732 Coq.FSets.FSetCompat <> x:19 var
+R2739:2740 Coq.FSets.FSetCompat Backport_WSets In def
+R2744:2744 Coq.FSets.FSetCompat <> s:18 var
+R2742:2742 Coq.FSets.FSetCompat <> y:20 var
+R2751:2757 Coq.FSets.FSetCompat Backport_WSets In_1 thm
+def 2772:2778 Backport_WSets eq_refl
+binder 2789:2789 <> s:21
+R2792:2793 Coq.FSets.FSetCompat Backport_WSets eq def
+R2797:2797 Coq.FSets.FSetCompat <> s:21 var
+R2795:2795 Coq.FSets.FSetCompat <> s:21 var
+R2805:2825 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R2831:2840 Coq.FSets.FSetCompat M eq_equiv prfax
+def 2855:2860 Backport_WSets eq_sym
+binder 2871:2871 <> s:22
+binder 2873:2874 <> s':23
+R2884:2887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2877:2878 Coq.FSets.FSetCompat Backport_WSets eq def
+R2882:2883 Coq.FSets.FSetCompat <> s':23 var
+R2880:2880 Coq.FSets.FSetCompat <> s:22 var
+R2888:2889 Coq.FSets.FSetCompat Backport_WSets eq def
+R2894:2894 Coq.FSets.FSetCompat <> s:22 var
+R2891:2892 Coq.FSets.FSetCompat <> s':23 var
+R2902:2922 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R2928:2937 Coq.FSets.FSetCompat M eq_equiv prfax
+def 2952:2959 Backport_WSets eq_trans
+binder 2970:2970 <> s:24
+binder 2972:2973 <> s':25
+binder 2975:2977 <> s'':26
+R2987:2990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2980:2981 Coq.FSets.FSetCompat Backport_WSets eq def
+R2985:2986 Coq.FSets.FSetCompat <> s':25 var
+R2983:2983 Coq.FSets.FSetCompat <> s:24 var
+R3000:3003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2991:2992 Coq.FSets.FSetCompat Backport_WSets eq def
+R2997:2999 Coq.FSets.FSetCompat <> s'':26 var
+R2994:2995 Coq.FSets.FSetCompat <> s':25 var
+R3004:3005 Coq.FSets.FSetCompat Backport_WSets eq def
+R3009:3011 Coq.FSets.FSetCompat <> s'':26 var
+R3007:3007 Coq.FSets.FSetCompat <> s:24 var
+R3019:3040 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R3046:3055 Coq.FSets.FSetCompat M eq_equiv prfax
+def 3070:3074 Backport_WSets mem_1
+binder 3085:3085 <> s:27
+binder 3087:3087 <> x:28
+R3096:3099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3090:3091 Coq.FSets.FSetCompat Backport_WSets In def
+R3095:3095 Coq.FSets.FSetCompat <> s:27 var
+R3093:3093 Coq.FSets.FSetCompat <> x:28 var
+R3107:3109 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3100:3102 Coq.FSets.FSetCompat Backport_WSets mem def
+R3106:3106 Coq.FSets.FSetCompat <> s:27 var
+R3104:3104 Coq.FSets.FSetCompat <> x:28 var
+R3110:3113 Coq.Init.Datatypes <> true constr
+R3120:3127 Coq.FSets.FSetCompat Backport_WSets mem_1 thm
+def 3142:3146 Backport_WSets mem_2
+binder 3157:3157 <> s:29
+binder 3159:3159 <> x:30
+R3176:3179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3169:3171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3162:3164 Coq.FSets.FSetCompat Backport_WSets mem def
+R3168:3168 Coq.FSets.FSetCompat <> s:29 var
+R3166:3166 Coq.FSets.FSetCompat <> x:30 var
+R3172:3175 Coq.Init.Datatypes <> true constr
+R3180:3181 Coq.FSets.FSetCompat Backport_WSets In def
+R3185:3185 Coq.FSets.FSetCompat <> s:29 var
+R3183:3183 Coq.FSets.FSetCompat <> x:30 var
+R3192:3199 Coq.FSets.FSetCompat Backport_WSets mem_2 thm
+def 3214:3220 Backport_WSets equal_1
+binder 3231:3231 <> s:31
+binder 3233:3234 <> s':32
+R3247:3250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3237:3241 Coq.FSets.FSetCompat Backport_WSets Equal def
+R3245:3246 Coq.FSets.FSetCompat <> s':32 var
+R3243:3243 Coq.FSets.FSetCompat <> s:31 var
+R3261:3263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3251:3255 Coq.FSets.FSetCompat Backport_WSets equal def
+R3259:3260 Coq.FSets.FSetCompat <> s':32 var
+R3257:3257 Coq.FSets.FSetCompat <> s:31 var
+R3264:3267 Coq.Init.Datatypes <> true constr
+R3274:3283 Coq.FSets.FSetCompat Backport_WSets equal_1 thm
+def 3298:3304 Backport_WSets equal_2
+binder 3315:3315 <> s:33
+binder 3317:3318 <> s':34
+R3338:3341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3331:3333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3321:3325 Coq.FSets.FSetCompat Backport_WSets equal def
+R3329:3330 Coq.FSets.FSetCompat <> s':34 var
+R3327:3327 Coq.FSets.FSetCompat <> s:33 var
+R3334:3337 Coq.Init.Datatypes <> true constr
+R3342:3346 Coq.FSets.FSetCompat Backport_WSets Equal def
+R3350:3351 Coq.FSets.FSetCompat <> s':34 var
+R3348:3348 Coq.FSets.FSetCompat <> s:33 var
+R3358:3367 Coq.FSets.FSetCompat Backport_WSets equal_2 thm
+def 3382:3389 Backport_WSets subset_1
+binder 3400:3400 <> s:35
+binder 3402:3403 <> s':36
+R3417:3420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3406:3411 Coq.FSets.FSetCompat Backport_WSets Subset def
+R3415:3416 Coq.FSets.FSetCompat <> s':36 var
+R3413:3413 Coq.FSets.FSetCompat <> s:35 var
+R3432:3434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3421:3426 Coq.FSets.FSetCompat Backport_WSets subset def
+R3430:3431 Coq.FSets.FSetCompat <> s':36 var
+R3428:3428 Coq.FSets.FSetCompat <> s:35 var
+R3435:3438 Coq.Init.Datatypes <> true constr
+R3445:3455 Coq.FSets.FSetCompat Backport_WSets subset_1 thm
+def 3470:3477 Backport_WSets subset_2
+binder 3488:3488 <> s:37
+binder 3490:3491 <> s':38
+R3512:3515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3505:3507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3494:3499 Coq.FSets.FSetCompat Backport_WSets subset def
+R3503:3504 Coq.FSets.FSetCompat <> s':38 var
+R3501:3501 Coq.FSets.FSetCompat <> s:37 var
+R3508:3511 Coq.Init.Datatypes <> true constr
+R3516:3521 Coq.FSets.FSetCompat Backport_WSets Subset def
+R3525:3526 Coq.FSets.FSetCompat <> s':38 var
+R3523:3523 Coq.FSets.FSetCompat <> s:37 var
+R3533:3543 Coq.FSets.FSetCompat Backport_WSets subset_2 thm
+def 3558:3564 Backport_WSets empty_1
+R3568:3572 Coq.FSets.FSetCompat Backport_WSets Empty def
+R3574:3578 Coq.FSets.FSetCompat Backport_WSets empty def
+R3583:3592 Coq.FSets.FSetCompat Backport_WSets empty_1 abbrev
+def 3607:3616 Backport_WSets is_empty_1
+binder 3627:3627 <> s:39
+R3637:3640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3630:3634 Coq.FSets.FSetCompat Backport_WSets Empty def
+R3636:3636 Coq.FSets.FSetCompat <> s:39 var
+R3651:3653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3641:3648 Coq.FSets.FSetCompat Backport_WSets is_empty def
+R3650:3650 Coq.FSets.FSetCompat <> s:39 var
+R3654:3657 Coq.Init.Datatypes <> true constr
+R3664:3676 Coq.FSets.FSetCompat Backport_WSets is_empty_1 thm
+def 3691:3700 Backport_WSets is_empty_2
+binder 3711:3711 <> s:40
+R3731:3734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3724:3726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3714:3721 Coq.FSets.FSetCompat Backport_WSets is_empty def
+R3723:3723 Coq.FSets.FSetCompat <> s:40 var
+R3727:3730 Coq.Init.Datatypes <> true constr
+R3735:3739 Coq.FSets.FSetCompat Backport_WSets Empty def
+R3741:3741 Coq.FSets.FSetCompat <> s:40 var
+R3748:3760 Coq.FSets.FSetCompat Backport_WSets is_empty_2 thm
+def 3775:3779 Backport_WSets add_1
+binder 3790:3790 <> s:41
+binder 3792:3792 <> x:42
+binder 3794:3794 <> y:43
+R3805:3808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3797:3800 Coq.FSets.FSetCompat E eq defax
+R3804:3804 Coq.FSets.FSetCompat <> y:43 var
+R3802:3802 Coq.FSets.FSetCompat <> x:42 var
+R3809:3810 Coq.FSets.FSetCompat Backport_WSets In def
+R3815:3817 Coq.FSets.FSetCompat Backport_WSets add def
+R3821:3821 Coq.FSets.FSetCompat <> s:41 var
+R3819:3819 Coq.FSets.FSetCompat <> x:42 var
+R3812:3812 Coq.FSets.FSetCompat <> y:43 var
+R3829:3836 Coq.FSets.FSetCompat Backport_WSets add_1 thm
+def 3851:3855 Backport_WSets add_2
+binder 3866:3866 <> s:44
+binder 3868:3868 <> x:45
+binder 3870:3870 <> y:46
+R3879:3882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3873:3874 Coq.FSets.FSetCompat Backport_WSets In def
+R3878:3878 Coq.FSets.FSetCompat <> s:44 var
+R3876:3876 Coq.FSets.FSetCompat <> y:46 var
+R3883:3884 Coq.FSets.FSetCompat Backport_WSets In def
+R3889:3891 Coq.FSets.FSetCompat Backport_WSets add def
+R3895:3895 Coq.FSets.FSetCompat <> s:44 var
+R3893:3893 Coq.FSets.FSetCompat <> x:45 var
+R3886:3886 Coq.FSets.FSetCompat <> y:46 var
+R3903:3910 Coq.FSets.FSetCompat Backport_WSets add_2 thm
+def 3925:3929 Backport_WSets add_3
+binder 3940:3940 <> s:47
+binder 3942:3942 <> x:48
+binder 3944:3944 <> y:49
+R3957:3960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3947:3948 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3949:3952 Coq.FSets.FSetCompat E eq defax
+R3956:3956 Coq.FSets.FSetCompat <> y:49 var
+R3954:3954 Coq.FSets.FSetCompat <> x:48 var
+R3975:3978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3961:3962 Coq.FSets.FSetCompat Backport_WSets In def
+R3967:3969 Coq.FSets.FSetCompat Backport_WSets add def
+R3973:3973 Coq.FSets.FSetCompat <> s:47 var
+R3971:3971 Coq.FSets.FSetCompat <> x:48 var
+R3964:3964 Coq.FSets.FSetCompat <> y:49 var
+R3979:3980 Coq.FSets.FSetCompat Backport_WSets In def
+R3984:3984 Coq.FSets.FSetCompat <> s:47 var
+R3982:3982 Coq.FSets.FSetCompat <> y:49 var
+R3991:3998 Coq.FSets.FSetCompat Backport_WSets add_3 thm
+def 4013:4020 Backport_WSets remove_1
+binder 4031:4031 <> s:50
+binder 4033:4033 <> x:51
+binder 4035:4035 <> y:52
+R4046:4049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4038:4041 Coq.FSets.FSetCompat E eq defax
+R4045:4045 Coq.FSets.FSetCompat <> y:52 var
+R4043:4043 Coq.FSets.FSetCompat <> x:51 var
+R4050:4051 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4052:4053 Coq.FSets.FSetCompat Backport_WSets In def
+R4058:4063 Coq.FSets.FSetCompat Backport_WSets remove def
+R4067:4067 Coq.FSets.FSetCompat <> s:50 var
+R4065:4065 Coq.FSets.FSetCompat <> x:51 var
+R4055:4055 Coq.FSets.FSetCompat <> y:52 var
+R4075:4085 Coq.FSets.FSetCompat Backport_WSets remove_1 thm
+def 4100:4107 Backport_WSets remove_2
+binder 4118:4118 <> s:53
+binder 4120:4120 <> x:54
+binder 4122:4122 <> y:55
+R4135:4138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4125:4126 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4127:4130 Coq.FSets.FSetCompat E eq defax
+R4134:4134 Coq.FSets.FSetCompat <> y:55 var
+R4132:4132 Coq.FSets.FSetCompat <> x:54 var
+R4145:4148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4139:4140 Coq.FSets.FSetCompat Backport_WSets In def
+R4144:4144 Coq.FSets.FSetCompat <> s:53 var
+R4142:4142 Coq.FSets.FSetCompat <> y:55 var
+R4149:4150 Coq.FSets.FSetCompat Backport_WSets In def
+R4155:4160 Coq.FSets.FSetCompat Backport_WSets remove def
+R4164:4164 Coq.FSets.FSetCompat <> s:53 var
+R4162:4162 Coq.FSets.FSetCompat <> x:54 var
+R4152:4152 Coq.FSets.FSetCompat <> y:55 var
+R4172:4182 Coq.FSets.FSetCompat Backport_WSets remove_2 thm
+def 4197:4204 Backport_WSets remove_3
+binder 4215:4215 <> s:56
+binder 4217:4217 <> x:57
+binder 4219:4219 <> y:58
+R4239:4242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4222:4223 Coq.FSets.FSetCompat Backport_WSets In def
+R4228:4233 Coq.FSets.FSetCompat Backport_WSets remove def
+R4237:4237 Coq.FSets.FSetCompat <> s:56 var
+R4235:4235 Coq.FSets.FSetCompat <> x:57 var
+R4225:4225 Coq.FSets.FSetCompat <> y:58 var
+R4243:4244 Coq.FSets.FSetCompat Backport_WSets In def
+R4248:4248 Coq.FSets.FSetCompat <> s:56 var
+R4246:4246 Coq.FSets.FSetCompat <> y:58 var
+R4255:4265 Coq.FSets.FSetCompat Backport_WSets remove_3 thm
+def 4280:4286 Backport_WSets union_1
+binder 4297:4297 <> s:59
+binder 4299:4300 <> s':60
+binder 4302:4302 <> x:61
+R4322:4325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4305:4306 Coq.FSets.FSetCompat Backport_WSets In def
+R4311:4315 Coq.FSets.FSetCompat Backport_WSets union def
+R4319:4320 Coq.FSets.FSetCompat <> s':60 var
+R4317:4317 Coq.FSets.FSetCompat <> s:59 var
+R4308:4308 Coq.FSets.FSetCompat <> x:61 var
+R4332:4335 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4326:4327 Coq.FSets.FSetCompat Backport_WSets In def
+R4331:4331 Coq.FSets.FSetCompat <> s:59 var
+R4329:4329 Coq.FSets.FSetCompat <> x:61 var
+R4336:4337 Coq.FSets.FSetCompat Backport_WSets In def
+R4341:4342 Coq.FSets.FSetCompat <> s':60 var
+R4339:4339 Coq.FSets.FSetCompat <> x:61 var
+R4349:4358 Coq.FSets.FSetCompat Backport_WSets union_1 thm
+def 4373:4379 Backport_WSets union_2
+binder 4390:4390 <> s:62
+binder 4392:4393 <> s':63
+binder 4395:4395 <> x:64
+R4404:4407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4398:4399 Coq.FSets.FSetCompat Backport_WSets In def
+R4403:4403 Coq.FSets.FSetCompat <> s:62 var
+R4401:4401 Coq.FSets.FSetCompat <> x:64 var
+R4408:4409 Coq.FSets.FSetCompat Backport_WSets In def
+R4414:4418 Coq.FSets.FSetCompat Backport_WSets union def
+R4422:4423 Coq.FSets.FSetCompat <> s':63 var
+R4420:4420 Coq.FSets.FSetCompat <> s:62 var
+R4411:4411 Coq.FSets.FSetCompat <> x:64 var
+R4431:4440 Coq.FSets.FSetCompat Backport_WSets union_2 thm
+def 4455:4461 Backport_WSets union_3
+binder 4472:4472 <> s:65
+binder 4474:4475 <> s':66
+binder 4477:4477 <> x:67
+R4487:4490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4480:4481 Coq.FSets.FSetCompat Backport_WSets In def
+R4485:4486 Coq.FSets.FSetCompat <> s':66 var
+R4483:4483 Coq.FSets.FSetCompat <> x:67 var
+R4491:4492 Coq.FSets.FSetCompat Backport_WSets In def
+R4497:4501 Coq.FSets.FSetCompat Backport_WSets union def
+R4505:4506 Coq.FSets.FSetCompat <> s':66 var
+R4503:4503 Coq.FSets.FSetCompat <> s:65 var
+R4494:4494 Coq.FSets.FSetCompat <> x:67 var
+R4514:4523 Coq.FSets.FSetCompat Backport_WSets union_3 thm
+def 4538:4544 Backport_WSets inter_1
+binder 4555:4555 <> s:68
+binder 4557:4558 <> s':69
+binder 4560:4560 <> x:70
+R4580:4583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4563:4564 Coq.FSets.FSetCompat Backport_WSets In def
+R4569:4573 Coq.FSets.FSetCompat Backport_WSets inter def
+R4577:4578 Coq.FSets.FSetCompat <> s':69 var
+R4575:4575 Coq.FSets.FSetCompat <> s:68 var
+R4566:4566 Coq.FSets.FSetCompat <> x:70 var
+R4584:4585 Coq.FSets.FSetCompat Backport_WSets In def
+R4589:4589 Coq.FSets.FSetCompat <> s:68 var
+R4587:4587 Coq.FSets.FSetCompat <> x:70 var
+R4596:4605 Coq.FSets.FSetCompat Backport_WSets inter_1 thm
+def 4620:4626 Backport_WSets inter_2
+binder 4637:4637 <> s:71
+binder 4639:4640 <> s':72
+binder 4642:4642 <> x:73
+R4662:4665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4645:4646 Coq.FSets.FSetCompat Backport_WSets In def
+R4651:4655 Coq.FSets.FSetCompat Backport_WSets inter def
+R4659:4660 Coq.FSets.FSetCompat <> s':72 var
+R4657:4657 Coq.FSets.FSetCompat <> s:71 var
+R4648:4648 Coq.FSets.FSetCompat <> x:73 var
+R4666:4667 Coq.FSets.FSetCompat Backport_WSets In def
+R4671:4672 Coq.FSets.FSetCompat <> s':72 var
+R4669:4669 Coq.FSets.FSetCompat <> x:73 var
+R4679:4688 Coq.FSets.FSetCompat Backport_WSets inter_2 thm
+def 4703:4709 Backport_WSets inter_3
+binder 4720:4720 <> s:74
+binder 4722:4723 <> s':75
+binder 4725:4725 <> x:76
+R4734:4737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4728:4729 Coq.FSets.FSetCompat Backport_WSets In def
+R4733:4733 Coq.FSets.FSetCompat <> s:74 var
+R4731:4731 Coq.FSets.FSetCompat <> x:76 var
+R4745:4748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4738:4739 Coq.FSets.FSetCompat Backport_WSets In def
+R4743:4744 Coq.FSets.FSetCompat <> s':75 var
+R4741:4741 Coq.FSets.FSetCompat <> x:76 var
+R4749:4750 Coq.FSets.FSetCompat Backport_WSets In def
+R4755:4759 Coq.FSets.FSetCompat Backport_WSets inter def
+R4763:4764 Coq.FSets.FSetCompat <> s':75 var
+R4761:4761 Coq.FSets.FSetCompat <> s:74 var
+R4752:4752 Coq.FSets.FSetCompat <> x:76 var
+R4772:4781 Coq.FSets.FSetCompat Backport_WSets inter_3 thm
+def 4796:4801 Backport_WSets diff_1
+binder 4812:4812 <> s:77
+binder 4814:4815 <> s':78
+binder 4817:4817 <> x:79
+R4836:4839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4820:4821 Coq.FSets.FSetCompat Backport_WSets In def
+R4826:4829 Coq.FSets.FSetCompat Backport_WSets diff def
+R4833:4834 Coq.FSets.FSetCompat <> s':78 var
+R4831:4831 Coq.FSets.FSetCompat <> s:77 var
+R4823:4823 Coq.FSets.FSetCompat <> x:79 var
+R4840:4841 Coq.FSets.FSetCompat Backport_WSets In def
+R4845:4845 Coq.FSets.FSetCompat <> s:77 var
+R4843:4843 Coq.FSets.FSetCompat <> x:79 var
+R4852:4860 Coq.FSets.FSetCompat Backport_WSets diff_1 thm
+def 4875:4880 Backport_WSets diff_2
+binder 4891:4891 <> s:80
+binder 4893:4894 <> s':81
+binder 4896:4896 <> x:82
+R4915:4918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4899:4900 Coq.FSets.FSetCompat Backport_WSets In def
+R4905:4908 Coq.FSets.FSetCompat Backport_WSets diff def
+R4912:4913 Coq.FSets.FSetCompat <> s':81 var
+R4910:4910 Coq.FSets.FSetCompat <> s:80 var
+R4902:4902 Coq.FSets.FSetCompat <> x:82 var
+R4919:4920 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4921:4922 Coq.FSets.FSetCompat Backport_WSets In def
+R4926:4927 Coq.FSets.FSetCompat <> s':81 var
+R4924:4924 Coq.FSets.FSetCompat <> x:82 var
+R4934:4942 Coq.FSets.FSetCompat Backport_WSets diff_2 thm
+def 4957:4962 Backport_WSets diff_3
+binder 4973:4973 <> s:83
+binder 4975:4976 <> s':84
+binder 4978:4978 <> x:85
+R4987:4990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4981:4982 Coq.FSets.FSetCompat Backport_WSets In def
+R4986:4986 Coq.FSets.FSetCompat <> s:83 var
+R4984:4984 Coq.FSets.FSetCompat <> x:85 var
+R5000:5003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4991:4992 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4993:4994 Coq.FSets.FSetCompat Backport_WSets In def
+R4998:4999 Coq.FSets.FSetCompat <> s':84 var
+R4996:4996 Coq.FSets.FSetCompat <> x:85 var
+R5004:5005 Coq.FSets.FSetCompat Backport_WSets In def
+R5010:5013 Coq.FSets.FSetCompat Backport_WSets diff def
+R5017:5018 Coq.FSets.FSetCompat <> s':84 var
+R5015:5015 Coq.FSets.FSetCompat <> s:83 var
+R5007:5007 Coq.FSets.FSetCompat <> x:85 var
+R5026:5034 Coq.FSets.FSetCompat Backport_WSets diff_3 thm
+def 5049:5059 Backport_WSets singleton_1
+binder 5070:5070 <> x:86
+binder 5072:5072 <> y:87
+R5093:5096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5075:5076 Coq.FSets.FSetCompat Backport_WSets In def
+R5081:5089 Coq.FSets.FSetCompat Backport_WSets singleton def
+R5091:5091 Coq.FSets.FSetCompat <> x:86 var
+R5078:5078 Coq.FSets.FSetCompat <> y:87 var
+R5097:5100 Coq.FSets.FSetCompat E eq defax
+R5104:5104 Coq.FSets.FSetCompat <> y:87 var
+R5102:5102 Coq.FSets.FSetCompat <> x:86 var
+R5111:5124 Coq.FSets.FSetCompat Backport_WSets singleton_1 thm
+def 5139:5149 Backport_WSets singleton_2
+binder 5160:5160 <> x:88
+binder 5162:5162 <> y:89
+R5173:5176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5165:5168 Coq.FSets.FSetCompat E eq defax
+R5172:5172 Coq.FSets.FSetCompat <> y:89 var
+R5170:5170 Coq.FSets.FSetCompat <> x:88 var
+R5177:5178 Coq.FSets.FSetCompat Backport_WSets In def
+R5183:5191 Coq.FSets.FSetCompat Backport_WSets singleton def
+R5193:5193 Coq.FSets.FSetCompat <> x:88 var
+R5180:5180 Coq.FSets.FSetCompat <> y:89 var
+R5201:5214 Coq.FSets.FSetCompat Backport_WSets singleton_2 thm
+def 5229:5234 Backport_WSets fold_1
+binder 5245:5245 <> s:90
+binder 5248:5248 <> A:91
+R5263:5263 Coq.FSets.FSetCompat <> A:91 var
+binder 5259:5259 <> i:92
+R5274:5277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5271:5273 Coq.FSets.FSetCompat Backport_WSets elt def
+R5279:5282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5278:5278 Coq.FSets.FSetCompat <> A:91 var
+R5283:5283 Coq.FSets.FSetCompat <> A:91 var
+binder 5267:5267 <> f:93
+R5300:5302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5290:5293 Coq.FSets.FSetCompat Backport_WSets fold def
+R5299:5299 Coq.FSets.FSetCompat <> i:92 var
+R5297:5297 Coq.FSets.FSetCompat <> s:90 var
+R5295:5295 Coq.FSets.FSetCompat <> f:93 var
+R5303:5311 Coq.Lists.List <> fold_left def
+R5345:5345 Coq.FSets.FSetCompat <> i:92 var
+R5333:5340 Coq.FSets.FSetCompat Backport_WSets elements def
+R5342:5342 Coq.FSets.FSetCompat <> s:90 var
+binder 5318:5318 <> a:94
+binder 5320:5320 <> e:95
+R5325:5325 Coq.FSets.FSetCompat <> f:93 var
+R5329:5329 Coq.FSets.FSetCompat <> a:94 var
+R5327:5327 Coq.FSets.FSetCompat <> e:95 var
+R5352:5360 Coq.FSets.FSetCompat Backport_WSets fold_1 abbrev
+def 5375:5384 Backport_WSets cardinal_1
+binder 5395:5395 <> s:96
+R5408:5410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5398:5405 Coq.FSets.FSetCompat Backport_WSets cardinal def
+R5407:5407 Coq.FSets.FSetCompat <> s:96 var
+R5411:5416 Coq.Init.Datatypes <> length def
+R5419:5426 Coq.FSets.FSetCompat Backport_WSets elements def
+R5428:5428 Coq.FSets.FSetCompat <> s:96 var
+R5436:5448 Coq.FSets.FSetCompat Backport_WSets cardinal_1 abbrev
+def 5463:5470 Backport_WSets filter_1
+binder 5481:5481 <> s:97
+binder 5483:5483 <> x:98
+binder 5485:5485 <> f:99
+R5506:5511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5488:5498 Coq.Lists.SetoidList <> compat_bool def
+R5505:5505 Coq.FSets.FSetCompat <> f:99 var
+R5500:5503 Coq.FSets.FSetCompat E eq defax
+R5529:5532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5512:5513 Coq.FSets.FSetCompat Backport_WSets In def
+R5518:5523 Coq.FSets.FSetCompat Backport_WSets filter def
+R5527:5527 Coq.FSets.FSetCompat <> s:97 var
+R5525:5525 Coq.FSets.FSetCompat <> f:99 var
+R5515:5515 Coq.FSets.FSetCompat <> x:98 var
+R5533:5534 Coq.FSets.FSetCompat Backport_WSets In def
+R5538:5538 Coq.FSets.FSetCompat <> s:97 var
+R5536:5536 Coq.FSets.FSetCompat <> x:98 var
+R5545:5555 Coq.FSets.FSetCompat Backport_WSets filter_1 thm
+def 5570:5577 Backport_WSets filter_2
+binder 5588:5588 <> s:100
+binder 5590:5590 <> x:101
+binder 5592:5592 <> f:102
+R5613:5618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5595:5605 Coq.Lists.SetoidList <> compat_bool def
+R5612:5612 Coq.FSets.FSetCompat <> f:102 var
+R5607:5610 Coq.FSets.FSetCompat E eq defax
+R5636:5639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5619:5620 Coq.FSets.FSetCompat Backport_WSets In def
+R5625:5630 Coq.FSets.FSetCompat Backport_WSets filter def
+R5634:5634 Coq.FSets.FSetCompat <> s:100 var
+R5632:5632 Coq.FSets.FSetCompat <> f:102 var
+R5622:5622 Coq.FSets.FSetCompat <> x:101 var
+R5643:5645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5640:5640 Coq.FSets.FSetCompat <> f:102 var
+R5642:5642 Coq.FSets.FSetCompat <> x:101 var
+R5646:5649 Coq.Init.Datatypes <> true constr
+R5656:5666 Coq.FSets.FSetCompat Backport_WSets filter_2 thm
+def 5681:5688 Backport_WSets filter_3
+binder 5699:5699 <> s:103
+binder 5701:5701 <> x:104
+binder 5703:5703 <> f:105
+R5724:5729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5706:5716 Coq.Lists.SetoidList <> compat_bool def
+R5723:5723 Coq.FSets.FSetCompat <> f:105 var
+R5718:5721 Coq.FSets.FSetCompat E eq defax
+R5736:5739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5730:5731 Coq.FSets.FSetCompat Backport_WSets In def
+R5735:5735 Coq.FSets.FSetCompat <> s:103 var
+R5733:5733 Coq.FSets.FSetCompat <> x:104 var
+R5750:5753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5743:5745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5740:5740 Coq.FSets.FSetCompat <> f:105 var
+R5742:5742 Coq.FSets.FSetCompat <> x:104 var
+R5746:5749 Coq.Init.Datatypes <> true constr
+R5754:5755 Coq.FSets.FSetCompat Backport_WSets In def
+R5760:5765 Coq.FSets.FSetCompat Backport_WSets filter def
+R5769:5769 Coq.FSets.FSetCompat <> s:103 var
+R5767:5767 Coq.FSets.FSetCompat <> f:105 var
+R5757:5757 Coq.FSets.FSetCompat <> x:104 var
+R5777:5787 Coq.FSets.FSetCompat Backport_WSets filter_3 thm
+def 5802:5810 Backport_WSets for_all_1
+binder 5821:5821 <> s:106
+binder 5823:5823 <> f:107
+R5844:5849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5826:5836 Coq.Lists.SetoidList <> compat_bool def
+R5843:5843 Coq.FSets.FSetCompat <> f:107 var
+R5838:5841 Coq.FSets.FSetCompat E eq defax
+R5881:5884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5850:5856 Coq.FSets.FSetCompat Backport_WSets For_all def
+R5880:5880 Coq.FSets.FSetCompat <> s:106 var
+binder 5863:5863 <> x:108
+R5871:5873 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5868:5868 Coq.FSets.FSetCompat <> f:107 var
+R5870:5870 Coq.FSets.FSetCompat <> x:108 var
+R5874:5877 Coq.Init.Datatypes <> true constr
+R5896:5898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5885:5891 Coq.FSets.FSetCompat Backport_WSets for_all def
+R5895:5895 Coq.FSets.FSetCompat <> s:106 var
+R5893:5893 Coq.FSets.FSetCompat <> f:107 var
+R5899:5902 Coq.Init.Datatypes <> true constr
+R5909:5920 Coq.FSets.FSetCompat Backport_WSets for_all_1 thm
+def 5935:5943 Backport_WSets for_all_2
+binder 5954:5954 <> s:109
+binder 5956:5956 <> f:110
+R5977:5982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5959:5969 Coq.Lists.SetoidList <> compat_bool def
+R5976:5976 Coq.FSets.FSetCompat <> f:110 var
+R5971:5974 Coq.FSets.FSetCompat E eq defax
+R6001:6004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5994:5996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5983:5989 Coq.FSets.FSetCompat Backport_WSets for_all def
+R5993:5993 Coq.FSets.FSetCompat <> s:109 var
+R5991:5991 Coq.FSets.FSetCompat <> f:110 var
+R5997:6000 Coq.Init.Datatypes <> true constr
+R6005:6011 Coq.FSets.FSetCompat Backport_WSets For_all def
+R6035:6035 Coq.FSets.FSetCompat <> s:109 var
+binder 6018:6018 <> x:111
+R6026:6028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6023:6023 Coq.FSets.FSetCompat <> f:110 var
+R6025:6025 Coq.FSets.FSetCompat <> x:111 var
+R6029:6032 Coq.Init.Datatypes <> true constr
+R6042:6053 Coq.FSets.FSetCompat Backport_WSets for_all_2 thm
+def 6068:6075 Backport_WSets exists_1
+binder 6086:6086 <> s:112
+binder 6088:6088 <> f:113
+R6109:6114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6091:6101 Coq.Lists.SetoidList <> compat_bool def
+R6108:6108 Coq.FSets.FSetCompat <> f:113 var
+R6103:6106 Coq.FSets.FSetCompat E eq defax
+R6145:6148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6115:6120 Coq.FSets.FSetCompat Backport_WSets Exists def
+R6144:6144 Coq.FSets.FSetCompat <> s:112 var
+binder 6127:6127 <> x:114
+R6135:6137 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6132:6132 Coq.FSets.FSetCompat <> f:113 var
+R6134:6134 Coq.FSets.FSetCompat <> x:114 var
+R6138:6141 Coq.Init.Datatypes <> true constr
+R6160:6162 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6149:6155 Coq.FSets.FSetCompat Backport_WSets exists_ def
+R6159:6159 Coq.FSets.FSetCompat <> s:112 var
+R6157:6157 Coq.FSets.FSetCompat <> f:113 var
+R6163:6166 Coq.Init.Datatypes <> true constr
+R6173:6183 Coq.FSets.FSetCompat Backport_WSets exists_1 thm
+def 6198:6205 Backport_WSets exists_2
+binder 6216:6216 <> s:115
+binder 6218:6218 <> f:116
+R6239:6244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6221:6231 Coq.Lists.SetoidList <> compat_bool def
+R6238:6238 Coq.FSets.FSetCompat <> f:116 var
+R6233:6236 Coq.FSets.FSetCompat E eq defax
+R6263:6266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6256:6258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6245:6251 Coq.FSets.FSetCompat Backport_WSets exists_ def
+R6255:6255 Coq.FSets.FSetCompat <> s:115 var
+R6253:6253 Coq.FSets.FSetCompat <> f:116 var
+R6259:6262 Coq.Init.Datatypes <> true constr
+R6267:6272 Coq.FSets.FSetCompat Backport_WSets Exists def
+R6296:6296 Coq.FSets.FSetCompat <> s:115 var
+binder 6279:6279 <> x:117
+R6287:6289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6284:6284 Coq.FSets.FSetCompat <> f:116 var
+R6286:6286 Coq.FSets.FSetCompat <> x:117 var
+R6290:6293 Coq.Init.Datatypes <> true constr
+R6303:6313 Coq.FSets.FSetCompat Backport_WSets exists_2 thm
+def 6328:6338 Backport_WSets partition_1
+binder 6349:6349 <> s:118
+binder 6351:6351 <> f:119
+R6372:6377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6354:6364 Coq.Lists.SetoidList <> compat_bool def
+R6371:6371 Coq.FSets.FSetCompat <> f:119 var
+R6366:6369 Coq.FSets.FSetCompat E eq defax
+R6378:6382 Coq.FSets.FSetCompat Backport_WSets Equal def
+R6407:6412 Coq.FSets.FSetCompat Backport_WSets filter def
+R6416:6416 Coq.FSets.FSetCompat <> s:118 var
+R6414:6414 Coq.FSets.FSetCompat <> f:119 var
+R6385:6387 Coq.Init.Datatypes <> fst def
+R6390:6398 Coq.FSets.FSetCompat Backport_WSets partition def
+R6402:6402 Coq.FSets.FSetCompat <> s:118 var
+R6400:6400 Coq.FSets.FSetCompat <> f:119 var
+R6424:6437 Coq.FSets.FSetCompat Backport_WSets partition_1 abbrev
+def 6452:6462 Backport_WSets partition_2
+binder 6473:6473 <> s:120
+binder 6475:6475 <> f:121
+R6496:6501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6478:6488 Coq.Lists.SetoidList <> compat_bool def
+R6495:6495 Coq.FSets.FSetCompat <> f:121 var
+R6490:6493 Coq.FSets.FSetCompat E eq defax
+R6502:6506 Coq.FSets.FSetCompat Backport_WSets Equal def
+R6531:6536 Coq.FSets.FSetCompat Backport_WSets filter def
+R6560:6560 Coq.FSets.FSetCompat <> s:120 var
+binder 6543:6543 <> x:122
+R6548:6551 Coq.Init.Datatypes <> negb def
+R6554:6554 Coq.FSets.FSetCompat <> f:121 var
+R6556:6556 Coq.FSets.FSetCompat <> x:122 var
+R6509:6511 Coq.Init.Datatypes <> snd def
+R6514:6522 Coq.FSets.FSetCompat Backport_WSets partition def
+R6526:6526 Coq.FSets.FSetCompat <> s:120 var
+R6524:6524 Coq.FSets.FSetCompat <> f:121 var
+R6568:6581 Coq.FSets.FSetCompat Backport_WSets partition_2 abbrev
+def 6596:6603 Backport_WSets choose_1
+binder 6614:6614 <> s:123
+binder 6616:6616 <> x:124
+R6636:6639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6627:6629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6619:6624 Coq.FSets.FSetCompat Backport_WSets choose def
+R6626:6626 Coq.FSets.FSetCompat <> s:123 var
+R6630:6633 Coq.Init.Datatypes <> Some constr
+R6635:6635 Coq.FSets.FSetCompat <> x:124 var
+R6640:6641 Coq.FSets.FSetCompat Backport_WSets In def
+R6645:6645 Coq.FSets.FSetCompat <> s:123 var
+R6643:6643 Coq.FSets.FSetCompat <> x:124 var
+R6652:6662 Coq.FSets.FSetCompat Backport_WSets choose_1 abbrev
+def 6677:6684 Backport_WSets choose_2
+binder 6695:6695 <> s:125
+R6713:6716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6706:6708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6698:6703 Coq.FSets.FSetCompat Backport_WSets choose def
+R6705:6705 Coq.FSets.FSetCompat <> s:125 var
+R6709:6712 Coq.Init.Datatypes <> None constr
+R6717:6721 Coq.FSets.FSetCompat Backport_WSets Empty def
+R6723:6723 Coq.FSets.FSetCompat <> s:125 var
+R6730:6740 Coq.FSets.FSetCompat Backport_WSets choose_2 abbrev
+def 6755:6764 Backport_WSets elements_1
+binder 6775:6775 <> s:126
+binder 6777:6777 <> x:127
+R6786:6789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6780:6781 Coq.FSets.FSetCompat Backport_WSets In def
+R6785:6785 Coq.FSets.FSetCompat <> s:126 var
+R6783:6783 Coq.FSets.FSetCompat <> x:127 var
+R6790:6792 Coq.Lists.SetoidList <> InA ind
+R6802:6809 Coq.FSets.FSetCompat Backport_WSets elements def
+R6811:6811 Coq.FSets.FSetCompat <> s:126 var
+R6799:6799 Coq.FSets.FSetCompat <> x:127 var
+R6794:6797 Coq.FSets.FSetCompat E eq defax
+R6819:6831 Coq.FSets.FSetCompat Backport_WSets elements_1 thm
+def 6846:6855 Backport_WSets elements_2
+binder 6866:6866 <> s:128
+binder 6868:6868 <> x:129
+R6894:6897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6871:6873 Coq.Lists.SetoidList <> InA ind
+R6883:6890 Coq.FSets.FSetCompat Backport_WSets elements def
+R6892:6892 Coq.FSets.FSetCompat <> s:128 var
+R6880:6880 Coq.FSets.FSetCompat <> x:129 var
+R6875:6878 Coq.FSets.FSetCompat E eq defax
+R6898:6899 Coq.FSets.FSetCompat Backport_WSets In def
+R6903:6903 Coq.FSets.FSetCompat <> s:128 var
+R6901:6901 Coq.FSets.FSetCompat <> x:129 var
+R6910:6922 Coq.FSets.FSetCompat Backport_WSets elements_2 thm
+def 6937:6947 Backport_WSets elements_3w
+binder 6958:6958 <> s:130
+R6961:6966 Coq.Lists.SetoidList <> NoDupA ind
+R6974:6981 Coq.FSets.FSetCompat Backport_WSets elements def
+R6983:6983 Coq.FSets.FSetCompat <> s:130 var
+R6968:6971 Coq.FSets.FSetCompat E eq defax
+R6991:7004 Coq.FSets.FSetCompat Backport_WSets elements_3w abbrev
+R7012:7025 Coq.FSets.FSetCompat Backport_WSets <> mod
+R7091:7113 Coq.Structures.OrderedType OrderedType <> mod
+R7120:7137 Coq.MSets.MSetInterface Sets <> mod
+R7162:7164 Coq.FSets.FSetCompat O t defax
+R7213:7216 Coq.FSets.FSetCompat O eq defax
+R7265:7268 Coq.FSets.FSetCompat O lt defax
+R7275:7289 Coq.FSets.FSetInterface S <> mod
+R7306:7306 Coq.FSets.FSetCompat O <> modtype
+mod 7073:7085 <> Backport_Sets
+R7320:7333 Coq.FSets.FSetCompat Backport_WSets <> modtype
+R7335:7335 Coq.FSets.FSetCompat O <> modtype
+R7337:7337 Coq.FSets.FSetCompat M <> modtype
+R7361:7361 Coq.FSets.FSetCompat Backport_Sets t def
+R7386:7388 Coq.FSets.FSetCompat Backport_Sets elt def
+def 7405:7406 Backport_Sets lt
+R7411:7414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7410:7410 Coq.FSets.FSetCompat Backport_Sets t def
+R7416:7419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7415:7415 Coq.FSets.FSetCompat Backport_Sets t def
+R7428:7431 Coq.FSets.FSetCompat M lt defax
+def 7447:7453 Backport_Sets min_elt
+R7458:7461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7457:7457 Coq.FSets.FSetCompat Backport_Sets t def
+R7462:7467 Coq.Init.Datatypes <> option ind
+R7469:7471 Coq.FSets.FSetCompat Backport_Sets elt def
+R7476:7484 Coq.FSets.FSetCompat M min_elt defax
+def 7500:7506 Backport_Sets max_elt
+R7511:7514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7510:7510 Coq.FSets.FSetCompat Backport_Sets t def
+R7515:7520 Coq.Init.Datatypes <> option ind
+R7522:7524 Coq.FSets.FSetCompat Backport_Sets elt def
+R7529:7537 Coq.FSets.FSetCompat M max_elt defax
+def 7553:7561 Backport_Sets min_elt_1
+binder 7572:7572 <> s:131
+binder 7574:7574 <> x:132
+R7595:7598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7586:7588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7577:7583 Coq.FSets.FSetCompat Backport_Sets min_elt def
+R7585:7585 Coq.FSets.FSetCompat <> s:131 var
+R7589:7592 Coq.Init.Datatypes <> Some constr
+R7594:7594 Coq.FSets.FSetCompat <> x:132 var
+R7599:7600 Coq.FSets.FSetCompat Backport_Sets In def
+R7604:7604 Coq.FSets.FSetCompat <> s:131 var
+R7602:7602 Coq.FSets.FSetCompat <> x:132 var
+R7612:7626 Coq.FSets.FSetCompat M min_elt_spec1 defax
+def 7642:7650 Backport_Sets min_elt_2
+binder 7661:7661 <> s:133
+binder 7663:7663 <> x:134
+binder 7665:7665 <> y:135
+R7689:7692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7680:7682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7671:7677 Coq.FSets.FSetCompat Backport_Sets min_elt def
+R7679:7679 Coq.FSets.FSetCompat <> s:133 var
+R7683:7686 Coq.Init.Datatypes <> Some constr
+R7688:7688 Coq.FSets.FSetCompat <> x:134 var
+R7699:7702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7693:7694 Coq.FSets.FSetCompat Backport_Sets In def
+R7698:7698 Coq.FSets.FSetCompat <> s:133 var
+R7696:7696 Coq.FSets.FSetCompat <> y:135 var
+R7703:7704 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7705:7708 Coq.FSets.FSetCompat O lt defax
+R7712:7712 Coq.FSets.FSetCompat <> x:134 var
+R7710:7710 Coq.FSets.FSetCompat <> y:135 var
+R7720:7734 Coq.FSets.FSetCompat M min_elt_spec2 defax
+def 7750:7758 Backport_Sets min_elt_3
+binder 7769:7769 <> s:136
+R7788:7791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7781:7783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7772:7778 Coq.FSets.FSetCompat Backport_Sets min_elt def
+R7780:7780 Coq.FSets.FSetCompat <> s:136 var
+R7784:7787 Coq.Init.Datatypes <> None constr
+R7792:7796 Coq.FSets.FSetCompat Backport_Sets Empty def
+R7798:7798 Coq.FSets.FSetCompat <> s:136 var
+R7806:7820 Coq.FSets.FSetCompat M min_elt_spec3 defax
+def 7836:7844 Backport_Sets max_elt_1
+binder 7855:7855 <> s:137
+binder 7857:7857 <> x:138
+R7878:7881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7869:7871 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7860:7866 Coq.FSets.FSetCompat Backport_Sets max_elt def
+R7868:7868 Coq.FSets.FSetCompat <> s:137 var
+R7872:7875 Coq.Init.Datatypes <> Some constr
+R7877:7877 Coq.FSets.FSetCompat <> x:138 var
+R7882:7883 Coq.FSets.FSetCompat Backport_Sets In def
+R7887:7887 Coq.FSets.FSetCompat <> s:137 var
+R7885:7885 Coq.FSets.FSetCompat <> x:138 var
+R7895:7909 Coq.FSets.FSetCompat M max_elt_spec1 defax
+def 7925:7933 Backport_Sets max_elt_2
+binder 7944:7944 <> s:139
+binder 7946:7946 <> x:140
+binder 7948:7948 <> y:141
+R7972:7975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7963:7965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7954:7960 Coq.FSets.FSetCompat Backport_Sets max_elt def
+R7962:7962 Coq.FSets.FSetCompat <> s:139 var
+R7966:7969 Coq.Init.Datatypes <> Some constr
+R7971:7971 Coq.FSets.FSetCompat <> x:140 var
+R7982:7985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7976:7977 Coq.FSets.FSetCompat Backport_Sets In def
+R7981:7981 Coq.FSets.FSetCompat <> s:139 var
+R7979:7979 Coq.FSets.FSetCompat <> y:141 var
+R7986:7987 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7988:7991 Coq.FSets.FSetCompat O lt defax
+R7995:7995 Coq.FSets.FSetCompat <> y:141 var
+R7993:7993 Coq.FSets.FSetCompat <> x:140 var
+R8003:8017 Coq.FSets.FSetCompat M max_elt_spec2 defax
+def 8033:8041 Backport_Sets max_elt_3
+binder 8052:8052 <> s:142
+R8071:8074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8064:8066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8055:8061 Coq.FSets.FSetCompat Backport_Sets max_elt def
+R8063:8063 Coq.FSets.FSetCompat <> s:142 var
+R8067:8070 Coq.Init.Datatypes <> None constr
+R8075:8079 Coq.FSets.FSetCompat Backport_Sets Empty def
+R8081:8081 Coq.FSets.FSetCompat <> s:142 var
+R8089:8103 Coq.FSets.FSetCompat M max_elt_spec3 defax
+def 8119:8128 Backport_Sets elements_3
+binder 8139:8139 <> s:143
+R8142:8145 Coq.Sorting.Sorted <> sort abbrev
+R8153:8160 Coq.FSets.FSetCompat Backport_Sets elements def
+R8162:8162 Coq.FSets.FSetCompat <> s:143 var
+R8147:8150 Coq.FSets.FSetCompat O lt defax
+R8171:8186 Coq.FSets.FSetCompat M elements_spec2 defax
+def 8202:8209 Backport_Sets choose_3
+binder 8220:8220 <> s:144
+binder 8222:8223 <> s':145
+binder 8225:8225 <> x:146
+binder 8227:8227 <> y:147
+R8250:8253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8241:8243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8233:8238 Coq.FSets.FSetCompat Backport_Sets choose def
+R8240:8240 Coq.FSets.FSetCompat <> s:144 var
+R8244:8247 Coq.Init.Datatypes <> Some constr
+R8249:8249 Coq.FSets.FSetCompat <> x:146 var
+R8272:8275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8263:8265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8254:8259 Coq.FSets.FSetCompat Backport_Sets choose def
+R8261:8262 Coq.FSets.FSetCompat <> s':145 var
+R8266:8269 Coq.Init.Datatypes <> Some constr
+R8271:8271 Coq.FSets.FSetCompat <> y:147 var
+R8286:8289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8276:8280 Coq.FSets.FSetCompat Backport_Sets Equal def
+R8284:8285 Coq.FSets.FSetCompat <> s':145 var
+R8282:8282 Coq.FSets.FSetCompat <> s:144 var
+R8290:8293 Coq.FSets.FSetCompat O eq defax
+R8297:8297 Coq.FSets.FSetCompat <> y:147 var
+R8295:8295 Coq.FSets.FSetCompat <> x:146 var
+R8305:8318 Coq.FSets.FSetCompat M choose_spec3 defax
+def 8334:8341 Backport_Sets lt_trans
+binder 8352:8352 <> s:148
+binder 8354:8355 <> s':149
+binder 8357:8359 <> s'':150
+R8369:8372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8362:8363 Coq.FSets.FSetCompat Backport_Sets lt def
+R8367:8368 Coq.FSets.FSetCompat <> s':149 var
+R8365:8365 Coq.FSets.FSetCompat <> s:148 var
+R8382:8385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8373:8374 Coq.FSets.FSetCompat Backport_Sets lt def
+R8379:8381 Coq.FSets.FSetCompat <> s'':150 var
+R8376:8377 Coq.FSets.FSetCompat <> s':149 var
+R8386:8387 Coq.FSets.FSetCompat Backport_Sets lt def
+R8391:8393 Coq.FSets.FSetCompat <> s'':150 var
+R8389:8389 Coq.FSets.FSetCompat <> s:148 var
+R8402:8423 Coq.Classes.RelationClasses <> StrictOrder_Transitive meth
+R8429:8441 Coq.FSets.FSetCompat M lt_strorder prfax
+prf 8452:8460 Backport_Sets lt_not_eq
+binder 8471:8471 <> s:151
+binder 8473:8474 <> s':152
+R8485:8488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8478:8479 Coq.FSets.FSetCompat Backport_Sets lt def
+R8483:8484 Coq.FSets.FSetCompat <> s':152 var
+R8481:8481 Coq.FSets.FSetCompat <> s:151 var
+R8489:8490 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8491:8492 Coq.FSets.FSetCompat Backport_Sets eq def
+R8496:8497 Coq.FSets.FSetCompat <> s':152 var
+R8494:8494 Coq.FSets.FSetCompat <> s:151 var
+R8519:8520 Coq.FSets.FSetCompat Backport_Sets lt def
+R8523:8524 Coq.FSets.FSetCompat Backport_Sets eq def
+R8578:8600 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R8578:8600 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+def 8633:8639 Backport_Sets compare
+binder 8650:8650 <> s:153
+binder 8652:8653 <> s':154
+R8656:8662 Coq.Structures.OrderedType <> Compare ind
+R8672:8673 Coq.FSets.FSetCompat <> s':154 var
+R8670:8670 Coq.FSets.FSetCompat <> s:153 var
+R8667:8668 Coq.FSets.FSetCompat Backport_Sets eq def
+R8664:8665 Coq.FSets.FSetCompat Backport_Sets lt def
+R8711:8723 Coq.Init.Datatypes <> CompSpec2Type thm
+R8726:8739 Coq.FSets.FSetCompat M compare_spec defax
+R8761:8762 Coq.Structures.OrderedType <> EQ constr
+R8772:8773 Coq.Structures.OrderedType <> LT constr
+R8783:8784 Coq.Structures.OrderedType <> GT constr
+R8711:8723 Coq.Init.Datatypes <> CompSpec2Type thm
+R8726:8739 Coq.FSets.FSetCompat M compare_spec defax
+R8761:8762 Coq.Structures.OrderedType <> EQ constr
+R8772:8773 Coq.Structures.OrderedType <> LT constr
+R8783:8784 Coq.Structures.OrderedType <> GT constr
+R8821:8821 Coq.FSets.FSetCompat O <> modtype
+mod 8816:8816 <> Backport_Sets.E
+R8829:8841 Coq.FSets.FSetCompat Backport_Sets <> mod
+R8912:8935 Coq.Structures.Equalities DecidableType <> mod
+R8942:8957 Coq.FSets.FSetInterface WS <> mod
+R8982:8984 Coq.FSets.FSetCompat E t defax
+R9031:9034 Coq.FSets.FSetCompat E eq defax
+R9041:9061 Coq.MSets.MSetInterface WSetsOn <> mod
+R9063:9063 Coq.FSets.FSetCompat E <> modtype
+mod 8895:8906 <> Update_WSets
+def 9079:9081 Update_WSets elt
+R9086:9088 Coq.FSets.FSetCompat E t defax
+def 9103:9103 Update_WSets t
+R9108:9110 Coq.FSets.FSetCompat M t defax
+R9133:9133 Coq.FSets.FSetCompat Update_WSets t def
+R9157:9159 Coq.FSets.FSetCompat Update_WSets elt def
+R9184:9187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9181:9183 Coq.FSets.FSetCompat Update_WSets elt def
+R9188:9191 Coq.Init.Datatypes <> bool ind
+def 9207:9208 Update_WSets In
+R9215:9218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9212:9214 Coq.FSets.FSetCompat Update_WSets elt def
+R9220:9223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9219:9219 Coq.FSets.FSetCompat Update_WSets t def
+R9232:9235 Coq.FSets.FSetCompat M In defax
+def 9250:9254 Update_WSets Equal
+binder 9256:9256 <> s:155
+binder 9258:9259 <> s':156
+R9275:9277 Coq.FSets.FSetCompat Update_WSets elt def
+binder 9271:9271 <> a:157
+R9286:9290 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9280:9281 Coq.FSets.FSetCompat Update_WSets In def
+R9285:9285 Coq.FSets.FSetCompat <> s:155 var
+R9283:9283 Coq.FSets.FSetCompat <> a:157 var
+R9291:9292 Coq.FSets.FSetCompat Update_WSets In def
+R9296:9297 Coq.FSets.FSetCompat <> s':156 var
+R9294:9294 Coq.FSets.FSetCompat <> a:157 var
+def 9312:9317 Update_WSets Subset
+binder 9319:9319 <> s:158
+binder 9321:9322 <> s':159
+R9338:9340 Coq.FSets.FSetCompat Update_WSets elt def
+binder 9334:9334 <> a:160
+R9349:9352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9343:9344 Coq.FSets.FSetCompat Update_WSets In def
+R9348:9348 Coq.FSets.FSetCompat <> s:158 var
+R9346:9346 Coq.FSets.FSetCompat <> a:160 var
+R9353:9354 Coq.FSets.FSetCompat Update_WSets In def
+R9358:9359 Coq.FSets.FSetCompat <> s':159 var
+R9356:9356 Coq.FSets.FSetCompat <> a:160 var
+def 9374:9378 Update_WSets Empty
+binder 9380:9380 <> s:161
+R9396:9398 Coq.FSets.FSetCompat Update_WSets elt def
+binder 9392:9392 <> a:162
+R9401:9402 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9403:9404 Coq.FSets.FSetCompat Update_WSets In def
+R9408:9408 Coq.FSets.FSetCompat <> s:161 var
+R9406:9406 Coq.FSets.FSetCompat <> a:162 var
+def 9423:9429 Update_WSets For_all
+R9439:9442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9436:9438 Coq.FSets.FSetCompat Update_WSets elt def
+binder 9432:9432 <> P:163
+binder 9449:9449 <> s:164
+binder 9461:9461 <> x:165
+R9470:9473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9464:9465 Coq.FSets.FSetCompat Update_WSets In def
+R9469:9469 Coq.FSets.FSetCompat <> s:164 var
+R9467:9467 Coq.FSets.FSetCompat <> x:165 var
+R9474:9474 Coq.FSets.FSetCompat <> P:163 var
+R9476:9476 Coq.FSets.FSetCompat <> x:165 var
+def 9491:9496 Update_WSets Exists
+R9506:9509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9503:9505 Coq.FSets.FSetCompat Update_WSets elt def
+binder 9499:9499 <> P:166
+binder 9516:9516 <> s:167
+R9521:9527 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9529:9530 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9528:9528 <> x:168
+R9537:9540 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9531:9532 Coq.FSets.FSetCompat Update_WSets In def
+R9536:9536 Coq.FSets.FSetCompat <> s:167 var
+R9534:9534 Coq.FSets.FSetCompat <> x:168 var
+R9541:9541 Coq.FSets.FSetCompat <> P:166 var
+R9543:9543 Coq.FSets.FSetCompat <> x:168 var
+def 9558:9562 Update_WSets empty
+R9566:9566 Coq.FSets.FSetCompat Update_WSets t def
+R9571:9577 Coq.FSets.FSetCompat M empty defax
+def 9592:9599 Update_WSets is_empty
+R9604:9607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9603:9603 Coq.FSets.FSetCompat Update_WSets t def
+R9608:9611 Coq.Init.Datatypes <> bool ind
+R9616:9625 Coq.FSets.FSetCompat M is_empty defax
+def 9640:9642 Update_WSets mem
+R9649:9652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9646:9648 Coq.FSets.FSetCompat Update_WSets elt def
+R9654:9657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9653:9653 Coq.FSets.FSetCompat Update_WSets t def
+R9658:9661 Coq.Init.Datatypes <> bool ind
+R9666:9670 Coq.FSets.FSetCompat M mem defax
+def 9685:9687 Update_WSets add
+R9694:9697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9691:9693 Coq.FSets.FSetCompat Update_WSets elt def
+R9699:9702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9698:9698 Coq.FSets.FSetCompat Update_WSets t def
+R9703:9703 Coq.FSets.FSetCompat Update_WSets t def
+R9708:9712 Coq.FSets.FSetCompat M add defax
+def 9727:9735 Update_WSets singleton
+R9742:9745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9739:9741 Coq.FSets.FSetCompat Update_WSets elt def
+R9746:9746 Coq.FSets.FSetCompat Update_WSets t def
+R9751:9761 Coq.FSets.FSetCompat M singleton defax
+def 9776:9781 Update_WSets remove
+R9788:9791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9785:9787 Coq.FSets.FSetCompat Update_WSets elt def
+R9793:9796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9792:9792 Coq.FSets.FSetCompat Update_WSets t def
+R9797:9797 Coq.FSets.FSetCompat Update_WSets t def
+R9802:9809 Coq.FSets.FSetCompat M remove defax
+def 9824:9828 Update_WSets union
+R9833:9836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9832:9832 Coq.FSets.FSetCompat Update_WSets t def
+R9838:9841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9837:9837 Coq.FSets.FSetCompat Update_WSets t def
+R9842:9842 Coq.FSets.FSetCompat Update_WSets t def
+R9847:9853 Coq.FSets.FSetCompat M union defax
+def 9868:9872 Update_WSets inter
+R9877:9880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9876:9876 Coq.FSets.FSetCompat Update_WSets t def
+R9882:9885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9881:9881 Coq.FSets.FSetCompat Update_WSets t def
+R9886:9886 Coq.FSets.FSetCompat Update_WSets t def
+R9891:9897 Coq.FSets.FSetCompat M inter defax
+def 9912:9915 Update_WSets diff
+R9920:9923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9919:9919 Coq.FSets.FSetCompat Update_WSets t def
+R9925:9928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9924:9924 Coq.FSets.FSetCompat Update_WSets t def
+R9929:9929 Coq.FSets.FSetCompat Update_WSets t def
+R9934:9939 Coq.FSets.FSetCompat M diff defax
+def 9954:9955 Update_WSets eq
+R9960:9963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9959:9959 Coq.FSets.FSetCompat Update_WSets t def
+R9965:9968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9964:9964 Coq.FSets.FSetCompat Update_WSets t def
+R9977:9980 Coq.FSets.FSetCompat M eq def
+def 9995:10000 Update_WSets eq_dec
+binder 10011:10011 <> s:169
+binder 10013:10014 <> s':170
+R10017:10017 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10025:10027 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10036:10036 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R10018:10019 Coq.FSets.FSetCompat Update_WSets eq def
+R10023:10024 Coq.FSets.FSetCompat <> s':170 var
+R10021:10021 Coq.FSets.FSetCompat <> s:169 var
+R10028:10028 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10029:10030 Coq.FSets.FSetCompat Update_WSets eq def
+R10034:10035 Coq.FSets.FSetCompat <> s':170 var
+R10032:10032 Coq.FSets.FSetCompat <> s:169 var
+R10040:10047 Coq.FSets.FSetCompat M eq_dec defax
+def 10062:10066 Update_WSets equal
+R10071:10074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10070:10070 Coq.FSets.FSetCompat Update_WSets t def
+R10076:10079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10075:10075 Coq.FSets.FSetCompat Update_WSets t def
+R10080:10083 Coq.Init.Datatypes <> bool ind
+R10088:10094 Coq.FSets.FSetCompat M equal defax
+def 10109:10114 Update_WSets subset
+R10119:10122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10118:10118 Coq.FSets.FSetCompat Update_WSets t def
+R10124:10127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10123:10123 Coq.FSets.FSetCompat Update_WSets t def
+R10128:10131 Coq.Init.Datatypes <> bool ind
+R10136:10143 Coq.FSets.FSetCompat M subset defax
+def 10158:10161 Update_WSets fold
+binder 10172:10172 <> A:171
+R10182:10182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10196:10200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10186:10189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10183:10185 Coq.FSets.FSetCompat Update_WSets elt def
+R10191:10194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10190:10190 Coq.FSets.FSetCompat <> A:171 var
+R10195:10195 Coq.FSets.FSetCompat <> A:171 var
+R10202:10205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10201:10201 Coq.FSets.FSetCompat Update_WSets t def
+R10207:10210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10206:10206 Coq.FSets.FSetCompat <> A:171 var
+R10211:10211 Coq.FSets.FSetCompat <> A:171 var
+R10216:10221 Coq.FSets.FSetCompat M fold defax
+def 10236:10242 Update_WSets for_all
+R10246:10246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10258:10262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10250:10253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10247:10249 Coq.FSets.FSetCompat Update_WSets elt def
+R10254:10257 Coq.Init.Datatypes <> bool ind
+R10264:10267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10263:10263 Coq.FSets.FSetCompat Update_WSets t def
+R10268:10271 Coq.Init.Datatypes <> bool ind
+R10276:10284 Coq.FSets.FSetCompat M for_all defax
+def 10299:10305 Update_WSets exists_
+R10309:10309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10321:10325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10313:10316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10310:10312 Coq.FSets.FSetCompat Update_WSets elt def
+R10317:10320 Coq.Init.Datatypes <> bool ind
+R10327:10330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10326:10326 Coq.FSets.FSetCompat Update_WSets t def
+R10331:10334 Coq.Init.Datatypes <> bool ind
+R10339:10347 Coq.FSets.FSetCompat M exists_ defax
+def 10362:10367 Update_WSets filter
+R10371:10371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10383:10387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10375:10378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10372:10374 Coq.FSets.FSetCompat Update_WSets elt def
+R10379:10382 Coq.Init.Datatypes <> bool ind
+R10389:10392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10388:10388 Coq.FSets.FSetCompat Update_WSets t def
+R10393:10393 Coq.FSets.FSetCompat Update_WSets t def
+R10398:10405 Coq.FSets.FSetCompat M filter defax
+def 10420:10428 Update_WSets partition
+R10432:10432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10444:10448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10436:10439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10433:10435 Coq.FSets.FSetCompat Update_WSets elt def
+R10440:10443 Coq.Init.Datatypes <> bool ind
+R10450:10453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10449:10449 Coq.FSets.FSetCompat Update_WSets t def
+R10455:10457 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10454:10454 Coq.FSets.FSetCompat Update_WSets t def
+R10458:10458 Coq.FSets.FSetCompat Update_WSets t def
+R10462:10472 Coq.FSets.FSetCompat M partition defax
+def 10487:10494 Update_WSets cardinal
+R10499:10502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10498:10498 Coq.FSets.FSetCompat Update_WSets t def
+R10503:10505 Coq.Init.Datatypes <> nat ind
+R10510:10519 Coq.FSets.FSetCompat M cardinal defax
+def 10534:10541 Update_WSets elements
+R10546:10549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10545:10545 Coq.FSets.FSetCompat Update_WSets t def
+R10550:10553 Coq.Init.Datatypes <> list ind
+R10555:10557 Coq.FSets.FSetCompat Update_WSets elt def
+R10562:10571 Coq.FSets.FSetCompat M elements defax
+def 10586:10591 Update_WSets choose
+R10596:10599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10595:10595 Coq.FSets.FSetCompat Update_WSets t def
+R10600:10605 Coq.Init.Datatypes <> option ind
+R10607:10609 Coq.FSets.FSetCompat Update_WSets elt def
+R10614:10621 Coq.FSets.FSetCompat M choose defax
+R10639:10654 Coq.FSets.FSetFacts WFacts <> modtype
+R10656:10656 Coq.FSets.FSetCompat M <> modtype
+mod 10633:10634 <> Update_WSets.MF
+inst 10680:10688 Update_WSets In_compat
+R10692:10697 Coq.Classes.Morphisms <> Proper class
+R10723:10724 Coq.FSets.FSetCompat Update_WSets In def
+R10704:10706 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10700:10703 Coq.FSets.FSetCompat E eq defax
+R10715:10717 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10707:10714 Coq.Init.Logic <> eq ind
+R10718:10720 Coq.Init.Logic <> iff def
+R10772:10783 Coq.FSets.FSetCompat Update_WSets In_eq_iff thm
+R10772:10783 Coq.FSets.FSetCompat Update_WSets In_eq_iff thm
+inst 10818:10825 Update_WSets eq_equiv
+R10829:10839 Coq.Classes.RelationClasses <> Equivalence class
+R10841:10842 Coq.FSets.FSetCompat Update_WSets eq def
+sec 10860:10863 Update_WSets Spec
+var 10877:10877 Update_WSets.Spec s
+var 10879:10880 Update_WSets.Spec s'
+R10883:10883 Coq.FSets.FSetCompat Update_WSets t def
+var 10897:10897 Update_WSets.Spec x
+var 10899:10899 Update_WSets.Spec y
+R10903:10905 Coq.FSets.FSetCompat Update_WSets elt def
+prf 10917:10924 Update_WSets mem_spec
+R10942:10946 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10935:10937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10928:10930 Coq.FSets.FSetCompat Update_WSets mem def
+R10934:10934 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R10932:10932 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R10938:10941 Coq.Init.Datatypes <> true constr
+R10947:10948 Coq.FSets.FSetCompat Update_WSets In def
+R10952:10952 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R10950:10950 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R10988:10997 Coq.FSets.FSetCompat Update_WSets mem_iff thm
+R10988:10997 Coq.FSets.FSetCompat Update_WSets mem_iff thm
+prf 11014:11023 Update_WSets equal_spec
+R11044:11048 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11037:11039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11027:11031 Coq.FSets.FSetCompat Update_WSets equal def
+R11035:11036 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11033:11033 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11040:11043 Coq.Init.Datatypes <> true constr
+R11049:11053 Coq.FSets.FSetCompat Update_WSets Equal def
+R11057:11058 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11055:11055 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11094:11105 Coq.FSets.FSetCompat Update_WSets equal_iff thm
+R11094:11105 Coq.FSets.FSetCompat Update_WSets equal_iff thm
+prf 11122:11132 Update_WSets subset_spec
+R11154:11158 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11147:11149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11136:11141 Coq.FSets.FSetCompat Update_WSets subset def
+R11145:11146 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11143:11143 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11150:11153 Coq.Init.Datatypes <> true constr
+R11159:11164 Coq.FSets.FSetCompat Update_WSets Subset def
+R11168:11169 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11166:11166 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11205:11217 Coq.FSets.FSetCompat Update_WSets subset_iff thm
+R11205:11217 Coq.FSets.FSetCompat Update_WSets subset_iff thm
+def 11239:11248 Update_WSets empty_spec
+R11252:11256 Coq.FSets.FSetCompat Update_WSets Empty def
+R11258:11262 Coq.FSets.FSetCompat Update_WSets empty def
+R11267:11275 Coq.FSets.FSetCompat M empty_1 defax
+prf 11287:11299 Update_WSets is_empty_spec
+R11320:11324 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11313:11315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11303:11310 Coq.FSets.FSetCompat Update_WSets is_empty def
+R11312:11312 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11316:11319 Coq.Init.Datatypes <> true constr
+R11325:11329 Coq.FSets.FSetCompat Update_WSets Empty def
+R11331:11331 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11367:11381 Coq.FSets.FSetCompat Update_WSets is_empty_iff thm
+R11367:11381 Coq.FSets.FSetCompat Update_WSets is_empty_iff thm
+R11418:11419 Coq.FSets.FSetCompat Update_WSets In def
+R11421:11424 Coq.FSets.FSetCompat M In defax
+prf 11436:11443 Update_WSets add_spec
+R11461:11465 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11447:11448 Coq.FSets.FSetCompat Update_WSets In def
+R11453:11455 Coq.FSets.FSetCompat Update_WSets add def
+R11459:11459 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11457:11457 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11450:11450 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11474:11477 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11466:11469 Coq.FSets.FSetCompat E eq defax
+R11473:11473 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11471:11471 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11478:11479 Coq.FSets.FSetCompat Update_WSets In def
+R11483:11483 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11481:11481 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11511:11520 Coq.FSets.FSetCompat Update_WSets add_iff thm
+R11511:11520 Coq.FSets.FSetCompat Update_WSets add_iff thm
+R11511:11520 Coq.FSets.FSetCompat Update_WSets add_iff thm
+prf 11548:11558 Update_WSets remove_spec
+R11579:11583 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11562:11563 Coq.FSets.FSetCompat Update_WSets In def
+R11568:11573 Coq.FSets.FSetCompat Update_WSets remove def
+R11577:11577 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11575:11575 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11565:11565 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11590:11593 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11584:11585 Coq.FSets.FSetCompat Update_WSets In def
+R11589:11589 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11587:11587 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11594:11594 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11595:11598 Coq.FSets.FSetCompat E eq defax
+R11602:11602 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11600:11600 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11630:11642 Coq.FSets.FSetCompat Update_WSets remove_iff thm
+R11630:11642 Coq.FSets.FSetCompat Update_WSets remove_iff thm
+R11630:11642 Coq.FSets.FSetCompat Update_WSets remove_iff thm
+prf 11670:11683 Update_WSets singleton_spec
+R11705:11709 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11687:11688 Coq.FSets.FSetCompat Update_WSets In def
+R11693:11701 Coq.FSets.FSetCompat Update_WSets singleton def
+R11703:11703 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11690:11690 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11710:11713 Coq.FSets.FSetCompat E eq defax
+R11717:11717 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11715:11715 Coq.FSets.FSetCompat <> Update_WSets.Spec.y var
+R11745:11760 Coq.FSets.FSetCompat Update_WSets singleton_iff thm
+R11745:11760 Coq.FSets.FSetCompat Update_WSets singleton_iff thm
+R11745:11760 Coq.FSets.FSetCompat Update_WSets singleton_iff thm
+def 11793:11802 Update_WSets union_spec
+R11823:11827 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11806:11807 Coq.FSets.FSetCompat Update_WSets In def
+R11812:11816 Coq.FSets.FSetCompat Update_WSets union def
+R11820:11821 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11818:11818 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11809:11809 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11834:11837 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11828:11829 Coq.FSets.FSetCompat Update_WSets In def
+R11833:11833 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11831:11831 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11838:11839 Coq.FSets.FSetCompat Update_WSets In def
+R11843:11844 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11841:11841 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11853:11864 Coq.FSets.FSetCompat Update_WSets union_iff thm
+R11866:11866 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11868:11869 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11871:11871 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+def 11887:11896 Update_WSets inter_spec
+R11917:11921 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11900:11901 Coq.FSets.FSetCompat Update_WSets In def
+R11906:11910 Coq.FSets.FSetCompat Update_WSets inter def
+R11914:11915 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11912:11912 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11903:11903 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11928:11931 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11922:11923 Coq.FSets.FSetCompat Update_WSets In def
+R11927:11927 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11925:11925 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11932:11933 Coq.FSets.FSetCompat Update_WSets In def
+R11937:11938 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11935:11935 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R11947:11958 Coq.FSets.FSetCompat Update_WSets inter_iff thm
+R11960:11960 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11962:11963 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R11965:11965 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+def 11981:11989 Update_WSets diff_spec
+R12009:12013 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11993:11994 Coq.FSets.FSetCompat Update_WSets In def
+R11999:12002 Coq.FSets.FSetCompat Update_WSets diff def
+R12006:12007 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R12004:12004 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R11996:11996 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12020:12023 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12014:12015 Coq.FSets.FSetCompat Update_WSets In def
+R12019:12019 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12017:12017 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12024:12024 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12025:12026 Coq.FSets.FSetCompat Update_WSets In def
+R12030:12031 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R12028:12028 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12040:12050 Coq.FSets.FSetCompat Update_WSets diff_iff thm
+R12052:12052 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12054:12055 Coq.FSets.FSetCompat <> Update_WSets.Spec.s' var
+R12057:12057 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+def 12073:12081 Update_WSets fold_spec
+binder 12093:12093 <> A:176
+R12108:12108 Coq.FSets.FSetCompat <> A:176 var
+binder 12104:12104 <> i:177
+R12119:12122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12116:12118 Coq.FSets.FSetCompat Update_WSets elt def
+R12124:12127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12123:12123 Coq.FSets.FSetCompat <> A:176 var
+R12128:12128 Coq.FSets.FSetCompat <> A:176 var
+binder 12112:12112 <> f:178
+R12145:12147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12135:12138 Coq.FSets.FSetCompat Update_WSets fold def
+R12144:12144 Coq.FSets.FSetCompat <> i:177 var
+R12142:12142 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12140:12140 Coq.FSets.FSetCompat <> f:178 var
+R12148:12156 Coq.Lists.List <> fold_left def
+R12180:12180 Coq.FSets.FSetCompat <> i:177 var
+R12168:12175 Coq.FSets.FSetCompat Update_WSets elements def
+R12177:12177 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12159:12162 Coq.Program.Basics <> flip def
+R12164:12164 Coq.FSets.FSetCompat <> f:178 var
+R12189:12196 Coq.FSets.FSetCompat M fold_1 defax
+R12198:12198 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+def 12214:12226 Update_WSets cardinal_spec
+R12240:12242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12230:12237 Coq.FSets.FSetCompat Update_WSets cardinal def
+R12239:12239 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12243:12248 Coq.Init.Datatypes <> length def
+R12251:12258 Coq.FSets.FSetCompat Update_WSets elements def
+R12260:12260 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12270:12281 Coq.FSets.FSetCompat M cardinal_1 defax
+R12283:12283 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+prf 12295:12308 Update_WSets elements_spec1
+R12335:12339 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12312:12314 Coq.Lists.SetoidList <> InA ind
+R12324:12331 Coq.FSets.FSetCompat Update_WSets elements def
+R12333:12333 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12321:12321 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12316:12319 Coq.FSets.FSetCompat E eq defax
+R12340:12341 Coq.FSets.FSetCompat Update_WSets In def
+R12345:12345 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12343:12343 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12381:12395 Coq.FSets.FSetCompat Update_WSets elements_iff thm
+R12381:12395 Coq.FSets.FSetCompat Update_WSets elements_iff thm
+def 12417:12431 Update_WSets elements_spec2w
+R12435:12440 Coq.Lists.SetoidList <> NoDupA ind
+R12448:12455 Coq.FSets.FSetCompat Update_WSets elements def
+R12457:12457 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12442:12445 Coq.FSets.FSetCompat E eq defax
+R12467:12479 Coq.FSets.FSetCompat M elements_3w defax
+R12481:12481 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+def 12497:12508 Update_WSets choose_spec1
+R12529:12532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12520:12522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12512:12517 Coq.FSets.FSetCompat Update_WSets choose def
+R12519:12519 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12523:12526 Coq.Init.Datatypes <> Some constr
+R12528:12528 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12533:12534 Coq.FSets.FSetCompat Update_WSets In def
+R12538:12538 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12536:12536 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12547:12556 Coq.FSets.FSetCompat M choose_1 defax
+R12558:12558 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12560:12560 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+def 12576:12587 Update_WSets choose_spec2
+R12606:12609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12599:12601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12591:12596 Coq.FSets.FSetCompat Update_WSets choose def
+R12598:12598 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12602:12605 Coq.Init.Datatypes <> None constr
+R12610:12614 Coq.FSets.FSetCompat Update_WSets Empty def
+R12616:12616 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12625:12634 Coq.FSets.FSetCompat M choose_2 defax
+R12636:12636 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+def 12652:12662 Update_WSets filter_spec
+binder 12673:12673 <> f:179
+R12702:12709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12752:12752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12676:12681 Coq.Classes.Morphisms <> Proper class
+R12701:12701 Coq.FSets.FSetCompat <> f:179 var
+R12688:12690 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12684:12687 Coq.FSets.FSetCompat E eq defax
+R12691:12698 Coq.Init.Logic <> eq ind
+R12727:12731 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12710:12711 Coq.FSets.FSetCompat Update_WSets In def
+R12716:12721 Coq.FSets.FSetCompat Update_WSets filter def
+R12725:12725 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12723:12723 Coq.FSets.FSetCompat <> f:179 var
+R12713:12713 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12738:12741 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12732:12733 Coq.FSets.FSetCompat Update_WSets In def
+R12737:12737 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12735:12735 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12745:12747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12742:12742 Coq.FSets.FSetCompat <> f:179 var
+R12744:12744 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+R12748:12751 Coq.Init.Datatypes <> true constr
+R12761:12773 Coq.FSets.FSetCompat Update_WSets filter_iff thm
+R12775:12775 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12777:12777 Coq.FSets.FSetCompat <> Update_WSets.Spec.x var
+def 12793:12807 Update_WSets partition_spec1
+binder 12818:12818 <> f:180
+R12847:12853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12821:12826 Coq.Classes.Morphisms <> Proper class
+R12846:12846 Coq.FSets.FSetCompat <> f:180 var
+R12833:12835 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12829:12832 Coq.FSets.FSetCompat E eq defax
+R12836:12843 Coq.Init.Logic <> eq ind
+R12854:12858 Coq.FSets.FSetCompat Update_WSets Equal def
+R12883:12888 Coq.FSets.FSetCompat Update_WSets filter def
+R12892:12892 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12890:12890 Coq.FSets.FSetCompat <> f:180 var
+R12861:12863 Coq.Init.Datatypes <> fst def
+R12866:12874 Coq.FSets.FSetCompat Update_WSets partition def
+R12878:12878 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R12876:12876 Coq.FSets.FSetCompat <> f:180 var
+R12902:12914 Coq.FSets.FSetCompat M partition_1 defax
+R12916:12916 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+def 12932:12946 Update_WSets partition_spec2
+binder 12957:12957 <> f:181
+R12986:12992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12960:12965 Coq.Classes.Morphisms <> Proper class
+R12985:12985 Coq.FSets.FSetCompat <> f:181 var
+R12972:12974 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R12968:12971 Coq.FSets.FSetCompat E eq defax
+R12975:12982 Coq.Init.Logic <> eq ind
+R12993:12997 Coq.FSets.FSetCompat Update_WSets Equal def
+R13022:13027 Coq.FSets.FSetCompat Update_WSets filter def
+R13051:13051 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+binder 13034:13034 <> x:182
+R13039:13042 Coq.Init.Datatypes <> negb def
+R13045:13045 Coq.FSets.FSetCompat <> f:181 var
+R13047:13047 Coq.FSets.FSetCompat <> x:182 var
+R13000:13002 Coq.Init.Datatypes <> snd def
+R13005:13013 Coq.FSets.FSetCompat Update_WSets partition def
+R13017:13017 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R13015:13015 Coq.FSets.FSetCompat <> f:181 var
+R13061:13073 Coq.FSets.FSetCompat M partition_2 defax
+R13075:13075 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+prf 13087:13098 Update_WSets for_all_spec
+binder 13109:13109 <> f:183
+R13138:13146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13201:13201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13112:13117 Coq.Classes.Morphisms <> Proper class
+R13137:13137 Coq.FSets.FSetCompat <> f:183 var
+R13124:13126 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13120:13123 Coq.FSets.FSetCompat E eq defax
+R13127:13134 Coq.Init.Logic <> eq ind
+R13165:13169 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13158:13160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13147:13153 Coq.FSets.FSetCompat Update_WSets for_all def
+R13157:13157 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R13155:13155 Coq.FSets.FSetCompat <> f:183 var
+R13161:13164 Coq.Init.Datatypes <> true constr
+R13170:13176 Coq.FSets.FSetCompat Update_WSets For_all def
+R13200:13200 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+binder 13183:13183 <> x:184
+R13191:13193 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13188:13188 Coq.FSets.FSetCompat <> f:183 var
+R13190:13190 Coq.FSets.FSetCompat <> x:184 var
+R13194:13197 Coq.Init.Datatypes <> true constr
+R13237:13250 Coq.FSets.FSetCompat Update_WSets for_all_iff thm
+R13237:13250 Coq.FSets.FSetCompat Update_WSets for_all_iff thm
+prf 13273:13283 Update_WSets exists_spec
+binder 13294:13294 <> f:185
+R13323:13331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13385:13385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13297:13302 Coq.Classes.Morphisms <> Proper class
+R13322:13322 Coq.FSets.FSetCompat <> f:185 var
+R13309:13311 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13305:13308 Coq.FSets.FSetCompat E eq defax
+R13312:13319 Coq.Init.Logic <> eq ind
+R13350:13354 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13343:13345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13332:13338 Coq.FSets.FSetCompat Update_WSets exists_ def
+R13342:13342 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+R13340:13340 Coq.FSets.FSetCompat <> f:185 var
+R13346:13349 Coq.Init.Datatypes <> true constr
+R13355:13360 Coq.FSets.FSetCompat Update_WSets Exists def
+R13384:13384 Coq.FSets.FSetCompat <> Update_WSets.Spec.s var
+binder 13367:13367 <> x:186
+R13375:13377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13372:13372 Coq.FSets.FSetCompat <> f:185 var
+R13374:13374 Coq.FSets.FSetCompat <> x:186 var
+R13378:13381 Coq.Init.Datatypes <> true constr
+R13421:13433 Coq.FSets.FSetCompat Update_WSets exists_iff thm
+R13421:13433 Coq.FSets.FSetCompat Update_WSets exists_iff thm
+R13454:13457 Coq.FSets.FSetCompat Update_WSets.Spec <> sec
+R13465:13476 Coq.FSets.FSetCompat Update_WSets <> mod
+R13541:13558 Coq.Structures.Orders OrderedType <> mod
+R13565:13579 Coq.FSets.FSetInterface S <> mod
+R13604:13606 Coq.FSets.FSetCompat O t defax
+R13652:13655 Coq.FSets.FSetCompat O eq defax
+R13701:13704 Coq.FSets.FSetCompat O lt defax
+R13711:13728 Coq.MSets.MSetInterface Sets <> mod
+R13745:13745 Coq.FSets.FSetCompat O <> modtype
+mod 13525:13535 <> Update_Sets
+R13759:13770 Coq.FSets.FSetCompat Update_WSets <> modtype
+R13772:13772 Coq.FSets.FSetCompat O <> modtype
+R13774:13774 Coq.FSets.FSetCompat M <> modtype
+R13798:13798 Coq.FSets.FSetCompat Update_Sets t def
+R13823:13825 Coq.FSets.FSetCompat Update_Sets elt def
+def 13842:13843 Update_Sets lt
+R13848:13851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13847:13847 Coq.FSets.FSetCompat Update_Sets t def
+R13853:13856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13852:13852 Coq.FSets.FSetCompat Update_Sets t def
+R13865:13868 Coq.FSets.FSetCompat M lt defax
+def 13884:13890 Update_Sets min_elt
+R13895:13898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13894:13894 Coq.FSets.FSetCompat Update_Sets t def
+R13899:13904 Coq.Init.Datatypes <> option ind
+R13906:13908 Coq.FSets.FSetCompat Update_Sets elt def
+R13913:13921 Coq.FSets.FSetCompat M min_elt defax
+def 13937:13943 Update_Sets max_elt
+R13948:13951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13947:13947 Coq.FSets.FSetCompat Update_Sets t def
+R13952:13957 Coq.Init.Datatypes <> option ind
+R13959:13961 Coq.FSets.FSetCompat Update_Sets elt def
+R13966:13974 Coq.FSets.FSetCompat M max_elt defax
+def 13990:14002 Update_Sets min_elt_spec1
+binder 14013:14013 <> s:187
+binder 14015:14015 <> x:188
+R14036:14039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14027:14029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14018:14024 Coq.FSets.FSetCompat Update_Sets min_elt def
+R14026:14026 Coq.FSets.FSetCompat <> s:187 var
+R14030:14033 Coq.Init.Datatypes <> Some constr
+R14035:14035 Coq.FSets.FSetCompat <> x:188 var
+R14040:14041 Coq.FSets.FSetCompat Update_Sets In def
+R14045:14045 Coq.FSets.FSetCompat <> s:187 var
+R14043:14043 Coq.FSets.FSetCompat <> x:188 var
+R14053:14063 Coq.FSets.FSetCompat M min_elt_1 defax
+def 14079:14091 Update_Sets min_elt_spec2
+binder 14102:14102 <> s:189
+binder 14104:14104 <> x:190
+binder 14106:14106 <> y:191
+R14130:14133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14121:14123 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14112:14118 Coq.FSets.FSetCompat Update_Sets min_elt def
+R14120:14120 Coq.FSets.FSetCompat <> s:189 var
+R14124:14127 Coq.Init.Datatypes <> Some constr
+R14129:14129 Coq.FSets.FSetCompat <> x:190 var
+R14140:14143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14134:14135 Coq.FSets.FSetCompat Update_Sets In def
+R14139:14139 Coq.FSets.FSetCompat <> s:189 var
+R14137:14137 Coq.FSets.FSetCompat <> y:191 var
+R14144:14145 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14146:14149 Coq.FSets.FSetCompat O lt defax
+R14153:14153 Coq.FSets.FSetCompat <> x:190 var
+R14151:14151 Coq.FSets.FSetCompat <> y:191 var
+R14161:14171 Coq.FSets.FSetCompat M min_elt_2 defax
+def 14187:14199 Update_Sets min_elt_spec3
+binder 14210:14210 <> s:192
+R14229:14232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14222:14224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14213:14219 Coq.FSets.FSetCompat Update_Sets min_elt def
+R14221:14221 Coq.FSets.FSetCompat <> s:192 var
+R14225:14228 Coq.Init.Datatypes <> None constr
+R14233:14237 Coq.FSets.FSetCompat Update_Sets Empty def
+R14239:14239 Coq.FSets.FSetCompat <> s:192 var
+R14247:14257 Coq.FSets.FSetCompat M min_elt_3 defax
+def 14273:14285 Update_Sets max_elt_spec1
+binder 14296:14296 <> s:193
+binder 14298:14298 <> x:194
+R14319:14322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14310:14312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14301:14307 Coq.FSets.FSetCompat Update_Sets max_elt def
+R14309:14309 Coq.FSets.FSetCompat <> s:193 var
+R14313:14316 Coq.Init.Datatypes <> Some constr
+R14318:14318 Coq.FSets.FSetCompat <> x:194 var
+R14323:14324 Coq.FSets.FSetCompat Update_Sets In def
+R14328:14328 Coq.FSets.FSetCompat <> s:193 var
+R14326:14326 Coq.FSets.FSetCompat <> x:194 var
+R14336:14346 Coq.FSets.FSetCompat M max_elt_1 defax
+def 14362:14374 Update_Sets max_elt_spec2
+binder 14385:14385 <> s:195
+binder 14387:14387 <> x:196
+binder 14389:14389 <> y:197
+R14413:14416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14404:14406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14395:14401 Coq.FSets.FSetCompat Update_Sets max_elt def
+R14403:14403 Coq.FSets.FSetCompat <> s:195 var
+R14407:14410 Coq.Init.Datatypes <> Some constr
+R14412:14412 Coq.FSets.FSetCompat <> x:196 var
+R14423:14426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14417:14418 Coq.FSets.FSetCompat Update_Sets In def
+R14422:14422 Coq.FSets.FSetCompat <> s:195 var
+R14420:14420 Coq.FSets.FSetCompat <> y:197 var
+R14427:14428 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14429:14432 Coq.FSets.FSetCompat O lt defax
+R14436:14436 Coq.FSets.FSetCompat <> y:197 var
+R14434:14434 Coq.FSets.FSetCompat <> x:196 var
+R14444:14454 Coq.FSets.FSetCompat M max_elt_2 defax
+def 14470:14482 Update_Sets max_elt_spec3
+binder 14493:14493 <> s:198
+R14512:14515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14505:14507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14496:14502 Coq.FSets.FSetCompat Update_Sets max_elt def
+R14504:14504 Coq.FSets.FSetCompat <> s:198 var
+R14508:14511 Coq.Init.Datatypes <> None constr
+R14516:14520 Coq.FSets.FSetCompat Update_Sets Empty def
+R14522:14522 Coq.FSets.FSetCompat <> s:198 var
+R14530:14540 Coq.FSets.FSetCompat M max_elt_3 defax
+def 14556:14569 Update_Sets elements_spec2
+binder 14580:14580 <> s:199
+R14583:14586 Coq.Sorting.Sorted <> sort abbrev
+R14594:14601 Coq.FSets.FSetCompat Update_Sets elements def
+R14603:14603 Coq.FSets.FSetCompat <> s:199 var
+R14588:14591 Coq.FSets.FSetCompat O lt defax
+R14612:14623 Coq.FSets.FSetCompat M elements_3 defax
+def 14639:14650 Update_Sets choose_spec3
+binder 14661:14661 <> s:200
+binder 14663:14664 <> s':201
+binder 14666:14666 <> x:202
+binder 14668:14668 <> y:203
+R14691:14694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14682:14684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14674:14679 Coq.FSets.FSetCompat Update_Sets choose def
+R14681:14681 Coq.FSets.FSetCompat <> s:200 var
+R14685:14688 Coq.Init.Datatypes <> Some constr
+R14690:14690 Coq.FSets.FSetCompat <> x:202 var
+R14713:14716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14704:14706 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14695:14700 Coq.FSets.FSetCompat Update_Sets choose def
+R14702:14703 Coq.FSets.FSetCompat <> s':201 var
+R14707:14710 Coq.Init.Datatypes <> Some constr
+R14712:14712 Coq.FSets.FSetCompat <> y:203 var
+R14727:14730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14717:14721 Coq.FSets.FSetCompat Update_Sets Equal def
+R14725:14726 Coq.FSets.FSetCompat <> s':201 var
+R14723:14723 Coq.FSets.FSetCompat <> s:200 var
+R14731:14734 Coq.FSets.FSetCompat O eq defax
+R14738:14738 Coq.FSets.FSetCompat <> y:203 var
+R14736:14736 Coq.FSets.FSetCompat <> x:202 var
+R14746:14755 Coq.FSets.FSetCompat M choose_3 defax
+inst 14780:14790 Update_Sets lt_strorder
+R14794:14804 Coq.Classes.RelationClasses <> StrictOrder class
+R14806:14807 Coq.FSets.FSetCompat Update_Sets lt def
+R14852:14862 Coq.FSets.FSetCompat M lt_not_eq defax
+R14852:14862 Coq.FSets.FSetCompat M lt_not_eq defax
+R14900:14909 Coq.FSets.FSetCompat M lt_trans defax
+R14900:14909 Coq.FSets.FSetCompat M lt_trans defax
+inst 14941:14949 Update_Sets lt_compat
+R14953:14958 Coq.Classes.Morphisms <> Proper class
+R14976:14977 Coq.FSets.FSetCompat Update_Sets lt def
+R14963:14965 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14961:14962 Coq.FSets.FSetCompat Update_Sets eq def
+R14968:14970 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14966:14967 Coq.FSets.FSetCompat Update_Sets eq def
+R14971:14973 Coq.Init.Logic <> iff def
+R14997:15017 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R14997:15017 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R15090:15091 Coq.FSets.FSetCompat Update_Sets lt def
+R15090:15091 Coq.FSets.FSetCompat Update_Sets lt def
+R15113:15121 Coq.FSets.FSetCompat M compare defax
+R15113:15121 Coq.FSets.FSetCompat M compare defax
+R15159:15169 Coq.FSets.FSetCompat M lt_not_eq defax
+R15159:15169 Coq.FSets.FSetCompat M lt_not_eq defax
+R15207:15217 Coq.FSets.FSetCompat M lt_not_eq defax
+R15220:15229 Coq.FSets.FSetCompat M lt_trans defax
+R15207:15217 Coq.FSets.FSetCompat M lt_not_eq defax
+R15220:15229 Coq.FSets.FSetCompat M lt_trans defax
+R15257:15265 Coq.FSets.FSetCompat M compare defax
+R15257:15265 Coq.FSets.FSetCompat M compare defax
+R15303:15313 Coq.FSets.FSetCompat M lt_not_eq defax
+R15303:15313 Coq.FSets.FSetCompat M lt_not_eq defax
+R15395:15405 Coq.FSets.FSetCompat M lt_not_eq defax
+R15408:15417 Coq.FSets.FSetCompat M lt_trans defax
+R15395:15405 Coq.FSets.FSetCompat M lt_not_eq defax
+R15408:15417 Coq.FSets.FSetCompat M lt_trans defax
+def 15471:15477 Update_Sets compare
+binder 15479:15479 <> s:204
+binder 15481:15482 <> s':205
+R15496:15504 Coq.FSets.FSetCompat M compare defax
+R15508:15509 Coq.FSets.FSetCompat <> s':205 var
+R15506:15506 Coq.FSets.FSetCompat <> s:204 var
+R15522:15523 Coq.Structures.OrderedType <> EQ constr
+R15530:15531 Coq.Init.Datatypes <> Eq constr
+R15539:15540 Coq.Structures.OrderedType <> LT constr
+R15547:15548 Coq.Init.Datatypes <> Lt constr
+R15556:15557 Coq.Structures.OrderedType <> GT constr
+R15564:15565 Coq.Init.Datatypes <> Gt constr
+prf 15584:15595 Update_Sets compare_spec
+binder 15606:15606 <> s:206
+binder 15608:15609 <> s':207
+R15612:15619 Coq.Init.Datatypes <> CompSpec def
+R15633:15639 Coq.FSets.FSetCompat Update_Sets compare def
+R15643:15644 Coq.FSets.FSetCompat <> s':207 var
+R15641:15641 Coq.FSets.FSetCompat <> s:206 var
+R15629:15630 Coq.FSets.FSetCompat <> s':207 var
+R15627:15627 Coq.FSets.FSetCompat <> s:206 var
+R15624:15625 Coq.FSets.FSetCompat Update_Sets lt def
+R15621:15622 Coq.FSets.FSetCompat Update_Sets eq def
+R15672:15678 Coq.FSets.FSetCompat Update_Sets compare def
+R15690:15698 Coq.FSets.FSetCompat M compare defax
+R15690:15698 Coq.FSets.FSetCompat M compare defax
+R15727:15727 Coq.FSets.FSetCompat O <> modtype
+mod 15722:15722 <> Update_Sets.E
+R15735:15745 Coq.FSets.FSetCompat Update_Sets <> mod

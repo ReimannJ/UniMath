@@ -1,0 +1,1564 @@
+DIGEST 1f346420262503ca8252aec3e6b35385
+FCoq.Logic.ClassicalFacts
+def 2049:2063 <> prop_degeneracy
+binder 2075:2075 <> A:1
+R2091:2094 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2084:2086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2083:2083 Coq.Logic.ClassicalFacts <> A:1 var
+R2087:2090 Coq.Init.Logic <> True ind
+R2096:2098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2095:2095 Coq.Logic.ClassicalFacts <> A:1 var
+R2099:2103 Coq.Init.Logic <> False ind
+def 2190:2208 <> prop_extensionality
+binder 2220:2220 <> A:2
+binder 2222:2222 <> B:3
+R2230:2230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2238:2242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2232:2236 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2231:2231 Coq.Logic.ClassicalFacts <> A:2 var
+R2237:2237 Coq.Logic.ClassicalFacts <> B:3 var
+R2244:2246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2243:2243 Coq.Logic.ClassicalFacts <> A:2 var
+R2247:2247 Coq.Logic.ClassicalFacts <> B:3 var
+def 2365:2379 <> excluded_middle
+binder 2391:2391 <> A:4
+R2400:2403 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2399:2399 Coq.Logic.ClassicalFacts <> A:4 var
+R2404:2405 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2406:2406 Coq.Logic.ClassicalFacts <> A:4 var
+prf 2495:2508 <> prop_degen_ext
+R2527:2530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2512:2526 Coq.Logic.ClassicalFacts <> prop_degeneracy def
+R2531:2549 Coq.Logic.ClassicalFacts <> prop_extensionality def
+binder 2688:2688 <> H:5
+R2693:2693 Coq.Logic.ClassicalFacts <> H:5 var
+binder 2688:2688 <> H:6
+R2693:2693 Coq.Logic.ClassicalFacts <> H:6 var
+R2732:2732 Coq.Init.Logic <> I constr
+R2732:2732 Coq.Init.Logic <> I constr
+binder 2778:2778 <> H:7
+R2783:2783 Coq.Logic.ClassicalFacts <> H:7 var
+binder 2778:2778 <> H:8
+R2783:2783 Coq.Logic.ClassicalFacts <> H:8 var
+R2822:2822 Coq.Init.Logic <> I constr
+R2822:2822 Coq.Init.Logic <> I constr
+prf 2863:2875 <> prop_degen_em
+R2894:2897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2879:2893 Coq.Logic.ClassicalFacts <> prop_degeneracy def
+R2898:2912 Coq.Logic.ClassicalFacts <> excluded_middle def
+R2982:2982 Coq.Init.Logic <> I constr
+R2982:2982 Coq.Init.Logic <> I constr
+binder 3019:3019 <> x:9
+R3024:3024 Coq.Logic.ClassicalFacts <> x:9 var
+binder 3019:3019 <> x:10
+R3024:3024 Coq.Logic.ClassicalFacts <> x:10 var
+prf 3040:3056 <> prop_ext_em_degen
+R3081:3084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3062:3080 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R3100:3103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3085:3099 Coq.Logic.ClassicalFacts <> excluded_middle def
+R3104:3118 Coq.Logic.ClassicalFacts <> prop_degeneracy def
+R3189:3192 Coq.Init.Logic <> True ind
+R3226:3226 Coq.Init.Logic <> I constr
+R3189:3192 Coq.Init.Logic <> True ind
+R3226:3226 Coq.Init.Logic <> I constr
+R3277:3281 Coq.Init.Logic <> False ind
+R3310:3318 Coq.Init.Logic <> False_ind scheme
+R3277:3281 Coq.Init.Logic <> False ind
+R3310:3318 Coq.Init.Logic <> False_ind scheme
+R3450:3472 Coq.Logic.PropExtensionalityFacts <> <> lib
+def 3487:3514 <> provable_prop_extensionality
+binder 3526:3526 <> A:11
+R3535:3538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3534:3534 Coq.Logic.ClassicalFacts <> A:11 var
+R3540:3542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3539:3539 Coq.Logic.ClassicalFacts <> A:11 var
+R3543:3546 Coq.Init.Logic <> True ind
+prf 3556:3572 <> provable_prop_ext
+R3597:3600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3578:3596 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R3601:3628 Coq.Logic.ClassicalFacts <> provable_prop_extensionality def
+R3646:3668 Coq.Logic.PropExtensionalityFacts <> PropExt_imp_ProvPropExt thm
+R3646:3668 Coq.Logic.PropExtensionalityFacts <> PropExt_imp_ProvPropExt thm
+abbrev 4311:4319 <> inhabited
+prf 4351:4371 <> prop_ext_A_eq_A_imp_A
+R4396:4399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4377:4395 Coq.Logic.ClassicalFacts <> prop_extensionality def
+binder 4407:4407 <> A:12
+R4426:4429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4415:4423 Coq.Logic.ClassicalFacts <> inhabited abbrev
+R4425:4425 Coq.Logic.ClassicalFacts <> A:12 var
+R4430:4430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4437:4440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4432:4435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4431:4431 Coq.Logic.ClassicalFacts <> A:12 var
+R4436:4436 Coq.Logic.ClassicalFacts <> A:12 var
+R4441:4441 Coq.Logic.ClassicalFacts <> A:12 var
+R4484:4487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4484:4487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+rec 4562:4568 <> retract
+proj 4594:4595 <> f1
+proj 4607:4608 <> f2
+proj 4620:4626 <> f1_o_f2
+binder 4571:4571 <> A:13
+binder 4573:4573 <> B:14
+R4600:4603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4599:4599 Coq.Logic.ClassicalFacts <> A:13 var
+R4604:4604 Coq.Logic.ClassicalFacts <> B:14 var
+R4613:4616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4612:4612 Coq.Logic.ClassicalFacts <> B:14 var
+R4617:4617 Coq.Logic.ClassicalFacts <> A:13 var
+R4639:4639 Coq.Logic.ClassicalFacts <> B:14 var
+binder 4637:4637 <> x:18
+R4651:4653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4642:4643 Coq.Logic.ClassicalFacts <> f1:16 meth
+R4646:4647 Coq.Logic.ClassicalFacts <> f2:17 meth
+R4649:4649 Coq.Logic.ClassicalFacts <> x:18 var
+R4654:4654 Coq.Logic.ClassicalFacts <> x:18 var
+prf 4665:4690 <> prop_ext_retract_A_A_imp_A
+R4715:4718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4696:4714 Coq.Logic.ClassicalFacts <> prop_extensionality def
+binder 4726:4726 <> A:20
+R4745:4748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4734:4742 Coq.Logic.ClassicalFacts <> inhabited abbrev
+R4744:4744 Coq.Logic.ClassicalFacts <> A:20 var
+R4749:4755 Coq.Logic.ClassicalFacts <> retract rec
+R4757:4757 Coq.Logic.ClassicalFacts <> A:20 var
+R4761:4764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4760:4760 Coq.Logic.ClassicalFacts <> A:20 var
+R4765:4765 Coq.Logic.ClassicalFacts <> A:20 var
+R4805:4825 Coq.Logic.ClassicalFacts <> prop_ext_A_eq_A_imp_A thm
+R4805:4825 Coq.Logic.ClassicalFacts <> prop_ext_A_eq_A_imp_A thm
+R4805:4825 Coq.Logic.ClassicalFacts <> prop_ext_A_eq_A_imp_A thm
+binder 4851:4851 <> x:21
+R4858:4858 Coq.Logic.ClassicalFacts <> x:21 var
+binder 4866:4866 <> x:22
+R4873:4873 Coq.Logic.ClassicalFacts <> x:22 var
+binder 4851:4851 <> x:23
+R4858:4858 Coq.Logic.ClassicalFacts <> x:23 var
+binder 4866:4866 <> x:24
+R4873:4873 Coq.Logic.ClassicalFacts <> x:24 var
+rec 4905:4916 <> has_fixpoint
+proj 4940:4940 <> F
+proj 4959:4961 <> Fix
+binder 4919:4919 <> A:25
+R4944:4944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4951:4955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4946:4949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4945:4945 Coq.Logic.ClassicalFacts <> A:25 var
+R4950:4950 Coq.Logic.ClassicalFacts <> A:25 var
+R4956:4956 Coq.Logic.ClassicalFacts <> A:25 var
+R4975:4978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4974:4974 Coq.Logic.ClassicalFacts <> A:25 var
+R4979:4979 Coq.Logic.ClassicalFacts <> A:25 var
+binder 4972:4972 <> f:28
+R4985:4987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4982:4982 Coq.Logic.ClassicalFacts <> F:27 meth
+R4984:4984 Coq.Logic.ClassicalFacts <> f:28 var
+R4988:4988 Coq.Logic.ClassicalFacts <> f:28 var
+R4991:4991 Coq.Logic.ClassicalFacts <> F:27 meth
+R4993:4993 Coq.Logic.ClassicalFacts <> f:28 var
+prf 5005:5021 <> ext_prop_fixpoint
+R5046:5049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5027:5045 Coq.Logic.ClassicalFacts <> prop_extensionality def
+binder 5057:5057 <> A:30
+R5076:5079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5065:5073 Coq.Logic.ClassicalFacts <> inhabited abbrev
+R5075:5075 Coq.Logic.ClassicalFacts <> A:30 var
+R5080:5091 Coq.Logic.ClassicalFacts <> has_fixpoint rec
+R5093:5093 Coq.Logic.ClassicalFacts <> A:30 var
+R5129:5154 Coq.Logic.ClassicalFacts <> prop_ext_retract_A_A_imp_A thm
+R5129:5154 Coq.Logic.ClassicalFacts <> prop_ext_retract_A_A_imp_A thm
+binder 5202:5202 <> f:31
+binder 5212:5212 <> x:32
+R5219:5219 Coq.Logic.ClassicalFacts <> f:31 var
+R5225:5225 Coq.Logic.ClassicalFacts <> x:32 var
+R5227:5227 Coq.Logic.ClassicalFacts <> x:32 var
+binder 5240:5240 <> x:33
+R5245:5245 Coq.Logic.ClassicalFacts <> f:31 var
+R5251:5251 Coq.Logic.ClassicalFacts <> x:33 var
+R5253:5253 Coq.Logic.ClassicalFacts <> x:33 var
+binder 5202:5202 <> f:34
+binder 5212:5212 <> x:35
+R5219:5219 Coq.Logic.ClassicalFacts <> f:34 var
+R5225:5225 Coq.Logic.ClassicalFacts <> x:35 var
+R5227:5227 Coq.Logic.ClassicalFacts <> x:35 var
+binder 5240:5240 <> x:36
+R5245:5245 Coq.Logic.ClassicalFacts <> f:34 var
+R5251:5251 Coq.Logic.ClassicalFacts <> x:36 var
+R5253:5253 Coq.Logic.ClassicalFacts <> x:36 var
+binder 5294:5294 <> x:37
+R5307:5307 Coq.Logic.ClassicalFacts <> x:37 var
+R5309:5309 Coq.Logic.ClassicalFacts <> x:37 var
+binder 5294:5294 <> x:38
+R5307:5307 Coq.Logic.ClassicalFacts <> x:38 var
+R5309:5309 Coq.Logic.ClassicalFacts <> x:38 var
+binder 5345:5345 <> x:39
+R5358:5358 Coq.Logic.ClassicalFacts <> x:39 var
+R5360:5360 Coq.Logic.ClassicalFacts <> x:39 var
+binder 5345:5345 <> x:40
+R5358:5358 Coq.Logic.ClassicalFacts <> x:40 var
+R5360:5360 Coq.Logic.ClassicalFacts <> x:40 var
+binder 5345:5345 <> x:41
+R5358:5358 Coq.Logic.ClassicalFacts <> x:41 var
+R5360:5360 Coq.Logic.ClassicalFacts <> x:41 var
+def 5761:5777 <> proof_irrelevance
+binder 5790:5790 <> A:42
+R5805:5805 Coq.Logic.ClassicalFacts <> A:42 var
+binder 5799:5800 <> a1:43
+binder 5802:5803 <> a2:44
+R5811:5813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5809:5810 Coq.Logic.ClassicalFacts <> a1:43 var
+R5814:5815 Coq.Logic.ClassicalFacts <> a2:44 var
+sec 6234:6254 <> Proof_irrelevance_gen
+var 6269:6272 Proof_irrelevance_gen bool
+var 6293:6296 Proof_irrelevance_gen true
+R6300:6303 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+var 6317:6321 Proof_irrelevance_gen false
+R6325:6328 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+var 6344:6352 Proof_irrelevance_gen bool_elim
+binder 6363:6363 <> C:48
+R6372:6375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6371:6371 Coq.Logic.ClassicalFacts <> C:48 var
+R6377:6380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6376:6376 Coq.Logic.ClassicalFacts <> C:48 var
+R6385:6388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6381:6384 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6389:6389 Coq.Logic.ClassicalFacts <> C:48 var
+var 6409:6422 Proof_irrelevance_gen bool_elim_redl
+binder 6434:6434 <> C:50
+R6449:6449 Coq.Logic.ClassicalFacts <> C:50 var
+binder 6443:6444 <> c1:51
+binder 6446:6447 <> c2:52
+R6455:6457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6453:6454 Coq.Logic.ClassicalFacts <> c1:51 var
+R6458:6466 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6468:6468 Coq.Logic.ClassicalFacts <> C:50 var
+R6470:6471 Coq.Logic.ClassicalFacts <> c1:51 var
+R6473:6474 Coq.Logic.ClassicalFacts <> c2:52 var
+R6476:6479 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+var 6499:6512 Proof_irrelevance_gen bool_elim_redr
+binder 6524:6524 <> C:54
+R6539:6539 Coq.Logic.ClassicalFacts <> C:54 var
+binder 6533:6534 <> c1:55
+binder 6536:6537 <> c2:56
+R6545:6547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6543:6544 Coq.Logic.ClassicalFacts <> c2:56 var
+R6548:6556 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6558:6558 Coq.Logic.ClassicalFacts <> C:54 var
+R6560:6561 Coq.Logic.ClassicalFacts <> c1:55 var
+R6563:6564 Coq.Logic.ClassicalFacts <> c2:56 var
+R6566:6570 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+var 6579:6596 Proof_irrelevance_gen bool_dep_induction
+R6616:6619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6612:6615 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6610:6610 <> P:58
+R6632:6635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6626:6626 Coq.Logic.ClassicalFacts <> P:58 var
+R6628:6631 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6643:6646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6636:6636 Coq.Logic.ClassicalFacts <> P:58 var
+R6638:6642 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6656:6659 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6654:6654 <> b:59
+R6662:6662 Coq.Logic.ClassicalFacts <> P:58 var
+R6664:6664 Coq.Logic.ClassicalFacts <> b:59 var
+prf 6676:6678 <> aux
+R6701:6704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6682:6700 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R6723:6726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6705:6722 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_dep_induction var
+R6731:6733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6727:6730 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6734:6738 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6780:6796 Coq.Logic.ClassicalFacts <> ext_prop_fixpoint thm
+R6802:6805 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6807:6810 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6780:6796 Coq.Logic.ClassicalFacts <> ext_prop_fixpoint thm
+R6802:6805 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6807:6810 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6851:6854 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6849:6849 <> b:60
+R6859:6867 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6869:6872 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6874:6878 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6880:6883 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6885:6885 Coq.Logic.ClassicalFacts <> b:60 var
+R6851:6854 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 6849:6849 <> b:61
+R6859:6867 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R6869:6872 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R6874:6878 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R6880:6883 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R6885:6885 Coq.Logic.ClassicalFacts <> b:61 var
+R6905:6911 Coq.Init.Logic <> eq_refl constr
+R6905:6911 Coq.Init.Logic <> eq_refl constr
+R7006:7019 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7021:7024 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7026:7030 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7032:7035 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7006:7019 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7021:7024 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7026:7030 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7032:7035 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7006:7019 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7021:7024 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7026:7030 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7032:7035 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7055:7057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7051:7054 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7062:7065 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7055:7057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7051:7054 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7062:7065 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7107:7120 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7122:7125 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7127:7131 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7133:7136 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7107:7120 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7122:7125 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7127:7131 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7133:7136 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7107:7120 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7122:7125 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+R7127:7131 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7133:7136 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7161:7163 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7156:7160 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7164:7168 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7161:7163 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7156:7160 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7164:7168 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+prf 7230:7257 <> ext_prop_dep_proof_irrel_gen
+R7284:7287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7265:7283 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R7306:7309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7288:7305 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_dep_induction var
+R7310:7326 Coq.Logic.ClassicalFacts <> proof_irrelevance def
+R7386:7389 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 7384:7384 <> b:62
+R7394:7402 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R7412:7412 Coq.Logic.ClassicalFacts <> b:62 var
+R7386:7389 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool var
+binder 7384:7384 <> b:63
+R7394:7402 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim var
+R7412:7412 Coq.Logic.ClassicalFacts <> b:63 var
+R7429:7442 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7429:7442 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7429:7442 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redl var
+R7472:7474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7468:7471 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7472:7474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7468:7471 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7493:7506 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7493:7506 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7493:7506 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.bool_elim_redr var
+R7536:7538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7532:7535 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7541:7545 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7536:7538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7532:7535 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.true var
+R7541:7545 Coq.Logic.ClassicalFacts <> Proof_irrelevance_gen.false var
+R7562:7564 Coq.Logic.ClassicalFacts <> aux thm
+R7562:7564 Coq.Logic.ClassicalFacts <> aux thm
+R7562:7564 Coq.Logic.ClassicalFacts <> aux thm
+R7605:7625 Coq.Logic.ClassicalFacts Proof_irrelevance_gen <> sec
+sec 7805:7833 <> Proof_irrelevance_Prop_Ext_CC
+def 7850:7854 <> BoolP
+binder 7866:7866 <> C:64
+R7875:7878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7874:7874 Coq.Logic.ClassicalFacts <> C:64 var
+R7880:7883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7879:7879 Coq.Logic.ClassicalFacts <> C:64 var
+R7884:7884 Coq.Logic.ClassicalFacts <> C:64 var
+def 7900:7904 <> TrueP
+R7908:7912 Coq.Logic.ClassicalFacts <> BoolP def
+binder 7921:7921 <> C:65
+binder 7923:7924 <> c1:66
+binder 7926:7927 <> c2:67
+R7932:7933 Coq.Logic.ClassicalFacts <> c1:66 var
+def 7949:7954 <> FalseP
+R7958:7962 Coq.Logic.ClassicalFacts <> BoolP def
+binder 7971:7971 <> C:68
+binder 7973:7974 <> c1:69
+binder 7976:7977 <> c2:70
+R7982:7983 Coq.Logic.ClassicalFacts <> c2:70 var
+def 7999:8008 <> BoolP_elim
+binder 8010:8010 <> C:71
+binder 8012:8013 <> c1:72
+binder 8015:8016 <> c2:73
+R8021:8025 Coq.Logic.ClassicalFacts <> BoolP def
+binder 8019:8019 <> b:74
+R8031:8031 Coq.Logic.ClassicalFacts <> b:74 var
+R8033:8033 Coq.Logic.ClassicalFacts <> C:71 var
+R8035:8036 Coq.Logic.ClassicalFacts <> c1:72 var
+R8038:8039 Coq.Logic.ClassicalFacts <> c2:73 var
+def 8055:8069 <> BoolP_elim_redl
+binder 8072:8072 <> C:75
+R8087:8087 Coq.Logic.ClassicalFacts <> C:75 var
+binder 8081:8082 <> c1:76
+binder 8084:8085 <> c2:77
+R8098:8100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8096:8097 Coq.Logic.ClassicalFacts <> c1:76 var
+R8101:8110 Coq.Logic.ClassicalFacts <> BoolP_elim def
+R8112:8112 Coq.Logic.ClassicalFacts <> C:75 var
+R8114:8115 Coq.Logic.ClassicalFacts <> c1:76 var
+R8117:8118 Coq.Logic.ClassicalFacts <> c2:77 var
+R8120:8124 Coq.Logic.ClassicalFacts <> TrueP def
+R8129:8135 Coq.Init.Logic <> eq_refl constr
+R8137:8138 Coq.Logic.ClassicalFacts <> c1:76 var
+def 8154:8168 <> BoolP_elim_redr
+binder 8171:8171 <> C:78
+R8186:8186 Coq.Logic.ClassicalFacts <> C:78 var
+binder 8180:8181 <> c1:79
+binder 8183:8184 <> c2:80
+R8197:8199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8195:8196 Coq.Logic.ClassicalFacts <> c2:80 var
+R8200:8209 Coq.Logic.ClassicalFacts <> BoolP_elim def
+R8211:8211 Coq.Logic.ClassicalFacts <> C:78 var
+R8213:8214 Coq.Logic.ClassicalFacts <> c1:79 var
+R8216:8217 Coq.Logic.ClassicalFacts <> c2:80 var
+R8219:8224 Coq.Logic.ClassicalFacts <> FalseP def
+R8229:8235 Coq.Init.Logic <> eq_refl constr
+R8237:8238 Coq.Logic.ClassicalFacts <> c2:80 var
+def 8255:8273 <> BoolP_dep_induction
+R8296:8299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8291:8295 Coq.Logic.ClassicalFacts <> BoolP def
+binder 8289:8289 <> P:81
+R8313:8316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8306:8306 Coq.Logic.ClassicalFacts <> P:81 var
+R8308:8312 Coq.Logic.ClassicalFacts <> TrueP def
+R8325:8328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8317:8317 Coq.Logic.ClassicalFacts <> P:81 var
+R8319:8324 Coq.Logic.ClassicalFacts <> FalseP def
+R8338:8342 Coq.Logic.ClassicalFacts <> BoolP def
+binder 8336:8336 <> b:82
+R8345:8345 Coq.Logic.ClassicalFacts <> P:81 var
+R8347:8347 Coq.Logic.ClassicalFacts <> b:82 var
+prf 8359:8385 <> ext_prop_dep_proof_irrel_cc
+R8412:8415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8393:8411 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R8435:8438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8416:8434 Coq.Logic.ClassicalFacts <> BoolP_dep_induction def
+R8439:8455 Coq.Logic.ClassicalFacts <> proof_irrelevance def
+R8478:8505 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R8559:8573 Coq.Logic.ClassicalFacts <> BoolP_elim_redr def
+R8537:8551 Coq.Logic.ClassicalFacts <> BoolP_elim_redl def
+R8526:8535 Coq.Logic.ClassicalFacts <> BoolP_elim def
+R8519:8524 Coq.Logic.ClassicalFacts <> FalseP def
+R8513:8517 Coq.Logic.ClassicalFacts <> TrueP def
+R8507:8511 Coq.Logic.ClassicalFacts <> BoolP def
+R8478:8505 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R8559:8573 Coq.Logic.ClassicalFacts <> BoolP_elim_redr def
+R8537:8551 Coq.Logic.ClassicalFacts <> BoolP_elim_redl def
+R8526:8535 Coq.Logic.ClassicalFacts <> BoolP_elim def
+R8519:8524 Coq.Logic.ClassicalFacts <> FalseP def
+R8513:8517 Coq.Logic.ClassicalFacts <> TrueP def
+R8507:8511 Coq.Logic.ClassicalFacts <> BoolP def
+R8589:8617 Coq.Logic.ClassicalFacts Proof_irrelevance_Prop_Ext_CC <> sec
+sec 9118:9138 <> Proof_irrelevance_CIC
+ind 9154:9158 <> boolP
+constr 9176:9180 <> trueP
+constr 9196:9201 <> falseP
+R9184:9188 Coq.Logic.ClassicalFacts <> boolP:83 ind
+R9205:9209 Coq.Logic.ClassicalFacts <> boolP:83 ind
+def 9225:9239 <> boolP_elim_redl
+binder 9242:9242 <> C:85
+R9257:9257 Coq.Logic.ClassicalFacts <> C:85 var
+binder 9251:9252 <> c1:86
+binder 9254:9255 <> c2:87
+R9268:9270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9266:9267 Coq.Logic.ClassicalFacts <> c1:86 var
+R9271:9279 Coq.Logic.ClassicalFacts <> boolP_ind scheme
+R9281:9281 Coq.Logic.ClassicalFacts <> C:85 var
+R9283:9284 Coq.Logic.ClassicalFacts <> c1:86 var
+R9286:9287 Coq.Logic.ClassicalFacts <> c2:87 var
+R9289:9293 Coq.Logic.ClassicalFacts <> trueP constr
+R9298:9304 Coq.Init.Logic <> eq_refl constr
+R9306:9307 Coq.Logic.ClassicalFacts <> c1:86 var
+def 9323:9337 <> boolP_elim_redr
+binder 9340:9340 <> C:88
+R9355:9355 Coq.Logic.ClassicalFacts <> C:88 var
+binder 9349:9350 <> c1:89
+binder 9352:9353 <> c2:90
+R9366:9368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9364:9365 Coq.Logic.ClassicalFacts <> c2:90 var
+R9369:9377 Coq.Logic.ClassicalFacts <> boolP_ind scheme
+R9379:9379 Coq.Logic.ClassicalFacts <> C:88 var
+R9381:9382 Coq.Logic.ClassicalFacts <> c1:89 var
+R9384:9385 Coq.Logic.ClassicalFacts <> c2:90 var
+R9387:9392 Coq.Logic.ClassicalFacts <> falseP constr
+R9397:9403 Coq.Init.Logic <> eq_refl constr
+R9405:9406 Coq.Logic.ClassicalFacts <> c2:90 var
+def 9418:9427 <> boolP_indd
+R9446:9450 Coq.Logic.ClassicalFacts <> boolP ind
+prf 9472:9499 <> ext_prop_dep_proof_irrel_cic
+R9522:9525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9503:9521 Coq.Logic.ClassicalFacts <> prop_extensionality def
+R9526:9542 Coq.Logic.ClassicalFacts <> proof_irrelevance def
+binder 9569:9570 <> pe:91
+R9581:9608 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R9677:9678 Coq.Logic.ClassicalFacts <> pe:91 var
+R9680:9689 Coq.Logic.ClassicalFacts <> boolP_indd scheme
+R9661:9675 Coq.Logic.ClassicalFacts <> boolP_elim_redr def
+R9639:9653 Coq.Logic.ClassicalFacts <> boolP_elim_redl def
+R9629:9637 Coq.Logic.ClassicalFacts <> boolP_ind scheme
+R9622:9627 Coq.Logic.ClassicalFacts <> falseP constr
+R9616:9620 Coq.Logic.ClassicalFacts <> trueP constr
+R9610:9614 Coq.Logic.ClassicalFacts <> boolP ind
+binder 9569:9570 <> pe:92
+R9581:9608 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_gen thm
+R9677:9678 Coq.Logic.ClassicalFacts <> pe:92 var
+R9680:9689 Coq.Logic.ClassicalFacts <> boolP_indd scheme
+R9661:9675 Coq.Logic.ClassicalFacts <> boolP_elim_redr def
+R9639:9653 Coq.Logic.ClassicalFacts <> boolP_elim_redl def
+R9629:9637 Coq.Logic.ClassicalFacts <> boolP_ind scheme
+R9622:9627 Coq.Logic.ClassicalFacts <> falseP constr
+R9616:9620 Coq.Logic.ClassicalFacts <> trueP constr
+R9610:9614 Coq.Logic.ClassicalFacts <> boolP ind
+R9705:9725 Coq.Logic.ClassicalFacts Proof_irrelevance_CIC <> sec
+R11104:11110 Coq.Logic.Hurkens <> <> lib
+sec 11122:11144 <> Proof_irrelevance_EM_CC
+var 11159:11160 Proof_irrelevance_EM_CC or
+R11168:11171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11176:11179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+var 11197:11205 Proof_irrelevance_EM_CC or_introl
+binder 11216:11216 <> A:94
+binder 11218:11218 <> B:95
+R11227:11230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11226:11226 Coq.Logic.ClassicalFacts <> A:94 var
+R11231:11232 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11234:11234 Coq.Logic.ClassicalFacts <> A:94 var
+R11236:11236 Coq.Logic.ClassicalFacts <> B:95 var
+var 11250:11258 Proof_irrelevance_EM_CC or_intror
+binder 11269:11269 <> A:97
+binder 11271:11271 <> B:98
+R11280:11283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11279:11279 Coq.Logic.ClassicalFacts <> B:98 var
+R11284:11285 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11287:11287 Coq.Logic.ClassicalFacts <> A:97 var
+R11289:11289 Coq.Logic.ClassicalFacts <> B:98 var
+var 11305:11311 Proof_irrelevance_EM_CC or_elim
+binder 11322:11322 <> A:100
+binder 11324:11324 <> B:101
+binder 11326:11326 <> C:102
+R11334:11334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11341:11345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11336:11339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11335:11335 Coq.Logic.ClassicalFacts <> A:100 var
+R11340:11340 Coq.Logic.ClassicalFacts <> C:102 var
+R11346:11346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11353:11357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11348:11351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11347:11347 Coq.Logic.ClassicalFacts <> B:101 var
+R11352:11352 Coq.Logic.ClassicalFacts <> C:102 var
+R11364:11367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11358:11359 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11361:11361 Coq.Logic.ClassicalFacts <> A:100 var
+R11363:11363 Coq.Logic.ClassicalFacts <> B:101 var
+R11368:11368 Coq.Logic.ClassicalFacts <> C:102 var
+var 11388:11399 Proof_irrelevance_EM_CC or_elim_redl
+binder 11415:11415 <> A:104
+binder 11417:11417 <> B:105
+binder 11419:11419 <> C:106
+R11431:11434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11430:11430 Coq.Logic.ClassicalFacts <> A:104 var
+R11435:11435 Coq.Logic.ClassicalFacts <> C:106 var
+binder 11428:11428 <> f:107
+R11442:11445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11441:11441 Coq.Logic.ClassicalFacts <> B:105 var
+R11446:11446 Coq.Logic.ClassicalFacts <> C:106 var
+binder 11439:11439 <> g:108
+R11452:11452 Coq.Logic.ClassicalFacts <> A:104 var
+binder 11450:11450 <> a:109
+R11465:11467 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11462:11462 Coq.Logic.ClassicalFacts <> f:107 var
+R11464:11464 Coq.Logic.ClassicalFacts <> a:109 var
+R11468:11474 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R11476:11476 Coq.Logic.ClassicalFacts <> A:104 var
+R11478:11478 Coq.Logic.ClassicalFacts <> B:105 var
+R11480:11480 Coq.Logic.ClassicalFacts <> C:106 var
+R11482:11482 Coq.Logic.ClassicalFacts <> f:107 var
+R11484:11484 Coq.Logic.ClassicalFacts <> g:108 var
+R11487:11495 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_introl var
+R11497:11497 Coq.Logic.ClassicalFacts <> A:104 var
+R11499:11499 Coq.Logic.ClassicalFacts <> B:105 var
+R11501:11501 Coq.Logic.ClassicalFacts <> a:109 var
+var 11522:11533 Proof_irrelevance_EM_CC or_elim_redr
+binder 11549:11549 <> A:111
+binder 11551:11551 <> B:112
+binder 11553:11553 <> C:113
+R11565:11568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11564:11564 Coq.Logic.ClassicalFacts <> A:111 var
+R11569:11569 Coq.Logic.ClassicalFacts <> C:113 var
+binder 11562:11562 <> f:114
+R11576:11579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11575:11575 Coq.Logic.ClassicalFacts <> B:112 var
+R11580:11580 Coq.Logic.ClassicalFacts <> C:113 var
+binder 11573:11573 <> g:115
+R11586:11586 Coq.Logic.ClassicalFacts <> B:112 var
+binder 11584:11584 <> b:116
+R11599:11601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11596:11596 Coq.Logic.ClassicalFacts <> g:115 var
+R11598:11598 Coq.Logic.ClassicalFacts <> b:116 var
+R11602:11608 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R11610:11610 Coq.Logic.ClassicalFacts <> A:111 var
+R11612:11612 Coq.Logic.ClassicalFacts <> B:112 var
+R11614:11614 Coq.Logic.ClassicalFacts <> C:113 var
+R11616:11616 Coq.Logic.ClassicalFacts <> f:114 var
+R11618:11618 Coq.Logic.ClassicalFacts <> g:115 var
+R11621:11629 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_intror var
+R11631:11631 Coq.Logic.ClassicalFacts <> A:111 var
+R11633:11633 Coq.Logic.ClassicalFacts <> B:112 var
+R11635:11635 Coq.Logic.ClassicalFacts <> b:116 var
+var 11656:11666 Proof_irrelevance_EM_CC or_dep_elim
+binder 11682:11682 <> A:118
+binder 11684:11684 <> B:119
+R11701:11704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11695:11696 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11698:11698 Coq.Logic.ClassicalFacts <> A:118 var
+R11700:11700 Coq.Logic.ClassicalFacts <> B:119 var
+binder 11693:11693 <> P:120
+R11718:11718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11750:11760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11728:11728 Coq.Logic.ClassicalFacts <> A:118 var
+binder 11726:11726 <> a:121
+R11731:11731 Coq.Logic.ClassicalFacts <> P:120 var
+R11734:11742 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_introl var
+R11744:11744 Coq.Logic.ClassicalFacts <> A:118 var
+R11746:11746 Coq.Logic.ClassicalFacts <> B:119 var
+R11748:11748 Coq.Logic.ClassicalFacts <> a:121 var
+R11761:11761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11793:11797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11771:11771 Coq.Logic.ClassicalFacts <> B:119 var
+binder 11769:11769 <> b:122
+R11774:11774 Coq.Logic.ClassicalFacts <> P:120 var
+R11777:11785 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_intror var
+R11787:11787 Coq.Logic.ClassicalFacts <> A:118 var
+R11789:11789 Coq.Logic.ClassicalFacts <> B:119 var
+R11791:11791 Coq.Logic.ClassicalFacts <> b:122 var
+R11807:11808 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11810:11810 Coq.Logic.ClassicalFacts <> A:118 var
+R11812:11812 Coq.Logic.ClassicalFacts <> B:119 var
+binder 11805:11805 <> b:123
+R11815:11815 Coq.Logic.ClassicalFacts <> P:120 var
+R11817:11817 Coq.Logic.ClassicalFacts <> b:123 var
+var 11834:11835 Proof_irrelevance_EM_CC em
+binder 11846:11846 <> A:125
+R11854:11855 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or var
+R11857:11857 Coq.Logic.ClassicalFacts <> A:125 var
+R11860:11861 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11862:11862 Coq.Logic.ClassicalFacts <> A:125 var
+var 11877:11877 Proof_irrelevance_EM_CC B
+var 11899:11900 Proof_irrelevance_EM_CC b1
+var 11902:11903 Proof_irrelevance_EM_CC b2
+R11907:11907 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+var 11970:11972 Proof_irrelevance_EM_CC p2b
+binder 11974:11974 <> A:130
+R11979:11985 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R11987:11987 Coq.Logic.ClassicalFacts <> A:130 var
+R11990:11991 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11992:11992 Coq.Logic.ClassicalFacts <> A:130 var
+R11995:11995 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12007:12008 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12021:12022 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12026:12027 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12029:12029 Coq.Logic.ClassicalFacts <> A:130 var
+var 12039:12041 Proof_irrelevance_EM_CC b2p
+binder 12043:12043 <> b:131
+R12050:12052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12048:12049 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12053:12053 Coq.Logic.ClassicalFacts <> b:131 var
+prf 12065:12068 <> p2p1
+binder 12079:12079 <> A:132
+R12088:12091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12087:12087 Coq.Logic.ClassicalFacts <> A:132 var
+R12092:12094 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12097:12099 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12101:12101 Coq.Logic.ClassicalFacts <> A:132 var
+R12125:12127 Coq.Logic.ClassicalFacts <> p2b vardef
+R12168:12169 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12145:12155 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12188:12190 Coq.Logic.ClassicalFacts <> b2p vardef
+R12168:12169 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12145:12155 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12212:12223 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redl var
+R12228:12229 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12233:12233 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12245:12246 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12259:12260 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12212:12223 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redl var
+R12228:12229 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12233:12233 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12245:12246 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12259:12260 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+prf 12301:12304 <> p2p2
+R12316:12319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12310:12313 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12308:12309 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12314:12315 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+binder 12327:12327 <> A:133
+R12346:12349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12335:12337 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12340:12342 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12344:12344 Coq.Logic.ClassicalFacts <> A:133 var
+R12350:12350 Coq.Logic.ClassicalFacts <> A:133 var
+R12397:12399 Coq.Logic.ClassicalFacts <> p2b vardef
+R12440:12441 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12417:12427 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12460:12462 Coq.Logic.ClassicalFacts <> b2p vardef
+R12440:12441 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12417:12427 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_dep_elim var
+R12532:12543 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redr var
+R12548:12549 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12553:12553 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12565:12566 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12579:12580 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12532:12543 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redr var
+R12548:12549 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12553:12553 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12565:12566 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12579:12580 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12532:12543 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim_redr var
+R12548:12549 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12553:12553 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12565:12566 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12579:12580 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+prf 12696:12715 <> proof_irrelevance_cc
+R12721:12723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12719:12720 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12724:12725 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12749:12755 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R12768:12769 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12774:12776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12772:12773 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12777:12778 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12749:12755 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.or_elim var
+R12768:12769 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.em var
+R12774:12776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12772:12773 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b1 var
+R12777:12778 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2 var
+R12817:12859 Coq.Logic.Hurkens NoRetractFromSmallPropositionToProp paradox thm
+R12880:12883 Coq.Logic.ClassicalFacts <> p2p1 thm
+R12872:12875 Coq.Logic.ClassicalFacts <> p2p2 thm
+R12867:12869 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12863:12865 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12861:12861 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12817:12859 Coq.Logic.Hurkens NoRetractFromSmallPropositionToProp paradox thm
+R12880:12883 Coq.Logic.ClassicalFacts <> p2p1 thm
+R12872:12875 Coq.Logic.ClassicalFacts <> p2p2 thm
+R12867:12869 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.b2p var
+R12863:12865 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.p2b var
+R12861:12861 Coq.Logic.ClassicalFacts <> Proof_irrelevance_EM_CC.B var
+R12899:12921 Coq.Logic.ClassicalFacts Proof_irrelevance_EM_CC <> sec
+sec 13290:13313 <> Proof_irrelevance_WEM_CC
+var 13328:13329 Proof_irrelevance_WEM_CC or
+R13337:13340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13345:13348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+var 13366:13374 Proof_irrelevance_WEM_CC or_introl
+binder 13385:13385 <> A:135
+binder 13387:13387 <> B:136
+R13396:13399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13395:13395 Coq.Logic.ClassicalFacts <> A:135 var
+R13400:13401 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13403:13403 Coq.Logic.ClassicalFacts <> A:135 var
+R13405:13405 Coq.Logic.ClassicalFacts <> B:136 var
+var 13419:13427 Proof_irrelevance_WEM_CC or_intror
+binder 13438:13438 <> A:138
+binder 13440:13440 <> B:139
+R13449:13452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13448:13448 Coq.Logic.ClassicalFacts <> B:139 var
+R13453:13454 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13456:13456 Coq.Logic.ClassicalFacts <> A:138 var
+R13458:13458 Coq.Logic.ClassicalFacts <> B:139 var
+var 13474:13480 Proof_irrelevance_WEM_CC or_elim
+binder 13491:13491 <> A:141
+binder 13493:13493 <> B:142
+binder 13495:13495 <> C:143
+R13503:13503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13510:13514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13505:13508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13504:13504 Coq.Logic.ClassicalFacts <> A:141 var
+R13509:13509 Coq.Logic.ClassicalFacts <> C:143 var
+R13515:13515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13522:13526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13517:13520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13516:13516 Coq.Logic.ClassicalFacts <> B:142 var
+R13521:13521 Coq.Logic.ClassicalFacts <> C:143 var
+R13533:13536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13527:13528 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13530:13530 Coq.Logic.ClassicalFacts <> A:141 var
+R13532:13532 Coq.Logic.ClassicalFacts <> B:142 var
+R13537:13537 Coq.Logic.ClassicalFacts <> C:143 var
+var 13557:13568 Proof_irrelevance_WEM_CC or_elim_redl
+binder 13584:13584 <> A:145
+binder 13586:13586 <> B:146
+binder 13588:13588 <> C:147
+R13600:13603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13599:13599 Coq.Logic.ClassicalFacts <> A:145 var
+R13604:13604 Coq.Logic.ClassicalFacts <> C:147 var
+binder 13597:13597 <> f:148
+R13611:13614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13610:13610 Coq.Logic.ClassicalFacts <> B:146 var
+R13615:13615 Coq.Logic.ClassicalFacts <> C:147 var
+binder 13608:13608 <> g:149
+R13621:13621 Coq.Logic.ClassicalFacts <> A:145 var
+binder 13619:13619 <> a:150
+R13634:13636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13631:13631 Coq.Logic.ClassicalFacts <> f:148 var
+R13633:13633 Coq.Logic.ClassicalFacts <> a:150 var
+R13637:13643 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R13645:13645 Coq.Logic.ClassicalFacts <> A:145 var
+R13647:13647 Coq.Logic.ClassicalFacts <> B:146 var
+R13649:13649 Coq.Logic.ClassicalFacts <> C:147 var
+R13651:13651 Coq.Logic.ClassicalFacts <> f:148 var
+R13653:13653 Coq.Logic.ClassicalFacts <> g:149 var
+R13656:13664 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_introl var
+R13666:13666 Coq.Logic.ClassicalFacts <> A:145 var
+R13668:13668 Coq.Logic.ClassicalFacts <> B:146 var
+R13670:13670 Coq.Logic.ClassicalFacts <> a:150 var
+var 13691:13702 Proof_irrelevance_WEM_CC or_elim_redr
+binder 13718:13718 <> A:152
+binder 13720:13720 <> B:153
+binder 13722:13722 <> C:154
+R13734:13737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13733:13733 Coq.Logic.ClassicalFacts <> A:152 var
+R13738:13738 Coq.Logic.ClassicalFacts <> C:154 var
+binder 13731:13731 <> f:155
+R13745:13748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13744:13744 Coq.Logic.ClassicalFacts <> B:153 var
+R13749:13749 Coq.Logic.ClassicalFacts <> C:154 var
+binder 13742:13742 <> g:156
+R13755:13755 Coq.Logic.ClassicalFacts <> B:153 var
+binder 13753:13753 <> b:157
+R13768:13770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13765:13765 Coq.Logic.ClassicalFacts <> g:156 var
+R13767:13767 Coq.Logic.ClassicalFacts <> b:157 var
+R13771:13777 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R13779:13779 Coq.Logic.ClassicalFacts <> A:152 var
+R13781:13781 Coq.Logic.ClassicalFacts <> B:153 var
+R13783:13783 Coq.Logic.ClassicalFacts <> C:154 var
+R13785:13785 Coq.Logic.ClassicalFacts <> f:155 var
+R13787:13787 Coq.Logic.ClassicalFacts <> g:156 var
+R13790:13798 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_intror var
+R13800:13800 Coq.Logic.ClassicalFacts <> A:152 var
+R13802:13802 Coq.Logic.ClassicalFacts <> B:153 var
+R13804:13804 Coq.Logic.ClassicalFacts <> b:157 var
+var 13825:13835 Proof_irrelevance_WEM_CC or_dep_elim
+binder 13851:13851 <> A:159
+binder 13853:13853 <> B:160
+R13870:13873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13864:13865 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13867:13867 Coq.Logic.ClassicalFacts <> A:159 var
+R13869:13869 Coq.Logic.ClassicalFacts <> B:160 var
+binder 13862:13862 <> P:161
+R13887:13887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13919:13929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13897:13897 Coq.Logic.ClassicalFacts <> A:159 var
+binder 13895:13895 <> a:162
+R13900:13900 Coq.Logic.ClassicalFacts <> P:161 var
+R13903:13911 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_introl var
+R13913:13913 Coq.Logic.ClassicalFacts <> A:159 var
+R13915:13915 Coq.Logic.ClassicalFacts <> B:160 var
+R13917:13917 Coq.Logic.ClassicalFacts <> a:162 var
+R13930:13930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13962:13966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13940:13940 Coq.Logic.ClassicalFacts <> B:160 var
+binder 13938:13938 <> b:163
+R13943:13943 Coq.Logic.ClassicalFacts <> P:161 var
+R13946:13954 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_intror var
+R13956:13956 Coq.Logic.ClassicalFacts <> A:159 var
+R13958:13958 Coq.Logic.ClassicalFacts <> B:160 var
+R13960:13960 Coq.Logic.ClassicalFacts <> b:163 var
+R13976:13977 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R13979:13979 Coq.Logic.ClassicalFacts <> A:159 var
+R13981:13981 Coq.Logic.ClassicalFacts <> B:160 var
+binder 13974:13974 <> b:164
+R13984:13984 Coq.Logic.ClassicalFacts <> P:161 var
+R13986:13986 Coq.Logic.ClassicalFacts <> b:164 var
+var 14003:14005 Proof_irrelevance_WEM_CC wem
+binder 14016:14016 <> A:166
+R14024:14025 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or var
+R14028:14028 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14029:14029 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14030:14030 Coq.Logic.ClassicalFacts <> A:166 var
+R14034:14035 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14036:14036 Coq.Logic.ClassicalFacts <> A:166 var
+abbrev 14058:14062 <> NProp
+R14067:14095 Coq.Logic.Hurkens NoRetractToNegativeProp NProp def
+abbrev 14115:14116 <> El
+R14121:14146 Coq.Logic.Hurkens NoRetractToNegativeProp El def
+var 14163:14163 Proof_irrelevance_WEM_CC B
+var 14185:14186 Proof_irrelevance_WEM_CC b1
+var 14188:14189 Proof_irrelevance_WEM_CC b2
+R14193:14193 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+var 14256:14258 Proof_irrelevance_WEM_CC p2b
+R14263:14267 Coq.Logic.ClassicalFacts <> NProp abbrev
+binder 14261:14261 <> A:171
+R14273:14279 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim var
+R14282:14282 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14283:14283 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14284:14285 Coq.Logic.ClassicalFacts <> El abbrev
+R14287:14287 Coq.Logic.ClassicalFacts <> A:171 var
+R14291:14291 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14292:14293 Coq.Logic.ClassicalFacts <> El abbrev
+R14295:14295 Coq.Logic.ClassicalFacts <> A:171 var
+R14298:14298 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+R14310:14311 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14324:14325 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R14329:14331 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14334:14335 Coq.Logic.ClassicalFacts <> El abbrev
+R14337:14337 Coq.Logic.ClassicalFacts <> A:171 var
+var 14348:14350 Proof_irrelevance_WEM_CC b2p
+binder 14352:14352 <> b:172
+R14356:14360 Coq.Logic.ClassicalFacts <> NProp abbrev
+R14365:14369 Coq.Init.Specif <> exist constr
+binder 14407:14407 <> h:173
+binder 14409:14409 <> x:174
+R14414:14414 Coq.Logic.ClassicalFacts <> h:173 var
+binder 14421:14421 <> k:175
+R14426:14426 Coq.Logic.ClassicalFacts <> k:175 var
+R14428:14428 Coq.Logic.ClassicalFacts <> x:174 var
+R14390:14390 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14391:14392 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14399:14399 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14395:14397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14393:14394 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14398:14398 Coq.Logic.ClassicalFacts <> b:172 var
+binder 14376:14376 <> P:176
+R14382:14385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14379:14379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14380:14380 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14381:14381 Coq.Logic.ClassicalFacts <> P:176 var
+R14386:14386 Coq.Logic.ClassicalFacts <> P:176 var
+prf 14442:14446 <> wp2p1
+R14459:14463 Coq.Logic.ClassicalFacts <> NProp abbrev
+binder 14457:14457 <> A:177
+R14470:14473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14466:14467 Coq.Logic.ClassicalFacts <> El abbrev
+R14469:14469 Coq.Logic.ClassicalFacts <> A:177 var
+R14474:14475 Coq.Logic.ClassicalFacts <> El abbrev
+R14478:14480 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R14483:14485 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R14487:14487 Coq.Logic.ClassicalFacts <> A:177 var
+R14522:14524 Coq.Logic.ClassicalFacts <> p2b vardef
+R14561:14563 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14566:14567 Coq.Logic.ClassicalFacts <> El abbrev
+R14537:14547 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R14561:14563 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14566:14567 Coq.Logic.ClassicalFacts <> El abbrev
+R14537:14547 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R14611:14622 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redl var
+R14611:14622 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redl var
+R14611:14622 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redl var
+prf 14698:14702 <> wp2p2
+R14714:14717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14708:14711 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14706:14707 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R14712:14713 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R14727:14731 Coq.Logic.ClassicalFacts <> NProp abbrev
+binder 14725:14725 <> A:178
+R14750:14753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14734:14735 Coq.Logic.ClassicalFacts <> El abbrev
+R14738:14740 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R14743:14745 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R14747:14747 Coq.Logic.ClassicalFacts <> A:178 var
+R14754:14755 Coq.Logic.ClassicalFacts <> El abbrev
+R14757:14757 Coq.Logic.ClassicalFacts <> A:178 var
+R14814:14816 Coq.Logic.ClassicalFacts <> p2b vardef
+R14853:14855 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14858:14859 Coq.Logic.ClassicalFacts <> El abbrev
+R14829:14839 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R14853:14855 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.wem var
+R14858:14859 Coq.Logic.ClassicalFacts <> El abbrev
+R14829:14839 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_dep_elim var
+R14974:14985 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redr var
+R14974:14985 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redr var
+R14974:14985 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.or_elim_redr var
+prf 15127:15147 <> wproof_irrelevance_cc
+R15151:15151 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15152:15153 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15161:15161 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15156:15158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15154:15155 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R15159:15160 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2 var
+R15219:15223 Coq.Init.Specif <> exist constr
+R15243:15243 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+binder 15230:15230 <> P:179
+R15236:15239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15233:15233 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15234:15234 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15235:15235 Coq.Logic.ClassicalFacts <> P:179 var
+R15240:15240 Coq.Logic.ClassicalFacts <> P:179 var
+binder 15213:15214 <> NB:180
+R15219:15223 Coq.Init.Specif <> exist constr
+R15243:15243 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.B var
+binder 15230:15230 <> P:181
+R15236:15239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15233:15233 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15234:15234 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15235:15235 Coq.Logic.ClassicalFacts <> P:181 var
+R15240:15240 Coq.Logic.ClassicalFacts <> P:181 var
+binder 15213:15214 <> NB:182
+R15277:15278 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R15277:15278 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b1 var
+R15300:15330 Coq.Logic.Hurkens NoRetractToNegativeProp paradox thm
+R15353:15357 Coq.Logic.ClassicalFacts <> wp2p1 thm
+R15344:15348 Coq.Logic.ClassicalFacts <> wp2p2 thm
+R15339:15341 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R15335:15337 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R15300:15330 Coq.Logic.Hurkens NoRetractToNegativeProp paradox thm
+R15353:15357 Coq.Logic.ClassicalFacts <> wp2p1 thm
+R15344:15348 Coq.Logic.ClassicalFacts <> wp2p2 thm
+R15339:15341 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.b2p var
+R15335:15337 Coq.Logic.ClassicalFacts <> Proof_irrelevance_WEM_CC.p2b var
+R15403:15407 Coq.Init.Specif <> exist constr
+R15425:15429 Coq.Init.Logic <> False ind
+binder 15414:15414 <> P:183
+R15420:15421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15417:15417 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15418:15418 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15419:15419 Coq.Logic.ClassicalFacts <> P:183 var
+R15422:15422 Coq.Logic.ClassicalFacts <> P:183 var
+binder 15398:15398 <> F:184
+R15403:15407 Coq.Init.Specif <> exist constr
+R15425:15429 Coq.Init.Logic <> False ind
+binder 15414:15414 <> P:185
+R15420:15421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15417:15417 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15418:15418 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15419:15419 Coq.Logic.ClassicalFacts <> P:185 var
+R15422:15422 Coq.Logic.ClassicalFacts <> P:185 var
+binder 15398:15398 <> F:186
+R15490:15513 Coq.Logic.ClassicalFacts Proof_irrelevance_WEM_CC <> sec
+sec 15839:15859 <> Proof_irrelevance_CCI
+var 15876:15877 Proof_irrelevance_CCI em
+binder 15888:15888 <> A:187
+R15897:15900 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15896:15896 Coq.Logic.ClassicalFacts <> A:187 var
+R15901:15902 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15903:15903 Coq.Logic.ClassicalFacts <> A:187 var
+def 15920:15931 <> or_elim_redl
+binder 15934:15934 <> A:189
+binder 15936:15936 <> B:190
+binder 15938:15938 <> C:191
+R15950:15953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15949:15949 Coq.Logic.ClassicalFacts <> A:189 var
+R15954:15954 Coq.Logic.ClassicalFacts <> C:191 var
+binder 15947:15947 <> f:192
+R15961:15964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15960:15960 Coq.Logic.ClassicalFacts <> B:190 var
+R15965:15965 Coq.Logic.ClassicalFacts <> C:191 var
+binder 15958:15958 <> g:193
+R15975:15975 Coq.Logic.ClassicalFacts <> A:189 var
+binder 15973:15973 <> a:194
+R15983:15985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15980:15980 Coq.Logic.ClassicalFacts <> f:192 var
+R15982:15982 Coq.Logic.ClassicalFacts <> a:194 var
+R15986:15991 Coq.Init.Logic <> or_ind scheme
+R15998:16006 Coq.Init.Logic <> or_introl constr
+R16010:16010 Coq.Logic.ClassicalFacts <> a:194 var
+R16008:16008 Coq.Logic.ClassicalFacts <> B:190 var
+R15995:15995 Coq.Logic.ClassicalFacts <> g:193 var
+R15993:15993 Coq.Logic.ClassicalFacts <> f:192 var
+R16016:16022 Coq.Init.Logic <> eq_refl constr
+R16025:16025 Coq.Logic.ClassicalFacts <> f:192 var
+R16027:16027 Coq.Logic.ClassicalFacts <> a:194 var
+def 16044:16055 <> or_elim_redr
+binder 16058:16058 <> A:195
+binder 16060:16060 <> B:196
+binder 16062:16062 <> C:197
+R16074:16077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16073:16073 Coq.Logic.ClassicalFacts <> A:195 var
+R16078:16078 Coq.Logic.ClassicalFacts <> C:197 var
+binder 16071:16071 <> f:198
+R16085:16088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16084:16084 Coq.Logic.ClassicalFacts <> B:196 var
+R16089:16089 Coq.Logic.ClassicalFacts <> C:197 var
+binder 16082:16082 <> g:199
+R16099:16099 Coq.Logic.ClassicalFacts <> B:196 var
+binder 16097:16097 <> b:200
+R16107:16109 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16104:16104 Coq.Logic.ClassicalFacts <> g:199 var
+R16106:16106 Coq.Logic.ClassicalFacts <> b:200 var
+R16110:16115 Coq.Init.Logic <> or_ind scheme
+R16122:16130 Coq.Init.Logic <> or_intror constr
+R16134:16134 Coq.Logic.ClassicalFacts <> b:200 var
+R16132:16132 Coq.Logic.ClassicalFacts <> A:195 var
+R16119:16119 Coq.Logic.ClassicalFacts <> g:199 var
+R16117:16117 Coq.Logic.ClassicalFacts <> f:198 var
+R16140:16146 Coq.Init.Logic <> eq_refl constr
+R16149:16149 Coq.Logic.ClassicalFacts <> g:199 var
+R16151:16151 Coq.Logic.ClassicalFacts <> b:200 var
+def 16164:16170 <> or_indd
+R16189:16190 Coq.Init.Logic <> or ind
+prf 16214:16234 <> proof_irrelevance_cci
+binder 16246:16246 <> B:201
+R16261:16261 Coq.Logic.ClassicalFacts <> B:201 var
+binder 16255:16256 <> b1:202
+binder 16258:16259 <> b2:203
+R16267:16269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16265:16266 Coq.Logic.ClassicalFacts <> b1:202 var
+R16270:16271 Coq.Logic.ClassicalFacts <> b2:203 var
+R16294:16313 Coq.Logic.ClassicalFacts <> proof_irrelevance_cc thm
+R16385:16386 Coq.Logic.ClassicalFacts <> Proof_irrelevance_CCI.em var
+R16377:16383 Coq.Logic.ClassicalFacts <> or_indd scheme
+R16364:16375 Coq.Logic.ClassicalFacts <> or_elim_redr def
+R16345:16356 Coq.Logic.ClassicalFacts <> or_elim_redl def
+R16338:16343 Coq.Init.Logic <> or_ind scheme
+R16328:16336 Coq.Init.Logic <> or_intror constr
+R16318:16326 Coq.Init.Logic <> or_introl constr
+R16315:16316 Coq.Init.Logic <> or ind
+R16294:16313 Coq.Logic.ClassicalFacts <> proof_irrelevance_cc thm
+R16385:16386 Coq.Logic.ClassicalFacts <> Proof_irrelevance_CCI.em var
+R16377:16383 Coq.Logic.ClassicalFacts <> or_indd scheme
+R16364:16375 Coq.Logic.ClassicalFacts <> or_elim_redr def
+R16345:16356 Coq.Logic.ClassicalFacts <> or_elim_redl def
+R16338:16343 Coq.Init.Logic <> or_ind scheme
+R16328:16336 Coq.Init.Logic <> or_intror constr
+R16318:16326 Coq.Init.Logic <> or_introl constr
+R16315:16316 Coq.Init.Logic <> or ind
+R16402:16422 Coq.Logic.ClassicalFacts Proof_irrelevance_CCI <> sec
+sec 16536:16561 <> Weak_proof_irrelevance_CCI
+var 16578:16580 Weak_proof_irrelevance_CCI wem
+binder 16591:16591 <> A:204
+R16602:16605 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16599:16599 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16600:16600 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16601:16601 Coq.Logic.ClassicalFacts <> A:204 var
+R16606:16607 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16608:16608 Coq.Logic.ClassicalFacts <> A:204 var
+prf 16622:16646 <> wem_proof_irrelevance_cci
+binder 16658:16658 <> B:206
+R16673:16673 Coq.Logic.ClassicalFacts <> B:206 var
+binder 16667:16668 <> b1:207
+binder 16670:16671 <> b2:208
+R16677:16677 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16678:16678 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16681:16683 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16679:16680 Coq.Logic.ClassicalFacts <> b1:207 var
+R16684:16685 Coq.Logic.ClassicalFacts <> b2:208 var
+R16708:16728 Coq.Logic.ClassicalFacts <> wproof_irrelevance_cc thm
+R16800:16802 Coq.Logic.ClassicalFacts <> Weak_proof_irrelevance_CCI.wem var
+R16792:16798 Coq.Logic.ClassicalFacts <> or_indd scheme
+R16779:16790 Coq.Logic.ClassicalFacts <> or_elim_redr def
+R16760:16771 Coq.Logic.ClassicalFacts <> or_elim_redl def
+R16753:16758 Coq.Init.Logic <> or_ind scheme
+R16743:16751 Coq.Init.Logic <> or_intror constr
+R16733:16741 Coq.Init.Logic <> or_introl constr
+R16730:16731 Coq.Init.Logic <> or ind
+R16708:16728 Coq.Logic.ClassicalFacts <> wproof_irrelevance_cc thm
+R16800:16802 Coq.Logic.ClassicalFacts <> Weak_proof_irrelevance_CCI.wem var
+R16792:16798 Coq.Logic.ClassicalFacts <> or_indd scheme
+R16779:16790 Coq.Logic.ClassicalFacts <> or_elim_redr def
+R16760:16771 Coq.Logic.ClassicalFacts <> or_elim_redl def
+R16753:16758 Coq.Init.Logic <> or_ind scheme
+R16743:16751 Coq.Init.Logic <> or_intror constr
+R16733:16741 Coq.Init.Logic <> or_introl constr
+R16730:16731 Coq.Init.Logic <> or ind
+R16818:16843 Coq.Logic.ClassicalFacts Weak_proof_irrelevance_CCI <> sec
+def 17933:17952 <> weak_excluded_middle
+binder 17966:17966 <> A:209
+R17977:17980 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R17974:17974 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17975:17975 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17976:17976 Coq.Logic.ClassicalFacts <> A:209 var
+R17981:17981 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17982:17982 Coq.Logic.ClassicalFacts <> A:209 var
+def 18185:18216 <> weak_generalized_excluded_middle
+binder 18230:18230 <> A:210
+binder 18232:18232 <> B:211
+R18240:18240 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18254:18259 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18266:18266 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18241:18241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18248:18252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18243:18246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18242:18242 Coq.Logic.ClassicalFacts <> A:210 var
+R18247:18247 Coq.Logic.ClassicalFacts <> B:211 var
+R18253:18253 Coq.Logic.ClassicalFacts <> B:211 var
+R18261:18264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18260:18260 Coq.Logic.ClassicalFacts <> A:210 var
+R18265:18265 Coq.Logic.ClassicalFacts <> B:211 var
+def 18315:18337 <> classical_de_morgan_law
+binder 18351:18351 <> A:212
+binder 18353:18353 <> B:213
+R18370:18373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18361:18362 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18369:18369 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18364:18367 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18363:18363 Coq.Logic.ClassicalFacts <> A:212 var
+R18368:18368 Coq.Logic.ClassicalFacts <> B:213 var
+R18376:18379 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18374:18374 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18375:18375 Coq.Logic.ClassicalFacts <> A:212 var
+R18380:18380 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18381:18381 Coq.Logic.ClassicalFacts <> B:213 var
+def 18796:18807 <> GodelDummett
+binder 18819:18819 <> A:214
+binder 18821:18821 <> B:215
+R18829:18829 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18836:18841 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18848:18848 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18831:18834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18830:18830 Coq.Logic.ClassicalFacts <> A:214 var
+R18835:18835 Coq.Logic.ClassicalFacts <> B:215 var
+R18843:18846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18842:18842 Coq.Logic.ClassicalFacts <> B:215 var
+R18847:18847 Coq.Logic.ClassicalFacts <> A:214 var
+prf 18858:18886 <> excluded_middle_Godel_Dummett
+R18905:18908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18890:18904 Coq.Logic.ClassicalFacts <> excluded_middle def
+R18909:18920 Coq.Logic.ClassicalFacts <> GodelDummett def
+def 19173:19217 <> RightDistributivityImplicationOverDisjunction
+binder 19231:19231 <> A:216
+binder 19233:19233 <> B:217
+binder 19235:19235 <> C:218
+R19243:19243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19253:19257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19245:19248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19244:19244 Coq.Logic.ClassicalFacts <> C:218 var
+R19250:19251 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19249:19249 Coq.Logic.ClassicalFacts <> A:216 var
+R19252:19252 Coq.Logic.ClassicalFacts <> B:217 var
+R19258:19258 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19263:19268 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19273:19273 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19260:19261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19259:19259 Coq.Logic.ClassicalFacts <> C:218 var
+R19262:19262 Coq.Logic.ClassicalFacts <> A:216 var
+R19270:19271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19269:19269 Coq.Logic.ClassicalFacts <> C:218 var
+R19272:19272 Coq.Logic.ClassicalFacts <> B:217 var
+prf 19283:19340 <> Godel_Dummett_iff_right_distr_implication_over_disjunction
+R19358:19362 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19346:19357 Coq.Logic.ClassicalFacts <> GodelDummett def
+R19363:19407 Coq.Logic.ClassicalFacts <> RightDistributivityImplicationOverDisjunction def
+R19640:19641 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19640:19641 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+prf 19877:19910 <> Godel_Dummett_weak_excluded_middle
+R19928:19931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19916:19927 Coq.Logic.ClassicalFacts <> GodelDummett def
+R19932:19951 Coq.Logic.ClassicalFacts <> weak_excluded_middle def
+R19990:19990 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19990:19990 Coq.Init.Logic <> ::type_scope:'~'_x not
+prf 20205:20252 <> weak_excluded_middle_iff_classical_de_morgan_law
+R20278:20282 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20258:20277 Coq.Logic.ClassicalFacts <> weak_excluded_middle def
+R20283:20305 Coq.Logic.ClassicalFacts <> classical_de_morgan_law def
+R20411:20411 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20411:20411 Coq.Init.Logic <> ::type_scope:'~'_x not
+def 21393:21421 <> IndependenceOfGeneralPremises
+binder 21436:21436 <> A:219
+R21448:21451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21447:21447 Coq.Logic.ClassicalFacts <> A:219 var
+binder 21445:21445 <> P:220
+binder 21459:21459 <> Q:221
+R21483:21486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21472:21480 Coq.Logic.ClassicalFacts <> inhabited abbrev
+R21482:21482 Coq.Logic.ClassicalFacts <> A:219 var
+R21487:21487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21506:21510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21489:21492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21488:21488 Coq.Logic.ClassicalFacts <> Q:221 var
+R21493:21499 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21501:21502 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21500:21500 <> x:222
+R21503:21503 Coq.Logic.ClassicalFacts <> P:220 var
+R21505:21505 Coq.Logic.ClassicalFacts <> x:222 var
+R21511:21517 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21519:21520 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21518:21518 <> x:223
+R21522:21525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21521:21521 Coq.Logic.ClassicalFacts <> Q:221 var
+R21526:21526 Coq.Logic.ClassicalFacts <> P:220 var
+R21528:21528 Coq.Logic.ClassicalFacts <> x:223 var
+prf 21540:21609 <> independence_general_premises_right_distr_implication_over_disjunction
+R21644:21647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21615:21643 Coq.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R21648:21692 Coq.Logic.ClassicalFacts <> RightDistributivityImplicationOverDisjunction def
+R21741:21744 Coq.Init.Datatypes <> bool ind
+binder 21751:21751 <> b:224
+R21759:21759 Coq.Logic.ClassicalFacts <> b:224 var
+R21778:21781 Coq.Init.Datatypes <> true constr
+R21741:21744 Coq.Init.Datatypes <> bool ind
+binder 21751:21751 <> b:225
+R21759:21759 Coq.Logic.ClassicalFacts <> b:225 var
+R21778:21781 Coq.Init.Datatypes <> true constr
+R21838:21841 Coq.Init.Datatypes <> true constr
+R21850:21854 Coq.Init.Datatypes <> false constr
+R21838:21841 Coq.Init.Datatypes <> true constr
+R21850:21854 Coq.Init.Datatypes <> false constr
+prf 21927:21969 <> independence_general_premises_Godel_Dummett
+R22004:22007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21975:22003 Coq.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R22008:22019 Coq.Logic.ClassicalFacts <> GodelDummett def
+R22040:22097 Coq.Logic.ClassicalFacts <> Godel_Dummett_iff_right_distr_implication_over_disjunction thm
+R22113:22182 Coq.Logic.ClassicalFacts <> independence_general_premises_right_distr_implication_over_disjunction thm
+R22113:22182 Coq.Logic.ClassicalFacts <> independence_general_premises_right_distr_implication_over_disjunction thm
+def 22282:22295 <> DrinkerParadox
+binder 22310:22310 <> A:226
+R22322:22325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22321:22321 Coq.Logic.ClassicalFacts <> A:226 var
+binder 22319:22319 <> P:227
+R22348:22351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22337:22345 Coq.Logic.ClassicalFacts <> inhabited abbrev
+R22347:22347 Coq.Logic.ClassicalFacts <> A:226 var
+R22352:22358 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22360:22361 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22359:22359 <> x:228
+R22362:22362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22376:22380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22363:22369 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22371:22372 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22370:22370 <> x:229
+R22373:22373 Coq.Logic.ClassicalFacts <> P:227 var
+R22375:22375 Coq.Logic.ClassicalFacts <> x:229 var
+R22381:22381 Coq.Logic.ClassicalFacts <> P:227 var
+R22383:22383 Coq.Logic.ClassicalFacts <> x:228 var
+prf 22393:22429 <> independence_general_premises_drinker
+R22464:22468 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22435:22463 Coq.Logic.ClassicalFacts <> IndependenceOfGeneralPremises def
+R22469:22482 Coq.Logic.ClassicalFacts <> DrinkerParadox def
+R22540:22546 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22548:22549 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22547:22547 <> x:230
+R22552:22552 Coq.Logic.ClassicalFacts <> x:230 var
+R22540:22546 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22548:22549 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22547:22547 <> x:231
+R22552:22552 Coq.Logic.ClassicalFacts <> x:231 var
+def 22945:22971 <> generalized_excluded_middle
+binder 22985:22985 <> A:232
+binder 22987:22987 <> B:233
+R22996:23000 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23007:23007 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22995:22995 Coq.Logic.ClassicalFacts <> A:232 var
+R23002:23005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23001:23001 Coq.Logic.ClassicalFacts <> A:232 var
+R23006:23006 Coq.Logic.ClassicalFacts <> B:233 var
+prf 23017:23061 <> excluded_middle_independence_general_premises
+R23094:23097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23067:23093 Coq.Logic.ClassicalFacts <> generalized_excluded_middle def
+R23098:23111 Coq.Logic.ClassicalFacts <> DrinkerParadox def
+R23159:23165 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23167:23168 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23166:23166 <> x:234
+R23171:23171 Coq.Logic.ClassicalFacts <> x:234 var
+R23159:23165 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23167:23168 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23166:23166 <> x:235
+R23171:23171 Coq.Logic.ClassicalFacts <> x:235 var
+R23376:23393 Coq.Arith.PeanoNat <> <> lib
+def 23408:23414 <> Minimal
+R23422:23425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23419:23421 Coq.Init.Datatypes <> nat ind
+binder 23417:23417 <> P:236
+R23435:23437 Coq.Init.Datatypes <> nat ind
+binder 23433:23433 <> n:237
+R23455:23458 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23452:23452 Coq.Logic.ClassicalFacts <> P:236 var
+R23454:23454 Coq.Logic.ClassicalFacts <> n:237 var
+binder 23466:23466 <> k:238
+R23472:23475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23469:23469 Coq.Logic.ClassicalFacts <> P:236 var
+R23471:23471 Coq.Logic.ClassicalFacts <> k:238 var
+R23477:23478 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R23476:23476 Coq.Logic.ClassicalFacts <> n:237 var
+R23479:23479 Coq.Logic.ClassicalFacts <> k:238 var
+def 23494:23514 <> Minimization_Property
+R23524:23527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23521:23523 Coq.Init.Datatypes <> nat ind
+binder 23517:23517 <> P:239
+binder 23553:23553 <> n:240
+R23559:23562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23556:23556 Coq.Logic.ClassicalFacts <> P:239 var
+R23558:23558 Coq.Logic.ClassicalFacts <> n:240 var
+R23563:23569 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23571:23572 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23570:23570 <> m:241
+R23573:23579 Coq.Logic.ClassicalFacts <> Minimal def
+R23581:23581 Coq.Logic.ClassicalFacts <> P:239 var
+R23583:23583 Coq.Logic.ClassicalFacts <> m:241 var
+sec 23595:23643 <> Unrestricted_minimization_entails_excluded_middle
+var 23660:23684 Unrestricted_minimization_entails_excluded_middle unrestricted_minimization
+binder 23694:23694 <> P:242
+R23697:23717 Coq.Logic.ClassicalFacts <> Minimization_Property def
+R23719:23719 Coq.Logic.ClassicalFacts <> P:242 var
+prf 23733:23781 <> unrestricted_minimization_entails_excluded_middle
+binder 23792:23792 <> A:244
+R23796:23797 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23795:23795 Coq.Logic.ClassicalFacts <> A:244 var
+R23798:23798 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23799:23799 Coq.Logic.ClassicalFacts <> A:244 var
+R23846:23848 Coq.Init.Datatypes <> nat ind
+binder 23844:23844 <> n:245
+R23859:23862 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23856:23857 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23854:23854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23853:23853 Coq.Logic.ClassicalFacts <> n:245 var
+R23864:23864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23863:23863 Coq.Logic.ClassicalFacts <> n:245 var
+R23846:23848 Coq.Init.Datatypes <> nat ind
+binder 23844:23844 <> n:246
+R23859:23862 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23856:23857 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23854:23854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23853:23853 Coq.Logic.ClassicalFacts <> n:246 var
+R23864:23864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23863:23863 Coq.Logic.ClassicalFacts <> n:246 var
+R23936:23940 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23936:23940 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R24046:24070 Coq.Logic.ClassicalFacts <> Unrestricted_minimization_entails_excluded_middle.unrestricted_minimization var
+R24046:24070 Coq.Logic.ClassicalFacts <> Unrestricted_minimization_entails_excluded_middle.unrestricted_minimization var
+R24166:24188 Coq.Arith.PeanoNat Nat nle_succ_0 thm
+R24166:24188 Coq.Arith.PeanoNat Nat nle_succ_0 thm
+R24260:24308 Coq.Logic.ClassicalFacts Unrestricted_minimization_entails_excluded_middle <> sec
+R24327:24332 Coq.Arith.Wf_nat <> <> lib
+sec 24344:24392 <> Excluded_middle_entails_unrestricted_minimization
+var 24409:24410 Excluded_middle_entails_unrestricted_minimization em
+binder 24421:24421 <> A:247
+R24425:24426 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24424:24424 Coq.Logic.ClassicalFacts <> A:247 var
+R24427:24427 Coq.Init.Logic <> ::type_scope:'~'_x not
+R24428:24428 Coq.Logic.ClassicalFacts <> A:247 var
+prf 24442:24490 <> excluded_middle_entails_unrestricted_minimization
+binder 24506:24506 <> P:249
+R24509:24529 Coq.Logic.ClassicalFacts <> Minimization_Property def
+R24531:24531 Coq.Logic.ClassicalFacts <> P:249 var
+binder 24588:24588 <> n:250
+R24594:24597 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24593:24593 Coq.Logic.ClassicalFacts <> n:250 var
+R24598:24599 Coq.Init.Logic <> ::type_scope:'~'_x not
+R24602:24602 Coq.Logic.ClassicalFacts <> n:250 var
+R24619:24620 Coq.Logic.ClassicalFacts <> Excluded_middle_entails_unrestricted_minimization.em var
+binder 24588:24588 <> n:251
+R24594:24597 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24593:24593 Coq.Logic.ClassicalFacts <> n:251 var
+R24598:24599 Coq.Init.Logic <> ::type_scope:'~'_x not
+R24602:24602 Coq.Logic.ClassicalFacts <> n:251 var
+R24619:24620 Coq.Logic.ClassicalFacts <> Excluded_middle_entails_unrestricted_minimization.em var
+R24640:24646 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24648:24649 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24647:24647 <> n:252
+R24652:24652 Coq.Logic.ClassicalFacts <> n:252 var
+R24640:24646 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24648:24649 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24647:24647 <> n:253
+R24652:24652 Coq.Logic.ClassicalFacts <> n:253 var
+R24696:24738 Coq.Arith.Wf_nat <> dec_inh_nat_subset_has_unique_least_element thm
+R24696:24738 Coq.Arith.Wf_nat <> dec_inh_nat_subset_has_unique_least_element thm
+R24809:24857 Coq.Logic.ClassicalFacts Excluded_middle_entails_unrestricted_minimization <> sec
+sec 24983:25045 <> Example_of_undecidable_predicate_with_the_minimization_property
+var 25060:25060 Example_of_undecidable_predicate_with_the_minimization_property s
+R25067:25070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25064:25066 Coq.Init.Datatypes <> nat ind
+R25071:25074 Coq.Init.Datatypes <> bool ind
+var 25084:25084 Example_of_undecidable_predicate_with_the_minimization_property P
+binder 25086:25086 <> n:255
+R25091:25097 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25099:25100 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25098:25098 <> k:256
+R25105:25108 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25102:25103 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R25101:25101 Coq.Logic.ClassicalFacts <> n:255 var
+R25104:25104 Coq.Logic.ClassicalFacts <> k:256 var
+R25112:25114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25109:25109 Coq.Logic.ClassicalFacts <> Example_of_undecidable_predicate_with_the_minimization_property.s var
+R25111:25111 Coq.Logic.ClassicalFacts <> k:256 var
+R25115:25118 Coq.Init.Datatypes <> true constr
+def 25132:25183 <> undecidable_predicate_with_the_minimization_property
+R25192:25212 Coq.Logic.ClassicalFacts <> Minimization_Property def
+R25214:25214 Coq.Logic.ClassicalFacts <> Example_of_undecidable_predicate_with_the_minimization_property.P var
+R25237:25257 Coq.Logic.ClassicalFacts <> Minimization_Property def
+R25311:25311 Coq.Logic.ClassicalFacts <> P vardef
+R25414:25432 Coq.Arith.PeanoNat Nat le_0_l thm
+R25414:25432 Coq.Arith.PeanoNat Nat le_0_l thm
+R25478:25496 Coq.Arith.PeanoNat Nat le_0_l thm
+R25478:25496 Coq.Arith.PeanoNat Nat le_0_l thm
+R25511:25573 Coq.Logic.ClassicalFacts Example_of_undecidable_predicate_with_the_minimization_property <> sec
+R25826:25840 Coq.Classes.RelationClasses <> <> lib
+abbrev 25859:25890 <> representative_boolean_partition
+R25911:25912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25907:25910 Coq.Init.Datatypes <> bool ind
+R25917:25918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25913:25916 Coq.Init.Datatypes <> bool ind
+binder 25905:25905 <> R:257
+R25942:25945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25929:25939 Coq.Classes.RelationClasses <> Equivalence class
+R25941:25941 Coq.Logic.ClassicalFacts <> R:257 var
+R25946:25952 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25954:25955 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25953:25953 <> f:258
+binder 25963:25963 <> x:259
+R25975:25978 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25966:25966 Coq.Logic.ClassicalFacts <> R:257 var
+R25971:25971 Coq.Logic.ClassicalFacts <> f:258 var
+R25973:25973 Coq.Logic.ClassicalFacts <> x:259 var
+R25968:25968 Coq.Logic.ClassicalFacts <> x:259 var
+binder 25986:25986 <> y:260
+R25994:25997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25989:25989 Coq.Logic.ClassicalFacts <> R:257 var
+R25993:25993 Coq.Logic.ClassicalFacts <> y:260 var
+R25991:25991 Coq.Logic.ClassicalFacts <> x:259 var
+R26001:26003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25998:25998 Coq.Logic.ClassicalFacts <> f:258 var
+R26000:26000 Coq.Logic.ClassicalFacts <> x:259 var
+R26004:26004 Coq.Logic.ClassicalFacts <> f:258 var
+R26006:26006 Coq.Logic.ClassicalFacts <> y:260 var
+prf 26019:26070 <> representative_boolean_partition_imp_excluded_middle
+R26108:26111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26076:26107 Coq.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R26112:26126 Coq.Logic.ClassicalFacts <> excluded_middle def
+R26181:26184 Coq.Init.Datatypes <> bool ind
+binder 26173:26174 <> b1:261
+binder 26176:26177 <> b2:262
+R26197:26200 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R26192:26194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26190:26191 Coq.Logic.ClassicalFacts <> b1:261 var
+R26195:26196 Coq.Logic.ClassicalFacts <> b2:262 var
+R26181:26184 Coq.Init.Datatypes <> bool ind
+binder 26173:26174 <> b1:263
+binder 26176:26177 <> b2:264
+R26197:26200 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R26192:26194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26190:26191 Coq.Logic.ClassicalFacts <> b1:263 var
+R26195:26196 Coq.Logic.ClassicalFacts <> b2:264 var
+R26215:26225 Coq.Classes.RelationClasses <> Equivalence class
+R26215:26225 Coq.Classes.RelationClasses <> Equivalence class
+R26424:26436 Coq.Bool.Bool <> bool_dec thm
+R26441:26444 Coq.Init.Datatypes <> true constr
+R26450:26454 Coq.Init.Datatypes <> false constr
+R26424:26436 Coq.Bool.Bool <> bool_dec thm
+R26441:26444 Coq.Init.Datatypes <> true constr
+R26450:26454 Coq.Init.Datatypes <> false constr
+R26501:26505 Coq.Init.Datatypes <> false constr
+R26501:26505 Coq.Init.Datatypes <> false constr
+R26556:26559 Coq.Init.Datatypes <> true constr
+R26556:26559 Coq.Init.Datatypes <> true constr
+R26647:26650 Coq.Init.Datatypes <> true constr
+R26647:26650 Coq.Init.Datatypes <> true constr
+prf 26703:26754 <> excluded_middle_imp_representative_boolean_partition
+R26775:26778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26760:26774 Coq.Logic.ClassicalFacts <> excluded_middle def
+R26779:26810 Coq.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R26855:26858 Coq.Init.Datatypes <> true constr
+R26860:26864 Coq.Init.Datatypes <> false constr
+R26855:26858 Coq.Init.Datatypes <> true constr
+R26860:26864 Coq.Init.Datatypes <> false constr
+R26890:26893 Coq.Init.Datatypes <> true constr
+R26890:26893 Coq.Init.Datatypes <> true constr
+binder 26940:26940 <> b:265
+R26945:26945 Coq.Logic.ClassicalFacts <> b:265 var
+binder 26940:26940 <> b:266
+R26945:26945 Coq.Logic.ClassicalFacts <> b:266 var
+prf 27062:27113 <> excluded_middle_iff_representative_boolean_partition
+R27134:27138 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R27119:27133 Coq.Logic.ClassicalFacts <> excluded_middle def
+R27139:27170 Coq.Logic.ClassicalFacts <> representative_boolean_partition abbrev
+R27200:27251 Coq.Logic.ClassicalFacts <> excluded_middle_imp_representative_boolean_partition thm
+R27274:27325 Coq.Logic.ClassicalFacts <> representative_boolean_partition_imp_excluded_middle thm
+R27200:27251 Coq.Logic.ClassicalFacts <> excluded_middle_imp_representative_boolean_partition thm
+R27200:27251 Coq.Logic.ClassicalFacts <> excluded_middle_imp_representative_boolean_partition thm
+R27274:27325 Coq.Logic.ClassicalFacts <> representative_boolean_partition_imp_excluded_middle thm
+R27274:27325 Coq.Logic.ClassicalFacts <> representative_boolean_partition_imp_excluded_middle thm

@@ -1,0 +1,265 @@
+DIGEST 2d7fbe0dd5b9d548bd64e33a6a83e0f3
+FCoq.Logic.HLevels
+R1247:1280 Coq.Logic.FunctionalExtensionality <> <> lib
+def 1606:1612 <> IsHProp
+binder 1615:1615 <> P:1
+R1650:1650 Coq.Logic.HLevels <> P:1 var
+binder 1644:1644 <> p:2
+binder 1646:1646 <> q:3
+R1654:1656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1653:1653 Coq.Logic.HLevels <> p:2 var
+R1657:1657 Coq.Logic.HLevels <> q:3 var
+def 1894:1899 <> IsHSet
+binder 1902:1902 <> X:4
+R1938:1938 Coq.Logic.HLevels <> X:4 var
+binder 1932:1932 <> x:5
+binder 1934:1934 <> y:6
+R1949:1951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1948:1948 Coq.Logic.HLevels <> x:5 var
+R1952:1952 Coq.Logic.HLevels <> y:6 var
+binder 1942:1942 <> p:7
+binder 1944:1944 <> q:8
+R1957:1959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1956:1956 Coq.Logic.HLevels <> p:7 var
+R1960:1960 Coq.Logic.HLevels <> q:8 var
+def 1975:1984 <> IsHOneType
+binder 1987:1987 <> X:9
+R2023:2023 Coq.Logic.HLevels <> X:9 var
+binder 2017:2017 <> x:10
+binder 2019:2019 <> y:11
+R2034:2036 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2033:2033 Coq.Logic.HLevels <> x:10 var
+R2037:2037 Coq.Logic.HLevels <> y:11 var
+binder 2027:2027 <> p:12
+binder 2029:2029 <> q:13
+R2048:2050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2047:2047 Coq.Logic.HLevels <> p:12 var
+R2051:2051 Coq.Logic.HLevels <> q:13 var
+binder 2041:2041 <> r:14
+binder 2043:2043 <> s:15
+R2056:2058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2055:2055 Coq.Logic.HLevels <> r:14 var
+R2059:2059 Coq.Logic.HLevels <> s:15 var
+prf 2069:2080 <> forall_hprop
+binder 2092:2092 <> A:16
+R2108:2111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2107:2107 Coq.Logic.HLevels <> A:16 var
+binder 2103:2103 <> P:17
+R2123:2123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2149:2157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2133:2133 Coq.Logic.HLevels <> A:16 var
+binder 2131:2131 <> x:18
+R2136:2142 Coq.Logic.HLevels <> IsHProp def
+R2145:2145 Coq.Logic.HLevels <> P:17 var
+R2147:2147 Coq.Logic.HLevels <> x:18 var
+R2158:2164 Coq.Logic.HLevels <> IsHProp def
+R2176:2176 Coq.Logic.HLevels <> A:16 var
+binder 2174:2174 <> x:19
+R2179:2179 Coq.Logic.HLevels <> P:17 var
+R2181:2181 Coq.Logic.HLevels <> x:19 var
+R2218:2246 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R2218:2246 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+prf 2430:2438 <> and_hprop
+binder 2449:2449 <> P:20
+binder 2451:2451 <> Q:21
+R2474:2477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2465:2471 Coq.Logic.HLevels <> IsHProp def
+R2473:2473 Coq.Logic.HLevels <> P:20 var
+R2487:2490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2478:2484 Coq.Logic.HLevels <> IsHProp def
+R2486:2486 Coq.Logic.HLevels <> Q:21 var
+R2491:2497 Coq.Logic.HLevels <> IsHProp def
+R2501:2504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2500:2500 Coq.Logic.HLevels <> P:20 var
+R2505:2505 Coq.Logic.HLevels <> Q:21 var
+prf 2638:2647 <> impl_hprop
+binder 2658:2658 <> P:22
+binder 2660:2660 <> Q:23
+R2683:2686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2674:2680 Coq.Logic.HLevels <> IsHProp def
+R2682:2682 Coq.Logic.HLevels <> Q:23 var
+R2687:2693 Coq.Logic.HLevels <> IsHProp def
+R2697:2700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2696:2696 Coq.Logic.HLevels <> P:22 var
+R2701:2701 Coq.Logic.HLevels <> Q:23 var
+R2738:2762 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2738:2762 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 2796:2806 <> false_hprop
+R2810:2816 Coq.Logic.HLevels <> IsHProp def
+R2818:2822 Coq.Init.Logic <> False ind
+prf 2873:2882 <> true_hprop
+R2886:2892 Coq.Logic.HLevels <> IsHProp def
+R2894:2897 Coq.Init.Logic <> True ind
+prf 3007:3015 <> not_hprop
+binder 3026:3026 <> P:24
+R3036:3042 Coq.Logic.HLevels <> IsHProp def
+R3046:3049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3045:3045 Coq.Logic.HLevels <> P:24 var
+R3050:3054 Coq.Init.Logic <> False ind
+R3087:3111 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3087:3111 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 3411:3420 <> hset_hprop
+binder 3431:3431 <> X:25
+R3454:3457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3445:3451 Coq.Logic.HLevels <> IsHProp def
+R3453:3453 Coq.Logic.HLevels <> X:25 var
+R3458:3463 Coq.Logic.HLevels <> IsHSet def
+R3465:3465 Coq.Logic.HLevels <> X:25 var
+binder 3507:3507 <> x:26
+binder 3509:3509 <> y:27
+binder 3511:3511 <> z:28
+R3522:3524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3521:3521 Coq.Logic.HLevels <> y:27 var
+R3525:3525 Coq.Logic.HLevels <> z:28 var
+binder 3517:3517 <> p:29
+R3547:3549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3529:3536 Coq.Init.Logic <> eq_trans thm
+R3546:3546 Coq.Logic.HLevels <> p:29 var
+R3541:3541 Coq.Logic.HLevels <> x:26 var
+R3543:3543 Coq.Logic.HLevels <> y:27 var
+R3552:3552 Coq.Logic.HLevels <> x:26 var
+R3554:3554 Coq.Logic.HLevels <> z:28 var
+binder 3507:3507 <> x:30
+binder 3509:3509 <> y:31
+binder 3511:3511 <> z:32
+R3522:3524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3521:3521 Coq.Logic.HLevels <> y:31 var
+R3525:3525 Coq.Logic.HLevels <> z:32 var
+binder 3517:3517 <> p:33
+R3547:3549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3529:3536 Coq.Init.Logic <> eq_trans thm
+R3546:3546 Coq.Logic.HLevels <> p:33 var
+R3541:3541 Coq.Logic.HLevels <> x:30 var
+R3543:3543 Coq.Logic.HLevels <> y:31 var
+R3552:3552 Coq.Logic.HLevels <> x:30 var
+R3554:3554 Coq.Logic.HLevels <> z:32 var
+R3577:3584 Coq.Init.Logic <> eq_trans thm
+R3587:3592 Coq.Init.Logic <> eq_ind scheme
+binder 3640:3640 <> x:34
+binder 3642:3642 <> y:35
+binder 3644:3644 <> z:36
+R3655:3657 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3654:3654 Coq.Logic.HLevels <> y:35 var
+R3658:3658 Coq.Logic.HLevels <> z:36 var
+binder 3650:3650 <> p:37
+R3676:3678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3675:3675 Coq.Logic.HLevels <> p:37 var
+R3679:3686 Coq.Init.Logic <> eq_trans thm
+R3708:3708 Coq.Logic.HLevels <> x:34 var
+R3710:3710 Coq.Logic.HLevels <> z:36 var
+R3689:3694 Coq.Init.Logic <> eq_sym thm
+R3699:3699 Coq.Logic.HLevels <> x:34 var
+R3701:3701 Coq.Logic.HLevels <> y:35 var
+binder 3640:3640 <> x:38
+binder 3642:3642 <> y:39
+binder 3644:3644 <> z:40
+R3655:3657 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3654:3654 Coq.Logic.HLevels <> y:39 var
+R3658:3658 Coq.Logic.HLevels <> z:40 var
+binder 3650:3650 <> p:41
+R3676:3678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3675:3675 Coq.Logic.HLevels <> p:41 var
+R3679:3686 Coq.Init.Logic <> eq_trans thm
+R3708:3708 Coq.Logic.HLevels <> x:38 var
+R3710:3710 Coq.Logic.HLevels <> z:40 var
+R3689:3694 Coq.Init.Logic <> eq_sym thm
+R3699:3699 Coq.Logic.HLevels <> x:38 var
+R3701:3701 Coq.Logic.HLevels <> y:39 var
+R3759:3766 Coq.Init.Logic <> eq_trans thm
+R3769:3774 Coq.Init.Logic <> eq_sym thm
+R3777:3782 Coq.Init.Logic <> eq_ind scheme
+prf 3906:3920 <> eq_trans_cancel
+binder 3932:3932 <> X:42
+R3951:3951 Coq.Logic.HLevels <> X:42 var
+binder 3943:3943 <> x:43
+binder 3945:3945 <> y:44
+binder 3947:3947 <> z:45
+R3960:3962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3959:3959 Coq.Logic.HLevels <> x:43 var
+R3963:3963 Coq.Logic.HLevels <> y:44 var
+binder 3955:3955 <> p:46
+R3974:3976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3973:3973 Coq.Logic.HLevels <> y:44 var
+R3977:3977 Coq.Logic.HLevels <> z:45 var
+binder 3967:3967 <> q:47
+binder 3969:3969 <> r:48
+R3983:3983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4011:4015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3996:3998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3984:3991 Coq.Init.Logic <> eq_trans thm
+R3995:3995 Coq.Logic.HLevels <> q:47 var
+R3993:3993 Coq.Logic.HLevels <> p:46 var
+R3999:4006 Coq.Init.Logic <> eq_trans thm
+R4010:4010 Coq.Logic.HLevels <> r:48 var
+R4008:4008 Coq.Logic.HLevels <> p:46 var
+R4017:4019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4016:4016 Coq.Logic.HLevels <> q:47 var
+R4020:4020 Coq.Logic.HLevels <> r:48 var
+R4098:4112 Coq.Init.Logic <> eq_trans_refl_l thm
+R4098:4112 Coq.Init.Logic <> eq_trans_refl_l thm
+R4098:4112 Coq.Init.Logic <> eq_trans_refl_l thm
+prf 4141:4153 <> hset_hOneType
+binder 4164:4164 <> X:49
+R4186:4189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4178:4183 Coq.Logic.HLevels <> IsHSet def
+R4185:4185 Coq.Logic.HLevels <> X:49 var
+R4190:4199 Coq.Logic.HLevels <> IsHOneType def
+R4201:4201 Coq.Logic.HLevels <> X:49 var
+binder 4245:4245 <> a:50
+R4258:4258 Coq.Logic.HLevels <> a:50 var
+binder 4245:4245 <> a:51
+R4258:4258 Coq.Logic.HLevels <> a:51 var
+binder 4284:4284 <> a:52
+R4292:4294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4295:4295 Coq.Logic.HLevels <> a:52 var
+binder 4287:4287 <> r:53
+R4315:4317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4299:4306 Coq.Init.Logic <> eq_trans thm
+R4314:4314 Coq.Logic.HLevels <> r:53 var
+R4320:4320 Coq.Logic.HLevels <> a:52 var
+binder 4284:4284 <> a:54
+R4292:4294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4295:4295 Coq.Logic.HLevels <> a:54 var
+binder 4287:4287 <> r:55
+R4315:4317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4299:4306 Coq.Init.Logic <> eq_trans thm
+R4314:4314 Coq.Logic.HLevels <> r:55 var
+R4320:4320 Coq.Logic.HLevels <> a:54 var
+R4403:4408 Coq.Init.Logic <> eq_sym thm
+R4403:4408 Coq.Init.Logic <> eq_sym thm
+R4434:4439 Coq.Init.Logic <> eq_sym thm
+R4434:4439 Coq.Init.Logic <> eq_sym thm
+R4475:4489 Coq.Logic.HLevels <> eq_trans_cancel thm
+R4475:4489 Coq.Logic.HLevels <> eq_trans_cancel thm
+R4511:4527 Coq.Init.Logic <> eq_sym_involutive thm
+R4511:4527 Coq.Init.Logic <> eq_sym_involutive thm
+R4511:4527 Coq.Init.Logic <> eq_sym_involutive thm
+R4542:4558 Coq.Init.Logic <> eq_sym_involutive thm
+R4542:4558 Coq.Init.Logic <> eq_sym_involutive thm
+R4542:4558 Coq.Init.Logic <> eq_sym_involutive thm
+prf 4708:4718 <> hprop_hprop
+binder 4729:4729 <> X:56
+R4743:4749 Coq.Logic.HLevels <> IsHProp def
+R4752:4758 Coq.Logic.HLevels <> IsHProp def
+R4760:4760 Coq.Logic.HLevels <> X:56 var
+R4795:4806 Coq.Logic.HLevels <> forall_hprop thm
+R4795:4806 Coq.Logic.HLevels <> forall_hprop thm
+R4826:4837 Coq.Logic.HLevels <> forall_hprop thm
+R4826:4837 Coq.Logic.HLevels <> forall_hprop thm
+R4870:4879 Coq.Logic.HLevels <> hset_hprop thm
+R4870:4879 Coq.Logic.HLevels <> hset_hprop thm
+prf 4899:4908 <> hprop_hset
+binder 4919:4919 <> X:57
+R4933:4939 Coq.Logic.HLevels <> IsHProp def
+R4942:4947 Coq.Logic.HLevels <> IsHSet def
+R4949:4949 Coq.Logic.HLevels <> X:57 var
+R4984:5012 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R4984:5012 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5032:5060 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5032:5060 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5080:5108 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5080:5108 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5128:5156 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5128:5156 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R5177:5189 Coq.Logic.HLevels <> hset_hOneType thm
+R5177:5189 Coq.Logic.HLevels <> hset_hOneType thm

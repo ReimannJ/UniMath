@@ -1,0 +1,54 @@
+DIGEST caca352edaa59b88a6a9831f39320403
+FCoq.Arith.Factorial
+R691:698 Coq.Arith.PeanoNat <> <> lib
+def 757:760 <> fact
+R765:767 Coq.Init.Datatypes <> nat ind
+binder 763:763 <> n:1
+R772:774 Coq.Init.Datatypes <> nat ind
+R787:787 Coq.Arith.Factorial <> n:1 var
+R800:800 Coq.Init.Datatypes <> O constr
+R813:813 Coq.Init.Datatypes <> S constr
+R823:825 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R820:820 Coq.Init.Datatypes <> S constr
+R822:822 Coq.Arith.Factorial <> n:1 var
+R826:829 Coq.Arith.Factorial <> fact:2 def
+R831:831 Coq.Arith.Factorial <> n:1 var
+R851:854 Coq.Arith.Factorial <> fact def
+R851:854 Coq.Arith.Factorial <> fact def
+prf 870:878 <> lt_O_fact
+binder 880:880 <> n:4
+R885:887 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R888:891 Coq.Arith.Factorial <> fact def
+R893:893 Coq.Arith.Factorial <> n:4 var
+R939:953 Coq.Arith.PeanoNat Nat lt_lt_add_r thm
+R939:953 Coq.Arith.PeanoNat Nat lt_lt_add_r thm
+prf 980:989 <> fact_neq_0
+binder 991:991 <> n:5
+R1001:1004 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R995:998 Coq.Arith.Factorial <> fact def
+R1000:1000 Coq.Arith.Factorial <> n:5 var
+R1022:1035 Coq.Arith.PeanoNat Nat neq_0_lt_0 thm
+R1038:1046 Coq.Arith.Factorial <> lt_O_fact thm
+R1022:1035 Coq.Arith.PeanoNat Nat neq_0_lt_0 thm
+R1038:1046 Coq.Arith.Factorial <> lt_O_fact thm
+prf 1061:1067 <> fact_le
+binder 1069:1069 <> n:6
+binder 1071:1071 <> m:7
+R1081:1084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1076:1079 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1075:1075 Coq.Arith.Factorial <> n:6 var
+R1080:1080 Coq.Arith.Factorial <> m:7 var
+R1091:1094 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1085:1088 Coq.Arith.Factorial <> fact def
+R1090:1090 Coq.Arith.Factorial <> n:6 var
+R1095:1098 Coq.Arith.Factorial <> fact def
+R1100:1100 Coq.Arith.Factorial <> m:7 var
+R1145:1148 Coq.Init.Peano <> le_n constr
+R1145:1148 Coq.Init.Peano <> le_n constr
+R1176:1179 Coq.Arith.Factorial <> fact def
+R1176:1179 Coq.Arith.Factorial <> fact def
+R1200:1211 Coq.Arith.PeanoNat Nat le_add_r thm
+R1200:1211 Coq.Arith.PeanoNat Nat le_add_r thm
+R1313:1316 Coq.Arith.Plus <> <> lib
+R1318:1321 Coq.Arith.Mult <> <> lib
+R1323:1324 Coq.Arith.Lt <> <> lib

@@ -1,0 +1,842 @@
+DIGEST 97d835085b19324dc01bbd9ac4716fe3
+FCoq.nsatz.NsatzTactic
+R917:920 Coq.Lists.List <> <> lib
+R938:943 Coq.Setoids.Setoid <> <> lib
+R961:966 Coq.PArith.BinPos <> <> lib
+R984:990 Coq.setoid_ring.BinList <> <> lib
+R1008:1017 Coq.ZArith.Znumtheory <> <> lib
+R1035:1043 Coq.Classes.Morphisms <> <> lib
+R1045:1050 Coq.Setoids.Setoid <> <> lib
+R1052:1055 Coq.Bool.Bool <> <> lib
+R1073:1086 Coq.setoid_ring.Algebra_syntax <> <> lib
+R1104:1109 Coq.setoid_ring.Ncring <> <> lib
+R1127:1140 Coq.setoid_ring.Ncring_initial <> <> lib
+R1158:1167 Coq.setoid_ring.Ncring_tac <> <> lib
+R1185:1199 Coq.setoid_ring.Integral_domain <> <> lib
+R1217:1222 Coq.ZArith.ZArith <> <> lib
+R1240:1242 Coq.micromega.Lia <> <> lib
+sec 1312:1317 <> nsatz1
+binder 1330:1330 <> R:1
+R1343:1357 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R1359:1359 Coq.nsatz.NsatzTactic <> R:1 var
+binder 1339:1341 <> Rid:12
+prf 1370:1377 <> psos_r1b
+R1391:1391 Coq.nsatz.NsatzTactic <> nsatz1.R var
+binder 1387:1387 <> x:13
+binder 1389:1389 <> y:14
+R1404:1407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1399:1402 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1395:1397 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1394:1394 Coq.nsatz.NsatzTactic <> x:13 var
+R1398:1398 Coq.nsatz.NsatzTactic <> y:14 var
+R1409:1412 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1408:1408 Coq.nsatz.NsatzTactic <> x:13 var
+R1413:1413 Coq.nsatz.NsatzTactic <> y:14 var
+R1453:1453 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1459:1462 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1455:1457 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1453:1453 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1459:1462 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1455:1457 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+prf 1536:1542 <> psos_r1
+binder 1552:1552 <> x:15
+binder 1554:1554 <> y:16
+R1563:1566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1558:1561 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1557:1557 Coq.nsatz.NsatzTactic <> x:15 var
+R1562:1562 Coq.nsatz.NsatzTactic <> y:16 var
+R1572:1575 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1568:1570 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1567:1567 Coq.nsatz.NsatzTactic <> x:15 var
+R1571:1571 Coq.nsatz.NsatzTactic <> y:16 var
+prf 1644:1654 <> nsatzR_diff
+R1668:1668 Coq.nsatz.NsatzTactic <> nsatz1.R var
+binder 1664:1664 <> x:17
+binder 1666:1666 <> y:18
+R1683:1686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1671:1673 Coq.Init.Logic <> not def
+R1677:1680 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1676:1676 Coq.nsatz.NsatzTactic <> x:17 var
+R1681:1681 Coq.nsatz.NsatzTactic <> y:18 var
+R1687:1689 Coq.Init.Logic <> not def
+R1697:1700 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R1693:1695 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1692:1692 Coq.nsatz.NsatzTactic <> x:17 var
+R1696:1696 Coq.nsatz.NsatzTactic <> y:18 var
+R1759:1759 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1765:1768 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1761:1763 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1759:1759 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1765:1768 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R1761:1763 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R1897:1908 Coq.setoid_ring.Ring_polynom <> <> mod
+R1918:1928 Coq.setoid_ring.InitialRing <> <> mod
+def 1943:1946 <> PolZ
+R1951:1953 Coq.setoid_ring.Ring_polynom <> Pol ind
+R1955:1955 Coq.Numbers.BinNums <> Z ind
+def 1969:1971 <> PEZ
+R1976:1980 Coq.setoid_ring.Ring_polynom <> PExpr ind
+R1982:1982 Coq.Numbers.BinNums <> Z ind
+def 1997:1999 <> P0Z
+R2003:2006 Coq.nsatz.NsatzTactic <> PolZ def
+R2011:2012 Coq.setoid_ring.Ring_polynom <> P0 def
+R2018:2018 Coq.Numbers.BinNums <> Z ind
+def 2038:2044 <> PolZadd
+R2052:2055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2048:2051 Coq.nsatz.NsatzTactic <> PolZ def
+R2060:2063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2056:2059 Coq.nsatz.NsatzTactic <> PolZ def
+R2064:2067 Coq.nsatz.NsatzTactic <> PolZ def
+R2075:2078 Coq.setoid_ring.Ring_polynom <> Padd def
+R2081:2081 Coq.Numbers.BinNums <> Z ind
+R2087:2091 Coq.ZArith.BinInt Z add def
+R2093:2100 Coq.ZArith.Zbool <> Zeq_bool def
+def 2115:2121 <> PolZmul
+R2129:2132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2125:2128 Coq.nsatz.NsatzTactic <> PolZ def
+R2137:2140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2133:2136 Coq.nsatz.NsatzTactic <> PolZ def
+R2141:2144 Coq.nsatz.NsatzTactic <> PolZ def
+R2152:2155 Coq.setoid_ring.Ring_polynom <> Pmul def
+R2158:2158 Coq.Numbers.BinNums <> Z ind
+R2168:2172 Coq.ZArith.BinInt Z add def
+R2174:2178 Coq.ZArith.BinInt Z mul def
+R2180:2187 Coq.ZArith.Zbool <> Zeq_bool def
+def 2202:2207 <> PolZeq
+R2213:2215 Coq.setoid_ring.Ring_polynom <> Peq def
+R2217:2217 Coq.Numbers.BinNums <> Z ind
+R2219:2226 Coq.ZArith.Zbool <> Zeq_bool def
+def 2241:2244 <> norm
+R2252:2259 Coq.setoid_ring.Ring_polynom <> norm_aux def
+R2261:2261 Coq.Numbers.BinNums <> Z ind
+R2271:2275 Coq.ZArith.BinInt Z add def
+R2277:2281 Coq.ZArith.BinInt Z mul def
+R2283:2287 Coq.ZArith.BinInt Z sub def
+R2289:2293 Coq.ZArith.BinInt Z opp def
+R2295:2302 Coq.ZArith.Zbool <> Zeq_bool def
+def 2315:2320 <> mult_l
+R2328:2331 Coq.Init.Datatypes <> list ind
+R2333:2335 Coq.nsatz.NsatzTactic <> PEZ def
+binder 2323:2324 <> la:19
+R2343:2346 Coq.Init.Datatypes <> list ind
+R2348:2351 Coq.nsatz.NsatzTactic <> PolZ def
+binder 2339:2340 <> lp:20
+R2356:2359 Coq.nsatz.NsatzTactic <> PolZ def
+R2375:2376 Coq.nsatz.NsatzTactic <> lp:20 var
+R2371:2372 Coq.nsatz.NsatzTactic <> la:19 var
+R2387:2388 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2394:2395 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2402:2408 Coq.nsatz.NsatzTactic <> PolZadd def
+R2411:2417 Coq.nsatz.NsatzTactic <> PolZmul def
+R2420:2423 Coq.nsatz.NsatzTactic <> norm def
+R2432:2437 Coq.nsatz.NsatzTactic <> mult_l:21 def
+R2442:2443 Coq.nsatz.NsatzTactic <> lp:20 var
+R2439:2440 Coq.nsatz.NsatzTactic <> la:19 var
+R2457:2459 Coq.nsatz.NsatzTactic <> P0Z def
+def 2477:2488 <> compute_list
+R2496:2499 Coq.Init.Datatypes <> list ind
+R2502:2505 Coq.Init.Datatypes <> list ind
+R2507:2509 Coq.nsatz.NsatzTactic <> PEZ def
+binder 2491:2493 <> lla:24
+R2517:2520 Coq.Init.Datatypes <> list ind
+R2522:2525 Coq.nsatz.NsatzTactic <> PolZ def
+binder 2514:2515 <> lp:25
+R2538:2540 Coq.nsatz.NsatzTactic <> lla:24 var
+R2550:2557 Coq.Lists.List <> nil abbrev
+R2562:2563 Coq.nsatz.NsatzTactic <> lp:25 var
+R2570:2571 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2579:2590 Coq.nsatz.NsatzTactic <> compute_list:26 def
+R2597:2597 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2610:2612 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2598:2603 Coq.nsatz.NsatzTactic <> mult_l def
+R2608:2609 Coq.nsatz.NsatzTactic <> lp:25 var
+R2613:2614 Coq.nsatz.NsatzTactic <> lp:25 var
+R2592:2594 Coq.nsatz.NsatzTactic <> lla:24 var
+def 2635:2639 <> check
+R2646:2649 Coq.Init.Datatypes <> list ind
+R2651:2653 Coq.nsatz.NsatzTactic <> PEZ def
+binder 2642:2644 <> lpe:28
+R2660:2662 Coq.nsatz.NsatzTactic <> PEZ def
+binder 2657:2658 <> qe:29
+R2689:2691 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2674:2677 Coq.Init.Datatypes <> list ind
+R2680:2683 Coq.Init.Datatypes <> list ind
+R2685:2687 Coq.nsatz.NsatzTactic <> PEZ def
+R2692:2695 Coq.Init.Datatypes <> list ind
+R2697:2699 Coq.nsatz.NsatzTactic <> PEZ def
+binder 2666:2671 <> certif:30
+R2723:2728 Coq.nsatz.NsatzTactic <> certif:30 var
+binder 2711:2713 <> lla:31
+binder 2716:2717 <> lq:32
+R2744:2751 Coq.Lists.List <> map def
+R2758:2760 Coq.nsatz.NsatzTactic <> lpe:28 var
+R2753:2756 Coq.nsatz.NsatzTactic <> norm def
+binder 2738:2739 <> lp:33
+R2766:2771 Coq.nsatz.NsatzTactic <> PolZeq def
+R2774:2777 Coq.nsatz.NsatzTactic <> norm def
+R2779:2780 Coq.nsatz.NsatzTactic <> qe:29 var
+R2784:2789 Coq.nsatz.NsatzTactic <> mult_l def
+R2791:2792 Coq.nsatz.NsatzTactic <> lq:32 var
+R2795:2806 Coq.nsatz.NsatzTactic <> compute_list def
+R2808:2810 Coq.nsatz.NsatzTactic <> lla:31 var
+R2812:2813 Coq.nsatz.NsatzTactic <> lp:33 var
+def 2848:2851 <> PhiR
+R2861:2864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2855:2858 Coq.Init.Datatypes <> list ind
+R2860:2860 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R2869:2872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2865:2868 Coq.nsatz.NsatzTactic <> PolZ def
+R2873:2873 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R2881:2884 Coq.setoid_ring.Ring_polynom <> Pphi def
+R2905:2924 Coq.setoid_ring.InitialRing <> gen_phiZ def
+R2946:2948 Coq.nsatz.NsatzTactic <> nsatz1.opp var
+R2942:2944 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R2938:2940 Coq.nsatz.NsatzTactic <> nsatz1.add var
+R2932:2936 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R2926:2930 Coq.nsatz.NsatzTactic <> nsatz1.ring0 var
+R2896:2898 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R2892:2894 Coq.nsatz.NsatzTactic <> nsatz1.add var
+R2886:2890 Coq.nsatz.NsatzTactic <> nsatz1.ring0 var
+def 2965:2971 <> PEevalR
+R2981:2984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2975:2978 Coq.Init.Datatypes <> list ind
+R2980:2980 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R2988:2991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2985:2987 Coq.nsatz.NsatzTactic <> PEZ def
+R2992:2992 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R3000:3005 Coq.setoid_ring.Ring_polynom <> PEeval def
+R3092:3094 Coq.setoid_ring.Integral_domain <> pow def
+R3083:3090 Coq.NArith.BinNat N to_nat def
+R3040:3047 Coq.setoid_ring.InitialRing <> gen_phiZ def
+R3069:3071 Coq.nsatz.NsatzTactic <> nsatz1.opp var
+R3065:3067 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R3061:3063 Coq.nsatz.NsatzTactic <> nsatz1.add var
+R3055:3059 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R3049:3053 Coq.nsatz.NsatzTactic <> nsatz1.ring0 var
+R3031:3033 Coq.nsatz.NsatzTactic <> nsatz1.opp var
+R3027:3029 Coq.nsatz.NsatzTactic <> nsatz1.sub var
+R3023:3025 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R3019:3021 Coq.nsatz.NsatzTactic <> nsatz1.add var
+R3013:3017 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R3007:3011 Coq.nsatz.NsatzTactic <> nsatz1.ring0 var
+prf 3104:3114 <> P0Z_correct
+binder 3125:3125 <> l:34
+R3138:3140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3128:3131 Coq.nsatz.NsatzTactic <> PhiR def
+R3133:3133 Coq.nsatz.NsatzTactic <> l:34 var
+R3135:3137 Coq.nsatz.NsatzTactic <> P0Z def
+prf 3172:3175 <> Rext
+R3178:3188 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R3202:3205 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3198:3200 Coq.nsatz.NsatzTactic <> nsatz1.opp var
+R3194:3196 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R3190:3192 Coq.nsatz.NsatzTactic <> nsatz1.add var
+prf 3254:3257 <> Rset
+R3261:3273 Coq.Setoids.Setoid <> Setoid_Theory def
+R3275:3275 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R3277:3280 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3289:3299 Coq.setoid_ring.Ncring <> ring_setoid meth
+R3289:3299 Coq.setoid_ring.Ncring <> ring_setoid meth
+def 3319:3325 <> Rtheory
+R3327:3337 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R3367:3370 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R3363:3365 Coq.nsatz.NsatzTactic <> nsatz1.opp var
+R3359:3361 Coq.nsatz.NsatzTactic <> nsatz1.sub var
+R3355:3357 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R3351:3353 Coq.nsatz.NsatzTactic <> nsatz1.add var
+R3345:3349 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R3339:3343 Coq.nsatz.NsatzTactic <> nsatz1.ring0 var
+R3379:3383 Coq.setoid_ring.Ring_theory <> mk_rt constr
+R3379:3383 Coq.setoid_ring.Ring_theory <> mk_rt constr
+R3392:3403 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R3392:3403 Coq.setoid_ring.Ncring <> ring_add_0_l meth
+R3412:3424 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R3412:3424 Coq.setoid_ring.Ncring <> ring_add_comm meth
+R3433:3446 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R3433:3446 Coq.setoid_ring.Ncring <> ring_add_assoc meth
+R3455:3466 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R3455:3466 Coq.setoid_ring.Ncring <> ring_mul_1_l meth
+R3475:3488 Coq.setoid_ring.Cring <> cring_mul_comm def
+R3475:3488 Coq.setoid_ring.Cring <> cring_mul_comm def
+R3497:3510 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3497:3510 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R3519:3530 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R3519:3530 Coq.setoid_ring.Ncring <> ring_distr_l meth
+R3539:3550 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R3539:3550 Coq.setoid_ring.Ncring <> ring_sub_def meth
+R3559:3570 Coq.setoid_ring.Ncring <> ring_opp_def meth
+R3559:3570 Coq.setoid_ring.Ncring <> ring_opp_def meth
+prf 3589:3603 <> PolZadd_correct
+binder 3614:3615 <> P':35
+binder 3617:3617 <> P:36
+binder 3619:3619 <> l:37
+R3645:3649 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3674:3674 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3624:3627 Coq.nsatz.NsatzTactic <> PhiR def
+R3629:3629 Coq.nsatz.NsatzTactic <> l:37 var
+R3632:3638 Coq.nsatz.NsatzTactic <> PolZadd def
+R3640:3640 Coq.nsatz.NsatzTactic <> P:36 var
+R3642:3643 Coq.nsatz.NsatzTactic <> P':35 var
+R3650:3650 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3659:3663 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3673:3673 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R3651:3654 Coq.nsatz.NsatzTactic <> PhiR def
+R3656:3656 Coq.nsatz.NsatzTactic <> l:37 var
+R3658:3658 Coq.nsatz.NsatzTactic <> P:36 var
+R3664:3667 Coq.nsatz.NsatzTactic <> PhiR def
+R3669:3669 Coq.nsatz.NsatzTactic <> l:37 var
+R3671:3672 Coq.nsatz.NsatzTactic <> P':35 var
+R3691:3697 Coq.nsatz.NsatzTactic <> PolZadd def
+R3700:3703 Coq.nsatz.NsatzTactic <> PhiR def
+R3730:3736 Coq.setoid_ring.Ring_polynom <> Padd_ok thm
+R3789:3802 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R3814:3820 Coq.nsatz.NsatzTactic <> Rtheory def
+R3809:3812 Coq.nsatz.NsatzTactic <> Rext thm
+R3804:3807 Coq.nsatz.NsatzTactic <> Rset thm
+R3749:3756 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R3768:3774 Coq.nsatz.NsatzTactic <> Rtheory def
+R3763:3766 Coq.nsatz.NsatzTactic <> Rext thm
+R3758:3761 Coq.nsatz.NsatzTactic <> Rset thm
+R3743:3746 Coq.nsatz.NsatzTactic <> Rext thm
+R3738:3741 Coq.nsatz.NsatzTactic <> Rset thm
+R3730:3736 Coq.setoid_ring.Ring_polynom <> Padd_ok thm
+R3789:3802 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R3814:3820 Coq.nsatz.NsatzTactic <> Rtheory def
+R3809:3812 Coq.nsatz.NsatzTactic <> Rext thm
+R3804:3807 Coq.nsatz.NsatzTactic <> Rset thm
+R3749:3756 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R3768:3774 Coq.nsatz.NsatzTactic <> Rtheory def
+R3763:3766 Coq.nsatz.NsatzTactic <> Rext thm
+R3758:3761 Coq.nsatz.NsatzTactic <> Rset thm
+R3743:3746 Coq.nsatz.NsatzTactic <> Rext thm
+R3738:3741 Coq.nsatz.NsatzTactic <> Rset thm
+prf 3843:3857 <> PolZmul_correct
+binder 3868:3868 <> P:38
+binder 3870:3871 <> P':39
+binder 3873:3873 <> l:40
+R3899:3903 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3928:3928 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R3878:3881 Coq.nsatz.NsatzTactic <> PhiR def
+R3883:3883 Coq.nsatz.NsatzTactic <> l:40 var
+R3886:3892 Coq.nsatz.NsatzTactic <> PolZmul def
+R3894:3894 Coq.nsatz.NsatzTactic <> P:38 var
+R3896:3897 Coq.nsatz.NsatzTactic <> P':39 var
+R3904:3904 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3913:3917 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3927:3927 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R3905:3908 Coq.nsatz.NsatzTactic <> PhiR def
+R3910:3910 Coq.nsatz.NsatzTactic <> l:40 var
+R3912:3912 Coq.nsatz.NsatzTactic <> P:38 var
+R3918:3921 Coq.nsatz.NsatzTactic <> PhiR def
+R3923:3923 Coq.nsatz.NsatzTactic <> l:40 var
+R3925:3926 Coq.nsatz.NsatzTactic <> P':39 var
+R3945:3951 Coq.nsatz.NsatzTactic <> PolZmul def
+R3954:3957 Coq.nsatz.NsatzTactic <> PhiR def
+R3977:3983 Coq.setoid_ring.Ring_polynom <> Pmul_ok thm
+R4036:4049 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4061:4067 Coq.nsatz.NsatzTactic <> Rtheory def
+R4056:4059 Coq.nsatz.NsatzTactic <> Rext thm
+R4051:4054 Coq.nsatz.NsatzTactic <> Rset thm
+R3996:4003 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R4015:4021 Coq.nsatz.NsatzTactic <> Rtheory def
+R4010:4013 Coq.nsatz.NsatzTactic <> Rext thm
+R4005:4008 Coq.nsatz.NsatzTactic <> Rset thm
+R3990:3993 Coq.nsatz.NsatzTactic <> Rext thm
+R3985:3988 Coq.nsatz.NsatzTactic <> Rset thm
+R3977:3983 Coq.setoid_ring.Ring_polynom <> Pmul_ok thm
+R4036:4049 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4061:4067 Coq.nsatz.NsatzTactic <> Rtheory def
+R4056:4059 Coq.nsatz.NsatzTactic <> Rext thm
+R4051:4054 Coq.nsatz.NsatzTactic <> Rset thm
+R3996:4003 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R4015:4021 Coq.nsatz.NsatzTactic <> Rtheory def
+R4010:4013 Coq.nsatz.NsatzTactic <> Rext thm
+R4005:4008 Coq.nsatz.NsatzTactic <> Rset thm
+R3990:3993 Coq.nsatz.NsatzTactic <> Rext thm
+R3985:3988 Coq.nsatz.NsatzTactic <> Rset thm
+prf 4090:4103 <> R_power_theory
+R4112:4135 Coq.setoid_ring.Ring_theory <> power_theory rec
+R4161:4163 Coq.setoid_ring.Integral_domain <> pow def
+R4152:4159 Coq.NArith.BinNat N to_nat def
+R4147:4150 Coq.setoid_ring.Algebra_syntax <> :::'_==_' not
+R4143:4145 Coq.nsatz.NsatzTactic <> nsatz1.mul var
+R4137:4141 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R4172:4191 Coq.setoid_ring.Ring_theory <> mkpow_th constr
+R4172:4191 Coq.setoid_ring.Ring_theory <> mkpow_th constr
+R4201:4203 Coq.setoid_ring.Integral_domain <> pow def
+R4222:4234 Coq.NArith.Nnat N2Nat id thm
+R4222:4234 Coq.NArith.Nnat N2Nat id thm
+R4222:4234 Coq.NArith.Nnat N2Nat id thm
+prf 4262:4273 <> norm_correct
+R4291:4294 Coq.Init.Datatypes <> list ind
+R4296:4296 Coq.nsatz.NsatzTactic <> nsatz1.R var
+binder 4287:4287 <> l:41
+R4305:4307 Coq.nsatz.NsatzTactic <> PEZ def
+binder 4300:4301 <> pe:42
+R4323:4326 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4311:4317 Coq.nsatz.NsatzTactic <> PEevalR def
+R4319:4319 Coq.nsatz.NsatzTactic <> l:41 var
+R4321:4322 Coq.nsatz.NsatzTactic <> pe:42 var
+R4327:4330 Coq.nsatz.NsatzTactic <> PhiR def
+R4332:4332 Coq.nsatz.NsatzTactic <> l:41 var
+R4335:4338 Coq.nsatz.NsatzTactic <> norm def
+R4340:4341 Coq.nsatz.NsatzTactic <> pe:42 var
+R4367:4379 Coq.setoid_ring.Ring_polynom <> norm_aux_spec thm
+R4466:4479 Coq.nsatz.NsatzTactic <> R_power_theory thm
+R4432:4445 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4457:4463 Coq.nsatz.NsatzTactic <> Rtheory def
+R4452:4455 Coq.nsatz.NsatzTactic <> Rext thm
+R4447:4450 Coq.nsatz.NsatzTactic <> Rset thm
+R4392:4399 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R4411:4417 Coq.nsatz.NsatzTactic <> Rtheory def
+R4406:4409 Coq.nsatz.NsatzTactic <> Rext thm
+R4401:4404 Coq.nsatz.NsatzTactic <> Rset thm
+R4386:4389 Coq.nsatz.NsatzTactic <> Rext thm
+R4381:4384 Coq.nsatz.NsatzTactic <> Rset thm
+R4367:4379 Coq.setoid_ring.Ring_polynom <> norm_aux_spec thm
+R4466:4479 Coq.nsatz.NsatzTactic <> R_power_theory thm
+R4432:4445 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4457:4463 Coq.nsatz.NsatzTactic <> Rtheory def
+R4452:4455 Coq.nsatz.NsatzTactic <> Rext thm
+R4447:4450 Coq.nsatz.NsatzTactic <> Rset thm
+R4392:4399 Coq.setoid_ring.Ring_theory <> Rth_ARth thm
+R4411:4417 Coq.nsatz.NsatzTactic <> Rtheory def
+R4406:4409 Coq.nsatz.NsatzTactic <> Rext thm
+R4401:4404 Coq.nsatz.NsatzTactic <> Rset thm
+R4386:4389 Coq.nsatz.NsatzTactic <> Rext thm
+R4381:4384 Coq.nsatz.NsatzTactic <> Rset thm
+prf 4495:4508 <> PolZeq_correct
+binder 4519:4519 <> P:43
+binder 4521:4522 <> P':44
+binder 4524:4524 <> l:45
+R4547:4552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4540:4542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4529:4534 Coq.nsatz.NsatzTactic <> PolZeq def
+R4536:4536 Coq.nsatz.NsatzTactic <> P:43 var
+R4538:4539 Coq.nsatz.NsatzTactic <> P':44 var
+R4543:4546 Coq.Init.Datatypes <> true constr
+R4561:4564 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4553:4556 Coq.nsatz.NsatzTactic <> PhiR def
+R4558:4558 Coq.nsatz.NsatzTactic <> l:45 var
+R4560:4560 Coq.nsatz.NsatzTactic <> P:43 var
+R4565:4568 Coq.nsatz.NsatzTactic <> PhiR def
+R4570:4570 Coq.nsatz.NsatzTactic <> l:45 var
+R4572:4573 Coq.nsatz.NsatzTactic <> P':44 var
+R4601:4606 Coq.setoid_ring.Ring_polynom <> Peq_ok thm
+R4619:4632 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4644:4650 Coq.nsatz.NsatzTactic <> Rtheory def
+R4639:4642 Coq.nsatz.NsatzTactic <> Rext thm
+R4634:4637 Coq.nsatz.NsatzTactic <> Rset thm
+R4613:4616 Coq.nsatz.NsatzTactic <> Rext thm
+R4608:4611 Coq.nsatz.NsatzTactic <> Rset thm
+R4601:4606 Coq.setoid_ring.Ring_polynom <> Peq_ok thm
+R4619:4632 Coq.setoid_ring.InitialRing <> gen_phiZ_morph thm
+R4644:4650 Coq.nsatz.NsatzTactic <> Rtheory def
+R4639:4642 Coq.nsatz.NsatzTactic <> Rext thm
+R4634:4637 Coq.nsatz.NsatzTactic <> Rset thm
+R4613:4616 Coq.nsatz.NsatzTactic <> Rext thm
+R4608:4611 Coq.nsatz.NsatzTactic <> Rset thm
+def 4678:4682 <> Cond0
+binder 4685:4685 <> A:46
+R4702:4703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4701:4701 Coq.nsatz.NsatzTactic <> A:46 var
+R4704:4704 Coq.nsatz.NsatzTactic <> nsatz1.R var
+binder 4694:4699 <> Interp:47
+R4710:4713 Coq.Init.Datatypes <> list ind
+R4715:4715 Coq.nsatz.NsatzTactic <> A:46 var
+binder 4708:4708 <> l:48
+R4736:4736 Coq.nsatz.NsatzTactic <> l:48 var
+R4747:4754 Coq.Lists.List <> nil abbrev
+R4759:4762 Coq.Init.Logic <> True ind
+R4769:4770 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4789:4792 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4784:4787 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4776:4781 Coq.nsatz.NsatzTactic <> Interp:47 var
+R4793:4797 Coq.nsatz.NsatzTactic <> Cond0:49 def
+R4808:4808 Coq.nsatz.NsatzTactic <> l:48 var
+R4801:4806 Coq.nsatz.NsatzTactic <> Interp:47 var
+R4799:4799 Coq.nsatz.NsatzTactic <> A:46 var
+prf 4824:4837 <> mult_l_correct
+binder 4848:4848 <> l:51
+binder 4850:4851 <> la:52
+binder 4853:4854 <> lp:53
+R4881:4886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4859:4863 Coq.nsatz.NsatzTactic <> Cond0 def
+R4865:4868 Coq.nsatz.NsatzTactic <> PolZ def
+R4871:4874 Coq.nsatz.NsatzTactic <> PhiR def
+R4876:4876 Coq.nsatz.NsatzTactic <> l:51 var
+R4879:4880 Coq.nsatz.NsatzTactic <> lp:53 var
+R4908:4911 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R4887:4890 Coq.nsatz.NsatzTactic <> PhiR def
+R4892:4892 Coq.nsatz.NsatzTactic <> l:51 var
+R4895:4900 Coq.nsatz.NsatzTactic <> mult_l def
+R4902:4903 Coq.nsatz.NsatzTactic <> la:52 var
+R4905:4906 Coq.nsatz.NsatzTactic <> lp:53 var
+R5027:5041 Coq.nsatz.NsatzTactic <> PolZadd_correct thm
+R5027:5041 Coq.nsatz.NsatzTactic <> PolZadd_correct thm
+R5027:5041 Coq.nsatz.NsatzTactic <> PolZadd_correct thm
+R5060:5074 Coq.nsatz.NsatzTactic <> PolZmul_correct thm
+R5060:5074 Coq.nsatz.NsatzTactic <> PolZmul_correct thm
+R5060:5074 Coq.nsatz.NsatzTactic <> PolZmul_correct thm
+prf 5139:5158 <> compute_list_correct
+binder 5169:5169 <> l:54
+binder 5171:5173 <> lla:55
+binder 5175:5176 <> lp:56
+R5203:5208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5181:5185 Coq.nsatz.NsatzTactic <> Cond0 def
+R5187:5190 Coq.nsatz.NsatzTactic <> PolZ def
+R5193:5196 Coq.nsatz.NsatzTactic <> PhiR def
+R5198:5198 Coq.nsatz.NsatzTactic <> l:54 var
+R5201:5202 Coq.nsatz.NsatzTactic <> lp:56 var
+R5209:5213 Coq.nsatz.NsatzTactic <> Cond0 def
+R5215:5218 Coq.nsatz.NsatzTactic <> PolZ def
+R5221:5224 Coq.nsatz.NsatzTactic <> PhiR def
+R5226:5226 Coq.nsatz.NsatzTactic <> l:54 var
+R5230:5241 Coq.nsatz.NsatzTactic <> compute_list def
+R5243:5245 Coq.nsatz.NsatzTactic <> lla:55 var
+R5247:5248 Coq.nsatz.NsatzTactic <> lp:56 var
+R5337:5350 Coq.nsatz.NsatzTactic <> mult_l_correct thm
+R5337:5350 Coq.nsatz.NsatzTactic <> mult_l_correct thm
+prf 5373:5385 <> check_correct
+binder 5398:5398 <> l:57
+binder 5400:5402 <> lpe:58
+binder 5404:5405 <> qe:59
+binder 5407:5412 <> certif:60
+R5445:5452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5438:5440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5419:5423 Coq.nsatz.NsatzTactic <> check def
+R5425:5427 Coq.nsatz.NsatzTactic <> lpe:58 var
+R5429:5430 Coq.nsatz.NsatzTactic <> qe:59 var
+R5432:5437 Coq.nsatz.NsatzTactic <> certif:60 var
+R5441:5444 Coq.Init.Datatypes <> true constr
+R5478:5485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5453:5457 Coq.nsatz.NsatzTactic <> Cond0 def
+R5459:5461 Coq.nsatz.NsatzTactic <> PEZ def
+R5464:5470 Coq.nsatz.NsatzTactic <> PEevalR def
+R5472:5472 Coq.nsatz.NsatzTactic <> l:57 var
+R5475:5477 Coq.nsatz.NsatzTactic <> lpe:58 var
+R5498:5501 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R5486:5492 Coq.nsatz.NsatzTactic <> PEevalR def
+R5494:5494 Coq.nsatz.NsatzTactic <> l:57 var
+R5496:5497 Coq.nsatz.NsatzTactic <> qe:59 var
+R5520:5524 Coq.nsatz.NsatzTactic <> check def
+R5566:5579 Coq.nsatz.NsatzTactic <> PolZeq_correct thm
+R5566:5579 Coq.nsatz.NsatzTactic <> PolZeq_correct thm
+R5609:5620 Coq.nsatz.NsatzTactic <> norm_correct thm
+R5609:5620 Coq.nsatz.NsatzTactic <> norm_correct thm
+R5609:5620 Coq.nsatz.NsatzTactic <> norm_correct thm
+R5634:5647 Coq.nsatz.NsatzTactic <> mult_l_correct thm
+R5634:5647 Coq.nsatz.NsatzTactic <> mult_l_correct thm
+R5657:5676 Coq.nsatz.NsatzTactic <> compute_list_correct thm
+R5657:5676 Coq.nsatz.NsatzTactic <> compute_list_correct thm
+R5766:5777 Coq.nsatz.NsatzTactic <> norm_correct thm
+R5766:5777 Coq.nsatz.NsatzTactic <> norm_correct thm
+R5766:5777 Coq.nsatz.NsatzTactic <> norm_correct thm
+def 5813:5814 <> R2
+R5819:5821 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+def 5835:5837 <> IPR
+binder 5839:5839 <> p:61
+R5853:5853 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R5866:5866 Coq.nsatz.NsatzTactic <> p:61 var
+R5877:5878 Coq.Numbers.BinNums <> xH constr
+R5883:5887 Coq.nsatz.NsatzTactic <> nsatz1.ring1 var
+R5893:5894 Coq.Numbers.BinNums <> xO constr
+R5896:5897 Coq.Numbers.BinNums <> xH constr
+R5903:5903 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5910:5911 Coq.Numbers.BinNums <> xO constr
+R5921:5922 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5929:5929 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5919:5920 Coq.nsatz.NsatzTactic <> R2 def
+R5923:5925 Coq.nsatz.NsatzTactic <> IPR:62 def
+R5935:5936 Coq.Numbers.BinNums <> xI constr
+R5938:5939 Coq.Numbers.BinNums <> xH constr
+R5945:5946 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5950:5950 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5948:5948 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5956:5957 Coq.Numbers.BinNums <> xI constr
+R5966:5967 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5979:5979 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R5970:5971 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5978:5978 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R5968:5969 Coq.nsatz.NsatzTactic <> R2 def
+R5972:5974 Coq.nsatz.NsatzTactic <> IPR:62 def
+def 6000:6003 <> IZR1
+binder 6005:6005 <> z:64
+R6018:6018 Coq.nsatz.NsatzTactic <> z:64 var
+R6025:6026 Coq.Numbers.BinNums <> Z0 constr
+R6048:6051 Coq.Numbers.BinNums <> Zpos constr
+R6058:6060 Coq.nsatz.NsatzTactic <> IPR def
+R6079:6082 Coq.Numbers.BinNums <> Zneg constr
+R6089:6090 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6096:6096 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6091:6093 Coq.nsatz.NsatzTactic <> IPR def
+def 6115:6124 <> interpret3
+binder 6126:6126 <> t:66
+binder 6128:6129 <> fv:67
+R6143:6143 Coq.nsatz.NsatzTactic <> nsatz1.R var
+R6156:6156 Coq.nsatz.NsatzTactic <> t:66 var
+R6168:6172 Coq.setoid_ring.Ring_polynom <> PEadd constr
+R6202:6211 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6216:6217 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6195:6196 <> v1:70
+R6240:6249 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6254:6255 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6233:6234 <> v2:71
+R6263:6265 Coq.setoid_ring.Algebra_syntax <> :::x_'+'_x not
+R6261:6262 Coq.nsatz.NsatzTactic <> v1:70 var
+R6266:6267 Coq.nsatz.NsatzTactic <> v2:71 var
+R6275:6279 Coq.setoid_ring.Ring_polynom <> PEmul constr
+R6309:6318 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6323:6324 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6302:6303 <> v1:72
+R6347:6356 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6361:6362 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6340:6341 <> v2:73
+R6370:6372 Coq.setoid_ring.Algebra_syntax <> :::x_'*'_x not
+R6368:6369 Coq.nsatz.NsatzTactic <> v1:72 var
+R6373:6374 Coq.nsatz.NsatzTactic <> v2:73 var
+R6382:6386 Coq.setoid_ring.Ring_polynom <> PEsub constr
+R6416:6425 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6430:6431 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6409:6410 <> v1:74
+R6454:6463 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6468:6469 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6447:6448 <> v2:75
+R6477:6479 Coq.setoid_ring.Algebra_syntax <> :::x_'-'_x not
+R6475:6476 Coq.nsatz.NsatzTactic <> v1:74 var
+R6480:6481 Coq.nsatz.NsatzTactic <> v2:75 var
+R6489:6493 Coq.setoid_ring.Ring_polynom <> PEopp constr
+R6520:6529 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6534:6535 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6513:6514 <> v1:76
+R6541:6541 Coq.setoid_ring.Algebra_syntax <> :::'-'_x not
+R6542:6543 Coq.nsatz.NsatzTactic <> v1:76 var
+R6551:6555 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R6585:6594 Coq.nsatz.NsatzTactic <> interpret3:68 def
+R6599:6600 Coq.nsatz.NsatzTactic <> fv:67 var
+binder 6578:6579 <> v1:77
+R6605:6607 Coq.setoid_ring.Integral_domain <> pow def
+R6609:6610 Coq.nsatz.NsatzTactic <> v1:77 var
+R6613:6620 Coq.NArith.BinNat N to_nat def
+R6631:6633 Coq.setoid_ring.Ring_polynom <> PEc constr
+R6643:6646 Coq.nsatz.NsatzTactic <> IZR1 def
+R6656:6658 Coq.setoid_ring.Ring_polynom <> PEO constr
+R6669:6671 Coq.setoid_ring.Ring_polynom <> PEI constr
+R6683:6685 Coq.setoid_ring.Ring_polynom <> PEX constr
+R6695:6702 Coq.Lists.List <> nth def
+R6726:6727 Coq.nsatz.NsatzTactic <> fv:67 var
+R6705:6708 Coq.Init.Peano <> pred abbrev
+R6711:6720 Coq.PArith.BinPos Pos to_nat def
+R6744:6749 Coq.nsatz.NsatzTactic nsatz1 <> sec
+R6960:6966 Coq.nsatz.NsatzTactic <> psos_r1 thm
+R7307:7310 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7307:7310 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R7462:7464 Coq.Init.Datatypes <> nil constr
+R7462:7464 Coq.Init.Datatypes <> nil constr
+R7493:7496 Coq.Init.Datatypes <> cons constr
+R7493:7496 Coq.Init.Datatypes <> cons constr
+R7633:7635 Coq.Init.Datatypes <> nil constr
+R7633:7635 Coq.Init.Datatypes <> nil constr
+R7669:7672 Coq.Init.Datatypes <> cons constr
+R7669:7672 Coq.Init.Datatypes <> cons constr
+R7717:7720 Coq.Init.Datatypes <> cons constr
+R7655:7658 Coq.Init.Datatypes <> cons constr
+R7770:7772 Coq.Init.Datatypes <> nil constr
+R7770:7772 Coq.Init.Datatypes <> nil constr
+R7793:7796 Coq.Init.Datatypes <> cons constr
+R7793:7796 Coq.Init.Datatypes <> cons constr
+R7955:7958 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7947:7949 Coq.setoid_ring.Ring_polynom <> PEc constr
+R7969:7972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7959:7961 Coq.setoid_ring.Ring_polynom <> PEc constr
+R7983:7986 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7973:7977 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R8117:8120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8113:8115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8084:8084 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8105:8107 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8087:8088 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8099:8100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8089:8093 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R8117:8120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8113:8115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8084:8084 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8105:8107 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8087:8088 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8099:8100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8089:8093 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R8543:8548 Coq.NArith.BinNat N pred def
+R8425:8429 Coq.NArith.BinNat N sub def
+R8443:8448 Coq.NArith.BinNat N pred def
+R8641:8644 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8641:8644 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8687:8690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8680:8683 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8687:8690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8680:8683 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R8732:8733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8736:8737 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8662:8663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8666:8667 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8668:8670 Coq.Init.Datatypes <> nil constr
+R8796:8798 Coq.Init.Datatypes <> nil constr
+R8796:8798 Coq.Init.Datatypes <> nil constr
+R8816:8817 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8816:8817 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8859:8860 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8859:8860 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8983:8992 Coq.nsatz.NsatzTactic <> interpret3 def
+R9108:9108 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9124:9128 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9109:9118 Coq.nsatz.NsatzTactic <> interpret3 def
+R9108:9108 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9124:9128 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9109:9118 Coq.nsatz.NsatzTactic <> interpret3 def
+R9176:9179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9154:9154 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9170:9174 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9155:9164 Coq.nsatz.NsatzTactic <> interpret3 def
+R9176:9179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9154:9154 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9170:9174 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R9155:9164 Coq.nsatz.NsatzTactic <> interpret3 def
+R9225:9226 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9143:9144 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9145:9147 Coq.Init.Datatypes <> nil constr
+R9526:9533 Coq.ZArith.BinInt Z of_nat def
+R9536:9546 Coq.Lists.List <> length abbrev
+R10491:10491 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10495:10496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10500:10500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10491:10491 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10495:10496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10500:10500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10694:10701 Coq.Lists.List <> rev def
+R10799:10800 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10799:10800 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11210:11214 Coq.setoid_ring.Ring_polynom <> PEmul constr
+R11219:11223 Coq.setoid_ring.Ring_polynom <> PEpow constr
+R11302:11304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11281:11285 Coq.nsatz.NsatzTactic <> check def
+R11294:11294 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11298:11298 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11301:11301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11305:11308 Coq.Init.Datatypes <> true constr
+R11440:11440 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R11456:11460 Coq.setoid_ring.Algebra_syntax <> :::x_'=='_x not
+R11441:11450 Coq.nsatz.NsatzTactic <> interpret3 def
+R11515:11527 Coq.nsatz.NsatzTactic <> check_correct thm
+R11561:11561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11565:11565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11568:11568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11746:11746 Coq.Init.Logic <> I constr
+R11836:11845 Coq.nsatz.NsatzTactic <> interpret3 def
+R11854:11861 Coq.NArith.BinNat N to_nat def
+R11809:11828 Coq.setoid_ring.Integral_domain <> Rintegral_domain_pow thm
+R11916:11939 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R11964:11993 Coq.setoid_ring.Integral_domain <> integral_domain_minus_one_zero thm
+R12043:12066 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R12157:12158 Coq.nsatz.NsatzTactic <> R2 def
+R12161:12168 Coq.setoid_ring.Algebra_syntax <> equality def
+R12171:12181 Coq.setoid_ring.Ncring <> eq_notation inst
+R12184:12191 Coq.setoid_ring.Algebra_syntax <> addition def
+R12194:12205 Coq.setoid_ring.Ncring <> add_notation inst
+R12229:12231 Coq.setoid_ring.Algebra_syntax <> one def
+R12234:12245 Coq.setoid_ring.Ncring <> one_notation inst
+R12248:12261 Coq.setoid_ring.Algebra_syntax <> multiplication def
+R12264:12275 Coq.setoid_ring.Ncring <> mul_notation inst
+R12278:12281 Coq.setoid_ring.Algebra_syntax <> zero def
+R12284:12296 Coq.setoid_ring.Ncring <> zero_notation inst
+R12091:12120 Coq.setoid_ring.Integral_domain <> integral_domain_minus_one_zero thm
+R9659:9661 Coq.Init.Datatypes <> nil constr
+R9659:9661 Coq.Init.Datatypes <> nil constr
+R10417:10427 Coq.setoid_ring.Ncring_tac <> list_reifyl def
+R9726:9728 Coq.Init.Datatypes <> nil constr
+R9726:9728 Coq.Init.Datatypes <> nil constr
+R9928:9928 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9932:9933 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9937:9937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9928:9928 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9932:9933 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9937:9937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10211:10221 Coq.setoid_ring.Ncring_tac <> list_reifyl def
+R9874:9884 Coq.setoid_ring.Ncring_tac <> list_reifyl def
+R9779:9789 Coq.setoid_ring.Ncring_tac <> list_reifyl def
+R12514:12521 Coq.nsatz.NsatzTactic <> psos_r1b thm
+R12570:12577 Coq.setoid_ring.Algebra_syntax <> equality def
+R12570:12577 Coq.setoid_ring.Algebra_syntax <> equality def
+R12651:12653 Coq.Init.Datatypes <> nil constr
+R12660:12662 Coq.Init.Datatypes <> nil constr
+R12908:12915 Coq.nsatz.NsatzTactic <> psos_r1b thm
+R12964:12971 Coq.setoid_ring.Algebra_syntax <> equality def
+R12964:12971 Coq.setoid_ring.Algebra_syntax <> equality def
+R13109:13114 Coq.QArith.QArith <> <> lib
+inst 13137:13140 <> Qops
+R13145:13152 Coq.setoid_ring.Ncring <> Ring_ops class
+R13154:13154 Coq.QArith.QArith_base <> Q rec
+R13164:13168 Coq.QArith.QArith_base <> Qplus def
+R13170:13174 Coq.QArith.QArith_base <> Qmult def
+R13176:13181 Coq.QArith.QArith_base <> Qminus def
+R13183:13186 Coq.QArith.QArith_base <> Qopp def
+R13188:13190 Coq.QArith.QArith_base <> Qeq def
+inst 13223:13225 <> Qri
+R13230:13233 Coq.setoid_ring.Ncring <> Ring class
+R13240:13243 Coq.nsatz.NsatzTactic <> Qops inst
+R13271:13278 Coq.QArith.QArith_base <> Q_Setoid inst
+R13271:13278 Coq.QArith.QArith_base <> Q_Setoid inst
+R13287:13296 Coq.QArith.QArith_base <> Qplus_comp inst
+R13287:13296 Coq.QArith.QArith_base <> Qplus_comp inst
+R13305:13314 Coq.QArith.QArith_base <> Qmult_comp inst
+R13305:13314 Coq.QArith.QArith_base <> Qmult_comp inst
+R13323:13333 Coq.QArith.QArith_base <> Qminus_comp inst
+R13323:13333 Coq.QArith.QArith_base <> Qminus_comp inst
+R13342:13350 Coq.QArith.QArith_base <> Qopp_comp inst
+R13342:13350 Coq.QArith.QArith_base <> Qopp_comp inst
+R13360:13368 Coq.QArith.QArith_base <> Qplus_0_l thm
+R13360:13368 Coq.QArith.QArith_base <> Qplus_0_l thm
+R13377:13386 Coq.QArith.QArith_base <> Qplus_comm thm
+R13377:13386 Coq.QArith.QArith_base <> Qplus_comm thm
+R13395:13405 Coq.QArith.QArith_base <> Qplus_assoc thm
+R13395:13405 Coq.QArith.QArith_base <> Qplus_assoc thm
+R13415:13423 Coq.QArith.QArith_base <> Qmult_1_l thm
+R13415:13423 Coq.QArith.QArith_base <> Qmult_1_l thm
+R13433:13441 Coq.QArith.QArith_base <> Qmult_1_r thm
+R13433:13441 Coq.QArith.QArith_base <> Qmult_1_r thm
+R13450:13460 Coq.QArith.QArith_base <> Qmult_assoc thm
+R13450:13460 Coq.QArith.QArith_base <> Qmult_assoc thm
+R13470:13487 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R13470:13487 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R13505:13522 Coq.QArith.QArith_base <> Qmult_plus_distr_r thm
+R13505:13522 Coq.QArith.QArith_base <> Qmult_plus_distr_r thm
+R13544:13554 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R13544:13554 Coq.QArith.QArith_base <> Qplus_opp_r thm
+prf 13573:13582 <> Q_one_zero
+R13585:13587 Coq.Init.Logic <> not def
+R13590:13592 Coq.QArith.QArith_base <> Qeq def
+R13618:13620 Coq.QArith.QArith_base <> Qeq def
+inst 13661:13664 <> Qcri
+R13668:13672 Coq.setoid_ring.Cring <> Cring class
+R13679:13681 Coq.nsatz.NsatzTactic <> Qri inst
+R13697:13706 Coq.QArith.QArith_base <> Qmult_comm thm
+R13697:13706 Coq.QArith.QArith_base <> Qmult_comm thm
+inst 13738:13740 <> Qdi
+R13745:13759 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R13767:13770 Coq.nsatz.NsatzTactic <> Qcri inst
+R13794:13807 Coq.QArith.QArith_base <> Qmult_integral thm
+R13794:13807 Coq.QArith.QArith_base <> Qmult_integral thm
+R13816:13825 Coq.nsatz.NsatzTactic <> Q_one_zero thm
+R13816:13825 Coq.nsatz.NsatzTactic <> Q_one_zero thm
+prf 13859:13868 <> Z_one_zero
+R13874:13877 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+inst 13920:13923 <> Zcri
+R13927:13931 Coq.setoid_ring.Cring <> Cring class
+R13938:13939 Coq.setoid_ring.Ncring_initial <> Zr inst
+R13955:13964 Coq.ZArith.BinInt Z mul_comm thm
+R13955:13964 Coq.ZArith.BinInt Z mul_comm thm
+inst 13996:13998 <> Zdi
+R14003:14017 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R14025:14028 Coq.nsatz.NsatzTactic <> Zcri inst
+R14052:14065 Coq.ZArith.BinInt <> Zmult_integral thm
+R14052:14065 Coq.ZArith.BinInt <> Zmult_integral thm
+R14074:14083 Coq.nsatz.NsatzTactic <> Z_one_zero thm
+R14074:14083 Coq.nsatz.NsatzTactic <> Z_one_zero thm

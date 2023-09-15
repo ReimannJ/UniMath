@@ -1,0 +1,1808 @@
+DIGEST 911a749084bf7513d1c0e1622cfd476e
+FCoq.Vectors.VectorSpec
+R815:817 Coq.Vectors.Fin <> <> lib
+R819:822 Coq.Lists.List <> <> lib
+R840:848 Coq.Vectors.VectorDef <> <> lib
+R850:857 Coq.Arith.PeanoNat <> <> lib
+R859:867 Coq.Logic.Eqdep_dec <> <> lib
+R877:891 Coq.Vectors.VectorDef VectorNotations <> mod
+R893:903 Coq.Init.Logic EqNotations <> mod
+def 918:925 <> cons_inj
+binder 928:928 <> A:1
+binder 932:933 <> a1:2
+binder 935:936 <> a2:3
+binder 940:940 <> n:4
+R952:952 Coq.Vectors.VectorDef <> t ind
+R954:954 Coq.Vectors.VectorSpec <> A:1 var
+R956:956 Coq.Vectors.VectorSpec <> n:4 var
+binder 944:945 <> v1:5
+binder 947:948 <> v2:6
+R974:976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R968:971 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R966:967 Coq.Vectors.VectorSpec <> a1:2 var
+R972:973 Coq.Vectors.VectorSpec <> v1:5 var
+R979:982 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R977:978 Coq.Vectors.VectorSpec <> a2:3 var
+R983:984 Coq.Vectors.VectorSpec <> v2:6 var
+binder 961:962 <> eq:7
+R996:999 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R991:993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R989:990 Coq.Vectors.VectorSpec <> a1:2 var
+R994:995 Coq.Vectors.VectorSpec <> a2:3 var
+R1002:1004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1000:1001 Coq.Vectors.VectorSpec <> v1:5 var
+R1005:1006 Coq.Vectors.VectorSpec <> v2:6 var
+R1020:1021 Coq.Vectors.VectorSpec <> eq:7 var
+R1027:1029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1039:1043 Coq.Vectors.VectorDef <> caseS def
+R1101:1102 Coq.Vectors.VectorSpec <> v1:5 var
+R1099:1099 Coq.Vectors.VectorSpec <> x:9 var
+binder 1052:1054 <> a2':10
+binder 1058:1060 <> v2':11
+binder 1069:1071 <> v1':12
+R1084:1087 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1078:1080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1076:1077 Coq.Vectors.VectorSpec <> a1:2 var
+R1081:1083 Coq.Vectors.VectorSpec <> a2':10 var
+R1091:1093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1088:1090 Coq.Vectors.VectorSpec <> v1':12 var
+R1094:1096 Coq.Vectors.VectorSpec <> v2':11 var
+R1114:1120 Coq.Init.Logic <> eq_refl constr
+R1125:1128 Coq.Init.Logic <> conj constr
+R1138:1144 Coq.Init.Logic <> eq_refl constr
+R1130:1136 Coq.Init.Logic <> eq_refl constr
+prf 1161:1163 <> eta
+binder 1166:1166 <> A:13
+binder 1170:1170 <> n:14
+R1178:1178 Coq.Vectors.VectorDef <> t ind
+R1180:1180 Coq.Vectors.VectorSpec <> A:13 var
+R1183:1183 Coq.Init.Datatypes <> S constr
+R1185:1185 Coq.Vectors.VectorSpec <> n:14 var
+binder 1174:1174 <> v:15
+R1192:1194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1191:1191 Coq.Vectors.VectorSpec <> v:15 var
+R1199:1202 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1195:1196 Coq.Vectors.VectorDef <> hd def
+R1198:1198 Coq.Vectors.VectorSpec <> v:15 var
+R1203:1204 Coq.Vectors.VectorDef <> tl def
+R1206:1206 Coq.Vectors.VectorSpec <> v:15 var
+binder 1235:1235 <> P:16
+binder 1237:1238 <> IS:17
+R1243:1247 Coq.Vectors.VectorDef <> caseS def
+R1251:1252 Coq.Vectors.VectorSpec <> IS:17 var
+R1249:1249 Coq.Vectors.VectorSpec <> P:16 var
+binder 1235:1235 <> P:18
+binder 1237:1238 <> IS:19
+R1243:1247 Coq.Vectors.VectorDef <> caseS def
+R1251:1252 Coq.Vectors.VectorSpec <> IS:19 var
+R1249:1249 Coq.Vectors.VectorSpec <> P:18 var
+prf 1481:1490 <> eq_nth_iff
+binder 1492:1492 <> A:20
+binder 1494:1494 <> n:21
+R1504:1504 Coq.Vectors.VectorDef <> t ind
+R1506:1506 Coq.Vectors.VectorSpec <> A:20 var
+R1508:1508 Coq.Vectors.VectorSpec <> n:21 var
+binder 1497:1498 <> v1:22
+binder 1500:1501 <> v2:23
+R1514:1514 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1563:1568 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 1522:1523 <> p1:24
+binder 1525:1526 <> p2:25
+R1536:1539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1531:1533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1529:1530 Coq.Vectors.VectorSpec <> p1:24 var
+R1534:1535 Coq.Vectors.VectorSpec <> p2:25 var
+R1550:1552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1542:1545 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R1548:1549 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R1540:1541 Coq.Vectors.VectorSpec <> v1:22 var
+R1546:1547 Coq.Vectors.VectorSpec <> p1:24 var
+R1555:1558 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R1561:1562 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R1553:1554 Coq.Vectors.VectorSpec <> v2:23 var
+R1559:1560 Coq.Vectors.VectorSpec <> p2:25 var
+R1571:1573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1569:1570 Coq.Vectors.VectorSpec <> v1:22 var
+R1574:1575 Coq.Vectors.VectorSpec <> v2:23 var
+R1619:1623 Coq.Vectors.VectorDef <> rect2 def
+R1619:1623 Coq.Vectors.VectorDef <> rect2 def
+R1707:1712 Coq.Vectors.Fin <> F1 constr
+R1714:1719 Coq.Vectors.Fin <> F1 constr
+R1721:1727 Coq.Init.Logic <> eq_refl constr
+R1707:1712 Coq.Vectors.Fin <> F1 constr
+R1714:1719 Coq.Vectors.Fin <> F1 constr
+R1721:1727 Coq.Init.Logic <> eq_refl constr
+R1776:1781 Coq.Vectors.Fin <> FS constr
+R1788:1793 Coq.Vectors.Fin <> FS constr
+R1800:1806 Coq.Init.Logic <> f_equal thm
+R1810:1815 Coq.Vectors.Fin <> FS constr
+R1776:1781 Coq.Vectors.Fin <> FS constr
+R1788:1793 Coq.Vectors.Fin <> FS constr
+R1800:1806 Coq.Init.Logic <> f_equal thm
+R1810:1815 Coq.Vectors.Fin <> FS constr
+prf 1861:1872 <> nth_order_hd
+binder 1874:1874 <> A:26
+binder 1884:1884 <> n:27
+R1891:1891 Coq.Vectors.VectorDef <> t ind
+R1893:1893 Coq.Vectors.VectorSpec <> A:26 var
+R1896:1896 Coq.Init.Datatypes <> S constr
+R1898:1898 Coq.Vectors.VectorSpec <> n:27 var
+binder 1887:1887 <> v:28
+R1908:1910 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1911:1911 Coq.Init.Datatypes <> S constr
+R1913:1913 Coq.Vectors.VectorSpec <> n:27 var
+binder 1903:1903 <> H:29
+R1932:1934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1919:1927 Coq.Vectors.VectorDef <> nth_order def
+R1931:1931 Coq.Vectors.VectorSpec <> H:29 var
+R1929:1929 Coq.Vectors.VectorSpec <> v:28 var
+R1935:1936 Coq.Vectors.VectorDef <> hd def
+R1938:1938 Coq.Vectors.VectorSpec <> v:28 var
+R1975:1977 Coq.Vectors.VectorSpec <> eta thm
+R1975:1977 Coq.Vectors.VectorSpec <> eta thm
+R1975:1977 Coq.Vectors.VectorSpec <> eta thm
+prf 1995:2006 <> nth_order_tl
+binder 2008:2008 <> A:30
+binder 2018:2018 <> n:31
+binder 2020:2020 <> k:32
+R2027:2027 Coq.Vectors.VectorDef <> t ind
+R2029:2029 Coq.Vectors.VectorSpec <> A:30 var
+R2032:2032 Coq.Init.Datatypes <> S constr
+R2034:2034 Coq.Vectors.VectorSpec <> n:31 var
+binder 2023:2023 <> v:33
+R2044:2046 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2043:2043 Coq.Vectors.VectorSpec <> k:32 var
+R2047:2047 Coq.Vectors.VectorSpec <> n:31 var
+binder 2039:2039 <> H:34
+R2059:2061 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2056:2056 Coq.Init.Datatypes <> S constr
+R2058:2058 Coq.Vectors.VectorSpec <> k:32 var
+R2062:2062 Coq.Init.Datatypes <> S constr
+R2064:2064 Coq.Vectors.VectorSpec <> n:31 var
+binder 2051:2052 <> HS:35
+R2088:2090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2070:2078 Coq.Vectors.VectorDef <> nth_order def
+R2087:2087 Coq.Vectors.VectorSpec <> H:34 var
+R2081:2082 Coq.Vectors.VectorDef <> tl def
+R2084:2084 Coq.Vectors.VectorSpec <> v:33 var
+R2091:2099 Coq.Vectors.VectorDef <> nth_order def
+R2103:2104 Coq.Vectors.VectorSpec <> HS:35 var
+R2101:2101 Coq.Vectors.VectorSpec <> v:33 var
+R2180:2182 Coq.Vectors.VectorSpec <> eta thm
+R2180:2182 Coq.Vectors.VectorSpec <> eta thm
+R2180:2182 Coq.Vectors.VectorSpec <> eta thm
+R2197:2205 Coq.Vectors.VectorDef <> nth_order def
+R2230:2243 Coq.Vectors.Fin <> of_nat_ext thm
+R2248:2252 Coq.Init.Logic <> proj2 thm
+R2255:2270 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R2230:2243 Coq.Vectors.Fin <> of_nat_ext thm
+R2248:2252 Coq.Init.Logic <> proj2 thm
+R2255:2270 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R2230:2243 Coq.Vectors.Fin <> of_nat_ext thm
+R2248:2252 Coq.Init.Logic <> proj2 thm
+R2255:2270 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+prf 2295:2308 <> nth_order_last
+binder 2310:2310 <> A:36
+binder 2320:2320 <> n:37
+R2326:2326 Coq.Vectors.VectorDef <> t ind
+R2328:2328 Coq.Vectors.VectorSpec <> A:36 var
+R2331:2331 Coq.Init.Datatypes <> S constr
+R2333:2333 Coq.Vectors.VectorSpec <> n:37 var
+binder 2323:2323 <> v:38
+R2342:2344 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2341:2341 Coq.Vectors.VectorSpec <> n:37 var
+R2345:2345 Coq.Init.Datatypes <> S constr
+R2347:2347 Coq.Vectors.VectorSpec <> n:37 var
+binder 2338:2338 <> H:39
+R2365:2367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2352:2360 Coq.Vectors.VectorDef <> nth_order def
+R2364:2364 Coq.Vectors.VectorSpec <> H:39 var
+R2362:2362 Coq.Vectors.VectorSpec <> v:38 var
+R2368:2371 Coq.Vectors.VectorDef <> last def
+R2373:2373 Coq.Vectors.VectorSpec <> v:38 var
+R2390:2398 Coq.Vectors.VectorDef <> nth_order def
+R2410:2414 Coq.Vectors.VectorDef <> rectS def
+R2410:2414 Coq.Vectors.VectorDef <> rectS def
+prf 2449:2461 <> nth_order_ext
+binder 2463:2463 <> A:40
+binder 2473:2473 <> n:41
+binder 2475:2475 <> k:42
+R2482:2482 Coq.Vectors.VectorDef <> t ind
+R2484:2484 Coq.Vectors.VectorSpec <> A:40 var
+R2486:2486 Coq.Vectors.VectorSpec <> n:41 var
+binder 2478:2478 <> v:43
+R2499:2501 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2498:2498 Coq.Vectors.VectorSpec <> k:42 var
+R2502:2502 Coq.Vectors.VectorSpec <> n:41 var
+binder 2490:2491 <> H1:44
+binder 2493:2494 <> H2:45
+R2522:2524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2508:2516 Coq.Vectors.VectorDef <> nth_order def
+R2520:2521 Coq.Vectors.VectorSpec <> H1:44 var
+R2518:2518 Coq.Vectors.VectorSpec <> v:43 var
+R2525:2533 Coq.Vectors.VectorDef <> nth_order def
+R2537:2538 Coq.Vectors.VectorSpec <> H2:45 var
+R2535:2535 Coq.Vectors.VectorSpec <> v:43 var
+R2575:2583 Coq.Vectors.VectorDef <> nth_order def
+R2599:2612 Coq.Vectors.Fin <> of_nat_ext thm
+R2599:2612 Coq.Vectors.Fin <> of_nat_ext thm
+R2599:2612 Coq.Vectors.Fin <> of_nat_ext thm
+prf 2687:2697 <> shiftin_nth
+binder 2699:2699 <> A:46
+binder 2701:2701 <> a:47
+binder 2703:2703 <> n:48
+R2709:2709 Coq.Vectors.VectorDef <> t ind
+R2711:2711 Coq.Vectors.VectorSpec <> A:46 var
+R2713:2713 Coq.Vectors.VectorSpec <> n:48 var
+binder 2706:2706 <> v:49
+binder 2716:2717 <> k1:50
+binder 2719:2720 <> k2:51
+R2729:2731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2727:2728 Coq.Vectors.VectorSpec <> k1:50 var
+R2732:2733 Coq.Vectors.VectorSpec <> k2:51 var
+binder 2723:2724 <> eq:52
+R2771:2773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2739:2741 Coq.Vectors.VectorDef <> nth def
+R2758:2764 Coq.Vectors.Fin <> L_R def
+R2768:2769 Coq.Vectors.VectorSpec <> k1:50 var
+R2744:2750 Coq.Vectors.VectorDef <> shiftin def
+R2754:2754 Coq.Vectors.VectorSpec <> v:49 var
+R2752:2752 Coq.Vectors.VectorSpec <> a:47 var
+R2774:2776 Coq.Vectors.VectorDef <> nth def
+R2780:2781 Coq.Vectors.VectorSpec <> k2:51 var
+R2778:2778 Coq.Vectors.VectorSpec <> v:49 var
+R2859:2863 Coq.Vectors.VectorDef <> caseS def
+R2859:2863 Coq.Vectors.VectorDef <> caseS def
+R2921:2925 Coq.Vectors.VectorDef <> caseS def
+R2921:2925 Coq.Vectors.VectorDef <> caseS def
+prf 2967:2978 <> shiftin_last
+binder 2980:2980 <> A:53
+binder 2982:2982 <> a:54
+binder 2984:2984 <> n:55
+R2990:2990 Coq.Vectors.VectorDef <> t ind
+R2992:2992 Coq.Vectors.VectorSpec <> A:53 var
+R2994:2994 Coq.Vectors.VectorSpec <> n:55 var
+binder 2987:2987 <> v:56
+R3016:3018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2998:3001 Coq.Vectors.VectorDef <> last def
+R3004:3010 Coq.Vectors.VectorDef <> shiftin def
+R3014:3014 Coq.Vectors.VectorSpec <> v:56 var
+R3012:3012 Coq.Vectors.VectorSpec <> a:54 var
+R3019:3019 Coq.Vectors.VectorSpec <> a:54 var
+prf 3065:3079 <> shiftrepeat_nth
+binder 3081:3081 <> A:57
+binder 3091:3091 <> n:58
+binder 3093:3093 <> k:59
+R3099:3099 Coq.Vectors.VectorDef <> t ind
+R3101:3101 Coq.Vectors.VectorSpec <> A:57 var
+R3104:3104 Coq.Init.Datatypes <> S constr
+R3106:3106 Coq.Vectors.VectorSpec <> n:58 var
+binder 3096:3096 <> v:60
+R3146:3148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3113:3115 Coq.Vectors.VectorDef <> nth def
+R3134:3140 Coq.Vectors.Fin <> L_R def
+R3144:3144 Coq.Vectors.VectorSpec <> k:59 var
+R3118:3128 Coq.Vectors.VectorDef <> shiftrepeat def
+R3130:3130 Coq.Vectors.VectorSpec <> v:60 var
+R3149:3151 Coq.Vectors.VectorDef <> nth def
+R3155:3155 Coq.Vectors.VectorSpec <> k:59 var
+R3153:3153 Coq.Vectors.VectorSpec <> v:60 var
+R3174:3182 Coq.Vectors.Fin <> rectS def
+R3174:3182 Coq.Vectors.Fin <> rectS def
+R3259:3263 Coq.Vectors.VectorDef <> caseS def
+R3259:3263 Coq.Vectors.VectorDef <> caseS def
+R3351:3351 Coq.Vectors.VectorDef <> t ind
+R3370:3370 Coq.Vectors.VectorSpec <> m:61 var
+R3391:3394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3385:3385 Coq.Vectors.VectorDef <> t ind
+R3389:3390 Coq.Vectors.VectorSpec <> m':63 var
+R3410:3410 Coq.Init.Datatypes <> S constr
+R3413:3413 Coq.Init.Datatypes <> S constr
+binder 3425:3425 <> v:64
+R3441:3445 Coq.Vectors.Fin <> t ind
+R3448:3448 Coq.Init.Datatypes <> S constr
+binder 3437:3437 <> p:65
+R3460:3460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3527:3537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3473:3473 Coq.Vectors.VectorDef <> t ind
+R3478:3478 Coq.Init.Datatypes <> S constr
+binder 3468:3469 <> v0:66
+R3517:3519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3484:3484 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3499:3503 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3515:3516 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3485:3495 Coq.Vectors.VectorDef <> shiftrepeat def
+R3497:3498 Coq.Vectors.VectorSpec <> v0:66 var
+R3504:3510 Coq.Vectors.Fin <> L_R def
+R3514:3514 Coq.Vectors.VectorSpec <> p:65 var
+R3522:3524 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3526:3526 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3520:3521 Coq.Vectors.VectorSpec <> v0:66 var
+R3525:3525 Coq.Vectors.VectorSpec <> p:65 var
+R3577:3579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3538:3538 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3552:3555 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3576:3576 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3539:3549 Coq.Vectors.VectorDef <> shiftrepeat def
+R3551:3551 Coq.Vectors.VectorSpec <> v:64 var
+R3556:3562 Coq.Vectors.Fin <> L_R def
+R3567:3572 Coq.Vectors.Fin <> FS constr
+R3574:3574 Coq.Vectors.VectorSpec <> p:65 var
+R3581:3583 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3592:3592 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3580:3580 Coq.Vectors.VectorSpec <> v:64 var
+R3584:3589 Coq.Vectors.Fin <> FS constr
+R3591:3591 Coq.Vectors.VectorSpec <> p:65 var
+R3613:3616 Coq.Init.Logic <> True ind
+R3622:3623 Coq.Vectors.VectorSpec <> v':62 var
+R3633:3634 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R3639:3639 Coq.Init.Logic <> I constr
+R3643:3646 Coq.Vectors.VectorDef <> cons constr
+R3654:3654 Coq.Vectors.VectorDef <> t ind
+R3351:3351 Coq.Vectors.VectorDef <> t ind
+R3370:3370 Coq.Vectors.VectorSpec <> m:67 var
+R3391:3394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3385:3385 Coq.Vectors.VectorDef <> t ind
+R3389:3390 Coq.Vectors.VectorSpec <> m':69 var
+R3410:3410 Coq.Init.Datatypes <> S constr
+R3413:3413 Coq.Init.Datatypes <> S constr
+binder 3425:3425 <> v:70
+R3441:3445 Coq.Vectors.Fin <> t ind
+R3448:3448 Coq.Init.Datatypes <> S constr
+binder 3437:3437 <> p:71
+R3460:3460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3527:3537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3473:3473 Coq.Vectors.VectorDef <> t ind
+R3478:3478 Coq.Init.Datatypes <> S constr
+binder 3468:3469 <> v0:72
+R3517:3519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3484:3484 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3499:3503 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3515:3516 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3485:3495 Coq.Vectors.VectorDef <> shiftrepeat def
+R3497:3498 Coq.Vectors.VectorSpec <> v0:72 var
+R3504:3510 Coq.Vectors.Fin <> L_R def
+R3514:3514 Coq.Vectors.VectorSpec <> p:71 var
+R3522:3524 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3526:3526 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3520:3521 Coq.Vectors.VectorSpec <> v0:72 var
+R3525:3525 Coq.Vectors.VectorSpec <> p:71 var
+R3577:3579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3538:3538 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3552:3555 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3576:3576 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3539:3549 Coq.Vectors.VectorDef <> shiftrepeat def
+R3551:3551 Coq.Vectors.VectorSpec <> v:70 var
+R3556:3562 Coq.Vectors.Fin <> L_R def
+R3567:3572 Coq.Vectors.Fin <> FS constr
+R3574:3574 Coq.Vectors.VectorSpec <> p:71 var
+R3581:3583 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3592:3592 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R3580:3580 Coq.Vectors.VectorSpec <> v:70 var
+R3584:3589 Coq.Vectors.Fin <> FS constr
+R3591:3591 Coq.Vectors.VectorSpec <> p:71 var
+R3613:3616 Coq.Init.Logic <> True ind
+R3622:3623 Coq.Vectors.VectorSpec <> v':68 var
+R3633:3634 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R3639:3639 Coq.Init.Logic <> I constr
+R3643:3646 Coq.Vectors.VectorDef <> cons constr
+R3654:3654 Coq.Vectors.VectorDef <> t ind
+R3685:3685 Coq.Init.Logic <> I constr
+R3685:3685 Coq.Init.Logic <> I constr
+prf 3711:3726 <> shiftrepeat_last
+binder 3728:3728 <> A:73
+binder 3738:3738 <> n:74
+R3744:3744 Coq.Vectors.VectorDef <> t ind
+R3746:3746 Coq.Vectors.VectorSpec <> A:73 var
+R3749:3749 Coq.Init.Datatypes <> S constr
+R3751:3751 Coq.Vectors.VectorSpec <> n:74 var
+binder 3741:3741 <> v:75
+R3776:3778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3756:3759 Coq.Vectors.VectorDef <> last def
+R3762:3772 Coq.Vectors.VectorDef <> shiftrepeat def
+R3774:3774 Coq.Vectors.VectorSpec <> v:75 var
+R3779:3782 Coq.Vectors.VectorDef <> last def
+R3784:3784 Coq.Vectors.VectorSpec <> v:75 var
+R3803:3807 Coq.Vectors.VectorDef <> rectS def
+R3803:3807 Coq.Vectors.VectorDef <> rectS def
+prf 3877:3896 <> nth_order_replace_eq
+binder 3898:3898 <> A:76
+binder 3908:3908 <> n:77
+binder 3910:3910 <> k:78
+R3917:3917 Coq.Vectors.VectorDef <> t ind
+R3919:3919 Coq.Vectors.VectorSpec <> A:76 var
+R3921:3921 Coq.Vectors.VectorSpec <> n:77 var
+binder 3913:3913 <> v:79
+binder 3924:3924 <> a:80
+R3933:3935 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3932:3932 Coq.Vectors.VectorSpec <> k:78 var
+R3936:3936 Coq.Vectors.VectorSpec <> n:77 var
+binder 3927:3928 <> H1:81
+R3946:3948 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3945:3945 Coq.Vectors.VectorSpec <> k:78 var
+R3949:3949 Coq.Vectors.VectorSpec <> n:77 var
+binder 3940:3941 <> H2:82
+R4000:4002 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3955:3963 Coq.Vectors.VectorDef <> nth_order def
+R3998:3999 Coq.Vectors.VectorSpec <> H1:81 var
+R3966:3972 Coq.Vectors.VectorDef <> replace def
+R3995:3995 Coq.Vectors.VectorSpec <> a:80 var
+R3977:3989 Coq.Vectors.Fin <> of_nat_lt def
+R3991:3992 Coq.Vectors.VectorSpec <> H2:82 var
+R3974:3974 Coq.Vectors.VectorSpec <> v:79 var
+R4003:4003 Coq.Vectors.VectorSpec <> a:80 var
+R4136:4147 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4151:4153 Coq.Vectors.VectorSpec <> eta thm
+R4136:4147 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4136:4147 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4151:4153 Coq.Vectors.VectorSpec <> eta thm
+R4151:4153 Coq.Vectors.VectorSpec <> eta thm
+R4173:4184 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4195:4199 Coq.Init.Logic <> proj2 thm
+R4202:4217 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4231:4233 Coq.Vectors.VectorSpec <> eta thm
+R4173:4184 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4195:4199 Coq.Init.Logic <> proj2 thm
+R4202:4217 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4173:4184 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4195:4199 Coq.Init.Logic <> proj2 thm
+R4202:4217 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4231:4233 Coq.Vectors.VectorSpec <> eta thm
+R4231:4233 Coq.Vectors.VectorSpec <> eta thm
+prf 4264:4284 <> nth_order_replace_neq
+binder 4286:4286 <> A:83
+binder 4296:4296 <> n:84
+binder 4298:4299 <> k1:85
+binder 4301:4302 <> k2:86
+R4313:4318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4307:4310 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4305:4306 Coq.Vectors.VectorSpec <> k1:85 var
+R4311:4312 Coq.Vectors.VectorSpec <> k2:86 var
+R4331:4331 Coq.Vectors.VectorDef <> t ind
+R4333:4333 Coq.Vectors.VectorSpec <> A:83 var
+R4335:4335 Coq.Vectors.VectorSpec <> n:84 var
+binder 4327:4327 <> v:87
+binder 4338:4338 <> a:88
+R4348:4350 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4346:4347 Coq.Vectors.VectorSpec <> k1:85 var
+R4351:4351 Coq.Vectors.VectorSpec <> n:84 var
+binder 4341:4342 <> H1:89
+R4362:4364 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4360:4361 Coq.Vectors.VectorSpec <> k2:86 var
+R4365:4365 Coq.Vectors.VectorSpec <> n:84 var
+binder 4355:4356 <> H2:90
+R4416:4418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4371:4379 Coq.Vectors.VectorDef <> nth_order def
+R4414:4415 Coq.Vectors.VectorSpec <> H1:89 var
+R4382:4388 Coq.Vectors.VectorDef <> replace def
+R4411:4411 Coq.Vectors.VectorSpec <> a:88 var
+R4393:4405 Coq.Vectors.Fin <> of_nat_lt def
+R4407:4408 Coq.Vectors.VectorSpec <> H2:90 var
+R4390:4390 Coq.Vectors.VectorSpec <> v:87 var
+R4419:4427 Coq.Vectors.VectorDef <> nth_order def
+R4431:4432 Coq.Vectors.VectorSpec <> H1:89 var
+R4429:4429 Coq.Vectors.VectorSpec <> v:87 var
+R4573:4584 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4573:4584 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4573:4584 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4573:4584 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R4630:4632 Coq.Vectors.VectorSpec <> eta thm
+R4630:4632 Coq.Vectors.VectorSpec <> eta thm
+R4630:4632 Coq.Vectors.VectorSpec <> eta thm
+R4630:4632 Coq.Vectors.VectorSpec <> eta thm
+R4654:4665 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4676:4680 Coq.Init.Logic <> proj2 thm
+R4683:4698 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4712:4714 Coq.Vectors.VectorSpec <> eta thm
+R4654:4665 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4676:4680 Coq.Init.Logic <> proj2 thm
+R4683:4698 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4654:4665 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4676:4680 Coq.Init.Logic <> proj2 thm
+R4683:4698 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4654:4665 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R4676:4680 Coq.Init.Logic <> proj2 thm
+R4683:4698 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R4712:4714 Coq.Vectors.VectorSpec <> eta thm
+R4712:4714 Coq.Vectors.VectorSpec <> eta thm
+prf 4800:4809 <> replace_id
+binder 4811:4811 <> A:91
+binder 4821:4821 <> n:92
+binder 4823:4823 <> p:93
+R4830:4830 Coq.Vectors.VectorDef <> t ind
+R4832:4832 Coq.Vectors.VectorSpec <> A:91 var
+R4834:4834 Coq.Vectors.VectorSpec <> n:92 var
+binder 4826:4826 <> v:94
+R4861:4863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4840:4846 Coq.Vectors.VectorDef <> replace def
+R4853:4855 Coq.Vectors.VectorDef <> nth def
+R4859:4859 Coq.Vectors.VectorSpec <> p:93 var
+R4857:4857 Coq.Vectors.VectorSpec <> v:94 var
+R4850:4850 Coq.Vectors.VectorSpec <> p:93 var
+R4848:4848 Coq.Vectors.VectorSpec <> v:94 var
+R4864:4864 Coq.Vectors.VectorSpec <> v:94 var
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+R4934:4936 Coq.Vectors.VectorSpec <> eta thm
+prf 4984:5001 <> replace_replace_eq
+binder 5003:5003 <> A:95
+binder 5013:5013 <> n:96
+binder 5015:5015 <> p:97
+R5022:5022 Coq.Vectors.VectorDef <> t ind
+R5024:5024 Coq.Vectors.VectorSpec <> A:95 var
+R5026:5026 Coq.Vectors.VectorSpec <> n:96 var
+binder 5018:5018 <> v:98
+binder 5029:5029 <> a:99
+binder 5031:5031 <> b:100
+R5063:5065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5036:5042 Coq.Vectors.VectorDef <> replace def
+R5062:5062 Coq.Vectors.VectorSpec <> b:100 var
+R5060:5060 Coq.Vectors.VectorSpec <> p:97 var
+R5045:5051 Coq.Vectors.VectorDef <> replace def
+R5057:5057 Coq.Vectors.VectorSpec <> a:99 var
+R5055:5055 Coq.Vectors.VectorSpec <> p:97 var
+R5053:5053 Coq.Vectors.VectorSpec <> v:98 var
+R5066:5072 Coq.Vectors.VectorDef <> replace def
+R5078:5078 Coq.Vectors.VectorSpec <> b:100 var
+R5076:5076 Coq.Vectors.VectorSpec <> p:97 var
+R5074:5074 Coq.Vectors.VectorSpec <> v:98 var
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+R5144:5146 Coq.Vectors.VectorSpec <> eta thm
+prf 5194:5212 <> replace_replace_neq
+binder 5214:5214 <> A:101
+binder 5224:5224 <> n:102
+binder 5226:5227 <> p1:103
+binder 5229:5230 <> p2:104
+R5237:5237 Coq.Vectors.VectorDef <> t ind
+R5239:5239 Coq.Vectors.VectorSpec <> A:101 var
+R5241:5241 Coq.Vectors.VectorSpec <> n:102 var
+binder 5233:5233 <> v:105
+binder 5244:5244 <> a:106
+binder 5246:5246 <> b:107
+R5257:5262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5251:5254 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5249:5250 Coq.Vectors.VectorSpec <> p1:103 var
+R5255:5256 Coq.Vectors.VectorSpec <> p2:104 var
+R5292:5294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5263:5269 Coq.Vectors.VectorDef <> replace def
+R5291:5291 Coq.Vectors.VectorSpec <> b:107 var
+R5288:5289 Coq.Vectors.VectorSpec <> p2:104 var
+R5272:5278 Coq.Vectors.VectorDef <> replace def
+R5285:5285 Coq.Vectors.VectorSpec <> a:106 var
+R5282:5283 Coq.Vectors.VectorSpec <> p1:103 var
+R5280:5280 Coq.Vectors.VectorSpec <> v:105 var
+R5295:5301 Coq.Vectors.VectorDef <> replace def
+R5323:5323 Coq.Vectors.VectorSpec <> a:106 var
+R5320:5321 Coq.Vectors.VectorSpec <> p1:103 var
+R5304:5310 Coq.Vectors.VectorDef <> replace def
+R5317:5317 Coq.Vectors.VectorSpec <> b:107 var
+R5314:5315 Coq.Vectors.VectorSpec <> p2:104 var
+R5312:5312 Coq.Vectors.VectorSpec <> v:105 var
+R5340:5348 Coq.Vectors.Fin <> rect2 def
+binder 5355:5355 <> n:108
+binder 5357:5358 <> p1:109
+binder 5360:5361 <> p2:110
+binder 5373:5373 <> v:111
+binder 5375:5375 <> a:112
+binder 5377:5377 <> b:113
+R5390:5393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5384:5387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5382:5383 Coq.Vectors.VectorSpec <> p1:109 var
+R5388:5389 Coq.Vectors.VectorSpec <> p2:110 var
+R5423:5425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5394:5400 Coq.Vectors.VectorDef <> replace def
+R5422:5422 Coq.Vectors.VectorSpec <> b:113 var
+R5419:5420 Coq.Vectors.VectorSpec <> p2:110 var
+R5403:5409 Coq.Vectors.VectorDef <> replace def
+R5416:5416 Coq.Vectors.VectorSpec <> a:112 var
+R5413:5414 Coq.Vectors.VectorSpec <> p1:109 var
+R5411:5411 Coq.Vectors.VectorSpec <> v:111 var
+R5426:5432 Coq.Vectors.VectorDef <> replace def
+R5454:5454 Coq.Vectors.VectorSpec <> a:112 var
+R5451:5452 Coq.Vectors.VectorSpec <> p1:109 var
+R5435:5441 Coq.Vectors.VectorDef <> replace def
+R5448:5448 Coq.Vectors.VectorSpec <> b:113 var
+R5445:5446 Coq.Vectors.VectorSpec <> p2:110 var
+R5443:5443 Coq.Vectors.VectorSpec <> v:111 var
+R5340:5348 Coq.Vectors.Fin <> rect2 def
+binder 5355:5355 <> n:114
+binder 5357:5358 <> p1:115
+binder 5360:5361 <> p2:116
+binder 5373:5373 <> v:117
+binder 5375:5375 <> a:118
+binder 5377:5377 <> b:119
+R5390:5393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5384:5387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5382:5383 Coq.Vectors.VectorSpec <> p1:115 var
+R5388:5389 Coq.Vectors.VectorSpec <> p2:116 var
+R5423:5425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5394:5400 Coq.Vectors.VectorDef <> replace def
+R5422:5422 Coq.Vectors.VectorSpec <> b:119 var
+R5419:5420 Coq.Vectors.VectorSpec <> p2:116 var
+R5403:5409 Coq.Vectors.VectorDef <> replace def
+R5416:5416 Coq.Vectors.VectorSpec <> a:118 var
+R5413:5414 Coq.Vectors.VectorSpec <> p1:115 var
+R5411:5411 Coq.Vectors.VectorSpec <> v:117 var
+R5426:5432 Coq.Vectors.VectorDef <> replace def
+R5454:5454 Coq.Vectors.VectorSpec <> a:118 var
+R5451:5452 Coq.Vectors.VectorSpec <> p1:115 var
+R5435:5441 Coq.Vectors.VectorDef <> replace def
+R5448:5448 Coq.Vectors.VectorSpec <> b:119 var
+R5445:5446 Coq.Vectors.VectorSpec <> p2:116 var
+R5443:5443 Coq.Vectors.VectorSpec <> v:117 var
+R5551:5555 Coq.Vectors.VectorDef <> rectS def
+R5551:5555 Coq.Vectors.VectorDef <> rectS def
+R5616:5620 Coq.Vectors.VectorDef <> rectS def
+R5616:5620 Coq.Vectors.VectorDef <> rectS def
+R5693:5697 Coq.Vectors.VectorDef <> rectS def
+R5693:5697 Coq.Vectors.VectorDef <> rectS def
+prf 5877:5885 <> const_nth
+binder 5887:5887 <> A:120
+R5893:5893 Coq.Vectors.VectorSpec <> A:120 var
+binder 5890:5890 <> a:121
+binder 5896:5896 <> n:122
+R5902:5906 Coq.Vectors.Fin <> t ind
+R5908:5908 Coq.Vectors.VectorSpec <> n:122 var
+binder 5899:5899 <> p:123
+R5928:5930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5912:5912 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R5922:5925 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R5927:5927 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R5913:5917 Coq.Vectors.VectorDef <> const def
+R5921:5921 Coq.Vectors.VectorSpec <> n:122 var
+R5919:5919 Coq.Vectors.VectorSpec <> a:121 var
+R5926:5926 Coq.Vectors.VectorSpec <> p:123 var
+R5931:5931 Coq.Vectors.VectorSpec <> a:121 var
+prf 6001:6006 <> map_id
+binder 6008:6008 <> A:124
+binder 6018:6018 <> n:125
+R6025:6025 Coq.Vectors.VectorDef <> t ind
+R6027:6027 Coq.Vectors.VectorSpec <> A:124 var
+R6029:6029 Coq.Vectors.VectorSpec <> n:125 var
+binder 6021:6021 <> v:126
+R6053:6055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6035:6037 Coq.Vectors.VectorDef <> map def
+R6052:6052 Coq.Vectors.VectorSpec <> v:126 var
+binder 6044:6044 <> x:127
+R6049:6049 Coq.Vectors.VectorSpec <> x:127 var
+R6056:6056 Coq.Vectors.VectorSpec <> v:126 var
+prf 6151:6157 <> map_map
+binder 6159:6159 <> A:128
+binder 6161:6161 <> B:129
+binder 6163:6163 <> C:130
+R6177:6178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6176:6176 Coq.Vectors.VectorSpec <> A:128 var
+R6179:6179 Coq.Vectors.VectorSpec <> B:129 var
+binder 6174:6174 <> f:131
+R6186:6187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6185:6185 Coq.Vectors.VectorSpec <> B:129 var
+R6188:6188 Coq.Vectors.VectorSpec <> C:130 var
+binder 6183:6183 <> g:132
+binder 6191:6191 <> n:133
+R6198:6198 Coq.Vectors.VectorDef <> t ind
+R6200:6200 Coq.Vectors.VectorSpec <> A:128 var
+R6202:6202 Coq.Vectors.VectorSpec <> n:133 var
+binder 6194:6194 <> v:134
+R6223:6225 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6208:6210 Coq.Vectors.VectorDef <> map def
+R6215:6217 Coq.Vectors.VectorDef <> map def
+R6221:6221 Coq.Vectors.VectorSpec <> v:134 var
+R6219:6219 Coq.Vectors.VectorSpec <> f:131 var
+R6212:6212 Coq.Vectors.VectorSpec <> g:132 var
+R6226:6228 Coq.Vectors.VectorDef <> map def
+R6249:6249 Coq.Vectors.VectorSpec <> v:134 var
+binder 6235:6235 <> x:135
+R6240:6240 Coq.Vectors.VectorSpec <> g:132 var
+R6243:6243 Coq.Vectors.VectorSpec <> f:131 var
+R6245:6245 Coq.Vectors.VectorSpec <> x:135 var
+prf 6348:6357 <> map_ext_in
+binder 6359:6359 <> A:136
+binder 6361:6361 <> B:137
+R6377:6378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6376:6376 Coq.Vectors.VectorSpec <> A:136 var
+R6379:6379 Coq.Vectors.VectorSpec <> B:137 var
+binder 6372:6372 <> f:138
+binder 6374:6374 <> g:139
+binder 6382:6382 <> n:140
+R6389:6389 Coq.Vectors.VectorDef <> t ind
+R6391:6391 Coq.Vectors.VectorSpec <> A:136 var
+R6393:6393 Coq.Vectors.VectorSpec <> n:140 var
+binder 6385:6385 <> v:141
+R6399:6399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6429:6433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6407:6407 <> a:142
+R6416:6419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6410:6411 Coq.Vectors.VectorDef <> In ind
+R6415:6415 Coq.Vectors.VectorSpec <> v:141 var
+R6413:6413 Coq.Vectors.VectorSpec <> a:142 var
+R6423:6425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6420:6420 Coq.Vectors.VectorSpec <> f:138 var
+R6422:6422 Coq.Vectors.VectorSpec <> a:142 var
+R6426:6426 Coq.Vectors.VectorSpec <> g:139 var
+R6428:6428 Coq.Vectors.VectorSpec <> a:142 var
+R6441:6443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6434:6436 Coq.Vectors.VectorDef <> map def
+R6440:6440 Coq.Vectors.VectorSpec <> v:141 var
+R6438:6438 Coq.Vectors.VectorSpec <> f:138 var
+R6444:6446 Coq.Vectors.VectorDef <> map def
+R6450:6450 Coq.Vectors.VectorSpec <> v:141 var
+R6448:6448 Coq.Vectors.VectorSpec <> g:139 var
+prf 6616:6622 <> map_ext
+binder 6624:6624 <> A:143
+binder 6626:6626 <> B:144
+R6642:6643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6641:6641 Coq.Vectors.VectorSpec <> A:143 var
+R6644:6644 Coq.Vectors.VectorSpec <> B:144 var
+binder 6637:6637 <> f:145
+binder 6639:6639 <> g:146
+R6648:6648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6668:6674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6656:6656 <> a:147
+R6662:6664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6659:6659 Coq.Vectors.VectorSpec <> f:145 var
+R6661:6661 Coq.Vectors.VectorSpec <> a:147 var
+R6665:6665 Coq.Vectors.VectorSpec <> g:146 var
+R6667:6667 Coq.Vectors.VectorSpec <> a:147 var
+binder 6682:6682 <> n:148
+R6689:6689 Coq.Vectors.VectorDef <> t ind
+R6691:6691 Coq.Vectors.VectorSpec <> A:143 var
+R6693:6693 Coq.Vectors.VectorSpec <> n:148 var
+binder 6685:6685 <> v:149
+R6704:6706 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6697:6699 Coq.Vectors.VectorDef <> map def
+R6703:6703 Coq.Vectors.VectorSpec <> v:149 var
+R6701:6701 Coq.Vectors.VectorSpec <> f:145 var
+R6707:6709 Coq.Vectors.VectorDef <> map def
+R6713:6713 Coq.Vectors.VectorSpec <> v:149 var
+R6711:6711 Coq.Vectors.VectorSpec <> g:146 var
+R6737:6746 Coq.Vectors.VectorSpec <> map_ext_in thm
+R6737:6746 Coq.Vectors.VectorSpec <> map_ext_in thm
+prf 6767:6773 <> nth_map
+binder 6776:6776 <> A:150
+binder 6778:6778 <> B:151
+R6786:6789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6785:6785 Coq.Vectors.VectorSpec <> A:150 var
+R6790:6790 Coq.Vectors.VectorSpec <> B:151 var
+binder 6782:6782 <> f:152
+binder 6794:6794 <> n:153
+binder 6797:6797 <> v:154
+R6807:6811 Coq.Vectors.Fin <> t ind
+R6813:6813 Coq.Vectors.VectorSpec <> n:153 var
+binder 6800:6801 <> p1:155
+binder 6803:6804 <> p2:156
+R6823:6825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6821:6822 Coq.Vectors.VectorSpec <> p1:155 var
+R6826:6827 Coq.Vectors.VectorSpec <> p2:156 var
+binder 6817:6818 <> eq:157
+R6849:6851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6833:6833 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R6841:6845 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R6848:6848 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R6834:6836 Coq.Vectors.VectorDef <> map def
+R6840:6840 Coq.Vectors.VectorSpec <> v:154 var
+R6838:6838 Coq.Vectors.VectorSpec <> f:152 var
+R6846:6847 Coq.Vectors.VectorSpec <> p1:155 var
+R6852:6852 Coq.Vectors.VectorSpec <> f:152 var
+R6856:6859 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R6862:6862 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R6855:6855 Coq.Vectors.VectorSpec <> v:154 var
+R6860:6861 Coq.Vectors.VectorSpec <> p2:156 var
+R6937:6941 Coq.Vectors.VectorDef <> caseS def
+R6937:6941 Coq.Vectors.VectorDef <> caseS def
+R6993:6997 Coq.Vectors.VectorDef <> caseS def
+R6993:6997 Coq.Vectors.VectorDef <> caseS def
+prf 7031:7038 <> nth_map2
+binder 7041:7041 <> A:158
+binder 7043:7043 <> B:159
+binder 7045:7045 <> C:160
+R7053:7056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7052:7052 Coq.Vectors.VectorSpec <> A:158 var
+R7058:7061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7057:7057 Coq.Vectors.VectorSpec <> B:159 var
+R7062:7062 Coq.Vectors.VectorSpec <> C:160 var
+binder 7049:7049 <> f:161
+binder 7066:7066 <> n:162
+binder 7069:7069 <> v:163
+binder 7071:7071 <> w:164
+R7084:7088 Coq.Vectors.Fin <> t ind
+R7090:7090 Coq.Vectors.VectorSpec <> n:162 var
+binder 7074:7075 <> p1:165
+binder 7077:7078 <> p2:166
+binder 7080:7081 <> p3:167
+R7103:7106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7098:7100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7096:7097 Coq.Vectors.VectorSpec <> p1:165 var
+R7101:7102 Coq.Vectors.VectorSpec <> p2:166 var
+R7114:7117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7109:7111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7107:7108 Coq.Vectors.VectorSpec <> p2:166 var
+R7112:7113 Coq.Vectors.VectorSpec <> p3:167 var
+R7136:7138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7118:7118 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7129:7132 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7135:7135 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7119:7122 Coq.Vectors.VectorDef <> map2 def
+R7128:7128 Coq.Vectors.VectorSpec <> w:164 var
+R7126:7126 Coq.Vectors.VectorSpec <> v:163 var
+R7124:7124 Coq.Vectors.VectorSpec <> f:161 var
+R7133:7134 Coq.Vectors.VectorSpec <> p1:165 var
+R7139:7139 Coq.Vectors.VectorSpec <> f:161 var
+R7152:7153 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7156:7156 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7151:7151 Coq.Vectors.VectorSpec <> w:164 var
+R7154:7155 Coq.Vectors.VectorSpec <> p3:167 var
+R7143:7144 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7147:7147 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'[@'_x_']' not
+R7142:7142 Coq.Vectors.VectorSpec <> v:163 var
+R7145:7146 Coq.Vectors.VectorSpec <> p2:166 var
+R7221:7225 Coq.Vectors.VectorDef <> rect2 def
+R7221:7225 Coq.Vectors.VectorDef <> rect2 def
+R7255:7263 Coq.Vectors.Fin <> case0 def
+R7255:7263 Coq.Vectors.Fin <> case0 def
+R7324:7332 Coq.Vectors.Fin <> caseS def
+R7324:7332 Coq.Vectors.Fin <> caseS def
+prf 7406:7429 <> fold_left_right_assoc_eq
+binder 7432:7432 <> A:168
+binder 7434:7434 <> B:169
+R7442:7445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7441:7441 Coq.Vectors.VectorSpec <> A:168 var
+R7447:7450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7446:7446 Coq.Vectors.VectorSpec <> B:169 var
+R7451:7451 Coq.Vectors.VectorSpec <> A:168 var
+binder 7438:7438 <> f:170
+binder 7471:7471 <> a:171
+binder 7473:7473 <> b:172
+binder 7475:7475 <> c:173
+R7489:7491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7478:7478 Coq.Vectors.VectorSpec <> f:170 var
+R7488:7488 Coq.Vectors.VectorSpec <> c:173 var
+R7481:7481 Coq.Vectors.VectorSpec <> f:170 var
+R7485:7485 Coq.Vectors.VectorSpec <> b:172 var
+R7483:7483 Coq.Vectors.VectorSpec <> a:171 var
+R7492:7492 Coq.Vectors.VectorSpec <> f:170 var
+R7502:7502 Coq.Vectors.VectorSpec <> b:172 var
+R7495:7495 Coq.Vectors.VectorSpec <> f:170 var
+R7499:7499 Coq.Vectors.VectorSpec <> c:173 var
+R7497:7497 Coq.Vectors.VectorSpec <> a:171 var
+binder 7457:7461 <> assoc:174
+binder 7508:7508 <> n:175
+R7515:7515 Coq.Vectors.VectorDef <> t ind
+R7517:7517 Coq.Vectors.VectorSpec <> B:169 var
+R7519:7519 Coq.Vectors.VectorSpec <> n:175 var
+binder 7512:7512 <> v:176
+binder 7530:7530 <> a:177
+R7548:7550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7533:7541 Coq.Vectors.VectorDef <> fold_left def
+R7547:7547 Coq.Vectors.VectorSpec <> v:176 var
+R7545:7545 Coq.Vectors.VectorSpec <> a:177 var
+R7543:7543 Coq.Vectors.VectorSpec <> f:170 var
+R7551:7560 Coq.Vectors.VectorDef <> fold_right def
+R7583:7583 Coq.Vectors.VectorSpec <> a:177 var
+R7581:7581 Coq.Vectors.VectorSpec <> v:176 var
+binder 7567:7567 <> x:178
+binder 7569:7569 <> y:179
+R7574:7574 Coq.Vectors.VectorSpec <> f:170 var
+R7578:7578 Coq.Vectors.VectorSpec <> x:178 var
+R7576:7576 Coq.Vectors.VectorSpec <> y:179 var
+binder 7608:7608 <> n:180
+binder 7610:7610 <> h:181
+R7616:7616 Coq.Vectors.VectorDef <> t ind
+R7620:7620 Coq.Vectors.VectorSpec <> n:180 var
+binder 7613:7613 <> v:182
+binder 7623:7623 <> a:183
+R7647:7649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7626:7634 Coq.Vectors.VectorDef <> fold_left def
+R7646:7646 Coq.Vectors.VectorSpec <> v:182 var
+R7641:7641 Coq.Vectors.VectorSpec <> a:183 var
+R7643:7643 Coq.Vectors.VectorSpec <> h:181 var
+R7653:7661 Coq.Vectors.VectorDef <> fold_left def
+R7667:7667 Coq.Vectors.VectorSpec <> v:182 var
+R7665:7665 Coq.Vectors.VectorSpec <> a:183 var
+R7670:7670 Coq.Vectors.VectorSpec <> h:181 var
+binder 7608:7608 <> n:184
+binder 7610:7610 <> h:185
+R7616:7616 Coq.Vectors.VectorDef <> t ind
+R7620:7620 Coq.Vectors.VectorSpec <> n:184 var
+binder 7613:7613 <> v:186
+binder 7623:7623 <> a:187
+R7647:7649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7626:7634 Coq.Vectors.VectorDef <> fold_left def
+R7646:7646 Coq.Vectors.VectorSpec <> v:186 var
+R7641:7641 Coq.Vectors.VectorSpec <> a:187 var
+R7643:7643 Coq.Vectors.VectorSpec <> h:185 var
+R7653:7661 Coq.Vectors.VectorDef <> fold_left def
+R7667:7667 Coq.Vectors.VectorSpec <> v:186 var
+R7665:7665 Coq.Vectors.VectorSpec <> a:187 var
+R7670:7670 Coq.Vectors.VectorSpec <> h:185 var
+prf 7926:7931 <> take_O
+binder 7943:7943 <> A:188
+binder 7947:7947 <> n:189
+binder 7950:7951 <> le:190
+R7956:7956 Coq.Vectors.VectorDef <> t ind
+R7958:7958 Coq.Vectors.VectorSpec <> A:188 var
+R7960:7960 Coq.Vectors.VectorSpec <> n:189 var
+binder 7954:7954 <> v:191
+R7975:7977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7964:7967 Coq.Vectors.VectorDef <> take def
+R7974:7974 Coq.Vectors.VectorSpec <> v:191 var
+R7971:7972 Coq.Vectors.VectorSpec <> le:190 var
+R7978:7979 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+prf 8016:8024 <> take_idem
+binder 8036:8036 <> A:192
+binder 8039:8039 <> p:193
+binder 8041:8041 <> n:194
+R8046:8046 Coq.Vectors.VectorDef <> t ind
+R8048:8048 Coq.Vectors.VectorSpec <> A:192 var
+R8050:8050 Coq.Vectors.VectorSpec <> n:194 var
+binder 8044:8044 <> v:195
+binder 8054:8055 <> le:196
+binder 8057:8059 <> le':197
+R8089:8091 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8065:8068 Coq.Vectors.VectorDef <> take def
+R8077:8080 Coq.Vectors.VectorDef <> take def
+R8087:8087 Coq.Vectors.VectorSpec <> v:195 var
+R8084:8085 Coq.Vectors.VectorSpec <> le:196 var
+R8082:8082 Coq.Vectors.VectorSpec <> p:193 var
+R8072:8074 Coq.Vectors.VectorSpec <> le':197 var
+R8070:8070 Coq.Vectors.VectorSpec <> p:193 var
+R8092:8095 Coq.Vectors.VectorDef <> take def
+R8102:8102 Coq.Vectors.VectorSpec <> v:195 var
+R8099:8100 Coq.Vectors.VectorSpec <> le:196 var
+R8097:8097 Coq.Vectors.VectorSpec <> p:193 var
+R8223:8229 Coq.Init.Logic <> f_equal thm
+R8223:8229 Coq.Init.Logic <> f_equal thm
+prf 8255:8262 <> take_app
+binder 8274:8274 <> A:198
+binder 8278:8278 <> n:199
+R8284:8284 Coq.Vectors.VectorDef <> t ind
+R8286:8286 Coq.Vectors.VectorSpec <> A:198 var
+R8288:8288 Coq.Vectors.VectorSpec <> n:199 var
+binder 8282:8282 <> v:200
+binder 8292:8292 <> m:201
+R8298:8298 Coq.Vectors.VectorDef <> t ind
+R8300:8300 Coq.Vectors.VectorSpec <> A:198 var
+R8302:8302 Coq.Vectors.VectorSpec <> m:201 var
+binder 8296:8296 <> w:202
+binder 8305:8306 <> le:203
+R8331:8333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8309:8312 Coq.Vectors.VectorDef <> take def
+R8320:8325 Coq.Vectors.VectorDef <> append def
+R8329:8329 Coq.Vectors.VectorSpec <> w:202 var
+R8327:8327 Coq.Vectors.VectorSpec <> v:200 var
+R8316:8317 Coq.Vectors.VectorSpec <> le:203 var
+R8314:8314 Coq.Vectors.VectorSpec <> n:199 var
+R8334:8334 Coq.Vectors.VectorSpec <> v:200 var
+R8438:8444 Coq.Init.Logic <> f_equal thm
+R8438:8444 Coq.Init.Logic <> f_equal thm
+prf 8507:8518 <> take_prf_irr
+binder 8530:8530 <> A:204
+binder 8533:8533 <> p:205
+binder 8536:8536 <> n:206
+R8542:8542 Coq.Vectors.VectorDef <> t ind
+R8544:8544 Coq.Vectors.VectorSpec <> A:204 var
+R8546:8546 Coq.Vectors.VectorSpec <> n:206 var
+binder 8540:8540 <> v:207
+binder 8549:8550 <> le:208
+binder 8552:8554 <> le':209
+R8568:8570 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8557:8560 Coq.Vectors.VectorDef <> take def
+R8567:8567 Coq.Vectors.VectorSpec <> v:207 var
+R8564:8565 Coq.Vectors.VectorSpec <> le:208 var
+R8562:8562 Coq.Vectors.VectorSpec <> p:205 var
+R8571:8574 Coq.Vectors.VectorDef <> take def
+R8582:8582 Coq.Vectors.VectorSpec <> v:207 var
+R8578:8580 Coq.Vectors.VectorSpec <> le':209 var
+R8576:8576 Coq.Vectors.VectorSpec <> p:205 var
+R8710:8716 Coq.Init.Logic <> f_equal thm
+R8710:8716 Coq.Init.Logic <> f_equal thm
+prf 8790:8800 <> uncons_cons
+binder 8803:8803 <> A:210
+R8820:8822 Coq.Init.Datatypes <> nat ind
+binder 8816:8816 <> n:211
+R8830:8830 Coq.Vectors.VectorSpec <> A:210 var
+binder 8826:8826 <> a:212
+R8838:8838 Coq.Vectors.VectorDef <> t ind
+R8840:8840 Coq.Vectors.VectorSpec <> A:210 var
+R8842:8842 Coq.Vectors.VectorSpec <> n:211 var
+binder 8834:8834 <> v:213
+R8863:8865 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8850:8855 Coq.Vectors.VectorDef <> uncons def
+R8859:8860 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R8858:8858 Coq.Vectors.VectorSpec <> a:212 var
+R8861:8861 Coq.Vectors.VectorSpec <> v:213 var
+R8866:8866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8868:8868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8870:8870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8867:8867 Coq.Vectors.VectorSpec <> a:212 var
+R8869:8869 Coq.Vectors.VectorSpec <> v:213 var
+prf 8921:8936 <> append_comm_cons
+binder 8939:8939 <> A:214
+R8958:8960 Coq.Init.Datatypes <> nat ind
+binder 8952:8952 <> n:215
+binder 8954:8954 <> m:216
+R8968:8968 Coq.Vectors.VectorDef <> t ind
+R8970:8970 Coq.Vectors.VectorSpec <> A:214 var
+R8972:8972 Coq.Vectors.VectorSpec <> n:215 var
+binder 8964:8964 <> v:217
+R8980:8980 Coq.Vectors.VectorDef <> t ind
+R8982:8982 Coq.Vectors.VectorSpec <> A:214 var
+R8984:8984 Coq.Vectors.VectorSpec <> m:216 var
+binder 8976:8976 <> w:218
+R8992:8992 Coq.Vectors.VectorSpec <> A:214 var
+binder 8988:8988 <> a:219
+R9013:9015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9001:9005 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R9012:9012 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R9000:9000 Coq.Vectors.VectorSpec <> a:219 var
+R9007:9010 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'++'_x not
+R9006:9006 Coq.Vectors.VectorSpec <> v:217 var
+R9011:9011 Coq.Vectors.VectorSpec <> w:218 var
+R9016:9016 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'++'_x not
+R9023:9027 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'++'_x not
+R9018:9021 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R9017:9017 Coq.Vectors.VectorSpec <> a:219 var
+R9022:9022 Coq.Vectors.VectorSpec <> v:217 var
+R9028:9028 Coq.Vectors.VectorSpec <> w:218 var
+prf 9063:9076 <> splitat_append
+binder 9079:9079 <> A:220
+R9098:9100 Coq.Init.Datatypes <> nat ind
+binder 9092:9092 <> n:221
+binder 9094:9094 <> m:222
+R9108:9108 Coq.Vectors.VectorDef <> t ind
+R9110:9110 Coq.Vectors.VectorSpec <> A:220 var
+R9112:9112 Coq.Vectors.VectorSpec <> n:221 var
+binder 9104:9104 <> v:223
+R9120:9120 Coq.Vectors.VectorDef <> t ind
+R9122:9122 Coq.Vectors.VectorSpec <> A:220 var
+R9124:9124 Coq.Vectors.VectorSpec <> m:222 var
+binder 9116:9116 <> w:224
+R9150:9152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9132:9138 Coq.Vectors.VectorDef <> splitat def
+R9144:9147 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'++'_x not
+R9143:9143 Coq.Vectors.VectorSpec <> v:223 var
+R9148:9148 Coq.Vectors.VectorSpec <> w:224 var
+R9140:9140 Coq.Vectors.VectorSpec <> n:221 var
+R9153:9153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9155:9156 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9158:9158 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9154:9154 Coq.Vectors.VectorSpec <> v:223 var
+R9157:9157 Coq.Vectors.VectorSpec <> w:224 var
+prf 9297:9310 <> append_splitat
+binder 9313:9313 <> A:225
+R9332:9334 Coq.Init.Datatypes <> nat ind
+binder 9326:9326 <> n:226
+binder 9328:9328 <> m:227
+R9342:9342 Coq.Vectors.VectorDef <> t ind
+R9344:9344 Coq.Vectors.VectorSpec <> A:225 var
+R9346:9346 Coq.Vectors.VectorSpec <> n:226 var
+binder 9338:9338 <> v:228
+R9354:9354 Coq.Vectors.VectorDef <> t ind
+R9356:9356 Coq.Vectors.VectorSpec <> A:225 var
+R9358:9358 Coq.Vectors.VectorSpec <> m:227 var
+binder 9350:9350 <> w:229
+R9367:9367 Coq.Vectors.VectorDef <> t ind
+R9369:9369 Coq.Vectors.VectorSpec <> A:225 var
+R9373:9373 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9372:9372 Coq.Vectors.VectorSpec <> n:226 var
+R9374:9374 Coq.Vectors.VectorSpec <> m:227 var
+binder 9362:9363 <> vw:230
+R9404:9411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9395:9397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9383:9389 Coq.Vectors.VectorDef <> splitat def
+R9393:9394 Coq.Vectors.VectorSpec <> vw:230 var
+R9391:9391 Coq.Vectors.VectorSpec <> n:226 var
+R9398:9398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9400:9401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9403:9403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9399:9399 Coq.Vectors.VectorSpec <> v:228 var
+R9402:9402 Coq.Vectors.VectorSpec <> w:229 var
+R9414:9416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9412:9413 Coq.Vectors.VectorSpec <> vw:230 var
+R9418:9421 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'++'_x not
+R9417:9417 Coq.Vectors.VectorSpec <> v:228 var
+R9422:9422 Coq.Vectors.VectorSpec <> w:229 var
+R9567:9573 Coq.Vectors.VectorDef <> splitat def
+R9578:9579 Coq.Vectors.VectorDef <> tl def
+R9567:9573 Coq.Vectors.VectorDef <> splitat def
+R9578:9579 Coq.Vectors.VectorDef <> tl def
+R9614:9628 Coq.Init.Datatypes <> pair_equal_spec thm
+R9614:9628 Coq.Init.Datatypes <> pair_equal_spec thm
+R9680:9695 Coq.Vectors.VectorSpec <> append_comm_cons thm
+R9680:9695 Coq.Vectors.VectorSpec <> append_comm_cons thm
+R9680:9695 Coq.Vectors.VectorSpec <> append_comm_cons thm
+R9709:9711 Coq.Vectors.VectorSpec <> eta thm
+R9709:9711 Coq.Vectors.VectorSpec <> eta thm
+R9709:9711 Coq.Vectors.VectorSpec <> eta thm
+R9726:9733 Coq.Vectors.VectorSpec <> cons_inj def
+R9726:9733 Coq.Vectors.VectorSpec <> cons_inj def
+prf 9852:9862 <> Forall_impl
+binder 9864:9864 <> A:231
+R9882:9885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9881:9881 Coq.Vectors.VectorSpec <> A:231 var
+binder 9875:9875 <> P:232
+binder 9877:9877 <> Q:233
+R9893:9893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9914:9920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9901:9901 <> a:234
+R9907:9910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9904:9904 Coq.Vectors.VectorSpec <> P:232 var
+R9906:9906 Coq.Vectors.VectorSpec <> a:234 var
+R9911:9911 Coq.Vectors.VectorSpec <> Q:233 var
+R9913:9913 Coq.Vectors.VectorSpec <> a:234 var
+binder 9928:9928 <> n:235
+R9935:9935 Coq.Vectors.VectorDef <> t ind
+R9937:9937 Coq.Vectors.VectorSpec <> A:231 var
+R9939:9939 Coq.Vectors.VectorSpec <> n:235 var
+binder 9931:9931 <> v:236
+R9953:9956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9943:9948 Coq.Vectors.VectorDef <> Forall ind
+R9952:9952 Coq.Vectors.VectorSpec <> v:236 var
+R9950:9950 Coq.Vectors.VectorSpec <> P:232 var
+R9957:9962 Coq.Vectors.VectorDef <> Forall ind
+R9966:9966 Coq.Vectors.VectorSpec <> v:236 var
+R9964:9964 Coq.Vectors.VectorSpec <> Q:233 var
+R10086:10101 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10105:10114 Coq.Arith.PeanoNat Nat eq_dec thm
+R10086:10101 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10105:10114 Coq.Arith.PeanoNat Nat eq_dec thm
+R10086:10101 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10105:10114 Coq.Arith.PeanoNat Nat eq_dec thm
+prf 10154:10166 <> Forall_forall
+binder 10168:10168 <> A:237
+binder 10178:10178 <> P:238
+binder 10180:10180 <> n:239
+R10187:10187 Coq.Vectors.VectorDef <> t ind
+R10189:10189 Coq.Vectors.VectorSpec <> A:237 var
+R10191:10191 Coq.Vectors.VectorSpec <> n:239 var
+binder 10183:10183 <> v:240
+R10207:10211 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10197:10202 Coq.Vectors.VectorDef <> Forall ind
+R10206:10206 Coq.Vectors.VectorSpec <> v:240 var
+R10204:10204 Coq.Vectors.VectorSpec <> P:238 var
+binder 10219:10219 <> a:241
+R10228:10231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10222:10223 Coq.Vectors.VectorDef <> In ind
+R10227:10227 Coq.Vectors.VectorSpec <> v:240 var
+R10225:10225 Coq.Vectors.VectorSpec <> a:241 var
+R10232:10232 Coq.Vectors.VectorSpec <> P:238 var
+R10234:10234 Coq.Vectors.VectorSpec <> a:241 var
+R10395:10410 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10414:10423 Coq.Arith.PeanoNat Nat eq_dec thm
+R10395:10410 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10414:10423 Coq.Arith.PeanoNat Nat eq_dec thm
+prf 10602:10617 <> Forall_nth_order
+binder 10619:10619 <> A:242
+binder 10629:10629 <> P:243
+binder 10631:10631 <> n:244
+R10638:10638 Coq.Vectors.VectorDef <> t ind
+R10640:10640 Coq.Vectors.VectorSpec <> A:242 var
+R10642:10642 Coq.Vectors.VectorSpec <> n:244 var
+binder 10634:10634 <> v:245
+R10658:10662 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10648:10653 Coq.Vectors.VectorDef <> Forall ind
+R10657:10657 Coq.Vectors.VectorSpec <> v:245 var
+R10655:10655 Coq.Vectors.VectorSpec <> P:243 var
+binder 10670:10670 <> i:246
+R10679:10681 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10678:10678 Coq.Vectors.VectorSpec <> i:246 var
+R10682:10682 Coq.Vectors.VectorSpec <> n:244 var
+binder 10673:10674 <> Hi:247
+R10686:10686 Coq.Vectors.VectorSpec <> P:243 var
+R10689:10697 Coq.Vectors.VectorDef <> nth_order def
+R10701:10702 Coq.Vectors.VectorSpec <> Hi:247 var
+R10699:10699 Coq.Vectors.VectorSpec <> v:245 var
+R10820:10822 Coq.Vectors.VectorSpec <> eta thm
+R10820:10822 Coq.Vectors.VectorSpec <> eta thm
+R10820:10822 Coq.Vectors.VectorSpec <> eta thm
+R10839:10841 Coq.Vectors.VectorSpec <> eta thm
+R10839:10841 Coq.Vectors.VectorSpec <> eta thm
+R10839:10841 Coq.Vectors.VectorSpec <> eta thm
+R10917:10932 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10936:10945 Coq.Arith.PeanoNat Nat eq_dec thm
+R10917:10932 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R10936:10945 Coq.Arith.PeanoNat Nat eq_dec thm
+R10993:11004 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R10993:11004 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R10993:11004 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11023:11034 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R11045:11049 Coq.Init.Logic <> proj2 thm
+R11052:11067 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R11023:11034 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R11045:11049 Coq.Init.Logic <> proj2 thm
+R11052:11067 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R11023:11034 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R11045:11049 Coq.Init.Logic <> proj2 thm
+R11052:11067 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R11121:11125 Coq.Vectors.VectorDef <> case0 def
+R11121:11125 Coq.Vectors.VectorDef <> case0 def
+R11165:11167 Coq.Vectors.VectorSpec <> eta thm
+R11165:11167 Coq.Vectors.VectorSpec <> eta thm
+R11165:11167 Coq.Vectors.VectorSpec <> eta thm
+R11190:11192 Coq.Vectors.VectorSpec <> eta thm
+R11190:11192 Coq.Vectors.VectorSpec <> eta thm
+R11190:11192 Coq.Vectors.VectorSpec <> eta thm
+R11237:11249 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R11237:11249 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R11271:11282 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11271:11282 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11271:11282 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11343:11343 Coq.Init.Datatypes <> S constr
+R11349:11353 Coq.Init.Logic <> proj1 thm
+R11356:11371 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R11343:11343 Coq.Init.Datatypes <> S constr
+R11349:11353 Coq.Init.Logic <> proj1 thm
+R11356:11371 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R11403:11414 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R11403:11414 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R11403:11414 Coq.Vectors.VectorSpec <> nth_order_tl thm
+prf 11447:11463 <> Forall2_nth_order
+binder 11465:11465 <> A:248
+binder 11475:11475 <> P:249
+binder 11477:11477 <> n:250
+R11488:11488 Coq.Vectors.VectorDef <> t ind
+R11490:11490 Coq.Vectors.VectorSpec <> A:248 var
+R11492:11492 Coq.Vectors.VectorSpec <> n:250 var
+binder 11480:11481 <> v1:251
+binder 11483:11484 <> v2:252
+R11516:11521 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11501:11507 Coq.Vectors.VectorDef <> Forall2 ind
+R11514:11515 Coq.Vectors.VectorSpec <> v2:252 var
+R11511:11512 Coq.Vectors.VectorSpec <> v1:251 var
+R11509:11509 Coq.Vectors.VectorSpec <> P:249 var
+binder 11529:11529 <> i:253
+R11539:11541 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11538:11538 Coq.Vectors.VectorSpec <> i:253 var
+R11542:11542 Coq.Vectors.VectorSpec <> n:250 var
+binder 11532:11534 <> Hi1:254
+R11553:11555 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11552:11552 Coq.Vectors.VectorSpec <> i:253 var
+R11556:11556 Coq.Vectors.VectorSpec <> n:250 var
+binder 11546:11548 <> Hi2:255
+R11560:11560 Coq.Vectors.VectorSpec <> P:249 var
+R11563:11571 Coq.Vectors.VectorDef <> nth_order def
+R11576:11578 Coq.Vectors.VectorSpec <> Hi1:254 var
+R11573:11574 Coq.Vectors.VectorSpec <> v1:251 var
+R11582:11590 Coq.Vectors.VectorDef <> nth_order def
+R11595:11597 Coq.Vectors.VectorSpec <> Hi2:255 var
+R11592:11593 Coq.Vectors.VectorSpec <> v2:252 var
+R11730:11732 Coq.Vectors.VectorSpec <> eta thm
+R11740:11742 Coq.Vectors.VectorSpec <> eta thm
+R11730:11732 Coq.Vectors.VectorSpec <> eta thm
+R11730:11732 Coq.Vectors.VectorSpec <> eta thm
+R11740:11742 Coq.Vectors.VectorSpec <> eta thm
+R11740:11742 Coq.Vectors.VectorSpec <> eta thm
+R11760:11762 Coq.Vectors.VectorSpec <> eta thm
+R11770:11772 Coq.Vectors.VectorSpec <> eta thm
+R11760:11762 Coq.Vectors.VectorSpec <> eta thm
+R11760:11762 Coq.Vectors.VectorSpec <> eta thm
+R11770:11772 Coq.Vectors.VectorSpec <> eta thm
+R11770:11772 Coq.Vectors.VectorSpec <> eta thm
+R11857:11872 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R11876:11885 Coq.Arith.PeanoNat Nat eq_dec thm
+R11857:11872 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R11876:11885 Coq.Arith.PeanoNat Nat eq_dec thm
+R11905:11920 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R11924:11933 Coq.Arith.PeanoNat Nat eq_dec thm
+R11905:11920 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R11924:11933 Coq.Arith.PeanoNat Nat eq_dec thm
+R11981:11992 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11981:11992 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R11981:11992 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R12011:12022 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12033:12037 Coq.Init.Logic <> proj2 thm
+R12040:12055 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12011:12022 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12033:12037 Coq.Init.Logic <> proj2 thm
+R12040:12055 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12011:12022 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12033:12037 Coq.Init.Logic <> proj2 thm
+R12040:12055 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12089:12100 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12111:12115 Coq.Init.Logic <> proj2 thm
+R12118:12133 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12089:12100 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12111:12115 Coq.Init.Logic <> proj2 thm
+R12118:12133 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12089:12100 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12111:12115 Coq.Init.Logic <> proj2 thm
+R12118:12133 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12199:12203 Coq.Vectors.VectorDef <> case0 def
+R12223:12227 Coq.Vectors.VectorDef <> case0 def
+R12199:12203 Coq.Vectors.VectorDef <> case0 def
+R12223:12227 Coq.Vectors.VectorDef <> case0 def
+R12267:12269 Coq.Vectors.VectorSpec <> eta thm
+R12277:12279 Coq.Vectors.VectorSpec <> eta thm
+R12267:12269 Coq.Vectors.VectorSpec <> eta thm
+R12267:12269 Coq.Vectors.VectorSpec <> eta thm
+R12277:12279 Coq.Vectors.VectorSpec <> eta thm
+R12277:12279 Coq.Vectors.VectorSpec <> eta thm
+R12303:12305 Coq.Vectors.VectorSpec <> eta thm
+R12313:12315 Coq.Vectors.VectorSpec <> eta thm
+R12303:12305 Coq.Vectors.VectorSpec <> eta thm
+R12303:12305 Coq.Vectors.VectorSpec <> eta thm
+R12313:12315 Coq.Vectors.VectorSpec <> eta thm
+R12313:12315 Coq.Vectors.VectorSpec <> eta thm
+R12361:12373 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R12379:12391 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R12361:12373 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R12379:12391 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R12413:12424 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R12413:12424 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R12413:12424 Coq.Vectors.VectorSpec <> nth_order_hd thm
+R12490:12490 Coq.Init.Datatypes <> S constr
+R12496:12500 Coq.Init.Logic <> proj1 thm
+R12503:12518 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12560:12564 Coq.Init.Logic <> proj1 thm
+R12567:12582 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12490:12490 Coq.Init.Datatypes <> S constr
+R12496:12500 Coq.Init.Logic <> proj1 thm
+R12503:12518 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12560:12564 Coq.Init.Logic <> proj1 thm
+R12567:12582 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R12615:12626 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12646:12657 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12615:12626 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12615:12626 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12646:12657 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R12646:12657 Coq.Vectors.VectorSpec <> nth_order_tl thm
+prf 12727:12745 <> to_list_of_list_opp
+binder 12748:12748 <> A:256
+R12755:12758 Coq.Init.Datatypes <> list ind
+R12760:12760 Coq.Vectors.VectorSpec <> A:256 var
+binder 12752:12752 <> l:257
+R12783:12785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12764:12770 Coq.Vectors.VectorDef <> to_list def
+R12773:12779 Coq.Vectors.VectorDef <> of_list def
+R12781:12781 Coq.Vectors.VectorSpec <> l:257 var
+R12786:12786 Coq.Vectors.VectorSpec <> l:257 var
+R12833:12839 Coq.Vectors.VectorDef <> to_list def
+prf 12874:12887 <> length_to_list
+binder 12889:12889 <> A:258
+binder 12891:12891 <> n:259
+R12898:12898 Coq.Vectors.VectorDef <> t ind
+R12900:12900 Coq.Vectors.VectorSpec <> A:258 var
+R12902:12902 Coq.Vectors.VectorSpec <> n:259 var
+binder 12894:12894 <> v:260
+R12924:12926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12906:12911 Coq.Init.Datatypes <> length def
+R12914:12920 Coq.Vectors.VectorDef <> to_list def
+R12922:12922 Coq.Vectors.VectorSpec <> v:260 var
+R12927:12927 Coq.Vectors.VectorSpec <> n:259 var
+prf 12973:12991 <> of_list_to_list_opp
+binder 12993:12993 <> A:261
+binder 12995:12995 <> n:262
+R13001:13001 Coq.Vectors.VectorDef <> t ind
+R13003:13003 Coq.Vectors.VectorSpec <> A:261 var
+R13005:13005 Coq.Vectors.VectorSpec <> n:262 var
+binder 12998:12998 <> v:263
+R13058:13060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13011:13014 Coq.Init.Logic EqNotations :::'rew'_x_'in'_x not
+R13035:13038 Coq.Init.Logic EqNotations :::'rew'_x_'in'_x not
+R13039:13045 Coq.Vectors.VectorDef <> of_list def
+R13048:13054 Coq.Vectors.VectorDef <> to_list def
+R13056:13056 Coq.Vectors.VectorSpec <> v:263 var
+R13015:13028 Coq.Vectors.VectorSpec <> length_to_list thm
+R13061:13061 Coq.Vectors.VectorSpec <> v:263 var
+binder 13136:13136 <> v:264
+R13142:13144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13141:13141 Coq.Vectors.VectorSpec <> v:264 var
+R13145:13147 Coq.Vectors.VectorDef <> nil constr
+R13115:13119 Coq.Vectors.VectorDef <> case0 def
+binder 13136:13136 <> v:265
+R13142:13144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13141:13141 Coq.Vectors.VectorSpec <> v:265 var
+R13145:13147 Coq.Vectors.VectorDef <> nil constr
+R13115:13119 Coq.Vectors.VectorDef <> case0 def
+R13164:13177 Coq.Vectors.VectorSpec <> length_to_list thm
+R13184:13187 Coq.Vectors.VectorDef <> cons constr
+R13205:13211 Coq.Init.Logic <> f_equal thm
+R13216:13229 Coq.Vectors.VectorSpec <> length_to_list thm
+R13213:13213 Coq.Init.Datatypes <> S constr
+R13253:13259 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R13261:13270 Coq.Arith.PeanoNat Nat eq_dec thm
+R13164:13177 Coq.Vectors.VectorSpec <> length_to_list thm
+R13184:13187 Coq.Vectors.VectorDef <> cons constr
+R13205:13211 Coq.Init.Logic <> f_equal thm
+R13216:13229 Coq.Vectors.VectorSpec <> length_to_list thm
+R13213:13213 Coq.Init.Datatypes <> S constr
+R13253:13259 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R13261:13270 Coq.Arith.PeanoNat Nat eq_dec thm
+R13289:13301 Coq.Init.Logic <> map_subst_map thm
+R13289:13301 Coq.Init.Logic <> map_subst_map thm
+R13289:13301 Coq.Init.Logic <> map_subst_map thm
+prf 13364:13374 <> to_list_nil
+binder 13376:13376 <> A:266
+R13395:13397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13380:13386 Coq.Vectors.VectorDef <> to_list def
+R13389:13391 Coq.Vectors.VectorDef <> nil constr
+R13393:13393 Coq.Vectors.VectorSpec <> A:266 var
+R13398:13405 Coq.Lists.List <> nil abbrev
+prf 13440:13451 <> to_list_cons
+binder 13453:13453 <> A:267
+binder 13455:13455 <> h:268
+binder 13457:13457 <> n:269
+R13464:13464 Coq.Vectors.VectorDef <> t ind
+R13466:13466 Coq.Vectors.VectorSpec <> A:267 var
+R13468:13468 Coq.Vectors.VectorSpec <> n:269 var
+binder 13460:13460 <> v:270
+R13496:13498 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13474:13480 Coq.Vectors.VectorDef <> to_list def
+R13483:13486 Coq.Vectors.VectorDef <> cons constr
+R13488:13488 Coq.Vectors.VectorSpec <> A:267 var
+R13490:13490 Coq.Vectors.VectorSpec <> h:268 var
+R13492:13492 Coq.Vectors.VectorSpec <> n:269 var
+R13494:13494 Coq.Vectors.VectorSpec <> v:270 var
+R13499:13507 Coq.Lists.List <> cons abbrev
+R13512:13518 Coq.Vectors.VectorDef <> to_list def
+R13520:13520 Coq.Vectors.VectorSpec <> v:270 var
+R13509:13509 Coq.Vectors.VectorSpec <> h:268 var
+prf 13556:13565 <> to_list_hd
+binder 13567:13567 <> A:271
+binder 13569:13569 <> n:272
+R13576:13576 Coq.Vectors.VectorDef <> t ind
+R13578:13578 Coq.Vectors.VectorSpec <> A:271 var
+R13581:13581 Coq.Init.Datatypes <> S constr
+R13583:13583 Coq.Vectors.VectorSpec <> n:272 var
+binder 13572:13572 <> v:273
+binder 13587:13587 <> d:274
+R13596:13598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13592:13593 Coq.Vectors.VectorDef <> hd def
+R13595:13595 Coq.Vectors.VectorSpec <> v:273 var
+R13599:13605 Coq.Lists.List <> hd def
+R13610:13616 Coq.Vectors.VectorDef <> to_list def
+R13618:13618 Coq.Vectors.VectorSpec <> v:273 var
+R13607:13607 Coq.Vectors.VectorSpec <> d:274 var
+R13642:13644 Coq.Vectors.VectorSpec <> eta thm
+R13642:13644 Coq.Vectors.VectorSpec <> eta thm
+R13642:13644 Coq.Vectors.VectorSpec <> eta thm
+prf 13662:13673 <> to_list_last
+binder 13675:13675 <> A:275
+binder 13677:13677 <> n:276
+R13684:13684 Coq.Vectors.VectorDef <> t ind
+R13686:13686 Coq.Vectors.VectorSpec <> A:275 var
+R13689:13689 Coq.Init.Datatypes <> S constr
+R13691:13691 Coq.Vectors.VectorSpec <> n:276 var
+binder 13680:13680 <> v:277
+binder 13695:13695 <> d:278
+R13706:13708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13700:13703 Coq.Vectors.VectorDef <> last def
+R13705:13705 Coq.Vectors.VectorSpec <> v:277 var
+R13709:13717 Coq.Lists.List <> last def
+R13731:13731 Coq.Vectors.VectorSpec <> d:278 var
+R13720:13726 Coq.Vectors.VectorDef <> to_list def
+R13728:13728 Coq.Vectors.VectorSpec <> v:277 var
+R13747:13751 Coq.Vectors.VectorDef <> rectS def
+R13747:13751 Coq.Vectors.VectorDef <> rectS def
+R13800:13811 Coq.Vectors.VectorSpec <> to_list_cons thm
+R13800:13811 Coq.Vectors.VectorSpec <> to_list_cons thm
+R13800:13811 Coq.Vectors.VectorSpec <> to_list_cons thm
+R13851:13853 Coq.Vectors.VectorSpec <> eta thm
+R13851:13853 Coq.Vectors.VectorSpec <> eta thm
+R13851:13853 Coq.Vectors.VectorSpec <> eta thm
+prf 13871:13883 <> to_list_const
+binder 13885:13885 <> A:279
+R13892:13892 Coq.Vectors.VectorSpec <> A:279 var
+binder 13888:13888 <> a:280
+binder 13895:13895 <> n:281
+R13919:13921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13900:13906 Coq.Vectors.VectorDef <> to_list def
+R13909:13913 Coq.Vectors.VectorDef <> const def
+R13917:13917 Coq.Vectors.VectorSpec <> n:281 var
+R13915:13915 Coq.Vectors.VectorSpec <> a:280 var
+R13922:13932 Coq.Lists.List <> repeat def
+R13936:13936 Coq.Vectors.VectorSpec <> n:281 var
+R13934:13934 Coq.Vectors.VectorSpec <> a:280 var
+prf 14020:14036 <> to_list_nth_order
+binder 14038:14038 <> A:282
+binder 14040:14040 <> n:283
+R14047:14047 Coq.Vectors.VectorDef <> t ind
+R14049:14049 Coq.Vectors.VectorSpec <> A:282 var
+R14051:14051 Coq.Vectors.VectorSpec <> n:283 var
+binder 14043:14043 <> v:284
+binder 14054:14054 <> p:285
+R14062:14064 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14061:14061 Coq.Vectors.VectorSpec <> p:285 var
+R14065:14065 Coq.Vectors.VectorSpec <> n:283 var
+binder 14057:14057 <> H:286
+binder 14068:14068 <> d:287
+R14086:14088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14073:14081 Coq.Vectors.VectorDef <> nth_order def
+R14085:14085 Coq.Vectors.VectorSpec <> H:286 var
+R14083:14083 Coq.Vectors.VectorSpec <> v:284 var
+R14089:14096 Coq.Lists.List <> nth def
+R14112:14112 Coq.Vectors.VectorSpec <> d:287 var
+R14101:14107 Coq.Vectors.VectorDef <> to_list def
+R14109:14109 Coq.Vectors.VectorSpec <> v:284 var
+R14098:14098 Coq.Vectors.VectorSpec <> p:285 var
+R14218:14220 Coq.Vectors.VectorSpec <> eta thm
+R14218:14220 Coq.Vectors.VectorSpec <> eta thm
+R14218:14220 Coq.Vectors.VectorSpec <> eta thm
+R14218:14220 Coq.Vectors.VectorSpec <> eta thm
+R14218:14220 Coq.Vectors.VectorSpec <> eta thm
+R14275:14279 Coq.Init.Logic <> proj2 thm
+R14282:14297 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R14253:14264 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R14275:14279 Coq.Init.Logic <> proj2 thm
+R14282:14297 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R14253:14264 Coq.Vectors.VectorSpec <> nth_order_tl thm
+R14275:14279 Coq.Init.Logic <> proj2 thm
+R14282:14297 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R14253:14264 Coq.Vectors.VectorSpec <> nth_order_tl thm
+prf 14325:14334 <> to_list_tl
+binder 14336:14336 <> A:288
+binder 14338:14338 <> n:289
+R14345:14345 Coq.Vectors.VectorDef <> t ind
+R14347:14347 Coq.Vectors.VectorSpec <> A:288 var
+R14350:14350 Coq.Init.Datatypes <> S constr
+R14352:14352 Coq.Vectors.VectorSpec <> n:289 var
+binder 14341:14341 <> v:290
+R14373:14375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14359:14365 Coq.Vectors.VectorDef <> to_list def
+R14368:14369 Coq.Vectors.VectorDef <> tl def
+R14371:14371 Coq.Vectors.VectorSpec <> v:290 var
+R14376:14382 Coq.Lists.List <> tl def
+R14385:14391 Coq.Vectors.VectorDef <> to_list def
+R14393:14393 Coq.Vectors.VectorSpec <> v:290 var
+R14417:14419 Coq.Vectors.VectorSpec <> eta thm
+R14417:14419 Coq.Vectors.VectorSpec <> eta thm
+R14417:14419 Coq.Vectors.VectorSpec <> eta thm
+prf 14437:14450 <> to_list_append
+binder 14452:14452 <> A:291
+binder 14454:14454 <> n:292
+binder 14456:14456 <> m:293
+R14464:14464 Coq.Vectors.VectorDef <> t ind
+R14466:14466 Coq.Vectors.VectorSpec <> A:291 var
+R14468:14468 Coq.Vectors.VectorSpec <> n:292 var
+binder 14459:14460 <> v1:294
+R14477:14477 Coq.Vectors.VectorDef <> t ind
+R14479:14479 Coq.Vectors.VectorSpec <> A:291 var
+R14481:14481 Coq.Vectors.VectorSpec <> m:293 var
+binder 14472:14473 <> v2:295
+R14509:14511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14487:14493 Coq.Vectors.VectorDef <> to_list def
+R14496:14501 Coq.Vectors.VectorDef <> append def
+R14506:14507 Coq.Vectors.VectorSpec <> v2:295 var
+R14503:14504 Coq.Vectors.VectorSpec <> v1:294 var
+R14512:14519 Coq.Lists.List <> app abbrev
+R14535:14541 Coq.Vectors.VectorDef <> to_list def
+R14543:14544 Coq.Vectors.VectorSpec <> v2:295 var
+R14522:14528 Coq.Vectors.VectorDef <> to_list def
+R14530:14531 Coq.Vectors.VectorSpec <> v1:294 var
+R14597:14608 Coq.Vectors.VectorSpec <> to_list_cons thm
+R14597:14608 Coq.Vectors.VectorSpec <> to_list_cons thm
+R14597:14608 Coq.Vectors.VectorSpec <> to_list_cons thm
+prf 14632:14654 <> to_list_rev_append_tail
+binder 14656:14656 <> A:296
+binder 14658:14658 <> n:297
+binder 14660:14660 <> m:298
+R14668:14668 Coq.Vectors.VectorDef <> t ind
+R14670:14670 Coq.Vectors.VectorSpec <> A:296 var
+R14672:14672 Coq.Vectors.VectorSpec <> n:297 var
+binder 14663:14664 <> v1:299
+R14681:14681 Coq.Vectors.VectorDef <> t ind
+R14683:14683 Coq.Vectors.VectorSpec <> A:296 var
+R14685:14685 Coq.Vectors.VectorSpec <> m:298 var
+binder 14676:14677 <> v2:300
+R14722:14724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14691:14697 Coq.Vectors.VectorDef <> to_list def
+R14700:14714 Coq.Vectors.VectorDef <> rev_append_tail def
+R14719:14720 Coq.Vectors.VectorSpec <> v2:300 var
+R14716:14717 Coq.Vectors.VectorSpec <> v1:299 var
+R14725:14739 Coq.Lists.List <> rev_append def
+R14755:14761 Coq.Vectors.VectorDef <> to_list def
+R14763:14764 Coq.Vectors.VectorSpec <> v2:300 var
+R14742:14748 Coq.Vectors.VectorDef <> to_list def
+R14750:14751 Coq.Vectors.VectorSpec <> v1:299 var
+prf 14873:14890 <> to_list_rev_append
+binder 14892:14892 <> A:301
+binder 14894:14894 <> n:302
+binder 14896:14896 <> m:303
+R14904:14904 Coq.Vectors.VectorDef <> t ind
+R14906:14906 Coq.Vectors.VectorSpec <> A:301 var
+R14908:14908 Coq.Vectors.VectorSpec <> n:302 var
+binder 14899:14900 <> v1:304
+R14917:14917 Coq.Vectors.VectorDef <> t ind
+R14919:14919 Coq.Vectors.VectorSpec <> A:301 var
+R14921:14921 Coq.Vectors.VectorSpec <> m:303 var
+binder 14912:14913 <> v2:305
+R14953:14955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14927:14933 Coq.Vectors.VectorDef <> to_list def
+R14936:14945 Coq.Vectors.VectorDef <> rev_append def
+R14950:14951 Coq.Vectors.VectorSpec <> v2:305 var
+R14947:14948 Coq.Vectors.VectorSpec <> v1:304 var
+R14956:14970 Coq.Lists.List <> rev_append def
+R14986:14992 Coq.Vectors.VectorDef <> to_list def
+R14994:14995 Coq.Vectors.VectorSpec <> v2:305 var
+R14973:14979 Coq.Vectors.VectorDef <> to_list def
+R14981:14982 Coq.Vectors.VectorSpec <> v1:304 var
+R15013:15022 Coq.Vectors.VectorDef <> rev_append def
+R15037:15053 Coq.Arith.PeanoNat Nat tail_add_spec thm
+R15067:15089 Coq.Vectors.VectorSpec <> to_list_rev_append_tail thm
+R15037:15053 Coq.Arith.PeanoNat Nat tail_add_spec thm
+R15037:15053 Coq.Arith.PeanoNat Nat tail_add_spec thm
+R15067:15089 Coq.Vectors.VectorSpec <> to_list_rev_append_tail thm
+prf 15104:15114 <> to_list_rev
+binder 15116:15116 <> A:306
+binder 15118:15118 <> n:307
+R15125:15125 Coq.Vectors.VectorDef <> t ind
+R15127:15127 Coq.Vectors.VectorSpec <> A:306 var
+R15129:15129 Coq.Vectors.VectorSpec <> n:307 var
+binder 15121:15121 <> v:308
+R15150:15152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15135:15141 Coq.Vectors.VectorDef <> to_list def
+R15144:15146 Coq.Vectors.VectorDef <> rev def
+R15148:15148 Coq.Vectors.VectorSpec <> v:308 var
+R15153:15160 Coq.Lists.List <> rev def
+R15163:15169 Coq.Vectors.VectorDef <> to_list def
+R15171:15171 Coq.Vectors.VectorSpec <> v:308 var
+R15189:15191 Coq.Vectors.VectorDef <> rev def
+R15203:15210 Coq.Init.Peano <> plus_n_O thm
+R15223:15231 Coq.Init.Logic <> eq_rect_r def
+R15203:15210 Coq.Init.Peano <> plus_n_O thm
+R15203:15210 Coq.Init.Peano <> plus_n_O thm
+R15253:15270 Coq.Vectors.VectorSpec <> to_list_rev_append thm
+R15273:15284 Coq.Lists.List <> rev_alt thm
+R15253:15270 Coq.Vectors.VectorSpec <> to_list_rev_append thm
+R15253:15270 Coq.Vectors.VectorSpec <> to_list_rev_append thm
+R15273:15284 Coq.Lists.List <> rev_alt thm
+R15273:15284 Coq.Lists.List <> rev_alt thm
+prf 15299:15309 <> to_list_map
+binder 15311:15311 <> A:309
+binder 15313:15313 <> B:310
+R15321:15324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15320:15320 Coq.Vectors.VectorSpec <> A:309 var
+R15325:15325 Coq.Vectors.VectorSpec <> B:310 var
+binder 15316:15316 <> f:311
+binder 15328:15328 <> n:312
+R15335:15335 Coq.Vectors.VectorDef <> t ind
+R15337:15337 Coq.Vectors.VectorSpec <> A:309 var
+R15339:15339 Coq.Vectors.VectorSpec <> n:312 var
+binder 15331:15331 <> v:313
+R15363:15365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15346:15352 Coq.Vectors.VectorDef <> to_list def
+R15355:15357 Coq.Vectors.VectorDef <> map def
+R15361:15361 Coq.Vectors.VectorSpec <> v:313 var
+R15359:15359 Coq.Vectors.VectorSpec <> f:311 var
+R15366:15373 Coq.Lists.List <> map def
+R15378:15384 Coq.Vectors.VectorDef <> to_list def
+R15386:15386 Coq.Vectors.VectorSpec <> v:313 var
+R15375:15375 Coq.Vectors.VectorSpec <> f:311 var
+prf 15454:15470 <> to_list_fold_left
+binder 15472:15472 <> A:314
+binder 15474:15474 <> B:315
+binder 15476:15476 <> f:316
+R15483:15483 Coq.Vectors.VectorSpec <> B:315 var
+binder 15479:15479 <> b:317
+binder 15486:15486 <> n:318
+R15493:15493 Coq.Vectors.VectorDef <> t ind
+R15495:15495 Coq.Vectors.VectorSpec <> A:314 var
+R15497:15497 Coq.Vectors.VectorSpec <> n:318 var
+binder 15489:15489 <> v:319
+R15518:15520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15503:15511 Coq.Vectors.VectorDef <> fold_left def
+R15517:15517 Coq.Vectors.VectorSpec <> v:319 var
+R15515:15515 Coq.Vectors.VectorSpec <> b:317 var
+R15513:15513 Coq.Vectors.VectorSpec <> f:316 var
+R15521:15534 Coq.Lists.List <> fold_left def
+R15550:15550 Coq.Vectors.VectorSpec <> b:317 var
+R15539:15545 Coq.Vectors.VectorDef <> to_list def
+R15547:15547 Coq.Vectors.VectorSpec <> v:319 var
+R15536:15536 Coq.Vectors.VectorSpec <> f:316 var
+prf 15604:15621 <> to_list_fold_right
+binder 15623:15623 <> A:320
+binder 15625:15625 <> B:321
+binder 15627:15627 <> f:322
+R15634:15634 Coq.Vectors.VectorSpec <> B:321 var
+binder 15630:15630 <> b:323
+binder 15637:15637 <> n:324
+R15644:15644 Coq.Vectors.VectorDef <> t ind
+R15646:15646 Coq.Vectors.VectorSpec <> A:320 var
+R15648:15648 Coq.Vectors.VectorSpec <> n:324 var
+binder 15640:15640 <> v:325
+R15670:15672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15654:15663 Coq.Vectors.VectorDef <> fold_right def
+R15669:15669 Coq.Vectors.VectorSpec <> b:323 var
+R15667:15667 Coq.Vectors.VectorSpec <> v:325 var
+R15665:15665 Coq.Vectors.VectorSpec <> f:322 var
+R15673:15687 Coq.Lists.List <> fold_right def
+R15694:15700 Coq.Vectors.VectorDef <> to_list def
+R15702:15702 Coq.Vectors.VectorSpec <> v:325 var
+R15691:15691 Coq.Vectors.VectorSpec <> b:323 var
+R15689:15689 Coq.Vectors.VectorSpec <> f:322 var
+prf 15774:15787 <> to_list_Forall
+binder 15789:15789 <> A:326
+binder 15791:15791 <> P:327
+binder 15793:15793 <> n:328
+R15800:15800 Coq.Vectors.VectorDef <> t ind
+R15802:15802 Coq.Vectors.VectorSpec <> A:326 var
+R15804:15804 Coq.Vectors.VectorSpec <> n:328 var
+binder 15796:15796 <> v:329
+R15820:15824 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15810:15815 Coq.Vectors.VectorDef <> Forall ind
+R15819:15819 Coq.Vectors.VectorSpec <> v:329 var
+R15817:15817 Coq.Vectors.VectorSpec <> P:327 var
+R15825:15835 Coq.Lists.List <> Forall ind
+R15840:15846 Coq.Vectors.VectorDef <> to_list def
+R15848:15848 Coq.Vectors.VectorSpec <> v:329 var
+R15837:15837 Coq.Vectors.VectorSpec <> P:327 var
+R15922:15928 Coq.Vectors.VectorDef <> to_list def
+R15922:15928 Coq.Vectors.VectorDef <> to_list def
+prf 16059:16072 <> to_list_Exists
+binder 16074:16074 <> A:330
+binder 16076:16076 <> P:331
+binder 16078:16078 <> n:332
+R16085:16085 Coq.Vectors.VectorDef <> t ind
+R16087:16087 Coq.Vectors.VectorSpec <> A:330 var
+R16089:16089 Coq.Vectors.VectorSpec <> n:332 var
+binder 16081:16081 <> v:333
+R16105:16109 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16095:16100 Coq.Vectors.VectorDef <> Exists ind
+R16104:16104 Coq.Vectors.VectorSpec <> v:333 var
+R16102:16102 Coq.Vectors.VectorSpec <> P:331 var
+R16110:16120 Coq.Lists.List <> Exists ind
+R16125:16131 Coq.Vectors.VectorDef <> to_list def
+R16133:16133 Coq.Vectors.VectorSpec <> v:333 var
+R16122:16122 Coq.Vectors.VectorSpec <> P:331 var
+R16207:16213 Coq.Vectors.VectorDef <> to_list def
+R16207:16213 Coq.Vectors.VectorDef <> to_list def
+prf 16348:16357 <> to_list_In
+binder 16359:16359 <> A:334
+binder 16361:16361 <> a:335
+binder 16363:16363 <> n:336
+R16370:16370 Coq.Vectors.VectorDef <> t ind
+R16372:16372 Coq.Vectors.VectorSpec <> A:334 var
+R16374:16374 Coq.Vectors.VectorSpec <> n:336 var
+binder 16366:16366 <> v:337
+R16386:16390 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16380:16381 Coq.Vectors.VectorDef <> In ind
+R16385:16385 Coq.Vectors.VectorSpec <> v:337 var
+R16383:16383 Coq.Vectors.VectorSpec <> a:335 var
+R16391:16397 Coq.Lists.List <> In def
+R16402:16408 Coq.Vectors.VectorDef <> to_list def
+R16410:16410 Coq.Vectors.VectorSpec <> v:337 var
+R16399:16399 Coq.Vectors.VectorSpec <> a:335 var
+prf 16554:16568 <> to_list_Forall2
+binder 16570:16570 <> A:338
+binder 16572:16572 <> B:339
+binder 16574:16574 <> P:340
+binder 16576:16576 <> n:341
+R16584:16584 Coq.Vectors.VectorDef <> t ind
+R16586:16586 Coq.Vectors.VectorSpec <> A:338 var
+R16588:16588 Coq.Vectors.VectorSpec <> n:341 var
+binder 16579:16580 <> v1:342
+R16597:16597 Coq.Vectors.VectorDef <> t ind
+R16599:16599 Coq.Vectors.VectorSpec <> B:339 var
+R16601:16601 Coq.Vectors.VectorSpec <> n:341 var
+binder 16592:16593 <> v2:343
+R16623:16627 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16608:16614 Coq.Vectors.VectorDef <> Forall2 ind
+R16621:16622 Coq.Vectors.VectorSpec <> v2:343 var
+R16618:16619 Coq.Vectors.VectorSpec <> v1:342 var
+R16616:16616 Coq.Vectors.VectorSpec <> P:340 var
+R16628:16639 Coq.Lists.List <> Forall2 ind
+R16657:16663 Coq.Vectors.VectorDef <> to_list def
+R16665:16666 Coq.Vectors.VectorSpec <> v2:343 var
+R16644:16650 Coq.Vectors.VectorDef <> to_list def
+R16652:16653 Coq.Vectors.VectorSpec <> v1:342 var
+R16641:16641 Coq.Vectors.VectorSpec <> P:340 var
+R16740:16746 Coq.Vectors.VectorDef <> to_list def
+R16740:16746 Coq.Vectors.VectorDef <> to_list def
+R16771:16777 Coq.Vectors.VectorDef <> to_list def
+R16771:16777 Coq.Vectors.VectorDef <> to_list def
+R16912:16916 Coq.Vectors.VectorDef <> case0 def
+R16912:16916 Coq.Vectors.VectorDef <> case0 def
+R16986:16988 Coq.Vectors.VectorSpec <> eta thm
+R16986:16988 Coq.Vectors.VectorSpec <> eta thm
+R16986:16988 Coq.Vectors.VectorSpec <> eta thm
+R17041:17043 Coq.Vectors.VectorSpec <> eta thm
+R17041:17043 Coq.Vectors.VectorSpec <> eta thm
+R17041:17043 Coq.Vectors.VectorSpec <> eta thm

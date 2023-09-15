@@ -1,0 +1,989 @@
+DIGEST 7adfffa87867f29ab2da5722aad6838b
+FCoq.Numbers.Natural.Abstract.NDiv
+R691:697 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R699:702 Coq.Numbers.Natural.Abstract.NSub <> <> lib
+R704:708 Coq.Numbers.NatInt.NZDiv <> <> lib
+R786:796 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig' <> mod
+R811:818 Coq.Numbers.Natural.Abstract.NSub NSubProp <> mod
+R820:820 Coq.Numbers.Natural.Abstract.NDiv N <> modtype
+modtype 765:772 <> NDivProp
+R765:772 Coq.Numbers.Natural.Abstract.NDiv N <> mod
+R765:772 Coq.Numbers.Natural.Abstract.NDiv NP <> mod
+R906:908 Coq.Structures.Equalities Nop <> mod
+R913:921 Coq.Numbers.NatInt.NZDiv NZDivProp <> mod
+R923:923 Coq.Numbers.Natural.Abstract.NDiv N <> modtype
+R925:925 Coq.Numbers.Natural.Abstract.NDiv N <> modtype
+R927:928 Coq.Numbers.Natural.Abstract.NDiv NP <> modtype
+mod 889:901 <> NDivProp.Private_NZDiv
+R961:970 Coq.Numbers.Natural.Abstract.NDiv NP neq_0_lt_0 thm
+R984:989 Coq.Numbers.Natural.Abstract.NDiv NP le_0_l thm
+prf 1071:1085 NDivProp mod_upper_bound
+binder 1096:1096 <> a:1
+binder 1098:1098 <> b:2
+R1107:1110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1102:1105 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R1101:1101 Coq.Numbers.Natural.Abstract.NDiv <> b:2 var
+R1118:1120 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1112:1116 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1111:1111 Coq.Numbers.Natural.Abstract.NDiv <> a:1 var
+R1117:1117 Coq.Numbers.Natural.Abstract.NDiv <> b:2 var
+R1121:1121 Coq.Numbers.Natural.Abstract.NDiv <> b:2 var
+R1145:1157 Coq.Numbers.Natural.Abstract.NDiv N mod_bound_pos prfax
+R1145:1157 Coq.Numbers.Natural.Abstract.NDiv N mod_bound_pos prfax
+prf 1228:1233 NDivProp mod_eq
+binder 1245:1245 <> a:3
+binder 1247:1247 <> b:4
+R1254:1257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1251:1252 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R1250:1250 Coq.Numbers.Natural.Abstract.NDiv <> b:4 var
+R1265:1268 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1259:1263 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1258:1258 Coq.Numbers.Natural.Abstract.NDiv <> a:3 var
+R1264:1264 Coq.Numbers.Natural.Abstract.NDiv <> b:4 var
+R1270:1272 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R1269:1269 Coq.Numbers.Natural.Abstract.NDiv <> a:3 var
+R1274:1275 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1279:1279 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1273:1273 Coq.Numbers.Natural.Abstract.NDiv <> b:4 var
+R1277:1277 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1276:1276 Coq.Numbers.Natural.Abstract.NDiv <> a:3 var
+R1278:1278 Coq.Numbers.Natural.Abstract.NDiv <> b:4 var
+R1313:1324 Coq.Numbers.Natural.Abstract.NDiv NP add_sub_eq_l thm
+R1313:1324 Coq.Numbers.Natural.Abstract.NDiv NP add_sub_eq_l thm
+R1347:1353 Coq.Numbers.Natural.Abstract.NDiv N div_mod prfax
+R1347:1353 Coq.Numbers.Natural.Abstract.NDiv N div_mod prfax
+prf 1398:1411 NDivProp div_mod_unique
+binder 1423:1423 <> b:5
+binder 1425:1426 <> q1:6
+binder 1428:1429 <> q2:7
+binder 1431:1432 <> r1:8
+binder 1434:1435 <> r2:9
+R1442:1445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1440:1440 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1438:1439 Coq.Numbers.Natural.Abstract.NDiv <> r1:8 var
+R1441:1441 Coq.Numbers.Natural.Abstract.NDiv <> b:5 var
+R1450:1455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1448:1448 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1446:1447 Coq.Numbers.Natural.Abstract.NDiv <> r2:9 var
+R1449:1449 Coq.Numbers.Natural.Abstract.NDiv <> b:5 var
+R1474:1477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1463:1466 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1460:1460 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1457:1457 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1456:1456 Coq.Numbers.Natural.Abstract.NDiv <> b:5 var
+R1458:1459 Coq.Numbers.Natural.Abstract.NDiv <> q1:6 var
+R1461:1462 Coq.Numbers.Natural.Abstract.NDiv <> r1:8 var
+R1471:1471 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1468:1468 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1467:1467 Coq.Numbers.Natural.Abstract.NDiv <> b:5 var
+R1469:1470 Coq.Numbers.Natural.Abstract.NDiv <> q2:7 var
+R1472:1473 Coq.Numbers.Natural.Abstract.NDiv <> r2:9 var
+R1486:1489 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1480:1483 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1478:1479 Coq.Numbers.Natural.Abstract.NDiv <> q1:6 var
+R1484:1485 Coq.Numbers.Natural.Abstract.NDiv <> q2:7 var
+R1492:1495 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1490:1491 Coq.Numbers.Natural.Abstract.NDiv <> r1:8 var
+R1496:1497 Coq.Numbers.Natural.Abstract.NDiv <> r2:9 var
+R1541:1554 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mod_unique thm
+R1541:1554 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mod_unique thm
+prf 1585:1594 NDivProp div_unique
+binder 1605:1605 <> a:10
+binder 1607:1607 <> b:11
+binder 1609:1609 <> q:12
+binder 1611:1611 <> r:13
+R1617:1620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1615:1615 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1614:1614 Coq.Numbers.Natural.Abstract.NDiv <> r:13 var
+R1616:1616 Coq.Numbers.Natural.Abstract.NDiv <> b:11 var
+R1633:1636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1622:1625 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1621:1621 Coq.Numbers.Natural.Abstract.NDiv <> a:10 var
+R1629:1631 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1627:1627 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1626:1626 Coq.Numbers.Natural.Abstract.NDiv <> b:11 var
+R1628:1628 Coq.Numbers.Natural.Abstract.NDiv <> q:12 var
+R1632:1632 Coq.Numbers.Natural.Abstract.NDiv <> r:13 var
+R1638:1641 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1637:1637 Coq.Numbers.Natural.Abstract.NDiv <> q:12 var
+R1643:1643 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1642:1642 Coq.Numbers.Natural.Abstract.NDiv <> a:10 var
+R1644:1644 Coq.Numbers.Natural.Abstract.NDiv <> b:11 var
+R1680:1689 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_unique thm
+R1680:1689 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_unique thm
+prf 1720:1729 NDivProp mod_unique
+binder 1740:1740 <> a:14
+binder 1742:1742 <> b:15
+binder 1744:1744 <> q:16
+binder 1746:1746 <> r:17
+R1752:1755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1750:1750 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1749:1749 Coq.Numbers.Natural.Abstract.NDiv <> r:17 var
+R1751:1751 Coq.Numbers.Natural.Abstract.NDiv <> b:15 var
+R1768:1771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1757:1760 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1756:1756 Coq.Numbers.Natural.Abstract.NDiv <> a:14 var
+R1764:1766 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1762:1762 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1761:1761 Coq.Numbers.Natural.Abstract.NDiv <> b:15 var
+R1763:1763 Coq.Numbers.Natural.Abstract.NDiv <> q:16 var
+R1767:1767 Coq.Numbers.Natural.Abstract.NDiv <> r:17 var
+R1773:1776 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1772:1772 Coq.Numbers.Natural.Abstract.NDiv <> r:17 var
+R1778:1782 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R1777:1777 Coq.Numbers.Natural.Abstract.NDiv <> a:14 var
+R1783:1783 Coq.Numbers.Natural.Abstract.NDiv <> b:15 var
+R1819:1828 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_unique thm
+R1819:1828 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_unique thm
+prf 1859:1874 NDivProp div_unique_exact
+binder 1884:1884 <> a:18
+binder 1886:1886 <> b:19
+binder 1888:1888 <> q:20
+R1895:1898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1892:1893 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R1891:1891 Coq.Numbers.Natural.Abstract.NDiv <> b:19 var
+R1907:1910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1900:1903 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1899:1899 Coq.Numbers.Natural.Abstract.NDiv <> a:18 var
+R1905:1905 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1904:1904 Coq.Numbers.Natural.Abstract.NDiv <> b:19 var
+R1906:1906 Coq.Numbers.Natural.Abstract.NDiv <> q:20 var
+R1912:1915 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1911:1911 Coq.Numbers.Natural.Abstract.NDiv <> q:20 var
+R1917:1917 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R1916:1916 Coq.Numbers.Natural.Abstract.NDiv <> a:18 var
+R1918:1918 Coq.Numbers.Natural.Abstract.NDiv <> b:19 var
+R1942:1957 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_unique_exact thm
+R1942:1957 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_unique_exact thm
+prf 2018:2025 NDivProp div_same
+binder 2036:2036 <> a:21
+R2043:2046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2040:2041 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2039:2039 Coq.Numbers.Natural.Abstract.NDiv <> a:21 var
+R2050:2053 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2048:2048 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2047:2047 Coq.Numbers.Natural.Abstract.NDiv <> a:21 var
+R2049:2049 Coq.Numbers.Natural.Abstract.NDiv <> a:21 var
+R2078:2085 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_same thm
+R2078:2085 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_same thm
+prf 2107:2114 NDivProp mod_same
+binder 2125:2125 <> a:22
+R2132:2135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2129:2130 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2128:2128 Coq.Numbers.Natural.Abstract.NDiv <> a:22 var
+R2143:2146 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2137:2141 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2136:2136 Coq.Numbers.Natural.Abstract.NDiv <> a:22 var
+R2142:2142 Coq.Numbers.Natural.Abstract.NDiv <> a:22 var
+R2171:2178 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_same thm
+R2171:2178 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_same thm
+prf 2268:2276 NDivProp div_small
+binder 2286:2286 <> a:23
+binder 2288:2288 <> b:24
+R2294:2297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2292:2292 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2291:2291 Coq.Numbers.Natural.Abstract.NDiv <> a:23 var
+R2293:2293 Coq.Numbers.Natural.Abstract.NDiv <> b:24 var
+R2301:2304 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2299:2299 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2298:2298 Coq.Numbers.Natural.Abstract.NDiv <> a:23 var
+R2300:2300 Coq.Numbers.Natural.Abstract.NDiv <> b:24 var
+R2329:2337 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_small thm
+R2329:2337 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_small thm
+prf 2404:2412 NDivProp mod_small
+binder 2422:2422 <> a:25
+binder 2424:2424 <> b:26
+R2430:2433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2428:2428 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2427:2427 Coq.Numbers.Natural.Abstract.NDiv <> a:25 var
+R2429:2429 Coq.Numbers.Natural.Abstract.NDiv <> b:26 var
+R2441:2444 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2435:2439 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2434:2434 Coq.Numbers.Natural.Abstract.NDiv <> a:25 var
+R2440:2440 Coq.Numbers.Natural.Abstract.NDiv <> b:26 var
+R2445:2445 Coq.Numbers.Natural.Abstract.NDiv <> a:25 var
+R2469:2477 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_small thm
+R2469:2477 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_small thm
+prf 2547:2553 NDivProp div_0_l
+binder 2563:2563 <> a:27
+R2570:2573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2567:2568 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2566:2566 Coq.Numbers.Natural.Abstract.NDiv <> a:27 var
+R2577:2580 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2575:2575 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2576:2576 Coq.Numbers.Natural.Abstract.NDiv <> a:27 var
+R2605:2611 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_0_l thm
+R2605:2611 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_0_l thm
+prf 2633:2639 NDivProp mod_0_l
+binder 2649:2649 <> a:28
+R2656:2659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2653:2654 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2652:2652 Coq.Numbers.Natural.Abstract.NDiv <> a:28 var
+R2667:2670 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2661:2665 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2666:2666 Coq.Numbers.Natural.Abstract.NDiv <> a:28 var
+R2695:2701 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_0_l thm
+R2695:2701 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_0_l thm
+prf 2723:2729 NDivProp div_1_r
+binder 2739:2739 <> a:29
+R2745:2748 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2743:2743 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2742:2742 Coq.Numbers.Natural.Abstract.NDiv <> a:29 var
+R2749:2749 Coq.Numbers.Natural.Abstract.NDiv <> a:29 var
+R2773:2779 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_1_r thm
+R2773:2779 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_1_r thm
+prf 2801:2807 NDivProp mod_1_r
+binder 2817:2817 <> a:30
+R2827:2830 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2821:2825 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2820:2820 Coq.Numbers.Natural.Abstract.NDiv <> a:30 var
+R2855:2861 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_1_r thm
+R2855:2861 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_1_r thm
+prf 2883:2889 NDivProp div_1_l
+binder 2899:2899 <> a:31
+R2905:2908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2903:2903 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2904:2904 Coq.Numbers.Natural.Abstract.NDiv <> a:31 var
+R2912:2915 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2910:2910 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R2911:2911 Coq.Numbers.Natural.Abstract.NDiv <> a:31 var
+R2932:2938 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_1_l thm
+R2932:2938 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_1_l thm
+prf 2953:2959 NDivProp mod_1_l
+binder 2969:2969 <> a:32
+R2975:2978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2973:2973 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2974:2974 Coq.Numbers.Natural.Abstract.NDiv <> a:32 var
+R2986:2989 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2980:2984 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R2985:2985 Coq.Numbers.Natural.Abstract.NDiv <> a:32 var
+R3006:3012 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_1_l thm
+R3006:3012 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_1_l thm
+prf 3027:3033 NDivProp div_mul
+binder 3044:3044 <> a:33
+binder 3046:3046 <> b:34
+R3053:3056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3050:3051 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3049:3049 Coq.Numbers.Natural.Abstract.NDiv <> b:34 var
+R3064:3067 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3057:3057 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3061:3062 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3059:3059 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3058:3058 Coq.Numbers.Natural.Abstract.NDiv <> a:33 var
+R3060:3060 Coq.Numbers.Natural.Abstract.NDiv <> b:34 var
+R3063:3063 Coq.Numbers.Natural.Abstract.NDiv <> b:34 var
+R3068:3068 Coq.Numbers.Natural.Abstract.NDiv <> a:33 var
+R3092:3098 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul thm
+R3092:3098 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul thm
+prf 3120:3126 NDivProp mod_mul
+binder 3137:3137 <> a:35
+binder 3139:3139 <> b:36
+R3146:3149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3143:3144 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3142:3142 Coq.Numbers.Natural.Abstract.NDiv <> b:36 var
+R3161:3164 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3150:3150 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3154:3159 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3152:3152 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3151:3151 Coq.Numbers.Natural.Abstract.NDiv <> a:35 var
+R3153:3153 Coq.Numbers.Natural.Abstract.NDiv <> b:36 var
+R3160:3160 Coq.Numbers.Natural.Abstract.NDiv <> b:36 var
+R3189:3195 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mul thm
+R3189:3195 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mul thm
+prf 3318:3323 NDivProp mod_le
+binder 3333:3333 <> a:37
+binder 3335:3335 <> b:38
+R3342:3345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3339:3340 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3338:3338 Coq.Numbers.Natural.Abstract.NDiv <> b:38 var
+R3353:3356 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3347:3351 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3346:3346 Coq.Numbers.Natural.Abstract.NDiv <> a:37 var
+R3352:3352 Coq.Numbers.Natural.Abstract.NDiv <> b:38 var
+R3357:3357 Coq.Numbers.Natural.Abstract.NDiv <> a:37 var
+R3381:3386 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_le thm
+R3381:3386 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_le thm
+prf 3408:3418 NDivProp div_str_pos
+binder 3429:3429 <> a:39
+binder 3431:3431 <> b:40
+R3440:3443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3435:3435 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3437:3438 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R3436:3436 Coq.Numbers.Natural.Abstract.NDiv <> b:40 var
+R3436:3436 Coq.Numbers.Natural.Abstract.NDiv <> b:40 var
+R3439:3439 Coq.Numbers.Natural.Abstract.NDiv <> a:39 var
+R3445:3447 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3449:3449 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3448:3448 Coq.Numbers.Natural.Abstract.NDiv <> a:39 var
+R3450:3450 Coq.Numbers.Natural.Abstract.NDiv <> b:40 var
+R3466:3476 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_str_pos thm
+R3466:3476 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_str_pos thm
+prf 3491:3503 NDivProp div_small_iff
+binder 3514:3514 <> a:41
+binder 3516:3516 <> b:42
+R3523:3527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3542:3542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3520:3521 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3519:3519 Coq.Numbers.Natural.Abstract.NDiv <> b:42 var
+R3534:3538 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3531:3532 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3529:3529 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3528:3528 Coq.Numbers.Natural.Abstract.NDiv <> a:41 var
+R3530:3530 Coq.Numbers.Natural.Abstract.NDiv <> b:42 var
+R3540:3540 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3539:3539 Coq.Numbers.Natural.Abstract.NDiv <> a:41 var
+R3541:3541 Coq.Numbers.Natural.Abstract.NDiv <> b:42 var
+R3566:3578 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_small_iff thm
+R3566:3578 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_small_iff thm
+prf 3600:3612 NDivProp mod_small_iff
+binder 3623:3623 <> a:43
+binder 3625:3625 <> b:44
+R3632:3636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3657:3657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3629:3630 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3628:3628 Coq.Numbers.Natural.Abstract.NDiv <> b:44 var
+R3649:3653 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3644:3647 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3638:3642 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R3637:3637 Coq.Numbers.Natural.Abstract.NDiv <> a:43 var
+R3643:3643 Coq.Numbers.Natural.Abstract.NDiv <> b:44 var
+R3648:3648 Coq.Numbers.Natural.Abstract.NDiv <> a:43 var
+R3655:3655 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3654:3654 Coq.Numbers.Natural.Abstract.NDiv <> a:43 var
+R3656:3656 Coq.Numbers.Natural.Abstract.NDiv <> b:44 var
+R3681:3693 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_small_iff thm
+R3681:3693 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_small_iff thm
+prf 3715:3729 NDivProp div_str_pos_iff
+binder 3740:3740 <> a:45
+binder 3742:3742 <> b:46
+R3749:3753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3768:3768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3746:3747 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R3745:3745 Coq.Numbers.Natural.Abstract.NDiv <> b:46 var
+R3759:3763 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3755:3755 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3757:3757 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3756:3756 Coq.Numbers.Natural.Abstract.NDiv <> a:45 var
+R3758:3758 Coq.Numbers.Natural.Abstract.NDiv <> b:46 var
+R3765:3766 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3764:3764 Coq.Numbers.Natural.Abstract.NDiv <> b:46 var
+R3767:3767 Coq.Numbers.Natural.Abstract.NDiv <> a:45 var
+R3792:3806 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_str_pos_iff thm
+R3792:3806 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_str_pos_iff thm
+prf 3929:3934 NDivProp div_lt
+binder 3945:3945 <> a:47
+binder 3947:3947 <> b:48
+R3953:3956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3951:3951 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3952:3952 Coq.Numbers.Natural.Abstract.NDiv <> a:47 var
+R3960:3963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3958:3958 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3959:3959 Coq.Numbers.Natural.Abstract.NDiv <> b:48 var
+R3967:3969 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3965:3965 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R3964:3964 Coq.Numbers.Natural.Abstract.NDiv <> a:47 var
+R3966:3966 Coq.Numbers.Natural.Abstract.NDiv <> b:48 var
+R3970:3970 Coq.Numbers.Natural.Abstract.NDiv <> a:47 var
+R3986:3991 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_lt thm
+R3986:3991 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_lt thm
+prf 4059:4069 NDivProp div_le_mono
+binder 4080:4080 <> a:49
+binder 4082:4082 <> b:50
+binder 4084:4084 <> c:51
+R4091:4094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4088:4089 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4087:4087 Coq.Numbers.Natural.Abstract.NDiv <> c:51 var
+R4099:4102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4096:4097 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4095:4095 Coq.Numbers.Natural.Abstract.NDiv <> a:49 var
+R4098:4098 Coq.Numbers.Natural.Abstract.NDiv <> b:50 var
+R4106:4109 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4104:4104 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4103:4103 Coq.Numbers.Natural.Abstract.NDiv <> a:49 var
+R4105:4105 Coq.Numbers.Natural.Abstract.NDiv <> c:51 var
+R4111:4111 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4110:4110 Coq.Numbers.Natural.Abstract.NDiv <> b:50 var
+R4112:4112 Coq.Numbers.Natural.Abstract.NDiv <> c:51 var
+R4136:4146 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_mono thm
+R4136:4146 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_mono thm
+prf 4168:4177 NDivProp mul_div_le
+binder 4188:4188 <> a:52
+binder 4190:4190 <> b:53
+R4197:4200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4194:4195 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4193:4193 Coq.Numbers.Natural.Abstract.NDiv <> b:53 var
+R4208:4211 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4202:4203 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4207:4207 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4201:4201 Coq.Numbers.Natural.Abstract.NDiv <> b:53 var
+R4205:4205 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4204:4204 Coq.Numbers.Natural.Abstract.NDiv <> a:52 var
+R4206:4206 Coq.Numbers.Natural.Abstract.NDiv <> b:53 var
+R4212:4212 Coq.Numbers.Natural.Abstract.NDiv <> a:52 var
+R4236:4245 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_div_le thm
+R4236:4245 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_div_le thm
+prf 4267:4281 NDivProp mul_succ_div_gt
+binder 4291:4291 <> a:54
+binder 4293:4293 <> b:55
+R4300:4303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4297:4298 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4296:4296 Coq.Numbers.Natural.Abstract.NDiv <> b:55 var
+R4305:4307 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4304:4304 Coq.Numbers.Natural.Abstract.NDiv <> a:54 var
+R4309:4310 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4318:4318 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4308:4308 Coq.Numbers.Natural.Abstract.NDiv <> b:55 var
+R4311:4311 Coq.Numbers.Natural.Abstract.NDiv N S abbrev
+R4315:4315 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4314:4314 Coq.Numbers.Natural.Abstract.NDiv <> a:54 var
+R4316:4316 Coq.Numbers.Natural.Abstract.NDiv <> b:55 var
+R4342:4356 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_succ_div_gt thm
+R4342:4356 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_succ_div_gt thm
+prf 4443:4451 NDivProp div_exact
+binder 4462:4462 <> a:56
+binder 4464:4464 <> b:57
+R4471:4475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4505:4505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4468:4469 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4467:4467 Coq.Numbers.Natural.Abstract.NDiv <> b:57 var
+R4488:4492 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4477:4480 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4476:4476 Coq.Numbers.Natural.Abstract.NDiv <> a:56 var
+R4482:4483 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4487:4487 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4481:4481 Coq.Numbers.Natural.Abstract.NDiv <> b:57 var
+R4485:4485 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4484:4484 Coq.Numbers.Natural.Abstract.NDiv <> a:56 var
+R4486:4486 Coq.Numbers.Natural.Abstract.NDiv <> b:57 var
+R4500:4503 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4494:4498 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R4493:4493 Coq.Numbers.Natural.Abstract.NDiv <> a:56 var
+R4499:4499 Coq.Numbers.Natural.Abstract.NDiv <> b:57 var
+R4529:4537 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_exact thm
+R4529:4537 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_exact thm
+prf 4609:4626 NDivProp div_lt_upper_bound
+binder 4638:4638 <> a:58
+binder 4640:4640 <> b:59
+binder 4642:4642 <> q:60
+R4649:4652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4646:4647 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4645:4645 Coq.Numbers.Natural.Abstract.NDiv <> b:59 var
+R4660:4663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4654:4656 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4653:4653 Coq.Numbers.Natural.Abstract.NDiv <> a:58 var
+R4658:4658 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4657:4657 Coq.Numbers.Natural.Abstract.NDiv <> b:59 var
+R4659:4659 Coq.Numbers.Natural.Abstract.NDiv <> q:60 var
+R4667:4669 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4665:4665 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4664:4664 Coq.Numbers.Natural.Abstract.NDiv <> a:58 var
+R4666:4666 Coq.Numbers.Natural.Abstract.NDiv <> b:59 var
+R4670:4670 Coq.Numbers.Natural.Abstract.NDiv <> q:60 var
+R4694:4711 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_lt_upper_bound thm
+R4694:4711 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_lt_upper_bound thm
+prf 4735:4752 NDivProp div_le_upper_bound
+binder 4764:4764 <> a:61
+binder 4766:4766 <> b:62
+binder 4768:4768 <> q:63
+R4775:4778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4772:4773 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4771:4771 Coq.Numbers.Natural.Abstract.NDiv <> b:62 var
+R4787:4790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4780:4783 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4779:4779 Coq.Numbers.Natural.Abstract.NDiv <> a:61 var
+R4785:4785 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4784:4784 Coq.Numbers.Natural.Abstract.NDiv <> b:62 var
+R4786:4786 Coq.Numbers.Natural.Abstract.NDiv <> q:63 var
+R4794:4797 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4792:4792 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4791:4791 Coq.Numbers.Natural.Abstract.NDiv <> a:61 var
+R4793:4793 Coq.Numbers.Natural.Abstract.NDiv <> b:62 var
+R4798:4798 Coq.Numbers.Natural.Abstract.NDiv <> q:63 var
+R4822:4839 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_upper_bound thm
+R4822:4839 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_upper_bound thm
+prf 4863:4880 NDivProp div_le_lower_bound
+binder 4892:4892 <> a:64
+binder 4894:4894 <> b:65
+binder 4896:4896 <> q:66
+R4903:4906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4900:4901 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R4899:4899 Coq.Numbers.Natural.Abstract.NDiv <> b:65 var
+R4915:4918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4910:4913 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4908:4908 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4907:4907 Coq.Numbers.Natural.Abstract.NDiv <> b:65 var
+R4909:4909 Coq.Numbers.Natural.Abstract.NDiv <> q:66 var
+R4914:4914 Coq.Numbers.Natural.Abstract.NDiv <> a:64 var
+R4920:4923 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4919:4919 Coq.Numbers.Natural.Abstract.NDiv <> q:66 var
+R4925:4925 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R4924:4924 Coq.Numbers.Natural.Abstract.NDiv <> a:64 var
+R4926:4926 Coq.Numbers.Natural.Abstract.NDiv <> b:65 var
+R4950:4967 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_lower_bound thm
+R4950:4967 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_lower_bound thm
+prf 5055:5069 NDivProp div_le_compat_l
+binder 5079:5079 <> p:67
+binder 5081:5081 <> q:68
+binder 5083:5083 <> r:69
+R5092:5095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5087:5087 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R5089:5090 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R5088:5088 Coq.Numbers.Natural.Abstract.NDiv <> q:68 var
+R5088:5088 Coq.Numbers.Natural.Abstract.NDiv <> q:68 var
+R5091:5091 Coq.Numbers.Natural.Abstract.NDiv <> r:69 var
+R5099:5102 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5097:5097 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5096:5096 Coq.Numbers.Natural.Abstract.NDiv <> p:67 var
+R5098:5098 Coq.Numbers.Natural.Abstract.NDiv <> r:69 var
+R5104:5104 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5103:5103 Coq.Numbers.Natural.Abstract.NDiv <> p:67 var
+R5105:5105 Coq.Numbers.Natural.Abstract.NDiv <> q:68 var
+R5129:5143 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_compat_l thm
+R5129:5143 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_le_compat_l thm
+prf 5232:5238 NDivProp mod_add
+binder 5249:5249 <> a:70
+binder 5251:5251 <> b:71
+binder 5253:5253 <> c:72
+R5260:5264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5257:5258 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5256:5256 Coq.Numbers.Natural.Abstract.NDiv <> c:72 var
+R5282:5285 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5265:5265 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5275:5280 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5267:5269 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5266:5266 Coq.Numbers.Natural.Abstract.NDiv <> a:70 var
+R5271:5273 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5270:5270 Coq.Numbers.Natural.Abstract.NDiv <> b:71 var
+R5274:5274 Coq.Numbers.Natural.Abstract.NDiv <> c:72 var
+R5281:5281 Coq.Numbers.Natural.Abstract.NDiv <> c:72 var
+R5287:5291 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5286:5286 Coq.Numbers.Natural.Abstract.NDiv <> a:70 var
+R5292:5292 Coq.Numbers.Natural.Abstract.NDiv <> c:72 var
+R5316:5322 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_add thm
+R5316:5322 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_add thm
+prf 5344:5350 NDivProp div_add
+binder 5361:5361 <> a:73
+binder 5363:5363 <> b:74
+binder 5365:5365 <> c:75
+R5372:5376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5369:5370 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5368:5368 Coq.Numbers.Natural.Abstract.NDiv <> c:75 var
+R5392:5395 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5377:5377 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5387:5390 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5379:5381 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5378:5378 Coq.Numbers.Natural.Abstract.NDiv <> a:73 var
+R5383:5385 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5382:5382 Coq.Numbers.Natural.Abstract.NDiv <> b:74 var
+R5386:5386 Coq.Numbers.Natural.Abstract.NDiv <> c:75 var
+R5391:5391 Coq.Numbers.Natural.Abstract.NDiv <> c:75 var
+R5401:5403 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5397:5399 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5396:5396 Coq.Numbers.Natural.Abstract.NDiv <> a:73 var
+R5400:5400 Coq.Numbers.Natural.Abstract.NDiv <> c:75 var
+R5404:5404 Coq.Numbers.Natural.Abstract.NDiv <> b:74 var
+R5428:5434 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_add thm
+R5428:5434 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_add thm
+prf 5456:5464 NDivProp div_add_l
+binder 5474:5474 <> a:76
+binder 5476:5476 <> b:77
+binder 5478:5478 <> c:78
+R5485:5489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5482:5483 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5481:5481 Coq.Numbers.Natural.Abstract.NDiv <> b:77 var
+R5505:5508 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5490:5490 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5500:5503 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5496:5498 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5492:5494 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5491:5491 Coq.Numbers.Natural.Abstract.NDiv <> a:76 var
+R5495:5495 Coq.Numbers.Natural.Abstract.NDiv <> b:77 var
+R5499:5499 Coq.Numbers.Natural.Abstract.NDiv <> c:78 var
+R5504:5504 Coq.Numbers.Natural.Abstract.NDiv <> b:77 var
+R5510:5512 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5509:5509 Coq.Numbers.Natural.Abstract.NDiv <> a:76 var
+R5514:5516 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5513:5513 Coq.Numbers.Natural.Abstract.NDiv <> c:78 var
+R5517:5517 Coq.Numbers.Natural.Abstract.NDiv <> b:77 var
+R5541:5549 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_add_l thm
+R5541:5549 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_add_l thm
+prf 5594:5609 NDivProp div_mul_cancel_r
+binder 5620:5620 <> a:79
+binder 5622:5622 <> b:80
+binder 5624:5624 <> c:81
+R5631:5634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5628:5629 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5627:5627 Coq.Numbers.Natural.Abstract.NDiv <> b:80 var
+R5639:5643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5636:5637 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5635:5635 Coq.Numbers.Natural.Abstract.NDiv <> c:81 var
+R5655:5658 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5644:5644 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5648:5650 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5654:5654 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5646:5646 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5645:5645 Coq.Numbers.Natural.Abstract.NDiv <> a:79 var
+R5647:5647 Coq.Numbers.Natural.Abstract.NDiv <> c:81 var
+R5652:5652 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5651:5651 Coq.Numbers.Natural.Abstract.NDiv <> b:80 var
+R5653:5653 Coq.Numbers.Natural.Abstract.NDiv <> c:81 var
+R5660:5660 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5659:5659 Coq.Numbers.Natural.Abstract.NDiv <> a:79 var
+R5661:5661 Coq.Numbers.Natural.Abstract.NDiv <> b:80 var
+R5685:5700 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_cancel_r thm
+R5685:5700 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_cancel_r thm
+prf 5722:5737 NDivProp div_mul_cancel_l
+binder 5748:5748 <> a:82
+binder 5750:5750 <> b:83
+binder 5752:5752 <> c:84
+R5759:5762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5756:5757 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5755:5755 Coq.Numbers.Natural.Abstract.NDiv <> b:83 var
+R5767:5771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5764:5765 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5763:5763 Coq.Numbers.Natural.Abstract.NDiv <> c:84 var
+R5783:5786 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5772:5772 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5776:5778 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5782:5782 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5774:5774 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5773:5773 Coq.Numbers.Natural.Abstract.NDiv <> c:84 var
+R5775:5775 Coq.Numbers.Natural.Abstract.NDiv <> a:82 var
+R5780:5780 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5779:5779 Coq.Numbers.Natural.Abstract.NDiv <> c:84 var
+R5781:5781 Coq.Numbers.Natural.Abstract.NDiv <> b:83 var
+R5788:5788 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R5787:5787 Coq.Numbers.Natural.Abstract.NDiv <> a:82 var
+R5789:5789 Coq.Numbers.Natural.Abstract.NDiv <> b:83 var
+R5813:5828 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_cancel_l thm
+R5813:5828 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_cancel_l thm
+prf 5850:5864 NDivProp mul_mod_distr_r
+binder 5874:5874 <> a:85
+binder 5876:5876 <> b:86
+binder 5878:5878 <> c:87
+R5885:5888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5882:5883 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5881:5881 Coq.Numbers.Natural.Abstract.NDiv <> b:86 var
+R5893:5898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5890:5891 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R5889:5889 Coq.Numbers.Natural.Abstract.NDiv <> c:87 var
+R5914:5917 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5899:5899 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5903:5909 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5913:5913 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5901:5901 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5900:5900 Coq.Numbers.Natural.Abstract.NDiv <> a:85 var
+R5902:5902 Coq.Numbers.Natural.Abstract.NDiv <> c:87 var
+R5911:5911 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5910:5910 Coq.Numbers.Natural.Abstract.NDiv <> b:86 var
+R5912:5912 Coq.Numbers.Natural.Abstract.NDiv <> c:87 var
+R5918:5918 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5926:5929 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5920:5924 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R5919:5919 Coq.Numbers.Natural.Abstract.NDiv <> a:85 var
+R5925:5925 Coq.Numbers.Natural.Abstract.NDiv <> b:86 var
+R5930:5930 Coq.Numbers.Natural.Abstract.NDiv <> c:87 var
+R5954:5968 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_distr_r thm
+R5954:5968 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_distr_r thm
+prf 5990:6004 NDivProp mul_mod_distr_l
+binder 6014:6014 <> a:88
+binder 6016:6016 <> b:89
+binder 6018:6018 <> c:90
+R6025:6028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6022:6023 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6021:6021 Coq.Numbers.Natural.Abstract.NDiv <> b:89 var
+R6033:6038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6030:6031 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6029:6029 Coq.Numbers.Natural.Abstract.NDiv <> c:90 var
+R6054:6057 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6039:6039 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6043:6049 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6053:6053 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6041:6041 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6040:6040 Coq.Numbers.Natural.Abstract.NDiv <> c:90 var
+R6042:6042 Coq.Numbers.Natural.Abstract.NDiv <> a:88 var
+R6051:6051 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6050:6050 Coq.Numbers.Natural.Abstract.NDiv <> c:90 var
+R6052:6052 Coq.Numbers.Natural.Abstract.NDiv <> b:89 var
+R6059:6062 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6070:6070 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6058:6058 Coq.Numbers.Natural.Abstract.NDiv <> c:90 var
+R6064:6068 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6063:6063 Coq.Numbers.Natural.Abstract.NDiv <> a:88 var
+R6069:6069 Coq.Numbers.Natural.Abstract.NDiv <> b:89 var
+R6094:6108 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_distr_l thm
+R6094:6108 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_distr_l thm
+prf 6159:6165 NDivProp mod_mod
+binder 6175:6175 <> a:91
+binder 6177:6177 <> n:92
+R6184:6188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6181:6182 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6180:6180 Coq.Numbers.Natural.Abstract.NDiv <> n:92 var
+R6204:6207 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6189:6189 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6197:6202 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6191:6195 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6190:6190 Coq.Numbers.Natural.Abstract.NDiv <> a:91 var
+R6196:6196 Coq.Numbers.Natural.Abstract.NDiv <> n:92 var
+R6203:6203 Coq.Numbers.Natural.Abstract.NDiv <> n:92 var
+R6209:6213 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6208:6208 Coq.Numbers.Natural.Abstract.NDiv <> a:91 var
+R6214:6214 Coq.Numbers.Natural.Abstract.NDiv <> n:92 var
+R6238:6244 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mod thm
+R6238:6244 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mod thm
+prf 6266:6280 NDivProp mul_mod_idemp_l
+binder 6291:6291 <> a:93
+binder 6293:6293 <> b:94
+binder 6295:6295 <> n:95
+R6302:6306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6299:6300 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6298:6298 Coq.Numbers.Natural.Abstract.NDiv <> n:95 var
+R6326:6329 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6307:6307 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6319:6324 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6308:6308 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6316:6317 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6310:6314 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6309:6309 Coq.Numbers.Natural.Abstract.NDiv <> a:93 var
+R6315:6315 Coq.Numbers.Natural.Abstract.NDiv <> n:95 var
+R6318:6318 Coq.Numbers.Natural.Abstract.NDiv <> b:94 var
+R6325:6325 Coq.Numbers.Natural.Abstract.NDiv <> n:95 var
+R6330:6330 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6334:6339 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6332:6332 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6331:6331 Coq.Numbers.Natural.Abstract.NDiv <> a:93 var
+R6333:6333 Coq.Numbers.Natural.Abstract.NDiv <> b:94 var
+R6340:6340 Coq.Numbers.Natural.Abstract.NDiv <> n:95 var
+R6364:6378 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_idemp_l thm
+R6364:6378 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_idemp_l thm
+prf 6400:6414 NDivProp mul_mod_idemp_r
+binder 6425:6425 <> a:96
+binder 6427:6427 <> b:97
+binder 6429:6429 <> n:98
+R6436:6440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6433:6434 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6432:6432 Coq.Numbers.Natural.Abstract.NDiv <> n:98 var
+R6460:6463 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6441:6441 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6453:6458 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6443:6444 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6452:6452 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6442:6442 Coq.Numbers.Natural.Abstract.NDiv <> a:96 var
+R6446:6450 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6445:6445 Coq.Numbers.Natural.Abstract.NDiv <> b:97 var
+R6451:6451 Coq.Numbers.Natural.Abstract.NDiv <> n:98 var
+R6459:6459 Coq.Numbers.Natural.Abstract.NDiv <> n:98 var
+R6464:6464 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6468:6473 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6466:6466 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6465:6465 Coq.Numbers.Natural.Abstract.NDiv <> a:96 var
+R6467:6467 Coq.Numbers.Natural.Abstract.NDiv <> b:97 var
+R6474:6474 Coq.Numbers.Natural.Abstract.NDiv <> n:98 var
+R6498:6512 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_idemp_r thm
+R6498:6512 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod_idemp_r thm
+prf 6536:6542 NDivProp mul_mod
+binder 6552:6552 <> a:99
+binder 6554:6554 <> b:100
+binder 6556:6556 <> n:101
+R6563:6567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6560:6561 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6559:6559 Coq.Numbers.Natural.Abstract.NDiv <> n:101 var
+R6581:6584 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6568:6568 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6574:6579 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6570:6572 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6569:6569 Coq.Numbers.Natural.Abstract.NDiv <> a:99 var
+R6573:6573 Coq.Numbers.Natural.Abstract.NDiv <> b:100 var
+R6580:6580 Coq.Numbers.Natural.Abstract.NDiv <> n:101 var
+R6585:6585 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6607:6612 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6586:6586 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6594:6598 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6606:6606 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6588:6592 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6587:6587 Coq.Numbers.Natural.Abstract.NDiv <> a:99 var
+R6593:6593 Coq.Numbers.Natural.Abstract.NDiv <> n:101 var
+R6600:6604 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6599:6599 Coq.Numbers.Natural.Abstract.NDiv <> b:100 var
+R6605:6605 Coq.Numbers.Natural.Abstract.NDiv <> n:101 var
+R6613:6613 Coq.Numbers.Natural.Abstract.NDiv <> n:101 var
+R6637:6643 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod thm
+R6637:6643 Coq.Numbers.Natural.Abstract.NDiv NDivProp mul_mod thm
+prf 6665:6679 NDivProp add_mod_idemp_l
+binder 6690:6690 <> a:102
+binder 6692:6692 <> b:103
+binder 6694:6694 <> n:104
+R6701:6705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6698:6699 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6697:6697 Coq.Numbers.Natural.Abstract.NDiv <> n:104 var
+R6725:6728 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6706:6706 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6718:6723 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6707:6707 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6715:6716 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6709:6713 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6708:6708 Coq.Numbers.Natural.Abstract.NDiv <> a:102 var
+R6714:6714 Coq.Numbers.Natural.Abstract.NDiv <> n:104 var
+R6717:6717 Coq.Numbers.Natural.Abstract.NDiv <> b:103 var
+R6724:6724 Coq.Numbers.Natural.Abstract.NDiv <> n:104 var
+R6729:6729 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6733:6738 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6731:6731 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6730:6730 Coq.Numbers.Natural.Abstract.NDiv <> a:102 var
+R6732:6732 Coq.Numbers.Natural.Abstract.NDiv <> b:103 var
+R6739:6739 Coq.Numbers.Natural.Abstract.NDiv <> n:104 var
+R6763:6777 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod_idemp_l thm
+R6763:6777 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod_idemp_l thm
+prf 6799:6813 NDivProp add_mod_idemp_r
+binder 6824:6824 <> a:105
+binder 6826:6826 <> b:106
+binder 6828:6828 <> n:107
+R6835:6839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6832:6833 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6831:6831 Coq.Numbers.Natural.Abstract.NDiv <> n:107 var
+R6859:6862 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6840:6840 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6852:6857 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6842:6843 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6851:6851 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6841:6841 Coq.Numbers.Natural.Abstract.NDiv <> a:105 var
+R6845:6849 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6844:6844 Coq.Numbers.Natural.Abstract.NDiv <> b:106 var
+R6850:6850 Coq.Numbers.Natural.Abstract.NDiv <> n:107 var
+R6858:6858 Coq.Numbers.Natural.Abstract.NDiv <> n:107 var
+R6863:6863 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6867:6872 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6865:6865 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6864:6864 Coq.Numbers.Natural.Abstract.NDiv <> a:105 var
+R6866:6866 Coq.Numbers.Natural.Abstract.NDiv <> b:106 var
+R6873:6873 Coq.Numbers.Natural.Abstract.NDiv <> n:107 var
+R6897:6911 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod_idemp_r thm
+R6897:6911 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod_idemp_r thm
+prf 6935:6941 NDivProp add_mod
+binder 6951:6951 <> a:108
+binder 6953:6953 <> b:109
+binder 6955:6955 <> n:110
+R6962:6966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6959:6960 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R6958:6958 Coq.Numbers.Natural.Abstract.NDiv <> n:110 var
+R6978:6981 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6967:6967 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6971:6976 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6969:6969 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6968:6968 Coq.Numbers.Natural.Abstract.NDiv <> a:108 var
+R6970:6970 Coq.Numbers.Natural.Abstract.NDiv <> b:109 var
+R6977:6977 Coq.Numbers.Natural.Abstract.NDiv <> n:110 var
+R6982:6982 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7000:7005 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6990:6992 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6984:6988 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6983:6983 Coq.Numbers.Natural.Abstract.NDiv <> a:108 var
+R6989:6989 Coq.Numbers.Natural.Abstract.NDiv <> n:110 var
+R6994:6998 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R6993:6993 Coq.Numbers.Natural.Abstract.NDiv <> b:109 var
+R6999:6999 Coq.Numbers.Natural.Abstract.NDiv <> n:110 var
+R7006:7006 Coq.Numbers.Natural.Abstract.NDiv <> n:110 var
+R7030:7036 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod thm
+R7030:7036 Coq.Numbers.Natural.Abstract.NDiv NDivProp add_mod thm
+prf 7058:7064 NDivProp div_div
+binder 7075:7075 <> a:111
+binder 7077:7077 <> b:112
+binder 7079:7079 <> c:113
+R7086:7089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7083:7084 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7082:7082 Coq.Numbers.Natural.Abstract.NDiv <> b:112 var
+R7094:7098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7091:7092 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7090:7090 Coq.Numbers.Natural.Abstract.NDiv <> c:113 var
+R7106:7109 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7099:7099 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7103:7104 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7101:7101 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7100:7100 Coq.Numbers.Natural.Abstract.NDiv <> a:111 var
+R7102:7102 Coq.Numbers.Natural.Abstract.NDiv <> b:112 var
+R7105:7105 Coq.Numbers.Natural.Abstract.NDiv <> c:113 var
+R7111:7112 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7116:7116 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7110:7110 Coq.Numbers.Natural.Abstract.NDiv <> a:111 var
+R7114:7114 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7113:7113 Coq.Numbers.Natural.Abstract.NDiv <> b:112 var
+R7115:7115 Coq.Numbers.Natural.Abstract.NDiv <> c:113 var
+R7140:7146 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_div thm
+R7140:7146 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_div thm
+prf 7168:7176 NDivProp mod_mul_r
+binder 7187:7187 <> a:114
+binder 7189:7189 <> b:115
+binder 7191:7191 <> c:116
+R7198:7201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7195:7196 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7194:7194 Coq.Numbers.Natural.Abstract.NDiv <> b:115 var
+R7206:7210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7203:7204 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7202:7202 Coq.Numbers.Natural.Abstract.NDiv <> c:116 var
+R7222:7225 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7212:7217 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7221:7221 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7211:7211 Coq.Numbers.Natural.Abstract.NDiv <> a:114 var
+R7219:7219 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7218:7218 Coq.Numbers.Natural.Abstract.NDiv <> b:115 var
+R7220:7220 Coq.Numbers.Natural.Abstract.NDiv <> c:116 var
+R7233:7235 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7227:7231 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7226:7226 Coq.Numbers.Natural.Abstract.NDiv <> a:114 var
+R7232:7232 Coq.Numbers.Natural.Abstract.NDiv <> b:115 var
+R7237:7238 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7250:7250 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7236:7236 Coq.Numbers.Natural.Abstract.NDiv <> b:115 var
+R7239:7239 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7243:7248 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7241:7241 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7240:7240 Coq.Numbers.Natural.Abstract.NDiv <> a:114 var
+R7242:7242 Coq.Numbers.Natural.Abstract.NDiv <> b:115 var
+R7249:7249 Coq.Numbers.Natural.Abstract.NDiv <> c:116 var
+R7274:7282 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mul_r thm
+R7274:7282 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_mul_r thm
+prf 7333:7342 NDivProp div_mul_le
+binder 7353:7353 <> a:117
+binder 7355:7355 <> b:118
+binder 7357:7357 <> c:119
+R7364:7367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7361:7362 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7360:7360 Coq.Numbers.Natural.Abstract.NDiv <> b:118 var
+R7375:7378 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7369:7370 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7374:7374 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7368:7368 Coq.Numbers.Natural.Abstract.NDiv <> c:119 var
+R7372:7372 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7371:7371 Coq.Numbers.Natural.Abstract.NDiv <> a:117 var
+R7373:7373 Coq.Numbers.Natural.Abstract.NDiv <> b:118 var
+R7379:7379 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7383:7384 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'/'_x not
+R7381:7381 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7380:7380 Coq.Numbers.Natural.Abstract.NDiv <> c:119 var
+R7382:7382 Coq.Numbers.Natural.Abstract.NDiv <> a:117 var
+R7385:7385 Coq.Numbers.Natural.Abstract.NDiv <> b:118 var
+R7409:7418 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_le thm
+R7409:7418 Coq.Numbers.Natural.Abstract.NDiv NDivProp div_mul_le thm
+prf 7479:7489 NDivProp mod_divides
+binder 7500:7500 <> a:120
+binder 7502:7502 <> b:121
+R7509:7514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7550:7550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7506:7507 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R7505:7505 Coq.Numbers.Natural.Abstract.NDiv <> b:121 var
+R7527:7531 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7522:7525 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7516:7520 Coq.Numbers.NatInt.NZDiv DivModNotation :::x_'mod'_x not
+R7515:7515 Coq.Numbers.Natural.Abstract.NDiv <> a:120 var
+R7521:7521 Coq.Numbers.Natural.Abstract.NDiv <> b:121 var
+R7532:7538 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7540:7541 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7539:7539 <> c:122
+R7543:7546 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7542:7542 Coq.Numbers.Natural.Abstract.NDiv <> a:120 var
+R7548:7548 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7547:7547 Coq.Numbers.Natural.Abstract.NDiv <> b:121 var
+R7549:7549 Coq.Numbers.Natural.Abstract.NDiv <> c:122 var
+R7574:7584 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_divides thm
+R7574:7584 Coq.Numbers.Natural.Abstract.NDiv NDivProp mod_divides thm
+R7604:7611 Coq.Numbers.Natural.Abstract.NDiv NDivProp <> modtype

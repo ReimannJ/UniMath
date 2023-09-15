@@ -1,0 +1,162 @@
+DIGEST 1837acd87cf3ab58f27767505841b063
+FCoq.Lists.ListDec
+R732:735 Coq.Lists.List <> <> lib
+R737:745 Coq.Logic.Decidable <> <> lib
+def 784:795 <> decidable_eq
+binder 797:797 <> A:1
+R813:813 Coq.Lists.ListDec <> A:1 var
+binder 809:809 <> x:2
+binder 811:811 <> y:3
+R816:824 Coq.Logic.Decidable <> decidable def
+R828:828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R827:827 Coq.Lists.ListDec <> x:2 var
+R829:829 Coq.Lists.ListDec <> y:3 var
+sec 842:852 <> Dec_in_Prop
+var 866:866 Dec_in_Prop A
+var 874:876 Dec_in_Prop dec
+R878:889 Coq.Lists.ListDec <> decidable_eq def
+R891:891 Coq.Lists.ListDec <> A:4 var
+prf 902:913 <> In_decidable
+binder 915:915 <> x:6
+R920:923 Coq.Init.Datatypes <> list ind
+R925:925 Coq.Lists.ListDec <> Dec_in_Prop.A var
+binder 918:918 <> l:7
+R930:938 Coq.Logic.Decidable <> decidable def
+R941:942 Coq.Lists.List <> In def
+R946:946 Coq.Lists.ListDec <> l:7 var
+R944:944 Coq.Lists.ListDec <> x:6 var
+R1023:1025 Coq.Lists.ListDec <> Dec_in_Prop.dec var
+R1023:1025 Coq.Lists.ListDec <> Dec_in_Prop.dec var
+prf 1112:1125 <> incl_decidable
+R1133:1136 Coq.Init.Datatypes <> list ind
+R1138:1138 Coq.Lists.ListDec <> Dec_in_Prop.A var
+binder 1128:1128 <> l:8
+binder 1130:1131 <> l':9
+R1143:1151 Coq.Logic.Decidable <> decidable def
+R1154:1157 Coq.Lists.List <> incl def
+R1161:1162 Coq.Lists.ListDec <> l':9 var
+R1159:1159 Coq.Lists.ListDec <> l:8 var
+R1247:1258 Coq.Lists.ListDec <> In_decidable thm
+R1247:1258 Coq.Lists.ListDec <> In_decidable thm
+prf 1466:1480 <> NoDup_decidable
+R1485:1488 Coq.Init.Datatypes <> list ind
+R1490:1490 Coq.Lists.ListDec <> Dec_in_Prop.A var
+binder 1483:1483 <> l:10
+R1495:1503 Coq.Logic.Decidable <> decidable def
+R1506:1510 Coq.Lists.List <> NoDup ind
+R1512:1512 Coq.Lists.ListDec <> l:10 var
+R1601:1612 Coq.Lists.ListDec <> In_decidable thm
+R1601:1612 Coq.Lists.ListDec <> In_decidable thm
+R1756:1766 Coq.Lists.ListDec Dec_in_Prop <> sec
+sec 1778:1788 <> Dec_in_Type
+var 1802:1802 Dec_in_Type A
+var 1810:1812 Dec_in_Type dec
+R1827:1827 Coq.Lists.ListDec <> A:11 var
+binder 1823:1823 <> x:12
+binder 1825:1825 <> y:13
+R1830:1830 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1834:1836 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1841:1841 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1832:1832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1831:1831 Coq.Lists.ListDec <> x:12 var
+R1833:1833 Coq.Lists.ListDec <> y:13 var
+R1838:1839 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1837:1837 Coq.Lists.ListDec <> x:12 var
+R1840:1840 Coq.Lists.ListDec <> y:13 var
+def 1857:1862 <> In_dec
+R1867:1877 Coq.Lists.List <> In_dec abbrev
+R1879:1881 Coq.Lists.ListDec <> Dec_in_Type.dec var
+prf 1915:1922 <> incl_dec
+R1930:1933 Coq.Init.Datatypes <> list ind
+R1935:1935 Coq.Lists.ListDec <> Dec_in_Type.A var
+binder 1925:1925 <> l:15
+binder 1927:1928 <> l':16
+R1940:1940 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1950:1952 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1963:1963 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1941:1944 Coq.Lists.List <> incl def
+R1948:1949 Coq.Lists.ListDec <> l':16 var
+R1946:1946 Coq.Lists.ListDec <> l:15 var
+R1953:1953 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1954:1957 Coq.Lists.List <> incl def
+R1961:1962 Coq.Lists.ListDec <> l':16 var
+R1959:1959 Coq.Lists.ListDec <> l:15 var
+R2047:2052 Coq.Lists.ListDec <> In_dec def
+R2047:2052 Coq.Lists.ListDec <> In_dec def
+prf 2260:2268 <> NoDup_dec
+R2273:2276 Coq.Init.Datatypes <> list ind
+R2278:2278 Coq.Lists.ListDec <> Dec_in_Type.A var
+binder 2271:2271 <> l:17
+R2283:2283 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2291:2293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2302:2302 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2284:2288 Coq.Lists.List <> NoDup ind
+R2290:2290 Coq.Lists.ListDec <> l:17 var
+R2294:2294 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2295:2299 Coq.Lists.List <> NoDup ind
+R2301:2301 Coq.Lists.ListDec <> l:17 var
+R2390:2395 Coq.Lists.ListDec <> In_dec def
+R2390:2395 Coq.Lists.ListDec <> In_dec def
+R2539:2549 Coq.Lists.ListDec Dec_in_Type <> sec
+prf 2652:2663 <> uniquify_map
+binder 2665:2665 <> A:18
+binder 2667:2667 <> B:19
+R2672:2683 Coq.Lists.ListDec <> decidable_eq def
+R2685:2685 Coq.Lists.ListDec <> B:19 var
+binder 2670:2670 <> d:20
+R2691:2692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2690:2690 Coq.Lists.ListDec <> A:18 var
+R2693:2693 Coq.Lists.ListDec <> B:19 var
+binder 2688:2688 <> f:21
+R2698:2701 Coq.Init.Datatypes <> list ind
+R2703:2703 Coq.Lists.ListDec <> A:18 var
+binder 2696:2696 <> l:22
+R2709:2715 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2718:2719 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2716:2717 <> l':23
+R2736:2739 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2720:2724 Coq.Lists.List <> NoDup ind
+R2727:2729 Coq.Lists.List <> map def
+R2733:2734 Coq.Lists.ListDec <> l':23 var
+R2731:2731 Coq.Lists.ListDec <> f:21 var
+R2740:2743 Coq.Lists.List <> incl def
+R2756:2758 Coq.Lists.List <> map def
+R2762:2763 Coq.Lists.ListDec <> l':23 var
+R2760:2760 Coq.Lists.ListDec <> f:21 var
+R2746:2748 Coq.Lists.List <> map def
+R2752:2752 Coq.Lists.ListDec <> l:22 var
+R2750:2750 Coq.Lists.ListDec <> f:21 var
+R2798:2800 Coq.Init.Datatypes <> nil constr
+R2798:2800 Coq.Init.Datatypes <> nil constr
+R2897:2908 Coq.Lists.ListDec <> In_decidable thm
+R2919:2921 Coq.Lists.List <> map def
+R2897:2908 Coq.Lists.ListDec <> In_decidable thm
+R2919:2921 Coq.Lists.List <> map def
+R3031:3032 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3031:3032 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 3150:3157 <> uniquify
+binder 3159:3159 <> A:24
+R3164:3175 Coq.Lists.ListDec <> decidable_eq def
+R3177:3177 Coq.Lists.ListDec <> A:24 var
+binder 3162:3162 <> d:25
+R3182:3185 Coq.Init.Datatypes <> list ind
+R3187:3187 Coq.Lists.ListDec <> A:24 var
+binder 3180:3180 <> l:26
+R3193:3199 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3202:3203 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3200:3201 <> l':27
+R3212:3215 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3204:3208 Coq.Lists.List <> NoDup ind
+R3210:3211 Coq.Lists.ListDec <> l':27 var
+R3216:3219 Coq.Lists.List <> incl def
+R3223:3224 Coq.Lists.ListDec <> l':27 var
+R3221:3221 Coq.Lists.ListDec <> l:26 var
+R3245:3256 Coq.Lists.ListDec <> uniquify_map thm
+R3260:3261 Coq.Init.Datatypes <> id def
+R3245:3256 Coq.Lists.ListDec <> uniquify_map thm
+R3260:3261 Coq.Init.Datatypes <> id def
+R3302:3307 Coq.Lists.List <> map_id thm
+R3302:3307 Coq.Lists.List <> map_id thm
+R3302:3307 Coq.Lists.List <> map_id thm
+R3302:3307 Coq.Lists.List <> map_id thm
+R3302:3307 Coq.Lists.List <> map_id thm

@@ -1,0 +1,114 @@
+DIGEST 47a13b1b2f7f9307140ab241177a4207
+FCoq.funind.Recdef
+R691:707 Coq.funind.FunInd <> <> lib
+R725:732 Coq.Arith.PeanoNat <> <> lib
+R743:753 Coq.Arith.Compare_dec <> <> lib
+R764:769 Coq.Arith.Wf_nat <> <> lib
+sec 781:784 <> Iter
+var 796:796 Iter A
+def 816:819 <> iter
+R826:828 Coq.Init.Datatypes <> nat ind
+binder 822:822 <> n:2
+R833:833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R840:844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R835:838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R834:834 Coq.funind.Recdef <> Iter.A var
+R839:839 Coq.funind.Recdef <> Iter.A var
+R846:849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R845:845 Coq.funind.Recdef <> Iter.A var
+R850:850 Coq.funind.Recdef <> Iter.A var
+R868:871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R867:867 Coq.funind.Recdef <> Iter.A var
+R872:872 Coq.funind.Recdef <> Iter.A var
+binder 862:863 <> fl:4
+R882:882 Coq.funind.Recdef <> Iter.A var
+binder 876:878 <> def:5
+R896:896 Coq.funind.Recdef <> n:2 var
+R907:907 Coq.Init.Datatypes <> O constr
+R912:914 Coq.funind.Recdef <> def:5 var
+R920:920 Coq.Init.Datatypes <> S constr
+R927:928 Coq.funind.Recdef <> fl:4 var
+R931:934 Coq.funind.Recdef <> iter:3 def
+R941:943 Coq.funind.Recdef <> def:5 var
+R938:939 Coq.funind.Recdef <> fl:4 var
+R957:960 Coq.funind.Recdef Iter <> sec
+prf 972:979 <> le_lt_SS
+binder 981:981 <> x:7
+binder 983:983 <> y:8
+R993:996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:991 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R987:987 Coq.funind.Recdef <> x:7 var
+R992:992 Coq.funind.Recdef <> y:8 var
+R998:1000 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R997:997 Coq.funind.Recdef <> x:7 var
+R1001:1001 Coq.Init.Datatypes <> S constr
+R1004:1004 Coq.Init.Datatypes <> S constr
+R1006:1006 Coq.funind.Recdef <> y:8 var
+R1036:1048 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R1051:1066 Coq.Arith.PeanoNat Nat le_le_succ_r thm
+R1036:1048 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R1051:1066 Coq.Arith.PeanoNat Nat le_le_succ_r thm
+prf 1083:1090 <> Splus_lt
+binder 1092:1092 <> x:9
+binder 1094:1094 <> y:10
+R1099:1101 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1098:1098 Coq.funind.Recdef <> y:10 var
+R1102:1102 Coq.Init.Datatypes <> S constr
+R1106:1108 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1105:1105 Coq.funind.Recdef <> x:9 var
+R1109:1109 Coq.funind.Recdef <> y:10 var
+R1127:1139 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R1127:1139 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R1148:1159 Coq.Arith.PeanoNat Nat le_add_l thm
+R1148:1159 Coq.Arith.PeanoNat Nat le_add_l thm
+prf 1176:1184 <> SSplus_lt
+binder 1186:1186 <> x:11
+binder 1188:1188 <> y:12
+R1193:1195 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1192:1192 Coq.funind.Recdef <> x:11 var
+R1196:1196 Coq.Init.Datatypes <> S constr
+R1199:1199 Coq.Init.Datatypes <> S constr
+R1203:1205 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1202:1202 Coq.funind.Recdef <> x:11 var
+R1206:1206 Coq.funind.Recdef <> y:12 var
+R1225:1232 Coq.funind.Recdef <> le_lt_SS thm
+R1235:1246 Coq.Arith.PeanoNat Nat le_add_r thm
+R1225:1232 Coq.funind.Recdef <> le_lt_SS thm
+R1235:1246 Coq.Arith.PeanoNat Nat le_add_r thm
+ind 1265:1272 <> max_type
+constr 1295:1297 <> cmt
+R1279:1281 Coq.Init.Datatypes <> nat ind
+binder 1275:1275 <> m:13
+binder 1277:1277 <> n:14
+binder 1308:1308 <> v:17
+R1317:1320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1312:1315 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1311:1311 Coq.funind.Recdef <> m:13 var
+R1316:1316 Coq.funind.Recdef <> v:17 var
+R1327:1330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1322:1325 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1321:1321 Coq.funind.Recdef <> n:14 var
+R1326:1326 Coq.funind.Recdef <> v:17 var
+R1331:1338 Coq.funind.Recdef <> max_type:15 ind
+R1342:1342 Coq.funind.Recdef <> n:14 var
+R1340:1340 Coq.funind.Recdef <> m:13 var
+def 1357:1359 <> max
+binder 1361:1361 <> m:18
+binder 1363:1363 <> n:19
+R1367:1374 Coq.funind.Recdef <> max_type ind
+R1376:1376 Coq.funind.Recdef <> m:18 var
+R1378:1378 Coq.funind.Recdef <> n:19 var
+R1399:1419 Coq.Arith.Compare_dec <> le_gt_dec def
+R1399:1419 Coq.Arith.Compare_dec <> le_gt_dec def
+R1466:1469 Coq.Init.Peano <> le_n constr
+R1466:1469 Coq.Init.Peano <> le_n constr
+R1493:1496 Coq.Init.Peano <> le_n constr
+R1506:1519 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R1493:1496 Coq.Init.Peano <> le_n constr
+R1506:1519 Coq.Arith.PeanoNat Nat lt_le_incl thm
+def 1553:1580 <> Acc_intro_generator_function
+binder 1589:1589 <> A:20
+binder 1591:1591 <> R:21
+R1597:1615 Coq.Init.Wf <> Acc_intro_generator def
+R1617:1617 Coq.funind.Recdef <> A:20 var
+R1619:1619 Coq.funind.Recdef <> R:21 var

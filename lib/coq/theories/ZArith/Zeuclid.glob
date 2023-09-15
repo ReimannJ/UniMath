@@ -1,0 +1,116 @@
+DIGEST c6c8d1a603141c908429f198c0241fce
+FCoq.ZArith.Zeuclid
+R691:699 Coq.Classes.Morphisms <> <> lib
+R701:706 Coq.ZArith.BinInt <> <> lib
+R708:715 Coq.Numbers.Integer.Abstract.ZDivEucl <> <> lib
+mod 1048:1054 <> ZEuclid
+def 1070:1075 ZEuclid modulo
+binder 1077:1077 <> a:1
+binder 1079:1079 <> b:2
+R1084:1091 Coq.ZArith.BinInt Z modulo def
+R1093:1093 Coq.ZArith.Zeuclid <> a:1 var
+R1096:1100 Coq.ZArith.BinInt Z abs def
+R1102:1102 Coq.ZArith.Zeuclid <> b:2 var
+def 1118:1120 ZEuclid div
+binder 1122:1122 <> a:3
+binder 1124:1124 <> b:4
+R1129:1129 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1137:1141 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1159:1159 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1130:1134 Coq.ZArith.BinInt Z sgn def
+R1136:1136 Coq.ZArith.Zeuclid <> b:4 var
+R1142:1146 Coq.ZArith.BinInt Z div def
+R1148:1148 Coq.ZArith.Zeuclid <> a:3 var
+R1151:1155 Coq.ZArith.BinInt Z abs def
+R1157:1157 Coq.ZArith.Zeuclid <> b:4 var
+inst 1183:1188 ZEuclid mod_wd
+R1192:1197 Coq.Classes.Morphisms <> Proper class
+R1214:1219 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1202:1204 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1200:1201 Coq.Init.Logic <> eq ind
+R1207:1209 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1205:1206 Coq.Init.Logic <> eq ind
+R1210:1211 Coq.Init.Logic <> eq ind
+inst 1267:1272 ZEuclid div_wd
+R1276:1281 Coq.Classes.Morphisms <> Proper class
+R1298:1300 Coq.ZArith.Zeuclid ZEuclid div def
+R1286:1288 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1284:1285 Coq.Init.Logic <> eq ind
+R1291:1293 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1289:1290 Coq.Init.Logic <> eq ind
+R1294:1295 Coq.Init.Logic <> eq ind
+prf 1338:1344 ZEuclid div_mod
+binder 1346:1346 <> a:5
+binder 1348:1348 <> b:6
+R1356:1359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1353:1354 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1352:1352 Coq.ZArith.Zeuclid <> b:6 var
+R1361:1363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1360:1360 Coq.ZArith.Zeuclid <> a:5 var
+R1375:1377 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1365:1366 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1374:1374 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1364:1364 Coq.ZArith.Zeuclid <> b:6 var
+R1367:1369 Coq.ZArith.Zeuclid ZEuclid div def
+R1371:1371 Coq.ZArith.Zeuclid <> a:5 var
+R1373:1373 Coq.ZArith.Zeuclid <> b:6 var
+R1378:1383 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1385:1385 Coq.ZArith.Zeuclid <> a:5 var
+R1387:1387 Coq.ZArith.Zeuclid <> b:6 var
+R1418:1420 Coq.ZArith.Zeuclid ZEuclid div def
+R1423:1428 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1441:1451 Coq.ZArith.BinInt Z mul_assoc thm
+R1441:1451 Coq.ZArith.BinInt Z mul_assoc thm
+R1441:1451 Coq.ZArith.BinInt Z mul_assoc thm
+R1462:1470 Coq.ZArith.BinInt Z sgn_abs thm
+R1462:1470 Coq.ZArith.BinInt Z sgn_abs thm
+R1462:1470 Coq.ZArith.BinInt Z sgn_abs thm
+R1479:1487 Coq.ZArith.BinInt Z div_mod thm
+R1479:1487 Coq.ZArith.BinInt Z div_mod thm
+prf 1522:1535 ZEuclid mod_always_pos
+binder 1537:1537 <> a:7
+binder 1539:1539 <> b:8
+R1547:1550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1544:1545 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1543:1543 Coq.ZArith.Zeuclid <> b:8 var
+R1552:1555 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1566:1568 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1556:1561 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1563:1563 Coq.ZArith.Zeuclid <> a:7 var
+R1565:1565 Coq.ZArith.Zeuclid <> b:8 var
+R1556:1561 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1563:1563 Coq.ZArith.Zeuclid <> a:7 var
+R1565:1565 Coq.ZArith.Zeuclid <> b:8 var
+R1569:1573 Coq.ZArith.BinInt Z abs def
+R1575:1575 Coq.ZArith.Zeuclid <> b:8 var
+R1606:1611 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1622:1636 Coq.ZArith.BinInt Z mod_pos_bound thm
+R1622:1636 Coq.ZArith.BinInt Z mod_pos_bound thm
+prf 1702:1714 ZEuclid mod_bound_pos
+binder 1716:1716 <> a:9
+binder 1718:1718 <> b:10
+R1726:1729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1723:1724 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R1725:1725 Coq.ZArith.Zeuclid <> a:9 var
+R1733:1736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1731:1731 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1732:1732 Coq.ZArith.Zeuclid <> b:10 var
+R1738:1741 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1752:1754 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1742:1747 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1749:1749 Coq.ZArith.Zeuclid <> a:9 var
+R1751:1751 Coq.ZArith.Zeuclid <> b:10 var
+R1742:1747 Coq.ZArith.Zeuclid ZEuclid modulo def
+R1749:1749 Coq.ZArith.Zeuclid <> a:9 var
+R1751:1751 Coq.ZArith.Zeuclid <> b:10 var
+R1755:1755 Coq.ZArith.Zeuclid <> b:10 var
+R1793:1800 Coq.ZArith.BinInt Z abs_eq thm
+R1793:1800 Coq.ZArith.BinInt Z abs_eq thm
+R1793:1800 Coq.ZArith.BinInt Z abs_eq thm
+R1830:1843 Coq.ZArith.Zeuclid ZEuclid mod_always_pos thm
+R1830:1843 Coq.ZArith.Zeuclid ZEuclid mod_always_pos thm
+R1871:1881 Coq.Numbers.Integer.Abstract.ZDivEucl ZEuclidProp <> modtype
+R1883:1883 Coq.ZArith.BinInt Z <> modtype
+R1885:1885 Coq.ZArith.BinInt Z <> modtype
+R1887:1887 Coq.ZArith.BinInt Z <> modtype
+R1895:1901 Coq.ZArith.Zeuclid ZEuclid <> mod

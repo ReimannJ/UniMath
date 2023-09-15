@@ -1,0 +1,135 @@
+DIGEST 92f6d23c368d3da6cf0ff771c385a5c8
+FCoq.Strings.ByteVector
+R691:695 Coq.Strings.Ascii <> <> lib
+R697:702 Coq.Program.Basics <> <> lib
+R704:710 Coq.Bool.Bvector <> <> lib
+R712:717 Coq.Strings.String <> <> lib
+R719:724 Coq.Vectors.Vector <> <> lib
+R734:748 Coq.Vectors.Vector VectorNotations <> mod
+def 814:823 <> ByteVector
+R828:835 Coq.Vectors.Vector <> t ind
+R837:841 Coq.Strings.Ascii <> ascii ind
+def 856:862 <> ByteNil
+R866:875 Coq.Strings.ByteVector <> ByteVector def
+R882:891 Coq.Vectors.Vector <> nil constr
+R893:897 Coq.Strings.Ascii <> ascii ind
+def 912:934 <> little_endian_to_string
+R941:943 Coq.Init.Datatypes <> nat ind
+binder 937:937 <> n:1
+R951:960 Coq.Strings.ByteVector <> ByteVector def
+R962:962 Coq.Strings.ByteVector <> n:1 var
+binder 947:947 <> v:2
+R967:972 Coq.Strings.String <> string ind
+R979:988 Coq.Vectors.Vector <> fold_right def
+R997:997 Coq.Strings.ByteVector <> v:2 var
+R990:995 Coq.Strings.String <> String constr
+def 1015:1023 <> to_string
+R1030:1032 Coq.Init.Datatypes <> nat ind
+binder 1026:1026 <> n:3
+R1049:1052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1037:1046 Coq.Strings.ByteVector <> ByteVector def
+R1048:1048 Coq.Strings.ByteVector <> n:3 var
+R1053:1058 Coq.Strings.String <> string ind
+R1088:1092 Coq.Program.Basics <> ::program_scope:x_'∘'_x not
+R1065:1087 Coq.Strings.ByteVector <> little_endian_to_string def
+R1093:1095 Coq.Vectors.Vector <> rev def
+def 1108:1130 <> little_endian_of_string
+R1137:1142 Coq.Strings.String <> string ind
+binder 1133:1133 <> s:4
+R1147:1156 Coq.Strings.ByteVector <> ByteVector def
+R1159:1164 Coq.Strings.String <> length def
+R1166:1166 Coq.Strings.ByteVector <> s:4 var
+R1180:1180 Coq.Strings.ByteVector <> s:4 var
+R1197:1203 Coq.Strings.ByteVector <> ByteNil def
+R1209:1214 Coq.Strings.String <> String constr
+R1225:1228 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1229:1251 Coq.Strings.ByteVector <> little_endian_of_string:5 def
+def 1275:1283 <> of_string
+R1290:1295 Coq.Strings.String <> string ind
+binder 1286:1286 <> s:7
+R1300:1309 Coq.Strings.ByteVector <> ByteVector def
+R1312:1317 Coq.Strings.String <> length def
+R1319:1319 Coq.Strings.ByteVector <> s:7 var
+R1327:1329 Coq.Vectors.Vector <> rev def
+R1332:1354 Coq.Strings.ByteVector <> little_endian_of_string def
+R1356:1356 Coq.Strings.ByteVector <> s:7 var
+def 1370:1379 <> to_Bvector
+R1386:1388 Coq.Init.Datatypes <> nat ind
+binder 1382:1382 <> n:8
+R1396:1405 Coq.Strings.ByteVector <> ByteVector def
+R1407:1407 Coq.Strings.ByteVector <> n:8 var
+binder 1392:1392 <> v:9
+R1412:1418 Coq.Bool.Bvector <> Bvector def
+R1422:1424 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1421:1421 Coq.Strings.ByteVector <> n:8 var
+R1439:1439 Coq.Strings.ByteVector <> v:9 var
+R1450:1451 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R1456:1457 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R1492:1493 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1463:1467 Coq.Strings.Ascii <> Ascii constr
+R1506:1507 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1510:1511 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1514:1515 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1518:1519 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1522:1523 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1526:1527 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1530:1531 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1534:1535 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1536:1545 Coq.Strings.ByteVector <> to_Bvector:10 def
+def 1567:1576 <> of_Bvector
+R1583:1585 Coq.Init.Datatypes <> nat ind
+binder 1579:1579 <> n:12
+R1605:1608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1590:1596 Coq.Bool.Bvector <> Bvector def
+R1600:1602 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1599:1599 Coq.Strings.ByteVector <> n:12 var
+R1609:1618 Coq.Strings.ByteVector <> ByteVector def
+R1620:1620 Coq.Strings.ByteVector <> n:12 var
+R1633:1633 Coq.Strings.ByteVector <> n:12 var
+R1658:1659 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R1665:1665 Coq.Init.Datatypes <> S constr
+binder 1680:1680 <> v:15
+R1707:1712 Coq.Vectors.Vector <> uncons def
+R1714:1714 Coq.Strings.ByteVector <> v:15 var
+binder 1696:1697 <> b0:16
+binder 1700:1701 <> v1:17
+R1741:1746 Coq.Vectors.Vector <> uncons def
+R1748:1749 Coq.Strings.ByteVector <> v1:17 var
+binder 1730:1731 <> b1:18
+binder 1734:1735 <> v2:19
+R1776:1781 Coq.Vectors.Vector <> uncons def
+R1783:1784 Coq.Strings.ByteVector <> v2:19 var
+binder 1765:1766 <> b2:20
+binder 1769:1770 <> v3:21
+R1811:1816 Coq.Vectors.Vector <> uncons def
+R1818:1819 Coq.Strings.ByteVector <> v3:21 var
+binder 1800:1801 <> b3:22
+binder 1804:1805 <> v4:23
+R1846:1851 Coq.Vectors.Vector <> uncons def
+R1853:1854 Coq.Strings.ByteVector <> v4:23 var
+binder 1835:1836 <> b4:24
+binder 1839:1840 <> v5:25
+R1881:1886 Coq.Vectors.Vector <> uncons def
+R1888:1889 Coq.Strings.ByteVector <> v5:25 var
+binder 1870:1871 <> b5:26
+binder 1874:1875 <> v6:27
+R1916:1921 Coq.Vectors.Vector <> uncons def
+R1923:1924 Coq.Strings.ByteVector <> v6:27 var
+binder 1905:1906 <> b6:28
+binder 1909:1910 <> v7:29
+R1951:1956 Coq.Vectors.Vector <> uncons def
+R1958:1959 Coq.Strings.ByteVector <> v7:29 var
+binder 1940:1941 <> b7:30
+binder 1944:1945 <> v8:31
+R1999:2000 Coq.Vectors.VectorDef VectorNotations ::vector_scope:x_'::'_x not
+R1970:1974 Coq.Strings.Ascii <> Ascii constr
+R1976:1977 Coq.Strings.ByteVector <> b0:16 var
+R1979:1980 Coq.Strings.ByteVector <> b1:18 var
+R1982:1983 Coq.Strings.ByteVector <> b2:20 var
+R1985:1986 Coq.Strings.ByteVector <> b3:22 var
+R1988:1989 Coq.Strings.ByteVector <> b4:24 var
+R1991:1992 Coq.Strings.ByteVector <> b5:26 var
+R1994:1995 Coq.Strings.ByteVector <> b6:28 var
+R1997:1998 Coq.Strings.ByteVector <> b7:30 var
+R2001:2010 Coq.Strings.ByteVector <> of_Bvector:13 def
+R2012:2013 Coq.Strings.ByteVector <> v8:31 var

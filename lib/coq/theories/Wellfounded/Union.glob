@@ -1,0 +1,133 @@
+DIGEST ac3f5aff8bef7e92fc0769de445fc18a
+FCoq.Wellfounded.Union
+R720:737 Coq.Relations.Relation_Operators <> <> lib
+R755:774 Coq.Relations.Relation_Definitions <> <> lib
+R792:809 Coq.Wellfounded.Transitive_Closure <> <> lib
+sec 821:827 <> WfUnion
+var 841:841 WfUnion A
+var 863:864 WfUnion R1
+var 866:867 WfUnion R2
+R871:878 Coq.Relations.Relation_Definitions <> relation def
+R880:880 Coq.Wellfounded.Union <> WfUnion.A var
+abbrev 895:899 <> Union
+R905:909 Coq.Relations.Relation_Operators <> union def
+R916:917 Coq.Wellfounded.Union <> WfUnion.R2 var
+R913:914 Coq.Wellfounded.Union <> WfUnion.R1 var
+R911:911 Coq.Wellfounded.Union <> WfUnion.A var
+prf 931:942 <> strip_commut
+R964:971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R950:955 Coq.Relations.Relation_Definitions <> commut def
+R959:960 Coq.Wellfounded.Union <> WfUnion.R1 var
+R962:963 Coq.Wellfounded.Union <> WfUnion.R2 var
+R957:957 Coq.Wellfounded.Union <> WfUnion.A var
+R983:983 Coq.Wellfounded.Union <> WfUnion.A var
+binder 979:979 <> x:4
+binder 981:981 <> y:5
+R1011:1020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R992:1001 Coq.Relations.Relation_Operators <> clos_trans ind
+R1008:1008 Coq.Wellfounded.Union <> y:5 var
+R1010:1010 Coq.Wellfounded.Union <> x:4 var
+R1005:1006 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1003:1003 Coq.Wellfounded.Union <> WfUnion.A var
+R1030:1030 Coq.Wellfounded.Union <> WfUnion.A var
+binder 1028:1028 <> z:6
+R1039:1043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1033:1034 Coq.Wellfounded.Union <> WfUnion.R2 var
+R1036:1036 Coq.Wellfounded.Union <> z:6 var
+R1038:1038 Coq.Wellfounded.Union <> y:5 var
+R1044:1051 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1054:1056 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1058:1059 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1067:1069 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1057:1057 Coq.Wellfounded.Union <> WfUnion.A var
+binder 1052:1053 <> y':7
+R1060:1061 Coq.Wellfounded.Union <> WfUnion.R2 var
+R1063:1064 Coq.Wellfounded.Union <> y':7 var
+R1066:1066 Coq.Wellfounded.Union <> x:4 var
+binder 1052:1053 <> y':8
+R1070:1079 Coq.Relations.Relation_Operators <> clos_trans ind
+R1086:1086 Coq.Wellfounded.Union <> z:6 var
+R1088:1089 Coq.Wellfounded.Union <> y':8 var
+R1083:1084 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1081:1081 Coq.Wellfounded.Union <> WfUnion.A var
+R1389:1395 Coq.Relations.Relation_Operators <> t_trans constr
+R1389:1395 Coq.Relations.Relation_Operators <> t_trans constr
+prf 1439:1447 <> Acc_union
+R1469:1476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1455:1460 Coq.Relations.Relation_Definitions <> commut def
+R1464:1465 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1467:1468 Coq.Wellfounded.Union <> WfUnion.R2 var
+R1462:1462 Coq.Wellfounded.Union <> WfUnion.A var
+R1477:1477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1510:1514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1487:1487 Coq.Wellfounded.Union <> WfUnion.A var
+binder 1485:1485 <> x:9
+R1498:1501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1490:1492 Coq.Init.Wf <> Acc ind
+R1497:1497 Coq.Wellfounded.Union <> x:9 var
+R1494:1495 Coq.Wellfounded.Union <> WfUnion.R2 var
+R1502:1504 Coq.Init.Wf <> Acc ind
+R1509:1509 Coq.Wellfounded.Union <> x:9 var
+R1506:1507 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1524:1524 Coq.Wellfounded.Union <> WfUnion.A var
+binder 1522:1522 <> a:10
+R1535:1538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1527:1529 Coq.Init.Wf <> Acc ind
+R1534:1534 Coq.Wellfounded.Union <> a:10 var
+R1531:1532 Coq.Wellfounded.Union <> WfUnion.R2 var
+R1539:1541 Coq.Init.Wf <> Acc ind
+R1549:1549 Coq.Wellfounded.Union <> a:10 var
+R1543:1547 Coq.Wellfounded.Union <> Union abbrev
+R1601:1609 Coq.Init.Wf <> Acc_intro constr
+R1601:1609 Coq.Init.Wf <> Acc_intro constr
+R1666:1675 Coq.Relations.Relation_Operators <> clos_trans ind
+R1679:1680 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1677:1677 Coq.Wellfounded.Union <> WfUnion.A var
+R1666:1675 Coq.Relations.Relation_Operators <> clos_trans ind
+R1679:1680 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1677:1677 Coq.Wellfounded.Union <> WfUnion.A var
+R1718:1720 Coq.Init.Wf <> Acc ind
+R1723:1732 Coq.Relations.Relation_Operators <> clos_trans ind
+R1736:1737 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1734:1734 Coq.Wellfounded.Union <> WfUnion.A var
+R1718:1720 Coq.Init.Wf <> Acc ind
+R1723:1732 Coq.Relations.Relation_Operators <> clos_trans ind
+R1736:1737 Coq.Wellfounded.Union <> WfUnion.R1 var
+R1734:1734 Coq.Wellfounded.Union <> WfUnion.A var
+R1764:1772 Coq.Init.Wf <> Acc_intro constr
+R1764:1772 Coq.Init.Wf <> Acc_intro constr
+R1854:1860 Coq.Relations.Relation_Operators <> t_trans constr
+R1854:1860 Coq.Relations.Relation_Operators <> t_trans constr
+R1901:1912 Coq.Wellfounded.Union <> strip_commut thm
+R1901:1912 Coq.Wellfounded.Union <> strip_commut thm
+R1966:1978 Coq.Wellfounded.Transitive_Closure <> Acc_inv_trans thm
+R1966:1978 Coq.Wellfounded.Transitive_Closure <> Acc_inv_trans thm
+R2020:2024 Coq.Relations.Relation_Operators <> union def
+R2083:2089 Coq.Relations.Relation_Operators <> t_trans constr
+R2083:2089 Coq.Relations.Relation_Operators <> t_trans constr
+R2130:2143 Coq.Wellfounded.Transitive_Closure <> Acc_clos_trans thm
+R2145:2145 Coq.Wellfounded.Union <> WfUnion.A var
+R2130:2143 Coq.Wellfounded.Transitive_Closure <> Acc_clos_trans thm
+R2145:2145 Coq.Wellfounded.Union <> WfUnion.A var
+R2161:2167 Coq.Init.Wf <> Acc_inv thm
+R2161:2167 Coq.Init.Wf <> Acc_inv thm
+R2221:2229 Coq.Init.Wf <> Acc_intro constr
+R2221:2229 Coq.Init.Wf <> Acc_intro constr
+prf 2267:2274 <> wf_union
+R2296:2299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2287 Coq.Relations.Relation_Definitions <> commut def
+R2291:2292 Coq.Wellfounded.Union <> WfUnion.R1 var
+R2294:2295 Coq.Wellfounded.Union <> WfUnion.R2 var
+R2289:2289 Coq.Wellfounded.Union <> WfUnion.A var
+R2315:2318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2300:2311 Coq.Init.Wf <> well_founded def
+R2313:2314 Coq.Wellfounded.Union <> WfUnion.R1 var
+R2334:2337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2319:2330 Coq.Init.Wf <> well_founded def
+R2332:2333 Coq.Wellfounded.Union <> WfUnion.R2 var
+R2338:2349 Coq.Init.Wf <> well_founded def
+R2351:2355 Coq.Wellfounded.Union <> Union abbrev
+R2378:2389 Coq.Init.Wf <> well_founded def
+R2414:2422 Coq.Wellfounded.Union <> Acc_union thm
+R2414:2422 Coq.Wellfounded.Union <> Acc_union thm
+R2453:2459 Coq.Wellfounded.Union WfUnion <> sec

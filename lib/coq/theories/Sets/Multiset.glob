@@ -1,0 +1,555 @@
+DIGEST f070ed6e0d08cfaf7c4586689f5ebaea
+FCoq.Sets.Multiset
+R713:720 Coq.Arith.PeanoNat <> <> lib
+R722:727 Coq.Sets.Permut <> <> lib
+R729:734 Coq.Setoids.Setoid <> <> lib
+sec 771:783 <> multiset_defs
+var 798:798 multiset_defs A
+var 819:821 multiset_defs eqA
+R826:829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R825:825 Coq.Sets.Multiset <> multiset_defs.A var
+R831:834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R830:830 Coq.Sets.Multiset <> multiset_defs.A var
+var 854:862 multiset_defs eqA_equiv
+R866:876 Coq.Classes.RelationClasses <> Equivalence class
+R878:880 Coq.Sets.Multiset <> multiset_defs.eqA var
+var 896:902 multiset_defs Aeq_dec
+R917:917 Coq.Sets.Multiset <> multiset_defs.A var
+binder 913:913 <> x:4
+binder 915:915 <> y:5
+R920:920 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R928:932 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R942:942 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R921:923 Coq.Sets.Multiset <> multiset_defs.eqA var
+R927:927 Coq.Sets.Multiset <> y:5 var
+R925:925 Coq.Sets.Multiset <> x:4 var
+R933:934 Coq.Init.Logic <> ::type_scope:'~'_x not
+R935:937 Coq.Sets.Multiset <> multiset_defs.eqA var
+R941:941 Coq.Sets.Multiset <> y:5 var
+R939:939 Coq.Sets.Multiset <> x:4 var
+ind 958:965 <> multiset
+constr 981:983 <> Bag
+R987:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R996:1000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R989:992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:988 Coq.Sets.Multiset <> multiset_defs.A var
+R993:995 Coq.Init.Datatypes <> nat ind
+R1001:1008 Coq.Sets.Multiset <> multiset:7 ind
+def 1025:1032 <> EmptyBag
+R1037:1039 Coq.Sets.Multiset <> Bag constr
+R1048:1048 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1046:1046 <> a:9
+def 1070:1081 <> SingletonBag
+R1086:1086 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1084:1084 <> a:10
+R1096:1098 Coq.Sets.Multiset <> Bag constr
+R1108:1108 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1105:1106 <> a':11
+R1119:1125 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R1129:1130 Coq.Sets.Multiset <> a':11 var
+R1127:1127 Coq.Sets.Multiset <> a:10 var
+R1162:1165 Coq.Init.Specif <> left constr
+R1199:1203 Coq.Init.Specif <> right constr
+def 1253:1264 <> multiplicity
+R1269:1276 Coq.Sets.Multiset <> multiset ind
+binder 1267:1267 <> m:12
+R1282:1282 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1280:1280 <> a:13
+R1287:1289 Coq.Init.Datatypes <> nat ind
+R1305:1305 Coq.Sets.Multiset <> m:12 var
+binder 1299:1299 <> f:14
+R1310:1310 Coq.Sets.Multiset <> f:14 var
+R1312:1312 Coq.Sets.Multiset <> a:13 var
+def 1356:1358 <> meq
+R1367:1374 Coq.Sets.Multiset <> multiset ind
+binder 1361:1362 <> m1:15
+binder 1364:1365 <> m2:16
+R1393:1393 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1391:1391 <> a:17
+R1413:1415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1396:1407 Coq.Sets.Multiset <> multiplicity def
+R1412:1412 Coq.Sets.Multiset <> a:17 var
+R1409:1410 Coq.Sets.Multiset <> m1:15 var
+R1416:1427 Coq.Sets.Multiset <> multiplicity def
+R1432:1432 Coq.Sets.Multiset <> a:17 var
+R1429:1430 Coq.Sets.Multiset <> m2:16 var
+prf 1444:1451 <> meq_refl
+R1464:1471 Coq.Sets.Multiset <> multiset ind
+binder 1462:1462 <> x:18
+R1474:1476 Coq.Sets.Multiset <> meq def
+R1480:1480 Coq.Sets.Multiset <> x:18 var
+R1478:1478 Coq.Sets.Multiset <> x:18 var
+R1515:1517 Coq.Sets.Multiset <> meq def
+prf 1549:1557 <> meq_trans
+R1574:1581 Coq.Sets.Multiset <> multiset ind
+binder 1568:1568 <> x:19
+binder 1570:1570 <> y:20
+binder 1572:1572 <> z:21
+R1591:1594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1584:1586 Coq.Sets.Multiset <> meq def
+R1590:1590 Coq.Sets.Multiset <> y:20 var
+R1588:1588 Coq.Sets.Multiset <> x:19 var
+R1602:1605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1595:1597 Coq.Sets.Multiset <> meq def
+R1601:1601 Coq.Sets.Multiset <> z:21 var
+R1599:1599 Coq.Sets.Multiset <> y:20 var
+R1606:1608 Coq.Sets.Multiset <> meq def
+R1612:1612 Coq.Sets.Multiset <> z:21 var
+R1610:1610 Coq.Sets.Multiset <> x:19 var
+R1635:1637 Coq.Sets.Multiset <> meq def
+prf 1725:1731 <> meq_sym
+R1746:1753 Coq.Sets.Multiset <> multiset ind
+binder 1742:1742 <> x:22
+binder 1744:1744 <> y:23
+R1763:1766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1756:1758 Coq.Sets.Multiset <> meq def
+R1762:1762 Coq.Sets.Multiset <> y:23 var
+R1760:1760 Coq.Sets.Multiset <> x:22 var
+R1767:1769 Coq.Sets.Multiset <> meq def
+R1773:1773 Coq.Sets.Multiset <> x:22 var
+R1771:1771 Coq.Sets.Multiset <> y:23 var
+R1796:1798 Coq.Sets.Multiset <> meq def
+def 1880:1885 <> munion
+R1894:1901 Coq.Sets.Multiset <> multiset ind
+binder 1888:1889 <> m1:24
+binder 1891:1892 <> m2:25
+R1911:1913 Coq.Sets.Multiset <> Bag constr
+R1922:1922 Coq.Sets.Multiset <> multiset_defs.A var
+binder 1920:1920 <> a:26
+R1944:1946 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1927:1938 Coq.Sets.Multiset <> multiplicity def
+R1943:1943 Coq.Sets.Multiset <> a:26 var
+R1940:1941 Coq.Sets.Multiset <> m1:24 var
+R1947:1958 Coq.Sets.Multiset <> multiplicity def
+R1963:1963 Coq.Sets.Multiset <> a:26 var
+R1960:1961 Coq.Sets.Multiset <> m2:25 var
+prf 1976:1992 <> munion_empty_left
+R2005:2012 Coq.Sets.Multiset <> multiset ind
+binder 2003:2003 <> x:27
+R2015:2017 Coq.Sets.Multiset <> meq def
+R2022:2027 Coq.Sets.Multiset <> munion def
+R2038:2038 Coq.Sets.Multiset <> x:27 var
+R2029:2036 Coq.Sets.Multiset <> EmptyBag def
+R2019:2019 Coq.Sets.Multiset <> x:27 var
+R2062:2064 Coq.Sets.Multiset <> meq def
+R2074:2079 Coq.Sets.Multiset <> munion def
+prf 2111:2128 <> munion_empty_right
+R2141:2148 Coq.Sets.Multiset <> multiset ind
+binder 2139:2139 <> x:28
+R2151:2153 Coq.Sets.Multiset <> meq def
+R2158:2163 Coq.Sets.Multiset <> munion def
+R2167:2174 Coq.Sets.Multiset <> EmptyBag def
+R2165:2165 Coq.Sets.Multiset <> x:28 var
+R2155:2155 Coq.Sets.Multiset <> x:28 var
+R2198:2200 Coq.Sets.Multiset <> meq def
+R2210:2215 Coq.Sets.Multiset <> munion def
+prf 2247:2257 <> munion_comm
+R2272:2279 Coq.Sets.Multiset <> multiset ind
+binder 2268:2268 <> x:29
+binder 2270:2270 <> y:30
+R2282:2284 Coq.Sets.Multiset <> meq def
+R2300:2305 Coq.Sets.Multiset <> munion def
+R2309:2309 Coq.Sets.Multiset <> x:29 var
+R2307:2307 Coq.Sets.Multiset <> y:30 var
+R2287:2292 Coq.Sets.Multiset <> munion def
+R2296:2296 Coq.Sets.Multiset <> y:30 var
+R2294:2294 Coq.Sets.Multiset <> x:29 var
+R2333:2335 Coq.Sets.Multiset <> meq def
+R2345:2356 Coq.Sets.Multiset <> multiplicity def
+R2366:2371 Coq.Sets.Multiset <> munion def
+R2416:2427 Coq.Arith.PeanoNat Nat add_comm thm
+R2416:2427 Coq.Arith.PeanoNat Nat add_comm thm
+prf 2446:2455 <> munion_ass
+R2476:2483 Coq.Sets.Multiset <> multiset ind
+binder 2470:2470 <> x:31
+binder 2472:2472 <> y:32
+binder 2474:2474 <> z:33
+R2486:2488 Coq.Sets.Multiset <> meq def
+R2515:2520 Coq.Sets.Multiset <> munion def
+R2525:2530 Coq.Sets.Multiset <> munion def
+R2534:2534 Coq.Sets.Multiset <> z:33 var
+R2532:2532 Coq.Sets.Multiset <> y:32 var
+R2522:2522 Coq.Sets.Multiset <> x:31 var
+R2491:2496 Coq.Sets.Multiset <> munion def
+R2511:2511 Coq.Sets.Multiset <> z:33 var
+R2499:2504 Coq.Sets.Multiset <> munion def
+R2508:2508 Coq.Sets.Multiset <> y:32 var
+R2506:2506 Coq.Sets.Multiset <> x:31 var
+R2559:2561 Coq.Sets.Multiset <> meq def
+R2571:2576 Coq.Sets.Multiset <> munion def
+R2586:2597 Coq.Sets.Multiset <> multiplicity def
+R2664:2676 Coq.Arith.PeanoNat Nat add_assoc thm
+R2664:2676 Coq.Arith.PeanoNat Nat add_assoc thm
+prf 2695:2702 <> meq_left
+R2723:2730 Coq.Sets.Multiset <> multiset ind
+binder 2717:2717 <> x:34
+binder 2719:2719 <> y:35
+binder 2721:2721 <> z:36
+R2740:2743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2733:2735 Coq.Sets.Multiset <> meq def
+R2739:2739 Coq.Sets.Multiset <> y:35 var
+R2737:2737 Coq.Sets.Multiset <> x:34 var
+R2744:2746 Coq.Sets.Multiset <> meq def
+R2762:2767 Coq.Sets.Multiset <> munion def
+R2771:2771 Coq.Sets.Multiset <> z:36 var
+R2769:2769 Coq.Sets.Multiset <> y:35 var
+R2749:2754 Coq.Sets.Multiset <> munion def
+R2758:2758 Coq.Sets.Multiset <> z:36 var
+R2756:2756 Coq.Sets.Multiset <> x:34 var
+R2795:2797 Coq.Sets.Multiset <> meq def
+R2807:2812 Coq.Sets.Multiset <> munion def
+R2822:2833 Coq.Sets.Multiset <> multiplicity def
+prf 2925:2933 <> meq_right
+R2954:2961 Coq.Sets.Multiset <> multiset ind
+binder 2948:2948 <> x:37
+binder 2950:2950 <> y:38
+binder 2952:2952 <> z:39
+R2971:2974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2964:2966 Coq.Sets.Multiset <> meq def
+R2970:2970 Coq.Sets.Multiset <> y:38 var
+R2968:2968 Coq.Sets.Multiset <> x:37 var
+R2975:2977 Coq.Sets.Multiset <> meq def
+R2993:2998 Coq.Sets.Multiset <> munion def
+R3002:3002 Coq.Sets.Multiset <> y:38 var
+R3000:3000 Coq.Sets.Multiset <> z:39 var
+R2980:2985 Coq.Sets.Multiset <> munion def
+R2989:2989 Coq.Sets.Multiset <> x:37 var
+R2987:2987 Coq.Sets.Multiset <> z:39 var
+R3026:3028 Coq.Sets.Multiset <> meq def
+R3038:3043 Coq.Sets.Multiset <> munion def
+R3053:3064 Coq.Sets.Multiset <> multiplicity def
+prf 3304:3316 <> munion_rotate
+R3337:3344 Coq.Sets.Multiset <> multiset ind
+binder 3331:3331 <> x:40
+binder 3333:3333 <> y:41
+binder 3335:3335 <> z:42
+R3347:3349 Coq.Sets.Multiset <> meq def
+R3376:3381 Coq.Sets.Multiset <> munion def
+R3386:3391 Coq.Sets.Multiset <> munion def
+R3395:3395 Coq.Sets.Multiset <> y:41 var
+R3393:3393 Coq.Sets.Multiset <> x:40 var
+R3383:3383 Coq.Sets.Multiset <> z:42 var
+R3352:3357 Coq.Sets.Multiset <> munion def
+R3362:3367 Coq.Sets.Multiset <> munion def
+R3371:3371 Coq.Sets.Multiset <> z:42 var
+R3369:3369 Coq.Sets.Multiset <> y:41 var
+R3359:3359 Coq.Sets.Multiset <> x:40 var
+R3428:3436 Coq.Sets.Permut <> op_rotate thm
+R3454:3456 Coq.Sets.Multiset <> meq def
+R3447:3452 Coq.Sets.Multiset <> munion def
+R3438:3445 Coq.Sets.Multiset <> multiset ind
+R3428:3436 Coq.Sets.Permut <> op_rotate thm
+R3454:3456 Coq.Sets.Multiset <> meq def
+R3447:3452 Coq.Sets.Multiset <> munion def
+R3438:3445 Coq.Sets.Multiset <> multiset ind
+R3472:3482 Coq.Sets.Multiset <> munion_comm thm
+R3472:3482 Coq.Sets.Multiset <> munion_comm thm
+R3497:3506 Coq.Sets.Multiset <> munion_ass thm
+R3497:3506 Coq.Sets.Multiset <> munion_ass thm
+R3521:3529 Coq.Sets.Multiset <> meq_trans thm
+R3521:3529 Coq.Sets.Multiset <> meq_trans thm
+R3544:3550 Coq.Sets.Multiset <> meq_sym thm
+R3544:3550 Coq.Sets.Multiset <> meq_sym thm
+prf 3584:3592 <> meq_congr
+R3615:3622 Coq.Sets.Multiset <> multiset ind
+binder 3607:3607 <> x:43
+binder 3609:3609 <> y:44
+binder 3611:3611 <> z:45
+binder 3613:3613 <> t:46
+R3632:3635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3625:3627 Coq.Sets.Multiset <> meq def
+R3631:3631 Coq.Sets.Multiset <> y:44 var
+R3629:3629 Coq.Sets.Multiset <> x:43 var
+R3643:3646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3636:3638 Coq.Sets.Multiset <> meq def
+R3642:3642 Coq.Sets.Multiset <> t:46 var
+R3640:3640 Coq.Sets.Multiset <> z:45 var
+R3647:3649 Coq.Sets.Multiset <> meq def
+R3665:3670 Coq.Sets.Multiset <> munion def
+R3674:3674 Coq.Sets.Multiset <> t:46 var
+R3672:3672 Coq.Sets.Multiset <> y:44 var
+R3652:3657 Coq.Sets.Multiset <> munion def
+R3661:3661 Coq.Sets.Multiset <> z:45 var
+R3659:3659 Coq.Sets.Multiset <> x:43 var
+R3706:3715 Coq.Sets.Permut <> cong_congr thm
+R3733:3735 Coq.Sets.Multiset <> meq def
+R3726:3731 Coq.Sets.Multiset <> munion def
+R3717:3724 Coq.Sets.Multiset <> multiset ind
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3706:3715 Coq.Sets.Permut <> cong_congr thm
+R3733:3735 Coq.Sets.Multiset <> meq def
+R3726:3731 Coq.Sets.Multiset <> munion def
+R3717:3724 Coq.Sets.Multiset <> multiset ind
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3750:3757 Coq.Sets.Multiset <> meq_left thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3760:3768 Coq.Sets.Multiset <> meq_right thm
+R3783:3791 Coq.Sets.Multiset <> meq_trans thm
+R3783:3791 Coq.Sets.Multiset <> meq_trans thm
+prf 3810:3825 <> munion_perm_left
+R3846:3853 Coq.Sets.Multiset <> multiset ind
+binder 3840:3840 <> x:47
+binder 3842:3842 <> y:48
+binder 3844:3844 <> z:49
+R3856:3858 Coq.Sets.Multiset <> meq def
+R3885:3890 Coq.Sets.Multiset <> munion def
+R3895:3900 Coq.Sets.Multiset <> munion def
+R3904:3904 Coq.Sets.Multiset <> z:49 var
+R3902:3902 Coq.Sets.Multiset <> x:47 var
+R3892:3892 Coq.Sets.Multiset <> y:48 var
+R3861:3866 Coq.Sets.Multiset <> munion def
+R3871:3876 Coq.Sets.Multiset <> munion def
+R3880:3880 Coq.Sets.Multiset <> z:49 var
+R3878:3878 Coq.Sets.Multiset <> y:48 var
+R3868:3868 Coq.Sets.Multiset <> x:47 var
+R3937:3945 Coq.Sets.Permut <> perm_left thm
+R3963:3965 Coq.Sets.Multiset <> meq def
+R3956:3961 Coq.Sets.Multiset <> munion def
+R3947:3954 Coq.Sets.Multiset <> multiset ind
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R3937:3945 Coq.Sets.Permut <> perm_left thm
+R3963:3965 Coq.Sets.Multiset <> meq def
+R3956:3961 Coq.Sets.Multiset <> munion def
+R3947:3954 Coq.Sets.Multiset <> multiset ind
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3980:3990 Coq.Sets.Multiset <> munion_comm thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R3993:4002 Coq.Sets.Multiset <> munion_ass thm
+R4005:4012 Coq.Sets.Multiset <> meq_left thm
+R4015:4023 Coq.Sets.Multiset <> meq_right thm
+R4026:4032 Coq.Sets.Multiset <> meq_sym thm
+R4047:4055 Coq.Sets.Multiset <> meq_trans thm
+R4047:4055 Coq.Sets.Multiset <> meq_trans thm
+prf 4074:4088 <> multiset_twist1
+R4111:4118 Coq.Sets.Multiset <> multiset ind
+binder 4103:4103 <> x:50
+binder 4105:4105 <> y:51
+binder 4107:4107 <> z:52
+binder 4109:4109 <> t:53
+R4127:4129 Coq.Sets.Multiset <> meq def
+R4167:4172 Coq.Sets.Multiset <> munion def
+R4198:4198 Coq.Sets.Multiset <> z:52 var
+R4175:4180 Coq.Sets.Multiset <> munion def
+R4185:4190 Coq.Sets.Multiset <> munion def
+R4194:4194 Coq.Sets.Multiset <> t:53 var
+R4192:4192 Coq.Sets.Multiset <> x:50 var
+R4182:4182 Coq.Sets.Multiset <> y:51 var
+R4132:4137 Coq.Sets.Multiset <> munion def
+R4142:4147 Coq.Sets.Multiset <> munion def
+R4162:4162 Coq.Sets.Multiset <> t:53 var
+R4150:4155 Coq.Sets.Multiset <> munion def
+R4159:4159 Coq.Sets.Multiset <> z:52 var
+R4157:4157 Coq.Sets.Multiset <> y:51 var
+R4139:4139 Coq.Sets.Multiset <> x:50 var
+R4230:4234 Coq.Sets.Permut <> twist thm
+R4252:4254 Coq.Sets.Multiset <> meq def
+R4245:4250 Coq.Sets.Multiset <> munion def
+R4236:4243 Coq.Sets.Multiset <> multiset ind
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4230:4234 Coq.Sets.Permut <> twist thm
+R4252:4254 Coq.Sets.Multiset <> meq def
+R4245:4250 Coq.Sets.Multiset <> munion def
+R4236:4243 Coq.Sets.Multiset <> multiset ind
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4269:4279 Coq.Sets.Multiset <> munion_comm thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4282:4291 Coq.Sets.Multiset <> munion_ass thm
+R4294:4300 Coq.Sets.Multiset <> meq_sym thm
+R4303:4310 Coq.Sets.Multiset <> meq_left thm
+R4313:4321 Coq.Sets.Multiset <> meq_right thm
+R4334:4342 Coq.Sets.Multiset <> meq_trans thm
+R4334:4342 Coq.Sets.Multiset <> meq_trans thm
+prf 4361:4375 <> multiset_twist2
+R4398:4405 Coq.Sets.Multiset <> multiset ind
+binder 4390:4390 <> x:54
+binder 4392:4392 <> y:55
+binder 4394:4394 <> z:56
+binder 4396:4396 <> t:57
+R4414:4416 Coq.Sets.Multiset <> meq def
+R4454:4459 Coq.Sets.Multiset <> munion def
+R4485:4485 Coq.Sets.Multiset <> t:57 var
+R4462:4467 Coq.Sets.Multiset <> munion def
+R4472:4477 Coq.Sets.Multiset <> munion def
+R4481:4481 Coq.Sets.Multiset <> z:56 var
+R4479:4479 Coq.Sets.Multiset <> x:54 var
+R4469:4469 Coq.Sets.Multiset <> y:55 var
+R4419:4424 Coq.Sets.Multiset <> munion def
+R4429:4434 Coq.Sets.Multiset <> munion def
+R4449:4449 Coq.Sets.Multiset <> t:57 var
+R4437:4442 Coq.Sets.Multiset <> munion def
+R4446:4446 Coq.Sets.Multiset <> z:56 var
+R4444:4444 Coq.Sets.Multiset <> y:55 var
+R4426:4426 Coq.Sets.Multiset <> x:54 var
+R4532:4537 Coq.Sets.Multiset <> munion def
+R4540:4545 Coq.Sets.Multiset <> munion def
+R4550:4555 Coq.Sets.Multiset <> munion def
+R4516:4524 Coq.Sets.Multiset <> meq_trans thm
+R4532:4537 Coq.Sets.Multiset <> munion def
+R4540:4545 Coq.Sets.Multiset <> munion def
+R4550:4555 Coq.Sets.Multiset <> munion def
+R4516:4524 Coq.Sets.Multiset <> meq_trans thm
+R4577:4583 Coq.Sets.Multiset <> meq_sym thm
+R4592:4601 Coq.Sets.Multiset <> munion_ass thm
+R4577:4583 Coq.Sets.Multiset <> meq_sym thm
+R4592:4601 Coq.Sets.Multiset <> munion_ass thm
+R4614:4621 Coq.Sets.Multiset <> meq_left thm
+R4630:4645 Coq.Sets.Multiset <> munion_perm_left thm
+R4614:4621 Coq.Sets.Multiset <> meq_left thm
+R4630:4645 Coq.Sets.Multiset <> munion_perm_left thm
+prf 4696:4710 <> treesort_twist1
+R4735:4742 Coq.Sets.Multiset <> multiset ind
+binder 4725:4725 <> x:58
+binder 4727:4727 <> y:59
+binder 4729:4729 <> z:60
+binder 4731:4731 <> t:61
+binder 4733:4733 <> u:62
+R4769:4778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4751:4753 Coq.Sets.Multiset <> meq def
+R4758:4763 Coq.Sets.Multiset <> munion def
+R4767:4767 Coq.Sets.Multiset <> z:60 var
+R4765:4765 Coq.Sets.Multiset <> y:59 var
+R4755:4755 Coq.Sets.Multiset <> u:62 var
+R4779:4781 Coq.Sets.Multiset <> meq def
+R4808:4813 Coq.Sets.Multiset <> munion def
+R4839:4839 Coq.Sets.Multiset <> z:60 var
+R4816:4821 Coq.Sets.Multiset <> munion def
+R4826:4831 Coq.Sets.Multiset <> munion def
+R4835:4835 Coq.Sets.Multiset <> t:61 var
+R4833:4833 Coq.Sets.Multiset <> x:58 var
+R4823:4823 Coq.Sets.Multiset <> y:59 var
+R4784:4789 Coq.Sets.Multiset <> munion def
+R4794:4799 Coq.Sets.Multiset <> munion def
+R4803:4803 Coq.Sets.Multiset <> t:61 var
+R4801:4801 Coq.Sets.Multiset <> u:62 var
+R4791:4791 Coq.Sets.Multiset <> x:58 var
+R4886:4891 Coq.Sets.Multiset <> munion def
+R4896:4901 Coq.Sets.Multiset <> munion def
+R4904:4909 Coq.Sets.Multiset <> munion def
+R4870:4878 Coq.Sets.Multiset <> meq_trans thm
+R4886:4891 Coq.Sets.Multiset <> munion def
+R4896:4901 Coq.Sets.Multiset <> munion def
+R4904:4909 Coq.Sets.Multiset <> munion def
+R4870:4878 Coq.Sets.Multiset <> meq_trans thm
+R4931:4939 Coq.Sets.Multiset <> meq_right thm
+R4948:4955 Coq.Sets.Multiset <> meq_left thm
+R4931:4939 Coq.Sets.Multiset <> meq_right thm
+R4948:4955 Coq.Sets.Multiset <> meq_left thm
+R4977:4991 Coq.Sets.Multiset <> multiset_twist1 thm
+R4977:4991 Coq.Sets.Multiset <> multiset_twist1 thm
+prf 5010:5024 <> treesort_twist2
+R5049:5056 Coq.Sets.Multiset <> multiset ind
+binder 5039:5039 <> x:63
+binder 5041:5041 <> y:64
+binder 5043:5043 <> z:65
+binder 5045:5045 <> t:66
+binder 5047:5047 <> u:67
+R5083:5092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5065:5067 Coq.Sets.Multiset <> meq def
+R5072:5077 Coq.Sets.Multiset <> munion def
+R5081:5081 Coq.Sets.Multiset <> z:65 var
+R5079:5079 Coq.Sets.Multiset <> y:64 var
+R5069:5069 Coq.Sets.Multiset <> u:67 var
+R5093:5095 Coq.Sets.Multiset <> meq def
+R5122:5127 Coq.Sets.Multiset <> munion def
+R5153:5153 Coq.Sets.Multiset <> t:66 var
+R5130:5135 Coq.Sets.Multiset <> munion def
+R5140:5145 Coq.Sets.Multiset <> munion def
+R5149:5149 Coq.Sets.Multiset <> z:65 var
+R5147:5147 Coq.Sets.Multiset <> x:63 var
+R5137:5137 Coq.Sets.Multiset <> y:64 var
+R5098:5103 Coq.Sets.Multiset <> munion def
+R5108:5113 Coq.Sets.Multiset <> munion def
+R5117:5117 Coq.Sets.Multiset <> t:66 var
+R5115:5115 Coq.Sets.Multiset <> u:67 var
+R5105:5105 Coq.Sets.Multiset <> x:63 var
+R5200:5205 Coq.Sets.Multiset <> munion def
+R5210:5215 Coq.Sets.Multiset <> munion def
+R5218:5223 Coq.Sets.Multiset <> munion def
+R5184:5192 Coq.Sets.Multiset <> meq_trans thm
+R5200:5205 Coq.Sets.Multiset <> munion def
+R5210:5215 Coq.Sets.Multiset <> munion def
+R5218:5223 Coq.Sets.Multiset <> munion def
+R5184:5192 Coq.Sets.Multiset <> meq_trans thm
+R5245:5253 Coq.Sets.Multiset <> meq_right thm
+R5262:5269 Coq.Sets.Multiset <> meq_left thm
+R5245:5253 Coq.Sets.Multiset <> meq_right thm
+R5262:5269 Coq.Sets.Multiset <> meq_left thm
+R5291:5305 Coq.Sets.Multiset <> multiset_twist2 thm
+R5291:5305 Coq.Sets.Multiset <> multiset_twist2 thm
+prf 5347:5359 <> meq_singleton
+binder 5370:5370 <> a:68
+binder 5372:5373 <> a':69
+R5388:5391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5380:5382 Coq.Sets.Multiset <> multiset_defs.eqA var
+R5386:5387 Coq.Sets.Multiset <> a':69 var
+R5384:5384 Coq.Sets.Multiset <> a:68 var
+R5392:5394 Coq.Sets.Multiset <> meq def
+R5414:5425 Coq.Sets.Multiset <> SingletonBag def
+R5427:5428 Coq.Sets.Multiset <> a':69 var
+R5397:5408 Coq.Sets.Multiset <> SingletonBag def
+R5410:5410 Coq.Sets.Multiset <> a:68 var
+R5489:5495 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R5546:5552 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R5489:5495 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R5546:5552 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R5546:5552 Coq.Sets.Multiset <> multiset_defs.Aeq_dec var
+R5764:5776 Coq.Sets.Multiset multiset_defs <> sec
+R5829:5831 Coq.Sets.Multiset <> meq def
+R5833:5844 Coq.Sets.Multiset <> multiplicity def
+R6106:6109 Coq.Arith.Plus <> <> lib

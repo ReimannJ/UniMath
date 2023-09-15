@@ -1,0 +1,85 @@
+DIGEST 7fb4bc4503393e0ef23f1396ba4b1579
+FCoq.ZArith.Zmax
+R724:729 Coq.ZArith.BinInt <> <> lib
+R731:738 Coq.ZArith.Zcompare <> <> lib
+R740:745 Coq.ZArith.Zorder <> <> lib
+abbrev 863:872 <> Zmax_right
+R877:883 Coq.ZArith.BinInt Z max_r thm
+abbrev 910:925 <> Zle_max_compat_r
+R930:946 Coq.ZArith.BinInt Z max_le_compat_r thm
+abbrev 973:988 <> Zle_max_compat_l
+R993:1009 Coq.ZArith.BinInt Z max_le_compat_l thm
+abbrev 1036:1050 <> Zmax_idempotent
+R1055:1062 Coq.ZArith.BinInt Z max_id thm
+abbrev 1089:1096 <> Zmax_n_n
+R1101:1108 Coq.ZArith.BinInt Z max_id thm
+abbrev 1135:1154 <> Zmax_irreducible_dec
+R1159:1167 Coq.ZArith.BinInt Z max_dec thm
+abbrev 1194:1206 <> Zmax_le_prime
+R1211:1218 Coq.ZArith.BinInt Z max_le thm
+abbrev 1245:1251 <> Zmax_SS
+R1256:1271 Coq.ZArith.BinInt Z succ_max_distr thm
+abbrev 1298:1314 <> Zplus_max_distr_l
+R1319:1335 Coq.ZArith.BinInt Z add_max_distr_l thm
+abbrev 1362:1378 <> Zplus_max_distr_r
+R1383:1399 Coq.ZArith.BinInt Z add_max_distr_r thm
+abbrev 1426:1434 <> Zmax_plus
+R1439:1455 Coq.ZArith.BinInt Z add_max_distr_r thm
+abbrev 1482:1486 <> Zmax1
+R1491:1500 Coq.ZArith.BinInt Z le_max_l thm
+abbrev 1527:1531 <> Zmax2
+R1536:1545 Coq.ZArith.BinInt Z le_max_r thm
+abbrev 1572:1591 <> Zmax_irreducible_inf
+R1596:1604 Coq.ZArith.BinInt Z max_dec thm
+abbrev 1631:1647 <> Zmax_le_prime_inf
+R1652:1659 Coq.ZArith.BinInt Z max_le thm
+abbrev 1686:1693 <> Zpos_max
+R1698:1710 Coq.ZArith.BinInt Pos2Z inj_max thm
+abbrev 1737:1746 <> Zpos_minus
+R1751:1767 Coq.ZArith.BinInt Pos2Z inj_sub_max thm
+prf 1826:1834 <> Zmax_spec
+binder 1836:1836 <> x:1
+binder 1838:1838 <> y:2
+R1867:1871 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1850:1853 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1845:1848 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R1844:1844 Coq.ZArith.Zmax <> x:1 var
+R1849:1849 Coq.ZArith.Zmax <> y:2 var
+R1863:1865 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1854:1858 Coq.ZArith.BinInt Z max def
+R1860:1860 Coq.ZArith.Zmax <> x:1 var
+R1862:1862 Coq.ZArith.Zmax <> y:2 var
+R1866:1866 Coq.ZArith.Zmax <> x:1 var
+R1877:1880 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1873:1875 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1872:1872 Coq.ZArith.Zmax <> x:1 var
+R1876:1876 Coq.ZArith.Zmax <> y:2 var
+R1890:1892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1881:1885 Coq.ZArith.BinInt Z max def
+R1887:1887 Coq.ZArith.Zmax <> x:1 var
+R1889:1889 Coq.ZArith.Zmax <> y:2 var
+R1893:1893 Coq.ZArith.Zmax <> y:2 var
+R1930:1939 Coq.ZArith.BinInt Z max_spec thm
+R1930:1939 Coq.ZArith.BinInt Z max_spec thm
+prf 1965:1973 <> Zmax_left
+binder 1975:1975 <> n:3
+binder 1977:1977 <> m:4
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1982:1983 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R1981:1981 Coq.ZArith.Zmax <> n:3 var
+R1984:1984 Coq.ZArith.Zmax <> m:4 var
+R1998:2000 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1989:1993 Coq.ZArith.BinInt Z max def
+R1995:1995 Coq.ZArith.Zmax <> n:3 var
+R1997:1997 Coq.ZArith.Zmax <> m:4 var
+R2001:2001 Coq.ZArith.Zmax <> n:3 var
+R2033:2039 Coq.ZArith.BinInt Z max_l thm
+R2033:2039 Coq.ZArith.BinInt Z max_l thm
+prf 2054:2063 <> Zpos_max_1
+binder 2065:2065 <> p:5
+R2086:2088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2069:2073 Coq.ZArith.BinInt Z max def
+R2078:2082 Coq.ZArith.BinInt Z pos abbrev
+R2084:2084 Coq.ZArith.Zmax <> p:5 var
+R2089:2093 Coq.ZArith.BinInt Z pos abbrev
+R2095:2095 Coq.ZArith.Zmax <> p:5 var

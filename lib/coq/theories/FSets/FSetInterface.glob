@@ -1,0 +1,1629 @@
+DIGEST 51ccfe99f5744f760159d27116b7c39f
+FCoq.FSets.FSetInterface
+R1569:1572 Coq.Bool.Bool <> <> lib
+R1574:1584 Coq.Structures.OrderedType <> <> lib
+R1586:1598 Coq.Structures.DecidableType <> <> lib
+R1945:1957 Coq.Structures.DecidableType DecidableType <> mod
+modtype 1934:1938 <> WSfun
+def 1975:1977 WSfun elt
+R1982:1984 Coq.FSets.FSetInterface E t defax
+ax 2000:2000 WSfun t
+ax 2084:2085 WSfun In
+R2092:2095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2089:2091 Coq.FSets.FSetInterface WSfun elt def
+R2097:2100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2096:2096 Coq.FSets.FSetInterface WSfun t defax
+def 2120:2124 WSfun Equal
+binder 2126:2126 <> s:3
+binder 2128:2129 <> s':4
+R2145:2147 Coq.FSets.FSetInterface WSfun elt def
+binder 2141:2141 <> a:5
+R2156:2160 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2150:2151 Coq.FSets.FSetInterface WSfun In defax
+R2155:2155 Coq.FSets.FSetInterface <> s:3 var
+R2153:2153 Coq.FSets.FSetInterface <> a:5 var
+R2161:2162 Coq.FSets.FSetInterface WSfun In defax
+R2166:2167 Coq.FSets.FSetInterface <> s':4 var
+R2164:2164 Coq.FSets.FSetInterface <> a:5 var
+def 2183:2188 WSfun Subset
+binder 2190:2190 <> s:6
+binder 2192:2193 <> s':7
+R2209:2211 Coq.FSets.FSetInterface WSfun elt def
+binder 2205:2205 <> a:8
+R2220:2223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2214:2215 Coq.FSets.FSetInterface WSfun In defax
+R2219:2219 Coq.FSets.FSetInterface <> s:6 var
+R2217:2217 Coq.FSets.FSetInterface <> a:8 var
+R2224:2225 Coq.FSets.FSetInterface WSfun In defax
+R2229:2230 Coq.FSets.FSetInterface <> s':7 var
+R2227:2227 Coq.FSets.FSetInterface <> a:8 var
+def 2246:2250 WSfun Empty
+binder 2252:2252 <> s:9
+R2268:2270 Coq.FSets.FSetInterface WSfun elt def
+binder 2264:2264 <> a:10
+R2273:2274 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2275:2276 Coq.FSets.FSetInterface WSfun In defax
+R2280:2280 Coq.FSets.FSetInterface <> s:9 var
+R2278:2278 Coq.FSets.FSetInterface <> a:10 var
+def 2296:2302 WSfun For_all
+R2312:2315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2309:2311 Coq.FSets.FSetInterface WSfun elt def
+binder 2305:2305 <> P:11
+binder 2322:2322 <> s:12
+binder 2334:2334 <> x:13
+R2343:2346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2337:2338 Coq.FSets.FSetInterface WSfun In defax
+R2342:2342 Coq.FSets.FSetInterface <> s:12 var
+R2340:2340 Coq.FSets.FSetInterface <> x:13 var
+R2347:2347 Coq.FSets.FSetInterface <> P:11 var
+R2349:2349 Coq.FSets.FSetInterface <> x:13 var
+def 2365:2370 WSfun Exists
+R2380:2383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2377:2379 Coq.FSets.FSetInterface WSfun elt def
+binder 2373:2373 <> P:14
+binder 2390:2390 <> s:15
+R2395:2401 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2403:2404 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2402:2402 <> x:16
+R2411:2414 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2405:2406 Coq.FSets.FSetInterface WSfun In defax
+R2410:2410 Coq.FSets.FSetInterface <> s:15 var
+R2408:2408 Coq.FSets.FSetInterface <> x:16 var
+R2415:2415 Coq.FSets.FSetInterface <> P:14 var
+R2417:2417 Coq.FSets.FSetInterface <> x:16 var
+R2448:2452 Coq.FSets.FSetInterface WSfun Equal def
+not 2432:2432 WSfun :::x_'[=]'_x
+R2520:2525 Coq.FSets.FSetInterface WSfun Subset def
+not 2503:2503 WSfun :::x_'[<=]'_x
+ax 2578:2582 WSfun empty
+R2586:2586 Coq.FSets.FSetInterface WSfun t defax
+ax 2626:2633 WSfun is_empty
+R2638:2641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2637:2637 Coq.FSets.FSetInterface WSfun t defax
+R2642:2645 Coq.Init.Datatypes <> bool ind
+ax 2706:2708 WSfun mem
+R2715:2718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2712:2714 Coq.FSets.FSetInterface WSfun elt def
+R2720:2723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2719:2719 Coq.FSets.FSetInterface WSfun t defax
+R2724:2727 Coq.Init.Datatypes <> bool ind
+ax 2804:2806 WSfun add
+R2813:2816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2810:2812 Coq.FSets.FSetInterface WSfun elt def
+R2818:2821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2817:2817 Coq.FSets.FSetInterface WSfun t defax
+R2822:2822 Coq.FSets.FSetInterface WSfun t defax
+ax 2969:2977 WSfun singleton
+R2984:2987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2981:2983 Coq.FSets.FSetInterface WSfun elt def
+R2988:2988 Coq.FSets.FSetInterface WSfun t defax
+ax 3076:3081 WSfun remove
+R3088:3091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3085:3087 Coq.FSets.FSetInterface WSfun elt def
+R3093:3096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3092:3092 Coq.FSets.FSetInterface WSfun t defax
+R3097:3097 Coq.FSets.FSetInterface WSfun t defax
+ax 3245:3249 WSfun union
+R3254:3257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3253:3253 Coq.FSets.FSetInterface WSfun t defax
+R3259:3262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3258:3258 Coq.FSets.FSetInterface WSfun t defax
+R3263:3263 Coq.FSets.FSetInterface WSfun t defax
+ax 3299:3303 WSfun inter
+R3308:3311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3307:3307 Coq.FSets.FSetInterface WSfun t defax
+R3313:3316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3312:3312 Coq.FSets.FSetInterface WSfun t defax
+R3317:3317 Coq.FSets.FSetInterface WSfun t defax
+ax 3360:3363 WSfun diff
+R3368:3371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3367:3367 Coq.FSets.FSetInterface WSfun t defax
+R3373:3376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3372:3372 Coq.FSets.FSetInterface WSfun t defax
+R3377:3377 Coq.FSets.FSetInterface WSfun t defax
+def 3419:3420 WSfun eq
+R3425:3428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3424:3424 Coq.FSets.FSetInterface WSfun t defax
+R3430:3433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3429:3429 Coq.FSets.FSetInterface WSfun t defax
+R3442:3446 Coq.FSets.FSetInterface WSfun Equal def
+ax 3462:3467 WSfun eq_dec
+binder 3478:3478 <> s:26
+binder 3480:3481 <> s':27
+R3484:3485 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3493:3499 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3509:3510 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3486:3487 Coq.FSets.FSetInterface WSfun eq def
+R3491:3492 Coq.FSets.FSetInterface <> s':27 var
+R3489:3489 Coq.FSets.FSetInterface <> s:26 var
+R3500:3501 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3502:3503 Coq.FSets.FSetInterface WSfun eq def
+R3507:3508 Coq.FSets.FSetInterface <> s':27 var
+R3505:3505 Coq.FSets.FSetInterface <> s:26 var
+ax 3526:3530 WSfun equal
+R3535:3538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3534:3534 Coq.FSets.FSetInterface WSfun t defax
+R3540:3543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3539:3539 Coq.FSets.FSetInterface WSfun t defax
+R3544:3547 Coq.Init.Datatypes <> bool ind
+ax 3669:3674 WSfun subset
+R3679:3682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3678:3678 Coq.FSets.FSetInterface WSfun t defax
+R3684:3687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3683:3683 Coq.FSets.FSetInterface WSfun t defax
+R3688:3691 Coq.Init.Datatypes <> bool ind
+ax 3789:3792 WSfun fold
+binder 3803:3803 <> A:31
+R3813:3813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3827:3831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3817:3820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3814:3816 Coq.FSets.FSetInterface WSfun elt def
+R3822:3825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3821:3821 Coq.FSets.FSetInterface <> A:31 var
+R3826:3826 Coq.FSets.FSetInterface <> A:31 var
+R3833:3836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3832:3832 Coq.FSets.FSetInterface WSfun t defax
+R3838:3841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3837:3837 Coq.FSets.FSetInterface <> A:31 var
+R3842:3842 Coq.FSets.FSetInterface <> A:31 var
+ax 4043:4049 WSfun for_all
+R4053:4053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4065:4069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4057:4060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4054:4056 Coq.FSets.FSetInterface WSfun elt def
+R4061:4064 Coq.Init.Datatypes <> bool ind
+R4071:4074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4070:4070 Coq.FSets.FSetInterface WSfun t defax
+R4075:4078 Coq.Init.Datatypes <> bool ind
+ax 4180:4186 WSfun exists_
+R4190:4190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4202:4206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4194:4197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4191:4193 Coq.FSets.FSetInterface WSfun elt def
+R4198:4201 Coq.Init.Datatypes <> bool ind
+R4208:4211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4207:4207 Coq.FSets.FSetInterface WSfun t defax
+R4212:4215 Coq.Init.Datatypes <> bool ind
+ax 4326:4331 WSfun filter
+R4335:4335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4347:4351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4339:4342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4336:4338 Coq.FSets.FSetInterface WSfun elt def
+R4343:4346 Coq.Init.Datatypes <> bool ind
+R4353:4356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4352:4352 Coq.FSets.FSetInterface WSfun t defax
+R4357:4357 Coq.FSets.FSetInterface WSfun t defax
+ax 4464:4472 WSfun partition
+R4476:4476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4488:4492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4480:4483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4477:4479 Coq.FSets.FSetInterface WSfun elt def
+R4484:4487 Coq.Init.Datatypes <> bool ind
+R4494:4497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4493:4493 Coq.FSets.FSetInterface WSfun t defax
+R4499:4501 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4498:4498 Coq.FSets.FSetInterface WSfun t defax
+R4502:4502 Coq.FSets.FSetInterface WSfun t defax
+ax 4737:4744 WSfun cardinal
+R4749:4752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4748:4748 Coq.FSets.FSetInterface WSfun t defax
+R4753:4755 Coq.Init.Datatypes <> nat ind
+ax 4820:4827 WSfun elements
+R4832:4835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4831:4831 Coq.FSets.FSetInterface WSfun t defax
+R4836:4839 Coq.Init.Datatypes <> list ind
+R4841:4843 Coq.FSets.FSetInterface WSfun elt def
+ax 4932:4937 WSfun choose
+R4942:4945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4941:4941 Coq.FSets.FSetInterface WSfun t defax
+R4946:4951 Coq.Init.Datatypes <> option ind
+R4953:4955 Coq.FSets.FSetInterface WSfun elt def
+sec 5134:5137 WSfun Spec
+var 5152:5152 WSfun.Spec s
+var 5154:5155 WSfun.Spec s'
+var 5157:5159 WSfun.Spec s''
+R5162:5162 Coq.FSets.FSetInterface WSfun t defax
+var 5176:5176 WSfun.Spec x
+var 5178:5178 WSfun.Spec y
+R5182:5184 Coq.FSets.FSetInterface WSfun elt def
+ax 5231:5234 WSfun In_1
+R5246:5249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5238:5241 Coq.FSets.FSetInterface E eq defax
+R5245:5245 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R5243:5243 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R5256:5259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5250:5251 Coq.FSets.FSetInterface WSfun In defax
+R5255:5255 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5253:5253 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R5260:5261 Coq.FSets.FSetInterface WSfun In defax
+R5265:5265 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5263:5263 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 5312:5318 WSfun eq_refl
+R5322:5323 Coq.FSets.FSetInterface WSfun eq def
+R5327:5327 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5325:5325 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+ax 5342:5347 WSfun eq_sym
+R5358:5361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5351:5352 Coq.FSets.FSetInterface WSfun eq def
+R5356:5357 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5354:5354 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5362:5363 Coq.FSets.FSetInterface WSfun eq def
+R5368:5368 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5365:5366 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+ax 5383:5390 WSfun eq_trans
+R5401:5404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5394:5395 Coq.FSets.FSetInterface WSfun eq def
+R5399:5400 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5397:5397 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5414:5417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5405:5406 Coq.FSets.FSetInterface WSfun eq def
+R5411:5413 Coq.FSets.FSetInterface <> WSfun.Spec.s'' var
+R5408:5409 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5418:5419 Coq.FSets.FSetInterface WSfun eq def
+R5423:5425 Coq.FSets.FSetInterface <> WSfun.Spec.s'' var
+R5421:5421 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+ax 5473:5477 WSfun mem_1
+R5487:5490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5481:5482 Coq.FSets.FSetInterface WSfun In defax
+R5486:5486 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5484:5484 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R5498:5500 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5491:5493 Coq.FSets.FSetInterface WSfun mem defax
+R5497:5497 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5495:5495 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R5501:5504 Coq.Init.Datatypes <> true constr
+ax 5519:5523 WSfun mem_2
+R5541:5544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5534:5536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5527:5529 Coq.FSets.FSetInterface WSfun mem defax
+R5533:5533 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5531:5531 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R5537:5540 Coq.Init.Datatypes <> true constr
+R5545:5546 Coq.FSets.FSetInterface WSfun In defax
+R5550:5550 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5548:5548 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 5600:5606 WSfun equal_1
+R5620:5623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5610:5614 Coq.FSets.FSetInterface WSfun Equal def
+R5618:5619 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5616:5616 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5634:5636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5624:5628 Coq.FSets.FSetInterface WSfun equal defax
+R5632:5633 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5630:5630 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5637:5640 Coq.Init.Datatypes <> true constr
+ax 5655:5661 WSfun equal_2
+R5682:5685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5675:5677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5669 Coq.FSets.FSetInterface WSfun equal defax
+R5673:5674 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5671:5671 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5678:5681 Coq.Init.Datatypes <> true constr
+R5686:5690 Coq.FSets.FSetInterface WSfun Equal def
+R5694:5695 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5692:5692 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+ax 5746:5753 WSfun subset_1
+R5768:5771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5757:5762 Coq.FSets.FSetInterface WSfun Subset def
+R5766:5767 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5764:5764 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5783:5785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5772:5777 Coq.FSets.FSetInterface WSfun subset defax
+R5781:5782 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5779:5779 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5786:5789 Coq.Init.Datatypes <> true constr
+ax 5804:5811 WSfun subset_2
+R5833:5836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5826:5828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5815:5820 Coq.FSets.FSetInterface WSfun subset defax
+R5824:5825 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5822:5822 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R5829:5832 Coq.Init.Datatypes <> true constr
+R5837:5842 Coq.FSets.FSetInterface WSfun Subset def
+R5846:5847 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R5844:5844 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+ax 5897:5903 WSfun empty_1
+R5907:5911 Coq.FSets.FSetInterface WSfun Empty def
+R5913:5917 Coq.FSets.FSetInterface WSfun empty defax
+ax 5970:5979 WSfun is_empty_1
+R5990:5993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5983:5987 Coq.FSets.FSetInterface WSfun Empty def
+R5989:5989 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6004:6006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5994:6001 Coq.FSets.FSetInterface WSfun is_empty defax
+R6003:6003 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6007:6010 Coq.Init.Datatypes <> true constr
+ax 6025:6034 WSfun is_empty_2
+R6055:6058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6048:6050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6038:6045 Coq.FSets.FSetInterface WSfun is_empty defax
+R6047:6047 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6051:6054 Coq.Init.Datatypes <> true constr
+R6059:6063 Coq.FSets.FSetInterface WSfun Empty def
+R6065:6065 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+ax 6113:6117 WSfun add_1
+R6129:6132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6121:6124 Coq.FSets.FSetInterface E eq defax
+R6128:6128 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6126:6126 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6133:6134 Coq.FSets.FSetInterface WSfun In defax
+R6139:6141 Coq.FSets.FSetInterface WSfun add defax
+R6145:6145 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6143:6143 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6136:6136 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6161:6165 WSfun add_2
+R6175:6178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6169:6170 Coq.FSets.FSetInterface WSfun In defax
+R6174:6174 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6172:6172 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6179:6180 Coq.FSets.FSetInterface WSfun In defax
+R6185:6187 Coq.FSets.FSetInterface WSfun add defax
+R6191:6191 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6189:6189 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6182:6182 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6207:6211 WSfun add_3
+R6225:6228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6215:6216 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6217:6220 Coq.FSets.FSetInterface E eq defax
+R6224:6224 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6222:6222 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6243:6246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6229:6230 Coq.FSets.FSetInterface WSfun In defax
+R6235:6237 Coq.FSets.FSetInterface WSfun add defax
+R6241:6241 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6239:6239 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6232:6232 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6247:6248 Coq.FSets.FSetInterface WSfun In defax
+R6252:6252 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6250:6250 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6303:6310 WSfun remove_1
+R6322:6325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6314:6317 Coq.FSets.FSetInterface E eq defax
+R6321:6321 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6319:6319 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6326:6327 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6328:6329 Coq.FSets.FSetInterface WSfun In defax
+R6334:6339 Coq.FSets.FSetInterface WSfun remove defax
+R6343:6343 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6341:6341 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6331:6331 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6359:6366 WSfun remove_2
+R6380:6383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6370:6371 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6372:6375 Coq.FSets.FSetInterface E eq defax
+R6379:6379 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6377:6377 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6390:6393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6384:6385 Coq.FSets.FSetInterface WSfun In defax
+R6389:6389 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6387:6387 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6394:6395 Coq.FSets.FSetInterface WSfun In defax
+R6400:6405 Coq.FSets.FSetInterface WSfun remove defax
+R6409:6409 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6407:6407 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6397:6397 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6425:6432 WSfun remove_3
+R6453:6456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6436:6437 Coq.FSets.FSetInterface WSfun In defax
+R6442:6447 Coq.FSets.FSetInterface WSfun remove defax
+R6451:6451 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6449:6449 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6439:6439 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6457:6458 Coq.FSets.FSetInterface WSfun In defax
+R6462:6462 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6460:6460 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6516:6526 WSfun singleton_1
+R6548:6551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6530:6531 Coq.FSets.FSetInterface WSfun In defax
+R6536:6544 Coq.FSets.FSetInterface WSfun singleton defax
+R6546:6546 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6533:6533 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6552:6555 Coq.FSets.FSetInterface E eq defax
+R6559:6559 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6557:6557 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6574:6584 WSfun singleton_2
+R6596:6599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6588:6591 Coq.FSets.FSetInterface E eq defax
+R6595:6595 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+R6593:6593 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6600:6601 Coq.FSets.FSetInterface WSfun In defax
+R6606:6614 Coq.FSets.FSetInterface WSfun singleton defax
+R6616:6616 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6603:6603 Coq.FSets.FSetInterface <> WSfun.Spec.y var
+ax 6667:6673 WSfun union_1
+R6694:6697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6677:6678 Coq.FSets.FSetInterface WSfun In defax
+R6683:6687 Coq.FSets.FSetInterface WSfun union defax
+R6691:6692 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6689:6689 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6680:6680 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6704:6707 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6698:6699 Coq.FSets.FSetInterface WSfun In defax
+R6703:6703 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6701:6701 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6708:6709 Coq.FSets.FSetInterface WSfun In defax
+R6713:6714 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6711:6711 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6729:6735 WSfun union_2
+R6745:6748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6739:6740 Coq.FSets.FSetInterface WSfun In defax
+R6744:6744 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6742:6742 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6749:6750 Coq.FSets.FSetInterface WSfun In defax
+R6755:6759 Coq.FSets.FSetInterface WSfun union defax
+R6763:6764 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6761:6761 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6752:6752 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6780:6786 WSfun union_3
+R6797:6800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6790:6791 Coq.FSets.FSetInterface WSfun In defax
+R6795:6796 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6793:6793 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6801:6802 Coq.FSets.FSetInterface WSfun In defax
+R6807:6811 Coq.FSets.FSetInterface WSfun union defax
+R6815:6816 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6813:6813 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6804:6804 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6867:6873 WSfun inter_1
+R6894:6897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6877:6878 Coq.FSets.FSetInterface WSfun In defax
+R6883:6887 Coq.FSets.FSetInterface WSfun inter defax
+R6891:6892 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6889:6889 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6880:6880 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6898:6899 Coq.FSets.FSetInterface WSfun In defax
+R6903:6903 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6901:6901 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6918:6924 WSfun inter_2
+R6945:6948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6928:6929 Coq.FSets.FSetInterface WSfun In defax
+R6934:6938 Coq.FSets.FSetInterface WSfun inter defax
+R6942:6943 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6940:6940 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6931:6931 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6949:6950 Coq.FSets.FSetInterface WSfun In defax
+R6954:6955 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6952:6952 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 6970:6976 WSfun inter_3
+R6986:6989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6980:6981 Coq.FSets.FSetInterface WSfun In defax
+R6985:6985 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R6983:6983 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R6997:7000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6990:6991 Coq.FSets.FSetInterface WSfun In defax
+R6995:6996 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R6993:6993 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7001:7002 Coq.FSets.FSetInterface WSfun In defax
+R7007:7011 Coq.FSets.FSetInterface WSfun inter defax
+R7015:7016 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7013:7013 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7004:7004 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7066:7071 WSfun diff_1
+R7091:7094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7075:7076 Coq.FSets.FSetInterface WSfun In defax
+R7081:7084 Coq.FSets.FSetInterface WSfun diff defax
+R7088:7089 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7086:7086 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7078:7078 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7095:7096 Coq.FSets.FSetInterface WSfun In defax
+R7100:7100 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7098:7098 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7115:7120 WSfun diff_2
+R7140:7143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7124:7125 Coq.FSets.FSetInterface WSfun In defax
+R7130:7133 Coq.FSets.FSetInterface WSfun diff defax
+R7137:7138 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7135:7135 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7127:7127 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7144:7145 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7146:7147 Coq.FSets.FSetInterface WSfun In defax
+R7151:7152 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7149:7149 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7167:7172 WSfun diff_3
+R7182:7185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7176:7177 Coq.FSets.FSetInterface WSfun In defax
+R7181:7181 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7179:7179 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7195:7198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7186:7187 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7188:7189 Coq.FSets.FSetInterface WSfun In defax
+R7193:7194 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7191:7191 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7199:7200 Coq.FSets.FSetInterface WSfun In defax
+R7205:7208 Coq.FSets.FSetInterface WSfun diff defax
+R7212:7213 Coq.FSets.FSetInterface <> WSfun.Spec.s' var
+R7210:7210 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7202:7202 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7263:7268 WSfun fold_1
+binder 7280:7280 <> A:75
+R7295:7295 Coq.FSets.FSetInterface <> A:75 var
+binder 7291:7291 <> i:76
+R7306:7309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7303:7305 Coq.FSets.FSetInterface WSfun elt def
+R7311:7314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7310:7310 Coq.FSets.FSetInterface <> A:75 var
+R7315:7315 Coq.FSets.FSetInterface <> A:75 var
+binder 7299:7299 <> f:77
+R7335:7337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7325:7328 Coq.FSets.FSetInterface WSfun fold defax
+R7334:7334 Coq.FSets.FSetInterface <> i:76 var
+R7332:7332 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7330:7330 Coq.FSets.FSetInterface <> f:77 var
+R7338:7346 Coq.Lists.List <> fold_left def
+R7380:7380 Coq.FSets.FSetInterface <> i:76 var
+R7368:7375 Coq.FSets.FSetInterface WSfun elements defax
+R7377:7377 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 7353:7353 <> a:78
+binder 7355:7355 <> e:79
+R7360:7360 Coq.FSets.FSetInterface <> f:77 var
+R7364:7364 Coq.FSets.FSetInterface <> a:78 var
+R7362:7362 Coq.FSets.FSetInterface <> e:79 var
+ax 7433:7442 WSfun cardinal_1
+R7456:7458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7446:7453 Coq.FSets.FSetInterface WSfun cardinal defax
+R7455:7455 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7459:7464 Coq.Init.Datatypes <> length def
+R7467:7474 Coq.FSets.FSetInterface WSfun elements defax
+R7476:7476 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+sec 7491:7496 WSfun.Spec Filter
+var 7511:7511 WSfun.Spec.Filter f
+R7518:7521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7515:7517 Coq.FSets.FSetInterface WSfun elt def
+R7522:7525 Coq.Init.Datatypes <> bool ind
+ax 7576:7583 WSfun filter_1
+R7605:7608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7587:7597 Coq.Lists.SetoidList <> compat_bool def
+R7604:7604 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7599:7602 Coq.FSets.FSetInterface E eq defax
+R7626:7629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7609:7610 Coq.FSets.FSetInterface WSfun In defax
+R7615:7620 Coq.FSets.FSetInterface WSfun filter defax
+R7624:7624 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7622:7622 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7612:7612 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7630:7631 Coq.FSets.FSetInterface WSfun In defax
+R7635:7635 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7633:7633 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7650:7657 WSfun filter_2
+R7679:7682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7661:7671 Coq.Lists.SetoidList <> compat_bool def
+R7678:7678 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7673:7676 Coq.FSets.FSetInterface E eq defax
+R7700:7703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7683:7684 Coq.FSets.FSetInterface WSfun In defax
+R7689:7694 Coq.FSets.FSetInterface WSfun filter defax
+R7698:7698 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7696:7696 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7686:7686 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7707:7709 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7704:7704 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7706:7706 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7710:7713 Coq.Init.Datatypes <> true constr
+ax 7728:7735 WSfun filter_3
+R7763:7766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7745:7755 Coq.Lists.SetoidList <> compat_bool def
+R7762:7762 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7757:7760 Coq.FSets.FSetInterface E eq defax
+R7773:7776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7767:7768 Coq.FSets.FSetInterface WSfun In defax
+R7772:7772 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7770:7770 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7787:7790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7780:7782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7777:7777 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7779:7779 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R7783:7786 Coq.Init.Datatypes <> true constr
+R7791:7792 Coq.FSets.FSetInterface WSfun In defax
+R7797:7802 Coq.FSets.FSetInterface WSfun filter defax
+R7806:7806 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7804:7804 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7794:7794 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 7859:7867 WSfun for_all_1
+R7895:7904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7877:7887 Coq.Lists.SetoidList <> compat_bool def
+R7894:7894 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7889:7892 Coq.FSets.FSetInterface E eq defax
+R7936:7939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7905:7911 Coq.FSets.FSetInterface WSfun For_all def
+R7935:7935 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 7918:7918 <> x:86
+R7926:7928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7923:7923 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7925:7925 Coq.FSets.FSetInterface <> x:86 var
+R7929:7932 Coq.Init.Datatypes <> true constr
+R7951:7953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7940:7946 Coq.FSets.FSetInterface WSfun for_all defax
+R7950:7950 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R7948:7948 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R7954:7957 Coq.Init.Datatypes <> true constr
+ax 7972:7980 WSfun for_all_2
+R8008:8017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7990:8000 Coq.Lists.SetoidList <> compat_bool def
+R8007:8007 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8002:8005 Coq.FSets.FSetInterface E eq defax
+R8036:8039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8029:8031 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8018:8024 Coq.FSets.FSetInterface WSfun for_all defax
+R8028:8028 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8026:8026 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8032:8035 Coq.Init.Datatypes <> true constr
+R8040:8046 Coq.FSets.FSetInterface WSfun For_all def
+R8070:8070 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 8053:8053 <> x:88
+R8061:8063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8058:8058 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8060:8060 Coq.FSets.FSetInterface <> x:88 var
+R8064:8067 Coq.Init.Datatypes <> true constr
+ax 8121:8128 WSfun exists_1
+R8156:8165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8138:8148 Coq.Lists.SetoidList <> compat_bool def
+R8155:8155 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8150:8153 Coq.FSets.FSetInterface E eq defax
+R8196:8199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8166:8171 Coq.FSets.FSetInterface WSfun Exists def
+R8195:8195 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 8178:8178 <> x:90
+R8186:8188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8183:8183 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8185:8185 Coq.FSets.FSetInterface <> x:90 var
+R8189:8192 Coq.Init.Datatypes <> true constr
+R8211:8213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8200:8206 Coq.FSets.FSetInterface WSfun exists_ defax
+R8210:8210 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8208:8208 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8214:8217 Coq.Init.Datatypes <> true constr
+ax 8232:8239 WSfun exists_2
+R8267:8276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8249:8259 Coq.Lists.SetoidList <> compat_bool def
+R8266:8266 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8261:8264 Coq.FSets.FSetInterface E eq defax
+R8295:8298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8288:8290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8277:8283 Coq.FSets.FSetInterface WSfun exists_ defax
+R8287:8287 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8285:8285 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8291:8294 Coq.Init.Datatypes <> true constr
+R8299:8304 Coq.FSets.FSetInterface WSfun Exists def
+R8328:8328 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 8311:8311 <> x:92
+R8319:8321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8316:8316 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8318:8318 Coq.FSets.FSetInterface <> x:92 var
+R8322:8325 Coq.Init.Datatypes <> true constr
+ax 8382:8392 WSfun partition_1
+R8420:8423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8402:8412 Coq.Lists.SetoidList <> compat_bool def
+R8419:8419 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8414:8417 Coq.FSets.FSetInterface E eq defax
+R8424:8428 Coq.FSets.FSetInterface WSfun Equal def
+R8453:8458 Coq.FSets.FSetInterface WSfun filter defax
+R8462:8462 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8460:8460 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8431:8433 Coq.Init.Datatypes <> fst def
+R8436:8444 Coq.FSets.FSetInterface WSfun partition defax
+R8448:8448 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8446:8446 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+ax 8478:8488 WSfun partition_2
+R8516:8525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8498:8508 Coq.Lists.SetoidList <> compat_bool def
+R8515:8515 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8510:8513 Coq.FSets.FSetInterface E eq defax
+R8526:8530 Coq.FSets.FSetInterface WSfun Equal def
+R8555:8560 Coq.FSets.FSetInterface WSfun filter defax
+R8584:8584 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+binder 8567:8567 <> x:95
+R8572:8575 Coq.Init.Datatypes <> negb def
+R8578:8578 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8580:8580 Coq.FSets.FSetInterface <> x:95 var
+R8533:8535 Coq.Init.Datatypes <> snd def
+R8538:8546 Coq.FSets.FSetInterface WSfun partition defax
+R8550:8550 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8548:8548 Coq.FSets.FSetInterface <> WSfun.Spec.Filter.f var
+R8595:8600 Coq.FSets.FSetInterface WSfun.Spec.Filter <> sec
+ax 8653:8662 WSfun elements_1
+R8672:8675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8666:8667 Coq.FSets.FSetInterface WSfun In defax
+R8671:8671 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8669:8669 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R8676:8678 Coq.Lists.SetoidList <> InA ind
+R8688:8695 Coq.FSets.FSetInterface WSfun elements defax
+R8697:8697 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8685:8685 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R8680:8683 Coq.FSets.FSetInterface E eq defax
+ax 8713:8722 WSfun elements_2
+R8749:8752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8726:8728 Coq.Lists.SetoidList <> InA ind
+R8738:8745 Coq.FSets.FSetInterface WSfun elements defax
+R8747:8747 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8735:8735 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R8730:8733 Coq.FSets.FSetInterface E eq defax
+R8753:8754 Coq.FSets.FSetInterface WSfun In defax
+R8758:8758 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8756:8756 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 8873:8883 WSfun elements_3w
+R8887:8892 Coq.Lists.SetoidList <> NoDupA ind
+R8900:8907 Coq.FSets.FSetInterface WSfun elements defax
+R8909:8909 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8894:8897 Coq.FSets.FSetInterface E eq defax
+ax 8961:8968 WSfun choose_1
+R8989:8992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8980:8982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8972:8977 Coq.FSets.FSetInterface WSfun choose defax
+R8979:8979 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8983:8986 Coq.Init.Datatypes <> Some constr
+R8988:8988 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+R8993:8994 Coq.FSets.FSetInterface WSfun In defax
+R8998:8998 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R8996:8996 Coq.FSets.FSetInterface <> WSfun.Spec.x var
+ax 9013:9020 WSfun choose_2
+R9039:9042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9032:9034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9024:9029 Coq.FSets.FSetInterface WSfun choose defax
+R9031:9031 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R9035:9038 Coq.Init.Datatypes <> None constr
+R9043:9047 Coq.FSets.FSetInterface WSfun Empty def
+R9049:9049 Coq.FSets.FSetInterface <> WSfun.Spec.s var
+R9059:9062 Coq.FSets.FSetInterface WSfun.Spec <> sec
+R9097:9099 Coq.FSets.FSetInterface WSfun elt def
+R9583:9587 Coq.FSets.FSetInterface WSfun <> modtype
+modtype 9776:9777 <> WS
+R9801:9813 Coq.Structures.DecidableType DecidableType <> mod
+mod 9797:9797 <> WS.E
+R9826:9830 Coq.FSets.FSetInterface WSfun <> mod
+R9832:9832 Coq.FSets.FSetInterface WS.E <> modtype
+R9839:9840 Coq.FSets.FSetInterface WS <> modtype
+R10060:10070 Coq.Structures.OrderedType OrderedType <> mod
+modtype 10050:10053 <> Sfun
+R10084:10088 Coq.FSets.FSetInterface WSfun <> mod
+R10090:10090 Coq.FSets.FSetInterface E <> modtype
+ax 10106:10107 Sfun lt
+R10112:10115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10111:10111 Coq.FSets.FSetInterface Sfun t defax
+R10117:10120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10116:10116 Coq.FSets.FSetInterface Sfun t defax
+ax 10139:10145 Sfun compare
+R10163:10163 Coq.FSets.FSetInterface Sfun t defax
+binder 10156:10156 <> s:103
+binder 10158:10159 <> s':104
+R10166:10172 Coq.Structures.OrderedType <> Compare ind
+R10182:10183 Coq.FSets.FSetInterface <> s':104 var
+R10180:10180 Coq.FSets.FSetInterface <> s:103 var
+R10177:10178 Coq.FSets.FSetInterface Sfun eq def
+R10174:10175 Coq.FSets.FSetInterface Sfun lt defax
+ax 10300:10306 Sfun min_elt
+R10311:10314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10310:10310 Coq.FSets.FSetInterface Sfun t defax
+R10315:10320 Coq.Init.Datatypes <> option ind
+R10322:10324 Coq.FSets.FSetInterface Sfun elt def
+ax 10473:10479 Sfun max_elt
+R10484:10487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10483:10483 Coq.FSets.FSetInterface Sfun t defax
+R10488:10493 Coq.Init.Datatypes <> option ind
+R10495:10497 Coq.FSets.FSetInterface Sfun elt def
+sec 10591:10594 Sfun Spec
+var 10609:10609 Sfun.Spec s
+var 10611:10612 Sfun.Spec s'
+var 10614:10616 Sfun.Spec s''
+R10620:10620 Coq.FSets.FSetInterface Sfun t defax
+var 10634:10634 Sfun.Spec x
+var 10636:10636 Sfun.Spec y
+R10640:10642 Coq.FSets.FSetInterface Sfun elt def
+ax 10689:10696 Sfun lt_trans
+R10707:10710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10700:10701 Coq.FSets.FSetInterface Sfun lt defax
+R10705:10706 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R10703:10703 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R10720:10723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10711:10712 Coq.FSets.FSetInterface Sfun lt defax
+R10717:10719 Coq.FSets.FSetInterface <> Sfun.Spec.s'' var
+R10714:10715 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R10724:10725 Coq.FSets.FSetInterface Sfun lt defax
+R10729:10731 Coq.FSets.FSetInterface <> Sfun.Spec.s'' var
+R10727:10727 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+ax 10746:10754 Sfun lt_not_eq
+R10765:10768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10758:10759 Coq.FSets.FSetInterface Sfun lt defax
+R10763:10764 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R10761:10761 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R10769:10770 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10771:10772 Coq.FSets.FSetInterface Sfun eq def
+R10776:10777 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R10774:10774 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+ax 10841:10850 Sfun elements_3
+R10854:10857 Coq.Sorting.Sorted <> sort abbrev
+R10865:10872 Coq.FSets.FSetInterface Sfun elements defax
+R10874:10874 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R10859:10862 Coq.FSets.FSetInterface E lt defax
+ax 11136:11144 Sfun min_elt_1
+R11166:11169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11157:11159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11148:11154 Coq.FSets.FSetInterface Sfun min_elt defax
+R11156:11156 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11160:11163 Coq.Init.Datatypes <> Some constr
+R11165:11165 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11170:11171 Coq.FSets.FSetInterface Sfun In defax
+R11175:11175 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11173:11173 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+ax 11190:11198 Sfun min_elt_2
+R11220:11223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11211:11213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11202:11208 Coq.FSets.FSetInterface Sfun min_elt defax
+R11210:11210 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11214:11217 Coq.Init.Datatypes <> Some constr
+R11219:11219 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11230:11233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11224:11225 Coq.FSets.FSetInterface Sfun In defax
+R11229:11229 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11227:11227 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+R11234:11235 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11236:11239 Coq.FSets.FSetInterface E lt defax
+R11243:11243 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11241:11241 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+ax 11258:11266 Sfun min_elt_3
+R11286:11289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11279:11281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11270:11276 Coq.FSets.FSetInterface Sfun min_elt defax
+R11278:11278 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11282:11285 Coq.Init.Datatypes <> None constr
+R11290:11294 Coq.FSets.FSetInterface Sfun Empty def
+R11296:11296 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+ax 11348:11356 Sfun max_elt_1
+R11378:11381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11369:11371 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11360:11366 Coq.FSets.FSetInterface Sfun max_elt defax
+R11368:11368 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11372:11375 Coq.Init.Datatypes <> Some constr
+R11377:11377 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11382:11383 Coq.FSets.FSetInterface Sfun In defax
+R11387:11387 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11385:11385 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+ax 11402:11410 Sfun max_elt_2
+R11432:11435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11423:11425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11414:11420 Coq.FSets.FSetInterface Sfun max_elt defax
+R11422:11422 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11426:11429 Coq.Init.Datatypes <> Some constr
+R11431:11431 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11442:11445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11436:11437 Coq.FSets.FSetInterface Sfun In defax
+R11441:11441 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11439:11439 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+R11446:11447 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11448:11451 Coq.FSets.FSetInterface E lt defax
+R11455:11455 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+R11453:11453 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+ax 11470:11478 Sfun max_elt_3
+R11498:11501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11491:11493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11482:11488 Coq.FSets.FSetInterface Sfun max_elt defax
+R11490:11490 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11494:11497 Coq.Init.Datatypes <> None constr
+R11502:11506 Coq.FSets.FSetInterface Sfun Empty def
+R11508:11508 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+ax 11570:11577 Sfun choose_3
+R11598:11601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11589:11591 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11581:11586 Coq.FSets.FSetInterface Sfun choose defax
+R11588:11588 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11592:11595 Coq.Init.Datatypes <> Some constr
+R11597:11597 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11620:11627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11611:11613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11602:11607 Coq.FSets.FSetInterface Sfun choose defax
+R11609:11610 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R11614:11617 Coq.Init.Datatypes <> Some constr
+R11619:11619 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+R11638:11641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11628:11632 Coq.FSets.FSetInterface Sfun Equal def
+R11636:11637 Coq.FSets.FSetInterface <> Sfun.Spec.s' var
+R11634:11634 Coq.FSets.FSetInterface <> Sfun.Spec.s var
+R11642:11645 Coq.FSets.FSetInterface E eq defax
+R11649:11649 Coq.FSets.FSetInterface <> Sfun.Spec.y var
+R11647:11647 Coq.FSets.FSetInterface <> Sfun.Spec.x var
+R11659:11662 Coq.FSets.FSetInterface Sfun.Spec <> sec
+R11816:11819 Coq.FSets.FSetInterface Sfun <> modtype
+modtype 12024:12024 <> S
+R12048:12058 Coq.Structures.OrderedType OrderedType <> mod
+mod 12044:12044 <> S.E
+R12071:12074 Coq.FSets.FSetInterface Sfun <> mod
+R12076:12076 Coq.FSets.FSetInterface S.E <> modtype
+R12083:12083 Coq.FSets.FSetInterface S <> modtype
+modtype 12480:12483 <> Sdep
+R12508:12518 Coq.Structures.OrderedType OrderedType <> mod
+mod 12504:12504 <> Sdep.E
+def 12534:12536 Sdep elt
+R12541:12543 Coq.FSets.FSetInterface Sdep t defax
+ax 12559:12559 Sdep t
+ax 12582:12583 Sdep In
+R12590:12593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12587:12589 Coq.FSets.FSetInterface Sdep elt def
+R12595:12598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12594:12594 Coq.FSets.FSetInterface Sdep t defax
+def 12618:12622 Sdep Equal
+binder 12624:12624 <> s:125
+binder 12626:12627 <> s':126
+R12643:12645 Coq.FSets.FSetInterface Sdep elt def
+binder 12639:12639 <> a:127
+R12654:12658 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12648:12649 Coq.FSets.FSetInterface Sdep In defax
+R12653:12653 Coq.FSets.FSetInterface <> s:125 var
+R12651:12651 Coq.FSets.FSetInterface <> a:127 var
+R12659:12660 Coq.FSets.FSetInterface Sdep In defax
+R12664:12665 Coq.FSets.FSetInterface <> s':126 var
+R12662:12662 Coq.FSets.FSetInterface <> a:127 var
+def 12681:12686 Sdep Subset
+binder 12688:12688 <> s:128
+binder 12690:12691 <> s':129
+R12707:12709 Coq.FSets.FSetInterface Sdep elt def
+binder 12703:12703 <> a:130
+R12718:12721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12712:12713 Coq.FSets.FSetInterface Sdep In defax
+R12717:12717 Coq.FSets.FSetInterface <> s:128 var
+R12715:12715 Coq.FSets.FSetInterface <> a:130 var
+R12722:12723 Coq.FSets.FSetInterface Sdep In defax
+R12727:12728 Coq.FSets.FSetInterface <> s':129 var
+R12725:12725 Coq.FSets.FSetInterface <> a:130 var
+def 12744:12746 Sdep Add
+binder 12748:12748 <> x:131
+binder 12750:12750 <> s:132
+binder 12752:12753 <> s':133
+binder 12765:12765 <> y:134
+R12775:12779 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12768:12769 Coq.FSets.FSetInterface Sdep In defax
+R12773:12774 Coq.FSets.FSetInterface <> s':133 var
+R12771:12771 Coq.FSets.FSetInterface <> y:134 var
+R12788:12791 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12780:12783 Coq.FSets.FSetInterface Sdep eq defax
+R12787:12787 Coq.FSets.FSetInterface <> y:134 var
+R12785:12785 Coq.FSets.FSetInterface <> x:131 var
+R12792:12793 Coq.FSets.FSetInterface Sdep In defax
+R12797:12797 Coq.FSets.FSetInterface <> s:132 var
+R12795:12795 Coq.FSets.FSetInterface <> y:134 var
+def 12813:12817 Sdep Empty
+binder 12819:12819 <> s:135
+R12835:12837 Coq.FSets.FSetInterface Sdep elt def
+binder 12831:12831 <> a:136
+R12840:12841 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12842:12843 Coq.FSets.FSetInterface Sdep In defax
+R12847:12847 Coq.FSets.FSetInterface <> s:135 var
+R12845:12845 Coq.FSets.FSetInterface <> a:136 var
+def 12863:12869 Sdep For_all
+R12879:12882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12876:12878 Coq.FSets.FSetInterface Sdep elt def
+binder 12872:12872 <> P:137
+binder 12889:12889 <> s:138
+binder 12901:12901 <> x:139
+R12910:12913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12904:12905 Coq.FSets.FSetInterface Sdep In defax
+R12909:12909 Coq.FSets.FSetInterface <> s:138 var
+R12907:12907 Coq.FSets.FSetInterface <> x:139 var
+R12914:12914 Coq.FSets.FSetInterface <> P:137 var
+R12916:12916 Coq.FSets.FSetInterface <> x:139 var
+def 12932:12937 Sdep Exists
+R12947:12950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12944:12946 Coq.FSets.FSetInterface Sdep elt def
+binder 12940:12940 <> P:140
+binder 12957:12957 <> s:141
+R12962:12968 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12970:12971 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12969:12969 <> x:142
+R12978:12981 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12972:12973 Coq.FSets.FSetInterface Sdep In defax
+R12977:12977 Coq.FSets.FSetInterface <> s:141 var
+R12975:12975 Coq.FSets.FSetInterface <> x:142 var
+R12982:12982 Coq.FSets.FSetInterface <> P:140 var
+R12984:12984 Coq.FSets.FSetInterface <> x:142 var
+R13013:13017 Coq.FSets.FSetInterface Sdep Equal def
+not 12999:12999 Sdep :::x_'[=]'_x
+def 13071:13072 Sdep eq
+R13077:13080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13076:13076 Coq.FSets.FSetInterface Sdep t defax
+R13082:13085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13081:13081 Coq.FSets.FSetInterface Sdep t defax
+R13094:13098 Coq.FSets.FSetInterface Sdep Equal def
+ax 13113:13114 Sdep lt
+R13119:13122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13118:13118 Coq.FSets.FSetInterface Sdep t defax
+R13124:13127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13123:13123 Coq.FSets.FSetInterface Sdep t defax
+ax 13146:13152 Sdep compare
+R13170:13170 Coq.FSets.FSetInterface Sdep t defax
+binder 13163:13163 <> s:144
+binder 13165:13166 <> s':145
+R13173:13179 Coq.Structures.OrderedType <> Compare ind
+R13189:13190 Coq.FSets.FSetInterface <> s':145 var
+R13187:13187 Coq.FSets.FSetInterface <> s:144 var
+R13184:13185 Coq.FSets.FSetInterface Sdep eq def
+R13181:13182 Coq.FSets.FSetInterface Sdep lt defax
+ax 13206:13212 Sdep eq_refl
+R13227:13227 Coq.FSets.FSetInterface Sdep t defax
+binder 13223:13223 <> s:147
+R13230:13231 Coq.FSets.FSetInterface Sdep eq def
+R13235:13235 Coq.FSets.FSetInterface <> s:147 var
+R13233:13233 Coq.FSets.FSetInterface <> s:147 var
+ax 13250:13255 Sdep eq_sym
+R13273:13273 Coq.FSets.FSetInterface Sdep t defax
+binder 13266:13266 <> s:149
+binder 13268:13269 <> s':150
+R13283:13286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13276:13277 Coq.FSets.FSetInterface Sdep eq def
+R13281:13282 Coq.FSets.FSetInterface <> s':150 var
+R13279:13279 Coq.FSets.FSetInterface <> s:149 var
+R13287:13288 Coq.FSets.FSetInterface Sdep eq def
+R13293:13293 Coq.FSets.FSetInterface <> s:149 var
+R13290:13291 Coq.FSets.FSetInterface <> s':150 var
+ax 13308:13315 Sdep eq_trans
+R13337:13337 Coq.FSets.FSetInterface Sdep t defax
+binder 13326:13326 <> s:152
+binder 13328:13329 <> s':153
+binder 13331:13333 <> s'':154
+R13347:13350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13340:13341 Coq.FSets.FSetInterface Sdep eq def
+R13345:13346 Coq.FSets.FSetInterface <> s':153 var
+R13343:13343 Coq.FSets.FSetInterface <> s:152 var
+R13360:13363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13351:13352 Coq.FSets.FSetInterface Sdep eq def
+R13357:13359 Coq.FSets.FSetInterface <> s'':154 var
+R13354:13355 Coq.FSets.FSetInterface <> s':153 var
+R13364:13365 Coq.FSets.FSetInterface Sdep eq def
+R13369:13371 Coq.FSets.FSetInterface <> s'':154 var
+R13367:13367 Coq.FSets.FSetInterface <> s:152 var
+ax 13386:13393 Sdep lt_trans
+R13415:13415 Coq.FSets.FSetInterface Sdep t defax
+binder 13404:13404 <> s:156
+binder 13406:13407 <> s':157
+binder 13409:13411 <> s'':158
+R13425:13428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13418:13419 Coq.FSets.FSetInterface Sdep lt defax
+R13423:13424 Coq.FSets.FSetInterface <> s':157 var
+R13421:13421 Coq.FSets.FSetInterface <> s:156 var
+R13438:13441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13429:13430 Coq.FSets.FSetInterface Sdep lt defax
+R13435:13437 Coq.FSets.FSetInterface <> s'':158 var
+R13432:13433 Coq.FSets.FSetInterface <> s':157 var
+R13442:13443 Coq.FSets.FSetInterface Sdep lt defax
+R13447:13449 Coq.FSets.FSetInterface <> s'':158 var
+R13445:13445 Coq.FSets.FSetInterface <> s:156 var
+ax 13464:13472 Sdep lt_not_eq
+R13490:13490 Coq.FSets.FSetInterface Sdep t defax
+binder 13483:13483 <> s:160
+binder 13485:13486 <> s':161
+R13500:13503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13493:13494 Coq.FSets.FSetInterface Sdep lt defax
+R13498:13499 Coq.FSets.FSetInterface <> s':161 var
+R13496:13496 Coq.FSets.FSetInterface <> s:160 var
+R13504:13505 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13506:13507 Coq.FSets.FSetInterface Sdep eq def
+R13511:13512 Coq.FSets.FSetInterface <> s':161 var
+R13509:13509 Coq.FSets.FSetInterface <> s:160 var
+ax 13528:13532 Sdep eq_In
+R13548:13548 Coq.FSets.FSetInterface Sdep t defax
+binder 13544:13544 <> s:163
+R13558:13560 Coq.FSets.FSetInterface Sdep elt def
+binder 13552:13552 <> x:164
+binder 13554:13554 <> y:165
+R13572:13575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13564:13567 Coq.FSets.FSetInterface Sdep eq defax
+R13571:13571 Coq.FSets.FSetInterface <> y:165 var
+R13569:13569 Coq.FSets.FSetInterface <> x:164 var
+R13582:13585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13576:13577 Coq.FSets.FSetInterface Sdep In defax
+R13581:13581 Coq.FSets.FSetInterface <> s:163 var
+R13579:13579 Coq.FSets.FSetInterface <> x:164 var
+R13586:13587 Coq.FSets.FSetInterface Sdep In defax
+R13591:13591 Coq.FSets.FSetInterface <> s:163 var
+R13589:13589 Coq.FSets.FSetInterface <> y:165 var
+ax 13607:13611 Sdep empty
+R13615:13615 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13617:13619 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13621:13623 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13631:13631 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13620:13620 Coq.FSets.FSetInterface Sdep t defax
+binder 13616:13616 <> s:167
+R13624:13628 Coq.FSets.FSetInterface Sdep Empty def
+R13630:13630 Coq.FSets.FSetInterface <> s:167 var
+ax 13647:13654 Sdep is_empty
+R13669:13669 Coq.FSets.FSetInterface Sdep t defax
+binder 13665:13665 <> s:169
+R13672:13672 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13680:13684 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13694:13694 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13673:13677 Coq.FSets.FSetInterface Sdep Empty def
+R13679:13679 Coq.FSets.FSetInterface <> s:169 var
+R13685:13686 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13687:13691 Coq.FSets.FSetInterface Sdep Empty def
+R13693:13693 Coq.FSets.FSetInterface <> s:169 var
+ax 13710:13712 Sdep mem
+R13728:13730 Coq.FSets.FSetInterface Sdep elt def
+binder 13724:13724 <> x:171
+R13738:13738 Coq.FSets.FSetInterface Sdep t defax
+binder 13734:13734 <> s:172
+R13742:13742 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13749:13753 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13762:13762 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13743:13744 Coq.FSets.FSetInterface Sdep In defax
+R13748:13748 Coq.FSets.FSetInterface <> s:172 var
+R13746:13746 Coq.FSets.FSetInterface <> x:171 var
+R13754:13755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13756:13757 Coq.FSets.FSetInterface Sdep In defax
+R13761:13761 Coq.FSets.FSetInterface <> s:172 var
+R13759:13759 Coq.FSets.FSetInterface <> x:171 var
+ax 13778:13780 Sdep add
+R13796:13798 Coq.FSets.FSetInterface Sdep elt def
+binder 13792:13792 <> x:174
+R13806:13806 Coq.FSets.FSetInterface Sdep t defax
+binder 13802:13802 <> s:175
+R13810:13810 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13813:13815 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13817:13819 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13830:13830 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13816:13816 Coq.FSets.FSetInterface Sdep t defax
+binder 13811:13812 <> s':176
+R13820:13822 Coq.FSets.FSetInterface Sdep Add def
+R13828:13829 Coq.FSets.FSetInterface <> s':176 var
+R13826:13826 Coq.FSets.FSetInterface <> s:175 var
+R13824:13824 Coq.FSets.FSetInterface <> x:174 var
+ax 13850:13858 Sdep singleton
+R13873:13875 Coq.FSets.FSetInterface Sdep elt def
+binder 13869:13869 <> x:178
+R13878:13878 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13880:13882 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13884:13886 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13922:13922 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13883:13883 Coq.FSets.FSetInterface Sdep t defax
+binder 13879:13879 <> s:179
+R13898:13900 Coq.FSets.FSetInterface Sdep elt def
+binder 13894:13894 <> y:180
+R13909:13913 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13903:13904 Coq.FSets.FSetInterface Sdep In defax
+R13908:13908 Coq.FSets.FSetInterface <> s:179 var
+R13906:13906 Coq.FSets.FSetInterface <> y:180 var
+R13914:13917 Coq.FSets.FSetInterface Sdep eq defax
+R13921:13921 Coq.FSets.FSetInterface <> y:180 var
+R13919:13919 Coq.FSets.FSetInterface <> x:178 var
+ax 13942:13947 Sdep remove
+R13969:13971 Coq.FSets.FSetInterface Sdep elt def
+binder 13965:13965 <> x:182
+R13979:13979 Coq.FSets.FSetInterface Sdep t defax
+binder 13975:13975 <> s:183
+R13989:13989 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13992:13994 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13996:13998 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14047:14047 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13995:13995 Coq.FSets.FSetInterface Sdep t defax
+binder 13990:13991 <> s':184
+R14010:14012 Coq.FSets.FSetInterface Sdep elt def
+binder 14006:14006 <> y:185
+R14022:14026 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14015:14016 Coq.FSets.FSetInterface Sdep In defax
+R14020:14021 Coq.FSets.FSetInterface <> s':184 var
+R14018:14018 Coq.FSets.FSetInterface <> y:185 var
+R14037:14040 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14027:14028 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14029:14032 Coq.FSets.FSetInterface Sdep eq defax
+R14036:14036 Coq.FSets.FSetInterface <> y:185 var
+R14034:14034 Coq.FSets.FSetInterface <> x:182 var
+R14041:14042 Coq.FSets.FSetInterface Sdep In defax
+R14046:14046 Coq.FSets.FSetInterface <> s:183 var
+R14044:14044 Coq.FSets.FSetInterface <> y:185 var
+ax 14067:14071 Sdep union
+R14095:14095 Coq.FSets.FSetInterface Sdep t defax
+binder 14088:14088 <> s:187
+binder 14090:14091 <> s':188
+R14104:14104 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14108:14110 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14112:14114 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14161:14161 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14111:14111 Coq.FSets.FSetInterface Sdep t defax
+binder 14105:14107 <> s'':189
+R14126:14128 Coq.FSets.FSetInterface Sdep elt def
+binder 14122:14122 <> x:190
+R14139:14143 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14131:14132 Coq.FSets.FSetInterface Sdep In defax
+R14136:14138 Coq.FSets.FSetInterface <> s'':189 var
+R14134:14134 Coq.FSets.FSetInterface <> x:190 var
+R14150:14153 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14144:14145 Coq.FSets.FSetInterface Sdep In defax
+R14149:14149 Coq.FSets.FSetInterface <> s:187 var
+R14147:14147 Coq.FSets.FSetInterface <> x:190 var
+R14154:14155 Coq.FSets.FSetInterface Sdep In defax
+R14159:14160 Coq.FSets.FSetInterface <> s':188 var
+R14157:14157 Coq.FSets.FSetInterface <> x:190 var
+ax 14181:14185 Sdep inter
+R14209:14209 Coq.FSets.FSetInterface Sdep t defax
+binder 14202:14202 <> s:192
+binder 14204:14205 <> s':193
+R14218:14218 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14222:14224 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14226:14228 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14275:14275 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14225:14225 Coq.FSets.FSetInterface Sdep t defax
+binder 14219:14221 <> s'':194
+R14240:14242 Coq.FSets.FSetInterface Sdep elt def
+binder 14236:14236 <> x:195
+R14253:14257 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14245:14246 Coq.FSets.FSetInterface Sdep In defax
+R14250:14252 Coq.FSets.FSetInterface <> s'':194 var
+R14248:14248 Coq.FSets.FSetInterface <> x:195 var
+R14264:14267 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14258:14259 Coq.FSets.FSetInterface Sdep In defax
+R14263:14263 Coq.FSets.FSetInterface <> s:192 var
+R14261:14261 Coq.FSets.FSetInterface <> x:195 var
+R14268:14269 Coq.FSets.FSetInterface Sdep In defax
+R14273:14274 Coq.FSets.FSetInterface <> s':193 var
+R14271:14271 Coq.FSets.FSetInterface <> x:195 var
+ax 14295:14298 Sdep diff
+R14322:14322 Coq.FSets.FSetInterface Sdep t defax
+binder 14315:14315 <> s:197
+binder 14317:14318 <> s':198
+R14331:14331 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14335:14337 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14339:14341 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14390:14390 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14338:14338 Coq.FSets.FSetInterface Sdep t defax
+binder 14332:14334 <> s'':199
+R14353:14355 Coq.FSets.FSetInterface Sdep elt def
+binder 14349:14349 <> x:200
+R14366:14370 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14358:14359 Coq.FSets.FSetInterface Sdep In defax
+R14363:14365 Coq.FSets.FSetInterface <> s'':199 var
+R14361:14361 Coq.FSets.FSetInterface <> x:200 var
+R14377:14380 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14371:14372 Coq.FSets.FSetInterface Sdep In defax
+R14376:14376 Coq.FSets.FSetInterface <> s:197 var
+R14374:14374 Coq.FSets.FSetInterface <> x:200 var
+R14381:14382 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14383:14384 Coq.FSets.FSetInterface Sdep In defax
+R14388:14389 Coq.FSets.FSetInterface <> s':198 var
+R14386:14386 Coq.FSets.FSetInterface <> x:200 var
+ax 14406:14410 Sdep equal
+R14428:14428 Coq.FSets.FSetInterface Sdep t defax
+binder 14421:14421 <> s:202
+binder 14423:14424 <> s':203
+R14431:14431 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14438:14442 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14451:14451 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14433:14435 Coq.FSets.FSetInterface Sdep :::x_'[=]'_x not
+R14432:14432 Coq.FSets.FSetInterface <> s:202 var
+R14436:14437 Coq.FSets.FSetInterface <> s':203 var
+R14443:14444 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14446:14448 Coq.FSets.FSetInterface Sdep :::x_'[=]'_x not
+R14445:14445 Coq.FSets.FSetInterface <> s:202 var
+R14449:14450 Coq.FSets.FSetInterface <> s':203 var
+ax 14467:14472 Sdep subset
+R14490:14490 Coq.FSets.FSetInterface Sdep t defax
+binder 14483:14483 <> s:205
+binder 14485:14486 <> s':206
+R14493:14493 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14505:14509 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14523:14523 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14494:14499 Coq.FSets.FSetInterface Sdep Subset def
+R14503:14504 Coq.FSets.FSetInterface <> s':206 var
+R14501:14501 Coq.FSets.FSetInterface <> s:205 var
+R14510:14511 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14512:14517 Coq.FSets.FSetInterface Sdep Subset def
+R14521:14522 Coq.FSets.FSetInterface <> s':206 var
+R14519:14519 Coq.FSets.FSetInterface <> s:205 var
+ax 14543:14548 Sdep filter
+R14573:14576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14570:14572 Coq.FSets.FSetInterface Sdep elt def
+binder 14566:14566 <> P:208
+R14602:14604 Coq.FSets.FSetInterface Sdep elt def
+binder 14598:14598 <> x:209
+R14607:14607 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14611:14615 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14621:14621 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14608:14608 Coq.FSets.FSetInterface <> P:208 var
+R14610:14610 Coq.FSets.FSetInterface <> x:209 var
+R14616:14617 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14618:14618 Coq.FSets.FSetInterface <> P:208 var
+R14620:14620 Coq.FSets.FSetInterface <> x:209 var
+binder 14584:14587 <> Pdec:210
+R14637:14637 Coq.FSets.FSetInterface Sdep t defax
+binder 14633:14633 <> s:211
+R14647:14647 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14650:14652 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14654:14656 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14717:14717 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14653:14653 Coq.FSets.FSetInterface Sdep t defax
+binder 14648:14649 <> s':212
+R14672:14675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14657:14664 Coq.Lists.SetoidList <> compat_P def
+R14671:14671 Coq.FSets.FSetInterface <> P:208 var
+R14666:14669 Coq.FSets.FSetInterface Sdep eq defax
+R14687:14689 Coq.FSets.FSetInterface Sdep elt def
+binder 14683:14683 <> x:213
+R14699:14703 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14692:14693 Coq.FSets.FSetInterface Sdep In defax
+R14697:14698 Coq.FSets.FSetInterface <> s':212 var
+R14695:14695 Coq.FSets.FSetInterface <> x:213 var
+R14710:14713 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14704:14705 Coq.FSets.FSetInterface Sdep In defax
+R14709:14709 Coq.FSets.FSetInterface <> s:211 var
+R14707:14707 Coq.FSets.FSetInterface <> x:213 var
+R14714:14714 Coq.FSets.FSetInterface <> P:208 var
+R14716:14716 Coq.FSets.FSetInterface <> x:213 var
+ax 14737:14743 Sdep for_all
+R14768:14771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14765:14767 Coq.FSets.FSetInterface Sdep elt def
+binder 14761:14761 <> P:215
+R14797:14799 Coq.FSets.FSetInterface Sdep elt def
+binder 14793:14793 <> x:216
+R14802:14802 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14806:14810 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14816:14816 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14803:14803 Coq.FSets.FSetInterface <> P:215 var
+R14805:14805 Coq.FSets.FSetInterface <> x:216 var
+R14811:14812 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14813:14813 Coq.FSets.FSetInterface <> P:215 var
+R14815:14815 Coq.FSets.FSetInterface <> x:216 var
+binder 14779:14782 <> Pdec:217
+R14832:14832 Coq.FSets.FSetInterface Sdep t defax
+binder 14828:14828 <> s:218
+R14842:14842 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14873:14877 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14910:14910 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14858:14861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14843:14850 Coq.Lists.SetoidList <> compat_P def
+R14857:14857 Coq.FSets.FSetInterface <> P:215 var
+R14852:14855 Coq.FSets.FSetInterface Sdep eq defax
+R14862:14868 Coq.FSets.FSetInterface Sdep For_all def
+R14872:14872 Coq.FSets.FSetInterface <> s:218 var
+R14870:14870 Coq.FSets.FSetInterface <> P:215 var
+R14893:14896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14878:14885 Coq.Lists.SetoidList <> compat_P def
+R14892:14892 Coq.FSets.FSetInterface <> P:215 var
+R14887:14890 Coq.FSets.FSetInterface Sdep eq defax
+R14897:14898 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14899:14905 Coq.FSets.FSetInterface Sdep For_all def
+R14909:14909 Coq.FSets.FSetInterface <> s:218 var
+R14907:14907 Coq.FSets.FSetInterface <> P:215 var
+ax 14930:14936 Sdep exists_
+R14961:14964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14958:14960 Coq.FSets.FSetInterface Sdep elt def
+binder 14954:14954 <> P:220
+R14990:14992 Coq.FSets.FSetInterface Sdep elt def
+binder 14986:14986 <> x:221
+R14995:14995 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14999:15003 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15009:15009 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14996:14996 Coq.FSets.FSetInterface <> P:220 var
+R14998:14998 Coq.FSets.FSetInterface <> x:221 var
+R15004:15005 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15006:15006 Coq.FSets.FSetInterface <> P:220 var
+R15008:15008 Coq.FSets.FSetInterface <> x:221 var
+binder 14972:14975 <> Pdec:222
+R15025:15025 Coq.FSets.FSetInterface Sdep t defax
+binder 15021:15021 <> s:223
+R15035:15035 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15065:15069 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15101:15101 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15051:15054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15036:15043 Coq.Lists.SetoidList <> compat_P def
+R15050:15050 Coq.FSets.FSetInterface <> P:220 var
+R15045:15048 Coq.FSets.FSetInterface Sdep eq defax
+R15055:15060 Coq.FSets.FSetInterface Sdep Exists def
+R15064:15064 Coq.FSets.FSetInterface <> s:223 var
+R15062:15062 Coq.FSets.FSetInterface <> P:220 var
+R15085:15088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15070:15077 Coq.Lists.SetoidList <> compat_P def
+R15084:15084 Coq.FSets.FSetInterface <> P:220 var
+R15079:15082 Coq.FSets.FSetInterface Sdep eq defax
+R15089:15090 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15091:15096 Coq.FSets.FSetInterface Sdep Exists def
+R15100:15100 Coq.FSets.FSetInterface <> s:223 var
+R15098:15098 Coq.FSets.FSetInterface <> P:220 var
+ax 15121:15129 Sdep partition
+R15154:15157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15151:15153 Coq.FSets.FSetInterface Sdep elt def
+binder 15147:15147 <> P:225
+R15183:15185 Coq.FSets.FSetInterface Sdep elt def
+binder 15179:15179 <> x:226
+R15188:15188 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15192:15196 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15202:15202 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15189:15189 Coq.FSets.FSetInterface <> P:225 var
+R15191:15191 Coq.FSets.FSetInterface <> x:226 var
+R15197:15198 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15199:15199 Coq.FSets.FSetInterface <> P:225 var
+R15201:15201 Coq.FSets.FSetInterface <> x:226 var
+binder 15165:15168 <> Pdec:227
+R15218:15218 Coq.FSets.FSetInterface Sdep t defax
+binder 15214:15214 <> s:228
+R15228:15228 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15238:15240 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15246:15254 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15421:15421 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15242:15244 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15241:15241 Coq.FSets.FSetInterface Sdep t defax
+R15245:15245 Coq.FSets.FSetInterface Sdep t defax
+binder 15229:15237 <> partition:229
+R15271:15279 Coq.FSets.FSetInterface <> partition:229 var
+binder 15260:15261 <> s1:230
+binder 15264:15265 <> s2:231
+R15305:15314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15290:15297 Coq.Lists.SetoidList <> compat_P def
+R15304:15304 Coq.FSets.FSetInterface <> P:225 var
+R15299:15302 Coq.FSets.FSetInterface Sdep eq defax
+R15327:15336 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15315:15321 Coq.FSets.FSetInterface Sdep For_all def
+R15325:15326 Coq.FSets.FSetInterface <> s1:230 var
+R15323:15323 Coq.FSets.FSetInterface <> P:225 var
+R15364:15374 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15420:15420 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15337:15343 Coq.FSets.FSetInterface Sdep For_all def
+R15362:15363 Coq.FSets.FSetInterface <> s2:231 var
+binder 15350:15350 <> x:232
+R15355:15356 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15357:15357 Coq.FSets.FSetInterface <> P:225 var
+R15359:15359 Coq.FSets.FSetInterface <> x:232 var
+R15386:15388 Coq.FSets.FSetInterface Sdep elt def
+binder 15382:15382 <> x:233
+R15397:15401 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15391:15392 Coq.FSets.FSetInterface Sdep In defax
+R15396:15396 Coq.FSets.FSetInterface <> s:228 var
+R15394:15394 Coq.FSets.FSetInterface <> x:233 var
+R15409:15412 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15402:15403 Coq.FSets.FSetInterface Sdep In defax
+R15407:15408 Coq.FSets.FSetInterface <> s1:230 var
+R15405:15405 Coq.FSets.FSetInterface <> x:233 var
+R15413:15414 Coq.FSets.FSetInterface Sdep In defax
+R15418:15419 Coq.FSets.FSetInterface <> s2:231 var
+R15416:15416 Coq.FSets.FSetInterface <> x:233 var
+ax 15441:15448 Sdep elements
+R15469:15469 Coq.FSets.FSetInterface Sdep t defax
+binder 15465:15465 <> s:235
+R15478:15478 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15480:15482 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15491:15499 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15556:15556 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15483:15486 Coq.Init.Datatypes <> list ind
+R15488:15490 Coq.FSets.FSetInterface Sdep elt def
+binder 15479:15479 <> l:236
+R15511:15515 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15555:15555 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15500:15503 Coq.Sorting.Sorted <> sort abbrev
+R15510:15510 Coq.FSets.FSetInterface <> l:236 var
+R15505:15508 Coq.FSets.FSetInterface Sdep lt defax
+R15527:15529 Coq.FSets.FSetInterface Sdep elt def
+binder 15523:15523 <> x:237
+R15538:15542 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15532:15533 Coq.FSets.FSetInterface Sdep In defax
+R15537:15537 Coq.FSets.FSetInterface <> s:235 var
+R15535:15535 Coq.FSets.FSetInterface <> x:237 var
+R15543:15545 Coq.Lists.SetoidList <> InA ind
+R15554:15554 Coq.FSets.FSetInterface <> l:236 var
+R15552:15552 Coq.FSets.FSetInterface <> x:237 var
+R15547:15550 Coq.FSets.FSetInterface Sdep eq defax
+ax 15576:15579 Sdep fold
+binder 15597:15597 <> A:239
+R15615:15618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15612:15614 Coq.FSets.FSetInterface Sdep elt def
+R15620:15623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15619:15619 Coq.FSets.FSetInterface <> A:239 var
+R15624:15624 Coq.FSets.FSetInterface <> A:239 var
+binder 15608:15608 <> f:240
+R15632:15632 Coq.FSets.FSetInterface Sdep t defax
+binder 15628:15628 <> s:241
+R15640:15640 Coq.FSets.FSetInterface <> A:239 var
+binder 15636:15636 <> i:242
+R15650:15650 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15652:15654 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15656:15658 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15740:15740 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15655:15655 Coq.FSets.FSetInterface <> A:239 var
+binder 15651:15651 <> r:243
+R15672:15679 Coq.FSets.FSetInterface Sdep elements defax
+R15681:15681 Coq.FSets.FSetInterface <> s:241 var
+binder 15664:15664 <> l:244
+R15705:15707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15704:15704 Coq.FSets.FSetInterface <> r:243 var
+R15708:15716 Coq.Lists.List <> fold_left def
+R15739:15739 Coq.FSets.FSetInterface <> i:242 var
+R15737:15737 Coq.FSets.FSetInterface <> l:244 var
+binder 15723:15723 <> a:245
+binder 15725:15725 <> e:246
+R15730:15730 Coq.FSets.FSetInterface <> f:240 var
+R15734:15734 Coq.FSets.FSetInterface <> a:245 var
+R15732:15732 Coq.FSets.FSetInterface <> e:246 var
+ax 15760:15767 Sdep cardinal
+R15788:15788 Coq.FSets.FSetInterface Sdep t defax
+binder 15784:15784 <> s:248
+R15797:15797 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15799:15801 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15805:15807 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15847:15848 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15802:15804 Coq.Init.Datatypes <> nat ind
+binder 15798:15798 <> r:249
+R15821:15828 Coq.FSets.FSetInterface Sdep elements defax
+R15830:15830 Coq.FSets.FSetInterface <> s:248 var
+binder 15813:15813 <> l:250
+R15836:15838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15835:15835 Coq.FSets.FSetInterface <> r:249 var
+R15839:15844 Coq.Init.Datatypes <> length def
+R15846:15846 Coq.FSets.FSetInterface <> l:250 var
+ax 15868:15874 Sdep min_elt
+R15895:15895 Coq.FSets.FSetInterface Sdep t defax
+binder 15891:15891 <> s:252
+R15957:15960 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R15968:15968 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R15904:15904 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15906:15908 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15912:15914 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15956:15956 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15909:15911 Coq.FSets.FSetInterface Sdep elt def
+binder 15905:15905 <> x:253
+R15921:15924 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15915:15916 Coq.FSets.FSetInterface Sdep In defax
+R15920:15920 Coq.FSets.FSetInterface <> s:252 var
+R15918:15918 Coq.FSets.FSetInterface <> x:253 var
+R15925:15931 Coq.FSets.FSetInterface Sdep For_all def
+R15955:15955 Coq.FSets.FSetInterface <> s:252 var
+binder 15938:15938 <> y:254
+R15943:15944 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15945:15948 Coq.FSets.FSetInterface Sdep lt defax
+R15952:15952 Coq.FSets.FSetInterface <> x:253 var
+R15950:15950 Coq.FSets.FSetInterface <> y:254 var
+R15961:15965 Coq.FSets.FSetInterface Sdep Empty def
+R15967:15967 Coq.FSets.FSetInterface <> s:252 var
+ax 15988:15994 Sdep max_elt
+R16015:16015 Coq.FSets.FSetInterface Sdep t defax
+binder 16011:16011 <> s:256
+R16077:16080 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16088:16088 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16024:16024 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16026:16028 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16032:16034 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16076:16076 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16029:16031 Coq.FSets.FSetInterface Sdep elt def
+binder 16025:16025 <> x:257
+R16041:16044 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16035:16036 Coq.FSets.FSetInterface Sdep In defax
+R16040:16040 Coq.FSets.FSetInterface <> s:256 var
+R16038:16038 Coq.FSets.FSetInterface <> x:257 var
+R16045:16051 Coq.FSets.FSetInterface Sdep For_all def
+R16075:16075 Coq.FSets.FSetInterface <> s:256 var
+binder 16058:16058 <> y:258
+R16063:16064 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16065:16068 Coq.FSets.FSetInterface Sdep lt defax
+R16072:16072 Coq.FSets.FSetInterface <> y:258 var
+R16070:16070 Coq.FSets.FSetInterface <> x:257 var
+R16081:16085 Coq.FSets.FSetInterface Sdep Empty def
+R16087:16087 Coq.FSets.FSetInterface <> s:256 var
+ax 16104:16109 Sdep choose
+R16124:16124 Coq.FSets.FSetInterface Sdep t defax
+binder 16120:16120 <> s:260
+R16145:16148 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16156:16156 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16127:16127 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16129:16131 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16135:16137 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16144:16144 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16132:16134 Coq.FSets.FSetInterface Sdep elt def
+binder 16128:16128 <> x:261
+R16138:16139 Coq.FSets.FSetInterface Sdep In defax
+R16143:16143 Coq.FSets.FSetInterface <> s:260 var
+R16141:16141 Coq.FSets.FSetInterface <> x:261 var
+R16149:16153 Coq.FSets.FSetInterface Sdep Empty def
+R16155:16155 Coq.FSets.FSetInterface <> s:260 var
+ax 16305:16316 Sdep choose_equal
+binder 16327:16327 <> s:263
+binder 16329:16330 <> s':264
+R16343:16351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16333:16337 Coq.FSets.FSetInterface Sdep Equal def
+R16341:16342 Coq.FSets.FSetInterface <> s':264 var
+R16339:16339 Coq.FSets.FSetInterface <> s:263 var
+R16368:16373 Coq.FSets.FSetInterface Sdep choose defax
+R16375:16376 Coq.FSets.FSetInterface <> s':264 var
+R16358:16363 Coq.FSets.FSetInterface Sdep choose defax
+R16365:16365 Coq.FSets.FSetInterface <> s:263 var
+R16392:16397 Coq.Init.Specif <> inleft constr
+R16400:16404 Coq.Init.Specif <> exist constr
+R16414:16419 Coq.Init.Specif <> inleft constr
+R16422:16426 Coq.Init.Specif <> exist constr
+R16439:16442 Coq.FSets.FSetInterface Sdep eq defax
+R16458:16464 Coq.Init.Specif <> inright constr
+R16469:16475 Coq.Init.Specif <> inright constr
+R16483:16486 Coq.Init.Logic <> True ind
+R16506:16510 Coq.Init.Logic <> False ind
+R16527:16530 Coq.FSets.FSetInterface Sdep <> modtype

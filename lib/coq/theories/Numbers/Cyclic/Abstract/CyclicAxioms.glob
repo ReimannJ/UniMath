@@ -1,0 +1,1692 @@
+DIGEST 94f1d825da64c6473c00fa8c607585a1
+FCoq.Numbers.Cyclic.Abstract.CyclicAxioms
+R1063:1068 Coq.ZArith.ZArith <> <> lib
+R1086:1088 Coq.micromega.Lia <> <> lib
+R1106:1115 Coq.ZArith.Znumtheory <> <> lib
+R1133:1142 Coq.ZArith.Zpow_facts <> <> lib
+R1160:1169 Coq.Numbers.Cyclic.Abstract.DoubleType <> <> lib
+mod 1278:1280 <> ZnZ
+rec 1315:1317 ZnZ Ops
+proj 1382:1387 ZnZ digits
+proj 1405:1411 ZnZ zdigits
+proj 1421:1424 ZnZ to_Z
+proj 1442:1447 ZnZ of_pos
+proj 1513:1517 ZnZ head0
+proj 1582:1586 ZnZ tail0
+proj 1681:1684 ZnZ zero
+proj 1695:1697 ZnZ one
+proj 1709:1717 ZnZ minus_one
+proj 1799:1805 ZnZ compare
+proj 1839:1841 ZnZ eq0
+proj 1907:1911 ZnZ opp_c
+proj 1939:1941 ZnZ opp
+proj 1965:1973 ZnZ opp_carry
+proj 2026:2031 ZnZ succ_c
+proj 2058:2062 ZnZ add_c
+proj 2095:2105 ZnZ add_carry_c
+proj 2132:2135 ZnZ succ
+proj 2158:2160 ZnZ add
+proj 2189:2197 ZnZ add_carry
+proj 2221:2226 ZnZ pred_c
+proj 2253:2257 ZnZ sub_c
+proj 2290:2300 ZnZ sub_carry_c
+proj 2327:2330 ZnZ pred
+proj 2353:2355 ZnZ sub
+proj 2384:2392 ZnZ sub_carry
+proj 2416:2420 ZnZ mul_c
+proj 2452:2454 ZnZ mul
+proj 2483:2490 ZnZ square_c
+proj 2554:2558 ZnZ div21
+proj 2592:2597 ZnZ div_gt
+proj 2662:2664 ZnZ div
+proj 2698:2706 ZnZ modulo_gt
+proj 2764:2769 ZnZ modulo
+proj 2796:2801 ZnZ gcd_gt
+proj 2862:2864 ZnZ gcd
+proj 3065:3075 ZnZ add_mul_div
+proj 3140:3146 ZnZ pos_mod
+proj 3172:3178 ZnZ is_even
+proj 3223:3227 ZnZ sqrt2
+proj 3264:3267 ZnZ sqrt
+proj 3319:3321 ZnZ lor
+proj 3350:3353 ZnZ land
+proj 3381:3384 ZnZ lxor
+binder 1320:1320 <> t:1
+R1391:1398 Coq.Numbers.BinNums <> positive ind
+R1414:1414 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1431:1434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1430:1430 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1435:1435 Coq.Numbers.BinNums <> Z ind
+R1459:1462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1451:1458 Coq.Numbers.BinNums <> positive ind
+R1464:1466 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1463:1463 Coq.Numbers.BinNums <> N ind
+R1467:1467 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1523:1526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1522:1522 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1527:1527 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1592:1595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1591:1591 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1596:1596 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1688:1688 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1702:1702 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1721:1721 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1814:1817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1813:1813 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1819:1822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1818:1818 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1823:1832 Coq.Init.Datatypes <> comparison ind
+R1854:1857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1853:1853 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1858:1861 Coq.Init.Datatypes <> bool ind
+R1922:1925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1921:1921 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1926:1930 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R1932:1932 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1954:1957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1953:1953 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1958:1958 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1980:1983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1979:1979 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R1984:1984 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2041:2044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2040:2040 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2045:2049 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2051:2051 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2073:2076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2072:2072 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2078:2081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2077:2077 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2082:2086 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2088:2088 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2110:2113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2109:2109 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2115:2118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2114:2114 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2119:2123 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2125:2125 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2147:2150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2146:2146 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2151:2151 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2173:2176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2172:2172 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2178:2181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2177:2177 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2182:2182 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2204:2207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2203:2203 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2209:2212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2208:2208 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2213:2213 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2236:2239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2235:2235 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2240:2244 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2246:2246 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2268:2271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2267:2267 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2273:2276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2272:2272 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2277:2281 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2283:2283 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2305:2308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2304:2304 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2310:2313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2309:2309 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2314:2318 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R2320:2320 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2342:2345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2341:2341 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2346:2346 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2368:2371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2367:2367 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2373:2376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2372:2372 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2377:2377 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2399:2402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2398:2398 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2404:2407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2403:2403 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2408:2408 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2431:2434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2430:2430 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2436:2439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2435:2435 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2440:2443 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z variant
+R2445:2445 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2467:2470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2466:2466 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2472:2475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2471 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2476:2476 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2498:2501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2497:2497 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2502:2505 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z variant
+R2507:2507 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2569:2572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2568:2568 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2574:2577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2573:2573 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2579:2582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2578:2578 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2584:2584 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2583:2583 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2585:2585 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2607:2610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2606:2606 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2612:2615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2611:2611 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2617:2619 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2616:2616 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2620:2620 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2677:2680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2676:2676 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2682:2685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2681:2681 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2687:2689 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2686:2686 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2690:2690 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2713:2716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2712:2712 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2718:2721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2717:2717 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2722:2722 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2779:2782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2778:2778 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2784:2787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2783:2783 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2788:2788 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2811:2814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2810:2810 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2816:2819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2815:2815 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2820:2820 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2877:2880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2876:2876 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2882:2885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2881:2881 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R2886:2886 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3080:3083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3079:3079 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3085:3088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3084:3084 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3090:3093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3089:3089 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3094:3094 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3155:3158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3154:3154 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3160:3163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3159:3159 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3164:3164 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3187:3190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3186:3186 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3191:3194 Coq.Init.Datatypes <> bool ind
+R3238:3241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3237:3237 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3243:3246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3242:3242 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3248:3250 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3247:3247 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3251:3255 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry abbrev
+R3257:3257 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3279:3282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3278:3278 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3283:3283 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3334:3337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3333:3333 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3339:3342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3338:3338 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3343:3343 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3365:3368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3364:3364 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3370:3373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3369:3369 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3374:3374 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3396:3399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3395:3395 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3401:3404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3400:3400 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+R3405:3405 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:1 var
+sec 3421:3425 ZnZ Specs
+binder 3438:3438 <> t:47
+R3453:3455 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Ops class
+R3457:3457 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:47 var
+binder 3447:3449 <> ops:48
+R3486:3489 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+not 3472:3472 ZnZ.Specs :::'[|'_x_'|]'
+var 3530:3531 ZnZ.Specs wB
+R3536:3539 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R3541:3546 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R3578:3589 Coq.Numbers.Cyclic.Abstract.DoubleType <> interp_carry def
+R3596:3599 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R3593:3594 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+not 3560:3560 ZnZ.Specs :::'[+|'_x_'|]'
+R3663:3674 Coq.Numbers.Cyclic.Abstract.DoubleType <> interp_carry def
+R3684:3687 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R3681:3682 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+not 3645:3645 ZnZ.Specs :::'[-|'_x_'|]'
+R3752:3760 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R3765:3768 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R3762:3763 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+not 3733:3733 ZnZ.Specs :::'[||'_x_'||]'
+rec 3811:3815 ZnZ Specs
+proj 3873:3881 ZnZ spec_to_Z
+proj 3920:3930 ZnZ spec_of_pos
+proj 4021:4032 ZnZ spec_zdigits
+proj 4069:4090 ZnZ spec_more_than_1_digit
+proj 4139:4144 ZnZ spec_0
+proj 4168:4173 ZnZ spec_1
+proj 4196:4202 ZnZ spec_m1
+proj 4256:4267 ZnZ spec_compare
+proj 4432:4439 ZnZ spec_eq0
+proj 4522:4531 ZnZ spec_opp_c
+proj 4572:4579 ZnZ spec_opp
+proj 4626:4639 ZnZ spec_opp_carry
+proj 4692:4702 ZnZ spec_succ_c
+proj 4747:4756 ZnZ spec_add_c
+proj 4809:4824 ZnZ spec_add_carry_c
+proj 4886:4894 ZnZ spec_succ
+proj 4945:4952 ZnZ spec_add
+proj 5010:5023 ZnZ spec_add_carry
+proj 5094:5104 ZnZ spec_pred_c
+proj 5149:5158 ZnZ spec_sub_c
+proj 5210:5225 ZnZ spec_sub_carry_c
+proj 5287:5295 ZnZ spec_pred
+proj 5346:5353 ZnZ spec_sub
+proj 5411:5424 ZnZ spec_sub_carry
+proj 5495:5504 ZnZ spec_mul_c
+proj 5559:5566 ZnZ spec_mul
+proj 5624:5636 ZnZ spec_square_c
+proj 5729:5738 ZnZ spec_div21
+proj 5923:5933 ZnZ spec_div_gt
+proj 6081:6088 ZnZ spec_div
+proj 6217:6230 ZnZ spec_modulo_gt
+proj 6323:6333 ZnZ spec_modulo
+proj 6408:6418 ZnZ spec_gcd_gt
+proj 6497:6504 ZnZ spec_gcd
+proj 6586:6596 ZnZ spec_head00
+proj 6654:6663 ZnZ spec_head0
+proj 6739:6749 ZnZ spec_tail00
+proj 6807:6816 ZnZ spec_tail0
+proj 6919:6934 ZnZ spec_add_mul_div
+proj 7109:7120 ZnZ spec_pos_mod
+proj 7203:7214 ZnZ spec_is_even
+proj 7294:7303 ZnZ spec_sqrt2
+proj 7459:7467 ZnZ spec_sqrt
+proj 7540:7547 ZnZ spec_lor
+proj 7600:7608 ZnZ spec_land
+proj 7663:7671 ZnZ spec_lxor
+binder 3894:3894 <> x:50
+R3898:3901 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3909:3911 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3902:3904 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R3906:3908 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R3905:3905 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:50 var
+R3902:3904 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R3906:3908 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R3905:3905 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:50 var
+R3912:3913 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 3941:3941 <> p:52
+R3961:3963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3955:3958 Coq.Numbers.BinNums <> Zpos constr
+R3960:3960 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:52 var
+R3992:3994 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3964:3964 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3988:3989 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3965:3970 Coq.ZArith.BinInt Z of_N def
+R3973:3975 Coq.Init.Datatypes <> fst def
+R3978:3983 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R3985:3985 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:52 var
+R3990:3991 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R3995:3997 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4012:4014 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R3998:4000 Coq.Init.Datatypes <> snd def
+R4003:4008 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R4010:4010 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:52 var
+R4049:4051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4036:4038 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4046:4048 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4039:4045 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zdigits meth
+R4052:4055 Coq.Numbers.BinNums <> Zpos constr
+R4057:4062 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R4094:4096 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4097:4100 Coq.Numbers.BinNums <> Zpos constr
+R4102:4107 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R4158:4160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4150:4151 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4156:4157 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4152:4155 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+R4186:4188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4179:4180 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4184:4185 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4181:4183 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ one meth
+R4219:4221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4206:4207 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4217:4218 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4208:4216 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ minus_one meth
+R4224:4226 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4222:4223 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 4278:4278 <> x:59
+binder 4280:4280 <> y:60
+R4294:4297 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4312:4312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4283:4289 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ compare meth
+R4293:4293 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:60 var
+R4291:4291 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:59 var
+R4303:4306 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R4298:4299 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4301:4302 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4300:4300 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:59 var
+R4307:4308 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4310:4311 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4309:4309 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:60 var
+binder 4450:4450 <> x:62
+R4465:4468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4458:4460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4453:4455 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R4457:4457 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:62 var
+R4461:4464 Coq.Init.Datatypes <> true constr
+R4474:4476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4469:4470 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4472:4473 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4471:4471 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:62 var
+binder 4542:4542 <> x:64
+R4557:4559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4545:4547 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R4555:4556 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R4548:4552 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ opp_c meth
+R4554:4554 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:64 var
+R4560:4560 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4561:4562 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4564:4565 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4563:4563 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:64 var
+binder 4590:4590 <> x:66
+R4602:4604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4593:4594 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4600:4601 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4595:4597 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ opp meth
+R4599:4599 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:66 var
+R4605:4605 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4612:4617 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4606:4606 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4607:4608 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4610:4611 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4609:4609 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:66 var
+R4618:4619 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 4650:4650 <> x:68
+R4668:4670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4653:4654 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4666:4667 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4655:4663 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ opp_carry meth
+R4665:4665 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:68 var
+R4681:4683 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4673:4675 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4671:4672 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R4676:4677 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4679:4680 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4678:4678 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:68 var
+binder 4713:4713 <> x:70
+R4729:4731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4716:4718 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4727:4728 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4719:4724 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ succ_c meth
+R4726:4726 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:70 var
+R4737:4739 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4732:4733 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4735:4736 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4734:4734 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:70 var
+binder 4768:4768 <> x:72
+binder 4770:4770 <> y:73
+R4787:4789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4773:4775 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4785:4786 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4776:4780 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add_c meth
+R4784:4784 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:73 var
+R4782:4782 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:72 var
+R4795:4797 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4790:4791 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4793:4794 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4792:4792 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:72 var
+R4798:4799 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4801:4802 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4800:4800 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:73 var
+binder 4835:4835 <> x:75
+binder 4837:4837 <> y:76
+R4860:4862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4840:4842 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4858:4859 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R4843:4853 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add_carry_c meth
+R4857:4857 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:76 var
+R4855:4855 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:75 var
+R4876:4878 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4868:4870 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4863:4864 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4866:4867 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4865:4865 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:75 var
+R4871:4872 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4874:4875 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4873:4873 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:76 var
+binder 4905:4905 <> x:78
+R4918:4920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4908:4909 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4916:4917 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4910:4913 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ succ meth
+R4915:4915 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:78 var
+R4921:4921 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4931:4936 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4927:4929 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4922:4923 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4925:4926 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4924:4924 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:78 var
+R4937:4938 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 4963:4963 <> x:80
+binder 4965:4965 <> y:81
+R4979:4981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4968:4969 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4977:4978 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4970:4972 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add meth
+R4976:4976 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:81 var
+R4974:4974 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:80 var
+R4982:4982 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4996:5001 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4988:4990 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4983:4984 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4986:4987 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4985:4985 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:80 var
+R4991:4992 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4994:4995 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R4993:4993 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:81 var
+R5002:5003 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5036:5036 <> x:83
+binder 5038:5038 <> y:84
+R5058:5060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5041:5042 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5056:5057 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5043:5051 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add_carry meth
+R5055:5055 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:84 var
+R5053:5053 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:83 var
+R5061:5061 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5079:5084 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5075:5077 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5067:5069 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5062:5063 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5065:5066 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5064:5064 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:83 var
+R5070:5071 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5073:5074 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5072:5072 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:84 var
+R5085:5086 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5115:5115 <> x:86
+R5131:5133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5118:5120 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5129:5130 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5121:5126 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ pred_c meth
+R5128:5128 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:86 var
+R5139:5141 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5134:5135 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5137:5138 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5136:5136 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:86 var
+binder 5169:5169 <> x:88
+binder 5171:5171 <> y:89
+R5188:5190 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5174:5176 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5186:5187 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5177:5181 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub_c meth
+R5185:5185 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:89 var
+R5183:5183 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:88 var
+R5196:5198 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5191:5192 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5194:5195 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5193:5193 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:88 var
+R5199:5200 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5202:5203 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5201:5201 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:89 var
+binder 5236:5236 <> x:91
+binder 5238:5238 <> y:92
+R5261:5263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5241:5243 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5259:5260 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[-|'_x_'|]' not
+R5244:5254 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub_carry_c meth
+R5258:5258 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:92 var
+R5256:5256 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:91 var
+R5277:5279 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5269:5271 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5264:5265 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5267:5268 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5266:5266 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:91 var
+R5272:5273 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5275:5276 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5274:5274 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:92 var
+binder 5306:5306 <> x:94
+R5319:5321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5309:5310 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5317:5318 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5311:5314 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ pred meth
+R5316:5316 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:94 var
+R5322:5322 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5332:5337 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5328:5330 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5323:5324 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5326:5327 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5325:5325 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:94 var
+R5338:5339 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5364:5364 <> x:96
+binder 5366:5366 <> y:97
+R5380:5382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5369:5370 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5378:5379 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5371:5373 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub meth
+R5377:5377 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:97 var
+R5375:5375 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:96 var
+R5383:5383 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5397:5402 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5389:5391 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5384:5385 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5387:5388 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5386:5386 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:96 var
+R5392:5393 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5395:5396 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5394:5394 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:97 var
+R5403:5404 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5437:5437 <> x:99
+binder 5439:5439 <> y:100
+R5459:5461 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5442:5443 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5457:5458 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5444:5452 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub_carry meth
+R5456:5456 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:100 var
+R5454:5454 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:99 var
+R5462:5462 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5480:5485 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5476:5478 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5468:5470 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5463:5464 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5466:5467 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5465:5465 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:99 var
+R5471:5472 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5474:5475 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5473:5473 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:100 var
+R5486:5487 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5515:5515 <> x:102
+binder 5517:5517 <> y:103
+R5537:5539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5520:5523 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R5533:5536 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R5524:5528 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ mul_c meth
+R5532:5532 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:103 var
+R5530:5530 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:102 var
+R5545:5547 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5540:5541 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5543:5544 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5542:5542 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:102 var
+R5548:5549 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5551:5552 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5550:5550 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:103 var
+binder 5577:5577 <> x:105
+binder 5579:5579 <> y:106
+R5593:5595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5582:5583 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5591:5592 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5584:5586 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ mul meth
+R5590:5590 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:106 var
+R5588:5588 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:105 var
+R5596:5596 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5610:5615 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5602:5604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5597:5598 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5600:5601 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5599:5599 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:105 var
+R5605:5606 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5608:5609 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5607:5607 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:106 var
+R5616:5617 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 5647:5647 <> x:108
+R5667:5669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5650:5653 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R5664:5666 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R5654:5661 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ square_c meth
+R5663:5663 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:108 var
+R5675:5677 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5670:5671 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5673:5674 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5672:5672 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:108 var
+R5678:5679 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5681:5682 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5680:5680 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:108 var
+binder 5749:5750 <> a1:110
+binder 5752:5753 <> a2:111
+binder 5755:5755 <> b:112
+R5777:5786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5768:5771 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5766:5766 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5764:5765 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R5772:5773 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5775:5776 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5774:5774 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:112 var
+R5801:5810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5793:5795 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5787:5788 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5791:5792 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5789:5790 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a1:110 var
+R5796:5797 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5799:5800 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5798:5798 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:112 var
+R5824:5828 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ div21 meth
+R5836:5836 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:112 var
+R5833:5834 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a2:111 var
+R5830:5831 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a1:110 var
+binder 5816:5816 <> q:113
+binder 5818:5818 <> r:114
+R5889:5898 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5865:5867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5857:5858 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5853:5854 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5847:5848 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5851:5852 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5849:5850 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a1:110 var
+R5855:5856 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R5859:5860 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5863:5864 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5861:5862 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a2:111 var
+R5881:5883 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5873:5875 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5868:5869 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5871:5872 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5870:5870 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> q:113 var
+R5876:5877 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5879:5880 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5878:5878 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:112 var
+R5884:5885 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5887:5888 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5886:5886 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:114 var
+R5900:5903 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5909:5911 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5904:5905 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5907:5908 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5906:5906 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:114 var
+R5904:5905 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5907:5908 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5906:5906 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:114 var
+R5912:5913 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5915:5916 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5914:5914 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:112 var
+binder 5944:5944 <> a:116
+binder 5946:5946 <> b:117
+R5962:5965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5954:5956 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R5949:5950 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5952:5953 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5951:5951 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:116 var
+R5957:5958 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5960:5961 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5959:5959 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:117 var
+R5975:5984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5967:5969 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5970:5971 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5973:5974 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R5972:5972 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:117 var
+R5998:6003 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ div_gt meth
+R6007:6007 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:117 var
+R6005:6005 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:116 var
+binder 5990:5990 <> q:118
+binder 5992:5992 <> r:119
+R6047:6056 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6023:6025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6018:6019 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6021:6022 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6020:6020 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:116 var
+R6039:6041 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6031:6033 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6026:6027 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6029:6030 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6028:6028 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> q:118 var
+R6034:6035 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6037:6038 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6036:6036 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:117 var
+R6042:6043 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6045:6046 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6044:6044 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:119 var
+R6058:6061 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6067:6069 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6062:6063 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6065:6066 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6064:6064 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:119 var
+R6062:6063 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6065:6066 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6064:6064 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:119 var
+R6070:6071 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6073:6074 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6072:6072 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:117 var
+binder 6099:6099 <> a:121
+binder 6101:6101 <> b:122
+R6113:6122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6105:6107 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6108:6109 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6111:6112 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6110:6110 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:122 var
+R6136:6138 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ div meth
+R6142:6142 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:122 var
+R6140:6140 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:121 var
+binder 6128:6128 <> q:123
+binder 6130:6130 <> r:124
+R6182:6191 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6158:6160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6153:6154 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6156:6157 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6155:6155 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:121 var
+R6174:6176 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6166:6168 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6161:6162 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6164:6165 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6163:6163 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> q:123 var
+R6169:6170 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6172:6173 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6171:6171 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:122 var
+R6177:6178 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6180:6181 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6179:6179 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:124 var
+R6193:6196 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6202:6204 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6197:6198 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6200:6201 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6199:6199 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:124 var
+R6197:6198 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6200:6201 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6199:6199 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:124 var
+R6205:6206 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6208:6209 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6207:6207 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:122 var
+binder 6241:6241 <> a:126
+binder 6243:6243 <> b:127
+R6259:6262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6251:6253 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R6246:6247 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6249:6250 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6248:6248 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:126 var
+R6254:6255 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6257:6258 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6256:6256 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:127 var
+R6272:6281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6264:6266 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6267:6268 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6270:6271 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6269:6269 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:127 var
+R6299:6301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6282:6283 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6297:6298 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6284:6292 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ modulo_gt meth
+R6296:6296 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:127 var
+R6294:6294 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:126 var
+R6307:6311 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6302:6303 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6305:6306 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6304:6304 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:126 var
+R6312:6313 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6315:6316 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6314:6314 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:127 var
+binder 6345:6345 <> a:129
+binder 6347:6347 <> b:130
+R6359:6368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6351:6353 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6354:6355 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6357:6358 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6356:6356 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:130 var
+R6383:6385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6369:6370 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6381:6382 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6371:6376 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ modulo meth
+R6380:6380 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:130 var
+R6378:6378 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:129 var
+R6391:6395 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R6386:6387 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6389:6390 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6388:6388 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:129 var
+R6396:6397 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6399:6400 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6398:6398 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:130 var
+binder 6429:6429 <> a:132
+binder 6431:6431 <> b:133
+R6447:6456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6439:6441 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R6434:6435 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6437:6438 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6436:6436 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:132 var
+R6442:6443 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6445:6446 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6444:6444 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:133 var
+R6457:6463 Coq.ZArith.Znumtheory <> Zis_gcd ind
+R6465:6466 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6468:6469 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6467:6467 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:132 var
+R6471:6472 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6474:6475 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6473:6473 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:133 var
+R6477:6478 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6489:6490 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6479:6484 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ gcd_gt meth
+R6488:6488 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:133 var
+R6486:6486 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:132 var
+binder 6515:6515 <> a:135
+binder 6517:6517 <> b:136
+R6520:6526 Coq.ZArith.Znumtheory <> Zis_gcd ind
+R6528:6529 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6531:6532 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6530:6530 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:135 var
+R6534:6535 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6537:6538 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6536:6536 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:136 var
+R6540:6541 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6549:6550 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6542:6544 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ gcd meth
+R6548:6548 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> b:136 var
+R6546:6546 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> a:135 var
+binder 6607:6607 <> x:138
+R6619:6622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6615:6617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6610:6611 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6613:6614 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6612:6612 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:138 var
+R6634:6636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6623:6624 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6632:6633 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6625:6629 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ head0 meth
+R6631:6631 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:138 var
+R6637:6640 Coq.Numbers.BinNums <> Zpos constr
+R6642:6647 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+binder 6675:6675 <> x:140
+R6688:6693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6680:6682 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6683:6684 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6686:6687 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6685:6685 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:140 var
+R6699:6702 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6728:6730 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6696:6697 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6694:6695 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R6720:6722 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6704:6707 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6719:6719 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6708:6709 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6717:6718 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6710:6714 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ head0 meth
+R6716:6716 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:140 var
+R6723:6724 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6726:6727 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6725:6725 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:140 var
+R6720:6722 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6704:6707 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6719:6719 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6708:6709 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6717:6718 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6710:6714 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ head0 meth
+R6716:6716 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:140 var
+R6723:6724 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6726:6727 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6725:6725 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:140 var
+R6731:6732 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 6760:6760 <> x:142
+R6772:6775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6768:6770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6763:6764 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6766:6767 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6765:6765 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:142 var
+R6787:6789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6776:6777 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6785:6786 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6778:6782 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ tail0 meth
+R6784:6784 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:142 var
+R6790:6793 Coq.Numbers.BinNums <> Zpos constr
+R6795:6800 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+binder 6828:6828 <> x:144
+R6840:6852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6832:6834 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6835:6836 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6838:6839 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6837:6837 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:144 var
+R6853:6859 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6861:6862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6860:6860 <> y:145
+R6869:6872 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6864:6867 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6868:6868 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:145 var
+R6878:6880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6873:6874 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6876:6877 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6875:6875 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:144 var
+R6881:6881 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6891:6895 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6911:6911 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6887:6889 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6883:6885 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6886:6886 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:145 var
+R6897:6899 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R6900:6901 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6909:6910 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6902:6906 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ tail0 meth
+R6908:6908 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:144 var
+binder 6945:6945 <> x:147
+binder 6947:6947 <> y:148
+binder 6949:6949 <> p:149
+R6979:6989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6964:6967 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6959:6960 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6962:6963 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6961:6961 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:149 var
+R6968:6971 Coq.Numbers.BinNums <> Zpos constr
+R6973:6978 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R7013:7024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6990:6992 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7010:7012 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R6993:7003 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add_mul_div meth
+R7009:7009 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:148 var
+R7007:7007 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:147 var
+R7005:7005 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:149 var
+R7025:7025 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7095:7100 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7045:7057 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7031:7034 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7044:7044 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7026:7027 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7029:7030 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7028:7028 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:147 var
+R7036:7038 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7039:7040 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7042:7043 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7041:7041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:149 var
+R7063:7066 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7094:7094 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7058:7059 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7061:7062 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7060:7060 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:148 var
+R7068:7071 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7093:7093 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7072:7072 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7084:7087 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7073:7076 Coq.Numbers.BinNums <> Zpos constr
+R7078:7083 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R7088:7089 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7091:7092 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7090:7090 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:149 var
+R7101:7102 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+binder 7131:7131 <> w:151
+binder 7133:7133 <> p:152
+R7158:7160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7143:7144 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7156:7157 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7145:7151 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ pos_mod meth
+R7155:7155 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> w:151 var
+R7153:7153 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:152 var
+R7166:7171 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7181:7181 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7161:7162 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7164:7165 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7163:7163 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> w:151 var
+R7173:7175 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7176:7177 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7179:7180 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7178:7178 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:152 var
+binder 7225:7225 <> x:154
+R7237:7243 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ is_even meth
+R7245:7245 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:154 var
+R7284:7286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7278:7282 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7273:7274 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7276:7277 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7275:7275 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:154 var
+R7263:7265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7257:7261 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7252:7253 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7255:7256 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7254:7254 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:154 var
+binder 7314:7314 <> x:156
+binder 7316:7316 <> y:157
+R7340:7350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7331:7334 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7328:7329 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R7326:7327 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.Specs.wB var
+R7335:7336 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7338:7339 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7337:7337 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:156 var
+R7364:7368 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sqrt2 meth
+R7372:7372 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:157 var
+R7370:7370 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:156 var
+binder 7356:7356 <> s:158
+binder 7358:7358 <> r:159
+R7420:7433 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7399:7401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7387:7389 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R7396:7398 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[||'_x_'||]' not
+R7390:7391 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R7395:7395 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:157 var
+R7393:7393 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:156 var
+R7411:7413 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7407:7409 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7402:7403 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7405:7406 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7404:7404 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> s:158 var
+R7414:7416 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R7418:7419 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R7417:7417 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:159 var
+R7440:7443 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7434:7436 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R7438:7439 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[+|'_x_'|]' not
+R7437:7437 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> r:159 var
+R7445:7447 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7448:7449 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7451:7452 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7450:7450 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> s:158 var
+binder 7478:7478 <> x:161
+R7502:7505 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R7511:7513 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R7498:7500 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7488:7489 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7496:7497 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7490:7493 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sqrt meth
+R7495:7495 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:161 var
+R7506:7507 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7509:7510 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7508:7508 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:161 var
+R7506:7507 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7509:7510 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7508:7508 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:161 var
+R7514:7514 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7529:7532 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R7525:7527 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7515:7516 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7523:7524 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7517:7520 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sqrt meth
+R7522:7522 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:161 var
+binder 7558:7558 <> x:163
+binder 7560:7560 <> y:164
+R7574:7576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7563:7564 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7572:7573 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7565:7567 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ lor meth
+R7571:7571 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:164 var
+R7569:7569 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:163 var
+R7577:7581 Coq.ZArith.BinInt Z lor def
+R7583:7584 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7586:7587 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7585:7585 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:163 var
+R7589:7590 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7592:7593 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7591:7591 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:164 var
+binder 7619:7619 <> x:166
+binder 7621:7621 <> y:167
+R7636:7638 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7624:7625 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7634:7635 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7626:7629 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ land meth
+R7633:7633 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:167 var
+R7631:7631 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:166 var
+R7639:7644 Coq.ZArith.BinInt Z land def
+R7646:7647 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7649:7650 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7648:7648 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:166 var
+R7652:7653 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7655:7656 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7654:7654 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:167 var
+binder 7682:7682 <> x:169
+binder 7684:7684 <> y:170
+R7699:7701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7687:7688 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7697:7698 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7689:7692 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ lxor meth
+R7696:7696 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:170 var
+R7694:7694 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:169 var
+R7702:7707 Coq.ZArith.BinInt Z lxor def
+R7709:7710 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7712:7713 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7711:7711 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:169 var
+R7715:7716 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7718:7719 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs :::'[|'_x_'|]' not
+R7717:7717 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:170 var
+R7732:7736 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Specs <> sec
+R7751:7755 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Specs class
+R7751:7755 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Specs class
+sec 7822:7823 ZnZ WW
+binder 7837:7837 <> t:172
+R7852:7854 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Ops class
+R7856:7856 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:172 var
+binder 7846:7848 <> ops:173
+R7867:7871 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Specs class
+R7873:7875 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ops:173 var
+binder 7859:7863 <> specs:174
+var 7885:7886 ZnZ.WW wB
+R7891:7894 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R7896:7901 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+def 7917:7919 ZnZ WO'
+R7927:7928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7926:7926 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.t var
+R7929:7932 Coq.Init.Datatypes <> bool ind
+binder 7922:7924 <> eq0:175
+binder 7935:7938 <> zero:176
+binder 7940:7940 <> h:177
+R7950:7952 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:175 var
+R7954:7954 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:177 var
+R7969:7970 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R7974:7977 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:176 var
+R7972:7972 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:177 var
+R7961:7962 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+def 7993:7994 ZnZ WO
+R8043:8049 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+binder 8036:8038 <> eq0:178
+R8069:8076 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+binder 8061:8064 <> zero:179
+R8084:8086 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WO' def
+R8092:8095 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:179 var
+R8088:8090 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:178 var
+def 8111:8113 ZnZ OW'
+R8121:8122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8120:8120 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.t var
+R8123:8126 Coq.Init.Datatypes <> bool ind
+binder 8116:8118 <> eq0:180
+binder 8129:8132 <> zero:181
+binder 8134:8134 <> l:182
+R8144:8146 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:180 var
+R8148:8148 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:182 var
+R8163:8164 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R8171:8171 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:182 var
+R8166:8169 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:181 var
+R8155:8156 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+def 8187:8188 ZnZ OW
+R8237:8243 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+binder 8230:8232 <> eq0:183
+R8263:8270 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+binder 8255:8258 <> zero:184
+R8278:8280 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW' def
+R8286:8289 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:184 var
+R8282:8284 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:183 var
+def 8305:8307 ZnZ WW'
+R8316:8317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8315:8315 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.t var
+R8318:8321 Coq.Init.Datatypes <> bool ind
+binder 8311:8313 <> eq0:185
+binder 8324:8327 <> zero:186
+binder 8329:8329 <> h:187
+binder 8331:8331 <> l:188
+R8341:8343 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:185 var
+R8345:8345 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:187 var
+R8372:8373 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R8377:8377 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:188 var
+R8375:8375 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:187 var
+R8352:8354 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW' def
+R8365:8365 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:188 var
+R8360:8363 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:186 var
+R8356:8358 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:185 var
+def 8393:8394 ZnZ WW
+R8447:8453 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+binder 8440:8442 <> eq0:189
+R8473:8480 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+binder 8465:8468 <> zero:190
+R8488:8490 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WW' def
+R8496:8499 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> zero:190 var
+R8492:8494 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> eq0:189 var
+prf 8510:8516 ZnZ spec_WO
+binder 8527:8527 <> h:191
+R8557:8559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8533:8541 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R8552:8553 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WO def
+R8555:8555 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:191 var
+R8546:8549 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8543:8544 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.wB var
+R8560:8560 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8567:8568 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8561:8564 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8566:8566 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:191 var
+R8569:8570 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.wB var
+R8589:8597 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R8600:8601 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WO def
+R8629:8631 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R8629:8631 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R8655:8662 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8655:8662 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8655:8662 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8685:8690 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R8685:8690 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R8685:8690 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+prf 8725:8731 ZnZ spec_OW
+binder 8742:8742 <> l:192
+R8772:8774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8748:8756 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R8767:8768 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW def
+R8770:8770 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:192 var
+R8761:8764 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8758:8759 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.wB var
+R8775:8778 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8780:8780 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:192 var
+R8799:8807 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R8810:8811 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW def
+R8839:8841 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R8839:8841 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R8865:8872 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8865:8872 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8865:8872 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R8895:8900 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R8895:8900 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R8895:8900 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+prf 8935:8941 ZnZ spec_WW
+binder 8952:8952 <> h:193
+binder 8954:8954 <> l:194
+R8985:8987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8959:8967 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z_to_Z def
+R8978:8979 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WW def
+R8983:8983 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:194 var
+R8981:8981 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:193 var
+R8972:8975 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8969:8970 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.wB var
+R8999:9001 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8988:8988 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8995:8996 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8989:8992 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R8994:8994 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> h:193 var
+R8997:8998 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ZnZ.WW.wB var
+R9002:9005 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+R9007:9007 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> l:194 var
+R9026:9027 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ WW def
+R9055:9057 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R9055:9057 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ eq0 meth
+R9081:9088 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R9081:9088 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R9081:9088 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_eq0 meth
+R9109:9110 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW def
+R9109:9110 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ OW def
+R9125:9131 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_OW thm
+R9125:9131 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_OW thm
+R9125:9131 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_OW thm
+R9166:9167 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.WW <> sec
+sec 9235:9238 ZnZ Of_Z
+binder 9252:9252 <> t:195
+R9267:9269 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Ops class
+R9271:9271 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> t:195 var
+binder 9261:9263 <> ops:196
+R9282:9286 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Specs class
+R9288:9290 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> ops:196 var
+binder 9274:9278 <> specs:197
+R9319:9322 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+not 9305:9305 ZnZ.Of_Z :::'[|'_x_'|]'
+prf 9367:9380 ZnZ of_pos_correct
+binder 9393:9393 <> p:198
+R9416:9419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9402:9404 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9396:9399 Coq.Numbers.BinNums <> Zpos constr
+R9401:9401 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:198 var
+R9405:9408 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9410:9415 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9440:9442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9420:9422 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Of_Z :::'[|'_x_'|]' not
+R9437:9439 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Of_Z :::'[|'_x_'|]' not
+R9423:9425 Coq.Init.Datatypes <> snd def
+R9428:9433 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R9435:9435 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:198 var
+R9443:9446 Coq.Numbers.BinNums <> Zpos constr
+R9448:9448 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:198 var
+R9486:9496 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_of_pos meth
+R9486:9496 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_of_pos meth
+R9509:9514 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R9509:9514 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R9604:9611 Coq.ZArith.BinInt Z le_ngt thm
+R9604:9611 Coq.ZArith.BinInt Z le_ngt thm
+R9624:9627 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9629:9634 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9658:9660 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R9644:9646 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9647:9650 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9652:9657 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9624:9627 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9629:9634 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9658:9660 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R9644:9646 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9647:9650 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9652:9657 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9694:9706 Coq.ZArith.BinInt Z add_le_mono thm
+R9694:9706 Coq.ZArith.BinInt Z add_le_mono thm
+R9716:9735 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+R9716:9735 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+R9759:9762 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9790:9798 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+R9790:9798 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+def 9842:9845 ZnZ of_Z
+binder 9847:9847 <> z:199
+R9859:9859 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:199 var
+R9869:9872 Coq.Numbers.BinNums <> Zpos constr
+R9879:9881 Coq.Init.Datatypes <> snd def
+R9884:9889 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos meth
+R9902:9905 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+prf 9923:9934 ZnZ of_Z_correct
+binder 9947:9947 <> p:201
+R9970:9973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9951:9954 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9956:9958 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9955:9955 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:201 var
+R9955:9955 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:201 var
+R9959:9962 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R9964:9969 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R9984:9986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9974:9975 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Of_Z :::'[|'_x_'|]' not
+R9982:9983 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Of_Z :::'[|'_x_'|]' not
+R9976:9979 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_Z def
+R9981:9981 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:201 var
+R9987:9987 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> p:201 var
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10036:10041 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10067:10080 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos_correct thm
+R10067:10080 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos_correct thm
+R10067:10080 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos_correct thm
+R10067:10080 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ of_pos_correct thm
+R10129:10136 Coq.ZArith.BinInt Z lt_nge thm
+R10129:10136 Coq.ZArith.BinInt Z lt_nge thm
+R10169:10172 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ.Of_Z <> sec
+R10180:10182 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ <> mod
+modtype 10260:10269 <> CyclicType
+ax 10283:10283 CyclicType t
+inst 10320:10322 CyclicType ops
+R10326:10332 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Ops class
+R10334:10334 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicType t defax
+inst 10365:10369 CyclicType specs
+R10373:10381 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ Specs class
+R10383:10385 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicType ops prfax
+R10392:10401 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicType <> modtype
+R10490:10499 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicType <> mod
+mod 10462:10471 <> CyclicRing
+R10533:10540 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ to_Z meth
+not 10519:10519 CyclicRing :::'[|'_x_'|]'
+def 10586:10587 CyclicRing eq
+R10596:10596 Coq.Numbers.Cyclic.Abstract.CyclicAxioms Cyclic t defax
+binder 10590:10590 <> n:203
+binder 10592:10592 <> m:204
+R10609:10611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10602:10604 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R10606:10608 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R10605:10605 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> n:203 var
+R10612:10614 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R10616:10618 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R10615:10615 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> m:204 var
+R10643:10644 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eq def
+not 10634:10634 CyclicRing :::x_'=='_x
+R10683:10690 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ zero meth
+not 10676:10676 CyclicRing :::'0'
+R10715:10721 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ one meth
+not 10708:10708 CyclicRing :::'1'
+R10743:10749 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add meth
+not 10736:10736 CyclicRing :::x_'+'_x
+R10771:10777 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub meth
+not 10764:10764 CyclicRing :::x_'-'_x
+R10805:10811 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ opp meth
+not 10795:10795 CyclicRing :::'-'_x
+R10836:10842 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ mul meth
+not 10829:10829 CyclicRing :::x_'*'_x
+abbrev 10860:10861 CyclicRing wB
+R10867:10870 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+R10872:10881 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ digits meth
+R10906:10915 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_0 meth
+R10917:10926 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_1 meth
+R10928:10939 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_add meth
+R10941:10952 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_mul meth
+R10955:10966 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_opp meth
+R10968:10979 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_sub meth
+R11013:11014 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eq def
+prf 11054:11060 CyclicRing add_0_l
+binder 11071:11071 <> x:205
+R11079:11082 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11075:11077 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11078:11078 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:205 var
+R11083:11083 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:205 var
+R11115:11123 Coq.ZArith.BinInt Z add_0_l thm
+R11115:11123 Coq.ZArith.BinInt Z add_0_l thm
+R11115:11123 Coq.ZArith.BinInt Z add_0_l thm
+R11132:11141 Coq.ZArith.Zdiv <> Zmod_small thm
+R11132:11141 Coq.ZArith.Zdiv <> Zmod_small thm
+R11150:11162 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+R11150:11162 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+prf 11177:11184 CyclicRing add_comm
+binder 11195:11195 <> x:206
+binder 11197:11197 <> y:207
+R11205:11208 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11201:11203 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11200:11200 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:206 var
+R11204:11204 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:207 var
+R11210:11212 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11209:11209 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:207 var
+R11213:11213 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:206 var
+R11249:11258 Coq.ZArith.BinInt Z add_comm thm
+R11249:11258 Coq.ZArith.BinInt Z add_comm thm
+R11249:11258 Coq.ZArith.BinInt Z add_comm thm
+prf 11273:11281 CyclicRing add_assoc
+binder 11292:11292 <> x:208
+binder 11294:11294 <> y:209
+binder 11296:11296 <> z:210
+R11310:11313 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11300:11303 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11309:11309 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11299:11299 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:208 var
+R11305:11307 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11304:11304 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:209 var
+R11308:11308 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:210 var
+R11319:11321 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11315:11317 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11314:11314 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:208 var
+R11318:11318 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:209 var
+R11322:11322 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:210 var
+R11358:11374 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R11377:11393 Coq.ZArith.Zdiv <> Zplus_mod_idemp_l thm
+R11396:11406 Coq.ZArith.BinInt Z add_assoc thm
+R11358:11374 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R11358:11374 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R11377:11393 Coq.ZArith.Zdiv <> Zplus_mod_idemp_l thm
+R11377:11393 Coq.ZArith.Zdiv <> Zplus_mod_idemp_l thm
+R11396:11406 Coq.ZArith.BinInt Z add_assoc thm
+R11396:11406 Coq.ZArith.BinInt Z add_assoc thm
+prf 11421:11427 CyclicRing mul_1_l
+binder 11438:11438 <> x:211
+R11446:11449 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11442:11444 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11445:11445 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:211 var
+R11450:11450 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:211 var
+R11482:11490 Coq.ZArith.BinInt Z mul_1_l thm
+R11482:11490 Coq.ZArith.BinInt Z mul_1_l thm
+R11482:11490 Coq.ZArith.BinInt Z mul_1_l thm
+R11499:11508 Coq.ZArith.Zdiv <> Zmod_small thm
+R11499:11508 Coq.ZArith.Zdiv <> Zmod_small thm
+R11517:11529 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+R11517:11529 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_to_Z meth
+prf 11544:11551 CyclicRing mul_comm
+binder 11562:11562 <> x:212
+binder 11564:11564 <> y:213
+R11572:11575 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11568:11570 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11567:11567 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:212 var
+R11571:11571 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:213 var
+R11577:11579 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11576:11576 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:213 var
+R11580:11580 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:212 var
+R11616:11625 Coq.ZArith.BinInt Z mul_comm thm
+R11616:11625 Coq.ZArith.BinInt Z mul_comm thm
+R11616:11625 Coq.ZArith.BinInt Z mul_comm thm
+prf 11640:11648 CyclicRing mul_assoc
+binder 11659:11659 <> x:214
+binder 11661:11661 <> y:215
+binder 11663:11663 <> z:216
+R11677:11680 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11667:11670 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11676:11676 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11666:11666 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:214 var
+R11672:11674 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11671:11671 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:215 var
+R11675:11675 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:216 var
+R11686:11688 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11682:11684 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11681:11681 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:214 var
+R11685:11685 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:215 var
+R11689:11689 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:216 var
+R11725:11741 Coq.ZArith.Zdiv <> Zmult_mod_idemp_r thm
+R11744:11760 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11763:11773 Coq.ZArith.BinInt Z mul_assoc thm
+R11725:11741 Coq.ZArith.Zdiv <> Zmult_mod_idemp_r thm
+R11725:11741 Coq.ZArith.Zdiv <> Zmult_mod_idemp_r thm
+R11744:11760 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11744:11760 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11763:11773 Coq.ZArith.BinInt Z mul_assoc thm
+R11763:11773 Coq.ZArith.BinInt Z mul_assoc thm
+prf 11788:11802 CyclicRing mul_add_distr_r
+binder 11813:11813 <> x:217
+binder 11815:11815 <> y:218
+binder 11817:11817 <> z:219
+R11827:11830 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11820:11820 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11824:11825 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11822:11822 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11821:11821 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:217 var
+R11823:11823 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:218 var
+R11826:11826 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:219 var
+R11834:11836 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11832:11832 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11831:11831 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:217 var
+R11833:11833 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:219 var
+R11838:11838 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'*'_x not
+R11837:11837 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:218 var
+R11839:11839 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> z:219 var
+R11878:11886 Coq.ZArith.Zdiv <> Zplus_mod thm
+R11889:11905 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11908:11924 Coq.ZArith.BinInt Z mul_add_distr_r thm
+R11878:11886 Coq.ZArith.Zdiv <> Zplus_mod thm
+R11878:11886 Coq.ZArith.Zdiv <> Zplus_mod thm
+R11889:11905 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11889:11905 Coq.ZArith.Zdiv <> Zmult_mod_idemp_l thm
+R11908:11924 Coq.ZArith.BinInt Z mul_add_distr_r thm
+R11908:11924 Coq.ZArith.BinInt Z mul_add_distr_r thm
+prf 11939:11947 CyclicRing add_opp_r
+binder 11958:11958 <> x:220
+binder 11960:11960 <> y:221
+R11970:11973 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R11964:11966 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R11963:11963 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:220 var
+R11967:11968 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'-'_x not
+R11969:11969 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:221 var
+R11975:11975 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'-'_x not
+R11974:11974 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:220 var
+R11976:11976 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:221 var
+R12011:12028 Coq.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R12011:12028 Coq.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R12011:12028 Coq.ZArith.Zdiv <> Zminus_mod_idemp_r thm
+R12038:12042 Coq.ZArith.BinInt Z sub def
+R12055:12062 Coq.ZArith.BinInt Z eq_dec def
+R12070:12074 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R12065:12066 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R12068:12069 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R12075:12076 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing wB abbrev
+R12055:12062 Coq.ZArith.BinInt Z eq_dec def
+R12070:12074 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R12065:12066 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R12068:12069 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'[|'_x_'|]' not
+R12075:12076 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing wB abbrev
+R12103:12121 Coq.ZArith.Zdiv <> Z_mod_zero_opp_full thm
+R12130:12138 Coq.ZArith.BinInt Z add_0_r thm
+R12103:12121 Coq.ZArith.Zdiv <> Z_mod_zero_opp_full thm
+R12103:12121 Coq.ZArith.Zdiv <> Z_mod_zero_opp_full thm
+R12103:12121 Coq.ZArith.Zdiv <> Z_mod_zero_opp_full thm
+R12130:12138 Coq.ZArith.BinInt Z add_0_r thm
+R12130:12138 Coq.ZArith.BinInt Z add_0_r thm
+R12130:12138 Coq.ZArith.BinInt Z add_0_r thm
+R12155:12171 Coq.ZArith.Zdiv <> Z_mod_nz_opp_full thm
+R12155:12171 Coq.ZArith.Zdiv <> Z_mod_nz_opp_full thm
+R12155:12171 Coq.ZArith.Zdiv <> Z_mod_nz_opp_full thm
+R12193:12209 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R12215:12232 Coq.ZArith.Zdiv <> Zminus_mod_idemp_l thm
+R12193:12209 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R12193:12209 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R12215:12232 Coq.ZArith.Zdiv <> Zminus_mod_idemp_l thm
+R12215:12232 Coq.ZArith.Zdiv <> Zminus_mod_idemp_l thm
+R12243:12257 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+R12243:12257 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+R12243:12257 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+R12279:12295 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R12279:12295 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+R12279:12295 Coq.ZArith.Zdiv <> Zplus_mod_idemp_r thm
+prf 12310:12323 CyclicRing add_opp_diag_r
+binder 12334:12334 <> x:222
+R12344:12347 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R12338:12340 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'+'_x not
+R12337:12337 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:222 var
+R12341:12342 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::'-'_x not
+R12343:12343 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:222 var
+R12379:12387 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_r thm
+R12379:12387 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_r thm
+R12379:12387 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_r thm
+R12408:12417 Coq.ZArith.BinInt Z sub_diag thm
+R12420:12427 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R12408:12417 Coq.ZArith.BinInt Z sub_diag thm
+R12408:12417 Coq.ZArith.BinInt Z sub_diag thm
+R12420:12427 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R12420:12427 Coq.ZArith.Zdiv <> Zmod_0_l thm
+prf 12442:12451 CyclicRing CyclicRing
+R12455:12465 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R12503:12504 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eq def
+R12495:12501 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ opp meth
+R12487:12493 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ sub meth
+R12479:12485 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ mul meth
+R12471:12477 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ add meth
+R12533:12539 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_0_l thm
+R12533:12539 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_0_l thm
+R12548:12555 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_comm thm
+R12548:12555 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_comm thm
+R12564:12572 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_assoc thm
+R12564:12572 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_assoc thm
+R12581:12587 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_1_l thm
+R12581:12587 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_1_l thm
+R12596:12603 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_comm thm
+R12596:12603 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_comm thm
+R12612:12620 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_assoc thm
+R12612:12620 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_assoc thm
+R12629:12643 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_add_distr_r thm
+R12629:12643 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing mul_add_distr_r thm
+R12662:12670 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_r thm
+R12662:12670 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_r thm
+R12679:12692 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_diag_r thm
+R12679:12692 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing add_opp_diag_r thm
+def 12712:12714 CyclicRing eqb
+binder 12716:12716 <> x:223
+binder 12718:12718 <> y:224
+R12730:12740 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ compare meth
+R12744:12744 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:224 var
+R12742:12742 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:223 var
+R12751:12752 Coq.Init.Datatypes <> Eq constr
+R12757:12760 Coq.Init.Datatypes <> true constr
+R12769:12773 Coq.Init.Datatypes <> false constr
+prf 12787:12792 CyclicRing eqb_eq
+binder 12803:12803 <> x:225
+binder 12805:12805 <> y:226
+R12822:12826 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12815:12817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12808:12810 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eqb def
+R12814:12814 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:226 var
+R12812:12812 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:225 var
+R12818:12821 Coq.Init.Datatypes <> true constr
+R12828:12831 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R12827:12827 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:225 var
+R12832:12832 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:226 var
+R12858:12860 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eqb def
+R12863:12864 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eq def
+R12876:12891 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_compare meth
+R12876:12891 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_compare meth
+R12876:12891 Coq.Numbers.Cyclic.Abstract.CyclicAxioms ZnZ spec_compare meth
+R12900:12913 Coq.ZArith.BinInt Z compare_spec thm
+R12900:12913 Coq.ZArith.BinInt Z compare_spec thm
+prf 12950:12960 CyclicRing eqb_correct
+binder 12971:12971 <> x:227
+binder 12973:12973 <> y:228
+R12990:12993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12983:12985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12976:12978 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eqb def
+R12982:12982 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:228 var
+R12980:12980 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:227 var
+R12986:12989 Coq.Init.Datatypes <> true constr
+R12995:12996 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing :::x_'=='_x not
+R12994:12994 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> x:227 var
+R12997:12997 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> y:228 var
+R13017:13022 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eqb_eq thm
+R13017:13022 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing eqb_eq thm
+R13035:13044 Coq.Numbers.Cyclic.Abstract.CyclicAxioms CyclicRing <> mod

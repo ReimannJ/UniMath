@@ -1,0 +1,100 @@
+DIGEST 4e6a75246832e9e08810347a272abde6
+FCoq.Arith.Lt
+R791:803 Coq.Arith.Arith_prebase <> <> lib
+abbrev 934:942 <> lt_irrefl
+R947:959 Coq.Arith.PeanoNat Nat lt_irrefl thm
+abbrev 1165:1171 <> lt_le_S
+R1176:1200 Coq.Arith.Arith_prebase <> lt_le_S_stt def
+abbrev 1331:1340 <> lt_n_Sm_le
+R1345:1372 Coq.Arith.Arith_prebase <> lt_n_Sm_le_stt def
+abbrev 1503:1512 <> le_lt_n_Sm
+R1517:1544 Coq.Arith.Arith_prebase <> le_lt_n_Sm_stt def
+abbrev 1687:1695 <> le_not_lt
+R1700:1726 Coq.Arith.Arith_prebase <> le_not_lt_stt def
+abbrev 1854:1862 <> lt_not_le
+R1867:1893 Coq.Arith.Arith_prebase <> lt_not_le_stt def
+abbrev 2018:2024 <> lt_asym
+R2029:2040 Coq.Arith.PeanoNat Nat lt_asymm thm
+abbrev 2201:2207 <> lt_0_Sn
+R2212:2224 Coq.Arith.PeanoNat Nat lt_0_succ thm
+abbrev 2356:2361 <> lt_n_0
+R2366:2376 Coq.Arith.PeanoNat Nat nlt_0_r thm
+abbrev 2565:2572 <> neq_0_lt
+R2577:2602 Coq.Arith.Arith_prebase <> neq_0_lt_stt def
+abbrev 2762:2769 <> lt_0_neq
+R2774:2799 Coq.Arith.Arith_prebase <> lt_0_neq_stt def
+abbrev 2940:2946 <> lt_n_Sn
+R2951:2968 Coq.Arith.PeanoNat Nat lt_succ_diag_r thm
+abbrev 3105:3108 <> lt_S
+R3113:3128 Coq.Arith.PeanoNat Nat lt_lt_succ_r thm
+abbrev 3300:3305 <> lt_n_S
+R3310:3333 Coq.Arith.Arith_prebase <> lt_n_S_stt def
+abbrev 3467:3472 <> lt_S_n
+R3477:3500 Coq.Arith.Arith_prebase <> lt_S_n_stt def
+def 3546:3555 <> S_pred_stt
+binder 3564:3564 <> n:1
+binder 3566:3566 <> m:2
+binder 3568:3570 <> Hlt:3
+R3575:3580 Coq.Init.Logic <> eq_sym thm
+R3583:3598 Coq.Arith.PeanoNat Nat lt_succ_pred thm
+R3600:3600 Coq.Arith.Lt <> m:2 var
+R3602:3602 Coq.Arith.Lt <> n:1 var
+R3604:3606 Coq.Arith.Lt <> Hlt:3 var
+R3617:3626 Coq.Arith.Lt <> S_pred_stt def
+abbrev 3762:3767 <> S_pred
+R3772:3781 Coq.Arith.Lt <> S_pred_stt def
+def 3804:3817 <> S_pred_pos_stt
+binder 3826:3826 <> n:4
+binder 3828:3830 <> Hlt:5
+R3835:3840 Coq.Init.Logic <> eq_sym thm
+R3843:3858 Coq.Arith.PeanoNat Nat lt_succ_pred thm
+R3862:3862 Coq.Arith.Lt <> n:4 var
+R3864:3866 Coq.Arith.Lt <> Hlt:5 var
+R3877:3890 Coq.Arith.Lt <> S_pred_pos_stt def
+abbrev 4026:4035 <> S_pred_pos
+R4040:4053 Coq.Arith.Lt <> S_pred_pos_stt def
+abbrev 4205:4211 <> lt_pred
+R4216:4240 Coq.Arith.Arith_prebase <> lt_pred_stt def
+abbrev 4376:4386 <> lt_pred_n_n
+R4391:4419 Coq.Arith.Arith_prebase <> lt_pred_n_n_stt def
+abbrev 4558:4565 <> lt_trans
+R4570:4581 Coq.Arith.PeanoNat Nat lt_trans thm
+abbrev 4703:4713 <> lt_le_trans
+R4718:4732 Coq.Arith.PeanoNat Nat lt_le_trans thm
+abbrev 4854:4864 <> le_lt_trans
+R4869:4883 Coq.Arith.PeanoNat Nat le_lt_trans thm
+abbrev 5040:5054 <> le_lt_or_eq_iff
+R5059:5073 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+def 5111:5125 <> le_lt_or_eq_stt
+binder 5134:5134 <> n:6
+binder 5136:5136 <> m:7
+R5141:5145 Coq.Init.Logic <> proj1 thm
+R5148:5162 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+R5164:5164 Coq.Arith.Lt <> n:6 var
+R5166:5166 Coq.Arith.Lt <> m:7 var
+R5177:5191 Coq.Arith.Lt <> le_lt_or_eq_stt def
+abbrev 5324:5334 <> le_lt_or_eq
+R5339:5353 Coq.Arith.Lt <> le_lt_or_eq_stt def
+abbrev 5459:5468 <> lt_le_weak
+R5473:5486 Coq.Arith.PeanoNat Nat lt_le_incl thm
+abbrev 5629:5636 <> le_or_lt
+R5641:5655 Coq.Arith.PeanoNat Nat le_gt_cases thm
+def 5715:5733 <> nat_total_order_stt
+binder 5742:5742 <> n:8
+binder 5744:5744 <> m:9
+R5749:5753 Coq.Init.Logic <> proj1 thm
+R5756:5770 Coq.Arith.PeanoNat Nat lt_gt_cases thm
+R5772:5772 Coq.Arith.Lt <> n:8 var
+R5774:5774 Coq.Arith.Lt <> m:9 var
+R5785:5803 Coq.Arith.Lt <> nat_total_order_stt def
+abbrev 5936:5950 <> nat_total_order
+R5955:5973 Coq.Arith.Lt <> nat_total_order_stt def
+abbrev 6096:6102 <> lt_O_Sn
+R6107:6119 Coq.Arith.PeanoNat Nat lt_0_succ thm
+abbrev 6294:6301 <> neq_O_lt
+R6306:6331 Coq.Arith.Arith_prebase <> neq_0_lt_stt def
+abbrev 6491:6498 <> lt_O_neq
+R6503:6528 Coq.Arith.Arith_prebase <> lt_0_neq_stt def
+abbrev 6631:6636 <> lt_n_O
+R6641:6651 Coq.Arith.PeanoNat Nat nlt_0_r thm
+R6700:6701 Coq.Arith.Le <> <> lib

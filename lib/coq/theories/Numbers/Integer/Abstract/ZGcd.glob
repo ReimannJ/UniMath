@@ -1,0 +1,956 @@
+DIGEST c9376879a5fd0de1082b4166d3030ed4
+FCoq.Numbers.Integer.Abstract.ZGcd
+R741:747 Coq.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R749:757 Coq.Numbers.Integer.Abstract.ZMulOrder <> <> lib
+R759:765 Coq.Numbers.Integer.Abstract.ZSgnAbs <> <> lib
+R767:771 Coq.Numbers.NatInt.NZGcd <> <> lib
+R809:819 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig' <> mod
+R835:847 Coq.Numbers.Integer.Abstract.ZMulOrder ZMulOrderProp <> mod
+R849:849 Coq.Numbers.Integer.Abstract.ZGcd A <> modtype
+R865:875 Coq.Numbers.Integer.Abstract.ZSgnAbs ZSgnAbsProp <> mod
+R877:877 Coq.Numbers.Integer.Abstract.ZGcd A <> modtype
+R879:879 Coq.Numbers.Integer.Abstract.ZGcd B <> modtype
+modtype 787:794 <> ZGcdProp
+R787:794 Coq.Numbers.Integer.Abstract.ZGcd A <> mod
+R787:794 Coq.Numbers.Integer.Abstract.ZGcd B <> mod
+R787:794 Coq.Numbers.Integer.Abstract.ZGcd C <> mod
+R893:901 Coq.Numbers.NatInt.NZGcd NZGcdProp <> modtype
+R903:903 Coq.Numbers.Integer.Abstract.ZGcd A <> modtype
+R905:905 Coq.Numbers.Integer.Abstract.ZGcd A <> modtype
+R907:907 Coq.Numbers.Integer.Abstract.ZGcd B <> modtype
+prf 956:967 ZGcdProp divide_opp_l
+binder 978:978 <> n:1
+binder 980:980 <> m:2
+R991:995 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R983:983 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R986:988 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R990:990 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R984:984 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R985:985 Coq.Numbers.Integer.Abstract.ZGcd <> n:1 var
+R989:989 Coq.Numbers.Integer.Abstract.ZGcd <> m:2 var
+R996:996 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R998:1000 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1002:1002 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R997:997 Coq.Numbers.Integer.Abstract.ZGcd <> n:1 var
+R1001:1001 Coq.Numbers.Integer.Abstract.ZGcd <> m:2 var
+R1055:1055 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1055:1055 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1055:1055 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1086:1094 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1097:1105 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R1086:1094 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1086:1094 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1097:1105 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R1097:1105 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R1122:1132 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_opp thm
+R1122:1132 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_opp thm
+R1122:1132 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_opp thm
+prf 1147:1158 ZGcdProp divide_opp_r
+binder 1169:1169 <> n:3
+binder 1171:1171 <> m:4
+R1182:1186 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1174:1174 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1176:1178 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1181:1181 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1175:1175 Coq.Numbers.Integer.Abstract.ZGcd <> n:3 var
+R1179:1179 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1180:1180 Coq.Numbers.Integer.Abstract.ZGcd <> m:4 var
+R1187:1187 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1189:1191 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1193:1193 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1188:1188 Coq.Numbers.Integer.Abstract.ZGcd <> n:3 var
+R1192:1192 Coq.Numbers.Integer.Abstract.ZGcd <> m:4 var
+R1246:1246 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1246:1246 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1246:1246 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R1265:1273 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1283:1296 Coq.Numbers.Integer.Abstract.ZGcd B opp_involutive thm
+R1265:1273 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1265:1273 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1283:1296 Coq.Numbers.Integer.Abstract.ZGcd B opp_involutive thm
+R1283:1296 Coq.Numbers.Integer.Abstract.ZGcd B opp_involutive thm
+R1317:1325 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1317:1325 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R1317:1325 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+prf 1340:1351 ZGcdProp divide_abs_l
+binder 1362:1362 <> n:5
+binder 1364:1364 <> m:6
+R1378:1382 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1367:1367 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1373:1375 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1377:1377 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1368:1370 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R1372:1372 Coq.Numbers.Integer.Abstract.ZGcd <> n:5 var
+R1376:1376 Coq.Numbers.Integer.Abstract.ZGcd <> m:6 var
+R1383:1383 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1385:1387 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1389:1389 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1384:1384 Coq.Numbers.Integer.Abstract.ZGcd <> n:5 var
+R1388:1388 Coq.Numbers.Integer.Abstract.ZGcd <> m:6 var
+R1422:1434 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R1422:1434 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R1473:1484 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_l thm
+R1473:1484 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_l thm
+prf 1499:1510 ZGcdProp divide_abs_r
+binder 1521:1521 <> n:7
+binder 1523:1523 <> m:8
+R1537:1541 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1526:1526 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1528:1530 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1536:1536 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1527:1527 Coq.Numbers.Integer.Abstract.ZGcd <> n:7 var
+R1531:1533 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R1535:1535 Coq.Numbers.Integer.Abstract.ZGcd <> m:8 var
+R1542:1542 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1544:1546 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1548:1548 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1543:1543 Coq.Numbers.Integer.Abstract.ZGcd <> n:7 var
+R1547:1547 Coq.Numbers.Integer.Abstract.ZGcd <> m:8 var
+R1581:1593 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R1581:1593 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R1632:1643 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+R1632:1643 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+prf 1658:1671 ZGcdProp divide_1_r_abs
+binder 1682:1682 <> n:9
+R1692:1695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1685:1685 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1687:1689 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1691:1691 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1686:1686 Coq.Numbers.Integer.Abstract.ZGcd <> n:9 var
+R1701:1704 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1696:1698 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R1700:1700 Coq.Numbers.Integer.Abstract.ZGcd <> n:9 var
+R1735:1751 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_r_nonneg thm
+R1735:1751 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_r_nonneg thm
+R1760:1769 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R1760:1769 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R1783:1794 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+R1783:1794 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+prf 1809:1818 ZGcdProp divide_1_r
+binder 1829:1829 <> n:10
+R1839:1842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1832:1832 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1834:1836 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1838:1838 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1833:1833 Coq.Numbers.Integer.Abstract.ZGcd <> n:10 var
+R1847:1850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1844:1845 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1843:1843 Coq.Numbers.Integer.Abstract.ZGcd <> n:10 var
+R1852:1853 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1851:1851 Coq.Numbers.Integer.Abstract.ZGcd <> n:10 var
+R1890:1897 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R1890:1897 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R1890:1897 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R1915:1922 Coq.Numbers.Integer.Abstract.ZGcd B eq_mul_1 thm
+R1915:1922 Coq.Numbers.Integer.Abstract.ZGcd B eq_mul_1 thm
+prf 1944:1961 ZGcdProp divide_antisym_abs
+binder 1972:1972 <> n:11
+binder 1974:1974 <> m:12
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1978:1978 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1980:1982 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1984:1984 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1979:1979 Coq.Numbers.Integer.Abstract.ZGcd <> n:11 var
+R1983:1983 Coq.Numbers.Integer.Abstract.ZGcd <> m:12 var
+R1996:1999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1989:1989 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1991:1993 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1995:1995 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R1990:1990 Coq.Numbers.Integer.Abstract.ZGcd <> m:12 var
+R1994:1994 Coq.Numbers.Integer.Abstract.ZGcd <> n:11 var
+R2005:2008 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2000:2002 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R2004:2004 Coq.Numbers.Integer.Abstract.ZGcd <> n:11 var
+R2009:2011 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R2013:2013 Coq.Numbers.Integer.Abstract.ZGcd <> m:12 var
+R2038:2058 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_antisym_nonneg thm
+R2071:2080 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R2038:2058 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_antisym_nonneg thm
+R2071:2080 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R2071:2080 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R2071:2080 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R2071:2080 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R2094:2105 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+R2108:2119 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_r thm
+R2094:2105 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+R2108:2119 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_r thm
+R2133:2144 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+R2147:2158 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_r thm
+R2133:2144 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_l thm
+R2147:2158 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_abs_r thm
+prf 2173:2186 ZGcdProp divide_antisym
+binder 2197:2197 <> n:13
+binder 2199:2199 <> m:14
+R2210:2213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2203:2203 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2205:2207 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2209:2209 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2204:2204 Coq.Numbers.Integer.Abstract.ZGcd <> n:13 var
+R2208:2208 Coq.Numbers.Integer.Abstract.ZGcd <> m:14 var
+R2221:2224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2214:2214 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2216:2218 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2220:2220 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2215:2215 Coq.Numbers.Integer.Abstract.ZGcd <> m:14 var
+R2219:2219 Coq.Numbers.Integer.Abstract.ZGcd <> n:13 var
+R2231:2234 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2226:2229 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2225:2225 Coq.Numbers.Integer.Abstract.ZGcd <> n:13 var
+R2230:2230 Coq.Numbers.Integer.Abstract.ZGcd <> m:14 var
+R2236:2239 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2235:2235 Coq.Numbers.Integer.Abstract.ZGcd <> n:13 var
+R2240:2240 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2241:2241 Coq.Numbers.Integer.Abstract.ZGcd <> m:14 var
+R2270:2281 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_cases thm
+R2284:2301 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_antisym_abs thm
+R2270:2281 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_cases thm
+R2284:2301 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_antisym_abs thm
+prf 2316:2327 ZGcdProp divide_sub_r
+binder 2338:2338 <> n:15
+binder 2340:2340 <> m:16
+binder 2342:2342 <> p:17
+R2352:2355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2345:2345 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2347:2349 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2351:2351 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2346:2346 Coq.Numbers.Integer.Abstract.ZGcd <> n:15 var
+R2350:2350 Coq.Numbers.Integer.Abstract.ZGcd <> m:16 var
+R2363:2366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2356:2356 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2358:2360 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2362:2362 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2357:2357 Coq.Numbers.Integer.Abstract.ZGcd <> n:15 var
+R2361:2361 Coq.Numbers.Integer.Abstract.ZGcd <> p:17 var
+R2367:2367 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2369:2371 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2377:2377 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2368:2368 Coq.Numbers.Integer.Abstract.ZGcd <> n:15 var
+R2373:2375 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R2372:2372 Coq.Numbers.Integer.Abstract.ZGcd <> m:16 var
+R2376:2376 Coq.Numbers.Integer.Abstract.ZGcd <> p:17 var
+R2418:2426 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R2418:2426 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R2418:2426 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R2436:2447 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R2436:2447 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R2469:2480 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+R2469:2480 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+prf 2495:2513 ZGcdProp divide_add_cancel_r
+binder 2524:2524 <> n:18
+binder 2526:2526 <> m:19
+binder 2528:2528 <> p:20
+R2538:2541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2531:2531 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2533:2535 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2537:2537 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2532:2532 Coq.Numbers.Integer.Abstract.ZGcd <> n:18 var
+R2536:2536 Coq.Numbers.Integer.Abstract.ZGcd <> m:19 var
+R2553:2556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2542:2542 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2544:2546 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2552:2552 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2543:2543 Coq.Numbers.Integer.Abstract.ZGcd <> n:18 var
+R2548:2550 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2547:2547 Coq.Numbers.Integer.Abstract.ZGcd <> m:19 var
+R2551:2551 Coq.Numbers.Integer.Abstract.ZGcd <> p:20 var
+R2557:2557 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2559:2561 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2563:2563 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R2558:2558 Coq.Numbers.Integer.Abstract.ZGcd <> n:18 var
+R2562:2562 Coq.Numbers.Integer.Abstract.ZGcd <> p:20 var
+R2605:2615 Coq.Numbers.Integer.Abstract.ZGcd B add_simpl_l thm
+R2605:2615 Coq.Numbers.Integer.Abstract.ZGcd B add_simpl_l thm
+R2605:2615 Coq.Numbers.Integer.Abstract.ZGcd B add_simpl_l thm
+R2633:2644 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_sub_r thm
+R2633:2644 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_sub_r thm
+prf 2685:2693 ZGcdProp gcd_opp_l
+binder 2704:2704 <> n:21
+binder 2706:2706 <> m:22
+R2719:2722 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2709:2711 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R2714:2714 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2715:2715 Coq.Numbers.Integer.Abstract.ZGcd <> n:21 var
+R2718:2718 Coq.Numbers.Integer.Abstract.ZGcd <> m:22 var
+R2723:2725 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R2727:2727 Coq.Numbers.Integer.Abstract.ZGcd <> n:21 var
+R2729:2729 Coq.Numbers.Integer.Abstract.ZGcd <> m:22 var
+R2754:2767 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique_alt thm
+R2780:2789 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R2754:2767 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique_alt thm
+R2780:2789 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R2780:2789 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R2809:2820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+R2809:2820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+R2809:2820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_opp_r thm
+R2829:2842 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_divide_iff thm
+R2829:2842 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_divide_iff thm
+prf 2857:2865 ZGcdProp gcd_opp_r
+binder 2876:2876 <> n:23
+binder 2878:2878 <> m:24
+R2891:2894 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2881:2883 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R2885:2885 Coq.Numbers.Integer.Abstract.ZGcd <> n:23 var
+R2888:2888 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R2889:2889 Coq.Numbers.Integer.Abstract.ZGcd <> m:24 var
+R2895:2897 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R2899:2899 Coq.Numbers.Integer.Abstract.ZGcd <> n:23 var
+R2901:2901 Coq.Numbers.Integer.Abstract.ZGcd <> m:24 var
+R2932:2939 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R2942:2950 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R2953:2960 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R2932:2939 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R2932:2939 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R2942:2950 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R2942:2950 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R2953:2960 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R2953:2960 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+prf 2975:2983 ZGcdProp gcd_abs_l
+binder 2994:2994 <> n:25
+binder 2996:2996 <> m:26
+R3012:3015 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2999:3001 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3004:3006 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R3008:3008 Coq.Numbers.Integer.Abstract.ZGcd <> n:25 var
+R3011:3011 Coq.Numbers.Integer.Abstract.ZGcd <> m:26 var
+R3016:3018 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3020:3020 Coq.Numbers.Integer.Abstract.ZGcd <> n:25 var
+R3022:3022 Coq.Numbers.Integer.Abstract.ZGcd <> m:26 var
+R3055:3067 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R3055:3067 Coq.Numbers.Integer.Abstract.ZGcd C abs_eq_or_opp thm
+R3106:3114 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R3106:3114 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+prf 3129:3137 ZGcdProp gcd_abs_r
+binder 3148:3148 <> n:27
+binder 3150:3150 <> m:28
+R3166:3169 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3153:3155 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3157:3157 Coq.Numbers.Integer.Abstract.ZGcd <> n:27 var
+R3160:3162 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R3164:3164 Coq.Numbers.Integer.Abstract.ZGcd <> m:28 var
+R3170:3172 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3174:3174 Coq.Numbers.Integer.Abstract.ZGcd <> n:27 var
+R3176:3176 Coq.Numbers.Integer.Abstract.ZGcd <> m:28 var
+R3207:3214 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3217:3225 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3228:3235 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3207:3214 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3207:3214 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3217:3225 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3217:3225 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3228:3235 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3228:3235 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+prf 3250:3256 ZGcdProp gcd_0_l
+binder 3267:3267 <> n:29
+R3277:3280 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3270:3272 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3276:3276 Coq.Numbers.Integer.Abstract.ZGcd <> n:29 var
+R3281:3283 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R3285:3285 Coq.Numbers.Integer.Abstract.ZGcd <> n:29 var
+R3315:3323 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3315:3323 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3315:3323 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3332:3345 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+R3348:3357 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R3332:3345 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+R3348:3357 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+prf 3372:3378 ZGcdProp gcd_0_r
+binder 3389:3389 <> n:30
+R3399:3402 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3392:3394 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3396:3396 Coq.Numbers.Integer.Abstract.ZGcd <> n:30 var
+R3403:3405 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R3407:3407 Coq.Numbers.Integer.Abstract.ZGcd <> n:30 var
+R3438:3445 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3448:3454 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l thm
+R3438:3445 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3438:3445 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R3448:3454 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l thm
+R3448:3454 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l thm
+prf 3469:3476 ZGcdProp gcd_diag
+binder 3487:3487 <> n:31
+R3497:3500 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3490:3492 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3494:3494 Coq.Numbers.Integer.Abstract.ZGcd <> n:31 var
+R3496:3496 Coq.Numbers.Integer.Abstract.ZGcd <> n:31 var
+R3501:3503 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R3505:3505 Coq.Numbers.Integer.Abstract.ZGcd <> n:31 var
+R3535:3543 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3549:3557 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3535:3543 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3535:3543 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_l thm
+R3549:3557 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3549:3557 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_abs_r thm
+R3567:3581 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R3584:3593 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R3567:3581 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R3584:3593 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+prf 3608:3626 ZGcdProp gcd_add_mult_diag_r
+binder 3637:3637 <> n:32
+binder 3639:3639 <> m:33
+binder 3641:3641 <> p:34
+R3657:3660 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3644:3646 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3648:3648 Coq.Numbers.Integer.Abstract.ZGcd <> n:32 var
+R3652:3652 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3651:3651 Coq.Numbers.Integer.Abstract.ZGcd <> m:33 var
+R3654:3654 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3653:3653 Coq.Numbers.Integer.Abstract.ZGcd <> p:34 var
+R3655:3655 Coq.Numbers.Integer.Abstract.ZGcd <> n:32 var
+R3661:3663 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R3665:3665 Coq.Numbers.Integer.Abstract.ZGcd <> n:32 var
+R3667:3667 Coq.Numbers.Integer.Abstract.ZGcd <> m:33 var
+R3698:3711 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique_alt thm
+R3724:3733 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R3698:3711 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique_alt thm
+R3724:3733 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R3724:3733 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R3753:3766 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_divide_iff thm
+R3753:3766 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_divide_iff thm
+R3753:3766 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_divide_iff thm
+R3813:3824 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R3813:3824 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R3846:3857 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R3846:3857 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R3894:3894 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3867:3885 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_cancel_r thm
+R3894:3894 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3867:3885 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_cancel_r thm
+R3919:3930 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R3919:3930 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R3945:3952 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+R3945:3952 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+R3945:3952 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+prf 3967:3980 ZGcdProp gcd_add_diag_r
+binder 3991:3991 <> n:35
+binder 3993:3993 <> m:36
+R4007:4010 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3996:3998 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4000:4000 Coq.Numbers.Integer.Abstract.ZGcd <> n:35 var
+R4004:4004 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4003:4003 Coq.Numbers.Integer.Abstract.ZGcd <> m:36 var
+R4005:4005 Coq.Numbers.Integer.Abstract.ZGcd <> n:35 var
+R4011:4013 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4015:4015 Coq.Numbers.Integer.Abstract.ZGcd <> n:35 var
+R4017:4017 Coq.Numbers.Integer.Abstract.ZGcd <> m:36 var
+R4052:4058 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4052:4058 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4052:4058 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4075:4093 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_add_mult_diag_r thm
+R4075:4093 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_add_mult_diag_r thm
+prf 4108:4121 ZGcdProp gcd_sub_diag_r
+binder 4132:4132 <> n:37
+binder 4134:4134 <> m:38
+R4148:4151 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4137:4139 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4141:4141 Coq.Numbers.Integer.Abstract.ZGcd <> n:37 var
+R4145:4145 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R4144:4144 Coq.Numbers.Integer.Abstract.ZGcd <> m:38 var
+R4146:4146 Coq.Numbers.Integer.Abstract.ZGcd <> n:37 var
+R4152:4154 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4156:4156 Coq.Numbers.Integer.Abstract.ZGcd <> n:37 var
+R4158:4158 Coq.Numbers.Integer.Abstract.ZGcd <> m:38 var
+R4193:4199 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4193:4199 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4193:4199 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R4222:4230 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R4236:4244 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R4222:4230 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R4222:4230 Coq.Numbers.Integer.Abstract.ZGcd B add_opp_r thm
+R4236:4244 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R4236:4244 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R4253:4271 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_add_mult_diag_r thm
+R4253:4271 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_add_mult_diag_r thm
+def 4291:4296 ZGcdProp Bezout
+binder 4298:4298 <> n:39
+binder 4300:4300 <> m:40
+binder 4302:4302 <> p:41
+R4307:4313 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4317:4318 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4314:4314 <> a:42
+binder 4316:4316 <> b:43
+R4328:4331 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4322:4324 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4320:4320 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4319:4319 Coq.Numbers.Integer.Abstract.ZGcd <> a:42 var
+R4321:4321 Coq.Numbers.Integer.Abstract.ZGcd <> n:39 var
+R4326:4326 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4325:4325 Coq.Numbers.Integer.Abstract.ZGcd <> b:43 var
+R4327:4327 Coq.Numbers.Integer.Abstract.ZGcd <> m:40 var
+R4332:4332 Coq.Numbers.Integer.Abstract.ZGcd <> p:41 var
+inst 4355:4363 ZGcdProp Bezout_wd
+R4367:4372 Coq.Classes.Morphisms <> Proper class
+R4395:4400 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R4377:4379 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4375:4376 Coq.Numbers.Integer.Abstract.ZGcd A eq defax
+R4382:4384 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4380:4381 Coq.Numbers.Integer.Abstract.ZGcd A eq defax
+R4387:4389 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4385:4386 Coq.Numbers.Integer.Abstract.ZGcd A eq defax
+R4390:4392 Coq.Init.Logic <> iff def
+R4418:4423 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+prf 4532:4543 ZGcdProp bezout_1_gcd
+binder 4554:4554 <> n:44
+binder 4556:4556 <> m:45
+R4571:4574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4559:4564 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R4566:4566 Coq.Numbers.Integer.Abstract.ZGcd <> n:44 var
+R4568:4568 Coq.Numbers.Integer.Abstract.ZGcd <> m:45 var
+R4582:4585 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4575:4577 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4579:4579 Coq.Numbers.Integer.Abstract.ZGcd <> n:44 var
+R4581:4581 Coq.Numbers.Integer.Abstract.ZGcd <> m:45 var
+R4628:4637 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique thm
+R4654:4663 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_l thm
+R4666:4671 Coq.Numbers.Integer.Abstract.ZGcd B le_0_1 thm
+R4628:4637 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique thm
+R4654:4663 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_l thm
+R4654:4663 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_l thm
+R4654:4663 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_l thm
+R4654:4663 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_1_l thm
+R4666:4671 Coq.Numbers.Integer.Abstract.ZGcd B le_0_1 thm
+R4666:4671 Coq.Numbers.Integer.Abstract.ZGcd B le_0_1 thm
+R4666:4671 Coq.Numbers.Integer.Abstract.ZGcd B le_0_1 thm
+R4666:4671 Coq.Numbers.Integer.Abstract.ZGcd B le_0_1 thm
+R4712:4723 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R4736:4747 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R4712:4723 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R4736:4747 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R4736:4747 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+prf 4762:4771 ZGcdProp gcd_bezout
+binder 4782:4782 <> n:46
+binder 4784:4784 <> m:47
+binder 4786:4786 <> p:48
+R4801:4804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4796:4799 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4789:4791 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4793:4793 Coq.Numbers.Integer.Abstract.ZGcd <> n:46 var
+R4795:4795 Coq.Numbers.Integer.Abstract.ZGcd <> m:47 var
+R4800:4800 Coq.Numbers.Integer.Abstract.ZGcd <> p:48 var
+R4805:4810 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R4812:4812 Coq.Numbers.Integer.Abstract.ZGcd <> n:46 var
+R4814:4814 Coq.Numbers.Integer.Abstract.ZGcd <> m:47 var
+R4816:4816 Coq.Numbers.Integer.Abstract.ZGcd <> p:48 var
+binder 4902:4902 <> n:49
+R4909:4912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4906:4907 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4908:4908 Coq.Numbers.Integer.Abstract.ZGcd <> n:49 var
+binder 4920:4920 <> m:50
+R4927:4930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4924:4925 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4926:4926 Coq.Numbers.Integer.Abstract.ZGcd <> m:50 var
+R4931:4936 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R4938:4938 Coq.Numbers.Integer.Abstract.ZGcd <> n:49 var
+R4940:4940 Coq.Numbers.Integer.Abstract.ZGcd <> m:50 var
+R4943:4945 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4947:4947 Coq.Numbers.Integer.Abstract.ZGcd <> n:49 var
+R4949:4949 Coq.Numbers.Integer.Abstract.ZGcd <> m:50 var
+binder 4902:4902 <> n:51
+R4909:4912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4906:4907 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4908:4908 Coq.Numbers.Integer.Abstract.ZGcd <> n:51 var
+binder 4920:4920 <> m:52
+R4927:4930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4924:4925 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4926:4926 Coq.Numbers.Integer.Abstract.ZGcd <> m:52 var
+R4931:4936 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R4938:4938 Coq.Numbers.Integer.Abstract.ZGcd <> n:51 var
+R4940:4940 Coq.Numbers.Integer.Abstract.ZGcd <> m:52 var
+R4943:4945 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R4947:4947 Coq.Numbers.Integer.Abstract.ZGcd <> n:51 var
+R4949:4949 Coq.Numbers.Integer.Abstract.ZGcd <> m:52 var
+binder 4993:4993 <> H:53
+R4998:5019 Coq.Numbers.Integer.Abstract.ZGcd B strong_right_induction thm
+R5023:5023 Coq.Numbers.Integer.Abstract.ZGcd <> H:53 var
+binder 4993:4993 <> H:54
+R4998:5019 Coq.Numbers.Integer.Abstract.ZGcd B strong_right_induction thm
+R5023:5023 Coq.Numbers.Integer.Abstract.ZGcd <> H:54 var
+R5047:5052 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R5108:5114 Coq.Numbers.Integer.Abstract.ZGcd B le_lteq def
+R5108:5114 Coq.Numbers.Integer.Abstract.ZGcd B le_lteq def
+binder 5186:5186 <> H:55
+R5191:5212 Coq.Numbers.Integer.Abstract.ZGcd B strong_right_induction thm
+R5216:5216 Coq.Numbers.Integer.Abstract.ZGcd <> H:55 var
+binder 5186:5186 <> H:56
+R5191:5212 Coq.Numbers.Integer.Abstract.ZGcd B strong_right_induction thm
+R5216:5216 Coq.Numbers.Integer.Abstract.ZGcd <> H:56 var
+R5240:5245 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R5305:5317 Coq.Numbers.Integer.Abstract.ZGcd B lt_trichotomy thm
+R5305:5317 Coq.Numbers.Integer.Abstract.ZGcd B lt_trichotomy thm
+R5373:5373 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5373:5373 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5403:5412 Coq.Numbers.Integer.Abstract.ZGcd B sub_nonneg abbrev
+R5403:5412 Coq.Numbers.Integer.Abstract.ZGcd B sub_nonneg abbrev
+R5434:5443 Coq.Numbers.Integer.Abstract.ZGcd B lt_sub_pos thm
+R5434:5443 Coq.Numbers.Integer.Abstract.ZGcd B lt_sub_pos thm
+R5457:5457 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5457:5457 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'-'_x not
+R5482:5495 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_sub_diag_r thm
+R5482:5495 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_sub_diag_r thm
+R5482:5495 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_sub_diag_r thm
+R5529:5543 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_r thm
+R5546:5560 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_l thm
+R5529:5543 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_r thm
+R5529:5543 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_r thm
+R5546:5560 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_l thm
+R5546:5560 Coq.Numbers.Integer.Abstract.ZGcd B mul_sub_distr_l thm
+R5577:5589 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_assoc thm
+R5592:5603 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_swap thm
+R5577:5589 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_assoc thm
+R5577:5589 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_assoc thm
+R5592:5603 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_swap thm
+R5592:5603 Coq.Numbers.Integer.Abstract.ZGcd B add_sub_swap thm
+R5642:5656 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R5642:5656 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R5642:5656 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R5642:5656 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_diag_nonneg thm
+R5802:5809 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R5819:5826 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+R5802:5809 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R5802:5809 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_comm thm
+R5819:5826 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+R5819:5826 Coq.Numbers.Integer.Abstract.ZGcd B add_comm thm
+R5873:5886 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+R5873:5886 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+R5873:5886 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+R5873:5886 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_0_l_nonneg thm
+binder 6007:6007 <> n:57
+binder 6009:6009 <> m:58
+R6016:6019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6013:6014 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6015:6015 Coq.Numbers.Integer.Abstract.ZGcd <> m:58 var
+R6020:6025 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R6027:6027 Coq.Numbers.Integer.Abstract.ZGcd <> n:57 var
+R6029:6029 Coq.Numbers.Integer.Abstract.ZGcd <> m:58 var
+R6032:6034 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R6036:6036 Coq.Numbers.Integer.Abstract.ZGcd <> n:57 var
+R6038:6038 Coq.Numbers.Integer.Abstract.ZGcd <> m:58 var
+binder 6007:6007 <> n:59
+binder 6009:6009 <> m:60
+R6016:6019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6013:6014 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6015:6015 Coq.Numbers.Integer.Abstract.ZGcd <> m:60 var
+R6020:6025 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp Bezout def
+R6027:6027 Coq.Numbers.Integer.Abstract.ZGcd <> n:59 var
+R6029:6029 Coq.Numbers.Integer.Abstract.ZGcd <> m:60 var
+R6032:6034 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R6036:6036 Coq.Numbers.Integer.Abstract.ZGcd <> n:59 var
+R6038:6038 Coq.Numbers.Integer.Abstract.ZGcd <> m:60 var
+R6072:6082 Coq.Numbers.Integer.Abstract.ZGcd B le_ge_cases thm
+R6072:6082 Coq.Numbers.Integer.Abstract.ZGcd B le_ge_cases thm
+R6122:6125 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6126:6126 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6143:6159 Coq.Numbers.Integer.Abstract.ZGcd B opp_nonneg_nonpos thm
+R6122:6125 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6126:6126 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6143:6159 Coq.Numbers.Integer.Abstract.ZGcd B opp_nonneg_nonpos thm
+R6179:6179 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6179:6179 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6220:6220 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6220:6220 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6250:6258 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R6268:6276 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6279:6287 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R6250:6258 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R6250:6258 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_l thm
+R6268:6276 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6268:6276 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6279:6287 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R6279:6287 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R6384:6394 Coq.Numbers.Integer.Abstract.ZGcd B le_ge_cases thm
+R6384:6394 Coq.Numbers.Integer.Abstract.ZGcd B le_ge_cases thm
+R6434:6437 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6438:6438 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6455:6471 Coq.Numbers.Integer.Abstract.ZGcd B opp_nonneg_nonpos thm
+R6434:6437 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6438:6438 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6455:6471 Coq.Numbers.Integer.Abstract.ZGcd B opp_nonneg_nonpos thm
+R6493:6493 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6493:6493 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6538:6538 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6538:6538 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation :::'-'_x not
+R6558:6566 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_r thm
+R6576:6584 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6587:6595 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R6558:6566 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_r thm
+R6558:6566 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_opp_r thm
+R6576:6584 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6576:6584 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_r thm
+R6587:6595 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+R6587:6595 Coq.Numbers.Integer.Abstract.ZGcd B mul_opp_l thm
+prf 6610:6623 ZGcdProp gcd_mul_mono_l
+binder 6636:6636 <> n:61
+binder 6638:6638 <> m:62
+binder 6640:6640 <> p:63
+R6662:6665 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R6643:6645 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R6649:6651 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6648:6648 Coq.Numbers.Integer.Abstract.ZGcd <> p:63 var
+R6652:6652 Coq.Numbers.Integer.Abstract.ZGcd <> n:61 var
+R6657:6659 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6656:6656 Coq.Numbers.Integer.Abstract.ZGcd <> p:63 var
+R6660:6660 Coq.Numbers.Integer.Abstract.ZGcd <> m:62 var
+R6671:6673 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6666:6668 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R6670:6670 Coq.Numbers.Integer.Abstract.ZGcd <> p:63 var
+R6674:6676 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R6678:6678 Coq.Numbers.Integer.Abstract.ZGcd <> n:61 var
+R6680:6680 Coq.Numbers.Integer.Abstract.ZGcd <> m:62 var
+R6712:6721 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique thm
+R6712:6721 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_unique thm
+R6731:6747 Coq.Numbers.Integer.Abstract.ZGcd B mul_nonneg_nonneg thm
+R6764:6773 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R6776:6785 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R6731:6747 Coq.Numbers.Integer.Abstract.ZGcd B mul_nonneg_nonneg thm
+R6764:6773 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R6764:6773 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R6776:6785 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R6776:6785 Coq.Numbers.Integer.Abstract.ZGcd C abs_nonneg thm
+R6799:6810 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_l prfax
+R6799:6810 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_l prfax
+R6854:6862 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6854:6862 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6854:6862 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6871:6887 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_mono_r thm
+R6871:6887 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_mono_r thm
+R6903:6909 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R6903:6909 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R6903:6909 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R6931:6939 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6931:6939 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6931:6939 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R6948:6962 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_l thm
+R6948:6962 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_l thm
+R6976:6987 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R6976:6987 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R7031:7039 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7031:7039 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7031:7039 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7048:7064 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_mono_r thm
+R7048:7064 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_mono_r thm
+R7080:7086 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R7080:7086 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R7080:7086 Coq.Numbers.Integer.Abstract.ZGcd C abs_sgn thm
+R7108:7116 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7108:7116 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7108:7116 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R7125:7139 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_l thm
+R7125:7139 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_l thm
+R7169:7178 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_bezout thm
+R7185:7187 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7195:7201 Coq.Numbers.Integer.Abstract.ZGcd B eq_refl def
+R7169:7178 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_bezout thm
+R7185:7187 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7195:7201 Coq.Numbers.Integer.Abstract.ZGcd B eq_refl def
+R7243:7249 Coq.Numbers.Integer.Abstract.ZGcd C sgn_abs thm
+R7252:7266 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_l thm
+R7243:7249 Coq.Numbers.Integer.Abstract.ZGcd C sgn_abs thm
+R7243:7249 Coq.Numbers.Integer.Abstract.ZGcd C sgn_abs thm
+R7252:7266 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_l thm
+R7252:7266 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_l thm
+R7275:7286 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R7275:7286 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R7298:7309 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7298:7309 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7298:7309 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7322:7333 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_l thm
+R7322:7333 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_l thm
+R7345:7356 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7345:7356 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7345:7356 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle2 thm
+R7369:7380 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_l thm
+R7369:7380 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_l thm
+prf 7395:7415 ZGcdProp gcd_mul_mono_l_nonneg
+binder 7427:7427 <> n:64
+binder 7429:7429 <> m:65
+binder 7431:7431 <> p:66
+R7438:7441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7435:7436 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7437:7437 Coq.Numbers.Integer.Abstract.ZGcd <> p:66 var
+R7457:7460 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7442:7444 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7448:7448 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7447:7447 Coq.Numbers.Integer.Abstract.ZGcd <> p:66 var
+R7449:7449 Coq.Numbers.Integer.Abstract.ZGcd <> n:64 var
+R7454:7454 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7453:7453 Coq.Numbers.Integer.Abstract.ZGcd <> p:66 var
+R7455:7455 Coq.Numbers.Integer.Abstract.ZGcd <> m:65 var
+R7462:7464 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7461:7461 Coq.Numbers.Integer.Abstract.ZGcd <> p:66 var
+R7465:7467 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7469:7469 Coq.Numbers.Integer.Abstract.ZGcd <> n:64 var
+R7471:7471 Coq.Numbers.Integer.Abstract.ZGcd <> m:65 var
+R7510:7515 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7510:7515 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7510:7515 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7510:7515 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7541:7554 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_l thm
+R7541:7554 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_l thm
+prf 7569:7582 ZGcdProp gcd_mul_mono_r
+binder 7594:7594 <> n:67
+binder 7596:7596 <> m:68
+binder 7598:7598 <> p:69
+R7620:7623 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7601:7603 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7607:7609 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7606:7606 Coq.Numbers.Integer.Abstract.ZGcd <> n:67 var
+R7610:7610 Coq.Numbers.Integer.Abstract.ZGcd <> p:69 var
+R7615:7617 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7614:7614 Coq.Numbers.Integer.Abstract.ZGcd <> m:68 var
+R7618:7618 Coq.Numbers.Integer.Abstract.ZGcd <> p:69 var
+R7631:7633 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7624:7626 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7628:7628 Coq.Numbers.Integer.Abstract.ZGcd <> n:67 var
+R7630:7630 Coq.Numbers.Integer.Abstract.ZGcd <> m:68 var
+R7634:7636 Coq.Numbers.Integer.Abstract.ZGcd A abs defax
+R7638:7638 Coq.Numbers.Integer.Abstract.ZGcd <> p:69 var
+R7677:7684 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7692:7705 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_l thm
+R7708:7715 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7677:7684 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7677:7684 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7677:7684 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7677:7684 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7692:7705 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_l thm
+R7692:7705 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_l thm
+R7708:7715 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R7708:7715 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+prf 7730:7750 ZGcdProp gcd_mul_mono_r_nonneg
+binder 7762:7762 <> n:70
+binder 7764:7764 <> m:71
+binder 7766:7766 <> p:72
+R7773:7776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7770:7771 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7772:7772 Coq.Numbers.Integer.Abstract.ZGcd <> p:72 var
+R7792:7795 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7777:7779 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7783:7783 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7782:7782 Coq.Numbers.Integer.Abstract.ZGcd <> n:70 var
+R7784:7784 Coq.Numbers.Integer.Abstract.ZGcd <> p:72 var
+R7789:7789 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7788:7788 Coq.Numbers.Integer.Abstract.ZGcd <> m:71 var
+R7790:7790 Coq.Numbers.Integer.Abstract.ZGcd <> p:72 var
+R7803:7805 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7796:7798 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7800:7800 Coq.Numbers.Integer.Abstract.ZGcd <> n:70 var
+R7802:7802 Coq.Numbers.Integer.Abstract.ZGcd <> m:71 var
+R7806:7806 Coq.Numbers.Integer.Abstract.ZGcd <> p:72 var
+R7845:7850 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7845:7850 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7845:7850 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7845:7850 Coq.Numbers.Integer.Abstract.ZGcd A abs_eq prfax
+R7876:7889 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r thm
+R7876:7889 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r thm
+prf 7904:7908 ZGcdProp gauss
+binder 7919:7919 <> n:73
+binder 7921:7921 <> m:74
+binder 7923:7923 <> p:75
+R7937:7940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7926:7926 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7928:7930 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7936:7936 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7927:7927 Coq.Numbers.Integer.Abstract.ZGcd <> n:73 var
+R7932:7934 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7931:7931 Coq.Numbers.Integer.Abstract.ZGcd <> m:74 var
+R7935:7935 Coq.Numbers.Integer.Abstract.ZGcd <> p:75 var
+R7953:7956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7948:7951 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7941:7943 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R7945:7945 Coq.Numbers.Integer.Abstract.ZGcd <> n:73 var
+R7947:7947 Coq.Numbers.Integer.Abstract.ZGcd <> m:74 var
+R7957:7957 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7959:7961 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7963:7963 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R7958:7958 Coq.Numbers.Integer.Abstract.ZGcd <> n:73 var
+R7962:7962 Coq.Numbers.Integer.Abstract.ZGcd <> p:75 var
+R8003:8012 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_bezout thm
+R8003:8012 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_bezout thm
+R8053:8059 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8072:8086 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_r thm
+R8053:8059 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8053:8059 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8072:8086 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_r thm
+R8072:8086 Coq.Numbers.Integer.Abstract.ZGcd B mul_add_distr_r thm
+R8096:8107 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R8096:8107 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_add_r thm
+R8118:8129 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8118:8129 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8118:8129 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8138:8152 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_r thm
+R8138:8152 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_factor_r thm
+R8167:8175 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R8167:8175 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R8167:8175 Coq.Numbers.Integer.Abstract.ZGcd B mul_assoc thm
+R8188:8199 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+R8188:8199 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp divide_mul_r thm
+prf 8214:8229 ZGcdProp divide_mul_split
+binder 8240:8240 <> n:76
+binder 8242:8242 <> m:77
+binder 8244:8244 <> p:78
+R8253:8256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8248:8251 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R8247:8247 Coq.Numbers.Integer.Abstract.ZGcd <> n:76 var
+R8268:8272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8257:8257 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8259:8261 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8267:8267 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8258:8258 Coq.Numbers.Integer.Abstract.ZGcd <> n:76 var
+R8263:8265 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8262:8262 Coq.Numbers.Integer.Abstract.ZGcd <> m:77 var
+R8266:8266 Coq.Numbers.Integer.Abstract.ZGcd <> p:78 var
+R8273:8279 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8283:8284 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8280:8280 <> q:79
+binder 8282:8282 <> r:80
+R8293:8296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8286:8289 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8285:8285 Coq.Numbers.Integer.Abstract.ZGcd <> n:76 var
+R8291:8291 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R8290:8290 Coq.Numbers.Integer.Abstract.ZGcd <> q:79 var
+R8292:8292 Coq.Numbers.Integer.Abstract.ZGcd <> r:80 var
+R8304:8307 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8297:8297 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8299:8301 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8303:8303 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8298:8298 Coq.Numbers.Integer.Abstract.ZGcd <> q:79 var
+R8302:8302 Coq.Numbers.Integer.Abstract.ZGcd <> m:77 var
+R8308:8308 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8310:8312 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8314:8314 Coq.Numbers.NatInt.NZGcd DivideNotation :::'('_x_'|'_x_')' not
+R8309:8309 Coq.Numbers.Integer.Abstract.ZGcd <> r:80 var
+R8313:8313 Coq.Numbers.Integer.Abstract.ZGcd <> p:78 var
+R8358:8367 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R8358:8367 Coq.Numbers.Integer.Abstract.ZGcd A gcd_nonneg prfax
+R8382:8388 Coq.Numbers.Integer.Abstract.ZGcd B le_lteq def
+R8382:8388 Coq.Numbers.Integer.Abstract.ZGcd B le_lteq def
+R8428:8439 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_l prfax
+R8428:8439 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_l prfax
+R8466:8468 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R8466:8468 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R8506:8513 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R8506:8513 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R8506:8513 Coq.Numbers.Integer.Abstract.ZGcd B mul_comm thm
+R8530:8541 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R8530:8541 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R8555:8566 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R8555:8566 Coq.Numbers.Integer.Abstract.ZGcd A gcd_divide_r prfax
+R8633:8644 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8633:8644 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8633:8644 Coq.Numbers.Integer.Abstract.ZGcd B mul_shuffle0 thm
+R8658:8676 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_cancel_r thm
+R8658:8676 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp mul_divide_cancel_r thm
+R8701:8705 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gauss thm
+R8701:8705 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gauss thm
+R8750:8752 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R8731:8742 Coq.Numbers.Integer.Abstract.ZGcd B mul_cancel_r thm
+R8750:8752 Coq.Numbers.Integer.Abstract.ZGcd A gcd defax
+R8731:8742 Coq.Numbers.Integer.Abstract.ZGcd B mul_cancel_r thm
+R8779:8785 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8779:8785 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8779:8785 Coq.Numbers.Integer.Abstract.ZGcd B mul_1_l thm
+R8800:8820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r_nonneg thm
+R8800:8820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r_nonneg thm
+R8800:8820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r_nonneg thm
+R8800:8820 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_mul_mono_r_nonneg thm
+R8866:8873 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_eq_0 thm
+R8866:8873 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp gcd_eq_0 thm
+R8990:8997 Coq.Numbers.Integer.Abstract.ZGcd ZGcdProp <> modtype

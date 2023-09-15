@@ -1,0 +1,859 @@
+DIGEST 1d26ceb3bd97cf32a8e84f1b89160ea9
+FCoq.rtauto.Bintree
+R691:694 Coq.Lists.List <> <> lib
+R712:717 Coq.PArith.BinPos <> <> lib
+prf 795:802 <> Gt_Psucc
+binder 812:812 <> p:1
+binder 814:814 <> q:2
+R846:849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R824:824 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R840:843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R826:829 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R825:825 Coq.rtauto.Bintree <> p:1 var
+R830:837 Coq.PArith.BinPos Pos succ def
+R839:839 Coq.rtauto.Bintree <> q:2 var
+R844:845 Coq.Init.Datatypes <> Gt constr
+R850:850 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R857:860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R852:855 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R851:851 Coq.rtauto.Bintree <> p:1 var
+R856:856 Coq.rtauto.Bintree <> q:2 var
+R861:862 Coq.Init.Datatypes <> Gt constr
+R891:911 Coq.PArith.BinPos Pos compare_succ_succ thm
+R891:911 Coq.PArith.BinPos Pos compare_succ_succ thm
+R891:911 Coq.PArith.BinPos Pos compare_succ_succ thm
+R924:932 Coq.PArith.BinPos Pos lt_gt thm
+R935:948 Coq.PArith.BinPos Pos lt_lt_succ thm
+R951:959 Coq.PArith.BinPos Pos gt_lt thm
+R924:932 Coq.PArith.BinPos Pos lt_gt thm
+R935:948 Coq.PArith.BinPos Pos lt_lt_succ thm
+R951:959 Coq.PArith.BinPos Pos gt_lt thm
+prf 974:981 <> Psucc_Gt
+binder 992:992 <> p:3
+R1002:1002 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1018:1021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1013:1016 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R1003:1010 Coq.PArith.BinPos Pos succ def
+R1012:1012 Coq.rtauto.Bintree <> p:3 var
+R1017:1017 Coq.rtauto.Bintree <> p:3 var
+R1022:1023 Coq.Init.Datatypes <> Gt constr
+R1047:1055 Coq.PArith.BinPos Pos lt_gt thm
+R1058:1075 Coq.PArith.BinPos Pos lt_succ_diag_r thm
+R1047:1055 Coq.PArith.BinPos Pos lt_gt thm
+R1058:1075 Coq.PArith.BinPos Pos lt_succ_diag_r thm
+def 1093:1096 <> Lget
+binder 1099:1099 <> A:4
+R1109:1111 Coq.Init.Datatypes <> nat ind
+binder 1107:1107 <> n:5
+R1117:1120 Coq.Init.Datatypes <> list ind
+R1122:1122 Coq.rtauto.Bintree <> A:4 var
+binder 1115:1115 <> l:6
+R1136:1141 Coq.Init.Datatypes <> option ind
+R1143:1143 Coq.rtauto.Bintree <> A:4 var
+R1154:1154 Coq.rtauto.Bintree <> l:6 var
+R1161:1163 Coq.Init.Datatypes <> nil constr
+R1168:1171 Coq.Init.Datatypes <> None constr
+R1176:1177 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1189:1189 Coq.rtauto.Bintree <> n:5 var
+R1196:1196 Coq.Init.Datatypes <> O constr
+R1201:1204 Coq.Init.Datatypes <> Some constr
+R1210:1210 Coq.Init.Datatypes <> S constr
+R1217:1220 Coq.rtauto.Bintree <> Lget:7 def
+R1222:1222 Coq.rtauto.Bintree <> A:4 var
+R1249:1252 Coq.rtauto.Bintree <> Lget def
+R1249:1252 Coq.rtauto.Bintree <> Lget def
+prf 1270:1276 <> map_app
+binder 1288:1288 <> A:10
+binder 1290:1290 <> B:11
+R1301:1304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1300:1300 Coq.rtauto.Bintree <> A:10 var
+R1305:1305 Coq.rtauto.Bintree <> B:11 var
+binder 1298:1298 <> f:12
+binder 1308:1308 <> l:13
+binder 1310:1310 <> m:14
+R1333:1335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1313:1320 Coq.Lists.List <> map def
+R1327:1330 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1326:1326 Coq.rtauto.Bintree <> l:13 var
+R1331:1331 Coq.rtauto.Bintree <> m:14 var
+R1323:1323 Coq.rtauto.Bintree <> f:12 var
+R1350:1353 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1336:1343 Coq.Lists.List <> map def
+R1349:1349 Coq.rtauto.Bintree <> l:13 var
+R1346:1346 Coq.rtauto.Bintree <> f:12 var
+R1354:1361 Coq.Lists.List <> map def
+R1367:1367 Coq.rtauto.Bintree <> m:14 var
+R1364:1364 Coq.rtauto.Bintree <> f:12 var
+R1419:1425 Coq.Init.Logic <> f_equal thm
+R1419:1425 Coq.Init.Logic <> f_equal thm
+prf 1450:1459 <> length_map
+binder 1471:1471 <> A:15
+binder 1473:1473 <> B:16
+R1484:1487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1483:1483 Coq.rtauto.Bintree <> A:15 var
+R1488:1488 Coq.rtauto.Bintree <> B:16 var
+binder 1481:1481 <> f:17
+binder 1491:1491 <> l:18
+R1516:1518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1494:1499 Coq.Init.Datatypes <> length def
+R1502:1509 Coq.Lists.List <> map def
+R1514:1514 Coq.rtauto.Bintree <> l:18 var
+R1512:1512 Coq.rtauto.Bintree <> f:17 var
+R1519:1524 Coq.Init.Datatypes <> length def
+R1526:1526 Coq.rtauto.Bintree <> l:18 var
+R1568:1574 Coq.Init.Logic <> f_equal thm
+R1568:1574 Coq.Init.Logic <> f_equal thm
+prf 1599:1606 <> Lget_map
+binder 1618:1618 <> A:19
+binder 1620:1620 <> B:20
+R1631:1634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1630:1630 Coq.rtauto.Bintree <> A:19 var
+R1635:1635 Coq.rtauto.Bintree <> B:20 var
+binder 1628:1628 <> f:21
+binder 1638:1638 <> i:22
+binder 1640:1640 <> l:23
+R1665:1667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1643:1646 Coq.rtauto.Bintree <> Lget def
+R1651:1658 Coq.Lists.List <> map def
+R1663:1663 Coq.rtauto.Bintree <> l:23 var
+R1661:1661 Coq.rtauto.Bintree <> f:21 var
+R1648:1648 Coq.rtauto.Bintree <> i:22 var
+R1674:1677 Coq.rtauto.Bintree <> Lget def
+R1681:1681 Coq.rtauto.Bintree <> l:23 var
+R1679:1679 Coq.rtauto.Bintree <> i:22 var
+R1688:1691 Coq.Init.Datatypes <> Some constr
+R1698:1701 Coq.Init.Datatypes <> Some constr
+R1704:1704 Coq.rtauto.Bintree <> f:21 var
+R1711:1714 Coq.Init.Datatypes <> None constr
+R1719:1722 Coq.Init.Datatypes <> None constr
+prf 1792:1799 <> Lget_app
+binder 1811:1811 <> A:24
+R1821:1821 Coq.rtauto.Bintree <> A:24 var
+binder 1819:1819 <> a:25
+binder 1824:1824 <> l:26
+binder 1826:1826 <> i:27
+R1851:1853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1829:1832 Coq.rtauto.Bintree <> Lget def
+R1838:1841 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1837:1837 Coq.rtauto.Bintree <> l:26 var
+R1843:1846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1842:1842 Coq.rtauto.Bintree <> a:25 var
+R1847:1849 Coq.Init.Datatypes <> nil constr
+R1834:1834 Coq.rtauto.Bintree <> i:27 var
+R1857:1863 Coq.Init.Nat <> eqb def
+R1865:1865 Coq.rtauto.Bintree <> i:27 var
+R1868:1873 Coq.Init.Datatypes <> length def
+R1875:1875 Coq.rtauto.Bintree <> l:26 var
+R1895:1898 Coq.rtauto.Bintree <> Lget def
+R1902:1902 Coq.rtauto.Bintree <> l:26 var
+R1900:1900 Coq.rtauto.Bintree <> i:27 var
+R1883:1886 Coq.Init.Datatypes <> Some constr
+R1888:1888 Coq.rtauto.Bintree <> a:25 var
+prf 2034:2046 <> Lget_app_Some
+binder 2058:2058 <> A:28
+binder 2065:2065 <> l:29
+binder 2067:2071 <> delta:30
+binder 2073:2073 <> i:31
+R2079:2079 Coq.rtauto.Bintree <> A:28 var
+binder 2076:2076 <> a:32
+R2100:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2091:2093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2083:2086 Coq.rtauto.Bintree <> Lget def
+R2090:2090 Coq.rtauto.Bintree <> l:29 var
+R2088:2088 Coq.rtauto.Bintree <> i:31 var
+R2094:2097 Coq.Init.Datatypes <> Some constr
+R2099:2099 Coq.rtauto.Bintree <> a:32 var
+R2123:2125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2104:2107 Coq.rtauto.Bintree <> Lget def
+R2113:2116 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2112:2112 Coq.rtauto.Bintree <> l:29 var
+R2117:2121 Coq.rtauto.Bintree <> delta:30 var
+R2109:2109 Coq.rtauto.Bintree <> i:31 var
+R2126:2129 Coq.Init.Datatypes <> Some constr
+R2131:2131 Coq.rtauto.Bintree <> a:32 var
+ind 2200:2206 <> Poption
+constr 2223:2227 <> PSome
+constr 2246:2250 <> PNone
+binder 2209:2209 <> A:33
+R2232:2235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2231:2231 Coq.rtauto.Bintree <> A:33 var
+R2236:2242 Coq.rtauto.Bintree <> Poption:34 ind
+R2254:2260 Coq.rtauto.Bintree <> Poption:34 ind
+R2273:2279 Coq.rtauto.Bintree <> Poption ind
+R2273:2279 Coq.rtauto.Bintree <> Poption ind
+ind 2311:2314 <> Tree
+constr 2333:2338 <> Tempty
+constr 2350:2356 <> Branch0
+constr 2384:2390 <> Branch1
+binder 2317:2317 <> A:36
+R2342:2345 Coq.rtauto.Bintree <> Tree:37 ind
+R2364:2367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2360:2363 Coq.rtauto.Bintree <> Tree:37 ind
+R2372:2375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2368:2371 Coq.rtauto.Bintree <> Tree:37 ind
+R2376:2379 Coq.rtauto.Bintree <> Tree:37 ind
+R2395:2398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2394:2394 Coq.rtauto.Bintree <> A:36 var
+R2403:2406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2399:2402 Coq.rtauto.Bintree <> Tree:37 ind
+R2411:2414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2407:2410 Coq.rtauto.Bintree <> Tree:37 ind
+R2415:2418 Coq.rtauto.Bintree <> Tree:37 ind
+R2431:2434 Coq.rtauto.Bintree <> Tree ind
+R2431:2434 Coq.rtauto.Bintree <> Tree ind
+sec 2464:2468 <> Store
+var 2481:2481 Store A
+abbrev 2499:2505 <> Poption
+R2511:2517 Coq.rtauto.Bintree <> Poption ind
+R2519:2519 Coq.rtauto.Bintree <> Store.A var
+abbrev 2532:2535 <> Tree
+R2541:2544 Coq.rtauto.Bintree <> Tree ind
+R2546:2546 Coq.rtauto.Bintree <> Store.A var
+def 2561:2564 <> Tget
+R2569:2576 Coq.Numbers.BinNums <> positive ind
+binder 2567:2567 <> p:40
+R2582:2585 Coq.rtauto.Bintree <> Tree abbrev
+binder 2580:2580 <> T:41
+R2601:2607 Coq.rtauto.Bintree <> Poption abbrev
+R2620:2620 Coq.rtauto.Bintree <> T:41 var
+R2631:2636 Coq.rtauto.Bintree <> Tempty constr
+R2641:2645 Coq.rtauto.Bintree <> PNone constr
+R2651:2657 Coq.rtauto.Bintree <> Branch0 constr
+R2678:2678 Coq.rtauto.Bintree <> p:40 var
+R2691:2692 Coq.Numbers.BinNums <> xI constr
+R2700:2703 Coq.rtauto.Bintree <> Tget:42 def
+R2717:2718 Coq.Numbers.BinNums <> xO constr
+R2726:2729 Coq.rtauto.Bintree <> Tget:42 def
+R2743:2744 Coq.Numbers.BinNums <> xH constr
+R2749:2753 Coq.rtauto.Bintree <> PNone constr
+R2767:2773 Coq.rtauto.Bintree <> Branch1 constr
+R2796:2796 Coq.rtauto.Bintree <> p:40 var
+R2809:2810 Coq.Numbers.BinNums <> xI constr
+R2818:2821 Coq.rtauto.Bintree <> Tget:42 def
+R2835:2836 Coq.Numbers.BinNums <> xO constr
+R2844:2847 Coq.rtauto.Bintree <> Tget:42 def
+R2861:2862 Coq.Numbers.BinNums <> xH constr
+R2867:2871 Coq.rtauto.Bintree <> PSome constr
+def 2898:2901 <> Tadd
+R2906:2913 Coq.Numbers.BinNums <> positive ind
+binder 2904:2904 <> p:46
+R2919:2919 Coq.rtauto.Bintree <> Store.A var
+binder 2917:2917 <> a:47
+R2925:2928 Coq.rtauto.Bintree <> Tree abbrev
+binder 2923:2923 <> T:48
+R2943:2946 Coq.rtauto.Bintree <> Tree abbrev
+R2958:2958 Coq.rtauto.Bintree <> T:48 var
+R2970:2975 Coq.rtauto.Bintree <> Tempty constr
+R2993:2993 Coq.rtauto.Bintree <> p:46 var
+R3009:3010 Coq.Numbers.BinNums <> xI constr
+R3018:3024 Coq.rtauto.Bintree <> Branch0 constr
+R3034:3037 Coq.rtauto.Bintree <> Tadd:49 def
+R3044:3049 Coq.rtauto.Bintree <> Tempty constr
+R3042:3042 Coq.rtauto.Bintree <> a:47 var
+R3026:3031 Coq.rtauto.Bintree <> Tempty constr
+R3061:3062 Coq.Numbers.BinNums <> xO constr
+R3070:3076 Coq.rtauto.Bintree <> Branch0 constr
+R3097:3102 Coq.rtauto.Bintree <> Tempty constr
+R3079:3082 Coq.rtauto.Bintree <> Tadd:49 def
+R3089:3094 Coq.rtauto.Bintree <> Tempty constr
+R3087:3087 Coq.rtauto.Bintree <> a:47 var
+R3113:3114 Coq.Numbers.BinNums <> xH constr
+R3119:3125 Coq.rtauto.Bintree <> Branch1 constr
+R3136:3141 Coq.rtauto.Bintree <> Tempty constr
+R3129:3134 Coq.rtauto.Bintree <> Tempty constr
+R3127:3127 Coq.rtauto.Bintree <> a:47 var
+R3159:3165 Coq.rtauto.Bintree <> Branch0 constr
+R3189:3189 Coq.rtauto.Bintree <> p:46 var
+R3205:3206 Coq.Numbers.BinNums <> xI constr
+R3214:3220 Coq.rtauto.Bintree <> Branch0 constr
+R3226:3229 Coq.rtauto.Bintree <> Tadd:49 def
+R3234:3234 Coq.rtauto.Bintree <> a:47 var
+R3249:3250 Coq.Numbers.BinNums <> xO constr
+R3258:3264 Coq.rtauto.Bintree <> Branch0 constr
+R3267:3270 Coq.rtauto.Bintree <> Tadd:49 def
+R3275:3275 Coq.rtauto.Bintree <> a:47 var
+R3293:3294 Coq.Numbers.BinNums <> xH constr
+R3299:3305 Coq.rtauto.Bintree <> Branch1 constr
+R3307:3307 Coq.rtauto.Bintree <> a:47 var
+R3331:3337 Coq.rtauto.Bintree <> Branch1 constr
+R3363:3363 Coq.rtauto.Bintree <> p:46 var
+R3379:3380 Coq.Numbers.BinNums <> xI constr
+R3388:3394 Coq.rtauto.Bintree <> Branch1 constr
+R3402:3405 Coq.rtauto.Bintree <> Tadd:49 def
+R3410:3410 Coq.rtauto.Bintree <> a:47 var
+R3425:3426 Coq.Numbers.BinNums <> xO constr
+R3434:3440 Coq.rtauto.Bintree <> Branch1 constr
+R3445:3448 Coq.rtauto.Bintree <> Tadd:49 def
+R3453:3453 Coq.rtauto.Bintree <> a:47 var
+R3471:3472 Coq.Numbers.BinNums <> xH constr
+R3477:3483 Coq.rtauto.Bintree <> Branch1 constr
+R3485:3485 Coq.rtauto.Bintree <> a:47 var
+def 3524:3532 <> mkBranch0
+R3541:3544 Coq.rtauto.Bintree <> Tree abbrev
+binder 3535:3536 <> T1:54
+binder 3538:3539 <> T2:55
+R3561:3562 Coq.rtauto.Bintree <> T2:55 var
+R3558:3559 Coq.rtauto.Bintree <> T1:54 var
+R3573:3578 Coq.rtauto.Bintree <> Tempty constr
+R3581:3586 Coq.rtauto.Bintree <> Tempty constr
+R3591:3596 Coq.rtauto.Bintree <> Tempty constr
+R3609:3615 Coq.rtauto.Bintree <> Branch0 constr
+R3620:3621 Coq.rtauto.Bintree <> T2:55 var
+R3617:3618 Coq.rtauto.Bintree <> T1:54 var
+def 3640:3646 <> Tremove
+R3651:3658 Coq.Numbers.BinNums <> positive ind
+binder 3649:3649 <> p:58
+R3664:3667 Coq.rtauto.Bintree <> Tree abbrev
+binder 3662:3662 <> T:59
+R3682:3685 Coq.rtauto.Bintree <> Tree abbrev
+R3699:3699 Coq.rtauto.Bintree <> T:59 var
+R3714:3719 Coq.rtauto.Bintree <> Tempty constr
+R3724:3729 Coq.rtauto.Bintree <> Tempty constr
+R3739:3745 Coq.rtauto.Bintree <> Branch0 constr
+R3770:3770 Coq.rtauto.Bintree <> p:58 var
+R3787:3788 Coq.Numbers.BinNums <> xI constr
+R3796:3804 Coq.rtauto.Bintree <> mkBranch0 def
+R3810:3816 Coq.rtauto.Bintree <> Tremove:60 def
+R3835:3836 Coq.Numbers.BinNums <> xO constr
+R3844:3852 Coq.rtauto.Bintree <> mkBranch0 def
+R3855:3861 Coq.rtauto.Bintree <> Tremove:60 def
+R3883:3884 Coq.Numbers.BinNums <> xH constr
+R3889:3889 Coq.rtauto.Bintree <> T:59 var
+R3911:3917 Coq.rtauto.Bintree <> Branch1 constr
+R3944:3944 Coq.rtauto.Bintree <> p:58 var
+R3961:3962 Coq.Numbers.BinNums <> xI constr
+R3970:3976 Coq.rtauto.Bintree <> Branch1 constr
+R3984:3990 Coq.rtauto.Bintree <> Tremove:60 def
+R4009:4010 Coq.Numbers.BinNums <> xO constr
+R4018:4024 Coq.rtauto.Bintree <> Branch1 constr
+R4029:4035 Coq.rtauto.Bintree <> Tremove:60 def
+R4057:4058 Coq.Numbers.BinNums <> xH constr
+R4063:4071 Coq.rtauto.Bintree <> mkBranch0 def
+prf 4112:4122 <> Tget_Tempty
+R4137:4144 Coq.Numbers.BinNums <> positive ind
+binder 4133:4133 <> p:64
+R4163:4165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4148:4151 Coq.rtauto.Bintree <> Tget def
+R4153:4153 Coq.rtauto.Bintree <> p:64 var
+R4156:4161 Coq.rtauto.Bintree <> Tempty constr
+R4166:4170 Coq.rtauto.Bintree <> PNone constr
+prf 4211:4219 <> Tget_Tadd
+binder 4229:4229 <> i:65
+binder 4231:4231 <> j:66
+binder 4233:4233 <> a:67
+binder 4235:4235 <> T:68
+R4264:4273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4245:4248 Coq.rtauto.Bintree <> Tget def
+R4250:4250 Coq.rtauto.Bintree <> i:65 var
+R4253:4256 Coq.rtauto.Bintree <> Tadd def
+R4258:4258 Coq.rtauto.Bintree <> j:66 var
+R4260:4260 Coq.rtauto.Bintree <> a:67 var
+R4262:4262 Coq.rtauto.Bintree <> T:68 var
+R4282:4285 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R4281:4281 Coq.rtauto.Bintree <> i:65 var
+R4286:4286 Coq.rtauto.Bintree <> j:66 var
+R4303:4304 Coq.Init.Datatypes <> Eq constr
+R4309:4313 Coq.rtauto.Bintree <> PSome constr
+R4315:4315 Coq.rtauto.Bintree <> a:67 var
+R4326:4327 Coq.Init.Datatypes <> Lt constr
+R4332:4335 Coq.rtauto.Bintree <> Tget def
+R4337:4337 Coq.rtauto.Bintree <> i:65 var
+R4339:4339 Coq.rtauto.Bintree <> T:68 var
+R4350:4351 Coq.Init.Datatypes <> Gt constr
+R4356:4359 Coq.rtauto.Bintree <> Tget def
+R4361:4361 Coq.rtauto.Bintree <> i:65 var
+R4363:4363 Coq.rtauto.Bintree <> T:68 var
+R4406:4409 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R4406:4409 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R4431:4444 Coq.PArith.BinPos Pos compare_eq thm
+R4431:4444 Coq.PArith.BinPos Pos compare_eq thm
+R4431:4444 Coq.PArith.BinPos Pos compare_eq thm
+R4537:4547 Coq.PArith.BinPos Pos compare def
+R4715:4725 Coq.PArith.BinPos Pos compare def
+rec 4899:4903 <> Store
+proj 4925:4929 <> index
+proj 4940:4947 <> contents
+R4931:4938 Coq.Numbers.BinNums <> positive ind
+R4949:4952 Coq.rtauto.Bintree <> Tree abbrev
+def 4968:4972 <> empty
+R4977:4983 Coq.rtauto.Bintree <> mkStore constr
+R4985:4986 Coq.Numbers.BinNums <> xH constr
+R4988:4993 Coq.rtauto.Bintree <> Tempty constr
+def 5008:5011 <> push
+binder 5013:5013 <> a:72
+binder 5016:5016 <> S:73
+R5021:5027 Coq.rtauto.Bintree <> mkStore constr
+R5030:5037 Coq.PArith.BinPos Pos succ def
+R5040:5044 Coq.rtauto.Bintree <> index proj
+R5046:5046 Coq.rtauto.Bintree <> S:73 var
+R5051:5054 Coq.rtauto.Bintree <> Tadd def
+R5057:5061 Coq.rtauto.Bintree <> index proj
+R5063:5063 Coq.rtauto.Bintree <> S:73 var
+R5066:5066 Coq.rtauto.Bintree <> a:72 var
+R5069:5076 Coq.rtauto.Bintree <> contents proj
+R5078:5078 Coq.rtauto.Bintree <> S:73 var
+def 5095:5097 <> get
+binder 5099:5099 <> i:74
+binder 5101:5101 <> S:75
+R5106:5109 Coq.rtauto.Bintree <> Tget def
+R5111:5111 Coq.rtauto.Bintree <> i:74 var
+R5114:5121 Coq.rtauto.Bintree <> contents proj
+R5123:5123 Coq.rtauto.Bintree <> S:75 var
+prf 5134:5142 <> get_empty
+binder 5153:5153 <> i:76
+R5167:5169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5156:5158 Coq.rtauto.Bintree <> get def
+R5160:5160 Coq.rtauto.Bintree <> i:76 var
+R5162:5166 Coq.rtauto.Bintree <> empty def
+R5170:5174 Coq.rtauto.Bintree <> PNone constr
+R5201:5205 Coq.rtauto.Bintree <> empty def
+R5207:5209 Coq.rtauto.Bintree <> get def
+ind 5247:5250 <> Full
+constr 5274:5280 <> F_empty
+constr 5299:5304 <> F_push
+R5259:5262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5254:5258 Coq.rtauto.Bintree <> Store rec
+R5284:5287 Coq.rtauto.Bintree <> Full:77 ind
+R5289:5293 Coq.rtauto.Bintree <> empty def
+binder 5315:5315 <> a:79
+binder 5317:5317 <> S:80
+R5326:5329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5320:5323 Coq.rtauto.Bintree <> Full:77 ind
+R5325:5325 Coq.rtauto.Bintree <> S:80 var
+R5330:5333 Coq.rtauto.Bintree <> Full:77 ind
+R5336:5339 Coq.rtauto.Bintree <> push def
+R5341:5341 Coq.rtauto.Bintree <> a:79 var
+R5343:5343 Coq.rtauto.Bintree <> S:80 var
+prf 5356:5366 <> get_Full_Gt
+binder 5377:5377 <> S:81
+R5386:5396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5380:5383 Coq.rtauto.Bintree <> Full ind
+R5385:5385 Coq.rtauto.Bintree <> S:81 var
+binder 5404:5404 <> i:82
+R5426:5429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5407:5407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5420:5423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5409:5412 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R5408:5408 Coq.rtauto.Bintree <> i:82 var
+R5413:5417 Coq.rtauto.Bintree <> index proj
+R5419:5419 Coq.rtauto.Bintree <> S:81 var
+R5424:5425 Coq.Init.Datatypes <> Gt constr
+R5437:5439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5430:5432 Coq.rtauto.Bintree <> get def
+R5434:5434 Coq.rtauto.Bintree <> i:82 var
+R5436:5436 Coq.rtauto.Bintree <> S:81 var
+R5440:5444 Coq.rtauto.Bintree <> PNone constr
+R5485:5489 Coq.rtauto.Bintree <> empty def
+R5491:5495 Coq.rtauto.Bintree <> index proj
+R5497:5499 Coq.rtauto.Bintree <> get def
+R5501:5508 Coq.rtauto.Bintree <> contents proj
+R5523:5533 Coq.rtauto.Bintree <> Tget_Tempty thm
+R5523:5533 Coq.rtauto.Bintree <> Tget_Tempty thm
+R5543:5547 Coq.rtauto.Bintree <> index proj
+R5549:5551 Coq.rtauto.Bintree <> get def
+R5553:5556 Coq.rtauto.Bintree <> push def
+R5595:5603 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5595:5603 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5595:5603 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5615:5622 Coq.rtauto.Bintree <> Gt_Psucc thm
+R5615:5622 Coq.rtauto.Bintree <> Gt_Psucc thm
+R5615:5622 Coq.rtauto.Bintree <> Gt_Psucc thm
+R5639:5641 Coq.rtauto.Bintree <> get def
+R5667:5674 Coq.rtauto.Bintree <> Gt_Psucc thm
+R5667:5674 Coq.rtauto.Bintree <> Gt_Psucc thm
+prf 5702:5712 <> get_Full_Eq
+binder 5723:5723 <> S:83
+R5732:5735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5726:5729 Coq.rtauto.Bintree <> Full ind
+R5731:5731 Coq.rtauto.Bintree <> S:83 var
+R5751:5753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5736:5738 Coq.rtauto.Bintree <> get def
+R5741:5745 Coq.rtauto.Bintree <> index proj
+R5747:5747 Coq.rtauto.Bintree <> S:83 var
+R5750:5750 Coq.rtauto.Bintree <> S:83 var
+R5754:5758 Coq.rtauto.Bintree <> PNone constr
+R5805:5809 Coq.rtauto.Bintree <> empty def
+R5811:5815 Coq.rtauto.Bintree <> index proj
+R5817:5819 Coq.rtauto.Bintree <> get def
+R5821:5828 Coq.rtauto.Bintree <> contents proj
+R5843:5853 Coq.rtauto.Bintree <> Tget_Tempty thm
+R5843:5853 Coq.rtauto.Bintree <> Tget_Tempty thm
+R5863:5866 Coq.rtauto.Bintree <> push def
+R5868:5872 Coq.rtauto.Bintree <> index proj
+R5874:5876 Coq.rtauto.Bintree <> get def
+R5915:5923 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5915:5923 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5915:5923 Coq.rtauto.Bintree <> Tget_Tadd thm
+R5934:5941 Coq.rtauto.Bintree <> Psucc_Gt thm
+R5934:5941 Coq.rtauto.Bintree <> Psucc_Gt thm
+R5934:5941 Coq.rtauto.Bintree <> Psucc_Gt thm
+R5987:5988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5961:5963 Coq.rtauto.Bintree <> get def
+R5966:5973 Coq.PArith.BinPos Pos succ def
+R5976:5980 Coq.rtauto.Bintree <> index proj
+R5989:5993 Coq.rtauto.Bintree <> PNone constr
+R5987:5988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5961:5963 Coq.rtauto.Bintree <> get def
+R5966:5973 Coq.PArith.BinPos Pos succ def
+R5976:5980 Coq.rtauto.Bintree <> index proj
+R5989:5993 Coq.rtauto.Bintree <> PNone constr
+R6003:6013 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6003:6013 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6028:6035 Coq.rtauto.Bintree <> Psucc_Gt thm
+R6028:6035 Coq.rtauto.Bintree <> Psucc_Gt thm
+prf 6052:6064 <> get_push_Full
+binder 6077:6077 <> i:84
+binder 6079:6079 <> a:85
+binder 6081:6081 <> S:86
+R6090:6095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6084:6087 Coq.rtauto.Bintree <> Full ind
+R6089:6089 Coq.rtauto.Bintree <> S:86 var
+R6112:6116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6096:6098 Coq.rtauto.Bintree <> get def
+R6100:6100 Coq.rtauto.Bintree <> i:84 var
+R6103:6106 Coq.rtauto.Bintree <> push def
+R6108:6108 Coq.rtauto.Bintree <> a:85 var
+R6110:6110 Coq.rtauto.Bintree <> S:86 var
+R6125:6128 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6124:6124 Coq.rtauto.Bintree <> i:84 var
+R6129:6133 Coq.rtauto.Bintree <> index proj
+R6135:6135 Coq.rtauto.Bintree <> S:86 var
+R6147:6148 Coq.Init.Datatypes <> Eq constr
+R6153:6157 Coq.rtauto.Bintree <> PSome constr
+R6159:6159 Coq.rtauto.Bintree <> a:85 var
+R6165:6166 Coq.Init.Datatypes <> Lt constr
+R6171:6173 Coq.rtauto.Bintree <> get def
+R6175:6175 Coq.rtauto.Bintree <> i:84 var
+R6177:6177 Coq.rtauto.Bintree <> S:86 var
+R6183:6184 Coq.Init.Datatypes <> Gt constr
+R6189:6193 Coq.rtauto.Bintree <> PNone constr
+R6233:6236 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6237:6241 Coq.rtauto.Bintree <> index proj
+R6233:6236 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6237:6241 Coq.rtauto.Bintree <> index proj
+R6264:6277 Coq.PArith.BinPos Pos compare_eq thm
+R6264:6277 Coq.PArith.BinPos Pos compare_eq thm
+R6264:6277 Coq.PArith.BinPos Pos compare_eq thm
+R6305:6307 Coq.rtauto.Bintree <> get def
+R6309:6312 Coq.rtauto.Bintree <> push def
+R6314:6318 Coq.rtauto.Bintree <> index proj
+R6344:6352 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6344:6352 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6344:6352 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6363:6378 Coq.PArith.BinPos Pos compare_refl thm
+R6363:6378 Coq.PArith.BinPos Pos compare_refl thm
+R6363:6378 Coq.PArith.BinPos Pos compare_refl thm
+R6418:6420 Coq.rtauto.Bintree <> get def
+R6422:6425 Coq.rtauto.Bintree <> push def
+R6427:6431 Coq.rtauto.Bintree <> index proj
+R6457:6465 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6457:6465 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6457:6465 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6546:6548 Coq.rtauto.Bintree <> get def
+R6550:6553 Coq.rtauto.Bintree <> push def
+R6570:6578 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6570:6578 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6570:6578 Coq.rtauto.Bintree <> Tget_Tadd thm
+R6614:6614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6607:6609 Coq.rtauto.Bintree <> get def
+R6615:6619 Coq.rtauto.Bintree <> PNone constr
+R6614:6614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6607:6609 Coq.rtauto.Bintree <> get def
+R6615:6619 Coq.rtauto.Bintree <> PNone constr
+R6629:6639 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6629:6639 Coq.rtauto.Bintree <> get_Full_Gt thm
+prf 6659:6674 <> Full_push_compat
+binder 6685:6685 <> i:87
+binder 6687:6687 <> a:88
+binder 6689:6689 <> S:89
+R6698:6701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6692:6695 Coq.rtauto.Bintree <> Full ind
+R6697:6697 Coq.rtauto.Bintree <> S:89 var
+binder 6709:6709 <> x:90
+R6729:6733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6719:6721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6712:6714 Coq.rtauto.Bintree <> get def
+R6716:6716 Coq.rtauto.Bintree <> i:87 var
+R6718:6718 Coq.rtauto.Bintree <> S:89 var
+R6722:6726 Coq.rtauto.Bintree <> PSome constr
+R6728:6728 Coq.rtauto.Bintree <> x:90 var
+R6750:6752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6734:6736 Coq.rtauto.Bintree <> get def
+R6738:6738 Coq.rtauto.Bintree <> i:87 var
+R6741:6744 Coq.rtauto.Bintree <> push def
+R6746:6746 Coq.rtauto.Bintree <> a:88 var
+R6748:6748 Coq.rtauto.Bintree <> S:89 var
+R6753:6757 Coq.rtauto.Bintree <> PSome constr
+R6759:6759 Coq.rtauto.Bintree <> x:90 var
+R6799:6802 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6803:6807 Coq.rtauto.Bintree <> index proj
+R6799:6802 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R6803:6807 Coq.rtauto.Bintree <> index proj
+R6833:6846 Coq.PArith.BinPos Pos compare_eq thm
+R6833:6846 Coq.PArith.BinPos Pos compare_eq thm
+R6833:6846 Coq.PArith.BinPos Pos compare_eq thm
+R6873:6883 Coq.rtauto.Bintree <> get_Full_Eq thm
+R6873:6883 Coq.rtauto.Bintree <> get_Full_Eq thm
+R6873:6883 Coq.rtauto.Bintree <> get_Full_Eq thm
+R6930:6942 Coq.rtauto.Bintree <> get_push_Full thm
+R6930:6942 Coq.rtauto.Bintree <> get_push_Full thm
+R6930:6942 Coq.rtauto.Bintree <> get_push_Full thm
+R6930:6942 Coq.rtauto.Bintree <> get_push_Full thm
+R6997:7007 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6997:7007 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6997:7007 Coq.rtauto.Bintree <> get_Full_Gt thm
+R6997:7007 Coq.rtauto.Bintree <> get_Full_Gt thm
+prf 7043:7062 <> Full_index_one_empty
+binder 7073:7073 <> S:91
+R7082:7085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7076:7079 Coq.rtauto.Bintree <> Full ind
+R7081:7081 Coq.rtauto.Bintree <> S:91 var
+R7097:7100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7093:7095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7086:7090 Coq.rtauto.Bintree <> index proj
+R7092:7092 Coq.rtauto.Bintree <> S:91 var
+R7102:7102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7101:7101 Coq.rtauto.Bintree <> S:91 var
+R7103:7107 Coq.rtauto.Bintree <> empty def
+R7192:7205 Coq.PArith.BinPos Pos succ_not_1 thm
+R7208:7212 Coq.rtauto.Bintree <> index proj
+R7192:7205 Coq.PArith.BinPos Pos succ_not_1 thm
+R7208:7212 Coq.rtauto.Bintree <> index proj
+prf 7243:7256 <> push_not_empty
+binder 7266:7266 <> a:92
+binder 7268:7268 <> S:93
+R7271:7271 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7280:7284 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7272:7275 Coq.rtauto.Bintree <> push def
+R7277:7277 Coq.rtauto.Bintree <> a:92 var
+R7279:7279 Coq.rtauto.Bintree <> S:93 var
+R7285:7289 Coq.rtauto.Bintree <> empty def
+R7319:7322 Coq.rtauto.Bintree <> push def
+R7324:7328 Coq.rtauto.Bintree <> empty def
+R7343:7356 Coq.PArith.BinPos Pos succ_not_1 thm
+R7343:7356 Coq.PArith.BinPos Pos succ_not_1 thm
+def 7387:7388 <> In
+R7393:7393 Coq.rtauto.Bintree <> Store.A var
+binder 7391:7391 <> x:94
+R7399:7403 Coq.rtauto.Bintree <> Store rec
+binder 7397:7397 <> S:95
+R7409:7412 Coq.rtauto.Bintree <> Full ind
+R7414:7414 Coq.rtauto.Bintree <> S:95 var
+binder 7407:7407 <> F:96
+R7443:7443 Coq.rtauto.Bintree <> F:96 var
+R7450:7456 Coq.rtauto.Bintree <> F_empty constr
+R7461:7465 Coq.Init.Logic <> False ind
+R7469:7474 Coq.rtauto.Bintree <> F_push constr
+R7490:7493 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7488:7488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7487:7487 Coq.rtauto.Bintree <> x:94 var
+R7494:7495 Coq.rtauto.Bintree <> In:97 def
+R7497:7497 Coq.rtauto.Bintree <> x:94 var
+prf 7517:7522 <> get_In
+R7536:7536 Coq.rtauto.Bintree <> Store.A var
+binder 7534:7534 <> x:99
+R7542:7546 Coq.rtauto.Bintree <> Store rec
+binder 7540:7540 <> S:100
+R7552:7555 Coq.rtauto.Bintree <> Full ind
+R7557:7557 Coq.rtauto.Bintree <> S:100 var
+binder 7550:7550 <> F:101
+binder 7560:7560 <> i:102
+R7581:7584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7571:7573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7564:7566 Coq.rtauto.Bintree <> get def
+R7568:7568 Coq.rtauto.Bintree <> i:102 var
+R7570:7570 Coq.rtauto.Bintree <> S:100 var
+R7574:7578 Coq.rtauto.Bintree <> PSome constr
+R7580:7580 Coq.rtauto.Bintree <> x:99 var
+R7585:7586 Coq.rtauto.Bintree <> In def
+R7588:7588 Coq.rtauto.Bintree <> x:99 var
+R7590:7590 Coq.rtauto.Bintree <> S:100 var
+R7592:7592 Coq.rtauto.Bintree <> F:101 var
+R7624:7632 Coq.rtauto.Bintree <> get_empty thm
+R7624:7632 Coq.rtauto.Bintree <> get_empty thm
+R7624:7632 Coq.rtauto.Bintree <> get_empty thm
+R7663:7675 Coq.rtauto.Bintree <> get_push_Full thm
+R7663:7675 Coq.rtauto.Bintree <> get_push_Full thm
+R7663:7675 Coq.rtauto.Bintree <> get_push_Full thm
+R7663:7675 Coq.rtauto.Bintree <> get_push_Full thm
+R7696:7699 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R7700:7704 Coq.rtauto.Bintree <> index proj
+R7696:7699 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R7700:7704 Coq.rtauto.Bintree <> index proj
+R7768:7772 Coq.rtauto.Bintree Store <> sec
+R7786:7790 Coq.rtauto.Bintree <> PNone constr
+R7786:7790 Coq.rtauto.Bintree <> PNone constr
+R7807:7811 Coq.rtauto.Bintree <> PSome constr
+R7807:7811 Coq.rtauto.Bintree <> PSome constr
+R7831:7836 Coq.rtauto.Bintree <> Tempty constr
+R7831:7836 Coq.rtauto.Bintree <> Tempty constr
+R7853:7859 Coq.rtauto.Bintree <> Branch0 constr
+R7853:7859 Coq.rtauto.Bintree <> Branch0 constr
+R7880:7886 Coq.rtauto.Bintree <> Branch1 constr
+R7880:7886 Coq.rtauto.Bintree <> Branch1 constr
+R7910:7913 Coq.rtauto.Bintree <> Tget def
+R7910:7913 Coq.rtauto.Bintree <> Tget def
+R7934:7937 Coq.rtauto.Bintree <> Tadd def
+R7934:7937 Coq.rtauto.Bintree <> Tadd def
+R7961:7971 Coq.rtauto.Bintree <> Tget_Tempty thm
+R7961:7971 Coq.rtauto.Bintree <> Tget_Tempty thm
+R7990:7998 Coq.rtauto.Bintree <> Tget_Tadd thm
+R7990:7998 Coq.rtauto.Bintree <> Tget_Tadd thm
+R8024:8030 Coq.rtauto.Bintree <> mkStore constr
+R8024:8030 Coq.rtauto.Bintree <> mkStore constr
+R8062:8066 Coq.rtauto.Bintree <> index proj
+R8062:8066 Coq.rtauto.Bintree <> index proj
+R8085:8092 Coq.rtauto.Bintree <> contents proj
+R8085:8092 Coq.rtauto.Bintree <> contents proj
+R8112:8116 Coq.rtauto.Bintree <> empty def
+R8112:8116 Coq.rtauto.Bintree <> empty def
+R8133:8135 Coq.rtauto.Bintree <> get def
+R8133:8135 Coq.rtauto.Bintree <> get def
+R8156:8159 Coq.rtauto.Bintree <> push def
+R8156:8159 Coq.rtauto.Bintree <> push def
+R8181:8189 Coq.rtauto.Bintree <> get_empty thm
+R8181:8189 Coq.rtauto.Bintree <> get_empty thm
+R8208:8220 Coq.rtauto.Bintree <> get_push_Full thm
+R8208:8220 Coq.rtauto.Bintree <> get_push_Full thm
+R8246:8249 Coq.rtauto.Bintree <> Full ind
+R8246:8249 Coq.rtauto.Bintree <> Full ind
+R8268:8274 Coq.rtauto.Bintree <> F_empty constr
+R8268:8274 Coq.rtauto.Bintree <> F_empty constr
+R8291:8296 Coq.rtauto.Bintree <> F_push constr
+R8291:8296 Coq.rtauto.Bintree <> F_push constr
+R8319:8320 Coq.rtauto.Bintree <> In def
+R8319:8320 Coq.rtauto.Bintree <> In def
+sec 8421:8423 <> Map
+var 8437:8437 Map A
+var 8439:8439 Map B
+var 8456:8456 Map f
+R8460:8463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8459:8459 Coq.rtauto.Bintree <> Map.A var
+R8464:8464 Coq.rtauto.Bintree <> Map.B var
+def 8477:8480 <> Tmap
+R8486:8489 Coq.rtauto.Bintree <> Tree ind
+R8491:8491 Coq.rtauto.Bintree <> Map.A var
+binder 8483:8483 <> T:106
+R8496:8499 Coq.rtauto.Bintree <> Tree ind
+R8501:8501 Coq.rtauto.Bintree <> Map.B var
+R8512:8512 Coq.rtauto.Bintree <> T:106 var
+R8519:8524 Coq.rtauto.Bintree <> Tempty constr
+R8529:8534 Coq.rtauto.Bintree <> Tempty constr
+R8538:8544 Coq.rtauto.Bintree <> Branch0 constr
+R8555:8561 Coq.rtauto.Bintree <> Branch0 constr
+R8574:8577 Coq.rtauto.Bintree <> Tmap:107 def
+R8564:8567 Coq.rtauto.Bintree <> Tmap:107 def
+R8585:8591 Coq.rtauto.Bintree <> Branch1 constr
+R8604:8610 Coq.rtauto.Bintree <> Branch1 constr
+R8629:8632 Coq.rtauto.Bintree <> Tmap:107 def
+R8619:8622 Coq.rtauto.Bintree <> Tmap:107 def
+R8613:8613 Coq.rtauto.Bintree <> Map.f var
+prf 8650:8658 <> Tget_Tmap
+binder 8668:8668 <> T:109
+binder 8670:8670 <> i:110
+R8688:8689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8673:8676 Coq.rtauto.Bintree <> Tget def
+R8681:8684 Coq.rtauto.Bintree <> Tmap def
+R8686:8686 Coq.rtauto.Bintree <> T:109 var
+R8678:8678 Coq.rtauto.Bintree <> i:110 var
+R8696:8699 Coq.rtauto.Bintree <> Tget def
+R8703:8703 Coq.rtauto.Bintree <> T:109 var
+R8701:8701 Coq.rtauto.Bintree <> i:110 var
+R8710:8714 Coq.rtauto.Bintree <> PNone constr
+R8719:8723 Coq.rtauto.Bintree <> PNone constr
+R8727:8731 Coq.rtauto.Bintree <> PSome constr
+R8738:8742 Coq.rtauto.Bintree <> PSome constr
+R8745:8745 Coq.rtauto.Bintree <> Map.f var
+prf 8810:8818 <> Tmap_Tadd
+binder 8828:8828 <> i:111
+binder 8830:8830 <> a:112
+binder 8832:8832 <> T:113
+R8852:8854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8835:8838 Coq.rtauto.Bintree <> Tmap def
+R8841:8844 Coq.rtauto.Bintree <> Tadd def
+R8850:8850 Coq.rtauto.Bintree <> T:113 var
+R8848:8848 Coq.rtauto.Bintree <> a:112 var
+R8846:8846 Coq.rtauto.Bintree <> i:111 var
+R8855:8858 Coq.rtauto.Bintree <> Tadd def
+R8869:8872 Coq.rtauto.Bintree <> Tmap def
+R8874:8874 Coq.rtauto.Bintree <> T:113 var
+R8863:8863 Coq.rtauto.Bintree <> Map.f var
+R8865:8865 Coq.rtauto.Bintree <> a:112 var
+R8860:8860 Coq.rtauto.Bintree <> i:111 var
+def 8979:8981 <> map
+R8986:8990 Coq.rtauto.Bintree <> Store rec
+R8992:8992 Coq.rtauto.Bintree <> Map.A var
+binder 8984:8984 <> S:114
+R8997:9001 Coq.rtauto.Bintree <> Store rec
+R9003:9003 Coq.rtauto.Bintree <> Map.B var
+R9008:9014 Coq.rtauto.Bintree <> mkStore constr
+R9027:9030 Coq.rtauto.Bintree <> Tmap def
+R9033:9040 Coq.rtauto.Bintree <> contents proj
+R9042:9042 Coq.rtauto.Bintree <> S:114 var
+R9017:9021 Coq.rtauto.Bintree <> index proj
+R9023:9023 Coq.rtauto.Bintree <> S:114 var
+prf 9054:9060 <> get_map
+binder 9070:9070 <> i:115
+binder 9072:9072 <> S:116
+R9088:9089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9075:9077 Coq.rtauto.Bintree <> get def
+R9082:9084 Coq.rtauto.Bintree <> map def
+R9086:9086 Coq.rtauto.Bintree <> S:116 var
+R9079:9079 Coq.rtauto.Bintree <> i:115 var
+R9096:9098 Coq.rtauto.Bintree <> get def
+R9102:9102 Coq.rtauto.Bintree <> S:116 var
+R9100:9100 Coq.rtauto.Bintree <> i:115 var
+R9109:9113 Coq.rtauto.Bintree <> PNone constr
+R9118:9122 Coq.rtauto.Bintree <> PNone constr
+R9126:9130 Coq.rtauto.Bintree <> PSome constr
+R9137:9141 Coq.rtauto.Bintree <> PSome constr
+R9144:9144 Coq.rtauto.Bintree <> Map.f var
+R9172:9174 Coq.rtauto.Bintree <> get def
+R9176:9178 Coq.rtauto.Bintree <> map def
+R9180:9187 Coq.rtauto.Bintree <> contents proj
+R9189:9193 Coq.rtauto.Bintree <> index proj
+R9201:9209 Coq.rtauto.Bintree <> Tget_Tmap thm
+R9201:9209 Coq.rtauto.Bintree <> Tget_Tmap thm
+prf 9228:9235 <> map_push
+binder 9245:9245 <> a:117
+binder 9247:9247 <> S:118
+R9264:9266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9250:9252 Coq.rtauto.Bintree <> map def
+R9255:9258 Coq.rtauto.Bintree <> push def
+R9262:9262 Coq.rtauto.Bintree <> S:118 var
+R9260:9260 Coq.rtauto.Bintree <> a:117 var
+R9267:9270 Coq.rtauto.Bintree <> push def
+R9279:9281 Coq.rtauto.Bintree <> map def
+R9283:9283 Coq.rtauto.Bintree <> S:118 var
+R9273:9273 Coq.rtauto.Bintree <> Map.f var
+R9275:9275 Coq.rtauto.Bintree <> a:117 var
+R9314:9317 Coq.rtauto.Bintree <> push def
+R9319:9321 Coq.rtauto.Bintree <> map def
+R9323:9330 Coq.rtauto.Bintree <> contents proj
+R9332:9336 Coq.rtauto.Bintree <> index proj
+R9354:9362 Coq.rtauto.Bintree <> Tmap_Tadd thm
+R9354:9362 Coq.rtauto.Bintree <> Tmap_Tadd thm
+R9354:9362 Coq.rtauto.Bintree <> Tmap_Tadd thm
+prf 9395:9402 <> Full_map
+binder 9413:9413 <> S:119
+R9422:9425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9416:9419 Coq.rtauto.Bintree <> Full ind
+R9421:9421 Coq.rtauto.Bintree <> S:119 var
+R9426:9429 Coq.rtauto.Bintree <> Full ind
+R9432:9434 Coq.rtauto.Bintree <> map def
+R9436:9436 Coq.rtauto.Bintree <> S:119 var
+R9471:9477 Coq.rtauto.Bintree <> F_empty constr
+R9471:9477 Coq.rtauto.Bintree <> F_empty constr
+R9488:9495 Coq.rtauto.Bintree <> map_push thm
+R9488:9495 Coq.rtauto.Bintree <> map_push thm
+R9488:9495 Coq.rtauto.Bintree <> map_push thm
+R9537:9539 Coq.rtauto.Bintree Map <> sec
+R9553:9556 Coq.rtauto.Bintree <> Tmap def
+R9553:9556 Coq.rtauto.Bintree <> Tmap def
+R9579:9581 Coq.rtauto.Bintree <> map def
+R9579:9581 Coq.rtauto.Bintree <> map def
+R9604:9611 Coq.rtauto.Bintree <> Full_map thm
+R9604:9611 Coq.rtauto.Bintree <> Full_map thm
+R9651:9654 Coq.rtauto.Bintree <> push def
+not 9636:9636 <> :::x_'\'_x
+R9785:9795 Coq.Arith.EqNat <> <> lib

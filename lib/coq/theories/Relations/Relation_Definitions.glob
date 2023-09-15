@@ -1,0 +1,158 @@
+DIGEST dbc54ad282b719e2dd3537449895290b
+FCoq.Relations.Relation_Definitions
+sec 684:702 <> Relation_Definition
+var 717:717 Relation_Definition A
+def 741:748 <> relation
+R754:757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R753:753 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+R759:762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R758:758 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+var 781:781 Relation_Definition R
+R785:792 Coq.Relations.Relation_Definitions <> relation def
+sec 807:837 Relation_Definition General_Properties_of_Relations
+def 856:864 <> reflexive
+R885:885 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 883:883 <> x:3
+R888:888 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R890:890 Coq.Relations.Relation_Definitions <> x:3 var
+R892:892 Coq.Relations.Relation_Definitions <> x:3 var
+def 910:919 <> transitive
+R944:944 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 938:938 <> x:4
+binder 940:940 <> y:5
+binder 942:942 <> z:6
+R952:955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R947:947 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R949:949 Coq.Relations.Relation_Definitions <> x:4 var
+R951:951 Coq.Relations.Relation_Definitions <> y:5 var
+R961:964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R956:956 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R958:958 Coq.Relations.Relation_Definitions <> y:5 var
+R960:960 Coq.Relations.Relation_Definitions <> z:6 var
+R965:965 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R967:967 Coq.Relations.Relation_Definitions <> x:4 var
+R969:969 Coq.Relations.Relation_Definitions <> z:6 var
+def 987:995 <> symmetric
+R1018:1018 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 1014:1014 <> x:7
+binder 1016:1016 <> y:8
+R1026:1029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1021:1021 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R1023:1023 Coq.Relations.Relation_Definitions <> x:7 var
+R1025:1025 Coq.Relations.Relation_Definitions <> y:8 var
+R1030:1030 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R1032:1032 Coq.Relations.Relation_Definitions <> y:8 var
+R1034:1034 Coq.Relations.Relation_Definitions <> x:7 var
+def 1052:1064 <> antisymmetric
+R1087:1087 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 1083:1083 <> x:9
+binder 1085:1085 <> y:10
+R1095:1098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1090:1090 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R1092:1092 Coq.Relations.Relation_Definitions <> x:9 var
+R1094:1094 Coq.Relations.Relation_Definitions <> y:10 var
+R1104:1107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1099:1099 Coq.Relations.Relation_Definitions <> Relation_Definition.R var
+R1101:1101 Coq.Relations.Relation_Definitions <> y:10 var
+R1103:1103 Coq.Relations.Relation_Definitions <> x:9 var
+R1109:1111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1108:1108 Coq.Relations.Relation_Definitions <> x:9 var
+R1112:1112 Coq.Relations.Relation_Definitions <> y:10 var
+def 1198:1202 <> equiv
+R1216:1219 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1207:1215 Coq.Relations.Relation_Definitions <> reflexive def
+R1230:1233 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1220:1229 Coq.Relations.Relation_Definitions <> transitive def
+R1234:1242 Coq.Relations.Relation_Definitions <> symmetric def
+R1252:1282 Coq.Relations.Relation_Definitions Relation_Definition.General_Properties_of_Relations <> sec
+sec 1298:1314 Relation_Definition Sets_of_Relations
+rec 1329:1336 <> preorder
+proj 1356:1366 <> preord_refl
+proj 1381:1392 <> preord_trans
+R1370:1378 Coq.Relations.Relation_Definitions <> reflexive def
+R1396:1405 Coq.Relations.Relation_Definitions <> transitive def
+rec 1421:1425 <> order
+proj 1445:1452 <> ord_refl
+proj 1468:1476 <> ord_trans
+proj 1493:1503 <> ord_antisym
+R1456:1464 Coq.Relations.Relation_Definitions <> reflexive def
+R1480:1489 Coq.Relations.Relation_Definitions <> transitive def
+R1507:1519 Coq.Relations.Relation_Definitions <> antisymmetric def
+rec 1535:1545 <> equivalence
+proj 1565:1574 <> equiv_refl
+proj 1590:1600 <> equiv_trans
+proj 1617:1625 <> equiv_sym
+R1578:1586 Coq.Relations.Relation_Definitions <> reflexive def
+R1604:1613 Coq.Relations.Relation_Definitions <> transitive def
+R1629:1637 Coq.Relations.Relation_Definitions <> symmetric def
+rec 1653:1655 <> PER
+proj 1669:1675 <> per_sym
+proj 1690:1698 <> per_trans
+R1679:1687 Coq.Relations.Relation_Definitions <> symmetric def
+R1702:1711 Coq.Relations.Relation_Definitions <> transitive def
+R1722:1738 Coq.Relations.Relation_Definitions Relation_Definition.Sets_of_Relations <> sec
+sec 1753:1774 Relation_Definition Relations_of_Relations
+def 1793:1801 <> inclusion
+R1810:1817 Coq.Relations.Relation_Definitions <> relation def
+binder 1804:1805 <> R1:25
+binder 1807:1808 <> R2:26
+R1847:1847 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 1843:1843 <> x:27
+binder 1845:1845 <> y:28
+R1856:1859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1850:1851 Coq.Relations.Relation_Definitions <> R1:25 var
+R1853:1853 Coq.Relations.Relation_Definitions <> x:27 var
+R1855:1855 Coq.Relations.Relation_Definitions <> y:28 var
+R1860:1861 Coq.Relations.Relation_Definitions <> R2:26 var
+R1863:1863 Coq.Relations.Relation_Definitions <> x:27 var
+R1865:1865 Coq.Relations.Relation_Definitions <> y:28 var
+def 1884:1896 <> same_relation
+R1905:1912 Coq.Relations.Relation_Definitions <> relation def
+binder 1899:1900 <> R1:29
+binder 1902:1903 <> R2:30
+R1946:1949 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1931:1939 Coq.Relations.Relation_Definitions <> inclusion def
+R1941:1942 Coq.Relations.Relation_Definitions <> R1:29 var
+R1944:1945 Coq.Relations.Relation_Definitions <> R2:30 var
+R1950:1958 Coq.Relations.Relation_Definitions <> inclusion def
+R1960:1961 Coq.Relations.Relation_Definitions <> R2:30 var
+R1963:1964 Coq.Relations.Relation_Definitions <> R1:29 var
+def 1983:1988 <> commut
+R1997:2004 Coq.Relations.Relation_Definitions <> relation def
+binder 1991:1992 <> R1:31
+binder 1994:1995 <> R2:32
+R2034:2034 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 2030:2030 <> x:33
+binder 2032:2032 <> y:34
+R2044:2047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2038:2039 Coq.Relations.Relation_Definitions <> R1:31 var
+R2041:2041 Coq.Relations.Relation_Definitions <> y:34 var
+R2043:2043 Coq.Relations.Relation_Definitions <> x:33 var
+R2057:2057 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 2055:2055 <> z:35
+R2066:2070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2060:2061 Coq.Relations.Relation_Definitions <> R2:32 var
+R2063:2063 Coq.Relations.Relation_Definitions <> z:35 var
+R2065:2065 Coq.Relations.Relation_Definitions <> y:34 var
+R2071:2078 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R2081:2083 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R2085:2086 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R2094:2096 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R2084:2084 Coq.Relations.Relation_Definitions <> Relation_Definition.A var
+binder 2079:2080 <> y':36
+R2087:2088 Coq.Relations.Relation_Definitions <> R2:32 var
+R2090:2091 Coq.Relations.Relation_Definitions <> y':36 var
+R2093:2093 Coq.Relations.Relation_Definitions <> x:33 var
+binder 2079:2080 <> y':37
+R2097:2098 Coq.Relations.Relation_Definitions <> R1:31 var
+R2100:2100 Coq.Relations.Relation_Definitions <> z:35 var
+R2102:2103 Coq.Relations.Relation_Definitions <> y':37 var
+R2113:2134 Coq.Relations.Relation_Definitions Relation_Definition.Relations_of_Relations <> sec
+R2143:2161 Coq.Relations.Relation_Definitions Relation_Definition <> sec
+R2187:2195 Coq.Relations.Relation_Definitions <> reflexive def
+R2197:2206 Coq.Relations.Relation_Definitions <> transitive def
+R2208:2220 Coq.Relations.Relation_Definitions <> antisymmetric def
+R2222:2230 Coq.Relations.Relation_Definitions <> symmetric def
+R2459:2467 Coq.Relations.Relation_Definitions <> inclusion def
+R2469:2481 Coq.Relations.Relation_Definitions <> same_relation def
+R2483:2488 Coq.Relations.Relation_Definitions <> commut def

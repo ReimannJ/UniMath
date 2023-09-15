@@ -1,0 +1,360 @@
+DIGEST 8a39268edd2d13e0d76f799a1944ad96
+FCoq.micromega.ZifyBool
+R690:693 Coq.Bool.Bool <> <> lib
+R695:700 Coq.ZArith.ZArith <> <> lib
+R718:721 Coq.micromega.Zify <> <> lib
+R723:733 Coq.micromega.ZifyClasses <> <> lib
+R751:758 Coq.micromega.ZifyInst <> <> lib
+inst 876:888 <> Inj_bool_bool
+R892:897 Coq.micromega.ZifyClasses <> InjTyp class
+R899:902 Coq.Init.Datatypes <> bool ind
+R904:907 Coq.Init.Datatypes <> bool ind
+R967:970 Coq.micromega.ZifyClasses <> cstr meth
+R929:932 Coq.micromega.ZifyClasses <> pred meth
+R916:918 Coq.micromega.ZifyClasses <> inj meth
+binder 920:920 <> b:1
+R925:925 Coq.micromega.ZifyBool <> b:1 var
+binder 934:934 <> b:2
+R947:950 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R940:942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R939:939 Coq.micromega.ZifyBool <> b:2 var
+R943:946 Coq.Init.Datatypes <> true constr
+R952:954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R951:951 Coq.micromega.ZifyBool <> b:2 var
+R955:959 Coq.Init.Datatypes <> false constr
+binder 972:972 <> b:3
+inst 1082:1088 <> Op_andb
+R1092:1096 Coq.micromega.ZifyClasses <> BinOp class
+R1098:1101 Coq.Init.Datatypes <> andb def
+R1125:1131 Coq.micromega.ZifyClasses <> TBOpInj meth
+R1110:1113 Coq.micromega.ZifyClasses <> TBOp meth
+R1118:1121 Coq.Init.Datatypes <> andb def
+R1140:1146 Coq.Init.Logic <> eq_refl constr
+inst 1194:1199 <> Op_orb
+R1203:1207 Coq.micromega.ZifyClasses <> BinOp class
+R1209:1211 Coq.Init.Datatypes <> orb def
+R1234:1240 Coq.micromega.ZifyClasses <> TBOpInj meth
+R1220:1223 Coq.micromega.ZifyClasses <> TBOp meth
+R1228:1230 Coq.Init.Datatypes <> orb def
+R1249:1255 Coq.Init.Logic <> eq_refl constr
+inst 1302:1309 <> Op_implb
+R1313:1317 Coq.micromega.ZifyClasses <> BinOp class
+R1319:1323 Coq.Init.Datatypes <> implb def
+R1347:1353 Coq.micromega.ZifyClasses <> TBOpInj meth
+R1332:1335 Coq.micromega.ZifyClasses <> TBOp meth
+R1340:1344 Coq.Init.Datatypes <> implb def
+R1362:1368 Coq.Init.Logic <> eq_refl constr
+def 1410:1416 <> xorb_eq
+binder 1418:1419 <> b1:4
+binder 1421:1422 <> b2:5
+R1436:1438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1426:1429 Coq.Init.Datatypes <> xorb def
+R1434:1435 Coq.micromega.ZifyBool <> b2:5 var
+R1431:1432 Coq.micromega.ZifyBool <> b1:4 var
+R1439:1442 Coq.Init.Datatypes <> andb def
+R1457:1460 Coq.Init.Datatypes <> negb def
+R1463:1465 Coq.Bool.Bool <> eqb def
+R1467:1468 Coq.micromega.ZifyBool <> b1:4 var
+R1470:1471 Coq.micromega.ZifyBool <> b2:5 var
+R1445:1447 Coq.Init.Datatypes <> orb def
+R1452:1453 Coq.micromega.ZifyBool <> b2:5 var
+R1449:1450 Coq.micromega.ZifyBool <> b1:4 var
+inst 1541:1547 <> Op_xorb
+R1551:1555 Coq.micromega.ZifyClasses <> BinOp class
+R1557:1560 Coq.Init.Datatypes <> xorb def
+R1614:1620 Coq.micromega.ZifyClasses <> TBOpInj meth
+R1569:1572 Coq.micromega.ZifyClasses <> TBOp meth
+binder 1574:1574 <> x:6
+binder 1576:1576 <> y:7
+R1581:1584 Coq.Init.Datatypes <> andb def
+R1597:1600 Coq.Init.Datatypes <> negb def
+R1603:1605 Coq.Bool.Bool <> eqb def
+R1607:1607 Coq.micromega.ZifyBool <> x:6 var
+R1609:1609 Coq.micromega.ZifyBool <> y:7 var
+R1587:1589 Coq.Init.Datatypes <> orb def
+R1593:1593 Coq.micromega.ZifyBool <> y:7 var
+R1591:1591 Coq.micromega.ZifyBool <> x:6 var
+R1625:1631 Coq.micromega.ZifyBool <> xorb_eq def
+inst 1680:1685 <> Op_eqb
+R1689:1693 Coq.micromega.ZifyClasses <> BinOp class
+R1695:1697 Coq.Bool.Bool <> eqb def
+R1719:1725 Coq.micromega.ZifyClasses <> TBOpInj meth
+R1706:1709 Coq.micromega.ZifyClasses <> TBOp meth
+R1714:1716 Coq.Bool.Bool <> eqb def
+R1734:1740 Coq.Init.Logic <> eq_refl constr
+inst 1788:1794 <> Op_negb
+R1798:1801 Coq.micromega.ZifyClasses <> UnOp class
+R1803:1806 Coq.Init.Datatypes <> negb def
+R1830:1836 Coq.micromega.ZifyClasses <> TUOpInj meth
+R1815:1818 Coq.micromega.ZifyClasses <> TUOp meth
+R1823:1826 Coq.Init.Datatypes <> negb def
+R1843:1849 Coq.Init.Logic <> eq_refl constr
+inst 1896:1905 <> Op_eq_bool
+R1909:1914 Coq.micromega.ZifyClasses <> BinRel class
+R1918:1919 Coq.Init.Logic <> eq ind
+R1921:1924 Coq.Init.Datatypes <> bool ind
+R1950:1954 Coq.micromega.ZifyClasses <> TRInj meth
+R1933:1934 Coq.micromega.ZifyClasses <> TR meth
+R1940:1941 Coq.Init.Logic <> eq ind
+R1943:1946 Coq.Init.Datatypes <> bool ind
+binder 1956:1957 <> b1:8
+binder 1959:1960 <> b2:9
+R1965:1972 Coq.Init.Logic <> iff_refl thm
+R1977:1979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1975:1976 Coq.micromega.ZifyBool <> b1:8 var
+R1980:1981 Coq.micromega.ZifyBool <> b2:9 var
+inst 2035:2041 <> Op_true
+R2045:2049 Coq.micromega.ZifyClasses <> CstOp class
+R2051:2054 Coq.Init.Datatypes <> true constr
+R2078:2084 Coq.micromega.ZifyClasses <> TCstInj meth
+R2063:2066 Coq.micromega.ZifyClasses <> TCst meth
+R2071:2074 Coq.Init.Datatypes <> true constr
+R2089:2095 Coq.Init.Logic <> eq_refl constr
+inst 2144:2151 <> Op_false
+R2155:2159 Coq.micromega.ZifyClasses <> CstOp class
+R2161:2165 Coq.Init.Datatypes <> false constr
+R2190:2196 Coq.micromega.ZifyClasses <> TCstInj meth
+R2174:2177 Coq.micromega.ZifyClasses <> TCst meth
+R2182:2186 Coq.Init.Datatypes <> false constr
+R2201:2207 Coq.Init.Logic <> eq_refl constr
+inst 2283:2289 <> Op_Zeqb
+R2293:2297 Coq.micromega.ZifyClasses <> BinOp class
+R2299:2303 Coq.ZArith.BinInt Z eqb def
+R2328:2334 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2312:2315 Coq.micromega.ZifyClasses <> TBOp meth
+R2320:2324 Coq.ZArith.BinInt Z eqb def
+R2343:2349 Coq.Init.Logic <> eq_refl constr
+inst 2398:2404 <> Op_Zleb
+R2408:2412 Coq.micromega.ZifyClasses <> BinOp class
+R2414:2418 Coq.ZArith.BinInt Z leb def
+R2442:2448 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2427:2430 Coq.micromega.ZifyClasses <> TBOp meth
+R2435:2439 Coq.ZArith.BinInt Z leb def
+R2457:2463 Coq.Init.Logic <> eq_refl constr
+inst 2512:2518 <> Op_Zgeb
+R2522:2526 Coq.micromega.ZifyClasses <> BinOp class
+R2528:2532 Coq.ZArith.BinInt Z geb def
+R2556:2562 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2541:2544 Coq.micromega.ZifyClasses <> TBOp meth
+R2549:2553 Coq.ZArith.BinInt Z geb def
+R2571:2577 Coq.Init.Logic <> eq_refl constr
+inst 2626:2632 <> Op_Zltb
+R2636:2640 Coq.micromega.ZifyClasses <> BinOp class
+R2642:2646 Coq.ZArith.BinInt Z ltb def
+R2671:2677 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2655:2658 Coq.micromega.ZifyClasses <> TBOp meth
+R2663:2667 Coq.ZArith.BinInt Z ltb def
+R2686:2692 Coq.Init.Logic <> eq_refl constr
+inst 2741:2747 <> Op_Zgtb
+R2751:2755 Coq.micromega.ZifyClasses <> BinOp class
+R2757:2761 Coq.ZArith.BinInt Z gtb def
+R2785:2791 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2770:2773 Coq.micromega.ZifyClasses <> TBOp meth
+R2778:2782 Coq.ZArith.BinInt Z gtb def
+R2800:2806 Coq.Init.Logic <> eq_refl constr
+inst 2881:2887 <> Op_Neqb
+R2891:2895 Coq.micromega.ZifyClasses <> BinOp class
+R2897:2901 Coq.NArith.BinNat N eqb def
+R2925:2931 Coq.micromega.ZifyClasses <> TBOpInj meth
+R2910:2913 Coq.micromega.ZifyClasses <> TBOp meth
+R2918:2922 Coq.ZArith.BinInt Z eqb def
+binder 2933:2933 <> n:10
+binder 2935:2935 <> m:11
+inst 3012:3018 <> Op_Nleb
+R3022:3026 Coq.micromega.ZifyClasses <> BinOp class
+R3028:3032 Coq.NArith.BinNat N leb def
+R3056:3062 Coq.micromega.ZifyClasses <> TBOpInj meth
+R3041:3044 Coq.micromega.ZifyClasses <> TBOp meth
+R3049:3053 Coq.ZArith.BinInt Z leb def
+binder 3064:3064 <> n:12
+binder 3066:3066 <> m:13
+inst 3143:3149 <> Op_Nltb
+R3153:3157 Coq.micromega.ZifyClasses <> BinOp class
+R3159:3163 Coq.NArith.BinNat N ltb def
+R3187:3193 Coq.micromega.ZifyClasses <> TBOpInj meth
+R3172:3175 Coq.micromega.ZifyClasses <> TBOp meth
+R3180:3184 Coq.ZArith.BinInt Z ltb def
+binder 3195:3195 <> n:14
+binder 3197:3197 <> m:15
+inst 3307:3316 <> Op_Pos_eqb
+R3320:3324 Coq.micromega.ZifyClasses <> BinOp class
+R3326:3332 Coq.PArith.BinPos Pos eqb def
+R3356:3362 Coq.micromega.ZifyClasses <> TBOpInj meth
+R3341:3344 Coq.micromega.ZifyClasses <> TBOp meth
+R3349:3353 Coq.ZArith.BinInt Z eqb def
+R3371:3377 Coq.Init.Logic <> eq_refl constr
+inst 3429:3438 <> Op_Pos_leb
+R3442:3446 Coq.micromega.ZifyClasses <> BinOp class
+R3448:3454 Coq.PArith.BinPos Pos leb def
+R3478:3484 Coq.micromega.ZifyClasses <> TBOpInj meth
+R3463:3466 Coq.micromega.ZifyClasses <> TBOp meth
+R3471:3475 Coq.ZArith.BinInt Z leb def
+R3493:3499 Coq.Init.Logic <> eq_refl constr
+inst 3551:3560 <> Op_Pos_ltb
+R3564:3568 Coq.micromega.ZifyClasses <> BinOp class
+R3570:3576 Coq.PArith.BinPos Pos ltb def
+R3600:3606 Coq.micromega.ZifyClasses <> TBOpInj meth
+R3585:3588 Coq.micromega.ZifyClasses <> TBOp meth
+R3593:3597 Coq.ZArith.BinInt Z ltb def
+R3615:3621 Coq.Init.Logic <> eq_refl constr
+prf 3688:3703 <> Z_of_nat_eqb_iff
+binder 3705:3705 <> n:16
+binder 3707:3707 <> m:17
+R3723:3726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3751:3751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3713:3716 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3712:3712 Coq.micromega.ZifyBool <> n:16 var
+R3717:3717 Coq.micromega.ZifyBool <> m:17 var
+R3737:3740 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R3727:3734 Coq.ZArith.BinInt Z of_nat def
+R3736:3736 Coq.micromega.ZifyBool <> n:16 var
+R3741:3748 Coq.ZArith.BinInt Z of_nat def
+R3750:3750 Coq.micromega.ZifyBool <> m:17 var
+R3771:3785 Coq.Arith.PeanoNat Nat eqb_compare thm
+R3771:3785 Coq.Arith.PeanoNat Nat eqb_compare thm
+R3771:3785 Coq.Arith.PeanoNat Nat eqb_compare thm
+R3798:3810 Coq.ZArith.BinInt Z eqb_compare thm
+R3798:3810 Coq.ZArith.BinInt Z eqb_compare thm
+R3798:3810 Coq.ZArith.BinInt Z eqb_compare thm
+R3823:3839 Coq.ZArith.Znat Nat2Z inj_compare thm
+R3823:3839 Coq.ZArith.Znat Nat2Z inj_compare thm
+R3823:3839 Coq.ZArith.Znat Nat2Z inj_compare thm
+prf 3869:3884 <> Z_of_nat_leb_iff
+binder 3886:3886 <> n:18
+binder 3888:3888 <> m:19
+R3905:3908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3934:3934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3894:3898 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R3893:3893 Coq.micromega.ZifyBool <> n:18 var
+R3899:3899 Coq.micromega.ZifyBool <> m:19 var
+R3919:3923 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R3909:3916 Coq.ZArith.BinInt Z of_nat def
+R3918:3918 Coq.micromega.ZifyBool <> n:18 var
+R3924:3931 Coq.ZArith.BinInt Z of_nat def
+R3933:3933 Coq.micromega.ZifyBool <> m:19 var
+R3954:3968 Coq.Arith.PeanoNat Nat leb_compare thm
+R3954:3968 Coq.Arith.PeanoNat Nat leb_compare thm
+R3954:3968 Coq.Arith.PeanoNat Nat leb_compare thm
+R3981:3993 Coq.ZArith.BinInt Z leb_compare thm
+R3981:3993 Coq.ZArith.BinInt Z leb_compare thm
+R3981:3993 Coq.ZArith.BinInt Z leb_compare thm
+R4006:4022 Coq.ZArith.Znat Nat2Z inj_compare thm
+R4006:4022 Coq.ZArith.Znat Nat2Z inj_compare thm
+R4006:4022 Coq.ZArith.Znat Nat2Z inj_compare thm
+prf 4052:4067 <> Z_of_nat_ltb_iff
+binder 4069:4069 <> n:20
+binder 4071:4071 <> m:21
+R4087:4090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4115:4115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4077:4080 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R4076:4076 Coq.micromega.ZifyBool <> n:20 var
+R4081:4081 Coq.micromega.ZifyBool <> m:21 var
+R4101:4104 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R4091:4098 Coq.ZArith.BinInt Z of_nat def
+R4100:4100 Coq.micromega.ZifyBool <> n:20 var
+R4105:4112 Coq.ZArith.BinInt Z of_nat def
+R4114:4114 Coq.micromega.ZifyBool <> m:21 var
+R4135:4149 Coq.Arith.PeanoNat Nat ltb_compare thm
+R4135:4149 Coq.Arith.PeanoNat Nat ltb_compare thm
+R4135:4149 Coq.Arith.PeanoNat Nat ltb_compare thm
+R4162:4174 Coq.ZArith.BinInt Z ltb_compare thm
+R4162:4174 Coq.ZArith.BinInt Z ltb_compare thm
+R4162:4174 Coq.ZArith.BinInt Z ltb_compare thm
+R4187:4203 Coq.ZArith.Znat Nat2Z inj_compare thm
+R4187:4203 Coq.ZArith.Znat Nat2Z inj_compare thm
+R4187:4203 Coq.ZArith.Znat Nat2Z inj_compare thm
+inst 4246:4255 <> Op_nat_eqb
+R4259:4263 Coq.micromega.ZifyClasses <> BinOp class
+R4265:4271 Coq.Arith.PeanoNat Nat eqb def
+R4295:4301 Coq.micromega.ZifyClasses <> TBOpInj meth
+R4280:4283 Coq.micromega.ZifyClasses <> TBOp meth
+R4288:4292 Coq.ZArith.BinInt Z eqb def
+R4306:4321 Coq.micromega.ZifyBool <> Z_of_nat_eqb_iff thm
+inst 4373:4382 <> Op_nat_leb
+R4386:4390 Coq.micromega.ZifyClasses <> BinOp class
+R4392:4398 Coq.Arith.PeanoNat Nat leb def
+R4422:4428 Coq.micromega.ZifyClasses <> TBOpInj meth
+R4407:4410 Coq.micromega.ZifyClasses <> TBOp meth
+R4415:4419 Coq.ZArith.BinInt Z leb def
+R4433:4448 Coq.micromega.ZifyBool <> Z_of_nat_leb_iff thm
+inst 4500:4509 <> Op_nat_ltb
+R4513:4517 Coq.micromega.ZifyClasses <> BinOp class
+R4519:4525 Coq.Arith.PeanoNat Nat ltb def
+R4549:4555 Coq.micromega.ZifyClasses <> TBOpInj meth
+R4534:4537 Coq.micromega.ZifyClasses <> TBOp meth
+R4542:4546 Coq.ZArith.BinInt Z ltb def
+R4560:4575 Coq.micromega.ZifyBool <> Z_of_nat_ltb_iff thm
+prf 4614:4620 <> b2n_b2z
+binder 4622:4622 <> x:22
+R4646:4648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4626:4633 Coq.ZArith.BinInt Z of_nat def
+R4636:4642 Coq.Arith.PeanoNat Nat b2n def
+R4644:4644 Coq.micromega.ZifyBool <> x:22 var
+R4649:4653 Coq.ZArith.BinInt Z b2z def
+R4655:4655 Coq.micromega.ZifyBool <> x:22 var
+inst 4716:4721 <> Op_b2n
+R4725:4728 Coq.micromega.ZifyClasses <> UnOp class
+R4730:4736 Coq.Arith.PeanoNat Nat b2n def
+R4760:4766 Coq.micromega.ZifyClasses <> TUOpInj meth
+R4745:4748 Coq.micromega.ZifyClasses <> TUOp meth
+R4753:4757 Coq.ZArith.BinInt Z b2z def
+R4771:4777 Coq.micromega.ZifyBool <> b2n_b2z thm
+inst 4824:4829 <> Op_b2z
+R4833:4836 Coq.micromega.ZifyClasses <> UnOp class
+R4838:4842 Coq.ZArith.BinInt Z b2z def
+R4866:4872 Coq.micromega.ZifyClasses <> TUOpInj meth
+R4851:4854 Coq.micromega.ZifyClasses <> TUOp meth
+R4859:4863 Coq.ZArith.BinInt Z b2z def
+R4879:4885 Coq.Init.Logic <> eq_refl constr
+prf 4919:4926 <> b2z_spec
+binder 4928:4928 <> b:23
+R4932:4932 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4956:4961 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4986:4986 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4941:4944 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4934:4936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4933:4933 Coq.micromega.ZifyBool <> b:23 var
+R4937:4940 Coq.Init.Datatypes <> true constr
+R4952:4954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4945:4949 Coq.ZArith.BinInt Z b2z def
+R4951:4951 Coq.micromega.ZifyBool <> b:23 var
+R4971:4974 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4963:4965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4962:4962 Coq.micromega.ZifyBool <> b:23 var
+R4966:4970 Coq.Init.Datatypes <> false constr
+R4982:4984 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4975:4979 Coq.ZArith.BinInt Z b2z def
+R4981:4981 Coq.micromega.ZifyBool <> b:23 var
+inst 5050:5056 <> b2zSpec
+R5060:5067 Coq.micromega.ZifyClasses <> UnOpSpec class
+R5069:5073 Coq.ZArith.BinInt Z b2z def
+R5144:5148 Coq.micromega.ZifyClasses <> USpec meth
+R5082:5086 Coq.micromega.ZifyClasses <> UPred meth
+binder 5088:5088 <> b:24
+binder 5090:5090 <> r:25
+R5095:5095 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5113:5118 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5137:5137 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5104:5107 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5097:5099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5096:5096 Coq.micromega.ZifyBool <> b:24 var
+R5100:5103 Coq.Init.Datatypes <> true constr
+R5109:5111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5108:5108 Coq.micromega.ZifyBool <> r:25 var
+R5128:5131 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5120:5122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5119:5119 Coq.micromega.ZifyBool <> b:24 var
+R5123:5127 Coq.Init.Datatypes <> false constr
+R5133:5135 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5132:5132 Coq.micromega.ZifyBool <> r:25 var
+R5153:5160 Coq.micromega.ZifyBool <> b2z_spec thm
+R5265:5268 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5258:5260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5261:5264 Coq.Init.Datatypes <> true constr
+R5271:5273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5274:5278 Coq.Init.Datatypes <> false constr
+R5265:5268 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5258:5260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5261:5264 Coq.Init.Datatypes <> true constr
+R5271:5273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5274:5278 Coq.Init.Datatypes <> false constr

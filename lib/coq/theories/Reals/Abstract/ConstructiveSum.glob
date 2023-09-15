@@ -1,0 +1,2588 @@
+DIGEST e66526428372771a3b042b5f675df32c
+FCoq.Reals.Abstract.ConstructiveSum
+R691:696 Coq.QArith.QArith <> <> lib
+R698:701 Coq.QArith.Qabs <> <> lib
+R719:735 Coq.Reals.Abstract.ConstructiveReals <> <> lib
+R753:778 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> <> lib
+R796:810 Coq.Reals.Abstract.ConstructiveAbs <> <> lib
+R828:845 Coq.Reals.Abstract.ConstructiveLimits <> <> lib
+def 1040:1044 <> CRsum
+R1051:1067 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1047:1047 <> R:1
+R1085:1088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1082:1084 Coq.Init.Datatypes <> nat ind
+R1089:1097 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1099:1099 Coq.Reals.Abstract.ConstructiveSum <> R:1 var
+binder 1080:1080 <> f:2
+R1105:1107 Coq.Init.Datatypes <> nat ind
+binder 1103:1103 <> N:3
+R1112:1120 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1122:1122 Coq.Reals.Abstract.ConstructiveSum <> R:1 var
+R1135:1135 Coq.Reals.Abstract.ConstructiveSum <> N:3 var
+R1148:1148 Coq.Init.Datatypes <> O constr
+R1153:1153 Coq.Reals.Abstract.ConstructiveSum <> f:2 var
+R1167:1167 Coq.Init.Datatypes <> S constr
+R1183:1185 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R1174:1178 Coq.Reals.Abstract.ConstructiveSum <> CRsum:4 def
+R1180:1180 Coq.Reals.Abstract.ConstructiveSum <> f:2 var
+R1186:1186 Coq.Reals.Abstract.ConstructiveSum <> f:2 var
+R1189:1189 Coq.Init.Datatypes <> S constr
+prf 1208:1215 <> CRsum_eq
+R1233:1249 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1229:1229 <> R:6
+R1262:1265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1259:1261 Coq.Init.Datatypes <> nat ind
+R1266:1274 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1276:1276 Coq.Reals.Abstract.ConstructiveSum <> R:6 var
+binder 1253:1254 <> An:7
+binder 1256:1257 <> Bn:8
+R1282:1284 Coq.Init.Datatypes <> nat ind
+binder 1280:1280 <> N:9
+R1292:1292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1335:1343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1302:1304 Coq.Init.Datatypes <> nat ind
+binder 1300:1300 <> i:10
+R1319:1322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1309:1312 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1308:1308 Coq.Reals.Abstract.ConstructiveSum <> i:10 var
+R1313:1313 Coq.Reals.Abstract.ConstructiveSum <> N:9 var
+R1327:1330 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R1323:1324 Coq.Reals.Abstract.ConstructiveSum <> An:7 var
+R1326:1326 Coq.Reals.Abstract.ConstructiveSum <> i:10 var
+R1331:1332 Coq.Reals.Abstract.ConstructiveSum <> Bn:8 var
+R1334:1334 Coq.Reals.Abstract.ConstructiveSum <> i:10 var
+R1354:1357 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R1344:1348 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R1353:1353 Coq.Reals.Abstract.ConstructiveSum <> N:9 var
+R1350:1351 Coq.Reals.Abstract.ConstructiveSum <> An:7 var
+R1358:1362 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R1367:1367 Coq.Reals.Abstract.ConstructiveSum <> N:9 var
+R1364:1365 Coq.Reals.Abstract.ConstructiveSum <> Bn:8 var
+R1413:1413 Coq.Init.Datatypes <> O constr
+R1416:1426 Coq.Arith.PeanoNat Nat le_refl thm
+R1413:1413 Coq.Init.Datatypes <> O constr
+R1416:1426 Coq.Arith.PeanoNat Nat le_refl thm
+R1458:1469 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R1458:1469 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R1511:1522 Coq.Arith.PeanoNat Nat le_trans thm
+R1535:1538 Coq.Init.Peano <> le_S constr
+R1541:1551 Coq.Arith.PeanoNat Nat le_refl thm
+R1511:1522 Coq.Arith.PeanoNat Nat le_trans thm
+R1535:1538 Coq.Init.Peano <> le_S constr
+R1541:1551 Coq.Arith.PeanoNat Nat le_refl thm
+R1567:1577 Coq.Arith.PeanoNat Nat le_refl thm
+R1567:1577 Coq.Arith.PeanoNat Nat le_refl thm
+prf 1592:1600 <> sum_eq_R0
+R1616:1632 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1612:1612 <> R:11
+R1644:1647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1641:1643 Coq.Init.Datatypes <> nat ind
+R1648:1656 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1658:1658 Coq.Reals.Abstract.ConstructiveSum <> R:11 var
+binder 1636:1637 <> un:12
+R1666:1668 Coq.Init.Datatypes <> nat ind
+binder 1662:1662 <> n:13
+R1676:1676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1700:1708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1686:1688 Coq.Init.Datatypes <> nat ind
+binder 1684:1684 <> k:14
+R1695:1698 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R1691:1692 Coq.Reals.Abstract.ConstructiveSum <> un:12 var
+R1694:1694 Coq.Reals.Abstract.ConstructiveSum <> k:14 var
+R1719:1722 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R1709:1713 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R1718:1718 Coq.Reals.Abstract.ConstructiveSum <> n:13 var
+R1715:1716 Coq.Reals.Abstract.ConstructiveSum <> un:12 var
+R1818:1827 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R1818:1827 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+def 1856:1858 <> INR
+R1865:1881 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1861:1861 <> R:15
+R1889:1891 Coq.Init.Datatypes <> nat ind
+binder 1885:1885 <> n:16
+R1896:1904 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R1906:1906 Coq.Reals.Abstract.ConstructiveSum <> R:15 var
+R1913:1919 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R1921:1921 Coq.Reals.Abstract.ConstructiveSum <> R:15 var
+R1934:1936 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R1924:1931 Coq.ZArith.BinInt Z of_nat def
+R1933:1933 Coq.Reals.Abstract.ConstructiveSum <> n:16 var
+prf 1948:1956 <> sum_const
+R1972:1988 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 1968:1968 <> R:17
+R1996:2004 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R2006:2006 Coq.Reals.Abstract.ConstructiveSum <> R:17 var
+binder 1992:1992 <> a:18
+R2014:2016 Coq.Init.Datatypes <> nat ind
+binder 2010:2010 <> n:19
+R2044:2047 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R2024:2028 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2043:2043 Coq.Reals.Abstract.ConstructiveSum <> n:19 var
+R2040:2040 Coq.Reals.Abstract.ConstructiveSum <> a:18 var
+R2049:2051 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R2048:2048 Coq.Reals.Abstract.ConstructiveSum <> a:18 var
+R2052:2054 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R2057:2057 Coq.Init.Datatypes <> S constr
+R2059:2059 Coq.Reals.Abstract.ConstructiveSum <> n:19 var
+R2096:2098 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R2116:2125 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2116:2125 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2116:2125 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2172:2174 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R2190:2197 Coq.ZArith.BinInt Z of_nat def
+R2200:2200 Coq.Init.Datatypes <> S constr
+R2203:2203 Coq.Init.Datatypes <> S constr
+R2230:2232 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2216:2223 Coq.ZArith.BinInt Z of_nat def
+R2226:2226 Coq.Init.Datatypes <> S constr
+R2190:2197 Coq.ZArith.BinInt Z of_nat def
+R2200:2200 Coq.Init.Datatypes <> S constr
+R2203:2203 Coq.Init.Datatypes <> S constr
+R2230:2232 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2216:2223 Coq.ZArith.BinInt Z of_nat def
+R2226:2226 Coq.Init.Datatypes <> S constr
+R2254:2268 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R2271:2282 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R2285:2303 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_l thm
+R2254:2268 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R2254:2268 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R2271:2282 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R2271:2282 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R2285:2303 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_l thm
+R2285:2303 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_l thm
+R2316:2327 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R2316:2327 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R2351:2360 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2351:2360 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2351:2360 Coq.Reals.Abstract.ConstructiveReals <> CRmult_1_r thm
+R2398:2405 Coq.ZArith.BinInt Z of_nat def
+R2398:2405 Coq.ZArith.BinInt Z of_nat def
+R2422:2434 Coq.ZArith.Znat Nat2Z inj_add thm
+R2422:2434 Coq.ZArith.Znat Nat2Z inj_add thm
+R2422:2434 Coq.ZArith.Znat Nat2Z inj_add thm
+R2447:2453 Coq.Init.Logic <> f_equal thm
+R2447:2453 Coq.Init.Logic <> f_equal thm
+R2464:2475 Coq.Arith.PeanoNat Nat add_comm thm
+R2464:2475 Coq.Arith.PeanoNat Nat add_comm thm
+R2464:2475 Coq.Arith.PeanoNat Nat add_comm thm
+prf 2516:2532 <> multiTriangleIneg
+R2548:2564 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 2544:2544 <> R:20
+R2575:2578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2572:2574 Coq.Init.Datatypes <> nat ind
+R2579:2587 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R2589:2589 Coq.Reals.Abstract.ConstructiveSum <> R:20 var
+binder 2568:2568 <> u:21
+R2597:2599 Coq.Init.Datatypes <> nat ind
+binder 2593:2593 <> n:22
+R2626:2629 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R2607:2611 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2613:2613 Coq.Reals.Abstract.ConstructiveSum <> R:20 var
+R2616:2620 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2624:2624 Coq.Reals.Abstract.ConstructiveSum <> n:22 var
+R2622:2622 Coq.Reals.Abstract.ConstructiveSum <> u:21 var
+R2630:2634 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2661:2661 Coq.Reals.Abstract.ConstructiveSum <> n:22 var
+binder 2641:2641 <> k:23
+R2646:2650 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2652:2652 Coq.Reals.Abstract.ConstructiveSum <> R:20 var
+R2655:2655 Coq.Reals.Abstract.ConstructiveSum <> u:21 var
+R2657:2657 Coq.Reals.Abstract.ConstructiveSum <> k:23 var
+R2696:2704 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R2696:2704 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R2725:2734 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R2758:2760 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R2739:2743 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2748:2752 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2761:2765 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2773:2773 Coq.Init.Datatypes <> S constr
+R2725:2734 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R2758:2760 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R2739:2743 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2748:2752 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2761:2765 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R2773:2773 Coq.Init.Datatypes <> S constr
+R2792:2803 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_triang thm
+R2792:2803 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_triang thm
+R2812:2827 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R2812:2827 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R2851:2859 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R2851:2859 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+prf 2874:2882 <> sum_assoc
+R2898:2914 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 2894:2894 <> R:24
+R2925:2928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2922:2924 Coq.Init.Datatypes <> nat ind
+R2929:2937 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R2939:2939 Coq.Reals.Abstract.ConstructiveSum <> R:24 var
+binder 2918:2918 <> u:25
+R2949:2951 Coq.Init.Datatypes <> nat ind
+binder 2943:2943 <> n:26
+binder 2945:2945 <> p:27
+R2976:2983 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R2959:2963 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2971:2973 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2968:2968 Coq.Init.Datatypes <> S constr
+R2970:2970 Coq.Reals.Abstract.ConstructiveSum <> n:26 var
+R2974:2974 Coq.Reals.Abstract.ConstructiveSum <> p:27 var
+R2965:2965 Coq.Reals.Abstract.ConstructiveSum <> u:25 var
+R2993:2995 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R2984:2988 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R2992:2992 Coq.Reals.Abstract.ConstructiveSum <> n:26 var
+R2990:2990 Coq.Reals.Abstract.ConstructiveSum <> u:25 var
+R2996:3000 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3029:3029 Coq.Reals.Abstract.ConstructiveSum <> p:27 var
+binder 3007:3007 <> k:28
+R3012:3012 Coq.Reals.Abstract.ConstructiveSum <> u:25 var
+R3018:3020 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3015:3015 Coq.Init.Datatypes <> S constr
+R3017:3017 Coq.Reals.Abstract.ConstructiveSum <> n:26 var
+R3021:3021 Coq.Reals.Abstract.ConstructiveSum <> k:28 var
+R3073:3083 Coq.Arith.PeanoNat Nat add_0_r thm
+R3073:3083 Coq.Arith.PeanoNat Nat add_0_r thm
+R3073:3083 Coq.Arith.PeanoNat Nat add_0_r thm
+R3119:3128 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R3131:3138 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R3119:3128 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R3131:3138 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R3119:3128 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R3131:3138 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R3151:3162 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R3151:3162 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R3177:3190 Coq.Arith.PeanoNat Nat add_succ_r thm
+R3177:3190 Coq.Arith.PeanoNat Nat add_succ_r thm
+R3177:3190 Coq.Arith.PeanoNat Nat add_succ_r thm
+R3206:3213 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R3255:3257 Coq.Init.Datatypes <> nat ind
+binder 3251:3251 <> k:29
+R3268:3270 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3265:3265 Coq.Init.Datatypes <> S constr
+R3271:3271 Coq.Reals.Abstract.ConstructiveSum <> k:29 var
+R3224:3226 Coq.Init.Datatypes <> nat ind
+binder 3220:3220 <> k:30
+R3234:3234 Coq.Init.Datatypes <> S constr
+R3238:3240 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3241:3241 Coq.Reals.Abstract.ConstructiveSum <> k:30 var
+R3206:3213 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R3255:3257 Coq.Init.Datatypes <> nat ind
+binder 3251:3251 <> k:31
+R3268:3270 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3265:3265 Coq.Init.Datatypes <> S constr
+R3271:3271 Coq.Reals.Abstract.ConstructiveSum <> k:31 var
+R3224:3226 Coq.Init.Datatypes <> nat ind
+binder 3220:3220 <> k:32
+R3234:3234 Coq.Init.Datatypes <> S constr
+R3238:3240 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3241:3241 Coq.Reals.Abstract.ConstructiveSum <> k:32 var
+R3206:3213 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R3255:3257 Coq.Init.Datatypes <> nat ind
+binder 3251:3251 <> k:33
+R3268:3270 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3265:3265 Coq.Init.Datatypes <> S constr
+R3271:3271 Coq.Reals.Abstract.ConstructiveSum <> k:33 var
+R3224:3226 Coq.Init.Datatypes <> nat ind
+binder 3220:3220 <> k:34
+R3234:3234 Coq.Init.Datatypes <> S constr
+R3238:3240 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3241:3241 Coq.Reals.Abstract.ConstructiveSum <> k:34 var
+R3206:3213 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R3255:3257 Coq.Init.Datatypes <> nat ind
+binder 3251:3251 <> k:35
+R3268:3270 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3265:3265 Coq.Init.Datatypes <> S constr
+R3271:3271 Coq.Reals.Abstract.ConstructiveSum <> k:35 var
+R3224:3226 Coq.Init.Datatypes <> nat ind
+binder 3220:3220 <> k:36
+R3234:3234 Coq.Init.Datatypes <> S constr
+R3238:3240 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3241:3241 Coq.Reals.Abstract.ConstructiveSum <> k:36 var
+prf 3360:3366 <> sum_Rle
+R3382:3398 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 3378:3378 <> R:37
+R3413:3416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3410:3412 Coq.Init.Datatypes <> nat ind
+R3417:3425 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R3427:3427 Coq.Reals.Abstract.ConstructiveSum <> R:37 var
+binder 3402:3403 <> un:38
+binder 3405:3406 <> vn:39
+R3435:3437 Coq.Init.Datatypes <> nat ind
+binder 3431:3431 <> n:40
+R3445:3445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3478:3486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3453:3453 <> k:41
+R3462:3465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3456:3457 Coq.Init.Peano <> le ind
+R3459:3459 Coq.Reals.Abstract.ConstructiveSum <> k:41 var
+R3461:3461 Coq.Reals.Abstract.ConstructiveSum <> n:40 var
+R3470:3473 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R3466:3467 Coq.Reals.Abstract.ConstructiveSum <> un:38 var
+R3469:3469 Coq.Reals.Abstract.ConstructiveSum <> k:41 var
+R3474:3475 Coq.Reals.Abstract.ConstructiveSum <> vn:39 var
+R3477:3477 Coq.Reals.Abstract.ConstructiveSum <> k:41 var
+R3497:3500 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R3487:3491 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3496:3496 Coq.Reals.Abstract.ConstructiveSum <> n:40 var
+R3493:3494 Coq.Reals.Abstract.ConstructiveSum <> un:38 var
+R3501:3505 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3510:3510 Coq.Reals.Abstract.ConstructiveSum <> n:40 var
+R3507:3508 Coq.Reals.Abstract.ConstructiveSum <> vn:39 var
+R3562:3572 Coq.Arith.PeanoNat Nat le_refl thm
+R3562:3572 Coq.Arith.PeanoNat Nat le_refl thm
+R3600:3615 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R3600:3615 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R3657:3668 Coq.Arith.PeanoNat Nat le_trans thm
+R3657:3668 Coq.Arith.PeanoNat Nat le_trans thm
+R3687:3690 Coq.Init.Peano <> le_S constr
+R3693:3703 Coq.Arith.PeanoNat Nat le_refl thm
+R3687:3690 Coq.Init.Peano <> le_S constr
+R3693:3703 Coq.Arith.PeanoNat Nat le_refl thm
+R3725:3735 Coq.Arith.PeanoNat Nat le_refl thm
+R3725:3735 Coq.Arith.PeanoNat Nat le_refl thm
+prf 3750:3760 <> Abs_sum_maj
+R3776:3792 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 3772:3772 <> R:42
+R3807:3810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3804:3806 Coq.Init.Datatypes <> nat ind
+R3811:3819 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R3821:3821 Coq.Reals.Abstract.ConstructiveSum <> R:42 var
+binder 3796:3797 <> un:43
+binder 3799:3800 <> vn:44
+R3829:3829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3868:3876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3839:3841 Coq.Init.Datatypes <> nat ind
+binder 3837:3837 <> n:45
+R3858:3862 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R3867:3867 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R3844:3848 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R3850:3850 Coq.Reals.Abstract.ConstructiveSum <> R:42 var
+R3853:3854 Coq.Reals.Abstract.ConstructiveSum <> un:43 var
+R3856:3856 Coq.Reals.Abstract.ConstructiveSum <> n:45 var
+R3863:3864 Coq.Reals.Abstract.ConstructiveSum <> vn:44 var
+R3866:3866 Coq.Reals.Abstract.ConstructiveSum <> n:45 var
+R3888:3890 Coq.Init.Datatypes <> nat ind
+binder 3884:3884 <> n:46
+binder 3886:3886 <> p:47
+R3927:3944 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R3894:3898 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R3900:3900 Coq.Reals.Abstract.ConstructiveSum <> R:42 var
+R3913:3915 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R3903:3907 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3912:3912 Coq.Reals.Abstract.ConstructiveSum <> n:46 var
+R3909:3910 Coq.Reals.Abstract.ConstructiveSum <> un:43 var
+R3916:3920 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3925:3925 Coq.Reals.Abstract.ConstructiveSum <> p:47 var
+R3922:3923 Coq.Reals.Abstract.ConstructiveSum <> un:43 var
+R3972:3974 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R3945:3949 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3955:3966 Coq.Init.Nat <> max def
+R3968:3968 Coq.Reals.Abstract.ConstructiveSum <> n:46 var
+R3970:3970 Coq.Reals.Abstract.ConstructiveSum <> p:47 var
+R3951:3952 Coq.Reals.Abstract.ConstructiveSum <> vn:44 var
+R3975:3979 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R3985:3996 Coq.Init.Nat <> min def
+R3998:3998 Coq.Reals.Abstract.ConstructiveSum <> n:46 var
+R4000:4000 Coq.Reals.Abstract.ConstructiveSum <> p:47 var
+R3981:3982 Coq.Reals.Abstract.ConstructiveSum <> vn:44 var
+R4032:4040 Coq.Arith.Compare_dec <> le_lt_dec def
+R4032:4040 Coq.Arith.Compare_dec <> le_lt_dec def
+R4062:4078 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R4062:4078 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R4134:4138 Coq.Init.Peano <> max_r thm
+R4134:4138 Coq.Init.Peano <> max_r thm
+R4134:4138 Coq.Init.Peano <> max_r thm
+R4134:4138 Coq.Init.Peano <> max_r thm
+R4149:4153 Coq.Init.Peano <> min_l thm
+R4149:4153 Coq.Init.Peano <> min_l thm
+R4149:4153 Coq.Init.Peano <> min_l thm
+R4149:4153 Coq.Init.Peano <> min_l thm
+R4186:4188 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R4176:4180 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4189:4193 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4200:4202 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4219:4220 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R4250:4250 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R4237:4239 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R4221:4225 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4232:4234 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4240:4244 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4186:4188 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R4176:4180 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4189:4193 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4200:4202 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4219:4220 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R4250:4250 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R4237:4239 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R4221:4225 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4232:4234 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4240:4244 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4266:4274 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R4266:4274 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R4266:4274 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R4307:4313 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R4324:4335 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4324:4335 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4324:4335 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4350:4361 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4350:4361 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4350:4361 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R4372:4382 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R4372:4382 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R4372:4382 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R4372:4382 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R4395:4403 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R4395:4403 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R4412:4420 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R4412:4420 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R4439:4441 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4436:4436 Coq.Init.Datatypes <> S constr
+R4458:4460 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4455:4455 Coq.Init.Datatypes <> S constr
+R4439:4441 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4436:4436 Coq.Init.Datatypes <> S constr
+R4458:4460 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4455:4455 Coq.Init.Datatypes <> S constr
+R4480:4486 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R4497:4505 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4497:4505 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4497:4505 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4516:4524 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4516:4524 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4516:4524 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R4539:4549 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4539:4549 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4539:4549 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4567:4578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4567:4578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4567:4578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4589:4600 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4589:4600 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4589:4600 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4615:4624 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4615:4624 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4615:4624 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4635:4645 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4635:4645 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4635:4645 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4663:4674 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4663:4674 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4663:4674 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R4685:4696 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4685:4696 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4685:4696 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R4711:4720 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4711:4720 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4711:4720 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R4734:4743 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R4748:4752 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4764:4766 Coq.Init.Datatypes <> nat ind
+binder 4759:4760 <> k0:48
+R4771:4775 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R4787:4789 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4784:4784 Coq.Init.Datatypes <> S constr
+R4790:4791 Coq.Reals.Abstract.ConstructiveSum <> k0:48 var
+R4734:4743 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R4748:4752 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R4764:4766 Coq.Init.Datatypes <> nat ind
+binder 4759:4760 <> k0:49
+R4771:4775 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R4787:4789 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4784:4784 Coq.Init.Datatypes <> S constr
+R4790:4791 Coq.Reals.Abstract.ConstructiveSum <> k0:49 var
+R4815:4831 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R4815:4831 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R4840:4846 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R4840:4846 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R4878:4889 Coq.Arith.PeanoNat Nat add_comm thm
+R4892:4905 Coq.Arith.PeanoNat Nat add_succ_r thm
+R4878:4889 Coq.Arith.PeanoNat Nat add_comm thm
+R4878:4889 Coq.Arith.PeanoNat Nat add_comm thm
+R4892:4905 Coq.Arith.PeanoNat Nat add_succ_r thm
+R4892:4905 Coq.Arith.PeanoNat Nat add_succ_r thm
+R4932:4938 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R4949:4964 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R4967:4982 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R4985:4995 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4949:4964 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R4949:4964 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R4967:4982 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R4967:4982 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R4985:4995 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R4985:4995 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5053:5069 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R5053:5069 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R5099:5100 Coq.Init.Peano <> lt def
+R5119:5130 Coq.Arith.PeanoNat Nat le_trans thm
+R5135:5135 Coq.Init.Datatypes <> S constr
+R5119:5130 Coq.Arith.PeanoNat Nat le_trans thm
+R5135:5135 Coq.Init.Datatypes <> S constr
+R5148:5151 Coq.Init.Peano <> le_S constr
+R5148:5151 Coq.Init.Peano <> le_S constr
+R5160:5170 Coq.Arith.PeanoNat Nat le_refl thm
+R5160:5170 Coq.Arith.PeanoNat Nat le_refl thm
+R5206:5210 Coq.Init.Peano <> max_l thm
+R5206:5210 Coq.Init.Peano <> max_l thm
+R5206:5210 Coq.Init.Peano <> max_l thm
+R5206:5210 Coq.Init.Peano <> max_l thm
+R5221:5225 Coq.Init.Peano <> min_r thm
+R5221:5225 Coq.Init.Peano <> min_r thm
+R5221:5225 Coq.Init.Peano <> min_r thm
+R5221:5225 Coq.Init.Peano <> min_r thm
+R5258:5264 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R5275:5286 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5275:5286 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5275:5286 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5301:5312 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5301:5312 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5301:5312 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R5323:5333 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R5323:5333 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R5323:5333 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R5323:5333 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R5342:5350 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R5342:5350 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R5363:5371 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R5363:5371 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R5390:5392 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5387:5387 Coq.Init.Datatypes <> S constr
+R5409:5411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5406:5406 Coq.Init.Datatypes <> S constr
+R5390:5392 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5387:5387 Coq.Init.Datatypes <> S constr
+R5409:5411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5406:5406 Coq.Init.Datatypes <> S constr
+R5427:5433 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R5448:5456 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5448:5456 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5448:5456 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5467:5475 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5467:5475 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5467:5475 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R5490:5500 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5490:5500 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5490:5500 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5518:5529 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5518:5529 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5518:5529 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5540:5551 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5540:5551 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5540:5551 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5566:5575 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5566:5575 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5566:5575 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5586:5596 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5586:5596 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5586:5596 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R5614:5625 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5614:5625 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5614:5625 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R5636:5647 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5636:5647 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5636:5647 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R5662:5671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5662:5671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5662:5671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R5685:5694 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R5699:5703 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R5715:5717 Coq.Init.Datatypes <> nat ind
+binder 5710:5711 <> k0:50
+R5722:5726 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R5738:5740 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5735:5735 Coq.Init.Datatypes <> S constr
+R5741:5742 Coq.Reals.Abstract.ConstructiveSum <> k0:50 var
+R5685:5694 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R5699:5703 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R5715:5717 Coq.Init.Datatypes <> nat ind
+binder 5710:5711 <> k0:51
+R5722:5726 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R5738:5740 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5735:5735 Coq.Init.Datatypes <> S constr
+R5741:5742 Coq.Reals.Abstract.ConstructiveSum <> k0:51 var
+R5766:5782 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R5766:5782 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R5791:5797 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R5791:5797 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R5829:5840 Coq.Arith.PeanoNat Nat add_comm thm
+R5843:5856 Coq.Arith.PeanoNat Nat add_succ_r thm
+R5829:5840 Coq.Arith.PeanoNat Nat add_comm thm
+R5829:5840 Coq.Arith.PeanoNat Nat add_comm thm
+R5843:5856 Coq.Arith.PeanoNat Nat add_succ_r thm
+R5843:5856 Coq.Arith.PeanoNat Nat add_succ_r thm
+R5883:5894 Coq.Arith.PeanoNat Nat le_trans thm
+R5899:5899 Coq.Init.Datatypes <> S constr
+R5883:5894 Coq.Arith.PeanoNat Nat le_trans thm
+R5899:5899 Coq.Init.Datatypes <> S constr
+R5912:5915 Coq.Init.Peano <> le_S constr
+R5912:5915 Coq.Init.Peano <> le_S constr
+R5924:5934 Coq.Arith.PeanoNat Nat le_refl thm
+R5924:5934 Coq.Arith.PeanoNat Nat le_refl thm
+R5960:5971 Coq.Arith.PeanoNat Nat le_trans thm
+R5976:5976 Coq.Init.Datatypes <> S constr
+R5960:5971 Coq.Arith.PeanoNat Nat le_trans thm
+R5976:5976 Coq.Init.Datatypes <> S constr
+R5989:5992 Coq.Init.Peano <> le_S constr
+R5989:5992 Coq.Init.Peano <> le_S constr
+R6001:6011 Coq.Arith.PeanoNat Nat le_refl thm
+R6001:6011 Coq.Arith.PeanoNat Nat le_refl thm
+prf 6038:6049 <> cond_pos_sum
+R6065:6081 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 6061:6061 <> R:52
+R6093:6096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6090:6092 Coq.Init.Datatypes <> nat ind
+R6097:6105 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R6107:6107 Coq.Reals.Abstract.ConstructiveSum <> R:52 var
+binder 6085:6086 <> un:53
+R6115:6117 Coq.Init.Datatypes <> nat ind
+binder 6111:6111 <> n:54
+R6125:6125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6145:6153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6133:6133 <> k:55
+R6137:6140 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R6141:6142 Coq.Reals.Abstract.ConstructiveSum <> un:53 var
+R6144:6144 Coq.Reals.Abstract.ConstructiveSum <> k:55 var
+R6155:6158 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R6159:6163 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R6168:6168 Coq.Reals.Abstract.ConstructiveSum <> n:54 var
+R6165:6166 Coq.Reals.Abstract.ConstructiveSum <> un:53 var
+R6244:6253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6244:6253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6244:6253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6266:6281 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R6266:6281 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+prf 6319:6330 <> pos_sum_more
+R6346:6362 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 6342:6342 <> R:56
+R6373:6376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6370:6372 Coq.Init.Datatypes <> nat ind
+R6377:6385 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R6387:6387 Coq.Reals.Abstract.ConstructiveSum <> R:56 var
+binder 6366:6366 <> u:57
+R6420:6422 Coq.Init.Datatypes <> nat ind
+binder 6414:6414 <> n:58
+binder 6416:6416 <> p:59
+R6430:6430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6453:6461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6440:6442 Coq.Init.Datatypes <> nat ind
+binder 6438:6438 <> k:60
+R6446:6449 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R6450:6450 Coq.Reals.Abstract.ConstructiveSum <> u:57 var
+R6452:6452 Coq.Reals.Abstract.ConstructiveSum <> k:60 var
+R6468:6471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6462:6463 Coq.Init.Peano <> le ind
+R6465:6465 Coq.Reals.Abstract.ConstructiveSum <> n:58 var
+R6467:6467 Coq.Reals.Abstract.ConstructiveSum <> p:59 var
+R6481:6484 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R6472:6476 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R6480:6480 Coq.Reals.Abstract.ConstructiveSum <> n:58 var
+R6478:6478 Coq.Reals.Abstract.ConstructiveSum <> u:57 var
+R6485:6489 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R6493:6493 Coq.Reals.Abstract.ConstructiveSum <> p:59 var
+R6491:6491 Coq.Reals.Abstract.ConstructiveSum <> u:57 var
+R6523:6539 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R6523:6539 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R6582:6593 Coq.Arith.PeanoNat Nat add_comm thm
+R6582:6593 Coq.Arith.PeanoNat Nat add_comm thm
+R6582:6593 Coq.Arith.PeanoNat Nat add_comm thm
+R6618:6628 Coq.Arith.PeanoNat Nat add_0_r thm
+R6618:6628 Coq.Arith.PeanoNat Nat add_0_r thm
+R6618:6628 Coq.Arith.PeanoNat Nat add_0_r thm
+R6637:6645 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R6637:6645 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R6656:6669 Coq.Arith.PeanoNat Nat add_succ_r thm
+R6656:6669 Coq.Arith.PeanoNat Nat add_succ_r thm
+R6656:6669 Coq.Arith.PeanoNat Nat add_succ_r thm
+R6683:6683 Coq.Init.Datatypes <> S constr
+R6687:6689 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6703:6705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6700:6700 Coq.Init.Datatypes <> S constr
+R6683:6683 Coq.Init.Datatypes <> S constr
+R6687:6689 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6703:6705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6700:6700 Coq.Init.Datatypes <> S constr
+R6722:6730 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R6722:6730 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R6722:6730 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R6746:6755 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6758:6769 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6746:6755 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6746:6755 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R6758:6769 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6758:6769 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R6780:6797 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R6780:6797 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R6808:6817 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R6808:6817 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R6808:6817 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R6828:6839 Coq.Reals.Abstract.ConstructiveSum <> cond_pos_sum thm
+R6828:6839 Coq.Reals.Abstract.ConstructiveSum <> cond_pos_sum thm
+prf 6879:6885 <> sum_opp
+R6901:6917 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 6897:6897 <> R:61
+R6929:6932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6926:6928 Coq.Init.Datatypes <> nat ind
+R6933:6941 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R6943:6943 Coq.Reals.Abstract.ConstructiveSum <> R:61 var
+binder 6921:6922 <> un:62
+R6951:6953 Coq.Init.Datatypes <> nat ind
+binder 6947:6947 <> n:63
+R6986:6989 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R6961:6965 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R6985:6985 Coq.Reals.Abstract.ConstructiveSum <> n:63 var
+binder 6972:6972 <> k:64
+R6977:6978 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R6979:6980 Coq.Reals.Abstract.ConstructiveSum <> un:62 var
+R6982:6982 Coq.Reals.Abstract.ConstructiveSum <> k:64 var
+R6990:6991 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R6992:6996 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7001:7001 Coq.Reals.Abstract.ConstructiveSum <> n:63 var
+R6998:6999 Coq.Reals.Abstract.ConstructiveSum <> un:62 var
+R7075:7090 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R7075:7090 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R7075:7090 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+prf 7118:7126 <> sum_scale
+R7142:7158 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 7138:7138 <> R:65
+R7169:7172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7166:7168 Coq.Init.Datatypes <> nat ind
+R7173:7181 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R7183:7183 Coq.Reals.Abstract.ConstructiveSum <> R:65 var
+binder 7162:7162 <> u:66
+R7191:7199 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R7201:7201 Coq.Reals.Abstract.ConstructiveSum <> R:65 var
+binder 7187:7187 <> a:67
+R7209:7211 Coq.Init.Datatypes <> nat ind
+binder 7205:7205 <> n:68
+R7251:7254 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R7219:7223 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7250:7250 Coq.Reals.Abstract.ConstructiveSum <> n:68 var
+R7234:7236 Coq.Init.Datatypes <> nat ind
+binder 7230:7230 <> k:69
+R7244:7246 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R7241:7241 Coq.Reals.Abstract.ConstructiveSum <> u:66 var
+R7243:7243 Coq.Reals.Abstract.ConstructiveSum <> k:69 var
+R7247:7247 Coq.Reals.Abstract.ConstructiveSum <> a:67 var
+R7264:7266 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R7255:7259 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7263:7263 Coq.Reals.Abstract.ConstructiveSum <> n:68 var
+R7261:7261 Coq.Reals.Abstract.ConstructiveSum <> u:66 var
+R7267:7267 Coq.Reals.Abstract.ConstructiveSum <> a:67 var
+R7312:7320 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7323:7330 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R7312:7320 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7323:7330 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R7312:7320 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7323:7330 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R7382:7400 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_r thm
+R7382:7400 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_r thm
+R7382:7400 Coq.Reals.Abstract.ConstructiveReals <> CRmult_plus_distr_r thm
+R7413:7424 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7413:7424 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7453:7461 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7464:7471 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R7453:7461 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7464:7471 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+R7453:7461 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R7464:7471 Coq.Reals.Abstract.ConstructiveReals <> CRisRing proj
+prf 7503:7510 <> sum_plus
+R7526:7542 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 7522:7522 <> R:70
+R7555:7558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7552:7554 Coq.Init.Datatypes <> nat ind
+R7559:7567 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R7569:7569 Coq.Reals.Abstract.ConstructiveSum <> R:70 var
+binder 7546:7546 <> u:71
+binder 7548:7548 <> v:72
+R7577:7579 Coq.Init.Datatypes <> nat ind
+binder 7573:7573 <> n:73
+R7624:7627 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R7587:7591 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7623:7623 Coq.Reals.Abstract.ConstructiveSum <> n:73 var
+R7603:7605 Coq.Init.Datatypes <> nat ind
+binder 7598:7599 <> n0:74
+R7614:7616 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R7610:7610 Coq.Reals.Abstract.ConstructiveSum <> u:71 var
+R7612:7613 Coq.Reals.Abstract.ConstructiveSum <> n0:74 var
+R7617:7617 Coq.Reals.Abstract.ConstructiveSum <> v:72 var
+R7619:7620 Coq.Reals.Abstract.ConstructiveSum <> n0:74 var
+R7637:7639 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R7628:7632 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7636:7636 Coq.Reals.Abstract.ConstructiveSum <> n:73 var
+R7634:7634 Coq.Reals.Abstract.ConstructiveSum <> u:71 var
+R7640:7644 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7648:7648 Coq.Reals.Abstract.ConstructiveSum <> n:73 var
+R7646:7646 Coq.Reals.Abstract.ConstructiveSum <> v:72 var
+R7727:7738 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7727:7738 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7727:7738 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7727:7738 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7727:7738 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7751:7762 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7751:7762 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7786:7796 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R7799:7810 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7786:7796 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R7786:7796 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R7799:7810 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7799:7810 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R7823:7834 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7823:7834 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R7856:7866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R7856:7866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+prf 7881:7890 <> decomp_sum
+R7908:7924 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 7904:7904 <> R:75
+R7934:7937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7931:7933 Coq.Init.Datatypes <> nat ind
+R7938:7946 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R7948:7948 Coq.Reals.Abstract.ConstructiveSum <> R:75 var
+binder 7928:7929 <> An:76
+R7954:7956 Coq.Init.Datatypes <> nat ind
+binder 7952:7952 <> N:77
+R7975:7982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7966:7968 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7969:7969 Coq.Reals.Abstract.ConstructiveSum <> N:77 var
+R7993:7996 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R7983:7987 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R7992:7992 Coq.Reals.Abstract.ConstructiveSum <> N:77 var
+R7989:7990 Coq.Reals.Abstract.ConstructiveSum <> An:76 var
+R8005:8007 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R7997:7998 Coq.Reals.Abstract.ConstructiveSum <> An:76 var
+R8008:8012 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R8039:8042 Coq.Init.Peano <> pred abbrev
+R8044:8044 Coq.Reals.Abstract.ConstructiveSum <> N:77 var
+R8021:8023 Coq.Init.Datatypes <> nat ind
+binder 8019:8019 <> i:78
+R8028:8029 Coq.Reals.Abstract.ConstructiveSum <> An:76 var
+R8032:8032 Coq.Init.Datatypes <> S constr
+R8034:8034 Coq.Reals.Abstract.ConstructiveSum <> i:78 var
+R8182:8193 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8182:8193 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8182:8193 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8206:8217 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R8206:8217 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R8256:8261 Coq.Init.Peano <> le_n_S thm
+R8264:8273 Coq.Arith.PeanoNat Nat le_0_l thm
+R8256:8261 Coq.Init.Peano <> le_n_S thm
+R8264:8273 Coq.Arith.PeanoNat Nat le_0_l thm
+prf 8288:8298 <> reverse_sum
+R8314:8330 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 8310:8310 <> R:79
+R8341:8344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8338:8340 Coq.Init.Datatypes <> nat ind
+R8345:8353 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R8355:8355 Coq.Reals.Abstract.ConstructiveSum <> R:79 var
+binder 8334:8334 <> u:80
+R8363:8365 Coq.Init.Datatypes <> nat ind
+binder 8359:8359 <> n:81
+R8382:8385 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R8373:8377 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R8381:8381 Coq.Reals.Abstract.ConstructiveSum <> n:81 var
+R8379:8379 Coq.Reals.Abstract.ConstructiveSum <> u:80 var
+R8386:8390 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R8415:8415 Coq.Reals.Abstract.ConstructiveSum <> n:81 var
+binder 8397:8397 <> k:82
+R8402:8402 Coq.Reals.Abstract.ConstructiveSum <> u:80 var
+R8406:8406 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8405:8405 Coq.Reals.Abstract.ConstructiveSum <> n:81 var
+R8407:8407 Coq.Reals.Abstract.ConstructiveSum <> k:82 var
+R8478:8487 Coq.Reals.Abstract.ConstructiveSum <> decomp_sum thm
+R8498:8500 Coq.Init.Datatypes <> nat ind
+binder 8494:8494 <> k:83
+R8511:8513 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8508:8508 Coq.Init.Datatypes <> S constr
+R8514:8514 Coq.Reals.Abstract.ConstructiveSum <> k:83 var
+R8478:8487 Coq.Reals.Abstract.ConstructiveSum <> decomp_sum thm
+R8498:8500 Coq.Init.Datatypes <> nat ind
+binder 8494:8494 <> k:84
+R8511:8513 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8508:8508 Coq.Init.Datatypes <> S constr
+R8514:8514 Coq.Reals.Abstract.ConstructiveSum <> k:84 var
+R8478:8487 Coq.Reals.Abstract.ConstructiveSum <> decomp_sum thm
+R8498:8500 Coq.Init.Datatypes <> nat ind
+binder 8494:8494 <> k:85
+R8511:8513 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8508:8508 Coq.Init.Datatypes <> S constr
+R8514:8514 Coq.Reals.Abstract.ConstructiveSum <> k:85 var
+R8478:8487 Coq.Reals.Abstract.ConstructiveSum <> decomp_sum thm
+R8498:8500 Coq.Init.Datatypes <> nat ind
+binder 8494:8494 <> k:86
+R8511:8513 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8508:8508 Coq.Init.Datatypes <> S constr
+R8514:8514 Coq.Reals.Abstract.ConstructiveSum <> k:86 var
+R8543:8553 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R8543:8553 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R8543:8553 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R8562:8573 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R8562:8573 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R8612:8613 Coq.Init.Peano <> lt def
+R8625:8640 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R8649:8658 Coq.Arith.PeanoNat Nat le_0_l thm
+R8625:8640 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R8649:8658 Coq.Arith.PeanoNat Nat le_0_l thm
+prf 8673:8684 <> Rplus_le_pos
+R8700:8716 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 8696:8696 <> R:87
+R8726:8734 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R8736:8736 Coq.Reals.Abstract.ConstructiveSum <> R:87 var
+binder 8720:8720 <> a:88
+binder 8722:8722 <> b:89
+R8750:8753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8745:8748 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R8749:8749 Coq.Reals.Abstract.ConstructiveSum <> b:89 var
+R8755:8758 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R8754:8754 Coq.Reals.Abstract.ConstructiveSum <> a:88 var
+R8760:8762 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R8759:8759 Coq.Reals.Abstract.ConstructiveSum <> a:88 var
+R8763:8763 Coq.Reals.Abstract.ConstructiveSum <> b:89 var
+R8795:8804 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R8795:8804 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R8795:8804 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R8818:8829 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8818:8829 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8818:8829 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R8840:8857 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R8840:8857 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R8868:8877 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R8868:8877 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R8868:8877 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+prf 8904:8917 <> selectOneInSum
+R8933:8949 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 8929:8929 <> R:90
+R8960:8963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8957:8959 Coq.Init.Datatypes <> nat ind
+R8964:8972 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R8974:8974 Coq.Reals.Abstract.ConstructiveSum <> R:90 var
+binder 8953:8953 <> u:91
+R8984:8986 Coq.Init.Datatypes <> nat ind
+binder 8978:8978 <> n:92
+binder 8980:8980 <> i:93
+R9000:9007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8994:8995 Coq.Init.Peano <> le ind
+R8997:8997 Coq.Reals.Abstract.ConstructiveSum <> i:93 var
+R8999:8999 Coq.Reals.Abstract.ConstructiveSum <> n:92 var
+R9008:9008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9031:9039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9018:9020 Coq.Init.Datatypes <> nat ind
+binder 9016:9016 <> k:94
+R9024:9027 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R9028:9028 Coq.Reals.Abstract.ConstructiveSum <> u:91 var
+R9030:9030 Coq.Reals.Abstract.ConstructiveSum <> k:94 var
+R9043:9046 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R9040:9040 Coq.Reals.Abstract.ConstructiveSum <> u:91 var
+R9042:9042 Coq.Reals.Abstract.ConstructiveSum <> i:93 var
+R9047:9051 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9055:9055 Coq.Reals.Abstract.ConstructiveSum <> n:92 var
+R9053:9053 Coq.Reals.Abstract.ConstructiveSum <> u:91 var
+R9120:9128 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R9120:9128 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R9149:9161 Coq.Arith.PeanoNat Nat le_succ_r thm
+R9149:9161 Coq.Arith.PeanoNat Nat le_succ_r thm
+R9192:9201 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R9206:9210 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9192:9201 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R9206:9210 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9271:9282 Coq.Reals.Abstract.ConstructiveSum <> Rplus_le_pos thm
+R9271:9282 Coq.Reals.Abstract.ConstructiveSum <> Rplus_le_pos thm
+R9323:9333 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9323:9333 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9323:9333 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9342:9353 Coq.Reals.Abstract.ConstructiveSum <> Rplus_le_pos thm
+R9342:9353 Coq.Reals.Abstract.ConstructiveSum <> Rplus_le_pos thm
+R9366:9377 Coq.Reals.Abstract.ConstructiveSum <> cond_pos_sum thm
+R9366:9377 Coq.Reals.Abstract.ConstructiveSum <> cond_pos_sum thm
+prf 9410:9417 <> splitSum
+R9433:9449 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 9429:9429 <> R:95
+R9461:9464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9458:9460 Coq.Init.Datatypes <> nat ind
+R9465:9473 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R9475:9475 Coq.Reals.Abstract.ConstructiveSum <> R:95 var
+binder 9453:9454 <> un:96
+R9515:9518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9512:9514 Coq.Init.Datatypes <> nat ind
+R9519:9522 Coq.Init.Datatypes <> bool ind
+binder 9503:9508 <> filter:97
+R9530:9532 Coq.Init.Datatypes <> nat ind
+binder 9526:9526 <> n:98
+R9550:9557 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R9540:9544 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9549:9549 Coq.Reals.Abstract.ConstructiveSum <> n:98 var
+R9546:9547 Coq.Reals.Abstract.ConstructiveSum <> un:96 var
+R9605:9614 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R9558:9562 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9604:9604 Coq.Reals.Abstract.ConstructiveSum <> n:98 var
+binder 9569:9569 <> i:99
+R9577:9582 Coq.Reals.Abstract.ConstructiveSum <> filter:97 var
+R9584:9584 Coq.Reals.Abstract.ConstructiveSum <> i:99 var
+R9591:9592 Coq.Reals.Abstract.ConstructiveSum <> un:96 var
+R9594:9594 Coq.Reals.Abstract.ConstructiveSum <> i:99 var
+R9615:9619 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R9661:9661 Coq.Reals.Abstract.ConstructiveSum <> n:98 var
+binder 9626:9626 <> i:100
+R9634:9639 Coq.Reals.Abstract.ConstructiveSum <> filter:97 var
+R9641:9641 Coq.Reals.Abstract.ConstructiveSum <> i:100 var
+R9655:9656 Coq.Reals.Abstract.ConstructiveSum <> un:96 var
+R9658:9658 Coq.Reals.Abstract.ConstructiveSum <> i:100 var
+R9714:9714 Coq.Init.Datatypes <> O constr
+R9714:9714 Coq.Init.Datatypes <> O constr
+R9734:9743 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R9734:9743 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R9766:9775 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R9766:9775 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R9831:9831 Coq.Init.Datatypes <> S constr
+R9831:9831 Coq.Init.Datatypes <> S constr
+R9855:9866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R9855:9866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R9855:9866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R9855:9866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R9855:9866 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R9875:9886 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R9875:9886 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R9914:9924 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9914:9924 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9914:9924 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R9933:9944 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R9933:9944 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R9968:9977 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R9968:9977 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R9968:9977 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R10005:10014 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R10005:10014 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R10005:10014 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R10025:10036 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R10025:10036 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R10025:10036 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+def 10069:10077 <> series_cv
+R10084:10100 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 10080:10080 <> R:101
+R10123:10126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10120:10122 Coq.Init.Datatypes <> nat ind
+R10127:10135 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10137:10137 Coq.Reals.Abstract.ConstructiveSum <> R:101 var
+binder 10115:10116 <> un:102
+R10145:10153 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10155:10155 Coq.Reals.Abstract.ConstructiveSum <> R:101 var
+binder 10141:10141 <> s:103
+R10169:10173 Coq.Reals.Abstract.ConstructiveReals <> CR_cv proj
+R10175:10175 Coq.Reals.Abstract.ConstructiveSum <> R:101 var
+R10178:10182 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10184:10185 Coq.Reals.Abstract.ConstructiveSum <> un:102 var
+R10188:10188 Coq.Reals.Abstract.ConstructiveSum <> s:103 var
+def 10203:10218 <> series_cv_lim_lt
+R10225:10241 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 10221:10221 <> R:104
+R10264:10267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10261:10263 Coq.Init.Datatypes <> nat ind
+R10268:10276 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10278:10278 Coq.Reals.Abstract.ConstructiveSum <> R:104 var
+binder 10256:10257 <> un:105
+R10286:10294 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10296:10296 Coq.Reals.Abstract.ConstructiveSum <> R:104 var
+binder 10282:10282 <> x:106
+R10310:10311 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10313:10315 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10327:10329 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10359:10360 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10316:10324 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10326:10326 Coq.Reals.Abstract.ConstructiveSum <> R:104 var
+binder 10312:10312 <> l:107
+R10330:10333 Coq.Init.Datatypes <> prod ind
+R10354:10356 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R10353:10353 Coq.Reals.Abstract.ConstructiveSum <> l:107 var
+R10357:10357 Coq.Reals.Abstract.ConstructiveSum <> x:106 var
+R10336:10344 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R10349:10349 Coq.Reals.Abstract.ConstructiveSum <> l:107 var
+R10346:10347 Coq.Reals.Abstract.ConstructiveSum <> un:105 var
+def 10375:10390 <> series_cv_le_lim
+R10397:10413 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 10393:10393 <> R:108
+R10432:10440 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10442:10442 Coq.Reals.Abstract.ConstructiveSum <> R:108 var
+binder 10428:10428 <> x:109
+R10454:10457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10451:10453 Coq.Init.Datatypes <> nat ind
+R10458:10466 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10468:10468 Coq.Reals.Abstract.ConstructiveSum <> R:108 var
+binder 10446:10447 <> un:110
+R10482:10483 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10485:10487 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10499:10501 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10532:10533 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10488:10496 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10498:10498 Coq.Reals.Abstract.ConstructiveSum <> R:108 var
+binder 10484:10484 <> l:111
+R10502:10505 Coq.Init.Datatypes <> prod ind
+R10526:10529 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R10525:10525 Coq.Reals.Abstract.ConstructiveSum <> x:109 var
+R10530:10530 Coq.Reals.Abstract.ConstructiveSum <> l:111 var
+R10508:10516 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R10521:10521 Coq.Reals.Abstract.ConstructiveSum <> l:111 var
+R10518:10519 Coq.Reals.Abstract.ConstructiveSum <> un:110 var
+prf 10543:10555 <> series_cv_maj
+R10571:10587 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 10567:10567 <> R:112
+R10626:10629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10623:10625 Coq.Init.Datatypes <> nat ind
+R10630:10638 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10640:10640 Coq.Reals.Abstract.ConstructiveSum <> R:112 var
+binder 10615:10616 <> un:113
+binder 10618:10619 <> vn:114
+R10648:10656 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10658:10658 Coq.Reals.Abstract.ConstructiveSum <> R:112 var
+binder 10644:10644 <> s:115
+R10666:10666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10703:10711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10676:10678 Coq.Init.Datatypes <> nat ind
+binder 10674:10674 <> n:116
+R10695:10698 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R10681:10685 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R10687:10687 Coq.Reals.Abstract.ConstructiveSum <> R:112 var
+R10690:10691 Coq.Reals.Abstract.ConstructiveSum <> un:113 var
+R10693:10693 Coq.Reals.Abstract.ConstructiveSum <> n:116 var
+R10699:10700 Coq.Reals.Abstract.ConstructiveSum <> vn:114 var
+R10702:10702 Coq.Reals.Abstract.ConstructiveSum <> n:116 var
+R10726:10733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10712:10720 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R10725:10725 Coq.Reals.Abstract.ConstructiveSum <> s:115 var
+R10722:10723 Coq.Reals.Abstract.ConstructiveSum <> vn:114 var
+R10734:10735 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10737:10739 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10751:10753 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10784:10785 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10740:10748 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R10750:10750 Coq.Reals.Abstract.ConstructiveSum <> R:112 var
+binder 10736:10736 <> l:117
+R10754:10757 Coq.Init.Datatypes <> prod ind
+R10778:10781 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R10777:10777 Coq.Reals.Abstract.ConstructiveSum <> l:117 var
+R10782:10782 Coq.Reals.Abstract.ConstructiveSum <> s:115 var
+R10760:10768 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R10773:10773 Coq.Reals.Abstract.ConstructiveSum <> l:117 var
+R10770:10771 Coq.Reals.Abstract.ConstructiveSum <> un:113 var
+R10815:10825 Coq.Reals.Abstract.ConstructiveReals <> CR_complete proj
+R10830:10834 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10815:10825 Coq.Reals.Abstract.ConstructiveReals <> CR_complete proj
+R10830:10834 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10877:10877 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R10877:10877 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R10946:10955 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R10978:10980 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R10960:10964 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10970:10972 Coq.Init.Peano <> max abbrev
+R10981:10985 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10991:10993 Coq.Init.Peano <> min abbrev
+R10946:10955 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R10978:10980 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R10960:10964 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10970:10972 Coq.Init.Peano <> max abbrev
+R10981:10985 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R10991:10993 Coq.Init.Peano <> min abbrev
+R11013:11023 Coq.Reals.Abstract.ConstructiveSum <> Abs_sum_maj thm
+R11013:11023 Coq.Reals.Abstract.ConstructiveSum <> Abs_sum_maj thm
+R11073:11075 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11055:11059 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11065:11067 Coq.Init.Peano <> max abbrev
+R11076:11080 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11086:11088 Coq.Init.Peano <> min abbrev
+R11108:11112 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R11135:11138 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11157:11157 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11117:11121 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11127:11129 Coq.Init.Peano <> max abbrev
+R11139:11143 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11149:11151 Coq.Init.Peano <> min abbrev
+R11073:11075 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11055:11059 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11065:11067 Coq.Init.Peano <> max abbrev
+R11076:11080 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11086:11088 Coq.Init.Peano <> min abbrev
+R11108:11112 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R11135:11138 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11157:11157 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11117:11121 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11127:11129 Coq.Init.Peano <> max abbrev
+R11139:11143 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11149:11151 Coq.Init.Peano <> min abbrev
+R11209:11211 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11182:11186 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11192:11203 Coq.Init.Nat <> max def
+R11212:11216 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11222:11233 Coq.Init.Nat <> min def
+R11284:11287 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11319:11319 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11280:11282 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11253:11257 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11263:11274 Coq.Init.Nat <> max def
+R11315:11317 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11288:11292 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11298:11309 Coq.Init.Nat <> min def
+R11209:11211 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11182:11186 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11192:11203 Coq.Init.Nat <> max def
+R11212:11216 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11222:11233 Coq.Init.Nat <> min def
+R11284:11287 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11319:11319 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11280:11282 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11253:11257 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11263:11274 Coq.Init.Nat <> max def
+R11315:11317 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R11288:11292 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R11298:11309 Coq.Init.Nat <> min def
+R11334:11343 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R11352:11363 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_triang thm
+R11334:11343 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R11352:11363 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_triang thm
+R11393:11393 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11405:11405 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11411:11415 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11421:11421 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11407:11407 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11409:11409 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R11417:11417 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11419:11419 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R11393:11393 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11405:11405 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11411:11415 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11421:11421 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R11407:11407 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11409:11409 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R11417:11417 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R11419:11419 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R11439:11450 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R11439:11450 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R11439:11450 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R11463:11478 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R11463:11478 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R11503:11514 Coq.Arith.PeanoNat Nat le_trans thm
+R11503:11514 Coq.Arith.PeanoNat Nat le_trans thm
+R11540:11551 Coq.Arith.PeanoNat Nat le_max_l thm
+R11540:11551 Coq.Arith.PeanoNat Nat le_max_l thm
+R11566:11574 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R11566:11574 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R11566:11574 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R11598:11609 Coq.Arith.PeanoNat Nat min_case thm
+R11598:11609 Coq.Arith.PeanoNat Nat min_case thm
+R11619:11630 Coq.Arith.PeanoNat Nat le_trans thm
+R11619:11630 Coq.Arith.PeanoNat Nat le_trans thm
+R11656:11666 Coq.Arith.PeanoNat Nat le_refl thm
+R11656:11666 Coq.Arith.PeanoNat Nat le_refl thm
+R11693:11707 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R11693:11707 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R11693:11707 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R11734:11740 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R11751:11762 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11751:11762 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11751:11762 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11771:11782 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R11771:11782 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R11810:11825 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R11828:11843 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R11810:11825 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R11810:11825 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R11828:11843 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R11828:11843 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R11858:11868 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R11871:11882 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11885:11896 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11899:11908 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R11858:11868 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R11858:11868 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R11871:11882 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11871:11882 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R11885:11896 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11885:11896 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11899:11908 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R11899:11908 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R11940:11950 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R11940:11950 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R11940:11950 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R11940:11950 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R11982:11993 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11996:12000 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12006:12017 Coq.Init.Nat <> min def
+R11982:11993 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11996:12000 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12006:12017 Coq.Init.Nat <> min def
+R11982:11993 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R11996:12000 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12006:12017 Coq.Init.Nat <> min def
+R12037:12052 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R12037:12052 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R12061:12072 Coq.Reals.Abstract.ConstructiveSum <> pos_sum_more thm
+R12061:12072 Coq.Reals.Abstract.ConstructiveSum <> pos_sum_more thm
+R12094:12103 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R12108:12112 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R12094:12103 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R12108:12112 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R12132:12140 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_pos thm
+R12132:12140 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_pos thm
+R12163:12174 Coq.Arith.PeanoNat Nat le_trans thm
+R12163:12174 Coq.Arith.PeanoNat Nat le_trans thm
+R12188:12199 Coq.Arith.PeanoNat Nat le_min_l thm
+R12188:12199 Coq.Arith.PeanoNat Nat le_min_l thm
+R12208:12219 Coq.Arith.PeanoNat Nat le_max_l thm
+R12208:12219 Coq.Arith.PeanoNat Nat le_max_l thm
+R12232:12240 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R12232:12240 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R12304:12318 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_r thm
+R12321:12321 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R12304:12318 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_r thm
+R12321:12321 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R12335:12346 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12335:12346 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12335:12346 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12360:12375 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_bound_down thm
+binder 12382:12382 <> n:118
+R12397:12399 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R12387:12391 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12396:12396 Coq.Reals.Abstract.ConstructiveSum <> n:118 var
+R12400:12404 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12409:12409 Coq.Reals.Abstract.ConstructiveSum <> n:118 var
+R12360:12375 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_bound_down thm
+binder 12382:12382 <> n:119
+R12397:12399 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R12387:12391 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12396:12396 Coq.Reals.Abstract.ConstructiveSum <> n:119 var
+R12400:12404 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12409:12409 Coq.Reals.Abstract.ConstructiveSum <> n:119 var
+R12444:12455 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12458:12462 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12444:12455 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12458:12462 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12444:12455 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R12458:12462 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R12482:12497 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R12482:12497 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R12506:12512 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R12506:12512 Coq.Reals.Abstract.ConstructiveSum <> sum_Rle thm
+R12534:12543 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R12548:12552 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R12534:12543 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R12548:12552 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R12576:12583 Coq.Reals.Abstract.ConstructiveAbs <> CRle_abs thm
+R12576:12583 Coq.Reals.Abstract.ConstructiveAbs <> CRle_abs thm
+R12601:12609 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R12601:12609 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R12622:12631 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R12622:12631 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R12656:12664 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_opp thm
+R12656:12664 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_opp thm
+prf 12691:12706 <> series_cv_abs_lt
+R12724:12740 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 12720:12720 <> R:120
+R12755:12758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12752:12754 Coq.Init.Datatypes <> nat ind
+R12759:12767 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R12769:12769 Coq.Reals.Abstract.ConstructiveSum <> R:120 var
+binder 12744:12745 <> un:121
+binder 12747:12748 <> vn:122
+R12777:12785 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R12787:12787 Coq.Reals.Abstract.ConstructiveSum <> R:120 var
+binder 12773:12773 <> l:123
+R12795:12795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12832:12840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12805:12807 Coq.Init.Datatypes <> nat ind
+binder 12803:12803 <> n:124
+R12824:12827 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R12810:12814 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R12816:12816 Coq.Reals.Abstract.ConstructiveSum <> R:120 var
+R12819:12820 Coq.Reals.Abstract.ConstructiveSum <> un:121 var
+R12822:12822 Coq.Reals.Abstract.ConstructiveSum <> n:124 var
+R12828:12829 Coq.Reals.Abstract.ConstructiveSum <> vn:122 var
+R12831:12831 Coq.Reals.Abstract.ConstructiveSum <> n:124 var
+R12862:12869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12841:12856 Coq.Reals.Abstract.ConstructiveSum <> series_cv_lim_lt def
+R12861:12861 Coq.Reals.Abstract.ConstructiveSum <> l:123 var
+R12858:12859 Coq.Reals.Abstract.ConstructiveSum <> vn:122 var
+R12870:12885 Coq.Reals.Abstract.ConstructiveSum <> series_cv_lim_lt def
+R12890:12890 Coq.Reals.Abstract.ConstructiveSum <> l:123 var
+R12887:12888 Coq.Reals.Abstract.ConstructiveSum <> un:121 var
+R12950:12962 Coq.Reals.Abstract.ConstructiveSum <> series_cv_maj thm
+R12950:12962 Coq.Reals.Abstract.ConstructiveSum <> series_cv_maj thm
+R13027:13039 Coq.Reals.Abstract.ConstructiveReals <> CRle_lt_trans thm
+R13027:13039 Coq.Reals.Abstract.ConstructiveReals <> CRle_lt_trans thm
+def 13086:13098 <> series_cv_abs
+R13105:13121 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 13101:13101 <> R:125
+R13132:13135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13129:13131 Coq.Init.Datatypes <> nat ind
+R13136:13144 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13146:13146 Coq.Reals.Abstract.ConstructiveSum <> R:125 var
+binder 13125:13125 <> u:126
+R13197:13204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13153:13161 Coq.Reals.Abstract.ConstructiveReals <> CR_cauchy proj
+R13163:13163 Coq.Reals.Abstract.ConstructiveSum <> R:125 var
+R13166:13170 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+binder 13177:13177 <> n:127
+R13182:13186 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R13188:13188 Coq.Reals.Abstract.ConstructiveSum <> R:125 var
+R13191:13191 Coq.Reals.Abstract.ConstructiveSum <> u:126 var
+R13193:13193 Coq.Reals.Abstract.ConstructiveSum <> n:127 var
+R13205:13206 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R13208:13210 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R13222:13224 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R13238:13239 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R13211:13219 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13221:13221 Coq.Reals.Abstract.ConstructiveSum <> R:125 var
+binder 13207:13207 <> l:128
+R13225:13233 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R13237:13237 Coq.Reals.Abstract.ConstructiveSum <> l:128 var
+R13235:13235 Coq.Reals.Abstract.ConstructiveSum <> u:126 var
+R13265:13275 Coq.Reals.Abstract.ConstructiveReals <> CR_complete proj
+R13265:13275 Coq.Reals.Abstract.ConstructiveReals <> CR_complete proj
+R13307:13319 Coq.Reals.Abstract.ConstructiveSum <> series_cv_maj thm
+binder 13328:13328 <> k:129
+R13333:13337 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R13344:13344 Coq.Reals.Abstract.ConstructiveSum <> k:129 var
+R13307:13319 Coq.Reals.Abstract.ConstructiveSum <> series_cv_maj thm
+binder 13328:13328 <> k:130
+R13333:13337 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R13344:13344 Coq.Reals.Abstract.ConstructiveSum <> k:130 var
+R13369:13377 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R13369:13377 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+prf 13424:13439 <> series_cv_unique
+R13457:13473 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 13453:13453 <> R:131
+R13483:13486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13480:13482 Coq.Init.Datatypes <> nat ind
+R13487:13495 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13497:13497 Coq.Reals.Abstract.ConstructiveSum <> R:131 var
+binder 13477:13478 <> Un:132
+R13507:13515 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13517:13517 Coq.Reals.Abstract.ConstructiveSum <> R:131 var
+binder 13501:13502 <> l1:133
+binder 13504:13505 <> l2:134
+R13540:13543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13525:13533 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R13538:13539 Coq.Reals.Abstract.ConstructiveSum <> l1:133 var
+R13535:13536 Coq.Reals.Abstract.ConstructiveSum <> Un:132 var
+R13559:13562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13544:13552 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R13557:13558 Coq.Reals.Abstract.ConstructiveSum <> l2:134 var
+R13554:13555 Coq.Reals.Abstract.ConstructiveSum <> Un:132 var
+R13565:13568 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R13563:13564 Coq.Reals.Abstract.ConstructiveSum <> l1:133 var
+R13569:13570 Coq.Reals.Abstract.ConstructiveSum <> l2:134 var
+R13597:13608 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_unique thm
+R13611:13615 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R13597:13608 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_unique thm
+R13611:13615 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+prf 13647:13662 <> series_cv_abs_eq
+R13680:13696 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 13676:13676 <> R:135
+R13707:13710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13704:13706 Coq.Init.Datatypes <> nat ind
+R13711:13719 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13721:13721 Coq.Reals.Abstract.ConstructiveSum <> R:135 var
+binder 13700:13700 <> u:136
+R13729:13737 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R13739:13739 Coq.Reals.Abstract.ConstructiveSum <> R:135 var
+binder 13725:13725 <> a:137
+R13760:13768 Coq.Reals.Abstract.ConstructiveReals <> CR_cauchy proj
+R13770:13770 Coq.Reals.Abstract.ConstructiveSum <> R:135 var
+R13773:13777 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+binder 13784:13784 <> n:138
+R13789:13793 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R13795:13795 Coq.Reals.Abstract.ConstructiveSum <> R:135 var
+R13798:13798 Coq.Reals.Abstract.ConstructiveSum <> u:136 var
+R13800:13800 Coq.Reals.Abstract.ConstructiveSum <> n:138 var
+binder 13754:13756 <> cau:139
+R13824:13831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13811:13819 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R13823:13823 Coq.Reals.Abstract.ConstructiveSum <> a:137 var
+R13821:13821 Coq.Reals.Abstract.ConstructiveSum <> u:136 var
+R13834:13838 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R13875:13875 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R13833:13833 Coq.Reals.Abstract.ConstructiveSum <> a:137 var
+R13851:13863 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+R13867:13869 Coq.Reals.Abstract.ConstructiveSum <> cau:139 var
+R13865:13865 Coq.Reals.Abstract.ConstructiveSum <> u:136 var
+binder 13844:13844 <> l:140
+R13874:13874 Coq.Reals.Abstract.ConstructiveSum <> l:140 var
+R13924:13936 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+R13924:13936 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+R13955:13970 Coq.Reals.Abstract.ConstructiveSum <> series_cv_unique thm
+R13955:13970 Coq.Reals.Abstract.ConstructiveSum <> series_cv_unique thm
+prf 14006:14021 <> series_cv_abs_cv
+R14039:14055 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 14035:14035 <> R:141
+R14066:14069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14063:14065 Coq.Init.Datatypes <> nat ind
+R14070:14078 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14080:14080 Coq.Reals.Abstract.ConstructiveSum <> R:141 var
+binder 14059:14059 <> u:142
+R14101:14109 Coq.Reals.Abstract.ConstructiveReals <> CR_cauchy proj
+R14111:14111 Coq.Reals.Abstract.ConstructiveSum <> R:141 var
+R14114:14118 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+binder 14125:14125 <> n:143
+R14130:14134 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R14136:14136 Coq.Reals.Abstract.ConstructiveSum <> R:141 var
+R14139:14139 Coq.Reals.Abstract.ConstructiveSum <> u:142 var
+R14141:14141 Coq.Reals.Abstract.ConstructiveSum <> n:143 var
+binder 14095:14097 <> cau:144
+R14152:14160 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R14177:14189 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+R14193:14195 Coq.Reals.Abstract.ConstructiveSum <> cau:144 var
+R14191:14191 Coq.Reals.Abstract.ConstructiveSum <> u:142 var
+binder 14170:14170 <> l:145
+R14200:14200 Coq.Reals.Abstract.ConstructiveSum <> l:145 var
+R14162:14162 Coq.Reals.Abstract.ConstructiveSum <> u:142 var
+R14231:14243 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+R14231:14243 Coq.Reals.Abstract.ConstructiveSum <> series_cv_abs def
+prf 14274:14286 <> series_cv_opp
+R14302:14318 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 14298:14298 <> R:146
+R14350:14358 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14360:14360 Coq.Reals.Abstract.ConstructiveSum <> R:146 var
+binder 14346:14346 <> s:147
+R14371:14374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14368:14370 Coq.Init.Datatypes <> nat ind
+R14375:14383 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14385:14385 Coq.Reals.Abstract.ConstructiveSum <> R:146 var
+binder 14364:14364 <> u:148
+R14406:14413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14393:14401 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R14405:14405 Coq.Reals.Abstract.ConstructiveSum <> s:147 var
+R14403:14403 Coq.Reals.Abstract.ConstructiveSum <> u:148 var
+R14414:14422 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R14442:14443 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14444:14444 Coq.Reals.Abstract.ConstructiveSum <> s:147 var
+binder 14429:14429 <> n:149
+R14434:14435 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14436:14436 Coq.Reals.Abstract.ConstructiveSum <> u:148 var
+R14438:14438 Coq.Reals.Abstract.ConstructiveSum <> n:149 var
+R14577:14579 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R14545:14549 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R14561:14563 Coq.Init.Datatypes <> nat ind
+binder 14556:14557 <> n0:150
+R14568:14569 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14572:14573 Coq.Reals.Abstract.ConstructiveSum <> n0:150 var
+R14580:14581 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14595:14596 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14631:14631 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14627:14629 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R14597:14601 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R14613:14615 Coq.Init.Datatypes <> nat ind
+binder 14608:14609 <> n0:151
+R14622:14623 Coq.Reals.Abstract.ConstructiveSum <> n0:151 var
+R14577:14579 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R14545:14549 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R14561:14563 Coq.Init.Datatypes <> nat ind
+binder 14556:14557 <> n0:152
+R14568:14569 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14572:14573 Coq.Reals.Abstract.ConstructiveSum <> n0:152 var
+R14580:14581 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14595:14596 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14631:14631 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R14627:14629 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R14597:14601 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R14613:14615 Coq.Init.Datatypes <> nat ind
+binder 14608:14609 <> n0:153
+R14622:14623 Coq.Reals.Abstract.ConstructiveSum <> n0:153 var
+R14645:14653 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R14645:14653 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R14645:14653 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R14678:14684 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R14697:14703 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R14697:14703 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R14697:14703 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R14714:14729 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R14714:14729 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R14714:14729 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+prf 14757:14771 <> series_cv_scale
+R14787:14803 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 14783:14783 <> R:154
+R14837:14845 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14847:14847 Coq.Reals.Abstract.ConstructiveSum <> R:154 var
+binder 14833:14833 <> a:155
+R14855:14863 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14865:14865 Coq.Reals.Abstract.ConstructiveSum <> R:154 var
+binder 14851:14851 <> s:156
+R14876:14879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14873:14875 Coq.Init.Datatypes <> nat ind
+R14880:14888 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R14890:14890 Coq.Reals.Abstract.ConstructiveSum <> R:154 var
+binder 14869:14869 <> u:157
+R14911:14918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14898:14906 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R14910:14910 Coq.Reals.Abstract.ConstructiveSum <> s:156 var
+R14908:14908 Coq.Reals.Abstract.ConstructiveSum <> u:157 var
+R14919:14927 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R14952:14954 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R14951:14951 Coq.Reals.Abstract.ConstructiveSum <> s:156 var
+R14955:14955 Coq.Reals.Abstract.ConstructiveSum <> a:155 var
+binder 14934:14934 <> n:158
+R14939:14939 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R14943:14946 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R14940:14940 Coq.Reals.Abstract.ConstructiveSum <> u:157 var
+R14942:14942 Coq.Reals.Abstract.ConstructiveSum <> n:158 var
+R14947:14947 Coq.Reals.Abstract.ConstructiveSum <> a:155 var
+R14985:14992 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15001:15001 <> n:159
+R15015:15017 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R15006:15010 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15014:15014 Coq.Reals.Abstract.ConstructiveSum <> n:159 var
+R14985:14992 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15001:15001 <> n:160
+R15015:15017 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'*'_x not
+R15006:15010 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15014:15014 Coq.Reals.Abstract.ConstructiveSum <> n:160 var
+R15042:15050 Coq.Reals.Abstract.ConstructiveSum <> sum_scale thm
+R15042:15050 Coq.Reals.Abstract.ConstructiveSum <> sum_scale thm
+R15042:15050 Coq.Reals.Abstract.ConstructiveSum <> sum_scale thm
+R15072:15082 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_scale thm
+R15072:15082 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_scale thm
+prf 15100:15113 <> series_cv_plus
+R15129:15145 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 15125:15125 <> R:161
+R15183:15186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15180:15182 Coq.Init.Datatypes <> nat ind
+R15187:15195 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R15197:15197 Coq.Reals.Abstract.ConstructiveSum <> R:161 var
+binder 15174:15174 <> u:162
+binder 15176:15176 <> v:163
+R15207:15215 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R15217:15217 Coq.Reals.Abstract.ConstructiveSum <> R:161 var
+binder 15201:15201 <> s:164
+binder 15203:15203 <> t:165
+R15238:15245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15225:15233 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15237:15237 Coq.Reals.Abstract.ConstructiveSum <> s:164 var
+R15235:15235 Coq.Reals.Abstract.ConstructiveSum <> u:162 var
+R15259:15266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15246:15254 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15258:15258 Coq.Reals.Abstract.ConstructiveSum <> t:165 var
+R15256:15256 Coq.Reals.Abstract.ConstructiveSum <> v:163 var
+R15267:15275 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15300:15302 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R15299:15299 Coq.Reals.Abstract.ConstructiveSum <> s:164 var
+R15303:15303 Coq.Reals.Abstract.ConstructiveSum <> t:165 var
+binder 15282:15282 <> n:166
+R15290:15292 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R15287:15287 Coq.Reals.Abstract.ConstructiveSum <> u:162 var
+R15289:15289 Coq.Reals.Abstract.ConstructiveSum <> n:166 var
+R15293:15293 Coq.Reals.Abstract.ConstructiveSum <> v:163 var
+R15295:15295 Coq.Reals.Abstract.ConstructiveSum <> n:166 var
+R15331:15338 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15347:15347 <> n:167
+R15361:15363 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R15352:15356 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15360:15360 Coq.Reals.Abstract.ConstructiveSum <> n:167 var
+R15364:15368 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15372:15372 Coq.Reals.Abstract.ConstructiveSum <> n:167 var
+R15331:15338 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15347:15347 <> n:168
+R15361:15363 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R15352:15356 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15360:15360 Coq.Reals.Abstract.ConstructiveSum <> n:168 var
+R15364:15368 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15372:15372 Coq.Reals.Abstract.ConstructiveSum <> n:168 var
+R15404:15411 Coq.Reals.Abstract.ConstructiveSum <> sum_plus thm
+R15404:15411 Coq.Reals.Abstract.ConstructiveSum <> sum_plus thm
+R15420:15429 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R15420:15429 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+prf 15463:15477 <> series_cv_minus
+R15493:15509 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 15489:15489 <> R:169
+R15548:15551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15545:15547 Coq.Init.Datatypes <> nat ind
+R15552:15560 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R15562:15562 Coq.Reals.Abstract.ConstructiveSum <> R:169 var
+binder 15539:15539 <> u:170
+binder 15541:15541 <> v:171
+R15572:15580 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R15582:15582 Coq.Reals.Abstract.ConstructiveSum <> R:169 var
+binder 15566:15566 <> s:172
+binder 15568:15568 <> t:173
+R15603:15610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15590:15598 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15602:15602 Coq.Reals.Abstract.ConstructiveSum <> s:172 var
+R15600:15600 Coq.Reals.Abstract.ConstructiveSum <> u:170 var
+R15624:15631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15611:15619 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15623:15623 Coq.Reals.Abstract.ConstructiveSum <> t:173 var
+R15621:15621 Coq.Reals.Abstract.ConstructiveSum <> v:171 var
+R15632:15640 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R15665:15667 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R15664:15664 Coq.Reals.Abstract.ConstructiveSum <> s:172 var
+R15668:15668 Coq.Reals.Abstract.ConstructiveSum <> t:173 var
+binder 15647:15647 <> n:174
+R15655:15657 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R15652:15652 Coq.Reals.Abstract.ConstructiveSum <> u:170 var
+R15654:15654 Coq.Reals.Abstract.ConstructiveSum <> n:174 var
+R15658:15658 Coq.Reals.Abstract.ConstructiveSum <> v:171 var
+R15660:15660 Coq.Reals.Abstract.ConstructiveSum <> n:174 var
+R15696:15703 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15712:15712 <> n:175
+R15726:15728 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R15717:15721 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15725:15725 Coq.Reals.Abstract.ConstructiveSum <> n:175 var
+R15729:15733 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15737:15737 Coq.Reals.Abstract.ConstructiveSum <> n:175 var
+R15696:15703 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 15712:15712 <> n:176
+R15726:15728 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R15717:15721 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15725:15725 Coq.Reals.Abstract.ConstructiveSum <> n:176 var
+R15729:15733 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R15737:15737 Coq.Reals.Abstract.ConstructiveSum <> n:176 var
+R15770:15776 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R15787:15794 Coq.Reals.Abstract.ConstructiveSum <> sum_plus thm
+R15787:15794 Coq.Reals.Abstract.ConstructiveSum <> sum_plus thm
+R15787:15794 Coq.Reals.Abstract.ConstructiveSum <> sum_plus thm
+R15807:15813 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R15807:15813 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R15807:15813 Coq.Reals.Abstract.ConstructiveSum <> sum_opp thm
+R15837:15846 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R15837:15846 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R15864:15872 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_opp thm
+R15864:15872 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_opp thm
+prf 15897:15912 <> series_cv_nonneg
+R15928:15944 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 15924:15924 <> R:177
+R15982:15985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15979:15981 Coq.Init.Datatypes <> nat ind
+R15986:15994 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R15996:15996 Coq.Reals.Abstract.ConstructiveSum <> R:177 var
+binder 15975:15975 <> u:178
+R16004:16012 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R16014:16014 Coq.Reals.Abstract.ConstructiveSum <> R:177 var
+binder 16000:16000 <> s:179
+R16022:16022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16045:16049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16032:16034 Coq.Init.Datatypes <> nat ind
+binder 16030:16030 <> n:180
+R16038:16041 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R16042:16042 Coq.Reals.Abstract.ConstructiveSum <> u:178 var
+R16044:16044 Coq.Reals.Abstract.ConstructiveSum <> n:180 var
+R16063:16066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16050:16058 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R16062:16062 Coq.Reals.Abstract.ConstructiveSum <> s:179 var
+R16060:16060 Coq.Reals.Abstract.ConstructiveSum <> u:178 var
+R16068:16071 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R16072:16072 Coq.Reals.Abstract.ConstructiveSum <> s:179 var
+R16099:16108 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R16113:16117 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R16099:16108 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R16113:16117 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R16144:16155 Coq.Reals.Abstract.ConstructiveLimits <> growing_ineq thm
+R16158:16162 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R16144:16155 Coq.Reals.Abstract.ConstructiveLimits <> growing_ineq thm
+R16158:16162 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R16198:16207 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16198:16207 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16198:16207 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16216:16231 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R16216:16231 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat thm
+R16244:16253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16244:16253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16244:16253 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R16262:16270 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R16262:16270 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+prf 16304:16315 <> series_cv_eq
+R16331:16347 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 16327:16327 <> R:181
+R16383:16386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16380:16382 Coq.Init.Datatypes <> nat ind
+R16387:16395 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R16397:16397 Coq.Reals.Abstract.ConstructiveSum <> R:181 var
+binder 16374:16374 <> u:182
+binder 16376:16376 <> v:183
+R16405:16413 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R16415:16415 Coq.Reals.Abstract.ConstructiveSum <> R:181 var
+binder 16401:16401 <> s:184
+R16423:16423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16448:16456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16433:16435 Coq.Init.Datatypes <> nat ind
+binder 16431:16431 <> n:185
+R16441:16444 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R16438:16438 Coq.Reals.Abstract.ConstructiveSum <> u:182 var
+R16440:16440 Coq.Reals.Abstract.ConstructiveSum <> n:185 var
+R16445:16445 Coq.Reals.Abstract.ConstructiveSum <> v:183 var
+R16447:16447 Coq.Reals.Abstract.ConstructiveSum <> n:185 var
+R16470:16477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16457:16465 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R16469:16469 Coq.Reals.Abstract.ConstructiveSum <> s:184 var
+R16467:16467 Coq.Reals.Abstract.ConstructiveSum <> u:182 var
+R16478:16486 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R16490:16490 Coq.Reals.Abstract.ConstructiveSum <> s:184 var
+R16488:16488 Coq.Reals.Abstract.ConstructiveSum <> v:183 var
+R16589:16595 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R16612:16619 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R16612:16619 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R16612:16619 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R16612:16619 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+prf 16668:16690 <> series_cv_remainder_maj
+R16706:16722 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 16702:16702 <> R:186
+R16733:16736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16730:16732 Coq.Init.Datatypes <> nat ind
+R16737:16745 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R16747:16747 Coq.Reals.Abstract.ConstructiveSum <> R:186 var
+binder 16726:16726 <> u:187
+R16793:16801 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R16803:16803 Coq.Reals.Abstract.ConstructiveSum <> R:186 var
+binder 16785:16785 <> s:188
+binder 16787:16789 <> eps:189
+R16845:16847 Coq.Init.Datatypes <> nat ind
+binder 16841:16841 <> N:190
+R16868:16875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16855:16863 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R16867:16867 Coq.Reals.Abstract.ConstructiveSum <> s:188 var
+R16865:16865 Coq.Reals.Abstract.ConstructiveSum <> u:187 var
+R16883:16890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16877:16879 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<'_x not
+R16880:16882 Coq.Reals.Abstract.ConstructiveSum <> eps:189 var
+R16891:16891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16914:16922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16901:16903 Coq.Init.Datatypes <> nat ind
+binder 16899:16899 <> n:191
+R16907:16910 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R16911:16911 Coq.Reals.Abstract.ConstructiveSum <> u:187 var
+R16913:16913 Coq.Reals.Abstract.ConstructiveSum <> n:191 var
+R16953:16960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16946:16949 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R16923:16927 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R16929:16929 Coq.Reals.Abstract.ConstructiveSum <> R:186 var
+R16941:16943 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R16932:16936 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R16940:16940 Coq.Reals.Abstract.ConstructiveSum <> N:190 var
+R16938:16938 Coq.Reals.Abstract.ConstructiveSum <> u:187 var
+R16944:16944 Coq.Reals.Abstract.ConstructiveSum <> s:188 var
+R16950:16952 Coq.Reals.Abstract.ConstructiveSum <> eps:189 var
+R16970:16972 Coq.Init.Datatypes <> nat ind
+binder 16968:16968 <> n:192
+R17008:17011 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R16975:16979 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17007:17007 Coq.Reals.Abstract.ConstructiveSum <> n:192 var
+binder 16986:16986 <> k:193
+R16990:16990 Coq.Reals.Abstract.ConstructiveSum <> u:187 var
+R16994:16996 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R16993:16993 Coq.Reals.Abstract.ConstructiveSum <> N:190 var
+R16997:16997 Coq.Init.Datatypes <> S constr
+R16999:16999 Coq.Reals.Abstract.ConstructiveSum <> k:193 var
+R17012:17014 Coq.Reals.Abstract.ConstructiveSum <> eps:189 var
+R17046:17054 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R17046:17054 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R17078:17085 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R17096:17098 Coq.Init.Datatypes <> nat ind
+binder 17092:17092 <> k:194
+R17109:17111 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17106:17106 Coq.Init.Datatypes <> S constr
+R17112:17112 Coq.Reals.Abstract.ConstructiveSum <> k:194 var
+R17078:17085 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R17096:17098 Coq.Init.Datatypes <> nat ind
+binder 17092:17092 <> k:195
+R17109:17111 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17106:17106 Coq.Init.Datatypes <> S constr
+R17112:17112 Coq.Reals.Abstract.ConstructiveSum <> k:195 var
+R17078:17085 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R17096:17098 Coq.Init.Datatypes <> nat ind
+binder 17092:17092 <> k:196
+R17109:17111 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17106:17106 Coq.Init.Datatypes <> S constr
+R17112:17112 Coq.Reals.Abstract.ConstructiveSum <> k:196 var
+R17078:17085 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R17096:17098 Coq.Init.Datatypes <> nat ind
+binder 17092:17092 <> k:197
+R17109:17111 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17106:17106 Coq.Init.Datatypes <> S constr
+R17112:17112 Coq.Reals.Abstract.ConstructiveSum <> k:197 var
+R17131:17145 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_l thm
+R17148:17152 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17131:17145 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_l thm
+R17148:17152 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17185:17194 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R17185:17194 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R17208:17219 Coq.Reals.Abstract.ConstructiveLimits <> growing_ineq thm
+R17208:17219 Coq.Reals.Abstract.ConstructiveLimits <> growing_ineq thm
+R17265:17274 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17277:17288 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17265:17274 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17265:17274 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17277:17288 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17277:17288 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17299:17316 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R17299:17316 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_compat_l thm
+R17327:17336 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R17327:17336 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R17327:17336 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R17359:17373 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_minus_sym thm
+R17359:17373 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_minus_sym thm
+R17359:17373 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_minus_sym thm
+R17392:17402 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R17392:17402 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R17392:17402 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R17412:17426 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_r thm
+R17429:17429 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R17430:17434 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17412:17426 Coq.Reals.Abstract.ConstructiveReals <> CRplus_le_reg_r thm
+R17429:17429 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:'-'_x not
+R17430:17434 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17453:17464 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17453:17464 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17453:17464 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R17475:17486 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R17475:17486 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R17475:17486 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R17497:17506 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17497:17506 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17497:17506 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R17518:17527 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R17532:17536 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R17542:17544 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R17545:17549 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17518:17527 Coq.Reals.Abstract.ConstructiveReals <> CRle_trans thm
+R17532:17536 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R17542:17544 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R17545:17549 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17565:17572 Coq.Reals.Abstract.ConstructiveAbs <> CRle_abs thm
+R17565:17572 Coq.Reals.Abstract.ConstructiveAbs <> CRle_abs thm
+R17605:17618 Coq.Arith.PeanoNat Nat add_succ_r thm
+R17605:17618 Coq.Arith.PeanoNat Nat add_succ_r thm
+R17605:17618 Coq.Arith.PeanoNat Nat add_succ_r thm
+prf 17647:17669 <> series_cv_abs_remainder
+R17685:17701 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 17681:17681 <> R:198
+R17712:17715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17709:17711 Coq.Init.Datatypes <> nat ind
+R17716:17724 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R17726:17726 Coq.Reals.Abstract.ConstructiveSum <> R:198 var
+binder 17705:17705 <> u:199
+R17773:17781 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R17783:17783 Coq.Reals.Abstract.ConstructiveSum <> R:198 var
+binder 17764:17764 <> s:200
+binder 17766:17769 <> sAbs:201
+R17825:17827 Coq.Init.Datatypes <> nat ind
+binder 17821:17821 <> n:202
+R17848:17855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17835:17843 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R17847:17847 Coq.Reals.Abstract.ConstructiveSum <> s:200 var
+R17845:17845 Coq.Reals.Abstract.ConstructiveSum <> u:199 var
+R17895:17902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17856:17864 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R17891:17894 Coq.Reals.Abstract.ConstructiveSum <> sAbs:201 var
+binder 17871:17871 <> n:203
+R17876:17880 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R17882:17882 Coq.Reals.Abstract.ConstructiveSum <> R:198 var
+R17885:17885 Coq.Reals.Abstract.ConstructiveSum <> u:199 var
+R17887:17887 Coq.Reals.Abstract.ConstructiveSum <> n:203 var
+R17926:17935 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R17903:17907 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R17909:17909 Coq.Reals.Abstract.ConstructiveSum <> R:198 var
+R17921:17923 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R17912:17916 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17920:17920 Coq.Reals.Abstract.ConstructiveSum <> n:202 var
+R17918:17918 Coq.Reals.Abstract.ConstructiveSum <> u:199 var
+R17924:17924 Coq.Reals.Abstract.ConstructiveSum <> s:200 var
+R17940:17942 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R17936:17939 Coq.Reals.Abstract.ConstructiveSum <> sAbs:201 var
+R17943:17947 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R17974:17974 Coq.Reals.Abstract.ConstructiveSum <> n:202 var
+binder 17954:17954 <> n:204
+R17959:17963 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R17965:17965 Coq.Reals.Abstract.ConstructiveSum <> R:198 var
+R17968:17968 Coq.Reals.Abstract.ConstructiveSum <> u:199 var
+R17970:17970 Coq.Reals.Abstract.ConstructiveSum <> n:204 var
+R18003:18010 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_le thm
+binder 18087:18087 <> N:205
+R18136:18164 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18092:18096 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18131:18133 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18134:18134 Coq.Reals.Abstract.ConstructiveSum <> N:205 var
+R18107:18109 Coq.Init.Datatypes <> nat ind
+binder 18103:18103 <> n:206
+R18114:18118 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18125:18125 Coq.Reals.Abstract.ConstructiveSum <> n:206 var
+R18165:18169 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18180:18182 Coq.Init.Datatypes <> nat ind
+binder 18176:18176 <> n:207
+R18187:18191 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18198:18198 Coq.Reals.Abstract.ConstructiveSum <> n:207 var
+binder 18017:18017 <> N:208
+R18022:18026 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18040:18043 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18059:18059 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18031:18035 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18044:18048 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18054:18056 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18057:18057 Coq.Reals.Abstract.ConstructiveSum <> N:208 var
+R18003:18010 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_le thm
+binder 18087:18087 <> N:209
+R18136:18164 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18092:18096 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18131:18133 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18134:18134 Coq.Reals.Abstract.ConstructiveSum <> N:209 var
+R18107:18109 Coq.Init.Datatypes <> nat ind
+binder 18103:18103 <> n:210
+R18114:18118 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18125:18125 Coq.Reals.Abstract.ConstructiveSum <> n:210 var
+R18165:18169 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18180:18182 Coq.Init.Datatypes <> nat ind
+binder 18176:18176 <> n:211
+R18187:18191 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18198:18198 Coq.Reals.Abstract.ConstructiveSum <> n:211 var
+binder 18017:18017 <> N:212
+R18022:18026 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R18040:18043 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18059:18059 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R18031:18035 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18044:18048 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R18054:18056 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18057:18057 Coq.Reals.Abstract.ConstructiveSum <> N:212 var
+R18240:18250 Coq.Arith.PeanoNat Nat add_0_r thm
+R18240:18250 Coq.Arith.PeanoNat Nat add_0_r thm
+R18240:18250 Coq.Arith.PeanoNat Nat add_0_r thm
+R18260:18266 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R18281:18292 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18281:18292 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18281:18292 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18303:18314 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18303:18314 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18303:18314 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18329:18339 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R18329:18339 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R18329:18339 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R18329:18339 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R18348:18356 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R18348:18356 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R18365:18373 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R18365:18373 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R18388:18401 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18388:18401 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18388:18401 Coq.Arith.PeanoNat Nat add_succ_r thm
+R18417:18417 Coq.Init.Datatypes <> S constr
+R18421:18423 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18437:18439 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18434:18434 Coq.Init.Datatypes <> S constr
+R18417:18417 Coq.Init.Datatypes <> S constr
+R18421:18423 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18437:18439 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18434:18434 Coq.Init.Datatypes <> S constr
+R18475:18481 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R18492:18500 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18492:18500 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18492:18500 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18511:18519 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18511:18519 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18511:18519 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R18534:18549 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R18534:18549 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R18534:18549 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R18567:18578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18581:18592 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18595:18604 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18607:18615 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R18567:18578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18567:18578 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18581:18592 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18581:18592 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_r thm
+R18595:18604 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18595:18604 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18607:18615 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R18607:18615 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_opp thm
+R18630:18640 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R18646:18657 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18660:18671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R18630:18640 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R18630:18640 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R18646:18657 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18646:18657 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R18660:18671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R18660:18671 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R18686:18695 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18686:18695 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18686:18695 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R18704:18720 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R18704:18720 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R18733:18747 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_dist_cont thm
+R18733:18747 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_dist_cont thm
+R18827:18838 Coq.Arith.PeanoNat Nat add_comm thm
+R18827:18838 Coq.Arith.PeanoNat Nat add_comm thm
+R18827:18838 Coq.Arith.PeanoNat Nat add_comm thm
+R18859:18870 Coq.Arith.PeanoNat Nat le_trans thm
+R18859:18870 Coq.Arith.PeanoNat Nat le_trans thm
+R18906:18916 Coq.Arith.PeanoNat Nat add_0_r thm
+R18925:18937 Coq.Arith.PeanoNat Nat add_assoc thm
+R18906:18916 Coq.Arith.PeanoNat Nat add_0_r thm
+R18906:18916 Coq.Arith.PeanoNat Nat add_0_r thm
+R18925:18937 Coq.Arith.PeanoNat Nat add_assoc thm
+R18925:18937 Coq.Arith.PeanoNat Nat add_assoc thm
+R18950:18966 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R18969:18978 Coq.Arith.PeanoNat Nat le_0_l thm
+R18950:18966 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R18969:18978 Coq.Arith.PeanoNat Nat le_0_l thm
+R18991:19000 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R18991:19000 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R19012:19022 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_const thm
+R19012:19022 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_const thm
+R19103:19114 Coq.Arith.PeanoNat Nat add_comm thm
+R19103:19114 Coq.Arith.PeanoNat Nat add_comm thm
+R19103:19114 Coq.Arith.PeanoNat Nat add_comm thm
+R19135:19146 Coq.Arith.PeanoNat Nat le_trans thm
+R19135:19146 Coq.Arith.PeanoNat Nat le_trans thm
+R19182:19192 Coq.Arith.PeanoNat Nat add_0_r thm
+R19201:19213 Coq.Arith.PeanoNat Nat add_assoc thm
+R19182:19192 Coq.Arith.PeanoNat Nat add_0_r thm
+R19182:19192 Coq.Arith.PeanoNat Nat add_0_r thm
+R19201:19213 Coq.Arith.PeanoNat Nat add_assoc thm
+R19201:19213 Coq.Arith.PeanoNat Nat add_assoc thm
+R19226:19242 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R19245:19254 Coq.Arith.PeanoNat Nat le_0_l thm
+R19226:19242 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R19245:19254 Coq.Arith.PeanoNat Nat le_0_l thm
+prf 19269:19286 <> series_cv_triangle
+R19302:19318 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 19298:19298 <> R:213
+R19358:19361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19355:19357 Coq.Init.Datatypes <> nat ind
+R19362:19370 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R19372:19372 Coq.Reals.Abstract.ConstructiveSum <> R:213 var
+binder 19351:19351 <> u:214
+R19385:19393 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R19395:19395 Coq.Reals.Abstract.ConstructiveSum <> R:213 var
+binder 19376:19376 <> s:215
+binder 19378:19381 <> sAbs:216
+R19416:19423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19403:19411 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R19415:19415 Coq.Reals.Abstract.ConstructiveSum <> s:215 var
+R19413:19413 Coq.Reals.Abstract.ConstructiveSum <> u:214 var
+R19463:19470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19424:19432 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R19459:19462 Coq.Reals.Abstract.ConstructiveSum <> sAbs:216 var
+binder 19439:19439 <> n:217
+R19444:19448 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19450:19450 Coq.Reals.Abstract.ConstructiveSum <> R:213 var
+R19453:19453 Coq.Reals.Abstract.ConstructiveSum <> u:214 var
+R19455:19455 Coq.Reals.Abstract.ConstructiveSum <> n:217 var
+R19480:19483 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'<='_x not
+R19471:19475 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19477:19477 Coq.Reals.Abstract.ConstructiveSum <> R:213 var
+R19479:19479 Coq.Reals.Abstract.ConstructiveSum <> s:215 var
+R19484:19487 Coq.Reals.Abstract.ConstructiveSum <> sAbs:216 var
+R19516:19523 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_le thm
+R19576:19580 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+binder 19587:19587 <> n:218
+R19592:19596 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19603:19603 Coq.Reals.Abstract.ConstructiveSum <> n:218 var
+binder 19530:19530 <> n:219
+R19535:19539 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19544:19548 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R19552:19552 Coq.Reals.Abstract.ConstructiveSum <> n:219 var
+R19516:19523 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_le thm
+R19576:19580 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+binder 19587:19587 <> n:220
+R19592:19596 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19603:19603 Coq.Reals.Abstract.ConstructiveSum <> n:220 var
+binder 19530:19530 <> n:221
+R19535:19539 Coq.Reals.Abstract.ConstructiveReals <> CRabs proj
+R19544:19548 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R19552:19552 Coq.Reals.Abstract.ConstructiveSum <> n:221 var
+R19626:19642 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R19626:19642 Coq.Reals.Abstract.ConstructiveSum <> multiTriangleIneg thm
+R19651:19664 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_abs_cont thm
+R19651:19664 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_abs_cont thm
+prf 19703:19717 <> series_cv_shift
+R19735:19751 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 19731:19731 <> R:222
+R19762:19765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19759:19761 Coq.Init.Datatypes <> nat ind
+R19766:19774 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R19776:19776 Coq.Reals.Abstract.ConstructiveSum <> R:222 var
+binder 19755:19755 <> f:223
+binder 19779:19779 <> k:224
+binder 19781:19781 <> l:225
+R19826:19833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19788:19796 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R19825:19825 Coq.Reals.Abstract.ConstructiveSum <> l:225 var
+binder 19803:19803 <> n:226
+R19808:19808 Coq.Reals.Abstract.ConstructiveSum <> f:223 var
+R19814:19816 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R19811:19811 Coq.Init.Datatypes <> S constr
+R19813:19813 Coq.Reals.Abstract.ConstructiveSum <> k:224 var
+R19817:19817 Coq.Reals.Abstract.ConstructiveSum <> n:226 var
+R19834:19842 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R19848:19850 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R19847:19847 Coq.Reals.Abstract.ConstructiveSum <> l:225 var
+R19851:19855 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R19859:19859 Coq.Reals.Abstract.ConstructiveSum <> k:224 var
+R19857:19857 Coq.Reals.Abstract.ConstructiveSum <> f:223 var
+R19844:19844 Coq.Reals.Abstract.ConstructiveSum <> f:223 var
+R19932:19932 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R19929:19929 Coq.Init.Datatypes <> S constr
+R19932:19932 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R19929:19929 Coq.Init.Datatypes <> S constr
+R19959:19975 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R19978:19978 Coq.Init.Datatypes <> S constr
+R19959:19975 Coq.Arith.PeanoNat Nat le_exists_sub thm
+R19978:19978 Coq.Init.Datatypes <> S constr
+R19996:20007 Coq.Arith.PeanoNat Nat le_trans thm
+R20015:20017 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20012:20012 Coq.Init.Datatypes <> S constr
+R19996:20007 Coq.Arith.PeanoNat Nat le_trans thm
+R20015:20017 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20012:20012 Coq.Init.Datatypes <> S constr
+R20031:20041 Coq.Arith.PeanoNat Nat add_0_r thm
+R20031:20041 Coq.Arith.PeanoNat Nat add_0_r thm
+R20031:20041 Coq.Arith.PeanoNat Nat add_0_r thm
+R20050:20060 Coq.Arith.PeanoNat Nat le_refl thm
+R20050:20060 Coq.Arith.PeanoNat Nat le_refl thm
+R20072:20083 Coq.Arith.PeanoNat Nat le_trans thm
+R20091:20093 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20088:20088 Coq.Init.Datatypes <> S constr
+R20072:20083 Coq.Arith.PeanoNat Nat le_trans thm
+R20091:20093 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20088:20088 Coq.Init.Datatypes <> S constr
+R20105:20121 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R20124:20133 Coq.Arith.PeanoNat Nat le_0_l thm
+R20105:20121 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R20124:20133 Coq.Arith.PeanoNat Nat le_0_l thm
+R20179:20190 Coq.Arith.PeanoNat Nat add_comm thm
+R20179:20190 Coq.Arith.PeanoNat Nat add_comm thm
+R20179:20190 Coq.Arith.PeanoNat Nat add_comm thm
+R20209:20225 Coq.Arith.PeanoNat Nat add_le_mono_r thm
+R20209:20225 Coq.Arith.PeanoNat Nat add_le_mono_r thm
+R20209:20225 Coq.Arith.PeanoNat Nat add_le_mono_r thm
+R20265:20271 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R20284:20295 Coq.Arith.PeanoNat Nat add_comm thm
+R20299:20307 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R20284:20295 Coq.Arith.PeanoNat Nat add_comm thm
+R20284:20295 Coq.Arith.PeanoNat Nat add_comm thm
+R20299:20307 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R20299:20307 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R20389:20392 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20406:20406 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20344:20346 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R20335:20339 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20347:20351 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20363:20365 Coq.Init.Datatypes <> nat ind
+binder 20358:20359 <> k0:227
+R20376:20378 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20373:20373 Coq.Init.Datatypes <> S constr
+R20379:20380 Coq.Reals.Abstract.ConstructiveSum <> k0:227 var
+R20394:20396 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R20397:20401 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20461:20463 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20419:20423 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20435:20437 Coq.Init.Datatypes <> nat ind
+binder 20430:20431 <> k0:228
+R20448:20450 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20445:20445 Coq.Init.Datatypes <> S constr
+R20451:20452 Coq.Reals.Abstract.ConstructiveSum <> k0:228 var
+R20389:20392 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20406:20406 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20344:20346 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R20335:20339 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20347:20351 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20363:20365 Coq.Init.Datatypes <> nat ind
+binder 20358:20359 <> k0:229
+R20376:20378 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20373:20373 Coq.Init.Datatypes <> S constr
+R20379:20380 Coq.Reals.Abstract.ConstructiveSum <> k0:229 var
+R20394:20396 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R20397:20401 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20461:20463 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20419:20423 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20435:20437 Coq.Init.Datatypes <> nat ind
+binder 20430:20431 <> k0:230
+R20448:20450 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20445:20445 Coq.Init.Datatypes <> S constr
+R20451:20452 Coq.Reals.Abstract.ConstructiveSum <> k0:230 var
+R20489:20495 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R20507:20517 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20520:20524 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20507:20517 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20520:20524 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20507:20517 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20520:20524 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R20543:20554 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20543:20554 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20543:20554 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20563:20574 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R20563:20574 Coq.Reals.Abstract.ConstructiveReals <> CRplus_morph def
+R20600:20610 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20613:20628 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R20631:20642 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20600:20610 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20600:20610 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R20613:20628 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R20613:20628 Coq.Reals.Abstract.ConstructiveReals <> CRopp_plus_distr thm
+R20631:20642 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20631:20642 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R20655:20666 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R20669:20678 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R20655:20666 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R20655:20666 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R20669:20678 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R20669:20678 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+prf 20706:20721 <> series_cv_shift'
+R20737:20753 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 20733:20733 <> R:231
+R20792:20795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20789:20791 Coq.Init.Datatypes <> nat ind
+R20796:20804 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R20806:20806 Coq.Reals.Abstract.ConstructiveSum <> R:231 var
+binder 20784:20785 <> un:232
+R20814:20822 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R20824:20824 Coq.Reals.Abstract.ConstructiveSum <> R:231 var
+binder 20810:20810 <> s:233
+R20836:20838 Coq.Init.Datatypes <> nat ind
+binder 20828:20832 <> shift:234
+R20860:20867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20846:20854 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R20859:20859 Coq.Reals.Abstract.ConstructiveSum <> s:233 var
+R20856:20857 Coq.Reals.Abstract.ConstructiveSum <> un:232 var
+R20868:20876 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R20931:20933 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R20930:20930 Coq.Reals.Abstract.ConstructiveSum <> s:233 var
+R20940:20944 Coq.Reals.Abstract.ConstructiveSum <> shift:234 var
+R20981:20981 Coq.Init.Datatypes <> O constr
+R21018:21018 Coq.Init.Datatypes <> S constr
+R21025:21029 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21031:21032 Coq.Reals.Abstract.ConstructiveSum <> un:232 var
+binder 20883:20883 <> n:236
+R20888:20889 Coq.Reals.Abstract.ConstructiveSum <> un:232 var
+R20893:20893 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20892:20892 Coq.Reals.Abstract.ConstructiveSum <> n:236 var
+R20894:20898 Coq.Reals.Abstract.ConstructiveSum <> shift:234 var
+R21122:21128 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R21139:21145 Coq.Reals.Abstract.ConstructiveReals <> CRopp_0 thm
+R21139:21145 Coq.Reals.Abstract.ConstructiveReals <> CRopp_0 thm
+R21139:21145 Coq.Reals.Abstract.ConstructiveReals <> CRopp_0 thm
+R21156:21165 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R21156:21165 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R21156:21165 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_r thm
+R21179:21190 Coq.Reals.Abstract.ConstructiveSum <> series_cv_eq thm
+R21179:21190 Coq.Reals.Abstract.ConstructiveSum <> series_cv_eq thm
+R21217:21227 Coq.Arith.PeanoNat Nat add_0_r thm
+R21217:21227 Coq.Arith.PeanoNat Nat add_0_r thm
+R21217:21227 Coq.Arith.PeanoNat Nat add_0_r thm
+R21263:21270 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 21279:21279 <> n:237
+R21302:21304 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R21284:21288 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21295:21297 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21294:21294 Coq.Reals.Abstract.ConstructiveSum <> n:237 var
+R21298:21298 Coq.Init.Datatypes <> S constr
+R21305:21309 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21263:21270 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 21279:21279 <> n:238
+R21302:21304 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'-'_x not
+R21284:21288 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21295:21297 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21294:21294 Coq.Reals.Abstract.ConstructiveSum <> n:238 var
+R21298:21298 Coq.Init.Datatypes <> S constr
+R21305:21309 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21339:21350 Coq.Arith.PeanoNat Nat add_comm thm
+R21339:21350 Coq.Arith.PeanoNat Nat add_comm thm
+R21339:21350 Coq.Arith.PeanoNat Nat add_comm thm
+R21360:21366 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R21381:21389 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R21381:21389 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R21381:21389 Coq.Reals.Abstract.ConstructiveSum <> sum_assoc thm
+R21407:21417 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R21423:21434 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R21407:21417 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R21407:21417 Coq.Reals.Abstract.ConstructiveReals <> CRplus_comm thm
+R21423:21434 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R21423:21434 Coq.Reals.Abstract.ConstructiveReals <> CRplus_assoc thm
+R21449:21460 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21463:21472 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R21449:21460 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21449:21460 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21463:21472 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R21463:21472 Coq.Reals.Abstract.ConstructiveReals <> CRplus_0_l thm
+R21485:21492 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R21485:21492 Coq.Reals.Abstract.ConstructiveSum <> CRsum_eq thm
+R21512:21523 Coq.Arith.PeanoNat Nat add_comm thm
+R21512:21523 Coq.Arith.PeanoNat Nat add_comm thm
+R21512:21523 Coq.Arith.PeanoNat Nat add_comm thm
+R21552:21561 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R21552:21561 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_plus thm
+R21571:21582 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_shift' thm
+R21587:21587 Coq.Init.Datatypes <> S constr
+R21571:21582 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_shift' thm
+R21587:21587 Coq.Init.Datatypes <> S constr
+R21620:21629 Coq.PArith.BinPos Pos to_nat def
+R21620:21629 Coq.PArith.BinPos Pos to_nat def
+R21654:21660 Coq.Reals.Abstract.ConstructiveReals <> CRminus proj
+R21682:21697 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R21700:21711 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21682:21697 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R21682:21697 Coq.Reals.Abstract.ConstructiveReals <> CRopp_involutive thm
+R21700:21711 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21700:21711 Coq.Reals.Abstract.ConstructiveReals <> CRplus_opp_l thm
+R21722:21732 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R21722:21732 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R21722:21732 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R21722:21732 Coq.Reals.Abstract.ConstructiveAbs <> CRabs_right thm
+R21745:21754 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R21745:21754 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_le thm
+R21777:21785 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+R21777:21785 Coq.Reals.Abstract.ConstructiveReals <> CRle_refl thm
+prf 21800:21810 <> CRmorph_sum
+R21830:21846 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 21822:21823 <> R1:239
+binder 21825:21826 <> R2:240
+R21877:21901 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> ConstructiveRealsMorphism rec
+R21903:21904 Coq.Reals.Abstract.ConstructiveSum <> R1:239 var
+R21906:21907 Coq.Reals.Abstract.ConstructiveSum <> R2:240 var
+binder 21872:21872 <> f:241
+R21941:21944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21938:21940 Coq.Init.Datatypes <> nat ind
+R21945:21953 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R21955:21956 Coq.Reals.Abstract.ConstructiveSum <> R1:239 var
+binder 21933:21934 <> un:242
+R21964:21966 Coq.Init.Datatypes <> nat ind
+binder 21960:21960 <> n:243
+R21994:21999 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R21972:21978 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R21983:21987 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R21992:21992 Coq.Reals.Abstract.ConstructiveSum <> n:243 var
+R21989:21990 Coq.Reals.Abstract.ConstructiveSum <> un:242 var
+R21980:21980 Coq.Reals.Abstract.ConstructiveSum <> f:241 var
+R22000:22004 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R22042:22042 Coq.Reals.Abstract.ConstructiveSum <> n:243 var
+R22016:22018 Coq.Init.Datatypes <> nat ind
+binder 22011:22012 <> n0:244
+R22023:22029 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R22034:22035 Coq.Reals.Abstract.ConstructiveSum <> un:242 var
+R22037:22038 Coq.Reals.Abstract.ConstructiveSum <> n0:244 var
+R22031:22031 Coq.Reals.Abstract.ConstructiveSum <> f:241 var
+R22103:22114 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+R22103:22114 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+R22103:22114 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+prf 22147:22157 <> CRmorph_INR
+R22177:22193 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 22169:22170 <> R1:245
+binder 22172:22173 <> R2:246
+R22224:22248 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> ConstructiveRealsMorphism rec
+R22250:22251 Coq.Reals.Abstract.ConstructiveSum <> R1:245 var
+R22253:22254 Coq.Reals.Abstract.ConstructiveSum <> R2:246 var
+binder 22219:22219 <> f:247
+R22284:22286 Coq.Init.Datatypes <> nat ind
+binder 22280:22280 <> n:248
+R22309:22312 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'=='_x not
+R22292:22298 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R22303:22305 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R22307:22307 Coq.Reals.Abstract.ConstructiveSum <> n:248 var
+R22300:22300 Coq.Reals.Abstract.ConstructiveSum <> f:247 var
+R22313:22315 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R22317:22317 Coq.Reals.Abstract.ConstructiveSum <> n:248 var
+R22352:22362 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_rat proj
+R22352:22362 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_rat proj
+R22383:22385 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R22401:22414 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_proper thm
+R22422:22424 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R22425:22431 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R22447:22449 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22437:22444 Coq.ZArith.BinInt Z of_nat def
+R22401:22414 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_proper thm
+R22422:22424 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R22425:22431 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R22447:22449 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22437:22444 Coq.ZArith.BinInt Z of_nat def
+R22401:22414 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_proper thm
+R22422:22424 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R22425:22431 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R22447:22449 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22437:22444 Coq.ZArith.BinInt Z of_nat def
+R22401:22414 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_proper thm
+R22422:22424 Coq.Reals.Abstract.ConstructiveReals <> ::ConstructiveReals:x_'+'_x not
+R22425:22431 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q proj
+R22447:22449 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R22437:22444 Coq.ZArith.BinInt Z of_nat def
+R22468:22479 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+R22468:22479 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+R22468:22479 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_plus thm
+R22489:22491 Coq.Reals.Abstract.ConstructiveSum <> INR def
+R22526:22536 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_one thm
+R22542:22553 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22526:22536 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_one thm
+R22526:22536 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_one thm
+R22542:22553 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22542:22553 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22566:22578 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R22566:22578 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R22589:22603 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22589:22603 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22589:22603 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22617:22619 Coq.QArith.QArith_base <> Qeq def
+R22622:22625 Coq.QArith.QArith_base <> Qnum proj
+R22628:22631 Coq.QArith.QArith_base <> Qden proj
+R22647:22655 Coq.ZArith.BinInt Z mul_1_r thm
+R22647:22655 Coq.ZArith.BinInt Z mul_1_r thm
+R22647:22655 Coq.ZArith.BinInt Z mul_1_r thm
+R22647:22655 Coq.ZArith.BinInt Z mul_1_r thm
+R22647:22655 Coq.ZArith.BinInt Z mul_1_r thm
+R22670:22683 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22670:22683 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22670:22683 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22697:22705 Coq.ZArith.BinInt Z add_1_l thm
+R22697:22705 Coq.ZArith.BinInt Z add_1_l thm
+R22697:22705 Coq.ZArith.BinInt Z add_1_l thm
+R22736:22747 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22736:22747 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22736:22747 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_plus proj
+R22760:22772 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R22760:22772 Coq.Reals.Abstract.ConstructiveReals <> CR_of_Q_morph def
+R22783:22797 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22783:22797 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22783:22797 Coq.QArith.QArith_base <> Qinv_plus_distr thm
+R22811:22813 Coq.QArith.QArith_base <> Qeq def
+R22816:22819 Coq.QArith.QArith_base <> Qnum proj
+R22822:22825 Coq.QArith.QArith_base <> Qden proj
+R22841:22849 Coq.ZArith.BinInt Z mul_1_r thm
+R22841:22849 Coq.ZArith.BinInt Z mul_1_r thm
+R22841:22849 Coq.ZArith.BinInt Z mul_1_r thm
+R22841:22849 Coq.ZArith.BinInt Z mul_1_r thm
+R22841:22849 Coq.ZArith.BinInt Z mul_1_r thm
+R22864:22877 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22864:22877 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22864:22877 Coq.ZArith.Znat Nat2Z inj_succ thm
+R22891:22899 Coq.ZArith.BinInt Z add_1_l thm
+R22891:22899 Coq.ZArith.BinInt Z add_1_l thm
+R22891:22899 Coq.ZArith.BinInt Z add_1_l thm
+prf 22927:22943 <> CRmorph_series_cv
+R22963:22979 Coq.Reals.Abstract.ConstructiveReals <> ConstructiveReals rec
+binder 22955:22956 <> R1:249
+binder 22958:22959 <> R2:250
+R23009:23033 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> ConstructiveRealsMorphism rec
+R23035:23036 Coq.Reals.Abstract.ConstructiveSum <> R1:249 var
+R23038:23039 Coq.Reals.Abstract.ConstructiveSum <> R2:250 var
+binder 23004:23004 <> f:251
+R23072:23075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23069:23071 Coq.Init.Datatypes <> nat ind
+R23076:23084 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R23086:23087 Coq.Reals.Abstract.ConstructiveSum <> R1:249 var
+binder 23064:23065 <> un:252
+R23116:23124 Coq.Reals.Abstract.ConstructiveReals <> CRcarrier proj
+R23126:23127 Coq.Reals.Abstract.ConstructiveSum <> R1:249 var
+binder 23112:23112 <> l:253
+R23149:23156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23135:23143 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R23148:23148 Coq.Reals.Abstract.ConstructiveSum <> l:253 var
+R23145:23146 Coq.Reals.Abstract.ConstructiveSum <> un:252 var
+R23157:23165 Coq.Reals.Abstract.ConstructiveSum <> series_cv def
+R23196:23202 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R23206:23206 Coq.Reals.Abstract.ConstructiveSum <> l:253 var
+R23204:23204 Coq.Reals.Abstract.ConstructiveSum <> f:251 var
+binder 23172:23172 <> n:254
+R23177:23183 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R23188:23189 Coq.Reals.Abstract.ConstructiveSum <> un:252 var
+R23191:23191 Coq.Reals.Abstract.ConstructiveSum <> n:254 var
+R23185:23185 Coq.Reals.Abstract.ConstructiveSum <> f:251 var
+R23236:23243 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 23252:23252 <> n:255
+R23257:23263 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R23268:23272 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R23277:23277 Coq.Reals.Abstract.ConstructiveSum <> n:255 var
+R23236:23243 Coq.Reals.Abstract.ConstructiveLimits <> CR_cv_eq thm
+binder 23252:23252 <> n:256
+R23257:23263 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph proj
+R23268:23272 Coq.Reals.Abstract.ConstructiveSum <> CRsum def
+R23277:23277 Coq.Reals.Abstract.ConstructiveSum <> n:256 var
+R23300:23310 Coq.Reals.Abstract.ConstructiveSum <> CRmorph_sum thm
+R23300:23310 Coq.Reals.Abstract.ConstructiveSum <> CRmorph_sum thm
+R23321:23330 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_cv thm
+R23321:23330 Coq.Reals.Abstract.ConstructiveRealsMorphisms <> CRmorph_cv thm

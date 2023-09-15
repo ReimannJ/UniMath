@@ -1,0 +1,51 @@
+DIGEST fc7a93f6c6f61e184a04abaf8db8d6ee
+FCoq.NArith.Ndiv_def
+R691:696 Coq.NArith.BinNat <> <> lib
+def 824:832 <> Pdiv_eucl
+binder 834:834 <> a:1
+binder 836:836 <> b:2
+R841:854 Coq.NArith.BinNat N pos_div_eucl def
+R856:856 Coq.NArith.Ndiv_def <> a:1 var
+R859:862 Coq.Numbers.BinNums <> Npos constr
+R864:864 Coq.NArith.Ndiv_def <> b:2 var
+def 880:896 <> Pdiv_eucl_correct
+binder 898:898 <> a:3
+binder 900:900 <> b:4
+R919:927 Coq.NArith.Ndiv_def <> Pdiv_eucl def
+R929:929 Coq.NArith.Ndiv_def <> a:3 var
+R931:931 Coq.NArith.Ndiv_def <> b:4 var
+binder 911:911 <> q:5
+binder 913:913 <> r:6
+R942:944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R936:939 Coq.Numbers.BinNums <> Npos constr
+R941:941 Coq.NArith.Ndiv_def <> a:3 var
+R955:957 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R946:948 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R945:945 Coq.NArith.Ndiv_def <> q:5 var
+R949:952 Coq.Numbers.BinNums <> Npos constr
+R954:954 Coq.NArith.Ndiv_def <> b:4 var
+R958:958 Coq.NArith.Ndiv_def <> r:6 var
+R964:982 Coq.NArith.BinNat N pos_div_eucl_spec thm
+R984:984 Coq.NArith.Ndiv_def <> a:3 var
+R987:990 Coq.Numbers.BinNums <> Npos constr
+R992:992 Coq.NArith.Ndiv_def <> b:4 var
+prf 1003:1021 <> Pdiv_eucl_remainder
+binder 1023:1023 <> a:7
+binder 1025:1025 <> b:8
+R1050:1052 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R1031:1033 Coq.Init.Datatypes <> snd def
+R1036:1044 Coq.NArith.Ndiv_def <> Pdiv_eucl def
+R1046:1046 Coq.NArith.Ndiv_def <> a:7 var
+R1048:1048 Coq.NArith.Ndiv_def <> b:8 var
+R1053:1056 Coq.Numbers.BinNums <> Npos constr
+R1058:1058 Coq.NArith.Ndiv_def <> b:8 var
+R1079:1102 Coq.NArith.BinNat N pos_div_eucl_remainder thm
+R1107:1110 Coq.Numbers.BinNums <> Npos constr
+R1079:1102 Coq.NArith.BinNat N pos_div_eucl_remainder thm
+R1107:1110 Coq.Numbers.BinNums <> Npos constr
+abbrev 1132:1135 <> Nmod
+R1140:1147 Coq.NArith.BinNat N modulo def
+abbrev 1175:1191 <> Ndiv_eucl_correct
+R1196:1210 Coq.NArith.BinNat N div_eucl_spec thm
+abbrev 1237:1247 <> Ndiv_mod_eq
+R1252:1261 Coq.NArith.BinNat N div_mod' thm

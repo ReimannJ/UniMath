@@ -1,0 +1,1203 @@
+DIGEST 9051848a949e9d1a495cc0ae756b0755
+FCoq.Numbers.NatInt.NZPow
+R714:721 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R723:732 Coq.Numbers.NatInt.NZMulOrder <> <> lib
+R838:840 Coq.Structures.Equalities Typ <> mod
+modtype 822:824 <> Pow
+R822:824 Coq.Numbers.NatInt.NZPow A <> mod
+ax 863:865 Pow pow
+R870:873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R869:869 Coq.Numbers.NatInt.NZPow A t defax
+R875:878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R874:874 Coq.Numbers.NatInt.NZPow A t defax
+R879:879 Coq.Numbers.NatInt.NZPow A t defax
+R886:888 Coq.Numbers.NatInt.NZPow Pow <> modtype
+R921:923 Coq.Structures.Equalities Typ <> mod
+R937:939 Coq.Numbers.NatInt.NZPow Pow <> mod
+R941:941 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 904:914 <> PowNotation
+R904:914 Coq.Numbers.NatInt.NZPow B <> mod
+R959:961 Coq.Numbers.NatInt.NZPow B pow defax
+not 952:952 PowNotation :::x_'^'_x
+R968:978 Coq.Numbers.NatInt.NZPow PowNotation <> modtype
+R1004:1006 Coq.Structures.Equalities Typ <> mod
+R1012:1014 Coq.Numbers.NatInt.NZPow Pow <> mod
+R1016:1016 Coq.Numbers.NatInt.NZPow A <> modtype
+R1021:1031 Coq.Numbers.NatInt.NZPow PowNotation <> mod
+R1033:1033 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 994:997 <> Pow'
+R1071:1085 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1099:1102 Coq.Numbers.NatInt.NZPow Pow' <> mod
+R1104:1104 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 1049:1057 <> NZPowSpec
+R1049:1057 Coq.Numbers.NatInt.NZPow A <> mod
+R1049:1057 Coq.Numbers.NatInt.NZPow B <> mod
+inst 1136:1141 NZPowSpec pow_wd
+R1145:1150 Coq.Classes.Morphisms <> Proper class
+R1167:1169 Coq.Numbers.NatInt.NZPow B pow defax
+R1155:1157 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1153:1154 Coq.Numbers.NatInt.NZPow A eq defax
+R1160:1162 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1158:1159 Coq.Numbers.NatInt.NZPow A eq defax
+R1163:1164 Coq.Numbers.NatInt.NZPow A eq defax
+ax 1179:1185 NZPowSpec pow_0_r
+binder 1196:1196 <> a:2
+R1202:1205 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1200:1200 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1199:1199 Coq.Numbers.NatInt.NZPow <> a:2 var
+ax 1216:1225 NZPowSpec pow_succ_r
+binder 1236:1236 <> a:4
+binder 1238:1238 <> b:5
+R1245:1248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1242:1243 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1244:1244 Coq.Numbers.NatInt.NZPow <> b:5 var
+R1259:1262 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1250:1251 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1258:1258 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1249:1249 Coq.Numbers.NatInt.NZPow <> a:4 var
+R1252:1255 Coq.Numbers.NatInt.NZPow A succ defax
+R1257:1257 Coq.Numbers.NatInt.NZPow <> b:5 var
+R1264:1266 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1263:1263 Coq.Numbers.NatInt.NZPow <> a:4 var
+R1268:1268 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1267:1267 Coq.Numbers.NatInt.NZPow <> a:4 var
+R1269:1269 Coq.Numbers.NatInt.NZPow <> b:5 var
+ax 1279:1287 NZPowSpec pow_neg_r
+binder 1298:1298 <> a:7
+binder 1300:1300 <> b:8
+R1306:1309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1304:1304 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1303:1303 Coq.Numbers.NatInt.NZPow <> b:8 var
+R1313:1316 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1311:1311 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1310:1310 Coq.Numbers.NatInt.NZPow <> a:7 var
+R1312:1312 Coq.Numbers.NatInt.NZPow <> b:8 var
+R1324:1332 Coq.Numbers.NatInt.NZPow NZPowSpec <> modtype
+R1530:1543 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R1549:1551 Coq.Numbers.NatInt.NZPow Pow <> mod
+R1553:1553 Coq.Numbers.NatInt.NZPow A <> modtype
+R1558:1566 Coq.Numbers.NatInt.NZPow NZPowSpec <> mod
+R1568:1568 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 1519:1523 <> NZPow
+R1595:1608 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R1614:1617 Coq.Numbers.NatInt.NZPow Pow' <> mod
+R1619:1619 Coq.Numbers.NatInt.NZPow A <> modtype
+R1624:1632 Coq.Numbers.NatInt.NZPow NZPowSpec <> mod
+R1634:1634 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 1583:1588 <> NZPow'
+R1709:1723 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1739:1744 Coq.Numbers.NatInt.NZPow NZPow' <> mod
+R1746:1746 Coq.Numbers.NatInt.NZPow A <> modtype
+R1762:1775 Coq.Numbers.NatInt.NZMulOrder NZMulOrderProp <> mod
+R1777:1777 Coq.Numbers.NatInt.NZPow A <> modtype
+modtype 1686:1694 <> NZPowProp
+R1686:1694 Coq.Numbers.NatInt.NZPow A <> mod
+R1686:1694 Coq.Numbers.NatInt.NZPow B <> mod
+R1686:1694 Coq.Numbers.NatInt.NZPow C <> mod
+R1802:1808 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R1810:1819 Coq.Numbers.NatInt.NZPow B pow_succ_r prfax
+prf 1868:1874 NZPowProp pow_0_l
+binder 1885:1885 <> a:10
+R1891:1894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1889:1889 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1890:1890 Coq.Numbers.NatInt.NZPow <> a:10 var
+R1898:1901 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1896:1896 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R1897:1897 Coq.Numbers.NatInt.NZPow <> a:10 var
+R1937:1950 Coq.Numbers.NatInt.NZPow C lt_exists_pred thm
+R1937:1950 Coq.Numbers.NatInt.NZPow C lt_exists_pred thm
+prf 2018:2025 NZPowProp pow_0_l'
+binder 2036:2036 <> a:11
+R2043:2046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2040:2041 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2039:2039 Coq.Numbers.NatInt.NZPow <> a:11 var
+R2050:2053 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2048:2048 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2049:2049 Coq.Numbers.NatInt.NZPow <> a:11 var
+R2089:2101 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R2089:2101 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R2151:2159 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R2151:2159 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R2151:2159 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R2151:2159 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R2175:2181 Coq.Numbers.NatInt.NZPow NZPowProp pow_0_l thm
+R2175:2181 Coq.Numbers.NatInt.NZPow NZPowProp pow_0_l thm
+prf 2196:2202 NZPowProp pow_1_r
+binder 2213:2213 <> a:12
+R2219:2222 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2217:2217 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2216:2216 Coq.Numbers.NatInt.NZPow <> a:12 var
+R2223:2223 Coq.Numbers.NatInt.NZPow <> a:12 var
+prf 2268:2274 NZPowProp pow_1_l
+binder 2285:2285 <> a:13
+R2292:2295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2289:2290 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2291:2291 Coq.Numbers.NatInt.NZPow <> a:13 var
+R2299:2302 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2297:2297 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2298:2298 Coq.Numbers.NatInt.NZPow <> a:13 var
+R2321:2326 Coq.Numbers.NatInt.NZPow C le_ind thm
+R2321:2326 Coq.Numbers.NatInt.NZPow C le_ind thm
+R2413:2419 Coq.Numbers.NatInt.NZPow NZPowProp pow_1_r thm
+R2421:2427 Coq.Numbers.NatInt.NZPow NZPowProp pow_1_l thm
+prf 2442:2448 NZPowProp pow_2_r
+binder 2459:2459 <> a:14
+R2465:2468 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2463:2463 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2462:2462 Coq.Numbers.NatInt.NZPow <> a:14 var
+R2470:2470 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2469:2469 Coq.Numbers.NatInt.NZPow <> a:14 var
+R2471:2471 Coq.Numbers.NatInt.NZPow <> a:14 var
+R2498:2505 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R2498:2505 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R2498:2505 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R2551:2557 Coq.Numbers.NatInt.NZPow NZPowProp pow_2_r thm
+prf 2598:2605 NZPowProp pow_eq_0
+binder 2616:2616 <> a:15
+binder 2618:2618 <> b:16
+R2625:2628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2622:2623 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2624:2624 Coq.Numbers.NatInt.NZPow <> b:16 var
+R2637:2640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2632:2635 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2630:2630 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2629:2629 Coq.Numbers.NatInt.NZPow <> a:15 var
+R2631:2631 Coq.Numbers.NatInt.NZPow <> b:16 var
+R2642:2645 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2641:2641 Coq.Numbers.NatInt.NZPow <> a:15 var
+R2678:2683 Coq.Numbers.NatInt.NZPow C le_ind thm
+R2678:2683 Coq.Numbers.NatInt.NZPow C le_ind thm
+R2727:2733 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R2727:2733 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R2727:2733 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R2786:2795 Coq.Numbers.NatInt.NZPow B pow_succ_r prfax
+R2786:2795 Coq.Numbers.NatInt.NZPow B pow_succ_r prfax
+R2786:2795 Coq.Numbers.NatInt.NZPow B pow_succ_r prfax
+R2828:2835 Coq.Numbers.NatInt.NZPow C eq_mul_0 thm
+R2828:2835 Coq.Numbers.NatInt.NZPow C eq_mul_0 thm
+prf 2893:2903 NZPowProp pow_nonzero
+binder 2914:2914 <> a:17
+binder 2916:2916 <> b:18
+R2923:2926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2920:2921 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2919:2919 Coq.Numbers.NatInt.NZPow <> a:17 var
+R2931:2934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2928:2929 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2930:2930 Coq.Numbers.NatInt.NZPow <> b:18 var
+R2938:2941 Coq.Structures.Equalities EqNotation :::x_'~='_x not
+R2936:2936 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R2935:2935 Coq.Numbers.NatInt.NZPow <> a:17 var
+R2937:2937 Coq.Numbers.NatInt.NZPow <> b:18 var
+R2996:3003 Coq.Numbers.NatInt.NZPow NZPowProp pow_eq_0 thm
+R2996:3003 Coq.Numbers.NatInt.NZPow NZPowProp pow_eq_0 thm
+prf 3025:3036 NZPowProp pow_eq_0_iff
+binder 3047:3047 <> a:19
+binder 3049:3049 <> b:20
+R3060:3064 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3055:3058 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3053:3053 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3052:3052 Coq.Numbers.NatInt.NZPow <> a:19 var
+R3054:3054 Coq.Numbers.NatInt.NZPow <> b:20 var
+R3068:3072 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3084:3084 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3066:3066 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3065:3065 Coq.Numbers.NatInt.NZPow <> b:20 var
+R3076:3079 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3074:3074 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3075:3075 Coq.Numbers.NatInt.NZPow <> b:20 var
+R3081:3082 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3080:3080 Coq.Numbers.NatInt.NZPow <> a:19 var
+R3140:3152 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R3140:3152 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R3208:3214 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R3208:3214 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R3208:3214 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R3264:3271 Coq.Numbers.NatInt.NZPow NZPowProp pow_eq_0 thm
+R3264:3271 Coq.Numbers.NatInt.NZPow NZPowProp pow_eq_0 thm
+R3326:3334 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3326:3334 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3326:3334 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3326:3334 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3360:3367 Coq.Numbers.NatInt.NZPow NZPowProp pow_0_l' thm
+R3360:3367 Coq.Numbers.NatInt.NZPow NZPowProp pow_0_l' thm
+prf 3432:3440 NZPowProp pow_add_r
+binder 3451:3451 <> a:21
+binder 3453:3453 <> b:22
+binder 3455:3455 <> c:23
+R3462:3465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3459:3460 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3461:3461 Coq.Numbers.NatInt.NZPow <> b:22 var
+R3470:3475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3467:3468 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3469:3469 Coq.Numbers.NatInt.NZPow <> c:23 var
+R3483:3486 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3477:3478 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3482:3482 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3476:3476 Coq.Numbers.NatInt.NZPow <> a:21 var
+R3480:3480 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3479:3479 Coq.Numbers.NatInt.NZPow <> b:22 var
+R3481:3481 Coq.Numbers.NatInt.NZPow <> c:23 var
+R3490:3492 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3488:3488 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3487:3487 Coq.Numbers.NatInt.NZPow <> a:21 var
+R3489:3489 Coq.Numbers.NatInt.NZPow <> b:22 var
+R3494:3494 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3493:3493 Coq.Numbers.NatInt.NZPow <> a:21 var
+R3495:3495 Coq.Numbers.NatInt.NZPow <> c:23 var
+R3530:3535 Coq.Numbers.NatInt.NZPow C le_ind thm
+R3530:3535 Coq.Numbers.NatInt.NZPow C le_ind thm
+R3674:3682 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R3674:3682 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R3701:3717 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+R3701:3717 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+prf 3732:3740 NZPowProp pow_mul_l
+binder 3751:3751 <> a:24
+binder 3753:3753 <> b:25
+binder 3755:3755 <> c:26
+R3767:3770 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R3760:3760 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3764:3765 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3762:3762 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3761:3761 Coq.Numbers.NatInt.NZPow <> a:24 var
+R3763:3763 Coq.Numbers.NatInt.NZPow <> b:25 var
+R3766:3766 Coq.Numbers.NatInt.NZPow <> c:26 var
+R3774:3776 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R3772:3772 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3771:3771 Coq.Numbers.NatInt.NZPow <> a:24 var
+R3773:3773 Coq.Numbers.NatInt.NZPow <> c:26 var
+R3778:3778 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R3777:3777 Coq.Numbers.NatInt.NZPow <> b:25 var
+R3779:3779 Coq.Numbers.NatInt.NZPow <> c:26 var
+R3815:3825 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R3815:3825 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3857:3865 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R3898:3903 Coq.Numbers.NatInt.NZPow C le_ind thm
+R3898:3903 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4041:4052 Coq.Numbers.NatInt.NZPow C mul_shuffle1 thm
+R4041:4052 Coq.Numbers.NatInt.NZPow C mul_shuffle1 thm
+prf 4067:4075 NZPowProp pow_mul_r
+binder 4086:4086 <> a:27
+binder 4088:4088 <> b:28
+binder 4090:4090 <> c:29
+R4097:4100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4094:4095 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4096:4096 Coq.Numbers.NatInt.NZPow <> b:28 var
+R4105:4110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4102:4103 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4104:4104 Coq.Numbers.NatInt.NZPow <> c:29 var
+R4118:4121 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4112:4113 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4117:4117 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4111:4111 Coq.Numbers.NatInt.NZPow <> a:27 var
+R4115:4115 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R4114:4114 Coq.Numbers.NatInt.NZPow <> b:28 var
+R4116:4116 Coq.Numbers.NatInt.NZPow <> c:29 var
+R4122:4122 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4126:4127 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4124:4124 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4123:4123 Coq.Numbers.NatInt.NZPow <> a:27 var
+R4125:4125 Coq.Numbers.NatInt.NZPow <> b:28 var
+R4128:4128 Coq.Numbers.NatInt.NZPow <> c:29 var
+R4163:4168 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4163:4168 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4294:4302 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R4309:4317 Coq.Numbers.NatInt.NZPow NZPowProp pow_mul_l thm
+R4294:4302 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R4294:4302 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R4294:4302 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R4294:4302 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R4309:4317 Coq.Numbers.NatInt.NZPow NZPowProp pow_mul_l thm
+R4309:4317 Coq.Numbers.NatInt.NZPow NZPowProp pow_mul_l thm
+R4337:4344 Coq.Numbers.NatInt.NZPow C mul_comm thm
+R4337:4344 Coq.Numbers.NatInt.NZPow C mul_comm thm
+R4363:4379 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R4363:4379 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+prf 4413:4422 NZPowProp pow_nonneg
+binder 4433:4433 <> a:30
+binder 4435:4435 <> b:31
+R4442:4445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4439:4440 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4441:4441 Coq.Numbers.NatInt.NZPow <> a:30 var
+R4447:4448 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4450:4450 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4449:4449 Coq.Numbers.NatInt.NZPow <> a:30 var
+R4451:4451 Coq.Numbers.NatInt.NZPow <> b:31 var
+R4488:4498 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R4488:4498 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R4534:4542 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R4534:4542 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R4534:4542 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R4534:4542 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R4562:4567 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4562:4567 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4687:4703 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R4687:4703 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+prf 4718:4731 NZPowProp pow_pos_nonneg
+binder 4742:4742 <> a:32
+binder 4744:4744 <> b:33
+R4750:4753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4748:4748 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4749:4749 Coq.Numbers.NatInt.NZPow <> a:32 var
+R4758:4761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4755:4756 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4757:4757 Coq.Numbers.NatInt.NZPow <> b:33 var
+R4763:4763 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4765:4765 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R4764:4764 Coq.Numbers.NatInt.NZPow <> a:32 var
+R4766:4766 Coq.Numbers.NatInt.NZPow <> b:33 var
+R4802:4807 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4802:4807 Coq.Numbers.NatInt.NZPow C le_ind thm
+R4924:4934 Coq.Numbers.NatInt.NZPow C mul_pos_pos thm
+R4924:4934 Coq.Numbers.NatInt.NZPow C mul_pos_pos thm
+prf 4970:4982 NZPowProp pow_lt_mono_l
+binder 4993:4993 <> a:34
+binder 4995:4995 <> b:35
+binder 4997:4997 <> c:36
+R5003:5006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5001:5001 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5002:5002 Coq.Numbers.NatInt.NZPow <> c:36 var
+R5013:5016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5008:5009 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R5011:5011 Coq.Structures.Orders LtLeNotation :::x_'<='_x_'<'_x not
+R5010:5010 Coq.Numbers.NatInt.NZPow <> a:34 var
+R5010:5010 Coq.Numbers.NatInt.NZPow <> a:34 var
+R5012:5012 Coq.Numbers.NatInt.NZPow <> b:35 var
+R5020:5022 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5018:5018 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R5017:5017 Coq.Numbers.NatInt.NZPow <> a:34 var
+R5019:5019 Coq.Numbers.NatInt.NZPow <> c:36 var
+R5024:5024 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R5023:5023 Coq.Numbers.NatInt.NZPow <> b:35 var
+R5025:5025 Coq.Numbers.NatInt.NZPow <> c:36 var
+R5060:5065 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R5060:5065 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R5214:5231 Coq.Numbers.NatInt.NZPow C mul_lt_mono_nonneg thm
+R5214:5231 Coq.Numbers.NatInt.NZPow C mul_lt_mono_nonneg thm
+R5255:5264 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R5255:5264 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+prf 5317:5329 NZPowProp pow_le_mono_l
+binder 5340:5340 <> a:37
+binder 5342:5342 <> b:38
+binder 5344:5344 <> c:39
+R5354:5357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5348:5349 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R5351:5352 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R5350:5350 Coq.Numbers.NatInt.NZPow <> a:37 var
+R5350:5350 Coq.Numbers.NatInt.NZPow <> a:37 var
+R5353:5353 Coq.Numbers.NatInt.NZPow <> b:38 var
+R5361:5364 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5359:5359 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R5358:5358 Coq.Numbers.NatInt.NZPow <> a:37 var
+R5360:5360 Coq.Numbers.NatInt.NZPow <> c:39 var
+R5366:5366 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R5365:5365 Coq.Numbers.NatInt.NZPow <> b:38 var
+R5367:5367 Coq.Numbers.NatInt.NZPow <> c:39 var
+R5410:5422 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R5410:5422 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R5459:5467 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5459:5467 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5459:5467 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5459:5467 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5459:5467 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5528:5538 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R5528:5538 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R5597:5606 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R5609:5621 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R5597:5606 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R5609:5621 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+prf 5651:5658 NZPowProp pow_gt_1
+binder 5669:5669 <> a:40
+binder 5671:5671 <> b:41
+R5677:5681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5695:5695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5675:5675 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5676:5676 Coq.Numbers.NatInt.NZPow <> a:40 var
+R5685:5689 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5683:5683 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5684:5684 Coq.Numbers.NatInt.NZPow <> b:41 var
+R5691:5691 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5693:5693 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R5692:5692 Coq.Numbers.NatInt.NZPow <> a:40 var
+R5694:5694 Coq.Numbers.NatInt.NZPow <> b:41 var
+R5754:5760 Coq.Numbers.NatInt.NZPow NZPowProp pow_1_l thm
+R5754:5760 Coq.Numbers.NatInt.NZPow NZPowProp pow_1_l thm
+R5754:5760 Coq.Numbers.NatInt.NZPow NZPowProp pow_1_l thm
+R5784:5796 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R5784:5796 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R5831:5843 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R5831:5843 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R5886:5894 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5886:5894 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5886:5894 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5886:5894 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R5927:5933 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R5927:5933 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+R5927:5933 Coq.Numbers.NatInt.NZPow B pow_0_r prfax
+prf 5961:5973 NZPowProp pow_lt_mono_r
+binder 5984:5984 <> a:42
+binder 5986:5986 <> b:43
+binder 5988:5988 <> c:44
+R5994:5997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5992:5992 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5993:5993 Coq.Numbers.NatInt.NZPow <> a:42 var
+R6002:6005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5999:6000 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6001:6001 Coq.Numbers.NatInt.NZPow <> c:44 var
+R6009:6012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6007:6007 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6006:6006 Coq.Numbers.NatInt.NZPow <> b:43 var
+R6008:6008 Coq.Numbers.NatInt.NZPow <> c:44 var
+R6016:6018 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6014:6014 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6013:6013 Coq.Numbers.NatInt.NZPow <> a:42 var
+R6015:6015 Coq.Numbers.NatInt.NZPow <> b:43 var
+R6020:6020 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6019:6019 Coq.Numbers.NatInt.NZPow <> a:42 var
+R6021:6021 Coq.Numbers.NatInt.NZPow <> c:44 var
+R6065:6075 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R6065:6075 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R6105:6113 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6105:6113 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6105:6113 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6133:6146 Coq.Numbers.NatInt.NZPow NZPowProp pow_pos_nonneg thm
+R6133:6146 Coq.Numbers.NatInt.NZPow NZPowProp pow_pos_nonneg thm
+R6174:6175 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6174:6175 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6202:6214 Coq.Numbers.NatInt.NZPow C le_exists_sub thm
+R6202:6214 Coq.Numbers.NatInt.NZPow C le_exists_sub thm
+R6257:6265 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R6257:6265 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R6257:6265 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R6257:6265 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R6257:6265 Coq.Numbers.NatInt.NZPow NZPowProp pow_add_r thm
+R6289:6295 Coq.Numbers.NatInt.NZPow C mul_1_l thm
+R6299:6299 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6289:6295 Coq.Numbers.NatInt.NZPow C mul_1_l thm
+R6299:6299 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6289:6295 Coq.Numbers.NatInt.NZPow C mul_1_l thm
+R6299:6299 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6319:6335 Coq.Numbers.NatInt.NZPow C mul_lt_mono_pos_r thm
+R6319:6335 Coq.Numbers.NatInt.NZPow C mul_lt_mono_pos_r thm
+R6349:6362 Coq.Numbers.NatInt.NZPow NZPowProp pow_pos_nonneg thm
+R6349:6362 Coq.Numbers.NatInt.NZPow NZPowProp pow_pos_nonneg thm
+R6384:6391 Coq.Numbers.NatInt.NZPow NZPowProp pow_gt_1 thm
+R6384:6391 Coq.Numbers.NatInt.NZPow NZPowProp pow_gt_1 thm
+R6414:6424 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6414:6424 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6501:6507 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R6501:6507 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R6501:6507 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+prf 6606:6618 NZPowProp pow_le_mono_r
+binder 6629:6629 <> a:45
+binder 6631:6631 <> b:46
+binder 6633:6633 <> c:47
+R6639:6642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6637:6637 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R6638:6638 Coq.Numbers.NatInt.NZPow <> a:45 var
+R6647:6650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6644:6645 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6643:6643 Coq.Numbers.NatInt.NZPow <> b:46 var
+R6646:6646 Coq.Numbers.NatInt.NZPow <> c:47 var
+R6654:6657 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R6652:6652 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6651:6651 Coq.Numbers.NatInt.NZPow <> a:45 var
+R6653:6653 Coq.Numbers.NatInt.NZPow <> b:46 var
+R6659:6659 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R6658:6658 Coq.Numbers.NatInt.NZPow <> a:45 var
+R6660:6660 Coq.Numbers.NatInt.NZPow <> c:47 var
+R6701:6711 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R6701:6711 Coq.Numbers.NatInt.NZPow C lt_ge_cases thm
+R6742:6750 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6742:6750 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6742:6750 Coq.Numbers.NatInt.NZPow B pow_neg_r prfax
+R6767:6776 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R6767:6776 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R6795:6803 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R6823:6830 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R6795:6803 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R6823:6830 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R6823:6830 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R6848:6858 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6848:6858 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6920:6930 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6920:6930 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R6991:7000 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R7003:7015 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R6991:7000 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R7003:7015 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+prf 7058:7068 NZPowProp pow_le_mono
+binder 7079:7079 <> a:48
+binder 7081:7081 <> b:49
+binder 7083:7083 <> c:50
+binder 7085:7085 <> d:51
+R7094:7097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7089:7089 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R7091:7092 Coq.Structures.Orders LtLeNotation :::x_'<'_x_'<='_x not
+R7090:7090 Coq.Numbers.NatInt.NZPow <> a:48 var
+R7090:7090 Coq.Numbers.NatInt.NZPow <> a:48 var
+R7093:7093 Coq.Numbers.NatInt.NZPow <> c:50 var
+R7102:7106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7099:7100 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7098:7098 Coq.Numbers.NatInt.NZPow <> b:49 var
+R7101:7101 Coq.Numbers.NatInt.NZPow <> d:51 var
+R7110:7113 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7108:7108 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7107:7107 Coq.Numbers.NatInt.NZPow <> a:48 var
+R7109:7109 Coq.Numbers.NatInt.NZPow <> b:49 var
+R7115:7115 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7114:7114 Coq.Numbers.NatInt.NZPow <> c:50 var
+R7116:7116 Coq.Numbers.NatInt.NZPow <> d:51 var
+R7162:7162 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7162:7162 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7176:7188 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+R7176:7188 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+R7217:7229 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R7217:7229 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+prf 7261:7271 NZPowProp pow_lt_mono
+binder 7282:7282 <> a:52
+binder 7284:7284 <> b:53
+binder 7286:7286 <> c:54
+binder 7288:7288 <> d:55
+R7296:7299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7292:7292 Coq.Structures.Orders LtNotation :::x_'<'_x_'<'_x not
+R7294:7294 Coq.Structures.Orders LtNotation :::x_'<'_x_'<'_x not
+R7293:7293 Coq.Numbers.NatInt.NZPow <> a:52 var
+R7293:7293 Coq.Numbers.NatInt.NZPow <> a:52 var
+R7295:7295 Coq.Numbers.NatInt.NZPow <> c:54 var
+R7305:7309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7301:7301 Coq.Structures.Orders LtNotation :::x_'<'_x_'<'_x not
+R7303:7303 Coq.Structures.Orders LtNotation :::x_'<'_x_'<'_x not
+R7302:7302 Coq.Numbers.NatInt.NZPow <> b:53 var
+R7302:7302 Coq.Numbers.NatInt.NZPow <> b:53 var
+R7304:7304 Coq.Numbers.NatInt.NZPow <> d:55 var
+R7313:7315 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7311:7311 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7310:7310 Coq.Numbers.NatInt.NZPow <> a:52 var
+R7312:7312 Coq.Numbers.NatInt.NZPow <> b:53 var
+R7317:7317 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7316:7316 Coq.Numbers.NatInt.NZPow <> c:54 var
+R7318:7318 Coq.Numbers.NatInt.NZPow <> d:55 var
+R7370:7378 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R7398:7405 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R7370:7378 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R7398:7405 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R7398:7405 Coq.Numbers.NatInt.NZPow A one_succ prfax
+R7421:7431 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R7421:7431 Coq.Numbers.NatInt.NZPow A lt_eq_cases prfax
+R7500:7500 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7500:7500 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7516:7528 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R7516:7528 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R7559:7571 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R7559:7571 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R7622:7629 Coq.Numbers.NatInt.NZPow NZPowProp pow_gt_1 thm
+R7622:7629 Coq.Numbers.NatInt.NZPow NZPowProp pow_gt_1 thm
+prf 7671:7679 NZPowProp pow_inj_l
+binder 7690:7690 <> a:56
+binder 7692:7692 <> b:57
+binder 7694:7694 <> c:58
+R7701:7704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7698:7699 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7700:7700 Coq.Numbers.NatInt.NZPow <> a:56 var
+R7709:7712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7706:7707 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R7708:7708 Coq.Numbers.NatInt.NZPow <> b:57 var
+R7716:7720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7714:7714 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7715:7715 Coq.Numbers.NatInt.NZPow <> c:58 var
+R7731:7734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7724:7727 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7722:7722 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7721:7721 Coq.Numbers.NatInt.NZPow <> a:56 var
+R7723:7723 Coq.Numbers.NatInt.NZPow <> c:58 var
+R7729:7729 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7728:7728 Coq.Numbers.NatInt.NZPow <> b:57 var
+R7730:7730 Coq.Numbers.NatInt.NZPow <> c:58 var
+R7736:7739 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R7735:7735 Coq.Numbers.NatInt.NZPow <> a:56 var
+R7740:7740 Coq.Numbers.NatInt.NZPow <> b:57 var
+R7788:7800 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R7788:7800 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R7848:7850 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7846:7846 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7852:7852 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7866:7878 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R7848:7850 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7846:7846 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7852:7852 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7866:7878 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R7926:7928 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7924:7924 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7930:7930 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7944:7956 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R7926:7928 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R7924:7924 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7930:7930 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R7944:7956 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+prf 8002:8010 NZPowProp pow_inj_r
+binder 8021:8021 <> a:59
+binder 8023:8023 <> b:60
+binder 8025:8025 <> c:61
+R8031:8034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8029:8029 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8030:8030 Coq.Numbers.NatInt.NZPow <> a:59 var
+R8039:8042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8036:8037 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8038:8038 Coq.Numbers.NatInt.NZPow <> b:60 var
+R8047:8051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8044:8045 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8046:8046 Coq.Numbers.NatInt.NZPow <> c:61 var
+R8062:8065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8055:8058 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8053:8053 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8052:8052 Coq.Numbers.NatInt.NZPow <> a:59 var
+R8054:8054 Coq.Numbers.NatInt.NZPow <> b:60 var
+R8060:8060 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8059:8059 Coq.Numbers.NatInt.NZPow <> a:59 var
+R8061:8061 Coq.Numbers.NatInt.NZPow <> c:61 var
+R8067:8070 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R8066:8066 Coq.Numbers.NatInt.NZPow <> b:60 var
+R8071:8071 Coq.Numbers.NatInt.NZPow <> c:61 var
+R8119:8131 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R8119:8131 Coq.Numbers.NatInt.NZPow C lt_trichotomy thm
+R8179:8181 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8177:8177 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8183:8183 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8197:8209 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R8179:8181 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8177:8177 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8183:8183 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8197:8209 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R8257:8259 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8255:8255 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8261:8261 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8275:8287 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R8257:8259 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8255:8255 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8261:8261 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8275:8287 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+prf 8373:8389 NZPowProp pow_lt_mono_l_iff
+binder 8400:8400 <> a:62
+binder 8402:8402 <> b:63
+binder 8404:8404 <> c:64
+R8411:8414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8408:8409 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8410:8410 Coq.Numbers.NatInt.NZPow <> a:62 var
+R8419:8422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8416:8417 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8418:8418 Coq.Numbers.NatInt.NZPow <> b:63 var
+R8426:8432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8450:8450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8424:8424 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8425:8425 Coq.Numbers.NatInt.NZPow <> c:64 var
+R8436:8440 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8434:8434 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8433:8433 Coq.Numbers.NatInt.NZPow <> a:62 var
+R8435:8435 Coq.Numbers.NatInt.NZPow <> b:63 var
+R8444:8446 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8442:8442 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8441:8441 Coq.Numbers.NatInt.NZPow <> a:62 var
+R8443:8443 Coq.Numbers.NatInt.NZPow <> c:64 var
+R8448:8448 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8447:8447 Coq.Numbers.NatInt.NZPow <> b:63 var
+R8449:8449 Coq.Numbers.NatInt.NZPow <> c:64 var
+R8511:8523 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R8511:8523 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R8559:8569 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R8559:8569 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R8611:8614 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8609:8609 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8616:8616 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8630:8642 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R8611:8614 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8609:8609 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8616:8616 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8630:8642 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+prf 8686:8702 NZPowProp pow_le_mono_l_iff
+binder 8713:8713 <> a:65
+binder 8715:8715 <> b:66
+binder 8717:8717 <> c:67
+R8724:8727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8721:8722 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8723:8723 Coq.Numbers.NatInt.NZPow <> a:65 var
+R8732:8735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8729:8730 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8731:8731 Coq.Numbers.NatInt.NZPow <> b:66 var
+R8739:8745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8765:8765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8737:8737 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8738:8738 Coq.Numbers.NatInt.NZPow <> c:67 var
+R8750:8754 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8747:8748 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8746:8746 Coq.Numbers.NatInt.NZPow <> a:65 var
+R8749:8749 Coq.Numbers.NatInt.NZPow <> b:66 var
+R8758:8761 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8756:8756 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8755:8755 Coq.Numbers.NatInt.NZPow <> a:65 var
+R8757:8757 Coq.Numbers.NatInt.NZPow <> c:67 var
+R8763:8763 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8762:8762 Coq.Numbers.NatInt.NZPow <> b:66 var
+R8764:8764 Coq.Numbers.NatInt.NZPow <> c:67 var
+R8826:8838 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R8826:8838 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R8874:8884 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R8874:8884 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R8927:8929 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8925:8925 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8931:8931 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8945:8957 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+R8927:8929 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R8925:8925 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8931:8931 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R8945:8957 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_l thm
+prf 9003:9019 NZPowProp pow_lt_mono_r_iff
+binder 9030:9030 <> a:68
+binder 9032:9032 <> b:69
+binder 9034:9034 <> c:70
+R9040:9043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9038:9038 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9039:9039 Coq.Numbers.NatInt.NZPow <> a:68 var
+R9048:9054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9072:9072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9045:9046 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9047:9047 Coq.Numbers.NatInt.NZPow <> c:70 var
+R9058:9062 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9056:9056 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9055:9055 Coq.Numbers.NatInt.NZPow <> b:69 var
+R9057:9057 Coq.Numbers.NatInt.NZPow <> c:70 var
+R9066:9068 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9064:9064 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9063:9063 Coq.Numbers.NatInt.NZPow <> a:68 var
+R9065:9065 Coq.Numbers.NatInt.NZPow <> b:69 var
+R9070:9070 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9069:9069 Coq.Numbers.NatInt.NZPow <> a:68 var
+R9071:9071 Coq.Numbers.NatInt.NZPow <> c:70 var
+R9134:9146 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R9134:9146 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R9162:9172 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R9162:9172 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R9214:9217 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9212:9212 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9219:9219 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9233:9245 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+R9214:9217 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9212:9212 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9219:9219 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9233:9245 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+prf 9279:9295 NZPowProp pow_le_mono_r_iff
+binder 9306:9306 <> a:71
+binder 9308:9308 <> b:72
+binder 9310:9310 <> c:73
+R9316:9319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9314:9314 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9315:9315 Coq.Numbers.NatInt.NZPow <> a:71 var
+R9324:9330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9350:9350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9321:9322 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9323:9323 Coq.Numbers.NatInt.NZPow <> c:73 var
+R9335:9339 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9332:9333 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9331:9331 Coq.Numbers.NatInt.NZPow <> b:72 var
+R9334:9334 Coq.Numbers.NatInt.NZPow <> c:73 var
+R9343:9346 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9341:9341 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9340:9340 Coq.Numbers.NatInt.NZPow <> a:71 var
+R9342:9342 Coq.Numbers.NatInt.NZPow <> b:72 var
+R9348:9348 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9347:9347 Coq.Numbers.NatInt.NZPow <> a:71 var
+R9349:9349 Coq.Numbers.NatInt.NZPow <> c:73 var
+R9408:9420 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+R9408:9420 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_r thm
+R9444:9454 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R9444:9454 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R9497:9499 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9495:9495 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9501:9501 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9515:9527 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+R9497:9499 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9495:9495 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9501:9501 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9515:9527 Coq.Numbers.NatInt.NZPow NZPowProp pow_lt_mono_r thm
+prf 9630:9641 NZPowProp pow_gt_lin_r
+binder 9652:9652 <> a:74
+binder 9654:9654 <> b:75
+R9660:9663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9658:9658 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9659:9659 Coq.Numbers.NatInt.NZPow <> a:74 var
+R9668:9671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9665:9666 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R9667:9667 Coq.Numbers.NatInt.NZPow <> b:75 var
+R9673:9675 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R9672:9672 Coq.Numbers.NatInt.NZPow <> b:75 var
+R9677:9677 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R9676:9676 Coq.Numbers.NatInt.NZPow <> a:74 var
+R9678:9678 Coq.Numbers.NatInt.NZPow <> b:75 var
+R9714:9719 Coq.Numbers.NatInt.NZPow C le_ind thm
+R9714:9719 Coq.Numbers.NatInt.NZPow C le_ind thm
+R9838:9846 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R9838:9846 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R9838:9846 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R9838:9846 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R9865:9872 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R9865:9872 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R9865:9872 Coq.Numbers.NatInt.NZPow A two_succ prfax
+R9900:9901 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9905:9905 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9902:9902 Coq.Numbers.NatInt.NZPow A S abbrev
+R9900:9901 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9905:9905 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R9902:9902 Coq.Numbers.NatInt.NZPow A S abbrev
+R9938:9949 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R9938:9949 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R9938:9949 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R9938:9949 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R9970:9976 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R9970:9976 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R9970:9976 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R9993:10003 Coq.Numbers.NatInt.NZPow C add_le_mono thm
+R9993:10003 Coq.Numbers.NatInt.NZPow C add_le_mono thm
+R10025:10042 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg thm
+R10025:10042 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg thm
+R10088:10097 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R10100:10108 Coq.Numbers.NatInt.NZPow A lt_succ_r prfax
+R10088:10097 Coq.Numbers.NatInt.NZPow C lt_le_incl thm
+R10100:10108 Coq.Numbers.NatInt.NZPow A lt_succ_r prfax
+prf 10277:10289 NZPowProp pow_add_lower
+binder 10300:10300 <> a:76
+binder 10302:10302 <> b:77
+binder 10304:10304 <> c:78
+R10311:10314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10308:10309 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10310:10310 Coq.Numbers.NatInt.NZPow <> a:76 var
+R10319:10322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10316:10317 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10318:10318 Coq.Numbers.NatInt.NZPow <> b:77 var
+R10326:10331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10324:10324 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R10325:10325 Coq.Numbers.NatInt.NZPow <> c:78 var
+R10341:10344 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10335:10337 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10333:10333 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10332:10332 Coq.Numbers.NatInt.NZPow <> a:76 var
+R10334:10334 Coq.Numbers.NatInt.NZPow <> c:78 var
+R10339:10339 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10338:10338 Coq.Numbers.NatInt.NZPow <> b:77 var
+R10340:10340 Coq.Numbers.NatInt.NZPow <> c:78 var
+R10345:10345 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10349:10350 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10347:10347 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10346:10346 Coq.Numbers.NatInt.NZPow <> a:76 var
+R10348:10348 Coq.Numbers.NatInt.NZPow <> b:77 var
+R10351:10351 Coq.Numbers.NatInt.NZPow <> c:78 var
+R10392:10397 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R10392:10397 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R10494:10495 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10494:10495 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R10550:10550 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10554:10556 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10566:10566 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10552:10552 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10560:10562 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10558:10558 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10564:10564 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10550:10550 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10554:10556 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10566:10566 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R10552:10552 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10560:10562 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R10558:10558 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10564:10564 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R10584:10598 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R10602:10616 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R10584:10598 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R10584:10598 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R10602:10616 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R10602:10616 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R10602:10616 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R10602:10616 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R10631:10641 Coq.Numbers.NatInt.NZPow C add_le_mono thm
+R10631:10641 Coq.Numbers.NatInt.NZPow C add_le_mono thm
+R10663:10669 Coq.Numbers.NatInt.NZPow C add_0_r thm
+R10663:10669 Coq.Numbers.NatInt.NZPow C add_0_r thm
+R10663:10669 Coq.Numbers.NatInt.NZPow C add_0_r thm
+R10683:10695 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R10683:10695 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R10712:10728 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R10712:10728 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R10754:10763 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R10754:10763 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R10794:10800 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R10794:10800 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R10794:10800 Coq.Numbers.NatInt.NZPow A add_0_l prfax
+R10814:10826 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R10814:10826 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R10843:10859 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R10843:10859 Coq.Numbers.NatInt.NZPow C mul_nonneg_nonneg thm
+R10885:10894 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R10885:10894 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R10918:10937 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R10918:10937 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R10965:10981 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+R10965:10981 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+prf 11135:11147 NZPowProp pow_add_upper
+binder 11158:11158 <> a:79
+binder 11160:11160 <> b:80
+binder 11162:11162 <> c:81
+R11169:11172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11166:11167 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11168:11168 Coq.Numbers.NatInt.NZPow <> a:79 var
+R11177:11180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11174:11175 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11176:11176 Coq.Numbers.NatInt.NZPow <> b:80 var
+R11184:11189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11182:11182 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11183:11183 Coq.Numbers.NatInt.NZPow <> c:81 var
+R11197:11200 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11190:11190 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11194:11195 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11192:11192 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11191:11191 Coq.Numbers.NatInt.NZPow <> a:79 var
+R11193:11193 Coq.Numbers.NatInt.NZPow <> b:80 var
+R11196:11196 Coq.Numbers.NatInt.NZPow <> c:81 var
+R11211:11214 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11224:11224 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11202:11203 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11210:11210 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11204:11207 Coq.Numbers.NatInt.NZPow A pred defax
+R11209:11209 Coq.Numbers.NatInt.NZPow <> c:81 var
+R11218:11220 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11216:11216 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11215:11215 Coq.Numbers.NatInt.NZPow <> a:79 var
+R11217:11217 Coq.Numbers.NatInt.NZPow <> c:81 var
+R11222:11222 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11221:11221 Coq.Numbers.NatInt.NZPow <> b:80 var
+R11223:11223 Coq.Numbers.NatInt.NZPow <> c:81 var
+binder 11256:11256 <> a:82
+binder 11258:11258 <> b:83
+binder 11260:11260 <> c:84
+R11270:11273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11264:11265 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11267:11268 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11266:11266 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11266:11266 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11269:11269 Coq.Numbers.NatInt.NZPow <> b:83 var
+R11277:11289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11275:11275 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11276:11276 Coq.Numbers.NatInt.NZPow <> c:84 var
+R11315:11318 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11290:11290 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11296:11300 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11314:11314 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11292:11294 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11291:11291 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11295:11295 Coq.Numbers.NatInt.NZPow <> b:83 var
+R11306:11308 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11302:11304 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11301:11301 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11305:11305 Coq.Numbers.NatInt.NZPow <> c:84 var
+R11310:11312 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11309:11309 Coq.Numbers.NatInt.NZPow <> b:83 var
+R11313:11313 Coq.Numbers.NatInt.NZPow <> c:84 var
+R11320:11323 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11345:11345 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11333:11335 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11325:11327 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11324:11324 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11329:11331 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11328:11328 Coq.Numbers.NatInt.NZPow <> a:82 var
+R11332:11332 Coq.Numbers.NatInt.NZPow <> c:84 var
+R11337:11339 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11336:11336 Coq.Numbers.NatInt.NZPow <> b:83 var
+R11341:11343 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11340:11340 Coq.Numbers.NatInt.NZPow <> b:83 var
+R11344:11344 Coq.Numbers.NatInt.NZPow <> c:84 var
+binder 11256:11256 <> a:85
+binder 11258:11258 <> b:86
+binder 11260:11260 <> c:87
+R11270:11273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11264:11265 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11267:11268 Coq.Structures.Orders LeNotation :::x_'<='_x_'<='_x not
+R11266:11266 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11266:11266 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11269:11269 Coq.Numbers.NatInt.NZPow <> b:86 var
+R11277:11289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11275:11275 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R11276:11276 Coq.Numbers.NatInt.NZPow <> c:87 var
+R11315:11318 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11290:11290 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11296:11300 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11314:11314 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11292:11294 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11291:11291 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11295:11295 Coq.Numbers.NatInt.NZPow <> b:86 var
+R11306:11308 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11302:11304 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11301:11301 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11305:11305 Coq.Numbers.NatInt.NZPow <> c:87 var
+R11310:11312 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11309:11309 Coq.Numbers.NatInt.NZPow <> b:86 var
+R11313:11313 Coq.Numbers.NatInt.NZPow <> c:87 var
+R11320:11323 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11345:11345 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11333:11335 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R11325:11327 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11324:11324 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11329:11331 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11328:11328 Coq.Numbers.NatInt.NZPow <> a:85 var
+R11332:11332 Coq.Numbers.NatInt.NZPow <> c:87 var
+R11337:11339 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R11336:11336 Coq.Numbers.NatInt.NZPow <> b:86 var
+R11341:11343 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R11340:11340 Coq.Numbers.NatInt.NZPow <> b:86 var
+R11344:11344 Coq.Numbers.NatInt.NZPow <> c:87 var
+R11401:11415 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R11419:11433 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11401:11415 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R11401:11415 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R11401:11415 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R11401:11415 Coq.Numbers.NatInt.NZPow C mul_add_distr_l thm
+R11419:11433 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11419:11433 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11419:11433 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11419:11433 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11461:11469 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11461:11469 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11461:11469 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11461:11469 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11461:11469 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11478:11490 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R11478:11490 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R11505:11513 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11505:11513 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11505:11513 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11505:11513 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11505:11513 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11522:11534 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R11522:11534 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R11550:11562 Coq.Numbers.NatInt.NZPow C le_exists_sub thm
+R11550:11562 Coq.Numbers.NatInt.NZPow C le_exists_sub thm
+R11617:11631 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11617:11631 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11617:11631 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11617:11631 Coq.Numbers.NatInt.NZPow C mul_add_distr_r thm
+R11646:11654 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11646:11654 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11646:11654 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11646:11654 Coq.Numbers.NatInt.NZPow C add_assoc thm
+R11663:11675 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R11663:11675 Coq.Numbers.NatInt.NZPow C add_le_mono_r thm
+R11689:11696 Coq.Numbers.NatInt.NZPow C add_comm thm
+R11689:11696 Coq.Numbers.NatInt.NZPow C add_comm thm
+R11689:11696 Coq.Numbers.NatInt.NZPow C add_comm thm
+R11705:11717 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R11705:11717 Coq.Numbers.NatInt.NZPow C add_le_mono_l thm
+R11729:11748 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R11729:11748 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R11769:11781 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R11769:11781 Coq.Numbers.NatInt.NZPow NZPowProp pow_le_mono_l thm
+R11847:11852 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R11847:11852 Coq.Numbers.NatInt.NZPow C lt_ind thm
+R11952:11953 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R11952:11953 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12009:12009 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12013:12015 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12040:12040 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12011:12011 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12026:12029 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12039:12039 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12017:12018 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12025:12025 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12019:12022 Coq.Numbers.NatInt.NZPow A pred defax
+R12033:12035 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12031:12031 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12037:12037 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12009:12009 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12013:12015 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12040:12040 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12011:12011 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12026:12029 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12039:12039 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12017:12018 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12025:12025 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12019:12022 Coq.Numbers.NatInt.NZPow A pred defax
+R12033:12035 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12031:12031 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12037:12037 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12057:12076 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R12057:12076 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R12105:12121 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+R12105:12121 Coq.Numbers.NatInt.NZPow C add_nonneg_nonneg thm
+R12139:12147 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12139:12147 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12139:12147 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12159:12166 Coq.Numbers.NatInt.NZPow C mul_comm thm
+R12170:12170 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12159:12166 Coq.Numbers.NatInt.NZPow C mul_comm thm
+R12170:12170 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12159:12166 Coq.Numbers.NatInt.NZPow C mul_comm thm
+R12170:12170 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R12203:12206 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12196:12196 Coq.Numbers.NatInt.NZPow A S abbrev
+R12199:12199 Coq.Numbers.NatInt.NZPow A P abbrev
+R12220:12231 Coq.Numbers.NatInt.NZPow C lt_succ_pred thm
+R12203:12206 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12196:12196 Coq.Numbers.NatInt.NZPow A S abbrev
+R12199:12199 Coq.Numbers.NatInt.NZPow A P abbrev
+R12220:12231 Coq.Numbers.NatInt.NZPow C lt_succ_pred thm
+R12271:12274 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12275:12275 Coq.Numbers.NatInt.NZPow A P abbrev
+R12296:12307 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R12314:12322 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R12271:12274 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R12275:12275 Coq.Numbers.NatInt.NZPow A P abbrev
+R12296:12307 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R12296:12307 Coq.Numbers.NatInt.NZPow C succ_le_mono thm
+R12314:12322 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R12314:12322 Coq.Numbers.NatInt.NZPow C le_succ_l thm
+R12350:12353 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12348:12348 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12361:12363 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12355:12356 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12360:12360 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12357:12357 Coq.Numbers.NatInt.NZPow A P abbrev
+R12350:12353 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R12348:12348 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12361:12363 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12355:12356 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12360:12360 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12357:12357 Coq.Numbers.NatInt.NZPow A P abbrev
+R12433:12441 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12433:12441 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12433:12441 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12433:12441 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12433:12441 Coq.Numbers.NatInt.NZPow C mul_assoc thm
+R12457:12476 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R12457:12476 Coq.Numbers.NatInt.NZPow C mul_le_mono_nonneg_l thm
+R12495:12504 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R12495:12504 Coq.Numbers.NatInt.NZPow NZPowProp pow_nonneg thm
+R12535:12545 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R12535:12545 Coq.Numbers.NatInt.NZPow C le_gt_cases thm
+R12618:12625 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12632:12639 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12643:12643 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12650:12657 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12661:12661 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12663:12663 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12618:12625 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12618:12625 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12632:12639 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12643:12643 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12632:12639 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12643:12643 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12650:12657 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12661:12661 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12663:12663 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12650:12657 Coq.Numbers.NatInt.NZPow C add_comm thm
+R12661:12661 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R12663:12663 Coq.Numbers.NatInt.NZPow PowNotation :::x_'^'_x not
+R12722:12730 Coq.Numbers.NatInt.NZPow NZPowProp <> modtype

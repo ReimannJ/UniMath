@@ -1,0 +1,543 @@
+DIGEST 5162ec4e7727f435e29f48fdac17e441
+FCoq.Sets.Infinite_sets
+R1838:1848 Coq.Sets.Finite_sets <> <> lib
+R1866:1882 Coq.Sets.Constructive_sets <> <> lib
+R1900:1908 Coq.Logic.Classical <> <> lib
+R1926:1939 Coq.Sets.Classical_sets <> <> lib
+R1957:1964 Coq.Sets.Powerset <> <> lib
+R1982:1995 Coq.Sets.Powerset_facts <> <> lib
+R2013:2036 Coq.Sets.Powerset_Classical_facts <> <> lib
+R2054:2070 Coq.Sets.Finite_sets_facts <> <> lib
+R2088:2092 Coq.Sets.Image <> <> lib
+sec 2104:2109 <> Approx
+var 2123:2123 Approx U
+ind 2146:2156 <> Approximant
+constr 2189:2207 <> Defn_of_Approximant
+R2163:2170 Coq.Sets.Ensembles <> Ensemble def
+R2172:2172 Coq.Sets.Infinite_sets <> Approx.U var
+binder 2159:2159 <> A:2
+binder 2161:2161 <> X:3
+R2221:2224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2211:2216 Coq.Sets.Finite_sets <> Finite ind
+R2220:2220 Coq.Sets.Infinite_sets <> X:3 var
+R2218:2218 Coq.Sets.Infinite_sets <> Approx.U var
+R2239:2242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2225:2232 Coq.Sets.Ensembles <> Included def
+R2236:2236 Coq.Sets.Infinite_sets <> X:3 var
+R2238:2238 Coq.Sets.Infinite_sets <> A:2 var
+R2234:2234 Coq.Sets.Infinite_sets <> Approx.U var
+R2243:2253 Coq.Sets.Infinite_sets <> Approximant:4 ind
+R2257:2257 Coq.Sets.Infinite_sets <> X:3 var
+R2255:2255 Coq.Sets.Infinite_sets <> A:2 var
+R2264:2269 Coq.Sets.Infinite_sets Approx <> sec
+sec 2333:2345 <> Infinite_sets
+var 2359:2359 Infinite_sets U
+prf 2378:2397 <> make_new_approximant
+R2416:2423 Coq.Sets.Ensembles <> Ensemble def
+R2425:2425 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 2412:2412 <> A:7
+binder 2414:2414 <> X:8
+R2446:2449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2434:2435 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2436:2441 Coq.Sets.Finite_sets <> Finite ind
+R2445:2445 Coq.Sets.Infinite_sets <> A:7 var
+R2443:2443 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2467:2470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2450:2460 Coq.Sets.Infinite_sets <> Approximant ind
+R2464:2464 Coq.Sets.Infinite_sets <> A:7 var
+R2466:2466 Coq.Sets.Infinite_sets <> X:8 var
+R2462:2462 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2471:2479 Coq.Sets.Ensembles <> Inhabited ind
+R2484:2491 Coq.Sets.Ensembles <> Setminus def
+R2495:2495 Coq.Sets.Infinite_sets <> A:7 var
+R2497:2497 Coq.Sets.Infinite_sets <> X:8 var
+R2493:2493 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2481:2481 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2573:2609 Coq.Sets.Classical_sets <> Strict_super_set_contains_new_element thm
+R2573:2609 Coq.Sets.Classical_sets <> Strict_super_set_contains_new_element thm
+prf 2710:2726 <> approximants_grow
+R2745:2752 Coq.Sets.Ensembles <> Ensemble def
+R2754:2754 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 2741:2741 <> A:9
+binder 2743:2743 <> X:10
+R2775:2784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2763:2764 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2765:2770 Coq.Sets.Finite_sets <> Finite ind
+R2774:2774 Coq.Sets.Infinite_sets <> A:9 var
+R2772:2772 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2794:2796 Coq.Init.Datatypes <> nat ind
+binder 2792:2792 <> n:11
+R2814:2818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2800:2807 Coq.Sets.Finite_sets <> cardinal ind
+R2811:2811 Coq.Sets.Infinite_sets <> X:10 var
+R2813:2813 Coq.Sets.Infinite_sets <> n:11 var
+R2809:2809 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2833:2837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2819:2826 Coq.Sets.Ensembles <> Included def
+R2830:2830 Coq.Sets.Infinite_sets <> X:10 var
+R2832:2832 Coq.Sets.Infinite_sets <> A:9 var
+R2828:2828 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2838:2844 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2850:2851 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2845:2845 <> Y:12
+R2870:2873 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2852:2859 Coq.Sets.Finite_sets <> cardinal ind
+R2863:2863 Coq.Sets.Infinite_sets <> Y:12 var
+R2866:2866 Coq.Init.Datatypes <> S constr
+R2868:2868 Coq.Sets.Infinite_sets <> n:11 var
+R2861:2861 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2874:2881 Coq.Sets.Ensembles <> Included def
+R2885:2885 Coq.Sets.Infinite_sets <> Y:12 var
+R2887:2887 Coq.Sets.Infinite_sets <> A:9 var
+R2883:2883 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2974:2982 Coq.Sets.Ensembles <> Inhabited ind
+R2987:2994 Coq.Sets.Ensembles <> Setminus def
+R3001:3009 Coq.Sets.Ensembles <> Empty_set ind
+R3011:3011 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2996:2996 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2984:2984 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2974:2982 Coq.Sets.Ensembles <> Inhabited ind
+R2987:2994 Coq.Sets.Ensembles <> Setminus def
+R3001:3009 Coq.Sets.Ensembles <> Empty_set ind
+R3011:3011 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2996:2996 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R2984:2984 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3072:3074 Coq.Sets.Ensembles <> Add def
+R3079:3087 Coq.Sets.Ensembles <> Empty_set ind
+R3089:3089 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3076:3076 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3072:3074 Coq.Sets.Ensembles <> Add def
+R3079:3087 Coq.Sets.Ensembles <> Empty_set ind
+R3089:3089 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3076:3076 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3133:3140 Coq.Sets.Finite_sets <> card_add constr
+R3133:3140 Coq.Sets.Finite_sets <> card_add constr
+R3168:3169 Coq.Sets.Ensembles <> In def
+R3171:3171 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3168:3169 Coq.Sets.Ensembles <> In def
+R3171:3171 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3345:3364 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R3345:3364 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R3600:3619 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R3600:3619 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R3691:3693 Coq.Sets.Ensembles <> Add def
+R3695:3695 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3691:3693 Coq.Sets.Ensembles <> Add def
+R3695:3695 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R3742:3749 Coq.Sets.Finite_sets <> card_add constr
+R3742:3749 Coq.Sets.Finite_sets <> card_add constr
+R3959:3977 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R3959:3977 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R4033:4033 Coq.Init.Datatypes <> S constr
+R4006:4020 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+R4033:4033 Coq.Init.Datatypes <> S constr
+R4006:4020 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+prf 4072:4089 <> approximants_grow'
+R4108:4115 Coq.Sets.Ensembles <> Ensemble def
+R4117:4117 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 4104:4104 <> A:13
+binder 4106:4106 <> X:14
+R4138:4147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4126:4127 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4128:4133 Coq.Sets.Finite_sets <> Finite ind
+R4137:4137 Coq.Sets.Infinite_sets <> A:13 var
+R4135:4135 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4157:4159 Coq.Init.Datatypes <> nat ind
+binder 4155:4155 <> n:15
+R4177:4181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4163:4170 Coq.Sets.Finite_sets <> cardinal ind
+R4174:4174 Coq.Sets.Infinite_sets <> X:14 var
+R4176:4176 Coq.Sets.Infinite_sets <> n:15 var
+R4172:4172 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4199:4203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4182:4192 Coq.Sets.Infinite_sets <> Approximant ind
+R4196:4196 Coq.Sets.Infinite_sets <> A:13 var
+R4198:4198 Coq.Sets.Infinite_sets <> X:14 var
+R4194:4194 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4204:4210 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4216:4217 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4211:4211 <> Y:16
+R4236:4239 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4218:4225 Coq.Sets.Finite_sets <> cardinal ind
+R4229:4229 Coq.Sets.Infinite_sets <> Y:16 var
+R4232:4232 Coq.Init.Datatypes <> S constr
+R4234:4234 Coq.Sets.Infinite_sets <> n:15 var
+R4227:4227 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4240:4250 Coq.Sets.Infinite_sets <> Approximant ind
+R4254:4254 Coq.Sets.Infinite_sets <> A:13 var
+R4256:4256 Coq.Sets.Infinite_sets <> Y:16 var
+R4252:4252 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4361:4367 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4373:4374 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4368:4368 <> Y:17
+R4393:4396 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4375:4382 Coq.Sets.Finite_sets <> cardinal ind
+R4386:4386 Coq.Sets.Infinite_sets <> Y:17 var
+R4389:4389 Coq.Init.Datatypes <> S constr
+R4384:4384 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4397:4404 Coq.Sets.Ensembles <> Included def
+R4408:4408 Coq.Sets.Infinite_sets <> Y:17 var
+R4406:4406 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4361:4367 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4373:4374 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4368:4368 <> Y:18
+R4393:4396 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4375:4382 Coq.Sets.Finite_sets <> cardinal ind
+R4386:4386 Coq.Sets.Infinite_sets <> Y:18 var
+R4389:4389 Coq.Init.Datatypes <> S constr
+R4384:4384 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4397:4404 Coq.Sets.Ensembles <> Included def
+R4408:4408 Coq.Sets.Infinite_sets <> Y:18 var
+R4406:4406 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4563:4581 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R4563:4581 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R4637:4637 Coq.Init.Datatypes <> S constr
+R4610:4624 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+R4637:4637 Coq.Init.Datatypes <> S constr
+R4610:4624 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+R4669:4685 Coq.Sets.Infinite_sets <> approximants_grow thm
+R4669:4685 Coq.Sets.Infinite_sets <> approximants_grow thm
+prf 4734:4760 <> approximant_can_be_any_size
+R4779:4786 Coq.Sets.Ensembles <> Ensemble def
+R4788:4788 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 4775:4775 <> A:19
+binder 4777:4777 <> X:20
+R4809:4818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4797:4798 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4799:4804 Coq.Sets.Finite_sets <> Finite ind
+R4808:4808 Coq.Sets.Infinite_sets <> A:19 var
+R4806:4806 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4828:4830 Coq.Init.Datatypes <> nat ind
+binder 4826:4826 <> n:21
+R4834:4840 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4846:4847 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4841:4841 <> Y:22
+R4862:4865 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4848:4855 Coq.Sets.Finite_sets <> cardinal ind
+R4859:4859 Coq.Sets.Infinite_sets <> Y:22 var
+R4861:4861 Coq.Sets.Infinite_sets <> n:21 var
+R4857:4857 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4866:4876 Coq.Sets.Infinite_sets <> Approximant ind
+R4880:4880 Coq.Sets.Infinite_sets <> A:19 var
+R4882:4882 Coq.Sets.Infinite_sets <> Y:22 var
+R4878:4878 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4937:4945 Coq.Sets.Ensembles <> Empty_set ind
+R4947:4947 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R4937:4945 Coq.Sets.Ensembles <> Empty_set ind
+R4947:4947 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5024:5041 Coq.Sets.Infinite_sets <> approximants_grow' thm
+R5024:5041 Coq.Sets.Infinite_sets <> approximants_grow' thm
+var 5084:5084 Infinite_sets V
+prf 5105:5124 <> Image_set_continuous
+R5142:5149 Coq.Sets.Ensembles <> Ensemble def
+R5151:5151 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 5140:5140 <> A:24
+R5158:5161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5157:5157 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5162:5162 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 5155:5155 <> f:25
+R5168:5175 Coq.Sets.Ensembles <> Ensemble def
+R5177:5177 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 5166:5166 <> X:26
+R5197:5206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5187:5192 Coq.Sets.Finite_sets <> Finite ind
+R5196:5196 Coq.Sets.Infinite_sets <> X:26 var
+R5194:5194 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R5232:5241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5207:5214 Coq.Sets.Ensembles <> Included def
+R5218:5218 Coq.Sets.Infinite_sets <> X:26 var
+R5221:5222 Coq.Sets.Image <> Im ind
+R5228:5228 Coq.Sets.Infinite_sets <> A:24 var
+R5230:5230 Coq.Sets.Infinite_sets <> f:25 var
+R5226:5226 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R5224:5224 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5216:5216 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R5242:5248 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5254:5257 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5324:5324 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5249:5249 <> n:27
+R5258:5264 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5270:5271 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5265:5265 <> Y:28
+R5272:5272 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5305:5309 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5287:5290 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5273:5280 Coq.Sets.Finite_sets <> cardinal ind
+R5284:5284 Coq.Sets.Infinite_sets <> Y:28 var
+R5286:5286 Coq.Sets.Infinite_sets <> n:27 var
+R5282:5282 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5291:5298 Coq.Sets.Ensembles <> Included def
+R5302:5302 Coq.Sets.Infinite_sets <> Y:28 var
+R5304:5304 Coq.Sets.Infinite_sets <> A:24 var
+R5300:5300 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5320:5322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5310:5311 Coq.Sets.Image <> Im ind
+R5317:5317 Coq.Sets.Infinite_sets <> Y:28 var
+R5319:5319 Coq.Sets.Infinite_sets <> f:25 var
+R5315:5315 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R5313:5313 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5323:5323 Coq.Sets.Infinite_sets <> X:26 var
+R5403:5411 Coq.Sets.Ensembles <> Empty_set ind
+R5413:5413 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5403:5411 Coq.Sets.Ensembles <> Empty_set ind
+R5413:5413 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R5645:5645 Coq.Init.Datatypes <> S constr
+R5645:5645 Coq.Init.Datatypes <> S constr
+R6018:6018 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6027:6027 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R6000:6005 Coq.Sets.Image <> Im_inv thm
+R6018:6018 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6027:6027 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R6000:6005 Coq.Sets.Image <> Im_inv thm
+R6223:6225 Coq.Sets.Ensembles <> Add def
+R6227:6227 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6203:6210 Coq.Init.Logic <> ex_intro constr
+R6223:6225 Coq.Sets.Ensembles <> Add def
+R6227:6227 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6203:6210 Coq.Init.Logic <> ex_intro constr
+R6305:6312 Coq.Sets.Finite_sets <> card_add constr
+R6305:6312 Coq.Sets.Finite_sets <> card_add constr
+R6732:6737 Coq.Sets.Image <> Im_add thm
+R6732:6737 Coq.Sets.Image <> Im_add thm
+prf 6774:6794 <> Image_set_continuous'
+R6812:6819 Coq.Sets.Ensembles <> Ensemble def
+R6821:6821 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 6810:6810 <> A:29
+R6828:6831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6827:6827 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6832:6832 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 6825:6825 <> f:30
+R6838:6845 Coq.Sets.Ensembles <> Ensemble def
+R6847:6847 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 6836:6836 <> X:31
+R6885:6894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6857:6867 Coq.Sets.Infinite_sets <> Approximant ind
+R6872:6873 Coq.Sets.Image <> Im ind
+R6879:6879 Coq.Sets.Infinite_sets <> A:29 var
+R6881:6881 Coq.Sets.Infinite_sets <> f:30 var
+R6877:6877 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R6875:6875 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6884:6884 Coq.Sets.Infinite_sets <> X:31 var
+R6869:6869 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R6895:6901 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6907:6908 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6902:6902 <> Y:32
+R6926:6929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6909:6919 Coq.Sets.Infinite_sets <> Approximant ind
+R6923:6923 Coq.Sets.Infinite_sets <> A:29 var
+R6925:6925 Coq.Sets.Infinite_sets <> Y:32 var
+R6921:6921 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6940:6942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6930:6931 Coq.Sets.Image <> Im ind
+R6937:6937 Coq.Sets.Infinite_sets <> Y:32 var
+R6939:6939 Coq.Sets.Infinite_sets <> f:30 var
+R6935:6935 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R6933:6933 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R6943:6943 Coq.Sets.Infinite_sets <> X:31 var
+R7007:7013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7019:7022 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7089:7089 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7014:7014 <> n:33
+R7023:7029 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7035:7036 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7030:7030 <> Y:34
+R7037:7037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7070:7074 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7052:7055 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7038:7045 Coq.Sets.Finite_sets <> cardinal ind
+R7049:7049 Coq.Sets.Infinite_sets <> Y:34 var
+R7051:7051 Coq.Sets.Infinite_sets <> n:33 var
+R7047:7047 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7056:7063 Coq.Sets.Ensembles <> Included def
+R7067:7067 Coq.Sets.Infinite_sets <> Y:34 var
+R7065:7065 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7085:7087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7075:7076 Coq.Sets.Image <> Im ind
+R7082:7082 Coq.Sets.Infinite_sets <> Y:34 var
+R7080:7080 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7078:7078 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7007:7013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7019:7022 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7089:7089 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7014:7014 <> n:35
+R7023:7029 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7035:7036 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7030:7030 <> Y:36
+R7037:7037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7070:7074 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7052:7055 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7038:7045 Coq.Sets.Finite_sets <> cardinal ind
+R7049:7049 Coq.Sets.Infinite_sets <> Y:36 var
+R7051:7051 Coq.Sets.Infinite_sets <> n:35 var
+R7047:7047 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7056:7063 Coq.Sets.Ensembles <> Included def
+R7067:7067 Coq.Sets.Infinite_sets <> Y:36 var
+R7065:7065 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7085:7087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7075:7076 Coq.Sets.Image <> Im ind
+R7082:7082 Coq.Sets.Infinite_sets <> Y:36 var
+R7080:7080 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7078:7078 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7354:7372 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R7354:7372 Coq.Sets.Infinite_sets <> Defn_of_Approximant constr
+R7401:7415 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+R7401:7415 Coq.Sets.Finite_sets_facts <> cardinal_finite thm
+R7458:7477 Coq.Sets.Infinite_sets <> Image_set_continuous thm
+R7458:7477 Coq.Sets.Infinite_sets <> Image_set_continuous thm
+prf 7572:7585 <> Pigeonhole_bis
+R7603:7610 Coq.Sets.Ensembles <> Ensemble def
+R7612:7612 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 7601:7601 <> A:37
+R7619:7622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7618:7618 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7623:7623 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 7616:7616 <> f:38
+R7645:7648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7633:7634 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7635:7640 Coq.Sets.Finite_sets <> Finite ind
+R7644:7644 Coq.Sets.Infinite_sets <> A:37 var
+R7642:7642 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7670:7673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7649:7654 Coq.Sets.Finite_sets <> Finite ind
+R7659:7660 Coq.Sets.Image <> Im ind
+R7666:7666 Coq.Sets.Infinite_sets <> A:37 var
+R7668:7668 Coq.Sets.Infinite_sets <> f:38 var
+R7664:7664 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7662:7662 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7656:7656 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7674:7675 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7676:7684 Coq.Sets.Image <> injective def
+R7690:7690 Coq.Sets.Infinite_sets <> f:38 var
+R7688:7688 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7686:7686 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7752:7772 Coq.Sets.Infinite_sets <> Image_set_continuous' thm
+R7779:7780 Coq.Sets.Image <> Im ind
+R7784:7784 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7782:7782 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7752:7772 Coq.Sets.Infinite_sets <> Image_set_continuous' thm
+R7779:7780 Coq.Sets.Image <> Im ind
+R7784:7784 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7782:7782 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R7889:7908 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R7889:7908 Coq.Sets.Infinite_sets <> make_new_approximant thm
+R7991:8005 Coq.Sets.Finite_sets_facts <> finite_cardinal thm
+R8010:8011 Coq.Sets.Image <> Im ind
+R8015:8015 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8013:8013 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8007:8007 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R7991:8005 Coq.Sets.Finite_sets_facts <> finite_cardinal thm
+R8010:8011 Coq.Sets.Image <> Im ind
+R8015:8015 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8013:8013 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8007:8007 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8066:8080 Coq.Sets.Finite_sets_facts <> finite_cardinal thm
+R8082:8082 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8066:8080 Coq.Sets.Finite_sets_facts <> finite_cardinal thm
+R8082:8082 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8154:8156 Coq.Sets.Ensembles <> Add def
+R8158:8158 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8172:8172 Coq.Init.Datatypes <> S constr
+R8132:8141 Coq.Sets.Image <> Pigeonhole thm
+R8154:8156 Coq.Sets.Ensembles <> Add def
+R8158:8158 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8172:8172 Coq.Init.Datatypes <> S constr
+R8132:8141 Coq.Sets.Image <> Pigeonhole thm
+R8199:8206 Coq.Sets.Finite_sets <> card_add constr
+R8199:8206 Coq.Sets.Finite_sets <> card_add constr
+R8238:8243 Coq.Sets.Image <> Im_add thm
+R8247:8247 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8245:8245 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8238:8243 Coq.Sets.Image <> Im_add thm
+R8247:8247 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8245:8245 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8238:8243 Coq.Sets.Image <> Im_add thm
+R8247:8247 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8245:8245 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8283:8284 Coq.Sets.Ensembles <> In def
+R8289:8290 Coq.Sets.Image <> Im ind
+R8294:8294 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8292:8292 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8286:8286 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8283:8284 Coq.Sets.Ensembles <> In def
+R8289:8290 Coq.Sets.Image <> Im ind
+R8294:8294 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8292:8292 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8286:8286 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8338:8355 Coq.Sets.Powerset_facts <> Non_disjoint_union thm
+R8360:8361 Coq.Sets.Image <> Im ind
+R8365:8365 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8363:8363 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8357:8357 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8338:8355 Coq.Sets.Powerset_facts <> Non_disjoint_union thm
+R8360:8361 Coq.Sets.Image <> Im ind
+R8365:8365 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8363:8363 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8357:8357 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8338:8355 Coq.Sets.Powerset_facts <> Non_disjoint_union thm
+R8360:8361 Coq.Sets.Image <> Im ind
+R8365:8365 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8363:8363 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8357:8357 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8338:8355 Coq.Sets.Powerset_facts <> Non_disjoint_union thm
+R8360:8361 Coq.Sets.Image <> Im ind
+R8365:8365 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8363:8363 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8357:8357 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8440:8448 Coq.Sets.Constructive_sets <> Extension thm
+R8453:8454 Coq.Sets.Image <> Im ind
+R8458:8458 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8456:8456 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8466:8467 Coq.Sets.Image <> Im ind
+R8471:8471 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8469:8469 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8450:8450 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8440:8448 Coq.Sets.Constructive_sets <> Extension thm
+R8453:8454 Coq.Sets.Image <> Im ind
+R8458:8458 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8456:8456 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8466:8467 Coq.Sets.Image <> Im ind
+R8471:8471 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8469:8469 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8450:8450 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8506:8518 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R8506:8518 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R8561:8561 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8570:8570 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8531:8548 Coq.Sets.Image <> cardinal_decreases thm
+R8561:8561 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8570:8570 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8531:8548 Coq.Sets.Image <> cardinal_decreases thm
+prf 8695:8708 <> Pigeonhole_ter
+R8726:8733 Coq.Sets.Ensembles <> Ensemble def
+R8735:8735 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+binder 8724:8724 <> A:39
+R8742:8745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8741:8741 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8746:8746 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+binder 8739:8739 <> f:40
+R8752:8754 Coq.Init.Datatypes <> nat ind
+binder 8750:8750 <> n:41
+R8779:8782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8764:8772 Coq.Sets.Image <> injective def
+R8778:8778 Coq.Sets.Infinite_sets <> f:40 var
+R8776:8776 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8774:8774 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8804:8807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8783:8788 Coq.Sets.Finite_sets <> Finite ind
+R8793:8794 Coq.Sets.Image <> Im ind
+R8800:8800 Coq.Sets.Infinite_sets <> A:39 var
+R8802:8802 Coq.Sets.Infinite_sets <> f:40 var
+R8798:8798 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8796:8796 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8790:8790 Coq.Sets.Infinite_sets <> Infinite_sets.V var
+R8808:8813 Coq.Sets.Finite_sets <> Finite ind
+R8817:8817 Coq.Sets.Infinite_sets <> A:39 var
+R8815:8815 Coq.Sets.Infinite_sets <> Infinite_sets.U var
+R8866:8869 Coq.Logic.Classical_Prop <> NNPP thm
+R8866:8869 Coq.Logic.Classical_Prop <> NNPP thm
+R8902:8915 Coq.Sets.Infinite_sets <> Pigeonhole_bis thm
+R8902:8915 Coq.Sets.Infinite_sets <> Pigeonhole_bis thm
+R8951:8963 Coq.Sets.Infinite_sets Infinite_sets <> sec
+R9060:9061 Coq.Arith.Gt <> <> lib
+R9063:9064 Coq.Arith.Lt <> <> lib
+R9066:9067 Coq.Arith.Le <> <> lib

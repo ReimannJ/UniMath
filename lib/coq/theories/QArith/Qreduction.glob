@@ -1,0 +1,369 @@
+DIGEST 1c54942051a5ad1aafffa2c2f810290c
+FCoq.QArith.Qreduction
+R745:755 Coq.QArith.QArith_base <> <> lib
+R773:782 Coq.ZArith.Znumtheory <> <> lib
+abbrev 795:797 <> Z2P
+R802:809 Coq.ZArith.BinInt Z to_pos def
+abbrev 836:846 <> Z2P_correct
+R851:858 Coq.ZArith.BinInt Z2Pos id thm
+def 978:981 <> Qred
+R986:986 Coq.QArith.QArith_base <> Q rec
+binder 984:984 <> q:1
+R1009:1009 Coq.QArith.Qreduction <> q:1 var
+binder 999:1000 <> q1:2
+binder 1002:1003 <> q2:3
+R1031:1033 Coq.Init.Datatypes <> snd def
+R1036:1041 Coq.ZArith.BinInt Z ggcd def
+R1043:1044 Coq.QArith.Qreduction <> q1:2 var
+R1047:1050 Coq.Numbers.BinNums <> Zpos constr
+R1052:1053 Coq.QArith.Qreduction <> q2:3 var
+binder 1021:1022 <> r1:4
+binder 1024:1025 <> r2:5
+R1064:1065 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R1077:1077 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R1062:1063 Coq.QArith.Qreduction <> r1:4 var
+R1066:1073 Coq.ZArith.BinInt Z to_pos def
+R1075:1076 Coq.QArith.Qreduction <> r2:5 var
+prf 1087:1098 <> Qred_correct
+binder 1109:1109 <> q:6
+R1112:1112 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1119:1123 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1113:1116 Coq.QArith.Qreduction <> Qred def
+R1118:1118 Coq.QArith.Qreduction <> q:6 var
+R1124:1124 Coq.QArith.Qreduction <> q:6 var
+R1143:1146 Coq.QArith.Qreduction <> Qred def
+R1149:1151 Coq.QArith.QArith_base <> Qeq def
+R1189:1198 Coq.ZArith.BinInt Z ggcd_gcd thm
+R1203:1206 Coq.Numbers.BinNums <> Zpos constr
+R1213:1224 Coq.ZArith.BinInt Z gcd_nonneg thm
+R1229:1232 Coq.Numbers.BinNums <> Zpos constr
+R1243:1265 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R1270:1273 Coq.Numbers.BinNums <> Zpos constr
+R1189:1198 Coq.ZArith.BinInt Z ggcd_gcd thm
+R1203:1206 Coq.Numbers.BinNums <> Zpos constr
+R1213:1224 Coq.ZArith.BinInt Z gcd_nonneg thm
+R1229:1232 Coq.Numbers.BinNums <> Zpos constr
+R1243:1265 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R1270:1273 Coq.Numbers.BinNums <> Zpos constr
+R1292:1297 Coq.ZArith.BinInt Z ggcd def
+R1302:1305 Coq.Numbers.BinNums <> Zpos constr
+R1292:1297 Coq.ZArith.BinInt Z ggcd def
+R1302:1305 Coq.Numbers.BinNums <> Zpos constr
+R1440:1443 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1440:1443 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1490:1497 Coq.ZArith.BinInt Z2Pos id thm
+R1490:1497 Coq.ZArith.BinInt Z2Pos id thm
+R1490:1497 Coq.ZArith.BinInt Z2Pos id thm
+R1490:1497 Coq.ZArith.BinInt Z2Pos id thm
+R1524:1541 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R1571:1578 Coq.ZArith.BinInt Z le_neq thm
+R1524:1541 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R1524:1541 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R1524:1541 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R1571:1578 Coq.ZArith.BinInt Z le_neq thm
+prf 1618:1630 <> Qred_complete
+binder 1641:1641 <> p:7
+binder 1643:1643 <> q:8
+R1651:1654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1648:1649 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R1647:1647 Coq.QArith.Qreduction <> p:7 var
+R1650:1650 Coq.QArith.Qreduction <> q:8 var
+R1661:1663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1655:1658 Coq.QArith.Qreduction <> Qred def
+R1660:1660 Coq.QArith.Qreduction <> p:7 var
+R1664:1667 Coq.QArith.Qreduction <> Qred def
+R1669:1669 Coq.QArith.Qreduction <> q:8 var
+R1710:1713 Coq.QArith.Qreduction <> Qred def
+R1716:1718 Coq.QArith.QArith_base <> Qeq def
+R1786:1795 Coq.ZArith.BinInt Z ggcd_gcd thm
+R1800:1803 Coq.Numbers.BinNums <> Zpos constr
+R1810:1820 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R1825:1828 Coq.Numbers.BinNums <> Zpos constr
+R1839:1850 Coq.ZArith.BinInt Z gcd_nonneg thm
+R1855:1858 Coq.Numbers.BinNums <> Zpos constr
+R1865:1887 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R1892:1895 Coq.Numbers.BinNums <> Zpos constr
+R1786:1795 Coq.ZArith.BinInt Z ggcd_gcd thm
+R1800:1803 Coq.Numbers.BinNums <> Zpos constr
+R1810:1820 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R1825:1828 Coq.Numbers.BinNums <> Zpos constr
+R1839:1850 Coq.ZArith.BinInt Z gcd_nonneg thm
+R1855:1858 Coq.Numbers.BinNums <> Zpos constr
+R1865:1887 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R1892:1895 Coq.Numbers.BinNums <> Zpos constr
+R1914:1919 Coq.ZArith.BinInt Z ggcd def
+R1924:1927 Coq.Numbers.BinNums <> Zpos constr
+R1914:1919 Coq.ZArith.BinInt Z ggcd def
+R1924:1927 Coq.Numbers.BinNums <> Zpos constr
+R2004:2007 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2004:2007 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2050:2059 Coq.ZArith.BinInt Z ggcd_gcd thm
+R2064:2067 Coq.Numbers.BinNums <> Zpos constr
+R2074:2084 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2089:2092 Coq.Numbers.BinNums <> Zpos constr
+R2103:2114 Coq.ZArith.BinInt Z gcd_nonneg thm
+R2119:2122 Coq.Numbers.BinNums <> Zpos constr
+R2129:2151 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R2156:2159 Coq.Numbers.BinNums <> Zpos constr
+R2050:2059 Coq.ZArith.BinInt Z ggcd_gcd thm
+R2064:2067 Coq.Numbers.BinNums <> Zpos constr
+R2074:2084 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2089:2092 Coq.Numbers.BinNums <> Zpos constr
+R2103:2114 Coq.ZArith.BinInt Z gcd_nonneg thm
+R2119:2122 Coq.Numbers.BinNums <> Zpos constr
+R2129:2151 Coq.ZArith.BinInt Z ggcd_correct_divisors thm
+R2156:2159 Coq.Numbers.BinNums <> Zpos constr
+R2178:2183 Coq.ZArith.BinInt Z ggcd def
+R2188:2191 Coq.Numbers.BinNums <> Zpos constr
+R2178:2183 Coq.ZArith.BinInt Z ggcd def
+R2188:2191 Coq.Numbers.BinNums <> Zpos constr
+R2275:2278 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2275:2278 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2317:2336 Coq.ZArith.Znumtheory <> rel_prime_cross_prod thm
+R2317:2336 Coq.ZArith.Znumtheory <> rel_prime_cross_prod thm
+R2431:2439 Coq.ZArith.BinInt Z mul_1_r thm
+R2431:2439 Coq.ZArith.BinInt Z mul_1_r thm
+R2470:2478 Coq.ZArith.BinInt Z mul_1_r thm
+R2470:2478 Coq.ZArith.BinInt Z mul_1_r thm
+R2566:2566 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2566:2566 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2784:2794 Coq.ZArith.BinInt Z mul_reg_l thm
+R2784:2794 Coq.ZArith.BinInt Z mul_reg_l thm
+R2898:2906 Coq.ZArith.BinInt Z mul_1_r thm
+R2898:2906 Coq.ZArith.BinInt Z mul_1_r thm
+R2937:2945 Coq.ZArith.BinInt Z mul_1_r thm
+R2937:2945 Coq.ZArith.BinInt Z mul_1_r thm
+R3040:3040 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3040:3040 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3260:3270 Coq.ZArith.BinInt Z mul_reg_l thm
+R3260:3270 Coq.ZArith.BinInt Z mul_reg_l thm
+R3320:3326 Coq.ZArith.BinInt Z lt_gt thm
+R3320:3326 Coq.ZArith.BinInt Z lt_gt thm
+R3345:3362 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3398:3405 Coq.ZArith.BinInt Z le_neq thm
+R3345:3362 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3345:3362 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3345:3362 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3398:3405 Coq.ZArith.BinInt Z le_neq thm
+R3431:3437 Coq.ZArith.BinInt Z lt_gt thm
+R3431:3437 Coq.ZArith.BinInt Z lt_gt thm
+R3456:3473 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3509:3516 Coq.ZArith.BinInt Z le_neq thm
+R3456:3473 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3456:3473 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3456:3473 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R3509:3516 Coq.ZArith.BinInt Z le_neq thm
+R3561:3561 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3542:3552 Coq.ZArith.BinInt Z mul_reg_l thm
+R3561:3561 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3542:3552 Coq.ZArith.BinInt Z mul_reg_l thm
+R3581:3590 Coq.ZArith.BinInt Z mul_eq_0 def
+R3581:3590 Coq.ZArith.BinInt Z mul_eq_0 def
+R3581:3590 Coq.ZArith.BinInt Z mul_eq_0 def
+R3623:3636 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3623:3636 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3623:3636 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3674:3687 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3710:3719 Coq.ZArith.BinInt Z mul_comm thm
+R3674:3687 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3674:3687 Coq.ZArith.BinInt Z mul_shuffle1 thm
+R3710:3719 Coq.ZArith.BinInt Z mul_comm thm
+R3710:3719 Coq.ZArith.BinInt Z mul_comm thm
+prf 3757:3767 <> Qred_eq_iff
+binder 3769:3769 <> q:9
+binder 3771:3772 <> q':10
+R3792:3796 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3782:3784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3776:3779 Coq.QArith.Qreduction <> Qred def
+R3781:3781 Coq.QArith.Qreduction <> q:9 var
+R3785:3788 Coq.QArith.Qreduction <> Qred def
+R3790:3791 Coq.QArith.Qreduction <> q':10 var
+R3798:3801 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3797:3797 Coq.QArith.Qreduction <> q:9 var
+R3802:3803 Coq.QArith.Qreduction <> q':10 var
+R3846:3857 Coq.QArith.Qreduction <> Qred_correct thm
+R3867:3878 Coq.QArith.Qreduction <> Qred_correct thm
+R3846:3857 Coq.QArith.Qreduction <> Qred_correct thm
+R3846:3857 Coq.QArith.Qreduction <> Qred_correct thm
+R3867:3878 Coq.QArith.Qreduction <> Qred_correct thm
+R3867:3878 Coq.QArith.Qreduction <> Qred_correct thm
+R3912:3924 Coq.QArith.Qreduction <> Qred_complete thm
+R3912:3924 Coq.QArith.Qreduction <> Qred_complete thm
+R3970:3974 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3967:3969 Coq.QArith.QArith_base <> Qeq def
+R3975:3977 Coq.QArith.QArith_base <> Qeq def
+R3946:3949 Coq.QArith.Qreduction <> Qred def
+R4024:4035 Coq.QArith.Qreduction <> Qred_correct thm
+R4024:4035 Coq.QArith.Qreduction <> Qred_correct thm
+R4024:4035 Coq.QArith.Qreduction <> Qred_correct thm
+R4024:4035 Coq.QArith.Qreduction <> Qred_correct thm
+R4024:4035 Coq.QArith.Qreduction <> Qred_correct thm
+def 4055:4060 <> Qplus'
+R4069:4069 Coq.QArith.QArith_base <> Q rec
+binder 4063:4063 <> p:11
+binder 4065:4065 <> q:12
+R4075:4078 Coq.QArith.Qreduction <> Qred def
+R4081:4085 Coq.QArith.QArith_base <> Qplus def
+R4087:4087 Coq.QArith.Qreduction <> p:11 var
+R4089:4089 Coq.QArith.Qreduction <> q:12 var
+def 4104:4109 <> Qmult'
+R4118:4118 Coq.QArith.QArith_base <> Q rec
+binder 4112:4112 <> p:13
+binder 4114:4114 <> q:14
+R4124:4127 Coq.QArith.Qreduction <> Qred def
+R4130:4134 Coq.QArith.QArith_base <> Qmult def
+R4136:4136 Coq.QArith.Qreduction <> p:13 var
+R4138:4138 Coq.QArith.Qreduction <> q:14 var
+def 4153:4159 <> Qminus'
+binder 4161:4161 <> x:15
+binder 4163:4163 <> y:16
+R4168:4171 Coq.QArith.Qreduction <> Qred def
+R4174:4179 Coq.QArith.QArith_base <> Qminus def
+R4181:4181 Coq.QArith.Qreduction <> x:15 var
+R4183:4183 Coq.QArith.Qreduction <> y:16 var
+prf 4194:4207 <> Qplus'_correct
+R4224:4224 Coq.QArith.QArith_base <> Q rec
+binder 4218:4218 <> p:17
+binder 4220:4220 <> q:18
+R4227:4227 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4238:4241 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4251:4251 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4228:4233 Coq.QArith.Qreduction <> Qplus' def
+R4235:4235 Coq.QArith.Qreduction <> p:17 var
+R4237:4237 Coq.QArith.Qreduction <> q:18 var
+R4242:4246 Coq.QArith.QArith_base <> Qplus def
+R4248:4248 Coq.QArith.Qreduction <> p:17 var
+R4250:4250 Coq.QArith.Qreduction <> q:18 var
+R4278:4283 Coq.QArith.Qreduction <> Qplus' def
+R4292:4303 Coq.QArith.Qreduction <> Qred_correct thm
+R4292:4303 Coq.QArith.Qreduction <> Qred_correct thm
+prf 4324:4337 <> Qmult'_correct
+R4354:4354 Coq.QArith.QArith_base <> Q rec
+binder 4348:4348 <> p:19
+binder 4350:4350 <> q:20
+R4357:4357 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4368:4371 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4381:4381 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4358:4363 Coq.QArith.Qreduction <> Qmult' def
+R4365:4365 Coq.QArith.Qreduction <> p:19 var
+R4367:4367 Coq.QArith.Qreduction <> q:20 var
+R4372:4376 Coq.QArith.QArith_base <> Qmult def
+R4378:4378 Coq.QArith.Qreduction <> p:19 var
+R4380:4380 Coq.QArith.Qreduction <> q:20 var
+R4408:4413 Coq.QArith.Qreduction <> Qmult' def
+R4422:4433 Coq.QArith.Qreduction <> Qred_correct thm
+R4422:4433 Coq.QArith.Qreduction <> Qred_correct thm
+prf 4454:4468 <> Qminus'_correct
+R4485:4485 Coq.QArith.QArith_base <> Q rec
+binder 4479:4479 <> p:21
+binder 4481:4481 <> q:22
+R4488:4488 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4500:4503 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4514:4514 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4489:4495 Coq.QArith.Qreduction <> Qminus' def
+R4497:4497 Coq.QArith.Qreduction <> p:21 var
+R4499:4499 Coq.QArith.Qreduction <> q:22 var
+R4504:4509 Coq.QArith.QArith_base <> Qminus def
+R4511:4511 Coq.QArith.Qreduction <> p:21 var
+R4513:4513 Coq.QArith.Qreduction <> q:22 var
+R4541:4547 Coq.QArith.Qreduction <> Qminus' def
+R4556:4567 Coq.QArith.Qreduction <> Qred_correct thm
+R4556:4567 Coq.QArith.Qreduction <> Qred_correct thm
+R4621:4625 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4618:4620 Coq.QArith.QArith_base <> Qeq def
+R4629:4633 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4626:4628 Coq.QArith.QArith_base <> Qeq def
+R4634:4636 Coq.QArith.QArith_base <> Qeq def
+R4595:4600 Coq.QArith.Qreduction <> Qplus' def
+R4692:4697 Coq.QArith.Qreduction <> Qplus' def
+R4780:4784 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4777:4779 Coq.QArith.QArith_base <> Qeq def
+R4788:4792 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4785:4787 Coq.QArith.QArith_base <> Qeq def
+R4793:4795 Coq.QArith.QArith_base <> Qeq def
+R4754:4759 Coq.QArith.Qreduction <> Qmult' def
+R4851:4856 Coq.QArith.Qreduction <> Qmult' def
+R4940:4944 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4937:4939 Coq.QArith.QArith_base <> Qeq def
+R4948:4952 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4945:4947 Coq.QArith.QArith_base <> Qeq def
+R4953:4955 Coq.QArith.QArith_base <> Qeq def
+R4913:4919 Coq.QArith.Qreduction <> Qminus' def
+R5012:5018 Coq.QArith.Qreduction <> Qminus' def
+prf 5068:5075 <> Qred_opp
+binder 5085:5085 <> q:23
+R5097:5099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5088:5091 Coq.QArith.Qreduction <> Qred def
+R5094:5094 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R5095:5095 Coq.QArith.Qreduction <> q:23 var
+R5100:5102 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R5109:5109 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R5103:5106 Coq.QArith.Qreduction <> Qred def
+R5108:5108 Coq.QArith.Qreduction <> q:23 var
+R5143:5146 Coq.QArith.Qreduction <> Qred def
+R5166:5175 Coq.ZArith.BinInt Z ggcd_opp thm
+R5183:5188 Coq.ZArith.BinInt Z ggcd def
+R5166:5175 Coq.ZArith.BinInt Z ggcd_opp thm
+R5166:5175 Coq.ZArith.BinInt Z ggcd_opp thm
+R5183:5188 Coq.ZArith.BinInt Z ggcd def
+R5227:5230 Coq.QArith.QArith_base <> Qopp def
+prf 5253:5264 <> Qred_compare
+binder 5274:5274 <> x:24
+binder 5276:5276 <> y:25
+R5293:5295 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5281:5288 Coq.QArith.QArith_base <> Qcompare def
+R5290:5290 Coq.QArith.Qreduction <> x:24 var
+R5292:5292 Coq.QArith.Qreduction <> y:25 var
+R5296:5303 Coq.QArith.QArith_base <> Qcompare def
+R5306:5309 Coq.QArith.Qreduction <> Qred def
+R5311:5311 Coq.QArith.Qreduction <> x:24 var
+R5315:5318 Coq.QArith.Qreduction <> Qred def
+R5320:5320 Coq.QArith.Qreduction <> y:25 var
+R5351:5363 Coq.QArith.QArith_base <> Qcompare_comp inst
+R5372:5378 Coq.QArith.QArith_base <> Qeq_sym thm
+R5387:5398 Coq.QArith.Qreduction <> Qred_correct thm
+R5351:5363 Coq.QArith.QArith_base <> Qcompare_comp inst
+R5372:5378 Coq.QArith.QArith_base <> Qeq_sym thm
+R5372:5378 Coq.QArith.QArith_base <> Qeq_sym thm
+R5387:5398 Coq.QArith.Qreduction <> Qred_correct thm
+R5387:5398 Coq.QArith.Qreduction <> Qred_correct thm
+prf 5413:5419 <> Qred_le
+binder 5421:5421 <> q:26
+binder 5423:5424 <> q':27
+R5445:5449 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5434:5437 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5428:5431 Coq.QArith.Qreduction <> Qred def
+R5433:5433 Coq.QArith.Qreduction <> q:26 var
+R5438:5441 Coq.QArith.Qreduction <> Qred def
+R5443:5444 Coq.QArith.Qreduction <> q':27 var
+R5451:5454 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R5450:5450 Coq.QArith.Qreduction <> q:26 var
+R5455:5456 Coq.QArith.Qreduction <> q':27 var
+R5481:5487 Coq.QArith.QArith_base <> Qle_alt thm
+R5493:5504 Coq.QArith.Qreduction <> Qred_compare thm
+R5481:5487 Coq.QArith.QArith_base <> Qle_alt thm
+R5481:5487 Coq.QArith.QArith_base <> Qle_alt thm
+R5481:5487 Coq.QArith.QArith_base <> Qle_alt thm
+R5481:5487 Coq.QArith.QArith_base <> Qle_alt thm
+R5493:5504 Coq.QArith.Qreduction <> Qred_compare thm
+R5493:5504 Coq.QArith.Qreduction <> Qred_compare thm
+prf 5519:5525 <> Qred_lt
+binder 5527:5527 <> q:28
+binder 5529:5530 <> q':29
+R5550:5554 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5540:5542 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R5534:5537 Coq.QArith.Qreduction <> Qred def
+R5539:5539 Coq.QArith.Qreduction <> q:28 var
+R5543:5546 Coq.QArith.Qreduction <> Qred def
+R5548:5549 Coq.QArith.Qreduction <> q':29 var
+R5556:5558 Coq.QArith.QArith_base <> ::Q_scope:x_'<'_x not
+R5555:5555 Coq.QArith.Qreduction <> q:28 var
+R5559:5560 Coq.QArith.Qreduction <> q':29 var
+R5585:5591 Coq.QArith.QArith_base <> Qlt_alt thm
+R5597:5608 Coq.QArith.Qreduction <> Qred_compare thm
+R5585:5591 Coq.QArith.QArith_base <> Qlt_alt thm
+R5585:5591 Coq.QArith.QArith_base <> Qlt_alt thm
+R5585:5591 Coq.QArith.QArith_base <> Qlt_alt thm
+R5585:5591 Coq.QArith.QArith_base <> Qlt_alt thm
+R5597:5608 Coq.QArith.Qreduction <> Qred_compare thm
+R5597:5608 Coq.QArith.Qreduction <> Qred_compare thm

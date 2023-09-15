@@ -1,0 +1,239 @@
+DIGEST c1fc06989aa92fe2af30efc10c3361e9
+FCoq.Numbers.HexadecimalN
+R798:808 Coq.Init.Hexadecimal <> <> lib
+R810:825 Coq.Numbers.HexadecimalFacts <> <> lib
+R827:840 Coq.Numbers.HexadecimalPos <> <> lib
+R842:847 Coq.PArith.PArith <> <> lib
+R849:854 Coq.NArith.NArith <> <> lib
+mod 865:872 <> Unsigned
+prf 882:886 Unsigned of_to
+R891:891 Coq.Numbers.BinNums <> N ind
+binder 889:889 <> n:1
+R927:929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R896:908 Coq.NArith.BinNat N of_hex_uint def
+R911:923 Coq.NArith.BinNat N to_hex_uint def
+R925:925 Coq.Numbers.HexadecimalN <> n:1 var
+R930:930 Coq.Numbers.HexadecimalN <> n:1 var
+R981:1009 Coq.Numbers.HexadecimalPos Unsigned of_to thm
+R981:1009 Coq.Numbers.HexadecimalPos Unsigned of_to thm
+prf 1024:1028 Unsigned to_of
+R1033:1036 Coq.Init.Hexadecimal <> uint ind
+binder 1031:1031 <> d:2
+R1072:1074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1041:1053 Coq.NArith.BinNat N to_hex_uint def
+R1056:1068 Coq.NArith.BinNat N of_hex_uint def
+R1070:1070 Coq.Numbers.HexadecimalN <> d:2 var
+R1075:1079 Coq.Init.Hexadecimal <> unorm def
+R1081:1081 Coq.Numbers.HexadecimalN <> d:2 var
+R1100:1128 Coq.Numbers.HexadecimalPos Unsigned to_of thm
+R1100:1128 Coq.Numbers.HexadecimalPos Unsigned to_of thm
+prf 1146:1156 Unsigned to_uint_inj
+binder 1158:1158 <> n:3
+binder 1160:1161 <> n':4
+R1199:1202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1180:1182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1165:1177 Coq.NArith.BinNat N to_hex_uint def
+R1179:1179 Coq.Numbers.HexadecimalN <> n:3 var
+R1183:1195 Coq.NArith.BinNat N to_hex_uint def
+R1197:1198 Coq.Numbers.HexadecimalN <> n':4 var
+R1204:1206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1203:1203 Coq.Numbers.HexadecimalN <> n:3 var
+R1207:1208 Coq.Numbers.HexadecimalN <> n':4 var
+R1246:1250 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R1260:1264 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R1246:1250 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R1246:1250 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R1260:1264 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R1260:1264 Coq.Numbers.HexadecimalN Unsigned of_to thm
+prf 1286:1297 Unsigned to_uint_surj
+binder 1299:1299 <> d:5
+R1303:1309 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1311:1312 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1310:1310 <> p:6
+R1328:1330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1313:1325 Coq.NArith.BinNat N to_hex_uint def
+R1327:1327 Coq.Numbers.HexadecimalN <> p:6 var
+R1331:1335 Coq.Init.Hexadecimal <> unorm def
+R1337:1337 Coq.Numbers.HexadecimalN <> d:5 var
+R1357:1369 Coq.NArith.BinNat N of_hex_uint def
+R1357:1369 Coq.NArith.BinNat N of_hex_uint def
+R1381:1385 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R1381:1385 Coq.Numbers.HexadecimalN Unsigned to_of thm
+prf 1400:1411 Unsigned of_uint_norm
+binder 1413:1413 <> d:7
+R1440:1442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1417:1429 Coq.NArith.BinNat N of_hex_uint def
+R1432:1436 Coq.Init.Hexadecimal <> unorm def
+R1438:1438 Coq.Numbers.HexadecimalN <> d:7 var
+R1443:1455 Coq.NArith.BinNat N of_hex_uint def
+R1457:1457 Coq.Numbers.HexadecimalN <> d:7 var
+prf 1498:1503 Unsigned of_inj
+binder 1505:1505 <> d:8
+binder 1507:1508 <> d':9
+R1548:1551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1529:1531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1514:1526 Coq.NArith.BinNat N of_hex_uint def
+R1528:1528 Coq.Numbers.HexadecimalN <> d:8 var
+R1532:1544 Coq.NArith.BinNat N of_hex_uint def
+R1546:1547 Coq.Numbers.HexadecimalN <> d':9 var
+R1559:1561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1552:1556 Coq.Init.Hexadecimal <> unorm def
+R1558:1558 Coq.Numbers.HexadecimalN <> d:8 var
+R1562:1566 Coq.Init.Hexadecimal <> unorm def
+R1568:1569 Coq.Numbers.HexadecimalN <> d':9 var
+R1601:1605 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R1601:1605 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R1601:1605 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R1601:1605 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R1601:1605 Coq.Numbers.HexadecimalN Unsigned to_of thm
+prf 1633:1638 Unsigned of_iff
+binder 1640:1640 <> d:10
+binder 1642:1643 <> d':11
+R1681:1685 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1662:1664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1647:1659 Coq.NArith.BinNat N of_hex_uint def
+R1661:1661 Coq.Numbers.HexadecimalN <> d:10 var
+R1665:1677 Coq.NArith.BinNat N of_hex_uint def
+R1679:1680 Coq.Numbers.HexadecimalN <> d':11 var
+R1693:1695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1686:1690 Coq.Init.Hexadecimal <> unorm def
+R1692:1692 Coq.Numbers.HexadecimalN <> d:10 var
+R1696:1700 Coq.Init.Hexadecimal <> unorm def
+R1702:1703 Coq.Numbers.HexadecimalN <> d':11 var
+R1728:1733 Coq.Numbers.HexadecimalN Unsigned of_inj thm
+R1728:1733 Coq.Numbers.HexadecimalN Unsigned of_inj thm
+R1757:1768 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1757:1768 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1757:1768 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1782:1793 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1782:1793 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R1806:1813 Coq.Numbers.HexadecimalN Unsigned <> mod
+mod 1878:1883 <> Signed
+prf 1893:1897 Signed of_to
+R1902:1902 Coq.Numbers.BinNums <> N ind
+binder 1900:1900 <> n:12
+R1936:1938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1907:1918 Coq.NArith.BinNat N of_hex_int def
+R1921:1932 Coq.NArith.BinNat N to_hex_int def
+R1934:1934 Coq.Numbers.HexadecimalN <> n:12 var
+R1939:1942 Coq.Init.Datatypes <> Some constr
+R1944:1944 Coq.Numbers.HexadecimalN <> n:12 var
+R1963:1974 Coq.NArith.BinNat N to_hex_int def
+R1977:1988 Coq.NArith.BinNat N of_hex_int def
+R1991:1994 Coq.Init.Hexadecimal <> norm def
+R2016:2036 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R2016:2036 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R2016:2036 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R2045:2058 Coq.Numbers.HexadecimalN Unsigned of_to thm
+R2045:2058 Coq.Numbers.HexadecimalN Unsigned of_to thm
+prf 2073:2077 Signed to_of
+R2082:2084 Coq.Init.Hexadecimal <> int abbrev
+binder 2080:2080 <> d:13
+R2089:2089 Coq.Numbers.BinNums <> N ind
+binder 2087:2087 <> n:14
+R2117:2120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2108:2110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2094:2105 Coq.NArith.BinNat N of_hex_int def
+R2107:2107 Coq.Numbers.HexadecimalN <> d:13 var
+R2111:2114 Coq.Init.Datatypes <> Some constr
+R2116:2116 Coq.Numbers.HexadecimalN <> n:14 var
+R2135:2137 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2121:2132 Coq.NArith.BinNat N to_hex_int def
+R2134:2134 Coq.Numbers.HexadecimalN <> n:14 var
+R2138:2141 Coq.Init.Hexadecimal <> norm def
+R2143:2143 Coq.Numbers.HexadecimalN <> d:13 var
+R2162:2173 Coq.NArith.BinNat N of_hex_int def
+R2188:2191 Coq.Init.Hexadecimal <> norm def
+R2188:2191 Coq.Init.Hexadecimal <> norm def
+R2228:2239 Coq.NArith.BinNat N to_hex_int def
+R2250:2263 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R2250:2263 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R2250:2263 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R2332:2347 Coq.Numbers.HexadecimalFacts <> unorm_involutive thm
+R2332:2347 Coq.Numbers.HexadecimalFacts <> unorm_involutive thm
+R2364:2369 Coq.Init.Hexadecimal <> nzhead def
+R2364:2369 Coq.Init.Hexadecimal <> nzhead def
+prf 2406:2415 Signed to_int_inj
+binder 2417:2417 <> n:15
+binder 2419:2420 <> n':16
+R2456:2459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2438:2440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2424:2435 Coq.NArith.BinNat N to_hex_int def
+R2437:2437 Coq.Numbers.HexadecimalN <> n:15 var
+R2441:2452 Coq.NArith.BinNat N to_hex_int def
+R2454:2455 Coq.Numbers.HexadecimalN <> n':16 var
+R2461:2463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2460:2460 Coq.Numbers.HexadecimalN <> n:15 var
+R2464:2465 Coq.Numbers.HexadecimalN <> n':16 var
+R2507:2509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2501:2504 Coq.Init.Datatypes <> Some constr
+R2510:2513 Coq.Init.Datatypes <> Some constr
+R2507:2509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2501:2504 Coq.Init.Datatypes <> Some constr
+R2510:2513 Coq.Init.Datatypes <> Some constr
+R2540:2544 Coq.Numbers.HexadecimalN Signed of_to thm
+R2554:2558 Coq.Numbers.HexadecimalN Signed of_to thm
+R2540:2544 Coq.Numbers.HexadecimalN Signed of_to thm
+R2540:2544 Coq.Numbers.HexadecimalN Signed of_to thm
+R2554:2558 Coq.Numbers.HexadecimalN Signed of_to thm
+R2554:2558 Coq.Numbers.HexadecimalN Signed of_to thm
+prf 2602:2616 Signed to_int_pos_surj
+binder 2618:2618 <> d:17
+R2622:2628 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2630:2631 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2629:2629 <> n:18
+R2646:2648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2632:2643 Coq.NArith.BinNat N to_hex_int def
+R2645:2645 Coq.Numbers.HexadecimalN <> n:18 var
+R2649:2652 Coq.Init.Hexadecimal <> norm def
+R2655:2657 Coq.Init.Hexadecimal <> Pos constr
+R2659:2659 Coq.Numbers.HexadecimalN <> d:17 var
+R2680:2692 Coq.NArith.BinNat N of_hex_uint def
+R2680:2692 Coq.NArith.BinNat N of_hex_uint def
+R2705:2716 Coq.NArith.BinNat N to_hex_int def
+R2731:2744 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R2731:2744 Coq.Numbers.HexadecimalN Unsigned to_of thm
+R2731:2744 Coq.Numbers.HexadecimalN Unsigned to_of thm
+prf 2759:2769 Signed of_int_norm
+binder 2771:2771 <> d:19
+R2796:2798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2775:2786 Coq.NArith.BinNat N of_hex_int def
+R2789:2792 Coq.Init.Hexadecimal <> norm def
+R2794:2794 Coq.Numbers.HexadecimalN <> d:19 var
+R2799:2810 Coq.NArith.BinNat N of_hex_int def
+R2812:2812 Coq.Numbers.HexadecimalN <> d:19 var
+R2831:2842 Coq.NArith.BinNat N of_hex_int def
+R2857:2871 Coq.Numbers.HexadecimalFacts <> norm_involutive thm
+R2857:2871 Coq.Numbers.HexadecimalFacts <> norm_involutive thm
+R2857:2871 Coq.Numbers.HexadecimalFacts <> norm_involutive thm
+prf 2886:2895 Signed of_inj_pos
+binder 2897:2897 <> d:20
+binder 2899:2900 <> d':21
+R2950:2953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2926:2928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2906:2917 Coq.NArith.BinNat N of_hex_int def
+R2920:2922 Coq.Init.Hexadecimal <> Pos constr
+R2924:2924 Coq.Numbers.HexadecimalN <> d:20 var
+R2929:2940 Coq.NArith.BinNat N of_hex_int def
+R2943:2945 Coq.Init.Hexadecimal <> Pos constr
+R2947:2948 Coq.Numbers.HexadecimalN <> d':21 var
+R2961:2963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2954:2958 Coq.Init.Hexadecimal <> unorm def
+R2960:2960 Coq.Numbers.HexadecimalN <> d:20 var
+R2964:2968 Coq.Init.Hexadecimal <> unorm def
+R2970:2971 Coq.Numbers.HexadecimalN <> d':21 var
+R2990:3001 Coq.NArith.BinNat N of_hex_int def
+R3031:3045 Coq.Numbers.HexadecimalN Unsigned of_inj thm
+R3031:3045 Coq.Numbers.HexadecimalN Unsigned of_inj thm
+R3057:3071 Coq.PArith.BinPos Pos of_hex_uint def
+R3078:3090 Coq.NArith.BinNat N of_hex_uint def
+R3057:3071 Coq.PArith.BinPos Pos of_hex_uint def
+R3078:3090 Coq.NArith.BinNat N of_hex_uint def
+R3078:3090 Coq.NArith.BinNat N of_hex_uint def
+R3115:3135 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3141:3161 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3115:3135 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3115:3135 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3141:3161 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3141:3161 Coq.Numbers.HexadecimalN Unsigned of_uint_norm thm
+R3174:3179 Coq.Numbers.HexadecimalN Signed <> mod

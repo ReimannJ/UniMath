@@ -1,0 +1,823 @@
+DIGEST 2f7a19b4ea8714c8c5ab6cece1211db6
+FCoq.Numbers.NatInt.NZParity
+R691:694 Coq.Bool.Bool <> <> lib
+R696:703 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R705:714 Coq.Numbers.NatInt.NZMulOrder <> <> lib
+R776:787 Coq.Numbers.NatInt.NZAxioms NZAxiomsSig' <> mod
+modtype 755:762 <> NZParity
+R755:762 Coq.Numbers.NatInt.NZParity A <> mod
+ax 809:812 NZParity even
+ax 814:816 NZParity odd
+R821:824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R820:820 Coq.Numbers.NatInt.NZParity A t defax
+R825:828 Coq.Init.Datatypes <> bool ind
+def 843:846 NZParity Even
+binder 848:848 <> n:3
+R853:859 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R861:862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 860:860 <> m:4
+R864:867 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R863:863 Coq.Numbers.NatInt.NZParity <> n:3 var
+R869:869 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R870:870 Coq.Numbers.NatInt.NZParity <> m:4 var
+def 885:887 NZParity Odd
+binder 889:889 <> n:5
+R894:900 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R902:903 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 901:901 <> m:6
+R905:908 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R904:904 Coq.Numbers.NatInt.NZParity <> n:5 var
+R912:912 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R910:910 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R911:911 Coq.Numbers.NatInt.NZParity <> m:6 var
+ax 923:931 NZParity even_spec
+binder 942:942 <> n:7
+R958:962 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R951:953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R945:948 Coq.Numbers.NatInt.NZParity NZParity even defax
+R950:950 Coq.Numbers.NatInt.NZParity <> n:7 var
+R954:957 Coq.Init.Datatypes <> true constr
+R963:966 Coq.Numbers.NatInt.NZParity NZParity Even def
+R968:968 Coq.Numbers.NatInt.NZParity <> n:7 var
+ax 978:985 NZParity odd_spec
+binder 996:996 <> n:9
+R1011:1015 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1004:1006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R999:1001 Coq.Numbers.NatInt.NZParity NZParity odd defax
+R1003:1003 Coq.Numbers.NatInt.NZParity <> n:9 var
+R1007:1010 Coq.Init.Datatypes <> true constr
+R1016:1018 Coq.Numbers.NatInt.NZParity NZParity Odd def
+R1020:1020 Coq.Numbers.NatInt.NZParity <> n:9 var
+R1027:1034 Coq.Numbers.NatInt.NZParity NZParity <> modtype
+R1076:1090 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1106:1113 Coq.Numbers.NatInt.NZParity NZParity <> mod
+R1115:1115 Coq.Numbers.NatInt.NZParity A <> modtype
+R1131:1144 Coq.Numbers.NatInt.NZMulOrder NZMulOrderProp <> mod
+R1146:1146 Coq.Numbers.NatInt.NZParity A <> modtype
+modtype 1050:1061 <> NZParityProp
+R1050:1061 Coq.Numbers.NatInt.NZParity A <> mod
+R1050:1061 Coq.Numbers.NatInt.NZParity B <> mod
+R1050:1061 Coq.Numbers.NatInt.NZParity C <> mod
+inst 1188:1194 NZParityProp Even_wd
+R1198:1203 Coq.Classes.Morphisms <> Proper class
+R1216:1219 Coq.Numbers.NatInt.NZParity B Even def
+R1208:1210 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1206:1207 Coq.Numbers.NatInt.NZParity A eq defax
+R1211:1213 Coq.Init.Logic <> iff def
+R1236:1239 Coq.Numbers.NatInt.NZParity B Even def
+inst 1281:1286 NZParityProp Odd_wd
+R1290:1295 Coq.Classes.Morphisms <> Proper class
+R1308:1310 Coq.Numbers.NatInt.NZParity B Odd def
+R1300:1302 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1298:1299 Coq.Numbers.NatInt.NZParity A eq defax
+R1303:1305 Coq.Init.Logic <> iff def
+R1327:1329 Coq.Numbers.NatInt.NZParity B Odd def
+inst 1371:1377 NZParityProp even_wd
+R1381:1386 Coq.Classes.Morphisms <> Proper class
+R1404:1407 Coq.Numbers.NatInt.NZParity B even defax
+R1391:1393 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1389:1390 Coq.Numbers.NatInt.NZParity A eq defax
+R1394:1401 Coq.Init.Logic <> eq ind
+R1442:1455 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1460:1468 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R1442:1455 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1442:1455 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1460:1468 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R1460:1468 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R1460:1468 Coq.Numbers.NatInt.NZParity B even_spec prfax
+inst 1509:1514 NZParityProp odd_wd
+R1518:1523 Coq.Classes.Morphisms <> Proper class
+R1541:1543 Coq.Numbers.NatInt.NZParity B odd defax
+R1528:1530 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1526:1527 Coq.Numbers.NatInt.NZParity A eq defax
+R1531:1538 Coq.Init.Logic <> eq ind
+R1578:1591 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1596:1603 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R1578:1591 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1578:1591 Coq.Bool.Bool <> eq_iff_eq_true thm
+R1596:1603 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R1596:1603 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R1596:1603 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+prf 1676:1686 NZParityProp Even_or_Odd
+binder 1697:1697 <> x:11
+R1706:1709 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1700:1703 Coq.Numbers.NatInt.NZParity B Even def
+R1705:1705 Coq.Numbers.NatInt.NZParity <> x:11 var
+R1710:1712 Coq.Numbers.NatInt.NZParity B Odd def
+R1714:1714 Coq.Numbers.NatInt.NZParity <> x:11 var
+R1888:1888 Coq.Numbers.NatInt.NZParity A S abbrev
+R1888:1888 Coq.Numbers.NatInt.NZParity A S abbrev
+R1949:1955 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1957:1958 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1956:1956 <> z:12
+R1960:1960 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1959:1959 Coq.Numbers.NatInt.NZParity <> z:12 var
+R1949:1955 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1957:1958 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1956:1956 <> z:13
+R1960:1960 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1959:1959 Coq.Numbers.NatInt.NZParity <> z:13 var
+R1982:1992 Coq.Numbers.NatInt.NZParity C lt_ge_cases thm
+R1982:1992 Coq.Numbers.NatInt.NZParity C lt_ge_cases thm
+R2056:2064 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2056:2064 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2056:2064 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2099:2105 Coq.Numbers.NatInt.NZParity C add_0_r thm
+R2099:2105 Coq.Numbers.NatInt.NZParity C add_0_r thm
+R2099:2105 Coq.Numbers.NatInt.NZParity C add_0_r thm
+R2126:2138 Coq.Numbers.NatInt.NZParity C add_le_mono_l thm
+R2126:2138 Coq.Numbers.NatInt.NZParity C add_le_mono_l thm
+R2188:2201 Coq.Numbers.NatInt.NZParity C lt_exists_pred thm
+R2188:2201 Coq.Numbers.NatInt.NZParity C lt_exists_pred thm
+R2259:2269 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2259:2269 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2259:2269 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2326:2336 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2326:2336 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+R2326:2336 Coq.Numbers.NatInt.NZParity C succ_inj_wd thm
+prf 2375:2386 NZParityProp double_below
+binder 2397:2397 <> n:14
+binder 2399:2399 <> m:15
+R2406:2409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2403:2404 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2402:2402 Coq.Numbers.NatInt.NZParity <> n:14 var
+R2405:2405 Coq.Numbers.NatInt.NZParity <> m:15 var
+R2413:2415 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2411:2411 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2412:2412 Coq.Numbers.NatInt.NZParity <> n:14 var
+R2419:2419 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2417:2417 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2418:2418 Coq.Numbers.NatInt.NZParity <> m:15 var
+R2455:2463 Coq.Numbers.NatInt.NZParity A lt_succ_r prfax
+R2455:2463 Coq.Numbers.NatInt.NZParity A lt_succ_r prfax
+R2476:2486 Coq.Numbers.NatInt.NZParity C add_le_mono thm
+R2476:2486 Coq.Numbers.NatInt.NZParity C add_le_mono thm
+prf 2501:2512 NZParityProp double_above
+binder 2523:2523 <> n:16
+binder 2525:2525 <> m:17
+R2531:2534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2529:2529 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2528:2528 Coq.Numbers.NatInt.NZParity <> n:16 var
+R2530:2530 Coq.Numbers.NatInt.NZParity <> m:17 var
+R2540:2542 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2538:2538 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2536:2536 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2537:2537 Coq.Numbers.NatInt.NZParity <> n:16 var
+R2544:2544 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2545:2545 Coq.Numbers.NatInt.NZParity <> m:17 var
+R2586:2594 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2600:2609 Coq.Numbers.NatInt.NZParity A add_succ_l prfax
+R2615:2624 Coq.Numbers.NatInt.NZParity C add_succ_r thm
+R2586:2594 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2586:2594 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2600:2609 Coq.Numbers.NatInt.NZParity A add_succ_l prfax
+R2600:2609 Coq.Numbers.NatInt.NZParity A add_succ_l prfax
+R2615:2624 Coq.Numbers.NatInt.NZParity C add_succ_r thm
+R2615:2624 Coq.Numbers.NatInt.NZParity C add_succ_r thm
+R2634:2644 Coq.Numbers.NatInt.NZParity C add_le_mono thm
+R2657:2665 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2634:2644 Coq.Numbers.NatInt.NZParity C add_le_mono thm
+R2657:2665 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+R2657:2665 Coq.Numbers.NatInt.NZParity C le_succ_l thm
+prf 2680:2693 NZParityProp Even_Odd_False
+binder 2704:2704 <> x:18
+R2713:2716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2707:2710 Coq.Numbers.NatInt.NZParity B Even def
+R2712:2712 Coq.Numbers.NatInt.NZParity <> x:18 var
+R2722:2725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2717:2719 Coq.Numbers.NatInt.NZParity B Odd def
+R2721:2721 Coq.Numbers.NatInt.NZParity <> x:18 var
+R2726:2730 Coq.Init.Logic <> False ind
+R2797:2807 Coq.Numbers.NatInt.NZParity C le_gt_cases thm
+R2797:2807 Coq.Numbers.NatInt.NZParity C le_gt_cases thm
+R2840:2851 Coq.Numbers.NatInt.NZParity NZParityProp double_below thm
+R2840:2851 Coq.Numbers.NatInt.NZParity NZParityProp double_below thm
+R2883:2894 Coq.Numbers.NatInt.NZParity NZParityProp double_above thm
+R2883:2894 Coq.Numbers.NatInt.NZParity NZParityProp double_above thm
+prf 2924:2935 NZParityProp orb_even_odd
+binder 2946:2946 <> n:19
+R2969:2971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2949:2951 Coq.Init.Datatypes <> orb def
+R2963:2965 Coq.Numbers.NatInt.NZParity B odd defax
+R2967:2967 Coq.Numbers.NatInt.NZParity <> n:19 var
+R2954:2957 Coq.Numbers.NatInt.NZParity B even defax
+R2959:2959 Coq.Numbers.NatInt.NZParity <> n:19 var
+R2972:2975 Coq.Init.Datatypes <> true constr
+R3007:3017 Coq.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3007:3017 Coq.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3046:3054 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3046:3054 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3046:3054 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3091:3098 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3091:3098 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3091:3098 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3121:3130 Coq.Bool.Bool <> orb_true_r thm
+R3121:3130 Coq.Bool.Bool <> orb_true_r thm
+R3121:3130 Coq.Bool.Bool <> orb_true_r thm
+prf 3145:3152 NZParityProp negb_odd
+binder 3163:3163 <> n:20
+R3178:3180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3166:3169 Coq.Init.Datatypes <> negb def
+R3172:3174 Coq.Numbers.NatInt.NZParity B odd defax
+R3176:3176 Coq.Numbers.NatInt.NZParity <> n:20 var
+R3181:3184 Coq.Numbers.NatInt.NZParity B even defax
+R3186:3186 Coq.Numbers.NatInt.NZParity <> n:20 var
+R3220:3230 Coq.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3236:3249 Coq.Numbers.NatInt.NZParity NZParityProp Even_Odd_False thm
+R3220:3230 Coq.Numbers.NatInt.NZParity NZParityProp Even_or_Odd thm
+R3236:3249 Coq.Numbers.NatInt.NZParity NZParityProp Even_Odd_False thm
+R3267:3275 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3281:3288 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3267:3275 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3267:3275 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3281:3288 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3281:3288 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3302:3304 Coq.Numbers.NatInt.NZParity B odd defax
+R3311:3314 Coq.Numbers.NatInt.NZParity B even defax
+R3302:3304 Coq.Numbers.NatInt.NZParity B odd defax
+R3311:3314 Coq.Numbers.NatInt.NZParity B even defax
+R3311:3314 Coq.Numbers.NatInt.NZParity B even defax
+prf 3351:3359 NZParityProp negb_even
+binder 3370:3370 <> n:21
+R3386:3388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3373:3376 Coq.Init.Datatypes <> negb def
+R3379:3382 Coq.Numbers.NatInt.NZParity B even defax
+R3384:3384 Coq.Numbers.NatInt.NZParity <> n:21 var
+R3389:3391 Coq.Numbers.NatInt.NZParity B odd defax
+R3393:3393 Coq.Numbers.NatInt.NZParity <> n:21 var
+R3423:3430 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3423:3430 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3423:3430 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3439:3453 Coq.Bool.Bool <> negb_involutive thm
+R3439:3453 Coq.Bool.Bool <> negb_involutive thm
+prf 3486:3491 NZParityProp even_0
+R3501:3503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3495:3498 Coq.Numbers.NatInt.NZParity B even defax
+R3504:3507 Coq.Init.Datatypes <> true constr
+R3526:3534 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3526:3534 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3526:3534 Coq.Numbers.NatInt.NZParity B even_spec prfax
+prf 3572:3576 NZParityProp odd_0
+R3585:3587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3580:3582 Coq.Numbers.NatInt.NZParity B odd defax
+R3588:3592 Coq.Init.Datatypes <> false constr
+R3618:3626 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3629:3634 Coq.Numbers.NatInt.NZParity NZParityProp even_0 thm
+R3618:3626 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3618:3626 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3629:3634 Coq.Numbers.NatInt.NZParity NZParityProp even_0 thm
+R3629:3634 Coq.Numbers.NatInt.NZParity NZParityProp even_0 thm
+prf 3649:3653 NZParityProp odd_1
+R3662:3664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3657:3659 Coq.Numbers.NatInt.NZParity B odd defax
+R3665:3668 Coq.Init.Datatypes <> true constr
+R3687:3694 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3687:3694 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R3687:3694 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+prf 3733:3738 NZParityProp even_1
+R3748:3750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3742:3745 Coq.Numbers.NatInt.NZParity B even defax
+R3751:3755 Coq.Init.Datatypes <> false constr
+R3781:3788 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3791:3795 Coq.Numbers.NatInt.NZParity NZParityProp odd_1 thm
+R3781:3788 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3781:3788 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R3791:3795 Coq.Numbers.NatInt.NZParity NZParityProp odd_1 thm
+R3791:3795 Coq.Numbers.NatInt.NZParity NZParityProp odd_1 thm
+prf 3810:3815 NZParityProp even_2
+R3825:3827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3819:3822 Coq.Numbers.NatInt.NZParity B even defax
+R3828:3831 Coq.Init.Datatypes <> true constr
+R3850:3858 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3850:3858 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R3850:3858 Coq.Numbers.NatInt.NZParity B even_spec prfax
+prf 3897:3901 NZParityProp odd_2
+R3910:3912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3905:3907 Coq.Numbers.NatInt.NZParity B odd defax
+R3913:3917 Coq.Init.Datatypes <> false constr
+R3943:3951 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3954:3959 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+R3943:3951 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3943:3951 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R3954:3959 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+R3954:3959 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+prf 4003:4010 NZParityProp Odd_succ
+binder 4021:4021 <> n:22
+R4033:4037 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4024:4026 Coq.Numbers.NatInt.NZParity B Odd def
+R4029:4029 Coq.Numbers.NatInt.NZParity A S abbrev
+R4031:4031 Coq.Numbers.NatInt.NZParity <> n:22 var
+R4038:4041 Coq.Numbers.NatInt.NZParity B Even def
+R4043:4043 Coq.Numbers.NatInt.NZParity <> n:22 var
+R4094:4101 Coq.Numbers.NatInt.NZParity C succ_inj thm
+R4094:4101 Coq.Numbers.NatInt.NZParity C succ_inj thm
+R4116:4122 Coq.Numbers.NatInt.NZParity C add_1_r thm
+R4116:4122 Coq.Numbers.NatInt.NZParity C add_1_r thm
+R4116:4122 Coq.Numbers.NatInt.NZParity C add_1_r thm
+R4151:4157 Coq.Numbers.NatInt.NZParity C add_1_r thm
+R4151:4157 Coq.Numbers.NatInt.NZParity C add_1_r thm
+R4151:4157 Coq.Numbers.NatInt.NZParity C add_1_r thm
+prf 4185:4192 NZParityProp odd_succ
+binder 4203:4203 <> n:23
+R4215:4217 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4206:4208 Coq.Numbers.NatInt.NZParity B odd defax
+R4211:4211 Coq.Numbers.NatInt.NZParity A S abbrev
+R4213:4213 Coq.Numbers.NatInt.NZParity <> n:23 var
+R4218:4221 Coq.Numbers.NatInt.NZParity B even defax
+R4223:4223 Coq.Numbers.NatInt.NZParity <> n:23 var
+R4248:4261 Coq.Bool.Bool <> eq_iff_eq_true thm
+R4248:4261 Coq.Bool.Bool <> eq_iff_eq_true thm
+R4272:4280 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4283:4290 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R4272:4280 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4272:4280 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4283:4290 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R4283:4290 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R4300:4307 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4300:4307 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+prf 4322:4330 NZParityProp even_succ
+binder 4341:4341 <> n:24
+R4354:4356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4344:4347 Coq.Numbers.NatInt.NZParity B even defax
+R4350:4350 Coq.Numbers.NatInt.NZParity A S abbrev
+R4352:4352 Coq.Numbers.NatInt.NZParity <> n:24 var
+R4357:4359 Coq.Numbers.NatInt.NZParity B odd defax
+R4361:4361 Coq.Numbers.NatInt.NZParity <> n:24 var
+R4395:4402 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R4405:4412 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4415:4423 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R4395:4402 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R4395:4402 Coq.Numbers.NatInt.NZParity NZParityProp negb_odd thm
+R4405:4412 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4405:4412 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4415:4423 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R4415:4423 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+prf 4438:4446 NZParityProp Even_succ
+binder 4457:4457 <> n:25
+R4470:4474 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4460:4463 Coq.Numbers.NatInt.NZParity B Even def
+R4466:4466 Coq.Numbers.NatInt.NZParity A S abbrev
+R4468:4468 Coq.Numbers.NatInt.NZParity <> n:25 var
+R4475:4477 Coq.Numbers.NatInt.NZParity B Odd def
+R4479:4479 Coq.Numbers.NatInt.NZParity <> n:25 var
+R4513:4521 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4524:4532 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4535:4542 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R4513:4521 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4513:4521 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R4524:4532 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4524:4532 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4535:4542 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R4535:4542 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+prf 4599:4612 NZParityProp Even_succ_succ
+binder 4623:4623 <> n:26
+R4640:4644 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4626:4629 Coq.Numbers.NatInt.NZParity B Even def
+R4632:4632 Coq.Numbers.NatInt.NZParity A S abbrev
+R4635:4635 Coq.Numbers.NatInt.NZParity A S abbrev
+R4637:4637 Coq.Numbers.NatInt.NZParity <> n:26 var
+R4645:4648 Coq.Numbers.NatInt.NZParity B Even def
+R4650:4650 Coq.Numbers.NatInt.NZParity <> n:26 var
+R4681:4689 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4692:4699 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4681:4689 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4681:4689 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4692:4699 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4692:4699 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+prf 4714:4726 NZParityProp Odd_succ_succ
+binder 4737:4737 <> n:27
+R4753:4757 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4740:4742 Coq.Numbers.NatInt.NZParity B Odd def
+R4745:4745 Coq.Numbers.NatInt.NZParity A S abbrev
+R4748:4748 Coq.Numbers.NatInt.NZParity A S abbrev
+R4750:4750 Coq.Numbers.NatInt.NZParity <> n:27 var
+R4758:4760 Coq.Numbers.NatInt.NZParity B Odd def
+R4762:4762 Coq.Numbers.NatInt.NZParity <> n:27 var
+R4793:4800 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4803:4811 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4793:4800 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4793:4800 Coq.Numbers.NatInt.NZParity NZParityProp Odd_succ thm
+R4803:4811 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+R4803:4811 Coq.Numbers.NatInt.NZParity NZParityProp Even_succ thm
+prf 4826:4839 NZParityProp even_succ_succ
+binder 4850:4850 <> n:28
+R4867:4869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4853:4856 Coq.Numbers.NatInt.NZParity B even defax
+R4859:4859 Coq.Numbers.NatInt.NZParity A S abbrev
+R4862:4862 Coq.Numbers.NatInt.NZParity A S abbrev
+R4864:4864 Coq.Numbers.NatInt.NZParity <> n:28 var
+R4870:4873 Coq.Numbers.NatInt.NZParity B even defax
+R4875:4875 Coq.Numbers.NatInt.NZParity <> n:28 var
+R4906:4914 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4917:4924 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4906:4914 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4906:4914 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R4917:4924 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R4917:4924 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+prf 4939:4951 NZParityProp odd_succ_succ
+binder 4962:4962 <> n:29
+R4978:4980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4965:4967 Coq.Numbers.NatInt.NZParity B odd defax
+R4970:4970 Coq.Numbers.NatInt.NZParity A S abbrev
+R4973:4973 Coq.Numbers.NatInt.NZParity A S abbrev
+R4975:4975 Coq.Numbers.NatInt.NZParity <> n:29 var
+R4981:4983 Coq.Numbers.NatInt.NZParity B odd defax
+R4985:4985 Coq.Numbers.NatInt.NZParity <> n:29 var
+R5016:5023 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R5026:5034 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R5016:5023 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R5016:5023 Coq.Numbers.NatInt.NZParity NZParityProp odd_succ thm
+R5026:5034 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+R5026:5034 Coq.Numbers.NatInt.NZParity NZParityProp even_succ thm
+prf 5077:5084 NZParityProp even_add
+binder 5095:5095 <> n:30
+binder 5097:5097 <> m:31
+R5110:5112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5100:5103 Coq.Numbers.NatInt.NZParity B even defax
+R5107:5107 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5106:5106 Coq.Numbers.NatInt.NZParity <> n:30 var
+R5108:5108 Coq.Numbers.NatInt.NZParity <> m:31 var
+R5113:5120 Coq.Bool.Bool <> eqb def
+R5123:5126 Coq.Numbers.NatInt.NZParity B even defax
+R5128:5128 Coq.Numbers.NatInt.NZParity <> n:30 var
+R5132:5135 Coq.Numbers.NatInt.NZParity B even defax
+R5137:5137 Coq.Numbers.NatInt.NZParity <> m:31 var
+R5171:5174 Coq.Numbers.NatInt.NZParity B even defax
+R5189:5192 Coq.Numbers.NatInt.NZParity B even defax
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5171:5174 Coq.Numbers.NatInt.NZParity B even defax
+R5189:5192 Coq.Numbers.NatInt.NZParity B even defax
+R5189:5192 Coq.Numbers.NatInt.NZParity B even defax
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5212:5224 Coq.Bool.Bool <> negb_true_iff thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5228:5236 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5240:5247 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5251:5259 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5301:5301 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5301:5301 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5319:5333 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5319:5333 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5319:5333 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5357:5357 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5357:5357 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5375:5389 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5400:5408 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R5375:5389 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5375:5389 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5400:5408 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R5400:5408 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R5424:5424 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5424:5424 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5442:5456 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5467:5478 Coq.Numbers.NatInt.NZParity C add_shuffle0 thm
+R5442:5456 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5442:5456 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R5467:5478 Coq.Numbers.NatInt.NZParity C add_shuffle0 thm
+R5467:5478 Coq.Numbers.NatInt.NZParity C add_shuffle0 thm
+R5497:5497 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5494:5494 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5497:5497 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5494:5494 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5539:5550 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+R5539:5550 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+R5539:5550 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+prf 5565:5571 NZParityProp odd_add
+binder 5582:5582 <> n:32
+binder 5584:5584 <> m:33
+R5596:5598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5587:5589 Coq.Numbers.NatInt.NZParity B odd defax
+R5593:5593 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5592:5592 Coq.Numbers.NatInt.NZParity <> n:32 var
+R5594:5594 Coq.Numbers.NatInt.NZParity <> m:33 var
+R5599:5602 Coq.Init.Datatypes <> xorb def
+R5613:5615 Coq.Numbers.NatInt.NZParity B odd defax
+R5617:5617 Coq.Numbers.NatInt.NZParity <> m:33 var
+R5605:5607 Coq.Numbers.NatInt.NZParity B odd defax
+R5609:5609 Coq.Numbers.NatInt.NZParity <> n:32 var
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5653:5661 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R5672:5679 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R5672:5679 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R5672:5679 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R5697:5700 Coq.Numbers.NatInt.NZParity B even defax
+R5707:5710 Coq.Numbers.NatInt.NZParity B even defax
+R5697:5700 Coq.Numbers.NatInt.NZParity B even defax
+R5707:5710 Coq.Numbers.NatInt.NZParity B even defax
+R5707:5710 Coq.Numbers.NatInt.NZParity B even defax
+prf 5762:5769 NZParityProp even_mul
+binder 5780:5780 <> n:34
+binder 5782:5782 <> m:35
+R5799:5801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5785:5788 Coq.Numbers.NatInt.NZParity B even defax
+R5791:5793 Coq.Numbers.NatInt.NZParity A mul defax
+R5795:5795 Coq.Numbers.NatInt.NZParity <> n:34 var
+R5797:5797 Coq.Numbers.NatInt.NZParity <> m:35 var
+R5808:5811 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R5802:5805 Coq.Numbers.NatInt.NZParity B even defax
+R5807:5807 Coq.Numbers.NatInt.NZParity <> n:34 var
+R5812:5815 Coq.Numbers.NatInt.NZParity B even defax
+R5817:5817 Coq.Numbers.NatInt.NZParity <> m:35 var
+R5850:5853 Coq.Numbers.NatInt.NZParity B even defax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5850:5853 Coq.Numbers.NatInt.NZParity B even defax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5875:5883 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5915:5915 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5915:5915 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R5936:5944 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R5936:5944 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R5936:5944 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R5959:5962 Coq.Numbers.NatInt.NZParity B even defax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5959:5962 Coq.Numbers.NatInt.NZParity B even defax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R5984:5992 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6025:6025 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6025:6025 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6048:6056 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6060:6067 Coq.Numbers.NatInt.NZParity C mul_comm thm
+R6048:6056 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6048:6056 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6048:6056 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6048:6056 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6060:6067 Coq.Numbers.NatInt.NZParity C mul_comm thm
+R6060:6067 Coq.Numbers.NatInt.NZParity C mul_comm thm
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6111:6123 Coq.Bool.Bool <> negb_true_iff thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6127:6135 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6139:6146 Coq.Numbers.NatInt.NZParity B odd_spec prfax
+R6197:6197 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6193:6194 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6190:6190 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6188:6188 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6197:6197 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6193:6194 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6190:6190 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6188:6188 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6242:6256 Coq.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6260:6266 Coq.Numbers.NatInt.NZParity C mul_1_l thm
+R6270:6276 Coq.Numbers.NatInt.NZParity C mul_1_r thm
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6224:6238 Coq.Numbers.NatInt.NZParity C mul_add_distr_l thm
+R6242:6256 Coq.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6242:6256 Coq.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6242:6256 Coq.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6242:6256 Coq.Numbers.NatInt.NZParity C mul_add_distr_r thm
+R6260:6266 Coq.Numbers.NatInt.NZParity C mul_1_l thm
+R6260:6266 Coq.Numbers.NatInt.NZParity C mul_1_l thm
+R6260:6266 Coq.Numbers.NatInt.NZParity C mul_1_l thm
+R6260:6266 Coq.Numbers.NatInt.NZParity C mul_1_l thm
+R6270:6276 Coq.Numbers.NatInt.NZParity C mul_1_r thm
+R6270:6276 Coq.Numbers.NatInt.NZParity C mul_1_r thm
+R6270:6276 Coq.Numbers.NatInt.NZParity C mul_1_r thm
+R6296:6307 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+R6310:6318 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6296:6307 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+R6296:6307 Coq.Numbers.NatInt.NZParity C add_shuffle1 thm
+R6310:6318 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R6310:6318 Coq.Numbers.NatInt.NZParity C add_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+R6322:6330 Coq.Numbers.NatInt.NZParity C mul_assoc thm
+prf 6345:6351 NZParityProp odd_mul
+binder 6362:6362 <> n:36
+binder 6364:6364 <> m:37
+R6380:6382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6367:6369 Coq.Numbers.NatInt.NZParity B odd defax
+R6372:6374 Coq.Numbers.NatInt.NZParity A mul defax
+R6376:6376 Coq.Numbers.NatInt.NZParity <> n:36 var
+R6378:6378 Coq.Numbers.NatInt.NZParity <> m:37 var
+R6388:6391 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6383:6385 Coq.Numbers.NatInt.NZParity B odd defax
+R6387:6387 Coq.Numbers.NatInt.NZParity <> n:36 var
+R6392:6394 Coq.Numbers.NatInt.NZParity B odd defax
+R6396:6396 Coq.Numbers.NatInt.NZParity <> m:37 var
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6431:6439 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6450:6457 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R6450:6457 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R6450:6457 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R6475:6478 Coq.Numbers.NatInt.NZParity B even defax
+R6485:6488 Coq.Numbers.NatInt.NZParity B even defax
+R6475:6478 Coq.Numbers.NatInt.NZParity B even defax
+R6485:6488 Coq.Numbers.NatInt.NZParity B even defax
+R6485:6488 Coq.Numbers.NatInt.NZParity B even defax
+prf 6559:6571 NZParityProp even_add_even
+binder 6582:6582 <> n:38
+binder 6584:6584 <> m:39
+R6593:6596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6587:6590 Coq.Numbers.NatInt.NZParity B Even def
+R6592:6592 Coq.Numbers.NatInt.NZParity <> m:39 var
+R6607:6609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6597:6600 Coq.Numbers.NatInt.NZParity B even defax
+R6604:6604 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6603:6603 Coq.Numbers.NatInt.NZParity <> n:38 var
+R6605:6605 Coq.Numbers.NatInt.NZParity <> m:39 var
+R6610:6613 Coq.Numbers.NatInt.NZParity B even defax
+R6615:6615 Coq.Numbers.NatInt.NZParity <> n:38 var
+R6647:6655 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6647:6655 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6673:6680 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R6673:6680 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R6673:6680 Coq.Numbers.NatInt.NZParity NZParityProp even_add thm
+R6701:6704 Coq.Numbers.NatInt.NZParity B even defax
+R6701:6704 Coq.Numbers.NatInt.NZParity B even defax
+prf 6722:6733 NZParityProp odd_add_even
+binder 6744:6744 <> n:40
+binder 6746:6746 <> m:41
+R6755:6758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6749:6752 Coq.Numbers.NatInt.NZParity B Even def
+R6754:6754 Coq.Numbers.NatInt.NZParity <> m:41 var
+R6768:6770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6759:6761 Coq.Numbers.NatInt.NZParity B odd defax
+R6765:6765 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6764:6764 Coq.Numbers.NatInt.NZParity <> n:40 var
+R6766:6766 Coq.Numbers.NatInt.NZParity <> m:41 var
+R6771:6773 Coq.Numbers.NatInt.NZParity B odd defax
+R6775:6775 Coq.Numbers.NatInt.NZParity <> n:40 var
+R6807:6815 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6807:6815 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6833:6839 Coq.Numbers.NatInt.NZParity NZParityProp odd_add thm
+R6846:6854 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6833:6839 Coq.Numbers.NatInt.NZParity NZParityProp odd_add thm
+R6833:6839 Coq.Numbers.NatInt.NZParity NZParityProp odd_add thm
+R6846:6854 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6846:6854 Coq.Numbers.NatInt.NZParity NZParityProp negb_even thm
+R6878:6880 Coq.Numbers.NatInt.NZParity B odd defax
+R6878:6880 Coq.Numbers.NatInt.NZParity B odd defax
+prf 6898:6914 NZParityProp even_add_mul_even
+binder 6925:6925 <> n:42
+binder 6927:6927 <> m:43
+binder 6929:6929 <> p:44
+R6938:6941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6932:6935 Coq.Numbers.NatInt.NZParity B Even def
+R6937:6937 Coq.Numbers.NatInt.NZParity <> m:43 var
+R6954:6956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6942:6945 Coq.Numbers.NatInt.NZParity B even defax
+R6949:6949 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R6948:6948 Coq.Numbers.NatInt.NZParity <> n:42 var
+R6951:6951 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R6950:6950 Coq.Numbers.NatInt.NZParity <> m:43 var
+R6952:6952 Coq.Numbers.NatInt.NZParity <> p:44 var
+R6957:6960 Coq.Numbers.NatInt.NZParity B even defax
+R6962:6962 Coq.Numbers.NatInt.NZParity <> n:42 var
+R6996:7004 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R6996:7004 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7020:7032 Coq.Numbers.NatInt.NZParity NZParityProp even_add_even thm
+R7020:7032 Coq.Numbers.NatInt.NZParity NZParityProp even_add_even thm
+R7041:7049 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7041:7049 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7064:7071 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R7064:7071 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R7064:7071 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+prf 7090:7105 NZParityProp odd_add_mul_even
+binder 7116:7116 <> n:45
+binder 7118:7118 <> m:46
+binder 7120:7120 <> p:47
+R7129:7132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7123:7126 Coq.Numbers.NatInt.NZParity B Even def
+R7128:7128 Coq.Numbers.NatInt.NZParity <> m:46 var
+R7144:7146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7133:7135 Coq.Numbers.NatInt.NZParity B odd defax
+R7139:7139 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7138:7138 Coq.Numbers.NatInt.NZParity <> n:45 var
+R7141:7141 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7140:7140 Coq.Numbers.NatInt.NZParity <> m:46 var
+R7142:7142 Coq.Numbers.NatInt.NZParity <> p:47 var
+R7147:7149 Coq.Numbers.NatInt.NZParity B odd defax
+R7151:7151 Coq.Numbers.NatInt.NZParity <> n:45 var
+R7185:7193 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7185:7193 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7209:7220 Coq.Numbers.NatInt.NZParity NZParityProp odd_add_even thm
+R7209:7220 Coq.Numbers.NatInt.NZParity NZParityProp odd_add_even thm
+R7229:7237 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7229:7237 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7252:7259 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R7252:7259 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+R7252:7259 Coq.Numbers.NatInt.NZParity NZParityProp even_mul thm
+prf 7278:7291 NZParityProp even_add_mul_2
+binder 7302:7302 <> n:48
+binder 7304:7304 <> m:49
+R7319:7321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7307:7310 Coq.Numbers.NatInt.NZParity B even defax
+R7314:7314 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7313:7313 Coq.Numbers.NatInt.NZParity <> n:48 var
+R7316:7316 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7317:7317 Coq.Numbers.NatInt.NZParity <> m:49 var
+R7322:7325 Coq.Numbers.NatInt.NZParity B even defax
+R7327:7327 Coq.Numbers.NatInt.NZParity <> n:48 var
+R7352:7368 Coq.Numbers.NatInt.NZParity NZParityProp even_add_mul_even thm
+R7352:7368 Coq.Numbers.NatInt.NZParity NZParityProp even_add_mul_even thm
+R7377:7385 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7388:7393 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+R7377:7385 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7388:7393 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+prf 7408:7420 NZParityProp odd_add_mul_2
+binder 7431:7431 <> n:50
+binder 7433:7433 <> m:51
+R7447:7449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7436:7438 Coq.Numbers.NatInt.NZParity B odd defax
+R7442:7442 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R7441:7441 Coq.Numbers.NatInt.NZParity <> n:50 var
+R7444:7444 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R7445:7445 Coq.Numbers.NatInt.NZParity <> m:51 var
+R7450:7452 Coq.Numbers.NatInt.NZParity B odd defax
+R7454:7454 Coq.Numbers.NatInt.NZParity <> n:50 var
+R7479:7494 Coq.Numbers.NatInt.NZParity NZParityProp odd_add_mul_even thm
+R7479:7494 Coq.Numbers.NatInt.NZParity NZParityProp odd_add_mul_even thm
+R7503:7511 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7514:7519 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+R7503:7511 Coq.Numbers.NatInt.NZParity B even_spec prfax
+R7514:7519 Coq.Numbers.NatInt.NZParity NZParityProp even_2 thm
+R7532:7543 Coq.Numbers.NatInt.NZParity NZParityProp <> modtype

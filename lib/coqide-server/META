@@ -1,0 +1,20 @@
+package "core" (
+  directory = "core"
+  version = "dev"
+  description = ""
+  requires = "coq-core.boot coq-core.lib"
+  archive(byte) = "core.cma"
+  archive(native) = "core.cmxa"
+  plugin(byte) = "core.cma"
+  plugin(native) = "core.cmxs"
+)
+package "protocol" (
+  directory = "protocol"
+  version = "dev"
+  description = ""
+  requires = "coq-core.lib"
+  archive(byte) = "protocol.cma"
+  archive(native) = "protocol.cmxa"
+  plugin(byte) = "protocol.cma"
+  plugin(native) = "protocol.cmxs"
+)

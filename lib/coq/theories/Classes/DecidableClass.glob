@@ -1,0 +1,172 @@
+DIGEST a7cb0deea7ebfaaf7095b80b01a67ac2
+FCoq.Classes.DecidableClass
+rec 824:832 <> Decidable
+proj 852:868 <> Decidable_witness
+proj 880:893 <> Decidable_spec
+binder 835:835 <> P:1
+R872:875 Coq.Init.Datatypes <> bool ind
+R921:925 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R914:916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R897:913 Coq.Classes.DecidableClass <> Decidable_witness:3 meth
+R917:920 Coq.Init.Datatypes <> true constr
+R926:926 Coq.Classes.DecidableClass <> P:1 var
+prf 1002:1016 <> Decidable_sound
+binder 1027:1027 <> P:5
+R1034:1042 Coq.Classes.DecidableClass <> Decidable class
+R1044:1044 Coq.Classes.DecidableClass <> P:5 var
+binder 1030:1030 <> H:6
+R1074:1077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1067:1069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1050:1066 Coq.Classes.DecidableClass <> Decidable_witness meth
+R1070:1073 Coq.Init.Datatypes <> true constr
+R1078:1078 Coq.Classes.DecidableClass <> P:5 var
+R1112:1125 Coq.Classes.DecidableClass <> Decidable_spec meth
+R1112:1125 Coq.Classes.DecidableClass <> Decidable_spec meth
+prf 1152:1169 <> Decidable_complete
+binder 1180:1180 <> P:7
+R1187:1195 Coq.Classes.DecidableClass <> Decidable class
+R1197:1197 Coq.Classes.DecidableClass <> P:7 var
+binder 1183:1183 <> H:8
+R1204:1207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1203:1203 Coq.Classes.DecidableClass <> P:7 var
+R1225:1227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1208:1224 Coq.Classes.DecidableClass <> Decidable_witness meth
+R1228:1231 Coq.Init.Datatypes <> true constr
+R1265:1278 Coq.Classes.DecidableClass <> Decidable_spec meth
+R1265:1278 Coq.Classes.DecidableClass <> Decidable_spec meth
+prf 1305:1323 <> Decidable_sound_alt
+binder 1334:1334 <> P:9
+R1341:1349 Coq.Classes.DecidableClass <> Decidable class
+R1351:1351 Coq.Classes.DecidableClass <> P:9 var
+binder 1337:1337 <> H:10
+R1361:1364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1358:1359 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1360:1360 Coq.Classes.DecidableClass <> P:9 var
+R1382:1384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1365:1381 Coq.Classes.DecidableClass <> Decidable_witness meth
+R1385:1389 Coq.Init.Datatypes <> false constr
+prf 1463:1484 <> Decidable_complete_alt
+binder 1495:1495 <> P:11
+R1502:1510 Coq.Classes.DecidableClass <> Decidable class
+R1512:1512 Coq.Classes.DecidableClass <> P:11 var
+binder 1498:1498 <> H:12
+R1543:1546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1535:1537 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1518:1534 Coq.Classes.DecidableClass <> Decidable_witness meth
+R1538:1542 Coq.Init.Datatypes <> false constr
+R1547:1548 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1549:1549 Coq.Classes.DecidableClass <> P:11 var
+def 1735:1740 <> decide
+binder 1742:1742 <> P:13
+R1749:1757 Coq.Classes.DecidableClass <> Decidable class
+R1759:1759 Coq.Classes.DecidableClass <> P:13 var
+binder 1745:1745 <> H:14
+R1766:1782 Coq.Classes.DecidableClass <> Decidable_witness meth
+R1786:1786 Coq.Classes.DecidableClass <> H:14 var
+R1847:1852 Coq.Classes.DecidableClass <> decide def
+R1885:1887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1877:1882 Coq.Classes.DecidableClass <> decide def
+R1943:1957 Coq.Classes.DecidableClass <> Decidable_sound thm
+R1970:1991 Coq.Classes.DecidableClass <> Decidable_complete_alt thm
+R2192:2195 Coq.Bool.Bool <> <> lib
+R2197:2201 Coq.Arith.Arith <> <> lib
+R2203:2208 Coq.ZArith.ZArith <> <> lib
+inst 2239:2251 <> Decidable_not
+binder 2254:2254 <> P:15
+R2259:2267 Coq.Classes.DecidableClass <> Decidable class
+R2269:2269 Coq.Classes.DecidableClass <> P:15 var
+binder 2259:2269 <> H:16
+R2274:2282 Coq.Classes.DecidableClass <> Decidable class
+R2285:2286 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2287:2287 Coq.Classes.DecidableClass <> P:15 var
+R2297:2313 Coq.Classes.DecidableClass <> Decidable_witness meth
+R2318:2321 Coq.Init.Datatypes <> negb def
+R2323:2339 Coq.Classes.DecidableClass <> Decidable_witness meth
+R2391:2403 Coq.Bool.Bool <> negb_true_iff thm
+R2391:2403 Coq.Bool.Bool <> negb_true_iff thm
+R2424:2445 Coq.Classes.DecidableClass <> Decidable_complete_alt thm
+R2424:2445 Coq.Classes.DecidableClass <> Decidable_complete_alt thm
+R2472:2490 Coq.Classes.DecidableClass <> Decidable_sound_alt thm
+R2472:2490 Coq.Classes.DecidableClass <> Decidable_sound_alt thm
+R2472:2490 Coq.Classes.DecidableClass <> Decidable_sound_alt thm
+R2472:2490 Coq.Classes.DecidableClass <> Decidable_sound_alt thm
+inst 2529:2545 <> Decidable_eq_bool
+R2563:2566 Coq.Init.Datatypes <> bool ind
+binder 2557:2557 <> x:17
+binder 2559:2559 <> y:18
+R2570:2578 Coq.Classes.DecidableClass <> Decidable class
+R2581:2582 Coq.Init.Logic <> eq ind
+R2586:2586 Coq.Classes.DecidableClass <> y:18 var
+R2584:2584 Coq.Classes.DecidableClass <> x:17 var
+R2596:2609 Coq.Classes.DecidableClass <> Decidable_spec meth
+R2614:2625 Coq.Bool.Bool <> eqb_true_iff thm
+inst 2654:2669 <> Decidable_eq_nat
+R2687:2689 Coq.Init.Datatypes <> nat ind
+binder 2681:2681 <> x:19
+binder 2683:2683 <> y:20
+R2693:2701 Coq.Classes.DecidableClass <> Decidable class
+R2704:2705 Coq.Init.Logic <> eq ind
+R2709:2709 Coq.Classes.DecidableClass <> y:20 var
+R2707:2707 Coq.Classes.DecidableClass <> x:19 var
+R2719:2732 Coq.Classes.DecidableClass <> Decidable_spec meth
+R2737:2746 Coq.Arith.PeanoNat Nat eqb_eq thm
+inst 2775:2790 <> Decidable_le_nat
+R2808:2810 Coq.Init.Datatypes <> nat ind
+binder 2802:2802 <> x:21
+binder 2804:2804 <> y:22
+R2814:2822 Coq.Classes.DecidableClass <> Decidable class
+R2826:2829 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2825:2825 Coq.Classes.DecidableClass <> x:21 var
+R2830:2830 Coq.Classes.DecidableClass <> y:22 var
+R2840:2853 Coq.Classes.DecidableClass <> Decidable_spec meth
+R2858:2867 Coq.Arith.PeanoNat Nat leb_le thm
+inst 3090:3103 <> Decidable_eq_Z
+R3121:3121 Coq.Numbers.BinNums <> Z ind
+binder 3115:3115 <> x:23
+binder 3117:3117 <> y:24
+R3125:3133 Coq.Classes.DecidableClass <> Decidable class
+R3136:3137 Coq.Init.Logic <> eq ind
+R3141:3141 Coq.Classes.DecidableClass <> y:24 var
+R3139:3139 Coq.Classes.DecidableClass <> x:23 var
+R3151:3164 Coq.Classes.DecidableClass <> Decidable_spec meth
+R3169:3176 Coq.ZArith.BinInt Z eqb_eq thm
+inst 3205:3218 <> Decidable_le_Z
+R3236:3236 Coq.Numbers.BinNums <> Z ind
+binder 3230:3230 <> x:25
+binder 3232:3232 <> y:26
+R3240:3263 Coq.Classes.DecidableClass <> Decidable class
+R3267:3270 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3266:3266 Coq.Classes.DecidableClass <> x:25 var
+R3271:3271 Coq.Classes.DecidableClass <> y:26 var
+R3283:3296 Coq.Classes.DecidableClass <> Decidable_spec meth
+R3301:3308 Coq.ZArith.BinInt Z leb_le thm
+inst 3337:3350 <> Decidable_lt_Z
+R3368:3368 Coq.Numbers.BinNums <> Z ind
+binder 3362:3362 <> x:27
+binder 3364:3364 <> y:28
+R3372:3395 Coq.Classes.DecidableClass <> Decidable class
+R3399:3401 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3398:3398 Coq.Classes.DecidableClass <> x:27 var
+R3402:3402 Coq.Classes.DecidableClass <> y:28 var
+R3414:3427 Coq.Classes.DecidableClass <> Decidable_spec meth
+R3432:3439 Coq.ZArith.BinInt Z ltb_lt thm
+inst 3468:3481 <> Decidable_ge_Z
+R3499:3499 Coq.Numbers.BinNums <> Z ind
+binder 3493:3493 <> x:29
+binder 3495:3495 <> y:30
+R3503:3526 Coq.Classes.DecidableClass <> Decidable class
+R3530:3533 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R3529:3529 Coq.Classes.DecidableClass <> x:29 var
+R3534:3534 Coq.Classes.DecidableClass <> y:30 var
+R3546:3559 Coq.Classes.DecidableClass <> Decidable_spec meth
+R3564:3571 Coq.ZArith.BinInt Z geb_ge thm
+inst 3600:3613 <> Decidable_gt_Z
+R3631:3631 Coq.Numbers.BinNums <> Z ind
+binder 3625:3625 <> x:31
+binder 3627:3627 <> y:32
+R3635:3658 Coq.Classes.DecidableClass <> Decidable class
+R3662:3664 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R3661:3661 Coq.Classes.DecidableClass <> x:31 var
+R3665:3665 Coq.Classes.DecidableClass <> y:32 var
+R3677:3690 Coq.Classes.DecidableClass <> Decidable_spec meth
+R3695:3702 Coq.ZArith.BinInt Z gtb_gt thm

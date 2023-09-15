@@ -1,0 +1,485 @@
+DIGEST 4b436d1809b3c05e7c66e717a38965e0
+FCoq.Arith.Between
+R691:698 Coq.Arith.PeanoNat <> <> lib
+R758:760 Coq.Init.Datatypes <> nat ind
+sec 772:778 <> Between
+var 793:793 Between P
+var 795:795 Between Q
+R802:805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R799:801 Coq.Init.Datatypes <> nat ind
+ind 918:924 <> between
+constr 951:957 <> bet_emp
+constr 979:983 <> bet_S
+binder 926:926 <> k:3
+R933:936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R930:932 Coq.Init.Datatypes <> nat ind
+R961:967 Coq.Arith.Between <> between:4 ind
+R971:971 Coq.Arith.Between <> k:3 var
+R969:969 Coq.Arith.Between <> k:3 var
+binder 994:994 <> l:6
+R1008:1011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R997:1003 Coq.Arith.Between <> between:4 ind
+R1007:1007 Coq.Arith.Between <> l:6 var
+R1005:1005 Coq.Arith.Between <> k:3 var
+R1015:1018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1012:1012 Coq.Arith.Between <> Between.P var
+R1014:1014 Coq.Arith.Between <> l:6 var
+R1019:1025 Coq.Arith.Between <> between:4 ind
+R1030:1030 Coq.Init.Datatypes <> S constr
+R1032:1032 Coq.Arith.Between <> l:6 var
+R1027:1027 Coq.Arith.Between <> k:3 var
+R1068:1074 Coq.Arith.Between <> between ind
+prf 1092:1097 <> bet_eq
+binder 1108:1108 <> k:7
+binder 1110:1110 <> l:8
+R1118:1121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1114:1116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1113:1113 Coq.Arith.Between <> l:8 var
+R1117:1117 Coq.Arith.Between <> k:7 var
+R1122:1128 Coq.Arith.Between <> between ind
+R1130:1130 Coq.Arith.Between <> k:7 var
+R1132:1132 Coq.Arith.Between <> l:8 var
+prf 1231:1240 <> between_le
+binder 1251:1251 <> k:9
+binder 1253:1253 <> l:10
+R1267:1270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1256:1262 Coq.Arith.Between <> between ind
+R1264:1264 Coq.Arith.Between <> k:9 var
+R1266:1266 Coq.Arith.Between <> l:10 var
+R1272:1275 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1271:1271 Coq.Arith.Between <> k:9 var
+R1276:1276 Coq.Arith.Between <> l:10 var
+prf 1373:1384 <> between_Sk_l
+binder 1395:1395 <> k:11
+binder 1397:1397 <> l:12
+R1411:1414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1400:1406 Coq.Arith.Between <> between ind
+R1408:1408 Coq.Arith.Between <> k:11 var
+R1410:1410 Coq.Arith.Between <> l:12 var
+R1423:1426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1418:1421 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1415:1415 Coq.Init.Datatypes <> S constr
+R1417:1417 Coq.Arith.Between <> k:11 var
+R1422:1422 Coq.Arith.Between <> l:12 var
+R1427:1433 Coq.Arith.Between <> between ind
+R1436:1436 Coq.Init.Datatypes <> S constr
+R1438:1438 Coq.Arith.Between <> k:11 var
+R1441:1441 Coq.Arith.Between <> l:12 var
+R1522:1540 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+R1522:1540 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+prf 1664:1676 <> between_restr
+binder 1691:1691 <> k:13
+binder 1693:1693 <> l:14
+R1698:1700 Coq.Init.Datatypes <> nat ind
+binder 1696:1696 <> m:15
+R1710:1713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1705:1708 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1704:1704 Coq.Arith.Between <> k:13 var
+R1709:1709 Coq.Arith.Between <> l:14 var
+R1720:1723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1715:1718 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1714:1714 Coq.Arith.Between <> l:14 var
+R1719:1719 Coq.Arith.Between <> m:15 var
+R1735:1738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1724:1730 Coq.Arith.Between <> between ind
+R1732:1732 Coq.Arith.Between <> k:13 var
+R1734:1734 Coq.Arith.Between <> m:15 var
+R1739:1745 Coq.Arith.Between <> between ind
+R1747:1747 Coq.Arith.Between <> l:14 var
+R1749:1749 Coq.Arith.Between <> m:15 var
+R1812:1823 Coq.Arith.Between <> between_Sk_l thm
+R1812:1823 Coq.Arith.Between <> between_Sk_l thm
+R1872:1872 Coq.Init.Datatypes <> S constr
+R1872:1872 Coq.Init.Datatypes <> S constr
+ind 2004:2017 <> exists_between
+constr 2044:2051 <> exists_S
+constr 2116:2124 <> exists_le
+binder 2019:2019 <> k:16
+R2026:2029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2023:2025 Coq.Init.Datatypes <> nat ind
+binder 2062:2062 <> l:19
+R2083:2086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2065:2078 Coq.Arith.Between <> exists_between:17 ind
+R2082:2082 Coq.Arith.Between <> l:19 var
+R2080:2080 Coq.Arith.Between <> k:16 var
+R2087:2100 Coq.Arith.Between <> exists_between:17 ind
+R2105:2105 Coq.Init.Datatypes <> S constr
+R2107:2107 Coq.Arith.Between <> l:19 var
+R2102:2102 Coq.Arith.Between <> k:16 var
+binder 2135:2135 <> l:20
+R2144:2147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2139:2142 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2138:2138 Coq.Arith.Between <> k:16 var
+R2143:2143 Coq.Arith.Between <> l:20 var
+R2151:2154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2148:2148 Coq.Arith.Between <> Between.Q var
+R2150:2150 Coq.Arith.Between <> l:20 var
+R2155:2168 Coq.Arith.Between <> exists_between:17 ind
+R2173:2173 Coq.Init.Datatypes <> S constr
+R2175:2175 Coq.Arith.Between <> l:20 var
+R2170:2170 Coq.Arith.Between <> k:16 var
+R2211:2224 Coq.Arith.Between <> exists_between ind
+prf 2242:2252 <> exists_le_S
+binder 2263:2263 <> k:21
+binder 2265:2265 <> l:22
+R2286:2289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2268:2281 Coq.Arith.Between <> exists_between ind
+R2283:2283 Coq.Arith.Between <> k:21 var
+R2285:2285 Coq.Arith.Between <> l:22 var
+R2293:2296 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2290:2290 Coq.Init.Datatypes <> S constr
+R2292:2292 Coq.Arith.Between <> k:21 var
+R2297:2297 Coq.Arith.Between <> l:22 var
+R2345:2360 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R2345:2360 Coq.Arith.PeanoNat Nat succ_le_mono thm
+prf 2391:2399 <> exists_lt
+binder 2410:2410 <> k:23
+binder 2412:2412 <> l:24
+R2433:2436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2415:2428 Coq.Arith.Between <> exists_between ind
+R2430:2430 Coq.Arith.Between <> k:23 var
+R2432:2432 Coq.Arith.Between <> l:24 var
+R2438:2440 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2437:2437 Coq.Arith.Between <> k:23 var
+R2441:2441 Coq.Arith.Between <> l:24 var
+R2452:2462 Coq.Arith.Between <> exists_le_S thm
+prf 2531:2541 <> exists_S_le
+binder 2552:2552 <> k:25
+binder 2554:2554 <> l:26
+R2579:2582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2557:2570 Coq.Arith.Between <> exists_between ind
+R2572:2572 Coq.Arith.Between <> k:25 var
+R2575:2575 Coq.Init.Datatypes <> S constr
+R2577:2577 Coq.Arith.Between <> l:26 var
+R2584:2587 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2583:2583 Coq.Arith.Between <> k:25 var
+R2588:2588 Coq.Arith.Between <> l:26 var
+R2618:2623 Coq.Init.Peano <> le_S_n thm
+R2618:2623 Coq.Init.Peano <> le_S_n thm
+def 2700:2705 <> in_int
+binder 2707:2707 <> p:27
+binder 2709:2709 <> q:28
+binder 2711:2711 <> r:29
+R2722:2725 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2717:2720 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2716:2716 Coq.Arith.Between <> p:27 var
+R2721:2721 Coq.Arith.Between <> r:29 var
+R2727:2729 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2726:2726 Coq.Arith.Between <> r:29 var
+R2730:2730 Coq.Arith.Between <> q:28 var
+prf 2742:2753 <> in_int_intro
+binder 2764:2764 <> p:30
+binder 2766:2766 <> q:31
+binder 2768:2768 <> r:32
+R2777:2780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2772:2775 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2771:2771 Coq.Arith.Between <> p:30 var
+R2776:2776 Coq.Arith.Between <> r:32 var
+R2786:2789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2782:2784 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2781:2781 Coq.Arith.Between <> r:32 var
+R2785:2785 Coq.Arith.Between <> q:31 var
+R2790:2795 Coq.Arith.Between <> in_int def
+R2797:2797 Coq.Arith.Between <> p:30 var
+R2799:2799 Coq.Arith.Between <> q:31 var
+R2801:2801 Coq.Arith.Between <> r:32 var
+prf 2898:2906 <> in_int_lt
+binder 2917:2917 <> p:33
+binder 2919:2919 <> q:34
+binder 2921:2921 <> r:35
+R2936:2939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2924:2929 Coq.Arith.Between <> in_int def
+R2931:2931 Coq.Arith.Between <> p:33 var
+R2933:2933 Coq.Arith.Between <> q:34 var
+R2935:2935 Coq.Arith.Between <> r:35 var
+R2941:2943 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2940:2940 Coq.Arith.Between <> p:33 var
+R2944:2944 Coq.Arith.Between <> q:34 var
+R2984:2998 Coq.Arith.PeanoNat Nat le_lt_trans thm
+R2984:2998 Coq.Arith.PeanoNat Nat le_lt_trans thm
+prf 3030:3040 <> in_int_p_Sq
+binder 3055:3055 <> p:36
+binder 3057:3057 <> q:37
+binder 3059:3059 <> r:38
+R3078:3081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3062:3067 Coq.Arith.Between <> in_int def
+R3069:3069 Coq.Arith.Between <> p:36 var
+R3072:3072 Coq.Init.Datatypes <> S constr
+R3074:3074 Coq.Arith.Between <> q:37 var
+R3077:3077 Coq.Arith.Between <> r:38 var
+R3094:3097 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3082:3087 Coq.Arith.Between <> in_int def
+R3089:3089 Coq.Arith.Between <> p:36 var
+R3091:3091 Coq.Arith.Between <> q:37 var
+R3093:3093 Coq.Arith.Between <> r:38 var
+R3099:3101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3098:3098 Coq.Arith.Between <> r:38 var
+R3102:3102 Coq.Arith.Between <> q:37 var
+R3149:3153 Coq.Init.Logic <> proj1 thm
+R3156:3170 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+R3149:3153 Coq.Init.Logic <> proj1 thm
+R3156:3170 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+R3195:3207 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R3195:3207 Coq.Arith.PeanoNat Nat lt_succ_r thm
+prf 3238:3245 <> in_int_S
+binder 3256:3256 <> p:39
+binder 3258:3258 <> q:40
+binder 3260:3260 <> r:41
+R3275:3278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3263:3268 Coq.Arith.Between <> in_int def
+R3270:3270 Coq.Arith.Between <> p:39 var
+R3272:3272 Coq.Arith.Between <> q:40 var
+R3274:3274 Coq.Arith.Between <> r:41 var
+R3279:3284 Coq.Arith.Between <> in_int def
+R3286:3286 Coq.Arith.Between <> p:39 var
+R3289:3289 Coq.Init.Datatypes <> S constr
+R3291:3291 Coq.Arith.Between <> q:40 var
+R3294:3294 Coq.Arith.Between <> r:41 var
+prf 3387:3397 <> in_int_Sp_q
+binder 3408:3408 <> p:42
+binder 3410:3410 <> q:43
+binder 3412:3412 <> r:44
+R3431:3434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3415:3420 Coq.Arith.Between <> in_int def
+R3423:3423 Coq.Init.Datatypes <> S constr
+R3425:3425 Coq.Arith.Between <> p:42 var
+R3428:3428 Coq.Arith.Between <> q:43 var
+R3430:3430 Coq.Arith.Between <> r:44 var
+R3435:3440 Coq.Arith.Between <> in_int def
+R3442:3442 Coq.Arith.Between <> p:42 var
+R3444:3444 Coq.Arith.Between <> q:43 var
+R3446:3446 Coq.Arith.Between <> r:44 var
+R3491:3502 Coq.Arith.Between <> in_int_intro thm
+R3491:3502 Coq.Arith.Between <> in_int_intro thm
+R3529:3529 Coq.Init.Datatypes <> S constr
+R3529:3529 Coq.Init.Datatypes <> S constr
+prf 3604:3617 <> between_in_int
+binder 3632:3632 <> k:45
+binder 3634:3634 <> l:46
+R3648:3651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3637:3643 Coq.Arith.Between <> between ind
+R3645:3645 Coq.Arith.Between <> k:45 var
+R3647:3647 Coq.Arith.Between <> l:46 var
+binder 3659:3659 <> r:47
+R3674:3677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3662:3667 Coq.Arith.Between <> in_int def
+R3669:3669 Coq.Arith.Between <> k:45 var
+R3671:3671 Coq.Arith.Between <> l:46 var
+R3673:3673 Coq.Arith.Between <> r:47 var
+R3678:3678 Coq.Arith.Between <> Between.P var
+R3680:3680 Coq.Arith.Between <> r:47 var
+R3753:3755 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3753:3755 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3768:3780 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R3768:3780 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R3798:3806 Coq.Arith.Between <> in_int_lt thm
+R3798:3806 Coq.Arith.Between <> in_int_lt thm
+R3838:3848 Coq.Arith.Between <> in_int_p_Sq thm
+R3838:3848 Coq.Arith.Between <> in_int_p_Sq thm
+prf 3890:3903 <> in_int_between
+binder 3918:3918 <> k:48
+binder 3920:3920 <> l:49
+R3929:3932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3924:3927 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3923:3923 Coq.Arith.Between <> k:48 var
+R3928:3928 Coq.Arith.Between <> l:49 var
+R3933:3933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3963:3967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3941:3941 <> r:50
+R3956:3959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3944:3949 Coq.Arith.Between <> in_int def
+R3951:3951 Coq.Arith.Between <> k:48 var
+R3953:3953 Coq.Arith.Between <> l:49 var
+R3955:3955 Coq.Arith.Between <> r:50 var
+R3960:3960 Coq.Arith.Between <> Between.P var
+R3962:3962 Coq.Arith.Between <> r:50 var
+R3968:3974 Coq.Arith.Between <> between ind
+R3976:3976 Coq.Arith.Between <> k:48 var
+R3978:3978 Coq.Arith.Between <> l:49 var
+prf 4029:4041 <> exists_in_int
+binder 4056:4056 <> k:51
+binder 4058:4058 <> l:52
+R4079:4082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4061:4074 Coq.Arith.Between <> exists_between ind
+R4076:4076 Coq.Arith.Between <> k:51 var
+R4078:4078 Coq.Arith.Between <> l:52 var
+R4083:4090 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R4092:4094 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R4098:4099 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R4112:4114 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R4095:4097 Coq.Init.Datatypes <> nat ind
+binder 4091:4091 <> m:53
+R4100:4105 Coq.Arith.Between <> in_int def
+R4107:4107 Coq.Arith.Between <> k:51 var
+R4109:4109 Coq.Arith.Between <> l:52 var
+R4111:4111 Coq.Arith.Between <> m:53 var
+binder 4091:4091 <> m:54
+R4115:4115 Coq.Arith.Between <> Between.Q var
+R4117:4117 Coq.Arith.Between <> m:54 var
+prf 4227:4239 <> in_int_exists
+binder 4250:4250 <> k:55
+binder 4252:4252 <> l:56
+binder 4254:4254 <> r:57
+R4269:4272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4257:4262 Coq.Arith.Between <> in_int def
+R4264:4264 Coq.Arith.Between <> k:55 var
+R4266:4266 Coq.Arith.Between <> l:56 var
+R4268:4268 Coq.Arith.Between <> r:57 var
+R4276:4279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4273:4273 Coq.Arith.Between <> Between.Q var
+R4275:4275 Coq.Arith.Between <> r:57 var
+R4280:4293 Coq.Arith.Between <> exists_between ind
+R4295:4295 Coq.Arith.Between <> k:55 var
+R4297:4297 Coq.Arith.Between <> l:56 var
+prf 4381:4397 <> between_or_exists
+binder 4412:4412 <> k:58
+binder 4414:4414 <> l:59
+R4429:4438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4424:4427 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4423:4423 Coq.Arith.Between <> k:58 var
+R4428:4428 Coq.Arith.Between <> l:59 var
+R4439:4439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4480:4490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4449:4451 Coq.Init.Datatypes <> nat ind
+binder 4447:4447 <> n:60
+R4466:4469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4454:4459 Coq.Arith.Between <> in_int def
+R4461:4461 Coq.Arith.Between <> k:58 var
+R4463:4463 Coq.Arith.Between <> l:59 var
+R4465:4465 Coq.Arith.Between <> n:60 var
+R4473:4476 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4470:4470 Coq.Arith.Between <> Between.P var
+R4472:4472 Coq.Arith.Between <> n:60 var
+R4477:4477 Coq.Arith.Between <> Between.Q var
+R4479:4479 Coq.Arith.Between <> n:60 var
+R4502:4505 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4491:4497 Coq.Arith.Between <> between ind
+R4499:4499 Coq.Arith.Between <> k:58 var
+R4501:4501 Coq.Arith.Between <> l:59 var
+R4506:4519 Coq.Arith.Between <> exists_between ind
+R4521:4521 Coq.Arith.Between <> k:58 var
+R4523:4523 Coq.Arith.Between <> l:59 var
+prf 4676:4693 <> between_not_exists
+binder 4708:4708 <> k:61
+binder 4710:4710 <> l:62
+R4730:4739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4719:4725 Coq.Arith.Between <> between ind
+R4727:4727 Coq.Arith.Between <> k:61 var
+R4729:4729 Coq.Arith.Between <> l:62 var
+R4740:4740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4783:4787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4750:4752 Coq.Init.Datatypes <> nat ind
+binder 4748:4748 <> n:63
+R4767:4770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4755:4760 Coq.Arith.Between <> in_int def
+R4762:4762 Coq.Arith.Between <> k:61 var
+R4764:4764 Coq.Arith.Between <> l:62 var
+R4766:4766 Coq.Arith.Between <> n:63 var
+R4774:4777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4771:4771 Coq.Arith.Between <> Between.P var
+R4773:4773 Coq.Arith.Between <> n:63 var
+R4778:4779 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4780:4780 Coq.Arith.Between <> Between.Q var
+R4782:4782 Coq.Arith.Between <> n:63 var
+R4788:4789 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4790:4803 Coq.Arith.Between <> exists_between ind
+R4805:4805 Coq.Arith.Between <> k:61 var
+R4807:4807 Coq.Arith.Between <> l:62 var
+R4881:4883 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4881:4883 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4896:4908 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R4896:4908 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R4933:4933 Coq.Arith.Between <> Between.Q var
+R4933:4933 Coq.Arith.Between <> Between.Q var
+R4965:4977 Coq.Arith.Between <> exists_in_int thm
+R4982:4982 Coq.Init.Datatypes <> S constr
+R4965:4977 Coq.Arith.Between <> exists_in_int thm
+R4982:4982 Coq.Init.Datatypes <> S constr
+R5074:5078 Coq.Init.Logic <> proj1 thm
+R5081:5095 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+R5074:5078 Coq.Init.Logic <> proj1 thm
+R5081:5095 Coq.Arith.PeanoNat Nat lt_eq_cases thm
+R5127:5139 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R5127:5139 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R5172:5185 Coq.Arith.Between <> exists_between ind
+R5172:5185 Coq.Arith.Between <> exists_between ind
+R5219:5231 Coq.Arith.Between <> in_int_exists thm
+R5219:5231 Coq.Arith.Between <> in_int_exists thm
+ind 5268:5272 <> P_nth
+constr 5315:5319 <> nth_O
+constr 5347:5351 <> nth_S
+R5280:5282 Coq.Init.Datatypes <> nat ind
+binder 5275:5278 <> init:64
+R5290:5293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5287:5289 Coq.Init.Datatypes <> nat ind
+R5297:5300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5294:5296 Coq.Init.Datatypes <> nat ind
+R5323:5327 Coq.Arith.Between <> P_nth:65 ind
+R5334:5337 Coq.Arith.Between <> init:64 var
+R5329:5332 Coq.Arith.Between <> init:64 var
+binder 5368:5368 <> k:67
+binder 5370:5370 <> l:68
+R5375:5377 Coq.Init.Datatypes <> nat ind
+binder 5373:5373 <> n:69
+R5396:5399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5382:5386 Coq.Arith.Between <> P_nth:65 ind
+R5395:5395 Coq.Arith.Between <> n:69 var
+R5393:5393 Coq.Arith.Between <> k:67 var
+R5388:5391 Coq.Arith.Between <> init:64 var
+R5415:5418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5400:5406 Coq.Arith.Between <> between ind
+R5409:5409 Coq.Init.Datatypes <> S constr
+R5411:5411 Coq.Arith.Between <> k:67 var
+R5414:5414 Coq.Arith.Between <> l:68 var
+R5422:5425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5419:5419 Coq.Arith.Between <> Between.Q var
+R5421:5421 Coq.Arith.Between <> l:68 var
+R5426:5430 Coq.Arith.Between <> P_nth:65 ind
+R5440:5440 Coq.Init.Datatypes <> S constr
+R5442:5442 Coq.Arith.Between <> n:69 var
+R5437:5437 Coq.Arith.Between <> l:68 var
+R5432:5435 Coq.Arith.Between <> init:64 var
+prf 5455:5460 <> nth_le
+R5477:5479 Coq.Init.Datatypes <> nat ind
+binder 5472:5475 <> init:70
+binder 5482:5482 <> l:71
+R5487:5489 Coq.Init.Datatypes <> nat ind
+binder 5485:5485 <> n:72
+R5507:5510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5493:5497 Coq.Arith.Between <> P_nth ind
+R5499:5502 Coq.Arith.Between <> init:70 var
+R5504:5504 Coq.Arith.Between <> l:71 var
+R5506:5506 Coq.Arith.Between <> n:72 var
+R5515:5518 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5511:5514 Coq.Arith.Between <> init:70 var
+R5519:5519 Coq.Arith.Between <> l:71 var
+R5597:5608 Coq.Arith.PeanoNat Nat le_trans thm
+R5597:5608 Coq.Arith.PeanoNat Nat le_trans thm
+R5630:5639 Coq.Arith.Between <> between_le thm
+R5630:5639 Coq.Arith.Between <> between_le thm
+R5668:5668 Coq.Init.Datatypes <> S constr
+R5668:5668 Coq.Init.Datatypes <> S constr
+def 5701:5710 <> eventually
+R5715:5717 Coq.Init.Datatypes <> nat ind
+binder 5713:5713 <> n:73
+R5724:5731 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R5733:5735 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R5739:5740 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R5747:5749 Coq.Init.Logic <> ::type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R5736:5738 Coq.Init.Datatypes <> nat ind
+binder 5732:5732 <> k:74
+R5742:5745 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5741:5741 Coq.Arith.Between <> k:74 var
+R5746:5746 Coq.Arith.Between <> n:73 var
+binder 5732:5732 <> k:75
+R5750:5750 Coq.Arith.Between <> Between.Q var
+R5752:5752 Coq.Arith.Between <> k:75 var
+prf 5764:5770 <> event_O
+R5786:5789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5774:5783 Coq.Arith.Between <> eventually def
+R5790:5790 Coq.Arith.Between <> Between.Q var
+R5864:5873 Coq.Arith.PeanoNat Nat le_0_r thm
+R5864:5873 Coq.Arith.PeanoNat Nat le_0_r thm
+R5900:5906 Coq.Arith.Between Between <> sec
+R6003:6004 Coq.Arith.Le <> <> lib
+R6006:6007 Coq.Arith.Lt <> <> lib

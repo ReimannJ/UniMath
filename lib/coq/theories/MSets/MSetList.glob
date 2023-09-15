@@ -1,0 +1,1979 @@
+DIGEST 6ebf1c285e55c419ec656263de85b69f
+FCoq.MSets.MSetList
+R848:860 Coq.MSets.MSetInterface <> <> lib
+R862:872 Coq.Structures.OrdersFacts <> <> lib
+R874:884 Coq.Structures.OrdersLists <> <> lib
+R1197:1207 Coq.Structures.Orders OrderedType <> mod
+R1213:1216 Coq.MSets.MSetInterface WOps <> mod
+R1218:1218 Coq.MSets.MSetList X <> modtype
+mod 1190:1192 <> Ops
+def 1235:1237 Ops elt
+R1242:1244 Coq.MSets.MSetList X t defax
+def 1260:1260 Ops t
+R1265:1268 Coq.Init.Datatypes <> list ind
+R1270:1272 Coq.MSets.MSetList Ops elt def
+def 1289:1293 Ops empty
+R1297:1297 Coq.MSets.MSetList Ops t def
+R1302:1304 Coq.Init.Datatypes <> nil constr
+def 1321:1328 Ops is_empty
+R1335:1335 Coq.MSets.MSetList Ops t def
+binder 1331:1331 <> l:1
+R1344:1344 Coq.MSets.MSetList <> l:1 var
+R1361:1365 Coq.Init.Datatypes <> false constr
+R1351:1354 Coq.Init.Datatypes <> true constr
+def 1413:1415 Ops mem
+binder 1417:1417 <> x:2
+binder 1419:1419 <> s:3
+R1434:1434 Coq.MSets.MSetList <> s:3 var
+R1447:1449 Coq.Init.Datatypes <> nil constr
+R1454:1458 Coq.Init.Datatypes <> false constr
+R1467:1470 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1490:1498 Coq.MSets.MSetList X compare defax
+R1500:1500 Coq.MSets.MSetList <> x:2 var
+R1519:1520 Coq.Init.Datatypes <> Lt constr
+R1525:1529 Coq.Init.Datatypes <> false constr
+R1541:1542 Coq.Init.Datatypes <> Eq constr
+R1547:1550 Coq.Init.Datatypes <> true constr
+R1562:1563 Coq.Init.Datatypes <> Gt constr
+R1568:1570 Coq.MSets.MSetList <> mem:4 def
+R1572:1572 Coq.MSets.MSetList <> x:2 var
+def 1609:1611 Ops add
+binder 1613:1613 <> x:6
+binder 1615:1615 <> s:7
+R1630:1630 Coq.MSets.MSetList <> s:7 var
+R1643:1645 Coq.Init.Datatypes <> nil constr
+R1651:1654 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1650:1650 Coq.MSets.MSetList <> x:6 var
+R1655:1657 Coq.Init.Datatypes <> nil constr
+R1666:1669 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1689:1697 Coq.MSets.MSetList X compare defax
+R1699:1699 Coq.MSets.MSetList <> x:6 var
+R1718:1719 Coq.Init.Datatypes <> Lt constr
+R1725:1728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1724:1724 Coq.MSets.MSetList <> x:6 var
+R1729:1729 Coq.MSets.MSetList <> s:7 var
+R1741:1742 Coq.Init.Datatypes <> Eq constr
+R1747:1747 Coq.MSets.MSetList <> s:7 var
+R1759:1760 Coq.Init.Datatypes <> Gt constr
+R1766:1769 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1770:1772 Coq.MSets.MSetList <> add:8 def
+R1774:1774 Coq.MSets.MSetList <> x:6 var
+def 1813:1821 Ops singleton
+R1828:1830 Coq.MSets.MSetList Ops elt def
+binder 1824:1824 <> x:10
+R1837:1840 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1836:1836 Coq.MSets.MSetList <> x:10 var
+R1841:1843 Coq.Init.Datatypes <> nil constr
+def 1858:1863 Ops remove
+binder 1865:1865 <> x:11
+binder 1867:1867 <> s:12
+R1871:1871 Coq.MSets.MSetList Ops t def
+R1886:1886 Coq.MSets.MSetList <> s:12 var
+R1899:1901 Coq.Init.Datatypes <> nil constr
+R1906:1908 Coq.Init.Datatypes <> nil constr
+R1917:1920 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1940:1948 Coq.MSets.MSetList X compare defax
+R1950:1950 Coq.MSets.MSetList <> x:11 var
+R1969:1970 Coq.Init.Datatypes <> Lt constr
+R1975:1975 Coq.MSets.MSetList <> s:12 var
+R1987:1988 Coq.Init.Datatypes <> Eq constr
+R2005:2006 Coq.Init.Datatypes <> Gt constr
+R2012:2015 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2016:2021 Coq.MSets.MSetList <> remove:13 def
+R2023:2023 Coq.MSets.MSetList <> x:11 var
+def 2060:2064 Ops union
+R2071:2071 Coq.MSets.MSetList Ops t def
+binder 2067:2067 <> s:15
+R2077:2080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2076:2076 Coq.MSets.MSetList Ops t def
+R2081:2081 Coq.MSets.MSetList Ops t def
+R2096:2096 Coq.MSets.MSetList <> s:15 var
+R2109:2111 Coq.Init.Datatypes <> nil constr
+binder 2120:2121 <> s':18
+R2126:2127 Coq.MSets.MSetList <> s':18 var
+R2136:2139 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2174:2174 Coq.MSets.MSetList Ops t def
+binder 2169:2170 <> s':19
+R2179:2179 Coq.MSets.MSetList Ops t def
+R2201:2202 Coq.MSets.MSetList <> s':19 var
+R2222:2224 Coq.Init.Datatypes <> nil constr
+R2229:2229 Coq.MSets.MSetList <> s:15 var
+R2246:2249 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2277:2285 Coq.MSets.MSetList X compare defax
+R2314:2315 Coq.Init.Datatypes <> Lt constr
+R2321:2324 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2325:2329 Coq.MSets.MSetList <> union:16 def
+R2333:2334 Coq.MSets.MSetList <> s':19 var
+R2353:2354 Coq.Init.Datatypes <> Eq constr
+R2360:2363 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2364:2368 Coq.MSets.MSetList <> union:16 def
+R2392:2393 Coq.Init.Datatypes <> Gt constr
+R2400:2403 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2404:2412 Coq.MSets.MSetList <> union_aux:20 var
+def 2473:2477 Ops inter
+R2484:2484 Coq.MSets.MSetList Ops t def
+binder 2480:2480 <> s:22
+R2490:2493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2489:2489 Coq.MSets.MSetList Ops t def
+R2494:2494 Coq.MSets.MSetList Ops t def
+R2509:2509 Coq.MSets.MSetList <> s:22 var
+R2522:2524 Coq.Init.Datatypes <> nil constr
+R2538:2540 Coq.Init.Datatypes <> nil constr
+R2549:2552 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2587:2587 Coq.MSets.MSetList Ops t def
+binder 2582:2583 <> s':25
+R2592:2592 Coq.MSets.MSetList Ops t def
+R2614:2615 Coq.MSets.MSetList <> s':25 var
+R2635:2637 Coq.Init.Datatypes <> nil constr
+R2642:2644 Coq.Init.Datatypes <> nil constr
+R2661:2664 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2692:2700 Coq.MSets.MSetList X compare defax
+R2729:2730 Coq.Init.Datatypes <> Lt constr
+R2735:2739 Coq.MSets.MSetList <> inter:23 def
+R2743:2744 Coq.MSets.MSetList <> s':25 var
+R2763:2764 Coq.Init.Datatypes <> Eq constr
+R2770:2773 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2774:2778 Coq.MSets.MSetList <> inter:23 def
+R2802:2803 Coq.Init.Datatypes <> Gt constr
+R2808:2816 Coq.MSets.MSetList <> inter_aux:26 var
+def 2877:2880 Ops diff
+R2887:2887 Coq.MSets.MSetList Ops t def
+binder 2883:2883 <> s:28
+R2893:2896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2892:2892 Coq.MSets.MSetList Ops t def
+R2897:2897 Coq.MSets.MSetList Ops t def
+R2912:2912 Coq.MSets.MSetList <> s:28 var
+R2925:2927 Coq.Init.Datatypes <> nil constr
+R2941:2943 Coq.Init.Datatypes <> nil constr
+R2952:2955 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2989:2989 Coq.MSets.MSetList Ops t def
+binder 2984:2985 <> s':31
+R2994:2994 Coq.MSets.MSetList Ops t def
+R3016:3017 Coq.MSets.MSetList <> s':31 var
+R3037:3039 Coq.Init.Datatypes <> nil constr
+R3044:3044 Coq.MSets.MSetList <> s:28 var
+R3061:3064 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3092:3100 Coq.MSets.MSetList X compare defax
+R3129:3130 Coq.Init.Datatypes <> Lt constr
+R3136:3139 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3140:3143 Coq.MSets.MSetList <> diff:29 def
+R3147:3148 Coq.MSets.MSetList <> s':31 var
+R3167:3168 Coq.Init.Datatypes <> Eq constr
+R3173:3176 Coq.MSets.MSetList <> diff:29 def
+R3200:3201 Coq.Init.Datatypes <> Gt constr
+R3206:3213 Coq.MSets.MSetList <> diff_aux:32 var
+def 3274:3278 Ops equal
+R3285:3285 Coq.MSets.MSetList Ops t def
+binder 3281:3281 <> s:34
+R3291:3294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3290:3290 Coq.MSets.MSetList Ops t def
+R3295:3298 Coq.Init.Datatypes <> bool ind
+R3316:3316 Coq.MSets.MSetList Ops t def
+binder 3311:3312 <> s':36
+R3334:3335 Coq.MSets.MSetList <> s':36 var
+R3331:3331 Coq.MSets.MSetList <> s:34 var
+R3348:3350 Coq.Init.Datatypes <> nil constr
+R3353:3355 Coq.Init.Datatypes <> nil constr
+R3360:3363 Coq.Init.Datatypes <> true constr
+R3372:3375 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3381:3384 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3405:3413 Coq.MSets.MSetList X compare defax
+R3435:3436 Coq.Init.Datatypes <> Eq constr
+R3441:3445 Coq.MSets.MSetList <> equal:35 def
+R3467:3471 Coq.Init.Datatypes <> false constr
+R3499:3503 Coq.Init.Datatypes <> false constr
+def 3526:3531 Ops subset
+binder 3533:3533 <> s:39
+binder 3535:3536 <> s':40
+R3554:3555 Coq.MSets.MSetList <> s':40 var
+R3551:3551 Coq.MSets.MSetList <> s:39 var
+R3568:3570 Coq.Init.Datatypes <> nil constr
+R3578:3581 Coq.Init.Datatypes <> true constr
+R3590:3593 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3599:3602 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3623:3631 Coq.MSets.MSetList X compare defax
+R3653:3654 Coq.Init.Datatypes <> Lt constr
+R3659:3663 Coq.Init.Datatypes <> false constr
+R3675:3676 Coq.Init.Datatypes <> Eq constr
+R3681:3686 Coq.MSets.MSetList <> subset:41 def
+R3703:3704 Coq.Init.Datatypes <> Gt constr
+R3709:3714 Coq.MSets.MSetList <> subset:41 def
+R3716:3716 Coq.MSets.MSetList <> s:39 var
+R3747:3751 Coq.Init.Datatypes <> false constr
+def 3776:3779 Ops fold
+binder 3782:3782 <> B:44
+R3800:3803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3797:3799 Coq.MSets.MSetList Ops elt def
+R3805:3808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3804:3804 Coq.MSets.MSetList <> B:44 var
+R3809:3809 Coq.MSets.MSetList <> B:44 var
+binder 3793:3793 <> f:45
+R3817:3817 Coq.MSets.MSetList Ops t def
+binder 3813:3813 <> s:46
+R3825:3825 Coq.MSets.MSetList <> B:44 var
+binder 3821:3821 <> i:47
+R3830:3830 Coq.MSets.MSetList <> B:44 var
+R3839:3847 Coq.Lists.List <> fold_left def
+R3860:3860 Coq.MSets.MSetList <> i:47 var
+R3858:3858 Coq.MSets.MSetList <> s:46 var
+R3850:3853 Coq.Program.Basics <> flip def
+R3855:3855 Coq.MSets.MSetList <> f:45 var
+def 3875:3880 Ops filter
+R3890:3893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3887:3889 Coq.MSets.MSetList Ops elt def
+R3894:3897 Coq.Init.Datatypes <> bool ind
+binder 3883:3883 <> f:48
+R3905:3905 Coq.MSets.MSetList Ops t def
+binder 3901:3901 <> s:49
+R3910:3910 Coq.MSets.MSetList Ops t def
+R3925:3925 Coq.MSets.MSetList <> s:49 var
+R3938:3940 Coq.Init.Datatypes <> nil constr
+R3945:3947 Coq.Init.Datatypes <> nil constr
+R3956:3959 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3968:3968 Coq.MSets.MSetList <> f:48 var
+R3998:4003 Coq.MSets.MSetList <> filter:50 def
+R4005:4005 Coq.MSets.MSetList <> f:48 var
+R3978:3981 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3982:3987 Coq.MSets.MSetList <> filter:50 def
+R3989:3989 Coq.MSets.MSetList <> f:48 var
+def 4030:4036 Ops for_all
+R4046:4049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4043:4045 Coq.MSets.MSetList Ops elt def
+R4050:4053 Coq.Init.Datatypes <> bool ind
+binder 4039:4039 <> f:52
+R4061:4061 Coq.MSets.MSetList Ops t def
+binder 4057:4057 <> s:53
+R4066:4069 Coq.Init.Datatypes <> bool ind
+R4084:4084 Coq.MSets.MSetList <> s:53 var
+R4097:4099 Coq.Init.Datatypes <> nil constr
+R4104:4107 Coq.Init.Datatypes <> true constr
+R4116:4119 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4128:4128 Coq.MSets.MSetList <> f:52 var
+R4154:4158 Coq.Init.Datatypes <> false constr
+R4137:4143 Coq.MSets.MSetList <> for_all:54 def
+R4145:4145 Coq.MSets.MSetList <> f:52 var
+def 4181:4187 Ops exists_
+R4197:4200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4194:4196 Coq.MSets.MSetList Ops elt def
+R4201:4204 Coq.Init.Datatypes <> bool ind
+binder 4190:4190 <> f:56
+R4212:4212 Coq.MSets.MSetList Ops t def
+binder 4208:4208 <> s:57
+R4217:4220 Coq.Init.Datatypes <> bool ind
+R4235:4235 Coq.MSets.MSetList <> s:57 var
+R4248:4250 Coq.Init.Datatypes <> nil constr
+R4255:4259 Coq.Init.Datatypes <> false constr
+R4268:4271 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4280:4280 Coq.MSets.MSetList <> f:56 var
+R4299:4305 Coq.MSets.MSetList <> exists_:58 def
+R4307:4307 Coq.MSets.MSetList <> f:56 var
+R4289:4292 Coq.Init.Datatypes <> true constr
+def 4332:4340 Ops partition
+R4350:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4347:4349 Coq.MSets.MSetList Ops elt def
+R4354:4357 Coq.Init.Datatypes <> bool ind
+binder 4343:4343 <> f:60
+R4365:4365 Coq.MSets.MSetList Ops t def
+binder 4361:4361 <> s:61
+R4371:4373 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4370:4370 Coq.MSets.MSetList Ops t def
+R4374:4374 Coq.MSets.MSetList Ops t def
+R4389:4389 Coq.MSets.MSetList <> s:61 var
+R4402:4404 Coq.Init.Datatypes <> nil constr
+R4409:4409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4413:4414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4418:4418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4410:4412 Coq.Init.Datatypes <> nil constr
+R4415:4417 Coq.Init.Datatypes <> nil constr
+R4427:4430 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4460:4468 Coq.MSets.MSetList <> partition:62 def
+R4470:4470 Coq.MSets.MSetList <> f:60 var
+binder 4449:4450 <> s1:64
+binder 4453:4454 <> s2:65
+R4488:4488 Coq.MSets.MSetList <> f:60 var
+R4516:4516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4519:4520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4528:4528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4517:4518 Coq.MSets.MSetList <> s1:64 var
+R4522:4525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4526:4527 Coq.MSets.MSetList <> s2:65 var
+R4497:4497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4505:4506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4509:4509 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4499:4502 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4503:4504 Coq.MSets.MSetList <> s1:64 var
+R4507:4508 Coq.MSets.MSetList <> s2:65 var
+def 4553:4560 Ops cardinal
+R4567:4567 Coq.MSets.MSetList Ops t def
+binder 4563:4563 <> s:66
+R4572:4574 Coq.Init.Datatypes <> nat ind
+R4579:4584 Coq.Init.Datatypes <> length def
+R4586:4586 Coq.MSets.MSetList <> s:66 var
+def 4603:4610 Ops elements
+R4617:4617 Coq.MSets.MSetList Ops t def
+binder 4613:4613 <> x:67
+R4622:4625 Coq.Init.Datatypes <> list ind
+R4627:4629 Coq.MSets.MSetList Ops elt def
+R4634:4634 Coq.MSets.MSetList <> x:67 var
+def 4651:4657 Ops min_elt
+R4664:4664 Coq.MSets.MSetList Ops t def
+binder 4660:4660 <> s:68
+R4669:4674 Coq.Init.Datatypes <> option ind
+R4676:4678 Coq.MSets.MSetList Ops elt def
+R4693:4693 Coq.MSets.MSetList <> s:68 var
+R4706:4708 Coq.Init.Datatypes <> nil constr
+R4713:4716 Coq.Init.Datatypes <> None constr
+R4725:4728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4734:4737 Coq.Init.Datatypes <> Some constr
+def 4762:4768 Ops max_elt
+R4775:4775 Coq.MSets.MSetList Ops t def
+binder 4771:4771 <> s:70
+R4780:4785 Coq.Init.Datatypes <> option ind
+R4787:4789 Coq.MSets.MSetList Ops elt def
+R4804:4804 Coq.MSets.MSetList <> s:70 var
+R4817:4819 Coq.Init.Datatypes <> nil constr
+R4824:4827 Coq.Init.Datatypes <> None constr
+R4836:4839 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4840:4842 Coq.Init.Datatypes <> nil constr
+R4847:4850 Coq.Init.Datatypes <> Some constr
+R4861:4864 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4870:4876 Coq.MSets.MSetList <> max_elt:71 def
+def 4903:4908 Ops choose
+R4913:4919 Coq.MSets.MSetList Ops min_elt def
+def 4934:4940 Ops compare
+binder 4942:4942 <> s:73
+binder 4944:4945 <> s':74
+R4962:4963 Coq.MSets.MSetList <> s':74 var
+R4959:4959 Coq.MSets.MSetList <> s:73 var
+R4976:4978 Coq.Init.Datatypes <> nil constr
+R4981:4983 Coq.Init.Datatypes <> nil constr
+R4988:4989 Coq.Init.Datatypes <> Eq constr
+R4997:4999 Coq.Init.Datatypes <> nil constr
+R5007:5008 Coq.Init.Datatypes <> Lt constr
+R5019:5021 Coq.Init.Datatypes <> nil constr
+R5026:5027 Coq.Init.Datatypes <> Gt constr
+R5036:5037 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5043:5044 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5063:5071 Coq.MSets.MSetList X compare defax
+R5092:5093 Coq.Init.Datatypes <> Eq constr
+R5098:5104 Coq.MSets.MSetList <> compare:75 def
+R5108:5109 Coq.MSets.MSetList <> s':74 var
+R5106:5106 Coq.MSets.MSetList <> s:73 var
+R5120:5121 Coq.Init.Datatypes <> Lt constr
+R5126:5127 Coq.Init.Datatypes <> Lt constr
+R5138:5139 Coq.Init.Datatypes <> Gt constr
+R5144:5145 Coq.Init.Datatypes <> Gt constr
+R5170:5172 Coq.MSets.MSetList Ops <> mod
+R5195:5205 Coq.Structures.Orders OrderedType <> mod
+R5211:5217 Coq.MSets.MSetInterface RawSets <> mod
+R5219:5219 Coq.MSets.MSetList X <> modtype
+mod 5183:5189 <> MakeRaw
+R5244:5259 Coq.Structures.OrdersFacts OrderedTypeFacts <> modtype
+R5261:5261 Coq.MSets.MSetList X <> modtype
+mod 5238:5239 <> MakeRaw.MX
+R5286:5301 Coq.Structures.OrdersLists OrderedTypeLists <> modtype
+R5303:5303 Coq.MSets.MSetList X <> modtype
+mod 5280:5281 <> MakeRaw.ML
+R5317:5319 Coq.MSets.MSetList Ops <> modtype
+R5321:5321 Coq.MSets.MSetList X <> modtype
+sec 5388:5399 MakeRaw ForNotations
+def 5416:5418 MakeRaw inf
+binder 5420:5420 <> x:78
+binder 5422:5422 <> l:79
+R5436:5436 Coq.MSets.MSetList <> l:79 var
+R5448:5450 Coq.Init.Datatypes <> nil constr
+R5455:5458 Coq.Init.Datatypes <> true constr
+R5466:5467 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5479:5487 Coq.MSets.MSetList X compare defax
+R5489:5489 Coq.MSets.MSetList <> x:78 var
+R5498:5499 Coq.Init.Datatypes <> Lt constr
+R5504:5507 Coq.Init.Datatypes <> true constr
+R5516:5520 Coq.Init.Datatypes <> false constr
+def 5546:5549 MakeRaw isok
+binder 5551:5551 <> l:81
+R5565:5565 Coq.MSets.MSetList <> l:81 var
+R5577:5579 Coq.Init.Datatypes <> nil constr
+R5584:5587 Coq.Init.Datatypes <> true constr
+R5595:5596 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5609:5612 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R5602:5604 Coq.MSets.MSetList MakeRaw inf def
+R5608:5608 Coq.MSets.MSetList <> l:81 var
+R5613:5616 Coq.MSets.MSetList <> isok:82 def
+R5618:5618 Coq.MSets.MSetList <> l:81 var
+abbrev 5640:5643 MakeRaw Sort
+R5657:5659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5651:5654 Coq.MSets.MSetList MakeRaw isok def
+R5660:5663 Coq.Init.Datatypes <> true constr
+abbrev 5678:5680 MakeRaw Inf
+R5686:5692 Coq.Sorting.Sorted <> lelistA abbrev
+R5694:5697 Coq.MSets.MSetList X lt defax
+abbrev 5712:5713 MakeRaw In
+R5719:5721 Coq.Lists.SetoidList <> InA ind
+R5723:5726 Coq.MSets.MSetList X eq defax
+def 5830:5833 MakeRaw IsOk
+binder 5835:5835 <> s:84
+R5840:5843 Coq.MSets.MSetList MakeRaw Sort abbrev
+R5845:5845 Coq.MSets.MSetList <> s:84 var
+ind 5857:5858 MakeRaw Ok
+constr 5876:5877 MakeRaw ok
+rec 5857:5858 MakeRaw Ok
+proj 5876:5877 MakeRaw ok
+R5863:5863 Coq.MSets.MSetList MakeRaw t def
+binder 5861:5861 <> s:85
+R5881:5884 Coq.MSets.MSetList MakeRaw Sort abbrev
+R5886:5886 Coq.MSets.MSetList <> s:85 var
+R5952:5953 Coq.MSets.MSetList MakeRaw Ok class
+inst 5975:5981 MakeRaw Sort_Ok
+binder 5983:5983 <> s:88
+R5992:5995 Coq.MSets.MSetList MakeRaw Sort abbrev
+R5997:5997 Coq.MSets.MSetList <> s:88 var
+binder 5987:5988 <> Hs:89
+R6002:6003 Coq.MSets.MSetList MakeRaw Ok class
+R6005:6005 Coq.MSets.MSetList <> s:88 var
+R6012:6013 Coq.MSets.MSetList MakeRaw ok def
+prf 6033:6039 MakeRaw inf_iff
+binder 6050:6050 <> x:90
+binder 6052:6052 <> l:91
+R6062:6066 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6055:6057 Coq.MSets.MSetList MakeRaw Inf abbrev
+R6061:6061 Coq.MSets.MSetList <> l:91 var
+R6059:6059 Coq.MSets.MSetList <> x:90 var
+R6074:6076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6067:6069 Coq.MSets.MSetList MakeRaw inf def
+R6073:6073 Coq.MSets.MSetList <> l:91 var
+R6071:6071 Coq.MSets.MSetList <> x:90 var
+R6077:6080 Coq.Init.Datatypes <> true constr
+R6199:6212 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+R6199:6212 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+R6199:6212 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+R6344:6352 Coq.MSets.MSetList X compare defax
+R6344:6352 Coq.MSets.MSetList X compare defax
+R6411:6424 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+R6411:6424 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+R6411:6424 Coq.MSets.MSetList MakeRaw compare_lt_iff thm
+prf 6478:6485 MakeRaw isok_iff
+binder 6496:6496 <> l:92
+R6510:6514 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6499:6502 Coq.Sorting.Sorted <> sort abbrev
+R6509:6509 Coq.MSets.MSetList <> l:92 var
+R6504:6507 Coq.MSets.MSetList X lt defax
+R6515:6516 Coq.MSets.MSetList MakeRaw Ok class
+R6518:6518 Coq.MSets.MSetList <> l:92 var
+R6666:6668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6655:6658 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6647:6649 Coq.MSets.MSetList MakeRaw inf def
+R6659:6662 Coq.MSets.MSetList MakeRaw isok def
+R6669:6672 Coq.Init.Datatypes <> true constr
+R6666:6668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6655:6658 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6647:6649 Coq.MSets.MSetList MakeRaw inf def
+R6659:6662 Coq.MSets.MSetList MakeRaw isok def
+R6669:6672 Coq.Init.Datatypes <> true constr
+R6688:6694 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6688:6694 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6688:6694 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6715:6727 Coq.Bool.Bool <> andb_true_iff thm
+R6715:6727 Coq.Bool.Bool <> andb_true_iff thm
+R6715:6727 Coq.Bool.Bool <> andb_true_iff thm
+R6828:6830 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6817:6820 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6809:6811 Coq.MSets.MSetList MakeRaw inf def
+R6821:6824 Coq.MSets.MSetList MakeRaw isok def
+R6831:6834 Coq.Init.Datatypes <> true constr
+R6828:6830 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6817:6820 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6809:6811 Coq.MSets.MSetList MakeRaw inf def
+R6821:6824 Coq.MSets.MSetList MakeRaw isok def
+R6831:6834 Coq.Init.Datatypes <> true constr
+R6855:6867 Coq.Bool.Bool <> andb_true_iff thm
+R6873:6879 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6855:6867 Coq.Bool.Bool <> andb_true_iff thm
+R6855:6867 Coq.Bool.Bool <> andb_true_iff thm
+R6873:6879 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6873:6879 Coq.MSets.MSetList MakeRaw inf_iff thm
+R6959:6960 Coq.MSets.MSetList MakeRaw Ok class
+R6979:6986 Coq.MSets.MSetList MakeRaw isok_iff thm
+R7037:7040 Coq.Sorting.Sorted <> sort abbrev
+R7049:7052 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7042:7045 Coq.MSets.MSetList X lt defax
+R7037:7040 Coq.Sorting.Sorted <> sort abbrev
+R7049:7052 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7042:7045 Coq.MSets.MSetList X lt defax
+R7097:7100 Coq.Sorting.Sorted <> sort abbrev
+R7107:7109 Coq.Init.Datatypes <> nil constr
+R7102:7105 Coq.MSets.MSetList X lt defax
+R7097:7100 Coq.Sorting.Sorted <> sort abbrev
+R7107:7109 Coq.Init.Datatypes <> nil constr
+R7102:7105 Coq.MSets.MSetList X lt defax
+R7142:7145 Coq.Sorting.Sorted <> sort abbrev
+R7147:7150 Coq.MSets.MSetList X lt defax
+R7142:7145 Coq.Sorting.Sorted <> sort abbrev
+R7147:7150 Coq.MSets.MSetList X lt defax
+R7197:7198 Coq.MSets.MSetList MakeRaw Ok class
+R7197:7198 Coq.MSets.MSetList MakeRaw Ok class
+R7251:7252 Coq.MSets.MSetList MakeRaw Ok class
+R7251:7252 Coq.MSets.MSetList MakeRaw Ok class
+R7270:7277 Coq.MSets.MSetList MakeRaw isok_iff thm
+R7221:7228 Coq.MSets.MSetList MakeRaw isok_iff thm
+R7171:7172 Coq.MSets.MSetList MakeRaw Ok class
+R7444:7446 Coq.MSets.MSetList MakeRaw Inf abbrev
+R7444:7446 Coq.MSets.MSetList MakeRaw Inf abbrev
+R7458:7459 Coq.MSets.MSetList MakeRaw In abbrev
+R7458:7459 Coq.MSets.MSetList MakeRaw In abbrev
+R7485:7488 Coq.MSets.MSetList X lt defax
+R7512:7522 Coq.MSets.MSetList MakeRaw Sort_Inf_In thm
+inst 7579:7585 MakeRaw isok_Ok
+binder 7587:7587 <> s:93
+R7597:7599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7591:7594 Coq.MSets.MSetList MakeRaw isok def
+R7596:7596 Coq.MSets.MSetList <> s:93 var
+R7600:7603 Coq.Init.Datatypes <> true constr
+binder 7591:7603 <> H:94
+R7608:7609 Coq.MSets.MSetList MakeRaw Ok class
+R7611:7611 Coq.MSets.MSetList <> s:93 var
+def 7671:7675 MakeRaw Equal
+binder 7677:7677 <> s:95
+binder 7679:7680 <> s':96
+R7696:7698 Coq.MSets.MSetList MakeRaw elt def
+binder 7692:7692 <> a:97
+R7707:7711 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7701:7702 Coq.MSets.MSetList MakeRaw In abbrev
+R7706:7706 Coq.MSets.MSetList <> s:95 var
+R7704:7704 Coq.MSets.MSetList <> a:97 var
+R7712:7713 Coq.MSets.MSetList MakeRaw In abbrev
+R7717:7718 Coq.MSets.MSetList <> s':96 var
+R7715:7715 Coq.MSets.MSetList <> a:97 var
+def 7734:7739 MakeRaw Subset
+binder 7741:7741 <> s:98
+binder 7743:7744 <> s':99
+R7760:7762 Coq.MSets.MSetList MakeRaw elt def
+binder 7756:7756 <> a:100
+R7771:7774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7765:7766 Coq.MSets.MSetList MakeRaw In abbrev
+R7770:7770 Coq.MSets.MSetList <> s:98 var
+R7768:7768 Coq.MSets.MSetList <> a:100 var
+R7775:7776 Coq.MSets.MSetList MakeRaw In abbrev
+R7780:7781 Coq.MSets.MSetList <> s':99 var
+R7778:7778 Coq.MSets.MSetList <> a:100 var
+def 7797:7801 MakeRaw Empty
+binder 7803:7803 <> s:101
+R7819:7821 Coq.MSets.MSetList MakeRaw elt def
+binder 7815:7815 <> a:102
+R7824:7825 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7826:7827 Coq.MSets.MSetList MakeRaw In abbrev
+R7831:7831 Coq.MSets.MSetList <> s:101 var
+R7829:7829 Coq.MSets.MSetList <> a:102 var
+def 7847:7853 MakeRaw For_all
+R7863:7866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7860:7862 Coq.MSets.MSetList MakeRaw elt def
+binder 7856:7856 <> P:103
+binder 7873:7873 <> s:104
+binder 7885:7885 <> x:105
+R7894:7897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7888:7889 Coq.MSets.MSetList MakeRaw In abbrev
+R7893:7893 Coq.MSets.MSetList <> s:104 var
+R7891:7891 Coq.MSets.MSetList <> x:105 var
+R7898:7898 Coq.MSets.MSetList <> P:103 var
+R7900:7900 Coq.MSets.MSetList <> x:105 var
+def 7916:7921 MakeRaw Exists
+R7931:7934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7928:7930 Coq.MSets.MSetList MakeRaw elt def
+binder 7924:7924 <> P:106
+R7946:7946 Coq.MSets.MSetList MakeRaw t def
+binder 7942:7942 <> s:107
+R7952:7958 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7960:7961 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7959:7959 <> x:108
+R7968:7971 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7962:7963 Coq.MSets.MSetList MakeRaw In abbrev
+R7967:7967 Coq.MSets.MSetList <> s:107 var
+R7965:7965 Coq.MSets.MSetList <> x:108 var
+R7972:7972 Coq.MSets.MSetList <> P:106 var
+R7974:7974 Coq.MSets.MSetList <> x:108 var
+prf 7986:7993 MakeRaw mem_spec
+R8012:8012 Coq.MSets.MSetList MakeRaw t def
+binder 8008:8008 <> s:109
+R8020:8022 Coq.MSets.MSetList MakeRaw elt def
+binder 8016:8016 <> x:110
+R8031:8032 Coq.MSets.MSetList MakeRaw Ok class
+R8034:8034 Coq.MSets.MSetList <> s:109 var
+binder 8026:8027 <> Hs:111
+R8052:8056 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8045:8047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8038:8040 Coq.MSets.MSetList MakeRaw mem def
+R8044:8044 Coq.MSets.MSetList <> s:109 var
+R8042:8042 Coq.MSets.MSetList <> x:110 var
+R8048:8051 Coq.Init.Datatypes <> true constr
+R8057:8058 Coq.MSets.MSetList MakeRaw In abbrev
+R8062:8062 Coq.MSets.MSetList <> s:109 var
+R8060:8060 Coq.MSets.MSetList <> x:110 var
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+R8174:8181 Coq.Lists.SetoidList <> InA_cons thm
+prf 8305:8311 MakeRaw add_inf
+R8330:8330 Coq.MSets.MSetList MakeRaw t def
+binder 8326:8326 <> s:112
+R8340:8342 Coq.MSets.MSetList MakeRaw elt def
+binder 8334:8334 <> x:113
+binder 8336:8336 <> a:114
+R8353:8356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8346:8348 Coq.MSets.MSetList MakeRaw Inf abbrev
+R8352:8352 Coq.MSets.MSetList <> s:112 var
+R8350:8350 Coq.MSets.MSetList <> a:114 var
+R8365:8368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8357:8360 Coq.MSets.MSetList X lt defax
+R8364:8364 Coq.MSets.MSetList <> x:113 var
+R8362:8362 Coq.MSets.MSetList <> a:114 var
+R8369:8371 Coq.MSets.MSetList MakeRaw Inf abbrev
+R8376:8378 Coq.MSets.MSetList MakeRaw add def
+R8382:8382 Coq.MSets.MSetList <> s:112 var
+R8380:8380 Coq.MSets.MSetList <> x:113 var
+R8373:8373 Coq.MSets.MSetList <> a:114 var
+inst 8549:8554 MakeRaw add_ok
+binder 8556:8556 <> s:115
+binder 8558:8558 <> x:116
+R8571:8572 Coq.MSets.MSetList MakeRaw Ok class
+R8574:8574 Coq.MSets.MSetList <> s:115 var
+binder 8571:8574 <> H:117
+R8578:8579 Coq.MSets.MSetList MakeRaw Ok class
+R8582:8584 Coq.MSets.MSetList MakeRaw add def
+R8588:8588 Coq.MSets.MSetList <> s:115 var
+R8586:8586 Coq.MSets.MSetList <> x:116 var
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+R8621:8628 Coq.MSets.MSetList MakeRaw isok_iff thm
+prf 8740:8747 MakeRaw add_spec
+R8766:8766 Coq.MSets.MSetList MakeRaw t def
+binder 8762:8762 <> s:118
+R8776:8778 Coq.MSets.MSetList MakeRaw elt def
+binder 8770:8770 <> x:119
+binder 8772:8772 <> y:120
+R8787:8788 Coq.MSets.MSetList MakeRaw Ok class
+R8790:8790 Coq.MSets.MSetList <> s:118 var
+binder 8782:8783 <> Hs:121
+R8812:8816 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8798:8799 Coq.MSets.MSetList MakeRaw In abbrev
+R8804:8806 Coq.MSets.MSetList MakeRaw add def
+R8810:8810 Coq.MSets.MSetList <> s:118 var
+R8808:8808 Coq.MSets.MSetList <> x:119 var
+R8801:8801 Coq.MSets.MSetList <> y:120 var
+R8825:8828 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8817:8820 Coq.MSets.MSetList X eq defax
+R8824:8824 Coq.MSets.MSetList <> x:119 var
+R8822:8822 Coq.MSets.MSetList <> y:120 var
+R8829:8830 Coq.MSets.MSetList MakeRaw In abbrev
+R8834:8834 Coq.MSets.MSetList <> s:118 var
+R8832:8832 Coq.MSets.MSetList <> y:120 var
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+R8934:8941 Coq.Lists.SetoidList <> InA_cons thm
+prf 8977:8986 MakeRaw remove_inf
+R9005:9005 Coq.MSets.MSetList MakeRaw t def
+binder 9001:9001 <> s:122
+R9015:9017 Coq.MSets.MSetList MakeRaw elt def
+binder 9009:9009 <> x:123
+binder 9011:9011 <> a:124
+R9026:9027 Coq.MSets.MSetList MakeRaw Ok class
+R9029:9029 Coq.MSets.MSetList <> s:122 var
+binder 9021:9022 <> Hs:125
+R9040:9043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9033:9035 Coq.MSets.MSetList MakeRaw Inf abbrev
+R9039:9039 Coq.MSets.MSetList <> s:122 var
+R9037:9037 Coq.MSets.MSetList <> a:124 var
+R9044:9046 Coq.MSets.MSetList MakeRaw Inf abbrev
+R9051:9056 Coq.MSets.MSetList MakeRaw remove def
+R9060:9060 Coq.MSets.MSetList <> s:122 var
+R9058:9058 Coq.MSets.MSetList <> x:123 var
+R9048:9048 Coq.MSets.MSetList <> a:124 var
+R9155:9160 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R9155:9160 Coq.MSets.MSetList MakeRaw Inf_lt thm
+inst 9247:9255 MakeRaw remove_ok
+binder 9257:9257 <> s:126
+binder 9259:9259 <> x:127
+R9272:9273 Coq.MSets.MSetList MakeRaw Ok class
+R9275:9275 Coq.MSets.MSetList <> s:126 var
+binder 9272:9275 <> H:128
+R9279:9280 Coq.MSets.MSetList MakeRaw Ok class
+R9283:9288 Coq.MSets.MSetList MakeRaw remove def
+R9292:9292 Coq.MSets.MSetList <> s:126 var
+R9290:9290 Coq.MSets.MSetList <> x:127 var
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+R9325:9332 Coq.MSets.MSetList MakeRaw isok_iff thm
+prf 9437:9447 MakeRaw remove_spec
+R9466:9466 Coq.MSets.MSetList MakeRaw t def
+binder 9462:9462 <> s:129
+R9476:9478 Coq.MSets.MSetList MakeRaw elt def
+binder 9470:9470 <> x:130
+binder 9472:9472 <> y:131
+R9487:9488 Coq.MSets.MSetList MakeRaw Ok class
+R9490:9490 Coq.MSets.MSetList <> s:129 var
+binder 9482:9483 <> Hs:132
+R9515:9519 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9498:9499 Coq.MSets.MSetList MakeRaw In abbrev
+R9504:9509 Coq.MSets.MSetList MakeRaw remove def
+R9513:9513 Coq.MSets.MSetList <> s:129 var
+R9511:9511 Coq.MSets.MSetList <> x:130 var
+R9501:9501 Coq.MSets.MSetList <> y:131 var
+R9526:9529 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9520:9521 Coq.MSets.MSetList MakeRaw In abbrev
+R9525:9525 Coq.MSets.MSetList <> s:129 var
+R9523:9523 Coq.MSets.MSetList <> y:131 var
+R9530:9530 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9531:9534 Coq.MSets.MSetList X eq defax
+R9538:9538 Coq.MSets.MSetList <> x:130 var
+R9536:9536 Coq.MSets.MSetList <> y:131 var
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+R9638:9645 Coq.Lists.SetoidList <> InA_cons thm
+inst 9722:9733 MakeRaw singleton_ok
+binder 9735:9735 <> x:133
+R9739:9740 Coq.MSets.MSetList MakeRaw Ok class
+R9743:9751 Coq.MSets.MSetList MakeRaw singleton def
+R9753:9753 Coq.MSets.MSetList <> x:133 var
+R9775:9783 Coq.MSets.MSetList MakeRaw singleton def
+prf 9815:9828 MakeRaw singleton_spec
+R9845:9847 Coq.MSets.MSetList MakeRaw elt def
+binder 9839:9839 <> x:134
+binder 9841:9841 <> y:135
+R9868:9872 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9850:9851 Coq.MSets.MSetList MakeRaw In abbrev
+R9856:9864 Coq.MSets.MSetList MakeRaw singleton def
+R9866:9866 Coq.MSets.MSetList <> x:134 var
+R9853:9853 Coq.MSets.MSetList <> y:135 var
+R9873:9876 Coq.MSets.MSetList X eq defax
+R9880:9880 Coq.MSets.MSetList <> x:134 var
+R9878:9878 Coq.MSets.MSetList <> y:135 var
+R9901:9909 Coq.MSets.MSetList MakeRaw singleton def
+prf 10225:10233 MakeRaw union_inf
+R10255:10255 Coq.MSets.MSetList MakeRaw t def
+binder 10248:10248 <> s:136
+binder 10250:10251 <> s':137
+R10263:10265 Coq.MSets.MSetList MakeRaw elt def
+binder 10259:10259 <> a:138
+R10274:10275 Coq.MSets.MSetList MakeRaw Ok class
+R10277:10277 Coq.MSets.MSetList <> s:136 var
+binder 10269:10270 <> Hs:139
+R10287:10288 Coq.MSets.MSetList MakeRaw Ok class
+R10290:10291 Coq.MSets.MSetList <> s':137 var
+binder 10281:10283 <> Hs':140
+R10305:10308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10298:10300 Coq.MSets.MSetList MakeRaw Inf abbrev
+R10304:10304 Coq.MSets.MSetList <> s:136 var
+R10302:10302 Coq.MSets.MSetList <> a:138 var
+R10317:10320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10309:10311 Coq.MSets.MSetList MakeRaw Inf abbrev
+R10315:10316 Coq.MSets.MSetList <> s':137 var
+R10313:10313 Coq.MSets.MSetList <> a:138 var
+R10321:10323 Coq.MSets.MSetList MakeRaw Inf abbrev
+R10328:10332 Coq.MSets.MSetList MakeRaw union def
+R10336:10337 Coq.MSets.MSetList <> s':137 var
+R10334:10334 Coq.MSets.MSetList <> s:136 var
+R10325:10325 Coq.MSets.MSetList <> a:138 var
+inst 10434:10441 MakeRaw union_ok
+binder 10443:10443 <> s:141
+binder 10445:10446 <> s':142
+R10459:10460 Coq.MSets.MSetList MakeRaw Ok class
+R10462:10462 Coq.MSets.MSetList <> s:141 var
+binder 10459:10462 <> H:143
+R10465:10466 Coq.MSets.MSetList MakeRaw Ok class
+R10468:10469 Coq.MSets.MSetList <> s':142 var
+binder 10465:10469 <> H0:144
+R10473:10474 Coq.MSets.MSetList MakeRaw Ok class
+R10477:10481 Coq.MSets.MSetList MakeRaw union def
+R10485:10486 Coq.MSets.MSetList <> s':142 var
+R10483:10483 Coq.MSets.MSetList <> s:141 var
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10519:10526 Coq.MSets.MSetList MakeRaw isok_iff thm
+R10581:10582 Coq.MSets.MSetList MakeRaw ok def
+R10581:10582 Coq.MSets.MSetList MakeRaw ok def
+R10581:10582 Coq.MSets.MSetList MakeRaw ok def
+R10581:10582 Coq.MSets.MSetList MakeRaw ok def
+R10581:10582 Coq.MSets.MSetList MakeRaw ok def
+R10600:10605 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R10628:10636 Coq.MSets.MSetList MakeRaw union_inf thm
+R10651:10656 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R10600:10605 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R10628:10636 Coq.MSets.MSetList MakeRaw union_inf thm
+R10651:10656 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R10689:10691 Coq.MSets.MSetList MakeRaw Inf abbrev
+R10697:10701 Coq.MSets.MSetList MakeRaw union def
+R10705:10708 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10689:10691 Coq.MSets.MSetList MakeRaw Inf abbrev
+R10697:10701 Coq.MSets.MSetList MakeRaw union def
+R10705:10708 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 10740:10749 MakeRaw union_spec
+R10771:10771 Coq.MSets.MSetList MakeRaw t def
+binder 10764:10764 <> s:145
+binder 10766:10767 <> s':146
+R10779:10781 Coq.MSets.MSetList MakeRaw elt def
+binder 10775:10775 <> x:147
+R10790:10791 Coq.MSets.MSetList MakeRaw Ok class
+R10793:10793 Coq.MSets.MSetList <> s:145 var
+binder 10785:10786 <> Hs:148
+R10803:10804 Coq.MSets.MSetList MakeRaw Ok class
+R10806:10807 Coq.MSets.MSetList <> s':146 var
+binder 10797:10799 <> Hs':149
+R10831:10835 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10814:10815 Coq.MSets.MSetList MakeRaw In abbrev
+R10820:10824 Coq.MSets.MSetList MakeRaw union def
+R10828:10829 Coq.MSets.MSetList <> s':146 var
+R10826:10826 Coq.MSets.MSetList <> s:145 var
+R10817:10817 Coq.MSets.MSetList <> x:147 var
+R10842:10845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10836:10837 Coq.MSets.MSetList MakeRaw In abbrev
+R10841:10841 Coq.MSets.MSetList <> s:145 var
+R10839:10839 Coq.MSets.MSetList <> x:147 var
+R10846:10847 Coq.MSets.MSetList MakeRaw In abbrev
+R10851:10852 Coq.MSets.MSetList <> s':146 var
+R10849:10849 Coq.MSets.MSetList <> x:147 var
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+R10891:10898 Coq.Lists.SetoidList <> InA_cons thm
+prf 10954:10962 MakeRaw inter_inf
+R10984:10984 Coq.MSets.MSetList MakeRaw t def
+binder 10977:10977 <> s:150
+binder 10979:10980 <> s':151
+R10992:10994 Coq.MSets.MSetList MakeRaw elt def
+binder 10988:10988 <> a:152
+R11003:11004 Coq.MSets.MSetList MakeRaw Ok class
+R11006:11006 Coq.MSets.MSetList <> s:150 var
+binder 10998:10999 <> Hs:153
+R11016:11017 Coq.MSets.MSetList MakeRaw Ok class
+R11019:11020 Coq.MSets.MSetList <> s':151 var
+binder 11010:11012 <> Hs':154
+R11034:11037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11027:11029 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11033:11033 Coq.MSets.MSetList <> s:150 var
+R11031:11031 Coq.MSets.MSetList <> a:152 var
+R11046:11049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11038:11040 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11044:11045 Coq.MSets.MSetList <> s':151 var
+R11042:11042 Coq.MSets.MSetList <> a:152 var
+R11050:11052 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11057:11061 Coq.MSets.MSetList MakeRaw inter def
+R11065:11066 Coq.MSets.MSetList <> s':151 var
+R11063:11063 Coq.MSets.MSetList <> s:150 var
+R11054:11054 Coq.MSets.MSetList <> a:152 var
+R11101:11106 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11101:11106 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11151:11156 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11151:11156 Coq.MSets.MSetList MakeRaw Inf_lt thm
+inst 11243:11250 MakeRaw inter_ok
+binder 11252:11252 <> s:155
+binder 11254:11255 <> s':156
+R11268:11269 Coq.MSets.MSetList MakeRaw Ok class
+R11271:11271 Coq.MSets.MSetList <> s:155 var
+binder 11268:11271 <> H:157
+R11274:11275 Coq.MSets.MSetList MakeRaw Ok class
+R11277:11278 Coq.MSets.MSetList <> s':156 var
+binder 11274:11278 <> H0:158
+R11282:11283 Coq.MSets.MSetList MakeRaw Ok class
+R11286:11290 Coq.MSets.MSetList MakeRaw inter def
+R11294:11295 Coq.MSets.MSetList <> s':156 var
+R11292:11292 Coq.MSets.MSetList <> s:155 var
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11328:11335 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11395:11400 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R11423:11431 Coq.MSets.MSetList MakeRaw inter_inf thm
+R11446:11451 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R11395:11400 Coq.MSets.MSetList MakeRaw Inf_eq thm
+R11423:11431 Coq.MSets.MSetList MakeRaw inter_inf thm
+R11446:11451 Coq.MSets.MSetList MakeRaw Inf_eq thm
+prf 11483:11492 MakeRaw inter_spec
+R11514:11514 Coq.MSets.MSetList MakeRaw t def
+binder 11507:11507 <> s:159
+binder 11509:11510 <> s':160
+R11522:11524 Coq.MSets.MSetList MakeRaw elt def
+binder 11518:11518 <> x:161
+R11533:11534 Coq.MSets.MSetList MakeRaw Ok class
+R11536:11536 Coq.MSets.MSetList <> s:159 var
+binder 11528:11529 <> Hs:162
+R11546:11547 Coq.MSets.MSetList MakeRaw Ok class
+R11549:11550 Coq.MSets.MSetList <> s':160 var
+binder 11540:11542 <> Hs':163
+R11574:11578 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11557:11558 Coq.MSets.MSetList MakeRaw In abbrev
+R11563:11567 Coq.MSets.MSetList MakeRaw inter def
+R11571:11572 Coq.MSets.MSetList <> s':160 var
+R11569:11569 Coq.MSets.MSetList <> s:159 var
+R11560:11560 Coq.MSets.MSetList <> x:161 var
+R11585:11588 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11579:11580 Coq.MSets.MSetList MakeRaw In abbrev
+R11584:11584 Coq.MSets.MSetList <> s:159 var
+R11582:11582 Coq.MSets.MSetList <> x:161 var
+R11589:11590 Coq.MSets.MSetList MakeRaw In abbrev
+R11594:11595 Coq.MSets.MSetList <> s':160 var
+R11592:11592 Coq.MSets.MSetList <> x:161 var
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+R11634:11641 Coq.Lists.SetoidList <> InA_cons thm
+prf 11728:11735 MakeRaw diff_inf
+R11757:11757 Coq.MSets.MSetList MakeRaw t def
+binder 11750:11750 <> s:164
+binder 11752:11753 <> s':165
+R11766:11767 Coq.MSets.MSetList MakeRaw Ok class
+R11769:11769 Coq.MSets.MSetList <> s:164 var
+binder 11761:11762 <> Hs:166
+R11779:11780 Coq.MSets.MSetList MakeRaw Ok class
+R11782:11783 Coq.MSets.MSetList <> s':165 var
+binder 11773:11775 <> Hs':167
+R11791:11793 Coq.MSets.MSetList MakeRaw elt def
+binder 11787:11787 <> a:168
+R11807:11810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11800:11802 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11806:11806 Coq.MSets.MSetList <> s:164 var
+R11804:11804 Coq.MSets.MSetList <> a:168 var
+R11819:11822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11811:11813 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11817:11818 Coq.MSets.MSetList <> s':165 var
+R11815:11815 Coq.MSets.MSetList <> a:168 var
+R11823:11825 Coq.MSets.MSetList MakeRaw Inf abbrev
+R11830:11833 Coq.MSets.MSetList MakeRaw diff def
+R11837:11838 Coq.MSets.MSetList <> s':165 var
+R11835:11835 Coq.MSets.MSetList <> s:164 var
+R11827:11827 Coq.MSets.MSetList <> a:168 var
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11884:11891 Coq.MSets.MSetList MakeRaw isok_iff thm
+R11952:11957 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11952:11957 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11981:11986 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R11981:11986 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R12032:12037 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R12032:12037 Coq.MSets.MSetList MakeRaw Inf_lt thm
+inst 12123:12129 MakeRaw diff_ok
+binder 12131:12131 <> s:169
+binder 12133:12134 <> s':170
+R12147:12148 Coq.MSets.MSetList MakeRaw Ok class
+R12150:12150 Coq.MSets.MSetList <> s:169 var
+binder 12147:12150 <> H:171
+R12153:12154 Coq.MSets.MSetList MakeRaw Ok class
+R12156:12157 Coq.MSets.MSetList <> s':170 var
+binder 12153:12157 <> H0:172
+R12161:12162 Coq.MSets.MSetList MakeRaw Ok class
+R12165:12168 Coq.MSets.MSetList MakeRaw diff def
+R12172:12173 Coq.MSets.MSetList <> s':170 var
+R12170:12170 Coq.MSets.MSetList <> s:169 var
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+R12206:12213 Coq.MSets.MSetList MakeRaw isok_iff thm
+prf 12259:12267 MakeRaw diff_spec
+R12289:12289 Coq.MSets.MSetList MakeRaw t def
+binder 12282:12282 <> s:173
+binder 12284:12285 <> s':174
+R12297:12299 Coq.MSets.MSetList MakeRaw elt def
+binder 12293:12293 <> x:175
+R12308:12309 Coq.MSets.MSetList MakeRaw Ok class
+R12311:12311 Coq.MSets.MSetList <> s:173 var
+binder 12303:12304 <> Hs:176
+R12321:12322 Coq.MSets.MSetList MakeRaw Ok class
+R12324:12325 Coq.MSets.MSetList <> s':174 var
+binder 12315:12317 <> Hs':177
+R12348:12352 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12332:12333 Coq.MSets.MSetList MakeRaw In abbrev
+R12338:12341 Coq.MSets.MSetList MakeRaw diff def
+R12345:12346 Coq.MSets.MSetList <> s':174 var
+R12343:12343 Coq.MSets.MSetList <> s:173 var
+R12335:12335 Coq.MSets.MSetList <> x:175 var
+R12359:12362 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12353:12354 Coq.MSets.MSetList MakeRaw In abbrev
+R12358:12358 Coq.MSets.MSetList <> s:173 var
+R12356:12356 Coq.MSets.MSetList <> x:175 var
+R12363:12363 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12364:12365 Coq.MSets.MSetList MakeRaw In abbrev
+R12369:12370 Coq.MSets.MSetList <> s':174 var
+R12367:12367 Coq.MSets.MSetList <> x:175 var
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+R12409:12416 Coq.Lists.SetoidList <> InA_cons thm
+prf 12534:12543 MakeRaw equal_spec
+R12565:12565 Coq.MSets.MSetList MakeRaw t def
+binder 12558:12558 <> s:178
+binder 12560:12561 <> s':179
+R12574:12575 Coq.MSets.MSetList MakeRaw Ok class
+R12577:12577 Coq.MSets.MSetList <> s:178 var
+binder 12569:12570 <> Hs:180
+R12587:12588 Coq.MSets.MSetList MakeRaw Ok class
+R12590:12591 Coq.MSets.MSetList <> s':179 var
+binder 12581:12583 <> Hs':181
+R12615:12619 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12608:12610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12598:12602 Coq.MSets.MSetList MakeRaw equal def
+R12606:12607 Coq.MSets.MSetList <> s':179 var
+R12604:12604 Coq.MSets.MSetList <> s:178 var
+R12611:12614 Coq.Init.Datatypes <> true constr
+R12620:12624 Coq.MSets.MSetList MakeRaw Equal def
+R12628:12629 Coq.MSets.MSetList <> s':179 var
+R12626:12626 Coq.MSets.MSetList <> s:178 var
+R12771:12772 Coq.MSets.MSetList MakeRaw In abbrev
+R12777:12779 Coq.Init.Datatypes <> nil constr
+R12771:12772 Coq.MSets.MSetList MakeRaw In abbrev
+R12777:12779 Coq.Init.Datatypes <> nil constr
+R12850:12851 Coq.MSets.MSetList MakeRaw In abbrev
+R12855:12857 Coq.Init.Datatypes <> nil constr
+R12850:12851 Coq.MSets.MSetList MakeRaw In abbrev
+R12855:12857 Coq.Init.Datatypes <> nil constr
+R13023:13030 Coq.Lists.SetoidList <> InA_cons thm
+R13023:13030 Coq.Lists.SetoidList <> InA_cons thm
+R13023:13030 Coq.Lists.SetoidList <> InA_cons thm
+R13023:13030 Coq.Lists.SetoidList <> InA_cons thm
+R13023:13030 Coq.Lists.SetoidList <> InA_cons thm
+R13061:13068 Coq.Lists.SetoidList <> InA_cons thm
+R13061:13068 Coq.Lists.SetoidList <> InA_cons thm
+R13061:13068 Coq.Lists.SetoidList <> InA_cons thm
+R13061:13068 Coq.Lists.SetoidList <> InA_cons thm
+R13061:13068 Coq.Lists.SetoidList <> InA_cons thm
+R13170:13171 Coq.MSets.MSetList MakeRaw In abbrev
+R13178:13179 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13170:13171 Coq.MSets.MSetList MakeRaw In abbrev
+R13178:13179 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13297:13298 Coq.MSets.MSetList MakeRaw In abbrev
+R13305:13306 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13297:13298 Coq.MSets.MSetList MakeRaw In abbrev
+R13305:13306 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 13380:13390 MakeRaw subset_spec
+R13412:13412 Coq.MSets.MSetList MakeRaw t def
+binder 13405:13405 <> s:182
+binder 13407:13408 <> s':183
+R13421:13422 Coq.MSets.MSetList MakeRaw Ok class
+R13424:13424 Coq.MSets.MSetList <> s:182 var
+binder 13416:13417 <> Hs:184
+R13434:13435 Coq.MSets.MSetList MakeRaw Ok class
+R13437:13438 Coq.MSets.MSetList <> s':183 var
+binder 13428:13430 <> Hs':185
+R13463:13467 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13456:13458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13445:13450 Coq.MSets.MSetList MakeRaw subset def
+R13454:13455 Coq.MSets.MSetList <> s':183 var
+R13452:13452 Coq.MSets.MSetList <> s:182 var
+R13459:13462 Coq.Init.Datatypes <> true constr
+R13468:13473 Coq.MSets.MSetList MakeRaw Subset def
+R13477:13478 Coq.MSets.MSetList <> s':183 var
+R13475:13475 Coq.MSets.MSetList <> s:182 var
+R13658:13659 Coq.MSets.MSetList MakeRaw In abbrev
+R13663:13665 Coq.Init.Datatypes <> nil constr
+R13658:13659 Coq.MSets.MSetList MakeRaw In abbrev
+R13663:13665 Coq.Init.Datatypes <> nil constr
+R13844:13851 Coq.Lists.SetoidList <> InA_cons thm
+R13844:13851 Coq.Lists.SetoidList <> InA_cons thm
+R13844:13851 Coq.Lists.SetoidList <> InA_cons thm
+R13844:13851 Coq.Lists.SetoidList <> InA_cons thm
+R13844:13851 Coq.Lists.SetoidList <> InA_cons thm
+R13879:13886 Coq.Lists.SetoidList <> InA_cons thm
+R13879:13886 Coq.Lists.SetoidList <> InA_cons thm
+R13879:13886 Coq.Lists.SetoidList <> InA_cons thm
+R13879:13886 Coq.Lists.SetoidList <> InA_cons thm
+R13879:13886 Coq.Lists.SetoidList <> InA_cons thm
+R13988:13989 Coq.MSets.MSetList MakeRaw In abbrev
+R13996:13997 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13988:13989 Coq.MSets.MSetList MakeRaw In abbrev
+R13996:13997 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14137:14144 Coq.Lists.SetoidList <> InA_cons thm
+R14137:14144 Coq.Lists.SetoidList <> InA_cons thm
+R14137:14144 Coq.Lists.SetoidList <> InA_cons thm
+R14137:14144 Coq.Lists.SetoidList <> InA_cons thm
+R14137:14144 Coq.Lists.SetoidList <> InA_cons thm
+R14169:14176 Coq.Lists.SetoidList <> InA_cons thm
+R14169:14176 Coq.Lists.SetoidList <> InA_cons thm
+R14169:14176 Coq.Lists.SetoidList <> InA_cons thm
+R14169:14176 Coq.Lists.SetoidList <> InA_cons thm
+R14169:14176 Coq.Lists.SetoidList <> InA_cons thm
+R14193:14200 Coq.Lists.SetoidList <> InA_cons thm
+R14193:14200 Coq.Lists.SetoidList <> InA_cons thm
+R14193:14200 Coq.Lists.SetoidList <> InA_cons thm
+R14193:14200 Coq.Lists.SetoidList <> InA_cons thm
+inst 14264:14271 MakeRaw empty_ok
+R14275:14276 Coq.MSets.MSetList MakeRaw Ok class
+R14278:14282 Coq.MSets.MSetList MakeRaw empty def
+prf 14326:14335 MakeRaw empty_spec
+R14339:14343 Coq.MSets.MSetList MakeRaw Empty def
+R14345:14349 Coq.MSets.MSetList MakeRaw empty def
+R14370:14374 Coq.MSets.MSetList MakeRaw Empty def
+R14377:14381 Coq.MSets.MSetList MakeRaw empty def
+prf 14416:14428 MakeRaw is_empty_spec
+R14443:14443 Coq.MSets.MSetList MakeRaw t def
+binder 14439:14439 <> s:186
+R14463:14467 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14456:14458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14446:14453 Coq.MSets.MSetList MakeRaw is_empty def
+R14455:14455 Coq.MSets.MSetList <> s:186 var
+R14459:14462 Coq.Init.Datatypes <> true constr
+R14468:14472 Coq.MSets.MSetList MakeRaw Empty def
+R14474:14474 Coq.MSets.MSetList <> s:186 var
+prf 14613:14626 MakeRaw elements_spec1
+R14642:14642 Coq.MSets.MSetList MakeRaw t def
+binder 14638:14638 <> s:187
+R14650:14652 Coq.MSets.MSetList MakeRaw elt def
+binder 14646:14646 <> x:188
+R14673:14677 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14656:14657 Coq.MSets.MSetList MakeRaw In abbrev
+R14662:14669 Coq.MSets.MSetList MakeRaw elements def
+R14671:14671 Coq.MSets.MSetList <> s:187 var
+R14659:14659 Coq.MSets.MSetList <> x:188 var
+R14678:14679 Coq.MSets.MSetList MakeRaw In abbrev
+R14683:14683 Coq.MSets.MSetList <> s:187 var
+R14681:14681 Coq.MSets.MSetList <> x:188 var
+prf 14724:14737 MakeRaw elements_spec2
+R14753:14753 Coq.MSets.MSetList MakeRaw t def
+binder 14749:14749 <> s:189
+R14762:14763 Coq.MSets.MSetList MakeRaw Ok class
+R14765:14765 Coq.MSets.MSetList <> s:189 var
+binder 14757:14758 <> Hs:190
+R14769:14772 Coq.Sorting.Sorted <> sort abbrev
+R14780:14787 Coq.MSets.MSetList MakeRaw elements def
+R14789:14789 Coq.MSets.MSetList <> s:189 var
+R14774:14777 Coq.MSets.MSetList X lt defax
+R14831:14838 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14831:14838 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14831:14838 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14831:14838 Coq.MSets.MSetList MakeRaw isok_iff thm
+prf 14863:14877 MakeRaw elements_spec2w
+R14893:14893 Coq.MSets.MSetList MakeRaw t def
+binder 14889:14889 <> s:191
+R14902:14903 Coq.MSets.MSetList MakeRaw Ok class
+R14905:14905 Coq.MSets.MSetList <> s:191 var
+binder 14897:14898 <> Hs:192
+R14909:14914 Coq.Lists.SetoidList <> NoDupA ind
+R14922:14929 Coq.MSets.MSetList MakeRaw elements def
+R14931:14931 Coq.MSets.MSetList <> s:191 var
+R14916:14919 Coq.MSets.MSetList X eq defax
+R14973:14980 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14973:14980 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14973:14980 Coq.MSets.MSetList MakeRaw isok_iff thm
+R14973:14980 Coq.MSets.MSetList MakeRaw isok_iff thm
+prf 15005:15017 MakeRaw min_elt_spec1
+R15033:15033 Coq.MSets.MSetList MakeRaw t def
+binder 15029:15029 <> s:193
+R15041:15043 Coq.MSets.MSetList MakeRaw elt def
+binder 15037:15037 <> x:194
+R15065:15068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15056:15058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15047:15053 Coq.MSets.MSetList MakeRaw min_elt def
+R15055:15055 Coq.MSets.MSetList <> s:193 var
+R15059:15062 Coq.Init.Datatypes <> Some constr
+R15064:15064 Coq.MSets.MSetList <> x:194 var
+R15069:15070 Coq.MSets.MSetList MakeRaw In abbrev
+R15074:15074 Coq.MSets.MSetList <> s:193 var
+R15072:15072 Coq.MSets.MSetList <> x:194 var
+prf 15142:15154 MakeRaw min_elt_spec2
+R15173:15173 Coq.MSets.MSetList MakeRaw t def
+binder 15169:15169 <> s:195
+R15183:15185 Coq.MSets.MSetList MakeRaw elt def
+binder 15177:15177 <> x:196
+binder 15179:15179 <> y:197
+R15194:15195 Coq.MSets.MSetList MakeRaw Ok class
+R15197:15197 Coq.MSets.MSetList <> s:195 var
+binder 15189:15190 <> Hs:198
+R15222:15225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15213:15215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15204:15210 Coq.MSets.MSetList MakeRaw min_elt def
+R15212:15212 Coq.MSets.MSetList <> s:195 var
+R15216:15219 Coq.Init.Datatypes <> Some constr
+R15221:15221 Coq.MSets.MSetList <> x:196 var
+R15232:15235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15226:15227 Coq.MSets.MSetList MakeRaw In abbrev
+R15231:15231 Coq.MSets.MSetList <> s:195 var
+R15229:15229 Coq.MSets.MSetList <> y:197 var
+R15236:15237 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15238:15241 Coq.MSets.MSetList X lt defax
+R15245:15245 Coq.MSets.MSetList <> x:196 var
+R15243:15243 Coq.MSets.MSetList <> y:197 var
+prf 15369:15381 MakeRaw min_elt_spec3
+R15396:15396 Coq.MSets.MSetList MakeRaw t def
+binder 15392:15392 <> s:199
+R15415:15418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15408:15410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15399:15405 Coq.MSets.MSetList MakeRaw min_elt def
+R15407:15407 Coq.MSets.MSetList <> s:199 var
+R15411:15414 Coq.Init.Datatypes <> None constr
+R15419:15423 Coq.MSets.MSetList MakeRaw Empty def
+R15425:15425 Coq.MSets.MSetList <> s:199 var
+prf 15509:15521 MakeRaw max_elt_spec1
+R15537:15537 Coq.MSets.MSetList MakeRaw t def
+binder 15533:15533 <> s:200
+R15545:15547 Coq.MSets.MSetList MakeRaw elt def
+binder 15541:15541 <> x:201
+R15569:15572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15560:15562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15551:15557 Coq.MSets.MSetList MakeRaw max_elt def
+R15559:15559 Coq.MSets.MSetList <> s:200 var
+R15563:15566 Coq.Init.Datatypes <> Some constr
+R15568:15568 Coq.MSets.MSetList <> x:201 var
+R15573:15574 Coq.MSets.MSetList MakeRaw In abbrev
+R15578:15578 Coq.MSets.MSetList <> s:200 var
+R15576:15576 Coq.MSets.MSetList <> x:201 var
+prf 15733:15745 MakeRaw max_elt_spec2
+R15764:15764 Coq.MSets.MSetList MakeRaw t def
+binder 15760:15760 <> s:202
+R15774:15776 Coq.MSets.MSetList MakeRaw elt def
+binder 15768:15768 <> x:203
+binder 15770:15770 <> y:204
+R15785:15786 Coq.MSets.MSetList MakeRaw Ok class
+R15788:15788 Coq.MSets.MSetList <> s:202 var
+binder 15780:15781 <> Hs:205
+R15813:15816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15804:15806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15795:15801 Coq.MSets.MSetList MakeRaw max_elt def
+R15803:15803 Coq.MSets.MSetList <> s:202 var
+R15807:15810 Coq.Init.Datatypes <> Some constr
+R15812:15812 Coq.MSets.MSetList <> x:203 var
+R15823:15826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15817:15818 Coq.MSets.MSetList MakeRaw In abbrev
+R15822:15822 Coq.MSets.MSetList <> s:202 var
+R15820:15820 Coq.MSets.MSetList <> y:204 var
+R15827:15828 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15829:15832 Coq.MSets.MSetList X lt defax
+R15836:15836 Coq.MSets.MSetList <> y:204 var
+R15834:15834 Coq.MSets.MSetList <> x:203 var
+R15988:15988 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15989:15992 Coq.MSets.MSetList X lt defax
+R15988:15988 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15989:15992 Coq.MSets.MSetList X lt defax
+R16030:16033 Coq.MSets.MSetList X lt defax
+R16030:16033 Coq.MSets.MSetList X lt defax
+prf 16074:16086 MakeRaw max_elt_spec3
+R16101:16101 Coq.MSets.MSetList MakeRaw t def
+binder 16097:16097 <> s:206
+R16120:16123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16113:16115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16104:16110 Coq.MSets.MSetList MakeRaw max_elt def
+R16112:16112 Coq.MSets.MSetList <> s:206 var
+R16116:16119 Coq.Init.Datatypes <> None constr
+R16124:16128 Coq.MSets.MSetList MakeRaw Empty def
+R16130:16130 Coq.MSets.MSetList <> s:206 var
+def 16285:16296 MakeRaw choose_spec1
+R16316:16316 Coq.MSets.MSetList MakeRaw t def
+binder 16312:16312 <> s:207
+R16324:16326 Coq.MSets.MSetList MakeRaw elt def
+binder 16320:16320 <> x:208
+R16347:16350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16338:16340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16330:16335 Coq.MSets.MSetList MakeRaw choose def
+R16337:16337 Coq.MSets.MSetList <> s:207 var
+R16341:16344 Coq.Init.Datatypes <> Some constr
+R16346:16346 Coq.MSets.MSetList <> x:208 var
+R16351:16352 Coq.MSets.MSetList MakeRaw In abbrev
+R16356:16356 Coq.MSets.MSetList <> s:207 var
+R16354:16354 Coq.MSets.MSetList <> x:208 var
+R16361:16373 Coq.MSets.MSetList MakeRaw min_elt_spec1 thm
+def 16390:16401 MakeRaw choose_spec2
+R16420:16420 Coq.MSets.MSetList MakeRaw t def
+binder 16416:16416 <> s:209
+R16438:16441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16431:16433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16423:16428 Coq.MSets.MSetList MakeRaw choose def
+R16430:16430 Coq.MSets.MSetList <> s:209 var
+R16434:16437 Coq.Init.Datatypes <> None constr
+R16442:16446 Coq.MSets.MSetList MakeRaw Empty def
+R16448:16448 Coq.MSets.MSetList <> s:209 var
+R16453:16465 Coq.MSets.MSetList MakeRaw min_elt_spec3 thm
+prf 16477:16488 MakeRaw choose_spec3
+binder 16498:16498 <> s:210
+binder 16500:16501 <> s':211
+binder 16503:16503 <> x:212
+binder 16505:16506 <> x':213
+R16513:16516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16509:16510 Coq.MSets.MSetList MakeRaw Ok class
+R16512:16512 Coq.MSets.MSetList <> s:210 var
+R16522:16528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16517:16518 Coq.MSets.MSetList MakeRaw Ok class
+R16520:16521 Coq.MSets.MSetList <> s':211 var
+R16546:16549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16537:16539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16529:16534 Coq.MSets.MSetList MakeRaw choose def
+R16536:16536 Coq.MSets.MSetList <> s:210 var
+R16540:16543 Coq.Init.Datatypes <> Some constr
+R16545:16545 Coq.MSets.MSetList <> x:212 var
+R16569:16572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16559:16561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16550:16555 Coq.MSets.MSetList MakeRaw choose def
+R16557:16558 Coq.MSets.MSetList <> s':211 var
+R16562:16565 Coq.Init.Datatypes <> Some constr
+R16567:16568 Coq.MSets.MSetList <> x':213 var
+R16583:16586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16573:16577 Coq.MSets.MSetList MakeRaw Equal def
+R16581:16582 Coq.MSets.MSetList <> s':211 var
+R16579:16579 Coq.MSets.MSetList <> s:210 var
+R16587:16590 Coq.MSets.MSetList X eq defax
+R16594:16595 Coq.MSets.MSetList <> x':213 var
+R16592:16592 Coq.MSets.MSetList <> x:212 var
+R16617:16622 Coq.MSets.MSetList MakeRaw choose def
+R16670:16670 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16671:16674 Coq.MSets.MSetList X lt defax
+R16670:16670 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16671:16674 Coq.MSets.MSetList X lt defax
+R16693:16705 Coq.MSets.MSetList MakeRaw min_elt_spec2 thm
+R16693:16705 Coq.MSets.MSetList MakeRaw min_elt_spec2 thm
+R16750:16762 Coq.MSets.MSetList MakeRaw min_elt_spec1 thm
+R16750:16762 Coq.MSets.MSetList MakeRaw min_elt_spec1 thm
+R16776:16776 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16777:16780 Coq.MSets.MSetList X lt defax
+R16776:16776 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16777:16780 Coq.MSets.MSetList X lt defax
+R16799:16811 Coq.MSets.MSetList MakeRaw min_elt_spec2 thm
+R16799:16811 Coq.MSets.MSetList MakeRaw min_elt_spec2 thm
+R16853:16865 Coq.MSets.MSetList MakeRaw min_elt_spec1 thm
+R16853:16865 Coq.MSets.MSetList MakeRaw min_elt_spec1 thm
+prf 16894:16902 MakeRaw fold_spec
+R16921:16921 Coq.MSets.MSetList MakeRaw t def
+binder 16917:16917 <> s:214
+binder 16925:16925 <> A:215
+R16940:16940 Coq.MSets.MSetList <> A:215 var
+binder 16936:16936 <> i:216
+R16951:16954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16948:16950 Coq.MSets.MSetList MakeRaw elt def
+R16956:16959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16955:16955 Coq.MSets.MSetList <> A:215 var
+R16960:16960 Coq.MSets.MSetList <> A:215 var
+binder 16944:16944 <> f:217
+R16977:16979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16967:16970 Coq.MSets.MSetList MakeRaw fold def
+R16976:16976 Coq.MSets.MSetList <> i:216 var
+R16974:16974 Coq.MSets.MSetList <> s:214 var
+R16972:16972 Coq.MSets.MSetList <> f:217 var
+R16980:16988 Coq.Lists.List <> fold_left def
+R17012:17012 Coq.MSets.MSetList <> i:216 var
+R17000:17007 Coq.MSets.MSetList MakeRaw elements def
+R17009:17009 Coq.MSets.MSetList <> s:214 var
+R16991:16994 Coq.Program.Basics <> flip def
+R16996:16996 Coq.MSets.MSetList <> f:217 var
+prf 17055:17067 MakeRaw cardinal_spec
+R17086:17086 Coq.MSets.MSetList MakeRaw t def
+binder 17082:17082 <> s:218
+R17095:17096 Coq.MSets.MSetList MakeRaw Ok class
+R17098:17098 Coq.MSets.MSetList <> s:218 var
+binder 17090:17091 <> Hs:219
+R17115:17117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17105:17112 Coq.MSets.MSetList MakeRaw cardinal def
+R17114:17114 Coq.MSets.MSetList <> s:218 var
+R17118:17123 Coq.Init.Datatypes <> length def
+R17126:17133 Coq.MSets.MSetList MakeRaw elements def
+R17135:17135 Coq.MSets.MSetList <> s:218 var
+prf 17172:17181 MakeRaw filter_inf
+R17200:17200 Coq.MSets.MSetList MakeRaw t def
+binder 17196:17196 <> s:220
+R17208:17210 Coq.MSets.MSetList MakeRaw elt def
+binder 17204:17204 <> x:221
+R17221:17224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17218:17220 Coq.MSets.MSetList MakeRaw elt def
+R17225:17228 Coq.Init.Datatypes <> bool ind
+binder 17214:17214 <> f:222
+R17237:17238 Coq.MSets.MSetList MakeRaw Ok class
+R17240:17240 Coq.MSets.MSetList <> s:220 var
+binder 17232:17233 <> Hs:223
+R17254:17257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17247:17249 Coq.MSets.MSetList MakeRaw Inf abbrev
+R17253:17253 Coq.MSets.MSetList <> s:220 var
+R17251:17251 Coq.MSets.MSetList <> x:221 var
+R17258:17260 Coq.MSets.MSetList MakeRaw Inf abbrev
+R17265:17270 Coq.MSets.MSetList MakeRaw filter def
+R17274:17274 Coq.MSets.MSetList <> s:220 var
+R17272:17272 Coq.MSets.MSetList <> f:222 var
+R17262:17262 Coq.MSets.MSetList <> x:221 var
+R17411:17416 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R17411:17416 Coq.MSets.MSetList MakeRaw Inf_lt thm
+inst 17458:17466 MakeRaw filter_ok
+binder 17468:17468 <> s:224
+binder 17470:17470 <> f:225
+R17483:17484 Coq.MSets.MSetList MakeRaw Ok class
+R17486:17486 Coq.MSets.MSetList <> s:224 var
+binder 17483:17486 <> H:226
+R17490:17491 Coq.MSets.MSetList MakeRaw Ok class
+R17494:17499 Coq.MSets.MSetList MakeRaw filter def
+R17503:17503 Coq.MSets.MSetList <> s:224 var
+R17501:17501 Coq.MSets.MSetList <> f:225 var
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17536:17543 Coq.MSets.MSetList MakeRaw isok_iff thm
+R17674:17683 Coq.MSets.MSetList MakeRaw filter_inf thm
+R17674:17683 Coq.MSets.MSetList MakeRaw filter_inf thm
+prf 17708:17718 MakeRaw filter_spec
+R17737:17737 Coq.MSets.MSetList MakeRaw t def
+binder 17733:17733 <> s:227
+R17745:17747 Coq.MSets.MSetList MakeRaw elt def
+binder 17741:17741 <> x:228
+R17758:17761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17755:17757 Coq.MSets.MSetList MakeRaw elt def
+R17762:17765 Coq.Init.Datatypes <> bool ind
+binder 17751:17751 <> f:229
+R17792:17799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17842:17842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17772:17777 Coq.Classes.Morphisms <> Proper class
+R17791:17791 Coq.MSets.MSetList <> f:229 var
+R17784:17786 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R17780:17783 Coq.MSets.MSetList X eq defax
+R17787:17788 Coq.Init.Logic <> eq ind
+R17817:17821 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17800:17801 Coq.MSets.MSetList MakeRaw In abbrev
+R17806:17811 Coq.MSets.MSetList MakeRaw filter def
+R17815:17815 Coq.MSets.MSetList <> s:227 var
+R17813:17813 Coq.MSets.MSetList <> f:229 var
+R17803:17803 Coq.MSets.MSetList <> x:228 var
+R17828:17831 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17822:17823 Coq.MSets.MSetList MakeRaw In abbrev
+R17827:17827 Coq.MSets.MSetList <> s:227 var
+R17825:17825 Coq.MSets.MSetList <> x:228 var
+R17835:17837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17832:17832 Coq.MSets.MSetList <> f:229 var
+R17834:17834 Coq.MSets.MSetList <> x:228 var
+R17838:17841 Coq.Init.Datatypes <> true constr
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+R17942:17949 Coq.Lists.SetoidList <> InA_cons thm
+prf 18068:18079 MakeRaw for_all_spec
+R18098:18098 Coq.MSets.MSetList MakeRaw t def
+binder 18094:18094 <> s:230
+R18109:18112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18106:18108 Coq.MSets.MSetList MakeRaw elt def
+R18113:18116 Coq.Init.Datatypes <> bool ind
+binder 18102:18102 <> f:231
+R18143:18150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18205:18205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18123:18128 Coq.Classes.Morphisms <> Proper class
+R18142:18142 Coq.MSets.MSetList <> f:231 var
+R18135:18137 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18131:18134 Coq.MSets.MSetList X eq defax
+R18138:18139 Coq.Init.Logic <> eq ind
+R18169:18173 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18162:18164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18151:18157 Coq.MSets.MSetList MakeRaw for_all def
+R18161:18161 Coq.MSets.MSetList <> s:230 var
+R18159:18159 Coq.MSets.MSetList <> f:231 var
+R18165:18168 Coq.Init.Datatypes <> true constr
+R18174:18180 Coq.MSets.MSetList MakeRaw For_all def
+R18204:18204 Coq.MSets.MSetList <> s:230 var
+binder 18187:18187 <> x:232
+R18195:18197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18192:18192 Coq.MSets.MSetList <> f:231 var
+R18194:18194 Coq.MSets.MSetList <> x:232 var
+R18198:18201 Coq.Init.Datatypes <> true constr
+R18226:18232 Coq.MSets.MSetList MakeRaw For_all def
+prf 18467:18477 MakeRaw exists_spec
+R18496:18496 Coq.MSets.MSetList MakeRaw t def
+binder 18492:18492 <> s:233
+R18507:18510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18504:18506 Coq.MSets.MSetList MakeRaw elt def
+R18511:18514 Coq.Init.Datatypes <> bool ind
+binder 18500:18500 <> f:234
+R18541:18548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18602:18602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18521:18526 Coq.Classes.Morphisms <> Proper class
+R18540:18540 Coq.MSets.MSetList <> f:234 var
+R18533:18535 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R18529:18532 Coq.MSets.MSetList X eq defax
+R18536:18537 Coq.Init.Logic <> eq ind
+R18567:18571 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18560:18562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18549:18555 Coq.MSets.MSetList MakeRaw exists_ def
+R18559:18559 Coq.MSets.MSetList <> s:233 var
+R18557:18557 Coq.MSets.MSetList <> f:234 var
+R18563:18566 Coq.Init.Datatypes <> true constr
+R18572:18577 Coq.MSets.MSetList MakeRaw Exists def
+R18601:18601 Coq.MSets.MSetList <> s:233 var
+binder 18584:18584 <> x:235
+R18592:18594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18589:18589 Coq.MSets.MSetList <> f:234 var
+R18591:18591 Coq.MSets.MSetList <> x:235 var
+R18595:18598 Coq.Init.Datatypes <> true constr
+R18623:18628 Coq.MSets.MSetList MakeRaw Exists def
+prf 18856:18869 MakeRaw partition_inf1
+R18888:18888 Coq.MSets.MSetList MakeRaw t def
+binder 18884:18884 <> s:236
+R18899:18902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18896:18898 Coq.MSets.MSetList MakeRaw elt def
+R18903:18906 Coq.Init.Datatypes <> bool ind
+binder 18892:18892 <> f:237
+R18914:18916 Coq.MSets.MSetList MakeRaw elt def
+binder 18910:18910 <> x:238
+R18925:18926 Coq.MSets.MSetList MakeRaw Ok class
+R18928:18928 Coq.MSets.MSetList <> s:236 var
+binder 18920:18921 <> Hs:239
+R18942:18945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18935:18937 Coq.MSets.MSetList MakeRaw Inf abbrev
+R18941:18941 Coq.MSets.MSetList <> s:236 var
+R18939:18939 Coq.MSets.MSetList <> x:238 var
+R18946:18948 Coq.MSets.MSetList MakeRaw Inf abbrev
+R18953:18955 Coq.Init.Datatypes <> fst def
+R18958:18966 Coq.MSets.MSetList MakeRaw partition def
+R18970:18970 Coq.MSets.MSetList <> s:236 var
+R18968:18968 Coq.MSets.MSetList <> f:237 var
+R18950:18950 Coq.MSets.MSetList <> x:238 var
+R19018:19025 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19018:19025 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19018:19025 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19018:19025 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19165:19173 Coq.MSets.MSetList MakeRaw partition def
+R19165:19173 Coq.MSets.MSetList MakeRaw partition def
+R19165:19173 Coq.MSets.MSetList MakeRaw partition def
+R19222:19227 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R19222:19227 Coq.MSets.MSetList MakeRaw Inf_lt thm
+prf 19259:19272 MakeRaw partition_inf2
+R19291:19291 Coq.MSets.MSetList MakeRaw t def
+binder 19287:19287 <> s:240
+R19302:19305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19299:19301 Coq.MSets.MSetList MakeRaw elt def
+R19306:19309 Coq.Init.Datatypes <> bool ind
+binder 19295:19295 <> f:241
+R19317:19319 Coq.MSets.MSetList MakeRaw elt def
+binder 19313:19313 <> x:242
+R19328:19329 Coq.MSets.MSetList MakeRaw Ok class
+R19331:19331 Coq.MSets.MSetList <> s:240 var
+binder 19323:19324 <> Hs:243
+R19345:19348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19338:19340 Coq.MSets.MSetList MakeRaw Inf abbrev
+R19344:19344 Coq.MSets.MSetList <> s:240 var
+R19342:19342 Coq.MSets.MSetList <> x:242 var
+R19349:19351 Coq.MSets.MSetList MakeRaw Inf abbrev
+R19356:19358 Coq.Init.Datatypes <> snd def
+R19361:19369 Coq.MSets.MSetList MakeRaw partition def
+R19373:19373 Coq.MSets.MSetList <> s:240 var
+R19371:19371 Coq.MSets.MSetList <> f:241 var
+R19353:19353 Coq.MSets.MSetList <> x:242 var
+R19421:19428 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19421:19428 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19421:19428 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19421:19428 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19568:19576 Coq.MSets.MSetList MakeRaw partition def
+R19568:19576 Coq.MSets.MSetList MakeRaw partition def
+R19568:19576 Coq.MSets.MSetList MakeRaw partition def
+R19617:19622 Coq.MSets.MSetList MakeRaw Inf_lt thm
+R19617:19622 Coq.MSets.MSetList MakeRaw Inf_lt thm
+inst 19672:19684 MakeRaw partition_ok1
+binder 19686:19686 <> s:244
+binder 19688:19688 <> f:245
+R19701:19702 Coq.MSets.MSetList MakeRaw Ok class
+R19704:19704 Coq.MSets.MSetList <> s:244 var
+binder 19701:19704 <> H:246
+R19708:19709 Coq.MSets.MSetList MakeRaw Ok class
+R19712:19714 Coq.Init.Datatypes <> fst def
+R19717:19725 Coq.MSets.MSetList MakeRaw partition def
+R19729:19729 Coq.MSets.MSetList <> s:244 var
+R19727:19727 Coq.MSets.MSetList <> f:245 var
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19763:19770 Coq.MSets.MSetList MakeRaw isok_iff thm
+R19889:19902 Coq.MSets.MSetList MakeRaw partition_inf1 thm
+R19889:19902 Coq.MSets.MSetList MakeRaw partition_inf1 thm
+R19932:19940 Coq.MSets.MSetList MakeRaw partition def
+R19932:19940 Coq.MSets.MSetList MakeRaw partition def
+R19932:19940 Coq.MSets.MSetList MakeRaw partition def
+inst 19987:19999 MakeRaw partition_ok2
+binder 20001:20001 <> s:247
+binder 20003:20003 <> f:248
+R20016:20017 Coq.MSets.MSetList MakeRaw Ok class
+R20019:20019 Coq.MSets.MSetList <> s:247 var
+binder 20016:20019 <> H:249
+R20023:20024 Coq.MSets.MSetList MakeRaw Ok class
+R20027:20029 Coq.Init.Datatypes <> snd def
+R20032:20040 Coq.MSets.MSetList MakeRaw partition def
+R20044:20044 Coq.MSets.MSetList <> s:247 var
+R20042:20042 Coq.MSets.MSetList <> f:248 var
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20078:20085 Coq.MSets.MSetList MakeRaw isok_iff thm
+R20204:20217 Coq.MSets.MSetList MakeRaw partition_inf2 thm
+R20204:20217 Coq.MSets.MSetList MakeRaw partition_inf2 thm
+R20247:20255 Coq.MSets.MSetList MakeRaw partition def
+R20247:20255 Coq.MSets.MSetList MakeRaw partition def
+R20247:20255 Coq.MSets.MSetList MakeRaw partition def
+prf 20292:20306 MakeRaw partition_spec1
+R20325:20325 Coq.MSets.MSetList MakeRaw t def
+binder 20321:20321 <> s:250
+R20336:20339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20333:20335 Coq.MSets.MSetList MakeRaw elt def
+R20340:20343 Coq.Init.Datatypes <> bool ind
+binder 20329:20329 <> f:251
+R20370:20373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20350:20355 Coq.Classes.Morphisms <> Proper class
+R20369:20369 Coq.MSets.MSetList <> f:251 var
+R20362:20364 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R20358:20361 Coq.MSets.MSetList X eq defax
+R20365:20366 Coq.Init.Logic <> eq ind
+R20374:20378 Coq.MSets.MSetList MakeRaw Equal def
+R20403:20408 Coq.MSets.MSetList MakeRaw filter def
+R20412:20412 Coq.MSets.MSetList <> s:250 var
+R20410:20410 Coq.MSets.MSetList <> f:251 var
+R20381:20383 Coq.Init.Datatypes <> fst def
+R20386:20394 Coq.MSets.MSetList MakeRaw partition def
+R20398:20398 Coq.MSets.MSetList <> s:250 var
+R20396:20396 Coq.MSets.MSetList <> f:251 var
+R20467:20471 Coq.MSets.MSetList MakeRaw Equal def
+R20563:20571 Coq.MSets.MSetList MakeRaw partition def
+R20563:20571 Coq.MSets.MSetList MakeRaw partition def
+prf 20753:20767 MakeRaw partition_spec2
+R20786:20786 Coq.MSets.MSetList MakeRaw t def
+binder 20782:20782 <> s:252
+R20797:20800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20794:20796 Coq.MSets.MSetList MakeRaw elt def
+R20801:20804 Coq.Init.Datatypes <> bool ind
+binder 20790:20790 <> f:253
+R20831:20837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20811:20816 Coq.Classes.Morphisms <> Proper class
+R20830:20830 Coq.MSets.MSetList <> f:253 var
+R20823:20825 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R20819:20822 Coq.MSets.MSetList X eq defax
+R20826:20827 Coq.Init.Logic <> eq ind
+R20838:20842 Coq.MSets.MSetList MakeRaw Equal def
+R20867:20872 Coq.MSets.MSetList MakeRaw filter def
+R20896:20896 Coq.MSets.MSetList <> s:252 var
+binder 20879:20879 <> x:254
+R20884:20887 Coq.Init.Datatypes <> negb def
+R20890:20890 Coq.MSets.MSetList <> f:253 var
+R20892:20892 Coq.MSets.MSetList <> x:254 var
+R20845:20847 Coq.Init.Datatypes <> snd def
+R20850:20858 Coq.MSets.MSetList MakeRaw partition def
+R20862:20862 Coq.MSets.MSetList <> s:252 var
+R20860:20860 Coq.MSets.MSetList <> f:253 var
+R20951:20955 Coq.MSets.MSetList MakeRaw Equal def
+R21047:21055 Coq.MSets.MSetList MakeRaw partition def
+R21047:21055 Coq.MSets.MSetList MakeRaw partition def
+R21235:21246 Coq.MSets.MSetList MakeRaw.ForNotations <> sec
+def 21263:21264 MakeRaw In
+R21269:21271 Coq.Lists.SetoidList <> InA ind
+R21273:21276 Coq.MSets.MSetList X eq defax
+inst 21300:21308 MakeRaw In_compat
+R21312:21317 Coq.Classes.Morphisms <> Proper class
+R21338:21339 Coq.MSets.MSetList MakeRaw In def
+R21324:21326 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R21320:21323 Coq.MSets.MSetList X eq defax
+R21329:21332 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R21327:21328 Coq.Init.Logic <> eq ind
+R21333:21335 Coq.Init.Logic <> iff def
+R21412:21427 Coq.MSets.MSetInterface MakeListOrdering <> modtype
+R21429:21429 Coq.MSets.MSetList X <> modtype
+mod 21407:21407 <> MakeRaw.L
+def 21445:21446 MakeRaw eq
+R21451:21454 Coq.MSets.MSetList MakeRaw eq def
+def 21470:21477 MakeRaw eq_equiv
+R21482:21491 Coq.MSets.MSetList MakeRaw eq_equiv inst
+def 21507:21508 MakeRaw lt
+binder 21510:21511 <> l1:255
+binder 21513:21514 <> l2:256
+R21523:21529 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21537:21538 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21530:21532 <> l1':257
+binder 21534:21536 <> l2':258
+R21545:21548 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21539:21540 Coq.MSets.MSetList MakeRaw Ok class
+R21542:21544 Coq.MSets.MSetList <> l1':257 var
+R21555:21558 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21549:21550 Coq.MSets.MSetList MakeRaw Ok class
+R21552:21554 Coq.MSets.MSetList <> l2':258 var
+R21568:21571 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21559:21560 Coq.MSets.MSetList MakeRaw eq def
+R21565:21567 Coq.MSets.MSetList <> l1':257 var
+R21562:21563 Coq.MSets.MSetList <> l1:255 var
+R21581:21584 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21572:21573 Coq.MSets.MSetList MakeRaw eq def
+R21578:21580 Coq.MSets.MSetList <> l2':258 var
+R21575:21576 Coq.MSets.MSetList <> l2:256 var
+R21585:21588 Coq.MSets.MSetList MakeRaw lt def
+R21594:21596 Coq.MSets.MSetList <> l2':258 var
+R21590:21592 Coq.MSets.MSetList <> l1':257 var
+inst 21621:21631 MakeRaw lt_strorder
+R21635:21645 Coq.Classes.RelationClasses <> StrictOrder class
+R21647:21648 Coq.MSets.MSetList MakeRaw lt def
+R21735:21742 Coq.MSets.MSetList MakeRaw isok_iff thm
+R21735:21742 Coq.MSets.MSetList MakeRaw isok_iff thm
+R21735:21742 Coq.MSets.MSetList MakeRaw isok_iff thm
+R21735:21742 Coq.MSets.MSetList MakeRaw isok_iff thm
+R21760:21766 Coq.Lists.SetoidList <> eqlistA ind
+R21768:21771 Coq.MSets.MSetList X eq defax
+R21760:21766 Coq.Lists.SetoidList <> eqlistA ind
+R21768:21771 Coq.MSets.MSetList X eq defax
+R21826:21829 Coq.MSets.MSetList X lt defax
+R21790:21813 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21826:21829 Coq.MSets.MSetList X lt defax
+R21790:21813 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21845:21846 Coq.MSets.MSetList MakeRaw ok def
+R21924:21946 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R21924:21946 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22114:22121 Coq.MSets.MSetList MakeRaw isok_iff thm
+R22164:22170 Coq.Lists.SetoidList <> eqlistA ind
+R22172:22175 Coq.MSets.MSetList X eq defax
+R22164:22170 Coq.Lists.SetoidList <> eqlistA ind
+R22172:22175 Coq.MSets.MSetList X eq defax
+R22233:22236 Coq.MSets.MSetList X lt defax
+R22197:22220 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22233:22236 Coq.MSets.MSetList X lt defax
+R22197:22220 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+R22252:22253 Coq.MSets.MSetList MakeRaw ok def
+inst 22379:22387 MakeRaw lt_compat
+R22391:22396 Coq.Classes.Morphisms <> Proper class
+R22414:22415 Coq.MSets.MSetList MakeRaw lt def
+R22401:22403 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22399:22400 Coq.MSets.MSetList MakeRaw eq def
+R22406:22408 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R22404:22405 Coq.MSets.MSetList MakeRaw eq def
+R22409:22411 Coq.Init.Logic <> iff def
+prf 22834:22849 MakeRaw compare_spec_aux
+binder 22860:22860 <> s:259
+binder 22862:22863 <> s':260
+R22866:22873 Coq.Init.Datatypes <> CompSpec def
+R22889:22895 Coq.MSets.MSetList MakeRaw compare def
+R22899:22900 Coq.MSets.MSetList <> s':260 var
+R22897:22897 Coq.MSets.MSetList <> s:259 var
+R22885:22886 Coq.MSets.MSetList <> s':260 var
+R22883:22883 Coq.MSets.MSetList <> s:259 var
+R22878:22881 Coq.MSets.MSetList MakeRaw lt def
+R22875:22876 Coq.MSets.MSetList MakeRaw eq def
+prf 23020:23031 MakeRaw compare_spec
+binder 23042:23042 <> s:261
+binder 23044:23045 <> s':262
+R23052:23055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23048:23049 Coq.MSets.MSetList MakeRaw Ok class
+R23051:23051 Coq.MSets.MSetList <> s:261 var
+R23061:23067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23056:23057 Coq.MSets.MSetList MakeRaw Ok class
+R23059:23060 Coq.MSets.MSetList <> s':262 var
+R23068:23075 Coq.Init.Datatypes <> CompSpec def
+R23089:23095 Coq.MSets.MSetList MakeRaw compare def
+R23099:23100 Coq.MSets.MSetList <> s':262 var
+R23097:23097 Coq.MSets.MSetList <> s:261 var
+R23085:23086 Coq.MSets.MSetList <> s':262 var
+R23083:23083 Coq.MSets.MSetList <> s:261 var
+R23080:23081 Coq.MSets.MSetList MakeRaw lt def
+R23077:23078 Coq.MSets.MSetList MakeRaw eq def
+R23147:23162 Coq.MSets.MSetList MakeRaw compare_spec_aux thm
+R23147:23162 Coq.MSets.MSetList MakeRaw compare_spec_aux thm
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23232:23233 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23278:23279 Coq.MSets.MSetList MakeRaw ok def
+R23294:23300 Coq.MSets.MSetList MakeRaw <> mod
+R23484:23494 Coq.Structures.Orders OrderedType <> mod
+R23500:23500 Coq.MSets.MSetInterface S <> mod
+R23519:23519 Coq.MSets.MSetList X <> modtype
+mod 23475:23478 <> Make
+R23537:23543 Coq.MSets.MSetList MakeRaw <> modtype
+R23545:23545 Coq.MSets.MSetList X <> modtype
+mod 23530:23532 <> Make.Raw
+R23557:23564 Coq.MSets.MSetInterface Raw2Sets <> modtype
+R23566:23566 Coq.MSets.MSetList X <> modtype
+R23568:23570 Coq.MSets.MSetList Make.Raw <> modtype
+R23577:23580 Coq.MSets.MSetList Make <> mod
+R23669:23677 Coq.Logic.Eqdep_dec <> <> lib
+modtype 23693:23714 <> OrderedTypeWithLeibniz
+R23727:23737 Coq.Structures.Orders OrderedType <> mod
+ax 23752:23761 OrderedTypeWithLeibniz eq_leibniz
+binder 23772:23772 <> x:263
+binder 23774:23774 <> y:264
+R23783:23786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23777:23778 Coq.MSets.MSetList OrderedTypeWithLeibniz eq defax
+R23782:23782 Coq.MSets.MSetList <> y:264 var
+R23780:23780 Coq.MSets.MSetList <> x:263 var
+R23788:23790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23787:23787 Coq.MSets.MSetList <> x:263 var
+R23791:23791 Coq.MSets.MSetList <> y:264 var
+R23798:23819 Coq.MSets.MSetList OrderedTypeWithLeibniz <> modtype
+modtype 23835:23846 <> SWithLeibniz
+R23870:23891 Coq.MSets.MSetList OrderedTypeWithLeibniz <> mod
+mod 23866:23866 <> SWithLeibniz.E
+R23904:23909 Coq.MSets.MSetInterface SetsOn <> mod
+R23911:23911 Coq.MSets.MSetList SWithLeibniz.E <> modtype
+ax 23926:23935 SWithLeibniz eq_leibniz
+binder 23946:23946 <> x:266
+binder 23948:23948 <> y:267
+R23957:23960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23951:23952 Coq.MSets.MSetList SWithLeibniz eq def
+R23956:23956 Coq.MSets.MSetList <> y:267 var
+R23954:23954 Coq.MSets.MSetList <> x:266 var
+R23962:23964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23961:23961 Coq.MSets.MSetList <> x:266 var
+R23965:23965 Coq.MSets.MSetList <> y:267 var
+R23972:23983 Coq.MSets.MSetList SWithLeibniz <> modtype
+R24014:24035 Coq.MSets.MSetList OrderedTypeWithLeibniz <> mod
+R24041:24052 Coq.MSets.MSetList SWithLeibniz <> mod
+R24071:24071 Coq.MSets.MSetList X <> modtype
+mod 23994:24008 <> MakeWithLeibniz
+R24088:24088 Coq.MSets.MSetList X <> modtype
+mod 24083:24083 <> MakeWithLeibniz.E
+R24107:24113 Coq.MSets.MSetList MakeRaw <> modtype
+R24115:24115 Coq.MSets.MSetList X <> modtype
+mod 24100:24102 <> MakeWithLeibniz.Raw
+R24128:24137 Coq.MSets.MSetInterface Raw2SetsOn <> modtype
+R24139:24139 Coq.MSets.MSetList X <> modtype
+R24141:24143 Coq.MSets.MSetList MakeWithLeibniz.Raw <> modtype
+prf 24155:24169 MakeWithLeibniz eq_leibniz_list
+binder 24180:24181 <> xs:269
+binder 24183:24184 <> ys:270
+R24205:24208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24187:24193 Coq.Lists.SetoidList <> eqlistA ind
+R24203:24204 Coq.MSets.MSetList <> ys:270 var
+R24200:24201 Coq.MSets.MSetList <> xs:269 var
+R24195:24198 Coq.MSets.MSetList X eq defax
+R24211:24213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24209:24210 Coq.MSets.MSetList <> xs:269 var
+R24214:24215 Coq.MSets.MSetList <> ys:270 var
+R24334:24345 Coq.MSets.MSetList X eq_leibniz defax
+R24334:24345 Coq.MSets.MSetList X eq_leibniz defax
+prf 24411:24420 MakeWithLeibniz eq_leibniz
+binder 24431:24431 <> s:271
+binder 24433:24434 <> s':272
+R24444:24447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24437:24438 Coq.MSets.MSetList MakeWithLeibniz eq def
+R24442:24443 Coq.MSets.MSetList <> s':272 var
+R24440:24440 Coq.MSets.MSetList <> s:271 var
+R24449:24451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24448:24448 Coq.MSets.MSetList <> s:271 var
+R24452:24453 Coq.MSets.MSetList <> s':272 var
+R24511:24520 Coq.Lists.SetoidList <> equivlistA def
+R24522:24525 Coq.MSets.MSetList X eq defax
+R24511:24520 Coq.Lists.SetoidList <> equivlistA def
+R24522:24525 Coq.MSets.MSetList X eq defax
+R24558:24564 Coq.Lists.SetoidList <> eqlistA ind
+R24566:24569 Coq.MSets.MSetList X eq defax
+R24558:24564 Coq.Lists.SetoidList <> eqlistA ind
+R24566:24569 Coq.MSets.MSetList X eq defax
+R24596:24607 Coq.MSets.MSetList MakeWithLeibniz isok_iff thm
+R24596:24607 Coq.MSets.MSetList MakeWithLeibniz isok_iff thm
+R24596:24607 Coq.MSets.MSetList MakeWithLeibniz isok_iff thm
+R24664:24667 Coq.MSets.MSetList X lt defax
+R24634:24657 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R24664:24667 Coq.MSets.MSetList X lt defax
+R24634:24657 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R24693:24707 Coq.MSets.MSetList MakeWithLeibniz eq_leibniz_list thm
+R24693:24707 Coq.MSets.MSetList MakeWithLeibniz eq_leibniz_list thm
+R24752:24778 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R24752:24778 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R24807:24814 Coq.Bool.Bool <> bool_dec thm
+R24807:24814 Coq.Bool.Bool <> bool_dec thm
+R24841:24855 Coq.MSets.MSetList MakeWithLeibniz <> mod

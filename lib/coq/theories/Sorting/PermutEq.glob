@@ -1,0 +1,430 @@
+DIGEST 06f9a11b02711d491a4b7a2a236c18a9
+FCoq.Sorting.PermutEq
+R691:699 Coq.Relations.Relations <> <> lib
+R701:706 Coq.Setoids.Setoid <> <> lib
+R708:717 Coq.Lists.SetoidList <> <> lib
+R719:722 Coq.Lists.List <> <> lib
+R724:731 Coq.Sets.Multiset <> <> lib
+R733:744 Coq.Sorting.PermutSetoid <> <> lib
+R746:756 Coq.Sorting.Permutation <> <> lib
+sec 1050:1053 <> Perm
+var 1068:1068 Perm A
+var 1091:1096 Perm eq_dec
+R1111:1111 Coq.Sorting.PermutEq <> Perm.A var
+binder 1107:1107 <> x:2
+binder 1109:1109 <> y:3
+R1114:1114 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1118:1122 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1128:1128 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1116:1116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1115:1115 Coq.Sorting.PermutEq <> x:2 var
+R1117:1117 Coq.Sorting.PermutEq <> y:3 var
+R1123:1124 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1126:1126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1125:1125 Coq.Sorting.PermutEq <> x:2 var
+R1127:1127 Coq.Sorting.PermutEq <> y:3 var
+abbrev 1143:1153 <> permutation
+R1159:1169 Coq.Sorting.PermutSetoid <> permutation def
+R1173:1178 Coq.Sorting.PermutEq <> Perm.eq_dec var
+abbrev 1193:1205 <> list_contents
+R1211:1223 Coq.Sorting.PermutSetoid <> list_contents def
+R1227:1232 Coq.Sorting.PermutEq <> Perm.eq_dec var
+prf 1309:1323 <> multiplicity_In
+binder 1338:1338 <> l:5
+binder 1340:1340 <> a:6
+R1349:1353 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1343:1344 Coq.Lists.List <> In def
+R1348:1348 Coq.Sorting.PermutEq <> l:5 var
+R1346:1346 Coq.Sorting.PermutEq <> a:6 var
+R1355:1357 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1358:1369 Coq.Sets.Multiset <> multiplicity def
+R1389:1389 Coq.Sorting.PermutEq <> a:6 var
+R1372:1384 Coq.Sorting.PermutEq <> list_contents abbrev
+R1386:1386 Coq.Sorting.PermutEq <> l:5 var
+R1440:1445 Coq.Lists.SetoidList <> In_InA thm
+R1448:1463 Coq.Sorting.PermutSetoid <> multiplicity_InA thm
+R1440:1445 Coq.Lists.SetoidList <> In_InA thm
+R1448:1463 Coq.Sorting.PermutSetoid <> multiplicity_InA thm
+R1514:1529 Coq.Sorting.PermutSetoid <> multiplicity_InA thm
+R1532:1538 Coq.Lists.SetoidList <> InA_alt thm
+R1514:1529 Coq.Sorting.PermutSetoid <> multiplicity_InA thm
+R1532:1538 Coq.Lists.SetoidList <> InA_alt thm
+prf 1610:1626 <> multiplicity_In_O
+binder 1641:1641 <> l:7
+binder 1643:1643 <> a:8
+R1654:1657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1646:1647 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1648:1649 Coq.Lists.List <> In def
+R1653:1653 Coq.Sorting.PermutEq <> l:7 var
+R1651:1651 Coq.Sorting.PermutEq <> a:8 var
+R1690:1692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1658:1669 Coq.Sets.Multiset <> multiplicity def
+R1689:1689 Coq.Sorting.PermutEq <> a:8 var
+R1672:1684 Coq.Sorting.PermutEq <> list_contents abbrev
+R1686:1686 Coq.Sorting.PermutEq <> l:7 var
+R1729:1743 Coq.Sorting.PermutEq <> multiplicity_In thm
+R1762:1773 Coq.Sets.Multiset <> multiplicity def
+R1776:1788 Coq.Sorting.PermutEq <> list_contents abbrev
+R1729:1743 Coq.Sorting.PermutEq <> multiplicity_In thm
+R1729:1743 Coq.Sorting.PermutEq <> multiplicity_In thm
+R1762:1773 Coq.Sets.Multiset <> multiplicity def
+R1776:1788 Coq.Sorting.PermutEq <> list_contents abbrev
+prf 1852:1868 <> multiplicity_In_S
+binder 1883:1883 <> l:9
+binder 1885:1885 <> a:10
+R1894:1897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1888:1889 Coq.Lists.List <> In def
+R1893:1893 Coq.Sorting.PermutEq <> l:9 var
+R1891:1891 Coq.Sorting.PermutEq <> a:10 var
+R1930:1933 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R1898:1909 Coq.Sets.Multiset <> multiplicity def
+R1929:1929 Coq.Sorting.PermutEq <> a:10 var
+R1912:1924 Coq.Sorting.PermutEq <> list_contents abbrev
+R1926:1926 Coq.Sorting.PermutEq <> l:9 var
+R1970:1984 Coq.Sorting.PermutEq <> multiplicity_In thm
+R1970:1984 Coq.Sorting.PermutEq <> multiplicity_In thm
+R1970:1984 Coq.Sorting.PermutEq <> multiplicity_In thm
+prf 2009:2026 <> multiplicity_NoDup
+binder 2041:2041 <> l:11
+R2051:2056 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2104:2104 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2044:2048 Coq.Lists.List <> NoDup ind
+R2050:2050 Coq.Sorting.PermutEq <> l:11 var
+binder 2064:2064 <> a:12
+R2099:2102 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2067:2078 Coq.Sets.Multiset <> multiplicity def
+R2098:2098 Coq.Sorting.PermutEq <> a:12 var
+R2081:2093 Coq.Sorting.PermutEq <> list_contents abbrev
+R2095:2095 Coq.Sorting.PermutEq <> l:11 var
+R2190:2198 Coq.Lists.List <> NoDup_nil constr
+R2190:2198 Coq.Lists.List <> NoDup_nil constr
+R2287:2292 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R2287:2292 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R2351:2367 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R2351:2367 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R2351:2367 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R2351:2367 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R2413:2427 Coq.Sorting.PermutEq <> multiplicity_In thm
+R2413:2427 Coq.Sorting.PermutEq <> multiplicity_In thm
+R2413:2427 Coq.Sorting.PermutEq <> multiplicity_In thm
+R2466:2471 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R2466:2471 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R2504:2515 Coq.Sets.Multiset <> multiplicity def
+R2518:2530 Coq.Sorting.PermutEq <> list_contents abbrev
+R2504:2515 Coq.Sets.Multiset <> multiplicity def
+R2518:2530 Coq.Sorting.PermutEq <> list_contents abbrev
+R2700:2705 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R2700:2705 Coq.Sorting.PermutEq <> Perm.eq_dec var
+prf 2754:2765 <> NoDup_permut
+binder 2780:2780 <> l:13
+binder 2782:2783 <> l':14
+R2793:2796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2786:2790 Coq.Lists.List <> NoDup ind
+R2792:2792 Coq.Sorting.PermutEq <> l:13 var
+R2805:2814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2797:2801 Coq.Lists.List <> NoDup ind
+R2803:2804 Coq.Sorting.PermutEq <> l':14 var
+R2815:2815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2844:2848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2823:2823 <> x:15
+R2832:2836 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2826:2827 Coq.Lists.List <> In def
+R2831:2831 Coq.Sorting.PermutEq <> l:13 var
+R2829:2829 Coq.Sorting.PermutEq <> x:15 var
+R2837:2838 Coq.Lists.List <> In def
+R2842:2843 Coq.Sorting.PermutEq <> l':14 var
+R2840:2840 Coq.Sorting.PermutEq <> x:15 var
+R2849:2859 Coq.Sorting.PermutEq <> permutation abbrev
+R2863:2864 Coq.Sorting.PermutEq <> l':14 var
+R2861:2861 Coq.Sorting.PermutEq <> l:13 var
+R2904:2906 Coq.Sets.Multiset <> meq def
+R2929:2946 Coq.Sorting.PermutEq <> multiplicity_NoDup thm
+R2929:2946 Coq.Sorting.PermutEq <> multiplicity_NoDup thm
+R2929:2946 Coq.Sorting.PermutEq <> multiplicity_NoDup thm
+R3026:3040 Coq.Sorting.PermutEq <> multiplicity_In thm
+R3026:3040 Coq.Sorting.PermutEq <> multiplicity_In thm
+R3026:3040 Coq.Sorting.PermutEq <> multiplicity_In thm
+R3026:3040 Coq.Sorting.PermutEq <> multiplicity_In thm
+R3026:3040 Coq.Sorting.PermutEq <> multiplicity_In thm
+R3083:3094 Coq.Sets.Multiset <> multiplicity def
+R3097:3109 Coq.Sorting.PermutEq <> list_contents abbrev
+R3143:3154 Coq.Sets.Multiset <> multiplicity def
+R3157:3169 Coq.Sorting.PermutEq <> list_contents abbrev
+R3083:3094 Coq.Sets.Multiset <> multiplicity def
+R3097:3109 Coq.Sorting.PermutEq <> list_contents abbrev
+R3143:3154 Coq.Sets.Multiset <> multiplicity def
+R3157:3169 Coq.Sorting.PermutEq <> list_contents abbrev
+R3143:3154 Coq.Sets.Multiset <> multiplicity def
+R3157:3169 Coq.Sorting.PermutEq <> list_contents abbrev
+R3143:3154 Coq.Sets.Multiset <> multiplicity def
+R3157:3169 Coq.Sorting.PermutEq <> list_contents abbrev
+prf 3408:3419 <> permut_In_In
+binder 3434:3435 <> l1:16
+binder 3437:3438 <> l2:17
+binder 3440:3440 <> e:18
+R3460:3463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3443:3453 Coq.Sorting.PermutEq <> permutation abbrev
+R3458:3459 Coq.Sorting.PermutEq <> l2:17 var
+R3455:3456 Coq.Sorting.PermutEq <> l1:16 var
+R3471:3474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3464:3465 Coq.Lists.List <> In def
+R3469:3470 Coq.Sorting.PermutEq <> l1:16 var
+R3467:3467 Coq.Sorting.PermutEq <> e:18 var
+R3475:3476 Coq.Lists.List <> In def
+R3480:3481 Coq.Sorting.PermutEq <> l2:17 var
+R3478:3478 Coq.Sorting.PermutEq <> e:18 var
+R3504:3527 Coq.Sorting.PermutSetoid <> permutation def
+R3530:3532 Coq.Sets.Multiset <> meq def
+R3601:3606 Coq.Lists.List <> In_dec abbrev
+R3608:3613 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R3601:3606 Coq.Lists.List <> In_dec abbrev
+R3608:3613 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R3650:3666 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R3650:3666 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R3650:3666 Coq.Sorting.PermutEq <> multiplicity_In_O thm
+R3704:3720 Coq.Sorting.PermutEq <> multiplicity_In_S thm
+R3704:3720 Coq.Sorting.PermutEq <> multiplicity_In_S thm
+prf 3780:3793 <> permut_cons_In
+binder 3808:3809 <> l1:19
+binder 3811:3812 <> l2:20
+binder 3814:3814 <> e:21
+R3841:3844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3817:3827 Coq.Sorting.PermutEq <> permutation abbrev
+R3839:3840 Coq.Sorting.PermutEq <> l2:20 var
+R3831:3834 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3830:3830 Coq.Sorting.PermutEq <> e:21 var
+R3835:3836 Coq.Sorting.PermutEq <> l1:19 var
+R3845:3846 Coq.Lists.List <> In def
+R3850:3851 Coq.Sorting.PermutEq <> l2:20 var
+R3848:3848 Coq.Sorting.PermutEq <> e:21 var
+R3882:3893 Coq.Sorting.PermutEq <> permut_In_In thm
+R3882:3893 Coq.Sorting.PermutEq <> permut_In_In thm
+prf 3973:3982 <> permut_nil
+binder 3997:3997 <> l:22
+R4017:4020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4000:4010 Coq.Sorting.PermutEq <> permutation abbrev
+R4014:4016 Coq.Init.Datatypes <> nil constr
+R4012:4012 Coq.Sorting.PermutEq <> l:22 var
+R4022:4024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4021:4021 Coq.Sorting.PermutEq <> l:22 var
+R4025:4027 Coq.Init.Datatypes <> nil constr
+R4098:4099 Coq.Lists.List <> In def
+R4105:4106 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4098:4099 Coq.Lists.List <> In def
+R4105:4106 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4154:4165 Coq.Sorting.PermutEq <> permut_In_In thm
+R4154:4165 Coq.Sorting.PermutEq <> permut_In_In thm
+prf 4317:4339 <> permutation_Permutation
+binder 4354:4354 <> l:23
+binder 4356:4357 <> l':24
+R4376:4380 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4360:4370 Coq.Sorting.Permutation <> Permutation ind
+R4374:4375 Coq.Sorting.PermutEq <> l':24 var
+R4372:4372 Coq.Sorting.PermutEq <> l:23 var
+R4381:4391 Coq.Sorting.PermutEq <> permutation abbrev
+R4395:4396 Coq.Sorting.PermutEq <> l':24 var
+R4393:4393 Coq.Sorting.PermutEq <> l:23 var
+R4446:4456 Coq.Sorting.PermutSetoid <> permut_refl thm
+R4446:4456 Coq.Sorting.PermutSetoid <> permut_refl thm
+R4469:4479 Coq.Sorting.PermutSetoid <> permut_cons thm
+R4469:4479 Coq.Sorting.PermutSetoid <> permut_cons thm
+R4500:4510 Coq.Sorting.PermutEq <> permutation abbrev
+R4523:4523 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4530:4532 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4525:4526 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4527:4529 Coq.Init.Datatypes <> nil constr
+R4534:4535 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4514:4515 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4517:4518 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4500:4510 Coq.Sorting.PermutEq <> permutation abbrev
+R4523:4523 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4530:4532 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4525:4526 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4527:4529 Coq.Init.Datatypes <> nil constr
+R4534:4535 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4514:4515 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4517:4518 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4551:4572 Coq.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R4588:4598 Coq.Sorting.PermutSetoid <> permut_refl thm
+R4551:4572 Coq.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R4588:4598 Coq.Sorting.PermutSetoid <> permut_refl thm
+R4611:4622 Coq.Sorting.PermutSetoid <> permut_trans thm
+R4611:4622 Coq.Sorting.PermutSetoid <> permut_trans thm
+R4696:4705 Coq.Sorting.PermutEq <> permut_nil thm
+R4708:4717 Coq.Sorting.PermutSetoid <> permut_sym thm
+R4696:4705 Coq.Sorting.PermutEq <> permut_nil thm
+R4708:4717 Coq.Sorting.PermutSetoid <> permut_sym thm
+R4696:4705 Coq.Sorting.PermutEq <> permut_nil thm
+R4708:4717 Coq.Sorting.PermutSetoid <> permut_sym thm
+R4734:4749 Coq.Sorting.Permutation <> Permutation_refl thm
+R4734:4749 Coq.Sorting.Permutation <> Permutation_refl thm
+R4778:4785 Coq.Lists.List <> In_split abbrev
+R4792:4805 Coq.Sorting.PermutEq <> permut_cons_In thm
+R4778:4785 Coq.Lists.List <> In_split abbrev
+R4792:4805 Coq.Sorting.PermutEq <> permut_cons_In thm
+R4852:4871 Coq.Sorting.Permutation <> Permutation_cons_app thm
+R4852:4871 Coq.Sorting.Permutation <> Permutation_cons_app thm
+R4899:4914 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+R4899:4914 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+prf 5010:5024 <> permut_length_1
+binder 5038:5038 <> a:25
+binder 5040:5040 <> b:26
+R5076:5080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5043:5053 Coq.Sorting.PermutEq <> permutation abbrev
+R5068:5071 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5067:5067 Coq.Sorting.PermutEq <> b:26 var
+R5072:5074 Coq.Init.Datatypes <> nil constr
+R5057:5060 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5056:5056 Coq.Sorting.PermutEq <> a:25 var
+R5061:5063 Coq.Init.Datatypes <> nil constr
+R5082:5082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5081:5081 Coq.Sorting.PermutEq <> a:25 var
+R5083:5083 Coq.Sorting.PermutEq <> b:26 var
+R5118:5141 Coq.Sorting.PermutSetoid <> permutation def
+R5144:5146 Coq.Sets.Multiset <> meq def
+R5212:5217 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5212:5217 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5271:5276 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5271:5276 Coq.Sorting.PermutEq <> Perm.eq_dec var
+prf 5335:5349 <> permut_length_2
+binder 5364:5365 <> a1:27
+binder 5367:5368 <> b1:28
+binder 5370:5371 <> a2:29
+binder 5373:5374 <> b2:30
+R5424:5433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5377:5387 Coq.Sorting.PermutEq <> permutation abbrev
+R5410:5413 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5408:5409 Coq.Sorting.PermutEq <> a2:29 var
+R5416:5419 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5414:5415 Coq.Sorting.PermutEq <> b2:30 var
+R5420:5422 Coq.Init.Datatypes <> nil constr
+R5392:5395 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5390:5391 Coq.Sorting.PermutEq <> a1:27 var
+R5398:5401 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5396:5397 Coq.Sorting.PermutEq <> b1:28 var
+R5402:5404 Coq.Init.Datatypes <> nil constr
+R5452:5455 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5434:5434 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5440:5445 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5451:5451 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5437:5437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5435:5436 Coq.Sorting.PermutEq <> a1:27 var
+R5438:5439 Coq.Sorting.PermutEq <> a2:29 var
+R5448:5448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5446:5447 Coq.Sorting.PermutEq <> b1:28 var
+R5449:5450 Coq.Sorting.PermutEq <> b2:30 var
+R5456:5456 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5462:5467 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5473:5473 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5459:5459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5457:5458 Coq.Sorting.PermutEq <> a1:27 var
+R5460:5461 Coq.Sorting.PermutEq <> b2:30 var
+R5470:5470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5468:5469 Coq.Sorting.PermutEq <> a2:29 var
+R5471:5472 Coq.Sorting.PermutEq <> b1:28 var
+R5526:5539 Coq.Sorting.PermutEq <> permut_cons_In thm
+R5526:5539 Coq.Sorting.PermutEq <> permut_cons_In thm
+R5601:5615 Coq.Sorting.PermutEq <> permut_length_1 thm
+R5601:5615 Coq.Sorting.PermutEq <> permut_length_1 thm
+R5692:5697 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5733:5738 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5692:5697 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5733:5738 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5733:5738 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R5922:5936 Coq.Sorting.PermutEq <> permut_length_1 thm
+R5922:5936 Coq.Sorting.PermutEq <> permut_length_1 thm
+R6013:6018 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R6054:6059 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R6013:6018 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R6054:6059 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R6054:6059 Coq.Sorting.PermutEq <> Perm.eq_dec var
+R6107:6115 Coq.Init.Peano <> plus_n_Sm thm
+R6107:6115 Coq.Init.Peano <> plus_n_Sm thm
+R6107:6115 Coq.Init.Peano <> plus_n_Sm thm
+prf 6281:6293 <> permut_length
+binder 6308:6309 <> l1:31
+binder 6311:6312 <> l2:32
+R6332:6335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6315:6325 Coq.Sorting.PermutEq <> permutation abbrev
+R6330:6331 Coq.Sorting.PermutEq <> l2:32 var
+R6327:6328 Coq.Sorting.PermutEq <> l1:31 var
+R6345:6347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6336:6341 Coq.Init.Datatypes <> length def
+R6343:6344 Coq.Sorting.PermutEq <> l1:31 var
+R6348:6353 Coq.Init.Datatypes <> length def
+R6355:6356 Coq.Sorting.PermutEq <> l2:32 var
+R6412:6421 Coq.Sorting.PermutEq <> permut_nil thm
+R6424:6433 Coq.Sorting.PermutSetoid <> permut_sym thm
+R6412:6421 Coq.Sorting.PermutEq <> permut_nil thm
+R6424:6433 Coq.Sorting.PermutSetoid <> permut_sym thm
+R6412:6421 Coq.Sorting.PermutEq <> permut_nil thm
+R6424:6433 Coq.Sorting.PermutSetoid <> permut_sym thm
+R6460:6467 Coq.Lists.List <> In_split abbrev
+R6474:6487 Coq.Sorting.PermutEq <> permut_cons_In thm
+R6460:6467 Coq.Lists.List <> In_split abbrev
+R6474:6487 Coq.Sorting.PermutEq <> permut_cons_In thm
+R6536:6545 Coq.Lists.List <> app_length thm
+R6536:6545 Coq.Lists.List <> app_length thm
+R6536:6545 Coq.Lists.List <> app_length thm
+R6570:6578 Coq.Init.Peano <> plus_n_Sm thm
+R6570:6578 Coq.Init.Peano <> plus_n_Sm thm
+R6570:6578 Coq.Init.Peano <> plus_n_Sm thm
+R6605:6614 Coq.Lists.List <> app_length thm
+R6605:6614 Coq.Lists.List <> app_length thm
+R6605:6614 Coq.Lists.List <> app_length thm
+R6643:6658 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+R6643:6658 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+var 6718:6718 Perm B
+var 6739:6745 Perm eqB_dec
+R6760:6760 Coq.Sorting.PermutEq <> Perm.B var
+binder 6756:6756 <> x:34
+binder 6758:6758 <> y:35
+R6763:6764 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6768:6772 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6777:6778 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6766:6766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6765:6765 Coq.Sorting.PermutEq <> x:34 var
+R6767:6767 Coq.Sorting.PermutEq <> y:35 var
+R6773:6773 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6775:6775 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6774:6774 Coq.Sorting.PermutEq <> x:34 var
+R6776:6776 Coq.Sorting.PermutEq <> y:35 var
+prf 6836:6850 <> permutation_map
+binder 6865:6865 <> f:37
+binder 6867:6868 <> l1:38
+binder 6870:6871 <> l2:39
+R6891:6900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6874:6884 Coq.Sorting.PermutEq <> permutation abbrev
+R6889:6890 Coq.Sorting.PermutEq <> l2:39 var
+R6886:6887 Coq.Sorting.PermutEq <> l1:38 var
+R6901:6924 Coq.Sorting.PermutSetoid <> permutation def
+R6948:6950 Coq.Lists.List <> map def
+R6954:6955 Coq.Sorting.PermutEq <> l2:39 var
+R6952:6952 Coq.Sorting.PermutEq <> f:37 var
+R6937:6939 Coq.Lists.List <> map def
+R6943:6944 Coq.Sorting.PermutEq <> l1:38 var
+R6941:6941 Coq.Sorting.PermutEq <> f:37 var
+R6928:6934 Coq.Sorting.PermutEq <> Perm.eqB_dec var
+R7022:7031 Coq.Sorting.PermutEq <> permut_nil thm
+R7034:7043 Coq.Sorting.PermutSetoid <> permut_sym thm
+R7056:7066 Coq.Sorting.PermutSetoid <> permut_refl thm
+R7022:7031 Coq.Sorting.PermutEq <> permut_nil thm
+R7034:7043 Coq.Sorting.PermutSetoid <> permut_sym thm
+R7022:7031 Coq.Sorting.PermutEq <> permut_nil thm
+R7034:7043 Coq.Sorting.PermutSetoid <> permut_sym thm
+R7056:7066 Coq.Sorting.PermutSetoid <> permut_refl thm
+R7111:7118 Coq.Lists.List <> In_split abbrev
+R7125:7138 Coq.Sorting.PermutEq <> permut_cons_In thm
+R7111:7118 Coq.Lists.List <> In_split abbrev
+R7125:7138 Coq.Sorting.PermutEq <> permut_cons_In thm
+R7187:7193 Coq.Lists.List <> map_app thm
+R7187:7193 Coq.Lists.List <> map_app thm
+R7187:7193 Coq.Lists.List <> map_app thm
+R7217:7238 Coq.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R7217:7238 Coq.Sorting.PermutSetoid <> permut_add_cons_inside thm
+R7256:7262 Coq.Lists.List <> map_app thm
+R7256:7262 Coq.Lists.List <> map_app thm
+R7256:7262 Coq.Lists.List <> map_app thm
+R7297:7312 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+R7297:7312 Coq.Sorting.PermutSetoid <> permut_remove_hd thm
+R7365:7368 Coq.Sorting.PermutEq Perm <> sec

@@ -1,0 +1,535 @@
+DIGEST 51a70fdccf34d6ef038a4b578c0ec356
+FCoq.Numbers.NatInt.NZAddOrder
+R841:848 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R850:855 Coq.Numbers.NatInt.NZBase <> <> lib
+R857:861 Coq.Numbers.NatInt.NZMul <> <> lib
+R863:869 Coq.Numbers.NatInt.NZOrder <> <> lib
+R913:927 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+modtype 885:898 <> NZAddOrderProp
+R885:898 Coq.Numbers.NatInt.NZAddOrder NZ <> mod
+R939:948 Coq.Numbers.NatInt.NZBase NZBaseProp <> mod
+R950:951 Coq.Numbers.NatInt.NZAddOrder NZ <> modtype
+R956:964 Coq.Numbers.NatInt.NZMul NZMulProp <> mod
+R966:967 Coq.Numbers.NatInt.NZAddOrder NZ <> modtype
+R972:982 Coq.Numbers.NatInt.NZOrder NZOrderProp <> mod
+R984:985 Coq.Numbers.NatInt.NZAddOrder NZ <> modtype
+prf 997:1009 NZAddOrderProp add_lt_mono_l
+binder 1020:1020 <> n:1
+binder 1022:1022 <> m:2
+binder 1024:1024 <> p:3
+R1032:1036 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1028:1030 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1027:1027 Coq.Numbers.NatInt.NZAddOrder <> n:1 var
+R1031:1031 Coq.Numbers.NatInt.NZAddOrder <> m:2 var
+R1042:1044 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1038:1040 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1037:1037 Coq.Numbers.NatInt.NZAddOrder <> p:3 var
+R1041:1041 Coq.Numbers.NatInt.NZAddOrder <> n:1 var
+R1046:1048 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1045:1045 Coq.Numbers.NatInt.NZAddOrder <> p:3 var
+R1049:1049 Coq.Numbers.NatInt.NZAddOrder <> m:2 var
+R1139:1150 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_lt_mono thm
+R1139:1150 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_lt_mono thm
+R1139:1150 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_lt_mono thm
+prf 1167:1179 NZAddOrderProp add_lt_mono_r
+binder 1190:1190 <> n:4
+binder 1192:1192 <> m:5
+binder 1194:1194 <> p:6
+R1202:1206 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1198:1200 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1197:1197 Coq.Numbers.NatInt.NZAddOrder <> n:4 var
+R1201:1201 Coq.Numbers.NatInt.NZAddOrder <> m:5 var
+R1212:1214 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1208:1210 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1207:1207 Coq.Numbers.NatInt.NZAddOrder <> n:4 var
+R1211:1211 Coq.Numbers.NatInt.NZAddOrder <> p:6 var
+R1216:1218 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1215:1215 Coq.Numbers.NatInt.NZAddOrder <> m:5 var
+R1219:1219 Coq.Numbers.NatInt.NZAddOrder <> p:6 var
+R1252:1259 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1268:1275 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1289:1301 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+R1252:1259 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1252:1259 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1268:1275 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1268:1275 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1289:1301 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+prf 1318:1328 NZAddOrderProp add_lt_mono
+binder 1339:1339 <> n:7
+binder 1341:1341 <> m:8
+binder 1343:1343 <> p:9
+binder 1345:1345 <> q:10
+R1353:1356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1349:1351 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1348:1348 Coq.Numbers.NatInt.NZAddOrder <> n:7 var
+R1352:1352 Coq.Numbers.NatInt.NZAddOrder <> m:8 var
+R1362:1365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1358:1360 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1357:1357 Coq.Numbers.NatInt.NZAddOrder <> p:9 var
+R1361:1361 Coq.Numbers.NatInt.NZAddOrder <> q:10 var
+R1371:1373 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1367:1369 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1366:1366 Coq.Numbers.NatInt.NZAddOrder <> n:7 var
+R1370:1370 Coq.Numbers.NatInt.NZAddOrder <> p:9 var
+R1375:1377 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1374:1374 Coq.Numbers.NatInt.NZAddOrder <> m:8 var
+R1378:1378 Coq.Numbers.NatInt.NZAddOrder <> q:10 var
+R1432:1434 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1416:1423 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_trans thm
+R1450:1462 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R1476:1488 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+R1432:1434 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1416:1423 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_trans thm
+R1450:1462 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R1476:1488 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+prf 1506:1518 NZAddOrderProp add_le_mono_l
+binder 1529:1529 <> n:11
+binder 1531:1531 <> m:12
+binder 1533:1533 <> p:13
+R1542:1546 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1537:1540 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1536:1536 Coq.Numbers.NatInt.NZAddOrder <> n:11 var
+R1541:1541 Coq.Numbers.NatInt.NZAddOrder <> m:12 var
+R1552:1555 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1548:1550 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1547:1547 Coq.Numbers.NatInt.NZAddOrder <> p:13 var
+R1551:1551 Coq.Numbers.NatInt.NZAddOrder <> n:11 var
+R1557:1559 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1556:1556 Coq.Numbers.NatInt.NZAddOrder <> p:13 var
+R1560:1560 Coq.Numbers.NatInt.NZAddOrder <> m:12 var
+R1650:1661 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_le_mono thm
+R1650:1661 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_le_mono thm
+R1650:1661 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp succ_le_mono thm
+prf 1678:1690 NZAddOrderProp add_le_mono_r
+binder 1701:1701 <> n:14
+binder 1703:1703 <> m:15
+binder 1705:1705 <> p:16
+R1714:1718 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1709:1712 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1708:1708 Coq.Numbers.NatInt.NZAddOrder <> n:14 var
+R1713:1713 Coq.Numbers.NatInt.NZAddOrder <> m:15 var
+R1724:1727 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1720:1722 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1719:1719 Coq.Numbers.NatInt.NZAddOrder <> n:14 var
+R1723:1723 Coq.Numbers.NatInt.NZAddOrder <> p:16 var
+R1729:1731 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1728:1728 Coq.Numbers.NatInt.NZAddOrder <> m:15 var
+R1732:1732 Coq.Numbers.NatInt.NZAddOrder <> p:16 var
+R1765:1772 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1781:1788 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1802:1814 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+R1765:1772 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1765:1772 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1781:1788 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1781:1788 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R1802:1814 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+prf 1831:1841 NZAddOrderProp add_le_mono
+binder 1852:1852 <> n:17
+binder 1854:1854 <> m:18
+binder 1856:1856 <> p:19
+binder 1858:1858 <> q:20
+R1867:1870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1862:1865 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1861:1861 Coq.Numbers.NatInt.NZAddOrder <> n:17 var
+R1866:1866 Coq.Numbers.NatInt.NZAddOrder <> m:18 var
+R1877:1880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1872:1875 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1871:1871 Coq.Numbers.NatInt.NZAddOrder <> p:19 var
+R1876:1876 Coq.Numbers.NatInt.NZAddOrder <> q:20 var
+R1886:1889 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1882:1884 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1881:1881 Coq.Numbers.NatInt.NZAddOrder <> n:17 var
+R1885:1885 Coq.Numbers.NatInt.NZAddOrder <> p:19 var
+R1891:1893 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1890:1890 Coq.Numbers.NatInt.NZAddOrder <> m:18 var
+R1894:1894 Coq.Numbers.NatInt.NZAddOrder <> q:20 var
+R1948:1950 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1932:1939 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_trans thm
+R1966:1978 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_r thm
+R1992:2004 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+R1948:1950 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1932:1939 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_trans thm
+R1966:1978 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_r thm
+R1992:2004 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+prf 2022:2035 NZAddOrderProp add_lt_le_mono
+binder 2046:2046 <> n:21
+binder 2048:2048 <> m:22
+binder 2050:2050 <> p:23
+binder 2052:2052 <> q:24
+R2060:2063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2056:2058 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2055:2055 Coq.Numbers.NatInt.NZAddOrder <> n:21 var
+R2059:2059 Coq.Numbers.NatInt.NZAddOrder <> m:22 var
+R2070:2073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2065:2068 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2064:2064 Coq.Numbers.NatInt.NZAddOrder <> p:23 var
+R2069:2069 Coq.Numbers.NatInt.NZAddOrder <> q:24 var
+R2079:2081 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2075:2077 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2074:2074 Coq.Numbers.NatInt.NZAddOrder <> n:21 var
+R2078:2078 Coq.Numbers.NatInt.NZAddOrder <> p:23 var
+R2083:2085 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2082:2082 Coq.Numbers.NatInt.NZAddOrder <> m:22 var
+R2086:2086 Coq.Numbers.NatInt.NZAddOrder <> q:24 var
+R2143:2145 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2124:2134 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_le_trans thm
+R2161:2173 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R2187:2199 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+R2143:2145 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2124:2134 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_le_trans thm
+R2161:2173 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R2187:2199 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_l thm
+prf 2217:2230 NZAddOrderProp add_le_lt_mono
+binder 2241:2241 <> n:25
+binder 2243:2243 <> m:26
+binder 2245:2245 <> p:27
+binder 2247:2247 <> q:28
+R2256:2259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2251:2254 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2250:2250 Coq.Numbers.NatInt.NZAddOrder <> n:25 var
+R2255:2255 Coq.Numbers.NatInt.NZAddOrder <> m:26 var
+R2265:2268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2263 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2260:2260 Coq.Numbers.NatInt.NZAddOrder <> p:27 var
+R2264:2264 Coq.Numbers.NatInt.NZAddOrder <> q:28 var
+R2274:2276 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2270:2272 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2269:2269 Coq.Numbers.NatInt.NZAddOrder <> n:25 var
+R2273:2273 Coq.Numbers.NatInt.NZAddOrder <> p:27 var
+R2278:2280 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2277:2277 Coq.Numbers.NatInt.NZAddOrder <> m:26 var
+R2281:2281 Coq.Numbers.NatInt.NZAddOrder <> q:28 var
+R2338:2340 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2319:2329 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_lt_trans thm
+R2356:2368 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_r thm
+R2382:2394 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+R2338:2340 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2319:2329 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_lt_trans thm
+R2356:2368 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono_r thm
+R2382:2394 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_l thm
+prf 2412:2422 NZAddOrderProp add_pos_pos
+binder 2433:2433 <> n:29
+binder 2435:2435 <> m:30
+R2443:2446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2439:2441 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2442:2442 Coq.Numbers.NatInt.NZAddOrder <> n:29 var
+R2452:2455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2448:2450 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2451:2451 Coq.Numbers.NatInt.NZAddOrder <> m:30 var
+R2457:2459 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2461:2463 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2460:2460 Coq.Numbers.NatInt.NZAddOrder <> n:29 var
+R2464:2464 Coq.Numbers.NatInt.NZAddOrder <> m:30 var
+R2504:2510 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2504:2510 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2504:2510 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2526:2536 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono thm
+R2526:2536 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono thm
+prf 2553:2566 NZAddOrderProp add_pos_nonneg
+binder 2577:2577 <> n:31
+binder 2579:2579 <> m:32
+R2587:2590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2583:2585 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2586:2586 Coq.Numbers.NatInt.NZAddOrder <> n:31 var
+R2597:2600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2592:2595 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2596:2596 Coq.Numbers.NatInt.NZAddOrder <> m:32 var
+R2602:2604 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2606:2608 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2605:2605 Coq.Numbers.NatInt.NZAddOrder <> n:31 var
+R2609:2609 Coq.Numbers.NatInt.NZAddOrder <> m:32 var
+R2649:2655 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2649:2655 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2649:2655 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2671:2684 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_le_mono thm
+R2671:2684 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_le_mono thm
+prf 2701:2714 NZAddOrderProp add_nonneg_pos
+binder 2725:2725 <> n:33
+binder 2727:2727 <> m:34
+R2736:2739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2731:2734 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2735:2735 Coq.Numbers.NatInt.NZAddOrder <> n:33 var
+R2745:2748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2741:2743 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2744:2744 Coq.Numbers.NatInt.NZAddOrder <> m:34 var
+R2750:2752 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2754:2756 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2753:2753 Coq.Numbers.NatInt.NZAddOrder <> n:33 var
+R2757:2757 Coq.Numbers.NatInt.NZAddOrder <> m:34 var
+R2797:2803 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2797:2803 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2797:2803 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2819:2832 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_lt_mono thm
+R2819:2832 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_lt_mono thm
+prf 2849:2865 NZAddOrderProp add_nonneg_nonneg
+binder 2876:2876 <> n:35
+binder 2878:2878 <> m:36
+R2887:2890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2882:2885 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2886:2886 Coq.Numbers.NatInt.NZAddOrder <> n:35 var
+R2897:2900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2892:2895 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2896:2896 Coq.Numbers.NatInt.NZAddOrder <> m:36 var
+R2902:2905 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2907:2909 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R2906:2906 Coq.Numbers.NatInt.NZAddOrder <> n:35 var
+R2910:2910 Coq.Numbers.NatInt.NZAddOrder <> m:36 var
+R2950:2956 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2950:2956 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2950:2956 Coq.Numbers.NatInt.NZAddOrder NZ add_0_l prfax
+R2972:2982 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+R2972:2982 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+prf 2999:3010 NZAddOrderProp lt_add_pos_l
+binder 3021:3021 <> n:37
+binder 3023:3023 <> m:38
+R3031:3034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3027:3029 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3030:3030 Coq.Numbers.NatInt.NZAddOrder <> n:37 var
+R3036:3038 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3035:3035 Coq.Numbers.NatInt.NZAddOrder <> m:38 var
+R3040:3042 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3039:3039 Coq.Numbers.NatInt.NZAddOrder <> n:37 var
+R3043:3043 Coq.Numbers.NatInt.NZAddOrder <> m:38 var
+R3074:3086 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R3074:3086 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+R3074:3086 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono_r thm
+prf 3123:3134 NZAddOrderProp lt_add_pos_r
+binder 3145:3145 <> n:39
+binder 3147:3147 <> m:40
+R3155:3158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3151:3153 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3154:3154 Coq.Numbers.NatInt.NZAddOrder <> n:39 var
+R3160:3162 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3159:3159 Coq.Numbers.NatInt.NZAddOrder <> m:40 var
+R3164:3166 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3163:3163 Coq.Numbers.NatInt.NZAddOrder <> m:40 var
+R3167:3167 Coq.Numbers.NatInt.NZAddOrder <> n:39 var
+R3193:3200 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R3213:3224 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_add_pos_l thm
+R3193:3200 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R3193:3200 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_comm thm
+R3213:3224 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp lt_add_pos_l thm
+prf 3241:3252 NZAddOrderProp le_lt_add_lt
+binder 3263:3263 <> n:41
+binder 3265:3265 <> m:42
+binder 3267:3267 <> p:43
+binder 3269:3269 <> q:44
+R3278:3281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3273:3276 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3272:3272 Coq.Numbers.NatInt.NZAddOrder <> n:41 var
+R3277:3277 Coq.Numbers.NatInt.NZAddOrder <> m:42 var
+R3295:3298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3287:3289 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3283:3285 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3282:3282 Coq.Numbers.NatInt.NZAddOrder <> p:43 var
+R3286:3286 Coq.Numbers.NatInt.NZAddOrder <> m:42 var
+R3291:3293 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3290:3290 Coq.Numbers.NatInt.NZAddOrder <> q:44 var
+R3294:3294 Coq.Numbers.NatInt.NZAddOrder <> n:41 var
+R3300:3302 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3299:3299 Coq.Numbers.NatInt.NZAddOrder <> p:43 var
+R3303:3303 Coq.Numbers.NatInt.NZAddOrder <> q:44 var
+R3345:3355 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3345:3355 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3402:3407 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R3402:3407 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R3402:3407 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R3420:3430 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+R3420:3430 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+prf 3447:3458 NZAddOrderProp lt_le_add_lt
+binder 3469:3469 <> n:45
+binder 3471:3471 <> m:46
+binder 3473:3473 <> p:47
+binder 3475:3475 <> q:48
+R3483:3486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3479:3481 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3478:3478 Coq.Numbers.NatInt.NZAddOrder <> n:45 var
+R3482:3482 Coq.Numbers.NatInt.NZAddOrder <> m:46 var
+R3501:3504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3492:3495 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3488:3490 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3487:3487 Coq.Numbers.NatInt.NZAddOrder <> p:47 var
+R3491:3491 Coq.Numbers.NatInt.NZAddOrder <> m:46 var
+R3497:3499 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3496:3496 Coq.Numbers.NatInt.NZAddOrder <> q:48 var
+R3500:3500 Coq.Numbers.NatInt.NZAddOrder <> n:45 var
+R3506:3508 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3505:3505 Coq.Numbers.NatInt.NZAddOrder <> p:47 var
+R3509:3509 Coq.Numbers.NatInt.NZAddOrder <> q:48 var
+R3551:3561 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3551:3561 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3608:3613 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3608:3613 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3608:3613 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3626:3639 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_lt_mono thm
+R3626:3639 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_lt_mono thm
+prf 3656:3667 NZAddOrderProp le_le_add_le
+binder 3678:3678 <> n:49
+binder 3680:3680 <> m:50
+binder 3682:3682 <> p:51
+binder 3684:3684 <> q:52
+R3693:3696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3688:3691 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3687:3687 Coq.Numbers.NatInt.NZAddOrder <> n:49 var
+R3692:3692 Coq.Numbers.NatInt.NZAddOrder <> m:50 var
+R3711:3714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3702:3705 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3698:3700 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3697:3697 Coq.Numbers.NatInt.NZAddOrder <> p:51 var
+R3701:3701 Coq.Numbers.NatInt.NZAddOrder <> m:50 var
+R3707:3709 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3706:3706 Coq.Numbers.NatInt.NZAddOrder <> q:52 var
+R3710:3710 Coq.Numbers.NatInt.NZAddOrder <> n:49 var
+R3716:3719 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R3715:3715 Coq.Numbers.NatInt.NZAddOrder <> p:51 var
+R3720:3720 Coq.Numbers.NatInt.NZAddOrder <> q:52 var
+R3762:3772 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3762:3772 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3819:3824 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3819:3824 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3819:3824 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R3837:3850 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_le_mono thm
+R3837:3850 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_le_mono thm
+prf 3867:3878 NZAddOrderProp add_lt_cases
+binder 3889:3889 <> n:53
+binder 3891:3891 <> m:54
+binder 3893:3893 <> p:55
+binder 3895:3895 <> q:56
+R3911:3914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3903:3905 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3899:3901 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3898:3898 Coq.Numbers.NatInt.NZAddOrder <> n:53 var
+R3902:3902 Coq.Numbers.NatInt.NZAddOrder <> m:54 var
+R3907:3909 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R3906:3906 Coq.Numbers.NatInt.NZAddOrder <> p:55 var
+R3910:3910 Coq.Numbers.NatInt.NZAddOrder <> q:56 var
+R3920:3923 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3916:3918 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3915:3915 Coq.Numbers.NatInt.NZAddOrder <> n:53 var
+R3919:3919 Coq.Numbers.NatInt.NZAddOrder <> p:55 var
+R3925:3927 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R3924:3924 Coq.Numbers.NatInt.NZAddOrder <> m:54 var
+R3928:3928 Coq.Numbers.NatInt.NZAddOrder <> q:56 var
+R3966:3976 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R3966:3976 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4021:4031 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4021:4031 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4089:4094 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R4089:4094 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R4089:4094 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nlt_ge thm
+R4107:4117 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+R4107:4117 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_mono thm
+prf 4134:4145 NZAddOrderProp add_le_cases
+binder 4156:4156 <> n:57
+binder 4158:4158 <> m:58
+binder 4160:4160 <> p:59
+binder 4162:4162 <> q:60
+R4179:4182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4170:4173 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4166:4168 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4165:4165 Coq.Numbers.NatInt.NZAddOrder <> n:57 var
+R4169:4169 Coq.Numbers.NatInt.NZAddOrder <> m:58 var
+R4175:4177 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4174:4174 Coq.Numbers.NatInt.NZAddOrder <> p:59 var
+R4178:4178 Coq.Numbers.NatInt.NZAddOrder <> q:60 var
+R4189:4192 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4184:4187 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4183:4183 Coq.Numbers.NatInt.NZAddOrder <> n:57 var
+R4188:4188 Coq.Numbers.NatInt.NZAddOrder <> p:59 var
+R4194:4197 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4193:4193 Coq.Numbers.NatInt.NZAddOrder <> m:58 var
+R4198:4198 Coq.Numbers.NatInt.NZAddOrder <> q:60 var
+R4236:4246 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4236:4246 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4291:4301 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4291:4301 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_gt_cases thm
+R4361:4366 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R4361:4366 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R4361:4366 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp nle_gt thm
+R4379:4389 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono thm
+R4379:4389 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_mono thm
+prf 4406:4418 NZAddOrderProp add_neg_cases
+binder 4429:4429 <> n:61
+binder 4431:4431 <> m:62
+R4443:4446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4439:4441 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4435:4437 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4434:4434 Coq.Numbers.NatInt.NZAddOrder <> n:61 var
+R4438:4438 Coq.Numbers.NatInt.NZAddOrder <> m:62 var
+R4452:4455 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4448:4450 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4447:4447 Coq.Numbers.NatInt.NZAddOrder <> n:61 var
+R4457:4459 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4456:4456 Coq.Numbers.NatInt.NZAddOrder <> m:62 var
+R4490:4501 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_cases thm
+R4490:4501 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_cases thm
+prf 4531:4543 NZAddOrderProp add_pos_cases
+binder 4554:4554 <> n:63
+binder 4556:4556 <> m:64
+R4568:4571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4560:4562 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4564:4566 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4563:4563 Coq.Numbers.NatInt.NZAddOrder <> n:63 var
+R4567:4567 Coq.Numbers.NatInt.NZAddOrder <> m:64 var
+R4577:4580 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4573:4575 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4576:4576 Coq.Numbers.NatInt.NZAddOrder <> n:63 var
+R4582:4584 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4585:4585 Coq.Numbers.NatInt.NZAddOrder <> m:64 var
+R4615:4626 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_cases thm
+R4615:4626 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_lt_cases thm
+prf 4656:4671 NZAddOrderProp add_nonpos_cases
+binder 4682:4682 <> n:65
+binder 4684:4684 <> m:66
+R4697:4700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4692:4695 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4688:4690 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4687:4687 Coq.Numbers.NatInt.NZAddOrder <> n:65 var
+R4691:4691 Coq.Numbers.NatInt.NZAddOrder <> m:66 var
+R4707:4710 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4702:4705 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4701:4701 Coq.Numbers.NatInt.NZAddOrder <> n:65 var
+R4712:4715 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4711:4711 Coq.Numbers.NatInt.NZAddOrder <> m:66 var
+R4746:4757 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_cases thm
+R4746:4757 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_cases thm
+prf 4787:4802 NZAddOrderProp add_nonneg_cases
+binder 4813:4813 <> n:67
+binder 4815:4815 <> m:68
+R4828:4831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4819:4822 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4824:4826 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R4823:4823 Coq.Numbers.NatInt.NZAddOrder <> n:67 var
+R4827:4827 Coq.Numbers.NatInt.NZAddOrder <> m:68 var
+R4838:4841 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4833:4836 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4837:4837 Coq.Numbers.NatInt.NZAddOrder <> n:67 var
+R4843:4846 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R4847:4847 Coq.Numbers.NatInt.NZAddOrder <> m:68 var
+R4877:4888 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_cases thm
+R4877:4888 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp add_le_cases thm
+prf 5023:5035 NZAddOrderProp le_exists_sub
+binder 5046:5046 <> n:69
+binder 5048:5048 <> m:70
+R5055:5058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5052:5053 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5051:5051 Coq.Numbers.NatInt.NZAddOrder <> n:69 var
+R5054:5054 Coq.Numbers.NatInt.NZAddOrder <> m:70 var
+R5059:5065 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5067:5068 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5066:5066 <> p:71
+R5077:5080 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5070:5073 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5069:5069 Coq.Numbers.NatInt.NZAddOrder <> m:70 var
+R5075:5075 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R5074:5074 Coq.Numbers.NatInt.NZAddOrder <> p:71 var
+R5076:5076 Coq.Numbers.NatInt.NZAddOrder <> n:69 var
+R5082:5083 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R5084:5084 Coq.Numbers.NatInt.NZAddOrder <> p:71 var
+R5116:5121 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_ind thm
+R5116:5121 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_ind thm
+R5238:5238 Coq.Numbers.NatInt.NZAddOrder NZ S abbrev
+R5238:5238 Coq.Numbers.NatInt.NZAddOrder NZ S abbrev
+R5291:5302 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_le_succ_r thm
+R5291:5302 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp le_le_succ_r thm
+R5416:5429 Coq.Numbers.NatInt.NZAddOrder NZAddOrderProp <> modtype

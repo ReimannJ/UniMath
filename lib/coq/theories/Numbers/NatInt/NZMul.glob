@@ -1,0 +1,274 @@
+DIGEST c11df547304db74a5a28b7021679dbf2
+FCoq.Numbers.NatInt.NZMul
+R841:848 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R850:855 Coq.Numbers.NatInt.NZBase <> <> lib
+R857:861 Coq.Numbers.NatInt.NZAdd <> <> lib
+R900:911 Coq.Numbers.NatInt.NZAxioms NZAxiomsSig' <> mod
+R930:939 Coq.Numbers.NatInt.NZBase NZBaseProp <> mod
+R941:942 Coq.Numbers.NatInt.NZMul NZ <> modtype
+modtype 877:885 <> NZMulProp
+R877:885 Coq.Numbers.NatInt.NZMul NZ <> mod
+R877:885 Coq.Numbers.NatInt.NZMul NZBase <> mod
+R954:962 Coq.Numbers.NatInt.NZAdd NZAddProp <> mod
+R964:965 Coq.Numbers.NatInt.NZMul NZ <> modtype
+R967:972 Coq.Numbers.NatInt.NZMul NZBase <> modtype
+prf 984:990 NZMulProp mul_0_r
+binder 1001:1001 <> n:1
+R1009:1012 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1005:1007 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1004:1004 Coq.Numbers.NatInt.NZMul <> n:1 var
+prf 1079:1088 NZMulProp mul_succ_r
+binder 1099:1099 <> n:2
+binder 1101:1101 <> m:3
+R1113:1116 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1105:1108 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1112:1112 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1104:1104 Coq.Numbers.NatInt.NZMul <> n:2 var
+R1109:1109 Coq.Numbers.NatInt.NZMul NZ S abbrev
+R1111:1111 Coq.Numbers.NatInt.NZMul <> m:3 var
+R1122:1124 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1118:1120 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1117:1117 Coq.Numbers.NatInt.NZMul <> n:2 var
+R1121:1121 Coq.Numbers.NatInt.NZMul <> m:3 var
+R1125:1125 Coq.Numbers.NatInt.NZMul <> n:2 var
+R1208:1218 Coq.Numbers.NatInt.NZMul NZBase succ_inj_wd thm
+R1224:1232 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1236:1243 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1251:1259 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1208:1218 Coq.Numbers.NatInt.NZMul NZBase succ_inj_wd thm
+R1208:1218 Coq.Numbers.NatInt.NZMul NZBase succ_inj_wd thm
+R1224:1232 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1224:1232 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1236:1243 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1236:1243 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1251:1259 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1251:1259 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1278:1289 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1278:1289 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1278:1289 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1318:1324 Coq.Numbers.NatInt.NZMul NZMulProp mul_0_r thm
+R1326:1335 Coq.Numbers.NatInt.NZMul NZMulProp mul_succ_r thm
+prf 1352:1359 NZMulProp mul_comm
+binder 1370:1370 <> n:4
+binder 1372:1372 <> m:5
+R1380:1383 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1376:1378 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1375:1375 Coq.Numbers.NatInt.NZMul <> n:4 var
+R1379:1379 Coq.Numbers.NatInt.NZMul <> m:5 var
+R1385:1387 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1384:1384 Coq.Numbers.NatInt.NZMul <> m:5 var
+R1388:1388 Coq.Numbers.NatInt.NZMul <> n:4 var
+R1473:1484 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1473:1484 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1473:1484 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 1501:1515 NZMulProp mul_add_distr_r
+binder 1526:1526 <> n:6
+binder 1528:1528 <> m:7
+binder 1530:1530 <> p:8
+R1544:1547 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1533:1533 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1539:1542 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1535:1537 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1534:1534 Coq.Numbers.NatInt.NZMul <> n:6 var
+R1538:1538 Coq.Numbers.NatInt.NZMul <> m:7 var
+R1543:1543 Coq.Numbers.NatInt.NZMul <> p:8 var
+R1553:1555 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1549:1551 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1548:1548 Coq.Numbers.NatInt.NZMul <> n:6 var
+R1552:1552 Coq.Numbers.NatInt.NZMul <> p:8 var
+R1557:1559 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1556:1556 Coq.Numbers.NatInt.NZMul <> m:7 var
+R1560:1560 Coq.Numbers.NatInt.NZMul <> p:8 var
+R1648:1656 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1660:1667 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1673:1673 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1679:1687 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1648:1656 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1648:1656 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1660:1667 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1673:1673 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1660:1667 Coq.Numbers.NatInt.NZMul NZMulProp add_comm thm
+R1673:1673 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1679:1687 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1679:1687 Coq.Numbers.NatInt.NZMul NZMulProp add_assoc thm
+R1706:1717 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1706:1717 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R1706:1717 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 1734:1748 NZMulProp mul_add_distr_l
+binder 1759:1759 <> n:9
+binder 1761:1761 <> m:10
+binder 1763:1763 <> p:11
+R1777:1780 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1767:1770 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1776:1776 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1766:1766 Coq.Numbers.NatInt.NZMul <> n:9 var
+R1772:1774 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1771:1771 Coq.Numbers.NatInt.NZMul <> m:10 var
+R1775:1775 Coq.Numbers.NatInt.NZMul <> p:11 var
+R1786:1788 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1782:1784 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1781:1781 Coq.Numbers.NatInt.NZMul <> n:9 var
+R1785:1785 Coq.Numbers.NatInt.NZMul <> m:10 var
+R1790:1792 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1789:1789 Coq.Numbers.NatInt.NZMul <> n:9 var
+R1793:1793 Coq.Numbers.NatInt.NZMul <> p:11 var
+R1826:1833 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1839:1841 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1848:1855 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1864:1871 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1826:1833 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1839:1841 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1826:1833 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1839:1841 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'+'_x not
+R1848:1855 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1848:1855 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1864:1871 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1864:1871 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R1885:1899 Coq.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+R1885:1899 Coq.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+prf 1916:1924 NZMulProp mul_assoc
+binder 1935:1935 <> n:12
+binder 1937:1937 <> m:13
+binder 1939:1939 <> p:14
+R1953:1956 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R1943:1946 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1952:1952 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1942:1942 Coq.Numbers.NatInt.NZMul <> n:12 var
+R1948:1950 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1947:1947 Coq.Numbers.NatInt.NZMul <> m:13 var
+R1951:1951 Coq.Numbers.NatInt.NZMul <> p:14 var
+R1957:1957 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1963:1966 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1959:1961 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R1958:1958 Coq.Numbers.NatInt.NZMul <> n:12 var
+R1962:1962 Coq.Numbers.NatInt.NZMul <> m:13 var
+R1967:1967 Coq.Numbers.NatInt.NZMul <> p:14 var
+R2050:2064 Coq.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+R2050:2064 Coq.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+R2050:2064 Coq.Numbers.NatInt.NZMul NZMulProp mul_add_distr_r thm
+R2083:2094 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R2083:2094 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+R2083:2094 Coq.Numbers.NatInt.NZMul NZMulProp add_cancel_r thm
+prf 2111:2117 NZMulProp mul_1_l
+binder 2128:2128 <> n:15
+R2136:2139 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2132:2134 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2135:2135 Coq.Numbers.NatInt.NZMul <> n:15 var
+R2140:2140 Coq.Numbers.NatInt.NZMul <> n:15 var
+prf 2187:2193 NZMulProp mul_1_r
+binder 2204:2204 <> n:16
+R2212:2215 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2208:2210 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2207:2207 Coq.Numbers.NatInt.NZMul <> n:16 var
+R2216:2216 Coq.Numbers.NatInt.NZMul <> n:16 var
+R2275:2281 Coq.Numbers.NatInt.NZMul NZMulProp mul_1_l thm
+R2283:2289 Coq.Numbers.NatInt.NZMul NZMulProp mul_1_r thm
+prf 2306:2317 NZMulProp mul_shuffle0
+binder 2328:2328 <> n:17
+binder 2330:2330 <> m:18
+binder 2332:2332 <> p:19
+R2340:2343 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2338:2338 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2336:2336 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2335:2335 Coq.Numbers.NatInt.NZMul <> n:17 var
+R2337:2337 Coq.Numbers.NatInt.NZMul <> m:18 var
+R2339:2339 Coq.Numbers.NatInt.NZMul <> p:19 var
+R2347:2347 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2345:2345 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2344:2344 Coq.Numbers.NatInt.NZMul <> n:17 var
+R2346:2346 Coq.Numbers.NatInt.NZMul <> p:19 var
+R2348:2348 Coq.Numbers.NatInt.NZMul <> m:18 var
+R2389:2397 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2401:2408 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2389:2397 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2389:2397 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2389:2397 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2401:2408 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2401:2408 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+prf 2428:2439 NZMulProp mul_shuffle1
+binder 2450:2450 <> n:20
+binder 2452:2452 <> m:21
+binder 2454:2454 <> p:22
+binder 2456:2456 <> q:23
+R2476:2479 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2459:2459 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2465:2469 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2475:2475 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2461:2463 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2460:2460 Coq.Numbers.NatInt.NZMul <> n:20 var
+R2464:2464 Coq.Numbers.NatInt.NZMul <> m:21 var
+R2471:2473 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2470:2470 Coq.Numbers.NatInt.NZMul <> p:22 var
+R2474:2474 Coq.Numbers.NatInt.NZMul <> q:23 var
+R2480:2480 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2486:2490 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2496:2496 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2482:2484 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2481:2481 Coq.Numbers.NatInt.NZMul <> n:20 var
+R2485:2485 Coq.Numbers.NatInt.NZMul <> p:22 var
+R2492:2494 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2491:2491 Coq.Numbers.NatInt.NZMul <> m:21 var
+R2495:2495 Coq.Numbers.NatInt.NZMul <> q:23 var
+R2536:2544 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2548:2559 Coq.Numbers.NatInt.NZMul NZMulProp mul_shuffle0 thm
+R2536:2544 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2536:2544 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2536:2544 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2548:2559 Coq.Numbers.NatInt.NZMul NZMulProp mul_shuffle0 thm
+R2548:2559 Coq.Numbers.NatInt.NZMul NZMulProp mul_shuffle0 thm
+prf 2579:2590 NZMulProp mul_shuffle2
+binder 2601:2601 <> n:24
+binder 2603:2603 <> m:25
+binder 2605:2605 <> p:26
+binder 2607:2607 <> q:27
+R2627:2630 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2610:2610 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2616:2620 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2626:2626 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2612:2614 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2611:2611 Coq.Numbers.NatInt.NZMul <> n:24 var
+R2615:2615 Coq.Numbers.NatInt.NZMul <> m:25 var
+R2622:2624 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2621:2621 Coq.Numbers.NatInt.NZMul <> p:26 var
+R2625:2625 Coq.Numbers.NatInt.NZMul <> q:27 var
+R2631:2631 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2637:2641 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2647:2647 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2633:2635 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2632:2632 Coq.Numbers.NatInt.NZMul <> n:24 var
+R2636:2636 Coq.Numbers.NatInt.NZMul <> q:27 var
+R2643:2645 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2642:2642 Coq.Numbers.NatInt.NZMul <> m:25 var
+R2646:2646 Coq.Numbers.NatInt.NZMul <> p:26 var
+R2682:2689 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2682:2689 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2682:2689 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2701:2712 Coq.Numbers.NatInt.NZMul NZMulProp mul_shuffle1 thm
+R2701:2712 Coq.Numbers.NatInt.NZMul NZMulProp mul_shuffle1 thm
+prf 2729:2740 NZMulProp mul_shuffle3
+binder 2751:2751 <> n:28
+binder 2753:2753 <> m:29
+binder 2755:2755 <> p:30
+R2769:2772 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2759:2762 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2768:2768 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2758:2758 Coq.Numbers.NatInt.NZMul <> n:28 var
+R2764:2766 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2763:2763 Coq.Numbers.NatInt.NZMul <> m:29 var
+R2767:2767 Coq.Numbers.NatInt.NZMul <> p:30 var
+R2774:2777 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2783:2783 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2773:2773 Coq.Numbers.NatInt.NZMul <> m:29 var
+R2779:2781 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation :::x_'*'_x not
+R2778:2778 Coq.Numbers.NatInt.NZMul <> n:28 var
+R2782:2782 Coq.Numbers.NatInt.NZMul <> p:30 var
+R2819:2827 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2831:2838 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2844:2852 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2819:2827 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2819:2827 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2831:2838 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2831:2838 Coq.Numbers.NatInt.NZMul NZMulProp mul_comm thm
+R2844:2852 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2844:2852 Coq.Numbers.NatInt.NZMul NZMulProp mul_assoc thm
+R2865:2873 Coq.Numbers.NatInt.NZMul NZMulProp <> modtype
