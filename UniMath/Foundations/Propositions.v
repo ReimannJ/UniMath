@@ -6,7 +6,9 @@ Require Export UniMath.Foundations.PartD.
 
 (* RR1 *)
 #[bypass_check(universes)]
-Definition resize_prop@{k j} (A : Type@{k}) (_ : isaprop@{j} A) : Type@{Set} := A.
+  Definition resize_prop@{k} (A : Type@{k}) (_ : isaprop@{k} A) : Type@{Set} := A.
+Print isaprop.
+
 
 Global Strategy expand [ resize_prop ].
 
@@ -27,10 +29,10 @@ Global Set Polymorphic Inductive Cumulativity.
 Set Printing Universes.
 
 Print resize_prop.
-#[bypass_check(universes)]
+(*#[bypass_check(universes)]*)
+Print total2.
 Definition hProp@{k} : Type@{Set} := total2@{Set k}(λ X : Type@{k}, isaprop X).
-
-#[bypass_check(universes)]
+Print hProp.
   Definition make_hProp@{k +} (X : Type@{k}) (is : isaprop X) : hProp@{k}
   := (resize_prop X is ,, is).
 Print make_hProp.
@@ -38,33 +40,54 @@ Definition hProptoType := @pr1 _ _ : hProp -> Type.
 Coercion hProptoType : hProp >-> Sortclass.
 
 Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
-Print propproperty.
+
 
 Lemma isapropisaprop@{k +} (X : Type@{k}) : isaprop (isaprop X).
-Proof. apply impred_isaprop. intro t. apply impred_isaprop. intro s. apply isapropiscontr.
+Proof. apply impred_isaprop. intro t.
+       apply impred_isaprop. intro s.
+       apply isapropiscontr. Show Universes.
+Defined.
+
+Lemma resize_isaprop@{k j} (X : Type@{k}) (is : isaprop@{k} X) : isaprop@{j} X.
+Proof. Show Universes. exact is.
 Defined.
 
 Set Printing Universes.
 
 Lemma resizeToSet_isaprop@{k +} (X : Type@{k}) (is : isaprop X) : isaprop@{Set} X.
-Proof. apply invproofirrelevance.
-       unfold isProofIrrelevant. intros x y. exact ((proofirrelevance X is) x y). Show Universes.
+Proof. Show Universes. apply invproofirrelevance.
+       unfold isProofIrrelevant. exact (proofirrelevance X is). Show Universes.
 Defined.
+Print resizeToSet_isaprop.
 
-Lemma resizeToK_isaprop@{k +} (X : Type@{Set}) (is : isaprop@{Set} X) : isaprop@{k} X.
+Lemma resizeToK_isaprop@{k +} (X : Type@{Set}) (is : isaprop@{Set} X)
+  : isaprop@{k} X.
 Proof. apply invproofirrelevance.
-       unfold isProofIrrelevant. intros x y. exact ((proofirrelevance X is) x y). Show Universes.
+       unfold isProofIrrelevant.  exact (proofirrelevance X is). Show Universes.
 Defined.
+Print resizeToK_isaprop.
+
 
 Lemma resizeResized_isaprop@{k +} (X : Type@{k}) (is : isaprop X) : isaprop@{Set} (resize_prop X is).
 Proof. unfold resize_prop. exact (resizeToSet_isaprop X is). Show Universes.
 Defined.
+Print resizeResized_isaprop.
 
-Lemma invResize_isaprop@{k +} (X : Type@{k}) (is : isaprop X) : resizeToK_isaprop (resize_prop@{k k} X is) (resizeResized_isaprop X is) = is.
-Proof. unfold resize_prop. unfold resizeResized_isaprop. unfold resizeToK_isaprop. unfold resizeToSet_isaprop. Admitted.
 
+Lemma invResize_isaprop@{k +} (X : Type@{k}) (is : isaprop X) : resizeToK_isaprop (resize_prop@{k} X is) (resizeResized_isaprop X is) = is.
+Proof. apply proofirrelevance. Show Universes. apply isapropisaprop. Show Universes.
+Defined.
+
+(* not true
 Lemma isProofIrrelevant_hProp@{k +} : isProofIrrelevant hProp@{k}.
-Proof. intros X Y. Admitted.
+Proof. intros X Y. Admitted. *)
+
+#[bypass_check(universes)]
+Definition propproperty'@{j k +} (P : hProp@{k}) : isaprop@{j} (pr1 P).
+Proof. apply resizeToK_isaprop.
+  exact (resizeToSet_isaprop (pr1 P) (pr2 P)).
+Defined.
+
 
 Theorem equivhProp@{k +}: hProp@{k} ≃ hProp@{Set}.
 Proof. use tpair.
@@ -73,18 +96,15 @@ Proof. use tpair.
         + exact (resizeResized_isaprop X H').
        - cbn. use isweq_iso.
          + intro A. induction A as [X is]. use tpair.
-           * exact X.
+           * exact X. Show Universes.
            * exact (resizeToK_isaprop X is). Show Universes.
-            (*  cbn. intros. set (contr':= is x x'). cbn in contr'. unfold iscontr. use tpair.
-             exact (pr1 contr'). cbn. intro. destruct contr'. cbn. exact (pr2 t). *)
-         + cbn. intro X. induction X as [X H']. unfold resize_prop. unfold resizeResized_isaprop.
-           apply invproofirrelevance. exact isProofIrrelevant_hProp.
-           (* previous attempt:
-           unfold resize_prop. unfold resizeToK_isaprop. unfold resizeResized_isaprop.
-           unfold resizeToSet_isaprop. unfold proofirrelevance. unfold invproofirrelevance. Search paths.
-            proof incomplete *)
-         + cbn. intro Y. induction Y as [y H']. unfold resize_prop. unfold resizeResized_isaprop.
-           apply invproofirrelevance. exact isProofIrrelevant_hProp.
+         + cbn. intro Y. Show Universes.
+           unfold resize_prop. apply total2_paths_equiv. use tpair.
+           * cbn. apply idpath.
+           * cbn. unfold resizeResized_isaprop. apply proofirrelevance. apply isapropisaprop.
+         + intro Y. cbn. apply total2_paths_equiv. use tpair.
+           * cbn. apply idpath.
+           * cbn. unfold resizeResized_isaprop. apply proofirrelevance. apply isapropisaprop. Show Universes.
 Defined.
 Print equivhProp.
 
@@ -100,7 +120,10 @@ Definition make_tildehProp {P : hProp} (p : P) : tildehProp := tpair _ P p.
 Corollary subtypeInjectivity_prop@{k +} {A : UU} (B : A -> hProp@{k}) :
   ∏ (x y : total2 B), (x = y) ≃ (pr1 x = pr1 y).
 Proof.
-  intros. apply subtypeInjectivity. intro. Show Universes. apply propproperty. Show Universes.
+  intros. Show Universes. apply subtypeInjectivity. Show Universes. intro.
+  apply resizeToK_isaprop.
+  exact (resizeToSet_isaprop (pr1 (B x0)) (pr2 (B x0))).
+  Show Universes.
 Defined.
 
 
@@ -110,9 +133,14 @@ Proof.
   apply invmap. apply subtypeInjectivity_prop.
 Defined.
 
+(*Always have to replace apply propproperty by
+apply resizeToK_isaprop. exact (resizeToSet_isaprop (pr1 X) (pr2 X)).
+Else Coq complains about some universe u < Set. *)
+
 Corollary impred_prop {T : UU} (P : T -> hProp) : isaprop (∏ t : T, P t).
 Proof.
-  intros. apply impred; intro. apply propproperty.
+  intros. apply impred; intro. Show Universes. apply resizeToK_isaprop.
+  exact (resizeToSet_isaprop (pr1 (P t)) (pr2 (P t))).
 Defined.
 
 Corollary isaprop_total2 (X : hProp) (Y : X -> hProp) : isaprop (∑ x, Y x).
