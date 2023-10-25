@@ -106,7 +106,7 @@ distclean:: build/CoqMakefile.make
 
 WARNING_FLAGS := -notation-overridden
 OTHERFLAGS += $(MOREFLAGS)
-OTHERFLAGS += -noinit -indices-matter -type-in-type -w '\'"$(WARNING_FLAGS)"\''
+OTHERFLAGS += -noinit -indices-matter -w '\'"$(WARNING_FLAGS)"\''
 ifeq ($(VERBOSE),yes)
 OTHERFLAGS += -verbose
 endif

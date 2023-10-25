@@ -69,32 +69,33 @@ Require Export UniMath.Foundations.PartD.
 
 (* end of " Preamble ". *)
 
-(** Experimental: different definitions of hProp
+(** Experimental: different definitions of hProp *)
 Set Printing Universes.
 (* Original Definition with constraint i < j
 hProp@{i j} = ∑ X:Type@{i}, isaprop@{i} X : Type@{j}
- *)
+ *)(*
 
 Definition hProp := total2 (λ X : UU, isaprop X).
 Print hProp.
 
-(* Replacing j with i+1 - no constraint,
-   breaks propproperty
+(* Replacing j with i - no constraint,
+   breaks propproperty. ProofGeneral does not complain,
+   compliling in the console causes error.
 #[bypass_check(universes)] *)
-Definition hProp'@{i+1} (*: Type@{i+1} *)
-  := total2@{i i}(λ X : Type@{i}, isaprop@{i} X).
-Print hProp'.
+Definition hProp@{i j} : Type@{i+1} (* has Type@{i} assigned by Coq *)
+  := total2@{i j}(λ X : Type@{i}, isaprop@{i} X).
+Print hProp.
 Print total2.
 
 Variable X : Type@{i}.
 Variable is: isaprop X.
 Definition ex : Type@{Set} := isaprop X.
-Print ex.
-.
+Print ex. (*PG does not complain about this*)
+
 (* Milder replacement of j - has constraint i <= j,
    still breaks propproperty *)
 #[bypass_check(universes)]
-Definition hProp''@{i j} : Type@{i}
+Definition hProp''@{i j} : Type@{i+1}
   := total2@{i j}(λ X : Type@{i}, isaprop@{i} X).
 Print hProp''. *)
 
