@@ -69,24 +69,52 @@ Require Export UniMath.Foundations.PartD.
 
 (* end of " Preamble ". *)
 
+(** Experimental: different definitions of hProp
+Set Printing Universes.
+(* Original Definition with constraint i < j
+hProp@{i j} = ∑ X:Type@{i}, isaprop@{i} X : Type@{j}
+ *)
+
+Definition hProp := total2 (λ X : UU, isaprop X).
+Print hProp.
+
+(* Replacing j with i+1 - no constraint,
+   breaks propproperty
+#[bypass_check(universes)] *)
+Definition hProp'@{i+1} (*: Type@{i+1} *)
+  := total2@{i i}(λ X : Type@{i}, isaprop@{i} X).
+Print hProp'.
+Print total2.
+
+Variable X : Type@{i}.
+Variable is: isaprop X.
+Definition ex : Type@{Set} := isaprop X.
+Print ex.
+.
+(* Milder replacement of j - has constraint i <= j,
+   still breaks propproperty *)
+#[bypass_check(universes)]
+Definition hProp''@{i j} : Type@{i}
+  := total2@{i j}(λ X : Type@{i}, isaprop@{i} X).
+Print hProp''. *)
+
 
 (** ** To upstream files *)
 
 
-
 (** ** The type [hProp] of types of h-level 1 *)
-
 
 Definition hProp := total2 (λ X : UU, isaprop X).
 Definition make_hProp (X : UU) (is : isaprop X) : hProp
   := tpair (λ X : UU, isaprop X) X is.
 Definition hProptoType := @pr1 _ _ : hProp -> UU.
-Coercion hProptoType : hProp >-> UU.
+Coercion hProptoType : hProp >-> Sortclass.
 
 Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
+Print propproperty.
+
 
 (** ** The type [tildehProp] of pairs (P, p : P) where [P : hProp] *)
-
 Definition tildehProp := total2 (λ P : hProp, P).
 Definition make_tildehProp {P : hProp} (p : P) : tildehProp := tpair _ P p.
 

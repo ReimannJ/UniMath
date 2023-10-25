@@ -12,10 +12,18 @@ notations for constructions defined in Coq.Init library as well as the definitio
 Require Export UniMath.Foundations.Init.
 
 (** Universe structure *)
+Global Set Universe Polymorphism.
+Global Set Polymorphic Inductive Cumulativity.
+(*Global Unset Universe Minimization ToSet.*)
+Global Unset Cumulativity Weak Constraints.
+Global Set Private Polymorphic Universes.
+Global Unset Printing Universes.
+Global Unset Strict Universe Declaration.
 
-Definition UU := Type.
+Notation UU := Type (only parsing).
+Notation UU0 := Type@{Set} (only parsing).
 
-Identity Coercion fromUUtoType : UU >-> Sortclass.
+(* Identity Coercion fromUUtoType : UU >-> Sortclass. *)
 
 (** The empty type *)
 

@@ -10,6 +10,7 @@ The packages and files are listed here in logical order: each file depends only 
    - [PartD.v](Foundations/PartD.v)
    - [UnivalenceAxiom2.v](Foundations/UnivalenceAxiom2.v)
    - [Propositions.v](Foundations/Propositions.v)
+   - [ResizingAxiom.v](Foundations/ResizingAxiom.v)
    - [Sets.v](Foundations/Sets.v)
    - [NaturalNumbers.v](Foundations/NaturalNumbers.v)
    - [Tests.v](Foundations/Tests.v)

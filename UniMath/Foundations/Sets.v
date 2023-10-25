@@ -83,7 +83,7 @@ Require Export UniMath.Foundations.Propositions.
 Definition hSet : UU := total2 (λ X : UU, isaset X).
 Definition make_hSet (X : UU) (i : isaset X) := tpair isaset X i : hSet.
 Definition pr1hSet : hSet -> UU := @pr1 UU (λ X : UU, isaset X).
-Coercion pr1hSet: hSet >-> UU.
+Coercion pr1hSet: hSet >-> Sortclass.
 
 Definition eqset {X : hSet} (x x' : X) : hProp
   := make_hProp (x = x') (pr2 X x x').
