@@ -1,5 +1,8 @@
 Require Export UniMath.Foundations.Propositions.
 
+(* Axioms are currently in Propositions.v!
+
+
 Set Printing Universes.
 (* hProp@{i j} = ∑ (X : Type@{i}, is : isaprop X) : Type@{j} with constraint i < j*)
 Print hProp.
@@ -26,3 +29,5 @@ Print example1.
 
 Definition example2 := resizingEquivalence X is.
 Print example2.
+
+*)

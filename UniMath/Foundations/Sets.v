@@ -212,6 +212,8 @@ Defined.
 
 Definition ischoicebase (X : UU) : hProp := make_hProp _ (isapropischoicebase X).
 
+Set Printing Universes.
+
 Lemma ischoicebaseweqf {X Y : UU} (w : X ≃ Y) (is : ischoicebase X) :
   ischoicebase Y.
 Proof.
@@ -1432,7 +1434,10 @@ Qed.
 
 (**
 TODO find a proof without univalence for propositions (if possible)
-*)
+ *)
+Definition todo { A : UU} : A.
+Admitted.
+
 Lemma epiissurjectiontosets {A B : UU} (p : A -> B) (isB:isaset B)
       (epip : ∏ (C:hSet) (g1 g2:B->C), (∏ x : A, g1 (p x) = g2 (p x)) ->
                                (∏ y : B, g1 y = g2 y)) :   issurjective p.
@@ -1583,6 +1588,9 @@ be considered in the section about types of h-level 3.
 
 Definition setquot {X : UU} (R : hrel X) : UU
   := total2 (λ A : _, iseqclass R A).
+
+Print setquot.
+
 Definition make_setquot {X : UU} (R : hrel X) (A : hsubtype X)
            (is : iseqclass R A) : setquot R := tpair _ A is.
 Definition pr1setquot {X : UU} (R : hrel X) : setquot R -> (hsubtype X)
@@ -1698,13 +1706,17 @@ Defined.
   Now however such subsets need not to cover all of the type. In fact their set
   can be empty. Nevertheless setquotuniv will apply. *)
 
+Unset Printing Universes.
 
 Theorem setquotunivcomm {X : UU} (R : eqrel X) (Y : hSet) (f : X -> Y)
         (is : iscomprelfun R f) :
   ∏ x : X, setquotuniv R Y f is (setquotpr R x) = f x.
 Proof.
   intros. unfold setquotuniv. unfold setquotpr.
-  simpl. apply idpath.
+  simpl.
+  (* JR: here apply idpath alone fails *)
+  rewrite hinhunivcomm.
+  apply idpath.
 Defined.
 
 
@@ -1762,10 +1774,14 @@ Definition setquotfuncomm {X Y : UU} (RX : eqrel X) (RY : eqrel Y)
            (f : X -> Y) (is : iscomprelrelfun RX RY f) :
   ∏ x : X, setquotfun RX RY f is (setquotpr RX x) = setquotpr RY (f x).
 Proof.
-  intros. simpl. apply idpath.
+  intros. unfold setquotfun. unfold setquotuniv.
+  simpl.
+  (* JR: apply idpath alone fails*)
+  rewrite hinhunivcomm.
+  simpl. apply idpath.
 Defined.
 
-
+Unset Printing Universes.
 
 (** *** Universal property of [setquot] for predicates of one and several variables *)
 
@@ -1854,16 +1870,26 @@ Defined.
   i.e. usable for the evaluation purposes. *)
 
 (** *** The case when [setquotfun] is a surjection, inclusion or a weak equivalence *)
+(* JR: there seem to be some problems with coq recognising
+compositions, i.e. (g (f x)) = (g∘f)x causes issues... *)
+Print setquotfuncomm.
+Lemma setquotfuncomm_aux  {X Y : UU} (RX : eqrel X) (RY : eqrel Y) (f : X -> Y) (is1 : iscomprelrelfun RX RY f) : setquotfun RX RY f is1 ∘ setquotpr RX = setquotpr RY ∘ f.
+Proof.
+  unfold funcomp.
+  exact (funextfun _ _ (setquotfuncomm RX RY f is1)).
+Defined.
 
 Lemma issurjsetquotfun {X Y : UU} (RX : eqrel X) (RY : eqrel Y) (f : X -> Y)
       (is : issurjective f) (is1 : iscomprelrelfun RX RY f) :
   issurjective (setquotfun RX RY f is1).
 Proof.
-  intros. apply (issurjtwooutof3b (setquotpr RX)).
+  apply (issurjtwooutof3b (setquotpr RX)).
+  (* JR: the next line had to be added *)
+  rewrite setquotfuncomm_aux.
   apply (issurjcomp f (setquotpr RY) is (issurjsetquotpr RY)).
 Defined.
 
-
+Unset Printing Universes.
 Lemma isinclsetquotfun {X Y : UU} (RX : eqrel X) (RY : eqrel Y) (f : X -> Y)
       (is1 : iscomprelrelfun RX RY f)
       (is2 : ∏ x x' : X, RY (f x) (f x') -> RX x x') :
@@ -1875,15 +1901,19 @@ Proof.
   - assert (is : ∏ (x x' : setquot RX),
                  isaprop (paths (setquotfun RX RY f is1 x)
                                 (setquotfun RX RY f is1 x') -> x = x')).
-    {
-      intros.
+    { intros.
       apply impred. intro.
       apply isasetsetquot.
     }
-    apply (setquotuniv2prop RX (λ x x', make_hProp _ (is x x'))).
+    apply (setquotuniv2prop RX (λ x x', (make_hProp _ (is x x')))).
     simpl. intros x x'. intro e.
-    set (e' := invweq (weqpathsinsetquot RY (f x) (f x')) e).
-    apply (weqpathsinsetquot RX _ _ (is2 x x' e')).
+    (* JR: in the commented out line, e wasn't accepted anymore. It seems setquotfuncomm doesn't work automatically anymore *)
+    (* set (e' := invweq (weqpathsinsetquot RY (f x) (f x')) e).*)
+    refine (weqpathsinsetquot RX _ _ (is2 x x' _)).
+    refine (invweq (weqpathsinsetquot RY (f x) (f x')) _).
+    rewrite <- (setquotfuncomm RX RY f is1 x).
+    rewrite <- (setquotfuncomm RX RY f is1 x').
+    exact e.
 Defined.
 
 Definition setquotincl {X Y : UU} (RX : eqrel X) (RY : eqrel Y) (f : X -> Y)
@@ -1906,19 +1936,45 @@ Proof.
   rewrite (homotinvweqweq f (invmap f y)).
   rewrite (homotinvweqweq f (invmap f y')).
   apply (is2 _ _). set (gg := setquotfun RY RX (invmap f) is2').
+  (* inconsistency here *)
   assert (egf : ∏ a, paths (gg (ff a)) a).
   {
     apply (setquotunivprop
-             RX (λ a0, make_hProp _ (isasetsetquot RX (gg (ff a0)) a0))).
+             RX (λ a0,  (make_hProp _ (isasetsetquot RX (gg (ff a0)) a0)))).
     simpl. intro x. unfold ff. unfold gg.
-    apply (maponpaths (setquotpr RX) (homotinvweqweq f x)).
+    (*JR: this alone fails: *)
+    (*apply (maponpaths (setquotpr RX) (homotinvweqweq f x)).*)
+    (*JR: need to manually rewrite setquotfun - could
+     be a lemma?*)
+    assert (
+     (setquotfun RY RX (invmap f) is2'
+      (setquotfun RX RY f is1 (setquotpr RX x)) = setquotpr RX (invmap f (f x)))).
+    {
+      rewrite setquotfuncomm.
+      rewrite <- (setquotfuncomm RY RX _ is2' (f x)).
+      apply idpath.
+    }
+    rewrite X0.
+    exact (maponpaths (setquotpr RX) (homotinvweqweq f x)).
   }
-  assert (efg : ∏ a, paths (ff (gg a)) a).
+
+ assert (efg : ∏ a, paths (ff (gg a)) a).
   {
     apply (setquotunivprop
              RY (λ a0, make_hProp _ (isasetsetquot RY (ff (gg a0)) a0))).
     simpl. intro x. unfold ff. unfold gg.
-    apply (maponpaths (setquotpr RY) (homotweqinvweq f x)).
+    (* JR: same problem as above, this fails *)
+    (* apply (maponpaths (setquotpr RY) (homotweqinvweq f x)). *)
+    assert (
+     (setquotfun RX RY f is1
+      (setquotfun RY RX (invmap f) is2' (setquotpr RY x)) = setquotpr RY (f (invmap f  x)))).
+    {
+      rewrite setquotfuncomm.
+      rewrite <- (setquotfuncomm RX RY f is1 _).
+      apply idpath.
+    }
+    rewrite X0.
+    exact  (maponpaths (setquotpr RY) (homotweqinvweq f x)).
   }
   apply (isweq_iso _ _ egf efg).
 Defined.
@@ -1981,7 +2037,13 @@ Proof.
     intro xy. induction xy as [ x y ]. simpl.
     apply (invmaponpathsincl _ (isinclpr1setquot _)).
     simpl. apply funextsec. intro xy'.
-    induction xy' as [ x' y' ]. apply idpath.
+    induction xy' as [ x' y' ].
+    (* JR: apply idpath fails - presumably
+       pr1(setquotuniv(λ a b : X × Y, ...))
+       needs a lemma. Continue work from here
+     *)
+    unfold hreldirprod. unfold subtypesdirprod.
+    apply idpath.
   }
   assert (efg : ∏ a : _, paths (f (g a)) a).
   {

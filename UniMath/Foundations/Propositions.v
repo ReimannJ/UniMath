@@ -69,51 +69,20 @@ Require Export UniMath.Foundations.PartD.
 
 (* end of " Preamble ". *)
 
-(** Experimental: different definitions of hProp *)
 Set Printing Universes.
-(* Original Definition with constraint i < j
-hProp@{i j} = ∑ X:Type@{i}, isaprop@{i} X : Type@{j}
- *)(*
-
-Definition hProp := total2 (λ X : UU, isaprop X).
-Print hProp.
-
-(* Replacing j with i - no constraint,
-   breaks propproperty. ProofGeneral does not complain,
-   compliling in the console causes error.
-#[bypass_check(universes)] *)
-Definition hProp@{i j} : Type@{i+1} (* has Type@{i} assigned by Coq *)
-  := total2@{i j}(λ X : Type@{i}, isaprop@{i} X).
-Print hProp.
-Print total2.
-
-Variable X : Type@{i}.
-Variable is: isaprop X.
-Definition ex : Type@{Set} := isaprop X.
-Print ex. (*PG does not complain about this*)
-
-(* Milder replacement of j - has constraint i <= j,
-   still breaks propproperty *)
-#[bypass_check(universes)]
-Definition hProp''@{i j} : Type@{i+1}
-  := total2@{i j}(λ X : Type@{i}, isaprop@{i} X).
-Print hProp''. *)
-
 
 (** ** To upstream files *)
 
 
 (** ** The type [hProp] of types of h-level 1 *)
 
-Definition hProp := total2 (λ X : UU, isaprop X).
+Definition hProp : UU := total2 (λ X : UU, isaprop X).
 Definition make_hProp (X : UU) (is : isaprop X) : hProp
   := tpair (λ X : UU, isaprop X) X is.
 Definition hProptoType := @pr1 _ _ : hProp -> UU.
 Coercion hProptoType : hProp >-> Sortclass.
 
 Definition propproperty (P : hProp) := pr2 P : isaprop (pr1 P).
-Print propproperty.
-
 
 (** ** The type [tildehProp] of pairs (P, p : P) where [P : hProp] *)
 Definition tildehProp := total2 (λ P : hProp, P).
@@ -188,6 +157,31 @@ Definition isdecEq (X : UU) : hProp := make_hProp _ (isapropisdeceq X).
 
 *)
 
+(** resizing axiom - resizing X, not used  **)
+(*
+Definition resizingStatement@{i j} := forall (X : Type@{i}) (is: isaprop X), Type@{j}.
+Print resizingStatement.
+
+Axiom resizingAxiom : resizingStatement.
+
+Definition resizingEquivalenceStatement@{i j +} := forall (X : Type@{i}) (is: isaprop X), X ≃ resizingAxiom@{i j} X is.
+Print resizingEquivalenceStatement.
+
+Axiom resizingEquivalence : resizingEquivalenceStatement. *)
+
+(** resizing axiom - resizing X as hProp **)
+Definition resizingStatementhProp@{i j k l m n} := forall (X : hProp@{i j k}), hProp@{l m n}.
+Print resizingStatementhProp. (* lots of constraints,
+but I think we mainly care about i and l *)
+
+Axiom resizingAxiomhProp : resizingStatementhProp.
+
+Definition resizingEquivalenceStatementhProp:= forall (X : hProp),  X ≃ resizingAxiomhProp X.
+Print resizingEquivalenceStatementhProp.
+
+Axiom resizingEquivalencehProp : resizingEquivalenceStatementhProp.
+
+
 
 (** ** Intuitionistic logic on [hProp] *)
 
@@ -195,8 +189,8 @@ Definition isdecEq (X : UU) : hProp := make_hProp _ (isapropisdeceq X).
 (** *** The [hProp] version of the "inhabited" construction. *)
 
 
-
 Definition ishinh_UU (X : UU) : UU := ∏ P : hProp, ((X -> P) -> P).
+Print ishinh_UU.
 
 Lemma isapropishinh (X : UU) : isaprop (ishinh_UU X).
 Proof.
@@ -223,10 +217,24 @@ Definition hinhfun {X Y : UU} (f : X -> Y) : ∥ X ∥ -> ∥ Y ∥ :=
   placed in [hProp UU1]). The first place where RR1 is essentially required is
   in application of [hinhuniv] to a function [X -> ishinh Y] *)
 
-Definition hinhuniv {X : UU} {P : hProp} (f : X -> P) (wit : ∥ X ∥) : P
-  := wit P f.
+(*
+Definition hinhuniv_old {X : UU} {P : hProp} (f : X -> P) (wit :ishinh X ) : P
+  :=
+  wit P f. *)
 
-Corollary factor_through_squash {X Q : UU} : isaprop Q -> (X -> Q) -> ∥ X ∥ -> Q.
+Unset Printing Universes.
+
+(* as in merely_rec in coq-hott *)
+Definition hinhuniv {X : UU} {P : hProp} (f : X -> P) (wit :ishinh X) : P
+  := (invmap (resizingEquivalencehProp P)) (wit (resizingAxiomhProp P) ((pr1weq (resizingEquivalencehProp P)) ∘ f)).
+
+Lemma hinhunivcomm {X : UU} {P : hProp} (f : X -> P) (x : X) : hinhuniv f (hinhpr x) = f x.
+Proof. symmetry.
+  apply pathsweq1. apply idpath.
+Defined.
+
+Corollary factor_through_squash {X Q : UU} :
+  isaprop Q -> (X -> Q) -> ∥ X ∥ -> Q.
 Proof.
   intros i f h. exact (@hinhuniv X (Q,,i) f h).
 Defined.
@@ -248,6 +256,7 @@ Definition hinhfun2 {X Y Z : UU} (f : X -> Y -> Z)
   := hinhfun (λ xy: X × Y, f (pr1 xy) (pr2 xy)) (hinhand isx isy).
 
 Definition hinhunivcor1 (P : hProp) : ∥ P ∥ -> P := hinhuniv (idfun P).
+
 Notation hinhprinv := hinhunivcor1.
 
 
@@ -295,6 +304,7 @@ Proof.
 Defined.
 
 (** [ishinh] and decidability  *)
+
 
 Lemma decidable_ishinh {X} : decidable X → decidable(∥X∥).
 Proof.
